@@ -231,7 +231,7 @@ export default class Bastion {
    */
   #evaluateEnlargeOrder(facility, updates) {
     const { size } = facility.system;
-    const sizes = Object.entries(CONFIG.DND5E.facilities.sizes).sort((a, b) => a.value - b.value);
+    const sizes = Object.entries(CONFIG.DEGRINGO5E.facilities.sizes).sort((a, b) => a.value - b.value);
     const index = sizes.findIndex(([key]) => key === size);
     const [next] = sizes[index + 1];
     updates["system.size"] = next;
@@ -451,19 +451,19 @@ export default class Bastion {
     const context = {};
     const plurals = new Intl.PluralRules(game.i18n.lang);
     const key = undefended ? "Undefended" : deaths ? `Deaths.${plurals.select(deaths)}` : "NoDeaths";
-    context.description = game.i18n.format(`DND5E.Bastion.Attack.Result.${key}`, { deaths });
+    context.description = game.i18n.format(`DEGRINGO5E.Bastion.Attack.Result.${key}`, { deaths });
     context.roll = await roll.render();
     context.buttons = [];
     if ( !resolved && (deaths || undefended) ) {
       context.buttons.push({
-        label: game.i18n.localize("DND5E.Bastion.Attack.Automatic"),
+        label: game.i18n.localize("DEGRINGO5E.Bastion.Attack.Automatic"),
         icon: '<i class="fas fa-bolt"></i>',
         dataset: { action: "resolve" }
       });
     }
     if ( damaged ) {
       const facility = actor.items.get(damaged);
-      if ( facility ) context.damaged = game.i18n.format("DND5E.Bastion.Attack.Result.Damaged", {
+      if ( facility ) context.damaged = game.i18n.format("DEGRINGO5E.Bastion.Attack.Result.Damaged", {
         link: facility.toAnchor().outerHTML
       });
     }
@@ -494,21 +494,21 @@ export default class Bastion {
       return {
         name: facility.name,
         contentLink: facility.toAnchor().outerHTML,
-        order: CONFIG.DND5E.facilities.orders[order]?.label
+        order: CONFIG.DEGRINGO5E.facilities.orders[order]?.label
       };
     });
     context.supplements = [];
     if ( results.gold.value ) {
       context.supplements.push(`
-        <strong>${game.i18n.localize("DND5E.CurrencyGP")}</strong>
+        <strong>${game.i18n.localize("DEGRINGO5E.CurrencyGP")}</strong>
         ${formatNumber(results.gold.value)}
-        (${game.i18n.localize(`DND5E.Bastion.Gold.${results.gold.claimed ? "Claimed" : "Unclaimed"}`)})
+        (${game.i18n.localize(`DEGRINGO5E.Bastion.Gold.${results.gold.claimed ? "Claimed" : "Unclaimed"}`)})
       `);
     }
     context.buttons = [];
     if ( results.gold.value && !results.gold.claimed ) {
       context.buttons.push({
-        label: game.i18n.localize("DND5E.Bastion.Gold.Claim"),
+        label: game.i18n.localize("DEGRINGO5E.Bastion.Gold.Claim"),
         icon: '<i class="fas fa-coins"></i>',
         dataset: { action: "claim" }
       });
@@ -527,7 +527,7 @@ export default class Bastion {
   async confirmAdvance() {
     if ( !game.user.isGM ) return;
     const proceed = await foundry.applications.api.DialogV2.confirm({
-      content: game.i18n.localize("DND5E.Bastion.Confirm"),
+      content: game.i18n.localize("DEGRINGO5E.Bastion.Confirm"),
       rejectClose: false
     });
     if ( proceed ) return this.advanceAllBastions();
@@ -551,7 +551,7 @@ export default class Bastion {
       document.querySelector("#controls, #scene-controls")?.insertAdjacentHTML("afterend", `
         <button type="button" id="bastion-turn" data-action="bastionTurn" class="dnd5e2 faded-ui">
           <i class="fas fa-chess-rook"></i>
-          <span>${game.i18n.localize("DND5E.Bastion.Action.BastionTurn")}</span>
+          <span>${game.i18n.localize("DEGRINGO5E.Bastion.Action.BastionTurn")}</span>
         </button>
       `);
       document.getElementById("bastion-turn")?.addEventListener("click", this.confirmAdvance.bind(this));
@@ -578,7 +578,7 @@ export default class Bastion {
     if ( !actor && (ui.activeWindow instanceof ActorSheet) ) actor = ui.activeWindow.actor;
 
     if ( !actor ) {
-      ui.notifications.warn("DND5E.Bastion.Attack.NoActorWarning", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.Bastion.Attack.NoActorWarning", { localize: true });
       return;
     }
 
@@ -604,7 +604,7 @@ class BastionAttackDialog extends Dialog5e {
   static DEFAULT_OPTIONS = {
     classes: ["bastion-attack"],
     window: {
-      title: "DND5E.Bastion.Attack.Title",
+      title: "DEGRINGO5E.Bastion.Attack.Title",
       icon: "fas fa-chess-rook"
     },
     form: {
@@ -615,7 +615,7 @@ class BastionAttackDialog extends Dialog5e {
     },
     buttons: [{
       action: "resolve",
-      label: "DND5E.Bastion.Attack.Resolve",
+      label: "DEGRINGO5E.Bastion.Attack.Resolve",
       icon: "fas fa-dice",
       default: true
     }]
@@ -662,7 +662,7 @@ class BastionAttackDialog extends Dialog5e {
   async _prepareContentContext(context, options) {
     context = await super._prepareContentContext(context, options);
     context.formula = {
-      field: new StringField({ initial: "", label: "DND5E.Formula" }),
+      field: new StringField({ initial: "", label: "DEGRINGO5E.Formula" }),
       name: "formula"
     };
     return context;

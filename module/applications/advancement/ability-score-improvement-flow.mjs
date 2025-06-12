@@ -51,7 +51,7 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
   /** @inheritDoc */
   async getData() {
     const points = {
-      assigned: Object.keys(CONFIG.DND5E.abilities).reduce((assigned, key) => {
+      assigned: Object.keys(CONFIG.DEGRINGO5E.abilities).reduce((assigned, key) => {
         if ( !this.advancement.canImprove(key) || this.advancement.configuration.locked.has(key) ) return assigned;
         return assigned + (this.assignments[key] ?? 0);
       }, 0),
@@ -63,7 +63,7 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
     const formatter = new Intl.NumberFormat(game.i18n.lang, { signDisplay: "always" });
 
     const lockImprovement = this.feat && !this.feat.isASI;
-    const abilities = Object.entries(CONFIG.DND5E.abilities).reduce((obj, [key, data]) => {
+    const abilities = Object.entries(CONFIG.DEGRINGO5E.abilities).reduce((obj, [key, data]) => {
       if ( !this.advancement.canImprove(key) ) return obj;
       const ability = this.advancement.actor.system.abilities[key];
       const assignment = this.assignments[key] ?? 0;
@@ -93,10 +93,10 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
       abilities, lockImprovement, points,
       feat: this.feat,
       pointCap: game.i18n.format(
-        `DND5E.ADVANCEMENT.AbilityScoreImprovement.CapDisplay.${pluralRules.select(points.cap)}`, { points: points.cap }
+        `DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.CapDisplay.${pluralRules.select(points.cap)}`, { points: points.cap }
       ),
       pointsRemaining: game.i18n.format(
-        `DND5E.ADVANCEMENT.AbilityScoreImprovement.PointsRemaining.${pluralRules.select(points.available)}`,
+        `DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.PointsRemaining.${pluralRules.select(points.available)}`,
         {points: points.available}
       ),
       showASIFeat: modernRules && this.advancement.allowFeat,
@@ -239,13 +239,13 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
     const item = await Item.implementation.fromDropData(data);
 
     if ( (item.type !== "feat") || (item.system.type.value !== "feat") ) {
-      ui.notifications.error("DND5E.ADVANCEMENT.AbilityScoreImprovement.Warning.Type", {localize: true});
+      ui.notifications.error("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Warning.Type", {localize: true});
       return null;
     }
 
     // If a feat has a level pre-requisite, make sure it is less than or equal to current character level
     if ( (item.system.prerequisites?.level ?? -Infinity) > this.advancement.actor.system.details.level ) {
-      ui.notifications.error(game.i18n.format("DND5E.ADVANCEMENT.AbilityScoreImprovement.Warning.Level", {
+      ui.notifications.error(game.i18n.format("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Warning.Level", {
         level: item.system.prerequisites.level
       }));
       return null;

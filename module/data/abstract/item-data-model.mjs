@@ -135,7 +135,7 @@ export default class ItemDataModel extends SystemDataModel {
     const subtitle = [this.type?.label ?? game.i18n.localize(CONFIG.Item.typeLabels[this.parent.type])];
     const context = {
       name, type, img, price, weight, uses, school, materials,
-      config: CONFIG.DND5E,
+      config: CONFIG.DEGRINGO5E,
       controlHints: game.settings.get("dnd5e", "controlHints"),
       labels: foundry.utils.deepClone((activity ?? this.parent).labels),
       tags: this.parent.labels?.components?.tags,
@@ -183,7 +183,7 @@ export default class ItemDataModel extends SystemDataModel {
 
     // Mundane Items
     if ( !this.properties.has("mgc") || !rarity ) {
-      const { mundane } = CONFIG.DND5E.crafting;
+      const { mundane } = CONFIG.DEGRINGO5E.crafting;
       const valueInGP = price.valueInGP ?? 0;
       return { days: Math.ceil(valueInGP * mundane.days), gold: Math.floor(valueInGP * mundane.gold) };
     }
@@ -198,7 +198,7 @@ export default class ItemDataModel extends SystemDataModel {
       }
     }
 
-    const { magic } = CONFIG.DND5E.crafting;
+    const { magic } = CONFIG.DEGRINGO5E.crafting;
     if ( !(rarity in magic) ) return { days, gold };
     const costs = magic[rarity];
     return { days: days + costs.days, gold: gold + costs.gold };

@@ -9,18 +9,18 @@ function _generateLinks() {
   links.innerHTML = `
     <li>
       <a href="https://github.com/foundryvtt/dnd5e/releases/latest" target="_blank">
-        ${game.i18n.localize("DND5E.Notes")}
+        ${game.i18n.localize("DEGRINGO5E.Notes")}
       </a>
     </li>
     <li>
-      <a href="https://github.com/foundryvtt/dnd5e/issues" target="_blank">${game.i18n.localize("DND5E.Issues")}</a>
+      <a href="https://github.com/foundryvtt/dnd5e/issues" target="_blank">${game.i18n.localize("DEGRINGO5E.Issues")}</a>
     </li>
     <li>
-      <a href="https://github.com/foundryvtt/dnd5e/wiki" target="_blank">${game.i18n.localize("DND5E.Wiki")}</a>
+      <a href="https://github.com/foundryvtt/dnd5e/wiki" target="_blank">${game.i18n.localize("DEGRINGO5E.Wiki")}</a>
     </li>
     <li>
       <a href="https://discord.com/channels/170995199584108546/670336046164213761" target="_blank">
-        ${game.i18n.localize("DND5E.Discord")}
+        ${game.i18n.localize("DEGRINGO5E.Discord")}
       </a>
     </li>
   `;

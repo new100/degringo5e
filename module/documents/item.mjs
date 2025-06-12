@@ -64,7 +64,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     }, {});
     const choices = makeChoices(generalTypes);
     choices.physical = {
-      label: game.i18n.localize("DND5E.ITEM.Category.Physical"),
+      label: game.i18n.localize("DEGRINGO5E.ITEM.Category.Physical"),
       children: makeChoices(physicalTypes, chosen.has("physical"))
     };
     return new SelectChoices(choices);
@@ -372,7 +372,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     // TODO: Re-implement on activity
     const { level, preparation, consume } = this.system;
     const isLeveled = (this.type === "spell") && (level > 0);
-    if ( isLeveled && CONFIG.DND5E.spellPreparationModes[preparation.mode]?.upcast ) return "slot";
+    if ( isLeveled && CONFIG.DEGRINGO5E.spellPreparationModes[preparation.mode]?.upcast ) return "slot";
     else if ( isLeveled && this.hasResource && consume.scale ) return "resource";
     return null;
   }
@@ -383,7 +383,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
    * Spellcasting details for a class or subclass.
    *
    * @typedef {object} SpellcastingDescription
-   * @property {string} type              Spellcasting type as defined in ``CONFIG.DND5E.spellcastingTypes`.
+   * @property {string} type              Spellcasting type as defined in ``CONFIG.DEGRINGO5E.spellcastingTypes`.
    * @property {string|null} progression  Progression within the specified spellcasting type if supported.
    * @property {string} ability           Ability used when casting spells from this class or subclass.
    * @property {number|null} levels       Number of levels of this class or subclass's class if embedded.
@@ -520,8 +520,8 @@ export default class Item5e extends SystemDocumentMixin(Item) {
         if ( (prop === "concentration") && !this.requiresConcentration ) return acc;
         acc.push({
           abbr: prop,
-          label: CONFIG.DND5E.itemProperties[prop]?.label,
-          icon: CONFIG.DND5E.itemProperties[prop]?.icon
+          label: CONFIG.DEGRINGO5E.itemProperties[prop]?.label,
+          icon: CONFIG.DEGRINGO5E.itemProperties[prop]?.icon
         });
         return acc;
       }, []);
@@ -542,7 +542,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     this.advancement = {
       byId: {},
       byLevel: Object.fromEntries(
-        Array.fromRange(CONFIG.DND5E.maxLevel + 1).slice(minAdvancementLevel).map(l => [l, []])
+        Array.fromRange(CONFIG.DEGRINGO5E.maxLevel + 1).slice(minAdvancementLevel).map(l => [l, []])
       ),
       byType: {},
       needingConfiguration: []
@@ -711,7 +711,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
   async displayCard(message={}) {
     const context = {
       actor: this.actor,
-      config: CONFIG.DND5E,
+      config: CONFIG.DEGRINGO5E,
       tokenId: this.actor.token?.uuid || null,
       item: this,
       data: await this.system.getCardData(),
@@ -888,8 +888,8 @@ export default class Item5e extends SystemDocumentMixin(Item) {
   async createActivity(type, data={}, { renderSheet=true }={}) {
     if ( !this.system.activities ) return;
 
-    const config = CONFIG.DND5E.activityTypes[type];
-    if ( !config ) throw new Error(`${type} not found in CONFIG.DND5E.activityTypes`);
+    const config = CONFIG.DEGRINGO5E.activityTypes[type];
+    if ( !config ) throw new Error(`${type} not found in CONFIG.DEGRINGO5E.activityTypes`);
     const cls = config.documentClass;
 
     const createData = foundry.utils.deepClone(data);
@@ -944,8 +944,8 @@ export default class Item5e extends SystemDocumentMixin(Item) {
   createAdvancement(type, data={}, { showConfig=true, source=false }={}) {
     if ( !this.system.advancement ) return this;
 
-    const config = CONFIG.DND5E.advancementTypes[type];
-    if ( !config ) throw new Error(`${type} not found in CONFIG.DND5E.advancementTypes`);
+    const config = CONFIG.DEGRINGO5E.advancementTypes[type];
+    if ( !config ) throw new Error(`${type} not found in CONFIG.DEGRINGO5E.advancementTypes`);
     const cls = config.documentClass;
 
     if ( !config.validItemTypes.has(this.type) || !cls.availableForItem(this) ) {
@@ -1124,12 +1124,12 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     const count = await this.system.contentsCount;
     if ( count ) {
       return Dialog.confirm({
-        title: `${game.i18n.format("DOCUMENT.Delete", {type: game.i18n.localize("DND5E.Container")})}: ${this.name}`,
+        title: `${game.i18n.format("DOCUMENT.Delete", {type: game.i18n.localize("DEGRINGO5E.Container")})}: ${this.name}`,
         content: `<h4>${game.i18n.localize("AreYouSure")}</h4>
-          <p>${game.i18n.format("DND5E.ContainerDeleteMessage", {count})}</p>
+          <p>${game.i18n.format("DEGRINGO5E.ContainerDeleteMessage", {count})}</p>
           <label>
             <input type="checkbox" name="deleteContents">
-            ${game.i18n.localize("DND5E.ContainerDeleteContents")}
+            ${game.i18n.localize("DEGRINGO5E.ContainerDeleteContents")}
           </label>`,
         yes: html => {
           const deleteContents = html.querySelector('[name="deleteContents"]').checked;
@@ -1153,7 +1153,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
    */
   static addDirectoryContextOptions(app, entryOptions) {
     entryOptions.push({
-      name: "DND5E.Scroll.CreateScroll",
+      name: "DEGRINGO5E.Scroll.CreateScroll",
       icon: '<i class="fa-solid fa-scroll"></i>',
       callback: async li => {
         let spell = game.items.get(li.dataset.documentId ?? li.dataset.entryId);
@@ -1201,7 +1201,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     if ( container ) {
       depth = 1 + (await container.system.allContainers()).length;
       if ( depth > PhysicalItemTemplate.MAX_DEPTH ) {
-        ui.notifications.warn(game.i18n.format("DND5E.ContainerMaxDepth", { depth: PhysicalItemTemplate.MAX_DEPTH }));
+        ui.notifications.warn(game.i18n.format("DEGRINGO5E.ContainerMaxDepth", { depth: PhysicalItemTemplate.MAX_DEPTH }));
         return;
       }
     }
@@ -1305,9 +1305,9 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     // Get scroll data
     let scrollUuid;
-    const id = CONFIG.DND5E.spellScrollIds[level];
+    const id = CONFIG.DEGRINGO5E.spellScrollIds[level];
     if ( foundry.data.validators.isValidId(id) ) {
-      scrollUuid = game.packs.get(CONFIG.DND5E.sourcePacks.ITEMS).index.get(id).uuid;
+      scrollUuid = game.packs.get(CONFIG.DEGRINGO5E.sourcePacks.ITEMS).index.get(id).uuid;
     } else {
       scrollUuid = id;
     }
@@ -1318,7 +1318,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     const desc = this._createScrollDescription(scrollItem, itemData, null, config);
 
     for ( const level of Array.fromRange(itemData.system.level + 1).reverse() ) {
-      const values = CONFIG.DND5E.spellScrollValues[level];
+      const values = CONFIG.DEGRINGO5E.spellScrollValues[level];
       if ( values ) {
         config.values.bonus ??= values.bonus;
         config.values.dc ??= values.dc;
@@ -1345,7 +1345,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     // Create the spell scroll data
     const spellScrollData = foundry.utils.mergeObject(scrollData, {
-      name: `${game.i18n.localize("DND5E.SpellScroll")}: ${itemData.name}`,
+      name: `${game.i18n.localize("DEGRINGO5E.SpellScroll")}: ${itemData.name}`,
       effects: itemData.effects ?? [],
       flags,
       system: {
@@ -1412,9 +1412,9 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     // Get scroll data
     let scrollUuid;
-    const id = CONFIG.DND5E.spellScrollIds[spell.system.level];
+    const id = CONFIG.DEGRINGO5E.spellScrollIds[spell.system.level];
     if ( foundry.data.validators.isValidId(id) ) {
-      scrollUuid = game.packs.get(CONFIG.DND5E.sourcePacks.ITEMS).index.get(id).uuid;
+      scrollUuid = game.packs.get(CONFIG.DEGRINGO5E.sourcePacks.ITEMS).index.get(id).uuid;
     } else {
       scrollUuid = id;
     }
@@ -1422,7 +1422,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     const scrollData = game.items.fromCompendium(scrollItem);
 
     for ( const level of Array.fromRange(spell.system.level + 1).reverse() ) {
-      const values = CONFIG.DND5E.spellScrollValues[level];
+      const values = CONFIG.DEGRINGO5E.spellScrollValues[level];
       if ( values ) {
         config.values.bonus ??= values.bonus;
         config.values.dc ??= values.dc;
@@ -1449,7 +1449,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     // Create the spell scroll data
     const spellScrollData = foundry.utils.mergeObject(scrollData, {
-      name: `${game.i18n.localize("DND5E.SpellScroll")}: ${spell.name}`,
+      name: `${game.i18n.localize("DEGRINGO5E.SpellScroll")}: ${spell.name}`,
       system: {
         activities: { ...(scrollData.system.activities ?? {}), [activity._id]: activity },
         description: {
@@ -1496,18 +1496,18 @@ export default class Item5e extends SystemDocumentMixin(Item) {
         const scrollDetails = scrollDescription.slice(scrollIntroEnd + pdel.length);
         return [
           scrollIntro,
-          `<h3>${spell.name} (${game.i18n.format("DND5E.LevelNumber", { level })})</h3>`,
-          isConc ? `<p><em>${game.i18n.localize("DND5E.Scroll.RequiresConcentration")}</em></p>` : null,
+          `<h3>${spell.name} (${game.i18n.format("DEGRINGO5E.LevelNumber", { level })})</h3>`,
+          isConc ? `<p><em>${game.i18n.localize("DEGRINGO5E.Scroll.RequiresConcentration")}</em></p>` : null,
           spellDescription,
-          `<h3>${game.i18n.localize("DND5E.Scroll.Details")}</h3>`,
+          `<h3>${game.i18n.localize("DEGRINGO5E.Scroll.Details")}</h3>`,
           scrollDetails
         ].filterJoin("");
       case "reference":
         return [
           "<p><em>",
-          CONFIG.DND5E.spellLevels[level] ?? level,
+          CONFIG.DEGRINGO5E.spellLevels[level] ?? level,
           " &Reference[Spell Scroll]",
-          isConc ? `, ${game.i18n.localize("DND5E.Scroll.RequiresConcentration")}` : null,
+          isConc ? `, ${game.i18n.localize("DEGRINGO5E.Scroll.RequiresConcentration")}` : null,
           "</em></p>",
           spellDescription
         ].filterJoin("");
@@ -1589,7 +1589,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
   static getDefaultArtwork(itemData={}) {
     const { type } = itemData;
     const { img } = super.getDefaultArtwork(itemData);
-    return { img: CONFIG.DND5E.defaultArtwork.Item[type] ?? img };
+    return { img: CONFIG.DEGRINGO5E.defaultArtwork.Item[type] ?? img };
   }
 
   /* -------------------------------------------- */

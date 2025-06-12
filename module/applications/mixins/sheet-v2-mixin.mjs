@@ -94,8 +94,8 @@ export default function DocumentSheetV2Mixin(Base) {
         const toggle = document.createElement("slide-toggle");
         toggle.checked = this._mode === this.constructor.MODES.EDIT;
         toggle.classList.add("mode-slider");
-        toggle.dataset.tooltip = "DND5E.SheetModeEdit";
-        toggle.setAttribute("aria-label", game.i18n.localize("DND5E.SheetModeEdit"));
+        toggle.dataset.tooltip = "DEGRINGO5E.SheetModeEdit";
+        toggle.setAttribute("aria-label", game.i18n.localize("DEGRINGO5E.SheetModeEdit"));
         toggle.addEventListener("change", this._onChangeSheetMode.bind(this));
         toggle.addEventListener("dblclick", event => event.stopPropagation());
         header.insertAdjacentElement("afterbegin", toggle);
@@ -125,8 +125,8 @@ export default function DocumentSheetV2Mixin(Base) {
       elements.classList.add("header-elements");
       elements.innerHTML = `
         <div class="source-book">
-          <a class="config-button" data-action="source" data-tooltip="DND5E.SOURCE.Action.Configure"
-             aria-label="${game.i18n.localize("DND5E.SOURCE.Action.Configure")}">
+          <a class="config-button" data-action="source" data-tooltip="DEGRINGO5E.SOURCE.Action.Configure"
+             aria-label="${game.i18n.localize("DEGRINGO5E.SOURCE.Action.Configure")}">
             <i class="fas fa-cog"></i>
           </a>
           <span></span>
@@ -149,7 +149,7 @@ export default function DocumentSheetV2Mixin(Base) {
       const editable = this.isEditable && (this._mode === this.constructor.MODES.EDIT);
       elements.querySelector(".config-button")?.toggleAttribute("hidden", !editable);
       elements.querySelector(".source-book > span").innerText = editable
-        ? (source.label || game.i18n.localize("DND5E.SOURCE.FIELDS.source.label"))
+        ? (source.label || game.i18n.localize("DEGRINGO5E.SOURCE.FIELDS.source.label"))
         : source.label;
     }
 
@@ -228,7 +228,7 @@ export default function DocumentSheetV2Mixin(Base) {
     async _onChangeSheetMode(event) {
       const { MODES } = this.constructor;
       const toggle = event.currentTarget;
-      const label = game.i18n.localize(`DND5E.SheetMode${toggle.checked ? "Play" : "Edit"}`);
+      const label = game.i18n.localize(`DEGRINGO5E.SheetMode${toggle.checked ? "Play" : "Edit"}`);
       toggle.dataset.tooltip = label;
       toggle.setAttribute("aria-label", label);
       this._mode = toggle.checked ? MODES.EDIT : MODES.PLAY;

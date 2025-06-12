@@ -13,7 +13,7 @@ import UsesField from "../../shared/uses-field.mjs";
 export default class ActivitiesTemplate extends SystemDataModel {
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.USES"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.USES"];
 
   /* -------------------------------------------- */
 
@@ -195,7 +195,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
 
     // If period is not blank, set an appropriate recovery type
     else if ( source.uses?.per ) {
-      if ( CONFIG.DND5E.limitedUsePeriods[source.uses.per]?.formula && source.uses.recovery ) {
+      if ( CONFIG.DEGRINGO5E.limitedUsePeriods[source.uses.per]?.formula && source.uses.recovery ) {
         source.uses.recovery = [{ period: source.uses.per, type: "formula", formula: source.uses.recovery }];
       }
       else source.uses.recovery = [{ period: source.uses.per, type: "recoverAll" }];
@@ -272,17 +272,17 @@ export default class ActivitiesTemplate extends SystemDataModel {
     if ( (type === "utility") && source.system.damage?.parts?.length ) type = "damage";
     if ( source.type === "tool" ) type = "check";
 
-    const cls = CONFIG.DND5E.activityTypes[type].documentClass;
+    const cls = CONFIG.DEGRINGO5E.activityTypes[type].documentClass;
     cls.createInitialActivity(source);
 
     if ( (type !== "save") && source.system.save?.ability ) {
-      CONFIG.DND5E.activityTypes.save.documentClass.createInitialActivity(source, { offset: 1 });
+      CONFIG.DEGRINGO5E.activityTypes.save.documentClass.createInitialActivity(source, { offset: 1 });
     }
     if ( (source.type !== "weapon") && source.system.damage?.versatile ) {
-      CONFIG.DND5E.activityTypes.damage.documentClass.createInitialActivity(source, { offset: 2, versatile: true });
+      CONFIG.DEGRINGO5E.activityTypes.damage.documentClass.createInitialActivity(source, { offset: 2, versatile: true });
     }
     if ( (type !== "utility") && source.system.formula ) {
-      CONFIG.DND5E.activityTypes.utility.documentClass.createInitialActivity(source, { offset: 3 });
+      CONFIG.DEGRINGO5E.activityTypes.utility.documentClass.createInitialActivity(source, { offset: 3 });
     }
   }
 

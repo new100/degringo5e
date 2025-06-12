@@ -1,5 +1,5 @@
 <fieldset>
-    <legend>{{ localize "DND5E.ItemFacilityDetails" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.ItemFacilityDetails" }}</legend>
 
     {{!-- Type --}}
     {{ formField fields.type.fields.value value=source.type.value choices=CONFIG.facilities.types labelAttr="label"
@@ -19,11 +19,11 @@
     {{#if (eq source.type.value "special")}}
     {{!-- Properties --}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.FACILITY.Properties" }}</label>
+        <label>{{ localize "DEGRINGO5E.FACILITY.Properties" }}</label>
         <div class="form-fields">
 
             {{!-- Level --}}
-            {{ formField fields.level value=source.level label="DND5E.Level" localize=true classes="label-top" }}
+            {{ formField fields.level value=source.level label="DEGRINGO5E.Level" localize=true classes="label-top" }}
 
             {{!-- Order --}}
             {{ formField fields.order value=source.order classes="label-top" options=orders.available blank="" }}
@@ -32,7 +32,7 @@
 
     {{!-- Occupants --}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.FACILITY.Occupants" }}</label>
+        <label>{{ localize "DEGRINGO5E.FACILITY.Occupants" }}</label>
         <div class="form-fields">
 
             {{!-- Hirelings --}}
@@ -62,14 +62,14 @@
 </fieldset>
 
 <fieldset>
-    <legend>{{ localize "DND5E.FACILITY.Orders.Label" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.FACILITY.Orders.Label" }}</legend>
 
     {{!-- Executing --}}
     {{ formField fields.progress.fields.order value=source.progress.order options=orders.executable blank="" }}
 
     {{!-- Progress --}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.FACILITY.Progress" }}</label>
+        <label>{{ localize "DEGRINGO5E.FACILITY.Progress" }}</label>
         <div class="form-fields">
 
             {{!-- Current --}}
@@ -83,9 +83,9 @@
 
 {{#if canCraft}}
 <fieldset {{#if isHarvesting}}class="harvesting"{{/if}}>
-    <legend>{{ localize (concat "DND5E.FACILITY.Orders." source.order ".present") }}</legend>
+    <legend>{{ localize (concat "DEGRINGO5E.FACILITY.Orders." source.order ".present") }}</legend>
     <div class="form-group">
-        <p class="hint">{{ localize "DND5E.FACILITY.Craft.Hint" }}</p>
+        <p class="hint">{{ localize "DEGRINGO5E.FACILITY.Craft.Hint" }}</p>
     </div>
     <ul class="separated-list single-item facility-craft">
         <li>
@@ -95,7 +95,7 @@
                 {{{ craft.contentLink }}}
                 <div class="list-controls flexrow">
                     <button type="button" class="unbutton control-button" data-action="deleteCraft"
-                            data-tooltip aria-label="{{ localize "DND5E.FACILITY.Action.RemoveCraft" }}">
+                            data-tooltip aria-label="{{ localize "DEGRINGO5E.FACILITY.Action.RemoveCraft" }}">
                         <i class="fas fa-trash"></i>
                     </button>
                 </div>
@@ -116,7 +116,7 @@
 
 {{#if (and (eq source.type.value "special") (eq source.order "trade"))}}
 <fieldset>
-    <legend>{{ localize "DND5E.FACILITY.Orders.trade.present" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.FACILITY.Orders.trade.present" }}</legend>
 
     {{!-- Stocked --}}
     {{ formField fields.trade.fields.stock.fields.stocked value=source.trade.stock.stocked
@@ -124,7 +124,7 @@
 
     {{!-- Goods --}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.FACILITY.Goods" }}</label>
+        <label>{{ localize "DEGRINGO5E.FACILITY.Goods" }}</label>
         <div class="form-fields">
 
             {{!-- Value --}}
@@ -142,7 +142,7 @@
 
     {{!-- Profit Factor --}}
     <div class="form-group">
-        <label>{{ localize "DND5E.FACILITY.FIELDS.trade.profit.label" }}</label>
+        <label>{{ localize "DEGRINGO5E.FACILITY.FIELDS.trade.profit.label" }}</label>
         <div class="form-fields">
             {{ formInput fields.trade.fields.profit value=source.trade.profit placeholder="—" }}
             <span class="sep unit">&percnt;</span>

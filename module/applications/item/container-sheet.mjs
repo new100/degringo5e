@@ -32,7 +32,7 @@ export default class ContainerSheet extends ItemSheet5e {
 
   /** @override */
   static TABS = [
-    { tab: "contents", label: "DND5E.ITEM.SECTIONS.Contents" },
+    { tab: "contents", label: "DEGRINGO5E.ITEM.SECTIONS.Contents" },
     ...super.TABS
   ];
 
@@ -204,7 +204,7 @@ export default class ContainerSheet extends ItemSheet5e {
     items = items.filter(i => i && !containers.has(i.system.container));
 
     // Display recursive warning, but continue with any remaining items
-    if ( recursiveWarning ) ui.notifications.warn("DND5E.ContainerRecursiveError", { localize: true });
+    if ( recursiveWarning ) ui.notifications.warn("DEGRINGO5E.ContainerRecursiveError", { localize: true });
     if ( !items.length ) return [];
 
     // Create any remaining items
@@ -238,7 +238,7 @@ export default class ContainerSheet extends ItemSheet5e {
     // Prevent dropping containers within themselves
     const parentContainers = await this.item.system.allContainers();
     if ( (this.item.uuid === item.uuid) || parentContainers.includes(item) ) {
-      ui.notifications.error("DND5E.ContainerRecursiveError", { localize: true });
+      ui.notifications.error("DEGRINGO5E.ContainerRecursiveError", { localize: true });
       return;
     }
 

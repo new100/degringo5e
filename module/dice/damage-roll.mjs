@@ -216,7 +216,7 @@ export default class DamageRoll extends BasicRoll {
           if ( critical.powerfulCritical ) {
             const bonus = Roll.create(term.formula).evaluateSync({ maximize: true }).total;
             if ( bonus > 0 ) {
-              const flavor = term.flavor?.toLowerCase().trim() ?? game.i18n.localize("DND5E.PowerfulCritical");
+              const flavor = term.flavor?.toLowerCase().trim() ?? game.i18n.localize("DEGRINGO5E.PowerfulCritical");
               flatBonus.set(flavor, (flatBonus.get(flavor) ?? 0) + bonus);
             }
             cm = Math.max(1, cm-1);

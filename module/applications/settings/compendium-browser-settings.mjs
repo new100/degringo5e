@@ -59,7 +59,7 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
     classes: ["dialog-lg"],
     tag: "form",
     window: {
-      title: "DND5E.CompendiumBrowser.Sources.Label",
+      title: "DEGRINGO5E.CompendiumBrowser.Sources.Label",
       icon: "fas fa-book-open-reader",
       resizable: true
     },

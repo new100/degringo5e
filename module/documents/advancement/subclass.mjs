@@ -17,8 +17,8 @@ export default class SubclassAdvancement extends Advancement {
       order: 70,
       icon: "icons/skills/trades/mining-pickaxe-yellow-blue.webp",
       typeIcon: "systems/dnd5e/icons/svg/subclass.svg",
-      title: game.i18n.localize("DND5E.ADVANCEMENT.Subclass.Title"),
-      hint: game.i18n.localize("DND5E.ADVANCEMENT.Subclass.Hint"),
+      title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Subclass.Title"),
+      hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Subclass.Hint"),
       apps: {
         flow: SubclassFlow
       }

@@ -5,7 +5,7 @@ const { BooleanField, StringField } = foundry.data.fields;
 /**
  * Data model template with information on items that can be attuned and equipped.
  *
- * @property {string} attunement  Attunement information as defined in `DND5E.attunementTypes`.
+ * @property {string} attunement  Attunement information as defined in `DEGRINGO5E.attunementTypes`.
  * @property {boolean} attuned    Is this item attuned on its owning actor?
  * @property {boolean} equipped   Is this item equipped on its owning actor?
  * @mixin
@@ -14,9 +14,9 @@ export default class EquippableItemTemplate extends SystemDataModel {
   /** @inheritDoc */
   static defineSchema() {
     return {
-      attunement: new StringField({required: true, label: "DND5E.Attunement"}),
-      attuned: new BooleanField({label: "DND5E.Attuned"}),
-      equipped: new BooleanField({required: true, label: "DND5E.Equipped"})
+      attunement: new StringField({required: true, label: "DEGRINGO5E.Attunement"}),
+      attuned: new BooleanField({label: "DEGRINGO5E.Attuned"}),
+      equipped: new BooleanField({required: true, label: "DEGRINGO5E.Equipped"})
     };
   }
 
@@ -28,7 +28,7 @@ export default class EquippableItemTemplate extends SystemDataModel {
    */
   static get compendiumBrowserAttunementFilter() {
     return {
-      label: "DND5E.Attunement",
+      label: "DEGRINGO5E.Attunement",
       type: "boolean",
       createFilter: (filters, value, def) => {
         if ( value === 0 ) return;
@@ -97,9 +97,9 @@ export default class EquippableItemTemplate extends SystemDataModel {
    */
   get equippableItemCardProperties() {
     return [
-      this.attunement === "required" ? CONFIG.DND5E.attunementTypes.required : null,
-      game.i18n.localize(this.equipped ? "DND5E.Equipped" : "DND5E.Unequipped"),
-      ("proficient" in this) ? CONFIG.DND5E.proficiencyLevels[this.prof?.multiplier || 0] : null
+      this.attunement === "required" ? CONFIG.DEGRINGO5E.attunementTypes.required : null,
+      game.i18n.localize(this.equipped ? "DEGRINGO5E.Equipped" : "DEGRINGO5E.Unequipped"),
+      ("proficient" in this) ? CONFIG.DEGRINGO5E.proficiencyLevels[this.prof?.multiplier || 0] : null
     ];
   }
 

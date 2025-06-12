@@ -15,7 +15,7 @@ export default class ModuleArtSettingsConfig extends FormApplication {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      title: game.i18n.localize("DND5E.ModuleArtConfigL"),
+      title: game.i18n.localize("DEGRINGO5E.ModuleArtConfigL"),
       id: "module-art-config",
       template: "systems/dnd5e/templates/apps/module-art-config.hbs",
       popOut: true,

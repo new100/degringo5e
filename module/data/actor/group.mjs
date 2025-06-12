@@ -58,31 +58,31 @@ export default class GroupActor extends ActorDataModel.mixin(CurrencyTemplate) {
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
       type: new SchemaField({
-        value: new StringField({ initial: "party", label: "DND5E.Group.Type" })
+        value: new StringField({ initial: "party", label: "DEGRINGO5E.Group.Type" })
       }),
       description: new SchemaField({
-        full: new HTMLField({ label: "DND5E.Description" }),
-        summary: new HTMLField({ label: "DND5E.DescriptionSummary" })
+        full: new HTMLField({ label: "DEGRINGO5E.Description" }),
+        summary: new HTMLField({ label: "DEGRINGO5E.DescriptionSummary" })
       }),
       members: new ArrayField(new SchemaField({
         actor: new ForeignDocumentField(foundry.documents.BaseActor),
         quantity: new SchemaField({
-          value: new NumberField({ initial: 1, integer: true, min: 0, label: "DND5E.Quantity" }),
-          formula: new FormulaField({ label: "DND5E.QuantityFormula" })
+          value: new NumberField({ initial: 1, integer: true, min: 0, label: "DEGRINGO5E.Quantity" }),
+          formula: new FormulaField({ label: "DEGRINGO5E.QuantityFormula" })
         })
-      }), { label: "DND5E.GroupMembers" }),
+      }), { label: "DEGRINGO5E.GroupMembers" }),
       attributes: new SchemaField({
         movement: new SchemaField({
-          land: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DND5E.MovementLand" }),
-          water: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DND5E.MovementWater" }),
-          air: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DND5E.MovementAir" })
+          land: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DEGRINGO5E.MovementLand" }),
+          water: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DEGRINGO5E.MovementWater" }),
+          air: new NumberField({ nullable: false, min: 0, step: 0.1, initial: 0, label: "DEGRINGO5E.MovementAir" })
         })
-      }, { label: "DND5E.Attributes" }),
+      }, { label: "DEGRINGO5E.Attributes" }),
       details: new SchemaField({
         xp: new SchemaField({
-          value: new NumberField({ integer: true, min: 0, label: "DND5E.ExperiencePoints.Current" })
-        }, { label: "DND5E.ExperiencePoints.Label" })
-      }, { label: "DND5E.Details" })
+          value: new NumberField({ integer: true, min: 0, label: "DEGRINGO5E.ExperiencePoints.Current" })
+        }, { label: "DEGRINGO5E.ExperiencePoints.Label" })
+      }, { label: "DEGRINGO5E.Details" })
     });
   }
 
@@ -286,7 +286,7 @@ export default class GroupActor extends ActorDataModel.mixin(CurrencyTemplate) {
 
     // Create a rest chat message
     if ( !config.autoRest ) {
-      const restConfig = CONFIG.DND5E.restTypes[config.type];
+      const restConfig = CONFIG.DEGRINGO5E.restTypes[config.type];
       const messageData = {
         flavor: this.parent.createRestFlavor(config),
         speaker: ChatMessage.getSpeaker({ actor: this.parent, alias: this.parent.name }),

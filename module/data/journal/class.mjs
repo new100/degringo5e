@@ -18,7 +18,7 @@ const { HTMLField, SchemaField, SetField, StringField } = foundry.data.fields;
 export default class ClassJournalPageData extends foundry.abstract.TypeDataModel {
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = ["JOURNALENTRYPAGE.DND5E.Class"];
+  static LOCALIZATION_PREFIXES = ["JOURNALENTRYPAGE.DEGRINGO5E.Class"];
 
   /* -------------------------------------------- */
 

@@ -121,12 +121,12 @@ export default class TraitConfig extends AdvancementConfig {
 
     const rep = this.advancement.representedTraits();
     context.disableAllowReplacements = rep.size > 1;
-    const traitConfig = rep.size === 1 ? CONFIG.DND5E.traits[rep.first()] : null;
+    const traitConfig = rep.size === 1 ? CONFIG.DEGRINGO5E.traits[rep.first()] : null;
     if ( traitConfig ) {
       context.default.title = traitConfig.labels.title;
       context.default.icon = traitConfig.icon;
     } else {
-      context.default.title = game.i18n.localize("DND5E.TraitGenericPlural.other");
+      context.default.title = game.i18n.localize("DEGRINGO5E.TraitGenericPlural.other");
       context.default.icon = this.advancement.constructor.metadata.icon;
     }
     context.default.hint = Trait.localizedList({ grants: this.config.grants, choices: this.config.choices });
@@ -136,9 +136,9 @@ export default class TraitConfig extends AdvancementConfig {
       input: context.inputs.createCheckboxInput,
       options: await Trait.choices(this.trait, { chosen, prefixed: true, any: this.selected !== -1 }),
       selected: this.trait,
-      selectedHeader: `${CONFIG.DND5E.traits[this.trait].labels.localization}.other`,
-      typeField: new StringField({ label: game.i18n.localize("DND5E.ADVANCEMENT.Trait.TraitType") }),
-      typeOptions: Object.entries(CONFIG.DND5E.traits)
+      selectedHeader: `${CONFIG.DEGRINGO5E.traits[this.trait].labels.localization}.other`,
+      typeField: new StringField({ label: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Trait.TraitType") }),
+      typeOptions: Object.entries(CONFIG.DEGRINGO5E.traits)
         .filter(([, config]) => ((this.config.mode === "default") || (this.config.mode === "mastery"
           ? config.mastery : config.expertise)) && (config.dataType !== Number))
         .map(([value, config]) => ({ value, label: config.labels.title }))
@@ -150,8 +150,8 @@ export default class TraitConfig extends AdvancementConfig {
     }
 
     context.mode = {
-      hint: CONFIG.DND5E.traitModes[this.advancement.configuration.mode].hint,
-      options: Object.entries(CONFIG.DND5E.traitModes).map(([value, { label }]) => ({ value, label }))
+      hint: CONFIG.DEGRINGO5E.traitModes[this.advancement.configuration.mode].hint,
+      options: Object.entries(CONFIG.DEGRINGO5E.traitModes).map(([value, { label }]) => ({ value, label }))
     };
 
     return context;
@@ -228,7 +228,7 @@ export default class TraitConfig extends AdvancementConfig {
       && (event.target.value !== "default")
       && (event.target.value !== this.config.mode) ) {
       const checkKey = event.target.value === "mastery" ? "mastery" : "expertise";
-      const validTraitTypes = filteredKeys(CONFIG.DND5E.traits, c => c[checkKey]);
+      const validTraitTypes = filteredKeys(CONFIG.DEGRINGO5E.traits, c => c[checkKey]);
       if ( !validTraitTypes.includes(this.trait) ) this.trait = validTraitTypes[0];
     }
 
@@ -278,7 +278,7 @@ export default class TraitConfig extends AdvancementConfig {
     // If one of the expertise modes is selected, filter out any traits that are not of a valid type
     if ( (configuration.mode ?? this.config.mode) !== "default" ) {
       const checkKey = (configuration.mode ?? this.config.mode) === "mastery" ? "mastery" : "expertise";
-      const validTraitTypes = filteredKeys(CONFIG.DND5E.traits, c => c[checkKey]);
+      const validTraitTypes = filteredKeys(CONFIG.DEGRINGO5E.traits, c => c[checkKey]);
       configuration.grants = configuration.grants.filter(k => validTraitTypes.some(t => k.startsWith(t)));
       configuration.choices.forEach(c => c.pool = c.pool?.filter(k => validTraitTypes.some(t => k.startsWith(t))));
     }

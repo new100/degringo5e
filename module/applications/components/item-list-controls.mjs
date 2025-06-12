@@ -45,14 +45,14 @@ export default class ItemListControlsElement extends HTMLElement {
    */
   static CONFIG = {
     inventory: {
-      label: "DND5E.InventorySearch",
+      label: "DEGRINGO5E.InventorySearch",
       list: "inventory",
       filters: [
-        { key: "action", label: "DND5E.Action" },
-        { key: "bonus", label: "DND5E.BonusAction" },
-        { key: "reaction", label: "DND5E.Reaction" },
-        { key: "equipped", label: "DND5E.Equipped" },
-        { key: "mgc", label: "DND5E.ITEM.Property.Magical" }
+        { key: "action", label: "DEGRINGO5E.Action" },
+        { key: "bonus", label: "DEGRINGO5E.BonusAction" },
+        { key: "reaction", label: "DEGRINGO5E.Reaction" },
+        { key: "equipped", label: "DEGRINGO5E.Equipped" },
+        { key: "mgc", label: "DEGRINGO5E.ITEM.Property.Magical" }
       ],
       sorting: [
         { key: "m", label: "SIDEBAR.SortModeManual", dataset: { icon: "fa-solid fa-arrow-down-short-wide" } },
@@ -61,10 +61,10 @@ export default class ItemListControlsElement extends HTMLElement {
       grouping: [
         {
           key: "type",
-          label: "DND5E.FilterGroupCategory",
+          label: "DEGRINGO5E.FilterGroupCategory",
           dataset: { icon: "fa-solid fa-layer-group", classes: "active" }
         },
-        { key: "contents", label: "DND5E.FilterGroupCategory", dataset: { icon: "fa-solid fa-layer-group" } }
+        { key: "contents", label: "DEGRINGO5E.FilterGroupCategory", dataset: { icon: "fa-solid fa-layer-group" } }
       ]
     }
   };
@@ -222,7 +222,7 @@ export default class ItemListControlsElement extends HTMLElement {
       <ul class="unlist controls">
         <li>
           <button type="button" class="unbutton filter-control always-interactive" data-action="clear"
-                  data-tooltip aria-label="${game.i18n.localize("DND5E.FilterClear")}">
+                  data-tooltip aria-label="${game.i18n.localize("DEGRINGO5E.FilterClear")}">
             <i class="fas fa-xmark"></i>
           </button>
         </li>
@@ -240,7 +240,7 @@ export default class ItemListControlsElement extends HTMLElement {
       const item = document.createElement("li");
       item.innerHTML = `
         <button type="button" class="unbutton filter-control filter always-interactive" data-action="filter"
-                aria-label="${game.i18n.localize("DND5E.Filter")}">
+                aria-label="${game.i18n.localize("DEGRINGO5E.Filter")}">
           <i class="fa-solid fa-filter" inert></i>
         </button>
       `;

@@ -22,9 +22,9 @@ export default class SkillToolRollConfigurationDialog extends D20RollConfigurati
   async _prepareConfigurationContext(context, options) {
     context = await super._prepareConfigurationContext(context, options);
     if ( this.options.chooseAbility ) context.fields.unshift({
-      field: new foundry.data.fields.StringField({ label: game.i18n.localize("DND5E.Abilities") }),
+      field: new foundry.data.fields.StringField({ label: game.i18n.localize("DEGRINGO5E.Abilities") }),
       name: "ability",
-      options: Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label })),
+      options: Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label })),
       value: this.config.ability
     });
     return context;
@@ -38,10 +38,10 @@ export default class SkillToolRollConfigurationDialog extends D20RollConfigurati
   _onChangeForm(formConfig, event) {
     super._onChangeForm(formConfig, event);
     if ( this.config.skill && (event.target?.name === "ability") ) {
-      const skillLabel = CONFIG.DND5E.skills[this.config.skill]?.label ?? "";
+      const skillLabel = CONFIG.DEGRINGO5E.skills[this.config.skill]?.label ?? "";
       const ability = event.target.value ?? this.config.ability;
-      const abilityLabel = CONFIG.DND5E.abilities[ability]?.label ?? "";
-      const flavor = game.i18n.format("DND5E.SkillPromptTitle", { skill: skillLabel, ability: abilityLabel });
+      const abilityLabel = CONFIG.DEGRINGO5E.abilities[ability]?.label ?? "";
+      const flavor = game.i18n.format("DEGRINGO5E.SkillPromptTitle", { skill: skillLabel, ability: abilityLabel });
       foundry.utils.setProperty(this.message, "data.flavor", flavor);
       this._updateFrame({ window: { title: flavor } });
     }

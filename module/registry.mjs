@@ -281,7 +281,7 @@ class SpellListRegistry {
    * @type {FormSelectOption[]}
    */
   static get options() {
-    return Object.entries(CONFIG.DND5E.spellListTypes).map(([type, group]) => {
+    return Object.entries(CONFIG.DEGRINGO5E.spellListTypes).map(([type, group]) => {
       const lists = this.#byType.get(type);
       if ( !lists ) return [];
       return Array.from(lists.entries())
@@ -317,7 +317,7 @@ class SpellListRegistry {
 
   /**
    * Retrieve a specific spell list from the registry.
-   * @param {string} type        Type of list as defined in `CONFIG.DND5E.spellListTypes`.
+   * @param {string} type        Type of list as defined in `CONFIG.DEGRINGO5E.spellListTypes`.
    * @param {string} identifier  Identifier of the specific spell list.
    * @returns {SpellList|null}
    */

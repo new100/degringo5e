@@ -19,14 +19,14 @@ export default class BackgroundData extends ItemDataModel.mixin(ItemDescriptionT
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), {label: "DND5E.AdvancementTitle"})
+      advancement: new ArrayField(new AdvancementField(), {label: "DEGRINGO5E.AdvancementTitle"})
     });
   }
 

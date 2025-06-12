@@ -88,7 +88,7 @@
         {{!-- Facilities --}}
         {{#if (eq item.type "facility")}}
         <div class="quantity">
-            <span class="value">{{ localize "DND5E.FACILITY.Squares" squares=system.squares }}</span>
+            <span class="value">{{ localize "DEGRINGO5E.FACILITY.Squares" squares=system.squares }}</span>
         </div>
         {{#if (eq system.type.value "basic")}}
         <div class="price">
@@ -109,7 +109,7 @@
 
         {{!-- Level --}}
         {{#if (eq item.type "class")}}
-        <div class="level-badge badge" aria-label="{{ localize "DND5E.LevelNumber" level=system.levels }}">
+        <div class="level-badge badge" aria-label="{{ localize "DEGRINGO5E.LevelNumber" level=system.levels }}">
             {{ system.levels }}
         </div>
         {{/if}}

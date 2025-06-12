@@ -8,7 +8,7 @@ export default class BastionSettingsConfig extends BaseSettingsConfig {
   /** @override */
   static DEFAULT_OPTIONS = {
     window: {
-      title: "DND5E.Bastion.Configuration.Label"
+      title: "DEGRINGO5E.Bastion.Configuration.Label"
     }
   };
 

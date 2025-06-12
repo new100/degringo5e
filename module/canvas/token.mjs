@@ -51,7 +51,7 @@ export default class Token5e extends foundry.canvas.placeables.Token {
 
     // Determine colors to use
     const blk = 0x000000;
-    const c = CONFIG.DND5E.tokenHPColors;
+    const c = CONFIG.DEGRINGO5E.tokenHPColors;
 
     // Determine the container size (logic borrowed from core)
     let s = canvas.dimensions.uiScale;

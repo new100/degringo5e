@@ -34,7 +34,7 @@ export default class SizeConfig extends AdvancementConfig {
         hint: this.advancement.automaticHint
       },
       showLevelSelector: false,
-      sizes: Object.entries(CONFIG.DND5E.actorSizes).reduce((obj, [key, { label }]) => {
+      sizes: Object.entries(CONFIG.DEGRINGO5E.actorSizes).reduce((obj, [key, { label }]) => {
         obj[key] = {
           field: new BooleanField({ label }),
           input: context.inputs.createCheckboxInput,

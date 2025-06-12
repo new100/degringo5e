@@ -38,7 +38,7 @@ export default function ActivityMixin(Base) {
      */
     static metadata = Object.freeze({
       name: "Activity",
-      label: "DOCUMENT.DND5E.Activity",
+      label: "DOCUMENT.DEGRINGO5E.Activity",
       sheetClass: ActivitySheet,
       usage: {
         actions: {},
@@ -56,12 +56,12 @@ export default function ActivityMixin(Base) {
       foundry.helpers.Localization.localizeDataModel(this);
       const fields = this.schema.fields;
       if ( fields.damage?.fields.parts ) {
-        localizeSchema(fields.damage.fields.parts.element, ["DND5E.DAMAGE.FIELDS.damage.parts"]);
+        localizeSchema(fields.damage.fields.parts.element, ["DEGRINGO5E.DAMAGE.FIELDS.damage.parts"]);
       }
       if ( fields.consumption ) {
-        localizeSchema(fields.consumption.fields.targets.element, ["DND5E.CONSUMPTION.FIELDS.consumption.targets"]);
+        localizeSchema(fields.consumption.fields.targets.element, ["DEGRINGO5E.CONSUMPTION.FIELDS.consumption.targets"]);
       }
-      if ( fields.uses ) localizeSchema(fields.uses.fields.recovery.element, ["DND5E.USES.FIELDS.uses.recovery"]);
+      if ( fields.uses ) localizeSchema(fields.uses.fields.recovery.element, ["DEGRINGO5E.USES.FIELDS.uses.recovery"]);
     }
 
     /* -------------------------------------------- */
@@ -96,7 +96,7 @@ export default function ActivityMixin(Base) {
      * @type {string}
      */
     get damageFlavor() {
-      return game.i18n.localize("DND5E.DamageRoll");
+      return game.i18n.localize("DEGRINGO5E.DamageRoll");
     }
 
     /* -------------------------------------------- */
@@ -130,7 +130,7 @@ export default function ActivityMixin(Base) {
      * @type {Set<string>}
      */
     get validConsumptionTypes() {
-      const types = new Set(Object.keys(CONFIG.DND5E.activityConsumptionTypes));
+      const types = new Set(Object.keys(CONFIG.DEGRINGO5E.activityConsumptionTypes));
       if ( this.isSpell ) types.delete("spellSlots");
       return types;
     }
@@ -208,11 +208,11 @@ export default function ActivityMixin(Base) {
     async use(usage={}, dialog={}, message={}) {
       if ( !this.item.isEmbedded || this.item.pack ) return;
       if ( !this.item.isOwner ) {
-        ui.notifications.error("DND5E.DocumentUseWarn", { localize: true });
+        ui.notifications.error("DEGRINGO5E.DocumentUseWarn", { localize: true });
         return;
       }
       if ( !this.canUse ) {
-        ui.notifications.error("DND5E.ACTIVITY.Warning.UsageNotAllowed", { localize: true });
+        ui.notifications.error("DEGRINGO5E.ACTIVITY.Warning.UsageNotAllowed", { localize: true });
         return;
       }
 
@@ -610,11 +610,11 @@ export default function ActivityMixin(Base) {
         const legendary = this.actor.system.resources?.legact;
         if ( legendary && !containsLegendaryConsumption ) {
           let message;
-          if ( legendary.value === 0 ) message = "DND5E.ACTIVATION.Warning.NoActions";
-          else if ( count > legendary.value ) message = "DND5E.ACTIVATION.Warning.NotEnoughActions";
+          if ( legendary.value === 0 ) message = "DEGRINGO5E.ACTIVATION.Warning.NoActions";
+          else if ( count > legendary.value ) message = "DEGRINGO5E.ACTIVATION.Warning.NotEnoughActions";
           if ( message ) {
             const err = new ConsumptionError(game.i18n.format(message, {
-              type: game.i18n.localize("DND5E.LegendaryAction.Label"),
+              type: game.i18n.localize("DEGRINGO5E.LegendaryAction.Label"),
               required: formatNumber(count),
               available: formatNumber(legendary.value)
             }));
@@ -681,7 +681,7 @@ export default function ActivityMixin(Base) {
             const newValue = Math.max(slotData.value - 1, 0);
             foundry.utils.mergeObject(updates.actor, { [`system.spells.${slot}.value`]: newValue });
           } else {
-            const err = new ConsumptionError(game.i18n.format("DND5E.SpellCastNoSlots", {
+            const err = new ConsumptionError(game.i18n.format("DEGRINGO5E.SpellCastNoSlots", {
               name: this.item.name, level: slotData.label
             }));
             errors.push(err);
@@ -696,13 +696,13 @@ export default function ActivityMixin(Base) {
         if ( config.concentration.end ) {
           const replacedEffect = effects.find(i => i.id === config.concentration.end);
           if ( !replacedEffect ) errors.push(
-            new ConsumptionError(game.i18n.localize("DND5E.ConcentratingMissingItem"))
+            new ConsumptionError(game.i18n.localize("DEGRINGO5E.ConcentratingMissingItem"))
           );
         }
 
         // Cannot begin more concentrations than the limit
         else if ( effects.size >= this.actor.system.attributes?.concentration?.limit ) errors.push(
-          new ConsumptionError(game.i18n.localize("DND5E.ConcentratingLimited"))
+          new ConsumptionError(game.i18n.localize("DEGRINGO5E.ConcentratingLimited"))
         );
       }
 
@@ -741,17 +741,17 @@ export default function ActivityMixin(Base) {
       const properties = [...(data.tags ?? []), ...(data.properties ?? [])];
       const supplements = [];
       if ( this.activation.condition ) {
-        supplements.push(`<strong>${game.i18n.localize("DND5E.Trigger")}</strong> ${this.activation.condition}`);
+        supplements.push(`<strong>${game.i18n.localize("DEGRINGO5E.Trigger")}</strong> ${this.activation.condition}`);
       }
       if ( data.materials?.value ) {
-        supplements.push(`<strong>${game.i18n.localize("DND5E.Materials")}</strong> ${data.materials.value}`);
+        supplements.push(`<strong>${game.i18n.localize("DEGRINGO5E.Materials")}</strong> ${data.materials.value}`);
       }
       const buttons = this._usageChatButtons(message);
 
       // Include spell level in the subtitle.
       if ( this.item.type === "spell" ) {
         const spellLevel = foundry.utils.getProperty(message, "data.flags.dnd5e.use.spellLevel");
-        const { spellLevels, spellSchools } = CONFIG.DND5E;
+        const { spellLevels, spellSchools } = CONFIG.DEGRINGO5E;
         data.subtitle = [spellLevels[spellLevel], spellSchools[this.item.system.school]?.label].filterJoin(" &bull; ");
       }
 
@@ -801,7 +801,7 @@ export default function ActivityMixin(Base) {
       const buttons = [];
 
       if ( this.target?.template?.type ) buttons.push({
-        label: game.i18n.localize("DND5E.TARGET.Action.PlaceTemplate"),
+        label: game.i18n.localize("DEGRINGO5E.TARGET.Action.PlaceTemplate"),
         icon: '<i class="fas fa-bullseye" inert></i>',
         dataset: {
           action: "placeTemplate"
@@ -809,13 +809,13 @@ export default function ActivityMixin(Base) {
       });
 
       if ( message.hasConsumption ) buttons.push({
-        label: game.i18n.localize("DND5E.CONSUMPTION.Action.ConsumeResource"),
+        label: game.i18n.localize("DEGRINGO5E.CONSUMPTION.Action.ConsumeResource"),
         icon: '<i class="fa-solid fa-cubes-stacked" inert></i>',
         dataset: {
           action: "consumeResource"
         }
       }, {
-        label: game.i18n.localize("DND5E.CONSUMPTION.Action.RefundResource"),
+        label: game.i18n.localize("DEGRINGO5E.CONSUMPTION.Action.RefundResource"),
         icon: '<i class="fa-solid fa-clock-rotate-left"></i>',
         dataset: {
           action: "refundResource"
@@ -1011,11 +1011,11 @@ export default function ActivityMixin(Base) {
 
       if ( this.item.isOwner && !compendiumLocked ) {
         entries.push({
-          name: "DND5E.ContextMenuActionEdit",
+          name: "DEGRINGO5E.ContextMenuActionEdit",
           icon: '<i class="fas fa-pen-to-square fa-fw"></i>',
           callback: () => this.sheet.render({ force: true })
         }, {
-          name: "DND5E.ContextMenuActionDuplicate",
+          name: "DEGRINGO5E.ContextMenuActionDuplicate",
           icon: '<i class="fas fa-copy fa-fw"></i>',
           callback: () => {
             const createData = this.toObject();
@@ -1023,13 +1023,13 @@ export default function ActivityMixin(Base) {
             this.item.createActivity(createData.type, createData, { renderSheet: false });
           }
         }, {
-          name: "DND5E.ContextMenuActionDelete",
+          name: "DEGRINGO5E.ContextMenuActionDelete",
           icon: '<i class="fas fa-trash fa-fw"></i>',
           callback: () => this.deleteDialog()
         });
       } else {
         entries.push({
-          name: "DND5E.ContextMenuActionView",
+          name: "DEGRINGO5E.ContextMenuActionView",
           icon: '<i class="fas fa-eye fa-fw"></i>',
           callback: () => this.sheet.render({ force: true })
         });
@@ -1039,7 +1039,7 @@ export default function ActivityMixin(Base) {
         const uuid = `${this.item.getRelativeUUID(this.actor)}.Activity.${this.id}`;
         const isFavorited = this.actor.system.hasFavorite(uuid);
         entries.push({
-          name: isFavorited ? "DND5E.FavoriteRemove" : "DND5E.Favorite",
+          name: isFavorited ? "DEGRINGO5E.FavoriteRemove" : "DEGRINGO5E.Favorite",
           icon: '<i class="fas fa-bookmark fa-fw"></i>',
           condition: () => this.item.isOwner && !compendiumLocked,
           callback: () => {
@@ -1170,7 +1170,7 @@ export default function ActivityMixin(Base) {
         }
       } catch(err) {
         Hooks.onError("Activity#placeTemplate", err, {
-          msg: game.i18n.localize("DND5E.TARGET.Warning.PlaceTemplate"),
+          msg: game.i18n.localize("DEGRINGO5E.TARGET.Warning.PlaceTemplate"),
           log: "error",
           notify: "error"
         });
@@ -1247,7 +1247,7 @@ export default function ActivityMixin(Base) {
 
     /** @override */
     static _createDialogTypes(parent) {
-      return Object.entries(CONFIG.DND5E.activityTypes)
+      return Object.entries(CONFIG.DEGRINGO5E.activityTypes)
         .filter(([, { configurable }]) => configurable !== false)
         .map(([k]) => k);
     }

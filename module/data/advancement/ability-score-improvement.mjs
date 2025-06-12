@@ -14,7 +14,7 @@ const { NumberField, SetField, StringField } = foundry.data.fields;
 export class AbilityScoreImprovementConfigurationData extends foundry.abstract.DataModel {
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.ADVANCEMENT.AbilityScoreImprovement"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement"];
 
   /* -------------------------------------------- */
 
@@ -44,7 +44,7 @@ export class AbilityScoreImprovementValueData extends SparseDataModel {
       assignments: new MappingField(new NumberField({
         nullable: false, integer: true
       }), { required: false, initial: undefined }),
-      feat: new MappingField(new StringField(), { required: false, initial: undefined, label: "DND5E.Feature.Feat" })
+      feat: new MappingField(new StringField(), { required: false, initial: undefined, label: "DEGRINGO5E.Feature.Feat" })
     };
   }
 }

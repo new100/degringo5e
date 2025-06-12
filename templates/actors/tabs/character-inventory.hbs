@@ -8,15 +8,15 @@
             {{> "systems/dnd5e/templates/inventory/encumbrance.hbs" encumbrance=system.attributes.encumbrance }}
             <div class="info">
                 <div class="strength">
-                    <span class="label">{{ localize "DND5E.AbilityStr" }}</span>
+                    <span class="label">{{ localize "DEGRINGO5E.AbilityStr" }}</span>
                     <span class="value">{{ system.abilities.str.value }}</span>
                 </div>
                 <div class="size">
-                    <span class="label">{{ localize "DND5E.Size" }}</span>
+                    <span class="label">{{ localize "DEGRINGO5E.Size" }}</span>
                     <span class="value" aria-label="{{ size.label }}">{{ size.abbr }}</span>
                 </div>
                 <div class="multiplier">
-                    <span class="label">{{ localize "DND5E.Multiplier" }}</span>
+                    <span class="label">{{ localize "DEGRINGO5E.Multiplier" }}</span>
                     <span class="value">
                         <span class="sign">&times;</span>
                         {{ size.mod }}

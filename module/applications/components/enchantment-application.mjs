@@ -82,7 +82,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
         this.querySelector(".enchantment-control").append(div);
         this.countArea = this.querySelector(".count-area");
       }
-      this.countArea.innerHTML = game.i18n.format("DND5E.ENCHANT.Enchanted", {
+      this.countArea.innerHTML = game.i18n.format("DEGRINGO5E.ENCHANT.Enchanted", {
         current: '<span class="current">0</span>',
         max: `<span class="max">${maxTargets}<span>`
       });
@@ -113,16 +113,16 @@ export default class EnchantmentApplicationElement extends HTMLElement {
       div.querySelector(".name").append(item.name);
       if ( item.isOwner ) {
         const control = document.createElement("a");
-        control.ariaLabel = game.i18n.localize("DND5E.ENCHANTMENT.Action.Remove");
+        control.ariaLabel = game.i18n.localize("DEGRINGO5E.ENCHANTMENT.Action.Remove");
         control.dataset.action = "removeEnchantment";
-        control.dataset.tooltip = "DND5E.ENCHANTMENT.Action.Remove";
+        control.dataset.tooltip = "DEGRINGO5E.ENCHANTMENT.Action.Remove";
         control.innerHTML = '<i class="fa-solid fa-rotate-left" inert></i>';
         div.append(control);
       }
       return div;
     });
     if ( enchantedItems.length ) this.dropArea.replaceChildren(...enchantedItems);
-    else this.dropArea.innerHTML = `<p>${game.i18n.localize("DND5E.ENCHANT.DropArea")}</p>`;
+    else this.dropArea.innerHTML = `<p>${game.i18n.localize("DEGRINGO5E.ENCHANT.DropArea")}</p>`;
     if ( this.countArea ) this.countArea.querySelector(".current").innerText = enchantedItems.length;
   }
 
@@ -152,11 +152,11 @@ export default class EnchantmentApplicationElement extends HTMLElement {
     const concentrationId = this.chatMessage.getFlag("dnd5e", "use.concentrationId");
     const concentration = effect.parent.actor.effects.get(concentrationId);
     if ( concentrationId && !concentration ) {
-      ui.notifications.error("DND5E.ENCHANT.Warning.ConcentrationEnded", { console: false, localize: true });
+      ui.notifications.error("DEGRINGO5E.ENCHANT.Warning.ConcentrationEnded", { console: false, localize: true });
       return;
     }
     if ( !game.user.isGM && concentration && !concentration.actor?.isOwner ) {
-      ui.notifications.error("DND5E.EffectApplyWarningConcentration", { console: false, localize: true });
+      ui.notifications.error("DEGRINGO5E.EffectApplyWarningConcentration", { console: false, localize: true });
       return;
     }
 

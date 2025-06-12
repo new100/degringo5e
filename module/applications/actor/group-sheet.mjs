@@ -54,7 +54,7 @@ export default class GroupActorSheet extends ActorSheetMixin(foundry.appv1?.shee
     const context = super.getData(options);
     context.system = this.actor.system;
     context.items = Array.from(this.actor.items);
-    context.config = CONFIG.DND5E;
+    context.config = CONFIG.DEGRINGO5E;
     context.isGM = game.user.isGM;
 
     // Membership
@@ -92,7 +92,7 @@ export default class GroupActorSheet extends ActorSheetMixin(foundry.appv1?.shee
 
     // Text labels
     context.labels = {
-      currencies: Object.entries(CONFIG.DND5E.currencies).reduce((obj, [k, c]) => {
+      currencies: Object.entries(CONFIG.DEGRINGO5E.currencies).reduce((obj, [k, c]) => {
         obj[k] = c.label;
         return obj;
       }, {})
@@ -112,13 +112,13 @@ export default class GroupActorSheet extends ActorSheetMixin(foundry.appv1?.shee
     const rule = new Intl.PluralRules(game.i18n.lang);
     const members = [];
     if ( stats.nMembers ) {
-      members.push(`${stats.nMembers} ${game.i18n.localize(`DND5E.Group.Member.${rule.select(stats.nMembers)}`)}`);
+      members.push(`${stats.nMembers} ${game.i18n.localize(`DEGRINGO5E.Group.Member.${rule.select(stats.nMembers)}`)}`);
     }
     if ( stats.nVehicles ) {
-      members.push(`${stats.nVehicles} ${game.i18n.localize(`DND5E.Group.Vehicle.${rule.select(stats.nVehicles)}`)}`);
+      members.push(`${stats.nVehicles} ${game.i18n.localize(`DEGRINGO5E.Group.Vehicle.${rule.select(stats.nVehicles)}`)}`);
     }
-    if ( !members.length ) return game.i18n.localize("DND5E.GroupSummaryEmpty");
-    return game.i18n.format("DND5E.GroupSummary", {members: formatter.format(members)});
+    if ( !members.length ) return game.i18n.localize("DEGRINGO5E.GroupSummaryEmpty");
+    return game.i18n.format("DEGRINGO5E.GroupSummary", {members: formatter.format(members)});
   }
 
   /* -------------------------------------------- */
@@ -196,9 +196,9 @@ export default class GroupActorSheet extends ActorSheetMixin(foundry.appv1?.shee
   #prepareMovementSpeed() {
     const movement = this.object.system.attributes.movement;
     let speeds = [
-      [movement.land, `${game.i18n.localize("DND5E.MovementLand")} ${movement.land}`],
-      [movement.water, `${game.i18n.localize("DND5E.MovementWater")} ${movement.water}`],
-      [movement.air, `${game.i18n.localize("DND5E.MovementAir")} ${movement.air}`]
+      [movement.land, `${game.i18n.localize("DEGRINGO5E.MovementLand")} ${movement.land}`],
+      [movement.water, `${game.i18n.localize("DEGRINGO5E.MovementWater")} ${movement.water}`],
+      [movement.air, `${game.i18n.localize("DEGRINGO5E.MovementAir")} ${movement.air}`]
     ];
     speeds = speeds.filter(s => s[0]).sort((a, b) => b[0] - a[0]);
     const primary = speeds.shift();
@@ -411,7 +411,7 @@ export default class GroupActorSheet extends ActorSheetMixin(foundry.appv1?.shee
 
     // Check to make sure items of this type are allowed on this actor
     if ( this.constructor.unsupportedItemTypes.has(itemData.type) ) {
-      ui.notifications.warn(game.i18n.format("DND5E.ActorWarningInvalidItem", {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.ActorWarningInvalidItem", {
         itemType: game.i18n.localize(CONFIG.Item.typeLabels[itemData.type]),
         actorType: game.i18n.localize(CONFIG.Actor.typeLabels[this.actor.type])
       }));

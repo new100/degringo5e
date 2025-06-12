@@ -54,7 +54,7 @@ export default class InventoryElement extends HTMLElement {
       width: 70,
       order: 800,
       priority: 600,
-      label: "DND5E.Charges",
+      label: "DEGRINGO5E.Charges",
       template: "systems/dnd5e/templates/inventory/columns/uses.hbs"
     },
     controls: {
@@ -69,7 +69,7 @@ export default class InventoryElement extends HTMLElement {
       width: 80,
       order: 700,
       priority: 700,
-      label: "DND5E.SpellHeader.Formula",
+      label: "DEGRINGO5E.SpellHeader.Formula",
       template: "systems/dnd5e/templates/inventory/columns/formula.hbs"
     },
     price: {
@@ -77,7 +77,7 @@ export default class InventoryElement extends HTMLElement {
       width: 80,
       order: 300,
       priority: 300,
-      label: "DND5E.Price",
+      label: "DEGRINGO5E.Price",
       template: "systems/dnd5e/templates/inventory/columns/price.hbs"
     },
     range: {
@@ -85,7 +85,7 @@ export default class InventoryElement extends HTMLElement {
       width: 50,
       order: 300,
       priority: 800,
-      label: "DND5E.SpellHeader.Range",
+      label: "DEGRINGO5E.SpellHeader.Range",
       template: "systems/dnd5e/templates/inventory/columns/range.hbs"
     },
     recovery: {
@@ -93,7 +93,7 @@ export default class InventoryElement extends HTMLElement {
       width: 60,
       order: 400,
       priority: 500,
-      label: "DND5E.Recovery",
+      label: "DEGRINGO5E.Recovery",
       template: "systems/dnd5e/templates/inventory/columns/recovery.hbs"
     },
     roll: {
@@ -101,7 +101,7 @@ export default class InventoryElement extends HTMLElement {
       width: 40,
       order: 600,
       priority: 800,
-      label: "DND5E.SpellHeader.Roll",
+      label: "DEGRINGO5E.SpellHeader.Roll",
       template: "systems/dnd5e/templates/inventory/columns/roll.hbs"
     },
     school: {
@@ -109,7 +109,7 @@ export default class InventoryElement extends HTMLElement {
       width: 40,
       order: 100,
       priority: 100,
-      label: "DND5E.SpellHeader.School",
+      label: "DEGRINGO5E.SpellHeader.School",
       template: "systems/dnd5e/templates/inventory/columns/school.hbs"
     },
     target: {
@@ -117,7 +117,7 @@ export default class InventoryElement extends HTMLElement {
       width: 80,
       order: 400,
       priority: 800,
-      label: "DND5E.SpellHeader.Target",
+      label: "DEGRINGO5E.SpellHeader.Target",
       template: "systems/dnd5e/templates/inventory/columns/target.hbs"
     },
     time: {
@@ -125,7 +125,7 @@ export default class InventoryElement extends HTMLElement {
       width: 40,
       order: 200,
       priority: 800,
-      label: "DND5E.SpellHeader.Time",
+      label: "DEGRINGO5E.SpellHeader.Time",
       template: "systems/dnd5e/templates/inventory/columns/time.hbs"
     },
     quantity: {
@@ -133,7 +133,7 @@ export default class InventoryElement extends HTMLElement {
       width: 70,
       order: 500,
       priority: 500,
-      label: "DND5E.Quantity",
+      label: "DEGRINGO5E.Quantity",
       template: "systems/dnd5e/templates/inventory/columns/quantity.hbs"
     },
     uses: {
@@ -141,7 +141,7 @@ export default class InventoryElement extends HTMLElement {
       width: 70,
       order: 500,
       priority: 600,
-      label: "DND5E.Uses",
+      label: "DEGRINGO5E.Uses",
       template: "systems/dnd5e/templates/inventory/columns/uses.hbs"
     },
     weight: {
@@ -149,7 +149,7 @@ export default class InventoryElement extends HTMLElement {
       width: 60,
       order: 400,
       priority: 400,
-      label: "DND5E.Weight",
+      label: "DEGRINGO5E.Weight",
       template: "systems/dnd5e/templates/inventory/columns/weight.hbs"
     }
   };
@@ -165,7 +165,7 @@ export default class InventoryElement extends HTMLElement {
       id: "contents",
       order: 100,
       groups: { contents: "contents" },
-      label: "DND5E.Contents",
+      label: "DEGRINGO5E.Contents",
       columns: ["price", "weight", "quantity", "charges", "controls"]
     }
   };
@@ -327,27 +327,27 @@ export default class InventoryElement extends HTMLElement {
 
     // Standard options.
     const options = [{
-      name: "DND5E.ItemView",
+      name: "DEGRINGO5E.ItemView",
       icon: '<i class="fa-solid fa-eye fa-fw"></i>',
       callback: li => this._onAction(li, "view")
     }, {
-      name: "DND5E.ContextMenuActionEdit",
+      name: "DEGRINGO5E.ContextMenuActionEdit",
       icon: '<i class="fa-solid fa-edit fa-fw"></i>',
       condition: () => item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "edit")
     }, {
-      name: "DND5E.ContextMenuActionDuplicate",
+      name: "DEGRINGO5E.ContextMenuActionDuplicate",
       icon: '<i class="fa-solid fa-copy fa-fw"></i>',
       condition: () => item.canDuplicate && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "duplicate")
     }, {
       id: "delete",
-      name: "DND5E.ContextMenuActionDelete",
+      name: "DEGRINGO5E.ContextMenuActionDelete",
       icon: '<i class="fa-solid fa-trash fa-fw"></i>',
       condition: () => item.canDelete && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "delete")
     }, {
-      name: "DND5E.DisplayCard",
+      name: "DEGRINGO5E.DisplayCard",
       icon: '<i class="fa-solid fa-message"></i>',
       callback: () => item.displayCard()
     }];
@@ -359,7 +359,7 @@ export default class InventoryElement extends HTMLElement {
 
     // Owned item options.
     options.push({
-      name: "DND5E.Scroll.CreateScroll",
+      name: "DEGRINGO5E.Scroll.CreateScroll",
       icon: '<i class="fa-solid fa-scroll"></i>',
       condition: () => {
         const isSpell = (item.type === "spell") && !item.getFlag("dnd5e", "cachedFor");
@@ -372,31 +372,31 @@ export default class InventoryElement extends HTMLElement {
       },
       group: "action"
     }, {
-      name: "DND5E.ConcentrationBreak",
+      name: "DEGRINGO5E.ConcentrationBreak",
       icon: '<dnd5e-icon src="systems/dnd5e/icons/svg/break-concentration.svg"></dnd5e-icon>',
       condition: () => this.actor?.concentration?.items.has(item),
       callback: () => this.actor?.endConcentration(item),
       group: "state"
     }, {
-      name: `DND5E.ContextMenuAction${item.system.attuned ? "Unattune" : "Attune"}`,
+      name: `DEGRINGO5E.ContextMenuAction${item.system.attuned ? "Unattune" : "Attune"}`,
       icon: '<i class="fa-solid fa-sun fa-fw"></i>',
       condition: () => item.system.attunement && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "attune"),
       group: "state"
     }, {
-      name: `DND5E.ContextMenuAction${item.system.equipped ? "Unequip" : "Equip"}`,
+      name: `DEGRINGO5E.ContextMenuAction${item.system.equipped ? "Unequip" : "Equip"}`,
       icon: '<i class="fa-solid fa-shield-alt fa-fw"></i>',
       condition: () => ("equipped" in item.system) && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "equip"),
       group: "state"
     }, {
-      name: `DND5E.ContextMenuAction${item.isOnCooldown ? "Charge" : "ExpendCharge"}`,
+      name: `DEGRINGO5E.ContextMenuAction${item.isOnCooldown ? "Charge" : "ExpendCharge"}`,
       icon: '<i class="fa-solid fa-bolt"></i>',
       condition: () => item.hasRecharge && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "toggleCharge"),
       group: "state"
     }, {
-      name: `DND5E.ContextMenuAction${item.system.preparation?.prepared ? "Unprepare" : "Prepare"}`,
+      name: `DEGRINGO5E.ContextMenuAction${item.system.preparation?.prepared ? "Unprepare" : "Prepare"}`,
       icon: '<i class="fa-solid fa-sun fa-fw"></i>',
       condition: () => {
         const isPrepared = ("preparation" in item.system) && (item.system.preparation.mode === "prepared");
@@ -406,7 +406,7 @@ export default class InventoryElement extends HTMLElement {
       callback: li => this._onAction(li, "prepare"),
       group: "state"
     }, {
-      name: "DND5E.Identify",
+      name: "DEGRINGO5E.Identify",
       icon: '<i class="fa-solid fa-magnifying-glass"></i>',
       condition: () => {
         const canIdentify = ("identified" in item.system) && !item.system.identified;
@@ -416,7 +416,7 @@ export default class InventoryElement extends HTMLElement {
       callback: li => this._onAction(li, "identify"),
       group: "state"
     }, {
-      name: favorited ? "DND5E.FavoriteRemove" : "DND5E.Favorite",
+      name: favorited ? "DEGRINGO5E.FavoriteRemove" : "DEGRINGO5E.Favorite",
       icon: '<i class="fa-solid fa-bookmark fa-fw"></i>',
       condition: () => ("favorites" in this.actor.system) && item.isOwner && !compendiumLocked,
       callback: li => this._onAction(li, "toggleFavorite"),

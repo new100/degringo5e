@@ -28,7 +28,7 @@ export default class TraitFlow extends AdvancementFlow {
    * @type {TraitConfiguration}
    */
   get traitConfig() {
-    return CONFIG.DND5E.traits[this.advancement.configuration.type];
+    return CONFIG.DEGRINGO5E.traits[this.advancement.configuration.type];
   }
 
   /* -------------------------------------------- */

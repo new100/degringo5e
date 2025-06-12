@@ -16,10 +16,10 @@ export default class IdentifiableTemplate extends SystemDataModel {
   /** @inheritDoc */
   static defineSchema() {
     return {
-      identified: new BooleanField({required: true, initial: true, label: "DND5E.Identified"}),
+      identified: new BooleanField({required: true, initial: true, label: "DEGRINGO5E.Identified"}),
       unidentified: new SchemaField({
-        name: new StringField({label: "DND5E.NameUnidentified"}),
-        description: new HTMLField({label: "DND5E.DescriptionUnidentified"})
+        name: new StringField({label: "DEGRINGO5E.NameUnidentified"}),
+        description: new HTMLField({label: "DEGRINGO5E.DescriptionUnidentified"})
       })
     };
   }
@@ -89,7 +89,7 @@ export default class IdentifiableTemplate extends SystemDataModel {
     if ( baseItem ) {
       if ( fetchName ) {
         foundry.utils.setProperty(changed, "system.unidentified.name", game.i18n.format(
-          "DND5E.Unidentified.DefaultName", { name: baseItem.name }
+          "DEGRINGO5E.Unidentified.DefaultName", { name: baseItem.name }
         ));
       }
       if ( fetchDesc ) {
@@ -100,7 +100,7 @@ export default class IdentifiableTemplate extends SystemDataModel {
 
     // Otherwise, set the name to match the item type
     if ( fetchName ) foundry.utils.setProperty(changed, "system.unidentified.name", game.i18n.format(
-      "DND5E.Unidentified.DefaultName", { name: game.i18n.localize(CONFIG.Item.typeLabels[this.parent.type]) }
+      "DEGRINGO5E.Unidentified.DefaultName", { name: game.i18n.localize(CONFIG.Item.typeLabels[this.parent.type]) }
     ));
   }
 }

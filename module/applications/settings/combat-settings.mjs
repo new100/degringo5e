@@ -7,7 +7,7 @@ export default class CombatSettingsConfig extends BaseSettingsConfig {
   /** @override */
   static DEFAULT_OPTIONS = {
     window: {
-      title: "SETTINGS.DND5E.COMBAT.Label"
+      title: "SETTINGS.DEGRINGO5E.COMBAT.Label"
     }
   };
 
@@ -42,21 +42,21 @@ export default class CombatSettingsConfig extends BaseSettingsConfig {
           this.createSettingField("initiativeDexTiebreaker"),
           this.createSettingField("initiativeScore")
         ];
-        context.legend = game.i18n.localize("DND5E.Initiative");
+        context.legend = game.i18n.localize("DEGRINGO5E.Initiative");
         break;
       case "criticals":
         context.fields = [
           this.createSettingField("criticalDamageModifiers"),
           this.createSettingField("criticalDamageMaxDice")
         ];
-        context.legend = game.i18n.localize("SETTINGS.DND5E.CRITICAL.Name");
+        context.legend = game.i18n.localize("SETTINGS.DEGRINGO5E.CRITICAL.Name");
         break;
       case "npcs":
         context.fields = [
           this.createSettingField("autoRecharge"),
           this.createSettingField("autoRollNPCHP")
         ];
-        context.legend = game.i18n.localize("SETTINGS.DND5E.NPCS.Name");
+        context.legend = game.i18n.localize("SETTINGS.DEGRINGO5E.NPCS.Name");
         break;
     }
     return context;

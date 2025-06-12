@@ -45,7 +45,7 @@ export default class AdvancementManager extends Application5e {
     classes: ["advancement", "manager"],
     window: {
       icon: "fa-solid fa-forward",
-      title: "DND5E.ADVANCEMENT.Manager.Title.Default"
+      title: "DEGRINGO5E.ADVANCEMENT.Manager.Title.Default"
     },
     actions: {
       complete: AdvancementManager.#process,
@@ -108,12 +108,12 @@ export default class AdvancementManager extends Application5e {
     // Class/Subclass level
     let level = this.step.flow.level;
     if ( this.step.class && ["class", "subclass"].includes(item.type) ) level = this.step.class.level;
-    if ( level ) parts.push(game.i18n.format("DND5E.AdvancementLevelHeader", { level }));
+    if ( level ) parts.push(game.i18n.format("DEGRINGO5E.AdvancementLevelHeader", { level }));
 
     // Step Count
     const visibleSteps = this.steps.filter(s => !s.automatic);
     const visibleIndex = visibleSteps.indexOf(this.step);
-    if ( visibleIndex >= 0 ) parts.push(game.i18n.format("DND5E.ADVANCEMENT.Manager.Steps", {
+    if ( visibleIndex >= 0 ) parts.push(game.i18n.format("DEGRINGO5E.ADVANCEMENT.Manager.Steps", {
       current: visibleIndex + 1,
       total: visibleSteps.length
     }));
@@ -565,12 +565,12 @@ export default class AdvancementManager extends Application5e {
   async close(options={}) {
     if ( !options.skipConfirmation ) {
       return new Dialog({
-        title: `${game.i18n.localize("DND5E.ADVANCEMENT.Manager.ClosePrompt.Title")}: ${this.actor.name}`,
-        content: game.i18n.localize("DND5E.ADVANCEMENT.Manager.ClosePrompt.Message"),
+        title: `${game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.ClosePrompt.Title")}: ${this.actor.name}`,
+        content: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.ClosePrompt.Message"),
         buttons: {
           close: {
             icon: '<i class="fas fa-times" inert></i>',
-            label: game.i18n.localize("DND5E.ADVANCEMENT.Manager.ClosePrompt.Action.Stop"),
+            label: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.ClosePrompt.Action.Stop"),
             callback: () => {
               this.#visualizer?.close();
               super.close(options);
@@ -578,7 +578,7 @@ export default class AdvancementManager extends Application5e {
           },
           continue: {
             icon: '<i class="fas fa-chevron-right" inert></i>',
-            label: game.i18n.localize("DND5E.ADVANCEMENT.Manager.ClosePrompt.Action.Continue")
+            label: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.ClosePrompt.Action.Continue")
           }
         },
         default: "close"
@@ -816,8 +816,8 @@ export default class AdvancementManager extends Application5e {
    */
   async #restart(event) {
     const restart = await Dialog.confirm({
-      title: game.i18n.localize("DND5E.ADVANCEMENT.Manager.RestartPrompt.Title"),
-      content: game.i18n.localize("DND5E.ADVANCEMENT.Manager.RestartPrompt.Message")
+      title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.RestartPrompt.Title"),
+      content: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Manager.RestartPrompt.Message")
     });
     if ( !restart ) return;
     // While there is still a renderable step.

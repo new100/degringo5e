@@ -62,11 +62,11 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
       element.innerHTML = `
         <ul>
           <li>${previous ? `<a class="content-link" data-uuid="${previous.uuid}" rel="prev" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Previous" data-tooltip-direction="LEFT"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Previous" data-tooltip-direction="LEFT"></a>` : ""}</li>
           <li>${up ? `<a class="content-link parent" data-uuid="${up.uuid}" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Up"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Up"></a>` : ""}</li>
           <li>${next ? `<a class="content-link" data-uuid="${next.uuid}" rel="next" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Next" data-tooltip-direction="RIGHT"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Next" data-tooltip-direction="RIGHT"></a>` : ""}</li>
         </ul>
       `;
       if ( previous ) element.querySelector("[rel=prev]").innerText = previous.name;

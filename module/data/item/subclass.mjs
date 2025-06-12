@@ -21,16 +21,16 @@ export default class SubclassData extends ItemDataModel.mixin(ItemDescriptionTem
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), { label: "DND5E.AdvancementTitle" }),
+      advancement: new ArrayField(new AdvancementField(), { label: "DEGRINGO5E.AdvancementTitle" }),
       classIdentifier: new IdentifierField({
-        required: true, label: "DND5E.ClassIdentifier", hint: "DND5E.ClassIdentifierHint"
+        required: true, label: "DEGRINGO5E.ClassIdentifier", hint: "DEGRINGO5E.ClassIdentifierHint"
       }),
       spellcasting: new SpellcastingField()
     });
@@ -50,7 +50,7 @@ export default class SubclassData extends ItemDataModel.mixin(ItemDescriptionTem
         }
       }],
       ["hasSpellcasting", {
-        label: "DND5E.CompendiumBrowser.Filters.HasSpellcasting",
+        label: "DEGRINGO5E.CompendiumBrowser.Filters.HasSpellcasting",
         type: "boolean",
         createFilter: (filters, value, def) => {
           if ( value === 0 ) return;

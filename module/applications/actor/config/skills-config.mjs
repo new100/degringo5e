@@ -44,7 +44,7 @@ export default class SkillsConfig extends TraitsConfig {
     if ( skill ) {
       choice.value = skill.value;
       choice.total = this.document.system.skills[key]?.total;
-      choice.tooltip = CONFIG.DND5E.proficiencyLevels[skill.value];
+      choice.tooltip = CONFIG.DEGRINGO5E.proficiencyLevels[skill.value];
     }
   }
 

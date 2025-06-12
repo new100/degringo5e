@@ -14,7 +14,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.ATTACK"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.ATTACK"];
 
   /* -------------------------------------------- */
 
@@ -23,7 +23,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     foundry.utils.mergeObject(super.metadata, {
       type: "attack",
       img: "systems/dnd5e/icons/svg/activity/attack.svg",
-      title: "DND5E.ATTACK.Title.one",
+      title: "DEGRINGO5E.ATTACK.Title.one",
       sheetClass: AttackSheet,
       usage: {
         actions: {
@@ -41,14 +41,14 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
   /** @override */
   _usageChatButtons(message) {
     const buttons = [{
-      label: game.i18n.localize("DND5E.Attack"),
+      label: game.i18n.localize("DEGRINGO5E.Attack"),
       icon: '<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/trait-weapon-proficiencies.svg" inert></i>',
       dataset: {
         action: "rollAttack"
       }
     }];
     if ( this.damage.parts.length || this.item.system.properties?.has("amm") ) buttons.push({
-      label: game.i18n.localize("DND5E.Damage"),
+      label: game.i18n.localize("DEGRINGO5E.Damage"),
       icon: '<i class="fa-solid fa-burst" inert></i>',
       dataset: {
         action: "rollDamage"
@@ -98,7 +98,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     const targets = getTargetDescriptors();
 
     if ( (this.item.type === "weapon") && (this.item.system.quantity === 0) ) {
-      ui.notifications.warn("DND5E.ATTACK.Warning.NoQuantity", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.ATTACK.Warning.NoQuantity", { localize: true });
     }
 
     const buildConfig = this._buildAttackConfig.bind(this);
@@ -107,7 +107,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
       ammunition: this.item.getFlag("dnd5e", `last.${this.id}.ammunition`),
       attackMode: this.item.getFlag("dnd5e", `last.${this.id}.attackMode`),
       elvenAccuracy: this.actor?.getFlag("dnd5e", "elvenAccuracy")
-        && CONFIG.DND5E.characterFlags.elvenAccuracy.abilities.includes(this.ability),
+        && CONFIG.DEGRINGO5E.characterFlags.elvenAccuracy.abilities.includes(this.ability),
       halflingLucky: this.actor?.getFlag("dnd5e", "halflingLucky"),
       mastery: this.item.getFlag("dnd5e", `last.${this.id}.mastery`),
       target: targets.length === 1 ? targets[0].ac : undefined
@@ -151,7 +151,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
           left: window.innerWidth - 710
         },
         window: {
-          title: game.i18n.localize("DND5E.AttackRoll"),
+          title: game.i18n.localize("DEGRINGO5E.AttackRoll"),
           subtitle: this.item.name,
           icon: this.item.img
         }
@@ -161,7 +161,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     const messageConfig = foundry.utils.mergeObject({
       create: true,
       data: {
-        flavor: `${this.item.name} - ${game.i18n.localize("DND5E.AttackRoll")}`,
+        flavor: `${this.item.name} - ${game.i18n.localize("DEGRINGO5E.AttackRoll")}`,
         flags: {
           dnd5e: {
             ...this.messageFlags,

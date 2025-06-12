@@ -53,7 +53,7 @@ export default class ItemChoiceConfig extends AdvancementConfig {
       index: fromUuidSync(data.uuid)
     }));
 
-    context.abilityOptions = Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label }));
+    context.abilityOptions = Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label }));
     context.choices = context.levels.reduce((obj, { value, label }) => {
       obj[value] = { label, ...this.advancement.configuration.choices[value] };
       return obj;
@@ -62,31 +62,31 @@ export default class ItemChoiceConfig extends AdvancementConfig {
       { value: "", label: "" },
       {
         value: "available",
-        label: game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.FIELDS.restriction.level.Available")
+        label: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.FIELDS.restriction.level.Available")
       },
       { rule: true },
-      ...Object.entries(CONFIG.DND5E.spellLevels).map(([value, label]) => ({ value, label }))
+      ...Object.entries(CONFIG.DEGRINGO5E.spellLevels).map(([value, label]) => ({ value, label }))
     ];
     context.showContainerWarning = context.items.some(i => i.index?.type === "container");
     context.showSpellConfig = this.advancement.configuration.type === "spell";
     context.showRequireSpellSlot = !this.advancement.configuration.spell?.preparation
-      || CONFIG.DND5E.spellPreparationModes[this.advancement.configuration.spell?.preparation]?.upcast;
+      || CONFIG.DEGRINGO5E.spellPreparationModes[this.advancement.configuration.spell?.preparation]?.upcast;
     context.typeOptions = [
-      { value: "", label: game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.FIELDS.type.Any") },
+      { value: "", label: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.FIELDS.type.Any") },
       { rule: true },
       ...this.advancement.constructor.VALID_TYPES
         .map(value => ({ value, label: game.i18n.localize(CONFIG.Item.typeLabels[value]) }))
     ];
 
     if ( this.advancement.configuration.type === "feat" ) {
-      const selectedType = CONFIG.DND5E.featureTypes[this.advancement.configuration.restriction.type];
+      const selectedType = CONFIG.DEGRINGO5E.featureTypes[this.advancement.configuration.restriction.type];
       context.typeRestriction = {
-        typeLabel: game.i18n.localize("DND5E.ItemFeatureType"),
+        typeLabel: game.i18n.localize("DEGRINGO5E.ItemFeatureType"),
         typeOptions: [
           { value: "", label: "" },
-          ...Object.entries(CONFIG.DND5E.featureTypes).map(([value, { label }]) => ({ value, label }))
+          ...Object.entries(CONFIG.DEGRINGO5E.featureTypes).map(([value, { label }]) => ({ value, label }))
         ],
-        subtypeLabel: game.i18n.format("DND5E.ItemFeatureSubtype", {category: selectedType?.label}),
+        subtypeLabel: game.i18n.format("DEGRINGO5E.ItemFeatureSubtype", {category: selectedType?.label}),
         subtypeOptions: selectedType?.subtypes ? [
           { value: "", label: "" },
           ...Object.entries(selectedType.subtypes).map(([value, label]) => ({ value, label }))

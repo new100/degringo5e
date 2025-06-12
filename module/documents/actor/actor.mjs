@@ -72,7 +72,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @type {number}     The cover bonus to AC and dexterity saving throws.
    */
   get coverBonus() {
-    const { coverHalf, coverThreeQuarters } = CONFIG.DND5E.statusEffects;
+    const { coverHalf, coverThreeQuarters } = CONFIG.DEGRINGO5E.statusEffects;
     if ( this.statuses.has("coverThreeQuarters") ) return coverThreeQuarters?.coverBonus;
     else if ( this.statuses.has("coverHalf") ) return coverHalf?.coverBonus;
     return 0;
@@ -295,7 +295,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @returns {number}      The XP required.
    */
   getLevelExp(level) {
-    const levels = CONFIG.DND5E.CHARACTER_EXP_LEVELS;
+    const levels = CONFIG.DEGRINGO5E.CHARACTER_EXP_LEVELS;
     return levels[Math.min(level, levels.length - 1)];
   }
 
@@ -309,7 +309,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   getCRExp(cr) {
     if ( cr === null ) return null;
     if ( cr < 1.0 ) return Math.max(200 * cr, 10);
-    return CONFIG.DND5E.CR_EXP_LEVELS[cr] ?? Object.values(CONFIG.DND5E.CR_EXP_LEVELS).pop();
+    return CONFIG.DEGRINGO5E.CR_EXP_LEVELS[cr] ?? Object.values(CONFIG.DEGRINGO5E.CR_EXP_LEVELS).pop();
   }
 
   /* -------------------------------------------- */
@@ -339,11 +339,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
   /**
    * Is this actor under the effect of this property from some status or due to its level of exhaustion?
-   * @param {string} key      A key in `DND5E.conditionEffects`.
+   * @param {string} key      A key in `DEGRINGO5E.conditionEffects`.
    * @returns {boolean}       Whether the actor is affected.
    */
   hasConditionEffect(key) {
-    const props = CONFIG.DND5E.conditionEffects[key] ?? new Set();
+    const props = CONFIG.DEGRINGO5E.conditionEffects[key] ?? new Set();
     const level = this.system.attributes?.exhaustion ?? null;
     const imms = this.system.traits?.ci?.value ?? new Set();
     const applyExhaustion = (level !== null) && !imms.has("exhaustion")
@@ -405,7 +405,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       } else progression.slot = this.system.attributes.spell.level ?? 0;
     }
 
-    for ( const type of Object.keys(CONFIG.DND5E.spellcastingTypes) ) {
+    for ( const type of Object.keys(CONFIG.DEGRINGO5E.spellcastingTypes) ) {
       this.constructor.prepareSpellcastingSlots(this.system.spells, type, progression, { actor: this });
     }
   }
@@ -459,7 +459,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {number} count                          Number of classes with this type of spellcasting.
    */
   static computeLeveledProgression(progression, actor, cls, spellcasting, count) {
-    const prog = CONFIG.DND5E.spellcastingTypes.leveled.progression[spellcasting.progression];
+    const prog = CONFIG.DEGRINGO5E.spellcastingTypes.leveled.progression[spellcasting.progression];
     if ( !prog ) return;
     const rounding = prog.roundUp ? Math.ceil : Math.floor;
     progression.slot += rounding(spellcasting.levels / prog.divisor ?? 1);
@@ -519,11 +519,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {object} progression   Spellcasting progression data.
    */
   static prepareLeveledSlots(spells, actor, progression) {
-    const levels = Math.clamp(progression.slot, 0, CONFIG.DND5E.maxLevel);
-    const slots = CONFIG.DND5E.SPELL_SLOT_TABLE[Math.min(levels, CONFIG.DND5E.SPELL_SLOT_TABLE.length) - 1] ?? [];
-    for ( const level of Array.fromRange(Object.keys(CONFIG.DND5E.spellLevels).length - 1, 1) ) {
+    const levels = Math.clamp(progression.slot, 0, CONFIG.DEGRINGO5E.maxLevel);
+    const slots = CONFIG.DEGRINGO5E.SPELL_SLOT_TABLE[Math.min(levels, CONFIG.DEGRINGO5E.SPELL_SLOT_TABLE.length) - 1] ?? [];
+    for ( const level of Array.fromRange(Object.keys(CONFIG.DEGRINGO5E.spellLevels).length - 1, 1) ) {
       const slot = spells[`spell${level}`] ??= { value: 0 };
-      slot.label = CONFIG.DND5E.spellLevels[level];
+      slot.label = CONFIG.DEGRINGO5E.spellLevels[level];
       slot.level = level;
       slot.max = Number.isNumeric(slot.override) ? Math.max(parseInt(slot.override), 0) : slots[level - 1] ?? 0;
       slot.type = "leveled";
@@ -547,7 +547,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     // - x.value: Currently available slots
     // - x.override: Override number of available spell slots
 
-    let keyLevel = Math.clamp(progression[key], 0, CONFIG.DND5E.maxLevel);
+    let keyLevel = Math.clamp(progression[key], 0, CONFIG.DEGRINGO5E.maxLevel);
     spells[key] ??= {};
     spells[key].type = key;
     const override = Number.isNumeric(spells[key].override) ? parseInt(spells[key].override) : null;
@@ -580,8 +580,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {object} progression   Spellcasting progression data.
    */
   static preparePactSlots(spells, actor, progression) {
-    this.prepareAltSlots(spells, actor, progression, "pact", CONFIG.DND5E.pactCastingProgression);
-    spells.pact.label = game.i18n.localize("DND5E.PactMagic");
+    this.prepareAltSlots(spells, actor, progression, "pact", CONFIG.DEGRINGO5E.pactCastingProgression);
+    spells.pact.label = game.i18n.localize("DEGRINGO5E.PactMagic");
   }
 
   /* -------------------------------------------- */
@@ -598,7 +598,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     // Configure prototype token settings
     const prototypeToken = {};
     if ( "size" in (this.system.traits || {}) ) {
-      const size = CONFIG.DND5E.actorSizes[this.system.traits.size || "med"].token ?? 1;
+      const size = CONFIG.DEGRINGO5E.actorSizes[this.system.traits.size || "med"].token ?? 1;
       if ( !foundry.utils.hasProperty(data, "prototypeToken.width") ) prototypeToken.width = size;
       if ( !foundry.utils.hasProperty(data, "prototypeToken.height") ) prototypeToken.height = size;
     }
@@ -618,7 +618,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( "size" in (this.system.traits || {}) ) {
       const newSize = foundry.utils.getProperty(changed, "system.traits.size");
       if ( newSize && (newSize !== this.system.traits?.size) ) {
-        let size = CONFIG.DND5E.actorSizes[newSize].token ?? 1;
+        let size = CONFIG.DEGRINGO5E.actorSizes[newSize].token ?? 1;
         if ( !foundry.utils.hasProperty(changed, "prototypeToken.width") ) {
           changed.prototypeToken ||= {};
           changed.prototypeToken.height = size;
@@ -824,13 +824,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         && !ignore("immunity", type, true) ) return true;
       const config = traits[category];
       if ( !config?.value.has(type) ) return false;
-      if ( !CONFIG.DND5E.damageTypes[type]?.isPhysical || !properties?.size ) return true;
+      if ( !CONFIG.DEGRINGO5E.damageTypes[type]?.isPhysical || !properties?.size ) return true;
       return !config.bypasses?.intersection(properties)?.size;
     };
 
     const skipped = type => {
-      if ( options.only === "damage" ) return type in CONFIG.DND5E.healingTypes;
-      if ( options.only === "healing" ) return type in CONFIG.DND5E.damageTypes;
+      if ( options.only === "damage" ) return type in CONFIG.DEGRINGO5E.healingTypes;
+      if ( options.only === "healing" ) return type in CONFIG.DEGRINGO5E.damageTypes;
       return false;
     };
 
@@ -1029,7 +1029,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       action: "concentration",
       dc: dc
     };
-    if ( ability in CONFIG.DND5E.abilities ) dataset.ability = ability;
+    if ( ability in CONFIG.DEGRINGO5E.abilities ) dataset.ability = ability;
 
     const config = {
       type: "concentration",
@@ -1063,7 +1063,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   _isRemarkableAthlete(ability) {
     return (game.settings.get("dnd5e", "rulesVersion") === "legacy") && this.getFlag("dnd5e", "remarkableAthlete")
-      && CONFIG.DND5E.characterFlags.remarkableAthlete.abilities.includes(ability);
+      && CONFIG.DEGRINGO5E.characterFlags.remarkableAthlete.abilities.includes(ability);
   }
 
   /* -------------------------------------------- */
@@ -1077,7 +1077,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   addRollExhaustion(parts, data) {
     if ( (game.settings.get("dnd5e", "rulesVersion") !== "modern") || !this.system.attributes?.exhaustion ) return;
-    const amount = this.system.attributes.exhaustion * (CONFIG.DND5E.conditionTypes.exhaustion?.reduction?.rolls ?? 0);
+    const amount = this.system.attributes.exhaustion * (CONFIG.DEGRINGO5E.conditionTypes.exhaustion?.reduction?.rolls ?? 0);
     if ( amount ) {
       parts.push("@exhaustion");
       data.exhaustion = -amount;
@@ -1094,13 +1094,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @returns {Promise<D20Roll[]|null>}                          A Promise which resolves to the created Roll instance.
    */
   async rollSkill(config={}, dialog={}, message={}) {
-    const skillLabel = CONFIG.DND5E.skills[config.skill]?.label ?? "";
-    const ability = this.system.skills[config.skill]?.ability ?? CONFIG.DND5E.skills[config.skill]?.ability ?? "";
-    const abilityLabel = CONFIG.DND5E.abilities[ability]?.label ?? "";
+    const skillLabel = CONFIG.DEGRINGO5E.skills[config.skill]?.label ?? "";
+    const ability = this.system.skills[config.skill]?.ability ?? CONFIG.DEGRINGO5E.skills[config.skill]?.ability ?? "";
+    const abilityLabel = CONFIG.DEGRINGO5E.abilities[ability]?.label ?? "";
     const dialogConfig = foundry.utils.mergeObject({
       options: {
         window: {
-          title: game.i18n.format("DND5E.SkillPromptTitle", { skill: skillLabel, ability: abilityLabel }),
+          title: game.i18n.format("DEGRINGO5E.SkillPromptTitle", { skill: skillLabel, ability: abilityLabel }),
           subtitle: this.name
         }
       }
@@ -1122,7 +1122,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const dialogConfig = foundry.utils.mergeObject({
       options: {
         window: {
-          title: game.i18n.format("DND5E.ToolPromptTitle", { tool: toolLabel }),
+          title: game.i18n.format("DEGRINGO5E.ToolPromptTitle", { tool: toolLabel }),
           subtitle: this.name
         }
       }
@@ -1158,8 +1158,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     let oldFormat = false;
     const name = type === "skill" ? "Skill" : "ToolCheck";
 
-    const skillConfig = CONFIG.DND5E.skills[config.skill];
-    const toolConfig = CONFIG.DND5E.tools[config.tool] ?? CONFIG.DND5E.vehicleTypes[config.tool];
+    const skillConfig = CONFIG.DEGRINGO5E.skills[config.skill];
+    const toolConfig = CONFIG.DEGRINGO5E.tools[config.tool] ?? CONFIG.DEGRINGO5E.vehicleTypes[config.tool];
     if ( ((type === "skill") && !skillConfig) || ((type === "tool") && !toolConfig) ) {
       return this.rollAbilityCheck(config, dialog, message);
     }
@@ -1191,7 +1191,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       }
     }, dialog);
 
-    const abilityLabel = CONFIG.DND5E.abilities[relevant?.ability ?? skillConfig?.ability ?? ""]?.label;
+    const abilityLabel = CONFIG.DEGRINGO5E.abilities[relevant?.ability ?? skillConfig?.ability ?? ""]?.label;
 
     const messageConfig = foundry.utils.mergeObject({
       create: true,
@@ -1206,8 +1206,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           }
         },
         flavor: type === "skill"
-          ? game.i18n.format("DND5E.SkillPromptTitle", { skill: skillConfig.label, ability: abilityLabel })
-          : game.i18n.format("DND5E.ToolPromptTitle", { tool: Trait.keyLabel(config.tool, { trait: "tool" }) ?? "" }),
+          ? game.i18n.format("DEGRINGO5E.SkillPromptTitle", { skill: skillConfig.label, ability: abilityLabel })
+          : game.i18n.format("DEGRINGO5E.ToolPromptTitle", { tool: Trait.keyLabel(config.tool, { trait: "tool" }) ?? "" }),
         speaker: ChatMessage.getSpeaker({ actor: this })
       }
     }, message);
@@ -1222,8 +1222,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @memberof hookEvents
      * @param {D20Roll[]} rolls       The resulting rolls.
      * @param {object} data
-     * @param {string} [data.skill]   ID of the skill that was rolled as defined in `CONFIG.DND5E.skills`.
-     * @param {string} [data.tool]    ID of the tool that was rolled as defined in `CONFIG.DND5E.tools`.
+     * @param {string} [data.skill]   ID of the skill that was rolled as defined in `CONFIG.DEGRINGO5E.skills`.
+     * @param {string} [data.tool]    ID of the tool that was rolled as defined in `CONFIG.DEGRINGO5E.tools`.
      * @param {Actor5e} data.subject  Actor for which the roll has been performed.
      */
     Hooks.callAll(`dnd5e.roll${name}`, rolls, { [type]: config[type], subject: this });
@@ -1279,17 +1279,17 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   rollAbility(config={}, dialog={}, message={}) {
     const abilityId = config.ability;
-    const label = CONFIG.DND5E.abilities[abilityId]?.label ?? "";
+    const label = CONFIG.DEGRINGO5E.abilities[abilityId]?.label ?? "";
     new Dialog({
-      title: `${game.i18n.format("DND5E.AbilityPromptTitle", { ability: label })}: ${this.name}`,
-      content: `<p>${game.i18n.format("DND5E.AbilityPromptText", { ability: label })}</p>`,
+      title: `${game.i18n.format("DEGRINGO5E.AbilityPromptTitle", { ability: label })}: ${this.name}`,
+      content: `<p>${game.i18n.format("DEGRINGO5E.AbilityPromptText", { ability: label })}</p>`,
       buttons: {
         test: {
-          label: game.i18n.localize("DND5E.ActionAbil"),
+          label: game.i18n.localize("DEGRINGO5E.ActionAbil"),
           callback: () => this.rollAbilityCheck(config, dialog, message)
         },
         save: {
-          label: game.i18n.localize("DND5E.ActionSave"),
+          label: game.i18n.localize("DEGRINGO5E.ActionSave"),
           callback: () => this.rollSavingThrow(config, dialog, message)
         }
       }
@@ -1306,11 +1306,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @returns {Promise<D20Roll[]|null>}                        A Promise which resolves to the created Roll instance.
    */
   async rollAbilityCheck(config={}, dialog={}, message={}) {
-    const abilityLabel = CONFIG.DND5E.abilities[config.ability]?.label ?? "";
+    const abilityLabel = CONFIG.DEGRINGO5E.abilities[config.ability]?.label ?? "";
     const dialogConfig = foundry.utils.mergeObject({
       options: {
         window: {
-          title: game.i18n.format("DND5E.AbilityPromptTitle", { ability: abilityLabel }),
+          title: game.i18n.format("DEGRINGO5E.AbilityPromptTitle", { ability: abilityLabel }),
           subtitle: this.name
         }
       }
@@ -1328,11 +1328,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @returns {Promise<D20Roll[]|null>}                        A Promise which resolves to the created Roll instances.
    */
   async rollSavingThrow(config={}, dialog={}, message={}) {
-    const abilityLabel = CONFIG.DND5E.abilities[config.ability]?.label ?? "";
+    const abilityLabel = CONFIG.DEGRINGO5E.abilities[config.ability]?.label ?? "";
     const dialogConfig = foundry.utils.mergeObject({
       options: {
         window: {
-          title: game.i18n.format("DND5E.SavePromptTitle", { ability: abilityLabel }),
+          title: game.i18n.format("DEGRINGO5E.SavePromptTitle", { ability: abilityLabel }),
           subtitle: this.name
         }
       }
@@ -1344,7 +1344,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
   /**
    * @typedef {D20RollProcessConfiguration} AbilityRollProcessConfiguration
-   * @property {string} [ability]  ID of the ability to roll as found in `CONFIG.DND5E.abilities`.
+   * @property {string} [ability]  ID of the ability to roll as found in `CONFIG.DEGRINGO5E.abilities`.
    */
 
   /**
@@ -1360,7 +1360,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const name = type === "check" ? "AbilityCheck" : "SavingThrow";
 
     const ability = this.system.abilities?.[config.ability];
-    const abilityConfig = CONFIG.DND5E.abilities[config.ability];
+    const abilityConfig = CONFIG.DEGRINGO5E.abilities[config.ability];
 
     const rollData = this.getRollData();
     let { parts, data } = CONFIG.Dice.BasicRoll.constructParts({
@@ -1397,7 +1397,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           }
         },
         flavor: game.i18n.format(
-          `DND5E.${type === "check" ? "Ability" : "Save"}PromptTitle`, { ability: abilityConfig?.label ?? "" }
+          `DEGRINGO5E.${type === "check" ? "Ability" : "Save"}PromptTitle`, { ability: abilityConfig?.label ?? "" }
         ),
         speaker: ChatMessage.getSpeaker({ actor: this })
       }
@@ -1418,7 +1418,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @memberof hookEvents
      * @param {D20Roll[]} rolls       The resulting rolls.
      * @param {object} data
-     * @param {string} data.ability   ID of the ability that was rolled as defined in `CONFIG.DND5E.abilities`.
+     * @param {string} data.ability   ID of the ability that was rolled as defined in `CONFIG.DEGRINGO5E.abilities`.
      * @param {Actor5e} data.subject  Actor for which the roll has been performed.
      */
     Hooks.callAll(`dnd5e.roll${name}`, rolls, { ability: config.ability, subject: this });
@@ -1442,7 +1442,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     // Display a warning if we are not at zero HP or if we already have reached 3
     if ( (this.system.attributes.hp.value > 0) || (death.failure >= 3) || (death.success >= 3) ) {
-      ui.notifications.warn("DND5E.DeathSaveUnnecessary", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.DeathSaveUnnecessary", { localize: true });
       return null;
     }
 
@@ -1481,7 +1481,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
             }
           }
         },
-        flavor: game.i18n.localize("DND5E.DeathSavingThrow")
+        flavor: game.i18n.localize("DEGRINGO5E.DeathSavingThrow")
       }
     }, message);
 
@@ -1504,7 +1504,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           "system.attributes.death.failure": 0,
           "system.attributes.hp.value": 1
         };
-        details.chatString = "DND5E.DeathSaveCriticalSuccess";
+        details.chatString = "DEGRINGO5E.DeathSaveCriticalSuccess";
       }
 
       // 3 Successes = survive and reset checks
@@ -1513,7 +1513,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           "system.attributes.death.success": 0,
           "system.attributes.death.failure": 0
         };
-        details.chatString = "DND5E.DeathSaveSuccess";
+        details.chatString = "DEGRINGO5E.DeathSaveSuccess";
       }
 
       // Increment successes
@@ -1525,7 +1525,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       let failures = (death.failure || 0) + (roll.isFumble ? 2 : 1);
       details.updates = {"system.attributes.death.failure": Math.clamp(failures, 0, 3)};
       if ( failures >= 3 ) {  // 3 Failures = death
-        details.chatString = "DND5E.DeathSaveFailure";
+        details.chatString = "DEGRINGO5E.DeathSaveFailure";
       }
     }
 
@@ -1600,7 +1600,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( conc.bonuses.save ) parts.push(conc.bonuses.save);
 
     const rollConfig = foundry.utils.mergeObject({
-      ability: (conc.ability in CONFIG.DND5E.abilities) ? conc.ability : CONFIG.DND5E.defaultAbilities.concentration,
+      ability: (conc.ability in CONFIG.DEGRINGO5E.abilities) ? conc.ability : CONFIG.DEGRINGO5E.defaultAbilities.concentration,
       isConcentration: true,
       target: 10
     }, config);
@@ -1612,7 +1612,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const dialogConfig = foundry.utils.mergeObject({
       options: {
         window: {
-          title: game.i18n.format("DND5E.SavePromptTitle", { ability: game.i18n.localize("DND5E.Concentration") })
+          title: game.i18n.format("DEGRINGO5E.SavePromptTitle", { ability: game.i18n.localize("DEGRINGO5E.Concentration") })
         }
       }
     }, dialog);
@@ -1676,7 +1676,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   getInitiativeRollConfig(options={}) {
     const init = this.system.attributes?.init;
     const flags = this.flags.dnd5e ?? {};
-    const abilityId = init?.ability || CONFIG.DND5E.defaultAbilities.initiative;
+    const abilityId = init?.ability || CONFIG.DEGRINGO5E.defaultAbilities.initiative;
     const ability = this.system.abilities?.[abilityId];
 
     const rollData = this.getRollData();
@@ -1705,7 +1705,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     options = foundry.utils.mergeObject({
       fixed: useScore ? init.score : undefined,
-      flavor: options.flavor ?? game.i18n.localize("DND5E.Initiative"),
+      flavor: options.flavor ?? game.i18n.localize("DEGRINGO5E.Initiative"),
       halflingLucky: flags.halflingLucky ?? false,
       maximum: init.roll.max,
       minimum: init.roll.min
@@ -1745,7 +1745,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     // Display the roll configuration dialog
     const messageOptions = { rollMode: game.settings.get("core", "rollMode") };
     if ( config.rolls[0].options?.fixed === undefined ) {
-      const dialog = { options: { title: game.i18n.localize("DND5E.InitiativeRoll") } };
+      const dialog = { options: { title: game.i18n.localize("DEGRINGO5E.InitiativeRoll") } };
       const rolls = await CONFIG.Dice.D20Roll.build(config, dialog, messageOptions);
       if ( !rolls.length ) return;
       this._cachedInitiativeRoll = rolls[0];
@@ -1826,7 +1826,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
       // If no hit dice are available, display an error notification
       if ( !this.system.attributes.hd.value ) {
-        ui.notifications.error(game.i18n.format("DND5E.HitDiceNPCWarn", {name: this.name}));
+        ui.notifications.error(game.i18n.format("DEGRINGO5E.HitDiceNPCWarn", {name: this.name}));
         return null;
       }
     }
@@ -1847,7 +1847,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
       // If no class is available, display an error notification
       if ( !cls ) {
-        ui.notifications.error(game.i18n.format("DND5E.HitDiceWarn", {name: this.name, formula: config.denomination}));
+        ui.notifications.error(game.i18n.format("DEGRINGO5E.HitDiceWarn", {name: this.name, formula: config.denomination}));
         return null;
       }
     }
@@ -1862,7 +1862,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       configure: false
     }, dialog);
 
-    const flavor = game.i18n.localize("DND5E.HitDiceRoll");
+    const flavor = game.i18n.localize("DEGRINGO5E.HitDiceRoll");
     const messageConfig = foundry.utils.mergeObject({
       rollMode: game.settings.get("core", "rollMode"),
       data: {
@@ -1937,7 +1937,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       data: item.getRollData(),
       chatMessage
     };
-    const flavor = game.i18n.format("DND5E.ADVANCEMENT.HitPoints.Roll", { class: item.name });
+    const flavor = game.i18n.format("DEGRINGO5E.ADVANCEMENT.HitPoints.Roll", { class: item.name });
     const messageData = {
       title: `${flavor}: ${this.name}`,
       flavor,
@@ -1990,7 +1990,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       data: this.getRollData(),
       chatMessage
     };
-    const flavor = game.i18n.format("DND5E.HPFormulaRollMessage");
+    const flavor = game.i18n.format("DEGRINGO5E.HPFormulaRollMessage");
     const messageData = {
       title: `${flavor}: ${this.name}`,
       flavor,
@@ -2077,10 +2077,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( this.type === "vehicle" ) return;
     const clone = this.clone();
 
-    const restConfig = CONFIG.DND5E.restTypes.short;
+    const restConfig = CONFIG.DEGRINGO5E.restTypes.short;
     config = foundry.utils.mergeObject({
       type: "short", dialog: true, chat: true, newDay: false, advanceTime: false, autoHD: false, autoHDThreshold: 3,
-      duration: CONFIG.DND5E.restTypes.short.duration[game.settings.get("dnd5e", "restVariant")],
+      duration: CONFIG.DEGRINGO5E.restTypes.short.duration[game.settings.get("dnd5e", "restVariant")],
       recoverTemp: restConfig.recoverTemp, recoverTempMax: restConfig.recoverTempMax
     }, config);
 
@@ -2135,10 +2135,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( this.type === "vehicle" ) return;
     const clone = this.clone();
 
-    const restConfig = CONFIG.DND5E.restTypes.long;
+    const restConfig = CONFIG.DEGRINGO5E.restTypes.long;
     config = foundry.utils.mergeObject({
       type: "long", dialog: true, chat: true, newDay: true, advanceTime: false,
-      duration: CONFIG.DND5E.restTypes.long.duration[game.settings.get("dnd5e", "restVariant")],
+      duration: CONFIG.DEGRINGO5E.restTypes.long.duration[game.settings.get("dnd5e", "restVariant")],
       recoverTemp: restConfig.recoverTemp, recoverTempMax: restConfig.recoverTempMax
     }, config);
 
@@ -2282,22 +2282,22 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const healthRestored = dhp !== 0;
     const longRest = config.type === "long";
     const length = longRest ? "Long" : "Short";
-    const typeConfig = CONFIG.DND5E.restTypes[config.type] ?? {};
+    const typeConfig = CONFIG.DEGRINGO5E.restTypes[config.type] ?? {};
 
     // Determine the chat message to display
     let message;
-    if ( diceRestored && healthRestored ) message = `DND5E.REST.${length}.Result.Full`;
-    else if ( longRest && !diceRestored && healthRestored ) message = "DND5E.REST.Long.Result.HitPoints";
-    else if ( longRest && diceRestored && !healthRestored ) message = "DND5E.REST.Long.Result.HitDice";
-    else message = `DND5E.REST.${length}.Result.Short`;
+    if ( diceRestored && healthRestored ) message = `DEGRINGO5E.REST.${length}.Result.Full`;
+    else if ( longRest && !diceRestored && healthRestored ) message = "DEGRINGO5E.REST.Long.Result.HitPoints";
+    else if ( longRest && diceRestored && !healthRestored ) message = "DEGRINGO5E.REST.Long.Result.HitDice";
+    else message = `DEGRINGO5E.REST.${length}.Result.Short`;
 
     // Create a chat message
     const pr = new Intl.PluralRules(game.i18n.lang);
     let chatData = {
       content: game.i18n.format(message, {
         name: this.name,
-        dice: game.i18n.format(`DND5E.HITDICE.Counted.${pr.select(dhd)}`, { number: formatNumber(dhd) }),
-        health: game.i18n.format(`DND5E.HITPOINTS.Counted.${pr.select(dhp)}`, { number: formatNumber(dhp) })
+        dice: game.i18n.format(`DEGRINGO5E.HITDICE.Counted.${pr.select(dhd)}`, { number: formatNumber(dhd) }),
+        health: game.i18n.format(`DEGRINGO5E.HITPOINTS.Counted.${pr.select(dhp)}`, { number: formatNumber(dhp) })
       }),
       flavor: this.createRestFlavor(config, result),
       type: "rest",
@@ -2323,10 +2323,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @returns {string}
    */
   createRestFlavor(config, result) {
-    const typeConfig = CONFIG.DND5E.restTypes[config.type] ?? {};
+    const typeConfig = CONFIG.DEGRINGO5E.restTypes[config.type] ?? {};
     const duration = convertTime(config.duration, "minute");
     const parts = [formatTime(duration.value, duration.unit)];
-    if ( result?.newDay ?? config.newDay ) parts.push(game.i18n.localize("DND5E.REST.NewDay.Label").toLowerCase());
+    if ( result?.newDay ?? config.newDay ) parts.push(game.i18n.localize("DEGRINGO5E.REST.NewDay.Label").toLowerCase());
     return `${typeConfig.label} (${game.i18n.getListFormatter({ type: "unit" }).format(parts)})`;
   }
 
@@ -2364,7 +2364,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @protected
    */
   _getRestHitDiceRecovery({ maxHitDice, fraction, ...config }={}, result={}) {
-    const restConfig = CONFIG.DND5E.restTypes[config.type];
+    const restConfig = CONFIG.DEGRINGO5E.restTypes[config.type];
     if ( !this.system.attributes.hd || !restConfig?.recoverHitDice ) return;
     fraction ??= game.settings.get("dnd5e", "rulesVersion") === "modern" ? 1 : 0.5;
 
@@ -2399,7 +2399,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @protected
    */
   _getRestHitPointRecovery({ recoverTemp, recoverTempMax, ...config }={}, result={}) {
-    const restConfig = CONFIG.DND5E.restTypes[config.type ?? "long"];
+    const restConfig = CONFIG.DEGRINGO5E.restTypes[config.type ?? "long"];
     const hp = this.system.attributes?.hp;
     if ( !hp || !restConfig.recoverHitPoints ) return;
 
@@ -2445,13 +2445,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @protected
    */
   _getRestSpellRecovery({ recoverShort, recoverLong, ...config }={}, result={}) {
-    const restConfig = CONFIG.DND5E.restTypes[config.type];
+    const restConfig = CONFIG.DEGRINGO5E.restTypes[config.type];
     if ( !this.system.spells ) return;
 
     let types = restConfig.recoverSpellSlotTypes;
     if ( !types ) {
       types = new Set();
-      for ( const [key, { shortRest }] of Object.entries(CONFIG.DND5E.spellcastingTypes) ) {
+      for ( const [key, { shortRest }] of Object.entries(CONFIG.DEGRINGO5E.spellcastingTypes) ) {
         if ( recoverLong || (recoverShort && shortRest) ) types.add(key);
       }
     }
@@ -2475,7 +2475,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   async _getRestItemUsesRecovery({
     recoverShortRestUses, recoverLongRestUses, recoverDailyUses, ...config
   }={}, result={}) {
-    const restConfig = CONFIG.DND5E.restTypes[config.type];
+    const restConfig = CONFIG.DEGRINGO5E.restTypes[config.type];
     const recovery = Array.from(restConfig.recoverPeriods ?? []);
     if ( recoverShortRestUses ) recovery.unshift("sr");
     if ( recoverLongRestUses ) recovery.unshift("lr");
@@ -2525,7 +2525,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   _prepareMovementAttribution() {
     const { movement } = this.system.attributes;
     const units = movement.units || defaultUnits("length");
-    return Object.entries(CONFIG.DND5E.movementTypes).reduce((html, [k, label]) => {
+    return Object.entries(CONFIG.DEGRINGO5E.movementTypes).reduce((html, [k, label]) => {
       const value = movement[k];
       if ( value || (k === "walk") ) html += `
         <div class="row">
@@ -2550,12 +2550,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   async _prepareArmorClassAttribution({ title }={}) {
     const rollData = this.getRollData({ deterministic: true });
     const ac = rollData.attributes.ac;
-    const cfg = CONFIG.DND5E.armorClasses[ac.calc];
+    const cfg = CONFIG.DEGRINGO5E.armorClasses[ac.calc];
     const attribution = [];
 
     if ( ac.calc === "flat" ) {
       attribution.push({
-        label: game.i18n.localize("DND5E.ArmorClassFlat"),
+        label: game.i18n.localize("DEGRINGO5E.ArmorClassFlat"),
         mode: CONST.ACTIVE_EFFECT_MODES.OVERRIDE,
         value: ac.flat
       });
@@ -2568,7 +2568,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       // Natural armor
       case "natural":
         attribution.push({
-          label: game.i18n.localize("DND5E.ArmorClassNatural"),
+          label: game.i18n.localize("DEGRINGO5E.ArmorClassNatural"),
           mode: CONST.ACTIVE_EFFECT_MODES.OVERRIDE,
           value: ac.flat
         });
@@ -2589,8 +2589,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           });
         }
         const armorInFormula = formula.includes("@attributes.ac.armor");
-        let label = game.i18n.localize("DND5E.PropertyBase");
-        if ( armorInFormula ) label = this.armor?.name ?? game.i18n.localize("DND5E.ArmorClassUnarmored");
+        let label = game.i18n.localize("DEGRINGO5E.PropertyBase");
+        if ( armorInFormula ) label = this.armor?.name ?? game.i18n.localize("DEGRINGO5E.ArmorClassUnarmored");
         attribution.unshift({
           label,
           mode: CONST.ACTIVE_EFFECT_MODES.OVERRIDE,
@@ -2601,7 +2601,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     // Shield
     if ( ac.shield !== 0 ) attribution.push({
-      label: this.shield?.name ?? game.i18n.localize("DND5E.EquipmentShield"),
+      label: this.shield?.name ?? game.i18n.localize("DEGRINGO5E.EquipmentShield"),
       mode: CONST.ACTIVE_EFFECT_MODES.ADD,
       value: ac.shield
     });
@@ -2611,7 +2611,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     // Cover
     if ( ac.cover !== 0 ) attribution.push({
-      label: game.i18n.localize("DND5E.Cover"),
+      label: game.i18n.localize("DEGRINGO5E.Cover"),
       mode: CONST.ACTIVE_EFFECT_MODES.ADD,
       value: ac.cover
     });
@@ -2694,7 +2694,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     // Ensure the player is allowed to polymorph
     const allowed = game.settings.get("dnd5e", "allowPolymorphing");
     if ( !allowed && !game.user.isGM ) {
-      ui.notifications.warn("DND5E.TRANSFORM.Warning.NoPermission", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.TRANSFORM.Warning.NoPermission", { localize: true });
       return null;
     }
 
@@ -2711,7 +2711,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     if ( settings.keep.has("self") ) {
       o.img = sourceData.img;
-      o.name = `${o.name} (${game.i18n.localize("DND5E.TRANSFORM.Preset.Appearance.Label")})`;
+      o.name = `${o.name} (${game.i18n.localize("DEGRINGO5E.TRANSFORM.Preset.Appearance.Label")})`;
     }
 
     // Prepare new data to merge from the source
@@ -2766,7 +2766,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       for ( let k of Object.keys(abilities) ) {
         const oa = o.system.abilities[k];
         const prof = abilities[k].proficient;
-        const type = CONFIG.DND5E.abilities[k]?.type;
+        const type = CONFIG.DEGRINGO5E.abilities[k]?.type;
         if ( settings.keep.has("physical") && (type === "physical") ) abilities[k] = oa;
         else if ( settings.keep.has("mental") && (type === "mental") ) abilities[k] = oa;
 
@@ -2802,7 +2802,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           let profOverride = d.effects.findSplice(e => e._id === staticID("dnd5eTransformProf"));
           if ( !profOverride ) profOverride = new ActiveEffect.implementation({
             _id: staticID("dnd5eTransformProf"),
-            name: game.i18n.localize("DND5E.Proficiency"),
+            name: game.i18n.localize("DEGRINGO5E.Proficiency"),
             img: "icons/skills/social/diplomacy-peace-alliance.webp",
             disabled: false
           }).toObject();
@@ -2816,7 +2816,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
           const cls = new dnd5e.dataModels.item.ClassData({ levels: d.system.details.cr });
           d.items.push({
             type: "class",
-            name: game.i18n.localize("DND5E.TRANSFORM.TemporaryClass"),
+            name: game.i18n.localize("DEGRINGO5E.TRANSFORM.TemporaryClass"),
             system: cls.toObject()
           });
         }
@@ -2972,7 +2972,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   async revertOriginalForm(options={}) {
     if ( !this.isPolymorphed ) return;
     if ( !this.isOwner ) {
-      ui.notifications.warn("DND5E.TRANSFORM.Warning.NoOwnership", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.TRANSFORM.Warning.NoOwnership", { localize: true });
       return null;
     }
 
@@ -2998,7 +2998,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( this.isToken ) {
       const baseActor = original ? original : game.actors.get(this.token.actorId);
       if ( !baseActor ) {
-        ui.notifications.warn(game.i18n.format("DND5E.TRANSFORM.Warning.OriginalActor", {
+        ui.notifications.warn(game.i18n.format("DEGRINGO5E.TRANSFORM.Warning.OriginalActor", {
           reference: this.getFlag("dnd5e", "originalActor")
         }));
         return;
@@ -3034,7 +3034,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     }
 
     if ( !original ) {
-      ui.notifications.warn(game.i18n.format("DND5E.TRANSFORM.Warning.OriginalActor", {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.TRANSFORM.Warning.OriginalActor", {
         reference: this.getFlag("dnd5e", "originalActor")
       }));
       return;
@@ -3085,7 +3085,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   static addDirectoryContextOptions(app, entryOptions) {
     if ( app instanceof foundry.applications.sidebar.apps.Compendium ) return;
     entryOptions.push({
-      name: "DND5E.TRANSFORM.Action.Restore",
+      name: "DEGRINGO5E.TRANSFORM.Action.Restore",
       icon: '<i class="fa-solid fa-backward"></i>',
       callback: li => {
         const actor = game.actors.get(li.dataset.documentId ?? li.dataset.entryId);
@@ -3099,7 +3099,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       },
       group: "system"
     }, {
-      name: "DND5E.Group.Primary.Set",
+      name: "DEGRINGO5E.Group.Primary.Set",
       icon: '<i class="fa-solid fa-star"></i>',
       callback: li => {
         game.settings.set("dnd5e", "primaryParty", { actor: game.actors.get(li.dataset.documentId ?? li.dataset.entryId) });
@@ -3112,7 +3112,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       },
       group: "system"
     }, {
-      name: "DND5E.Group.Primary.Remove",
+      name: "DEGRINGO5E.Group.Primary.Remove",
       icon: '<i class="fa-regular fa-star"></i>',
       callback: li => {
         game.settings.set("dnd5e", "primaryParty", { actor: null });
@@ -3152,14 +3152,14 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     let localizedType;
     if ( typeData.value === "custom" ) {
       localizedType = typeData.custom;
-    } else if ( typeData.value in CONFIG.DND5E.creatureTypes ) {
-      const code = CONFIG.DND5E.creatureTypes[typeData.value];
+    } else if ( typeData.value in CONFIG.DEGRINGO5E.creatureTypes ) {
+      const code = CONFIG.DEGRINGO5E.creatureTypes[typeData.value];
       localizedType = game.i18n.localize(typeData.swarm ? code.plural : code.label);
     }
     let type = localizedType;
     if ( typeData.swarm ) {
-      type = game.i18n.format("DND5E.CreatureSwarmPhrase", {
-        size: game.i18n.localize(CONFIG.DND5E.actorSizes[typeData.swarm].label),
+      type = game.i18n.format("DEGRINGO5E.CreatureSwarmPhrase", {
+        size: game.i18n.localize(CONFIG.DEGRINGO5E.actorSizes[typeData.swarm].label),
         type: localizedType
       });
     }
@@ -3289,7 +3289,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( !tokens.length ) return;
 
     const pct = Math.clamp(Math.abs(value) / this.system.attributes.hp.max, 0, 1);
-    const fill = CONFIG.DND5E.tokenHPColors[key];
+    const fill = CONFIG.DEGRINGO5E.tokenHPColors[key];
 
     for ( const token of tokens ) {
       if ( !token.object?.visible || token.isSecret ) continue;
@@ -3359,13 +3359,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     if ( !hp?.effectiveMax || (game.settings.get("dnd5e", "bloodied") === "none") ) return;
 
     const effect = this.effects.get(ActiveEffect5e.ID.BLOODIED);
-    if ( hp.value > hp.effectiveMax * CONFIG.DND5E.bloodied.threshold ) return effect?.delete();
+    if ( hp.value > hp.effectiveMax * CONFIG.DEGRINGO5E.bloodied.threshold ) return effect?.delete();
     if ( effect ) return;
 
     return ActiveEffect.implementation.create({
       _id: ActiveEffect5e.ID.BLOODIED,
-      name: game.i18n.localize(CONFIG.DND5E.bloodied.name),
-      img: CONFIG.DND5E.bloodied.img,
+      name: game.i18n.localize(CONFIG.DEGRINGO5E.bloodied.name),
+      img: CONFIG.DEGRINGO5E.bloodied.img,
       statuses: ["bloodied"]
     }, { parent: this, keepId: true });
   }
@@ -3389,7 +3389,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const effect = this.effects.get(ActiveEffect5e.ID.ENCUMBERED);
     if ( !statuses.length ) return effect?.delete();
 
-    const effectData = { ...CONFIG.DND5E.encumbrance.effects[statuses[0]], statuses };
+    const effectData = { ...CONFIG.DEGRINGO5E.encumbrance.effects[statuses[0]], statuses };
     if ( effect ) {
       const originalEncumbrance = effect.statuses.first();
       return effect.update(effectData, { dnd5e: { originalEncumbrance } });

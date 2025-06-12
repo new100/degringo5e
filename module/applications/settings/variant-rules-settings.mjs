@@ -7,7 +7,7 @@ export default class VariantRulesSettingsConfig extends BaseSettingsConfig {
   /** @override */
   static DEFAULT_OPTIONS = {
     window: {
-      title: "SETTINGS.DND5E.VARIANT.Label"
+      title: "SETTINGS.DEGRINGO5E.VARIANT.Label"
     }
   };
 
@@ -44,21 +44,21 @@ export default class VariantRulesSettingsConfig extends BaseSettingsConfig {
           this.createSettingField("proficiencyModifier"),
           this.createSettingField("levelingMode")
         ].filter(_ => _);
-        context.legend = game.i18n.localize("SETTINGS.DND5E.General");
+        context.legend = game.i18n.localize("SETTINGS.DEGRINGO5E.General");
         break;
       case "encumbrance":
         context.fields = [
           this.createSettingField("encumbrance"),
           this.createSettingField("currencyWeight")
         ];
-        context.legend = game.i18n.localize("DND5E.Encumbrance");
+        context.legend = game.i18n.localize("DEGRINGO5E.Encumbrance");
         break;
       case "abilities":
         context.fields = [
           this.createSettingField("honorScore"),
           this.createSettingField("sanityScore")
         ];
-        context.legend = game.i18n.localize("DND5E.Abilities");
+        context.legend = game.i18n.localize("DEGRINGO5E.Abilities");
         break;
     }
     return context;

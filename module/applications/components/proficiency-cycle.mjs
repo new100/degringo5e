@@ -159,7 +159,7 @@ export default class ProficiencyCycleElement extends AdoptedStyleSheetMixin(
     const input = this.#shadowRoot.querySelector("input");
     input.setAttribute("value", this._value);
     this._internals.ariaValueNow = this._value;
-    this._internals.ariaValueText = CONFIG.DND5E.proficiencyLevels[this._value];
+    this._internals.ariaValueText = CONFIG.DEGRINGO5E.proficiencyLevels[this._value];
     this._internals.setFormValue(this._value);
     this._primaryInput = this.#shadowRoot.querySelector("input");
   }

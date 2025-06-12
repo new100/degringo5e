@@ -56,20 +56,20 @@ export default class SummonSheet extends ActivitySheet {
     context = await super._prepareEffectContext(context);
 
     context.abilityOptions = [
-      { value: "", label: this.activity.isSpell ? game.i18n.localize("DND5E.Spellcasting") : "" },
+      { value: "", label: this.activity.isSpell ? game.i18n.localize("DEGRINGO5E.Spellcasting") : "" },
       { rule: true },
-      ...Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label }))
+      ...Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label }))
     ];
-    context.creatureSizeOptions = Object.entries(CONFIG.DND5E.actorSizes).map(([value, config]) => ({
+    context.creatureSizeOptions = Object.entries(CONFIG.DEGRINGO5E.actorSizes).map(([value, config]) => ({
       value, label: config.label, selected: this.activity.creatureSizes.has(value)
     }));
-    context.creatureTypeOptions = Object.entries(CONFIG.DND5E.creatureTypes).map(([value, config]) => ({
+    context.creatureTypeOptions = Object.entries(CONFIG.DEGRINGO5E.creatureTypes).map(([value, config]) => ({
       value, label: config.label, selected: this.activity.creatureTypes.has(value)
     }));
 
     context.profileModes = [
-      { value: "", label: game.i18n.localize("DND5E.SUMMON.FIELDS.summon.mode.Direct") },
-      { value: "cr", label: game.i18n.localize("DND5E.SUMMON.FIELDS.summon.mode.CR") }
+      { value: "", label: game.i18n.localize("DEGRINGO5E.SUMMON.FIELDS.summon.mode.Direct") },
+      { value: "cr", label: game.i18n.localize("DEGRINGO5E.SUMMON.FIELDS.summon.mode.CR") }
     ];
     context.profiles = this.activity.profiles.map((data, index) => ({
       data, index,
@@ -94,16 +94,16 @@ export default class SummonSheet extends ActivitySheet {
   /** @inheritDoc */
   _getTabs() {
     const tabs = super._getTabs();
-    tabs.effect.label = "DND5E.SUMMON.SECTIONS.Summoning";
+    tabs.effect.label = "DEGRINGO5E.SUMMON.SECTIONS.Summoning";
     tabs.effect.icon = "fa-solid fa-spaghetti-monster-flying";
     tabs.effect.tabs = this._markTabs({
       profiles: {
         id: "profiles", group: "effect", icon: "fa-solid fa-address-card",
-        label: "DND5E.SUMMON.SECTIONS.Profiles"
+        label: "DEGRINGO5E.SUMMON.SECTIONS.Profiles"
       },
       changes: {
         id: "changes", group: "effect", icon: "fa-solid fa-sliders",
-        label: "DND5E.SUMMON.SECTIONS.Changes"
+        label: "DEGRINGO5E.SUMMON.SECTIONS.Changes"
       }
     });
     return tabs;

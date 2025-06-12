@@ -28,7 +28,7 @@ export default class AdvancementSelection extends Dialog {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["dnd5e", "sheet", "advancement"],
       template: "systems/dnd5e/templates/advancement/advancement-selection.hbs",
-      title: "DND5E.AdvancementSelectionTitle",
+      title: "DEGRINGO5E.AdvancementSelectionTitle",
       width: 500,
       height: "auto"
     });
@@ -46,7 +46,7 @@ export default class AdvancementSelection extends Dialog {
   /** @inheritDoc */
   getData() {
     const context = { types: {} };
-    for ( let [name, config] of Object.entries(CONFIG.DND5E.advancementTypes) ) {
+    for ( let [name, config] of Object.entries(CONFIG.DEGRINGO5E.advancementTypes) ) {
       const advancement = config.documentClass;
       if ( config.hidden || !config.validItemTypes?.has(this.item.type) ) continue;
       context.types[name] = {

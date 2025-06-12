@@ -40,11 +40,11 @@ export default class ItemGrantConfig extends AdvancementConfig {
       index: fromUuidSync(data.uuid)
     }));
 
-    context.abilityOptions = Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label }));
+    context.abilityOptions = Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label }));
     context.showContainerWarning = context.items.some(i => i.index?.type === "container");
     context.showSpellConfig = context.items.some(i => i.index?.type === "spell");
     context.showRequireSpellSlot = !this.advancement.configuration.spell?.preparation
-      || CONFIG.DND5E.spellPreparationModes[this.advancement.configuration.spell?.preparation]?.upcast;
+      || CONFIG.DEGRINGO5E.spellPreparationModes[this.advancement.configuration.spell?.preparation]?.upcast;
 
     return context;
   }

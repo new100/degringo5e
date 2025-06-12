@@ -80,7 +80,7 @@ export default class CompendiumBrowser extends Application5e {
     classes: ["compendium-browser", "vertical-tabs"],
     tag: "form",
     window: {
-      title: "DND5E.CompendiumBrowser.Title",
+      title: "DEGRINGO5E.CompendiumBrowser.Title",
       minimizable: true,
       resizable: true
     },
@@ -198,7 +198,7 @@ export default class CompendiumBrowser extends Application5e {
     },
     {
       tab: "feats",
-      label: "DND5E.CompendiumBrowser.Tabs.Feat.other",
+      label: "DEGRINGO5E.CompendiumBrowser.Tabs.Feat.other",
       icon: "fas fa-star",
       documentClass: "Item",
       types: ["feat"]
@@ -212,7 +212,7 @@ export default class CompendiumBrowser extends Application5e {
     },
     {
       tab: "physical",
-      label: "DND5E.CompendiumBrowser.Tabs.Item.other",
+      label: "DEGRINGO5E.CompendiumBrowser.Tabs.Item.other",
       svg: "systems/dnd5e/icons/svg/backpack.svg",
       documentClass: "Item",
       types: ["physical"]
@@ -226,7 +226,7 @@ export default class CompendiumBrowser extends Application5e {
     },
     {
       tab: "monsters",
-      label: "DND5E.CompendiumBrowser.Tabs.Monster.other",
+      label: "DEGRINGO5E.CompendiumBrowser.Tabs.Monster.other",
       svg: "systems/dnd5e/icons/svg/monster.svg",
       documentClass: "Actor",
       types: ["npc"]
@@ -435,14 +435,14 @@ export default class CompendiumBrowser extends Application5e {
         return CompendiumBrowser.intersectFilters(first, second);
       }, null) ?? new Map();
     context.filterDefinitions.set("source", {
-      label: "DND5E.SOURCE.FIELDS.source.label",
+      label: "DEGRINGO5E.SOURCE.FIELDS.source.label",
       type: "set",
       config: {
         keyPath: "system.source.slug",
         choices: foundry.utils.mergeObject(
           this.#sources ?? {},
           Object.fromEntries(Object.keys(this.options.filters?.locked?.additional?.source ?? {}).map(k => {
-            return [k.slugify({ strict: true }), CONFIG.DND5E.sourceBooks[k] ?? k];
+            return [k.slugify({ strict: true }), CONFIG.DEGRINGO5E.sourceBooks[k] ?? k];
           })), { inplace: false }
         )
       }
@@ -484,7 +484,7 @@ export default class CompendiumBrowser extends Application5e {
     context.invalid = (value < (min || -Infinity)) || (value > (max || Infinity)) ? "invalid" : "";
     const suffix = this.#selectionLocalizationSuffix;
     context.summary = suffix ? game.i18n.format(
-      `DND5E.CompendiumBrowser.Selection.Summary.${suffix}`, { max, min, value }
+      `DEGRINGO5E.CompendiumBrowser.Selection.Summary.${suffix}`, { max, min, value }
     ) : value;
     return context;
   }
@@ -627,7 +627,7 @@ export default class CompendiumBrowser extends Application5e {
     if ( game.user.isGM ) {
       frame.querySelector('[data-action="close"]').insertAdjacentHTML("beforebegin", `
         <button type="button" class="header-control fas fa-cog icon" data-action="configureSources"
-                data-tooltip aria-label="${game.i18n.localize("DND5E.CompendiumBrowser.Sources.Label")}"></button>
+                data-tooltip aria-label="${game.i18n.localize("DEGRINGO5E.CompendiumBrowser.Sources.Label")}"></button>
       `);
     }
     return frame;
@@ -702,7 +702,7 @@ export default class CompendiumBrowser extends Application5e {
       const source = foundry.utils.getProperty(result, "system.source");
       if ( foundry.utils.getType(source) !== "Object" ) continue;
       const { slug, value } = source;
-      sources.push({ slug, value: CONFIG.DND5E.sourceBooks[value] ?? value });
+      sources.push({ slug, value: CONFIG.DEGRINGO5E.sourceBooks[value] ?? value });
     }
     sources.sort((a, b) => a.value.localeCompare(b.value, game.i18n.lang));
     this.#sources = Object.fromEntries(sources.map(({ slug, value }) => [slug, value]));
@@ -719,7 +719,7 @@ export default class CompendiumBrowser extends Application5e {
         locked,
         value: locked,
         key: "source",
-        label: "DND5E.SOURCE.FIELDS.source.label",
+        label: "DEGRINGO5E.SOURCE.FIELDS.source.label",
         config: { choices: this.#sources }
       }
     );
@@ -953,9 +953,9 @@ export default class CompendiumBrowser extends Application5e {
     if ( (value < (min || -Infinity)) || (value > (max || Infinity)) ) {
       const suffix = this.#selectionLocalizationSuffix;
       const pr = new Intl.PluralRules(game.i18n.lang);
-      throw new Error(game.i18n.format(`DND5E.CompendiumBrowser.Selection.Warning.${suffix}`, {
+      throw new Error(game.i18n.format(`DEGRINGO5E.CompendiumBrowser.Selection.Warning.${suffix}`, {
         max, min, value,
-        document: game.i18n.localize(`DND5E.CompendiumBrowser.Selection.Warning.Document.${pr.select(max || min)}`)
+        document: game.i18n.localize(`DEGRINGO5E.CompendiumBrowser.Selection.Warning.Document.${pr.select(max || min)}`)
       }));
     }
 
@@ -1242,7 +1242,7 @@ export default class CompendiumBrowser extends Application5e {
     button.classList.add("open-compendium-browser");
     button.innerHTML = `
       <i class="fa-solid fa-book-open-reader" inert></i>
-      ${game.i18n.localize("DND5E.CompendiumBrowser.Action.Open")}
+      ${game.i18n.localize("DEGRINGO5E.CompendiumBrowser.Action.Open")}
     `;
     button.addEventListener("click", event => (new CompendiumBrowser()).render({ force: true }));
 

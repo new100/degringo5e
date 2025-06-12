@@ -17,16 +17,16 @@ export default class SpellcastingField extends SchemaField {
       progression: new StringField({
         initial: "none",
         blank: false,
-        label: "DND5E.SpellProgression"
+        label: "DEGRINGO5E.SpellProgression"
       }),
-      ability: new StringField({ label: "DND5E.SpellAbility" }),
+      ability: new StringField({ label: "DEGRINGO5E.SpellAbility" }),
       preparation: new SchemaField({
-        formula: new FormulaField({ label: "DND5E.SpellPreparation.Formula" })
+        formula: new FormulaField({ label: "DEGRINGO5E.SpellPreparation.Formula" })
       }),
       ...fields
     };
     Object.entries(fields).forEach(([k, v]) => !v ? delete fields[k] : null);
-    super(fields, { label: "DND5E.Spellcasting", ...options });
+    super(fields, { label: "DEGRINGO5E.Spellcasting", ...options });
   }
 
   /* -------------------------------------------- */
@@ -42,9 +42,9 @@ export default class SpellcastingField extends SchemaField {
     this.spellcasting.preparation.max = simplifyBonus(this.spellcasting.preparation.formula, rollData);
 
     // Temp method for determining spellcasting type until this data is available directly using advancement
-    if ( CONFIG.DND5E.spellcastingTypes[this.spellcasting.progression] ) {
+    if ( CONFIG.DEGRINGO5E.spellcastingTypes[this.spellcasting.progression] ) {
       this.spellcasting.type = this.spellcasting.progression;
-    } else this.spellcasting.type = Object.entries(CONFIG.DND5E.spellcastingTypes).find(([, { progression }]) =>
+    } else this.spellcasting.type = Object.entries(CONFIG.DEGRINGO5E.spellcastingTypes).find(([, { progression }]) =>
       progression?.[this.spellcasting.progression]
     )?.[0];
 

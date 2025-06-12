@@ -7,7 +7,7 @@ export class SizeConfigurationData extends foundry.abstract.DataModel {
   /** @inheritDoc */
   static defineSchema() {
     return {
-      sizes: new SetField(new StringField(), { required: false, initial: ["med"], label: "DND5E.Size" })
+      sizes: new SetField(new StringField(), { required: false, initial: ["med"], label: "DEGRINGO5E.Size" })
     };
   }
 }
@@ -19,7 +19,7 @@ export class SizeValueData extends foundry.abstract.DataModel {
   /** @inheritDoc */
   static defineSchema() {
     return {
-      size: new StringField({ required: false, label: "DND5E.Size" })
+      size: new StringField({ required: false, label: "DEGRINGO5E.Size" })
     };
   }
 }

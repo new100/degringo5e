@@ -20,12 +20,12 @@ export function formatCR(value, { narrow=true }={}) {
 /**
  * Form a number using the provided length unit.
  * @param {number} value         The length to format.
- * @param {string} unit          Length unit as defined in `CONFIG.DND5E.movementUnits`.
+ * @param {string} unit          Length unit as defined in `CONFIG.DEGRINGO5E.movementUnits`.
  * @param {object} [options={}]  Formatting options passed to `formatNumber`.
  * @returns {string}
  */
 export function formatLength(value, unit, options={}) {
-  return _formatSystemUnits(value, unit, CONFIG.DND5E.movementUnits[unit], options);
+  return _formatSystemUnits(value, unit, CONFIG.DEGRINGO5E.movementUnits[unit], options);
 }
 
 /* -------------------------------------------- */
@@ -52,7 +52,7 @@ export function formatModifier(mod) {
  * @returns {string}
  */
 export function formatNumber(value, { numerals, ordinal, words, ...options }={}) {
-  if ( words && game.i18n.has(`DND5E.NUMBER.${value}`, false) ) return game.i18n.localize(`DND5E.NUMBER.${value}`);
+  if ( words && game.i18n.has(`DEGRINGO5E.NUMBER.${value}`, false) ) return game.i18n.localize(`DEGRINGO5E.NUMBER.${value}`);
   if ( numerals ) return _formatNumberAsNumerals(value);
   if ( ordinal ) return _formatNumberAsOrdinal(value, options);
   const formatter = new Intl.NumberFormat(game.i18n.lang, options);
@@ -94,7 +94,7 @@ function _formatNumberAsNumerals(n) {
 function _formatNumberAsOrdinal(n, options={}) {
   const pr = getPluralRules({ type: "ordinal" }).select(n);
   const number = formatNumber(n, options);
-  return game.i18n.has(`DND5E.ORDINAL.${pr}`) ? game.i18n.format(`DND5E.ORDINAL.${pr}`, { number }) : number;
+  return game.i18n.has(`DEGRINGO5E.ORDINAL.${pr}`) ? game.i18n.format(`DEGRINGO5E.ORDINAL.${pr}`, { number }) : number;
 }
 
 /* -------------------------------------------- */
@@ -141,14 +141,14 @@ export function formatText(value) {
 /**
  * A helper function that formats a time in a human-readable format.
  * @param {number} value         Time to display.
- * @param {string} unit          Units as defined in `CONFIG.DND5E.timeUnits`.
+ * @param {string} unit          Units as defined in `CONFIG.DEGRINGO5E.timeUnits`.
  * @param {object} [options={}]  Formatting options passed to `formatNumber`.
  * @returns {string}
  */
 export function formatTime(value, unit, options={}) {
   options.maximumFractionDigits ??= 0;
   options.unitDisplay ??= "long";
-  const config = CONFIG.DND5E.timeUnits[unit];
+  const config = CONFIG.DEGRINGO5E.timeUnits[unit];
   if ( config?.counted ) {
     if ( (options.unitDisplay === "narrow") && game.i18n.has(`${config.counted}.narrow`) ) {
       return game.i18n.format(`${config.counted}.narrow`, { number: formatNumber(value, options) });
@@ -169,12 +169,12 @@ export function formatTime(value, unit, options={}) {
 /**
  * Form a number using the provided volume unit.
  * @param {number} value         The volume to format.
- * @param {string} unit          Volume unit as defined in `CONFIG.DND5E.volumeUnits`.
+ * @param {string} unit          Volume unit as defined in `CONFIG.DEGRINGO5E.volumeUnits`.
  * @param {object} [options={}]  Formatting options passed to `formatNumber`.
  * @returns {string}
  */
 export function formatVolume(value, unit, options={}) {
-  return _formatSystemUnits(value, unit, CONFIG.DND5E.volumeUnits[unit], options);
+  return _formatSystemUnits(value, unit, CONFIG.DEGRINGO5E.volumeUnits[unit], options);
 }
 
 /* -------------------------------------------- */
@@ -182,12 +182,12 @@ export function formatVolume(value, unit, options={}) {
 /**
  * Form a number using the provided weight unit.
  * @param {number} value         The weight to format.
- * @param {string} unit          Weight unit as defined in `CONFIG.DND5E.weightUnits`.
+ * @param {string} unit          Weight unit as defined in `CONFIG.DEGRINGO5E.weightUnits`.
  * @param {object} [options={}]  Formatting options passed to `formatNumber`.
  * @returns {string}
  */
 export function formatWeight(value, unit, options={}) {
-  return _formatSystemUnits(value, unit, CONFIG.DND5E.weightUnits[unit], options);
+  return _formatSystemUnits(value, unit, CONFIG.DEGRINGO5E.weightUnits[unit], options);
 }
 
 /* -------------------------------------------- */
@@ -295,7 +295,7 @@ export function prepareFormulaValue(model, keyPath, label, rollData) {
     foundry.utils.setProperty(model, keyPath, roll.evaluateSync().total);
   } catch(err) {
     if ( item.isEmbedded ) {
-      const message = game.i18n.format("DND5E.FormulaMalformedError", { property, name: model.name ?? item.name });
+      const message = game.i18n.format("DEGRINGO5E.FormulaMalformedError", { property, name: model.name ?? item.name });
       item.actor._preparationWarnings.push({ message, link: item.uuid, type: "error" });
       console.error(message, err);
     }
@@ -330,7 +330,7 @@ export function replaceFormulaData(formula, data, { actor, item, missing="0", pr
   actor ??= item?.parent;
   if ( (missingReferences.size > 0) && actor && property ) {
     const listFormatter = new Intl.ListFormat(game.i18n.lang, { style: "long", type: "conjunction" });
-    const message = game.i18n.format("DND5E.FormulaMissingReferenceWarn", {
+    const message = game.i18n.format("DEGRINGO5E.FormulaMissingReferenceWarn", {
       property, name: item?.name ?? actor.name, references: listFormatter.format(missingReferences)
     });
     actor._preparationWarnings.push({ message, link: item?.uuid ?? actor.uuid, type: "warning" });
@@ -601,8 +601,8 @@ export function getSceneTargets() {
  * @returns {number}
  */
 export function convertLength(value, from, to, { strict=true }={}) {
-  const message = unit => `Length unit ${unit} not defined in CONFIG.DND5E.movementUnits`;
-  return _convertSystemUnits(value, from, to, CONFIG.DND5E.movementUnits, { message, strict });
+  const message = unit => `Length unit ${unit} not defined in CONFIG.DEGRINGO5E.movementUnits`;
+  return _convertSystemUnits(value, from, to, CONFIG.DEGRINGO5E.movementUnits, { message, strict });
 }
 
 /* -------------------------------------------- */
@@ -611,7 +611,7 @@ export function convertLength(value, from, to, { strict=true }={}) {
  * Convert the provided time value to another unit. If no final unit is provided, then will convert it to the largest
  * unit that can still represent the value as a whole number.
  * @param {number} value                    The time being converted.
- * @param {string} from                     The initial unit as defined in `CONFIG.DND5E.timeUnits`.
+ * @param {string} from                     The initial unit as defined in `CONFIG.DEGRINGO5E.timeUnits`.
  * @param {object} [options={}]
  * @param {boolean} [options.combat=false]  Use combat units when auto-selecting units, rather than normal units.
  * @param {boolean} [options.strict=true]   Throw an error if from unit isn't found.
@@ -619,10 +619,10 @@ export function convertLength(value, from, to, { strict=true }={}) {
  * @returns {{ value: number, unit: string }}
  */
 export function convertTime(value, from, { combat=false, strict=true, to }={}) {
-  const base = value * (CONFIG.DND5E.timeUnits[from]?.conversion ?? 1);
+  const base = value * (CONFIG.DEGRINGO5E.timeUnits[from]?.conversion ?? 1);
   if ( !to ) {
     // Find unit with largest conversion value that can still display the value
-    const unitOptions = Object.entries(CONFIG.DND5E.timeUnits)
+    const unitOptions = Object.entries(CONFIG.DEGRINGO5E.timeUnits)
       .reduce((arr, [key, v]) => {
         if ( ((v.combat ?? false) === combat) && ((base % v.conversion === 0) || (base >= v.conversion * 2)) ) {
           arr.push({ key, conversion: v.conversion });
@@ -633,8 +633,8 @@ export function convertTime(value, from, { combat=false, strict=true, to }={}) {
     to = unitOptions[0]?.key ?? from;
   }
 
-  const message = unit => `Time unit ${unit} not defined in CONFIG.DND5E.timeUnits`;
-  return { value: _convertSystemUnits(value, from, to, CONFIG.DND5E.timeUnits, { message, strict }), unit: to };
+  const message = unit => `Time unit ${unit} not defined in CONFIG.DEGRINGO5E.timeUnits`;
+  return { value: _convertSystemUnits(value, from, to, CONFIG.DEGRINGO5E.timeUnits, { message, strict }), unit: to };
 }
 
 /* -------------------------------------------- */
@@ -642,15 +642,15 @@ export function convertTime(value, from, { combat=false, strict=true, to }={}) {
 /**
  * Convert the provided weight to another unit.
  * @param {number} value                   The weight being converted.
- * @param {string} from                    The initial unit as defined in `CONFIG.DND5E.weightUnits`.
+ * @param {string} from                    The initial unit as defined in `CONFIG.DEGRINGO5E.weightUnits`.
  * @param {string} to                      The final units.
  * @param {object} [options={}]
  * @param {boolean} [options.strict=true]  Throw an error if either unit isn't found.
  * @returns {number}      Weight in the specified units.
  */
 export function convertWeight(value, from, to, { strict=true }={}) {
-  const message = unit => `Weight unit ${unit} not defined in CONFIG.DND5E.weightUnits`;
-  return _convertSystemUnits(value, from, to, CONFIG.DND5E.weightUnits, { message, strict });
+  const message = unit => `Weight unit ${unit} not defined in CONFIG.DEGRINGO5E.weightUnits`;
+  return _convertSystemUnits(value, from, to, CONFIG.DEGRINGO5E.weightUnits, { message, strict });
 }
 
 /* -------------------------------------------- */
@@ -681,7 +681,7 @@ function _convertSystemUnits(value, from, to, config, { message, strict }) {
  * @returns {string}
  */
 export function defaultUnits(type) {
-  return CONFIG.DND5E.defaultUnits[type]?.[
+  return CONFIG.DEGRINGO5E.defaultUnits[type]?.[
     game.settings.get("dnd5e", `metric${type.capitalize()}Units`) ? "metric" : "imperial"
   ];
 }
@@ -954,8 +954,8 @@ function concealSection(conceal, options) {
   </div>
   <div class="unidentified-notice">
       <div>
-          <strong>${game.i18n.localize("DND5E.Unidentified.Title")}</strong>
-          <p>${game.i18n.localize("DND5E.Unidentified.Notice")}</p>
+          <strong>${game.i18n.localize("DEGRINGO5E.Unidentified.Title")}</strong>
+          <p>${game.i18n.localize("DEGRINGO5E.Unidentified.Notice")}</p>
       </div>
   </div>`;
   return content;
@@ -1013,7 +1013,7 @@ const _preLocalizationRegistrations = {};
 
 /**
  * Mark the provided config key to be pre-localized during the init stage.
- * @param {string} configKeyPath          Key path within `CONFIG.DND5E` to localize.
+ * @param {string} configKeyPath          Key path within `CONFIG.DEGRINGO5E` to localize.
  * @param {object} [options={}]
  * @param {string} [options.key]          If each entry in the config enum is an object,
  *                                        localize and sort using this property.
@@ -1030,7 +1030,7 @@ export function preLocalize(configKeyPath, { key, keys=[], sort=false }={}) {
 
 /**
  * Execute previously defined pre-localization tasks on the provided config object.
- * @param {object} config  The `CONFIG.DND5E` object to localize and sort. *Will be mutated.*
+ * @param {object} config  The `CONFIG.DEGRINGO5E` object to localize and sort. *Will be mutated.*
  */
 export function performPreLocalization(config) {
   for ( const [keyPath, settings] of Object.entries(_preLocalizationRegistrations) ) {
@@ -1119,7 +1119,7 @@ export function getHumanReadableAttributeLabel(attr, { actor, item }={}) {
   }
 
   if ( (attr === "details.xp.value") && (actor?.type === "npc") ) {
-    return game.i18n.localize("DND5E.ExperiencePoints.Value");
+    return game.i18n.localize("DEGRINGO5E.ExperiencePoints.Value");
   }
 
   if ( attr.startsWith(".") && actor ) {
@@ -1152,7 +1152,7 @@ export function getHumanReadableAttributeLabel(attr, { actor, item }={}) {
     name = `${item.name}: ${activity.name}`;
     type = "activity";
     if ( _attributeLabelCache.activity.has(attr) ) label = _attributeLabelCache.activity.get(attr);
-    else if ( attr === "uses.spent" ) label = "DND5E.Uses";
+    else if ( attr === "uses.spent" ) label = "DEGRINGO5E.Uses";
   }
 
   // Item labels
@@ -1160,43 +1160,43 @@ export function getHumanReadableAttributeLabel(attr, { actor, item }={}) {
     name = item.name;
     type = "item";
     if ( _attributeLabelCache.item.has(attr) ) label = _attributeLabelCache.item.get(attr);
-    else if ( attr === "hd.spent" ) label = "DND5E.HitDice";
-    else if ( attr === "uses.spent" ) label = "DND5E.Uses";
+    else if ( attr === "hd.spent" ) label = "DEGRINGO5E.HitDice";
+    else if ( attr === "uses.spent" ) label = "DEGRINGO5E.Uses";
     else label = getSchemaLabel(attr, "Item", item);
   }
 
   // Derived fields.
-  else if ( attr === "attributes.init.total" ) label = "DND5E.InitiativeBonus";
-  else if ( (attr === "attributes.ac.value") || (attr === "attributes.ac.flat") ) label = "DND5E.ArmorClass";
-  else if ( attr === "attributes.spell.dc" ) label = "DND5E.SpellDC";
+  else if ( attr === "attributes.init.total" ) label = "DEGRINGO5E.InitiativeBonus";
+  else if ( (attr === "attributes.ac.value") || (attr === "attributes.ac.flat") ) label = "DEGRINGO5E.ArmorClass";
+  else if ( attr === "attributes.spell.dc" ) label = "DEGRINGO5E.SpellDC";
 
   // Abilities.
   else if ( attr.startsWith("abilities.") ) {
     const [, key] = attr.split(".");
-    label = game.i18n.format("DND5E.AbilityScoreL", { ability: CONFIG.DND5E.abilities[key].label });
+    label = game.i18n.format("DEGRINGO5E.AbilityScoreL", { ability: CONFIG.DEGRINGO5E.abilities[key].label });
   }
 
   // Skills.
   else if ( attr.startsWith("skills.") ) {
     const [, key] = attr.split(".");
-    label = game.i18n.format("DND5E.SkillPassiveScore", { skill: CONFIG.DND5E.skills[key].label });
+    label = game.i18n.format("DEGRINGO5E.SkillPassiveScore", { skill: CONFIG.DEGRINGO5E.skills[key].label });
   }
 
   // Spell slots.
   else if ( attr.startsWith("spells.") ) {
     const [, key] = attr.split(".");
-    if ( !/spell\d+/.test(key) ) label = `DND5E.SpellSlots${key.capitalize()}`;
+    if ( !/spell\d+/.test(key) ) label = `DEGRINGO5E.SpellSlots${key.capitalize()}`;
     else {
       const plurals = new Intl.PluralRules(game.i18n.lang, { type: "ordinal" });
       const level = Number(key.slice(5));
-      label = game.i18n.format(`DND5E.SpellSlotsN.${plurals.select(level)}`, { n: level });
+      label = game.i18n.format(`DEGRINGO5E.SpellSlotsN.${plurals.select(level)}`, { n: level });
     }
   }
 
   // Currency
   else if ( attr.startsWith("currency.") ) {
     const [, key] = attr.split(".");
-    label = CONFIG.DND5E.currencies[key]?.label;
+    label = CONFIG.DEGRINGO5E.currencies[key]?.label;
   }
 
   // Attempt to find the attribute in a data model.

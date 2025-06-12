@@ -37,7 +37,7 @@ export class TraitConfigurationData extends foundry.abstract.DataModel {
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.ADVANCEMENT.Trait"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.ADVANCEMENT.Trait"];
 
   /* -------------------------------------------- */
 

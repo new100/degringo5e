@@ -85,11 +85,11 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
 
   /** @override */
   static TABS = [
-    { tab: "description", label: "DND5E.ITEM.SECTIONS.Description" },
-    { tab: "details", label: "DND5E.ITEM.SECTIONS.Details", condition: this.isItemIdentified.bind(this) },
-    { tab: "activities", label: "DND5E.ITEM.SECTIONS.Activities", condition: this.itemHasActivities.bind(this) },
-    { tab: "effects", label: "DND5E.ITEM.SECTIONS.Effects", condition: this.itemHasEffects.bind(this) },
-    { tab: "advancement", label: "DND5E.ITEM.SECTIONS.Advancement", condition: this.itemHasAdvancement.bind(this) }
+    { tab: "description", label: "DEGRINGO5E.ITEM.SECTIONS.Description" },
+    { tab: "details", label: "DEGRINGO5E.ITEM.SECTIONS.Details", condition: this.isItemIdentified.bind(this) },
+    { tab: "activities", label: "DEGRINGO5E.ITEM.SECTIONS.Activities", condition: this.itemHasActivities.bind(this) },
+    { tab: "effects", label: "DEGRINGO5E.ITEM.SECTIONS.Effects", condition: this.itemHasEffects.bind(this) },
+    { tab: "advancement", label: "DEGRINGO5E.ITEM.SECTIONS.Advancement", condition: this.itemHasAdvancement.bind(this) }
   ];
 
   /* -------------------------------------------- */
@@ -191,7 +191,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
       active: [],
       object: Object.fromEntries((context.system.properties ?? []).map(p => [p, true])),
       options: (this.item.system.validProperties ?? []).reduce((arr, k) => {
-        const { label } = CONFIG.DND5E.itemProperties[k];
+        const { label } = CONFIG.DEGRINGO5E.itemProperties[k];
         arr.push({
           label,
           value: k,
@@ -244,7 +244,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
    */
   async _prepareActivitiesContext(context, options) {
     context.activities = (this.item.system.activities ?? [])
-      .filter(a => CONFIG.DND5E.activityTypes[a.type]?.configurable !== false)
+      .filter(a => CONFIG.DEGRINGO5E.activityTypes[a.type]?.configurable !== false)
       .map(activity => {
         const { _id: id, name, img, sort } = activity.prepareSheetContext();
         return {
@@ -316,10 +316,10 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     context.parts ??= [];
 
     context.baseItemOptions = await this._getBaseItemOptions();
-    context.coverOptions = Object.entries(CONFIG.DND5E.cover).map(([value, label]) => ({ value, label }));
+    context.coverOptions = Object.entries(CONFIG.DEGRINGO5E.cover).map(([value, label]) => ({ value, label }));
 
     // If using modern rules, do not show redundant artificer progression unless it is already selected.
-    context.spellProgression = { ...CONFIG.DND5E.spellProgression };
+    context.spellProgression = { ...CONFIG.DEGRINGO5E.spellProgression };
     if ( (game.settings.get("dnd5e", "rulesVersion") === "modern")
       && (this.item.system.spellcasting?.progression !== "artificer") ) delete context.spellProgression.artificer;
     context.spellProgression = Object.entries(context.spellProgression).map(([value, label]) => ({ value, label }));
@@ -327,11 +327,11 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     // Limited Uses
     context.data = { uses: context.source.uses };
     context.hasLimitedUses = this.item.system.hasLimitedUses;
-    context.recoveryPeriods = CONFIG.DND5E.limitedUsePeriods.recoveryOptions;
+    context.recoveryPeriods = CONFIG.DEGRINGO5E.limitedUsePeriods.recoveryOptions;
     context.recoveryTypes = [
-      { value: "recoverAll", label: "DND5E.USES.Recovery.Type.RecoverAll" },
-      { value: "loseAll", label: "DND5E.USES.Recovery.Type.LoseAll" },
-      { value: "formula", label: "DND5E.USES.Recovery.Type.Formula" }
+      { value: "recoverAll", label: "DEGRINGO5E.USES.Recovery.Type.RecoverAll" },
+      { value: "loseAll", label: "DEGRINGO5E.USES.Recovery.Type.LoseAll" },
+      { value: "formula", label: "DEGRINGO5E.USES.Recovery.Type.Formula" }
     ];
     context.usesRecovery = (context.source.uses?.recovery ?? []).map((data, index) => ({
       data,
@@ -476,12 +476,12 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     const tags = [];
     if ( advancement.classRestriction === "primary" ) {
       tags.push({
-        label: "DND5E.AdvancementClassRestrictionPrimary",
+        label: "DEGRINGO5E.AdvancementClassRestrictionPrimary",
         icon: "systems/dnd5e/icons/svg/original-class.svg"
       });
     } else if ( advancement.classRestriction === "secondary" ) {
       tags.push({
-        label: "DND5E.AdvancementClassRestrictionSecondary",
+        label: "DEGRINGO5E.AdvancementClassRestrictionSecondary",
         icon: "systems/dnd5e/icons/svg/multiclass.svg"
       });
     }
@@ -497,9 +497,9 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
    */
   async _getBaseItemOptions() {
     const baseIds = this.item.type === "equipment" ? {
-      ...CONFIG.DND5E.armorIds,
-      ...CONFIG.DND5E.shieldIds
-    } : CONFIG.DND5E[`${this.item.type}Ids`];
+      ...CONFIG.DEGRINGO5E.armorIds,
+      ...CONFIG.DEGRINGO5E.shieldIds
+    } : CONFIG.DEGRINGO5E[`${this.item.type}Ids`];
     if ( baseIds === undefined ) return null;
 
     const baseType = this.item.system._source.type.value ?? this.item.system.type.value;
@@ -578,7 +578,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
 
     if ( this._headerToggles.identified ) {
       const isIdentified = this.item.system.identified;
-      const label = isIdentified ? "DND5E.Identified" : "DND5E.Unidentified.Title";
+      const label = isIdentified ? "DEGRINGO5E.Identified" : "DEGRINGO5E.Unidentified.Title";
       this._headerToggles.identified.setAttribute("aria-label", game.i18n.localize(label));
       this._headerToggles.identified.dataset.tooltip = label;
       this._headerToggles.identified.classList.toggle("active", isIdentified);
@@ -586,7 +586,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
 
     if ( this._headerToggles.equipped ) {
       const isEquipped = this.item.system.equipped;
-      const label = isEquipped ? "DND5E.Equipped" : "DND5E.Unequipped";
+      const label = isEquipped ? "DEGRINGO5E.Equipped" : "DEGRINGO5E.Unequipped";
       this._headerToggles.equipped.setAttribute("aria-label", game.i18n.localize(label));
       this._headerToggles.equipped.dataset.tooltip = label;
       this._headerToggles.equipped.classList.toggle("active", isEquipped);
@@ -611,7 +611,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     if ( this.tabGroups.primary === "activities" ) {
       return dnd5e.documents.activity.UtilityActivity.createDialog({}, {
         parent: this.item,
-        types: Object.entries(CONFIG.DND5E.activityTypes).filter(([, { configurable }]) => {
+        types: Object.entries(CONFIG.DEGRINGO5E.activityTypes).filter(([, { configurable }]) => {
           return configurable !== false;
         }).map(([k]) => k)
       });
@@ -959,7 +959,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
       return false;
     }
     advancements = advancements.filter(a => {
-      const validItemTypes = CONFIG.DND5E.advancementTypes[a.constructor.typeName]?.validItemTypes
+      const validItemTypes = CONFIG.DEGRINGO5E.advancementTypes[a.constructor.typeName]?.validItemTypes
         ?? a.metadata.validItemTypes;
       return !this.item.advancement.byId[a.id]
         && validItemTypes.has(this.item.type)

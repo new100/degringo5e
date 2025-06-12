@@ -10,7 +10,7 @@ export default class LongRestDialog extends BaseRestDialog {
   static DEFAULT_OPTIONS = {
     classes: ["long-rest"],
     window: {
-      title: "DND5E.REST.Long.Label"
+      title: "DEGRINGO5E.REST.Long.Label"
     }
   };
 
@@ -34,7 +34,7 @@ export default class LongRestDialog extends BaseRestDialog {
 
     const { enabled } = game.settings.get("dnd5e", "bastionConfiguration");
     if ( game.user.isGM && context.isGroup && enabled ) context.fields.unshift({
-      field: new BooleanField({ label: game.i18n.localize("DND5E.Bastion.Action.BastionTurn") }),
+      field: new BooleanField({ label: game.i18n.localize("DEGRINGO5E.Bastion.Action.BastionTurn") }),
       input: context.inputs.createCheckboxInput,
       name: "advanceBastionTurn",
       value: context.config.advanceBastionTurn

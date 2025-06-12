@@ -17,7 +17,7 @@ export default class SheetConfig5e extends foundry.applications.apps.DocumentShe
   /** @inheritDoc */
   getData(options) {
     const context = super.getData(options);
-    context.CONFIG = CONFIG.DND5E;
+    context.CONFIG = CONFIG.DEGRINGO5E;
     return context;
   }
 

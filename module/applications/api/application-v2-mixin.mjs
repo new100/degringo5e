@@ -110,7 +110,7 @@ export default function ApplicationV2Mixin(Base) {
     /** @inheritDoc */
     async _prepareContext(options) {
       const context = await super._prepareContext(options);
-      context.CONFIG = CONFIG.DND5E;
+      context.CONFIG = CONFIG.DEGRINGO5E;
       context.inputs = { ...foundry.applications.fields, ...dnd5e.applications.fields };
       return context;
     }
@@ -205,7 +205,7 @@ export default function ApplicationV2Mixin(Base) {
      */
     _disableFields() {
       const selector = `.window-content :is(${[
-        "INPUT", "SELECT", "TEXTAREA", "BUTTON", "DND5E-CHECKBOX", "COLOR-PICKER", "DOCUMENT-TAGS",
+        "INPUT", "SELECT", "TEXTAREA", "BUTTON", "DEGRINGO5E-CHECKBOX", "COLOR-PICKER", "DOCUMENT-TAGS",
         "FILE-PICKER", "HUE-SLIDER", "MULTI-SELECT", "PROSE-MIRROR", "RANGE-PICKER", "STRING-TAGS"
       ].join(", ")}):not(.always-interactive)`;
       for ( const element of this.element.querySelectorAll(selector) ) {

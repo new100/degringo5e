@@ -11,22 +11,22 @@
                  data-action="showDocument" data-uuid="{{ cls.subclass.uuid }}" data-item-id="{{ cls.subclass.id }}">
             {{else if ctx.needsSubclass}}
             <a class="gold-icon subclass-icon" data-action="findItem" data-item-type="subclass"
-               data-class-identifier="{{ cls.identifier }}" data-tooltip="DND5E.SubclassAdd"
-               aria-label="{{ localize 'DND5E.SubclassAdd' }}">
+               data-class-identifier="{{ cls.identifier }}" data-tooltip="DEGRINGO5E.SubclassAdd"
+               aria-label="{{ localize 'DEGRINGO5E.SubclassAdd' }}">
                <i class="fa-solid fa-circle-plus" inert></i>
             </a>
             {{/if}}
             {{#if @root.editable}}
             <div class="controls">
                 <a class="deletion-control item-control item-action" data-action="deleteDocument"
-                   data-tooltip="DND5E.ItemDelete" data-uuid="{{ cls.uuid }}" data-item-id="{{ cls.id }}"
-                   aria-label="{{ localize 'DND5E.ItemDelete' }}">
+                   data-tooltip="DEGRINGO5E.ItemDelete" data-uuid="{{ cls.uuid }}" data-item-id="{{ cls.id }}"
+                   aria-label="{{ localize 'DEGRINGO5E.ItemDelete' }}">
                     <i class="fas fa-circle-xmark" inert></i>
                 </a>
                 {{#if cls.subclass}}
                 <a class="deletion-control item-control item-action" data-action="deleteDocument"
-                   data-tooltip="DND5E.ItemDelete" data-uuid="{{ cls.subclass.uuid }}"
-                   data-item-id="{{ cls.subclass.id }}" aria-label="{{ localize 'DND5E.ItemDelete' }}">
+                   data-tooltip="DEGRINGO5E.ItemDelete" data-uuid="{{ cls.subclass.uuid }}"
+                   data-item-id="{{ cls.subclass.id }}" aria-label="{{ localize 'DEGRINGO5E.ItemDelete' }}">
                     <i class="fas fa-circle-xmark" inert></i>
                 </a>
                 {{/if}}
@@ -54,7 +54,7 @@
     {{/each}}
     {{#if @root.showClassDrop}}
     <div class="pill-lg empty roboto-upper" data-action="findItem" data-item-type="class">
-        {{ localize "DND5E.ClassAdd" }}
+        {{ localize "DEGRINGO5E.ClassAdd" }}
     </div>
     {{/if}}
 </section>

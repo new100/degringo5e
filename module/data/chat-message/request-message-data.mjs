@@ -62,7 +62,7 @@ export default class RequestMessageData extends ChatMessageDataModel {
     return {
       button: {
         icon: this.button.icon,
-        label: game.i18n.localize(this.button.label || "DND5E.CHATMESSAGE.REQUEST.Action.Handle")
+        label: game.i18n.localize(this.button.label || "DEGRINGO5E.CHATMESSAGE.REQUEST.Action.Handle")
       },
       content: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
         this.parent.content, { rollData: this.parent.getRollData() }
@@ -87,7 +87,7 @@ export default class RequestMessageData extends ChatMessageDataModel {
    */
   static async #handleRequest(event, target) {
     const actor = fromUuidSync(target.closest("[data-uuid]").dataset.uuid);
-    const result = await CONFIG.DND5E.requests[this.handler](actor, this.parent, this.data);
+    const result = await CONFIG.DEGRINGO5E.requests[this.handler](actor, this.parent, this.data);
     if ( result instanceof ChatMessage ) {
       result.setFlag("dnd5e", "requestResult", { actorId: actor.id, requestId: this.parent.id });
     }

@@ -59,7 +59,7 @@ export default class ActorDataModel extends SystemDataModel {
    */
   _prepareScaleValues() {
     this.scale = this.parent.items.reduce((scale, item) => {
-      if ( CONFIG.DND5E.advancementTypes.ScaleValue.validItemTypes.has(item.type) ) {
+      if ( CONFIG.DEGRINGO5E.advancementTypes.ScaleValue.validItemTypes.has(item.type) ) {
         scale[item.identifier] = item.scaleValues;
       }
       return scale;

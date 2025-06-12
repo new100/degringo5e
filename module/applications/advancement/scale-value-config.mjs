@@ -41,7 +41,7 @@ export default class ScaleValueConfig extends AdvancementConfig {
     const config = this.advancement.configuration;
     const type = TYPES[config.type];
 
-    context.distanceOptions = Object.entries(CONFIG.DND5E.movementUnits).map(([value, label]) => ({ value, label }));
+    context.distanceOptions = Object.entries(CONFIG.DEGRINGO5E.movementUnits).map(([value, label]) => ({ value, label }));
     context.identifier = {
       placeholder: config.identifier || this.advancement.title?.slugify()
         || this.advancement.constructor.metadata.title.slugify()
@@ -68,7 +68,7 @@ export default class ScaleValueConfig extends AdvancementConfig {
    */
   _prepareLevelData() {
     let lastValue = null;
-    let levels = Array.fromRange(CONFIG.DND5E.maxLevel + 1);
+    let levels = Array.fromRange(CONFIG.DEGRINGO5E.maxLevel + 1);
     if ( ["class", "subclass"].includes(this.advancement.item.type) ) levels = levels.slice(1);
     return levels.reduce((obj, level) => {
       const value = this.advancement.configuration.scale[level]?.clone();
@@ -146,7 +146,7 @@ export default class ScaleValueConfig extends AdvancementConfig {
     const typeChange = foundry.utils.hasProperty(submitData, "configuration.type");
     if ( typeChange && (submitData.configuration.type !== this.advancement.configuration.type) ) {
       // Clear existing scale value data to prevent error during type update
-      await this.advancement.update(Array.fromRange(CONFIG.DND5E.maxLevel, 1).reduce((obj, lvl) => {
+      await this.advancement.update(Array.fromRange(CONFIG.DEGRINGO5E.maxLevel, 1).reduce((obj, lvl) => {
         obj[`configuration.scale.-=${lvl}`] = null;
         return obj;
       }, {}));

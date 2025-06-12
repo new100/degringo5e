@@ -19,8 +19,8 @@ export default class ItemGrantAdvancement extends Advancement {
       order: 40,
       icon: "icons/sundries/books/book-open-purple.webp",
       typeIcon: "systems/dnd5e/icons/svg/item-grant.svg",
-      title: game.i18n.localize("DND5E.ADVANCEMENT.ItemGrant.Title"),
-      hint: game.i18n.localize("DND5E.ADVANCEMENT.ItemGrant.Hint"),
+      title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemGrant.Title"),
+      hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemGrant.Hint"),
       apps: {
         config: ItemGrantConfig,
         flow: ItemGrantFlow
@@ -165,7 +165,7 @@ export default class ItemGrantAdvancement extends Advancement {
     if ( !item ) return false;
     if ( this.constructor.VALID_TYPES.has(item.type) ) return true;
     const type = game.i18n.localize(CONFIG.Item.typeLabels[item.type]);
-    if ( strict ) throw new Error(game.i18n.format("DND5E.AdvancementItemTypeInvalidWarning", {type}));
+    if ( strict ) throw new Error(game.i18n.format("DEGRINGO5E.AdvancementItemTypeInvalidWarning", {type}));
     return false;
   }
 }

@@ -2,22 +2,22 @@
 <menu class="member-controls flexrow">
     <li>
         <button type="button" class="action-button" data-action="award">
-            <i class="fa-solid fa-trophy" inert></i> {{ localize "DND5E.Award.Action" }}
+            <i class="fa-solid fa-trophy" inert></i> {{ localize "DEGRINGO5E.Award.Action" }}
         </button>
     </li>
     <li>
         <button type="button" class="action-button" data-action="placeMembers">
-            <i class="fa-solid fa-location-dot" inert></i> {{localize "DND5E.Group.PlaceMembers"}}
+            <i class="fa-solid fa-location-dot" inert></i> {{localize "DEGRINGO5E.Group.PlaceMembers"}}
         </button>
     </li>
     <li>
         <button type="button" class="action-button rest-button" data-action="shortRest">
-            <i class="fa-solid fa-utensils" inert></i> {{localize "DND5E.REST.Short.Label"}}
+            <i class="fa-solid fa-utensils" inert></i> {{localize "DEGRINGO5E.REST.Short.Label"}}
         </button>
     </li>
     <li>
         <button type="button" class="action-button rest-button" data-action="longRest">
-            <i class="fa-solid fa-campground" inert></i> {{localize "DND5E.REST.Long.Label"}}
+            <i class="fa-solid fa-campground" inert></i> {{localize "DEGRINGO5E.REST.Long.Label"}}
         </button>
     </li>
 </menu>
@@ -28,23 +28,23 @@
     <header class="directory-header flexrow">
         <h3 class="name">{{localize section.label}}</h3>
         {{#if section.displayHPColumn}}
-        <span class="hp">{{localize "DND5E.HitPoints"}}</span>
+        <span class="hp">{{localize "DEGRINGO5E.HitPoints"}}</span>
         {{/if}}
         {{#if section.displayQuantityColumn}}
         <span class="quantity">
-            {{localize "DND5E.Quantity"}}
+            {{localize "DEGRINGO5E.Quantity"}}
             {{#if @root.editable}}
-            <a class="action-button" data-action="rollQuantities" data-tooltip="DND5E.QuantityRoll"
-               aria-label="{{localize 'DND5E.QuantityRoll'}}">
+            <a class="action-button" data-action="rollQuantities" data-tooltip="DEGRINGO5E.QuantityRoll"
+               aria-label="{{localize 'DEGRINGO5E.QuantityRoll'}}">
                 <i class="fa-solid fa-dice"></i>
             </a>
             {{/if}}
         </span>
         {{/if}}
         {{#if section.displayChallengeColumn}}
-        <span class="challenge">{{localize "DND5E.Group.Challenge"}}</span>
+        <span class="challenge">{{localize "DEGRINGO5E.Group.Challenge"}}</span>
         {{/if}}
-        <span class="controls">{{localize "DND5E.GroupControls"}}</span>
+        <span class="controls">{{localize "DEGRINGO5E.GroupControls"}}</span>
     </header>
     <ol class="members-list directory-list">
         {{#each section.members as |member|}}
@@ -71,7 +71,7 @@
                 <input type="number" name="system.members.{{index}}.quantity.value" min="0" step="1"
                        value="{{member.quantity.value}}" placeholder="1">
                 <input type="text" name="system.members.{{index}}.quantity.formula"
-                       value="{{member.quantity.formula}}" placeholder="{{localize 'DND5E.Formula'}}">
+                       value="{{member.quantity.formula}}" placeholder="{{localize 'DEGRINGO5E.Formula'}}">
             </div>
             {{else}}
             <input type="hidden" name="system.members.{{index}}.quantity.value"
@@ -81,8 +81,8 @@
             {{/if}}
             {{#if section.displayChallengeColumn}}
             <div class="challenge">
-                <abbr>{{localize "DND5E.AbbreviationCR"}}</abbr> {{member.cr}}{{#if member.xp}} —
-                {{member.xp}} <abbr>{{localize "DND5E.ExperiencePoints.Abbreviation"}}</abbr>{{/if}}
+                <abbr>{{localize "DEGRINGO5E.AbbreviationCR"}}</abbr> {{member.cr}}{{#if member.xp}} —
+                {{member.xp}} <abbr>{{localize "DEGRINGO5E.ExperiencePoints.Abbreviation"}}</abbr>{{/if}}
             </div>
             {{/if}}
             <div class="controls">

@@ -31,7 +31,7 @@ const { Ray } = foundry.canvas.geometry;
 export default class RotateAreaRegionBehaviorType extends foundry.data.regionBehaviors.RegionBehaviorType {
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.REGIONBEHAVIORS.ROTATEAREA"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA"];
 
   /* ---------------------------------------- */
 
@@ -78,10 +78,10 @@ export default class RotateAreaRegionBehaviorType extends foundry.data.regionBeh
    * @type {Record<string, string>}
    */
   static DIRECTION_MODES = Object.seal({
-    cw: "DND5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Clockwise",
-    ccw: "DND5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.CounterClockwise",
-    short: "DND5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Shortest",
-    long: "DND5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Longest"
+    cw: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Clockwise",
+    ccw: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.CounterClockwise",
+    short: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Shortest",
+    long: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.DirectionMode.Longest"
   });
 
   /* ---------------------------------------- */
@@ -91,8 +91,8 @@ export default class RotateAreaRegionBehaviorType extends foundry.data.regionBeh
    * @type {Record<string, string>}
    */
   static SPEED_MODES = Object.seal({
-    fixed: "DND5E.REGIONBEHAVIORS.ROTATEAREA.SpeedMode.Fixed",
-    variable: "DND5E.REGIONBEHAVIORS.ROTATEAREA.SpeedMode.Variable"
+    fixed: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.SpeedMode.Fixed",
+    variable: "DEGRINGO5E.REGIONBEHAVIORS.ROTATEAREA.SpeedMode.Variable"
   });
 
   /* ---------------------------------------- */

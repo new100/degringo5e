@@ -83,7 +83,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         {
           action: "restoreTransformation",
           icon: "fa-solid fa-backward",
-          label: "DND5E.TRANSFORM.Action.Restore",
+          label: "DEGRINGO5E.TRANSFORM.Action.Restore",
           ownership: "OWNER",
           visible: BaseActorSheet.#canRestoreTransformation
         }
@@ -194,7 +194,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       elements: this.options.elements,
       fields: this.actor.system.schema.fields,
       labels: {
-        damageAndHealing: { ...CONFIG.DND5E.damageTypes, ...CONFIG.DND5E.healingTypes },
+        damageAndHealing: { ...CONFIG.DEGRINGO5E.damageTypes, ...CONFIG.DEGRINGO5E.healingTypes },
         ...this.actor.labels
       },
       limited: this.actor.limited,
@@ -230,7 +230,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     context.effects = EffectsElement.prepareCategories(this.actor.allApplicableEffects());
 
     const conditionIds = new Set();
-    context.conditions = Object.entries(CONFIG.DND5E.conditionTypes).reduce((arr, [k, c]) => {
+    context.conditions = Object.entries(CONFIG.DEGRINGO5E.conditionTypes).reduce((arr, [k, c]) => {
       if ( c.pseudo ) return arr; // Filter out pseudo-conditions.
       let { label, name, icon, img, reference } = c;
       if ( label ) {
@@ -349,7 +349,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     };
 
     // Character Flags
-    for ( const [key, config] of Object.entries(CONFIG.DND5E.characterFlags) ) {
+    for ( const [key, config] of Object.entries(CONFIG.DEGRINGO5E.characterFlags) ) {
       const flag = { ...config, name: `flags.dnd5e.${key}`, value: foundry.utils.getProperty(flags.data, key) };
       const fieldOptions = { label: config.name, hint: config.hint };
       if ( config.type === Boolean ) {
@@ -372,7 +372,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       else globals.push({ field, name: field.fieldPath, value: foundry.utils.getProperty(source, field.fieldPath) });
     };
     addBonus(this.document.system.schema.fields.bonuses);
-    if ( globals.length ) sections[game.i18n.localize("DND5E.BONUSES.FIELDS.bonuses.label")] = globals;
+    if ( globals.length ) sections[game.i18n.localize("DEGRINGO5E.BONUSES.FIELDS.bonuses.label")] = globals;
 
     flags.sections = Object.entries(sections).map(([label, fields]) => ({ label, fields }));
 
@@ -392,16 +392,16 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const Inventory = customElements.get(this.options.elements.inventory);
     context.sections = Inventory.prepareSections(Object.values(context.spellbook));
     context.listControls = {
-      label: "DND5E.SpellsSearch",
+      label: "DEGRINGO5E.SpellsSearch",
       list: "spells",
       filters: [
-        { key: "action", label: "DND5E.Action" },
-        { key: "bonus", label: "DND5E.BonusAction" },
-        { key: "reaction", label: "DND5E.Reaction" },
-        { key: "concentration", label: "DND5E.Concentration" },
-        { key: "ritual", label: "DND5E.Ritual" },
-        { key: "prepared", label: "DND5E.Prepared" },
-        ...Object.entries(CONFIG.DND5E.spellSchools).map(([key, { label }]) => ({ key, label }))
+        { key: "action", label: "DEGRINGO5E.Action" },
+        { key: "bonus", label: "DEGRINGO5E.BonusAction" },
+        { key: "reaction", label: "DEGRINGO5E.Reaction" },
+        { key: "concentration", label: "DEGRINGO5E.Concentration" },
+        { key: "ritual", label: "DEGRINGO5E.Ritual" },
+        { key: "prepared", label: "DEGRINGO5E.Prepared" },
+        ...Object.entries(CONFIG.DEGRINGO5E.spellSchools).map(([key, { label }]) => ({ key, label }))
       ],
       sorting: [
         { key: "a", label: "SIDEBAR.SortModeAlpha", dataset: { icon: "fa-solid fa-arrow-down-a-z" } },
@@ -441,10 +441,10 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   _prepareAbilities(context) {
     return Object.entries(context.system.abilities).map(([key, ability]) => ({
       ...ability, key,
-      abbr: CONFIG.DND5E.abilities[key]?.abbreviation ?? "",
-      hover: CONFIG.DND5E.proficiencyLevels[ability.proficient],
-      icon: CONFIG.DND5E.abilities[key]?.icon,
-      label: CONFIG.DND5E.abilities[key]?.label,
+      abbr: CONFIG.DEGRINGO5E.abilities[key]?.abbreviation ?? "",
+      hover: CONFIG.DEGRINGO5E.proficiencyLevels[ability.proficient],
+      icon: CONFIG.DEGRINGO5E.abilities[key]?.icon,
+      label: CONFIG.DEGRINGO5E.abilities[key]?.label,
       source: context.source.abilities[key]
     }));
   }
@@ -515,7 +515,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    */
   _prepareSenses(context) {
     return [
-      ...Object.entries(CONFIG.DND5E.senses).map(([k, label]) => {
+      ...Object.entries(CONFIG.DEGRINGO5E.senses).map(([k, label]) => {
         const value = context.system.attributes.senses[k];
         return value ? { label, value } : null;
       }, {}).filter(_ => _),
@@ -537,15 +537,15 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const baseAbility = key => {
       let src = context.source[property]?.[key]?.ability;
       if ( src ) return src;
-      if ( property === "skills" ) src = CONFIG.DND5E.skills[key]?.ability;
+      if ( property === "skills" ) src = CONFIG.DEGRINGO5E.skills[key]?.ability;
       return src ?? "int";
     };
     return Object.entries(context.system[property] ?? {}).map(([key, entry]) => ({
       ...entry, key,
-      abbreviation: CONFIG.DND5E.abilities[entry.ability]?.abbreviation,
+      abbreviation: CONFIG.DEGRINGO5E.abilities[entry.ability]?.abbreviation,
       baseAbility: baseAbility(key),
-      hover: CONFIG.DND5E.proficiencyLevels[entry.value],
-      label: (property === "skills") ? CONFIG.DND5E.skills[key]?.label : Trait.keyLabel(key, { trait: "tool" }),
+      hover: CONFIG.DEGRINGO5E.proficiencyLevels[entry.value],
+      label: (property === "skills") ? CONFIG.DEGRINGO5E.skills[key]?.label : Trait.keyLabel(key, { trait: "tool" }),
       source: context.source[property]?.[key]
     }));
   }
@@ -562,7 +562,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const spellbook = {};
 
     // Define section and label mappings
-    const sections = Object.entries(CONFIG.DND5E.spellPreparationModes).reduce((acc, [k, {order}]) => {
+    const sections = Object.entries(CONFIG.DEGRINGO5E.spellPreparationModes).reduce((acc, [k, {order}]) => {
       if ( Number.isNumeric(order) ) acc[k] = Number(order);
       return acc;
     }, {});
@@ -593,10 +593,10 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         const filled = spells.value >= n;
         const temp = n > maxSlots;
         const label = temp
-          ? game.i18n.localize("DND5E.SpellSlotTemporary")
+          ? game.i18n.localize("DEGRINGO5E.SpellSlotTemporary")
           : filled
-            ? game.i18n.format(`DND5E.SpellSlotN.${getPluralRules({ type: "ordinal" }).select(n)}`, { n })
-            : game.i18n.localize("DND5E.SpellSlotExpended");
+            ? game.i18n.format(`DEGRINGO5E.SpellSlotN.${getPluralRules({ type: "ordinal" }).select(n)}`, { n })
+            : game.i18n.localize("DEGRINGO5E.SpellSlotExpended");
         const classes = ["pip"];
         if ( filled ) classes.push("filled");
         if ( temp ) classes.push("tmp");
@@ -605,7 +605,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     };
 
     // Determine the maximum spell level which has a slot
-    const maxLevel = Array.fromRange(Object.keys(CONFIG.DND5E.spellLevels).length - 1, 1).reduce((max, i) => {
+    const maxLevel = Array.fromRange(Object.keys(CONFIG.DEGRINGO5E.spellLevels).length - 1, 1).reduce((max, i) => {
       const level = levels[`spell${i}`];
       if ( level && (level.max || level.override ) && ( i > max ) ) max = i;
       return max;
@@ -613,19 +613,19 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Level-based spellcasters have cantrips and leveled slots
     if ( maxLevel > 0 ) {
-      registerSection("spell0", 0, CONFIG.DND5E.spellLevels[0]);
+      registerSection("spell0", 0, CONFIG.DEGRINGO5E.spellLevels[0]);
       for ( let lvl = 1; lvl <= maxLevel; lvl++ ) {
         const sl = `spell${lvl}`;
-        registerSection(sl, lvl, CONFIG.DND5E.spellLevels[lvl], levels[sl]);
+        registerSection(sl, lvl, CONFIG.DEGRINGO5E.spellLevels[lvl], levels[sl]);
       }
     }
 
     // Create spellbook sections for all alternative spell preparation modes that have spell slots.
-    for ( const [k, v] of Object.entries(CONFIG.DND5E.spellPreparationModes) ) {
+    for ( const [k, v] of Object.entries(CONFIG.DEGRINGO5E.spellPreparationModes) ) {
       if ( !(k in levels) || !v.upcast || !levels[k].max ) continue;
-      if ( !spellbook["0"] && v.cantrips ) registerSection("spell0", 0, CONFIG.DND5E.spellLevels[0]);
+      if ( !spellbook["0"] && v.cantrips ) registerSection("spell0", 0, CONFIG.DEGRINGO5E.spellLevels[0]);
       const l = levels[k];
-      const level = game.i18n.localize(`DND5E.SpellLevel${l.level}`);
+      const level = game.i18n.localize(`DEGRINGO5E.SpellLevel${l.level}`);
       const label = `${v.label} — ${level}`;
       registerSection(k, sections[k], label, { prepMode: k });
     }
@@ -641,7 +641,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         s = "item";
         if ( !spell.system.linkedActivity?.displayInSpellbook ) return;
         if ( !spellbook[s] ) {
-          registerSection(null, s, game.i18n.localize("DND5E.CAST.SECTIONS.Spellbook"));
+          registerSection(null, s, game.i18n.localize("DEGRINGO5E.CAST.SECTIONS.Spellbook"));
           spellbook[s].order = 1000;
         }
       }
@@ -650,13 +650,13 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       else if ( mode in sections ) {
         s = sections[mode];
         if ( !spellbook[s] ) {
-          const config = CONFIG.DND5E.spellPreparationModes[mode];
+          const config = CONFIG.DEGRINGO5E.spellPreparationModes[mode];
           registerSection(mode, s, config.label, { prepMode: mode });
         }
       }
 
       // Sections for higher-level spells which the caster does not have any slots for.
-      else if ( !spellbook[s] ) registerSection(sl, s, CONFIG.DND5E.spellLevels[s]);
+      else if ( !spellbook[s] ) registerSection(sl, s, CONFIG.DEGRINGO5E.spellLevels[s]);
 
       // Add the spell to the relevant heading
       spellbook[s].items.push(spell);
@@ -676,7 +676,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    */
   _prepareTraits(context) {
     const traits = {};
-    for ( const [trait, config] of Object.entries(CONFIG.DND5E.traits) ) {
+    for ( const [trait, config] of Object.entries(CONFIG.DEGRINGO5E.traits) ) {
       const key = config.actorKeyPath ?? `system.traits.${trait}`;
       const data = foundry.utils.deepClone(foundry.utils.getProperty(this.actor, key));
       if ( ["dm", "languages"].includes(trait) || !data ) continue;
@@ -688,9 +688,9 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       values = values.map(key => {
         const value = { key, label: Trait.keyLabel(key, { trait }) ?? key };
         const icons = value.icons = [];
-        if ( data.bypasses?.size && CONFIG.DND5E.damageTypes[key]?.isPhysical ) icons.push(...data.bypasses.map(p => {
-          const type = CONFIG.DND5E.itemProperties[p]?.label;
-          return { icon: p, label: game.i18n.format("DND5E.DamagePhysicalBypassesShort", { type }) };
+        if ( data.bypasses?.size && CONFIG.DEGRINGO5E.damageTypes[key]?.isPhysical ) icons.push(...data.bypasses.map(p => {
+          const type = CONFIG.DEGRINGO5E.itemProperties[p]?.label;
+          return { icon: p, label: game.i18n.format("DEGRINGO5E.DamagePhysicalBypassesShort", { type }) };
         }));
         return value;
       });
@@ -700,7 +700,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // If petrified, display "All Damage" instead of all damage types separately
     if ( this.document.hasConditionEffect("petrification") ) {
-      traits.dr = [{ label: game.i18n.localize("DND5E.DamageAll") }];
+      traits.dr = [{ label: game.i18n.localize("DEGRINGO5E.DamageAll") }];
     }
 
     // Combine damage & condition immunities in play mode.
@@ -718,13 +718,13 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         const total = simplifyBonus(v, rollData);
         if ( !total ) return null;
         const value = {
-          label: `${CONFIG.DND5E.damageTypes[k]?.label ?? k} ${formatNumber(total, { signDisplay: "always" })}`,
+          label: `${CONFIG.DEGRINGO5E.damageTypes[k]?.label ?? k} ${formatNumber(total, { signDisplay: "always" })}`,
           color: total > 0 ? "maroon" : "green"
         };
         const icons = value.icons = [];
-        if ( dm.bypasses.size && CONFIG.DND5E.damageTypes[k]?.isPhysical ) icons.push(...dm.bypasses.map(p => {
-          const type = CONFIG.DND5E.itemProperties[p]?.label;
-          return { icon: p, label: game.i18n.format("DND5E.DamagePhysicalBypassesShort", { type }) };
+        if ( dm.bypasses.size && CONFIG.DEGRINGO5E.damageTypes[k]?.isPhysical ) icons.push(...dm.bypasses.map(p => {
+          const type = CONFIG.DEGRINGO5E.itemProperties[p]?.label;
+          return { icon: p, label: game.i18n.format("DEGRINGO5E.DamagePhysicalBypassesShort", { type }) };
         }));
         return value;
       }).filter(f => f);
@@ -734,7 +734,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     // Prepare languages
     const languages = this.actor.system.traits?.languages?.labels;
     if ( languages?.languages?.length ) traits.languages = languages.languages.map(label => ({ label }));
-    for ( const [key, { label }] of Object.entries(CONFIG.DND5E.communicationTypes) ) {
+    for ( const [key, { label }] of Object.entries(CONFIG.DEGRINGO5E.communicationTypes) ) {
       const data = this.actor.system.traits?.languages?.communication?.[key];
       if ( !data?.value ) continue;
       traits.languages ??= [];
@@ -749,7 +749,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         traits.weapon ??= [];
         traits.weapon.push(value);
       }
-      value.icons.push({ icon: "mastery", label: game.i18n.format("DND5E.WEAPON.Mastery.Label") });
+      value.icons.push({ icon: "mastery", label: game.i18n.format("DEGRINGO5E.WEAPON.Mastery.Label") });
     }
 
     return traits;
@@ -804,12 +804,12 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Activation
     const activationAbbr = {
-      action: "DND5E.ActionAbbr",
-      bonus: "DND5E.BonusActionAbbr",
-      reaction: "DND5E.ReactionAbbr",
-      minute: "DND5E.TimeMinuteAbbr",
-      hour: "DND5E.TimeHourAbbr",
-      day: "DND5E.TimeDayAbbr"
+      action: "DEGRINGO5E.ActionAbbr",
+      bonus: "DEGRINGO5E.BonusActionAbbr",
+      reaction: "DEGRINGO5E.ReactionAbbr",
+      minute: "DEGRINGO5E.TimeMinuteAbbr",
+      hour: "DEGRINGO5E.TimeHourAbbr",
+      day: "DEGRINGO5E.TimeDayAbbr"
     }[activation?.type || ""];
 
     // To Hit
@@ -836,8 +836,8 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         ...save,
         ability: save.ability?.size
           ? save.ability.size === 1
-            ? CONFIG.DND5E.abilities[save.ability.first()]?.abbreviation
-            : game.i18n.localize("DND5E.AbbreviationDC")
+            ? CONFIG.DEGRINGO5E.abilities[save.ability.first()]?.abbreviation
+            : game.i18n.localize("DEGRINGO5E.AbbreviationDC")
           : null
       } : null,
       toHit: Number.isNaN(toHit) ? null : toHit
@@ -870,8 +870,8 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     // Save
     ctx.save = { ...item.system.activities?.getByType("save")[0]?.save };
     ctx.save.ability = ctx.save.ability?.size ? ctx.save.ability.size === 1
-      ? CONFIG.DND5E.abilities[ctx.save.ability.first()]?.abbreviation
-      : game.i18n.localize("DND5E.AbbreviationDC") : null;
+      ? CONFIG.DEGRINGO5E.abilities[ctx.save.ability.first()]?.abbreviation
+      : game.i18n.localize("DEGRINGO5E.AbbreviationDC") : null;
 
     // Linked Uses
     const cachedFor = fromUuidSync(item.flags.dnd5e?.cachedFor, { relative: this.actor, strict: false });
@@ -897,10 +897,10 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     // Classes & Subclasses
     if ( ["class", "subclass"].includes(item.type) ) {
       ctx.prefixedImage = item.img ? foundry.utils.getRoute(item.img) : null;
-      if ( item.type === "class" ) ctx.availableLevels = Array.fromRange(CONFIG.DND5E.maxLevel, 1).map(level => {
+      if ( item.type === "class" ) ctx.availableLevels = Array.fromRange(CONFIG.DEGRINGO5E.maxLevel, 1).map(level => {
         const value = level - item.system.levels;
         const label = value ? `${level} (${formatNumber(value, { signDisplay: "always" })})` : `${level}`;
-        return { label, value, disabled: value > (CONFIG.DND5E.maxLevel - (this.actor.system.details?.level ?? 0)) };
+        return { label, value, disabled: value > (CONFIG.DEGRINGO5E.maxLevel - (this.actor.system.details?.level ?? 0)) };
       });
     }
 
@@ -928,7 +928,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     if ( "equipped" in item.system ) ctx.equip = {
       applicable: true,
       cls: item.system.equipped ? "active" : "",
-      title: `DND5E.${item.system.equipped ? "Equipped" : "Unequipped"}`,
+      title: `DEGRINGO5E.${item.system.equipped ? "Equipped" : "Unequipped"}`,
       disabled: !item.isOwner
     };
     else ctx.equip = { applicable: false };
@@ -957,22 +957,22 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     // Activation
     const cost = item.system.activation?.value ?? "";
     const abbr = {
-      action: "DND5E.ActionAbbr",
-      bonus: "DND5E.BonusActionAbbr",
-      reaction: "DND5E.ReactionAbbr",
-      minute: "DND5E.TimeMinuteAbbr",
-      hour: "DND5E.TimeHourAbbr",
-      day: "DND5E.TimeDayAbbr"
+      action: "DEGRINGO5E.ActionAbbr",
+      bonus: "DEGRINGO5E.BonusActionAbbr",
+      reaction: "DEGRINGO5E.ReactionAbbr",
+      minute: "DEGRINGO5E.TimeMinuteAbbr",
+      hour: "DEGRINGO5E.TimeHourAbbr",
+      day: "DEGRINGO5E.TimeDayAbbr"
     }[item.system.activation.type];
     ctx.activation = abbr ? `${cost}${game.i18n.localize(abbr)}` : item.labels.activation;
 
     // Range
     const units = item.system.range?.units;
     if ( units && (units !== "none") ) {
-      if ( units in CONFIG.DND5E.movementUnits ) ctx.range = {
+      if ( units in CONFIG.DEGRINGO5E.movementUnits ) ctx.range = {
         distance: true,
         value: item.system.range.value,
-        unit: CONFIG.DND5E.movementUnits[units].abbreviation,
+        unit: CONFIG.DEGRINGO5E.movementUnits[units].abbreviation,
         parts: formatLength(item.system.range.value, units, { parts: true })
       };
       else ctx.range = { distance: false };
@@ -980,7 +980,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Prepared
     const mode = item.system.preparation?.mode;
-    const config = CONFIG.DND5E.spellPreparationModes[mode] ?? {};
+    const config = CONFIG.DEGRINGO5E.spellPreparationModes[mode] ?? {};
     if ( config.prepares && !linked ) {
       const isAlways = mode === "always";
       const prepared = isAlways || item.system.preparation.prepared;
@@ -990,10 +990,10 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         cls: prepared ? "active" : "",
         icon: `<i class="fa-${prepared ? "solid" : "regular"} fa-${isAlways ? "certificate" : "sun"}"></i>`,
         title: isAlways
-          ? CONFIG.DND5E.spellPreparationModes.always.label
+          ? CONFIG.DEGRINGO5E.spellPreparationModes.always.label
           : prepared
-            ? CONFIG.DND5E.spellPreparationModes.prepared.label
-            : game.i18n.localize("DND5E.SpellUnprepared")
+            ? CONFIG.DEGRINGO5E.spellPreparationModes.prepared.label
+            : game.i18n.localize("DEGRINGO5E.SpellUnprepared")
       };
     }
     else ctx.preparation = { applicable: false };
@@ -1018,8 +1018,8 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const element = document.createElement("div");
     element.classList.add("attunement");
     element.innerHTML = `
-      <i class="fa-solid fa-sun" data-tooltip="DND5E.Attunement"
-         aria-label="${game.i18n.localize("DND5E.Attunement")}"></i>
+      <i class="fa-solid fa-sun" data-tooltip="DEGRINGO5E.Attunement"
+         aria-label="${game.i18n.localize("DEGRINGO5E.Attunement")}"></i>
       <span class="value"></span>
       <span class="separator">&sol;</span>
     `;
@@ -1056,10 +1056,10 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       if ( context.editable ) {
         const config = document.createElement("button");
         Object.assign(config, {
-          type: "button", className: "unbutton config-button", ariaLabel: game.i18n.localize("DND5E.SpellSlotsConfig")
+          type: "button", className: "unbutton config-button", ariaLabel: game.i18n.localize("DEGRINGO5E.SpellSlotsConfig")
         });
         Object.assign(config.dataset, {
-          action: "showConfiguration", config: "spellSlots", tooltip: "DND5E.SpellSlotsConfig"
+          action: "showConfiguration", config: "spellSlots", tooltip: "DEGRINGO5E.SpellSlotsConfig"
         });
         config.insertAdjacentHTML("afterbegin", '<i class="fa-solid fa-cog" inert></i>');
         header.append(config);
@@ -1185,7 +1185,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   /** @override */
   _addDocument(event, target) {
     if ( this.tabGroups.primary === "effects" ) return ActiveEffect.implementation.create({
-      name: game.i18n.localize("DND5E.EffectNew"),
+      name: game.i18n.localize("DEGRINGO5E.EffectNew"),
       icon: "icons/svg/aura.svg"
     }, { parent: this.actor, renderSheet: true });
 
@@ -1732,7 +1732,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const itemsWithoutAdvancement = items.filter(i => !i.system.advancement?.length);
     const multipleAdvancements = (items.length - itemsWithoutAdvancement.length) > 1;
     if ( multipleAdvancements && !game.settings.get("dnd5e", "disableAdvancements") ) {
-      ui.notifications.warn(game.i18n.format("DND5E.WarnCantAddMultipleAdvancements"));
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.WarnCantAddMultipleAdvancements"));
       items = itemsWithoutAdvancement;
     }
 
@@ -1765,7 +1765,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   async _onDropSingleItem(event, itemData) {
     // Check to make sure items of this type are allowed on this actor
     if ( this.constructor.unsupportedItemTypes.has(itemData.type) ) {
-      ui.notifications.warn(game.i18n.format("DND5E.ActorWarningInvalidItem", {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.ActorWarningInvalidItem", {
         itemType: game.i18n.localize(CONFIG.Item.typeLabels[itemData.type]),
         actorType: game.i18n.localize(CONFIG.Actor.typeLabels[this.actor.type])
       }));
@@ -1793,7 +1793,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       const dataModel = CONFIG.Item.dataModels[itemData.type];
       const singleton = dataModel?.metadata.singleton ?? false;
       if ( singleton && this.actor.itemTypes[itemData.type].length ) {
-        ui.notifications.error(game.i18n.format("DND5E.ActorWarningSingleton", {
+        ui.notifications.error(game.i18n.format("DEGRINGO5E.ActorWarningSingleton", {
           itemType: game.i18n.localize(CONFIG.Item.typeLabels[itemData.type]),
           actorType: game.i18n.localize(CONFIG.Actor.typeLabels[this.actor.type])
         }));
@@ -1891,7 +1891,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const alwaysPrepared = ["innate", "always"];
     const actions = ["action", "bonus", "reaction"];
     const recoveries = ["lr", "sr"];
-    const spellSchools = new Set(Object.keys(CONFIG.DND5E.spellSchools));
+    const spellSchools = new Set(Object.keys(CONFIG.DEGRINGO5E.spellSchools));
     const schoolFilter = spellSchools.intersection(filters);
     const spellcastingClasses = new Set(Object.keys(this.actor.spellcastingClasses));
     const classFilter = spellcastingClasses.intersection(filters);

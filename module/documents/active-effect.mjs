@@ -42,7 +42,7 @@ export default class ActiveEffect5e extends ActiveEffect {
   /* -------------------------------------------- */
 
   /** @inheritdoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.ACTIVEEFFECT"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.ACTIVEEFFECT"];
 
   /* -------------------------------------------- */
 
@@ -280,7 +280,7 @@ export default class ActiveEffect5e extends ActiveEffect {
    */
   _prepareFlagChange(actor, change) {
     const { key, value } = change;
-    const data = CONFIG.DND5E.characterFlags[key.replace("flags.dnd5e.", "")];
+    const data = CONFIG.DEGRINGO5E.characterFlags[key.replace("flags.dnd5e.", "")];
     if ( !data ) return change;
 
     // Set flag to initial value if it isn't present
@@ -331,14 +331,14 @@ export default class ActiveEffect5e extends ActiveEffect {
    * @protected
    */
   _prepareExhaustionLevel() {
-    const config = CONFIG.DND5E.conditionTypes.exhaustion;
+    const config = CONFIG.DEGRINGO5E.conditionTypes.exhaustion;
     let level = this.getFlag("dnd5e", "exhaustionLevel");
     if ( !Number.isFinite(level) ) level = 1;
     this.img = this.constructor._getExhaustionImage(level);
-    this.name = `${game.i18n.localize("DND5E.Exhaustion")} ${level}`;
+    this.name = `${game.i18n.localize("DEGRINGO5E.Exhaustion")} ${level}`;
     if ( level >= config.levels ) {
       this.statuses.add("dead");
-      CONFIG.DND5E.statusEffects.dead.statuses?.forEach(s => this.statuses.add(s));
+      CONFIG.DEGRINGO5E.statusEffects.dead.statuses?.forEach(s => this.statuses.add(s));
     }
   }
 
@@ -494,7 +494,7 @@ export default class ActiveEffect5e extends ActiveEffect {
 
     // Enchantments cannot be added directly to actors
     if ( (this.type === "enchantment") && (this.parent instanceof Actor) ) {
-      ui.notifications.error("DND5E.ENCHANTMENT.Warning.NotOnActor", { localize: true });
+      ui.notifications.error("DEGRINGO5E.ENCHANTMENT.Warning.NotOnActor", { localize: true });
       return false;
     }
 
@@ -550,7 +550,7 @@ export default class ActiveEffect5e extends ActiveEffect {
       if ( newEncumbrance === originalEncumbrance ) return;
       const increase = !originalEncumbrance || ((originalEncumbrance === "encumbered") && newEncumbrance)
         || (newEncumbrance === "exceedingCarryingCapacity");
-      if ( !increase ) this.name = CONFIG.DND5E.encumbrance.effects[originalEncumbrance].name;
+      if ( !increase ) this.name = CONFIG.DEGRINGO5E.encumbrance.effects[originalEncumbrance].name;
       this._displayScrollingStatus(increase);
       this.name = name;
     }
@@ -562,7 +562,7 @@ export default class ActiveEffect5e extends ActiveEffect {
   async _preDelete(options, user) {
     const dependents = this.getDependents();
     if ( dependents.length && !game.users.activeGM ) {
-      ui.notifications.warn("DND5E.ConcentrationBreakWarning", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.ConcentrationBreakWarning", { localize: true });
       return false;
     }
     return super._preDelete(options, user);
@@ -606,8 +606,8 @@ export default class ActiveEffect5e extends ActiveEffect {
     const statusEffect = CONFIG.statusEffects.find(e => e.id === CONFIG.specialStatusEffects.CONCENTRATING);
     const effectData = foundry.utils.mergeObject({
       ...statusEffect,
-      name: `${game.i18n.localize("EFFECT.DND5E.StatusConcentrating")}: ${item.name}`,
-      description: `<p>${game.i18n.format("DND5E.ConcentratingOn", {
+      name: `${game.i18n.localize("EFFECT.DEGRINGO5E.StatusConcentrating")}: ${item.name}`,
+      description: `<p>${game.i18n.format("DEGRINGO5E.ConcentratingOn", {
         name: item.name,
         type: game.i18n.localize(`TYPES.Item.${item.type}`)
       })}</p><hr><p>@Embed[${item.uuid} inline]</p>`,
@@ -650,8 +650,8 @@ export default class ActiveEffect5e extends ActiveEffect {
    */
   static onRenderActiveEffectConfig(app, html) {
     const element = new foundry.data.fields.SetField(new foundry.data.fields.StringField(), {}).toFormGroup({
-      label: game.i18n.localize("DND5E.CONDITIONS.RiderConditions.label"),
-      hint: game.i18n.localize("DND5E.CONDITIONS.RiderConditions.hint")
+      label: game.i18n.localize("DEGRINGO5E.CONDITIONS.RiderConditions.label"),
+      hint: game.i18n.localize("DEGRINGO5E.CONDITIONS.RiderConditions.hint")
     }, {
       name: "flags.dnd5e.riders.statuses",
       value: app.document.getFlag("dnd5e", "riders.statuses") ?? [],
@@ -689,7 +689,7 @@ export default class ActiveEffect5e extends ActiveEffect {
    */
   static _getExhaustionImage(level) {
     // TODO: Only use `img` in 5.2.
-    const { img, icon } = CONFIG.DND5E.conditionTypes.exhaustion;
+    const { img, icon } = CONFIG.DEGRINGO5E.conditionTypes.exhaustion;
     const split = img ? img.split(".") : icon.split(".");
     const ext = split.pop();
     const path = split.join(".");
@@ -728,7 +728,7 @@ export default class ActiveEffect5e extends ActiveEffect {
     event.stopPropagation();
     if ( event.button === 0 ) level++;
     else level--;
-    const max = CONFIG.DND5E.conditionTypes.exhaustion.levels;
+    const max = CONFIG.DEGRINGO5E.conditionTypes.exhaustion.levels;
     actor.update({ "system.attributes.exhaustion": Math.clamp(level, 0, max) });
   }
 
@@ -750,15 +750,15 @@ export default class ActiveEffect5e extends ActiveEffect {
     }
     const choices = effects.reduce((acc, effect) => {
       const data = effect.getFlag("dnd5e", "item.data");
-      acc[effect.id] = data?.name ?? actor.items.get(data)?.name ?? game.i18n.localize("DND5E.ConcentratingItemless");
+      acc[effect.id] = data?.name ?? actor.items.get(data)?.name ?? game.i18n.localize("DEGRINGO5E.ConcentratingItemless");
       return acc;
     }, {});
     const options = HandlebarsHelpers.selectOptions(choices, { hash: { sort: true } });
     const content = `
     <form class="dnd5e">
-      <p>${game.i18n.localize("DND5E.ConcentratingEndChoice")}</p>
+      <p>${game.i18n.localize("DEGRINGO5E.ConcentratingEndChoice")}</p>
       <div class="form-group">
-        <label>${game.i18n.localize("DND5E.SOURCE.FIELDS.source.label")}</label>
+        <label>${game.i18n.localize("DEGRINGO5E.SOURCE.FIELDS.source.label")}</label>
         <div class="form-fields">
           <select name="source">${options}</select>
         </div>
@@ -771,8 +771,8 @@ export default class ActiveEffect5e extends ActiveEffect {
         if ( source ) actor.endConcentration(source);
       },
       rejectClose: false,
-      title: game.i18n.localize("DND5E.Concentration"),
-      label: game.i18n.localize("DND5E.Confirm")
+      title: game.i18n.localize("DEGRINGO5E.Concentration"),
+      label: game.i18n.localize("DEGRINGO5E.Confirm")
     });
   }
 
@@ -838,11 +838,11 @@ export default class ActiveEffect5e extends ActiveEffect {
    */
   async richTooltip(enrichmentOptions={}) {
     const properties = [];
-    if ( this.isSuppressed ) properties.push("DND5E.EffectType.Unavailable");
-    else if ( this.disabled ) properties.push("DND5E.EffectType.Inactive");
-    else if ( this.isTemporary ) properties.push("DND5E.EffectType.Temporary");
-    else properties.push("DND5E.EffectType.Passive");
-    if ( this.type === "enchantment" ) properties.push("DND5E.ENCHANTMENT.Label");
+    if ( this.isSuppressed ) properties.push("DEGRINGO5E.EffectType.Unavailable");
+    else if ( this.disabled ) properties.push("DEGRINGO5E.EffectType.Inactive");
+    else if ( this.isTemporary ) properties.push("DEGRINGO5E.EffectType.Temporary");
+    else properties.push("DEGRINGO5E.EffectType.Passive");
+    if ( this.type === "enchantment" ) properties.push("DEGRINGO5E.ENCHANTMENT.Label");
 
     return {
       content: await foundry.applications.handlebars.renderTemplate(

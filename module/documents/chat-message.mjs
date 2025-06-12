@@ -310,7 +310,7 @@ export default class ChatMessage5e extends ChatMessage {
     if ( !game.user.isGM ) deleteButton?.remove();
     else deleteButton?.querySelector("i").classList.add("fa-fw");
     const anchor = document.createElement("a");
-    anchor.setAttribute("aria-label", game.i18n.localize("DND5E.AdditionalControls"));
+    anchor.setAttribute("aria-label", game.i18n.localize("DEGRINGO5E.AdditionalControls"));
     anchor.classList.add("chat-control");
     anchor.dataset.contextMenu = "";
     anchor.innerHTML = '<i class="fas fa-ellipsis-vertical fa-fw"></i>';
@@ -331,8 +331,8 @@ export default class ChatMessage5e extends ChatMessage {
       const isCritical = (roll.type === "damage") && this.rolls[0]?.isCritical;
       const subtitle = roll.type === "damage"
         ? isCritical
-          ? game.i18n.localize("DND5E.CriticalHit")
-          : activity?.damageFlavor ?? game.i18n.localize("DND5E.DamageRoll")
+          ? game.i18n.localize("DEGRINGO5E.CriticalHit")
+          : activity?.damageFlavor ?? game.i18n.localize("DEGRINGO5E.DamageRoll")
         : roll.type === "attack"
           ? (activity?.getActionLabel(roll.attackMode) ?? "")
           : (item.system.type?.label ?? game.i18n.localize(CONFIG.Item.typeLabels[item.type]));
@@ -417,7 +417,7 @@ export default class ChatMessage5e extends ChatMessage {
     const attackRoll = this.rolls[0];
     if ( !(attackRoll instanceof dnd5e.dice.D20Roll) ) return;
 
-    const masteryConfig = CONFIG.DND5E.weaponMasteries[attackRoll.options.mastery];
+    const masteryConfig = CONFIG.DEGRINGO5E.weaponMasteries[attackRoll.options.mastery];
     if ( masteryConfig ) {
       const p = document.createElement("p");
       p.classList.add("supplement");
@@ -426,7 +426,7 @@ export default class ChatMessage5e extends ChatMessage {
         <a class="content-link" draggable="true" data-link data-uuid="${masteryConfig.reference}"
            data-tooltip="${mastery}">${mastery}</a>
       `;
-      p.innerHTML = `<strong>${game.i18n.format("DND5E.WEAPON.Mastery.Flavor")}</strong> ${mastery}`;
+      p.innerHTML = `<strong>${game.i18n.format("DEGRINGO5E.WEAPON.Mastery.Flavor")}</strong> ${mastery}`;
       (html.querySelector(".chat-card") ?? html.querySelector(".message-content"))?.appendChild(p);
     }
 
@@ -442,7 +442,7 @@ export default class ChatMessage5e extends ChatMessage {
       <div class="card-tray targets-tray collapsible collapsed">
         <label class="roboto-upper">
           <i class="fas fa-bullseye" inert></i>
-          <span>${game.i18n.localize("DND5E.TargetPl")}</span>
+          <span>${game.i18n.localize("DEGRINGO5E.TargetPl")}</span>
           <i class="fas fa-caret-down" inert></i>
         </label>
         <div class="collapsible-content">
@@ -493,9 +493,9 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _enrichDamageTooltip(rolls, html) {
     if ( !rolls.length ) return;
-    const aggregatedRolls = CONFIG.DND5E.aggregateDamageDisplay ? aggregateDamageRolls(rolls) : rolls;
+    const aggregatedRolls = CONFIG.DEGRINGO5E.aggregateDamageDisplay ? aggregateDamageRolls(rolls) : rolls;
     let { formula, total, breakdown } = aggregatedRolls.reduce((obj, r) => {
-      obj.formula.push(CONFIG.DND5E.aggregateDamageDisplay ? r.formula : ` + ${r.formula}`);
+      obj.formula.push(CONFIG.DEGRINGO5E.aggregateDamageDisplay ? r.formula : ` + ${r.formula}`);
       obj.total += Math.max(0, r.total);
       obj.breakdown.push(this._simplifyDamageRoll(r));
       return obj;
@@ -506,7 +506,7 @@ export default class ChatMessage5e extends ChatMessage {
     roll.classList.add("dice-roll");
 
     const tooltipContents = breakdown.reduce((str, { type, total, constant, dice }) => {
-      const config = CONFIG.DND5E.damageTypes[type] ?? CONFIG.DND5E.healingTypes[type];
+      const config = CONFIG.DEGRINGO5E.damageTypes[type] ?? CONFIG.DEGRINGO5E.healingTypes[type];
       return `${str}
         <section class="tooltip-part">
           <div class="dice">
@@ -545,8 +545,8 @@ export default class ChatMessage5e extends ChatMessage {
     if ( damageOnSave ) {
       const p = document.createElement("p");
       p.classList.add("supplement");
-      p.innerHTML = `<strong>${game.i18n.format("DND5E.SAVE.OnSave")}</strong> ${
-        game.i18n.localize(`DND5E.SAVE.FIELDS.damage.onSave.${damageOnSave.capitalize()}`)
+      p.innerHTML = `<strong>${game.i18n.format("DEGRINGO5E.SAVE.OnSave")}</strong> ${
+        game.i18n.localize(`DEGRINGO5E.SAVE.FIELDS.damage.onSave.${damageOnSave.capitalize()}`)
       }`;
       html.querySelector(".chat-card, .message-content")?.appendChild(p);
     }
@@ -637,8 +637,8 @@ export default class ChatMessage5e extends ChatMessage {
     // If message has the `forceSuccess` flag, mark it as resisted
     if ( roll.forceSuccess ) content.insertAdjacentHTML("beforeend", `
       <p class="supplement">
-        <strong>${game.i18n.localize("DND5E.ROLL.Status")}</strong>
-        ${game.i18n.localize("DND5E.LegendaryResistance.Resisted")}
+        <strong>${game.i18n.localize("DEGRINGO5E.ROLL.Status")}</strong>
+        ${game.i18n.localize("DEGRINGO5E.LegendaryResistance.Resisted")}
       </p>
     `);
 
@@ -648,7 +648,7 @@ export default class ChatMessage5e extends ChatMessage {
         <div class="card-buttons">
           <button type="button">
             <i class="fa-solid fa-dragon" inert></i>
-            ${game.i18n.localize("DND5E.LegendaryResistance.Action.Resist")}
+            ${game.i18n.localize("DEGRINGO5E.LegendaryResistance.Action.Resist")}
           </button>
         </div>
       `);
@@ -700,49 +700,49 @@ export default class ChatMessage5e extends ChatMessage {
     const canTarget = li => game.messages.get(li.dataset.messageId)?.canSelectTargets;
     options.push(
       {
-        name: game.i18n.localize("DND5E.ChatContextDamage"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextDamage"),
         icon: '<i class="fas fa-user-minus"></i>',
         condition: canApply,
         callback: li => game.messages.get(li.dataset.messageId)?.applyChatCardDamage(li, 1),
         group: "damage"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextHealing"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextHealing"),
         icon: '<i class="fas fa-user-plus"></i>',
         condition: canApply,
         callback: li => game.messages.get(li.dataset.messageId)?.applyChatCardDamage(li, -1),
         group: "damage"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextTempHP"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextTempHP"),
         icon: '<i class="fas fa-user-clock"></i>',
         condition: canApply,
         callback: li => game.messages.get(li.dataset.messageId)?.applyChatCardTemp(li),
         group: "damage"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextDoubleDamage"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextDoubleDamage"),
         icon: '<i class="fas fa-user-injured"></i>',
         condition: canApply,
         callback: li => game.messages.get(li.dataset.messageId)?.applyChatCardDamage(li, 2),
         group: "damage"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextHalfDamage"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextHalfDamage"),
         icon: '<i class="fas fa-user-shield"></i>',
         condition: canApply,
         callback: li => game.messages.get(li.dataset.messageId)?.applyChatCardDamage(li, 0.5),
         group: "damage"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextSelectHit"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextSelectHit"),
         icon: '<i class="fas fa-bullseye"></i>',
         condition: canTarget,
         callback: li => game.messages.get(li.dataset.messageId)?.selectTargets(li, "hit"),
         group: "attack"
       },
       {
-        name: game.i18n.localize("DND5E.ChatContextSelectMiss"),
+        name: game.i18n.localize("DEGRINGO5E.ChatContextSelectMiss"),
         icon: '<i class="fas fa-bullseye"></i>',
         condition: canTarget,
         callback: li => game.messages.get(li.dataset.messageId)?.selectTargets(li, "miss"),
@@ -825,7 +825,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   applyChatCardDamage(li, multiplier) {
     const damages = aggregateDamageRolls(this.rolls, { respectProperties: true }).map(roll => ({
-      value: Math.max(0, roll.total) * (roll.options.type in CONFIG.DND5E.healingTypes ? -1 : 1),
+      value: Math.max(0, roll.total) * (roll.options.type in CONFIG.DEGRINGO5E.healingTypes ? -1 : 1),
       type: roll.options.type,
       properties: new Set(roll.options.properties ?? [])
     }));

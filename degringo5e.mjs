@@ -10,7 +10,7 @@
  */
 
 // Import Configuration
-import DND5E from "./module/config.mjs";
+import DEGRINGO5E from "./module/config.mjs";
 import {
   applyLegacyRules, registerDeferredSettings, registerSystemKeybindings, registerSystemSettings
 } from "./module/settings.mjs";
@@ -38,7 +38,7 @@ import DragDrop5e from "./module/drag-drop.mjs";
 globalThis.dnd5e = {
   applications,
   canvas,
-  config: DND5E,
+  config: DEGRINGO5E,
   dataModels,
   dice,
   documents,
@@ -55,10 +55,10 @@ globalThis.dnd5e = {
 
 Hooks.once("init", function() {
   globalThis.dnd5e = game.dnd5e = Object.assign(game.system, globalThis.dnd5e);
-  utils.log(`Initializing the D&D Fifth Game System - Version ${dnd5e.version}\n${DND5E.ASCII}`);
+  utils.log(`Initializing the D&D Fifth Game System - Version ${dnd5e.version}\n${DEGRINGO5E.ASCII}`);
 
   // Record Configuration Values
-  CONFIG.DND5E = DND5E;
+  CONFIG.DEGRINGO5E = DEGRINGO5E;
   CONFIG.ActiveEffect.documentClass = documents.ActiveEffect5e;
   CONFIG.ActiveEffect.legacyTransferral = false;
   CONFIG.Actor.documentClass = documents.Actor5e;
@@ -100,14 +100,14 @@ Hooks.once("init", function() {
   game.dnd5e.tooltips = new Tooltips5e();
 
   // Remove honor & sanity from configuration if they aren't enabled
-  if ( !game.settings.get("dnd5e", "honorScore") ) delete DND5E.abilities.hon;
-  if ( !game.settings.get("dnd5e", "sanityScore") ) delete DND5E.abilities.san;
+  if ( !game.settings.get("dnd5e", "honorScore") ) delete DEGRINGO5E.abilities.hon;
+  if ( !game.settings.get("dnd5e", "sanityScore") ) delete DEGRINGO5E.abilities.san;
 
   // Legacy rules.
   if ( game.settings.get("dnd5e", "rulesVersion") === "legacy" ) applyLegacyRules();
 
   // Register system
-  DND5E.SPELL_LISTS.forEach(uuid => dnd5e.registry.spellLists.register(uuid));
+  DEGRINGO5E.SPELL_LISTS.forEach(uuid => dnd5e.registry.spellLists.register(uuid));
 
   // Register module data from manifests
   registerModuleData();
@@ -133,54 +133,54 @@ Hooks.once("init", function() {
   DocumentSheetConfig.registerSheet(Actor, "dnd5e", applications.actor.CharacterActorSheet, {
     types: ["character"],
     makeDefault: true,
-    label: "DND5E.SheetClass.Character"
+    label: "DEGRINGO5E.SheetClass.Character"
   });
   DocumentSheetConfig.registerSheet(Actor, "dnd5e", applications.actor.NPCActorSheet, {
     types: ["npc"],
     makeDefault: true,
-    label: "DND5E.SheetClass.NPC"
+    label: "DEGRINGO5E.SheetClass.NPC"
   });
   DocumentSheetConfig.registerSheet(Actor, "dnd5e", applications.actor.ActorSheet5eVehicle, {
     types: ["vehicle"],
     makeDefault: true,
-    label: "DND5E.SheetClass.Vehicle"
+    label: "DEGRINGO5E.SheetClass.Vehicle"
   });
   DocumentSheetConfig.registerSheet(Actor, "dnd5e", applications.actor.GroupActorSheet, {
     types: ["group"],
     makeDefault: true,
-    label: "DND5E.SheetClass.Group"
+    label: "DEGRINGO5E.SheetClass.Group"
   });
 
   DocumentSheetConfig.unregisterSheet(Item, "core", foundry.appv1.sheets.ItemSheet);
   DocumentSheetConfig.registerSheet(Item, "dnd5e", applications.item.ItemSheet5e, {
     makeDefault: true,
-    label: "DND5E.SheetClass.Item"
+    label: "DEGRINGO5E.SheetClass.Item"
   });
   DocumentSheetConfig.unregisterSheet(Item, "dnd5e", applications.item.ItemSheet5e, { types: ["container"] });
   DocumentSheetConfig.registerSheet(Item, "dnd5e", applications.item.ContainerSheet, {
     makeDefault: true,
     types: ["container"],
-    label: "DND5E.SheetClass.Container"
+    label: "DEGRINGO5E.SheetClass.Container"
   });
 
   DocumentSheetConfig.registerSheet(JournalEntry, "dnd5e", applications.journal.JournalSheet5e, {
     makeDefault: true,
-    label: "DND5E.SheetClass.JournalEntry"
+    label: "DEGRINGO5E.SheetClass.JournalEntry"
   });
   DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalClassPageSheet, {
-    label: "DND5E.SheetClass.ClassSummary",
+    label: "DEGRINGO5E.SheetClass.ClassSummary",
     types: ["class", "subclass"]
   });
   DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalMapLocationPageSheet, {
-    label: "DND5E.SheetClass.MapLocation",
+    label: "DEGRINGO5E.SheetClass.MapLocation",
     types: ["map"]
   });
   DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalRulePageSheet, {
-    label: "DND5E.SheetClass.Rule",
+    label: "DEGRINGO5E.SheetClass.Rule",
     types: ["rule"]
   });
   DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalSpellListPageSheet, {
-    label: "DND5E.SheetClass.SpellList",
+    label: "DEGRINGO5E.SheetClass.SpellList",
     types: ["spells"]
   });
 
@@ -188,14 +188,14 @@ Hooks.once("init", function() {
     types: ["dnd5e.rotateArea"]
   });
   DocumentSheetConfig.registerSheet(RegionBehavior, "dnd5e", applications.regionBehavior.RotateAreaConfig, {
-    label: "DND5E.SheetClass.RotateArea",
+    label: "DEGRINGO5E.SheetClass.RotateArea",
     types: ["dnd5e.rotateArea"]
   });
 
   CONFIG.Token.prototypeSheetClass = applications.PrototypeTokenConfig5e;
   DocumentSheetConfig.unregisterSheet(TokenDocument, "core", foundry.applications.sheets.TokenConfig);
   DocumentSheetConfig.registerSheet(TokenDocument, "dnd5e", applications.TokenConfig5e, {
-    label: "DND5E.SheetClass.Token"
+    label: "DEGRINGO5E.SheetClass.Token"
   });
 
   // Preload Handlebars helpers & partials
@@ -219,13 +219,13 @@ function _configureTrackableAttributes() {
   const common = {
     bar: [],
     value: [
-      ...Object.keys(DND5E.abilities).map(ability => `abilities.${ability}.value`),
-      ...Object.keys(DND5E.movementTypes).map(movement => `attributes.movement.${movement}`),
+      ...Object.keys(DEGRINGO5E.abilities).map(ability => `abilities.${ability}.value`),
+      ...Object.keys(DEGRINGO5E.movementTypes).map(movement => `attributes.movement.${movement}`),
       "attributes.ac.value", "attributes.init.total"
     ]
   };
 
-  const altSpells = Object.entries(DND5E.spellPreparationModes).reduce((acc, [k, v]) => {
+  const altSpells = Object.entries(DEGRINGO5E.spellPreparationModes).reduce((acc, [k, v]) => {
     if ( !["prepared", "always"].includes(k) && v.upcast ) acc.push(`spells.${k}`);
     return acc;
   }, []);
@@ -235,12 +235,12 @@ function _configureTrackableAttributes() {
       ...common.bar,
       "attributes.hp",
       ...altSpells,
-      ...Array.fromRange(Object.keys(DND5E.spellLevels).length - 1, 1).map(l => `spells.spell${l}`)
+      ...Array.fromRange(Object.keys(DEGRINGO5E.spellLevels).length - 1, 1).map(l => `spells.spell${l}`)
     ],
     value: [
       ...common.value,
-      ...Object.keys(DND5E.skills).map(skill => `skills.${skill}.passive`),
-      ...Object.keys(DND5E.senses).map(sense => `attributes.senses.${sense}`),
+      ...Object.keys(DEGRINGO5E.skills).map(skill => `skills.${skill}.passive`),
+      ...Object.keys(DEGRINGO5E.senses).map(sense => `attributes.senses.${sense}`),
       "attributes.spell.attack", "attributes.spell.dc"
     ]
   };
@@ -272,24 +272,24 @@ function _configureTrackableAttributes() {
  * @internal
  */
 function _configureConsumableAttributes() {
-  const altSpells = Object.entries(DND5E.spellPreparationModes).reduce((acc, [k, v]) => {
+  const altSpells = Object.entries(DEGRINGO5E.spellPreparationModes).reduce((acc, [k, v]) => {
     if ( !["prepared", "always"].includes(k) && v.upcast ) acc.push(`spells.${k}.value`);
     return acc;
   }, []);
 
-  CONFIG.DND5E.consumableResources = [
-    ...Object.keys(DND5E.abilities).map(ability => `abilities.${ability}.value`),
+  CONFIG.DEGRINGO5E.consumableResources = [
+    ...Object.keys(DEGRINGO5E.abilities).map(ability => `abilities.${ability}.value`),
     "attributes.ac.flat",
     "attributes.hp.value",
     "attributes.exhaustion",
-    ...Object.keys(DND5E.senses).map(sense => `attributes.senses.${sense}`),
-    ...Object.keys(DND5E.movementTypes).map(type => `attributes.movement.${type}`),
-    ...Object.keys(DND5E.currencies).map(denom => `currency.${denom}`),
+    ...Object.keys(DEGRINGO5E.senses).map(sense => `attributes.senses.${sense}`),
+    ...Object.keys(DEGRINGO5E.movementTypes).map(type => `attributes.movement.${type}`),
+    ...Object.keys(DEGRINGO5E.currencies).map(denom => `currency.${denom}`),
     "details.xp.value",
     "resources.primary.value", "resources.secondary.value", "resources.tertiary.value",
     "resources.legact.value", "resources.legres.value",
     ...altSpells,
-    ...Array.fromRange(Object.keys(DND5E.spellLevels).length - 1, 1).map(level => `spells.spell${level}.value`)
+    ...Array.fromRange(Object.keys(DEGRINGO5E.spellLevels).length - 1, 1).map(level => `spells.spell${level}.value`)
   ];
 }
 
@@ -359,15 +359,15 @@ function _configureStatusEffects() {
     effects.push(data);
     if ( special ) CONFIG.specialStatusEffects[special] = data.id;
   };
-  CONFIG.statusEffects = Object.entries(CONFIG.DND5E.statusEffects).reduce((arr, [id, data]) => {
+  CONFIG.statusEffects = Object.entries(CONFIG.DEGRINGO5E.statusEffects).reduce((arr, [id, data]) => {
     const original = CONFIG.statusEffects.find(s => s.id === id);
     addEffect(arr, foundry.utils.mergeObject(original ?? {}, { id, ...data }, { inplace: false }));
     return arr;
   }, []);
-  for ( const [id, data] of Object.entries(CONFIG.DND5E.conditionTypes) ) {
+  for ( const [id, data] of Object.entries(CONFIG.DEGRINGO5E.conditionTypes) ) {
     addEffect(CONFIG.statusEffects, { id, ...data });
   }
-  for ( const [id, data] of Object.entries(CONFIG.DND5E.encumbrance.effects) ) {
+  for ( const [id, data] of Object.entries(CONFIG.DEGRINGO5E.encumbrance.effects) ) {
     addEffect(CONFIG.statusEffects, { id, ...data, hud: false });
   }
 }
@@ -384,7 +384,7 @@ Hooks.once("setup", function() {
   _configureTrackableAttributes();
   _configureConsumableAttributes();
 
-  CONFIG.DND5E.trackableAttributes = expandAttributeList(CONFIG.DND5E.trackableAttributes);
+  CONFIG.DEGRINGO5E.trackableAttributes = expandAttributeList(CONFIG.DEGRINGO5E.trackableAttributes);
   game.dnd5e.moduleArt.registerModuleArt();
   Tooltips5e.activateListeners();
   game.dnd5e.tooltips.observe();
@@ -397,7 +397,7 @@ Hooks.once("setup", function() {
 
   // Create CSS for currencies
   const style = document.createElement("style");
-  const currencies = append => Object.entries(CONFIG.DND5E.currencies)
+  const currencies = append => Object.entries(CONFIG.DEGRINGO5E.currencies)
     .map(([key, { icon }]) => `&.${key}${append ?? ""} { background-image: url("${icon}"); }`);
   style.innerHTML = `
     :is(.dnd5e2, .dnd5e2-journal) :is(i, span).currency {
@@ -442,33 +442,33 @@ Hooks.once("i18nInit", () => {
         race: game.i18n.localize("TYPES.Item.raceLegacy"),
         racePl: game.i18n.localize("TYPES.Item.raceLegacyPl")
       },
-      DND5E: {
-        "Feature.Species": game.i18n.localize("DND5E.Feature.SpeciesLegacy"),
-        FlagsAlertHint: game.i18n.localize("DND5E.FlagsAlertHintLegacy"),
-        ItemSpeciesDetails: game.i18n.localize("DND5E.ItemSpeciesDetailsLegacy"),
-        "Language.Category.Rare": game.i18n.localize("DND5E.Language.Category.Exotic"),
-        RacialTraits: game.i18n.localize("DND5E.RacialTraitsLegacy"),
-        "REST.Long.Hint.Normal": game.i18n.localize("DND5E.REST.Long.Hint.NormalLegacy"),
-        "REST.Long.Hint.Group": game.i18n.localize("DND5E.REST.Long.Hint.GroupLegacy"),
-        "Species.Add": game.i18n.localize("DND5E.Species.AddLegacy"),
-        "Species.Features": game.i18n.localize("DND5E.Species.FeaturesLegacy"),
+      DEGRINGO5E: {
+        "Feature.Species": game.i18n.localize("DEGRINGO5E.Feature.SpeciesLegacy"),
+        FlagsAlertHint: game.i18n.localize("DEGRINGO5E.FlagsAlertHintLegacy"),
+        ItemSpeciesDetails: game.i18n.localize("DEGRINGO5E.ItemSpeciesDetailsLegacy"),
+        "Language.Category.Rare": game.i18n.localize("DEGRINGO5E.Language.Category.Exotic"),
+        RacialTraits: game.i18n.localize("DEGRINGO5E.RacialTraitsLegacy"),
+        "REST.Long.Hint.Normal": game.i18n.localize("DEGRINGO5E.REST.Long.Hint.NormalLegacy"),
+        "REST.Long.Hint.Group": game.i18n.localize("DEGRINGO5E.REST.Long.Hint.GroupLegacy"),
+        "Species.Add": game.i18n.localize("DEGRINGO5E.Species.AddLegacy"),
+        "Species.Features": game.i18n.localize("DEGRINGO5E.Species.FeaturesLegacy"),
         "TARGET.Type.Emanation": foundry.utils.mergeObject(
-          _fallback.DND5E?.TARGET?.Type?.Radius ?? {},
-          translations.DND5E?.TARGET?.Type?.Radius ?? {},
+          _fallback.DEGRINGO5E?.TARGET?.Type?.Radius ?? {},
+          translations.DEGRINGO5E?.TARGET?.Type?.Radius ?? {},
           { inplace: false }
         ),
         TraitArmorPlural: foundry.utils.mergeObject(
-          _fallback.DND5E?.TraitArmorLegacyPlural ?? {},
-          translations.DND5E?.TraitArmorLegacyPlural ?? {},
+          _fallback.DEGRINGO5E?.TraitArmorLegacyPlural ?? {},
+          translations.DEGRINGO5E?.TraitArmorLegacyPlural ?? {},
           { inplace: false }
         ),
-        TraitArmorProf: game.i18n.localize("DND5E.TraitArmorLegacyProf")
+        TraitArmorProf: game.i18n.localize("DEGRINGO5E.TraitArmorLegacyProf")
       }
     });
   }
-  utils.performPreLocalization(CONFIG.DND5E);
-  Object.values(CONFIG.DND5E.activityTypes).forEach(c => c.documentClass.localize());
-  Object.values(CONFIG.DND5E.advancementTypes).forEach(c => c.documentClass.localize());
+  utils.performPreLocalization(CONFIG.DEGRINGO5E);
+  Object.values(CONFIG.DEGRINGO5E.activityTypes).forEach(c => c.documentClass.localize());
+  Object.values(CONFIG.DEGRINGO5E.advancementTypes).forEach(c => c.documentClass.localize());
   foundry.helpers.Localization.localizeDataModel(dataModels.settings.TransformationSetting);
 });
 
@@ -574,7 +574,7 @@ Hooks.on("preCreateScene", (doc, createData, options, userId) => {
   const units = utils.defaultUnits("length");
   if ( (units !== dnd5e.grid.units) && !foundry.utils.getProperty(createData, "grid.distance")
     && !foundry.utils.getProperty(createData, "grid.units") ) {
-    const C = CONFIG.DND5E.movementUnits;
+    const C = CONFIG.DEGRINGO5E.movementUnits;
     doc.updateSource({
       grid: {
         // TODO: Replace with `convertLength` method once added
@@ -628,5 +628,5 @@ export {
   migrations,
   registry,
   utils,
-  DND5E
+  DEGRINGO5E
 };

@@ -52,7 +52,7 @@ export default class SaveActivityData extends BaseActivityData {
 
   /** @override */
   get ability() {
-    if ( this.save.dc.calculation in CONFIG.DND5E.abilities ) return this.save.dc.calculation;
+    if ( this.save.dc.calculation in CONFIG.DEGRINGO5E.abilities ) return this.save.dc.calculation;
     if ( this.save.dc.calculation === "spellcasting" ) return this.spellcastingAbility;
     return this.save.ability.first() ?? null;
   }
@@ -83,7 +83,7 @@ export default class SaveActivityData extends BaseActivityData {
         parts: source.system.damage?.parts?.map(part => this.transformDamagePartData(source, part)) ?? []
       },
       save: {
-        ability: [source.system.save?.ability || Object.keys(CONFIG.DND5E.abilities)[0]],
+        ability: [source.system.save?.ability || Object.keys(CONFIG.DEGRINGO5E.abilities)[0]],
         dc: {
           calculation,
           formula: String(source.system.save?.dc ?? "")
@@ -121,9 +121,9 @@ export default class SaveActivityData extends BaseActivityData {
       ?? 8 + (this.actor?.system.attributes?.prof ?? 0);
     this.save.dc.value += bonus;
 
-    if ( this.save.dc.value ) this.labels.save = game.i18n.format("DND5E.SaveDC", {
+    if ( this.save.dc.value ) this.labels.save = game.i18n.format("DEGRINGO5E.SaveDC", {
       dc: this.save.dc.value,
-      ability: CONFIG.DND5E.abilities[ability]?.label ?? ""
+      ability: CONFIG.DEGRINGO5E.abilities[ability]?.label ?? ""
     });
   }
 

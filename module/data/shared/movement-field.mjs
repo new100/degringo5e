@@ -18,18 +18,18 @@ export default class MovementField extends foundry.data.fields.SchemaField {
   constructor(fields={}, { initialUnits=null, ...options }={}) {
     const numberConfig = { required: true, nullable: true, min: 0, step: 0.1, initial: null };
     fields = {
-      burrow: new NumberField({ ...numberConfig, label: "DND5E.MovementBurrow" }),
-      climb: new NumberField({ ...numberConfig, label: "DND5E.MovementClimb" }),
-      fly: new NumberField({ ...numberConfig, label: "DND5E.MovementFly" }),
-      swim: new NumberField({ ...numberConfig, label: "DND5E.MovementSwim" }),
-      walk: new NumberField({ ...numberConfig, label: "DND5E.MovementWalk" }),
+      burrow: new NumberField({ ...numberConfig, label: "DEGRINGO5E.MovementBurrow" }),
+      climb: new NumberField({ ...numberConfig, label: "DEGRINGO5E.MovementClimb" }),
+      fly: new NumberField({ ...numberConfig, label: "DEGRINGO5E.MovementFly" }),
+      swim: new NumberField({ ...numberConfig, label: "DEGRINGO5E.MovementSwim" }),
+      walk: new NumberField({ ...numberConfig, label: "DEGRINGO5E.MovementWalk" }),
       units: new StringField({
-        required: true, nullable: true, blank: false, initial: initialUnits, label: "DND5E.MovementUnits"
+        required: true, nullable: true, blank: false, initial: initialUnits, label: "DEGRINGO5E.MovementUnits"
       }),
-      hover: new BooleanField({ required: true, label: "DND5E.MovementHover" }),
+      hover: new BooleanField({ required: true, label: "DEGRINGO5E.MovementHover" }),
       ...fields
     };
     Object.entries(fields).forEach(([k, v]) => !v ? delete fields[k] : null);
-    super(fields, { label: "DND5E.Movement", ...options });
+    super(fields, { label: "DEGRINGO5E.Movement", ...options });
   }
 }

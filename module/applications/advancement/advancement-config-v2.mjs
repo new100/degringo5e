@@ -65,9 +65,9 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
 
   /** @inheritDoc */
   async _prepareContext(options) {
-    const levels = Array.fromRange(CONFIG.DND5E.maxLevel + 1).map(l => ({ value: l, label: l }));
+    const levels = Array.fromRange(CONFIG.DEGRINGO5E.maxLevel + 1).map(l => ({ value: l, label: l }));
     if ( ["class", "subclass"].includes(this.item.type) ) delete levels[0];
-    else levels[0].label = game.i18n.localize("DND5E.ADVANCEMENT.Config.AnyLevel");
+    else levels[0].label = game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Config.AnyLevel");
     const context = {
       ...(await super._prepareContext(options)),
       advancement: this.advancement,
@@ -84,9 +84,9 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
       },
       levels,
       classRestrictionOptions: [
-        { value: "", label: game.i18n.localize("DND5E.AdvancementClassRestrictionNone") },
-        { value: "primary", label: game.i18n.localize("DND5E.AdvancementClassRestrictionPrimary") },
-        { value: "secondary", label: game.i18n.localize("DND5E.AdvancementClassRestrictionSecondary") }
+        { value: "", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionNone") },
+        { value: "primary", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionPrimary") },
+        { value: "secondary", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionSecondary") }
       ],
       showClassRestrictions: this.item.type === "class",
       showLevelSelector: !this.advancement.constructor.metadata.multiLevel
@@ -211,13 +211,13 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
 
     // Abort if this uuid is the parent item
     if ( item.uuid === this.item.uuid ) {
-      ui.notifications.error("DND5E.ADVANCEMENT.ItemGrant.Warning.Recursive", {localize: true});
+      ui.notifications.error("DEGRINGO5E.ADVANCEMENT.ItemGrant.Warning.Recursive", {localize: true});
       return;
     }
 
     // Abort if this uuid exists already
     if ( existingItems.find(i => i.uuid === item.uuid) ) {
-      ui.notifications.warn("DND5E.ADVANCEMENT.ItemGrant.Warning.Duplicate", {localize: true});
+      ui.notifications.warn("DEGRINGO5E.ADVANCEMENT.ItemGrant.Warning.Duplicate", {localize: true});
       return;
     }
 

@@ -25,7 +25,7 @@ export default class SourceField extends SchemaField {
       ...fields
     };
     Object.entries(fields).forEach(([k, v]) => !v ? delete fields[k] : null);
-    super(fields, { label: "DND5E.SOURCE.FIELDS.source.label", ...options });
+    super(fields, { label: "DEGRINGO5E.SOURCE.FIELDS.source.label", ...options });
   }
 
   /* -------------------------------------------- */
@@ -46,8 +46,8 @@ export default class SourceField extends SchemaField {
     if ( this.custom ) this.label = this.custom;
     else {
       const page = Number.isNumeric(this.page)
-        ? game.i18n.format("DND5E.SOURCE.Display.Page", { page: this.page }) : (this.page ?? "");
-      this.label = game.i18n.format("DND5E.SOURCE.Display.Full", { book: this.book, page }).trim();
+        ? game.i18n.format("DEGRINGO5E.SOURCE.Display.Page", { page: this.page }) : (this.page ?? "");
+      this.label = game.i18n.format("DEGRINGO5E.SOURCE.Display.Full", { book: this.book, page }).trim();
     }
 
     this.value = this.book || (pkg?.title ?? "");

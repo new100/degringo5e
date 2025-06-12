@@ -33,7 +33,7 @@ export default class Award extends Application5e {
     },
     tag: "form",
     window: {
-      title: "DND5E.Award.Title"
+      title: "DEGRINGO5E.Award.Title"
     }
   };
 
@@ -101,7 +101,7 @@ export default class Award extends Application5e {
   async _prepareContext(options) {
     const context = await super._prepareContext(options);
 
-    context.currency = Object.entries(CONFIG.DND5E.currencies).reduce((obj, [k, { label, icon }]) => {
+    context.currency = Object.entries(CONFIG.DEGRINGO5E.currencies).reduce((obj, [k, { label, icon }]) => {
       obj[k] = {
         label, icon,
         value: this.award.currency ? this.award.currency[k] : this.origin?.system.currency[k]
@@ -297,7 +297,7 @@ export default class Award extends Application5e {
     for ( const [destination, result] of results ) {
       const entries = [];
       for ( const [key, amount] of Object.entries(result.currency ?? {}) ) {
-        const label = CONFIG.DND5E.currencies[key].label;
+        const label = CONFIG.DEGRINGO5E.currencies[key].label;
         entries.push(`
           <span class="award-entry">
             ${formatNumber(amount)} <i class="currency ${key}" data-tooltip aria-label="${label}"></i>
@@ -306,12 +306,12 @@ export default class Award extends Application5e {
       }
       if ( result.xp ) entries.push(`
         <span class="award-entry">
-          ${formatNumber(result.xp)} ${game.i18n.localize("DND5E.ExperiencePoints.Abbreviation")}
+          ${formatNumber(result.xp)} ${game.i18n.localize("DEGRINGO5E.ExperiencePoints.Abbreviation")}
         </span>
       `);
       if ( !entries.length ) continue;
 
-      const content = game.i18n.format("DND5E.Award.Message", {
+      const content = game.i18n.format("DEGRINGO5E.Award.Message", {
         name: destination.name, award: `<span class="dnd5e2">${game.i18n.getListFormatter().format(entries)}</span>`
       });
 
@@ -365,7 +365,7 @@ export default class Award extends Application5e {
    */
   static async handleAward(message) {
     if ( !game.user.isGM ) {
-      ui.notifications.error("DND5E.Award.NotGMError", { localize: true });
+      ui.notifications.error("DEGRINGO5E.Award.NotGMError", { localize: true });
       return;
     }
 
@@ -420,7 +420,7 @@ export default class Award extends Application5e {
       label = label?.toLowerCase();
       try {
         new Roll(amount);
-        if ( label in CONFIG.DND5E.currencies ) currency[label] = amount;
+        if ( label in CONFIG.DEGRINGO5E.currencies ) currency[label] = amount;
         else if ( label === "xp" ) xp = Number(amount);
         else if ( part === "each" ) each = true;
         else if ( part === "party" ) party = true;
@@ -431,7 +431,7 @@ export default class Award extends Application5e {
     }
 
     // Display warning about an unrecognized commands
-    if ( unrecognized.length ) throw new Error(game.i18n.format("DND5E.Award.UnrecognizedWarning", {
+    if ( unrecognized.length ) throw new Error(game.i18n.format("DEGRINGO5E.Award.UnrecognizedWarning", {
       commands: game.i18n.getListFormatter().format(unrecognized.map(u => `"${u}"`))
     }));
 

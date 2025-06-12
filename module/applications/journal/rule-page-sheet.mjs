@@ -31,7 +31,7 @@ export default class JournalRulePageSheet extends foundry.appv1.sheets.JournalTe
   /** @inheritDoc */
   async getData(options) {
     const context = await super.getData(options);
-    context.CONFIG = CONFIG.DND5E;
+    context.CONFIG = CONFIG.DEGRINGO5E;
     context.enrichedTooltip = await TextEditor.enrichHTML(this.object.system.tooltip, {
       relativeTo: this.object,
       secrets: this.object.isOwner

@@ -32,13 +32,13 @@ export default class HealSheet extends ActivitySheet {
   /** @inheritDoc */
   async _prepareEffectContext(context) {
     context = await super._prepareEffectContext(context);
-    context.typeOptions = Object.entries(CONFIG.DND5E.healingTypes).map(([value, config]) => ({
+    context.typeOptions = Object.entries(CONFIG.DEGRINGO5E.healingTypes).map(([value, config]) => ({
       value, label: config.label, selected: context.activity.healing.types.has(value)
     }));
     const scaleKey = (this.item.type === "spell" && this.item.system.level === 0) ? "labelCantrip" : "label";
     context.scalingOptions = [
-      { value: "", label: game.i18n.localize("DND5E.DAMAGE.Scaling.None") },
-      ...Object.entries(CONFIG.DND5E.damageScalingModes).map(([value, { [scaleKey]: label }]) => ({ value, label }))
+      { value: "", label: game.i18n.localize("DEGRINGO5E.DAMAGE.Scaling.None") },
+      ...Object.entries(CONFIG.DEGRINGO5E.damageScalingModes).map(([value, { [scaleKey]: label }]) => ({ value, label }))
     ];
     return context;
   }

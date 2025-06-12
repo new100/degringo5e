@@ -83,11 +83,11 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   static get metadata() {
     return {
       name: "Advancement",
-      label: "DOCUMENT.DND5E.Advancement",
+      label: "DOCUMENT.DEGRINGO5E.Advancement",
       order: 100,
       icon: "icons/svg/upgrade.svg",
       typeIcon: "icons/svg/upgrade.svg",
-      title: game.i18n.localize("DND5E.AdvancementTitle"),
+      title: game.i18n.localize("DEGRINGO5E.AdvancementTitle"),
       hint: "",
       multiLevel: false,
       validItemTypes: new Set(["background", "class", "race", "subclass"]),
@@ -326,12 +326,12 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   getContextMenuOptions() {
     if ( this.item.isOwner && !this.item.collection?.locked ) return [
       {
-        name: "DND5E.ADVANCEMENT.Action.Edit",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Edit",
         icon: "<i class='fas fa-edit fa-fw'></i>",
         callback: () => this.sheet?.render(true)
       },
       {
-        name: "DND5E.ADVANCEMENT.Action.Duplicate",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Duplicate",
         icon: "<i class='fas fa-copy fa-fw'></i>",
         condition: li => this?.constructor.availableForItem(this.item),
         callback: () => {
@@ -341,14 +341,14 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
         }
       },
       {
-        name: "DND5E.ADVANCEMENT.Action.Delete",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Delete",
         icon: "<i class='fas fa-trash fa-fw'></i>",
         callback: () => this.deleteDialog()
       }
     ];
 
     return [{
-      name: "DND5E.ADVANCEMENT.Action.View",
+      name: "DEGRINGO5E.ADVANCEMENT.Action.View",
       icon: "<i class='fas fa-eye fa-fw'></i>",
       callback: () => this.sheet?.render(true)
     }];
@@ -385,7 +385,7 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
   /** @override */
   static _createDialogData(type, parent) {
-    const Advancement = CONFIG.DND5E.advancementTypes[type].documentClass;
+    const Advancement = CONFIG.DEGRINGO5E.advancementTypes[type].documentClass;
     return {
       type,
       disabled: !Advancement.availableForItem(parent),
@@ -399,7 +399,7 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
   /** @override */
   static _createDialogTypes(parent) {
-    return Object.entries(CONFIG.DND5E.advancementTypes)
+    return Object.entries(CONFIG.DEGRINGO5E.advancementTypes)
       .filter(([, { hidden, validItemTypes }]) => !hidden && validItemTypes?.has(parent.type))
       .map(([k]) => k);
   }

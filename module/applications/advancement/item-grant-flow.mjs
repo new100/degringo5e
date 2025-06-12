@@ -53,7 +53,7 @@ export default class ItemGrantFlow extends AdvancementFlow {
     const config = this.advancement.configuration;
     return {
       options: config.spell?.ability.size > 1 ? config.spell.ability.reduce((obj, k) => {
-        obj[k] = CONFIG.DND5E.abilities[k]?.label;
+        obj[k] = CONFIG.DEGRINGO5E.abilities[k]?.label;
         return obj;
       }, {}) : null,
       selected: this.ability ?? this.retainedData?.ability ?? this.advancement.value.ability

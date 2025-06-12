@@ -19,7 +19,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.CAST"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.CAST"];
 
   /* -------------------------------------------- */
 
@@ -28,7 +28,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
     foundry.utils.mergeObject(super.metadata, {
       type: "cast",
       img: "systems/dnd5e/icons/svg/activity/cast.svg",
-      title: "DND5E.CAST.Title",
+      title: "DEGRINGO5E.CAST.Title",
       sheetClass: CastSheet
     }, { inplace: false })
   );
@@ -64,7 +64,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
   async use(usage={}, dialog={}, message={}) {
     if ( !this.item.isEmbedded || this.item.pack ) return;
     if ( !this.item.isOwner ) {
-      ui.notifications.error("DND5E.DocumentUseWarn", { localize: true });
+      ui.notifications.error("DEGRINGO5E.DocumentUseWarn", { localize: true });
       return;
     }
 
@@ -117,7 +117,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
         {
           _id: this.constructor.ENCHANTMENT_ID,
           type: "enchantment",
-          name: game.i18n.localize("DND5E.CAST.Enchantment.Name"),
+          name: game.i18n.localize("DEGRINGO5E.CAST.Enchantment.Name"),
           img: "systems/dnd5e/icons/svg/activity/cast.svg",
           origin: this.uuid,
           changes: this.getSpellChanges()
