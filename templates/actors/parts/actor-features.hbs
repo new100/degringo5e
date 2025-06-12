@@ -37,7 +37,7 @@
 
     <ol class="item-list">
     {{#each section.items as |item iid|}}
-    {{#dnd5e-itemContext item as |ctx|}}
+    {{#degringo5e-itemContext item as |ctx|}}
         <li class="item flexrow {{#if ctx.isExpanded}}expanded{{/if}}"
             data-item-id="{{item.id}}">
             <div class="item-name flexrow rollable">
@@ -113,10 +113,10 @@
             {{/if}}
 
             {{#if ctx.isExpanded}}
-                {{> "dnd5e.item-summary" (lookup @root.expandedData item.id)}}
+                {{> "degringo5e.item-summary" (lookup @root.expandedData item.id)}}
             {{/if}}
         </li>
-    {{/dnd5e-itemContext}}
+    {{/degringo5e-itemContext}}
     {{/each}}
     </ol>
   {{/each}}

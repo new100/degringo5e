@@ -64,8 +64,8 @@ system:
     - somatic
     - material
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: damage
       activation:
         type: action
@@ -118,7 +118,7 @@ system:
   identifier: sleep
 effects:
   - name: Sleep
-    origin: Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku
+    origin: Compendium.degringo5e.spells.Item.KhwiSi9fwVfUPtku
     duration:
       startTime: null
       seconds: 60
@@ -144,7 +144,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -163,10 +163,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037353656
   modifiedTime: 1725992719021
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!KhwiSi9fwVfUPtku'

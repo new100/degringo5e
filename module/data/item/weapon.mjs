@@ -280,7 +280,7 @@ export default class WeaponData extends ItemDataModel.mixin(
     context.info = [{
       label: "DEGRINGO5E.ToHit",
       classes: "info-lg",
-      value: dnd5e.utils.formatModifier(parseInt(this.parent.labels.modifier))
+      value: degringo5e.utils.formatModifier(parseInt(this.parent.labels.modifier))
     }];
     if ( this.parent.labels.damages?.length ) {
       const config = { ...CONFIG.DEGRINGO5E.damageTypes, ...CONFIG.DEGRINGO5E.healingTypes };
@@ -289,13 +289,13 @@ export default class WeaponData extends ItemDataModel.mixin(
         return `${str}
           <span class="formula">${formula}</span>
           ${type ? `<span class="damage-type" data-tooltip aria-label="${type.label}">
-            <dnd5e-icon src="${type.icon}"></dnd5e-icon>
+            <degringo5e-icon src="${type.icon}"></degringo5e-icon>
           </span>` : ""}
         `;
       }, ""), classes: "info-grid damage" });
     }
 
-    context.parts = ["dnd5e.details-weapon", "dnd5e.field-uses"];
+    context.parts = ["degringo5e.details-weapon", "degringo5e.field-uses"];
     context.damageTypes = Object.entries(CONFIG.DEGRINGO5E.damageTypes).map(([value, { label }]) => {
       return {
         value, label,
@@ -364,7 +364,7 @@ export default class WeaponData extends ItemDataModel.mixin(
       });
     }
 
-    const isLight = this.properties.has("lgt") || (this.parent.actor?.getFlag("dnd5e", "enhancedDualWielding")
+    const isLight = this.properties.has("lgt") || (this.parent.actor?.getFlag("degringo5e", "enhancedDualWielding")
       && ((this.attackType === "melee") && !this.properties.has("two")));
 
     // Weapons with the "Light" property will have Offhand attack
@@ -455,7 +455,7 @@ export default class WeaponData extends ItemDataModel.mixin(
 
   /** @override */
   get criticalThreshold() {
-    return this.parent?.actor?.flags.dnd5e?.weaponCriticalThreshold ?? Infinity;
+    return this.parent?.actor?.flags.degringo5e?.weaponCriticalThreshold ?? Infinity;
   }
 
   /* -------------------------------------------- */
@@ -543,7 +543,7 @@ export default class WeaponData extends ItemDataModel.mixin(
     const itemProf = config[this.type.value];
     const actorProfs = actor.system.traits?.weaponProf?.value ?? new Set();
     const natural = this.type.value === "natural";
-    const improvised = (this.type.value === "improv") && !!actor.getFlag("dnd5e", "tavernBrawlerFeat");
+    const improvised = (this.type.value === "improv") && !!actor.getFlag("degringo5e", "tavernBrawlerFeat");
     const isProficient = natural || improvised || actorProfs.has(itemProf) || actorProfs.has(this.type.baseItem);
     return Number(isProficient);
   }

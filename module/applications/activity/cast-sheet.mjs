@@ -19,14 +19,14 @@ export default class CastSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/cast-identity.hbs",
+      template: "systems/degringo5e/templates/activity/cast-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/cast-effect.hbs",
+      template: "systems/degringo5e/templates/activity/cast-effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/cast-spell.hbs",
-        "systems/dnd5e/templates/activity/parts/cast-details.hbs"
+        "systems/degringo5e/templates/activity/parts/cast-spell.hbs",
+        "systems/degringo5e/templates/activity/parts/cast-details.hbs"
       ]
     }
   };

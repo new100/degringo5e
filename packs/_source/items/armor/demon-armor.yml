@@ -15,7 +15,7 @@ system:
 
       <p><strong>Curse</strong>. Once you don this cursed armor, you can't doff
       it unless you are targeted by the
-      @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Remove Curse} spell
+      @UUID[Compendium.degringo5e.spells.Item.XZhdgVK3cLoxNCQl]{Remove Curse} spell
       or similar magic. While wearing the armor, you have disadvantage on attack
       rolls against demons and on saving throws against their spells and special
       abilities.</p>
@@ -67,8 +67,8 @@ system:
     - mgc
     - stealthDisadvantage
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: attack
       activation:
         type: action
@@ -152,10 +152,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037243508
   modifiedTime: 1725992531746
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!ejEt6hLQxOux04lS'

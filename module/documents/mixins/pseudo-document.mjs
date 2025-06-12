@@ -277,7 +277,7 @@ export default function PseudoDocumentMixin(Base) {
 
       if ( !types.includes(type) ) type = types[0];
       const content = await foundry.applications.handlebars.renderTemplate(
-        "systems/dnd5e/templates/apps/document-create.hbs",
+        "systems/degringo5e/templates/apps/document-create.hbs",
         {
           name, type,
           types: types.map(t => {
@@ -314,7 +314,7 @@ export default function PseudoDocumentMixin(Base) {
           parent[`create${this.documentName}`](createData.type, createData);
         },
         rejectClose: false,
-        options: { ...options, jQuery: false, width: 350, classes: ["dnd5e2", "create-document", "dialog"] }
+        options: { ...options, jQuery: false, width: 350, classes: ["degringo5e2", "create-document", "dialog"] }
       });
     }
 

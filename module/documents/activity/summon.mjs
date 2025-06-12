@@ -23,7 +23,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "summon",
-      img: "systems/dnd5e/icons/svg/activity/summon.svg",
+      img: "systems/degringo5e/icons/svg/activity/summon.svg",
       title: "DEGRINGO5E.SUMMON.Title",
       sheetClass: SummonSheet,
       usage: {
@@ -44,7 +44,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
    * @type {boolean}
    */
   get canSummon() {
-    return game.user.can("TOKEN_CREATE") && (game.user.isGM || game.settings.get("dnd5e", "allowSummoning"));
+    return game.user.can("TOKEN_CREATE") && (game.user.isGM || game.settings.get("degringo5e", "allowSummoning"));
   }
 
   /* -------------------------------------------- */
@@ -143,14 +143,14 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
 
     /**
      * A hook event that fires before summoning is performed.
-     * @function dnd5e.preSummon
+     * @function degringo5e.preSummon
      * @memberof hookEvents
      * @param {SummonActivity} activity         The activity that is performing the summoning.
      * @param {SummonsProfile} profile          Profile used for summoning.
      * @param {SummoningConfiguration} options  Additional summoning options.
      * @returns {boolean}                       Explicitly return `false` to prevent summoning.
      */
-    if ( Hooks.call("dnd5e.preSummon", this, profile, options) === false ) return;
+    if ( Hooks.call("degringo5e.preSummon", this, profile, options) === false ) return;
 
     // Fetch the actor that will be summoned
     const summonUuid = this.summon.mode === "cr" ? await this.queryActor(profile) : profile.uuid;
@@ -180,7 +180,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
         /**
          * A hook event that fires before a specific token is summoned. After placement has been determined but before
          * the final token data is constructed.
-         * @function dnd5e.preSummonToken
+         * @function degringo5e.preSummonToken
          * @memberof hookEvents
          * @param {SummonActivity} activity         The activity that is performing the summoning.
          * @param {SummonsProfile} profile          Profile used for summoning.
@@ -188,21 +188,21 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
          * @param {SummoningConfiguration} options  Additional summoning options.
          * @returns {boolean}                       Explicitly return `false` to prevent this token from being summoned.
          */
-        if ( Hooks.call("dnd5e.preSummonToken", this, profile, tokenUpdateData, options) === false ) continue;
+        if ( Hooks.call("degringo5e.preSummonToken", this, profile, tokenUpdateData, options) === false ) continue;
 
         // Create a token document and apply updates
         const tokenData = await this.getTokenData(tokenUpdateData);
 
         /**
          * A hook event that fires after token creation data is prepared, but before summoning occurs.
-         * @function dnd5e.summonToken
+         * @function degringo5e.summonToken
          * @memberof hookEvents
          * @param {SummonActivity} activity         The activity that is performing the summoning.
          * @param {SummonsProfile} profile          Profile used for summoning.
          * @param {object} tokenData                Data for creating a token.
          * @param {SummoningConfiguration} options  Additional summoning options.
          */
-        Hooks.callAll("dnd5e.summonToken", this, profile, tokenData, options);
+        Hooks.callAll("degringo5e.summonToken", this, profile, tokenData, options);
 
         tokensData.push(tokenData);
       }
@@ -214,14 +214,14 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
 
     /**
      * A hook event that fires when summoning is complete.
-     * @function dnd5e.postSummon
+     * @function degringo5e.postSummon
      * @memberof hookEvents
      * @param {SummonActivity} activity         The activity that is performing the summoning.
      * @param {SummonsProfile} profile          Profile used for summoning.
      * @param {Token5e[]} tokens                Tokens that have been created.
      * @param {SummoningConfiguration} options  Additional summoning options.
      */
-    Hooks.callAll("dnd5e.postSummon", this, profile, createdTokens, options);
+    Hooks.callAll("degringo5e.postSummon", this, profile, createdTokens, options);
 
     return createdTokens;
   }
@@ -238,17 +238,17 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
     if ( !actor ) throw new Error(game.i18n.format("DEGRINGO5E.SUMMON.Warning.NoActor", { uuid }));
 
     const actorLink = actor.prototypeToken.actorLink;
-    if ( !actor.pack && (!actorLink || actor.getFlag("dnd5e", "summon.origin") === this.item?.uuid )) return actor;
+    if ( !actor.pack && (!actorLink || actor.getFlag("degringo5e", "summon.origin") === this.item?.uuid )) return actor;
 
     // Search world actors to see if any usable summoned actor instances are present from prior summonings.
     // Linked actors must match the summoning origin (activity) to be considered.
     const localActor = game.actors.find(a =>
       // Has been cloned for summoning use
-      a.getFlag("dnd5e", "summonedCopy")
+      a.getFlag("degringo5e", "summonedCopy")
       // Sourced from the desired actor UUID
       && (a._stats?.compendiumSource === uuid)
       // Unlinked or created from this activity's parent item specifically
-      && ((a.getFlag("dnd5e", "summon.origin") === this.item?.uuid) || !a.prototypeToken.actorLink)
+      && ((a.getFlag("degringo5e", "summon.origin") === this.item?.uuid) || !a.prototypeToken.actorLink)
     );
     if ( localActor ) return localActor;
 
@@ -259,12 +259,12 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
     if ( actor.pack ) {
       // Template actor resides only in compendium, import the actor into the world and set the flag.
       return game.actors.importFromCompendium(game.packs.get(actor.pack), actor.id, {
-        "flags.dnd5e.summonedCopy": true
+        "flags.degringo5e.summonedCopy": true
       });
     } else {
       // Template actor (linked) found in world, create a copy for this user's item.
       return actor.clone({
-        "flags.dnd5e.summonedCopy": true,
+        "flags.degringo5e.summonedCopy": true,
         "_stats.compendiumSource": actor.uuid
       }, {save: true});
     }
@@ -309,7 +309,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
     const prof = rollData.attributes?.prof ?? 0;
 
     // Add flags
-    actorUpdates["flags.dnd5e.summon"] = {
+    actorUpdates["flags.degringo5e.summon"] = {
       level: this.relevantLevel,
       mod: rollData.mod,
       origin: this.item.uuid,
@@ -320,7 +320,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
     // Match proficiency
     if ( this.match.proficiency ) {
       const proficiencyEffect = new ActiveEffect({
-        _id: staticID("dnd5eMatchProficiency"),
+        _id: staticID("degringo5eMatchProficiency"),
         changes: [{
           key: "system.attributes.prof",
           mode: CONST.ACTIVE_EFFECT_MODES.OVERRIDE,
@@ -342,7 +342,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
           actorUpdates["system.attributes.ac.flat"] = (actor.system.attributes.ac.flat ?? 0) + acBonus.total;
         } else {
           actorUpdates.effects.push((new ActiveEffect({
-            _id: staticID("dnd5eACBonus"),
+            _id: staticID("degringo5eACBonus"),
             changes: [{
               key: "system.attributes.ac.bonus",
               mode: CONST.ACTIVE_EFFECT_MODES.ADD,
@@ -362,7 +362,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
       await hdBonus.evaluate();
       if ( hdBonus.total ) {
         actorUpdates.effects.push((new ActiveEffect({
-          _id: staticID("dnd5eHDBonus"),
+          _id: staticID("degringo5eHDBonus"),
           changes: [{
             key: "system.attributes.hd.max",
             mode: CONST.ACTIVE_EFFECT_MODES.ADD,
@@ -387,7 +387,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
         // Helper function for modifying max HP ('bonuses.overall' or 'max')
         const maxHpEffect = hpField => {
           return (new ActiveEffect({
-            _id: staticID("dnd5eHPBonus"),
+            _id: staticID("degringo5eHPBonus"),
             changes: [{
               key: `system.attributes.hp.${hpField}`,
               mode: CONST.ACTIVE_EFFECT_MODES.ADD,
@@ -496,7 +496,7 @@ export default class SummonActivity extends ActivityMixin(SummonActivityData) {
 
       if ( changes.length ) {
         const effect = (new ActiveEffect({
-          _id: staticID("dnd5eItemChanges"),
+          _id: staticID("degringo5eItemChanges"),
           changes,
           disabled: false,
           icon: "icons/skills/melee/strike-slashes-orange.webp",

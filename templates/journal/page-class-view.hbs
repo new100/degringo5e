@@ -7,7 +7,7 @@
 {{#if linked.document}}
 
 <section class="journal-page-content">
-    {{#if modernStyle}}{{> "dnd5e.journal-modern-traits" }}{{/if}}
+    {{#if modernStyle}}{{> "degringo5e.journal-modern-traits" }}{{/if}}
 
     {{{ enriched.value }}}
 
@@ -28,10 +28,10 @@
            lowercaseName=linked.lowercaseName }}
     </p>
 
-    {{> "dnd5e.journal-legacy-traits" }}
+    {{> "degringo5e.journal-legacy-traits" }}
     {{/if}}
 
-    {{> "dnd5e.journal-table" table=table level=title.level3
+    {{> "degringo5e.journal-table" table=table level=title.level3
         caption=(localize "JOURNALENTRYPAGE.DEGRINGO5E.Class.TableCaption" class=linked.name) }}
 
     {{#each features}}
@@ -43,7 +43,7 @@
     <h{{ title.level2 }}>{{ localize "JOURNALENTRYPAGE.DEGRINGO5E.Class.OptionalFeaturesCaption" }}</h{{ title.level2 }}>
     <p>{{ localize "JOURNALENTRYPAGE.DEGRINGO5E.Class.OptionalFeaturesDescription" class=linked.lowercaseName }}</p>
 
-    {{> "dnd5e.journal-table" table=optionalTable level=title.level3
+    {{> "degringo5e.journal-table" table=optionalTable level=title.level3
         caption=(localize "JOURNALENTRYPAGE.DEGRINGO5E.Class.TableOptionalCaption" class=linked.name) }}
 
     {{#each optionalFeatures}}
@@ -64,7 +64,7 @@
     {{{this.description}}}
 
     {{#if this.table}}
-    {{> "dnd5e.journal-table" table=this.table level=title.level4
+    {{> "degringo5e.journal-table" table=this.table level=title.level4
         caption=(localize "JOURNALENTRYPAGE.DEGRINGO5E.Class.TableCaption" class=this.name) }}
     {{/if}}
 

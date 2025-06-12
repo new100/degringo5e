@@ -36,10 +36,10 @@ export default class CurrencyManager extends Application5e {
       template: "templates/generic/tab-navigation.hbs"
     },
     convert: {
-      template: "systems/dnd5e/templates/apps/currency-manager-convert.hbs"
+      template: "systems/degringo5e/templates/apps/currency-manager-convert.hbs"
     },
     transfer: {
-      template: "systems/dnd5e/templates/apps/currency-manager-transfer.hbs"
+      template: "systems/degringo5e/templates/apps/currency-manager-transfer.hbs"
     }
   };
 
@@ -75,7 +75,7 @@ export default class CurrencyManager extends Application5e {
     destinations.push(...(actor?.system.transferDestinations ?? []));
     destinations.push(...(actor?.itemTypes.container.filter(b => b !== this.document) ?? []));
     if ( game.user.isGM ) {
-      const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+      const primaryParty = game.settings.get("degringo5e", "primaryParty")?.actor;
       if ( primaryParty && (this.document !== primaryParty) && !destinations.includes(primaryParty) ) {
         destinations.push(primaryParty);
       }

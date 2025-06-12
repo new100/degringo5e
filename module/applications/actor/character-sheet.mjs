@@ -36,70 +36,70 @@ export default class CharacterActorSheet extends BaseActorSheet {
   /** @override */
   static PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/character-header.hbs"
+      template: "systems/degringo5e/templates/actors/character-header.hbs"
     },
     sidebar: {
       container: { classes: ["main-content"], id: "main" },
-      template: "systems/dnd5e/templates/actors/character-sidebar.hbs"
+      template: "systems/degringo5e/templates/actors/character-sidebar.hbs"
     },
     details: {
       classes: ["col-2"],
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/character-details.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/character-details.hbs",
       scrollable: [""]
     },
     inventory: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/character-inventory.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/character-inventory.hbs",
       templates: [
-        "systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs",
-        "systems/dnd5e/templates/inventory/encumbrance.hbs"
+        "systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs",
+        "systems/degringo5e/templates/inventory/encumbrance.hbs"
       ],
       scrollable: [""]
     },
     features: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/character-features.hbs",
-      templates: ["systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs"],
+      template: "systems/degringo5e/templates/actors/tabs/character-features.hbs",
+      templates: ["systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs"],
       scrollable: [""]
     },
     spells: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-spells.hbs",
-      templates: ["systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs"],
+      template: "systems/degringo5e/templates/actors/tabs/creature-spells.hbs",
+      templates: ["systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs"],
       scrollable: [""]
     },
     effects: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-effects.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/actor-effects.hbs",
       scrollable: [""]
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/character-biography.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/character-biography.hbs",
       scrollable: [""]
     },
     bastion: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/character-bastion.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/character-bastion.hbs",
       scrollable: [""]
     },
     specialTraits: {
       classes: ["flexcol"],
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-special-traits.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/creature-special-traits.hbs",
       scrollable: [""]
     },
     abilityScores: {
-      template: "systems/dnd5e/templates/actors/character-ability-scores.hbs"
+      template: "systems/degringo5e/templates/actors/character-ability-scores.hbs"
     },
     warnings: {
-      template: "systems/dnd5e/templates/actors/parts/actor-warnings-dialog.hbs"
+      template: "systems/degringo5e/templates/actors/parts/actor-warnings-dialog.hbs"
     },
     tabs: {
       id: "tabs",
       classes: ["tabs-right"],
-      template: "systems/dnd5e/templates/shared/sidebar-tabs.hbs"
+      template: "systems/degringo5e/templates/shared/sidebar-tabs.hbs"
     }
   };
 
@@ -121,7 +121,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
   /** @override */
   static TABS = [
     { tab: "details", label: "DEGRINGO5E.Details", icon: "fas fa-cog" },
-    { tab: "inventory", label: "DEGRINGO5E.Inventory", svg: "systems/dnd5e/icons/svg/backpack.svg" },
+    { tab: "inventory", label: "DEGRINGO5E.Inventory", svg: "systems/degringo5e/icons/svg/backpack.svg" },
     { tab: "features", label: "DEGRINGO5E.Features", icon: "fas fa-list" },
     { tab: "spells", label: "TYPES.Item.spellPl", icon: "fas fa-book" },
     { tab: "effects", label: "DEGRINGO5E.Effects", icon: "fas fa-bolt" },
@@ -324,8 +324,8 @@ export default class CharacterActorSheet extends BaseActorSheet {
       reference: CONFIG.DEGRINGO5E.creatureTypes[details.type.value]?.reference,
       subtitle: details.type.subtype
     };
-    if ( details.race instanceof dnd5e.documents.Item5e ) context.species = details.race;
-    if ( details.background instanceof dnd5e.documents.Item5e ) context.background = details.background;
+    if ( details.race instanceof degringo5e.documents.Item5e ) context.species = details.race;
+    if ( details.background instanceof degringo5e.documents.Item5e ) context.background = details.background;
     context.labels.size = CONFIG.DEGRINGO5E.actorSizes[traits.size]?.label ?? traits.size;
 
     // Saving Throws
@@ -482,7 +482,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
         { number: formatNumber(context.system.details.xp.boonsEarned ?? 0, { signDisplay: "always" }) }
       );
     }
-    context.showExperience = game.settings.get("dnd5e", "levelingMode") !== "noxp";
+    context.showExperience = game.settings.get("degringo5e", "levelingMode") !== "noxp";
 
     return context;
   }
@@ -603,7 +603,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
   async _prepareTabsContext(context, options) {
     const { basic, special } = CONFIG.DEGRINGO5E.facilities.advancement;
     const threshold = Math.min(...Object.keys(basic), ...Object.keys(special));
-    const showBastion = game.settings.get("dnd5e", "bastionConfiguration")?.enabled
+    const showBastion = game.settings.get("degringo5e", "bastionConfiguration")?.enabled
       && (this.actor.system.details.level >= threshold);
     if ( !showBastion && (this.tabGroups.primary === "bastion") ) this.tabGroups.primary = "details";
 
@@ -849,7 +849,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
 
     super._prepareItemFeature(item, ctx);
 
-    const [originId] = item.getFlag("dnd5e", "advancementOrigin")?.split(".") ?? [];
+    const [originId] = item.getFlag("degringo5e", "advancementOrigin")?.split(".") ?? [];
     const group = this.actor.items.get(originId);
     ctx.groups.origin = "other";
     switch ( group?.type ) {
@@ -1089,12 +1089,12 @@ export default class CharacterActorSheet extends BaseActorSheet {
     if ( !this.isEditable || (event.target.tagName === "INPUT") ) return;
     const { favoriteId } = target.closest("[data-favorite-id]").dataset;
     const favorite = await fromUuid(favoriteId, { relative: this.actor });
-    if ( (favorite instanceof dnd5e.documents.Item5e) || target.dataset.activityId ) {
+    if ( (favorite instanceof degringo5e.documents.Item5e) || target.dataset.activityId ) {
       if ( favorite.type === "container" ) favorite.sheet.render({ force: true });
       else favorite.use({ event });
     }
-    else if ( favorite instanceof dnd5e.dataModels.activity.BaseActivityData ) favorite.use({ event });
-    else if ( favorite instanceof dnd5e.documents.ActiveEffect5e ) favorite.update({ disabled: !favorite.disabled });
+    else if ( favorite instanceof degringo5e.dataModels.activity.BaseActivityData ) favorite.use({ event });
+    else if ( favorite instanceof degringo5e.documents.ActiveEffect5e ) favorite.update({ disabled: !favorite.disabled });
     else {
       const { key } = target.closest("[data-key]")?.dataset ?? {};
       if ( key ) {
@@ -1110,7 +1110,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
 
   /** @override */
   _defaultDropBehavior(event, data) {
-    if ( data.dnd5e?.action === "favorite" || (["Activity", "Item"].includes(data.type)
+    if ( data.degringo5e?.action === "favorite" || (["Activity", "Item"].includes(data.type)
       && event.target.closest(".favorites")) ) return "link";
     return super._defaultDropBehavior(event, data);
   }
@@ -1133,9 +1133,9 @@ export default class CharacterActorSheet extends BaseActorSheet {
     requestAnimationFrame(() => game.tooltip.deactivate());
     game.tooltip.deactivate();
 
-    const dragData = { dnd5e: { action: "favorite", type } };
-    if ( type === "slots" ) dragData.dnd5e.id = (preparationMode === "prepared") ? `spell${level}` : preparationMode;
-    else dragData.dnd5e.id = key;
+    const dragData = { degringo5e: { action: "favorite", type } };
+    if ( type === "slots" ) dragData.degringo5e.id = (preparationMode === "prepared") ? `spell${level}` : preparationMode;
+    else dragData.degringo5e.id = key;
     event.dataTransfer.setData("application/json", JSON.stringify(dragData));
     event.dataTransfer.effectAllowed = "link";
   }
@@ -1154,7 +1154,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
       console.error(e);
       return;
     }
-    const { action, type, id } = data.dnd5e ?? {};
+    const { action, type, id } = data.degringo5e ?? {};
     if ( action === "favorite" ) return this._onDropFavorite(event, { type, id });
     if ( data.type === "Activity" ) {
       const activity = await fromUuid(data.uuid);
@@ -1243,7 +1243,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
       const cls = this.actor.itemTypes.class.find(c => c.identifier === itemData.system.identifier);
       if ( cls ) {
         const priorLevel = cls.system.levels;
-        if ( !game.settings.get("dnd5e", "disableAdvancements") ) {
+        if ( !game.settings.get("degringo5e", "disableAdvancements") ) {
           const manager = AdvancementManager.forLevelChange(this.actor, cls.id, itemData.system.levels);
           if ( manager.steps.length ) {
             manager.render({ force: true });

@@ -58,8 +58,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -117,8 +117,8 @@ system:
         max: ''
       sort: 0
       name: ''
-    dnd5eactivity200:
-      _id: dnd5eactivity200
+    degringo5eactivity200:
+      _id: degringo5eactivity200
       type: damage
       activation:
         type: ''
@@ -182,7 +182,7 @@ type: spell
 img: icons/magic/acid/orb-bubble-smoke-drip.webp
 effects:
   - name: Lingering Acid
-    origin: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+    origin: Compendium.degringo5e.spells24.Item.phbsplVitriolicS
     duration:
       rounds: null
       startTime: null
@@ -209,7 +209,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -218,18 +218,18 @@ effects:
     _key: '!items.effects!phbsplVitriolicS.WHhf4PFHQBDkCAyb'
 folder: qi3IbnEwap7mRw4b
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745433110943
   modifiedTime: 1745712696407
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 25000
 ownership:

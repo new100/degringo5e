@@ -165,7 +165,7 @@ export default class TokenDocument5e extends SystemFlagsMixin(TokenDocument) {
 
     if ( (this.actor?.type === "npc") && !this.actorLink
       && foundry.utils.getProperty(this.actor, "system.attributes.hp.formula")?.trim().length ) {
-      const autoRoll = game.settings.get("dnd5e", "autoRollNPCHP");
+      const autoRoll = game.settings.get("degringo5e", "autoRollNPCHP");
       if ( autoRoll === "no" ) return;
       const roll = await this.actor.rollNPCHitPoints({ chatMessage: autoRoll === "yes" });
       this.delta.updateSource({
@@ -185,8 +185,8 @@ export default class TokenDocument5e extends SystemFlagsMixin(TokenDocument) {
   _onDelete(options, userId) {
     super._onDelete(options, userId);
 
-    const origin = this.actor?.getFlag("dnd5e", "summon.origin");
+    const origin = this.actor?.getFlag("degringo5e", "summon.origin");
     // TODO: Replace with parseUuid once V11 support is dropped
-    if ( origin ) dnd5e.registry.summons.untrack(origin.split(".Item.")[0], this.actor.uuid);
+    if ( origin ) degringo5e.registry.summons.untrack(origin.split(".Item.")[0], this.actor.uuid);
   }
 }

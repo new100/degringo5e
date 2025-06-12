@@ -30,7 +30,7 @@
         {{!-- Epic Boons --}}
         {{#if system.details.xp.boonsEarned}}
         <div class="boon-badge badge" data-tooltip="{{ epicBoonsEarned }}" aria-label="{{ epicBoonsEarned }}">
-            {{ dnd5e-numberFormat system.details.xp.boonsEarned numerals=true }}
+            {{ degringo5e-numberFormat system.details.xp.boonsEarned numerals=true }}
         </div>
         {{/if}}
 
@@ -57,11 +57,11 @@
                 <input type="text" name="system.details.xp.value" class="value uninput" data-dtype="Number"
                        value="{{ value }}">
                 {{else}}
-                <span class="value">{{ dnd5e-numberFormat value }}</span>
+                <span class="value">{{ degringo5e-numberFormat value }}</span>
                 {{/if}}
                 {{#unless @root.epicBoonsEarned}}
                 <span class="separator">&sol;</span>
-                <span class="max">{{ dnd5e-numberFormat max }}</span>
+                <span class="max">{{ degringo5e-numberFormat max }}</span>
                 {{/unless}}
             </div>
             <div class="xp-bar" role="meter" aria-label="{{ localize 'DEGRINGO5E.ExperiencePoints.Progress' }}"

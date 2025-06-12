@@ -184,8 +184,8 @@ type: spell
 img: icons/magic/control/fear-fright-jackolantern-yellow.webp
 effects:
   - name: Frightening Terrors
-    img: systems/dnd5e/icons/svg/statuses/frightened.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplWeird00000
+    img: systems/degringo5e/icons/svg/statuses/frightened.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplWeird00000
     transfer: false
     _id: 6bCIQhmzYmSR5Ck1
     type: base
@@ -214,11 +214,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725391147917
       modifiedTime: 1725391296086
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplWeird00000.6bCIQhmzYmSR5Ck1'
 folder: iG0Zia8jh6uK39TB
@@ -226,17 +226,17 @@ sort: 100013
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425977990
   modifiedTime: 1745256800076
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplWeird00000'

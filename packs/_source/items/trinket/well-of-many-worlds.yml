@@ -59,8 +59,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -117,8 +117,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    dnd5eactivity200:
-      _id: dnd5eactivity200
+    degringo5eactivity200:
+      _id: degringo5eactivity200
       type: damage
       activation:
         type: action
@@ -197,10 +197,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037323970
   modifiedTime: 1725992559203
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!xjme5oSQZmdAy1fc'

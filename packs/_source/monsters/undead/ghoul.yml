@@ -567,8 +567,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -644,19 +644,19 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745108166128
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!OBujQLLPSmlJiZnL.E5cmqIqRIwyTkhgp'
   - _id: ArxzPC3rsBztgUvI
@@ -748,8 +748,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -825,7 +825,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -833,11 +833,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745108147352
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!OBujQLLPSmlJiZnL.ArxzPC3rsBztgUvI'
 effects: []
@@ -849,10 +849,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726171227997
   modifiedTime: 1745108154333
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!OBujQLLPSmlJiZnL'

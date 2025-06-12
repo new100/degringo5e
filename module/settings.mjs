@@ -13,27 +13,27 @@ import * as LEGACY from "./config-legacy.mjs";
  * Register all of the system's keybindings.
  */
 export function registerSystemKeybindings() {
-  game.keybindings.register("dnd5e", "skipDialogNormal", {
+  game.keybindings.register("degringo5e", "skipDialogNormal", {
     name: "KEYBINDINGS.DEGRINGO5E.SkipDialogNormal",
     editable: [{ key: "ShiftLeft" }, { key: "ShiftRight" }]
   });
 
-  game.keybindings.register("dnd5e", "skipDialogAdvantage", {
+  game.keybindings.register("degringo5e", "skipDialogAdvantage", {
     name: "KEYBINDINGS.DEGRINGO5E.SkipDialogAdvantage",
     editable: [{ key: "AltLeft" }, { key: "AltRight" }]
   });
 
-  game.keybindings.register("dnd5e", "skipDialogDisadvantage", {
+  game.keybindings.register("degringo5e", "skipDialogDisadvantage", {
     name: "KEYBINDINGS.DEGRINGO5E.SkipDialogDisadvantage",
     editable: [{ key: "ControlLeft" }, { key: "ControlRight" }, { key: "OsLeft" }, { key: "OsRight" }]
   });
 
-  game.keybindings.register("dnd5e", "dragCopy", {
+  game.keybindings.register("degringo5e", "dragCopy", {
     name: "KEYBINDINGS.DEGRINGO5E.DragCopy",
     editable: [{ key: "ControlLeft" }, { key: "ControlRight" }, { key: "AltLeft" }, { key: "AltRight" }]
   });
 
-  game.keybindings.register("dnd5e", "dragMove", {
+  game.keybindings.register("degringo5e", "dragMove", {
     name: "KEYBINDINGS.DEGRINGO5E.DragMove",
     editable: [{ key: "ShiftLeft" }, { key: "ShiftRight" }, { key: "OsLeft" }, { key: "OsRight" }]
   });
@@ -46,7 +46,7 @@ export function registerSystemKeybindings() {
  */
 export function registerSystemSettings() {
   // Internal System Migration Version
-  game.settings.register("dnd5e", "systemMigrationVersion", {
+  game.settings.register("degringo5e", "systemMigrationVersion", {
     name: "System Migration Version",
     scope: "world",
     config: false,
@@ -55,14 +55,14 @@ export function registerSystemSettings() {
   });
 
   // Polymorph Settings
-  game.settings.register("dnd5e", "transformationSettings", {
+  game.settings.register("degringo5e", "transformationSettings", {
     scope: "client",
     config: false,
     type: TransformationSetting
   });
 
   // Rules version
-  game.settings.register("dnd5e", "rulesVersion", {
+  game.settings.register("degringo5e", "rulesVersion", {
     name: "SETTINGS.DEGRINGO5E.RULESVERSION.Name",
     hint: "SETTINGS.DEGRINGO5E.RULESVERSION.Hint",
     scope: "world",
@@ -77,7 +77,7 @@ export function registerSystemSettings() {
   });
 
   // Allow rotating square templates
-  game.settings.register("dnd5e", "gridAlignedSquareTemplates", {
+  game.settings.register("degringo5e", "gridAlignedSquareTemplates", {
     name: "SETTINGS.5eGridAlignedSquareTemplatesN",
     hint: "SETTINGS.5eGridAlignedSquareTemplatesL",
     scope: "world",
@@ -87,7 +87,7 @@ export function registerSystemSettings() {
   });
 
   // Loyalty
-  game.settings.register("dnd5e", "loyaltyScore", {
+  game.settings.register("degringo5e", "loyaltyScore", {
     name: "SETTINGS.DEGRINGO5E.LOYALTY.Name",
     hint: "SETTINGS.DEGRINGO5E.LOYALTY.Hint",
     scope: "world",
@@ -97,7 +97,7 @@ export function registerSystemSettings() {
   });
 
   // Disable Advancements
-  game.settings.register("dnd5e", "disableAdvancements", {
+  game.settings.register("degringo5e", "disableAdvancements", {
     name: "SETTINGS.5eNoAdvancementsN",
     hint: "SETTINGS.5eNoAdvancementsL",
     scope: "world",
@@ -107,7 +107,7 @@ export function registerSystemSettings() {
   });
 
   // Disable Concentration Tracking
-  game.settings.register("dnd5e", "disableConcentration", {
+  game.settings.register("degringo5e", "disableConcentration", {
     name: "SETTINGS.5eNoConcentrationN",
     hint: "SETTINGS.5eNoConcentrationL",
     scope: "world",
@@ -117,7 +117,7 @@ export function registerSystemSettings() {
   });
 
   // Collapse Item Cards (by default)
-  game.settings.register("dnd5e", "autoCollapseItemCards", {
+  game.settings.register("degringo5e", "autoCollapseItemCards", {
     name: "SETTINGS.5eAutoCollapseCardN",
     hint: "SETTINGS.5eAutoCollapseCardL",
     scope: "client",
@@ -130,7 +130,7 @@ export function registerSystemSettings() {
   });
 
   // Collapse Chat Card Trays
-  game.settings.register("dnd5e", "autoCollapseChatTrays", {
+  game.settings.register("degringo5e", "autoCollapseChatTrays", {
     name: "SETTINGS.DEGRINGO5E.COLLAPSETRAYS.Name",
     hint: "SETTINGS.DEGRINGO5E.COLLAPSETRAYS.Hint",
     scope: "client",
@@ -145,7 +145,7 @@ export function registerSystemSettings() {
   });
 
   // Allow Polymorphing
-  game.settings.register("dnd5e", "allowPolymorphing", {
+  game.settings.register("degringo5e", "allowPolymorphing", {
     name: "SETTINGS.DEGRINGO5E.PERMISSIONS.AllowTransformation.Name",
     hint: "SETTINGS.DEGRINGO5E.PERMISSIONS.AllowTransformation.Hint",
     scope: "world",
@@ -155,7 +155,7 @@ export function registerSystemSettings() {
   });
 
   // Allow Summoning
-  game.settings.register("dnd5e", "allowSummoning", {
+  game.settings.register("degringo5e", "allowSummoning", {
     name: "SETTINGS.DEGRINGO5E.PERMISSIONS.AllowSummoning.Name",
     hint: "SETTINGS.DEGRINGO5E.PERMISSIONS.AllowSummoning.Hint",
     scope: "world",
@@ -165,7 +165,7 @@ export function registerSystemSettings() {
   });
 
   // Metric Length Weights
-  game.settings.register("dnd5e", "metricLengthUnits", {
+  game.settings.register("degringo5e", "metricLengthUnits", {
     name: "SETTINGS.DEGRINGO5E.METRIC.LengthUnits.Name",
     hint: "SETTINGS.DEGRINGO5E.METRIC.LengthUnits.Hint",
     scope: "world",
@@ -175,7 +175,7 @@ export function registerSystemSettings() {
   });
 
   // Metric Volume Weights
-  game.settings.register("dnd5e", "metricVolumeUnits", {
+  game.settings.register("degringo5e", "metricVolumeUnits", {
     name: "SETTINGS.DEGRINGO5E.METRIC.VolumeUnits.Name",
     hint: "SETTINGS.DEGRINGO5E.METRIC.VolumeUnits.Hint",
     scope: "world",
@@ -185,7 +185,7 @@ export function registerSystemSettings() {
   });
 
   // Metric Unit Weights
-  game.settings.register("dnd5e", "metricWeightUnits", {
+  game.settings.register("degringo5e", "metricWeightUnits", {
     name: "SETTINGS.DEGRINGO5E.METRIC.WeightUnits.Name",
     hint: "SETTINGS.DEGRINGO5E.METRIC.WeightUnits.Hint",
     scope: "world",
@@ -195,7 +195,7 @@ export function registerSystemSettings() {
   });
 
   // Strict validation
-  game.settings.register("dnd5e", "strictValidation", {
+  game.settings.register("degringo5e", "strictValidation", {
     scope: "world",
     config: false,
     type: Boolean,
@@ -203,7 +203,7 @@ export function registerSystemSettings() {
   });
 
   // Dynamic art.
-  game.settings.registerMenu("dnd5e", "moduleArtConfiguration", {
+  game.settings.registerMenu("degringo5e", "moduleArtConfiguration", {
     name: "DEGRINGO5E.ModuleArtConfigN",
     label: "DEGRINGO5E.ModuleArtConfigL",
     hint: "DEGRINGO5E.ModuleArtConfigH",
@@ -212,13 +212,13 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "moduleArtConfiguration", {
+  game.settings.register("degringo5e", "moduleArtConfiguration", {
     name: "Module Art Configuration",
     scope: "world",
     config: false,
     type: Object,
     default: {
-      dnd5e: {
+      degringo5e: {
         portraits: true,
         tokens: true
       }
@@ -226,7 +226,7 @@ export function registerSystemSettings() {
   });
 
   // Compendium Browser source exclusion
-  game.settings.registerMenu("dnd5e", "packSourceConfiguration", {
+  game.settings.registerMenu("degringo5e", "packSourceConfiguration", {
     name: "DEGRINGO5E.CompendiumBrowser.Sources.Name",
     label: "DEGRINGO5E.CompendiumBrowser.Sources.Label",
     hint: "DEGRINGO5E.CompendiumBrowser.Sources.Hint",
@@ -235,7 +235,7 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "packSourceConfiguration", {
+  game.settings.register("degringo5e", "packSourceConfiguration", {
     name: "Pack Source Configuration",
     scope: "world",
     config: false,
@@ -244,7 +244,7 @@ export function registerSystemSettings() {
   });
 
   // Bastions
-  game.settings.registerMenu("dnd5e", "bastionConfiguration", {
+  game.settings.registerMenu("degringo5e", "bastionConfiguration", {
     name: "DEGRINGO5E.Bastion.Configuration.Name",
     label: "DEGRINGO5E.Bastion.Configuration.Label",
     hint: "DEGRINGO5E.Bastion.Configuration.Hint",
@@ -253,7 +253,7 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "bastionConfiguration", {
+  game.settings.register("degringo5e", "bastionConfiguration", {
     name: "Bastion Configuration",
     scope: "world",
     config: false,
@@ -263,11 +263,11 @@ export function registerSystemSettings() {
       enabled: false,
       duration: 7
     },
-    onChange: () => game.dnd5e.bastion.initializeUI()
+    onChange: () => game.degringo5e.bastion.initializeUI()
   });
 
   // Combat Settings
-  game.settings.registerMenu("dnd5e", "combatConfiguration", {
+  game.settings.registerMenu("degringo5e", "combatConfiguration", {
     name: "SETTINGS.DEGRINGO5E.COMBAT.Name",
     label: "SETTINGS.DEGRINGO5E.COMBAT.Label",
     hint: "SETTINGS.DEGRINGO5E.COMBAT.Hint",
@@ -276,7 +276,7 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "autoRecharge", {
+  game.settings.register("degringo5e", "autoRecharge", {
     name: "SETTINGS.DEGRINGO5E.NPCS.AutoRecharge.Name",
     hint: "SETTINGS.DEGRINGO5E.NPCS.AutoRecharge.Hint",
     scope: "world",
@@ -290,7 +290,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "autoRollNPCHP", {
+  game.settings.register("degringo5e", "autoRollNPCHP", {
     name: "SETTINGS.DEGRINGO5E.NPCS.AutoRollNPCHP.Name",
     hint: "SETTINGS.DEGRINGO5E.NPCS.AutoRollNPCHP.Hint",
     scope: "world",
@@ -304,7 +304,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "criticalDamageModifiers", {
+  game.settings.register("degringo5e", "criticalDamageModifiers", {
     name: "SETTINGS.DEGRINGO5E.CRITICAL.MultiplyModifiers.Name",
     hint: "SETTINGS.DEGRINGO5E.CRITICAL.MultiplyModifiers.Hint",
     scope: "world",
@@ -313,7 +313,7 @@ export function registerSystemSettings() {
     default: false
   });
 
-  game.settings.register("dnd5e", "criticalDamageMaxDice", {
+  game.settings.register("degringo5e", "criticalDamageMaxDice", {
     name: "SETTINGS.DEGRINGO5E.CRITICAL.MaxDice.Name",
     hint: "SETTINGS.DEGRINGO5E.CRITICAL.MaxDice.Hint",
     scope: "world",
@@ -322,7 +322,7 @@ export function registerSystemSettings() {
     default: false
   });
 
-  game.settings.register("dnd5e", "initiativeDexTiebreaker", {
+  game.settings.register("degringo5e", "initiativeDexTiebreaker", {
     name: "SETTINGS.DEGRINGO5E.COMBAT.DexTiebreaker.Name",
     hint: "SETTINGS.DEGRINGO5E.COMBAT.DexTiebreaker.Hint",
     scope: "world",
@@ -331,7 +331,7 @@ export function registerSystemSettings() {
     type: Boolean
   });
 
-  game.settings.register("dnd5e", "initiativeScore", {
+  game.settings.register("degringo5e", "initiativeScore", {
     name: "SETTINGS.DEGRINGO5E.COMBAT.InitiativeScore.Name",
     hint: "SETTINGS.DEGRINGO5E.COMBAT.InitiativeScore.Hint",
     scope: "world",
@@ -346,7 +346,7 @@ export function registerSystemSettings() {
   });
 
   // Variant Rules
-  game.settings.registerMenu("dnd5e", "variantRulesConfiguration", {
+  game.settings.registerMenu("degringo5e", "variantRulesConfiguration", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.Name",
     label: "SETTINGS.DEGRINGO5E.VARIANT.Label",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.Hint",
@@ -355,7 +355,7 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "allowFeats", {
+  game.settings.register("degringo5e", "allowFeats", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.AllowFeats.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.AllowFeats.Hint",
     scope: "world",
@@ -364,7 +364,7 @@ export function registerSystemSettings() {
     type: Boolean
   });
 
-  game.settings.register("dnd5e", "currencyWeight", {
+  game.settings.register("degringo5e", "currencyWeight", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.CurrencyWeight.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.CurrencyWeight.Hint",
     scope: "world",
@@ -373,7 +373,7 @@ export function registerSystemSettings() {
     type: Boolean
   });
 
-  game.settings.register("dnd5e", "encumbrance", {
+  game.settings.register("degringo5e", "encumbrance", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.Encumbrance.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.Encumbrance.Hint",
     scope: "world",
@@ -387,7 +387,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "honorScore", {
+  game.settings.register("degringo5e", "honorScore", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.HonorScore.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.HonorScore.Hint",
     scope: "world",
@@ -397,7 +397,7 @@ export function registerSystemSettings() {
     requiresReload: true
   });
 
-  game.settings.register("dnd5e", "levelingMode", {
+  game.settings.register("degringo5e", "levelingMode", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.LevelingMode.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.LevelingMode.Hint",
     scope: "world",
@@ -411,7 +411,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "proficiencyModifier", {
+  game.settings.register("degringo5e", "proficiencyModifier", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.ProficiencyModifier.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.ProficiencyModifier.Hint",
     scope: "world",
@@ -424,7 +424,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "restVariant", {
+  game.settings.register("degringo5e", "restVariant", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.Rest.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.Rest.Hint",
     scope: "world",
@@ -438,7 +438,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "sanityScore", {
+  game.settings.register("degringo5e", "sanityScore", {
     name: "SETTINGS.DEGRINGO5E.VARIANT.SanityScore.Name",
     hint: "SETTINGS.DEGRINGO5E.VARIANT.SanityScore.Hint",
     scope: "world",
@@ -449,7 +449,7 @@ export function registerSystemSettings() {
   });
 
   // Visibility Settings
-  game.settings.registerMenu("dnd5e", "visibilityConfiguration", {
+  game.settings.registerMenu("degringo5e", "visibilityConfiguration", {
     name: "SETTINGS.DEGRINGO5E.VISIBILITY.Name",
     label: "SETTINGS.DEGRINGO5E.VISIBILITY.Label",
     hint: "SETTINGS.DEGRINGO5E.VISIBILITY.Hint",
@@ -458,7 +458,7 @@ export function registerSystemSettings() {
     restricted: true
   });
 
-  game.settings.register("dnd5e", "attackRollVisibility", {
+  game.settings.register("degringo5e", "attackRollVisibility", {
     name: "SETTINGS.DEGRINGO5E.VISIBILITY.Attack.Name",
     hint: "SETTINGS.DEGRINGO5E.VISIBILITY.Attack.Hint",
     scope: "world",
@@ -472,7 +472,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "bloodied", {
+  game.settings.register("degringo5e", "bloodied", {
     name: "SETTINGS.DEGRINGO5E.BLOODIED.Name",
     hint: "SETTINGS.DEGRINGO5E.BLOODIED.Hint",
     scope: "world",
@@ -486,7 +486,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "challengeVisibility", {
+  game.settings.register("degringo5e", "challengeVisibility", {
     name: "SETTINGS.DEGRINGO5E.VISIBILITY.Challenge.Name",
     hint: "SETTINGS.DEGRINGO5E.VISIBILITY.Challenge.Hint",
     scope: "world",
@@ -500,7 +500,7 @@ export function registerSystemSettings() {
     }
   });
 
-  game.settings.register("dnd5e", "concealItemDescriptions", {
+  game.settings.register("degringo5e", "concealItemDescriptions", {
     name: "SETTINGS.DEGRINGO5E.VISIBILITY.ItemDescriptions.Name",
     hint: "SETTINGS.DEGRINGO5E.VISIBILITY.ItemDescriptions.Hint",
     scope: "world",
@@ -510,7 +510,7 @@ export function registerSystemSettings() {
   });
 
   // Primary Group
-  game.settings.register("dnd5e", "primaryParty", {
+  game.settings.register("degringo5e", "primaryParty", {
     name: "Primary Party",
     scope: "world",
     config: false,
@@ -520,7 +520,7 @@ export function registerSystemSettings() {
   });
 
   // Control hints
-  game.settings.register("dnd5e", "controlHints", {
+  game.settings.register("degringo5e", "controlHints", {
     name: "DEGRINGO5E.Controls.Name",
     hint: "DEGRINGO5E.Controls.Hint",
     scope: "client",
@@ -530,7 +530,7 @@ export function registerSystemSettings() {
   });
 
   // NPC sheet default skills
-  game.settings.register("dnd5e", "defaultSkills", {
+  game.settings.register("degringo5e", "defaultSkills", {
     name: "SETTINGS.DEGRINGO5E.DEFAULTSKILLS.Name",
     hint: "SETTINGS.DEGRINGO5E.DEFAULTSKILLS.Hint",
     type: new foundry.data.fields.SetField(
@@ -549,7 +549,7 @@ export function registerSystemSettings() {
  * Register additional settings after modules have had a chance to initialize to give them a chance to modify choices.
  */
 export function registerDeferredSettings() {
-  game.settings.register("dnd5e", "theme", {
+  game.settings.register("degringo5e", "theme", {
     name: "SETTINGS.DEGRINGO5E.THEME.Name",
     hint: "SETTINGS.DEGRINGO5E.THEME.Hint",
     scope: "client",
@@ -564,10 +564,10 @@ export function registerDeferredSettings() {
   });
 
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
-    setTheme(document.body, game.settings.get("dnd5e", "theme"));
+    setTheme(document.body, game.settings.get("degringo5e", "theme"));
   });
   matchMedia("(prefers-contrast: more)").addEventListener("change", () => {
-    setTheme(document.body, game.settings.get("dnd5e", "theme"));
+    setTheme(document.body, game.settings.get("degringo5e", "theme"));
   });
 
   // Hook into core color scheme setting.
@@ -641,7 +641,7 @@ export function applyLegacyRules() {
  */
 export function setTheme(element, theme="", flags=new Set()) {
   if ( foundry.utils.getType(theme) === "Object" ) theme = theme.applications;
-  element.className = element.className.replace(/\bdnd5e-(theme|flag)-[\w-]+\b/g, "");
+  element.className = element.className.replace(/\bdegringo5e-(theme|flag)-[\w-]+\b/g, "");
 
   // Primary Theme
   if ( !theme && (element === document.body) ) {
@@ -649,13 +649,13 @@ export function setTheme(element, theme="", flags=new Set()) {
     if ( matchMedia("(prefers-color-scheme: light)").matches ) theme = "light";
   }
   if ( theme ) {
-    element.classList.add(`dnd5e-theme-${theme.slugify()}`);
+    element.classList.add(`degringo5e-theme-${theme.slugify()}`);
     element.dataset.theme = theme;
   }
   else delete element.dataset.theme;
 
   // Additional Flags
   if ( (element === document.body) && matchMedia("(prefers-contrast: more)").matches ) flags.add("high-contrast");
-  for ( const flag of flags ) element.classList.add(`dnd5e-flag-${flag.slugify()}`);
+  for ( const flag of flags ) element.classList.add(`degringo5e-flag-${flag.slugify()}`);
   element.dataset.themeFlags = Array.from(flags).join(" ");
 }

@@ -21,7 +21,7 @@ export default function ApplicationV2Mixin(Base) {
       actions: {
         toggleCollapsed: BaseApplication5e.#toggleCollapsed
       },
-      classes: ["dnd5e2"],
+      classes: ["degringo5e2"],
       window: {
         subtitle: ""
       }
@@ -111,7 +111,7 @@ export default function ApplicationV2Mixin(Base) {
     async _prepareContext(options) {
       const context = await super._prepareContext(options);
       context.CONFIG = CONFIG.DEGRINGO5E;
-      context.inputs = { ...foundry.applications.fields, ...dnd5e.applications.fields };
+      context.inputs = { ...foundry.applications.fields, ...degringo5e.applications.fields };
       return context;
     }
 
@@ -136,7 +136,7 @@ export default function ApplicationV2Mixin(Base) {
       // Icon
       if ( (options.window?.icon ?? "").includes(".") ) {
         const icon = frame.querySelector(".window-icon");
-        const newIcon = document.createElement(options.window.icon?.endsWith(".svg") ? "dnd5e-icon" : "img");
+        const newIcon = document.createElement(options.window.icon?.endsWith(".svg") ? "degringo5e-icon" : "img");
         newIcon.classList.add("window-icon");
         newIcon.src = options.window.icon;
         icon.replaceWith(newIcon);
@@ -175,7 +175,7 @@ export default function ApplicationV2Mixin(Base) {
       super._onRender(context, options);
 
       this.element.querySelectorAll("[data-context-menu]").forEach(control =>
-        control.addEventListener("click", dnd5e.applications.ContextMenu5e.triggerEvent)
+        control.addEventListener("click", degringo5e.applications.ContextMenu5e.triggerEvent)
       );
 
       // Allow multi-select tags to be removed when the whole tag is clicked.

@@ -8,7 +8,7 @@ system:
     value: >-
       <p>Starting when you choose this path at 3rd level, you can go into a
       frenzy when you
-      @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Rage}. If you
+      @UUID[Compendium.degringo5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Rage}. If you
       do so, for the duration of your rage you can make a single melee weapon
       attack as a bonus action on each of your turns after this one. When your
       rage ends, you suffer one level of exhaustion (as described in appendix
@@ -30,8 +30,8 @@ system:
   requirements: Path of the Berserker 3
   properties: []
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: bonus
@@ -94,10 +94,10 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037381470
   modifiedTime: 1725992287592
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!CkbbAckeCtyHXEnL'

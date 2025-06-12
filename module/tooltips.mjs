@@ -73,7 +73,7 @@ export default class Tooltips5e {
     // Sheet-specific tooltips
     if ( loading?.dataset.uuid ) {
       const doc = await fromUuid(loading.dataset.uuid);
-      if ( doc instanceof dnd5e.documents.Actor5e ) return this._onHoverActor(doc);
+      if ( doc instanceof degringo5e.documents.Actor5e ) return this._onHoverActor(doc);
       return this._onHoverContentLink(doc);
     }
 
@@ -136,7 +136,7 @@ export default class Tooltips5e {
       label = game.i18n.format("DEGRINGO5E.SkillPassiveHint", { skill: abilityConfig.label });
     }
 
-    const party = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const party = game.settings.get("degringo5e", "primaryParty")?.actor;
     if ( !party ) {
       this.tooltip.innerHTML = label;
       return;
@@ -165,9 +165,9 @@ export default class Tooltips5e {
       context.party.push(data);
     }
 
-    this.tooltip.classList.add("dnd5e-tooltip", "passive-tooltip");
+    this.tooltip.classList.add("degringo5e-tooltip", "passive-tooltip");
     this.tooltip.innerHTML = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/journal/passive-tooltip.hbs", context
+      "systems/degringo5e/templates/journal/passive-tooltip.hbs", context
     );
     game.tooltip._setAnchor(TooltipManager.TOOLTIP_DIRECTIONS.DOWN);
   }

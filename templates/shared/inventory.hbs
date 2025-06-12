@@ -74,7 +74,7 @@
 
         <ol class="item-list">
             {{#each section.items as |item iid|}}
-            {{#dnd5e-itemContext item as |ctx|}}
+            {{#degringo5e-itemContext item as |ctx|}}
                 <li class="item flexrow {{section.css}}" data-item-id="{{item.id}}"
                     {{#if section.editableName}}data-item-index="{{iid}}"{{/if}}>
                     <div class="item-name flexrow {{@root.rollableClass}}">
@@ -166,10 +166,10 @@
                     {{/if}}
 
                     {{#if ctx.expanded}}
-                        {{> "dnd5e.item-summary" ctx.expanded}}
+                        {{> "degringo5e.item-summary" ctx.expanded}}
                     {{/if}}
                 </li>
-            {{/dnd5e-itemContext}}
+            {{/degringo5e-itemContext}}
             {{/each}}
         </ol>
         {{/each}}

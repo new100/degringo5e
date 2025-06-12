@@ -168,7 +168,7 @@ export default class EquipmentData extends ItemDataModel.mixin(
    */
   static _migrateStealth(source) {
     if ( foundry.utils.getProperty(source, "system.stealth") === true ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.migratedProperties", ["stealthDisadvantage"]);
+      foundry.utils.setProperty(source, "flags.degringo5e.migratedProperties", ["stealthDisadvantage"]);
     }
   }
 
@@ -238,7 +238,7 @@ export default class EquipmentData extends ItemDataModel.mixin(
       ...this.physicalItemSheetFields
     ];
 
-    context.parts = ["dnd5e.details-equipment", "dnd5e.field-uses"];
+    context.parts = ["degringo5e.details-equipment", "degringo5e.field-uses"];
     context.equipmentTypeOptions = [
       ...Object.entries(CONFIG.DEGRINGO5E.miscEquipmentTypes).map(([value, label]) => ({ value, label })),
       ...Object.entries(CONFIG.DEGRINGO5E.armorTypes).map(([value, label]) => ({ value, label, group: "DEGRINGO5E.Armor" }))
@@ -249,7 +249,7 @@ export default class EquipmentData extends ItemDataModel.mixin(
       context.info = [{
         label: "DEGRINGO5E.ArmorClass",
         classes: "info-lg",
-        value: this.type.value === "shield" ? dnd5e.utils.formatModifier(this.armor.value) : this.armor.value
+        value: this.type.value === "shield" ? degringo5e.utils.formatModifier(this.armor.value) : this.armor.value
       }];
     }
   }

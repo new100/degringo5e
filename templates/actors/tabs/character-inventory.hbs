@@ -5,7 +5,7 @@
 
         {{!-- Encumbrance --}}
         <div class="encumbrance card">
-            {{> "systems/dnd5e/templates/inventory/encumbrance.hbs" encumbrance=system.attributes.encumbrance }}
+            {{> "systems/degringo5e/templates/inventory/encumbrance.hbs" encumbrance=system.attributes.encumbrance }}
             <div class="info">
                 <div class="strength">
                     <span class="label">{{ localize "DEGRINGO5E.AbilityStr" }}</span>
@@ -30,13 +30,13 @@
             {{#each containers}}
             <li class="container draggable" data-item-id="{{ id }}" data-uuid="{{ uuid }}">
                 <a class="item-action" data-action="showDocument" data-tooltip="{{ name }}" aria-label="{{ name }}">
-                    {{#dnd5e-itemContext this as |ctx|}}
+                    {{#degringo5e-itemContext this as |ctx|}}
                     {{#with ctx.capacity}}
                     <div class="meter progress" role="meter" aria-valuemin="0" aria-valuenow="{{ pct }}"
                          aria-valuetext="{{ value }}" aria-valuemax="{{ max }}"
                          style="--bar-percentage: {{ pct }}%"></div>
                     {{/with}}
-                    {{/dnd5e-itemContext}}
+                    {{/degringo5e-itemContext}}
                     <img src="{{ img }}" alt="{{ name }}" draggable="false">
                 </a>
             </li>
@@ -45,5 +45,5 @@
 
     </div>
 
-    {{> "systems/dnd5e/templates/inventory/inventory.hbs" }}
+    {{> "systems/degringo5e/templates/inventory/inventory.hbs" }}
 </section>

@@ -71,8 +71,8 @@ export default class EnchantmentApplicationElement extends HTMLElement {
 
     // Calculate the maximum targets
     let item = this.enchantmentItem;
-    const scaling = this.chatMessage.getFlag("dnd5e", "scaling");
-    if ( scaling ) item = item.clone({ "flags.dnd5e.scaling": scaling });
+    const scaling = this.chatMessage.getFlag("degringo5e", "scaling");
+    if ( scaling ) item = item.clone({ "flags.degringo5e.scaling": scaling });
     const activity = item.system.activities.get(this.enchantmentActivity.id);
     const maxTargets = activity.target?.affects?.count;
     if ( maxTargets ) {
@@ -100,7 +100,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
    * the card list.
    */
   buildItemList() {
-    const enchantedItems = dnd5e.registry.enchantments.applied(this.enchantmentActivity.uuid).map(enchantment => {
+    const enchantedItems = degringo5e.registry.enchantments.applied(this.enchantmentActivity.uuid).map(enchantment => {
       const item = enchantment.parent;
       const div = document.createElement("div");
       div.classList.add("preview");
@@ -137,7 +137,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
   async _onDrop(event) {
     event.preventDefault();
     const data = foundry.applications.ux.TextEditor.implementation.getDragEventData(event);
-    const effect = this.enchantmentItem.effects.get(this.chatMessage.getFlag("dnd5e", "use.enchantmentProfile"));
+    const effect = this.enchantmentItem.effects.get(this.chatMessage.getFlag("degringo5e", "use.enchantmentProfile"));
     if ( (data.type !== "Item") || !effect ) return;
     const droppedItem = await Item.implementation.fromDropData(data);
 
@@ -149,7 +149,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
     }
 
     // If concentration is required, ensure it is still being maintained & GM is present
-    const concentrationId = this.chatMessage.getFlag("dnd5e", "use.concentrationId");
+    const concentrationId = this.chatMessage.getFlag("degringo5e", "use.concentrationId");
     const concentration = effect.parent.actor.effects.get(concentrationId);
     if ( concentrationId && !concentration ) {
       ui.notifications.error("DEGRINGO5E.ENCHANT.Warning.ConcentrationEnded", { console: false, localize: true });

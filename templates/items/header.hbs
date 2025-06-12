@@ -51,7 +51,7 @@
             {{#if editable}}
             {{ formInput fields.quantity value=source.quantity }}
             {{else}}
-            <span class="value">{{ dnd5e-numberFormat system.quantity }}</span>
+            <span class="value">{{ degringo5e-numberFormat system.quantity }}</span>
             {{/if}}
         </div>
 
@@ -62,7 +62,7 @@
             {{ formInput fields.weight.fields.units value=source.weight.units choices=CONFIG.weightUnits
                          labelAttr="abbreviation" }}
             {{else}}
-            <span class="value">{{ dnd5e-numberFormat system.weight.value }}</span>
+            <span class="value">{{ degringo5e-numberFormat system.weight.value }}</span>
             <i class="fas fa-weight-hanging"
                aria-label="{{ lookup (lookup CONFIG.weightUnits system.weight.units) 'label' }}"></i>
             {{/if}}
@@ -76,7 +76,7 @@
             {{ formInput fields.price.fields.denomination value=source.price.denomination choices=CONFIG.currencies
                          labelAttr="abbreviation" }}
             {{else}}
-            <span class="value">{{ dnd5e-numberFormat system.price.value }}</span>
+            <span class="value">{{ degringo5e-numberFormat system.price.value }}</span>
             <i class="currency {{ system.price.denomination }}"
                aria-label="{{ lookup (lookup CONFIG.currencies system.price.denomination) 'label' }}"></i>
             {{/if}}
@@ -92,7 +92,7 @@
         </div>
         {{#if (eq system.type.value "basic")}}
         <div class="price">
-            <span class="value">{{ dnd5e-numberFormat system.price.value }}</span>
+            <span class="value">{{ degringo5e-numberFormat system.price.value }}</span>
             <i class="currency gp" aria-label="{{ CONFIG.currencies.gp.label }}"></i>
         </div>
         {{/if}}
@@ -102,7 +102,7 @@
         {{#if (eq item.type "spell")}}
         <div class="school" aria-label="{{ labels.school }}">
             {{#with (lookup @root.CONFIG.spellSchools system.school) as |schoolConfig|}}
-            <dnd5e-icon src="{{ schoolConfig.icon }}"></dnd5e-icon>
+            <degringo5e-icon src="{{ schoolConfig.icon }}"></degringo5e-icon>
             {{/with}}
         </div>
         {{/if}}

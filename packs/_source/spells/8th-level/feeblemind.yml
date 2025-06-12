@@ -60,8 +60,8 @@ system:
     - somatic
     - material
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -122,7 +122,7 @@ flags: {}
 img: icons/magic/light/explosion-star-large-teal-purple.webp
 effects:
   - name: Feeblemind
-    origin: Compendium.dnd5e.spells.Item.hYCrN82dMJFuJODB
+    origin: Compendium.degringo5e.spells.Item.hYCrN82dMJFuJODB
     duration:
       startTime: null
       seconds: null
@@ -155,7 +155,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -170,10 +170,10 @@ folder: x1XTiOgx4DJ34wc5
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037363195
   modifiedTime: 1725992722134
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!hYCrN82dMJFuJODB'

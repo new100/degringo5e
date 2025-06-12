@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Erinyes</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YXZP2A00UrCViGCe
+        <h1>Erinyes</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YXZP2A00UrCViGCe
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -601,11 +601,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDiabolicalRest
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -652,11 +652,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -709,11 +709,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicRope00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -772,7 +772,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -802,7 +802,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -810,11 +810,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -905,7 +905,7 @@ items:
     img: icons/skills/melee/swords-parry-block-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -913,11 +913,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParry000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1065,7 +1065,7 @@ items:
     img: icons/weapons/swords/sword-flanged-lightning.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1073,11 +1073,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWitheringSword
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1189,7 +1189,7 @@ items:
       crewed: false
     effects:
       - name: Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmEntanglingRope
         _id: bju3aUme0f8XYR3z
         type: base
@@ -1217,7 +1217,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1227,7 +1227,7 @@ items:
           !actors.items.effects!mmErinyes0000000.mmEntanglingRope.bju3aUme0f8XYR3z
     folder: 4T18pEvubPMQLzvD
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1235,11 +1235,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEntanglingRope
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717405
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1248,16 +1248,16 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712717432
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 137500
 ownership:

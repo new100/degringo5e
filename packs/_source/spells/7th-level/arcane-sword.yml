@@ -61,8 +61,8 @@ system:
     - concentration
     - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: summon
       activation:
         type: action
@@ -105,7 +105,7 @@ system:
       profiles:
         - name: ''
           _id: wPuXJHCG0YZ72HSI
-          uuid: Compendium.dnd5e.monsters.Actor.Tac7eq0AXJco0nml
+          uuid: Compendium.degringo5e.monsters.Actor.Tac7eq0AXJco0nml
           level:
             min: null
             max: null
@@ -127,10 +127,10 @@ folder: irCSpQWIMtp978TA
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037353959
   modifiedTime: 1725992719111
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!LTDNWoFVJNLjiiNa'

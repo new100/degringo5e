@@ -565,8 +565,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -642,7 +642,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -650,11 +650,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107870469
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!7EmUVycEASn7SFL0.OEx9iy4HDipiYsPt'
   - _id: wjDktLNTUnueuX2X
@@ -684,8 +684,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: utility
           activation:
             type: action
@@ -748,14 +748,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745273655263
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!7EmUVycEASn7SFL0.wjDktLNTUnueuX2X'
   - _id: fZgfSlczUTtrCNEb
@@ -796,10 +796,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.kyVgQNSa12loxVvr
+      compendiumSource: Compendium.degringo5e.monsterfeatures.kyVgQNSa12loxVvr
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -815,10 +815,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726171205645
   modifiedTime: 1745107876945
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!7EmUVycEASn7SFL0'

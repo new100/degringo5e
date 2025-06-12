@@ -121,7 +121,7 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.race) }];
     context.singleDescription = true;
 
-    context.parts = ["dnd5e.details-species"];
+    context.parts = ["degringo5e.details-species"];
     context.info = [{
       label: "DEGRINGO5E.CreatureType",
       classes: "info-sm",

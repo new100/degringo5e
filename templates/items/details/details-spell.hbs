@@ -51,7 +51,7 @@
             {{!-- Prepared --}}
             {{#if (eq source.preparation.mode "prepared")}}
             {{ formInput fields.preparation.fields.prepared value=source.preparation.prepared
-                         dataset=(dnd5e-object tooltip="DEGRINGO5E.Prepared") input=inputs.createCheckboxInput
+                         dataset=(degringo5e-object tooltip="DEGRINGO5E.Prepared") input=inputs.createCheckboxInput
                          ariaLabel=(localize "DEGRINGO5E.Prepared") }}
             {{/if}}
 
@@ -74,17 +74,17 @@
     <legend>{{ localize "DEGRINGO5E.Casting" }}</legend>
 
     {{!-- Activation --}}
-    {{> "dnd5e.field-activation" activation=system.activation fields=fields.activation.fields data=source.activation
+    {{> "degringo5e.field-activation" activation=system.activation fields=fields.activation.fields data=source.activation
         activationTypes=activationTypes inputs=inputs label="DEGRINGO5E.SpellCastTime" }}
 
     {{!-- Range --}}
-    {{> "dnd5e.field-range" range=system.range fields=fields.range.fields data=source.range rangeTypes=rangeTypes
+    {{> "degringo5e.field-range" range=system.range fields=fields.range.fields data=source.range rangeTypes=rangeTypes
         inputs=inputs }}
 
     {{!-- Duration --}}
-    {{> "dnd5e.field-duration" duration=system.duration fields=fields.duration.fields data=source.duration
+    {{> "degringo5e.field-duration" duration=system.duration fields=fields.duration.fields data=source.duration
         durationUnits=durationUnits inputs=inputs }}
 </fieldset>
 
-{{> "dnd5e.field-targets" target=system.target fields=fields.target.fields data=source.target inputs=inputs
+{{> "degringo5e.field-targets" target=system.target fields=fields.target.fields data=source.target inputs=inputs
     disabled=false }}

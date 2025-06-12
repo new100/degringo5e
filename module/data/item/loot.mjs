@@ -105,7 +105,7 @@ export default class LootData extends ItemDataModel.mixin(
       ...this.physicalItemSheetFields
     ];
 
-    context.parts = ["dnd5e.details-loot"];
+    context.parts = ["degringo5e.details-loot"];
     const itemTypes = CONFIG.DEGRINGO5E.lootTypes[this._source.type.value];
     if ( itemTypes ) {
       context.itemType = itemTypes.label;

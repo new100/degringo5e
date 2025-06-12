@@ -22,7 +22,7 @@ export default class JournalRulePageSheet extends foundry.appv1.sheets.JournalTe
   /** @inheritDoc */
   get template() {
     return this.isEditable
-      ? "systems/dnd5e/templates/journal/page-rule-edit.hbs"
+      ? "systems/degringo5e/templates/journal/page-rule-edit.hbs"
       : "templates/journal/page-text-view.html";
   }
 

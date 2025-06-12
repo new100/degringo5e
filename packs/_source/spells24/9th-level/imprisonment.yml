@@ -32,7 +32,7 @@ system:
       observable action, such as someone making a particular offering at the
       temple of your god, saving your true love, or defeating a specific
       monster.</p><p>A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}</em> spell can end the spell only if it is cast with a level 9
       spell slot, targeting either the prison or the component used to create
       it.</p>
@@ -142,8 +142,8 @@ type: spell
 img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
 effects:
   - name: Burial
-    img: systems/dnd5e/icons/svg/statuses/burrowing.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+    img: systems/degringo5e/icons/svg/statuses/burrowing.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplImprisonme
     transfer: false
     _id: RCuPR9PN6DD1YDFc
     type: base
@@ -170,16 +170,16 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725377202254
       modifiedTime: 1725377685519
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplImprisonme.RCuPR9PN6DD1YDFc'
   - name: Chaining
-    img: systems/dnd5e/icons/svg/statuses/restrained.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+    img: systems/degringo5e/icons/svg/statuses/restrained.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplImprisonme
     transfer: false
     _id: VrrFIk47pnm9qKuX
     type: base
@@ -207,16 +207,16 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725377278825
       modifiedTime: 1725377816655
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplImprisonme.VrrFIk47pnm9qKuX'
   - name: Hedged Prison
-    img: systems/dnd5e/icons/svg/activity/summon.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+    img: systems/degringo5e/icons/svg/activity/summon.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplImprisonme
     transfer: false
     _id: 6P8mzDayeidhwod7
     type: base
@@ -243,16 +243,16 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725377410322
       modifiedTime: 1725377849364
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplImprisonme.6P8mzDayeidhwod7'
   - name: Minimus Containment
     img: icons/svg/down.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+    origin: Compendium.degringo5e.spells24.Item.phbsplImprisonme
     transfer: false
     _id: ApXXZFLy8fD2cWO0
     type: base
@@ -280,16 +280,16 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725377435545
       modifiedTime: 1725377954713
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplImprisonme.ApXXZFLy8fD2cWO0'
   - name: Slumber
-    img: systems/dnd5e/icons/svg/statuses/unconscious.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+    img: systems/degringo5e/icons/svg/statuses/unconscious.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplImprisonme
     transfer: false
     _id: R4BMRAXaadQwpvwk
     type: base
@@ -316,11 +316,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725377501907
       modifiedTime: 1725377972756
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplImprisonme.R4BMRAXaadQwpvwk'
 folder: iG0Zia8jh6uK39TB
@@ -328,17 +328,17 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425959776
   modifiedTime: 1745256795109
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplImprisonme'

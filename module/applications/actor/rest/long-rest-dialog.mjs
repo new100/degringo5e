@@ -20,7 +20,7 @@ export default class LongRestDialog extends BaseRestDialog {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/actors/rest/long-rest.hbs"
+      template: "systems/degringo5e/templates/actors/rest/long-rest.hbs"
     }
   };
 
@@ -32,7 +32,7 @@ export default class LongRestDialog extends BaseRestDialog {
   async _prepareContext(options) {
     const context = await super._prepareContext(options);
 
-    const { enabled } = game.settings.get("dnd5e", "bastionConfiguration");
+    const { enabled } = game.settings.get("degringo5e", "bastionConfiguration");
     if ( game.user.isGM && context.isGroup && enabled ) context.fields.unshift({
       field: new BooleanField({ label: game.i18n.localize("DEGRINGO5E.Bastion.Action.BastionTurn") }),
       input: context.inputs.createCheckboxInput,

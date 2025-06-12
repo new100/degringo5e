@@ -14,7 +14,7 @@
     <div class="rolls">
         <label class="average-label flexrow">
             <span>{{ localize "DEGRINGO5E.ADVANCEMENT.HitPoints.TakeAverage" }}</span>
-            <dnd5e-checkbox class="average-checkbox" name="useAverage" {{ checked data.useAverage }}></dnd5e-checkbox>
+            <degringo5e-checkbox class="average-checkbox" name="useAverage" {{ checked data.useAverage }}></degringo5e-checkbox>
         </label>
         <input class="roll-result" type="number" name="value" value="{{ data.value }}" {{ disabled data.useAverage }}>
         <button class="roll-button dice-button" type="button" name="roll" {{ disabled data.useAverage }}

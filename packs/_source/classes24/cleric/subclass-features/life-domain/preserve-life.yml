@@ -36,8 +36,8 @@ system:
   properties: []
   requirements: Life Domain
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: heal
       activation:
         type: action
@@ -48,7 +48,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbclcChannelDiv
+            target: Compendium.degringo5e.classes24.Item.phbclcChannelDiv
             scaling: {}
         scaling:
           allowed: false
@@ -107,18 +107,18 @@ system:
   identifier: preserve-life
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866589552
   modifiedTime: 1740680082017
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 400000
 ownership:

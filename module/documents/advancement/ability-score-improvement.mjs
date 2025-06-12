@@ -20,7 +20,7 @@ export default class AbilityScoreImprovementAdvancement extends Advancement {
       },
       order: 20,
       icon: "icons/magic/symbols/star-solid-gold.webp",
-      typeIcon: "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+      typeIcon: "systems/degringo5e/icons/svg/ability-score-improvement.svg",
       title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Title"),
       hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Hint"),
       apps: {
@@ -50,8 +50,8 @@ export default class AbilityScoreImprovementAdvancement extends Advancement {
    * @type {boolean}
    */
   get allowFeat() {
-    return (this.item.type === "class") && (game.settings.get("dnd5e", "allowFeats")
-      || game.settings.get("dnd5e", "rulesVersion") === "modern");
+    return (this.item.type === "class") && (game.settings.get("degringo5e", "allowFeats")
+      || game.settings.get("degringo5e", "rulesVersion") === "modern");
   }
 
   /* -------------------------------------------- */

@@ -26,7 +26,7 @@ const { ArrayField, ForeignDocumentField, HTMLField, NumberField, SchemaField, S
  */
 
 /**
- * A data model and API layer which handles the schema and functionality of "group" type Actors in the dnd5e system.
+ * A data model and API layer which handles the schema and functionality of "group" type Actors in the degringo5e system.
  * @mixes CurrencyTemplate
  *
  * @property {object} type
@@ -45,7 +45,7 @@ const { ArrayField, ForeignDocumentField, HTMLField, NumberField, SchemaField, S
  * @property {number} details.xp.value           XP currently available to be distributed to a party.
  *
  * @example Create a new Group
- * const g = new dnd5e.documents.Actor5e({
+ * const g = new degringo5e.documents.Actor5e({
  *  type: "group",
  *  name: "Test Group",
  *  system: {
@@ -324,15 +324,15 @@ export default class GroupActor extends ActorDataModel.mixin(CurrencyTemplate) {
 
     /**
      * A hook event that fires when the rest process is completed for a group.
-     * @function dnd5e.groupRestCompleted
+     * @function degringo5e.groupRestCompleted
      * @memberof hookEvents
      * @param {Actor5e} group                         The group that just completed resting.
      * @param {Map<Actor5e, RestResult|null>} result  Details on the rests completed.
      */
-    Hooks.callAll("dnd5e.groupRestCompleted", this.parent, results);
+    Hooks.callAll("degringo5e.groupRestCompleted", this.parent, results);
 
-    if ( config.advanceBastionTurn && game.user.isGM && game.settings.get("dnd5e", "bastionConfiguration").enabled ) {
-      await dnd5e.bastion.advanceAllBastions();
+    if ( config.advanceBastionTurn && game.user.isGM && game.settings.get("degringo5e", "bastionConfiguration").enabled ) {
+      await degringo5e.bastion.advanceAllBastions();
     }
 
     return false;
@@ -352,8 +352,8 @@ export default class GroupActor extends ActorDataModel.mixin(CurrencyTemplate) {
    */
   _onUpdate(changed, options, userId) {
     if ( !foundry.utils.hasProperty(changed, "system.type.value") || (game.user !== game.users.activeGM)
-      || (game.settings.get("dnd5e", "primaryParty")?.actor !== this.parent)
+      || (game.settings.get("degringo5e", "primaryParty")?.actor !== this.parent)
       || (foundry.utils.getProperty(changed, "system.type.value") === "party") ) return;
-    game.settings.set("dnd5e", "primaryParty", { actor: null });
+    game.settings.set("degringo5e", "primaryParty", { actor: null });
   }
 }

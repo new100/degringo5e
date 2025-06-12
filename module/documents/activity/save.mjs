@@ -20,7 +20,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "save",
-      img: "systems/dnd5e/icons/svg/activity/save.svg",
+      img: "systems/degringo5e/icons/svg/activity/save.svg",
       title: "DEGRINGO5E.SAVE.Title.one",
       sheetClass: SaveSheet,
       usage: {
@@ -75,7 +75,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   /** @inheritDoc */
   async rollDamage(config={}, dialog={}, message={}) {
     message = foundry.utils.mergeObject({
-      "data.flags.dnd5e.roll": {
+      "data.flags.degringo5e.roll": {
         damageOnSave: this.damage.onSave
       }
     }, message);

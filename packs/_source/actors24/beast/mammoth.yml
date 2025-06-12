@@ -617,7 +617,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -625,11 +625,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738092405040
       modifiedTime: 1745712723063
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -771,7 +771,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -799,16 +799,16 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1738094654846
-          lastModifiedBy: dnd5ebuilder0000
+          lastModifiedBy: degringo5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!mmMammoth0000000.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -816,11 +816,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738092408194
       modifiedTime: 1745712723063
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -929,7 +929,7 @@ items:
     img: icons/creatures/abilities/paw-print-pair-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -937,11 +937,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTrample0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738092409570
       modifiedTime: 1745712723063
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -953,11 +953,11 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712723090
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

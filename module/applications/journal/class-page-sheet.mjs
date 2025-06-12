@@ -34,7 +34,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
 
   /** @inheritDoc */
   get template() {
-    return `systems/dnd5e/templates/journal/page-${this.document.type}-${this.isEditable ? "edit" : "view"}.hbs`;
+    return `systems/degringo5e/templates/journal/page-${this.document.type}-${this.isEditable ? "edit" : "view"}.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -335,15 +335,15 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     else {
       /**
        * A hook event that fires to generate the table for custom spellcasting types.
-       * The actual hook names include the spellcasting type (e.g. `dnd5e.buildPsionicSpellcastingTable`).
+       * The actual hook names include the spellcasting type (e.g. `degringo5e.buildPsionicSpellcastingTable`).
        * @param {object} table                          Table definition being built. *Will be mutated.*
        * @param {Item5e} item                           Class for which the spellcasting table is being built.
        * @param {SpellcastingDescription} spellcasting  Spellcasting descriptive object.
-       * @function dnd5e.buildSpellcastingTable
+       * @function degringo5e.buildSpellcastingTable
        * @memberof hookEvents
        */
       Hooks.callAll(
-        `dnd5e.build${spellcasting.type.capitalize()}SpellcastingTable`, table, item, spellcasting
+        `degringo5e.build${spellcasting.type.capitalize()}SpellcastingTable`, table, item, spellcasting
       );
     }
 

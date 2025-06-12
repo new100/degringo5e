@@ -19,7 +19,7 @@ export default class UtilityActivity extends ActivityMixin(UtilityActivityData) 
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "utility",
-      img: "systems/dnd5e/icons/svg/activity/utility.svg",
+      img: "systems/degringo5e/icons/svg/activity/utility.svg",
       title: "DEGRINGO5E.UTILITY.Title",
       sheetClass: UtilitySheet,
       usage: {
@@ -85,7 +85,7 @@ export default class UtilityActivity extends ActivityMixin(UtilityActivityData) 
       data: {
         flavor: `${this.item.name} - ${this.roll.label || game.i18n.localize("DEGRINGO5E.OtherFormula")}`,
         flags: {
-          dnd5e: {
+          degringo5e: {
             ...this.messageFlags,
             messageType: "roll",
             roll: { type: "generic" }
@@ -99,14 +99,14 @@ export default class UtilityActivity extends ActivityMixin(UtilityActivityData) 
 
     /**
      * A hook event that fires after a formula has been rolled for a Utility activity.
-     * @function dnd5e.rollFormula
+     * @function degringo5e.rollFormula
      * @memberof hookEvents
      * @param {BasicRoll[]} rolls             The resulting rolls.
      * @param {object} data
      * @param {UtilityActivity} data.subject  The Activity that performed the roll.
      */
-    Hooks.callAll("dnd5e.rollFormula", rolls, { subject: this });
-    Hooks.callAll("dnd5e.rollFormulaV2", rolls, { subject: this });
+    Hooks.callAll("degringo5e.rollFormula", rolls, { subject: this });
+    Hooks.callAll("degringo5e.rollFormulaV2", rolls, { subject: this });
 
     return rolls;
   }

@@ -46,8 +46,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -90,7 +90,7 @@ type: spell
 img: icons/creatures/magical/spirit-undead-ghost-blue.webp
 effects:
   - name: Invisible
-    origin: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
+    origin: Compendium.degringo5e.spells24.Item.phbsplGreaterInv
     duration:
       rounds: null
       startTime: null
@@ -101,7 +101,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     _id: NDpw6r63ZdEgks1a
     type: base
     system: {}
@@ -116,7 +116,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -128,17 +128,17 @@ sort: 1700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425957037
   modifiedTime: 1745256793973
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplGreaterInv'

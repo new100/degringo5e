@@ -30,7 +30,7 @@ export default class EffectsElement extends HTMLElement {
       const effect = this.getEffect(element.dataset);
       if ( !effect ) return;
       ui.context.menuItems = this._getContextOptions(effect);
-      Hooks.call("dnd5e.getActiveEffectContextOptions", effect, ui.context.menuItems);
+      Hooks.call("degringo5e.getActiveEffectContextOptions", effect, ui.context.menuItems);
     }, jQuery: true });
   }
 
@@ -182,7 +182,7 @@ export default class EffectsElement extends HTMLElement {
       },
       {
         name: "DEGRINGO5E.ConcentrationBreak",
-        icon: '<dnd5e-icon src="systems/dnd5e/icons/svg/break-concentration.svg"></dnd5e-icon>',
+        icon: '<degringo5e-icon src="systems/degringo5e/icons/svg/break-concentration.svg"></degringo5e-icon>',
         condition: () => isConcentrationEffect,
         callback: () => this.document.endConcentration(effect),
         group: "state"
@@ -258,7 +258,7 @@ export default class EffectsElement extends HTMLElement {
    * @protected
    */
   async _onToggleCondition(conditionId) {
-    const existing = this.document.effects.get(staticID(`dnd5e${conditionId}`));
+    const existing = this.document.effects.get(staticID(`degringo5e${conditionId}`));
     if ( existing ) return existing.delete();
     const effect = await ActiveEffect.implementation.fromStatusEffect(conditionId);
     return ActiveEffect.implementation.create(effect, { parent: this.document, keepId: true });

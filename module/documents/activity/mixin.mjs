@@ -42,7 +42,7 @@ export default function ActivityMixin(Base) {
       sheetClass: ActivitySheet,
       usage: {
         actions: {},
-        chatCard: "systems/dnd5e/templates/chat/activity-card.hbs",
+        chatCard: "systems/degringo5e/templates/chat/activity-card.hbs",
         dialog: ActivityUsageDialog
       }
     });
@@ -231,7 +231,7 @@ export default function ActivityMixin(Base) {
         create: true,
         data: {
           flags: {
-            dnd5e: {
+            degringo5e: {
               ...this.messageFlags,
               messageType: "usage",
               use: {
@@ -245,7 +245,7 @@ export default function ActivityMixin(Base) {
 
       /**
        * A hook event that fires before an activity usage is configured.
-       * @function dnd5e.preUseActivity
+       * @function degringo5e.preUseActivity
        * @memberof hookEvents
        * @param {Activity} activity                           Activity being used.
        * @param {ActivityUseConfiguration} usageConfig        Configuration info for the activation.
@@ -253,7 +253,7 @@ export default function ActivityMixin(Base) {
        * @param {ActivityMessageConfiguration} messageConfig  Configuration info for the created chat message.
        * @returns {boolean}  Explicitly return `false` to prevent activity from being used.
        */
-      if ( Hooks.call("dnd5e.preUseActivity", activity, usageConfig, dialogConfig, messageConfig) === false ) return;
+      if ( Hooks.call("degringo5e.preUseActivity", activity, usageConfig, dialogConfig, messageConfig) === false ) return;
 
       // Display configuration window if necessary
       if ( dialogConfig.configure && activity._requiresConfigurationDialog(usageConfig) ) {
@@ -275,11 +275,11 @@ export default function ActivityMixin(Base) {
 
       // Create concentration effect & end previous effects
       if ( usageConfig.concentration?.begin ) {
-        const effect = await item.actor.beginConcentrating(activity, { "flags.dnd5e.scaling": usageConfig.scaling });
+        const effect = await item.actor.beginConcentrating(activity, { "flags.degringo5e.scaling": usageConfig.scaling });
         if ( effect ) {
           results.effects ??= [];
           results.effects.push(effect);
-          foundry.utils.setProperty(messageConfig.data, "flags.dnd5e.use.concentrationId", effect.id);
+          foundry.utils.setProperty(messageConfig.data, "flags.degringo5e.use.concentrationId", effect.id);
         }
         if ( usageConfig.concentration?.end ) {
           const deleted = await item.actor.endConcentration(usageConfig.concentration.end);
@@ -296,14 +296,14 @@ export default function ActivityMixin(Base) {
 
       /**
        * A hook event that fires when an activity is activated.
-       * @function dnd5e.postUseActivity
+       * @function degringo5e.postUseActivity
        * @memberof hookEvents
        * @param {Activity} activity                     Activity being activated.
        * @param {ActivityUseConfiguration} usageConfig  Configuration data for the activation.
        * @param {ActivityUsageResults} results          Final details on the activation.
        * @returns {boolean}  Explicitly return `false` to prevent any subsequent actions from being triggered.
        */
-      if ( Hooks.call("dnd5e.postUseActivity", activity, usageConfig, results) === false ) return results;
+      if ( Hooks.call("degringo5e.postUseActivity", activity, usageConfig, results) === false ) return results;
 
       // Trigger any primary action provided by this activity
       if ( usageConfig.subsequentActions !== false ) {
@@ -324,14 +324,14 @@ export default function ActivityMixin(Base) {
     async consume(usageConfig, messageConfig) {
       /**
        * A hook event that fires before an item's resource consumption is calculated.
-       * @function dnd5e.preActivityConsumption
+       * @function degringo5e.preActivityConsumption
        * @memberof hookEvents
        * @param {Activity} activity                           Activity being activated.
        * @param {ActivityUseConfiguration} usageConfig        Configuration data for the activation.
        * @param {ActivityMessageConfiguration} messageConfig  Configuration info for the created chat message.
        * @returns {boolean}  Explicitly return `false` to prevent activity from being activated.
        */
-      if ( Hooks.call("dnd5e.preActivityConsumption", this, usageConfig, messageConfig) === false ) return false;
+      if ( Hooks.call("degringo5e.preActivityConsumption", this, usageConfig, messageConfig) === false ) return false;
 
       const updates = await this._prepareUsageUpdates(usageConfig);
       if ( !updates ) return false;
@@ -339,7 +339,7 @@ export default function ActivityMixin(Base) {
       /**
        * A hook event that fires after an item's resource consumption is calculated, but before any updates are
        * performed.
-       * @function dnd5e.activityConsumption
+       * @function degringo5e.activityConsumption
        * @memberof hookEvents
        * @param {Activity} activity                           Activity being activated.
        * @param {ActivityUseConfiguration} usageConfig        Configuration data for the activation.
@@ -347,19 +347,19 @@ export default function ActivityMixin(Base) {
        * @param {ActivityUsageUpdates} updates                Updates to apply to the actor and other documents.
        * @returns {boolean}  Explicitly return `false` to prevent activity from being activated.
        */
-      if ( Hooks.call("dnd5e.activityConsumption", this, usageConfig, messageConfig, updates) === false ) return false;
+      if ( Hooks.call("degringo5e.activityConsumption", this, usageConfig, messageConfig, updates) === false ) return false;
 
       const consumed = await this.#applyUsageUpdates(updates);
       if ( !foundry.utils.isEmpty(consumed) ) {
-        foundry.utils.setProperty(messageConfig, "data.flags.dnd5e.use.consumed", consumed);
+        foundry.utils.setProperty(messageConfig, "data.flags.degringo5e.use.consumed", consumed);
       }
       if ( usageConfig.cause?.activity ) {
-        foundry.utils.setProperty(messageConfig, "data.flags.dnd5e.use.cause", usageConfig.cause.activity);
+        foundry.utils.setProperty(messageConfig, "data.flags.degringo5e.use.cause", usageConfig.cause.activity);
       }
 
       /**
        * A hook event that fires after an item's resource consumption is calculated and applied.
-       * @function dnd5e.postActivityConsumption
+       * @function degringo5e.postActivityConsumption
        * @memberof hookEvents
        * @param {Activity} activity                           Activity being activated.
        * @param {ActivityUseConfiguration} usageConfig        Configuration data for the activation.
@@ -367,7 +367,7 @@ export default function ActivityMixin(Base) {
        * @param {ActivityUsageUpdates} updates                Applied updates to the actor and other documents.
        * @returns {boolean}  Explicitly return `false` to prevent activity from being activated.
        */
-      if ( Hooks.call("dnd5e.postActivityConsumption", this, usageConfig, messageConfig, updates) === false ) return false;
+      if ( Hooks.call("degringo5e.postActivityConsumption", this, usageConfig, messageConfig, updates) === false ) return false;
 
       return updates;
     }
@@ -499,7 +499,7 @@ export default function ActivityMixin(Base) {
           || (!linked && hasSpellSlotConsumption);
       }
 
-      const levelingFlag = this.item.getFlag("dnd5e", "spellLevel");
+      const levelingFlag = this.item.getFlag("degringo5e", "spellLevel");
       if ( levelingFlag ) {
         // Handle fixed scaling from spell scrolls
         config.scaling = false;
@@ -524,13 +524,13 @@ export default function ActivityMixin(Base) {
         config.scaling ??= 0;
       }
 
-      if ( this.requiresConcentration && !game.settings.get("dnd5e", "disableConcentration") ) {
+      if ( this.requiresConcentration && !game.settings.get("degringo5e", "disableConcentration") ) {
         config.concentration ??= {};
         config.concentration.begin ??= true;
         const { effects } = this.actor.concentration;
         const limit = this.actor.system.attributes?.concentration?.limit ?? 0;
         if ( limit && (limit <= effects.size) ) config.concentration.end ??= effects.find(e => {
-          const data = e.flags.dnd5e?.item?.data ?? {};
+          const data = e.flags.degringo5e?.item?.data ?? {};
           return (data === this.id) || (data._id === this.id);
         })?.id ?? effects.first()?.id ?? null;
       }
@@ -554,21 +554,21 @@ export default function ActivityMixin(Base) {
      * @protected
      */
     async _prepareUsageScaling(usageConfig, messageConfig, item) {
-      const levelingFlag = this.item.getFlag("dnd5e", "spellLevel");
+      const levelingFlag = this.item.getFlag("degringo5e", "spellLevel");
       if ( levelingFlag ) {
         usageConfig.scaling = Math.max(0, levelingFlag.value - levelingFlag.base);
       } else if ( this.isSpell ) {
         const level = this.actor.system.spells?.[usageConfig.spell?.slot]?.level;
         if ( level ) {
           usageConfig.scaling = level - item.system.level;
-          foundry.utils.setProperty(messageConfig, "data.flags.dnd5e.use.spellLevel", level);
+          foundry.utils.setProperty(messageConfig, "data.flags.degringo5e.use.spellLevel", level);
         }
       }
 
       if ( usageConfig.scaling ) {
-        foundry.utils.setProperty(messageConfig, "data.flags.dnd5e.scaling", usageConfig.scaling);
+        foundry.utils.setProperty(messageConfig, "data.flags.degringo5e.scaling", usageConfig.scaling);
         item.actor._embeddedPreparation = true;
-        item.updateSource({ "flags.dnd5e.scaling": usageConfig.scaling });
+        item.updateSource({ "flags.degringo5e.scaling": usageConfig.scaling });
         delete item.actor._embeddedPreparation;
         item.prepareFinalAttributes();
       }
@@ -659,7 +659,7 @@ export default function ActivityMixin(Base) {
             updates.rolls.push(...results.rolls);
             // Mark this item for deletion if it is linked to a cast activity that will be deleted
             if ( updates.delete.includes(linkedActivity.item.id)
-              && (this.item.getFlag("dnd5e", "cachedFor") === linkedActivity.relativeUUID) ) {
+              && (this.item.getFlag("degringo5e", "cachedFor") === linkedActivity.relativeUUID) ) {
               updates.delete.push(this.item.id);
             }
           } else if ( results?.length ) {
@@ -750,7 +750,7 @@ export default function ActivityMixin(Base) {
 
       // Include spell level in the subtitle.
       if ( this.item.type === "spell" ) {
-        const spellLevel = foundry.utils.getProperty(message, "data.flags.dnd5e.use.spellLevel");
+        const spellLevel = foundry.utils.getProperty(message, "data.flags.degringo5e.use.spellLevel");
         const { spellLevels, spellSchools } = CONFIG.DEGRINGO5E;
         data.subtitle = [spellLevels[spellLevel], spellSchools[this.item.system.school]?.label].filterJoin(" &bull; ");
       }
@@ -834,7 +834,7 @@ export default function ActivityMixin(Base) {
      * @returns {boolean}
      */
     shouldHideChatButton(button, message) {
-      const flag = message.getFlag("dnd5e", "use.consumed");
+      const flag = message.getFlag("degringo5e", "use.consumed");
       switch ( button.dataset.action ) {
         case "consumeResource": return !!flag;
         case "refundResource": return !flag;
@@ -866,24 +866,24 @@ export default function ActivityMixin(Base) {
 
       /**
        * A hook event that fires before an activity usage card is created.
-       * @function dnd5e.preCreateUsageMessage
+       * @function degringo5e.preCreateUsageMessage
        * @memberof hookEvents
        * @param {Activity} activity                     Activity for which the card will be created.
        * @param {ActivityMessageConfiguration} message  Configuration info for the created message.
        */
-      Hooks.callAll("dnd5e.preCreateUsageMessage", this, messageConfig);
+      Hooks.callAll("degringo5e.preCreateUsageMessage", this, messageConfig);
 
       ChatMessage.applyRollMode(messageConfig.data, messageConfig.rollMode);
       const card = messageConfig.create === false ? messageConfig.data : await ChatMessage.create(messageConfig.data);
 
       /**
        * A hook event that fires after an activity usage card is created.
-       * @function dnd5e.postCreateUsageMessage
+       * @function degringo5e.postCreateUsageMessage
        * @memberof hookEvents
        * @param {Activity} activity          Activity for which the card was created.
        * @param {ChatMessage5e|object} card  Created card or configuration data if not created.
        */
-      Hooks.callAll("dnd5e.postCreateUsageMessage", this, card);
+      Hooks.callAll("degringo5e.postCreateUsageMessage", this, card);
 
       return card;
     }
@@ -946,7 +946,7 @@ export default function ActivityMixin(Base) {
         data: {
           flavor: `${this.item.name} - ${this.damageFlavor}`,
           flags: {
-            dnd5e: {
+            degringo5e: {
               ...this.messageFlags,
               messageType: "roll",
               roll: { type: "damage" }
@@ -966,19 +966,19 @@ export default function ActivityMixin(Base) {
       }, {});
       if ( canUpdate && !foundry.utils.isEmpty(lastDamageTypes)
         && (this.actor && this.actor.items.has(this.item.id)) ) {
-        await this.item.setFlag("dnd5e", `last.${this.id}.damageType`, lastDamageTypes);
+        await this.item.setFlag("degringo5e", `last.${this.id}.damageType`, lastDamageTypes);
       }
 
       /**
        * A hook event that fires after damage has been rolled.
-       * @function dnd5e.rollDamage
+       * @function degringo5e.rollDamage
        * @memberof hookEvents
        * @param {DamageRoll[]} rolls       The resulting rolls.
        * @param {object} [data]
        * @param {Activity} [data.subject]  The activity that performed the roll.
        */
-      Hooks.callAll("dnd5e.rollDamage", rolls, { subject: this });
-      Hooks.callAll("dnd5e.rollDamageV2", rolls, { subject: this });
+      Hooks.callAll("degringo5e.rollDamage", rolls, { subject: this });
+      Hooks.callAll("degringo5e.rollDamageV2", rolls, { subject: this });
 
       return rolls;
     }
@@ -1062,8 +1062,8 @@ export default function ActivityMixin(Base) {
      * @param {ChatMessage5e} message  Message associated with the activation.
      */
     async #onChatAction(event, target, message) {
-      const scaling = message.getFlag("dnd5e", "scaling") ?? 0;
-      const item = scaling ? this.item.clone({ "flags.dnd5e.scaling": scaling }, { keepId: true }) : this.item;
+      const scaling = message.getFlag("degringo5e", "scaling") ?? 0;
+      const item = scaling ? this.item.clone({ "flags.degringo5e.scaling": scaling }, { keepId: true }) : this.item;
       const activity = item.system.activities.get(this.id);
 
       const action = target.dataset.action;
@@ -1109,13 +1109,13 @@ export default function ActivityMixin(Base) {
 
       /**
        * A hook even that fires when the context menu for an Activity is opened.
-       * @function dnd5e.getItemActivityContext
+       * @function degringo5e.getItemActivityContext
        * @memberof hookEvents
        * @param {Activity} activity             The Activity.
        * @param {HTMLElement} target            The element that menu was triggered on.
        * @param {ContextMenuEntry[]} menuItems  The context menu entries.
        */
-      Hooks.callAll("dnd5e.getItemActivityContext", activity, target, menuItems);
+      Hooks.callAll("degringo5e.getItemActivityContext", activity, target, menuItems);
       ui.context.menuItems = menuItems;
     }
 
@@ -1129,9 +1129,9 @@ export default function ActivityMixin(Base) {
      */
     async #consumeResource(event, target, message) {
       const messageConfig = {};
-      const scaling = message.getFlag("dnd5e", "scaling");
+      const scaling = message.getFlag("degringo5e", "scaling");
       const usageConfig = { consume: true, event, scaling };
-      const linkedActivity = this.getLinkedActivity(message.getFlag("dnd5e", "use.cause"));
+      const linkedActivity = this.getLinkedActivity(message.getFlag("degringo5e", "use.cause"));
       if ( linkedActivity ) usageConfig.cause = {
         activity: linkedActivity.relativeUUID, resources: linkedActivity.consumption.targets.length > 0
       };
@@ -1148,10 +1148,10 @@ export default function ActivityMixin(Base) {
      * @param {ChatMessage5e} message  Message associated with the activation.
      */
     async #refundResource(event, target, message) {
-      const consumed = message.getFlag("dnd5e", "use.consumed");
+      const consumed = message.getFlag("degringo5e", "use.consumed");
       if ( !foundry.utils.isEmpty(consumed) ) {
         await this.refund(consumed);
-        await message.unsetFlag("dnd5e", "use.consumed");
+        await message.unsetFlag("degringo5e", "use.consumed");
       }
     }
 
@@ -1205,7 +1205,7 @@ export default function ActivityMixin(Base) {
      */
     getLinkedActivity(relativeUUID) {
       if ( !this.actor ) return null;
-      relativeUUID ??= this.item.getFlag("dnd5e", "cachedFor");
+      relativeUUID ??= this.item.getFlag("degringo5e", "cachedFor");
       return fromUuidSync(relativeUUID, { relative: this.actor, strict: false });
     }
 

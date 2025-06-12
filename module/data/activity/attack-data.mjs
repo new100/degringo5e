@@ -235,7 +235,7 @@ export default class AttackActivityData extends BaseActivityData {
     }
     const actionType = this.getActionType(attackMode);
     let actionTypeLabel = game.i18n.localize(`DEGRINGO5E.Action${actionType.toUpperCase()}`);
-    const isLegacy = game.settings.get("dnd5e", "rulesVersion") === "legacy";
+    const isLegacy = game.settings.get("degringo5e", "rulesVersion") === "legacy";
     const isUnarmed = this.attack.type.classification === "unarmed";
     if ( isUnarmed ) attackModeLabel = game.i18n.localize("DEGRINGO5E.ATTACK.Classification.Unarmed");
     const isSpell = (actionType === "rsak") || (actionType === "msak");
@@ -413,7 +413,7 @@ export default class AttackActivityData extends BaseActivityData {
       }
     }
 
-    const criticalBonusDice = this.actor?.getFlag("dnd5e", "meleeCriticalDamageDice") ?? 0;
+    const criticalBonusDice = this.actor?.getFlag("degringo5e", "meleeCriticalDamageDice") ?? 0;
     if ( (this.getActionType(rollConfig.attackMode) === "mwak") && (parseInt(criticalBonusDice) !== 0) ) {
       foundry.utils.setProperty(roll, "options.critical.bonusDice", criticalBonusDice);
     }

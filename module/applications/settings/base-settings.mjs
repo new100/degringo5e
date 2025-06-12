@@ -25,7 +25,7 @@ export default class BaseSettingsConfig extends Application5e {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/settings/base-config.hbs"
+      template: "systems/degringo5e/templates/settings/base-config.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"
@@ -48,12 +48,12 @@ export default class BaseSettingsConfig extends Application5e {
 
   /**
    * Create the field data for a specific setting.
-   * @param {string} name  Setting key within the dnd5e namespace.
+   * @param {string} name  Setting key within the degringo5e namespace.
    * @returns {object}
    */
   createSettingField(name) {
-    const setting = game.settings.settings.get(`dnd5e.${name}`);
-    if ( !setting ) throw new Error(`Setting \`dnd5e.${name}\` not registered.`);
+    const setting = game.settings.settings.get(`degringo5e.${name}`);
+    if ( !setting ) throw new Error(`Setting \`degringo5e.${name}\` not registered.`);
     const Field = { [Boolean]: BooleanField, [Number]: NumberField, [String]: StringField }[setting.type];
     if ( !Field ) throw new Error("Automatic field generation only available for Boolean, Number, or String types");
     const data = {
@@ -61,7 +61,7 @@ export default class BaseSettingsConfig extends Application5e {
       field: new Field({
         label: game.i18n.localize(setting.name), hint: game.i18n.localize(setting.hint), required: true, blank: false
       }),
-      value: game.settings.get("dnd5e", name)
+      value: game.settings.get("degringo5e", name)
     };
     if ( setting.type === Boolean ) data.input = createCheckboxInput;
     if ( setting.choices ) data.options = Object.entries(setting.choices)
@@ -86,10 +86,10 @@ export default class BaseSettingsConfig extends Application5e {
     let requiresClientReload = false;
     let requiresWorldReload = false;
     for ( const [key, value] of Object.entries(foundry.utils.expandObject(formData.object)) ) {
-      const setting = game.settings.settings.get(`dnd5e.${key}`);
-      const current = game.settings.get("dnd5e", key, { document: true });
+      const setting = game.settings.settings.get(`degringo5e.${key}`);
+      const current = game.settings.get("degringo5e", key, { document: true });
       const prior = current?._source?.value ?? current;
-      const updated = await game.settings.set("dnd5e", key, value, { document: true });
+      const updated = await game.settings.set("degringo5e", key, value, { document: true });
       if ( prior === (updated?._source?.value ?? updated) ) continue;
       requiresClientReload ||= (setting.scope !== "world") && setting.requiresReload;
       requiresWorldReload ||= (setting.scope === "world") && setting.requiresReload;

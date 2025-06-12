@@ -534,14 +534,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.eVKgO2130oiJqsjY
+      compendiumSource: Compendium.degringo5e.monsterfeatures.eVKgO2130oiJqsjY
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744058659464
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.P3P1EukfOip32dtd'
   - _id: ZVMVqd01HraMcenH
@@ -577,8 +577,8 @@ items:
       properties:
         - trait
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: utility
           activation:
             type: action
@@ -641,14 +641,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.VhByyxHJN7MNQJRd
+      compendiumSource: Compendium.degringo5e.monsterfeatures.VhByyxHJN7MNQJRd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 5.1.0
       createdTime: null
       modifiedTime: 1747957384472
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.ZVMVqd01HraMcenH'
   - _id: oSlFzVMu0fdEfYt1
@@ -731,8 +731,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -808,7 +808,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -816,11 +816,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744058885337
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.oSlFzVMu0fdEfYt1'
   - _id: 2bFCfFfjRNmhyE8A
@@ -860,8 +860,8 @@ items:
       properties:
         - mgc
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: save
           activation:
             type: action
@@ -928,8 +928,8 @@ items:
       identifier: charm
     effects:
       - name: Charmed
-        img: systems/dnd5e/icons/svg/statuses/charmed.svg
-        origin: Compendium.dnd5e.monsters.Actor.VmdyZDjqAc8vdncY.Item.2bFCfFfjRNmhyE8A
+        img: systems/degringo5e/icons/svg/statuses/charmed.svg
+        origin: Compendium.degringo5e.monsters.Actor.VmdyZDjqAc8vdncY.Item.2bFCfFfjRNmhyE8A
         transfer: false
         _id: iuVbm8rd6UWg36yg
         type: base
@@ -956,18 +956,18 @@ items:
           - charmed
         sort: 0
         flags:
-          dnd5e:
+          degringo5e:
             riders:
               statuses: []
         _stats:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.3.8
           createdTime: 1744059005231
           modifiedTime: 1744059080198
-          lastModifiedBy: dnd5ebuilder0000
+          lastModifiedBy: degringo5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!VmdyZDjqAc8vdncY.2bFCfFfjRNmhyE8A.iuVbm8rd6UWg36yg
@@ -976,19 +976,19 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.ykoo88OJOdfYH7mH
+      compendiumSource: Compendium.degringo5e.monsterfeatures.ykoo88OJOdfYH7mH
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744059148476
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.2bFCfFfjRNmhyE8A'
   - _id: eb0O9cQ8N6lovLyI
@@ -1026,8 +1026,8 @@ items:
       properties:
         - mgc
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: save
           activation:
             type: action
@@ -1103,19 +1103,19 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.iq0J225DCbHYU2hU
+      compendiumSource: Compendium.degringo5e.monsterfeatures.iq0J225DCbHYU2hU
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744059474380
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.eb0O9cQ8N6lovLyI'
   - _id: s1s5asgUorljP7SV
@@ -1146,8 +1146,8 @@ items:
       properties:
         - mgc
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: utility
           activation:
             type: action
@@ -1210,7 +1210,7 @@ items:
     effects:
       - name: Etherealness
         img: icons/magic/unholy/barrier-shield-glowing-pink.webp
-        origin: Compendium.dnd5e.monsters.Actor.VmdyZDjqAc8vdncY.Item.s1s5asgUorljP7SV
+        origin: Compendium.degringo5e.monsters.Actor.VmdyZDjqAc8vdncY.Item.s1s5asgUorljP7SV
         transfer: true
         _id: 1Bd78CAdilT57jFe
         type: base
@@ -1231,18 +1231,18 @@ items:
           - ethereal
         sort: 0
         flags:
-          dnd5e:
+          degringo5e:
             riders:
               statuses: []
         _stats:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.3.8
           createdTime: 1744059571494
           modifiedTime: 1744059585380
-          lastModifiedBy: dnd5ebuilder0000
+          lastModifiedBy: degringo5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!VmdyZDjqAc8vdncY.s1s5asgUorljP7SV.1Bd78CAdilT57jFe
@@ -1251,19 +1251,19 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.rDoNJnKdY47x8MD4
+      compendiumSource: Compendium.degringo5e.monsterfeatures.rDoNJnKdY47x8MD4
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744059571510
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!VmdyZDjqAc8vdncY.s1s5asgUorljP7SV'
 effects: []
@@ -1275,10 +1275,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726171236478
   modifiedTime: 1744916157149
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!VmdyZDjqAc8vdncY'

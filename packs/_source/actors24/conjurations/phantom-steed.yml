@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplPhantomSte
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplPhantomSte
         caption=false]</p>
       public: ''
     alignment: Unaligned
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -560,8 +560,8 @@ items:
         conditions: ''
       magicalBonus: null
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -638,26 +638,26 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160874
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsumPhantomSte.phbaoiHooves0000'
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425919179
   modifiedTime: 1745256830509
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 1100000
 ownership:

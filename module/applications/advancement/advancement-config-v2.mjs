@@ -6,7 +6,7 @@ import PseudoDocumentSheet from "../api/pseudo-document-sheet.mjs";
  */
 export default class AdvancementConfig extends PseudoDocumentSheet {
   constructor(advancement={}, options={}) {
-    if ( advancement instanceof dnd5e.documents.advancement.Advancement ) {
+    if ( advancement instanceof degringo5e.documents.advancement.Advancement ) {
       options.document = advancement;
       // TODO: Add deprecation warning for this calling pattern once system has switched over to using the sheet
       // getter on Advancement, rather than creating separately
@@ -36,7 +36,7 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/advancement/advancement-controls-section.hbs"
+      template: "systems/degringo5e/templates/advancement/advancement-controls-section.hbs"
     }
   };
 

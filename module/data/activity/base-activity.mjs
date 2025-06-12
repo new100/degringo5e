@@ -184,7 +184,7 @@ export default class BaseActivityData extends foundry.abstract.DataModel {
    * @type {boolean}
    */
   get isScaledScroll() {
-    return !!this.item.getFlag("dnd5e", "spellLevel");
+    return !!this.item.getFlag("degringo5e", "spellLevel");
   }
 
   /* -------------------------------------------- */
@@ -238,7 +238,7 @@ export default class BaseActivityData extends foundry.abstract.DataModel {
    * Static ID used for the automatically generated activity created during migration.
    * @type {string}
    */
-  static INITIAL_ID = staticID("dnd5eactivity");
+  static INITIAL_ID = staticID("degringo5eactivity");
 
   /* -------------------------------------------- */
 
@@ -262,7 +262,7 @@ export default class BaseActivityData extends foundry.abstract.DataModel {
       uses: this.transformUsesData(source, options)
     }, options);
     foundry.utils.setProperty(source, `system.activities.${activityData._id}`, activityData);
-    foundry.utils.setProperty(source, "flags.dnd5e.persistSourceMigration", true);
+    foundry.utils.setProperty(source, "flags.degringo5e.persistSourceMigration", true);
   }
 
   /* -------------------------------------------- */
@@ -425,7 +425,7 @@ export default class BaseActivityData extends foundry.abstract.DataModel {
    */
   static transformEffectsData(source, options) {
     return source.effects
-      .filter(e => !e.transfer && (e.type !== "enchantment") && (e.flags?.dnd5e?.type !== "enchantment"))
+      .filter(e => !e.transfer && (e.type !== "enchantment") && (e.flags?.degringo5e?.type !== "enchantment"))
       .map(e => ({ _id: e._id }));
   }
 
@@ -727,7 +727,7 @@ export default class BaseActivityData extends foundry.abstract.DataModel {
       if ( this.item.system.damageBonus ) parts.push(String(this.item.system.damageBonus));
     }
 
-    const lastType = this.item.getFlag("dnd5e", `last.${this.id}.damageType.${index}`);
+    const lastType = this.item.getFlag("degringo5e", `last.${this.id}.damageType.${index}`);
 
     return {
       data, parts,

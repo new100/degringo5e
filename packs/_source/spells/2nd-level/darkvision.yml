@@ -52,8 +52,8 @@ system:
     - somatic
     - material
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -98,7 +98,7 @@ flags: {}
 img: icons/magic/perception/eye-ringed-glow-angry-small-red.webp
 effects:
   - name: Darkvision
-    origin: Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp
+    origin: Compendium.degringo5e.spells.Item.hJ6ZiA3fpoY8v9cp
     duration:
       startTime: null
       seconds: 28800
@@ -123,7 +123,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -138,10 +138,10 @@ folder: Qi4Se3we69ukl2V9
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037363127
   modifiedTime: 1725992722112
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!hJ6ZiA3fpoY8v9cp'

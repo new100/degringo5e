@@ -30,7 +30,7 @@
                     {{!-- Attuned --}}
                     {{#if source.attunement}}
                     {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
-                                 ariaLabel=(localize "DEGRINGO5E.Attuned") dataset=(dnd5e-object tooltip="DEGRINGO5E.Attuned") }}
+                                 ariaLabel=(localize "DEGRINGO5E.Attuned") dataset=(degringo5e-object tooltip="DEGRINGO5E.Attuned") }}
                     {{/if}}
 
                     {{!-- Attunement --}}
@@ -53,7 +53,7 @@
 <fieldset>
     <legend>{{ localize "DEGRINGO5E.CONSUMABLE.FIELDS.damage.label" }}</legend>
     {{ formField fields.damage.fields.replace value=source.damage.replace input=inputs.createCheckboxInput }}
-    {{> "dnd5e.field-damage" fields=fields.damage.fields.base.fields source=source.damage.base
+    {{> "degringo5e.field-damage" fields=fields.damage.fields.base.fields source=source.damage.base
         types=damageTypes prefix="system.damage.base." }}
 </fieldset>
 {{/if}}

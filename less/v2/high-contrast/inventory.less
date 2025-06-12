@@ -1,11 +1,11 @@
-.dnd5e-flag-high-contrast .dnd5e2,
-.dnd5e2.dnd5e-flag-high-contrast {
+.degringo5e-flag-high-contrast .degringo5e2,
+.degringo5e2.degringo5e-flag-high-contrast {
   .inventory-element {
-    .encumbrance .meter { border-block-end: var(--dnd5e-border-dark); }
-    .middle .attunement { border: var(--dnd5e-border-dark); }
+    .encumbrance .meter { border-block-end: var(--degringo5e-border-dark); }
+    .middle .attunement { border: var(--degringo5e-border-dark); }
   }
   section.currency, .currency-style {
-    input, button { border: var(--dnd5e-border-dark); }
+    input, button { border: var(--degringo5e-border-dark); }
   }
 }
 
@@ -13,18 +13,18 @@
 /*  Light Mode                        */
 /* ---------------------------------- */
 
-.dnd5e-flag-high-contrast:is(.dnd5e-theme-light, .theme-light) .dnd5e2,
-.dnd5e2.dnd5e-flag-high-contrast.dnd5e-theme-light {
+.degringo5e-flag-high-contrast:is(.degringo5e-theme-light, .theme-light) .degringo5e2,
+.degringo5e2.degringo5e-flag-high-contrast.degringo5e-theme-light {
   .inventory-element {
-    .encumbrance .meter { border-color: var(--dnd5e-color-dark); }
+    .encumbrance .meter { border-color: var(--degringo5e-color-dark); }
     .middle .attunement {
-      border-color: var(--dnd5e-color-dark);
-      .fa-sun, .separator { color: var(--dnd5e-color-dark); }
+      border-color: var(--degringo5e-color-dark);
+      .fa-sun, .separator { color: var(--degringo5e-color-dark); }
     }
   }
   .items-section {
     :is(.items-header, .item) .item-name .tags { opacity: .5; }
-    .item-school { --icon-fill: var(--dnd5e-color-black); }
+    .item-school { --icon-fill: var(--degringo5e-color-black); }
     .item-roll .ability { color: var(--color-text-dark-4); }
   }
 }
@@ -33,16 +33,16 @@
 /*  Dark Mode                         */
 /* ---------------------------------- */
 
-.dnd5e-flag-high-contrast:is(.dnd5e-theme-dark, .theme-dark) .dnd5e2,
-.dnd5e2.dnd5e-flag-high-contrast.dnd5e-theme-dark {
+.degringo5e-flag-high-contrast:is(.degringo5e-theme-dark, .theme-dark) .degringo5e2,
+.degringo5e2.degringo5e-flag-high-contrast.degringo5e-theme-dark {
   .inventory-element {
     .middle .attunement {
-      .fa-sun, .separator { color: var(--dnd5e-color-light); }
+      .fa-sun, .separator { color: var(--degringo5e-color-light); }
     }
   }
   .items-section {
     :is(.items-header, .item) .item-name .tags { opacity: 1; }
-    .item-school { --icon-fill: var(--dnd5e-color-blue-white); }
+    .item-school { --icon-fill: var(--degringo5e-color-blue-white); }
     .item-roll .ability { color: var(--color-text-light-4); }
     .item .item-controls .item-control:not(.active) {
       color: var(--color-text-light-6);

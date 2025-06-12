@@ -10,7 +10,7 @@ export default class ContainerSheet extends ItemSheet5e {
   /** @override */
   static DEFAULT_OPTIONS = {
     elements: {
-      inventory: "dnd5e-inventory"
+      inventory: "degringo5e-inventory"
     }
   };
 
@@ -20,9 +20,9 @@ export default class ContainerSheet extends ItemSheet5e {
   static PARTS = {
     ...super.PARTS,
     contents: {
-      template: "systems/dnd5e/templates/items/contents.hbs",
+      template: "systems/degringo5e/templates/items/contents.hbs",
       templates: [
-        "systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/encumbrance.hbs"
+        "systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/encumbrance.hbs"
       ],
       scrollable: [""]
     }
@@ -169,7 +169,7 @@ export default class ContainerSheet extends ItemSheet5e {
     const data = foundry.applications.ux.TextEditor.implementation.getDragEventData(event);
     if ( !["Item", "Folder"].includes(data.type) ) return super._onDrop(event, data);
 
-    if ( Hooks.call("dnd5e.dropItemSheetData", this.item, this, data) === false ) return;
+    if ( Hooks.call("degringo5e.dropItemSheetData", this.item, this, data) === false ) return;
 
     if ( data.type === "Folder" ) return this._onDropFolder(event, data);
     return this._onDropItem(event, data);
@@ -385,14 +385,14 @@ export default class ContainerSheet extends ItemSheet5e {
 
     /**
      * A hook event that fires when a sheet filters an item.
-     * @function dnd5e.filterItem
+     * @function degringo5e.filterItem
      * @memberof hookEvents
      * @param {BaseActorSheet|ContainerSheet} sheet     The sheet the item is being rendered on.
      * @param {Item5e} item                             The item being filtered.
      * @param {Set<string>} filters                     Filters applied to the Item.
      * @returns {false|void} Return false to hide the item, otherwise other filters will continue to apply.
      */
-    if ( Hooks.call("dnd5e.filterItem", this, item, filters) === false ) return false;
+    if ( Hooks.call("degringo5e.filterItem", this, item, filters) === false ) return false;
   }
 
   /* -------------------------------------------- */

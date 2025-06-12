@@ -111,7 +111,7 @@ export default class ContainerData extends ItemDataModel.mixin(
    */
   static _migrateWeightlessData(source) {
     if ( foundry.utils.getProperty(source, "system.capacity.weightless") === true ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.migratedProperties", ["weightlessContents"]);
+      foundry.utils.setProperty(source, "flags.degringo5e.migratedProperties", ["weightlessContents"]);
     }
   }
 
@@ -181,7 +181,7 @@ export default class ContainerData extends ItemDataModel.mixin(
       { label: game.i18n.localize(CONFIG.Item.typeLabels.container) },
       ...this.physicalItemSheetFields
     ];
-    context.parts = ["dnd5e.details-container"];
+    context.parts = ["degringo5e.details-container"];
   }
 
   /* -------------------------------------------- */

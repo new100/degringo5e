@@ -6,7 +6,7 @@ type: feat
 system:
   description:
     value: >-
-      <p>You can cast @UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{False
+      <p>You can cast @UUID[Compendium.degringo5e.spells.Item.7e3QXF10hLNDEdr6]{False
       Life} on yourself at will as a 1st-level spell, without expending a spell
       slot or material components.</p>
     chat: ''
@@ -26,8 +26,8 @@ system:
   requirements: Warlock 2
   properties: []
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: heal
       activation:
         type: action
@@ -98,10 +98,10 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037387177
   modifiedTime: 1725992289404
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!id0gmGvzNZBEdzbx'

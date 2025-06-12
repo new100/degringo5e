@@ -195,7 +195,7 @@ export default class CreatureTemplate extends CommonTemplate {
    *                                             If undefined, `this.getRollData()` is used.
    * @param {object} [options.originalSkills]    Original skills if actor is polymorphed.
    *                                             If undefined, the skills of the actor identified by
-   *                                             `this.flags.dnd5e.originalActor` are used.
+   *                                             `this.flags.degringo5e.originalActor` are used.
    * @param {object} [options.globalBonuses]     Global ability bonuses for this actor.
    *                                             If undefined, `this.system.bonuses.abilities` is used.
    * @param {number} [options.globalCheckBonus]  Global check bonus for this actor.
@@ -210,7 +210,7 @@ export default class CreatureTemplate extends CommonTemplate {
     skillData, rollData, originalSkills, globalBonuses,
     globalCheckBonus, globalSkillBonus, ability
   }={}) {
-    const flags = this.parent.flags.dnd5e ?? {};
+    const flags = this.parent.flags.degringo5e ?? {};
 
     skillData ??= foundry.utils.deepClone(this.skills[skillId]);
     rollData ??= this.parent.getRollData();

@@ -650,7 +650,7 @@ items:
     img: icons/magic/fire/barrier-wall-flame-ring-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -658,11 +658,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFireAura000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726394
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -814,7 +814,7 @@ items:
     img: icons/magic/fire/projectile-arrow-fire-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -822,11 +822,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFlameSpear0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726394
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -905,7 +905,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -913,11 +913,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726394
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1088,7 +1088,7 @@ items:
     img: icons/magic/nature/root-vine-entangled-hands.webp
     effects:
       - name: Grappled and Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmConstrict00000
         transfer: false
         _id: Hd0Gy3wJtPfObERq
@@ -1118,7 +1118,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1127,7 +1127,7 @@ items:
         _key: >-
           !actors.items.effects!mmSalamander0000.mmConstrict00000.Hd0Gy3wJtPfObERq
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1135,11 +1135,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmConstrict00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726394
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1151,11 +1151,11 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712726421
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

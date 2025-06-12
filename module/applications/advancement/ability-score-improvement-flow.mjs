@@ -23,7 +23,7 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static _customElements = super._customElements.concat(["dnd5e-checkbox"]);
+  static _customElements = super._customElements.concat(["degringo5e-checkbox"]);
 
   /* -------------------------------------------- */
 
@@ -31,7 +31,7 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       dragDrop: [{ dropSelector: "form" }],
-      template: "systems/dnd5e/templates/advancement/ability-score-improvement-flow.hbs"
+      template: "systems/degringo5e/templates/advancement/ability-score-improvement-flow.hbs"
     });
   }
 
@@ -87,7 +87,7 @@ export default class AbilityScoreImprovementFlow extends AdvancementFlow {
       return obj;
     }, {});
 
-    const modernRules = game.settings.get("dnd5e", "rulesVersion") === "modern";
+    const modernRules = game.settings.get("degringo5e", "rulesVersion") === "modern";
     const pluralRules = new Intl.PluralRules(game.i18n.lang);
     return foundry.utils.mergeObject(super.getData(), {
       abilities, lockImprovement, points,

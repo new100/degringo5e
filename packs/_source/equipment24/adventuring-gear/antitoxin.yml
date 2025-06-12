@@ -114,7 +114,7 @@ img: icons/consumables/potions/bottle-round-corked-pink.webp
 effects:
   - name: Antitoxin
     img: icons/consumables/potions/bottle-round-corked-pink.webp
-    origin: Compendium.dnd5e.equipment24.Item.phbagAntitoxin00
+    origin: Compendium.degringo5e.equipment24.Item.phbagAntitoxin00
     transfer: false
     _id: DzWVacNiq6ggXbU9
     type: base
@@ -138,28 +138,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725846653216
       modifiedTime: 1725846664457
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbagAntitoxin00.DzWVacNiq6ggXbU9'
 sort: 7200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425905028
   modifiedTime: 1745256810801
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbagAntitoxin00'

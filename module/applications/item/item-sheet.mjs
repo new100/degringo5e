@@ -35,7 +35,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     classes: ["item"],
     editingDescriptionTarget: null,
     elements: {
-      effects: "dnd5e-effects"
+      effects: "degringo5e-effects"
     },
     form: {
       submitOnChange: true
@@ -53,30 +53,30 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
   /** @override */
   static PARTS = {
     header: {
-      template: "systems/dnd5e/templates/items/header.hbs"
+      template: "systems/degringo5e/templates/items/header.hbs"
     },
     tabs: {
-      template: "systems/dnd5e/templates/items/tabs.hbs",
+      template: "systems/degringo5e/templates/items/tabs.hbs",
       templates: ["templates/generic/tab-navigation.hbs"]
     },
     activities: {
-      template: "systems/dnd5e/templates/items/activities.hbs",
+      template: "systems/degringo5e/templates/items/activities.hbs",
       scrollable: [""]
     },
     advancement: {
-      template: "systems/dnd5e/templates/items/advancement.hbs",
+      template: "systems/degringo5e/templates/items/advancement.hbs",
       scrollable: [""]
     },
     description: {
-      template: "systems/dnd5e/templates/items/description.hbs",
+      template: "systems/degringo5e/templates/items/description.hbs",
       scrollable: [""]
     },
     details: {
-      template: "systems/dnd5e/templates/items/details.hbs",
+      template: "systems/degringo5e/templates/items/details.hbs",
       scrollable: [""]
     },
     effects: {
-      template: "systems/dnd5e/templates/items/effects.hbs",
+      template: "systems/degringo5e/templates/items/effects.hbs",
       scrollable: [""]
     }
   };
@@ -320,7 +320,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
 
     // If using modern rules, do not show redundant artificer progression unless it is already selected.
     context.spellProgression = { ...CONFIG.DEGRINGO5E.spellProgression };
-    if ( (game.settings.get("dnd5e", "rulesVersion") === "modern")
+    if ( (game.settings.get("degringo5e", "rulesVersion") === "modern")
       && (this.item.system.spellcasting?.progression !== "artificer") ) delete context.spellProgression.artificer;
     context.spellProgression = Object.entries(context.spellProgression).map(([value, label]) => ({ value, label }));
 
@@ -477,12 +477,12 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     if ( advancement.classRestriction === "primary" ) {
       tags.push({
         label: "DEGRINGO5E.AdvancementClassRestrictionPrimary",
-        icon: "systems/dnd5e/icons/svg/original-class.svg"
+        icon: "systems/degringo5e/icons/svg/original-class.svg"
       });
     } else if ( advancement.classRestriction === "secondary" ) {
       tags.push({
         label: "DEGRINGO5E.AdvancementClassRestrictionSecondary",
-        icon: "systems/dnd5e/icons/svg/multiclass.svg"
+        icon: "systems/degringo5e/icons/svg/multiclass.svg"
       });
     }
     return tags;
@@ -556,10 +556,10 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     await super._onRender(context, options);
 
     new ContextMenu5e(this.element, ".advancement-item[data-id]", [], {
-      onOpen: target => dnd5e.documents.advancement.Advancement.onContextMenu(this.item, target), jQuery: false
+      onOpen: target => degringo5e.documents.advancement.Advancement.onContextMenu(this.item, target), jQuery: false
     });
     new ContextMenu5e(this.element, ".activity[data-activity-id]", [], {
-      onOpen: target => dnd5e.documents.activity.UtilityActivity.onContextMenu(this.item, target), jQuery: false
+      onOpen: target => degringo5e.documents.activity.UtilityActivity.onContextMenu(this.item, target), jQuery: false
     });
 
     new CONFIG.ux.DragDrop({
@@ -609,7 +609,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
   /** @override */
   _addDocument() {
     if ( this.tabGroups.primary === "activities" ) {
-      return dnd5e.documents.activity.UtilityActivity.createDialog({}, {
+      return degringo5e.documents.activity.UtilityActivity.createDialog({}, {
         parent: this.item,
         types: Object.entries(CONFIG.DEGRINGO5E.activityTypes).filter(([, { configurable }]) => {
           return configurable !== false;
@@ -618,7 +618,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     }
 
     if ( this.tabGroups.primary === "advancement" ) {
-      return dnd5e.documents.advancement.Advancement.createDialog({}, { parent: this.item });
+      return degringo5e.documents.advancement.Advancement.createDialog({}, { parent: this.item });
     }
 
     if ( this.tabGroups.primary === "effects" ) {
@@ -848,14 +848,14 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
 
     /**
      * A hook event that fires when some useful data is dropped onto an ItemSheet5e.
-     * @function dnd5e.dropItemSheetData
+     * @function degringo5e.dropItemSheetData
      * @memberof hookEvents
      * @param {Item5e} item                  The Item5e.
      * @param {ItemSheet5e} sheet            The ItemSheet5e application.
      * @param {object} data                  The data that has been dropped onto the sheet.
      * @returns {boolean}                    Explicitly return `false` to prevent normal drop handling.
      */
-    const allowed = Hooks.call("dnd5e.dropItemSheetData", item, this, data);
+    const allowed = Hooks.call("degringo5e.dropItemSheetData", item, this, data);
     if ( allowed === false ) return;
     event.stopPropagation();
 
@@ -891,7 +891,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     if ( effect.type === "enchantment" ) {
       effectData.origin ??= effect.parent.uuid;
       options.keepOrigin = true;
-      options.dnd5e = {
+      options.degringo5e = {
         enchantmentProfile: effect.id,
         activityId: data.activityId ?? effect.parent?.system.activities?.getByType("enchant").find(a =>
           a.effects.some(e => e._id === effect.id)
@@ -976,7 +976,7 @@ export default class ItemSheet5e extends PrimarySheetMixin(DocumentSheet5e) {
     }
 
     if ( !advancements.length ) return false;
-    if ( this.item.actor?.system.metadata?.supportsAdvancement && !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( this.item.actor?.system.metadata?.supportsAdvancement && !game.settings.get("degringo5e", "disableAdvancements") ) {
       const manager = AdvancementManager.forNewAdvancement(this.item.actor, this.item.id, advancements);
       if ( manager.steps.length ) return manager.render(true);
     }

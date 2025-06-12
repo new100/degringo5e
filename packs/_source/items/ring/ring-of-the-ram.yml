@@ -65,8 +65,8 @@ system:
   properties:
     - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: attack
       activation:
         type: action
@@ -149,8 +149,8 @@ system:
       name: ''
       img: ''
       appliedEffects: []
-    dnd5eactivity300:
-      _id: dnd5eactivity300
+    degringo5eactivity300:
+      _id: degringo5eactivity300
       type: utility
       activation:
         type: action
@@ -220,17 +220,17 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037296791
   modifiedTime: 1731017453958
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!qw05Om9XWqTMoio2'

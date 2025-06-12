@@ -59,8 +59,8 @@ system:
     - material
     - concentration
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -109,7 +109,7 @@ flags: {}
 img: icons/magic/control/fear-fright-monster-purple-blue.webp
 effects:
   - name: Fear
-    origin: Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0
+    origin: Compendium.degringo5e.spells.Item.XXUDGFELgoskdOD0
     duration:
       startTime: null
       seconds: 60
@@ -135,7 +135,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -150,10 +150,10 @@ folder: 5Si35RRLLaaoWvC3
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037358436
   modifiedTime: 1725992720569
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!XXUDGFELgoskdOD0'

@@ -39,7 +39,7 @@
                     {{!-- Attuned --}}
                     {{#if source.attunement}}
                     {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
-                                 ariaLabel=(localize "DEGRINGO5E.Attuned") dataset=(dnd5e-object tooltip="DEGRINGO5E.Attuned") }}
+                                 ariaLabel=(localize "DEGRINGO5E.Attuned") dataset=(degringo5e-object tooltip="DEGRINGO5E.Attuned") }}
                     {{/if}}
 
                     {{!-- Attunement --}}
@@ -115,7 +115,7 @@
 </fieldset>
 
 {{#if system.isMountable}}
-    {{> "dnd5e.details-mountable" }}
+    {{> "degringo5e.details-mountable" }}
 {{/if}}
 
 <fieldset>
@@ -123,14 +123,14 @@
     <div class="form-fields">
         <p class="hint">{{ localize "DEGRINGO5E.WEAPON.FIELDS.damage.hint" }}</p>
     </div>
-    {{> "dnd5e.field-damage" fields=fields.damage.fields.base.fields source=source.damage.base types=damageTypes
+    {{> "degringo5e.field-damage" fields=fields.damage.fields.base.fields source=source.damage.base types=damageTypes
         prefix="system.damage.base." denominationOptions=denominationOptions.base }}
 </fieldset>
 
 {{#if properties.object.ver}}
 <fieldset>
     <legend>{{ localize "DEGRINGO5E.Versatile" }}</legend>
-    {{> "dnd5e.field-damage" fields=fields.damage.fields.versatile.fields source=source.damage.versatile
+    {{> "degringo5e.field-damage" fields=fields.damage.fields.versatile.fields source=source.damage.versatile
         prefix="system.damage.versatile." bonus=false numberPlaceholder=source.damage.base.number
         denominationOptions=denominationOptions.versatile }}
 </fieldset>

@@ -2,12 +2,12 @@
 /*  Basic Structure                   */
 /* ---------------------------------- */
 
-.dnd5e2.sheet.actor.npc {
-  --dnd5e-sheet-header-height: 68px;
-  --dnd5e-sheet-sidebar-width: 180px;
+.degringo5e2.sheet.actor.npc {
+  --degringo5e-sheet-header-height: 68px;
+  --degringo5e-sheet-sidebar-width: 180px;
 
   background: url("ui/texture1.webp") no-repeat top center / auto 770px,
-    var(--dnd5e-color-parchment) url("ui/texture2.webp") no-repeat bottom center / auto 704px;
+    var(--degringo5e-color-parchment) url("ui/texture2.webp") no-repeat bottom center / auto 704px;
 
   &.minimized {
     box-shadow: 0 0 20px var(--color-shadow-dark);
@@ -25,12 +25,12 @@
   /*  Outer Window                      */
   /* ---------------------------------- */
 
-  > header slide-toggle { --slide-toggle-track-color-unchecked: var(--dnd5e-background-25); }
+  > header slide-toggle { --slide-toggle-track-color-unchecked: var(--degringo5e-background-25); }
 
   .window-header .header-elements {
     flex: none;
     color: var(--color-text-dark-primary);
-    font-family: var(--dnd5e-font-roboto-condensed);
+    font-family: var(--degringo5e-font-roboto-condensed);
     display: flex;
     align-items: center;
     line-height: 1;
@@ -76,20 +76,20 @@
     align-items: stretch;
     z-index: 1;
 
-    > .left { flex: 0 0 var(--dnd5e-sheet-sidebar-width); }
+    > .left { flex: 0 0 var(--degringo5e-sheet-sidebar-width); }
 
-    input { background: var(--dnd5e-background-5); }
+    input { background: var(--degringo5e-background-5); }
 
     /* Portrait */
     .portrait {
       position: relative;
 
       > img {
-        width: var(--dnd5e-sheet-sidebar-width);
-        height: var(--dnd5e-sheet-sidebar-width);
+        width: var(--degringo5e-sheet-sidebar-width);
+        height: var(--degringo5e-sheet-sidebar-width);
         border-radius: 100%;
-        border: 4px solid var(--dnd5e-color-gold);
-        box-shadow: 0 0 6px var(--dnd5e-color-black);
+        border: 4px solid var(--degringo5e-color-gold);
+        box-shadow: 0 0 6px var(--degringo5e-color-black);
         overflow: hidden;
         object-fit: cover;
         object-position: top;
@@ -113,17 +113,17 @@
       .initiative {
         width: 44px;
         height: 44px;
-        background: var(--dnd5e-color-gold) url("../../icons/svg/d20-black.svg") center / contain;
+        background: var(--degringo5e-color-gold) url("../../icons/svg/d20-black.svg") center / contain;
         display: grid;
         place-content: center;
         font-weight: bold;
-        font-family: var(--dnd5e-font-roboto);
+        font-family: var(--degringo5e-font-roboto);
         font-size: var(--font-size-18);
-        text-shadow: 0 0 4px var(--dnd5e-color-gold);
+        text-shadow: 0 0 4px var(--degringo5e-color-gold);
         cursor: var(--cursor-pointer);
         border-radius: 100%;
         color: var(--color-text-light-0);
-        border: 2px solid var(--dnd5e-color-gold);
+        border: 2px solid var(--degringo5e-color-gold);
         clip-path: polygon(48.5% 0, 91% 25%, 92% 75%, 49% 100%, 6% 75%, 7% 25%);
 
         .config-button {
@@ -138,8 +138,8 @@
         height: var(--size);
         position: absolute;
         inset: auto auto calc((var(--size) / 3) * -1) calc(50% - var(--size) / 2);
-        background: var(--dnd5e-color-gold);
-        color: var(--dnd5e-color-black);
+        background: var(--degringo5e-color-gold);
+        color: var(--degringo5e-color-black);
         font-weight: bold;
         display: grid;
         place-content: center;
@@ -161,7 +161,7 @@
           width: 42px;
           height: 48px;
           clip-path: polygon(0 0, 38px 0, 38px 100%, 0 100%);
-          --icon-fill: var(--dnd5e-color-gold);
+          --icon-fill: var(--degringo5e-color-gold);
           --icon-size: 42px;
 
           &:hover {
@@ -172,7 +172,7 @@
         }
 
         .results {
-          background: var(--dnd5e-color-black);
+          background: var(--degringo5e-color-black);
           position: relative;
           border-radius: 0 4px 4px 0;
           display: flex;
@@ -196,10 +196,10 @@
 
           .success {
             color: #009b01;
-            input { border-right: 1px dashed var(--dnd5e-color-gold); }
+            input { border-right: 1px dashed var(--degringo5e-color-gold); }
           }
 
-          .failure { color: var(--dnd5e-color-red); }
+          .failure { color: var(--degringo5e-color-red); }
 
           > div {
             display: flex;
@@ -213,7 +213,7 @@
               font-size: var(--size);
               top: calc(100% - var(--size) / 2);
               left: calc(50% - var(--size) / 2);
-              background: var(--dnd5e-color-black);
+              background: var(--degringo5e-color-black);
               border-radius: 100%;
             }
           }
@@ -222,7 +222,7 @@
             content: "";
             position: absolute;
             inset: 2px;
-            border: 1px solid var(--dnd5e-color-gold);
+            border: 1px solid var(--degringo5e-color-gold);
             border-radius: 3px;
             pointer-events: none;
           }
@@ -300,7 +300,7 @@
     /* Name */
     .document-name {
       font-size: var(--font-size-28);
-      font-family: var(--dnd5e-font-modesto);
+      font-family: var(--degringo5e-font-modesto);
       font-weight: bold;
     }
 
@@ -308,7 +308,7 @@
     .labels {
       display: flex;
       gap: 4px;
-      font-family: var(--dnd5e-font-roboto-condensed);
+      font-family: var(--degringo5e-font-roboto-condensed);
 
       li + li::before { content: "•"; }
       li:has(> span:empty) { display: none; }
@@ -326,7 +326,7 @@
     .proficiency {
       text-align: right;
       .sign { color: var(--color-text-light-6); }
-      > span { font-family: var(--dnd5e-font-roboto-condensed); }
+      > span { font-family: var(--degringo5e-font-roboto-condensed); }
     }
 
     /* Resting & Special Traits */
@@ -340,7 +340,7 @@
     .ability-scores {
       display: flex;
       padding: 10px 0;
-      font-family: var(--dnd5e-font-roboto);
+      font-family: var(--degringo5e-font-roboto);
       position: relative;
       box-shadow: none;
 
@@ -350,7 +350,7 @@
         inset: 0 0 0 0;
         pointer-events: none;
         border-radius: 4px;
-        box-shadow: 0 0 6px var(--dnd5e-shadow-45);
+        box-shadow: 0 0 6px var(--degringo5e-shadow-45);
       }
 
       .ability-score {
@@ -380,13 +380,13 @@
       .label {
         text-transform: uppercase;
         font-size: var(--font-size-11);
-        color: var(--dnd5e-color-gold);
+        color: var(--degringo5e-color-gold);
         font-weight: bold;
       }
 
       .mod {
         font-weight: bold;
-        color: var(--dnd5e-color-black);
+        color: var(--degringo5e-color-black);
         font-size: var(--font-size-16);
         padding: 3px 0;
       }
@@ -402,14 +402,14 @@
         top: calc(100% + 10px);
         margin: auto;
         width: 80%;
-        background: var(--dnd5e-background-card);
+        background: var(--degringo5e-background-card);
         border-radius: 0 0 3px 3px;
-        border: var(--dnd5e-border-gold);
+        border: var(--degringo5e-border-gold);
         padding: 4px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        box-shadow: 0 0 4px var(--dnd5e-shadow-45);
+        box-shadow: 0 0 4px var(--degringo5e-shadow-45);
         clip-path: polygon(-5% 0, 105% 0, 105% 105%, -5% 105%);
         font-weight: bold;
 
@@ -444,7 +444,7 @@
 
         > input, > span.value {
           font-weight: bold;
-          font-family: var(--dnd5e-font-roboto-slab);
+          font-family: var(--degringo5e-font-roboto-slab);
           font-size: var(--font-size-16);
           text-align: center;
         }
@@ -469,12 +469,12 @@
 
         &:hover, &:focus {
           box-shadow: none;
-          filter: grayscale(1) drop-shadow(0 0 6px var(--dnd5e-color-gold));
+          filter: grayscale(1) drop-shadow(0 0 6px var(--degringo5e-color-gold));
         }
 
         &.filled {
           filter: none;
-          &:is(:hover, :focus) { filter: drop-shadow(0 0 6px var(--dnd5e-color-gold)); }
+          &:is(:hover, :focus) { filter: drop-shadow(0 0 6px var(--degringo5e-color-gold)); }
         }
       }
 
@@ -549,10 +549,10 @@
         }
 
         &.split > div {
-          &.temp input { color: var(--dnd5e-color-blue); }
-          &.tempmax input { color: var(--dnd5e-color-purple); }
+          &.temp input { color: var(--degringo5e-color-blue); }
+          &.tempmax input { color: var(--degringo5e-color-purple); }
           input::placeholder { text-transform: uppercase; }
-          &:last-child { border-inline-start: 1px dashed var(--dnd5e-color-gold); }
+          &:last-child { border-inline-start: 1px dashed var(--degringo5e-color-gold); }
         }
       }
 
@@ -571,12 +571,12 @@
     position: relative;
     overflow: hidden auto;
     scrollbar-gutter: stable;
-    scrollbar-color: var(--dnd5e-color-gold) transparent;
+    scrollbar-color: var(--degringo5e-color-gold) transparent;
     mask-image: linear-gradient(to bottom, transparent, black 8px);
 
     .main-content {
       --sidebar-padding: 8px;
-      --sidebar-size: calc(var(--dnd5e-sheet-sidebar-width) + var(--sidebar-padding));
+      --sidebar-size: calc(var(--degringo5e-sheet-sidebar-width) + var(--sidebar-padding));
       padding: 0 0 0 var(--sidebar-padding);
       display: flex;
       position: absolute;
@@ -589,19 +589,19 @@
         inset: 0 auto 0 var(--sidebar-size);
         width: 16px;
         padding: 0;
-        color: var(--dnd5e-color-gold);
+        color: var(--degringo5e-color-gold);
         transition: left 450ms ease;
 
         &:hover, &:focus-visible {
           box-shadow: none;
-          background: var(--dnd5e-background-5);
+          background: var(--degringo5e-background-5);
         }
       }
 
       /* Sidebar */
       .sidebar {
         padding-top: 12px;
-        flex: 0 0 var(--dnd5e-sheet-sidebar-width);
+        flex: 0 0 var(--degringo5e-sheet-sidebar-width);
         display: flex;
         flex-direction: column;
         gap: 12px;
@@ -662,9 +662,9 @@
 
           .encumbrance {
             block-size: 28px;
-            border: var(--dnd5e-border-gold);
+            border: var(--degringo5e-border-gold);
             border-radius: 3px;
-            box-shadow: 0 0 6px var(--dnd5e-shadow-45);
+            box-shadow: 0 0 6px var(--degringo5e-shadow-45);
             flex: 1;
           }
 
@@ -683,18 +683,18 @@
       /* Spells */
       .spellcasting.card {
         input {
-          background: var(--dnd5e-background-5);
+          background: var(--degringo5e-background-5);
           border: 1px solid transparent;
           transition: all 250ms ease;
           text-align: center;
           font-weight: bold;
-          font-family: var(--dnd5e-font-roboto-slab);
+          font-family: var(--degringo5e-font-roboto-slab);
           font-size: var(--font-size-16);
           height: 22px;
 
           &:hover, &:focus {
-            border: 1px solid var(--dnd5e-color-gold);
-            box-shadow: 0 0 6px var(--dnd5e-color-gold);
+            border: 1px solid var(--degringo5e-color-gold);
+            box-shadow: 0 0 6px var(--degringo5e-color-gold);
           }
         }
 
@@ -713,8 +713,8 @@
         }
 
         .spellcasting-ability {
-          color: var(--dnd5e-color-gold);
-          text-shadow: 0 0 6px var(--dnd5e-shadow-45);
+          color: var(--degringo5e-color-gold);
+          text-shadow: 0 0 6px var(--degringo5e-shadow-45);
         }
       }
 
@@ -779,7 +779,7 @@
         li.creature-size {
           display: grid;
           select {
-            background: var(--dnd5e-background-5);
+            background: var(--degringo5e-background-5);
             &:hover { cursor: var(--cursor-pointer); }
           }
         }
@@ -793,12 +793,12 @@
           border-radius: 3px;
           border: 1px solid transparent;
           transition: all 250ms ease;
-          background: var(--dnd5e-background-5);
+          background: var(--degringo5e-background-5);
           padding: 0 4px;
 
           &:hover {
-            border-color: var(--dnd5e-color-gold);
-            box-shadow: 0 0 6px var(--dnd5e-color-gold);
+            border-color: var(--degringo5e-color-gold);
+            box-shadow: 0 0 6px var(--degringo5e-color-gold);
             text-shadow: none;
           }
         }
@@ -810,7 +810,7 @@
         }
 
         label.slide-toggle {
-          font-family: var(--dnd5e-font-roboto-condensed);
+          font-family: var(--degringo5e-font-roboto-condensed);
           height: var(--form-field-height);
           margin-bottom: 8px;
         }

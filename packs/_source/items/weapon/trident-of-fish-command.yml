@@ -9,7 +9,7 @@ system:
 
       <p>This trident is a magic weapon. It has 3 charges. While you carry it,
       you can use an action and expend 1 charge to cast
-      @UUID[Compendium.dnd5e.spells.Item.LrPvWHBPmiMQQsKB]{Dominate Beast} (save
+      @UUID[Compendium.degringo5e.spells.Item.LrPvWHBPmiMQQsKB]{Dominate Beast} (save
       DC 15) from it on a beast that has an innate swimming speed. The trident
       regains 1d3 expended charges daily at dawn.</p>
     chat: ''
@@ -90,8 +90,8 @@ system:
   crewed: false
   magicalBonus: null
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: attack
       activation:
         type: action
@@ -161,7 +161,7 @@ system:
     jkhhrMO1QkMunxL3:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.LrPvWHBPmiMQQsKB
+        uuid: Compendium.degringo5e.spells.Item.LrPvWHBPmiMQQsKB
         challenge:
           attack: null
           save: 15
@@ -219,17 +219,17 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.3.0
   createdTime: 1725037285209
   modifiedTime: 1738530163351
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!o4Irx3hHiD3FnPbL'

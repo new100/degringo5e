@@ -22,7 +22,7 @@ export default class TransformActivity extends ActivityMixin(TransformActivityDa
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "transform",
-      img: "systems/dnd5e/icons/svg/activity/transform.svg",
+      img: "systems/degringo5e/icons/svg/activity/transform.svg",
       title: "DEGRINGO5E.TRANSFORM.Title",
       sheetClass: TransformSheet,
       usage: {
@@ -43,7 +43,7 @@ export default class TransformActivity extends ActivityMixin(TransformActivityDa
    * @type {boolean}
    */
   get canTransform() {
-    return game.user.can("ACTOR_CREATE") && (game.user.isGM || game.settings.get("dnd5e", "allowPolymorphing"));
+    return game.user.can("ACTOR_CREATE") && (game.user.isGM || game.settings.get("degringo5e", "allowPolymorphing"));
   }
 
   /* -------------------------------------------- */
@@ -84,7 +84,7 @@ export default class TransformActivity extends ActivityMixin(TransformActivityDa
   async _finalizeMessageConfig(usageConfig, messageConfig, results) {
     await super._finalizeMessageConfig(usageConfig, messageConfig, results);
     if ( usageConfig.transform?.profile ) {
-      foundry.utils.setProperty(messageConfig.data, "flags.dnd5e.transform.profile", usageConfig.transform.profile);
+      foundry.utils.setProperty(messageConfig.data, "flags.degringo5e.transform.profile", usageConfig.transform.profile);
     }
   }
 
@@ -118,8 +118,8 @@ export default class TransformActivity extends ActivityMixin(TransformActivityDa
     if ( profile ) {
       const uuid = await this.queryActor(profile);
       if ( uuid ) {
-        if ( results.message instanceof ChatMessage ) results.message.setFlag("dnd5e", "transform.uuid", uuid);
-        else foundry.utils.setProperty(results.message, "flags.dnd5e.transform.uuid", uuid);
+        if ( results.message instanceof ChatMessage ) results.message.setFlag("degringo5e", "transform.uuid", uuid);
+        else foundry.utils.setProperty(results.message, "flags.degringo5e.transform.uuid", uuid);
       }
     }
     await super._finalizeUsage(config, results);
@@ -169,9 +169,9 @@ export default class TransformActivity extends ActivityMixin(TransformActivityDa
       return;
     }
 
-    const profileId = message.getFlag("dnd5e", "transform.profile");
+    const profileId = message.getFlag("degringo5e", "transform.profile");
     const profile = this.profiles.find(p => p._id === profileId) || this.profiles[0];
-    const uuid = message.getFlag("dnd5e", "transform.uuid") ?? await this.queryActor(profile);
+    const uuid = message.getFlag("degringo5e", "transform.uuid") ?? await this.queryActor(profile);
     const source = await fromUuid(uuid);
     if ( !source ) {
       ui.notifications.warn("DEGRINGO5E.TRANSFORM.Warning.SourceActor", { localize: true });

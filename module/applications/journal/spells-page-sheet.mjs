@@ -35,7 +35,7 @@ export default class JournalSpellListPageSheet extends foundry.appv1.sheets.Jour
    * @type {Record<string, string>}
    */
   static get GROUPING_MODES() {
-    return dnd5e.dataModels.journal.SpellListJournalPageData.GROUPING_MODES;
+    return degringo5e.dataModels.journal.SpellListJournalPageData.GROUPING_MODES;
   }
 
   /* -------------------------------------------- */
@@ -50,8 +50,8 @@ export default class JournalSpellListPageSheet extends foundry.appv1.sheets.Jour
 
   /** @inheritDoc */
   get template() {
-    if ( this.options.displayAsTable ) return "systems/dnd5e/templates/journal/page-spell-list-table.hbs";
-    return `systems/dnd5e/templates/journal/page-spell-list-${this.isEditable ? "edit" : "view"}.hbs`;
+    if ( this.options.displayAsTable ) return "systems/degringo5e/templates/journal/page-spell-list-table.hbs";
+    return `systems/degringo5e/templates/journal/page-spell-list-${this.isEditable ? "edit" : "view"}.hbs`;
   }
 
   /* -------------------------------------------- */

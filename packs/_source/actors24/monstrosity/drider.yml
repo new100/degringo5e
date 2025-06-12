@@ -591,11 +591,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpiderClimb000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -642,11 +642,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSunlightSensit
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -694,11 +694,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWebWalker00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -757,7 +757,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -791,7 +791,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -799,11 +799,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -941,7 +941,7 @@ items:
     img: icons/creatures/claws/claw-curved-poison-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -949,11 +949,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmForeleg0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1091,7 +1091,7 @@ items:
     img: icons/magic/acid/projectile-faceted-glob.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1099,11 +1099,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPoisonBurst000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1166,7 +1166,7 @@ items:
               - material
               - somatic
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDarkness00
             ability: wis
           name: ''
         8Zw5hRXyd8axv5Zs:
@@ -1218,7 +1218,7 @@ items:
               - material
               - somatic
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
             ability: wis
           name: ''
         B8OHv2CaawtJoMu7:
@@ -1270,7 +1270,7 @@ items:
               - material
               - somatic
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplWeb0000000
             ability: wis
           name: ''
       uses:
@@ -1283,10 +1283,10 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFaerieFire]{Faerie
           Fire}</em>, or
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web}</em>,
           requiring no Material components and using Wisdom as the spellcasting
           ability (spell save DC [[lookup @attributes.spell.dc]]).</p>
         chat: ''
@@ -1309,7 +1309,7 @@ items:
     img: icons/magic/light/hand-sparks-glow-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1317,11 +1317,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicOfTheSpid
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1385,8 +1385,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: utility
           activation:
             type: action
@@ -1428,12 +1428,12 @@ items:
     type: spell
     img: icons/magic/unholy/orb-rays-blue.webp
     effects:
-      - _id: dnd5espellchange
+      - _id: degringo5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.ErB1BoIjo8Wj9KXS
+          Compendium.degringo5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.ErB1BoIjo8Wj9KXS
         changes:
           - key: system.activation
             mode: 5
@@ -1475,30 +1475,30 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmDrider00000000.OMFNXlIWcvgZPTwl.dnd5espellchange
+          !actors.items.effects!mmDrider00000000.OMFNXlIWcvgZPTwl.degringo5espellchange
     folder: 3SjcO2acsFnWegp4
     sort: 4200000
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmMagicOfTheSpid.Activity.ErB1BoIjo8Wj9KXS
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDarkness00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _id: OMFNXlIWcvgZPTwl
     _key: '!actors.items!mmDrider00000000.OMFNXlIWcvgZPTwl'
@@ -1556,8 +1556,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: save
           activation:
             type: action
@@ -1606,7 +1606,7 @@ items:
     img: icons/magic/fire/projectile-meteor-salvo-strong-pink.webp
     effects:
       - name: Outlined
-        origin: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+        origin: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
         duration:
           rounds: null
           startTime: null
@@ -1635,7 +1635,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1643,12 +1643,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmDrider00000000.cTOigW9T4CgF7fb5.Y2i0OvwOixxag0ed
-      - _id: dnd5espellchange
+      - _id: degringo5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.8Zw5hRXyd8axv5Zs
+          Compendium.degringo5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.8Zw5hRXyd8axv5Zs
         changes:
           - key: system.activation
             mode: 5
@@ -1690,30 +1690,30 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmDrider00000000.cTOigW9T4CgF7fb5.dnd5espellchange
+          !actors.items.effects!mmDrider00000000.cTOigW9T4CgF7fb5.degringo5espellchange
     folder: pBaAAtXBCq9FVEnL
     sort: 3200000
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmMagicOfTheSpid.Activity.8Zw5hRXyd8axv5Zs
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _id: cTOigW9T4CgF7fb5
     _key: '!actors.items!mmDrider00000000.cTOigW9T4CgF7fb5'
@@ -1787,8 +1787,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: save
           activation:
             type: action
@@ -1847,12 +1847,12 @@ items:
     type: spell
     img: icons/creatures/webs/web-spider-casting-caught-purple.webp
     effects:
-      - _id: dnd5espellchange
+      - _id: degringo5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.B8OHv2CaawtJoMu7
+          Compendium.degringo5e.actors24.Actor.mmDrider00000000.Item.mmMagicOfTheSpid.Activity.B8OHv2CaawtJoMu7
         changes:
           - key: system.activation
             mode: 5
@@ -1894,49 +1894,49 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmDrider00000000.gAdVTIyqf9DLBQT4.dnd5espellchange
+          !actors.items.effects!mmDrider00000000.gAdVTIyqf9DLBQT4.degringo5espellchange
     folder: 3SjcO2acsFnWegp4
     sort: 106250
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmMagicOfTheSpid.Activity.B8OHv2CaawtJoMu7
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplWeb0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716817
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _id: gAdVTIyqf9DLBQT4
     _key: '!actors.items!mmDrider00000000.gAdVTIyqf9DLBQT4'
 effects: []
 folder: 36r8qm2aE4k6QTnW
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712716851
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -140,41 +140,41 @@
 
         {{!-- Senses --}}
         {{#if (or editable senses)}}
-        {{> "dnd5e.actor-trait-pills" values=senses key="senses" icon="fas fa-eye"
+        {{> "degringo5e.actor-trait-pills" values=senses key="senses" icon="fas fa-eye"
             label="DEGRINGO5E.Senses" configAction="senses" }}
         {{/if}}
 
         {{!-- Resistances --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.dr key="dr" color="green" icon="fas fa-shield-halved"
+        {{> "degringo5e.actor-trait-pills" values=traits.dr key="dr" color="green" icon="fas fa-shield-halved"
             label="DEGRINGO5E.Resistances" }}
 
         {{!-- Immunities --}}
         {{#if editable}}
-            {{> "dnd5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
+            {{> "degringo5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
                 label="DEGRINGO5E.DamImm" }}
         {{else}}
-            {{> "dnd5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
+            {{> "degringo5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
                 label="DEGRINGO5E.Immunities" }}
         {{/if}}
-        {{> "dnd5e.actor-trait-pills" values=traits.ci key="ci" color="green" svg="rosa-shield" label="DEGRINGO5E.ConImm" }}
+        {{> "degringo5e.actor-trait-pills" values=traits.ci key="ci" color="green" svg="rosa-shield" label="DEGRINGO5E.ConImm" }}
 
         {{!-- Vulnerabilities --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.dv key="dv" color="maroon" icon="fas fa-heart-crack"
+        {{> "degringo5e.actor-trait-pills" values=traits.dv key="dv" color="maroon" icon="fas fa-heart-crack"
             label="DEGRINGO5E.Vulnerabilities" }}
 
         {{!-- Damage Modification --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.dm key="dm" icon="fas fa-heart-circle-plus"
+        {{> "degringo5e.actor-trait-pills" values=traits.dm key="dm" icon="fas fa-heart-circle-plus"
             label="DEGRINGO5E.DamageModification.Label" }}
 
         {{!-- Armor --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.armor key="armor" svg="checked-shield" label="DEGRINGO5E.Armor" }}
+        {{> "degringo5e.actor-trait-pills" values=traits.armor key="armor" svg="checked-shield" label="DEGRINGO5E.Armor" }}
 
         {{!-- Weapons --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.weapon key="weapon" svg="trait-weapon-proficiencies"
+        {{> "degringo5e.actor-trait-pills" values=traits.weapon key="weapon" svg="trait-weapon-proficiencies"
             label="TYPES.Item.weaponPl" }}
 
         {{!-- Languages --}}
-        {{> "dnd5e.actor-trait-pills" values=traits.languages key="languages" icon="fas fa-flag"
+        {{> "degringo5e.actor-trait-pills" values=traits.languages key="languages" icon="fas fa-flag"
             label="DEGRINGO5E.Languages" }}
 
     </div>
@@ -195,7 +195,7 @@
     <a class="draggable name {{ @root.rollableClass }} {{ roll }}" data-action="roll" data-type="{{ type }}">
         {{ label }}
     </a>
-    <div class="bonus">{{ dnd5e-formatModifier total }}</div>
+    <div class="bonus">{{ degringo5e-formatModifier total }}</div>
     {{#if @root.editable}}
     <button type="button" class="config-button unbutton" data-action="showConfiguration" data-config="{{ type }}"
             data-tooltip="{{ config }}" aria-label="{{ localize config }}">
@@ -210,7 +210,7 @@
 {{#*inline ".ability-prof"}}
 <li data-ability="{{ @key }}" class="{{ class }}">
     {{#if isConcentration}}
-    <dnd5e-icon src="systems/dnd5e/icons/svg/statuses/concentrating.svg"></dnd5e-icon>
+    <degringo5e-icon src="systems/degringo5e/icons/svg/statuses/concentrating.svg"></degringo5e-icon>
     {{else}}
     <proficiency-cycle type="ability" name="{{ path }}.proficient" data-tooltip="{{ hover }}"
                        value="{{#if @root.editable}}{{ source.proficient }}{{else}}{{ proficient }}{{/if}}"
@@ -218,7 +218,7 @@
     {{/if}}
     <a class="name saving-throw full {{ @root.rollableClass }}" data-action="roll" data-type="ability">{{ label }}</a>
     <a class="name saving-throw abbr {{ @root.rollableClass }}" data-action="roll" data-type="ability">{{ abbr }}</a>
-    <div class="bonus">{{ dnd5e-formatModifier save.value }}</div>
+    <div class="bonus">{{ degringo5e-formatModifier save.value }}</div>
     {{#if @root.editable}}
     <button type="button" class="config-button unbutton" data-action="showConfiguration" data-config="ability"
             data-tooltip="{{ config }}" aria-label="{{ localize config }}">

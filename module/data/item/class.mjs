@@ -124,7 +124,7 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.class) }];
     context.singleDescription = true;
 
-    context.parts = ["dnd5e.details-class", "dnd5e.details-spellcasting", "dnd5e.details-starting-equipment"];
+    context.parts = ["degringo5e.details-class", "degringo5e.details-spellcasting", "degringo5e.details-starting-equipment"];
     context.hitDieOptions = CONFIG.DEGRINGO5E.hitDieTypes.map(d => ({ value: d, label: d }));
     context.primaryAbilities = Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, data]) => ({
       value, label: data.label, selected: this.primaryAbility.value.has(value)
@@ -239,7 +239,7 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
       needsMigration = true;
     }
 
-    if ( needsMigration ) foundry.utils.setProperty(source, "flags.dnd5e.persistSourceMigration", true);
+    if ( needsMigration ) foundry.utils.setProperty(source, "flags.degringo5e.persistSourceMigration", true);
   }
 
   /* -------------------------------------------- */

@@ -44,7 +44,7 @@
                     <h4 class="attribute-name box-title">{{localize "DEGRINGO5E.ExperiencePoints.Label"}}</h4>
                     <div class="attribute-value">
                         {{ numberInput xp.value name="system.details.xp.value" min=0 step=1
-                           placeholder=(dnd5e-numberFormat xp.derived) }}
+                           placeholder=(degringo5e-numberFormat xp.derived) }}
                     </div>
                 </li>
                 {{/if}}
@@ -60,11 +60,11 @@
 
     <section class="sheet-body">
         <div class="tab members" data-group="primary" data-tab="members">
-            {{> "dnd5e.group-members"}}
+            {{> "degringo5e.group-members"}}
         </div>
 
         <div class="tab inventory flexcol" data-group="primary" data-tab="inventory">
-            {{> "dnd5e.inventory" sections=inventory}}
+            {{> "degringo5e.inventory" sections=inventory}}
         </div>
 
         <div class="tab description" data-group="primary" data-tab="description">

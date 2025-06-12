@@ -59,8 +59,8 @@ system:
     - material
     - concentration
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -105,7 +105,7 @@ flags: {}
 img: icons/magic/air/fog-gas-smoke-dense-gray.webp
 effects:
   - name: Invisibility
-    origin: Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B
+    origin: Compendium.degringo5e.spells.Item.1N8dDMMgZ1h1YJ3B
     duration:
       startTime: null
       seconds: 3600
@@ -130,7 +130,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -145,10 +145,10 @@ folder: Qi4Se3we69ukl2V9
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037345708
   modifiedTime: 1731016443164
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!1N8dDMMgZ1h1YJ3B'

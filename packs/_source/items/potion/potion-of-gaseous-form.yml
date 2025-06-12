@@ -9,7 +9,7 @@ system:
       water.</em></p>
 
       <p>When you drink this potion, you gain the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{Gaseous Form} spell
+      @UUID[Compendium.degringo5e.spells.Item.2IWiZAJtOGDoKjiz]{Gaseous Form} spell
       for 1 hour (no concentration required) or until you end the effect as a
       bonus action. </p>
 
@@ -57,8 +57,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -126,10 +126,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037229250
   modifiedTime: 1725992527037
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!bqZ6NTLDCUB98YjV'

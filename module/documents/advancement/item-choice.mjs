@@ -18,7 +18,7 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
       },
       order: 50,
       icon: "icons/magic/symbols/cog-orange-red.webp",
-      typeIcon: "systems/dnd5e/icons/svg/item-choice.svg",
+      typeIcon: "systems/degringo5e/icons/svg/item-choice.svg",
       title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Title"),
       hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Hint"),
       multiLevel: true,
@@ -65,7 +65,7 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
   summaryForLevel(level, { configMode=false }={}) {
     const items = this.value.added?.[level];
     if ( !items || configMode ) return "";
-    return Object.values(items).reduce((html, uuid) => html + game.dnd5e.utils.linkForUuid(uuid), "");
+    return Object.values(items).reduce((html, uuid) => html + game.degringo5e.utils.linkForUuid(uuid), "");
   }
 
   /* -------------------------------------------- */

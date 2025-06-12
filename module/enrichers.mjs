@@ -100,7 +100,7 @@ function _getRulesVersion(options) {
   // Select from actor data first, then item data, and then fall back to system setting
   return options.relativeTo?.parent?.system?.source?.rules
     || options.relativeTo?.system?.source?.rules
-    || (game.settings.get("dnd5e", "rulesVersion") === "modern" ? "2024" : "2014");
+    || (game.settings.get("degringo5e", "rulesVersion") === "modern" ? "2024" : "2014");
 }
 
 /* -------------------------------------------- */
@@ -250,7 +250,7 @@ async function enrichAward(config, label, options) {
   }
 
   const block = document.createElement("span");
-  block.classList.add("award-block", "dnd5e2");
+  block.classList.add("award-block", "degringo5e2");
   block.dataset.awardCommand = command;
 
   const entries = [];
@@ -905,7 +905,7 @@ async function enrichDamage(configs, label, options) {
  * ```
  *
  * @example Lookup a property within an activity:
- * ```[[lookup @target.template.size activity=dnd5eactivity000]]```
+ * ```[[lookup @target.template.size activity=degringo5eactivity000]]```
  * becomes
  * ```html
  * <span class="lookup-value">120</span>
@@ -966,7 +966,7 @@ function enrichLookup(config, fallback, options) {
  * ```html
  * <span class="reference-link">
  *   <a class="content-link" draggable="true"
- *      data-uuid="Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd"
+ *      data-uuid="Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd"
  *      data-type="JournalEntryPage" data-tooltip="Text Page">
  *     <i class="fas fa-book-open"></i> Label
  *   </a>
@@ -1226,7 +1226,7 @@ export function createRollLabel(config) {
     switch ( config.type ) {
       case "check":
       case "skill":
-        label = `<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/ability-score-improvement.svg"></i>${label}`;
+        label = `<i class="degringo5e-icon" data-src="systems/degringo5e/icons/svg/ability-score-improvement.svg"></i>${label}`;
         break;
       case "tool":
         label = `<i class="fas fa-hammer"></i>${label}`;
@@ -1407,7 +1407,7 @@ async function rollAction(event) {
     const chatData = {
       user: game.user.id,
       content: await foundry.applications.handlebars.renderTemplate(
-        "systems/dnd5e/templates/chat/roll-request-card.hbs", { buttons }
+        "systems/degringo5e/templates/chat/roll-request-card.hbs", { buttons }
       ),
       flavor: game.i18n.localize("EDITOR.DEGRINGO5E.Inline.RollRequest"),
       speaker: MessageClass.getSpeaker({user: game.user})
@@ -1466,7 +1466,7 @@ async function rollAttack(event) {
   const messageConfig = {
     data: {
       flags: {
-        dnd5e: {
+        degringo5e: {
           messageType: "roll",
           roll: { type: "attack" }
         }
@@ -1478,8 +1478,8 @@ async function rollAttack(event) {
 
   const rolls = await CONFIG.Dice.D20Roll.build(rollConfig, dialogConfig, messageConfig);
   if ( rolls?.length ) {
-    Hooks.callAll("dnd5e.rollAttackV2", rolls, { subject: null, ammoUpdate: null });
-    Hooks.callAll("dnd5e.postRollAttack", rolls, { subject: null });
+    Hooks.callAll("degringo5e.rollAttackV2", rolls, { subject: null, ammoUpdate: null });
+    Hooks.callAll("degringo5e.postRollAttack", rolls, { subject: null });
   }
 }
 
@@ -1518,7 +1518,7 @@ async function rollDamage(event) {
     create: true,
     data: {
       flags: {
-        dnd5e: {
+        degringo5e: {
           messageType: "roll",
           roll: { type: rollType },
           targets: getTargetDescriptors()
@@ -1531,7 +1531,7 @@ async function rollDamage(event) {
 
   const rolls = await CONFIG.Dice.DamageRoll.build(rollConfig, {}, messageConfig);
   if ( !rolls?.length ) return;
-  Hooks.callAll("dnd5e.rollDamageV2", rolls);
+  Hooks.callAll("degringo5e.rollDamageV2", rolls);
 }
 
 /* -------------------------------------------- */
@@ -1545,7 +1545,7 @@ async function rollDamage(event) {
 async function _fetchActivity(uuid, scaling) {
   const activity = await fromUuid(uuid);
   if ( !activity || !scaling ) return activity;
-  const item = activity.item.clone({ "flags.dnd5e.scaling": scaling }, { keepId: true });
+  const item = activity.item.clone({ "flags.degringo5e.scaling": scaling }, { keepId: true });
   return item.system.activities.get(activity.id);
 }
 

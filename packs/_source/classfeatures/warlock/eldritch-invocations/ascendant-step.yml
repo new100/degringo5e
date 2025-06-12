@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You can cast
-      @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate} on yourself
+      @UUID[Compendium.degringo5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate} on yourself
       at will, without expending a spell slot or material components.</p>
     chat: ''
   source:
@@ -28,8 +28,8 @@ system:
   prerequisites:
     level: 9
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -90,10 +90,10 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037383925
   modifiedTime: 1725992288320
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!QEuH5TeBN4PPYT2g'

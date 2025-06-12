@@ -27,7 +27,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @type {boolean}
    */
   get canApplyDamage() {
-    const type = this.flags.dnd5e?.roll?.type;
+    const type = this.flags.degringo5e?.roll?.type;
     if ( type && (type !== "damage") ) return false;
     return this.isRoll && this.isContentVisible && !!canvas.tokens?.controlled.length;
   }
@@ -39,7 +39,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @type {boolean}
    */
   get canSelectTargets() {
-    if ( this.flags.dnd5e?.roll?.type !== "attack" ) return false;
+    if ( this.flags.degringo5e?.roll?.type !== "attack" ) return false;
     return this.isRoll && this.isContentVisible;
   }
 
@@ -48,7 +48,7 @@ export default class ChatMessage5e extends ChatMessage {
   /** @inheritDoc */
   get isRoll() {
     if ( this.system?.isRoll !== undefined ) return this.system.isRoll;
-    return super.isRoll && !this.flags.dnd5e?.rest;
+    return super.isRoll && !this.flags.degringo5e?.rest;
   }
 
   /* -------------------------------------------- */
@@ -59,7 +59,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   get shouldDisplayChallenge() {
     if ( game.user.isGM || (this.author === game.user) ) return true;
-    switch ( game.settings.get("dnd5e", "challengeVisibility") ) {
+    switch ( game.settings.get("degringo5e", "challengeVisibility") ) {
       case "all": return true;
       case "player": return !this.author.isGM;
       default: return false;
@@ -82,16 +82,16 @@ export default class ChatMessage5e extends ChatMessage {
   /** @inheritDoc */
   static migrateData(source) {
     source = super.migrateData(source);
-    if ( foundry.utils.hasProperty(source, "flags.dnd5e.itemData") ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.item.data", source.flags.dnd5e.itemData);
-      delete source.flags.dnd5e.itemData;
+    if ( foundry.utils.hasProperty(source, "flags.degringo5e.itemData") ) {
+      foundry.utils.setProperty(source, "flags.degringo5e.item.data", source.flags.degringo5e.itemData);
+      delete source.flags.degringo5e.itemData;
     }
-    if ( foundry.utils.hasProperty(source, "flags.dnd5e.use") ) {
-      const use = source.flags.dnd5e.use;
-      foundry.utils.setProperty(source, "flags.dnd5e.messageType", "usage");
-      if ( use.type ) foundry.utils.setProperty(source, "flags.dnd5e.item.type", use.type);
-      if ( use.itemId ) foundry.utils.setProperty(source, "flags.dnd5e.item.id", use.itemId);
-      if ( use.itemUuid ) foundry.utils.setProperty(source, "flags.dnd5e.item.uuid", use.itemUuid);
+    if ( foundry.utils.hasProperty(source, "flags.degringo5e.use") ) {
+      const use = source.flags.degringo5e.use;
+      foundry.utils.setProperty(source, "flags.degringo5e.messageType", "usage");
+      if ( use.type ) foundry.utils.setProperty(source, "flags.degringo5e.item.type", use.type);
+      if ( use.itemId ) foundry.utils.setProperty(source, "flags.degringo5e.item.id", use.itemId);
+      if ( use.itemUuid ) foundry.utils.setProperty(source, "flags.degringo5e.item.uuid", use.itemUuid);
     }
     return source;
   }
@@ -103,11 +103,11 @@ export default class ChatMessage5e extends ChatMessage {
   /** @inheritDoc */
   prepareData() {
     super.prepareData();
-    if ( !this.flags.dnd5e?.item?.data && this.flags.dnd5e?.item?.id ) {
-      const itemData = this.getFlag("dnd5e", "use.consumed.deleted")?.find(i => i._id === this.flags.dnd5e.item.id);
-      if ( itemData ) Object.defineProperty(this.flags.dnd5e.item, "data", { value: itemData });
+    if ( !this.flags.degringo5e?.item?.data && this.flags.degringo5e?.item?.id ) {
+      const itemData = this.getFlag("degringo5e", "use.consumed.deleted")?.find(i => i._id === this.flags.degringo5e.item.id);
+      if ( itemData ) Object.defineProperty(this.flags.degringo5e.item, "data", { value: itemData });
     }
-    dnd5e.registry.messages.track(this);
+    degringo5e.registry.messages.track(this);
   }
 
   /* -------------------------------------------- */
@@ -125,23 +125,23 @@ export default class ChatMessage5e extends ChatMessage {
 
     this._displayChatActionButtons(html);
     this._highlightCriticalSuccessFailure(html);
-    if ( game.settings.get("dnd5e", "autoCollapseItemCards") ) {
+    if ( game.settings.get("degringo5e", "autoCollapseItemCards") ) {
       html.querySelectorAll(".description.collapsible").forEach(el => el.classList.add("collapsed"));
     }
 
     this._enrichChatCard(html);
     this._collapseTrays(html);
     this._activateActivityListeners(html);
-    dnd5e.bastion._activateChatListeners(this, html);
+    degringo5e.bastion._activateChatListeners(this, html);
 
     /**
-     * A hook event that fires after dnd5e-specific chat message modifications have completed.
-     * @function dnd5e.renderChatMessage
+     * A hook event that fires after degringo5e-specific chat message modifications have completed.
+     * @function degringo5e.renderChatMessage
      * @memberof hookEvents
      * @param {ChatMessage5e} message  Chat message being rendered.
      * @param {HTMLElement} html       HTML contents of the message.
      */
-    Hooks.callAll("dnd5e.renderChatMessage", this, html);
+    Hooks.callAll("degringo5e.renderChatMessage", this, html);
 
     return html;
   }
@@ -154,7 +154,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _collapseTrays(html) {
     let collapse;
-    switch ( game.settings.get("dnd5e", "autoCollapseChatTrays") ) {
+    switch ( game.settings.get("degringo5e", "autoCollapseChatTrays") ) {
       case "always": collapse = true; break;
       case "never": collapse = false; break;
       // Collapse chat message trays older than 5 minutes
@@ -176,7 +176,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @protected
    */
   _displayChatActionButtons(html) {
-    const chatCard = html.querySelector(".dnd5e.chat-card, .dnd5e2.chat-card");
+    const chatCard = html.querySelector(".degringo5e.chat-card, .degringo5e2.chat-card");
     if ( chatCard ) {
       const flavor = html.querySelector(".flavor-text");
       if ( flavor?.innerText === html.querySelector(".item-name")?.innerText ) flavor?.remove();
@@ -206,8 +206,8 @@ export default class ChatMessage5e extends ChatMessage {
     if ( !this.isContentVisible || !this.rolls.length ) return;
     const originatingMessage = this.getOriginatingMessage();
     const displayChallenge = originatingMessage?.shouldDisplayChallenge;
-    const displayAttackResult = game.user.isGM || (game.settings.get("dnd5e", "attackRollVisibility") !== "none");
-    const forceSuccess = this.flags.dnd5e?.roll?.forceSuccess === true;
+    const displayAttackResult = game.user.isGM || (game.settings.get("degringo5e", "attackRollVisibility") !== "none");
+    const forceSuccess = this.flags.degringo5e?.roll?.forceSuccess === true;
 
     /**
      * Create an icon to indicate success or failure.
@@ -228,7 +228,7 @@ export default class ChatMessage5e extends ChatMessage {
       const d0 = d20Roll.dice[0];
       if ( (d0?.faces !== 20) || (d0?.values.length !== 1) ) continue;
 
-      d20Roll = dnd5e.dice.D20Roll.fromRoll(d20Roll);
+      d20Roll = degringo5e.dice.D20Roll.fromRoll(d20Roll);
       const d = d20Roll.dice[0];
 
       const isModifiedRoll = ("success" in d.results[0]) || d.options.marginSuccess || d.options.marginFailure;
@@ -238,8 +238,8 @@ export default class ChatMessage5e extends ChatMessage {
       const total = totals[index];
       if ( !total ) continue;
       // Only attack rolls and death saves can crit or fumble.
-      const canCrit = ["attack", "death"].includes(this.getFlag("dnd5e", "roll.type"));
-      const isAttack = this.getFlag("dnd5e", "roll.type") === "attack";
+      const canCrit = ["attack", "death"].includes(this.getFlag("degringo5e", "roll.type"));
+      const isAttack = this.getFlag("degringo5e", "roll.type") === "attack";
       const showResult = isAttack ? displayAttackResult : displayChallenge;
       if ( d.options.target && showResult ) {
         if ( d20Roll.isSuccess || forceSuccess ) total.classList.add("success");
@@ -317,14 +317,14 @@ export default class ChatMessage5e extends ChatMessage {
     metadata.appendChild(anchor);
 
     // SVG icons
-    html.querySelectorAll("i.dnd5e-icon").forEach(el => {
-      const icon = document.createElement("dnd5e-icon");
+    html.querySelectorAll("i.degringo5e-icon").forEach(el => {
+      const icon = document.createElement("degringo5e-icon");
       icon.src = el.dataset.src;
       el.replaceWith(icon);
     });
 
     // Enriched roll flavor
-    const roll = this.getFlag("dnd5e", "roll");
+    const roll = this.getFlag("degringo5e", "roll");
     const item = this.getAssociatedItem();
     const activity = this.getAssociatedActivity();
     if ( this.isContentVisible && item && roll ) {
@@ -337,7 +337,7 @@ export default class ChatMessage5e extends ChatMessage {
           ? (activity?.getActionLabel(roll.attackMode) ?? "")
           : (item.system.type?.label ?? game.i18n.localize(CONFIG.Item.typeLabels[item.type]));
       const flavor = document.createElement("div");
-      flavor.classList.add("dnd5e2", "chat-card");
+      flavor.classList.add("degringo5e2", "chat-card");
       flavor.innerHTML = `
         <section class="card-header description ${isCritical ? "critical" : ""}">
           <header class="summary">
@@ -415,7 +415,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _enrichAttackTargets(html) {
     const attackRoll = this.rolls[0];
-    if ( !(attackRoll instanceof dnd5e.dice.D20Roll) ) return;
+    if ( !(attackRoll instanceof degringo5e.dice.D20Roll) ) return;
 
     const masteryConfig = CONFIG.DEGRINGO5E.weaponMasteries[attackRoll.options.mastery];
     if ( masteryConfig ) {
@@ -430,14 +430,14 @@ export default class ChatMessage5e extends ChatMessage {
       (html.querySelector(".chat-card") ?? html.querySelector(".message-content"))?.appendChild(p);
     }
 
-    const visibility = game.settings.get("dnd5e", "attackRollVisibility");
+    const visibility = game.settings.get("degringo5e", "attackRollVisibility");
     const isVisible = game.user.isGM || (visibility !== "none");
     if ( !isVisible ) return;
 
-    const targets = this.getFlag("dnd5e", "targets");
+    const targets = this.getFlag("degringo5e", "targets");
     if ( !targets?.length ) return;
     const tray = document.createElement("div");
-    tray.classList.add("dnd5e2");
+    tray.classList.add("degringo5e2");
     tray.innerHTML = `
       <div class="card-tray targets-tray collapsible collapsed">
         <label class="roboto-upper">
@@ -446,7 +446,7 @@ export default class ChatMessage5e extends ChatMessage {
           <i class="fas fa-caret-down" inert></i>
         </label>
         <div class="collapsible-content">
-          <ul class="dnd5e2 unlist evaluation wrapper"></ul>
+          <ul class="degringo5e2 unlist evaluation wrapper"></ul>
         </div>
       </div>
     `;
@@ -541,7 +541,7 @@ export default class ChatMessage5e extends ChatMessage {
     `;
     html.querySelector(".message-content").appendChild(roll);
 
-    const damageOnSave = this.getFlag("dnd5e", "roll.damageOnSave");
+    const damageOnSave = this.getFlag("degringo5e", "roll.damageOnSave");
     if ( damageOnSave ) {
       const p = document.createElement("p");
       p.classList.add("supplement");
@@ -553,7 +553,7 @@ export default class ChatMessage5e extends ChatMessage {
 
     if ( game.user.isGM ) {
       const damageApplication = document.createElement("damage-application");
-      damageApplication.classList.add("dnd5e2");
+      damageApplication.classList.add("degringo5e2");
       damageApplication.damages = aggregateDamageRolls(rolls, { respectProperties: true }).map(roll => ({
         value: Math.max(0, roll.total),
         type: roll.options.type,
@@ -604,16 +604,16 @@ export default class ChatMessage5e extends ChatMessage {
    * @protected
    */
   _enrichEnchantmentTooltip(html) {
-    const enchantmentProfile = this.getFlag("dnd5e", "use.enchantmentProfile");
+    const enchantmentProfile = this.getFlag("degringo5e", "use.enchantmentProfile");
     if ( !enchantmentProfile ) return;
 
     // Ensure concentration is still being maintained
-    const concentrationId = this.getFlag("dnd5e", "use.concentrationId");
+    const concentrationId = this.getFlag("degringo5e", "use.concentrationId");
     if ( concentrationId && !this.getAssociatedActor()?.effects.get(concentrationId) ) return;
 
     // Create the enchantment tray
     const enchantmentApplication = document.createElement("enchantment-application");
-    enchantmentApplication.classList.add("dnd5e2");
+    enchantmentApplication.classList.add("degringo5e2");
     const afterElement = html.querySelector(".card-footer");
     if ( afterElement ) afterElement.insertAdjacentElement("beforebegin", enchantmentApplication);
     else html.querySelector(".chat-card")?.append(enchantmentApplication);
@@ -628,11 +628,11 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _enrichSaveTooltip(html) {
     const actor = this.getAssociatedActor();
-    const roll = this.getFlag("dnd5e", "roll");
+    const roll = this.getFlag("degringo5e", "roll");
     if ( (actor?.type !== "npc") || (roll?.type !== "save") || this.rolls.some(r => r.isSuccess) ) return;
 
     const content = document.createElement("div");
-    content.classList.add("dnd5e2", "chat-card");
+    content.classList.add("degringo5e2", "chat-card");
 
     // If message has the `forceSuccess` flag, mark it as resisted
     if ( roll.forceSuccess ) content.insertAdjacentHTML("beforeend", `
@@ -669,15 +669,15 @@ export default class ChatMessage5e extends ChatMessage {
    * @protected
    */
   _enrichUsageEffects(html) {
-    if ( this.getFlag("dnd5e", "messageType") !== "usage" ) return;
+    if ( this.getFlag("degringo5e", "messageType") !== "usage" ) return;
     const item = this.getAssociatedItem();
-    const effects = this.getFlag("dnd5e", "use.effects")
+    const effects = this.getFlag("degringo5e", "use.effects")
       ?.map(id => item?.effects.get(id))
       .filter(e => e && (game.user.isGM || (e.transfer && (this.author.id === game.user.id))));
     if ( !effects?.length ) return;
 
     const effectApplication = document.createElement("effect-application");
-    effectApplication.classList.add("dnd5e2");
+    effectApplication.classList.add("degringo5e2");
     effectApplication.effects = effects;
     html.querySelector(".message-content").appendChild(effectApplication);
   }
@@ -911,7 +911,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   static onRenderChatLog(html) {
     if ( game.user.isGM ) html.dataset.gmUser = "";
-    if ( !game.settings.get("dnd5e", "autoCollapseItemCards") ) {
+    if ( !game.settings.get("degringo5e", "autoCollapseItemCards") ) {
       requestAnimationFrame(() => {
         // FIXME: Allow time for transitions to complete. Adding a transitionend listener does not appear to work, so
         // the transition time is hard-coded for now.
@@ -955,7 +955,7 @@ export default class ChatMessage5e extends ChatMessage {
   /** @inheritDoc */
   _onDelete(options, userId) {
     super._onDelete(options, userId);
-    dnd5e.registry.messages.untrack(this);
+    degringo5e.registry.messages.untrack(this);
   }
 
   /* -------------------------------------------- */
@@ -967,9 +967,9 @@ export default class ChatMessage5e extends ChatMessage {
    * @returns {Activity|void}
    */
   getAssociatedActivity() {
-    const activity = fromUuidSync(this.getFlag("dnd5e", "activity.uuid"), { strict: false });
+    const activity = fromUuidSync(this.getFlag("degringo5e", "activity.uuid"), { strict: false });
     if ( activity ) return activity;
-    return this.getAssociatedItem()?.system.activities?.get(this.getFlag("dnd5e", "activity.id"));
+    return this.getAssociatedItem()?.system.activities?.get(this.getFlag("degringo5e", "activity.id"));
   }
 
   /* -------------------------------------------- */
@@ -994,11 +994,11 @@ export default class ChatMessage5e extends ChatMessage {
    * @returns {Item5e|void}
    */
   getAssociatedItem() {
-    const item = fromUuidSync(this.getFlag("dnd5e", "item.uuid"), { strict: false });
+    const item = fromUuidSync(this.getFlag("degringo5e", "item.uuid"), { strict: false });
     if ( item ) return item;
     const actor = this.getAssociatedActor();
     if ( !actor ) return;
-    const storedData = this.getFlag("dnd5e", "item.data") ?? this.getOriginatingMessage().getFlag("dnd5e", "item.data");
+    const storedData = this.getFlag("degringo5e", "item.data") ?? this.getOriginatingMessage().getFlag("degringo5e", "item.data");
     if ( storedData ) return new Item.implementation(storedData, { parent: actor });
   }
 
@@ -1010,7 +1010,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @returns {ChatMessage5e[]}
    */
   getAssociatedRolls(type) {
-    return dnd5e.registry.messages.get(this.id, type);
+    return degringo5e.registry.messages.get(this.id, type);
   }
 
   /* -------------------------------------------- */
@@ -1021,6 +1021,6 @@ export default class ChatMessage5e extends ChatMessage {
    * @type {ChatMessage5e}
    */
   getOriginatingMessage() {
-    return game.messages.get(this.getFlag("dnd5e", "originatingMessage")) ?? this;
+    return game.messages.get(this.getFlag("degringo5e", "originatingMessage")) ?? this;
   }
 }

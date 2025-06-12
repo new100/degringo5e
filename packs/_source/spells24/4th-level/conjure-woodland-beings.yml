@@ -59,8 +59,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -159,7 +159,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects: []
     UkXLSgFbCBI9CHMf:
       type: save
@@ -225,7 +225,7 @@ system:
       sort: 100000
       name: Emanation Save
       _id: UkXLSgFbCBI9CHMf
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects: []
   identifier: conjure-woodland-beings
 _id: phbsplConjureWoo
@@ -237,17 +237,17 @@ sort: 3000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425947258
   modifiedTime: 1745256788964
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplConjureWoo'

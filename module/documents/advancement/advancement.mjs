@@ -242,8 +242,8 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   /** @inheritDoc */
   async delete(options={}) {
     if ( this.item.actor?.system.metadata?.supportsAdvancement
-        && !game.settings.get("dnd5e", "disableAdvancements") ) {
-      const manager = dnd5e.applications.advancement.AdvancementManager
+        && !game.settings.get("degringo5e", "disableAdvancements") ) {
+      const manager = degringo5e.applications.advancement.AdvancementManager
         .forDeletedAdvancement(this.item.actor, this.item.id, this.id);
       if ( manager.steps.length ) return manager.render(true);
     }
@@ -310,8 +310,8 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
     return source.clone({
       _stats,
       _id: id ?? foundry.utils.randomID(),
-      "flags.dnd5e.sourceId": uuid,
-      "flags.dnd5e.advancementOrigin": `${this.item.id}.${this.id}`
+      "flags.degringo5e.sourceId": uuid,
+      "flags.degringo5e.advancementOrigin": `${this.item.id}.${this.id}`
     }, { keepId: true }).toObject();
   }
 
@@ -369,13 +369,13 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
     /**
      * A hook even that fires when the context menu for an Advancement is opened.
-     * @function dnd5e.getItemAdvancementContext
+     * @function degringo5e.getItemAdvancementContext
      * @memberof hookEvents
      * @param {Advancement} advancement       The Advancement.
      * @param {HTMLElement} target            The element that menu was triggered on.
      * @param {ContextMenuEntry[]} menuItems  The context menu entries.
      */
-    Hooks.callAll("dnd5e.getItemAdvancementContext", advancement, target, menuItems);
+    Hooks.callAll("degringo5e.getItemAdvancementContext", advancement, target, menuItems);
     ui.context.menuItems = menuItems;
   }
 

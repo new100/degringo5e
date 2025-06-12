@@ -584,11 +584,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737751604010
       modifiedTime: 1745712713228
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -647,7 +647,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -676,7 +676,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -684,11 +684,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737751606229
       modifiedTime: 1745712713228
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -809,7 +809,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -817,11 +817,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737751607546
       modifiedTime: 1745712713228
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -833,11 +833,11 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712713253
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

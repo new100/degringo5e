@@ -491,7 +491,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]] and the target must
           succeed on a [[/save]] saving throw or take [[/damage average
-          activity=dnd5eactivity100]] damage. If the poison damage reduces the
+          activity=degringo5eactivity100]] damage. If the poison damage reduces the
           target to 0 hit points, the target is stable but
           &amp;Reference[poisoned] for 1 hour, even after regaining hit points,
           and is &amp;Reference[paralyzed] while poisoned in this way.</p>
@@ -574,8 +574,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -637,8 +637,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        dnd5eactivity100:
-          _id: dnd5eactivity100
+        degringo5eactivity100:
+          _id: degringo5eactivity100
           type: save
           activation:
             type: action
@@ -716,19 +716,19 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741118253828
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!Hn8FFLEzscgT7azz.8EvqvqLumOBhrjeD'
 effects: []
@@ -740,10 +740,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726171219285
   modifiedTime: 1741118256759
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!Hn8FFLEzscgT7azz'

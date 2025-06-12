@@ -383,7 +383,7 @@ export class ScaleValueTypeDice extends ScaleValueType {
   get mods() {
     if ( !this.modifiers ) return "";
     return this.modifiers.reduce((acc, mod) => {
-      return acc + (dnd5e.utils.isValidDieModifier(mod) ? mod : "");
+      return acc + (degringo5e.utils.isValidDieModifier(mod) ? mod : "");
     }, "");
   }
 

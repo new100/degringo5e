@@ -15,7 +15,7 @@
         </label>
         {{/unless}}
         {{#each abilities}}
-        {{> "dnd5e.advancement-ability-score-control" this canAdjust=(not @root.staticIncrease) }}
+        {{> "degringo5e.advancement-ability-score-control" this canAdjust=(not @root.staticIncrease) }}
         {{/each}}
     </ul>
     {{/if}}
@@ -31,8 +31,8 @@
             <div class="name-stacked">
                 <div class="title">{{ localize "DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Feat.ASIName" }}</div>
             </div>
-            <dnd5e-checkbox class="item-control" name="asi-selected" {{ checked feat.isASI }}
-                            {{ disabled lockImprovement }}></dnd5e-checkbox>
+            <degringo5e-checkbox class="item-control" name="asi-selected" {{ checked feat.isASI }}
+                            {{ disabled lockImprovement }}></degringo5e-checkbox>
         </div>
         {{/if}}
 

@@ -1,5 +1,5 @@
 <section class="flexcol">
-    <div class="final-value">{{ dnd5e-numberFormat data.value }}</div>
+    <div class="final-value">{{ degringo5e-numberFormat data.value }}</div>
     <fieldset class="card">
         <legend>{{ localize "DEGRINGO5E.ArmorClassFormula" }}</legend>
         {{ formField fields.calc value=source.calc options=calculationOptions localize=true }}
@@ -8,7 +8,7 @@
         <div class="form-group">
             <label>{{ localize CONFIG.abilities.dex.label }}</label>
             <div class="form-fields">
-                {{{ dnd5e-numberParts dexterity signDisplay="always" }}}
+                {{{ degringo5e-numberParts dexterity signDisplay="always" }}}
             </div>
         </div>
         {{/if}}

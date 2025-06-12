@@ -176,12 +176,12 @@ export default class FacilityData extends ItemDataModel.mixin(ActivitiesTemplate
     else this.building.built = true;
 
     // Activities
-    if ( (this.type.value === "special") && this.order ) this._createOrderActivity("dnd5eFacOrder", this.order);
-    if ( this.enlargeable ) this._createOrderActivity("dnd5eFacEnlarge", "enlarge");
-    if ( !this.building.built ) this._createOrderActivity("dnd5eFacBuild", "build");
+    if ( (this.type.value === "special") && this.order ) this._createOrderActivity("degringo5eFacOrder", this.order);
+    if ( this.enlargeable ) this._createOrderActivity("degringo5eFacEnlarge", "enlarge");
+    if ( !this.building.built ) this._createOrderActivity("degringo5eFacBuild", "build");
 
     // TODO: Allow order activities to be user-creatable and configurable to avoid having to hard-code this.
-    if ( this.type.subtype === "garden" ) this._createOrderActivity("dnd5eFacChange", "change");
+    if ( this.type.subtype === "garden" ) this._createOrderActivity("degringo5eFacChange", "change");
   }
 
   /* -------------------------------------------- */
@@ -240,7 +240,7 @@ export default class FacilityData extends ItemDataModel.mixin(ActivitiesTemplate
       { label: CONFIG.DEGRINGO5E.facilities.sizes[this.size].label }
     ];
 
-    context.parts = ["dnd5e.details-facility"];
+    context.parts = ["degringo5e.details-facility"];
     context.facilitySubtypes = CONFIG.DEGRINGO5E.facilities.types[this.type.value]?.subtypes ?? {};
     context.orders = Object.entries(CONFIG.DEGRINGO5E.facilities.orders).reduce((obj, [value, config]) => {
       const { label, basic, hidden } = config;

@@ -22,11 +22,11 @@
             <div class="info">
                 <div class="ability">
                     <span class="label">{{ localize "DEGRINGO5E.Ability" }}</span>
-                    <span class="value">{{ dnd5e-formatModifier ability.mod }}</span>
+                    <span class="value">{{ degringo5e-formatModifier ability.mod }}</span>
                 </div>
                 <div class="attack">
                     <span class="label">{{ localize "DEGRINGO5E.Attack" }}</span>
-                    <span class="value">{{ dnd5e-formatModifier attack }}</span>
+                    <span class="value">{{ degringo5e-formatModifier attack }}</span>
                 </div>
                 <div class="save">
                     <span class="label">{{ localize "DEGRINGO5E.SpellDC" }}</span>
@@ -63,7 +63,7 @@
                         <i class="fas fa-cog" inert></i>
                     </button>
                     {{else}}
-                    <span class="value">{{ dnd5e-formatModifier concentration.mod }}</span>
+                    <span class="value">{{ degringo5e-formatModifier concentration.mod }}</span>
                     {{/if}}
                 </div>
                 {{/if}}
@@ -73,6 +73,6 @@
     </section>
 
     {{!-- Spells --}}
-    {{> "systems/dnd5e/templates/inventory/inventory.hbs" keepEmpty=true }}
+    {{> "systems/degringo5e/templates/inventory/inventory.hbs" keepEmpty=true }}
 
 </section>

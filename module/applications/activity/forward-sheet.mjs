@@ -16,17 +16,17 @@ export default class ForwardSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/forward-identity.hbs",
+      template: "systems/degringo5e/templates/activity/forward-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     activation: {
-      template: "systems/dnd5e/templates/activity/forward-activation.hbs",
+      template: "systems/degringo5e/templates/activity/forward-activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/forward-effect.hbs"
+      template: "systems/degringo5e/templates/activity/forward-effect.hbs"
     }
   };
 

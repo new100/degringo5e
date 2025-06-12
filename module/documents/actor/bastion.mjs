@@ -22,13 +22,13 @@ export default class Bastion {
    * The template for the chat card summary of a bastion attack.
    * @type {string}
    */
-  static ATTACK_TEMPLATE = "systems/dnd5e/templates/chat/bastion-attack-summary.hbs";
+  static ATTACK_TEMPLATE = "systems/degringo5e/templates/chat/bastion-attack-summary.hbs";
 
   /**
    * The template for the chat card summary of a bastion turn.
    * @type {string}
    */
-  static TURN_TEMPLATE = "systems/dnd5e/templates/chat/bastion-turn-summary.hbs";
+  static TURN_TEMPLATE = "systems/degringo5e/templates/chat/bastion-turn-summary.hbs";
 
   /* -------------------------------------------- */
   /*  Public API                                  */
@@ -40,7 +40,7 @@ export default class Bastion {
    */
   async advanceAllBastions() {
     // TODO: Should this advance game.time?
-    const { duration } = game.settings.get("dnd5e", "bastionConfiguration");
+    const { duration } = game.settings.get("degringo5e", "bastionConfiguration");
     const haveBastions = game.actors.filter(a => (a.type === "character") && a.itemTypes.facility.length);
     for ( const actor of haveBastions ) await this.advanceAllFacilities(actor, { duration });
   }
@@ -71,7 +71,7 @@ export default class Bastion {
       await ChatMessage.implementation.create({
         content,
         speaker: ChatMessage.implementation.getSpeaker({ actor }),
-        flags: { dnd5e: { bastion: results } }
+        flags: { degringo5e: { bastion: results } }
       });
     }
   }
@@ -136,7 +136,7 @@ export default class Bastion {
         content,
         speaker: ChatMessage.implementation.getSpeaker({ actor }),
         rolls: [roll],
-        flags: { dnd5e: { bastion: results } }
+        flags: { degringo5e: { bastion: results } }
       });
     }
   }
@@ -347,7 +347,7 @@ export default class Bastion {
    * @returns {Promise<ChatMessage5e|void>}
    */
   async #onClaimGold(message) {
-    const results = message.getFlag("dnd5e", "bastion");
+    const results = message.getFlag("degringo5e", "bastion");
     const { gold } = results;
     const actor = message.getAssociatedActor();
     const { gp } = actor?.system?.currency ?? {};
@@ -355,7 +355,7 @@ export default class Bastion {
     await actor.update({ "system.currency.gp": gp + gold.value });
     gold.claimed = true;
     const content = await this.#renderTurnSummary(actor, results);
-    return message.update({ content, flags: { dnd5e: { bastion: results } } });
+    return message.update({ content, flags: { degringo5e: { bastion: results } } });
   }
 
   /* -------------------------------------------- */
@@ -380,7 +380,7 @@ export default class Bastion {
    * @returns {Promise<ChatMessage5e|void>}
    */
   async #onResolveAttack(message) {
-    const results = message.getFlag("dnd5e", "bastion") ?? {};
+    const results = message.getFlag("degringo5e", "bastion") ?? {};
     const { deaths, undefended } = results;
     const actor = message.getAssociatedActor();
     if ( (!deaths && !undefended) || !actor ) return;
@@ -418,7 +418,7 @@ export default class Bastion {
     if ( damaged ) results.damaged = damaged.id;
     results.resolved = true;
     const content = await this.#renderAttackSummary(actor, message.rolls[0], results);
-    return message.update({ content, flags: { dnd5e: { bastion: results } } });
+    return message.update({ content, flags: { degringo5e: { bastion: results } } });
   }
 
   /* -------------------------------------------- */
@@ -540,7 +540,7 @@ export default class Bastion {
    */
   initializeUI() {
     const turnButton = document.getElementById("bastion-turn");
-    const { button, enabled } = game.settings.get("dnd5e", "bastionConfiguration");
+    const { button, enabled } = game.settings.get("degringo5e", "bastionConfiguration");
 
     if ( !enabled || !button || !game.user.isGM) {
       turnButton?.remove();
@@ -549,7 +549,7 @@ export default class Bastion {
 
     if ( !turnButton ) {
       document.querySelector("#controls, #scene-controls")?.insertAdjacentHTML("afterend", `
-        <button type="button" id="bastion-turn" data-action="bastionTurn" class="dnd5e2 faded-ui">
+        <button type="button" id="bastion-turn" data-action="bastionTurn" class="degringo5e2 faded-ui">
           <i class="fas fa-chess-rook"></i>
           <span>${game.i18n.localize("DEGRINGO5E.Bastion.Action.BastionTurn")}</span>
         </button>
@@ -625,7 +625,7 @@ class BastionAttackDialog extends Dialog5e {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/apps/bastion-attack-dialog.hbs"
+      template: "systems/degringo5e/templates/apps/bastion-attack-dialog.hbs"
     }
   };
 
@@ -682,14 +682,14 @@ class BastionAttackDialog extends Dialog5e {
    */
   static #handleFormSubmission(event, form, formData) {
     this.#formula = formData.object.formula;
-    return this.close({ dnd5e: { submitted: true } });
+    return this.close({ degringo5e: { submitted: true } });
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   _onClose(options={}) {
-    if ( !options.dnd5e?.submitted ) this.#formula = null;
+    if ( !options.degringo5e?.submitted ) this.#formula = null;
   }
 
   /* -------------------------------------------- */

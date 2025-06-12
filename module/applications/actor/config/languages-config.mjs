@@ -15,7 +15,7 @@ export default class LanguagesConfig extends TraitsConfig {
   /** @override */
   static PARTS = {
     traits: {
-      template: "systems/dnd5e/templates/actors/config/languages-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/languages-config.hbs"
     }
   };
 

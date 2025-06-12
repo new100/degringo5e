@@ -2,7 +2,7 @@
 /*  Advancement Config Sheet                 */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.sheet, .dnd5e2.advancement-migration {
+.degringo5e2.advancement.sheet, .degringo5e2.advancement-migration {
   &.grid-columns {
     --grid-column-left-size: 1fr;
     --grid-column-center-size: 1fr;
@@ -46,8 +46,8 @@
       margin: 0 -.75em;
       padding: 6px .75em;
 
-      &:nth-child(odd) { background: var(--dnd5e-color-table-row-odd); }
-      &:nth-child(even) { background: var(--dnd5e-color-table-row-even); }
+      &:nth-child(odd) { background: var(--degringo5e-color-table-row-odd); }
+      &:nth-child(even) { background: var(--degringo5e-color-table-row-even); }
     }
   }
   .card.items {
@@ -60,8 +60,8 @@
         margin: 0 -.75em;
         padding: 6px .75em;
 
-        &:nth-child(odd) { background: var(--dnd5e-color-table-row-odd); }
-        &:nth-child(even) { background: var(--dnd5e-color-table-row-even); }
+        &:nth-child(odd) { background: var(--degringo5e-color-table-row-odd); }
+        &:nth-child(even) { background: var(--degringo5e-color-table-row-even); }
       }
     }
     .item-optional { display: inline-flex; }
@@ -88,7 +88,7 @@
     padding: 4px;
   }
   .hint.warning {
-    color: var(--dnd5e-color-maroon);
+    color: var(--degringo5e-color-maroon);
     font-weight: bold;
   }
 }
@@ -97,7 +97,7 @@
 /*  Ability Score Improvement                */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.ability-score-improvement {
+.degringo5e2.advancement.ability-score-improvement {
   .ability-scores {
     contain: layout;
     display: grid;
@@ -142,7 +142,7 @@
         justify-content: center;
         gap: 4px;
         font-size: var(--font-size-12);
-        > dnd5e-checkbox {
+        > degringo5e-checkbox {
           width: 14px;
           height: 14px;
         }
@@ -158,7 +158,7 @@
 /*  Choose Items Advancement                 */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.item-choice.sheet {
+.degringo5e2.advancement.item-choice.sheet {
   --grid-column-left-size: 1fr;
   --grid-column-center-size: .8fr;
   --grid-column-right-size: .5fr;
@@ -177,7 +177,7 @@
 /*  Grant Items Advancement                  */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.item-grant.sheet {
+.degringo5e2.advancement.item-grant.sheet {
   .card.items {
     grid-template-columns: [optional] 1fr [name] 3fr [controls] 20px;
     .item-optional { grid-column: optional; }
@@ -188,7 +188,7 @@
 /*  Scale Value Advancement                  */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.scale-value.sheet {
+.degringo5e2.advancement.scale-value.sheet {
   --grid-column-right-size: .6fr;
   .identifier-hint {
     code {
@@ -224,7 +224,7 @@
 /*  Size Advancement                         */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.size.sheet {
+.degringo5e2.advancement.size.sheet {
   .trait-list {
     column-gap: 24px;
     row-gap: 6px;
@@ -235,7 +235,7 @@
 /*  Advancement Manager                      */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.manager.application {
+.degringo5e2.advancement.manager.application {
   [data-application-part="manager"] {
     gap: 12px;
 
@@ -243,14 +243,14 @@
       h3 {
         padding-block-end: 0;
         color: var(--color-text-dark-primary);
-        font-family: var(--dnd5e-font-roboto-condensed);
+        font-family: var(--degringo5e-font-roboto-condensed);
         font-size: var(--font-size-20);
         text-shadow: none;
       }
-      &.dnd5e {
+      &.degringo5e {
         h4 {
           color: var(--color-text-dark-primary);
-          font-family: var(--dnd5e-font-roboto);
+          font-family: var(--degringo5e-font-roboto);
           text-shadow: none;
         }
       }
@@ -262,7 +262,7 @@
     button { height: var(--input-height); }
 
     label > span {
-      font-family: var(--dnd5e-font-roboto-slab);
+      font-family: var(--degringo5e-font-roboto-slab);
       font-weight: bold;
       font-size: var(--font-size-12);
     }
@@ -286,7 +286,7 @@
       .control-button { padding-inline: 4px; }
       img[data-action] {
         cursor: var(--cursor-pointer);
-        &:hover { box-shadow: 0 0 12px var(--dnd5e-color-gold); }
+        &:hover { box-shadow: 0 0 12px var(--degringo5e-color-gold); }
       }
     }
   }
@@ -323,7 +323,7 @@
 /*  Trait Advancement                        */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement.trait.sheet {
+.degringo5e2.advancement.trait.sheet {
   .selected-trait {
     li {
       display: flex;
@@ -354,7 +354,7 @@
 /*  Advancement Migration                    */
 /* ----------------------------------------- */
 
-.dnd5e2.advancement-migration {
+.degringo5e2.advancement-migration {
   --icon-size: 32px;
   --gold-icon-size: 32px;
   .items {

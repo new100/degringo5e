@@ -13,7 +13,7 @@ export default class SummonUsageDialog extends ActivityUsageDialog {
   static PARTS = {
     ...super.PARTS,
     creation: {
-      template: "systems/dnd5e/templates/activity/summon-usage-creation.hbs"
+      template: "systems/degringo5e/templates/activity/summon-usage-creation.hbs"
     }
   };
 

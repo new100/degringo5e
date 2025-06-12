@@ -17,7 +17,7 @@ export default class OrderUsageDialog extends ActivityUsageDialog {
   /** @override */
   static PARTS = {
     order: {
-      template: "systems/dnd5e/templates/activity/order-usage.hbs"
+      template: "systems/degringo5e/templates/activity/order-usage.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"
@@ -54,7 +54,7 @@ export default class OrderUsageDialog extends ActivityUsageDialog {
    * @protected
    */
   _prepareCostsContext(context, { days, gold }) {
-    const { duration } = game.settings.get("dnd5e", "bastionConfiguration");
+    const { duration } = game.settings.get("degringo5e", "bastionConfiguration");
     context.costs = {
       days: {
         field: new NumberField({ nullable: true, integer: true, min: 0, label: "DEGRINGO5E.TimeDay" }),
@@ -175,7 +175,7 @@ export default class OrderUsageDialog extends ActivityUsageDialog {
       return;
     }
 
-    let { duration } = game.settings.get("dnd5e", "bastionConfiguration");
+    let { duration } = game.settings.get("degringo5e", "bastionConfiguration");
     if ( (this.activity.order === "craft") || (this.activity.order === "harvest") ) {
       await this._prepareCraftContext(context, options);
     }

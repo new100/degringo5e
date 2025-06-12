@@ -1,7 +1,7 @@
 <div class="field-group">
     {{ formInput fields.custom.fields.enabled name=(concat prefix "custom.enabled") value=source.custom.enabled
                  input=@root.inputs.createCheckboxInput classes="singleton"
-                 dataset=(dnd5e-object tooltip="DEGRINGO5E.DAMAGE.FIELDS.damage.parts.FIELDS.custom.enabled.hint")
+                 dataset=(degringo5e-object tooltip="DEGRINGO5E.DAMAGE.FIELDS.damage.parts.FIELDS.custom.enabled.hint")
                  ariaLabel=(localize "DEGRINGO5E.DAMAGE.FIELDS.damage.parts.FIELDS.custom.enabled.hint")}}
     {{#if source.custom.enabled}}
 

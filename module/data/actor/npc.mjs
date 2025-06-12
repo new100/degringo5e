@@ -506,7 +506,7 @@ export default class NPCData extends CreatureTemplate {
     if ( !max ) return "";
     const pr = getPluralRules().select(max);
     const rulesVersion = this.source?.rules
-      || (game.settings.get("dnd5e", "rulesVersion") === "modern" ? "2024" : "2014");
+      || (game.settings.get("degringo5e", "rulesVersion") === "modern" ? "2024" : "2014");
     return game.i18n.format(`DEGRINGO5E.LegendaryAction.Description${rulesVersion === "2014" ? "Legacy" : ""}`, {
       name: name.toLowerCase(),
       uses: this.resources.lair.value ? game.i18n.format("DEGRINGO5E.LegendaryAction.LairUses", {
@@ -546,10 +546,10 @@ export default class NPCData extends CreatureTemplate {
    */
   async resistSave(message) {
     if ( this.resources.legres.value === 0 ) throw new Error("No legendary resistances remaining.");
-    if ( message.flags.dnd5e?.roll?.type !== "save" ) throw new Error("Chat message must contain a save roll.");
-    if ( message.flags.dnd5e?.roll?.forceSuccess ) throw new Error("Save has already been resisted.");
+    if ( message.flags.degringo5e?.roll?.type !== "save" ) throw new Error("Chat message must contain a save roll.");
+    if ( message.flags.degringo5e?.roll?.forceSuccess ) throw new Error("Save has already been resisted.");
     await this.parent.update({ "system.resources.legres.value": this.resources.legres.value - 1 });
-    await message.setFlag("dnd5e", "roll.forceSuccess", true);
+    await message.setFlag("degringo5e", "roll.forceSuccess", true);
   }
 
   /* -------------------------------------------- */
@@ -569,19 +569,19 @@ export default class NPCData extends CreatureTemplate {
     }
     const template = document.createElement("template");
     template.innerHTML = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/actors/embeds/npc-embed.hbs", context
+      "systems/degringo5e/templates/actors/embeds/npc-embed.hbs", context
     );
 
     /**
      * A hook event that fires after an embedded NPC stat block rendered.
-     * @function dnd5e.renderNPCStatBlock
+     * @function degringo5e.renderNPCStatBlock
      * @memberof hookEvents
      * @param {Actor5e} actor                   NPC being embedded.
      * @param {HTMLTemplateElement} template    Template whose children will be embedded.
      * @param {DocumentHTMLEmbedConfig} config  Configuration for embedding behavior.
      * @param {EnrichmentOptions} options       Original enrichment options.
      */
-    Hooks.call("dnd5e.renderNPCStatBlock", this.parent, template, config, options);
+    Hooks.call("degringo5e.renderNPCStatBlock", this.parent, template, config, options);
 
     return template.content;
   }

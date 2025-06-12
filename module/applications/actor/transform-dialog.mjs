@@ -49,15 +49,15 @@ export default class TransformDialog extends Dialog5e {
   /** @override */
   static PARTS = {
     details: {
-      template: "systems/dnd5e/templates/apps/transform-details.hbs"
+      template: "systems/degringo5e/templates/apps/transform-details.hbs"
     },
     presets: {
       container: { id: "settings-area" },
-      template: "systems/dnd5e/templates/apps/transform-presets.hbs"
+      template: "systems/degringo5e/templates/apps/transform-presets.hbs"
     },
     settings: {
       container: { id: "settings-area" },
-      template: "systems/dnd5e/templates/apps/transform-settings.hbs"
+      template: "systems/degringo5e/templates/apps/transform-settings.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"
@@ -177,14 +177,14 @@ export default class TransformDialog extends Dialog5e {
       const config = foundry.utils.getProperty(CONFIG.DEGRINGO5E.transformation, field.name);
       if ( !config?.disables?.length ) return;
       const names = config.disables.map(d => d.includes("*") ? `[name^="${d.replace("*", "")}"]` : `[name="${d}"]`);
-      const selector = `dnd5e-checkbox:is(${names.join(",")}):not([name="${field.name}"])`;
+      const selector = `degringo5e-checkbox:is(${names.join(",")}):not([name="${field.name}"])`;
       this.element.querySelectorAll(selector).forEach(element => {
         element.disabled = field.value;
         if ( element.disabled ) element.checked = false;
       });
     };
     if ( changed ) handleDisable(changed);
-    else this.element.querySelectorAll("dnd5e-checkbox").forEach(e => handleDisable(e));
+    else this.element.querySelectorAll("degringo5e-checkbox").forEach(e => handleDisable(e));
   }
 
   /* -------------------------------------------- */

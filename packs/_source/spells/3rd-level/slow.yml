@@ -64,8 +64,8 @@ system:
     - material
     - concentration
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -108,8 +108,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    dnd5eactivity300:
-      _id: dnd5eactivity300
+    degringo5eactivity300:
+      _id: degringo5eactivity300
       type: utility
       activation:
         type: action
@@ -154,7 +154,7 @@ flags: {}
 img: icons/magic/air/fog-gas-smoke-dense-pink.webp
 effects:
   - name: Slow
-    origin: Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz
+    origin: Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz
     duration:
       startTime: null
       seconds: 60
@@ -204,7 +204,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -219,10 +219,10 @@ folder: 5Si35RRLLaaoWvC3
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037367014
   modifiedTime: 1725992723597
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!yqUDoxk4x0NWG5Bz'

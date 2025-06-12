@@ -6,7 +6,7 @@ system:
       on a point within range. The cloud is &amp;Reference[heavilyobscured]. The
       cloud lingers in the air for the duration or until a strong wind (such as
       the one created by
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
       Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the
       Sphere must succeed on a Constitution saving throw or have the
       &amp;Reference[poisoned apply=false] condition until the end of the
@@ -61,8 +61,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: ''
@@ -164,7 +164,7 @@ type: spell
 img: icons/magic/air/fog-gas-smoke-dense-green.webp
 effects:
   - name: Stinking Poison
-    origin: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+    origin: Compendium.degringo5e.spells24.Item.phbsplStinkingCl
     duration:
       rounds: null
       startTime: null
@@ -192,11 +192,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1725649527395
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplStinkingCl.gFid0DG5HydORpr3'
 folder: HCovEE4VoPGlIbKi
@@ -204,17 +204,17 @@ sort: 100782
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425972615
   modifiedTime: 1745256798739
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplStinkingCl'

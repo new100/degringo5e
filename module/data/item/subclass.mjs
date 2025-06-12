@@ -45,7 +45,7 @@ export default class SubclassData extends ItemDataModel.mixin(ItemDescriptionTem
         label: "TYPES.Item.class",
         type: "set",
         config: {
-          choices: dnd5e.registry.classes.choices,
+          choices: degringo5e.registry.classes.choices,
           keyPath: "system.classIdentifier"
         }
       }],
@@ -92,7 +92,7 @@ export default class SubclassData extends ItemDataModel.mixin(ItemDescriptionTem
   async getSheetData(context) {
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.subclass) }];
     context.singleDescription = true;
-    context.parts = ["dnd5e.details-subclass", "dnd5e.details-spellcasting"];
+    context.parts = ["degringo5e.details-subclass", "degringo5e.details-spellcasting"];
   }
 
   /* -------------------------------------------- */

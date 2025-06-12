@@ -61,8 +61,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -109,7 +109,7 @@ type: spell
 img: icons/magic/control/fear-fright-white.webp
 effects:
   - name: Uncontrollable Laughter
-    origin: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+    origin: Compendium.degringo5e.spells24.Item.phbsplTashasHide
     duration:
       rounds: null
       startTime: null
@@ -144,7 +144,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -156,17 +156,17 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425974666
   modifiedTime: 1745256799043
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplTashasHide'

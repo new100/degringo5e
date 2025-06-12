@@ -37,23 +37,23 @@ export default class ActivitySheet extends PseudoDocumentSheet {
       template: "templates/generic/tab-navigation.hbs"
     },
     identity: {
-      template: "systems/dnd5e/templates/activity/identity.hbs",
+      template: "systems/degringo5e/templates/activity/identity.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-identity.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-identity.hbs"
       ]
     },
     activation: {
-      template: "systems/dnd5e/templates/activity/activation.hbs",
+      template: "systems/degringo5e/templates/activity/activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-time.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-targeting.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-time.hbs",
+        "systems/degringo5e/templates/activity/parts/activity-targeting.hbs",
+        "systems/degringo5e/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/effect.hbs",
+      template: "systems/degringo5e/templates/activity/effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-effects.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-effects.hbs"
       ]
     }
   };

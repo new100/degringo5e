@@ -21,7 +21,7 @@ export default class SourceConfig extends DocumentSheet5e {
   /** @override */
   static PARTS = {
     source: {
-      template: "systems/dnd5e/templates/apps/source-config.hbs"
+      template: "systems/degringo5e/templates/apps/source-config.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"

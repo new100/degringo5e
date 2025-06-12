@@ -47,7 +47,7 @@ export default class InventoryElement extends HTMLElement {
       width: 200,
       order: 800,
       priority: 1000,
-      template: "systems/dnd5e/templates/inventory/columns/capacity.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/capacity.hbs"
     },
     charges: {
       id: "charges",
@@ -55,14 +55,14 @@ export default class InventoryElement extends HTMLElement {
       order: 800,
       priority: 600,
       label: "DEGRINGO5E.Charges",
-      template: "systems/dnd5e/templates/inventory/columns/uses.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/uses.hbs"
     },
     controls: {
       id: "controls",
       width: 70,
       order: 1000,
       priority: 1000,
-      template: "systems/dnd5e/templates/inventory/columns/controls.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/controls.hbs"
     },
     formula: {
       id: "formula",
@@ -70,7 +70,7 @@ export default class InventoryElement extends HTMLElement {
       order: 700,
       priority: 700,
       label: "DEGRINGO5E.SpellHeader.Formula",
-      template: "systems/dnd5e/templates/inventory/columns/formula.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/formula.hbs"
     },
     price: {
       id: "price",
@@ -78,7 +78,7 @@ export default class InventoryElement extends HTMLElement {
       order: 300,
       priority: 300,
       label: "DEGRINGO5E.Price",
-      template: "systems/dnd5e/templates/inventory/columns/price.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/price.hbs"
     },
     range: {
       id: "range",
@@ -86,7 +86,7 @@ export default class InventoryElement extends HTMLElement {
       order: 300,
       priority: 800,
       label: "DEGRINGO5E.SpellHeader.Range",
-      template: "systems/dnd5e/templates/inventory/columns/range.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/range.hbs"
     },
     recovery: {
       id: "recovery",
@@ -94,7 +94,7 @@ export default class InventoryElement extends HTMLElement {
       order: 400,
       priority: 500,
       label: "DEGRINGO5E.Recovery",
-      template: "systems/dnd5e/templates/inventory/columns/recovery.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/recovery.hbs"
     },
     roll: {
       id: "roll",
@@ -102,7 +102,7 @@ export default class InventoryElement extends HTMLElement {
       order: 600,
       priority: 800,
       label: "DEGRINGO5E.SpellHeader.Roll",
-      template: "systems/dnd5e/templates/inventory/columns/roll.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/roll.hbs"
     },
     school: {
       id: "school",
@@ -110,7 +110,7 @@ export default class InventoryElement extends HTMLElement {
       order: 100,
       priority: 100,
       label: "DEGRINGO5E.SpellHeader.School",
-      template: "systems/dnd5e/templates/inventory/columns/school.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/school.hbs"
     },
     target: {
       id: "target",
@@ -118,7 +118,7 @@ export default class InventoryElement extends HTMLElement {
       order: 400,
       priority: 800,
       label: "DEGRINGO5E.SpellHeader.Target",
-      template: "systems/dnd5e/templates/inventory/columns/target.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/target.hbs"
     },
     time: {
       id: "time",
@@ -126,7 +126,7 @@ export default class InventoryElement extends HTMLElement {
       order: 200,
       priority: 800,
       label: "DEGRINGO5E.SpellHeader.Time",
-      template: "systems/dnd5e/templates/inventory/columns/time.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/time.hbs"
     },
     quantity: {
       id: "quantity",
@@ -134,7 +134,7 @@ export default class InventoryElement extends HTMLElement {
       order: 500,
       priority: 500,
       label: "DEGRINGO5E.Quantity",
-      template: "systems/dnd5e/templates/inventory/columns/quantity.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/quantity.hbs"
     },
     uses: {
       id: "uses",
@@ -142,7 +142,7 @@ export default class InventoryElement extends HTMLElement {
       order: 500,
       priority: 600,
       label: "DEGRINGO5E.Uses",
-      template: "systems/dnd5e/templates/inventory/columns/uses.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/uses.hbs"
     },
     weight: {
       id: "weight",
@@ -150,7 +150,7 @@ export default class InventoryElement extends HTMLElement {
       order: 400,
       priority: 400,
       label: "DEGRINGO5E.Weight",
-      template: "systems/dnd5e/templates/inventory/columns/weight.hbs"
+      template: "systems/degringo5e/templates/inventory/columns/weight.hbs"
     }
   };
 
@@ -362,7 +362,7 @@ export default class InventoryElement extends HTMLElement {
       name: "DEGRINGO5E.Scroll.CreateScroll",
       icon: '<i class="fa-solid fa-scroll"></i>',
       condition: () => {
-        const isSpell = (item.type === "spell") && !item.getFlag("dnd5e", "cachedFor");
+        const isSpell = (item.type === "spell") && !item.getFlag("degringo5e", "cachedFor");
         const canEdit = this.actor.isOwner && !this.actor.collection.locked;
         return isSpell && canEdit;
       },
@@ -373,7 +373,7 @@ export default class InventoryElement extends HTMLElement {
       group: "action"
     }, {
       name: "DEGRINGO5E.ConcentrationBreak",
-      icon: '<dnd5e-icon src="systems/dnd5e/icons/svg/break-concentration.svg"></dnd5e-icon>',
+      icon: '<degringo5e-icon src="systems/degringo5e/icons/svg/break-concentration.svg"></degringo5e-icon>',
       condition: () => this.actor?.concentration?.items.has(item),
       callback: () => this.actor?.endConcentration(item),
       group: "state"
@@ -401,7 +401,7 @@ export default class InventoryElement extends HTMLElement {
       condition: () => {
         const isPrepared = ("preparation" in item.system) && (item.system.preparation.mode === "prepared");
         const canEdit = item.isOwner && !compendiumLocked;
-        return !item.hasRecharge && isPrepared && canEdit && !item.getFlag("dnd5e", "cachedFor");
+        return !item.hasRecharge && isPrepared && canEdit && !item.getFlag("degringo5e", "cachedFor");
       },
       callback: li => this._onAction(li, "prepare"),
       group: "state"
@@ -630,7 +630,7 @@ export default class InventoryElement extends HTMLElement {
     if ( element.closest("[data-activity-id]") ) UtilityActivity.onContextMenu(item, element);
     else {
       ui.context.menuItems = this._getContextOptions(item, element);
-      Hooks.callAll("dnd5e.getItemContextOptions", item, ui.context.menuItems);
+      Hooks.callAll("degringo5e.getItemContextOptions", item, ui.context.menuItems);
     }
   }
 
@@ -724,7 +724,7 @@ export default class InventoryElement extends HTMLElement {
       } else {
         const chatData = await item.getChatData({secrets: this.document.isOwner});
         const summary = $(await foundry.applications.handlebars.renderTemplate(
-          "systems/dnd5e/templates/items/parts/item-summary.hbs", chatData
+          "systems/degringo5e/templates/items/parts/item-summary.hbs", chatData
         ));
         $(li).append(summary.hide());
         summary.slideDown(200);
@@ -748,7 +748,7 @@ export default class InventoryElement extends HTMLElement {
       this.app.expandedSections.set(item.id, false);
     } else {
       const context = await item.getChatData({ secrets: item.isOwner });
-      const template = "systems/dnd5e/templates/items/parts/item-summary.hbs";
+      const template = "systems/degringo5e/templates/items/parts/item-summary.hbs";
       const content = await foundry.applications.handlebars.renderTemplate(template, context);
       summary.querySelectorAll(".item-summary").forEach(el => el.remove());
       summary.insertAdjacentHTML("beforeend", content);

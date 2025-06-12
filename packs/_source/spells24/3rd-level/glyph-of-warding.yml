@@ -95,8 +95,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -136,8 +136,8 @@ system:
       name: Spell Glyph
       img: ''
       appliedEffects: []
-    dnd5eactivity100:
-      _id: dnd5eactivity100
+    degringo5eactivity100:
+      _id: degringo5eactivity100
       type: save
       activation:
         type: action
@@ -206,17 +206,17 @@ sort: 1800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956670
   modifiedTime: 1745256793844
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplGlyphofWar'

@@ -16,13 +16,13 @@ export default class ItemGrantConfig extends AdvancementConfig {
   static PARTS = {
     ...super.PARTS,
     details: {
-      template: "systems/dnd5e/templates/advancement/item-grant-config-details.hbs"
+      template: "systems/degringo5e/templates/advancement/item-grant-config-details.hbs"
     },
     spellConfig: {
-      template: "systems/dnd5e/templates/advancement/advancement-spell-config-section.hbs"
+      template: "systems/degringo5e/templates/advancement/advancement-spell-config-section.hbs"
     },
     items: {
-      template: "systems/dnd5e/templates/advancement/item-grant-config-items.hbs"
+      template: "systems/degringo5e/templates/advancement/item-grant-config-items.hbs"
     }
   };
 

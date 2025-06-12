@@ -19,7 +19,7 @@ export default class DamageActivity extends ActivityMixin(DamageActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "damage",
-      img: "systems/dnd5e/icons/svg/activity/damage.svg",
+      img: "systems/degringo5e/icons/svg/activity/damage.svg",
       title: "DEGRINGO5E.DAMAGE.Title",
       sheetClass: DamageSheet,
       usage: {
@@ -50,7 +50,7 @@ export default class DamageActivity extends ActivityMixin(DamageActivityData) {
 
   /** @override */
   async _triggerSubsequentActions(config, results) {
-    this.rollDamage({ event: config.event }, {}, { data: { "flags.dnd5e.originatingMessage": results.message?.id } });
+    this.rollDamage({ event: config.event }, {}, { data: { "flags.degringo5e.originatingMessage": results.message?.id } });
   }
 
   /* -------------------------------------------- */

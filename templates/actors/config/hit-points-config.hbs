@@ -1,5 +1,5 @@
 <section class="flexcol">
-    <div class="final-value">{{ dnd5e-numberFormat data.value }} / {{ dnd5e-numberFormat data.effectiveMax }}</div>
+    <div class="final-value">{{ degringo5e-numberFormat data.value }} / {{ degringo5e-numberFormat data.effectiveMax }}</div>
     <fieldset class="card">
         <legend>{{ localize "DEGRINGO5E.HitPointsMax" }}</legend>
         {{#if showCalculation}}
@@ -15,7 +15,7 @@
         <div class="form-group">
             <label>{{{ anchor }}}</label>
             <div class="form-fields">
-                {{{ dnd5e-numberParts total signDisplay="always" }}}
+                {{{ degringo5e-numberParts total signDisplay="always" }}}
             </div>
         </div>
         {{/each}}
@@ -23,7 +23,7 @@
         <div class="form-group">
             <label>{{ ability.name }}</label>
             <div class="form-fields">
-                {{{ dnd5e-numberParts ability.mod signDisplay="always" }}}
+                {{{ degringo5e-numberParts ability.mod signDisplay="always" }}}
                 {{{ @root.levelMultiplier }}}
             </div>
         </div>

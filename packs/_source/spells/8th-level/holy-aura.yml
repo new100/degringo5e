@@ -61,8 +61,8 @@ system:
     - material
     - concentration
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -100,8 +100,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    dnd5eactivity100:
-      _id: dnd5eactivity100
+    degringo5eactivity100:
+      _id: degringo5eactivity100
       type: save
       activation:
         type: action
@@ -151,10 +151,10 @@ folder: x1XTiOgx4DJ34wc5
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037363483
   modifiedTime: 1725992722229
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!j8S49Rea8b1640Zi'

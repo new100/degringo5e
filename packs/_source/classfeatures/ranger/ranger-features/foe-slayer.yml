@@ -28,8 +28,8 @@ system:
   requirements: Ranger 20
   properties: []
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: damage
       activation:
         type: special
@@ -91,8 +91,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    dnd5eactivity300:
-      _id: dnd5eactivity300
+    degringo5eactivity300:
+      _id: degringo5eactivity300
       type: utility
       activation:
         type: special
@@ -155,10 +155,10 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037379602
   modifiedTime: 1725992286933
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!3CaP1vFHVR8LgHjx'

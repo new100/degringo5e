@@ -122,41 +122,41 @@ export default class CompendiumBrowser extends Application5e {
     header: {
       id: "header",
       classes: ["header"],
-      template: "systems/dnd5e/templates/compendium/browser-header.hbs"
+      template: "systems/degringo5e/templates/compendium/browser-header.hbs"
     },
     search: {
       id: "sidebar-search",
       classes: ["filter-element"],
       container: { id: "sidebar", classes: ["sidebar", "flexcol"] },
-      template: "systems/dnd5e/templates/compendium/browser-sidebar-search.hbs"
+      template: "systems/degringo5e/templates/compendium/browser-sidebar-search.hbs"
     },
     types: {
       id: "sidebar-types",
       container: { id: "sidebar", classes: ["sidebar", "flexcol"] },
-      template: "systems/dnd5e/templates/compendium/browser-sidebar-types.hbs"
+      template: "systems/degringo5e/templates/compendium/browser-sidebar-types.hbs"
     },
     filters: {
       id: "sidebar-filters",
       container: { id: "sidebar", classes: ["sidebar", "flexcol"] },
-      template: "systems/dnd5e/templates/compendium/browser-sidebar-filters.hbs",
-      templates: ["systems/dnd5e/templates/compendium/browser-sidebar-filter-set.hbs"]
+      template: "systems/degringo5e/templates/compendium/browser-sidebar-filters.hbs",
+      templates: ["systems/degringo5e/templates/compendium/browser-sidebar-filter-set.hbs"]
     },
     results: {
       id: "results",
       classes: ["results"],
-      template: "systems/dnd5e/templates/compendium/browser-results.hbs",
-      templates: ["systems/dnd5e/templates/compendium/browser-entry.hbs"],
+      template: "systems/degringo5e/templates/compendium/browser-results.hbs",
+      templates: ["systems/degringo5e/templates/compendium/browser-entry.hbs"],
       scrollable: [""]
     },
     footer: {
       id: "footer",
       classes: ["footer"],
-      template: "systems/dnd5e/templates/compendium/browser-footer.hbs"
+      template: "systems/degringo5e/templates/compendium/browser-footer.hbs"
     },
     tabs: {
       id: "tabs",
       classes: ["tabs", "tabs-left"],
-      template: "systems/dnd5e/templates/compendium/browser-tabs.hbs"
+      template: "systems/degringo5e/templates/compendium/browser-tabs.hbs"
     }
   };
 
@@ -178,21 +178,21 @@ export default class CompendiumBrowser extends Application5e {
     {
       tab: "classes",
       label: "TYPES.Item.classPl",
-      svg: "systems/dnd5e/icons/svg/items/class.svg",
+      svg: "systems/degringo5e/icons/svg/items/class.svg",
       documentClass: "Item",
       types: ["class"]
     },
     {
       tab: "subclasses",
       label: "TYPES.Item.subclassPl",
-      svg: "systems/dnd5e/icons/svg/items/subclass.svg",
+      svg: "systems/degringo5e/icons/svg/items/subclass.svg",
       documentClass: "Item",
       types: ["subclass"]
     },
     {
       tab: "races",
       label: "TYPES.Item.racePl",
-      svg: "systems/dnd5e/icons/svg/items/race.svg",
+      svg: "systems/degringo5e/icons/svg/items/race.svg",
       documentClass: "Item",
       types: ["race"]
     },
@@ -206,14 +206,14 @@ export default class CompendiumBrowser extends Application5e {
     {
       tab: "backgrounds",
       label: "TYPES.Item.backgroundPl",
-      svg: "systems/dnd5e/icons/svg/items/background.svg",
+      svg: "systems/degringo5e/icons/svg/items/background.svg",
       documentClass: "Item",
       types: ["background"]
     },
     {
       tab: "physical",
       label: "DEGRINGO5E.CompendiumBrowser.Tabs.Item.other",
-      svg: "systems/dnd5e/icons/svg/backpack.svg",
+      svg: "systems/degringo5e/icons/svg/backpack.svg",
       documentClass: "Item",
       types: ["physical"]
     },
@@ -227,28 +227,28 @@ export default class CompendiumBrowser extends Application5e {
     {
       tab: "monsters",
       label: "DEGRINGO5E.CompendiumBrowser.Tabs.Monster.other",
-      svg: "systems/dnd5e/icons/svg/monster.svg",
+      svg: "systems/degringo5e/icons/svg/monster.svg",
       documentClass: "Actor",
       types: ["npc"]
     },
     {
       tab: "vehicles",
       label: "TYPES.Actor.vehiclePl",
-      svg: "systems/dnd5e/icons/svg/vehicle.svg",
+      svg: "systems/degringo5e/icons/svg/vehicle.svg",
       documentClass: "Actor",
       types: ["vehicle"]
     },
     {
       tab: "actors",
       label: "DOCUMENT.Actors",
-      svg: "systems/dnd5e/icons/svg/monster.svg",
+      svg: "systems/degringo5e/icons/svg/monster.svg",
       documentClass: "Actor",
       advanced: true
     },
     {
       tab: "items",
       label: "DOCUMENT.Items",
-      svg: "systems/dnd5e/icons/svg/backpack.svg",
+      svg: "systems/degringo5e/icons/svg/backpack.svg",
       documentClass: "Item",
       advanced: true
     }
@@ -415,7 +415,7 @@ export default class CompendiumBrowser extends Application5e {
     super._configureRenderOptions(options);
     if ( options.isFirstRender ) {
       const tab = this.constructor.TABS.find(t => t.tab === this.options.tab);
-      if ( tab ) foundry.utils.setProperty(options, "dnd5e.browser.types", tab.types);
+      if ( tab ) foundry.utils.setProperty(options, "degringo5e.browser.types", tab.types);
     }
   }
 
@@ -519,7 +519,7 @@ export default class CompendiumBrowser extends Application5e {
     context.isLocked.filters = ("additional" in this.options.filters.locked);
     context.isLocked.types = ("types" in this.options.filters.locked) || context.isLocked.filters;
     context.isLocked.documentClass = ("documentClass" in this.options.filters.locked) || context.isLocked.types;
-    const types = foundry.utils.getProperty(options, "dnd5e.browser.types") ?? [];
+    const types = foundry.utils.getProperty(options, "degringo5e.browser.types") ?? [];
 
     if ( partId === "types" ) {
       context.showTypes = (types.length !== 1) || (types[0] === "physical");
@@ -653,7 +653,7 @@ export default class CompendiumBrowser extends Application5e {
       selected: this.#selected.has(uuid)
     };
     const html = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/compendium/browser-entry.hbs", context
+      "systems/degringo5e/templates/compendium/browser-entry.hbs", context
     );
     const template = document.createElement("template");
     template.innerHTML = html;
@@ -664,7 +664,7 @@ export default class CompendiumBrowser extends Application5e {
         <i class="fa-solid fa-spinner fa-spin-pulse" inert></i>
       </section>
     `;
-    element.dataset.tooltipClass = "dnd5e2 dnd5e-tooltip item-tooltip";
+    element.dataset.tooltipClass = "degringo5e2 degringo5e-tooltip item-tooltip";
     element.dataset.tooltipDirection ??= "RIGHT";
     return element;
   }
@@ -714,7 +714,7 @@ export default class CompendiumBrowser extends Application5e {
       return obj;
     }, {});
     const filter = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/compendium/browser-sidebar-filter-set.hbs",
+      "systems/degringo5e/templates/compendium/browser-sidebar-filter-set.hbs",
       {
         locked,
         value: locked,
@@ -737,7 +737,7 @@ export default class CompendiumBrowser extends Application5e {
     let { types } = target.dataset;
     types = types ? types.split(",") : [];
     this._applyTabFilters(tab);
-    this.render({ parts: ["results", "filters", "types"], dnd5e: { browser: { types } }, changedTab: true });
+    this.render({ parts: ["results", "filters", "types"], degringo5e: { browser: { types } }, changedTab: true });
   }
 
   /* -------------------------------------------- */
@@ -818,8 +818,8 @@ export default class CompendiumBrowser extends Application5e {
    */
   #adjustCheckboxStates(htmlElement) {
     for ( const groupArea of htmlElement.querySelectorAll(".type-group") ) {
-      const group = groupArea.querySelector(".type-group-header dnd5e-checkbox");
-      const children = groupArea.querySelectorAll(".wrapper dnd5e-checkbox");
+      const group = groupArea.querySelector(".type-group-header degringo5e-checkbox");
+      const children = groupArea.querySelectorAll(".wrapper degringo5e-checkbox");
       if ( Array.from(children).every(e => e.checked) ) {
         group.checked = true;
         group.indeterminate = false;
@@ -961,12 +961,12 @@ export default class CompendiumBrowser extends Application5e {
 
     /**
      * Hook event that calls when a compendium browser is submitted with selected items.
-     * @function dnd5e.compendiumBrowserSelection
+     * @function degringo5e.compendiumBrowserSelection
      * @memberof hookEvents
      * @param {CompendiumBrowser} browser  Compendium Browser application being submitted.
      * @param {Set<string>} selected       Set of document UUIDs that are selected.
      */
-    Hooks.callAll("dnd5e.compendiumBrowserSelection", this, this.#selected);
+    Hooks.callAll("degringo5e.compendiumBrowserSelection", this, this.#selected);
   }
 
   /* -------------------------------------------- */
@@ -1022,7 +1022,7 @@ export default class CompendiumBrowser extends Application5e {
 
     else {
       target.indeterminate = false;
-      for ( const child of target.closest(".type-group").querySelectorAll("dnd5e-checkbox[value]") ) {
+      for ( const child of target.closest(".type-group").querySelectorAll("degringo5e-checkbox[value]") ) {
         child.checked = target.checked;
         if ( target.checked ) this.#filters.types.add(child.defaultValue);
         else this.#filters.types.delete(child.defaultValue);
@@ -1060,7 +1060,7 @@ export default class CompendiumBrowser extends Application5e {
     const types = target.checked ? [] : (activeTab?.types ?? ["class"]);
     this._applyModeFilters(this._mode);
     this._applyTabFilters(activeTab?.tab);
-    this.render({ parts: ["results", "filters", "types", "tabs"], dnd5e: { browser: { types } }, changedTab: true });
+    this.render({ parts: ["results", "filters", "types", "tabs"], degringo5e: { browser: { types } }, changedTab: true });
   }
 
   /* -------------------------------------------- */
@@ -1106,13 +1106,13 @@ export default class CompendiumBrowser extends Application5e {
         && sources.has(p.collection)
 
         // If types are set and specified in compendium flag, only include those that include the correct types
-        && (!types.size || !p.metadata.flags.dnd5e?.types || new Set(p.metadata.flags.dnd5e.types).intersects(types)))
+        && (!types.size || !p.metadata.flags.degringo5e?.types || new Set(p.metadata.flags.degringo5e.types).intersects(types)))
 
       // Generate an index based on the needed fields
       .map(async p => await Promise.all((await p.getIndex({ fields: Array.from(indexFields) })
 
         // Apply module art to the new index
-        .then(index => game.dnd5e.moduleArt.apply(index)))
+        .then(index => game.degringo5e.moduleArt.apply(index)))
 
         // Derive source values
         .map(i => {

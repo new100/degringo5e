@@ -52,8 +52,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -96,7 +96,7 @@ type: spell
 img: icons/magic/control/debuff-chains-orb-movement-blue.webp
 effects:
   - name: Silenced
-    origin: Compendium.dnd5e.spells24.Item.phbsplSilence000
+    origin: Compendium.degringo5e.spells24.Item.phbsplSilence000
     duration:
       rounds: null
       startTime: null
@@ -131,7 +131,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -143,17 +143,17 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425970956
   modifiedTime: 1745256798254
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplSilence000'

@@ -70,7 +70,7 @@ export default class CombatTracker5e extends foundry.applications.sidebar.tabs.C
       const children = list.querySelectorAll(Array.from(combatants).map(c => `[data-combatant-id="${c.id}"]`).join(", "));
       if ( !children.length ) continue;
       const groupContainer = document.createElement("li");
-      groupContainer.classList.add("combatant", "combatant-group", "collapsible", "dnd5e2-collapsible");
+      groupContainer.classList.add("combatant", "combatant-group", "collapsible", "degringo5e2-collapsible");
       if ( !expanded ) groupContainer.classList.add("collapsed");
 
       // Determine the count

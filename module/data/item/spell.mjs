@@ -107,7 +107,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
           let exclude = new Set();
           for ( const [type, identifiers] of Object.entries(value ?? {}) ) {
             for ( const [identifier, v] of Object.entries(identifiers) ) {
-              const list = dnd5e.registry.spellLists.forType(type, identifier);
+              const list = degringo5e.registry.spellLists.forType(type, identifier);
               if ( !list || (v === 0) ) continue;
               if ( v === 1 ) include = include.union(list.uuids);
               else if ( v === -1 ) exclude = exclude.union(list.uuids);
@@ -117,7 +117,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
           if ( exclude.size ) filters.push({ o: "NOT", v: { k: "uuid", o: "in", v: exclude } });
         },
         config: {
-          choices: dnd5e.registry.spellLists.options.reduce((obj, entry) => {
+          choices: degringo5e.registry.spellLists.options.reduce((obj, entry) => {
             obj[`${entry.type}.${entry.value}`] = entry.label;
             return obj;
           }, {})
@@ -148,7 +148,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   static _migrateComponentData(source) {
     const components = filteredKeys(source.system?.components ?? {});
     if ( components.length ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.migratedProperties", components);
+      foundry.utils.setProperty(source, "flags.degringo5e.migratedProperties", components);
     }
   }
 
@@ -221,7 +221,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     Object.defineProperty(labels, "classes", {
       get() {
         return game.i18n.getListFormatter({ style: "narrow" }).format(
-          Array.from(dnd5e.registry.spellLists.forSpell(uuid))
+          Array.from(degringo5e.registry.spellLists.forSpell(uuid))
             .filter(list => list.metadata.type === "class")
             .map(list => list.name)
             .sort((lhs, rhs) => lhs.localeCompare(rhs, game.i18n.lang))
@@ -292,7 +292,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
       { label: context.labels.classes, classes: "full-width" }
     ];
 
-    context.parts = ["dnd5e.details-spell", "dnd5e.field-uses"];
+    context.parts = ["degringo5e.details-spell", "degringo5e.field-uses"];
 
     // Default Ability & Spellcasting Classes
     if ( this.parent.actor ) {
@@ -397,7 +397,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
   /** @override */
   get criticalThreshold() {
-    return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
+    return this.parent?.actor?.flags.degringo5e?.spellCriticalThreshold ?? Infinity;
   }
 
   /* -------------------------------------------- */
@@ -408,13 +408,13 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
    */
   get linkedActivity() {
     const relative = this.parent.actor;
-    const uuid = this.parent.getFlag("dnd5e", "cachedFor");
+    const uuid = this.parent.getFlag("degringo5e", "cachedFor");
     if ( !relative || !uuid ) return null;
     const data = foundry.utils.parseUuid(uuid, { relative });
     const [itemId, , activityId] = (data?.embedded ?? []).slice(-3);
     return relative.items.get(itemId)?.system.activities?.get(activityId) ?? null;
     // TODO: Swap back to fromUuidSync once https://github.com/foundryvtt/foundryvtt/issues/11214 is resolved
-    // return fromUuidSync(this.parent.getFlag("dnd5e", "cachedFor"), { relative, strict: false }) ?? null;
+    // return fromUuidSync(this.parent.getFlag("degringo5e", "cachedFor"), { relative, strict: false }) ?? null;
   }
 
   /* -------------------------------------------- */
@@ -496,7 +496,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   /** @inheritDoc */
   getRollData(...options) {
     const data = super.getRollData(...options);
-    data.item.level = data.item.level + (this.parent.getFlag("dnd5e", "scaling") ?? 0);
+    data.item.level = data.item.level + (this.parent.getFlag("degringo5e", "scaling") ?? 0);
     return data;
   }
 
@@ -543,7 +543,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
     // Create intersection of spellcasting classes and classes that offer the spell
     const spellClasses = new Set(
-      dnd5e.registry.spellLists.forSpell(this.parent._stats.compendiumSource).map(l => l.metadata.identifier)
+      degringo5e.registry.spellLists.forSpell(this.parent._stats.compendiumSource).map(l => l.metadata.identifier)
     );
     const intersection = classes.intersection(spellClasses);
     if ( intersection.size === 1 ) setClass(intersection.first());

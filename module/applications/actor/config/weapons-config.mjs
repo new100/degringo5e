@@ -16,7 +16,7 @@ export default class WeaponsConfig extends TraitsConfig {
   /** @override */
   static PARTS = {
     traits: {
-      template: "systems/dnd5e/templates/actors/config/weapons-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/weapons-config.hbs"
     }
   };
 

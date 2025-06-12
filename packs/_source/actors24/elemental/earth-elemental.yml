@@ -600,11 +600,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEarthGlide0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717149
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -651,11 +651,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSiegeMonster00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717149
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -734,7 +734,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -742,11 +742,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717149
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -875,11 +875,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSlam0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717149
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1019,7 +1019,7 @@ items:
     img: icons/magic/earth/projectile-boulder-debris.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmRockLaunch0000
         _id: fdpMlJbmkKQfJlME
         type: base
@@ -1047,7 +1047,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1056,7 +1056,7 @@ items:
         _key: >-
           !actors.items.effects!mmEarthElemental.mmRockLaunch0000.fdpMlJbmkKQfJlME
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1064,11 +1064,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRockLaunch0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717149
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1080,11 +1080,11 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712717176
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

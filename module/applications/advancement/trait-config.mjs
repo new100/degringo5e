@@ -34,23 +34,23 @@ export default class TraitConfig extends AdvancementConfig {
   static PARTS = {
     config: {
       container: { classes: ["column-container"], id: "column-left" },
-      template: "systems/dnd5e/templates/advancement/advancement-controls-section.hbs"
+      template: "systems/degringo5e/templates/advancement/advancement-controls-section.hbs"
     },
     details: {
       container: { classes: ["column-container"], id: "column-left" },
-      template: "systems/dnd5e/templates/advancement/trait-config-details.hbs"
+      template: "systems/degringo5e/templates/advancement/trait-config-details.hbs"
     },
     guaranteed: {
       container: { classes: ["column-container"], id: "column-left" },
-      template: "systems/dnd5e/templates/advancement/trait-config-guaranteed.hbs"
+      template: "systems/degringo5e/templates/advancement/trait-config-guaranteed.hbs"
     },
     choices: {
       container: { classes: ["column-container"], id: "column-left" },
-      template: "systems/dnd5e/templates/advancement/trait-config-choices.hbs"
+      template: "systems/degringo5e/templates/advancement/trait-config-choices.hbs"
     },
     traits: {
       container: { classes: ["column-container"], id: "column-right" },
-      template: "systems/dnd5e/templates/advancement/trait-config-traits.hbs"
+      template: "systems/degringo5e/templates/advancement/trait-config-traits.hbs"
     }
   };
 
@@ -165,10 +165,10 @@ export default class TraitConfig extends AdvancementConfig {
   _onRender(context, options) {
     super._onRender(context, options);
     // Handle selecting & disabling category children when a category is selected
-    for ( const checkbox of this.element.querySelectorAll(".trait-list dnd5e-checkbox[checked]") ) {
+    for ( const checkbox of this.element.querySelectorAll(".trait-list degringo5e-checkbox[checked]") ) {
       const toCheck = (checkbox.name.endsWith("*") || checkbox.name.endsWith("ALL"))
-        ? checkbox.closest("ol").querySelectorAll(`dnd5e-checkbox:not([name="${checkbox.name}"])`)
-        : checkbox.closest("li").querySelector("ol")?.querySelectorAll("dnd5e-checkbox");
+        ? checkbox.closest("ol").querySelectorAll(`degringo5e-checkbox:not([name="${checkbox.name}"])`)
+        : checkbox.closest("li").querySelector("ol")?.querySelectorAll("degringo5e-checkbox");
       toCheck?.forEach(i => i.checked = i.disabled = true);
     }
   }

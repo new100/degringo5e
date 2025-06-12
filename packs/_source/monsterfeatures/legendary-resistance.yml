@@ -24,8 +24,8 @@ system:
     subtype: ''
   requirements: ''
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: special
@@ -81,7 +81,7 @@ system:
         visible: false
       sort: 0
       name: Expend Use
-      img: systems/dnd5e/icons/svg/monster.svg
+      img: systems/degringo5e/icons/svg/monster.svg
       appliedEffects: []
   enchant: {}
   prerequisites:
@@ -90,7 +90,7 @@ system:
     - trait
   identifier: legendary-resistance
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
@@ -101,10 +101,10 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.3.8
   createdTime: 1725304968656
   modifiedTime: 1744318649828
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!J1NxNTJ2qi05iAFF'

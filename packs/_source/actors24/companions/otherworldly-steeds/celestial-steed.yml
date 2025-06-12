@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
         caption=false]</p>
       public: ''
     alignment: Neutral
@@ -520,7 +520,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -528,11 +528,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159669
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostCelestial0.phbaoiLifeBond00'
   - name: Otherworldly Slam
@@ -562,8 +562,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -654,11 +654,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159669
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostCelestial0.phbaoiOtherworld'
   - name: Healing Touch
@@ -689,8 +689,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: heal
           activation:
             type: bonus
@@ -774,11 +774,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159669
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostCelestial0.phbaoiHealingTou'
 effects: []
@@ -787,15 +787,15 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917570
   modifiedTime: 1745256827822
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!phbostCelestial0'

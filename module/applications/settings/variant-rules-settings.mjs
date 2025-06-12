@@ -16,13 +16,13 @@ export default class VariantRulesSettingsConfig extends BaseSettingsConfig {
   /** @override */
   static PARTS = {
     general: {
-      template: "systems/dnd5e/templates/settings/base-config.hbs"
+      template: "systems/degringo5e/templates/settings/base-config.hbs"
     },
     encumbrance: {
-      template: "systems/dnd5e/templates/settings/base-config.hbs"
+      template: "systems/degringo5e/templates/settings/base-config.hbs"
     },
     abilities: {
-      template: "systems/dnd5e/templates/settings/base-config.hbs"
+      template: "systems/degringo5e/templates/settings/base-config.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"
@@ -39,7 +39,7 @@ export default class VariantRulesSettingsConfig extends BaseSettingsConfig {
     switch ( partId ) {
       case "general":
         context.fields = [
-          game.settings.get("dnd5e", "rulesVersion") === "legacy" ? this.createSettingField("allowFeats") : null,
+          game.settings.get("degringo5e", "rulesVersion") === "legacy" ? this.createSettingField("allowFeats") : null,
           this.createSettingField("restVariant"),
           this.createSettingField("proficiencyModifier"),
           this.createSettingField("levelingMode")

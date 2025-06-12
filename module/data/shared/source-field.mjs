@@ -40,7 +40,7 @@ export default class SourceField extends SchemaField {
   static prepareData(uuid) {
     const collection = foundry.utils.parseUuid(uuid)?.collection;
     const pkg = SourceField.getPackage(collection);
-    this.bookPlaceholder = collection?.metadata?.flags?.dnd5e?.sourceBook ?? SourceField.getModuleBook(pkg) ?? "";
+    this.bookPlaceholder = collection?.metadata?.flags?.degringo5e?.sourceBook ?? SourceField.getModuleBook(pkg) ?? "";
     if ( !this.book ) this.book = this.bookPlaceholder;
 
     if ( this.custom ) this.label = this.custom;
@@ -70,7 +70,7 @@ export default class SourceField extends SchemaField {
    */
   static getModuleBook(pkg) {
     if ( !pkg ) return null;
-    const sourceBooks = pkg.flags?.dnd5e?.sourceBooks;
+    const sourceBooks = pkg.flags?.degringo5e?.sourceBooks;
     const keys = Object.keys(sourceBooks ?? {});
     if ( keys.length !== 1 ) return null;
     return keys[0];

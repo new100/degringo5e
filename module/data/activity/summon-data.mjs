@@ -140,8 +140,8 @@ export default class SummonActivityData extends BaseActivityData {
    */
   get summonedCreatures() {
     if ( !this.actor ) return [];
-    return dnd5e.registry.summons.creatures(this.actor)
-      .filter(i => i?.getFlag("dnd5e", "summon.origin") === this.uuid);
+    return degringo5e.registry.summons.creatures(this.actor)
+      .filter(i => i?.getFlag("degringo5e", "summon.origin") === this.uuid);
   }
 
   /* -------------------------------------------- */

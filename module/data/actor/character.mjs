@@ -221,7 +221,7 @@ export default class CharacterData extends CreatureTemplate {
       const required = xp.max - xp.min;
       const pct = Math.round((xp.value - xp.min) * 100 / required);
       xp.pct = Math.clamp(pct, 0, 100);
-    } else if ( game.settings.get("dnd5e", "levelingMode") === "xpBoons" ) {
+    } else if ( game.settings.get("degringo5e", "levelingMode") === "xpBoons" ) {
       const overflow = xp.value - this.parent.getLevelExp(CONFIG.DEGRINGO5E.maxLevel);
       xp.boonsEarned = Math.max(0, Math.floor(overflow / CONFIG.DEGRINGO5E.epicBoonInterval));
       const progress = overflow - (CONFIG.DEGRINGO5E.epicBoonInterval * xp.boonsEarned);

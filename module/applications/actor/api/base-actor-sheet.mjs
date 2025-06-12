@@ -47,7 +47,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   constructor(options={}) {
     // Set initial size based on saved size
     const key = `${options.document?.type}${options.document?.limited ? ":limited" : ""}`;
-    const { width, height } = game.user.getFlag("dnd5e", `sheetPrefs.${key}`) ?? {};
+    const { width, height } = game.user.getFlag("degringo5e", `sheetPrefs.${key}`) ?? {};
     options.position ??= {};
     if ( width && !("width" in options.position) ) options.position.width = width;
     if ( height && !("height" in options.position) ) options.position.height = height;
@@ -72,8 +72,8 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     },
     classes: ["actor", "standard-form"],
     elements: {
-      effects: "dnd5e-effects",
-      inventory: "dnd5e-inventory"
+      effects: "degringo5e-effects",
+      inventory: "degringo5e-inventory"
     },
     form: {
       submitOnChange: true
@@ -100,11 +100,11 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    */
   static LIMITED_PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/limited-header.hbs"
+      template: "systems/degringo5e/templates/actors/limited-header.hbs"
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/limited-body.hbs",
+      template: "systems/degringo5e/templates/actors/limited-body.hbs",
       scrollable: [""]
     }
   };
@@ -200,9 +200,9 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       limited: this.actor.limited,
       modernRules: this.actor.system.source?.rules
         ? this.actor.system.source.rules === "2024"
-        : game.settings.get("dnd5e", "rulesVersion") === "modern",
+        : game.settings.get("degringo5e", "rulesVersion") === "modern",
       rollableClass: this.isEditable ? "rollable" : "",
-      sidebarCollapsed: !!game.user.getFlag("dnd5e", this._sidebarCollapsedKeyPath),
+      sidebarCollapsed: !!game.user.getFlag("degringo5e", this._sidebarCollapsedKeyPath),
       system: this.actor.system,
       user: game.user,
       warnings: foundry.utils.deepClone(this.actor._preparationWarnings)
@@ -240,7 +240,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         );
         name = label;
       }
-      const id = staticID(`dnd5e${k}`);
+      const id = staticID(`degringo5e${k}`);
       conditionIds.add(id);
       const existing = this.actor.effects.get(id);
       const { disabled } = existing ?? {};
@@ -277,7 +277,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
           id, name, img, disabled, duration, source, toggleable,
           parentId: effect.target === effect.parent ? null : effect.parent.id,
           durationParts: duration.remaining ? duration.label.split(", ") : [],
-          hasTooltip: source instanceof dnd5e.documents.Item5e
+          hasTooltip: source instanceof degringo5e.documents.Item5e
         });
         return arr;
       }, []);
@@ -344,13 +344,13 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       classes: Object.values(this.document.classes)
         .map(cls => ({ value: cls.id, label: cls.name }))
         .sort((lhs, rhs) => lhs.label.localeCompare(rhs.label, game.i18n.lang)),
-      data: source.flags?.dnd5e ?? {},
+      data: source.flags?.degringo5e ?? {},
       disabled: this._mode === this.constructor.MODES.PLAY
     };
 
     // Character Flags
     for ( const [key, config] of Object.entries(CONFIG.DEGRINGO5E.characterFlags) ) {
-      const flag = { ...config, name: `flags.dnd5e.${key}`, value: foundry.utils.getProperty(flags.data, key) };
+      const flag = { ...config, name: `flags.degringo5e.${key}`, value: foundry.utils.getProperty(flags.data, key) };
       const fieldOptions = { label: config.name, hint: config.hint };
       if ( config.type === Boolean ) {
         flag.field = new BooleanField(fieldOptions);
@@ -494,7 +494,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    * @protected
    */
   _preparePortrait(context) {
-    const showTokenPortrait = this.actor.getFlag("dnd5e", "showTokenPortrait") === true;
+    const showTokenPortrait = this.actor.getFlag("degringo5e", "showTokenPortrait") === true;
     const token = this.actor.isToken ? this.actor.token : this.actor.prototypeToken;
     const defaultArtwork = Actor.implementation.getDefaultArtwork(this.actor._source)?.img;
     return {
@@ -637,7 +637,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       const sl = `spell${s}`;
 
       // Spells from items
-      if ( spell.getFlag("dnd5e", "cachedFor") ) {
+      if ( spell.getFlag("degringo5e", "cachedFor") ) {
         s = "item";
         if ( !spell.system.linkedActivity?.displayInSpellbook ) return;
         if ( !spellbook[s] ) {
@@ -857,7 +857,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Activities
     ctx.activities = item.system.activities
-      ?.filter(a => !item.getFlag("dnd5e", "riders.activity")?.includes(a.id))
+      ?.filter(a => !item.getFlag("degringo5e", "riders.activity")?.includes(a.id))
       ?.map(this._prepareActivity.bind(this));
 
     // Concentration
@@ -874,7 +874,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       : game.i18n.localize("DEGRINGO5E.AbbreviationDC") : null;
 
     // Linked Uses
-    const cachedFor = fromUuidSync(item.flags.dnd5e?.cachedFor, { relative: this.actor, strict: false });
+    const cachedFor = fromUuidSync(item.flags.degringo5e?.cachedFor, { relative: this.actor, strict: false });
     if ( cachedFor ) ctx.linkedUses = cachedFor.consumption?.targets.find(t => t.type === "activityUses")
       ? cachedFor.uses : cachedFor.consumption?.targets.find(t => t.type === "itemUses")
         ? cachedFor.item.system.uses : null;
@@ -1072,7 +1072,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         const button = document.createElement("button");
         Object.assign(button, { type: "button", className: classes, ariaLabel: label, ariaPressed: filled });
         Object.assign(button.dataset, { n, tooltip, action: "togglePip" });
-        const icon = '<dnd5e-icon src="systems/dnd5e/icons/svg/spell-slot.svg"></dnd5e-icon>';
+        const icon = '<degringo5e-icon src="systems/degringo5e/icons/svg/spell-slot.svg"></degringo5e-icon>';
         button.insertAdjacentHTML("afterbegin", icon);
         slots.append(button);
       });
@@ -1144,7 +1144,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Collapse sidebar
     if ( this.tabGroups.primary ) {
-      const sidebarCollapsed = !!game.user.getFlag("dnd5e", this._sidebarCollapsedKeyPath);
+      const sidebarCollapsed = !!game.user.getFlag("degringo5e", this._sidebarCollapsedKeyPath);
       this.element.classList.toggle("sidebar-collapsed", sidebarCollapsed);
     }
 
@@ -1232,7 +1232,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const classId = event.target.closest("[data-item-id]")?.dataset.itemId;
     if ( !delta || !classId ) return;
     const classItem = this.actor.items.get(classId);
-    if ( !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( !game.settings.get("degringo5e", "disableAdvancements") ) {
       const manager = AdvancementManager.forLevelChange(this.actor, classId, delta);
       if ( manager.steps.length ) {
         if ( delta > 0 ) return manager.render({ force: true });
@@ -1262,7 +1262,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     }));
 
     // Toggle sidebar
-    const sidebarCollapsed = game.user.getFlag("dnd5e", this._sidebarCollapsedKeyPath);
+    const sidebarCollapsed = game.user.getFlag("degringo5e", this._sidebarCollapsedKeyPath);
     if ( sidebarCollapsed !== undefined ) this._toggleSidebar(sidebarCollapsed);
   }
 
@@ -1415,7 +1415,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   #saveSheetSize(position) {
     const { width, height } = position;
     const key = `${this.actor.type}${this.actor.limited ? ":limited": ""}`;
-    game.user.setFlag("dnd5e", `sheetPrefs.${key}`, { width, height });
+    game.user.setFlag("degringo5e", `sheetPrefs.${key}`, { width, height });
   }
 
   /* -------------------------------------------- */
@@ -1427,7 +1427,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    * @param {HTMLElement} target  Button that was clicked.
    */
   static #showArtwork(event, target) {
-    const showTokenPortrait = this.actor.getFlag("dnd5e", "showTokenPortrait") === true;
+    const showTokenPortrait = this.actor.getFlag("degringo5e", "showTokenPortrait") === true;
     const token = this.actor.isToken ? this.actor.token : this.actor.prototypeToken;
     const img = showTokenPortrait ? token.texture.src : this.actor.img;
     new foundry.applications.apps.ImagePopout({
@@ -1555,7 +1555,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    */
   static #toggleSidebar(event, target) {
     const collapsed = this._toggleSidebar();
-    game.user.setFlag("dnd5e", this._sidebarCollapsedKeyPath, collapsed);
+    game.user.setFlag("degringo5e", this._sidebarCollapsedKeyPath, collapsed);
   }
 
   /* -------------------------------------------- */
@@ -1587,11 +1587,11 @@ export default class BaseActorSheet extends PrimarySheetMixin(
     const submitData = super._processFormData(event, form, formData);
 
     // Remove any flags that are false-ish
-    for ( const [key, value] of Object.entries(submitData.flags?.dnd5e ?? {}) ) {
+    for ( const [key, value] of Object.entries(submitData.flags?.degringo5e ?? {}) ) {
       if ( value ) continue;
-      delete submitData.flags.dnd5e[key];
-      if ( foundry.utils.hasProperty(this.document._source, `flags.dnd5e.${key}`) ) {
-        submitData.flags.dnd5e[`-=${key}`] = null;
+      delete submitData.flags.degringo5e[key];
+      if ( foundry.utils.hasProperty(this.document._source, `flags.degringo5e.${key}`) ) {
+        submitData.flags.degringo5e[`-=${key}`] = null;
       }
     }
 
@@ -1674,15 +1674,15 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
   /** @override */
   async _onDropActor(event, actor) {
-    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("dnd5e", "allowPolymorphing"));
+    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("degringo5e", "allowPolymorphing"));
     if ( !canPolymorph || (this.tabGroups.primary === "bastion") ) return;
 
     // Configure the transformation
     const settings = await TransformDialog.promptSettings(this.actor, actor, {
-      transform: { settings: game.settings.get("dnd5e", "transformationSettings") }
+      transform: { settings: game.settings.get("degringo5e", "transformationSettings") }
     });
     if ( !settings ) return;
-    await game.settings.set("dnd5e", "transformationSettings", settings.toObject());
+    await game.settings.set("degringo5e", "transformationSettings", settings.toObject());
 
     return this.actor.transformInto(actor, settings);
   }
@@ -1731,7 +1731,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
   async _onDropCreateItems(event, items, behavior) {
     const itemsWithoutAdvancement = items.filter(i => !i.system.advancement?.length);
     const multipleAdvancements = (items.length - itemsWithoutAdvancement.length) > 1;
-    if ( multipleAdvancements && !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( multipleAdvancements && !game.settings.get("degringo5e", "disableAdvancements") ) {
       ui.notifications.warn(game.i18n.format("DEGRINGO5E.WarnCantAddMultipleAdvancements"));
       items = itemsWithoutAdvancement;
     }
@@ -1788,7 +1788,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     // Bypass normal creation flow for any items with advancement
     if ( this.actor.system.metadata?.supportsAdvancement && itemData.system.advancement?.length
-        && !game.settings.get("dnd5e", "disableAdvancements") ) {
+        && !game.settings.get("degringo5e", "disableAdvancements") ) {
       // Ensure that this item isn't violating the singleton rule
       const dataModel = CONFIG.Item.dataModels[itemData.type];
       const singleton = dataModel?.metadata.singleton ?? false;
@@ -1952,14 +1952,14 @@ export default class BaseActorSheet extends PrimarySheetMixin(
 
     /**
      * A hook event that fires when a sheet filters an item.
-     * @function dnd5e.filterItem
+     * @function degringo5e.filterItem
      * @memberof hookEvents
      * @param {BaseActorSheet|ContainerSheet} sheet     The sheet the item is being rendered on.
      * @param {Item5e} item                             The item being filtered.
      * @param {Set<string>} filters                     Filters applied to the Item.
      * @returns {false|void} Return false to hide the item, otherwise other filters will continue to apply.
      */
-    if ( Hooks.call("dnd5e.filterItem", this, item, filters) === false ) return false;
+    if ( Hooks.call("degringo5e.filterItem", this, item, filters) === false ) return false;
   }
 
   /* -------------------------------------------- */

@@ -26,7 +26,7 @@ export default class BaseRestDialog extends Dialog5e {
     position: {
       width: 380
     },
-    templates: ["systems/dnd5e/templates/actors/rest/rest-request.hbs"]
+    templates: ["systems/degringo5e/templates/actors/rest/rest-request.hbs"]
   };
 
   /* -------------------------------------------- */
@@ -69,7 +69,7 @@ export default class BaseRestDialog extends Dialog5e {
    */
   get promptNewDay() {
     const duration = CONFIG.DEGRINGO5E.restTypes[this.config.type]
-      ?.duration?.[game.settings.get("dnd5e", "restVariant")] ?? 0;
+      ?.duration?.[game.settings.get("degringo5e", "restVariant")] ?? 0;
     // Only prompt if rest is longer than 10 minutes and less than 24 hours
     return (duration > 10) && (duration < 1440);
   }
@@ -102,7 +102,7 @@ export default class BaseRestDialog extends Dialog5e {
       hd: this.actor.system.attributes?.hd,
       hp: this.actor.system.attributes?.hp,
       isGroup: this.actor.type === "group",
-      variant: game.settings.get("dnd5e", "restVariant")
+      variant: game.settings.get("degringo5e", "restVariant")
     };
     if ( this.promptNewDay ) context.fields.push({
       disabled: !!this.config.request,
@@ -137,7 +137,7 @@ export default class BaseRestDialog extends Dialog5e {
     });
 
     if ( this.isPartyGroup ) {
-      const restSettings = this.actor.getFlag("dnd5e", "restSettings") ?? {};
+      const restSettings = this.actor.getFlag("degringo5e", "restSettings") ?? {};
       context.request = [
         {
           field: new BooleanField({
@@ -179,7 +179,7 @@ export default class BaseRestDialog extends Dialog5e {
     const data = foundry.utils.expandObject(formData.object);
     if ( this.isPartyGroup ) {
       data.targets = filteredKeys(data.targets ?? {});
-      this.actor.setFlag("dnd5e", "restSettings", data);
+      this.actor.setFlag("degringo5e", "restSettings", data);
     }
     foundry.utils.mergeObject(this.config, data);
     this.#rested = true;

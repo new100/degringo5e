@@ -55,8 +55,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -105,7 +105,7 @@ type: spell
 img: icons/magic/sonic/explosion-shock-sound-wave.webp
 effects:
   - name: Calmed
-    origin: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+    origin: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
     duration:
       rounds: null
       startTime: null
@@ -141,7 +141,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -149,7 +149,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplCalmEmotio.xwyUvd93d4A5LHHH'
   - name: Indifference
-    origin: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+    origin: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
     duration:
       rounds: null
       startTime: null
@@ -175,10 +175,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
+        Compendium.degringo5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -191,17 +191,17 @@ sort: 4700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425944343
   modifiedTime: 1745256787417
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplCalmEmotio'

@@ -37,13 +37,13 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
   /** @inheritDoc */
   static metadata = Object.freeze(foundry.utils.mergeObject(super.metadata, {
     type: "order",
-    img: "systems/dnd5e/icons/svg/activity/order.svg",
+    img: "systems/degringo5e/icons/svg/activity/order.svg",
     title: "DEGRINGO5E.FACILITY.Order.Issue",
     usage: {
       actions: {
         pay: OrderActivity.#onPayOrder
       },
-      chatCard: "systems/dnd5e/templates/chat/order-activity-card.hbs",
+      chatCard: "systems/degringo5e/templates/chat/order-activity-card.hbs",
       dialog: OrderUsageDialog
     }
   }, { inplace: false }));
@@ -206,7 +206,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
   _prepareUsageScaling(usageConfig, messageConfig, item) {
     // FIXME: No scaling happening here, but this is the only context we have both usageConfig and messageConfig.
     const { costs, craft, trade } = usageConfig;
-    messageConfig.data.flags.dnd5e.order = { costs, craft, trade };
+    messageConfig.data.flags.degringo5e.order = { costs, craft, trade };
   }
 
   /* -------------------------------------------- */
@@ -220,7 +220,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
 
   /** @override */
   _usageChatButtons(message) {
-    const { costs } = message.data.flags.dnd5e.order;
+    const { costs } = message.data.flags.degringo5e.order;
     if ( !costs.gold || costs.paid ) return [];
     return [{
       label: game.i18n.localize("DEGRINGO5E.FACILITY.Costs.Automatic"),
@@ -237,7 +237,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
 
   /** @override */
   async _usageChatContext(message) {
-    const { costs, craft, trade } = message.data.flags.dnd5e.order;
+    const { costs, craft, trade } = message.data.flags.degringo5e.order;
     const { type } = this.item.system;
     const supplements = [];
     if ( costs.days ) supplements.push(`
@@ -303,8 +303,8 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
    */
   static async #onPayOrder(event, target, message) {
     const { method } = target.dataset;
-    const order = message.getFlag("dnd5e", "order");
-    const config = foundry.utils.expandObject({ "data.flags.dnd5e.order": order });
+    const order = message.getFlag("degringo5e", "order");
+    const config = foundry.utils.expandObject({ "data.flags.degringo5e.order": order });
     if ( method === "automatic" ) {
       try {
         await CurrencyManager.deductActorCurrency(this.actor, order.costs.gold, "gp", {
@@ -316,7 +316,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
         return;
       }
     }
-    foundry.utils.setProperty(config, "data.flags.dnd5e.order.costs.paid", true);
+    foundry.utils.setProperty(config, "data.flags.degringo5e.order.costs.paid", true);
     const context = await this._usageChatContext(config);
     const content = await foundry.applications.handlebars.renderTemplate(this.metadata.usage.chatCard, context);
     await message.update({ content, flags: config.data.flags });

@@ -20,15 +20,15 @@ export default class SummonSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/summon-identity.hbs",
+      template: "systems/degringo5e/templates/activity/summon-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/summon-effect.hbs",
+      template: "systems/degringo5e/templates/activity/summon-effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-effects.hbs",
-        "systems/dnd5e/templates/activity/parts/summon-changes.hbs",
-        "systems/dnd5e/templates/activity/parts/summon-profiles.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-effects.hbs",
+        "systems/degringo5e/templates/activity/parts/summon-changes.hbs",
+        "systems/degringo5e/templates/activity/parts/summon-profiles.hbs"
       ]
     }
   };

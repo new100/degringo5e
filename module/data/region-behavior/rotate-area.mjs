@@ -188,10 +188,10 @@ export default class RotateAreaRegionBehaviorType extends foundry.data.regionBeh
     });
 
     // Handle tile and token updates immediately to allow animation
-    await canvas.scene.updateEmbeddedDocuments("Tile", updates.tiles, { dnd5e: { animate: { ...animateFlags } } });
+    await canvas.scene.updateEmbeddedDocuments("Tile", updates.tiles, { degringo5e: { animate: { ...animateFlags } } });
     await canvas.scene.updateEmbeddedDocuments("Token", updates.tokens, {
       animate: false,
-      dnd5e: { animate: { ...animateFlags } },
+      degringo5e: { animate: { ...animateFlags } },
       movement: updates.tokens.reduce((obj, { _id }) => {
         obj[_id] = {
           constrainOptions: { ignoreWalls: true, ignoreCost: true },
@@ -301,8 +301,8 @@ export default class RotateAreaRegionBehaviorType extends foundry.data.regionBeh
    * @param {object} options
    */
   static preUpdatePlaceable(doc, changes, options) {
-    if ( foundry.utils.getProperty(options, "dnd5e.animate.moveDelta") && ( ("x" in changes) && ("y" in changes) ) ) {
-      foundry.utils.setProperty(options, `dnd5e.animate.moveOrigin.${doc.id}`, { x: doc.x, y: doc.y });
+    if ( foundry.utils.getProperty(options, "degringo5e.animate.moveDelta") && ( ("x" in changes) && ("y" in changes) ) ) {
+      foundry.utils.setProperty(options, `degringo5e.animate.moveOrigin.${doc.id}`, { x: doc.x, y: doc.y });
     }
   }
 
@@ -315,11 +315,11 @@ export default class RotateAreaRegionBehaviorType extends foundry.data.regionBeh
    * @param {object} options
    */
   static updatePlaceable(doc, changes, options) {
-    const originalPosition = foundry.utils.getProperty(options, `dnd5e.animate.moveOrigin.${doc.id}`);
-    const angle = foundry.utils.getProperty(options, "dnd5e.animate.angle");
-    const pivot = foundry.utils.getProperty(options, "dnd5e.animate.pivot");
+    const originalPosition = foundry.utils.getProperty(options, `degringo5e.animate.moveOrigin.${doc.id}`);
+    const angle = foundry.utils.getProperty(options, "degringo5e.animate.angle");
+    const pivot = foundry.utils.getProperty(options, "degringo5e.animate.pivot");
     if ( !angle ) return;
-    const duration = foundry.utils.getProperty(options, "dnd5e.animate.duration") ?? 500;
+    const duration = foundry.utils.getProperty(options, "degringo5e.animate.duration") ?? 500;
     foundry.canvas.animation.CanvasAnimation.animate([
       {
         attribute: "x",

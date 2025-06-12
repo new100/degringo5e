@@ -9,7 +9,7 @@ export default class HitPointsFlow extends AdvancementFlow {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: "systems/dnd5e/templates/advancement/hit-points-flow.hbs"
+      template: "systems/degringo5e/templates/advancement/hit-points-flow.hbs"
     });
   }
 

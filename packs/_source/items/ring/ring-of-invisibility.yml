@@ -58,8 +58,8 @@ system:
   properties:
     - mgc
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: utility
       activation:
         type: action
@@ -120,7 +120,7 @@ system:
 effects:
   - name: Invisibility
     img: icons/equipment/finger/ring-faceted-silver-orange.webp
-    origin: Compendium.dnd5e.items.Item.1J0dsxyKRhVXYQf5
+    origin: Compendium.degringo5e.items.Item.1J0dsxyKRhVXYQf5
     transfer: false
     _id: 7KHJyEznWKJ8rc5s
     type: base
@@ -145,11 +145,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731017665728
       modifiedTime: 1731017671713
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!items.effects!1J0dsxyKRhVXYQf5.7KHJyEznWKJ8rc5s'
 folder: 5jrDZJ1U23Q9jDqB
@@ -157,17 +157,17 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037085047
   modifiedTime: 1731017665769
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!1J0dsxyKRhVXYQf5'

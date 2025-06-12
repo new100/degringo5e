@@ -178,7 +178,7 @@ export default class VehicleData extends CommonTemplate {
     this.prepareAbilities({ rollData, originalSaves });
     AttributesFields.prepareArmorClass.call(this, rollData);
     AttributesFields.prepareEncumbrance.call(this, rollData, { validateItem: item =>
-      (item.flags.dnd5e?.vehicleCargo === true) || !["weapon", "equipment"].includes(item.type)
+      (item.flags.degringo5e?.vehicleCargo === true) || !["weapon", "equipment"].includes(item.type)
     });
     AttributesFields.prepareHitPoints.call(this, this.attributes.hp);
     AttributesFields.prepareInitiative.call(this, rollData);

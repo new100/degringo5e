@@ -21,7 +21,7 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "check",
-      img: "systems/dnd5e/icons/svg/activity/check.svg",
+      img: "systems/degringo5e/icons/svg/activity/check.svg",
       title: "DEGRINGO5E.CHECK.Title",
       sheetClass: CheckSheet,
       usage: {
@@ -62,7 +62,7 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
           <span class="hidden-dc">${wrap(label)}</span>
         ` : wrap(label),
         icon: checkType === "tool" ? '<i class="fa-solid fa-hammer" inert></i>'
-          : '<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/ability-score-improvement.svg" inert></i>',
+          : '<i class="degringo5e-icon" data-src="systems/degringo5e/icons/svg/ability-score-improvement.svg" inert></i>',
         dataset
       });
     };

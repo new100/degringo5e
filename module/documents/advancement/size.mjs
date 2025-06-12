@@ -17,7 +17,7 @@ export default class SizeAdvancement extends Advancement {
       },
       order: 25,
       icon: "icons/environment/wilderness/tree-ash.webp",
-      typeIcon: "systems/dnd5e/icons/svg/size.svg",
+      typeIcon: "systems/degringo5e/icons/svg/size.svg",
       title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Size.Title"),
       hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Size.Hint"),
       apps: {

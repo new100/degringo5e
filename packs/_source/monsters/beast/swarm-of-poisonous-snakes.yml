@@ -533,10 +533,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.eL3OJmc4FuetizKO
+      compendiumSource: Compendium.degringo5e.monsterfeatures.eL3OJmc4FuetizKO
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -554,7 +554,7 @@ items:
           swarm's space. Hit: [[/damage average]] damage, or [[/damage 1d6
           piercing average]] damage if the swarm has half of its hit points or
           fewer.</p><p>The target must make a [[/save]] saving throw, taking
-          [[/damage average activity=dnd5eactivity100]] damage on a failed save,
+          [[/damage average activity=degringo5eactivity100]] damage on a failed save,
           or half as much damage on a successful one.</p>
         chat: >-
           <p>The Swarm of Poisonous Snakes attacks with a flurry of Bites. The
@@ -631,8 +631,8 @@ items:
       container: null
       crewed: false
       activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
+        degringo5eactivity000:
+          _id: degringo5eactivity000
           type: attack
           activation:
             type: action
@@ -696,8 +696,8 @@ items:
           name: ''
           img: ''
           appliedEffects: []
-        dnd5eactivity100:
-          _id: dnd5eactivity100
+        degringo5eactivity100:
+          _id: degringo5eactivity100
           type: save
           activation:
             type: action
@@ -774,7 +774,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -782,11 +782,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741123471464
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     _key: '!actors.items!XfQMBoTh892XSnCX.OyLoUiIl3p2j4p59'
 effects: []
@@ -798,10 +798,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726171237545
   modifiedTime: 1741123477918
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!XfQMBoTh892XSnCX'

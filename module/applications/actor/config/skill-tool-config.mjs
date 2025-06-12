@@ -8,7 +8,7 @@ export default class SkillToolConfig extends BaseProficiencyConfig {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/skill-tool-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/skill-tool-config.hbs"
     }
   };
 

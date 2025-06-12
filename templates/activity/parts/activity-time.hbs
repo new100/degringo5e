@@ -6,12 +6,12 @@
                 {{#if activity.activation.canOverride}}
                 {{ formInput fields.activation.fields.override value=source.activation.override
                              input=inputs.createCheckboxInput
-                             dataset=(dnd5e-object tooltip="DEGRINGO5E.ACTIVATION.FIELDS.activation.override.hint")
+                             dataset=(degringo5e-object tooltip="DEGRINGO5E.ACTIVATION.FIELDS.activation.override.hint")
                              ariaLabel=(localize "DEGRINGO5E.ACTIVATION.FIELDS.activation.override.hint") }}
                 {{/if}}
             </label>
         </legend>
-        {{> "dnd5e.field-activation" activation=activity.activation fields=fields.activation.fields data=data.activation
+        {{> "degringo5e.field-activation" activation=activity.activation fields=fields.activation.fields data=data.activation
             activationTypes=activationTypes inputs=inputs label="DEGRINGO5E.ACTIVATION.FIELDS.activation.type.label" }}
     </fieldset>
 
@@ -22,12 +22,12 @@
                 {{#if activity.duration.canOverride}}
                 {{ formInput fields.duration.fields.override value=source.duration.override
                              input=inputs.createCheckboxInput
-                             dataset=(dnd5e-object tooltip="DEGRINGO5E.DURATION.FIELDS.duration.override.hint")
+                             dataset=(degringo5e-object tooltip="DEGRINGO5E.DURATION.FIELDS.duration.override.hint")
                              ariaLabel=(localize "DEGRINGO5E.DURATION.FIELDS.duration.override.hint") }}
                 {{/if}}
             </label>
         </legend>
-        {{> "dnd5e.field-duration" duration=activity.duration fields=fields.duration.fields data=data.duration
+        {{> "degringo5e.field-duration" duration=activity.duration fields=fields.duration.fields data=data.duration
             durationUnits=durationUnits inputs=inputs }}
         {{ formField fields.duration.fields.concentration value=data.duration.concentration
            input=inputs.createCheckboxInput }}

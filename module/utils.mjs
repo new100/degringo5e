@@ -394,7 +394,7 @@ const MODIFIER_CODES = {
 /**
  * Based on the provided event, determine if the keys are pressed to fulfill the specified keybinding.
  * @param {Event} event    Triggering event.
- * @param {string} action  Keybinding action within the `dnd5e` namespace.
+ * @param {string} action  Keybinding action within the `degringo5e` namespace.
  * @returns {boolean}      Is the keybinding triggered?
  */
 export function areKeysPressed(event, action) {
@@ -408,7 +408,7 @@ export function areKeysPressed(event, action) {
   addModifiers(MODIFIER_KEYS.CONTROL, event.ctrlKey);
   addModifiers("Meta", event.metaKey);
   addModifiers(MODIFIER_KEYS.SHIFT, event.shiftKey);
-  return game.keybindings.get("dnd5e", action).some(b => {
+  return game.keybindings.get("degringo5e", action).some(b => {
     if ( game.keyboard.downKeys.has(b.key) && b.modifiers.every(m => activeModifiers[m]) ) return true;
     if ( b.modifiers.length ) return false;
     return activeModifiers[b.key];
@@ -682,7 +682,7 @@ function _convertSystemUnits(value, from, to, config, { message, strict }) {
  */
 export function defaultUnits(type) {
   return CONFIG.DEGRINGO5E.defaultUnits[type]?.[
-    game.settings.get("dnd5e", `metric${type.capitalize()}Units`) ? "metric" : "imperial"
+    game.settings.get("degringo5e", `metric${type.capitalize()}Units`) ? "metric" : "imperial"
   ];
 }
 
@@ -734,88 +734,88 @@ export function parseOrString(raw) {
 /**
  * Define a set of template paths to pre-load. Pre-loaded templates are compiled and cached for fast access when
  * rendering. These paths will also be available as Handlebars partials by using the file name
- * (e.g. "dnd5e.actor-traits").
+ * (e.g. "degringo5e.actor-traits").
  * @returns {Promise}
  */
 export async function preloadHandlebarsTemplates() {
   const partials = [
     // Shared Partials
-    "systems/dnd5e/templates/shared/active-effects.hbs",
-    "systems/dnd5e/templates/shared/active-effects2.hbs",
-    "systems/dnd5e/templates/shared/inventory.hbs",
-    "systems/dnd5e/templates/apps/parts/trait-list.hbs",
-    "systems/dnd5e/templates/apps/parts/traits-list.hbs",
+    "systems/degringo5e/templates/shared/active-effects.hbs",
+    "systems/degringo5e/templates/shared/active-effects2.hbs",
+    "systems/degringo5e/templates/shared/inventory.hbs",
+    "systems/degringo5e/templates/apps/parts/trait-list.hbs",
+    "systems/degringo5e/templates/apps/parts/traits-list.hbs",
 
     // Actor Sheet Partials
-    "systems/dnd5e/templates/actors/parts/actor-classes.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-trait-pills.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-traits.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-features.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-inventory.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-warnings.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-warnings-dialog.hbs",
-    "systems/dnd5e/templates/actors/parts/biography-textbox.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-bastion.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-biography.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-details.hbs",
-    "systems/dnd5e/templates/actors/tabs/creature-special-traits.hbs",
-    "systems/dnd5e/templates/actors/tabs/group-members.hbs",
-    "systems/dnd5e/templates/actors/tabs/npc-biography.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-classes.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-trait-pills.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-traits.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-features.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-inventory.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-spellbook.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-warnings.hbs",
+    "systems/degringo5e/templates/actors/parts/actor-warnings-dialog.hbs",
+    "systems/degringo5e/templates/actors/parts/biography-textbox.hbs",
+    "systems/degringo5e/templates/actors/tabs/character-bastion.hbs",
+    "systems/degringo5e/templates/actors/tabs/character-biography.hbs",
+    "systems/degringo5e/templates/actors/tabs/character-details.hbs",
+    "systems/degringo5e/templates/actors/tabs/creature-special-traits.hbs",
+    "systems/degringo5e/templates/actors/tabs/group-members.hbs",
+    "systems/degringo5e/templates/actors/tabs/npc-biography.hbs",
 
     // Chat Message Partials
-    "systems/dnd5e/templates/chat/parts/card-activities.hbs",
-    "systems/dnd5e/templates/chat/parts/card-deltas.hbs",
+    "systems/degringo5e/templates/chat/parts/card-activities.hbs",
+    "systems/degringo5e/templates/chat/parts/card-deltas.hbs",
 
     // Item Sheet Partials
-    "systems/dnd5e/templates/items/details/details-background.hbs",
-    "systems/dnd5e/templates/items/details/details-class.hbs",
-    "systems/dnd5e/templates/items/details/details-consumable.hbs",
-    "systems/dnd5e/templates/items/details/details-container.hbs",
-    "systems/dnd5e/templates/items/details/details-equipment.hbs",
-    "systems/dnd5e/templates/items/details/details-facility.hbs",
-    "systems/dnd5e/templates/items/details/details-feat.hbs",
-    "systems/dnd5e/templates/items/details/details-loot.hbs",
-    "systems/dnd5e/templates/items/details/details-mountable.hbs",
-    "systems/dnd5e/templates/items/details/details-species.hbs",
-    "systems/dnd5e/templates/items/details/details-spell.hbs",
-    "systems/dnd5e/templates/items/details/details-spellcasting.hbs",
-    "systems/dnd5e/templates/items/details/details-starting-equipment.hbs",
-    "systems/dnd5e/templates/items/details/details-subclass.hbs",
-    "systems/dnd5e/templates/items/details/details-tool.hbs",
-    "systems/dnd5e/templates/items/details/details-weapon.hbs",
-    "systems/dnd5e/templates/items/parts/item-summary.hbs",
-    "systems/dnd5e/templates/items/parts/item-tooltip.hbs",
-    "systems/dnd5e/templates/items/parts/spell-block.hbs",
+    "systems/degringo5e/templates/items/details/details-background.hbs",
+    "systems/degringo5e/templates/items/details/details-class.hbs",
+    "systems/degringo5e/templates/items/details/details-consumable.hbs",
+    "systems/degringo5e/templates/items/details/details-container.hbs",
+    "systems/degringo5e/templates/items/details/details-equipment.hbs",
+    "systems/degringo5e/templates/items/details/details-facility.hbs",
+    "systems/degringo5e/templates/items/details/details-feat.hbs",
+    "systems/degringo5e/templates/items/details/details-loot.hbs",
+    "systems/degringo5e/templates/items/details/details-mountable.hbs",
+    "systems/degringo5e/templates/items/details/details-species.hbs",
+    "systems/degringo5e/templates/items/details/details-spell.hbs",
+    "systems/degringo5e/templates/items/details/details-spellcasting.hbs",
+    "systems/degringo5e/templates/items/details/details-starting-equipment.hbs",
+    "systems/degringo5e/templates/items/details/details-subclass.hbs",
+    "systems/degringo5e/templates/items/details/details-tool.hbs",
+    "systems/degringo5e/templates/items/details/details-weapon.hbs",
+    "systems/degringo5e/templates/items/parts/item-summary.hbs",
+    "systems/degringo5e/templates/items/parts/item-tooltip.hbs",
+    "systems/degringo5e/templates/items/parts/spell-block.hbs",
 
     // Field Partials
-    "systems/dnd5e/templates/shared/fields/field-activation.hbs",
-    "systems/dnd5e/templates/shared/fields/field-damage.hbs",
-    "systems/dnd5e/templates/shared/fields/field-duration.hbs",
-    "systems/dnd5e/templates/shared/fields/field-range.hbs",
-    "systems/dnd5e/templates/shared/fields/field-targets.hbs",
-    "systems/dnd5e/templates/shared/fields/field-uses.hbs",
-    "systems/dnd5e/templates/shared/fields/fieldlist.hbs",
-    "systems/dnd5e/templates/shared/fields/formlist.hbs",
+    "systems/degringo5e/templates/shared/fields/field-activation.hbs",
+    "systems/degringo5e/templates/shared/fields/field-damage.hbs",
+    "systems/degringo5e/templates/shared/fields/field-duration.hbs",
+    "systems/degringo5e/templates/shared/fields/field-range.hbs",
+    "systems/degringo5e/templates/shared/fields/field-targets.hbs",
+    "systems/degringo5e/templates/shared/fields/field-uses.hbs",
+    "systems/degringo5e/templates/shared/fields/fieldlist.hbs",
+    "systems/degringo5e/templates/shared/fields/formlist.hbs",
 
     // Journal Partials
-    "systems/dnd5e/templates/journal/parts/journal-legacy-traits.hbs",
-    "systems/dnd5e/templates/journal/parts/journal-modern-traits.hbs",
-    "systems/dnd5e/templates/journal/parts/journal-table.hbs",
+    "systems/degringo5e/templates/journal/parts/journal-legacy-traits.hbs",
+    "systems/degringo5e/templates/journal/parts/journal-modern-traits.hbs",
+    "systems/degringo5e/templates/journal/parts/journal-table.hbs",
 
     // Activity Partials
-    "systems/dnd5e/templates/activity/parts/activity-usage-notes.hbs",
+    "systems/degringo5e/templates/activity/parts/activity-usage-notes.hbs",
 
     // Advancement Partials
-    "systems/dnd5e/templates/advancement/parts/advancement-ability-score-control.hbs",
-    "systems/dnd5e/templates/advancement/parts/advancement-controls.hbs",
-    "systems/dnd5e/templates/advancement/parts/advancement-spell-config.hbs"
+    "systems/degringo5e/templates/advancement/parts/advancement-ability-score-control.hbs",
+    "systems/degringo5e/templates/advancement/parts/advancement-controls.hbs",
+    "systems/degringo5e/templates/advancement/parts/advancement-spell-config.hbs"
   ];
 
   const paths = {};
   for ( const path of partials ) {
     paths[path.replace(".hbs", ".html")] = path;
-    paths[`dnd5e.${path.split("/").pop().replace(".hbs", "")}`] = path;
+    paths[`degringo5e.${path.split("/").pop().replace(".hbs", "")}`] = path;
   }
 
   return foundry.applications.handlebars.loadTemplates(paths);
@@ -855,7 +855,7 @@ export function generateIcon(icon, { alt }={}) {
     element = document.createElement("i");
     element.className = icon;
   } else if ( icon ) {
-    element = document.createElement(icon.endsWith(".svg") ? "dnd5e-icon" : "img");
+    element = document.createElement(icon.endsWith(".svg") ? "degringo5e-icon" : "img");
     element.src = icon;
   } else {
     return null;
@@ -925,7 +925,7 @@ function groupedSelectOptions(choices, options) {
  * @returns {string}
  */
 function itemContext(context, options) {
-  if ( arguments.length !== 2 ) throw new Error("#dnd5e-itemContext requires exactly one argument");
+  if ( arguments.length !== 2 ) throw new Error("#degringo5e-itemContext requires exactly one argument");
   if ( foundry.utils.getType(context) === "function" ) context = context.call(this);
 
   const ctx = options.data.root.itemContext?.[context.id];
@@ -981,22 +981,22 @@ function makeObject({ hash }) {
 export function registerHandlebarsHelpers() {
   Handlebars.registerHelper({
     getProperty: foundry.utils.getProperty,
-    "dnd5e-concealSection": concealSection,
-    "dnd5e-dataset": dataset,
-    "dnd5e-icon": (icon, { hash: options }) => {
+    "degringo5e-concealSection": concealSection,
+    "degringo5e-dataset": dataset,
+    "degringo5e-icon": (icon, { hash: options }) => {
       let element = generateIcon(icon, options);
       if ( !element && options.fallback ) element = generateIcon(options.fallback, options);
       return element ? new Handlebars.SafeString(element.outerHTML) : "";
     },
-    "dnd5e-formatCR": formatCR,
-    "dnd5e-formatModifier": formatModifier,
-    "dnd5e-groupedSelectOptions": groupedSelectOptions,
-    "dnd5e-itemContext": itemContext,
-    "dnd5e-linkForUuid": (uuid, options) => linkForUuid(uuid, options.hash),
-    "dnd5e-numberFormat": (context, options) => formatNumber(context, options.hash),
-    "dnd5e-numberParts": (context, options) => formatNumberParts(context, options.hash),
-    "dnd5e-object": makeObject,
-    "dnd5e-textFormat": formatText
+    "degringo5e-formatCR": formatCR,
+    "degringo5e-formatModifier": formatModifier,
+    "degringo5e-groupedSelectOptions": groupedSelectOptions,
+    "degringo5e-itemContext": itemContext,
+    "degringo5e-linkForUuid": (uuid, options) => linkForUuid(uuid, options.hash),
+    "degringo5e-numberFormat": (context, options) => formatNumber(context, options.hash),
+    "degringo5e-numberParts": (context, options) => formatNumberParts(context, options.hash),
+    "degringo5e-object": makeObject,
+    "degringo5e-textFormat": formatText
   });
 }
 

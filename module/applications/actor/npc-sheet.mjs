@@ -27,59 +27,59 @@ export default class NPCActorSheet extends BaseActorSheet {
   /** @override */
   static PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/npc-header.hbs"
+      template: "systems/degringo5e/templates/actors/npc-header.hbs"
     },
     sidebarCollapser: {
       container: { classes: ["main-content"], id: "main" },
-      template: "systems/dnd5e/templates/actors/npc-sidebar-collapser.hbs"
+      template: "systems/degringo5e/templates/actors/npc-sidebar-collapser.hbs"
     },
     sidebar: {
       container: { classes: ["main-content"], id: "main" },
-      template: "systems/dnd5e/templates/actors/npc-sidebar.hbs"
+      template: "systems/degringo5e/templates/actors/npc-sidebar.hbs"
     },
     features: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-features.hbs",
-      templates: ["systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs"],
+      template: "systems/degringo5e/templates/actors/tabs/actor-features.hbs",
+      templates: ["systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs"],
       scrollable: [""]
     },
     inventory: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-inventory.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/actor-inventory.hbs",
       templates: [
-        "systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs",
-        "systems/dnd5e/templates/inventory/encumbrance.hbs"
+        "systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs",
+        "systems/degringo5e/templates/inventory/encumbrance.hbs"
       ],
       scrollable: [""]
     },
     spells: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-spells.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/creature-spells.hbs",
       scrollable: [""]
     },
     effects: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-effects.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/actor-effects.hbs",
       scrollable: [""]
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/npc-biography.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/npc-biography.hbs",
       scrollable: [""]
     },
     specialTraits: {
       classes: ["flexcol"],
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-special-traits.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/creature-special-traits.hbs",
       scrollable: [""]
     },
     warnings: {
-      template: "systems/dnd5e/templates/actors/parts/actor-warnings-dialog.hbs"
+      template: "systems/degringo5e/templates/actors/parts/actor-warnings-dialog.hbs"
     },
     tabs: {
       id: "tabs",
       classes: ["tabs-right"],
-      template: "systems/dnd5e/templates/shared/sidebar-tabs.hbs"
+      template: "systems/degringo5e/templates/shared/sidebar-tabs.hbs"
     }
   };
 
@@ -88,7 +88,7 @@ export default class NPCActorSheet extends BaseActorSheet {
   /** @override */
   static TABS = [
     { tab: "features", label: "DEGRINGO5E.Features", icon: "fas fa-list" },
-    { tab: "inventory", label: "DEGRINGO5E.Inventory", svg: "systems/dnd5e/icons/svg/backpack.svg" },
+    { tab: "inventory", label: "DEGRINGO5E.Inventory", svg: "systems/degringo5e/icons/svg/backpack.svg" },
     { tab: "spells", label: "TYPES.Item.spellPl", icon: "fas fa-book" },
     { tab: "effects", label: "DEGRINGO5E.Effects", icon: "fas fa-bolt" },
     { tab: "biography", label: "DEGRINGO5E.Biography", icon: "fas fa-feather" },
@@ -293,9 +293,9 @@ export default class NPCActorSheet extends BaseActorSheet {
     // Visibility
     if ( this._mode === this.constructor.MODES.PLAY ) {
       context.showDeathSaves = context.important && !context.system.attributes.hp.value;
-      context.showInitiativeScore = game.settings.get("dnd5e", "rulesVersion") === "modern";
+      context.showInitiativeScore = game.settings.get("degringo5e", "rulesVersion") === "modern";
     }
-    context.showLoyalty = context.important && game.settings.get("dnd5e", "loyaltyScore") && game.user.isGM;
+    context.showLoyalty = context.important && game.settings.get("degringo5e", "loyaltyScore") && game.user.isGM;
 
     return context;
   }
@@ -347,7 +347,7 @@ export default class NPCActorSheet extends BaseActorSheet {
     });
 
     // Skills & Tools
-    const skillSetting = game.settings.get("dnd5e", "defaultSkills");
+    const skillSetting = game.settings.get("degringo5e", "defaultSkills");
     context.skills = this._prepareSkillsTools(context, "skills")
       .filter(v => v.value || skillSetting.has(v.key) || v.bonuses.check || v.bonuses.passive);
     context.tools = this._prepareSkillsTools(context, "tools");

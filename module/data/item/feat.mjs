@@ -153,7 +153,7 @@ export default class FeatData extends ItemDataModel.mixin(
         placeholder: "DEGRINGO5E.Requirements" }
     ];
 
-    context.parts = ["dnd5e.details-feat", "dnd5e.field-uses"];
+    context.parts = ["degringo5e.details-feat", "degringo5e.field-uses"];
     const itemTypes = CONFIG.DEGRINGO5E.featureTypes[this._source.type.value];
     if ( itemTypes ) {
       context.itemType = itemTypes.label;

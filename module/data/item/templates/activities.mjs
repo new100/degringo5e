@@ -53,7 +53,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
    * @type {ActiveEffect5e[]}
    */
   get appliedEnchantments() {
-    return dnd5e.registry.enchantments.applied(this.parent.uuid);
+    return degringo5e.registry.enchantments.applied(this.parent.uuid);
   }
 
   /* -------------------------------------------- */
@@ -222,7 +222,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
     if ( this.#shouldCreateInitialActivity(source) ) this.#createInitialActivity(source);
     const uses = source.system?.uses ?? {};
     if ( source._id && source.type && ("value" in uses) && uses.max ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.migratedUses", uses.value);
+      foundry.utils.setProperty(source, "flags.degringo5e.migratedUses", uses.value);
     }
   }
 
@@ -323,7 +323,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
   async recoverUses(periods, rollData) {
     const updates = {};
     const rolls = [];
-    const autoRecharge = game.settings.get("dnd5e", "autoRecharge");
+    const autoRecharge = game.settings.get("degringo5e", "autoRecharge");
     const shouldRecharge = periods.includes("turnStart") && (this.parent.actor.type === "npc")
       && (autoRecharge !== "no");
     const recharge = async doc => {
@@ -396,7 +396,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
       });
       return riders;
     }, { activity: new Set(), effect: new Set() });
-    foundry.utils.setProperty(changed, "flags.dnd5e.riders", {
+    foundry.utils.setProperty(changed, "flags.degringo5e.riders", {
       activity: Array.from(riders.activity), effect: Array.from(riders.effect)
     });
 
@@ -412,7 +412,7 @@ export default class ActivitiesTemplate extends SystemDataModel {
       }
       return null;
     }).filter(_ => _);
-    if ( removed.length ) foundry.utils.setProperty(options, "dnd5e.removedCachedItems", removed);
+    if ( removed.length ) foundry.utils.setProperty(options, "degringo5e.removedCachedItems", removed);
   }
 
   /* -------------------------------------------- */
@@ -428,8 +428,8 @@ export default class ActivitiesTemplate extends SystemDataModel {
       || !foundry.utils.hasProperty(changed, "system.activities") ) return;
 
     // If any Cast activities were removed, or their spells changed, remove old cached spells
-    if ( options.dnd5e?.removedCachedItems ) {
-      await this.parent.actor.deleteEmbeddedDocuments("Item", options.dnd5e.removedCachedItems);
+    if ( options.degringo5e?.removedCachedItems ) {
+      await this.parent.actor.deleteEmbeddedDocuments("Item", options.degringo5e.removedCachedItems);
     }
 
     // Create any new cached spells & update existing ones as necessary

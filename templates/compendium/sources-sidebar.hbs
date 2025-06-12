@@ -1,8 +1,8 @@
 {{#*inline ".package"}}
 
 <li {{#if active}}class="active"{{/if}} data-package-id="{{ id }}" data-filter="{{ filter }}">
-    <dnd5e-checkbox name="{{ id }}" {{ checked checked }} {{#if indeterminate}}indeterminate{{/if}}
-                    data-type="package"></dnd5e-checkbox>
+    <degringo5e-checkbox name="{{ id }}" {{ checked checked }} {{#if indeterminate}}indeterminate{{/if}}
+                    data-type="package"></degringo5e-checkbox>
     <div class="package" data-action="selectPackage">
         <span class="title">{{ title }}</span>
         <span class="value">{{ count }}</span>

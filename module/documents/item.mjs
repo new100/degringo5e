@@ -81,18 +81,18 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     // Migrate backpack -> container.
     if ( data.type === "backpack" ) {
       data.type = "container";
-      foundry.utils.setProperty(data, "flags.dnd5e.persistSourceMigration", true);
+      foundry.utils.setProperty(data, "flags.degringo5e.persistSourceMigration", true);
     }
 
     /**
      * A hook event that fires before source data is initialized for an Item in a compendium.
-     * @function dnd5e.initializeItemSource
+     * @function degringo5e.initializeItemSource
      * @memberof hookEvents
      * @param {Item5e} item     Item for which the data is being initialized.
      * @param {object} data     Source data being initialized.
      * @param {object} options  Additional data initialization options.
      */
-    if ( options.pack || options.parent?.pack ) Hooks.callAll("dnd5e.initializeItemSource", this, data, options);
+    if ( options.pack || options.parent?.pack ) Hooks.callAll("degringo5e.initializeItemSource", this, data, options);
 
     return super._initializeSource(data, options);
   }
@@ -117,7 +117,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
    * @type {boolean}
    */
   get canDelete() {
-    return !this.flags.dnd5e?.cachedFor;
+    return !this.flags.degringo5e?.cachedFor;
   }
 
   /* -------------------------------------------- */
@@ -128,7 +128,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
    */
   get canDuplicate() {
     return !this.system.metadata?.singleton && !["class", "subclass"].includes(this.type)
-      && !this.flags.dnd5e?.cachedFor;
+      && !this.flags.degringo5e?.cachedFor;
   }
 
   /* --------------------------------------------- */
@@ -359,7 +359,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
    * @type {number}
    */
   get scalingIncrease() {
-    return this.system?.scalingIncrease ?? this.getFlag("dnd5e", "scaling") ?? 0;
+    return this.system?.scalingIncrease ?? this.getFlag("degringo5e", "scaling") ?? 0;
   }
 
   /* -------------------------------------------- */
@@ -684,7 +684,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     let event = config.event;
     const activities = this.system.activities?.filter(a =>
-      !this.getFlag("dnd5e", "riders.activity")?.includes(a.id) && a.canUse
+      !this.getFlag("degringo5e", "riders.activity")?.includes(a.id) && a.canUse
     );
     if ( activities?.length ) {
       const { chooseActivity, ...activityConfig } = config;
@@ -722,11 +722,11 @@ export default class Item5e extends SystemDocumentMixin(Item) {
       create: message?.createMessage ?? true,
       data: {
         content: await foundry.applications.handlebars.renderTemplate(
-          "systems/dnd5e/templates/chat/item-card.hbs", context
+          "systems/degringo5e/templates/chat/item-card.hbs", context
         ),
         flags: {
           "core.canPopout": true,
-          "dnd5e.item": { id: this.id, uuid: this.uuid, type: this.type }
+          "degringo5e.item": { id: this.id, uuid: this.uuid, type: this.type }
         },
         speaker: ChatMessage.getSpeaker({ actor: this.actor, token: this.actor.token })
       },
@@ -741,27 +741,27 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     /**
      * A hook event that fires before an item chat card is created without using an activity.
-     * @function dnd5e.preDisplayCard
+     * @function degringo5e.preDisplayCard
      * @memberof hookEvents
      * @param {Item5e} item                           Item for which the card will be created.
      * @param {ActivityMessageConfiguration} message  Configuration for the roll message.
      * @returns {boolean}                             Return `false` to prevent the card from being displayed.
      */
-    if ( Hooks.call("dnd5e.preDisplayCard", this, messageConfig) === false ) return;
-    if ( Hooks.call("dnd5e.preDisplayCardV2", this, messageConfig) === false ) return;
+    if ( Hooks.call("degringo5e.preDisplayCard", this, messageConfig) === false ) return;
+    if ( Hooks.call("degringo5e.preDisplayCardV2", this, messageConfig) === false ) return;
 
     ChatMessage.applyRollMode(messageConfig.data, messageConfig.rollMode);
     const card = messageConfig.create === false ? messageConfig.data : await ChatMessage.create(messageConfig.data);
 
     /**
      * A hook event that fires after an item chat card is created.
-     * @function dnd5e.displayCard
+     * @function degringo5e.displayCard
      * @memberof hookEvents
      * @param {Item5e} item                Item for which the chat card is being displayed.
      * @param {ChatMessage5e|object} card  The created ChatMessage instance or ChatMessageData depending on whether
      *                                     options.createMessage was set to `true`.
      */
-    Hooks.callAll("dnd5e.displayCard", this, card);
+    Hooks.callAll("degringo5e.displayCard", this, card);
 
     return card;
   }
@@ -1107,7 +1107,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
   /** @inheritDoc */
   async deleteDialog(options={}) {
     // If item has advancement, handle it separately
-    if ( this.actor?.system.metadata?.supportsAdvancement && !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( this.actor?.system.metadata?.supportsAdvancement && !game.settings.get("degringo5e", "disableAdvancements") ) {
       const manager = AdvancementManager.forDeletedItem(this.actor, this.id);
       if ( manager.steps.length ) {
         try {
@@ -1253,7 +1253,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     if ( spell.pack ) return this.createScrollFromCompendiumSpell(spell.uuid, config);
 
     const values = {};
-    if ( (spell instanceof Item5e) && spell.isOwned && (game.settings.get("dnd5e", "rulesVersion") === "modern") ) {
+    if ( (spell instanceof Item5e) && spell.isOwned && (game.settings.get("degringo5e", "rulesVersion") === "modern") ) {
       const spellcastingClass = spell.actor.spellcastingClasses?.[spell.system.sourceClass];
       if ( spellcastingClass ) {
         values.bonus = spellcastingClass.spellcasting.attack;
@@ -1265,7 +1265,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     }
 
     config = foundry.utils.mergeObject({
-      explanation: game.user.getFlag("dnd5e", "creation.scrollExplanation") ?? "reference",
+      explanation: game.user.getFlag("degringo5e", "creation.scrollExplanation") ?? "reference",
       level: spell.system.level,
       values
     }, config);
@@ -1274,16 +1274,16 @@ export default class Item5e extends SystemDocumentMixin(Item) {
       const result = await CreateScrollDialog.create(spell, config);
       if ( !result ) return;
       foundry.utils.mergeObject(config, result);
-      await game.user.setFlag("dnd5e", "creation.scrollExplanation", config.explanation);
+      await game.user.setFlag("degringo5e", "creation.scrollExplanation", config.explanation);
     }
 
     // Get spell data
     const itemData = (spell instanceof Item5e) ? spell.toObject() : spell;
     const flags = itemData.flags ?? {};
     if ( Number.isNumeric(config.level) ) {
-      flags.dnd5e ??= {};
-      flags.dnd5e.scaling = Math.max(0, config.level - spell.system.level);
-      flags.dnd5e.spellLevel = {
+      flags.degringo5e ??= {};
+      flags.degringo5e.scaling = Math.max(0, config.level - spell.system.level);
+      flags.degringo5e.spellLevel = {
         value: config.level,
         base: spell.system.level
       };
@@ -1292,14 +1292,14 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     /**
      * A hook event that fires before the item data for a scroll is created.
-     * @function dnd5e.preCreateScrollFromSpell
+     * @function degringo5e.preCreateScrollFromSpell
      * @memberof hookEvents
      * @param {object} itemData                  The initial item data of the spell to convert to a scroll.
      * @param {object} options                   Additional options that modify the created scroll.
      * @param {SpellScrollConfiguration} config  Configuration options for scroll creation.
      * @returns {boolean}                        Explicitly return false to prevent the scroll to be created.
      */
-    if ( Hooks.call("dnd5e.preCreateScrollFromSpell", itemData, options, config) === false ) return;
+    if ( Hooks.call("degringo5e.preCreateScrollFromSpell", itemData, options, config) === false ) return;
 
     let { activities, level, properties, source } = itemData.system;
 
@@ -1362,13 +1362,13 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     /**
      * A hook event that fires after the item data for a scroll is created but before the item is returned.
-     * @function dnd5e.createScrollFromSpell
+     * @function degringo5e.createScrollFromSpell
      * @memberof hookEvents
      * @param {Item5e|object} spell              The spell or item data to be made into a scroll.
      * @param {object} spellScrollData           The final item data used to make the scroll.
      * @param {SpellScrollConfiguration} config  Configuration options for scroll creation.
      */
-    Hooks.callAll("dnd5e.createScrollFromSpell", spell, spellScrollData, config);
+    Hooks.callAll("degringo5e.createScrollFromSpell", spell, spellScrollData, config);
 
     return new this(spellScrollData);
   }
@@ -1388,7 +1388,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     const values = {};
 
     config = foundry.utils.mergeObject({
-      explanation: game.user.getFlag("dnd5e", "creation.scrollExplanation") ?? "reference",
+      explanation: game.user.getFlag("degringo5e", "creation.scrollExplanation") ?? "reference",
       level: spell.system.level,
       values
     }, config);
@@ -1397,18 +1397,18 @@ export default class Item5e extends SystemDocumentMixin(Item) {
       const result = await CreateScrollDialog.create(spell, config);
       if ( !result ) return;
       foundry.utils.mergeObject(config, result);
-      await game.user.setFlag("dnd5e", "creation.scrollExplanation", config.explanation);
+      await game.user.setFlag("degringo5e", "creation.scrollExplanation", config.explanation);
     }
 
     /**
      * A hook event that fires before the item data for a scroll is created for a compendium spell.
-     * @function dnd5e.preCreateScrollFromCompendiumSpell
+     * @function degringo5e.preCreateScrollFromCompendiumSpell
      * @memberof hookEvents
      * @param {Item5e} spell                     Spell to add to the scroll.
      * @param {SpellScrollConfiguration} config  Configuration options for scroll creation.
      * @returns {boolean}                        Explicitly return `false` to prevent the scroll to be created.
      */
-    if ( Hooks.call("dnd5e.preCreateScrollFromCompendiumSpell", spell, config) === false ) return;
+    if ( Hooks.call("degringo5e.preCreateScrollFromCompendiumSpell", spell, config) === false ) return;
 
     // Get scroll data
     let scrollUuid;
@@ -1431,7 +1431,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     }
 
     const activity = {
-      _id: staticID("dnd5escrollspell"),
+      _id: staticID("degringo5escrollspell"),
       type: "cast",
       consumption: {
         targets: [{ type: "itemUses", value: "1" }]
@@ -1460,13 +1460,13 @@ export default class Item5e extends SystemDocumentMixin(Item) {
 
     /**
      * A hook event that fires after the item data for a scroll is created but before the item is returned.
-     * @function dnd5e.createScrollFromSpell
+     * @function degringo5e.createScrollFromSpell
      * @memberof hookEvents
      * @param {Item5e} spell                     The spell or item data to be made into a scroll.
      * @param {object} spellScrollData           The final item data used to make the scroll.
      * @param {SpellScrollConfiguration} config  Configuration options for scroll creation.
      */
-    Hooks.callAll("dnd5e.createScrollFromSpell", spell, spellScrollData, config);
+    Hooks.callAll("degringo5e.createScrollFromSpell", spell, spellScrollData, config);
 
     return new this(spellScrollData);
   }
@@ -1537,7 +1537,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
     let type = data.type || CONFIG[this.documentName]?.defaultType;
     if ( !types.includes(type) ) type = types[0];
     const content = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/apps/document-create.hbs",
+      "systems/degringo5e/templates/apps/document-create.hbs",
       {
         folders, name, type,
         folder: data.folder,
@@ -1579,7 +1579,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
         return this.create(createData, { parent, pack, renderSheet: true });
       },
       rejectClose: false,
-      options: { ...options, jQuery: false, width: 350, classes: ["dnd5e2", "create-document", "dialog"] }
+      options: { ...options, jQuery: false, width: 350, classes: ["degringo5e2", "create-document", "dialog"] }
     });
   }
 

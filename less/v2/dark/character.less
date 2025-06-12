@@ -1,5 +1,5 @@
-:is(.dnd5e-theme-dark, .theme-dark) .dnd5e2.sheet.actor.character,
-.dnd5e2.sheet.actor.character.dnd5e-theme-dark {
+:is(.degringo5e-theme-dark, .theme-dark) .degringo5e2.sheet.actor.character,
+.degringo5e2.sheet.actor.character.degringo5e-theme-dark {
   &:not(.minimized) { background: none; }
 
   .window-content::before {
@@ -14,7 +14,7 @@
     mask-image: linear-gradient(to bottom, black, transparent);
   }
 
-  .window-header .header-control { border-color: var(--dnd5e-color-blue-gray-1); }
+  .window-header .header-control { border-color: var(--degringo5e-color-blue-gray-1); }
 
   .sheet-header {
     background: none;
@@ -25,7 +25,7 @@
     background: none;
 
     .skills, .tools, .saves {
-      .ability { color: var(--dnd5e-color-gold); }
+      .ability { color: var(--degringo5e-color-gold); }
     }
 
     .sidebar .favorites > ul .drop {
@@ -34,11 +34,11 @@
     }
 
     .pill-lg {
-      .name .title { color: var(--dnd5e-color-gold); }
+      .name .title { color: var(--degringo5e-color-gold); }
 
       &.texture {
-        border: 1px solid var(--dnd5e-color-blue-gray-1);
-        --background-color: var(--dnd5e-color-blue-gray-2);
+        border: 1px solid var(--degringo5e-color-blue-gray-1);
+        --background-color: var(--degringo5e-color-blue-gray-2);
         background-blend-mode: soft-light;
         &::before { opacity: unset; }
       }
@@ -46,12 +46,12 @@
 
     .pills-group.empty > h3 > a { color: var(--color-text-light-0); }
 
-    .facility .slot { border-color: var(--dnd5e-color-blue-gray-3); }
+    .facility .slot { border-color: var(--degringo5e-color-blue-gray-3); }
     .facility .order-slot.empty::before { filter: unset; }
   }
 
   .ability-score {
     &::before { background-image: url("ui/ability-score-tab-dark.svg"); }
-    .score > input { background: var(--dnd5e-color-black); }
+    .score > input { background: var(--degringo5e-color-black); }
   }
 }

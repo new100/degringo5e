@@ -65,8 +65,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
+    degringo5eactivity000:
+      _id: degringo5eactivity000
       type: save
       activation:
         type: action
@@ -107,8 +107,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    dnd5eactivity300:
-      _id: dnd5eactivity300
+    degringo5eactivity300:
+      _id: degringo5eactivity300
       type: utility
       activation:
         type: action
@@ -151,7 +151,7 @@ type: spell
 img: icons/magic/time/clock-stopwatch-white-blue.webp
 effects:
   - name: Slowed
-    origin: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplSlow000000
     duration:
       startTime: null
       seconds: 60
@@ -207,10 +207,10 @@ effects:
     tint: '#ffffff'
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+        Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -226,17 +226,17 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425971412
   modifiedTime: 1745256798405
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!items!phbsplSlow000000'

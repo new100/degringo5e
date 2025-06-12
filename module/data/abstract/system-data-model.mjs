@@ -69,7 +69,7 @@ export default class SystemDataModel extends foundry.abstract.TypeDataModel {
 
   /**
    * @typedef {object} SystemDataModelMetadata
-   * @property {typeof DataModel} [systemFlagsModel]  Model that represents flags data within the dnd5e namespace.
+   * @property {typeof DataModel} [systemFlagsModel]  Model that represents flags data within the degringo5e namespace.
    */
 
   /**
@@ -111,7 +111,7 @@ export default class SystemDataModel extends foundry.abstract.TypeDataModel {
     const schema = {};
     for ( const template of this._schemaTemplates ) {
       if ( !template.defineSchema ) {
-        throw new Error(`Invalid dnd5e template mixin ${template} defined on class ${this.constructor}`);
+        throw new Error(`Invalid degringo5e template mixin ${template} defined on class ${this.constructor}`);
       }
       this.mergeSchema(schema, template.defineSchema());
     }

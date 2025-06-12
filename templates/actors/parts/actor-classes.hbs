@@ -1,7 +1,7 @@
 <section class="classes pills-lg {{#if @root.editable}}editing{{/if}}">
     {{#each classes as |cls|}}
     {{#if (eq cls.type "class")}}
-    {{#dnd5e-itemContext cls as |ctx|}}
+    {{#degringo5e-itemContext cls as |ctx|}}
     <div class="class pill-lg" data-item-id="{{ cls.id }}" style="--underlay: url('{{ ctx.prefixedImage }}');">
         <div class="icons {{#if cls.subclass}}subclass{{/if}}">
             <img class="draggable gold-icon item-tooltip" src="{{ cls.img }}" alt="{{ cls.name }}"
@@ -49,7 +49,7 @@
             {{/if}}
         </div>
     </div>
-    {{/dnd5e-itemContext}}
+    {{/degringo5e-itemContext}}
     {{/if}}
     {{/each}}
     {{#if @root.showClassDrop}}

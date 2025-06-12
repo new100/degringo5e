@@ -588,11 +588,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBloodiedFury00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714660
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -806,7 +806,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -834,7 +834,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -843,7 +843,7 @@ items:
         _key: >-
           !actors.items.effects!mmBoar0000000000.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -851,11 +851,11 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714660
-      lastModifiedBy: dnd5ebuilder0000
+      lastModifiedBy: degringo5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -870,10 +870,10 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679132839
   modifiedTime: 1745712714688
-  lastModifiedBy: dnd5ebuilder0000
+  lastModifiedBy: degringo5ebuilder0000
   exportSource: null
 _key: '!actors!mmBoar0000000000'

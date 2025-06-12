@@ -45,16 +45,16 @@ export default class ActivityUsageDialog extends Dialog5e {
   /** @override */
   static PARTS = {
     scaling: {
-      template: "systems/dnd5e/templates/activity/activity-usage-scaling.hbs"
+      template: "systems/degringo5e/templates/activity/activity-usage-scaling.hbs"
     },
     concentration: {
-      template: "systems/dnd5e/templates/activity/activity-usage-concentration.hbs"
+      template: "systems/degringo5e/templates/activity/activity-usage-concentration.hbs"
     },
     consumption: {
-      template: "systems/dnd5e/templates/activity/activity-usage-consumption.hbs"
+      template: "systems/degringo5e/templates/activity/activity-usage-consumption.hbs"
     },
     creation: {
-      template: "systems/dnd5e/templates/activity/activity-usage-creation.hbs"
+      template: "systems/degringo5e/templates/activity/activity-usage-creation.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"
@@ -153,7 +153,7 @@ export default class ActivityUsageDialog extends Dialog5e {
 
   /** @inheritDoc */
   async _prepareContext(options) {
-    if ( "scaling" in this.config ) this.#item = this.#item.clone({ "flags.dnd5e.scaling": this.config.scaling });
+    if ( "scaling" in this.config ) this.#item = this.#item.clone({ "flags.degringo5e.scaling": this.config.scaling });
     return {
       ...await super._prepareContext(options),
       activity: this.activity,
@@ -185,7 +185,7 @@ export default class ActivityUsageDialog extends Dialog5e {
    * @protected
    */
   async _prepareConcentrationContext(context, options) {
-    if ( !this.activity.requiresConcentration || game.settings.get("dnd5e", "disableConcentration")
+    if ( !this.activity.requiresConcentration || game.settings.get("degringo5e", "disableConcentration")
       || !this._shouldDisplay("concentration") ) return context;
     context.hasConcentration = true;
     context.notes = [];
@@ -198,7 +198,7 @@ export default class ActivityUsageDialog extends Dialog5e {
     }];
     if ( this.config.concentration?.begin ) {
       const existingConcentration = Array.from(this.actor.concentration.effects).map(effect => {
-        const data = effect.getFlag("dnd5e", "item");
+        const data = effect.getFlag("degringo5e", "item");
         return {
           value: effect.id,
           label: data?.data?.name ?? this.actor.items.get(data?.id)?.name

@@ -12,14 +12,14 @@
         <li class="advancement-item item flexrow">
             <div class="item-name flexrow">
                 {{#if svg}}
-                <dnd5e-icon src="{{ icon }}"></dnd5e-icon>
+                <degringo5e-icon src="{{ icon }}"></degringo5e-icon>
                 {{else}}
                 <img class="gold-icon" src="{{ icon }}" alt="{{ title }}">
                 {{/if}}
                 <span class="name">{{ title }}</span>
             </div>
             <div class="item-controls flexrow">
-                <dnd5e-checkbox name="{{ id }}" checked></dnd5e-checkbox>
+                <degringo5e-checkbox name="{{ id }}" checked></degringo5e-checkbox>
             </div>
             {{#if summary}}
             <div class="item-summary">

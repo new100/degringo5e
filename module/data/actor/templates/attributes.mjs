@@ -265,7 +265,7 @@ export default class AttributesFields {
     const encumbrance = this.attributes.encumbrance ??= {};
     const baseUnits = CONFIG.DEGRINGO5E.encumbrance.baseUnits[this.parent.type]
       ?? CONFIG.DEGRINGO5E.encumbrance.baseUnits.default;
-    const unitSystem = game.settings.get("dnd5e", "metricWeightUnits") ? "metric" : "imperial";
+    const unitSystem = game.settings.get("degringo5e", "metricWeightUnits") ? "metric" : "imperial";
 
     // Get the total weight from items
     let weight = this.parent.items
@@ -274,7 +274,7 @@ export default class AttributesFields {
 
     // [Optional] add Currency Weight (for non-transformed actors)
     const currency = this.currency;
-    if ( game.settings.get("dnd5e", "currencyWeight") && currency ) {
+    if ( game.settings.get("degringo5e", "currencyWeight") && currency ) {
       const numCoins = Object.values(currency).reduce((val, denom) => val + Math.max(denom, 0), 0);
       const currencyPerWeight = config.currencyPerWeight[unitSystem];
       weight += convertWeight(
@@ -288,7 +288,7 @@ export default class AttributesFields {
     const keys = Object.keys(CONFIG.DEGRINGO5E.actorSizes);
     const index = keys.findIndex(k => k === this.traits.size);
     const sizeConfig = CONFIG.DEGRINGO5E.actorSizes[
-      keys[this.parent.flags.dnd5e?.powerfulBuild ? Math.min(index + 1, keys.length - 1) : index]
+      keys[this.parent.flags.degringo5e?.powerfulBuild ? Math.min(index + 1, keys.length - 1) : index]
     ];
     const sizeMod = sizeConfig?.capacityMultiplier ?? sizeConfig?.token ?? 1;
     let maximumMultiplier;
@@ -330,7 +330,7 @@ export default class AttributesFields {
    */
   static prepareExhaustionLevel() {
     const exhaustion = this.parent.effects.get(ActiveEffect5e.ID.EXHAUSTION);
-    const level = exhaustion?.getFlag("dnd5e", "exhaustionLevel");
+    const level = exhaustion?.getFlag("degringo5e", "exhaustionLevel");
     this.attributes.exhaustion = Number.isFinite(level) ? level : 0;
   }
 
@@ -365,7 +365,7 @@ export default class AttributesFields {
    */
   static prepareInitiative(rollData) {
     const init = this.attributes.init ??= {};
-    const flags = this.parent.flags.dnd5e ?? {};
+    const flags = this.parent.flags.degringo5e ?? {};
     const globalCheckBonus = simplifyBonus(this.bonuses?.abilities?.check, rollData);
 
     // Compute initiative modifier
@@ -374,7 +374,7 @@ export default class AttributesFields {
     init.mod = ability.mod ?? 0;
 
     // Initiative proficiency
-    const isLegacy = game.settings.get("dnd5e", "rulesVersion") === "legacy";
+    const isLegacy = game.settings.get("degringo5e", "rulesVersion") === "legacy";
     const prof = this.attributes.prof ?? 0;
     const joat = flags.jackOfAllTrades && isLegacy;
     const ra = this.parent._isRemarkableAthlete(abilityId);
@@ -413,7 +413,7 @@ export default class AttributesFields {
     const exceedingCarryingCapacity = statuses.has("exceedingCarryingCapacity");
     const crawl = this.parent.hasConditionEffect("crawl");
     const units = this.attributes.movement.units ??= defaultUnits("length");
-    let reduction = game.settings.get("dnd5e", "rulesVersion") === "modern"
+    let reduction = game.settings.get("degringo5e", "rulesVersion") === "modern"
       ? (this.attributes.exhaustion ?? 0) * (CONFIG.DEGRINGO5E.conditionTypes.exhaustion?.reduction?.speed ?? 0) : 0;
     reduction = convertLength(reduction, CONFIG.DEGRINGO5E.defaultUnits.length.imperial, units);
     for ( const type in CONFIG.DEGRINGO5E.movementTypes ) {

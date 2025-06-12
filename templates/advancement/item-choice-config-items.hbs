@@ -7,7 +7,7 @@
         {{#each items}}
         <li class="item flexrow" data-item-uuid="{{ data.uuid }}">
             <div class="item-name">
-                {{{ dnd5e-linkForUuid data.uuid renderBroken=true }}}
+                {{{ degringo5e-linkForUuid data.uuid renderBroken=true }}}
                 <input type="hidden" name="configuration.pool.{{ @index }}.uuid" value="{{ data.uuid }}">
             </div>
             <div class="item-controls flexrow">

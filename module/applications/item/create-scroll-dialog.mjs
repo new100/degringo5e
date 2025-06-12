@@ -39,7 +39,7 @@ export default class CreateScrollDialog extends Dialog5e {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/apps/spell-scroll-dialog.hbs"
+      template: "systems/degringo5e/templates/apps/spell-scroll-dialog.hbs"
     }
   };
 
@@ -129,7 +129,7 @@ export default class CreateScrollDialog extends Dialog5e {
   static async #handleFormSubmission(event, form, formData) {
     foundry.utils.mergeObject(this.#config, formData.object);
     this.#config.level = Number(this.#config.level);
-    await this.close({ dnd5e: { submitted: true } });
+    await this.close({ degringo5e: { submitted: true } });
   }
 
   /* -------------------------------------------- */
@@ -147,7 +147,7 @@ export default class CreateScrollDialog extends Dialog5e {
 
   /** @override */
   _onClose(options={}) {
-    if ( !options.dnd5e?.submitted ) this.#config = null;
+    if ( !options.degringo5e?.submitted ) this.#config = null;
   }
 
   /* -------------------------------------------- */

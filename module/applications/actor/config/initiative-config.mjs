@@ -19,7 +19,7 @@ export default class InitiativeConfig extends BaseConfigSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/initiative-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/initiative-config.hbs"
     }
   };
 
@@ -69,8 +69,8 @@ export default class InitiativeConfig extends BaseConfigSheet {
     context.flags = {
       alert: {
         field: new BooleanField({ label: game.i18n.localize("DEGRINGO5E.FlagsAlert") }),
-        name: "flags.dnd5e.initiativeAlert",
-        value: source.flags.dnd5e?.initiativeAlert
+        name: "flags.degringo5e.initiativeAlert",
+        value: source.flags.degringo5e?.initiativeAlert
       }
     };
 
