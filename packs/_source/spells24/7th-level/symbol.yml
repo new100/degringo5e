@@ -133,7 +133,7 @@ system:
         name: ''
         formula: ''
       name: Inscribe Glyph
-      img: systems/degringo5e/icons/svg/activity/summon.svg
+      img: systems/dnd5e/icons/svg/activity/summon.svg
       appliedEffects: []
     oCs1sUAtUAQJwxPU:
       type: save
@@ -477,7 +477,7 @@ img: icons/magic/symbols/rune-sigil-green-purple.webp
 effects:
   - name: Arguing
     img: icons/skills/wounds/injury-face-impact-orange.webp
-    origin: Compendium.degringo5e.spells24.Item.phbsplSymbol0000
+    origin: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
     transfer: false
     _id: YAwLt85sPQpUCIBI
     type: base
@@ -507,12 +507,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725033158201
       modifiedTime: 1725033325053
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplSymbol0000.YAwLt85sPQpUCIBI'
   - name: Frightened
-    img: systems/degringo5e/icons/svg/statuses/frightened.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplSymbol0000
+    img: systems/dnd5e/icons/svg/statuses/frightened.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
     transfer: false
     _id: C5k5nGmPclTf9tZn
     type: base
@@ -543,12 +543,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725033560427
       modifiedTime: 1725033606274
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplSymbol0000.C5k5nGmPclTf9tZn'
   - name: Incapacitated
-    img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplSymbol0000
+    img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
     transfer: false
     _id: D8tOj85XIpMRp3Yl
     type: base
@@ -577,12 +577,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725033642176
       modifiedTime: 1725033710545
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplSymbol0000.D8tOj85XIpMRp3Yl'
   - name: Sleeping
-    img: systems/degringo5e/icons/svg/statuses/unconscious.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplSymbol0000
+    img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
     transfer: false
     _id: A1VA7t5gB7ODNsr6
     type: base
@@ -613,12 +613,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725033723183
       modifiedTime: 1725033802474
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplSymbol0000.A1VA7t5gB7ODNsr6'
   - name: Stunned
-    img: systems/degringo5e/icons/svg/statuses/stunned.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplSymbol0000
+    img: systems/dnd5e/icons/svg/statuses/stunned.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
     transfer: false
     _id: zZerWADc4a5rGJ9r
     type: base
@@ -647,7 +647,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725033817116
       modifiedTime: 1725033932035
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplSymbol0000.zZerWADc4a5rGJ9r'
 folder: EdAGMG8IF26PLkD3
@@ -655,7 +655,7 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -666,6 +666,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425974390
   modifiedTime: 1745256799010
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplSymbol0000'

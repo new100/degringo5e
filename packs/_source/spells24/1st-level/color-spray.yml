@@ -53,8 +53,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -100,8 +100,8 @@ type: spell
 img: icons/magic/light/hand-sparks-smoke-green.webp
 effects:
   - name: Blinded
-    img: systems/degringo5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplColorSpray
+    img: systems/dnd5e/icons/svg/statuses/blinded.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplColorSpray
     transfer: false
     _id: DKl58EVNaSX976co
     type: base
@@ -129,7 +129,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725046777685
       modifiedTime: 1725046864838
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplColorSpray.DKl58EVNaSX976co'
 folder: pBaAAtXBCq9FVEnL
@@ -137,7 +137,7 @@ sort: 4800000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -148,6 +148,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425945486
   modifiedTime: 1745256788196
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplColorSpray'

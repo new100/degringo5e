@@ -9,7 +9,7 @@ system:
       own.</em></p>
 
       <p>When you drink this potion, you gain the effect of the
-      @UUID[Compendium.degringo5e.spells.Item.Szvk5FEVQW3uhJi5]{Haste} spell for 1
+      @UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{Haste} spell for 1
       minute (no concentration required).</p>
 
       <p> </p>
@@ -56,8 +56,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -129,6 +129,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037232045
   modifiedTime: 1725992528004
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ctKfjHjk9gs9UtZI'

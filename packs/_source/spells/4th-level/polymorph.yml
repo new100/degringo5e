@@ -71,8 +71,8 @@ system:
     - material
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -121,7 +121,7 @@ flags: {}
 img: icons/magic/control/energy-stream-link-large-teal.webp
 effects:
   - name: Polymorph
-    origin: Compendium.degringo5e.spells.Item.04nMsTWkIFvkbXlY
+    origin: Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY
     duration:
       startTime: null
       seconds: 3600
@@ -162,6 +162,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037345165
   modifiedTime: 1725992716313
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!04nMsTWkIFvkbXlY'

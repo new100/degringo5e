@@ -112,7 +112,7 @@ system:
 effects:
   - name: Invisible
     img: icons/consumables/potions/bottle-round-empty-glass.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgPotionOfInvis
+    origin: Compendium.dnd5e.equipment24.Item.dmgPotionOfInvis
     transfer: false
     _id: tsRnLFf1HtqAPphv
     type: base
@@ -135,18 +135,18 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgPotionOfGrowt.ActiveEffect.2SfkO4POfhLZ8oYt
+        Compendium.dnd5e.equipment24.Item.dmgPotionOfGrowt.ActiveEffect.2SfkO4POfhLZ8oYt
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730863706581
       modifiedTime: 1730863706581
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgPotionOfInvis.tsRnLFf1HtqAPphv'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -157,7 +157,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702155
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

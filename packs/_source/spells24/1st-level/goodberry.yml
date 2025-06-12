@@ -2,7 +2,7 @@ name: Goodberry
 system:
   description:
     value: >-
-      <p>@UUID[Compendium.degringo5e.spells24.Item.phbutlMagicalBer]{Ten berries}
+      <p>@UUID[Compendium.dnd5e.spells24.Item.phbutlMagicalBer]{Ten berries}
       appear in your hand and are infused with magic for the duration. A
       creature can take a Bonus Action to eat one berry. Eating a berry restores
       1 Hit Point, and the berry provides enough nourishment to sustain a
@@ -52,8 +52,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -103,7 +103,7 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -114,6 +114,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425956766
   modifiedTime: 1745256793888
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplGoodberry0'

@@ -60,7 +60,7 @@ system:
     XBLdYOx6G8zS67Gb:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplChainLight
+        uuid: Compendium.dnd5e.spells24.Item.phbsplChainLight
         challenge:
           attack: null
           save: 18
@@ -111,7 +111,7 @@ system:
     WEBJIJBHSUTJruRZ:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplFeatherFal
+        uuid: Compendium.dnd5e.spells24.Item.phbsplFeatherFal
         challenge:
           attack: null
           save: null
@@ -158,7 +158,7 @@ system:
     KN5CZz5BdRVGC2IN:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplGustofWind
+        uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
         challenge:
           attack: null
           save: 18
@@ -209,7 +209,7 @@ system:
     4sy1GTbqChCOkOdZ:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplWindWall00
+        uuid: Compendium.dnd5e.spells24.Item.phbsplWindWall00
         challenge:
           attack: null
           save: 18
@@ -292,12 +292,12 @@ system:
       must expend to cast the spell, which has a save DC of
       18.</p><table><thead><tr><th
       style="min-width:50px"><p>Plane</p></th><th><p>Spells
-      (Charges)</p></th></tr></thead><tbody><tr><td><p>Air</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplChainLight]{Chain
+      (Charges)</p></th></tr></thead><tbody><tr><td><p>Air</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain
       Lightning} (3 charges),
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0
-      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0
+      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
       Wind} (2 charges),
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1
       charge)</p></td></tr></tbody></table>
     chat: ''
   identifier: ring-of-elemental-command
@@ -341,8 +341,8 @@ system:
   proficient: null
 effects:
   - name: Charmed
-    img: systems/degringo5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfElement
+    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfElement
     transfer: false
     _id: cN85nWiTzfGzWR7D
     type: base
@@ -416,12 +416,12 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730685122369
       modifiedTime: 1730685488423
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgAirRingOfElem.d5aFCMPqEUaUQ37L'
 folder: DC1x1wAm0NLFudA6
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -432,7 +432,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1730684815591
   modifiedTime: 1745712697669
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 100000
 ownership:

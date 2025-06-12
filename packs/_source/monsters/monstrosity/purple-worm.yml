@@ -520,7 +520,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.3mrPXaxalJxpxVrv
+      compendiumSource: Compendium.dnd5e.monsterfeatures.3mrPXaxalJxpxVrv
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -557,8 +557,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -621,14 +621,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745273656156
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!PtotS52HpHX596cZ.Uo4oxB1xZmJcWVsZ'
   - _id: dlzFJ5UjbMAfJ6Sb
@@ -727,8 +727,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -790,8 +790,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -859,8 +859,8 @@ items:
               calculation: ''
               formula: '19'
           sort: 0
-        degringo5eactivity300:
-          _id: degringo5eactivity300
+        dnd5eactivity300:
+          _id: dnd5eactivity300
           type: utility
           activation:
             type: action
@@ -924,14 +924,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107551645
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!PtotS52HpHX596cZ.dlzFJ5UjbMAfJ6Sb'
   - _id: yOjkK3f9jt2fYu3M
@@ -1020,8 +1020,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -1083,8 +1083,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -1152,8 +1152,8 @@ items:
               calculation: ''
               formula: '19'
           sort: 0
-        degringo5eactivity300:
-          _id: degringo5eactivity300
+        dnd5eactivity300:
+          _id: dnd5eactivity300
           type: utility
           activation:
             type: action
@@ -1224,7 +1224,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107551645
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!PtotS52HpHX596cZ.yOjkK3f9jt2fYu3M'
 effects: []
@@ -1240,6 +1240,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171229828
   modifiedTime: 1745108211664
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!PtotS52HpHX596cZ'

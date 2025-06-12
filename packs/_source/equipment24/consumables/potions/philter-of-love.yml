@@ -114,7 +114,7 @@ system:
 effects:
   - name: In Love
     img: icons/consumables/potions/potion-bottle-corked-labeled-red.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgPhilterOfLove
+    origin: Compendium.dnd5e.equipment24.Item.dmgPhilterOfLove
     transfer: false
     _id: MLhvjPiSXOX1tkUr
     type: base
@@ -143,11 +143,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730745235571
       modifiedTime: 1730745249148
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgPhilterOfLove.MLhvjPiSXOX1tkUr'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -158,7 +158,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701892
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

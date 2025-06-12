@@ -33,8 +33,8 @@ system:
   properties: []
   requirements: College of Lore
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: reaction
@@ -47,7 +47,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.degringo5e.classes24.Item.phbbrdBardicInsp
+            target: Compendium.dnd5e.classes24.Item.phbbrdBardicInsp
             scaling: {}
         scaling:
           allowed: false
@@ -94,12 +94,12 @@ system:
         max: ''
       sort: 0
       name: Cut with Words
-      img: systems/degringo5e/icons/svg/damage/psychic.svg
+      img: systems/dnd5e/icons/svg/damage/psychic.svg
   enchant: {}
   identifier: cutting-words
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -110,7 +110,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866506195
   modifiedTime: 1740680081116
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

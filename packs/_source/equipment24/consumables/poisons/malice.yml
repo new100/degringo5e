@@ -116,7 +116,7 @@ system:
 effects:
   - name: Poisoned and Blinded
     img: icons/magic/air/fog-gas-smoke-orange.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgMalice0000000
+    origin: Compendium.dnd5e.equipment24.Item.dmgMalice0000000
     transfer: false
     _id: pzgyNngTSSV4O7ym
     type: base
@@ -140,19 +140,19 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730740929229
       modifiedTime: 1730740978435
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgMalice0000000.pzgyNngTSSV4O7ym'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -163,7 +163,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256806240
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

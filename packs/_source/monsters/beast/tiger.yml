@@ -563,8 +563,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: ''
@@ -617,8 +617,8 @@ items:
             prompt: false
             visible: false
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: ''
@@ -685,14 +685,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.MqAVplIArAKzpnXB
+      compendiumSource: Compendium.dnd5e.monsterfeatures.MqAVplIArAKzpnXB
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741123736236
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!FayqbnjBMszO6Pat.wklAUVakX97y0z2S'
   - _id: YypXtXEL61FqWYOP
@@ -774,8 +774,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -849,14 +849,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741123751274
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!FayqbnjBMszO6Pat.YypXtXEL61FqWYOP'
   - _id: 7GCnVtakQo6iZyn7
@@ -939,8 +939,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -1021,7 +1021,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741123760572
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!FayqbnjBMszO6Pat.7GCnVtakQo6iZyn7'
 effects: []
@@ -1037,6 +1037,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171216735
   modifiedTime: 1741123763812
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!FayqbnjBMszO6Pat'

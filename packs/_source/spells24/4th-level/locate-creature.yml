@@ -10,9 +10,9 @@ system:
       you have seen such a creature up close—within 30 feet—at least once. If
       the creature you described or named is in a different form, such as under
       the effects of a
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFleshtoSto]{Flesh to
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFleshtoSto]{Flesh to
       Stone}</em> or
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPolymorph0]{Polymorph}</em>
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}</em>
       spell, this spell doesn't locate the creature.</p><p>This spell can't
       locate a creature if any thickness of lead blocks a direct path between
       you and the creature.</p>
@@ -59,8 +59,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -106,7 +106,7 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -117,6 +117,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425961729
   modifiedTime: 1745256795575
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplLocateCrea'

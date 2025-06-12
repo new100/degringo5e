@@ -54,8 +54,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -103,7 +103,7 @@ type: spell
 img: icons/sundries/documents/document-writing-pink.webp
 effects:
   - name: Comprehension
-    origin: Compendium.degringo5e.spells24.Item.phbsplComprehend
+    origin: Compendium.dnd5e.spells24.Item.phbsplComprehend
     duration:
       rounds: 1
       startTime: null
@@ -114,7 +114,7 @@ effects:
       startTurn: null
     disabled: false
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           statuses: []
     img: icons/sundries/books/book-open-purple.webp
@@ -139,7 +139,7 @@ effects:
       systemVersion: 4.4.2
       createdTime: null
       modifiedTime: 1746464316606
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplComprehend.ANhwNb9xKRpWs4Q2'
 folder: pBaAAtXBCq9FVEnL
@@ -147,7 +147,7 @@ sort: 4500000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -158,6 +158,6 @@ _stats:
   systemVersion: 4.4.2
   createdTime: 1724425945966
   modifiedTime: 1746464353780
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplComprehend'

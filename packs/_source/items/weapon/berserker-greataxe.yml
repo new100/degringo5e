@@ -102,8 +102,8 @@ system:
   crewed: false
   magicalBonus: 1
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: attack
       activation:
         type: action
@@ -164,8 +164,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity100:
-      _id: degringo5eactivity100
+    dnd5eactivity100:
+      _id: dnd5eactivity100
       type: save
       activation:
         type: action
@@ -248,6 +248,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037330226
   modifiedTime: 1725992561452
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!zSKorO6lwT7vs2uk'

@@ -55,8 +55,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: summon
       activation:
         type: action
@@ -99,7 +99,7 @@ system:
         - count: ''
           name: ''
           _id: OPGmJyPFZox9o5it
-          uuid: Compendium.degringo5e.actors24.Actor.phbsplArcaneEye0
+          uuid: Compendium.dnd5e.actors24.Actor.phbsplArcaneEye0
           level:
             min: null
             max: null
@@ -122,7 +122,7 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -133,6 +133,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425941171
   modifiedTime: 1745256785761
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplArcaneEye0'

@@ -7,7 +7,7 @@ system:
     value: >-
       <p><em>Wand</em></p><p>This wand has 7 charges. While holding it, you can
       use an action to expend 1 or more of its charges to cast the
-      @UUID[Compendium.degringo5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} spell
+      @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} spell
       from it. For 1 charge, you cast the 1st-level version of the spell. You
       can increase the spell slot level by one for each additional charge you
       expend.</p><p>The wand regains 1d6 + 1 expended charges daily at dawn. If
@@ -68,7 +68,7 @@ system:
     TdKi7kwKecDnJ77E:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.41JIhpDyM9Anm7cs
+        uuid: Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs
         challenge:
           attack: null
           save: null
@@ -125,7 +125,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -136,6 +136,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1725037087123
   modifiedTime: 1731015902317
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!1taRIMF9w7jpnonN'

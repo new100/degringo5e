@@ -87,8 +87,8 @@ system:
     - somatic
     - material
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -137,7 +137,7 @@ flags: {}
 img: icons/magic/control/fear-fright-monster-grin-green.webp
 effects:
   - name: Antipathy
-    origin: Compendium.degringo5e.spells.Item.GJ2WYm3SQFR0winH
+    origin: Compendium.dnd5e.spells.Item.GJ2WYm3SQFR0winH
     duration:
       startTime: null
       seconds: null
@@ -183,6 +183,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037351931
   modifiedTime: 1725992718400
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!GJ2WYm3SQFR0winH'

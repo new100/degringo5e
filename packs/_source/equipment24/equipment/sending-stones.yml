@@ -8,7 +8,7 @@ system:
     jDvy4ZWPPLUY7kip:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplSending000
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSending000
         challenge:
           attack: null
           save: null
@@ -66,7 +66,7 @@ system:
       <p><em>Wondrous Item, Uncommon</em></p><p><em>Sending Stones</em> come in
       pairs, with each stone carved to match the other so the pairing is easily
       recognized. While you touch one stone, you can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplSending000]{Sending} from it.
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSending000]{Sending} from it.
       The target is the bearer of the other stone. If no creature bears the
       other stone, you know that fact as soon as you use the stone, and you
       don't cast the spell.</p><p>Once <em>Sending</em> is cast using either
@@ -114,7 +114,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -125,7 +125,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745611883488
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 33500000
 ownership:

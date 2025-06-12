@@ -602,7 +602,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -638,7 +638,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -650,7 +650,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723296
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -786,7 +786,7 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -798,7 +798,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723296
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -946,7 +946,7 @@ items:
     img: icons/creatures/reptiles/snake-fangs-bite-green.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -958,7 +958,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723296
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1096,7 +1096,7 @@ items:
     img: icons/magic/light/beam-rays-green.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1108,7 +1108,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723296
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1279,7 +1279,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Restrained
-        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        img: systems/dnd5e/icons/svg/statuses/restrained.svg
         origin: Item.mmPetrifyingGaze
         _id: a5kKgU7vfT0v17yF
         type: base
@@ -1326,7 +1326,7 @@ items:
         _key: >-
           !actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.a5kKgU7vfT0v17yF
       - name: Petrified
-        img: systems/degringo5e/icons/svg/statuses/petrified.svg
+        img: systems/dnd5e/icons/svg/statuses/petrified.svg
         origin: Item.mmPetrifyingGaze
         _id: YLFv2Ujss9c0vtMQ
         type: base
@@ -1372,7 +1372,7 @@ items:
         _key: >-
           !actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.YLFv2Ujss9c0vtMQ
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1384,7 +1384,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723296
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1393,7 +1393,7 @@ items:
 effects: []
 folder: 36r8qm2aE4k6QTnW
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1402,7 +1402,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712723325
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

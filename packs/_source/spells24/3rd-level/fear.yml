@@ -53,8 +53,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -101,7 +101,7 @@ type: spell
 img: icons/magic/unholy/silhouette-robe-evil-glow.webp
 effects:
   - name: Fear
-    origin: Compendium.degringo5e.spells24.Item.phbsplFear000000
+    origin: Compendium.dnd5e.spells24.Item.phbsplFear000000
     duration:
       rounds: 1
       startTime: null
@@ -112,7 +112,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/degringo5e/icons/svg/statuses/frightened.svg
+    img: systems/dnd5e/icons/svg/statuses/frightened.svg
     _id: ijiWLu6EJZmEJPOZ
     type: base
     system: {}
@@ -145,7 +145,7 @@ sort: 2300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -156,6 +156,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425953067
   modifiedTime: 1745256792778
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplFear000000'

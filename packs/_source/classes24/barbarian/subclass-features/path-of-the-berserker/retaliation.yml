@@ -28,8 +28,8 @@ system:
   properties: []
   requirements: Path of the Berserker
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: reaction
@@ -82,13 +82,13 @@ system:
         max: ''
       sort: 0
       name: Retaliate
-      img: systems/degringo5e/icons/svg/trait-weapon-proficiencies.svg
+      img: systems/dnd5e/icons/svg/trait-weapon-proficiencies.svg
   enchant: {}
   identifier: retaliation
 effects: []
 folder: bEMqmmgGROsTGe0J
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -99,7 +99,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866492370
   modifiedTime: 1740680080827
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

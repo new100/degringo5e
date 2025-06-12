@@ -663,7 +663,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -675,7 +675,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715777
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -834,7 +834,7 @@ items:
     img: icons/magic/nature/root-vine-entangled-hands.webp
     effects:
       - name: Grappled
-        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        img: systems/dnd5e/icons/svg/statuses/grappled.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmConstrict00000
         transfer: false
         _id: Hd0Gy3wJtPfObERq
@@ -872,7 +872,7 @@ items:
         _key: >-
           !actors.items.effects!mmConstrictorSna.mmConstrict00000.Hd0Gy3wJtPfObERq
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -884,7 +884,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715777
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -903,6 +903,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1740679133185
   modifiedTime: 1745712715803
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!mmConstrictorSna'

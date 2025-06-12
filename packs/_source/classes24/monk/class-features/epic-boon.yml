@@ -7,9 +7,9 @@ system:
   description:
     value: >-
       <p>You gain an
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
       Boon feat} or another feat of your choice for which you qualify.
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon
       of Irresistible Offense} is recommended.</p><section
       id="secret-jF1SP5ddqgocevbp" class="secret"><p><strong>Foundry
       Note</strong></p><p>You will be prompted for a choice while leveling
@@ -38,7 +38,7 @@ system:
   identifier: epic-boon
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -49,7 +49,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866307724
   modifiedTime: 1745256763023
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 700000
 ownership:

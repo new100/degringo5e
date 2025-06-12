@@ -7,10 +7,10 @@ system:
   description:
     value: >-
       <p>You gain a
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
       Style feat} of your choice. Instead of choosing one of those feats, you
       can choose the option below.</p><hr
-      /><p>@Embed[Compendium.degringo5e.classes24.Item.phbfstBlessedWar
+      /><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstBlessedWar
       caption=false]</p>
     chat: ''
   source:
@@ -36,7 +36,7 @@ system:
   identifier: fighting-style
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -47,7 +47,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745513511345
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -174,7 +174,7 @@ system:
 effects:
   - name: Understanding
     img: icons/magic/perception/third-eye-blue-red.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgTomeOfUnderst
+    origin: Compendium.dnd5e.equipment24.Item.dmgTomeOfUnderst
     transfer: false
     _id: jXvtCEBoDCydH8fa
     type: base
@@ -210,11 +210,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730661923673
       modifiedTime: 1730692394012
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgTomeOfUnderst.jXvtCEBoDCydH8fa'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -225,7 +225,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 37400000
 ownership:

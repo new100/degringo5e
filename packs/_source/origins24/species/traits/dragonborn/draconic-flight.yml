@@ -86,7 +86,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/degringo5e/icons/svg/damage/slashing.svg
+      img: systems/dnd5e/icons/svg/damage/slashing.svg
   enchant: {}
   identifier: draconic-flight
   advancement: []
@@ -99,7 +99,7 @@ img: icons/magic/holy/angel-wings-gray.webp
 effects:
   - name: Draconic Flight
     img: icons/magic/holy/angel-wings-gray.webp
-    origin: Compendium.degringo5e.origins24.Item.phbsptDraconicFl
+    origin: Compendium.dnd5e.origins24.Item.phbsptDraconicFl
     transfer: false
     _id: waI4oHqhpbKUem0M
     type: base
@@ -134,7 +134,7 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -145,6 +145,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745340795949
   modifiedTime: 1745341995023
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsptDraconicFl'

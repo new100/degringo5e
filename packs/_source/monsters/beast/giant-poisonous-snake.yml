@@ -491,7 +491,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
           make a [[/save]] saving throw, taking [[/damage average
-          activity=degringo5eactivity100]] damage on a failed save, or half as much
+          activity=dnd5eactivity100]] damage on a failed save, or half as much
           damage on a successful one.</p>
         chat: >-
           <p>The Giant Poisonous Snake attacks with its Bite. The target must
@@ -569,8 +569,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -632,8 +632,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -711,19 +711,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741121328396
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!ZW39DE2zI3TXVYC9.GlOJaYXJFUP0Hd80'
 effects: []
@@ -739,6 +739,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171239448
   modifiedTime: 1741121336076
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!ZW39DE2zI3TXVYC9'

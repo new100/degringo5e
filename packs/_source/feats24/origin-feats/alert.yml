@@ -43,7 +43,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.degringo5e.initiativeAlert
+      - key: flags.dnd5e.initiativeAlert
         mode: 2
         value: 'true'
         priority: null
@@ -63,7 +63,7 @@ effects:
     statuses: []
     sort: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           statuses: []
     _stats:
@@ -82,7 +82,7 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -93,6 +93,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866666366
   modifiedTime: 1745256780460
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbftAlert000000'

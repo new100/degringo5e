@@ -510,8 +510,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -574,14 +574,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745273655374
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!9g4N9sjyh8Ql46to.1k58ryEYEYijhYOb'
   - _id: 250gOq5bpqIHb7rw
@@ -664,8 +664,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -738,14 +738,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.items.QRCsxkCwWNwswL9o
+      compendiumSource: Compendium.dnd5e.items.QRCsxkCwWNwswL9o
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107550523
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!9g4N9sjyh8Ql46to.250gOq5bpqIHb7rw'
   - _id: lpyNJHYnhFtpLgo9
@@ -827,8 +827,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -908,7 +908,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745173385091
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!9g4N9sjyh8Ql46to.lpyNJHYnhFtpLgo9'
 effects: []
@@ -924,6 +924,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1726171209241
   modifiedTime: 1726171440725
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!9g4N9sjyh8Ql46to'

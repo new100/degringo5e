@@ -13,9 +13,9 @@ system:
       creature is pushed to one side of the wall (you choose which
       side).</p><p>Nothing can physically pass through the wall. It is immune to
       all damage and can't be dispelled by
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}.</em> A
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em>
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em>
       spell destroys the wall instantly, however. The wall also extends into the
       Ethereal Plane and blocks ethereal travel through the wall.</p>
     chat: ''
@@ -169,7 +169,7 @@ sort: 100391
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -180,6 +180,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425977048
   modifiedTime: 1745256799744
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplWallofForc'

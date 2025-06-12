@@ -32,8 +32,8 @@ system:
   requirements: Cleric 2
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -43,7 +43,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ
+            target: Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ
             value: '1'
             scaling:
               mode: ''
@@ -110,6 +110,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037388943
   modifiedTime: 1725992290080
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!r91UIgwFdHwkXdia'

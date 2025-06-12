@@ -516,8 +516,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: damage
           activation:
             type: ''
@@ -581,8 +581,8 @@ items:
           name: ''
           img: ''
           appliedEffects: []
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: ''
@@ -649,19 +649,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WqRzbokPG0am6AHb
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WqRzbokPG0am6AHb
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741121988728
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!y8sRU8Ks2lcrGsaf.fmILoB0arLdodNGB'
   - _id: gyY5rw0x4itzMKoj
@@ -702,7 +702,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.nJHx2fudYhZeexDP
+      compendiumSource: Compendium.dnd5e.monsterfeatures.nJHx2fudYhZeexDP
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -791,8 +791,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -873,7 +873,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741122003155
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!y8sRU8Ks2lcrGsaf.I3ioyE4CVHPLGGy7'
 effects: []
@@ -889,6 +889,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171266312
   modifiedTime: 1741122005582
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!y8sRU8Ks2lcrGsaf'

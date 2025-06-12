@@ -465,7 +465,7 @@ system:
     revision: 1
     license: CC-BY-4.0
 _id: mmGiantWasp00000
-img: systems/degringo5e/tokens/beast/GiantWasp.webp
+img: systems/dnd5e/tokens/beast/GiantWasp.webp
 prototypeToken:
   name: Giant Wasp
   displayName: 0
@@ -475,7 +475,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/degringo5e/tokens/beast/GiantWasp.webp
+    src: systems/dnd5e/tokens/beast/GiantWasp.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -596,7 +596,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151903
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmGiantWasp00000.phbaoiSpiderClim'
   - name: Multiattack
@@ -604,7 +604,7 @@ items:
       description:
         value: >-
           <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
+          level (round down).</p><p>[[floor(@flags.dnd5e.summon.level /
           2)]]{Number of attacks}</p>
         chat: ''
       source:
@@ -626,8 +626,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -694,7 +694,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -706,7 +706,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151903
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmGiantWasp00000.phbaoiMultiattac'
   - name: Poison Jab
@@ -736,8 +736,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -834,7 +834,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -846,7 +846,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151903
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmGiantWasp00000.phbaoiPoisonJab0'
   - _id: mmFlyby000000000
@@ -895,7 +895,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342040498
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1036,7 +1036,7 @@ items:
     img: icons/creatures/abilities/stinger-poison-green.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1048,7 +1048,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342040498
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1060,7 +1060,7 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1069,6 +1069,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1740679132333
   modifiedTime: 1745256820555
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!mmGiantWasp00000'

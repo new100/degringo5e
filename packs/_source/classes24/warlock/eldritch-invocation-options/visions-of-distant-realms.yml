@@ -4,8 +4,8 @@ type: feat
 img: icons/magic/control/hypnosis-mesmerism-eye.webp
 system:
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: summon
       activation:
         type: action
@@ -59,7 +59,7 @@ system:
         - count: ''
           name: ''
           _id: OPGmJyPFZox9o5it
-          uuid: Compendium.degringo5e.actors24.Actor.phbsplArcaneEye0
+          uuid: Compendium.dnd5e.actors24.Actor.phbsplArcaneEye0
           level:
             min: null
             max: null
@@ -82,7 +82,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 9+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}
+      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}
       without expending a spell slot.</p><section class="secret"
       id="secret-yVljO3Op1LVKKBRZ"><p><strong>Foundry Note</strong></p><p>This
       feature can be used in place of Arcane Eye and includes a
@@ -107,7 +107,7 @@ system:
 effects: []
 folder: BjeMHiqnKNWkWhox
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -118,7 +118,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1740680084434
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

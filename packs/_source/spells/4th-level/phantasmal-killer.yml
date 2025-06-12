@@ -59,8 +59,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -121,7 +121,7 @@ flags: {}
 img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
 effects:
   - name: Phantasmal Killer
-    origin: Compendium.degringo5e.spells.Item.BYNvBJzHcF5VJhXw
+    origin: Compendium.dnd5e.spells.Item.BYNvBJzHcF5VJhXw
     duration:
       startTime: null
       seconds: 60
@@ -166,6 +166,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037350639
   modifiedTime: 1725992718018
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!BYNvBJzHcF5VJhXw'

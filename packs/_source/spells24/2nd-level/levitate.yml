@@ -61,8 +61,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -146,7 +146,7 @@ effects:
       systemVersion: 4.0.1
       createdTime: 1726687988535
       modifiedTime: 1726688069693
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplLevitate00.axhLHcJQHprSpHRD'
 folder: 3SjcO2acsFnWegp4
@@ -154,7 +154,7 @@ sort: 2400000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -165,6 +165,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425961258
   modifiedTime: 1745256795453
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplLevitate00'

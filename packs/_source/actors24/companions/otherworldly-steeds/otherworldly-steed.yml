@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFindSteed0
         caption=false]</p>
       public: ''
     alignment: Neutral
@@ -520,7 +520,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -532,7 +532,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159533
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobOtherworld.phbaoiLifeBond00'
   - name: Otherworldly Slam
@@ -562,8 +562,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -654,7 +654,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -666,7 +666,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159533
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobOtherworld.phbaoiOtherworld'
   - name: Fell Glare
@@ -699,8 +699,8 @@ items:
       properties: []
       requirements: Fiend Only
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: bonus
@@ -774,8 +774,8 @@ items:
     img: icons/magic/fire/elemental-creature-horse.webp
     effects:
       - name: Frightened
-        img: systems/degringo5e/icons/svg/statuses/frightened.svg
-        origin: Compendium.degringo5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF
+        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        origin: Compendium.dnd5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF
         transfer: false
         _id: mvCvu3ezA2FV5IeR
         type: base
@@ -804,7 +804,7 @@ items:
           systemVersion: 4.0.0
           createdTime: 1725918190159
           modifiedTime: 1725984124938
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!phbmobOtherworld.phbaoiFellGlareF.mvCvu3ezA2FV5IeR
@@ -813,7 +813,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -825,7 +825,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159533
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobOtherworld.phbaoiFellGlareF'
   - name: Fey Step
@@ -856,8 +856,8 @@ items:
       properties: []
       requirements: Fey Only
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: bonus
@@ -931,7 +931,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -943,7 +943,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159533
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobOtherworld.phbaoiFeyStepFey'
   - name: Healing Touch
@@ -974,8 +974,8 @@ items:
       properties: []
       requirements: Celestial Only
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: heal
           activation:
             type: bonus
@@ -1063,7 +1063,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159533
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobOtherworld.phbaoiHealingTou'
 effects: []
@@ -1072,7 +1072,7 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1081,6 +1081,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425914720
   modifiedTime: 1745256827723
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!phbmobOtherworld'

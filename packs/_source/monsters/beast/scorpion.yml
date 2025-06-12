@@ -491,7 +491,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
           make a [[/save]] saving throw, taking [[/damage average
-          activity=degringo5eactivity100]] damage on a failed save, or half as much
+          activity=dnd5eactivity100]] damage on a failed save, or half as much
           damage on a successful one.</p>
         chat: >-
           <p>The Scorpion attacks with its Sting. The target must make a
@@ -567,8 +567,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -633,8 +633,8 @@ items:
           name: ''
           img: ''
           appliedEffects: []
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -712,7 +712,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -724,7 +724,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741122891662
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!Y0vxQVF7w2P38FK2.ltue5DUb1SZfphHE'
 effects: []
@@ -740,6 +740,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171237862
   modifiedTime: 1741122900971
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!Y0vxQVF7w2P38FK2'

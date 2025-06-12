@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFlamingSph
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFlamingSph
         caption=false]</p>
       public: ''
     alignment: ''
@@ -466,7 +466,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -507,8 +507,8 @@ items:
         - mgc
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: ''
@@ -592,7 +592,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -604,7 +604,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160267
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplFlamingSph.phbftFlamingSphe'
   - name: Roll
@@ -639,8 +639,8 @@ items:
         - mgc
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: bonus
@@ -724,7 +724,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -736,13 +736,13 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160267
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplFlamingSph.phbaoiFlamingSph'
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -751,7 +751,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425918415
   modifiedTime: 1745256830110
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 300000
 ownership:

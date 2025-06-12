@@ -7,7 +7,7 @@ system:
     value: >-
       <p>While wearing this ring, you can use an action to expend 1 of its 3
       charges to cast the
-      @UUID[Compendium.degringo5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it.
+      @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it.
       The ring becomes nonmagical when you use the last charge.</p>
     chat: ''
   source:
@@ -59,7 +59,7 @@ system:
     1EUFXGu0QymljFCD:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.3okM6Gn63zzEULkz
+        uuid: Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz
         challenge:
           attack: null
           save: null
@@ -113,7 +113,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -124,6 +124,6 @@ _stats:
   systemVersion: 4.1.0
   createdTime: 1725037244371
   modifiedTime: 1731017400070
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ewXgnWiYQhS8KArS'

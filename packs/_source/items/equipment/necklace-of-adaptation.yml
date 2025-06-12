@@ -10,8 +10,8 @@ system:
       <p>While wearing this necklace, you can breathe normally in any
       environment, and you have advantage on saving throws made against harmful
       gases and vapors (such as
-      @UUID[Compendium.degringo5e.spells.Item.LkvI11Uue774QBKZ]{Cloudkill} and
-      @UUID[Compendium.degringo5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}
+      @UUID[Compendium.dnd5e.spells.Item.LkvI11Uue774QBKZ]{Cloudkill} and
+      @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}
       effects, inhaled poisons, and the breath weapons of some dragons).</p>
     chat: ''
   source:
@@ -60,8 +60,8 @@ system:
   properties:
     - mgc
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: ''
@@ -127,6 +127,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037320734
   modifiedTime: 1725992558060
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!wwNpAz2KMukovewN'

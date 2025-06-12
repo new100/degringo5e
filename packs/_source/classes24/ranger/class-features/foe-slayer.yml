@@ -6,7 +6,7 @@ img: icons/skills/targeting/crosshair-triple-strike-orange.webp
 system:
   description:
     value: >-
-      <p>@UUID[Compendium.degringo5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark}
+      <p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark}
       is a d10 rather than a d6.</p><section id="secret-GUET2urq4zcuitcV"
       class="secret"><p><strong>Foundry Note</strong></p><p>You may use this
       feature in place of the <strong>Bonus Mark Damage</strong> activity on the
@@ -91,7 +91,7 @@ system:
   identifier: foe-slayer
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -102,7 +102,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735932734523
   modifiedTime: 1745256764911
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

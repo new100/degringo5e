@@ -57,8 +57,8 @@ system:
     - somatic
     - material
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -103,7 +103,7 @@ flags: {}
 img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
 effects:
   - name: Heroes' Feast
-    origin: Compendium.degringo5e.spells.Item.mgFqi0ev8f7Ut19y
+    origin: Compendium.dnd5e.spells.Item.mgFqi0ev8f7Ut19y
     duration:
       startTime: null
       seconds: 86400
@@ -159,6 +159,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037364507
   modifiedTime: 1725992722545
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!mgFqi0ev8f7Ut19y'

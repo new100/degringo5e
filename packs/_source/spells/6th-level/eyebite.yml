@@ -66,8 +66,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -118,7 +118,7 @@ flags: {}
 img: icons/magic/perception/eye-ringed-glow-angry-large-red.webp
 effects:
   - name: Eyebite (alseep)
-    origin: Compendium.degringo5e.spells.Item.ZRqu3Xh9FmlBCZGy
+    origin: Compendium.dnd5e.spells.Item.ZRqu3Xh9FmlBCZGy
     duration:
       startTime: null
       seconds: 60
@@ -155,7 +155,7 @@ effects:
     sort: 0
     _key: '!items.effects!ZRqu3Xh9FmlBCZGy.2pJGy924n0r44Zkh'
   - name: Eyebite (panicked)
-    origin: Compendium.degringo5e.spells.Item.ZRqu3Xh9FmlBCZGy
+    origin: Compendium.dnd5e.spells.Item.ZRqu3Xh9FmlBCZGy
     duration:
       startTime: null
       seconds: 60
@@ -201,6 +201,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037359262
   modifiedTime: 1725992720837
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ZRqu3Xh9FmlBCZGy'

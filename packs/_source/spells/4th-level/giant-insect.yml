@@ -62,8 +62,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: summon
       activation:
         type: action
@@ -108,7 +108,7 @@ system:
         - count: '10'
           name: ''
           _id: xLVPgOloyb3QJ0i1
-          uuid: Compendium.degringo5e.monsters.Actor.Hn8FFLEzscgT7azz
+          uuid: Compendium.dnd5e.monsters.Actor.Hn8FFLEzscgT7azz
           level:
             min: null
             max: null
@@ -116,7 +116,7 @@ system:
         - count: ''
           name: ''
           _id: zzh3sTByUIvUYVvE
-          uuid: Compendium.degringo5e.monsters.Actor.GxgIVRX5GbVTifiF
+          uuid: Compendium.dnd5e.monsters.Actor.GxgIVRX5GbVTifiF
           level:
             min: null
             max: null
@@ -124,7 +124,7 @@ system:
         - count: '3'
           name: ''
           _id: Mjp51GLFAYyA6NgW
-          uuid: Compendium.degringo5e.monsters.Actor.v99wOosUJjUgcUNF
+          uuid: Compendium.dnd5e.monsters.Actor.v99wOosUJjUgcUNF
           level:
             min: null
             max: null
@@ -132,7 +132,7 @@ system:
         - count: '5'
           name: ''
           _id: LkxYBiqNIyzUJxuH
-          uuid: Compendium.degringo5e.monsters.Actor.4tl0s2SnaLjkoDiI
+          uuid: Compendium.dnd5e.monsters.Actor.4tl0s2SnaLjkoDiI
           level:
             min: null
             max: null
@@ -158,6 +158,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037360727
   modifiedTime: 1725992721324
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!czXrVRx6XYRWsHAi'

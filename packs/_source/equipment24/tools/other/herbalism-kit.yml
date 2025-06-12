@@ -5,10 +5,10 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Intelligence</p><p
       class="phb-meta"><strong>Utilize:</strong> Identify a plant (DC 10)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagAntitoxin00]{Antitoxin},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagCandle00000]{Candle},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagHealersKit0]{Healer's Kit},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagPotionofHea]{Potion of
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagAntitoxin00]{Antitoxin},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candle},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer's Kit},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagPotionofHea]{Potion of
       Healing}</p>
     chat: ''
   source:
@@ -111,7 +111,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -122,6 +122,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425917146
   modifiedTime: 1745256814162
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbtulHerbalismK'

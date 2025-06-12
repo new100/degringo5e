@@ -118,7 +118,7 @@ system:
 effects:
   - name: 'Hood Up: Invisible'
     img: icons/equipment/back/cloak-hooded-blue.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgCloakOfInvisi
+    origin: Compendium.dnd5e.equipment24.Item.dmgCloakOfInvisi
     transfer: true
     _id: sSsgrnNQCK4vurTm
     type: base
@@ -149,11 +149,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729017377412
       modifiedTime: 1730836048499
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgCloakOfInvisi.sSsgrnNQCK4vurTm'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -164,7 +164,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1740680117716
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 7900000
 ownership:

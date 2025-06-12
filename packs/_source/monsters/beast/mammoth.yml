@@ -515,8 +515,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: ''
@@ -569,8 +569,8 @@ items:
             prompt: false
             visible: false
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: ''
@@ -637,14 +637,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.yD51x4dihnbHwfsj
+      compendiumSource: Compendium.dnd5e.monsterfeatures.yD51x4dihnbHwfsj
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741122303693
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!MiYRAIHwm9It1in8.4LYRJH02EsSnZUNc'
   - _id: S7i3GTdoo6tyc2wL
@@ -727,8 +727,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -809,7 +809,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1744916837839
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!MiYRAIHwm9It1in8.S7i3GTdoo6tyc2wL'
   - _id: Hx541foatcQiMSZj
@@ -893,8 +893,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -975,7 +975,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1744916837839
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!MiYRAIHwm9It1in8.Hx541foatcQiMSZj'
 effects: []
@@ -991,6 +991,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171226268
   modifiedTime: 1741122351458
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!MiYRAIHwm9It1in8'

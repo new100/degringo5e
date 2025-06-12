@@ -117,7 +117,7 @@ system:
 effects:
   - name: Full of Vitality
     img: icons/consumables/potions/potion-flask-corled-pink-red.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgPotionOfVital
+    origin: Compendium.dnd5e.equipment24.Item.dmgPotionOfVital
     transfer: false
     _id: GxutU47JS0FNfeoM
     type: base
@@ -137,7 +137,7 @@ effects:
     statuses: []
     sort: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           statuses: []
     _stats:
@@ -148,11 +148,11 @@ effects:
       systemVersion: 4.4.1
       createdTime: 1730864551236
       modifiedTime: 1746118341518
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgPotionOfVital.GxutU47JS0FNfeoM'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -163,7 +163,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745612001388
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -561,8 +561,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -643,7 +643,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741117003939
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!lZR4lhNmYSf89s4Q.ypnf9maxKh66ucMe'
   - _id: TSmET06nE61H6HC2
@@ -680,8 +680,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: damage
           activation:
             type: ''
@@ -745,8 +745,8 @@ items:
           name: ''
           img: ''
           appliedEffects: []
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: ''
@@ -812,19 +812,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WqRzbokPG0am6AHb
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WqRzbokPG0am6AHb
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741118127951
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!lZR4lhNmYSf89s4Q.TSmET06nE61H6HC2'
   - _id: U66PTM15QvmkenvW
@@ -860,8 +860,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: special
@@ -930,14 +930,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.8FX2KlWyBAKEYGzs
+      compendiumSource: Compendium.dnd5e.monsterfeatures.8FX2KlWyBAKEYGzs
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1736804676738
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!lZR4lhNmYSf89s4Q.U66PTM15QvmkenvW'
 effects: []
@@ -953,6 +953,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171253780
   modifiedTime: 1741117009204
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!lZR4lhNmYSf89s4Q'

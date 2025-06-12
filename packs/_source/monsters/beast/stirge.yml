@@ -569,8 +569,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -645,7 +645,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -657,7 +657,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741122985601
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!gKRtiMNAjZiCVfwz.MEFgfFD6YUD9cE08'
 effects: []
@@ -673,6 +673,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171247697
   modifiedTime: 1741123007495
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!gKRtiMNAjZiCVfwz'

@@ -113,7 +113,7 @@ system:
 effects:
   - name: Winged
     img: icons/magic/holy/angel-wings-gray.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgWingsOfFlying
+    origin: Compendium.dnd5e.equipment24.Item.dmgWingsOfFlying
     transfer: false
     _id: JLR5JpSUgL3yYcvt
     type: base
@@ -147,11 +147,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730660631455
       modifiedTime: 1730660707544
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgWingsOfFlying.JLR5JpSUgL3yYcvt'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -162,7 +162,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712705038
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 38000000
 ownership:

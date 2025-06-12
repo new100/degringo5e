@@ -59,8 +59,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: check
       activation:
         type: action
@@ -126,7 +126,7 @@ sort: 1100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -137,6 +137,6 @@ _stats:
   systemVersion: 4.3.8
   createdTime: 1725037098121
   modifiedTime: 1744317421044
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!46ikeR4RrSim6DsN'

@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Incubus</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Eqctro3hPZWecGfP
+        <h1>Incubus</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Eqctro3hPZWecGfP
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -627,7 +627,7 @@ items:
             - count: '1'
               name: Succubus
               _id: d6zyg32jelvg06Iq
-              uuid: Compendium.degringo5e.actors24.Actor.mmSuccubus000000
+              uuid: Compendium.dnd5e.actors24.Actor.mmSuccubus000000
               level:
                 min: null
                 max: null
@@ -645,7 +645,7 @@ items:
         value: >-
           <p class="feature">When the [[lookup @name lowercase]] finishes a Long
           Rest, it can shape-shift into a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmSuccubus000000]{Succubus}</strong>,
+          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmSuccubus000000]{Succubus}</strong>,
           using that stat block instead of this one. Any equipment it is wearing
           or carrying isn't transformed.</p>
         chat: ''
@@ -669,7 +669,7 @@ items:
     img: icons/magic/unholy/silhouette-light-fire-blue.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -681,7 +681,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737648826263
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -822,7 +822,7 @@ items:
     img: icons/commodities/biological/hand-clawed-blue.webp
     effects:
       - name: Cursed
-        img: systems/degringo5e/icons/svg/statuses/cursed.svg
+        img: systems/dnd5e/icons/svg/statuses/cursed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmRestlessTouch0
         _id: BvP51cOd6lyrhEgq
         type: base
@@ -860,7 +860,7 @@ items:
         _key: >-
           !actors.items.effects!mmIncubus0000000.mmRestlessTouch0.BvP51cOd6lyrhEgq
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -872,7 +872,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737648829438
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -931,7 +931,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -960,7 +960,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -972,7 +972,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737648830342
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1028,13 +1028,13 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
             ability: ''
           name: ''
         4niv7GRkc5MSpdJB:
           type: cast
           spell:
-            uuid: Compendium.degringo5e.spells24.Item.phbsplEtherealne
+            uuid: Compendium.dnd5e.spells24.Item.phbsplEtherealne
             challenge:
               attack: null
               save: null
@@ -1079,7 +1079,7 @@ items:
         1LiS9RkRQ6CxlqU8:
           type: cast
           spell:
-            uuid: Compendium.degringo5e.spells24.Item.phbsplDream00000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
             challenge:
               attack: null
               save: null
@@ -1129,7 +1129,7 @@ items:
         GLd7uBKeTMA5hZR1:
           type: cast
           spell:
-            uuid: Compendium.degringo5e.spells24.Item.phbsplHypnoticPa
+            uuid: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
             challenge:
               attack: null
               save: null
@@ -1187,12 +1187,12 @@ items:
           as the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
           Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disguise
           Self}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness}</em></p><p
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEtherealne]{Etherealness}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDream00000]{Dream}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHypnoticPa]{Hypnotic
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream}</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHypnoticPa]{Hypnotic
           Pattern}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1214,7 +1214,7 @@ items:
     img: icons/magic/symbols/circled-gem-pink.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1226,7 +1226,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737648832146
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1349,7 +1349,7 @@ items:
     img: icons/magic/control/fear-fright-white.webp
     effects:
       - name: Unconscious
-        img: systems/degringo5e/icons/svg/statuses/unconscious.svg
+        img: systems/dnd5e/icons/svg/statuses/unconscious.svg
         origin: Item.mmNightmare00000
         _id: Di6rSDXgFkxAGsFE
         type: base
@@ -1388,7 +1388,7 @@ items:
         _key: >-
           !actors.items.effects!mmIncubus0000000.mmNightmare00000.Di6rSDXgFkxAGsFE
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1400,7 +1400,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737648833437
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1466,8 +1466,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1513,7 +1513,7 @@ items:
     img: icons/equipment/head/mask-carved-bird-grey-pink.webp
     effects:
       - name: Disguised
-        origin: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
+        origin: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
         duration:
           rounds: null
           startTime: null
@@ -1550,12 +1550,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.SrIb7dbaZs5F4zi9
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+          Compendium.dnd5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1585,26 +1585,26 @@ items:
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737649499720
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
-          !actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.degringo5espellchange
+          !actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
     sort: 3900000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737649494670
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: Epzabor9RV5yUeqA
     _key: '!actors.items!mmIncubus0000000.Epzabor9RV5yUeqA'
@@ -1717,14 +1717,14 @@ items:
             name: ''
             formula: ''
           name: Enter Border Ethereal
-          img: systems/degringo5e/icons/svg/trait-saves.svg
+          img: systems/dnd5e/icons/svg/trait-saves.svg
       identifier: etherealness
     type: spell
     img: icons/magic/air/wind-vortex-swirl-purple.webp
     effects:
       - name: Etherealness
-        img: systems/degringo5e/icons/svg/statuses/ethereal.svg
-        origin: Compendium.degringo5e.spells24.Item.phbsplEtherealne
+        img: systems/dnd5e/icons/svg/statuses/ethereal.svg
+        origin: Compendium.dnd5e.spells24.Item.phbsplEtherealne
         transfer: false
         _id: louTI4Z9bNUYBa8K
         type: base
@@ -1757,12 +1757,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.louTI4Z9bNUYBa8K
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.4niv7GRkc5MSpdJB
+          Compendium.dnd5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.4niv7GRkc5MSpdJB
         changes:
           - key: system.properties
             mode: 2
@@ -1792,26 +1792,26 @@ items:
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737649522336
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
-          !actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.degringo5espellchange
+          !actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.dnd5espellchange
     folder: EdAGMG8IF26PLkD3
     sort: 1800000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmSpellcasting00.Activity.4niv7GRkc5MSpdJB
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplEtherealne
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEtherealne
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737649512132
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: cuHZ2sYkluUF9oHO
     _key: '!actors.items!mmIncubus0000000.cuHZ2sYkluUF9oHO'
@@ -1880,8 +1880,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -1942,7 +1942,7 @@ items:
     img: icons/magic/control/sleep-bubble-purple.webp
     effects:
       - name: Trance State
-        origin: Compendium.degringo5e.spells24.Item.phbsplDream00000
+        origin: Compendium.dnd5e.spells24.Item.phbsplDream00000
         duration:
           rounds: null
           startTime: null
@@ -1998,12 +1998,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.x52Ga7U45IJOPFxK
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.1LiS9RkRQ6CxlqU8
+          Compendium.dnd5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.1LiS9RkRQ6CxlqU8
         changes:
           - key: system.properties
             mode: 2
@@ -2033,26 +2033,26 @@ items:
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737649534591
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
-          !actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.degringo5espellchange
+          !actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.dnd5espellchange
     folder: beZ8MTpWY2cMEUlp
     sort: 2100000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmSpellcasting00.Activity.1LiS9RkRQ6CxlqU8
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDream00000
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDream00000
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737649530589
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: CM68DGw3MVinKTAz
     _key: '!actors.items!mmIncubus0000000.CM68DGw3MVinKTAz'
@@ -2112,8 +2112,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -2162,7 +2162,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-swirl.webp
     effects:
       - name: Hypnotized
-        origin: Compendium.degringo5e.spells24.Item.phbsplHypnoticPa
+        origin: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
         duration:
           rounds: null
           startTime: null
@@ -2222,12 +2222,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.mjAs8ssQlgp0AQOp
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.GLd7uBKeTMA5hZR1
+          Compendium.dnd5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.GLd7uBKeTMA5hZR1
         changes:
           - key: system.properties
             mode: 2
@@ -2257,26 +2257,26 @@ items:
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737649572562
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
-          !actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.degringo5espellchange
+          !actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
     sort: 1500000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmSpellcasting00.Activity.GLd7uBKeTMA5hZR1
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHypnoticPa
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737649568508
       modifiedTime: 1745712721979
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: 4pZ322c02dDoRQXF
     _key: '!actors.items!mmIncubus0000000.4pZ322c02dDoRQXF'
@@ -2290,7 +2290,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712722012
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 150000
 ownership:

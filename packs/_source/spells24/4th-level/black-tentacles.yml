@@ -61,8 +61,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -121,7 +121,7 @@ type: spell
 img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
 effects:
   - name: Restrained
-    origin: Compendium.degringo5e.spells24.Item.phbsplEvardsBlac
+    origin: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
     duration:
       rounds: null
       startTime: null
@@ -132,7 +132,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/degringo5e/icons/svg/statuses/restrained.svg
+    img: systems/dnd5e/icons/svg/statuses/restrained.svg
     _id: NDytclFrNmC418CS
     type: base
     system: {}
@@ -163,7 +163,7 @@ sort: 2400000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -174,6 +174,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425952514
   modifiedTime: 1745256792488
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplEvardsBlac'

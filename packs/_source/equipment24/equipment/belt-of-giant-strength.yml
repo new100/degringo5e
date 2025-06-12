@@ -18,16 +18,16 @@ system:
       than the belt's
       score.</p><table><thead><tr><td>Belt</td><td>Str.</td><td>Rarity</td></tr></thead><tbody><tr><td><em>Belt
       of Giant Strength</em>
-      (@UUID[Compendium.degringo5e.equipment24.Item.dmghilBeltofGian]{hill})</td><td>21</td><td>Rare</td></tr><tr><td><em>Belt
+      (@UUID[Compendium.dnd5e.equipment24.Item.dmghilBeltofGian]{hill})</td><td>21</td><td>Rare</td></tr><tr><td><em>Belt
       of Giant Strength</em>
-      (@UUID[Compendium.degringo5e.equipment24.Item.dmgfroBeltofGian]{frost} or
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgstoBeltofGian]{stone})</td><td>23</td><td>Very
+      (@UUID[Compendium.dnd5e.equipment24.Item.dmgfroBeltofGian]{frost} or
+      @UUID[Compendium.dnd5e.equipment24.Item.dmgstoBeltofGian]{stone})</td><td>23</td><td>Very
       Rare</td></tr><tr><td><em>Belt of Giant Strength</em>
-      (@UUID[Compendium.degringo5e.equipment24.Item.dmgfirBeltofGian]{fire})</td><td>25</td><td>Very
+      (@UUID[Compendium.dnd5e.equipment24.Item.dmgfirBeltofGian]{fire})</td><td>25</td><td>Very
       Rare</td></tr><tr><td><em>Belt of Giant Strength</em>
-      (@UUID[Compendium.degringo5e.equipment24.Item.dmgcloBeltofGian]{cloud})</td><td>27</td><td>Legendary</td></tr><tr><td><em>Belt
+      (@UUID[Compendium.dnd5e.equipment24.Item.dmgcloBeltofGian]{cloud})</td><td>27</td><td>Legendary</td></tr><tr><td><em>Belt
       of Giant Strength</em>
-      (@UUID[Compendium.degringo5e.equipment24.Item.dmgstmBeltofGian]{storm})</td><td>29</td><td>Legendary</td></tr></tbody></table>
+      (@UUID[Compendium.dnd5e.equipment24.Item.dmgstmBeltofGian]{storm})</td><td>29</td><td>Legendary</td></tr></tbody></table>
     chat: ''
   identifier: belt-of-giant-strength
   source:
@@ -70,7 +70,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -81,7 +81,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745432742573
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 1750000
 ownership:

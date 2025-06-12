@@ -116,8 +116,8 @@ type: spell
 img: icons/environment/people/charge.webp
 effects:
   - name: Charmed
-    img: systems/degringo5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplMassSugges
+    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplMassSugges
     transfer: false
     _id: kkxX701wci61fEvH
     type: base
@@ -149,7 +149,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1724779473216
       modifiedTime: 1724779565694
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplMassSugges.kkxX701wci61fEvH'
 folder: 8WmlLARx1Df3Ii9v
@@ -157,7 +157,7 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -168,6 +168,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425963056
   modifiedTime: 1745256795972
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplMassSugges'

@@ -46,8 +46,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -90,7 +90,7 @@ type: spell
 img: icons/magic/perception/eye-winged-pink.webp
 effects:
   - name: Darkvision
-    origin: Compendium.degringo5e.spells24.Item.phbsplDarkvision
+    origin: Compendium.dnd5e.spells24.Item.phbsplDarkvision
     duration:
       startTime: null
       seconds: 28800
@@ -115,7 +115,7 @@ effects:
     tint: '#ffffff'
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.hJ6ZiA3fpoY8v9cp.ActiveEffect.9qaZQFN5xP8Gig8f
+        Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp.ActiveEffect.9qaZQFN5xP8Gig8f
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -134,7 +134,7 @@ sort: 4100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -145,6 +145,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425948935
   modifiedTime: 1740685851701
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplDarkvision'

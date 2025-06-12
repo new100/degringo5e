@@ -50,8 +50,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -113,7 +113,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.degringo5e.spells24.Item.phbsplMageArmor0
+    origin: Compendium.dnd5e.spells24.Item.phbsplMageArmor0
     transfer: false
     flags: {}
     tint: '#ffffff'
@@ -122,7 +122,7 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+        Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -141,7 +141,7 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -152,6 +152,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425962003
   modifiedTime: 1745256795660
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplMageArmor0'

@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbswdMordenkain
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbswdMordenkain
         caption=false]</p>
       public: ''
     alignment: ''
@@ -596,7 +596,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -608,13 +608,13 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160567
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplMordSword0.phbftMordenkaine'
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -623,7 +623,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724949979079
   modifiedTime: 1745256830347
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 600000
 ownership:

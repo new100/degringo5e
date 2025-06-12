@@ -47,7 +47,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.degringo5e.classes24.Item.phbwlkMagicalCun
+            target: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
             scaling: {}
           - type: attribute
             value: '-(@spells.pact.max)'
@@ -89,7 +89,7 @@ system:
   identifier: eldritch-master
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -100,7 +100,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256767072
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -54,8 +54,8 @@ system:
   properties:
     - vocal
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -104,7 +104,7 @@ flags: {}
 img: icons/magic/control/debuff-chains-ropes-red.webp
 effects:
   - name: Power Word Stun
-    origin: Compendium.degringo5e.spells.Item.35j2QIMmIk6aEdxj
+    origin: Compendium.dnd5e.spells.Item.35j2QIMmIk6aEdxj
     duration:
       startTime: null
       seconds: null
@@ -149,6 +149,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037346470
   modifiedTime: 1725992716734
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!35j2QIMmIk6aEdxj'

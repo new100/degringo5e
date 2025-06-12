@@ -468,7 +468,7 @@ prototypeToken:
       scale: 1
       texture: icons/magic/perception/eye-tendrils-web-purple.webp
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -481,12 +481,12 @@ prototypeToken:
 items: []
 effects:
   - name: Invisible
-    _id: degringo5einvisible00
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
+    _id: dnd5einvisible00
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -515,7 +515,7 @@ effects:
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
-    _key: '!actors.effects!phbInvisibleSens.degringo5einvisible00'
+    _key: '!actors.effects!phbInvisibleSens.dnd5einvisible00'
   - name: 'Active Sense: Sight'
     img: icons/svg/eye.svg
     _id: 9gxhNWiPY0SA7eV0
@@ -586,7 +586,7 @@ effects:
     _key: '!actors.effects!phbInvisibleSens.O96hoqlJot40eGqB'
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -595,7 +595,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425906907
   modifiedTime: 1740679894060
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 901563
 ownership:

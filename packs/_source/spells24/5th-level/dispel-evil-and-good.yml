@@ -60,8 +60,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -202,7 +202,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
       appliedEffects:
         - RMeb9TUrFdhXMTzz
   identifier: dispel-evil-and-good
@@ -211,7 +211,7 @@ type: spell
 img: icons/magic/holy/yin-yang-balance-symbol.webp
 effects:
   - name: Dispelling Evil and Good
-    origin: Compendium.degringo5e.spells24.Item.phbsplDispelEvil
+    origin: Compendium.dnd5e.spells24.Item.phbsplDispelEvil
     duration:
       rounds: 1
       startTime: null
@@ -252,7 +252,7 @@ sort: 2300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -263,6 +263,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425950100
   modifiedTime: 1745256790696
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplDispelEvil'

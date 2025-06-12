@@ -10,7 +10,7 @@ system:
       melee weapon strikes carry divine power with them.</p><p>Whenever you hit
       a creature with a melee weapon, the creature takes an extra 1d8 radiant
       damage. If you also use your
-      @UUID[Compendium.degringo5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Divine Smite}
+      @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Divine Smite}
       with an attack, you add this damage to the extra damage of your Divine
       Smite.</p>
     chat: ''
@@ -30,8 +30,8 @@ system:
   requirements: Paladin 11
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: damage
       activation:
         type: ''
@@ -147,6 +147,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037382034
   modifiedTime: 1725992287773
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!FAk41RPCTcvCk6KI'

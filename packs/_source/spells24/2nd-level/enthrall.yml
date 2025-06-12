@@ -50,8 +50,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -98,7 +98,7 @@ type: spell
 img: icons/skills/trades/music-singing-voice-blue.webp
 effects:
   - name: Distracted
-    origin: Compendium.degringo5e.spells24.Item.phbsplEnthrall00
+    origin: Compendium.dnd5e.spells24.Item.phbsplEnthrall00
     duration:
       rounds: null
       startTime: null
@@ -142,7 +142,7 @@ sort: 3600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -153,6 +153,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425952330
   modifiedTime: 1745256792411
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplEnthrall00'

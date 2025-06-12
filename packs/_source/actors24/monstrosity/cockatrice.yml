@@ -785,7 +785,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Restrained
-        img: systems/degringo5e/icons/svg/items/weapon.svg
+        img: systems/dnd5e/icons/svg/items/weapon.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
         _id: 9dBgxzdq0cmzyhfR
         type: base
@@ -823,7 +823,7 @@ items:
         _key: >-
           !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.9dBgxzdq0cmzyhfR
       - name: Petrified
-        img: systems/degringo5e/icons/svg/statuses/petrified.svg
+        img: systems/dnd5e/icons/svg/statuses/petrified.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
         _id: ScizgnitVoBvVzPx
         type: base
@@ -860,7 +860,7 @@ items:
         _key: >-
           !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.ScizgnitVoBvVzPx
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -872,7 +872,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715673
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -888,7 +888,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712715698
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

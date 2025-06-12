@@ -96,7 +96,7 @@ system:
         name: ''
         formula: ''
       name: Light
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
       appliedEffects: []
   identifier: candle
 _id: phbagCandle00000
@@ -108,7 +108,7 @@ sort: 6550000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -119,6 +119,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425907147
   modifiedTime: 1740680133416
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbagCandle00000'

@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbFaithfulHound
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbFaithfulHound
         caption=false]</p>
       public: ''
     alignment: ''
@@ -586,7 +586,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -598,17 +598,17 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159265
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobFaithfulHo.phbaoiBite000000'
 effects:
   - name: Invisible
-    _id: degringo5einvisible00
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
+    _id: dnd5einvisible00
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -637,10 +637,10 @@ effects:
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
-    _key: '!actors.effects!phbmobFaithfulHo.degringo5einvisible00'
+    _key: '!actors.effects!phbmobFaithfulHo.dnd5einvisible00'
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -649,7 +649,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1725646264209
   modifiedTime: 1745256827579
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

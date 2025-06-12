@@ -116,7 +116,7 @@ system:
 effects:
   - name: Poisoned and Paralyzed
     img: icons/consumables/potions/vial-cork-green.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgCarrionCrawle
+    origin: Compendium.dnd5e.equipment24.Item.dmgCarrionCrawle
     transfer: false
     _id: a9KfUV3KbbB5wrFY
     type: base
@@ -140,19 +140,19 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730740294138
       modifiedTime: 1730740463800
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgCarrionCrawle.a9KfUV3KbbB5wrFY'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -163,7 +163,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745545959446
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -7,7 +7,7 @@ system:
     value: >-
       <p>You can summon a nature spirit that assumes an animal form to aid you.
       As a Magic action, you can expend a spell slot or a use of Wild Shape to
-      cast the @UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find
+      cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find
       Familiar} spell without Material components.</p><p>When you cast the spell
       in this way, the familiar is Fey and disappears when you finish a Long
       Rest.</p><section id="secret-4iYtjsPCmpeQTKY5"
@@ -36,8 +36,8 @@ system:
   properties: []
   requirements: Druid
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: summon
       activation:
         type: action
@@ -132,7 +132,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
             scaling:
               mode: ''
         scaling:
@@ -210,7 +210,7 @@ system:
 effects: []
 folder: EXYmwRGoNyMbByN1
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -221,7 +221,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1740680082729
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 900000
 ownership:

@@ -214,7 +214,7 @@ system:
 effects:
   - name: 'Devious Strikes: Dazed'
     img: icons/skills/melee/strike-sword-stabbed-brown.webp
-    origin: Compendium.degringo5e.classes24.Item.phbrgeDeviousStr
+    origin: Compendium.dnd5e.classes24.Item.phbrgeDeviousStr
     transfer: false
     _id: wWFV1p8u9C1TUPg5
     type: base
@@ -249,7 +249,7 @@ effects:
     _key: '!items.effects!phbrgeDeviousStr.wWFV1p8u9C1TUPg5'
   - name: 'Devious Strikes: Knocked Out'
     img: icons/skills/melee/strike-sword-stabbed-brown.webp
-    origin: Compendium.degringo5e.classes24.Item.phbrgeDeviousStr
+    origin: Compendium.dnd5e.classes24.Item.phbrgeDeviousStr
     transfer: false
     _id: C2IGgt4PnRMxZVey
     type: base
@@ -286,7 +286,7 @@ effects:
     _key: '!items.effects!phbrgeDeviousStr.C2IGgt4PnRMxZVey'
   - name: 'Devious Strikes: Blinded'
     img: icons/skills/melee/strike-sword-stabbed-brown.webp
-    origin: Compendium.degringo5e.classes24.Item.phbrgeDeviousStr
+    origin: Compendium.dnd5e.classes24.Item.phbrgeDeviousStr
     transfer: false
     _id: Fb1n6Yk2MlOAckf0
     type: base
@@ -319,7 +319,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbrgeDeviousStr.Fb1n6Yk2MlOAckf0'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -330,7 +330,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866292069
   modifiedTime: 1745256764196
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

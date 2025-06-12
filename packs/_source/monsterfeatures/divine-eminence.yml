@@ -31,8 +31,8 @@ system:
     subtype: ''
   requirements: ''
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: bonus
@@ -84,8 +84,8 @@ system:
         prompt: false
         visible: false
       sort: 0
-    degringo5eactivity200:
-      _id: degringo5eactivity200
+    dnd5eactivity200:
+      _id: dnd5eactivity200
       type: damage
       activation:
         type: bonus
@@ -165,6 +165,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725304976239
   modifiedTime: 1725992574276
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!lVrnjqBrv90VH96d'

@@ -639,7 +639,7 @@ items:
     img: icons/skills/wounds/injury-stitched-flesh-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -651,7 +651,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728944
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -722,7 +722,7 @@ items:
             - count: ''
               name: ''
               _id: rzcDMzmCKWu3xQ7Z
-              uuid: Compendium.degringo5e.actors24.Actor.mmTroll000000000
+              uuid: Compendium.dnd5e.actors24.Actor.mmTroll000000000
               level:
                 min: null
                 max: null
@@ -742,7 +742,7 @@ items:
           [[lookup @name lowercase]]. If the limb isn't destroyed within 24
           hours, roll [[/r 1d12#On a 12, the limb turns into a troll]]{roll
           1d12}. On a 12, the limb turns into a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTroll000000000]{Troll}</strong>.
+          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTroll000000000]{Troll}</strong>.
           Otherwise, the limb withers away.</p>
         chat: ''
       identifier: troll-spawn
@@ -765,7 +765,7 @@ items:
     img: icons/magic/unholy/hand-claw-fog-green.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -777,7 +777,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728944
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -910,7 +910,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728944
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -919,7 +919,7 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -928,7 +928,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712728972
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

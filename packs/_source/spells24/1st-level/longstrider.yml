@@ -50,8 +50,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -99,7 +99,7 @@ type: spell
 img: icons/equipment/feet/boots-leather-laced-brown.webp
 effects:
   - name: Longstrider
-    origin: Compendium.degringo5e.spells24.Item.phbsplLongstride
+    origin: Compendium.dnd5e.spells24.Item.phbsplLongstride
     duration:
       rounds: 1
       startTime: null
@@ -140,7 +140,7 @@ sort: 1300000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -151,6 +151,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425961911
   modifiedTime: 1745256795632
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplLongstride'

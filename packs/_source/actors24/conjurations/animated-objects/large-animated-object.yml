@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplAnimateObj
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplAnimateObj
         caption=false]</p>
       public: ''
     alignment: Unaligned
@@ -513,8 +513,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -574,8 +574,8 @@ items:
               - custom:
                   enabled: true
                   formula: >-
-                    (@flags.degringo5e.summon.level - 3)d6 + @mod +
-                    @flags.degringo5e.summon.mod
+                    (@flags.dnd5e.summon.level - 3)d6 + @mod +
+                    @flags.dnd5e.summon.mod
                 number: null
                 denomination: null
                 bonus: ''
@@ -605,7 +605,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -617,7 +617,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159149
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phblaoAnimatedOb.phbaoiSlam000000'
 effects: []
@@ -626,7 +626,7 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
     summon:
       level: 5
@@ -638,6 +638,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425910125
   modifiedTime: 1745256827409
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!phblaoAnimatedOb'

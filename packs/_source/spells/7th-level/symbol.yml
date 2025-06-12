@@ -104,8 +104,8 @@ system:
     - somatic
     - material
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -172,7 +172,7 @@ flags: {}
 img: icons/magic/symbols/runes-star-pentagon-blue.webp
 effects:
   - name: Symbol (fear)
-    origin: Compendium.degringo5e.spells.Item.B2kbmgbA2WQR00kx
+    origin: Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx
     duration:
       startTime: null
       seconds: 60
@@ -210,7 +210,7 @@ effects:
     sort: 0
     _key: '!items.effects!B2kbmgbA2WQR00kx.ydHIFthrNnlBuOyx'
   - name: Symbol (pain)
-    origin: Compendium.degringo5e.spells.Item.B2kbmgbA2WQR00kx
+    origin: Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx
     duration:
       startTime: null
       seconds: 60
@@ -246,7 +246,7 @@ effects:
     sort: 0
     _key: '!items.effects!B2kbmgbA2WQR00kx.pSwauN9UZrF8WPMt'
   - name: Symbol (sleep)
-    origin: Compendium.degringo5e.spells.Item.B2kbmgbA2WQR00kx
+    origin: Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx
     duration:
       startTime: null
       seconds: 600
@@ -283,7 +283,7 @@ effects:
     sort: 0
     _key: '!items.effects!B2kbmgbA2WQR00kx.yNP9RLi4ym3s5Hrl'
   - name: Symbol (stunning)
-    origin: Compendium.degringo5e.spells.Item.B2kbmgbA2WQR00kx
+    origin: Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx
     duration:
       startTime: null
       seconds: 60
@@ -325,6 +325,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037350335
   modifiedTime: 1725992717934
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!B2kbmgbA2WQR00kx'

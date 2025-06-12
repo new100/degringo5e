@@ -67,7 +67,7 @@ system:
     value: >-
       <div><p><em>Wondrous Item, Common</em></p><p>This flavorless, gelatinous
       bead dissolves on your tongue and provides as much nourishment as 1 day of
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagRations0000]{Rations}.</p></div>
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}.</p></div>
     chat: ''
   identifier: bead-of-nourishment
   source:
@@ -110,7 +110,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -121,7 +121,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1740680115913
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 2900000
 ownership:

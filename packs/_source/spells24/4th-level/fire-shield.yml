@@ -51,8 +51,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -96,7 +96,7 @@ type: spell
 img: icons/equipment/shield/heater-stone-orange.webp
 effects:
   - name: Warm Shield
-    origin: Compendium.degringo5e.spells24.Item.phbsplFireShield
+    origin: Compendium.dnd5e.spells24.Item.phbsplFireShield
     duration:
       rounds: null
       startTime: null
@@ -135,7 +135,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplFireShield.YbUr13GTnMrootmf'
   - name: Chill Shield
-    origin: Compendium.degringo5e.spells24.Item.phbsplFireShield
+    origin: Compendium.dnd5e.spells24.Item.phbsplFireShield
     duration:
       rounds: null
       startTime: null
@@ -178,7 +178,7 @@ sort: 2200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -189,6 +189,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425953913
   modifiedTime: 1745256793068
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplFireShield'

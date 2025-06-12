@@ -73,8 +73,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -127,8 +127,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity300:
-      _id: degringo5eactivity300
+    dnd5eactivity300:
+      _id: dnd5eactivity300
       type: utility
       activation:
         type: action
@@ -179,6 +179,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037348074
   modifiedTime: 1725992717221
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!7KjExw0kmuqERa7C'

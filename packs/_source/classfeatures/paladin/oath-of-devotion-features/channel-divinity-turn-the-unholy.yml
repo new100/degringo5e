@@ -33,8 +33,8 @@ system:
   requirements: Oath of Devotion 3
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -44,7 +44,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.degringo5e.classfeatures.Item.8M7uOPhbTxoxxJSo
+            target: Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo
             value: '1'
             scaling:
               mode: ''
@@ -111,6 +111,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037385286
   modifiedTime: 1725992288749
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ZdwGlsJNtc7pGFCd'

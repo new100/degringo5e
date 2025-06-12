@@ -51,8 +51,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -126,7 +126,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.degringo5e.spells24.Item.phbsplBless00000
+    origin: Compendium.dnd5e.spells24.Item.phbsplBless00000
     tint: '#ffffff'
     transfer: false
     name: Blessed
@@ -136,7 +136,7 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
+        Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -155,7 +155,7 @@ sort: 5200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -166,6 +166,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425943614
   modifiedTime: 1740685851017
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplBless00000'

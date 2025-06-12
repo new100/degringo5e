@@ -36,8 +36,8 @@ system:
   requirements: Paladin 1
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: heal
       activation:
         type: action
@@ -102,8 +102,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity001:
-      _id: degringo5eactivity001
+    dnd5eactivity001:
+      _id: dnd5eactivity001
       type: utility
       name: Cure Disease and Poison
       activation:
@@ -172,6 +172,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037383620
   modifiedTime: 1725992288225
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!OdrvL3afwLOPeuYZ'

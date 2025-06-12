@@ -3,7 +3,7 @@ system:
   description:
     value: >-
       <p>You gain the service of a
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmKnight00000000]{Knight}</strong>,
+      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmKnight00000000]{Knight}</strong>,
       who magically appears in an unoccupied space you choose within 30 feet of
       yourself. The knight has the same alignment as you and serves you loyally
       until death, believing the two of you have been drawn together by fate.
@@ -115,7 +115,7 @@ sort: 400000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -126,6 +126,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1729201900508
   modifiedTime: 1745606935245
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!dmgDmtKnight0000'

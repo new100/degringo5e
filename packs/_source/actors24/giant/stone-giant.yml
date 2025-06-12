@@ -601,7 +601,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -631,7 +631,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -643,7 +643,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -781,7 +781,7 @@ items:
     img: icons/weapons/clubs/club-simple-stone.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -793,7 +793,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -933,8 +933,8 @@ items:
     img: icons/commodities/stone/stone-pile-grey.webp
     effects:
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
-        origin: Compendium.degringo5e.actors24.Actor.mmStoneGiant0000.Item.mmBoulder0000000
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmStoneGiant0000.Item.mmBoulder0000000
         _id: wKWWzb7MJy7OauVf
         type: base
         system: {}
@@ -970,7 +970,7 @@ items:
         _key: >-
           !actors.items.effects!mmStoneGiant0000.mmBoulder0000000.wKWWzb7MJy7OauVf
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -982,7 +982,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1156,7 +1156,7 @@ items:
     img: icons/magic/light/beam-impact-deflect-teal.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1168,7 +1168,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1177,7 +1177,7 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1186,7 +1186,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712727880
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -90,7 +90,7 @@ system:
         name: ''
         formula: ''
       name: Grant Truesight
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
       appliedEffects:
         - nW7Dh0S9wT7QHWCj
   identifier: true-seeing
@@ -100,7 +100,7 @@ img: icons/magic/perception/eye-slit-orange.webp
 effects:
   - name: Truesight
     img: icons/magic/perception/eye-slit-orange.webp
-    origin: Compendium.degringo5e.spells24.Item.phbsplTrueSeeing
+    origin: Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
     transfer: false
     _id: nW7Dh0S9wT7QHWCj
     type: base
@@ -132,7 +132,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1724801561459
       modifiedTime: 1724801641412
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplTrueSeeing.nW7Dh0S9wT7QHWCj'
 folder: 8WmlLARx1Df3Ii9v
@@ -140,7 +140,7 @@ sort: 100098
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -151,6 +151,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425976282
   modifiedTime: 1745256799495
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplTrueSeeing'

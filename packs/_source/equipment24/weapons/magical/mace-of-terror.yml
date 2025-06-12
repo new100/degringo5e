@@ -113,7 +113,7 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}). Rare
+      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}). Rare
       (Requires Attunement)</em></p><p>This magic weapon has 3 charges and
       regains 1d3 expended charges daily at dawn. While holding the weapon, you
       can take a Magic action and expend 1 charge to release a wave of terror
@@ -193,7 +193,7 @@ system:
 effects:
   - name: Frightened
     img: icons/magic/control/fear-fright-white.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgMaceOfTerror0
+    origin: Compendium.dnd5e.equipment24.Item.dmgMaceOfTerror0
     transfer: false
     _id: amYapIKWPpJZ9EuO
     type: base
@@ -222,12 +222,12 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730065036275
       modifiedTime: 1730065097674
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgMaceOfTerror0.amYapIKWPpJZ9EuO'
 folder: kie870i5kr7yuxO8
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -238,7 +238,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701275
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

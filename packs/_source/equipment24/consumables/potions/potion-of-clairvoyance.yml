@@ -8,7 +8,7 @@ system:
     BL6iuIjSZz5RVXCS:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplClairvoyan
+        uuid: Compendium.dnd5e.spells24.Item.phbsplClairvoyan
         challenge:
           attack: null
           save: null
@@ -67,7 +67,7 @@ system:
     value: >-
       <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the
       effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplClairvoyan]{Clairvoyance} spell
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplClairvoyan]{Clairvoyance} spell
       (no Concentration required).</p><p>An eyeball bobs in this potion's
       yellowish liquid but vanishes when the potion is opened.</p>
     chat: ''
@@ -110,7 +110,7 @@ system:
     - mgc
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -121,7 +121,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807176
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

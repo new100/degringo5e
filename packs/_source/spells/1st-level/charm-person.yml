@@ -59,8 +59,8 @@ system:
     - vocal
     - somatic
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -109,7 +109,7 @@ flags: {}
 img: icons/magic/fire/explosion-fireball-medium-purple-pink.webp
 effects:
   - name: Charm Person
-    origin: Compendium.degringo5e.spells.Item.eS7XnnApoxRxYXPs
+    origin: Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs
     duration:
       startTime: null
       seconds: 3600
@@ -153,6 +153,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037361811
   modifiedTime: 1725992721687
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!eS7XnnApoxRxYXPs'

@@ -491,7 +491,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
           make a [[/save]] saving throw, taking [[/damage average
-          activity=degringo5eactivity100]] damage on a failed save, or half as much
+          activity=dnd5eactivity100]] damage on a failed save, or half as much
           damage on a successful one. If the poison damage reduces the target to
           0 hit points, the target is stable but poisoned for 1 hour, even after
           regaining hit points, and is paralyzed while poisoned in this way.</p>
@@ -570,8 +570,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -633,8 +633,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -712,7 +712,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -724,7 +724,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741121882633
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!4tl0s2SnaLjkoDiI.L1TmhBXd2UrVxExn'
 effects: []
@@ -740,6 +740,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171202163
   modifiedTime: 1741121890621
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!4tl0s2SnaLjkoDiI'

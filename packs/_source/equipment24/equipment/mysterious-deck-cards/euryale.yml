@@ -110,7 +110,7 @@ img: icons/creatures/reptiles/snake-fangs-bite-green.webp
 effects:
   - name: 'Euryale Card: Cursed Saves'
     img: icons/creatures/reptiles/serpent-horned-green.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgDmtEuryale000
+    origin: Compendium.dnd5e.equipment24.Item.dmgDmtEuryale000
     transfer: false
     _id: TdKyE2tB9wNdh86t
     type: base
@@ -145,7 +145,7 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729189011919
       modifiedTime: 1729189454264
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgDmtEuryale000.TdKyE2tB9wNdh86t'
 folder: XVXuU21XyvevGap7
@@ -153,7 +153,7 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -164,6 +164,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1729188934076
   modifiedTime: 1745256804159
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!dmgDmtEuryale000'

@@ -131,7 +131,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
       appliedEffects: []
   uses:
     spent: 0
@@ -208,7 +208,7 @@ system:
 effects:
   - name: Knocked Down
     img: icons/skills/movement/arrow-down-pink.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgShieldOfTheCa
+    origin: Compendium.dnd5e.equipment24.Item.dmgShieldOfTheCa
     transfer: false
     _id: TNWNbk14uUGiJGvv
     type: base
@@ -237,11 +237,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730666249612
       modifiedTime: 1730666318848
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgShieldOfTheCa.TNWNbk14uUGiJGvv'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -252,7 +252,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745612094961
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 837500
 ownership:

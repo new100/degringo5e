@@ -109,7 +109,7 @@ img: icons/tools/instruments/bell-brass.webp
 effects:
   - name: 'Fool Card: Disadvantage'
     img: icons/magic/control/modfiy-luck-fortune-red.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgDmtFool000000
+    origin: Compendium.dnd5e.equipment24.Item.dmgDmtFool000000
     transfer: false
     _id: BkChhqAw5emn7aQp
     type: base
@@ -137,7 +137,7 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729195504299
       modifiedTime: 1729195684434
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgDmtFool000000.BkChhqAw5emn7aQp'
 folder: XVXuU21XyvevGap7
@@ -145,7 +145,7 @@ sort: 1600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -156,6 +156,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1729191275499
   modifiedTime: 1745433016392
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!dmgDmtFool000000'

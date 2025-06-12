@@ -78,8 +78,8 @@ system:
     - vocal
     - somatic
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -141,7 +141,7 @@ flags: {}
 img: icons/magic/light/projectile-beams-salvo-yellow.webp
 effects:
   - name: Prismatic Spray (indigo)
-    origin: Compendium.degringo5e.spells.Item.eGMhwmuleAM46C6L
+    origin: Compendium.dnd5e.spells.Item.eGMhwmuleAM46C6L
     duration:
       startTime: null
       seconds: null
@@ -179,7 +179,7 @@ effects:
     sort: 0
     _key: '!items.effects!eGMhwmuleAM46C6L.6bNxvdxYMSZK9N0A'
   - name: Prismatic Spray (violet)
-    origin: Compendium.degringo5e.spells.Item.eGMhwmuleAM46C6L
+    origin: Compendium.dnd5e.spells.Item.eGMhwmuleAM46C6L
     duration:
       startTime: null
       seconds: null
@@ -224,6 +224,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037361670
   modifiedTime: 1725992721644
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!eGMhwmuleAM46C6L'

@@ -71,8 +71,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -401,7 +401,7 @@ img: icons/magic/control/silhouette-hold-change-green.webp
 effects:
   - name: Aquatic Adaptation
     img: icons/creatures/fish/fish-bluefin-yellow-blue.webp
-    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 6SL9vuAkx7nAfS5D
     type: base
@@ -435,12 +435,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725048208451
       modifiedTime: 1725048922411
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplAlterSelf0.6SL9vuAkx7nAfS5D'
   - name: Altered Appearance
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
-    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 1jrUeJtfZMGhJOZa
     type: base
@@ -468,12 +468,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725048980878
       modifiedTime: 1725049328488
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplAlterSelf0.1jrUeJtfZMGhJOZa'
   - name: Natural Weapon
     img: icons/creatures/abilities/fang-tooth-blood-red.webp
-    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: baEBDez6IgWNpkSX
     type: base
@@ -506,7 +506,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725049566534
       modifiedTime: 1725049699059
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplAlterSelf0.baEBDez6IgWNpkSX'
 folder: 3SjcO2acsFnWegp4
@@ -514,7 +514,7 @@ sort: 5600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -525,6 +525,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425940243
   modifiedTime: 1745256785130
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplAlterSelf0'

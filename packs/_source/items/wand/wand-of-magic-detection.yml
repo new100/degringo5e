@@ -7,7 +7,7 @@ system:
     value: >-
       <p><em>Wand</em></p><p>This wand has 3 charges. While holding it, you can
       expend 1 charge as an action to cast the
-      @UUID[Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic} spell
+      @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic} spell
       from it. The wand regains 1d3 expended charges daily at dawn.</p>
     chat: ''
   source:
@@ -59,7 +59,7 @@ system:
     9eGDQXITSOdunKvj:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8
+        uuid: Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8
         challenge:
           attack: null
           save: null
@@ -113,7 +113,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -124,6 +124,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1725037084495
   modifiedTime: 1731015893978
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!18fbyArtidKzON01'

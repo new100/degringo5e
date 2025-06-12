@@ -406,7 +406,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Sprite</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.V6OhuMIts22zPe8X
+        <h1>Sprite</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.V6OhuMIts22zPe8X
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Good
@@ -685,7 +685,7 @@ items:
     img: icons/skills/melee/blade-tip-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -697,7 +697,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737747120298
       modifiedTime: 1745712727614
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -846,7 +846,7 @@ items:
     img: icons/weapons/bows/shortbow-recurve-yellow.webp
     effects:
       - name: Charmed
-        img: systems/degringo5e/icons/svg/statuses/charmed.svg
+        img: systems/dnd5e/icons/svg/statuses/charmed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmEnchantingBow0
         _id: Z32WWCg4waNTB1wp
         type: base
@@ -878,12 +878,12 @@ items:
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737747220770
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!mmSprite00000000.mmEnchantingBow0.Z32WWCg4waNTB1wp
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -895,7 +895,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737747122416
       modifiedTime: 1745712727614
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -996,7 +996,7 @@ items:
     img: icons/magic/life/heart-shadow-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1008,7 +1008,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737747123773
       modifiedTime: 1745712727614
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1066,7 +1066,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.degringo5e.spells24.Item.phbsplInvisibili
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
             ability: cha
           name: ''
       uses:
@@ -1076,7 +1076,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
           on itself, requiring no spell components and using Charisma as the
           spellcasting ability.</p>
         chat: ''
@@ -1099,7 +1099,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1111,7 +1111,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1737747124944
       modifiedTime: 1745712727614
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1173,8 +1173,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1218,7 +1218,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects:
       - name: Invisible
-        origin: Compendium.degringo5e.spells24.Item.phbsplInvisibili
+        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
         duration:
           rounds: null
           startTime: null
@@ -1229,7 +1229,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/degringo5e/icons/svg/statuses/invisible.svg
+        img: systems/dnd5e/icons/svg/statuses/invisible.svg
         _id: 9svfDetqjhsFP3ey
         type: base
         system: {}
@@ -1254,12 +1254,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.9svfDetqjhsFP3ey
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSprite00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
+          Compendium.dnd5e.actors24.Actor.mmSprite00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
         changes:
           - key: system.ability
             mode: 5
@@ -1304,23 +1304,23 @@ items:
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.degringo5espellchange
+          !actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplInvisibili
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInvisibili
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737747125219
       modifiedTime: 1745712727614
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: FAek73jM5CyQOO60
     _key: '!actors.items!mmSprite00000000.FAek73jM5CyQOO60'
@@ -1334,7 +1334,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712727645
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

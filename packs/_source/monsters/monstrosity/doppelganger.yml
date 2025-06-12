@@ -523,7 +523,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EMygUh5uRujWaFYK
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EMygUh5uRujWaFYK
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -561,8 +561,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: damage
           activation:
             type: special
@@ -637,7 +637,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.5DJYFjGQCz5aSl5e
+      compendiumSource: Compendium.dnd5e.monsterfeatures.5DJYFjGQCz5aSl5e
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -672,8 +672,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -736,7 +736,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -826,8 +826,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -907,7 +907,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107553225
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mWbrPhcKOz6oLXMV.scZU8bs551DZRvgC'
   - _id: YIoB9xCKEcrrPRt9
@@ -946,8 +946,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1011,14 +1011,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.w5mFTTFsdKC7TXgg
+      compendiumSource: Compendium.dnd5e.monsterfeatures.w5mFTTFsdKC7TXgg
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1736804676742
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mWbrPhcKOz6oLXMV.YIoB9xCKEcrrPRt9'
   - _id: cG4WdhcrTZt6rxUi
@@ -1054,8 +1054,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1118,14 +1118,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.VhByyxHJN7MNQJRd
+      compendiumSource: Compendium.dnd5e.monsterfeatures.VhByyxHJN7MNQJRd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1736804676742
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mWbrPhcKOz6oLXMV.cG4WdhcrTZt6rxUi'
 effects: []
@@ -1141,6 +1141,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1726171255216
   modifiedTime: 1726171449353
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!mWbrPhcKOz6oLXMV'

@@ -168,7 +168,7 @@ system:
 effects:
   - name: Dimensionally Bound
     img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgDimensionalSh
+    origin: Compendium.dnd5e.equipment24.Item.dmgDimensionalSh
     transfer: false
     _id: JYlrfQOPp5jRIFK2
     type: base
@@ -203,11 +203,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729279459349
       modifiedTime: 1729280174762
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgDimensionalSh.JYlrfQOPp5jRIFK2'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -218,7 +218,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699079
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 10800000
 ownership:

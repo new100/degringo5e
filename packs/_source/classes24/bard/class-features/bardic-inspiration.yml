@@ -27,7 +27,7 @@ system:
       id="secret-PtUXhUXS84HSdaew"><p><strong>Foundry Note</strong></p><p>This
       feature includes an Active Effect for tracking when a character has Bardic
       Inspiration to use.</p><p>Recovery is set to long rest (for levels before
-      @UUID[Compendium.degringo5e.classes24.Item.phbbrdFontOfInsp]{Font of
+      @UUID[Compendium.dnd5e.classes24.Item.phbbrdFontOfInsp]{Font of
       Inspiration} is gained). Please manually adjust as required.</p></section>
     chat: ''
   source:
@@ -51,8 +51,8 @@ system:
   properties: []
   requirements: Bard
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: bonus
@@ -111,12 +111,12 @@ system:
         max: ''
       sort: 0
       name: Inspire
-      img: systems/degringo5e/icons/svg/damage/psychic.svg
+      img: systems/dnd5e/icons/svg/damage/psychic.svg
   enchant: {}
   identifier: bardic-inspiration
 effects:
   - name: Inspired
-    origin: Compendium.degringo5e.classes24.Item.phbbrdBardicInsp
+    origin: Compendium.dnd5e.classes24.Item.phbbrdBardicInsp
     duration:
       rounds: null
       startTime: null
@@ -153,7 +153,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbbrdBardicInsp.WIHaOwkGqnX71mK1'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -164,7 +164,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866377962
   modifiedTime: 1745256760271
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

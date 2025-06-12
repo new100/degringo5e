@@ -56,8 +56,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: damage
       activation:
         type: action
@@ -106,7 +106,7 @@ system:
         max: ''
       sort: 0
       name: ''
-      img: systems/degringo5e/icons/svg/trait-saves.svg
+      img: systems/dnd5e/icons/svg/trait-saves.svg
       appliedEffects: []
   identifier: dimension-door
 _id: phbsplDimensionD
@@ -118,7 +118,7 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -129,6 +129,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425949835
   modifiedTime: 1745256790484
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplDimensionD'

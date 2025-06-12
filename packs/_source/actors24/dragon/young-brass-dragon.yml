@@ -625,7 +625,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -637,7 +637,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730855
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -770,7 +770,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730855
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -888,7 +888,7 @@ items:
     img: icons/creatures/abilities/dragon-fire-breath-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -900,7 +900,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730855
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1064,7 +1064,7 @@ items:
     img: icons/magic/control/sleep-bubble-purple.webp
     effects:
       - name: Incapacitated
-        img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
+        img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
         origin: Item.mmSleepBreath000
         _id: 9t5G87DeDyAF22dr
         type: base
@@ -1111,7 +1111,7 @@ items:
         _key: >-
           !actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.9t5G87DeDyAF22dr
       - name: Unconscious
-        img: systems/degringo5e/icons/svg/statuses/unconscious.svg
+        img: systems/dnd5e/icons/svg/statuses/unconscious.svg
         origin: Item.mmSleepBreath000
         _id: eiPsvHBjVi4pRHqJ
         type: base
@@ -1158,7 +1158,7 @@ items:
         _key: >-
           !actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.eiPsvHBjVi4pRHqJ
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1170,7 +1170,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730855
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1186,7 +1186,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712730887
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

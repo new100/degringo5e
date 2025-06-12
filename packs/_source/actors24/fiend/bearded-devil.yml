@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Bearded
-        Devil</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx
+        Devil</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -607,7 +607,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -666,7 +666,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -696,7 +696,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -708,7 +708,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -838,7 +838,7 @@ items:
     img: icons/commodities/materials/hair-braid-gold.webp
     effects:
       - name: Poisoned
-        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmBeard000000000
         transfer: false
         _id: dnpr0RaXDWfSZOYz
@@ -876,7 +876,7 @@ items:
         _key: >-
           !actors.items.effects!mmBeardedDevil00.mmBeard000000000.dnpr0RaXDWfSZOYz
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -888,7 +888,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1043,7 +1043,7 @@ items:
                 scaling:
                   number: 1
           name: 'Damage: Infernal Wound'
-          img: systems/degringo5e/icons/svg/activity/damage.svg
+          img: systems/dnd5e/icons/svg/activity/damage.svg
         KNWa0TFhANjmQCds:
           type: check
           _id: KNWa0TFhANjmQCds
@@ -1089,7 +1089,7 @@ items:
               formula: '12'
             ability: ''
           name: 'Check: Stanch Wound'
-          img: systems/degringo5e/icons/svg/hit-points.svg
+          img: systems/dnd5e/icons/svg/hit-points.svg
       uses:
         spent: 0
         recovery: []
@@ -1174,7 +1174,7 @@ items:
     img: icons/weapons/polearms/glaive-hooked-steel.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1186,7 +1186,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1195,7 +1195,7 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1204,7 +1204,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712714158
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 250000
 ownership:

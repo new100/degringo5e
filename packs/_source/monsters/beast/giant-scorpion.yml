@@ -510,8 +510,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -574,14 +574,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745273655651
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!GxgIVRX5GbVTifiF.wpqra38jsZPRAuov'
   - _id: OJ2b64O3e1nni21W
@@ -668,8 +668,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -750,7 +750,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741121402908
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!GxgIVRX5GbVTifiF.OJ2b64O3e1nni21W'
   - _id: q6uVUHWyzht5OpwV
@@ -761,7 +761,7 @@ items:
       description:
         value: >-
           <p>&amp;Reference[grappled]</p><p>The target must make a [[/save]]
-          saving throw, taking [[/damage average activity=degringo5eactivity100]]
+          saving throw, taking [[/damage average activity=dnd5eactivity100]]
           damage on a failed save, or half as much damage on a successful
           one.</p>
         chat: >-
@@ -838,8 +838,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -901,8 +901,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -980,7 +980,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -992,7 +992,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1741121453770
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!GxgIVRX5GbVTifiF.q6uVUHWyzht5OpwV'
 effects: []
@@ -1008,6 +1008,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171218252
   modifiedTime: 1741121465576
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!GxgIVRX5GbVTifiF'

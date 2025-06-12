@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplArcaneEye0
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: icons/svg/eye.svg
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -508,8 +508,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: bonus
@@ -579,7 +579,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -591,17 +591,17 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159972
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplArcaneEye0.phbaoiWizard0000'
 effects:
   - name: Invisible
-    _id: degringo5einvisible00
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
+    _id: dnd5einvisible00
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -628,12 +628,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725998924254
       modifiedTime: 1725998924254
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
-    _key: '!actors.effects!phbsplArcaneEye0.degringo5einvisible00'
+    _key: '!actors.effects!phbsplArcaneEye0.dnd5einvisible00'
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -642,7 +642,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425918039
   modifiedTime: 1745256829895
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 950000
 ownership:

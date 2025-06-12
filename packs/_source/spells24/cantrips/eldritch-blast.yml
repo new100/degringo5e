@@ -114,7 +114,7 @@ system:
               mode: ''
               number: 1
       name: ''
-      img: systems/degringo5e/icons/svg/damage/force.svg
+      img: systems/dnd5e/icons/svg/damage/force.svg
       appliedEffects: []
   identifier: eldritch-blast
 _id: phbsplEldritchBl
@@ -126,7 +126,7 @@ sort: 1600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -137,6 +137,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425951664
   modifiedTime: 1740680096414
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplEldritchBl'

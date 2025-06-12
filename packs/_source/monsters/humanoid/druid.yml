@@ -530,14 +530,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.fdmzHw875EzpXM2a
+      compendiumSource: Compendium.dnd5e.monsterfeatures.fdmzHw875EzpXM2a
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744141612084
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!K15Yl8JmB5iPircc.07sdy4qaaW4MaB8W'
   - _id: KUP8WEfLxlcY7K2x
@@ -626,8 +626,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -803,28 +803,28 @@ items:
           startRound: null
           startTurn: null
         description: ''
-        origin: Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1
+        origin: Compendium.dnd5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1
         tint: '#ffffff'
         transfer: false
         statuses: []
         sort: 0
         flags:
-          degringo5e:
+          dnd5e:
             dependents:
               - uuid: >-
-                  Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.KUP8WEfLxlcY7K2x.Activity.J8RgDbtkXvXUJDuD
+                  Compendium.dnd5e.monsters.Actor.K15Yl8JmB5iPircc.Item.KUP8WEfLxlcY7K2x.Activity.J8RgDbtkXvXUJDuD
             riders:
               statuses: []
         _stats:
           compendiumSource: >-
-            Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1.ActiveEffect.QPsqj6jfS0iXSrTs
+            Compendium.dnd5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1.ActiveEffect.QPsqj6jfS0iXSrTs
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
           systemVersion: 4.3.8
           createdTime: 1744141902433
           modifiedTime: 1744142295936
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!K15Yl8JmB5iPircc.KUP8WEfLxlcY7K2x.siLjGctswI3gx3B2
@@ -833,19 +833,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.items.g2dWN7PQiMRYWzyk
+      compendiumSource: Compendium.dnd5e.items.g2dWN7PQiMRYWzyk
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744142941675
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!K15Yl8JmB5iPircc.KUP8WEfLxlcY7K2x'
   - _id: SbSvZKkJASyk8jKo
@@ -920,8 +920,8 @@ items:
         - vocal
         - somatic
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -967,7 +967,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.SbSvZKkJASyk8jKo
+      compendiumSource: Compendium.dnd5e.spells.SbSvZKkJASyk8jKo
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1038,8 +1038,8 @@ items:
         - vocal
         - somatic
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -1106,7 +1106,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.eCPQuQkIabFKTl9u
+      compendiumSource: Compendium.dnd5e.spells.eCPQuQkIabFKTl9u
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1175,8 +1175,8 @@ items:
         - somatic
         - concentration
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -1227,7 +1227,7 @@ items:
     ownership:
       default: 0
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.gMrWeG8fMDPRFiVe
+      compendiumSource: Compendium.dnd5e.spells.gMrWeG8fMDPRFiVe
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1291,8 +1291,8 @@ items:
         - somatic
         - material
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1338,7 +1338,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.B0pnIcc52O6G8hi8
+      compendiumSource: Compendium.dnd5e.spells.B0pnIcc52O6G8hi8
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1406,8 +1406,8 @@ items:
         - somatic
         - ritual
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1453,7 +1453,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.aL1F8fvYLtNzUbKu
+      compendiumSource: Compendium.dnd5e.spells.aL1F8fvYLtNzUbKu
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1525,8 +1525,8 @@ items:
         - vocal
         - somatic
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -1587,7 +1587,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.WTbOQBsarsL1LuXJ
+      compendiumSource: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1669,8 +1669,8 @@ items:
         - material
         - ritual
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1716,7 +1716,7 @@ items:
     effects: []
     folder: null
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.X8w9EzYLGc4vQ1H2
+      compendiumSource: Compendium.dnd5e.spells.X8w9EzYLGc4vQ1H2
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1781,8 +1781,8 @@ items:
         - material
         - concentration
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1871,7 +1871,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.spells.JPwIEfgUPVebr5AH
+      compendiumSource: Compendium.dnd5e.spells.JPwIEfgUPVebr5AH
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1942,8 +1942,8 @@ items:
         - somatic
         - material
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: enchant
           sort: 0
           activation:
@@ -2059,7 +2059,7 @@ items:
       identifier: shillelagh
     sort: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity:
             - ONVab5lmTqJwwMBC
@@ -2119,13 +2119,13 @@ items:
     folder: Z8kZlnggh1PtuF3Y
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.degringo5e.spells.Item.VzgFzcmocr1X1cp4
+      compendiumSource: Compendium.dnd5e.spells.Item.VzgFzcmocr1X1cp4
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: 1744141670539
       modifiedTime: 1744141670539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!K15Yl8JmB5iPircc.udSiVp4nSrGBSvG1'
 effects: []
@@ -2141,6 +2141,6 @@ _stats:
   systemVersion: 4.3.8
   createdTime: 1726171221276
   modifiedTime: 1744141765490
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!K15Yl8JmB5iPircc'

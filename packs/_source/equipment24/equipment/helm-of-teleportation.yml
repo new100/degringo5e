@@ -8,7 +8,7 @@ system:
     tSOvJPeInMmdZG3D:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplTeleport00
+        uuid: Compendium.dnd5e.spells24.Item.phbsplTeleport00
         challenge:
           attack: null
           save: null
@@ -67,7 +67,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>This helm has
       3 charges. While wearing it, you can expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplTeleport00]{Teleport} from it.
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplTeleport00]{Teleport} from it.
       The helm regains 1d3 expended charges daily at dawn.</p>
     chat: ''
   identifier: helm-of-teleportation
@@ -111,7 +111,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -122,7 +122,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 18500000
 ownership:

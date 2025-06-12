@@ -600,7 +600,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -630,7 +630,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -642,7 +642,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -782,7 +782,7 @@ items:
     img: icons/weapons/clubs/club-simple-black.webp
     effects:
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTreeClub000000
         _id: 7GhARrr7f6zhJjqy
         type: base
@@ -819,7 +819,7 @@ items:
         _key: >-
           !actors.items.effects!mmHillGiant00000.mmTreeClub000000.7GhARrr7f6zhJjqy
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -831,7 +831,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -971,7 +971,7 @@ items:
     img: icons/commodities/materials/material-cotton-white.webp
     effects:
       - name: Poisoned
-        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTrashLob000000
         _id: BMs7Yw88gCikNkXO
         type: base
@@ -1008,7 +1008,7 @@ items:
         _key: >-
           !actors.items.effects!mmHillGiant00000.mmTrashLob000000.BMs7Yw88gCikNkXO
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1020,7 +1020,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1029,7 +1029,7 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1038,7 +1038,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712721231
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

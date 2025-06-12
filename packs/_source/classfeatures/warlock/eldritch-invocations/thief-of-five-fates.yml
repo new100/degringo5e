@@ -6,7 +6,7 @@ type: feat
 system:
   description:
     value: >-
-      <p>You can cast @UUID[Compendium.degringo5e.spells.Item.95K2aUhAGV9qXjnf]{Bane}
+      <p>You can cast @UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{Bane}
       once using a warlock spell slot. You can't do so again until you finish a
       long rest.</p>
     chat: ''
@@ -28,8 +28,8 @@ system:
   requirements: Warlock 2
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -106,6 +106,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037389152
   modifiedTime: 1725992290165
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!rhbwDZ9XNTmdkX2u'

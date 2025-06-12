@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -487,7 +487,7 @@ items:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
+          <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
           caption=false]</p>
         chat: ''
       source:
@@ -654,7 +654,7 @@ items:
       crewed: false
     effects:
       - name: Restrained
-        origin: Compendium.degringo5e.actors24.Actor.phbsplConjuredEl.Item.BeXR1DiQaXVIpgxp
+        origin: Compendium.dnd5e.actors24.Actor.phbsplConjuredEl.Item.BeXR1DiQaXVIpgxp
         duration:
           rounds: null
           startTime: null
@@ -665,7 +665,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        img: systems/dnd5e/icons/svg/statuses/restrained.svg
         _id: fwIobATMREr7g26x
         type: base
         system: {}
@@ -683,7 +683,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbsplConjuredEl.Item.1sm4KQqflaDX7MEu.ActiveEffect.NGnrAr3HdReYoTjS
+            Compendium.dnd5e.actors24.Actor.phbsplConjuredEl.Item.1sm4KQqflaDX7MEu.ActiveEffect.NGnrAr3HdReYoTjS
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -707,14 +707,14 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680158839
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: BeXR1DiQaXVIpgxp
     _key: '!actors.items!phbConjuredWater.BeXR1DiQaXVIpgxp'
 effects: []
 folder: UvlQFmKuGiSS9WJd
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 sort: 100000
 ownership:
@@ -726,6 +726,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726782857688
   modifiedTime: 1745256827167
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!phbConjuredWater'

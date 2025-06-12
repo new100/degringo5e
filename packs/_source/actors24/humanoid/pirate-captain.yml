@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepPistol0000]{Pistol},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepRapier0000]{Rapier}</p></div><h1>Pirates</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.quXy2WM17LbbHjxu
+        @UUID[Compendium.dnd5e.equipment24.Item.phbwepPistol0000]{Pistol},
+        @UUID[Compendium.dnd5e.equipment24.Item.phbwepRapier0000]{Rapier}</p></div><h1>Pirates</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.quXy2WM17LbbHjxu
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Pirate
-        Captain</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.OI716HLJMqdzlKdZ
+        Captain</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.OI716HLJMqdzlKdZ
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -709,7 +709,7 @@ items:
     effects:
       - name: 'Advantage: Next Attack'
         img: icons/skills/melee/blade-tips-triple-steel.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmPirateCaptain0.Item.SHobhYTtELnIVQHw
+        origin: Compendium.dnd5e.actors24.Actor.mmPirateCaptain0.Item.SHobhYTtELnIVQHw
         _id: W40Nib5r20ncDLXR
         type: base
         system: {}
@@ -748,19 +748,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepRapier0000
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepRapier0000
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724843
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmPirateCaptain0.SHobhYTtELnIVQHw'
   - name: Pistol
@@ -918,19 +918,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepPistol0000
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepPistol0000
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724843
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmPirateCaptain0.y2po5bpBbyIFIuVO'
   - _id: mmMultiattack000
@@ -986,7 +986,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1016,7 +1016,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1028,7 +1028,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724843
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1128,7 +1128,7 @@ items:
     img: icons/magic/control/control-influence-crown-gold.webp
     effects:
       - name: Charmed
-        img: systems/degringo5e/icons/svg/statuses/charmed.svg
+        img: systems/dnd5e/icons/svg/statuses/charmed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmCaptainsCharm0
         transfer: false
         _id: mEbtIO1mUEkMNvja
@@ -1165,7 +1165,7 @@ items:
         _key: >-
           !actors.items.effects!mmPirateCaptain0.mmCaptainsCharm0.mEbtIO1mUEkMNvja
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1177,7 +1177,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724843
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1240,7 +1240,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1326,7 +1326,7 @@ items:
         _key: >-
           !actors.items.effects!mmPirateCaptain0.mmRiposte0000000.cIB1rKGRZwYjMwJn
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1338,7 +1338,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724843
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1354,7 +1354,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712724871
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

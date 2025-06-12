@@ -71,8 +71,8 @@ system:
   properties:
     - mgc
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: damage
       activation:
         type: action
@@ -137,7 +137,7 @@ system:
   attuned: false
   identifier: ioun-stone-of-mastery
 effects:
-  - origin: Compendium.degringo5e.items.nk2MH16KcZmKp7FQ
+  - origin: Compendium.dnd5e.items.nk2MH16KcZmKp7FQ
     duration:
       startTime: null
       seconds: null
@@ -186,6 +186,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037283544
   modifiedTime: 1725992545278
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!nk2MH16KcZmKp7FQ'

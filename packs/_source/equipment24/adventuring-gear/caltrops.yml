@@ -133,7 +133,7 @@ img: icons/weapons/thrown/bomb-spiked-purple.webp
 effects:
   - name: Slowed
     img: icons/weapons/thrown/bomb-spiked-purple.webp
-    origin: Compendium.degringo5e.equipment24.Item.phbagCaltrops000
+    origin: Compendium.dnd5e.equipment24.Item.phbagCaltrops000
     transfer: false
     _id: HsbtDDdiWhk4d7WB
     type: base
@@ -181,14 +181,14 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725848497965
       modifiedTime: 1725848574365
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbagCaltrops000.HsbtDDdiWhk4d7WB'
 sort: 500000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -199,6 +199,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425907080
   modifiedTime: 1745256811307
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbagCaltrops000'

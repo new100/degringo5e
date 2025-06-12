@@ -57,8 +57,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -106,7 +106,7 @@ type: spell
 img: icons/equipment/head/mask-carved-bird-grey-pink.webp
 effects:
   - name: Disguised
-    origin: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
+    origin: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
     duration:
       rounds: null
       startTime: null
@@ -147,7 +147,7 @@ sort: 3900000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -158,6 +158,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425949918
   modifiedTime: 1745256790565
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplDisguiseSe'

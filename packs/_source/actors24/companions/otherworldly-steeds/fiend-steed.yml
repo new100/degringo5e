@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFindSteed0
         caption=false]</p>
       public: ''
     alignment: Neutral
@@ -520,7 +520,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -532,7 +532,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostFiend00000.phbaoiLifeBond00'
   - name: Otherworldly Slam
@@ -562,8 +562,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -652,7 +652,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -664,7 +664,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostFiend00000.phbaoiOtherworld'
   - name: Fell Glare
@@ -775,8 +775,8 @@ items:
     img: icons/magic/fire/elemental-creature-horse.webp
     effects:
       - name: Frightened
-        img: systems/degringo5e/icons/svg/statuses/frightened.svg
-        origin: Compendium.degringo5e.actors24.Actor.phbostFiend00000.Item.phbaoiFellGlareF
+        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        origin: Compendium.dnd5e.actors24.Actor.phbostFiend00000.Item.phbaoiFellGlareF
         transfer: false
         _id: TMhI7D143iHjrZgb
         type: base
@@ -799,14 +799,14 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
+            Compendium.dnd5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1725984132195
           modifiedTime: 1725984132195
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!phbostFiend00000.phbaoiFellGlareF.TMhI7D143iHjrZgb
@@ -815,7 +815,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -827,7 +827,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbostFiend00000.phbaoiFellGlareF'
 effects: []
@@ -836,7 +836,7 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -845,6 +845,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425917826
   modifiedTime: 1745256827936
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!phbostFiend00000'

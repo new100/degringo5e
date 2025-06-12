@@ -5,7 +5,7 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Intelligence</p><p
       class="phb-meta"><strong>Utilize:</strong> Detect poisoned drink (DC 15),
       or identify alcohol (DC 10)</p><p class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagAntitoxin00]{Antitoxin}</p>
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagAntitoxin00]{Antitoxin}</p>
     chat: ''
   source:
     custom: ''
@@ -148,7 +148,7 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -159,6 +159,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425916317
   modifiedTime: 1740680141046
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbtulBrewersSup'

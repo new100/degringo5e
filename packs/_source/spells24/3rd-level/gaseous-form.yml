@@ -60,8 +60,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -104,7 +104,7 @@ type: spell
 img: icons/magic/air/air-smoke-casting.webp
 effects:
   - name: Gaseous Form
-    origin: Compendium.degringo5e.spells24.Item.phbsplGaseousFor
+    origin: Compendium.dnd5e.spells24.Item.phbsplGaseousFor
     duration:
       rounds: null
       startTime: null
@@ -180,7 +180,7 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -191,6 +191,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425956002
   modifiedTime: 1745256793568
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplGaseousFor'

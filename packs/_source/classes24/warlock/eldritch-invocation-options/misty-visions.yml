@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplSilentImag]{Silent Image}
+      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplSilentImag]{Silent Image}
       without expending a spell slot.</p><section class="secret"
       id="secret-zbni49FP84e1UILg"><p><strong>Foundry Note</strong></p><p>This
       feature includes Silent Image's activities and can be used in its
@@ -31,8 +31,8 @@ system:
   properties: []
   requirements: ''
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: summon
       activation:
         type: action
@@ -91,7 +91,7 @@ system:
         - count: ''
           name: ''
           _id: IxAsPOEknS47M7Ya
-          uuid: Compendium.degringo5e.actors24.Actor.dmgIllusoryCreat
+          uuid: Compendium.dnd5e.actors24.Actor.dmgIllusoryCreat
           level:
             min: null
             max: null
@@ -99,7 +99,7 @@ system:
         - count: ''
           name: ''
           _id: FmMkdA2mgbTGgfRe
-          uuid: Compendium.degringo5e.actors24.Actor.phbiluObject0000
+          uuid: Compendium.dnd5e.actors24.Actor.phbiluObject0000
           level:
             min: null
             max: null
@@ -107,7 +107,7 @@ system:
         - count: ''
           name: ''
           _id: F2J7UUoTTzvbMzYP
-          uuid: Compendium.degringo5e.actors24.Actor.phbiluSensory000
+          uuid: Compendium.dnd5e.actors24.Actor.phbiluSensory000
           level:
             min: null
             max: null
@@ -128,7 +128,7 @@ system:
 effects: []
 folder: BjeMHiqnKNWkWhox
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -139,7 +139,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1740685846463
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

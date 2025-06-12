@@ -8,7 +8,7 @@ system:
     wGYNB4IKjRIscenB:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplDetectThou
+        uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
         challenge:
           attack: null
           save: 13
@@ -67,7 +67,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>The
       medallion has 5 charges. While wearing it, you can expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}
       (save DC 13) from it. The medallion regains 1d4 expended charges daily at
       dawn.</p>
     chat: ''
@@ -112,7 +112,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -123,7 +123,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 21900000
 ownership:

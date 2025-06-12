@@ -8,7 +8,7 @@ system:
     JHXenbf5jGALpFE2:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplComprehend
+        uuid: Compendium.dnd5e.spells24.Item.phbsplComprehend
         challenge:
           attack: null
           save: null
@@ -55,7 +55,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Uncommon</em></p><p>While wearing this helm, you can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplComprehend]{Comprehend
+      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplComprehend]{Comprehend
       Languages} from it.</p>
     chat: ''
   identifier: helm-of-comprehending-languages
@@ -99,7 +99,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -110,7 +110,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 18300000
 ownership:

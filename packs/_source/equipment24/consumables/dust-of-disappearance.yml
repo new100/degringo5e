@@ -120,8 +120,8 @@ system:
     - mgc
 effects:
   - name: Invisible
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
-    origin: Compendium.degringo5e.equipment24.Item.dmgDustOfDisappe
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    origin: Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe
     transfer: false
     _id: MC5GAZMrAc4wSvAS
     type: base
@@ -138,7 +138,7 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDustOfDisappe]{Dust of
+      @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of
       Disappearance}</em></p><p>You have the &amp;Reference[Invisible] condition
       for 2d4 minutes or until you make an attack roll, deal damage, or cast a
       spell.</p>
@@ -155,11 +155,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729283147607
       modifiedTime: 1729283460839
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgDustOfDisappe.MC5GAZMrAc4wSvAS'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -170,7 +170,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699449
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 500000
 ownership:

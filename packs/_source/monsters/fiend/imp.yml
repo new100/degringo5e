@@ -525,8 +525,8 @@ items:
       properties:
         - trait
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -589,14 +589,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.VhByyxHJN7MNQJRd
+      compendiumSource: Compendium.dnd5e.monsterfeatures.VhByyxHJN7MNQJRd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 5.1.0
       createdTime: null
       modifiedTime: 1747956891381
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!dLQiESMsfsXijD5c.9ioH5ocevSRjYBaD'
   - _id: OljCWQpwojS4FKur
@@ -683,7 +683,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.Hc6MqLQhPTI1KOvm
+      compendiumSource: Compendium.dnd5e.monsterfeatures.Hc6MqLQhPTI1KOvm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -702,7 +702,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
           make on a [[/save]] saving throw, taking [[/damage average
-          activity=degringo5eactivity100]] damage on a failed save, or half as much
+          activity=dnd5eactivity100]] damage on a failed save, or half as much
           damage on a successful one.</p>
         chat: >-
           <p>The Imp attacks with its Sting. The target must make a
@@ -778,8 +778,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -841,8 +841,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -920,7 +920,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -932,7 +932,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1747956945254
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!dLQiESMsfsXijD5c.64Swhse7QnbiLAbi'
   - _id: mMdtSlNy6FuPju7p
@@ -965,8 +965,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1029,14 +1029,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.dA5X2eQuOtHywpQF
+      compendiumSource: Compendium.dnd5e.monsterfeatures.dA5X2eQuOtHywpQF
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 5.1.0
       createdTime: null
       modifiedTime: 1747956927936
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!dLQiESMsfsXijD5c.mMdtSlNy6FuPju7p'
 effects: []
@@ -1052,6 +1052,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171244145
   modifiedTime: 1745175417859
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!dLQiESMsfsXijD5c'

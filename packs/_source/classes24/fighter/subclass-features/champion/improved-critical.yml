@@ -40,7 +40,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.degringo5e.weaponCriticalThreshold
+      - key: flags.dnd5e.weaponCriticalThreshold
         mode: 3
         value: '19'
         priority: null
@@ -60,7 +60,7 @@ effects:
     statuses: []
     sort: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           statuses: []
     _stats:
@@ -75,7 +75,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbftrImprovedCr.fbCF0jqdt3NMZdkc'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -86,7 +86,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866578955
   modifiedTime: 1745256761637
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

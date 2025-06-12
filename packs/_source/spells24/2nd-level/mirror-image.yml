@@ -53,8 +53,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -99,7 +99,7 @@ type: spell
 img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 effects:
   - name: Duplicate A
-    origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+    origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
     duration:
       rounds: null
       startTime: null
@@ -136,7 +136,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplMirrorImag.VUqQIaiZoIzxUdf1'
   - name: Duplicate B
-    origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+    origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
     duration:
       rounds: null
       startTime: null
@@ -173,7 +173,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplMirrorImag.XcTQl9DhT9lC3bxI'
   - name: Duplicate C
-    origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+    origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
     duration:
       rounds: null
       startTime: null
@@ -214,7 +214,7 @@ sort: 5700000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -225,6 +225,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425964208
   modifiedTime: 1745256796285
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplMirrorImag'

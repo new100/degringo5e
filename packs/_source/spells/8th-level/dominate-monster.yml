@@ -71,8 +71,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -121,7 +121,7 @@ flags: {}
 img: icons/magic/air/air-burst-spiral-large-pink.webp
 effects:
   - name: Dominate Monster
-    origin: Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp
+    origin: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
     duration:
       startTime: null
       seconds: null
@@ -164,6 +164,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037361593
   modifiedTime: 1725992721611
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!eEpy1ONlXumKS1mp'

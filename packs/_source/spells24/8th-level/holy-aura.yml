@@ -98,7 +98,7 @@ system:
         name: ''
         formula: ''
       name: Create Aura
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
       appliedEffects:
         - csA26qg5YSsji1ZZ
     0kylpwRauH0WgW0G:
@@ -162,7 +162,7 @@ img: icons/magic/life/ankh-shadow-green.webp
 effects:
   - name: Holy Protection
     img: icons/svg/mage-shield.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplHolyAura00
+    origin: Compendium.dnd5e.spells24.Item.phbsplHolyAura00
     transfer: false
     _id: csA26qg5YSsji1ZZ
     type: base
@@ -190,12 +190,12 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725305728157
       modifiedTime: 1725306705284
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplHolyAura00.csA26qg5YSsji1ZZ'
   - name: Blinded
-    img: systems/degringo5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.degringo5e.spells24.Item.phbsplHolyAura00
+    img: systems/dnd5e/icons/svg/statuses/blinded.svg
+    origin: Compendium.dnd5e.spells24.Item.phbsplHolyAura00
     transfer: false
     _id: wqBjgsd2xRnmSm8Z
     type: base
@@ -226,7 +226,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: 1725306554545
       modifiedTime: 1725306662364
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplHolyAura00.wqBjgsd2xRnmSm8Z'
 folder: M5CvwK9zVtzx6Dnn
@@ -234,7 +234,7 @@ sort: 100196
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -245,6 +245,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425959000
   modifiedTime: 1745256794841
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplHolyAura00'

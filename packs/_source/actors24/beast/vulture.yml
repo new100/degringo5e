@@ -1,7 +1,7 @@
 _id: mmVulture0000000
 name: Vulture
 type: npc
-img: systems/degringo5e/tokens/beast/Vulture.webp
+img: systems/dnd5e/tokens/beast/Vulture.webp
 system:
   currency:
     pp: 0
@@ -404,7 +404,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/degringo5e/tokens/beast/Vulture.webp
+    src: systems/dnd5e/tokens/beast/Vulture.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -524,7 +524,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1738013077458
       modifiedTime: 1740680158246
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -662,7 +662,7 @@ items:
     img: icons/commodities/bones/beak-hooked-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -674,7 +674,7 @@ items:
       systemVersion: 4.4.0
       createdTime: 1738013079393
       modifiedTime: 1740680158246
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -690,7 +690,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745256826433
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

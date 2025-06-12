@@ -23,7 +23,7 @@ system:
       level.</p><section class="secret"
       id="secret-eL25CzgN1MY7TpsR"><p><strong>Foundry
       Note</strong></p><p>Recovery is set to long rest (for levels before
-      @UUID[Compendium.degringo5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of
+      @UUID[Compendium.dnd5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of
       Inspiration} is gained). Please manually adjust as required.</p></section>
     chat: ''
   source:
@@ -44,8 +44,8 @@ system:
   requirements: Bard 1
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: bonus
@@ -119,6 +119,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037387029
   modifiedTime: 1725992289351
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!hpLNiGq7y67d2EHA'

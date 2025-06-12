@@ -5,7 +5,7 @@ system:
       <p>For the duration, you sense the location of any Aberration, Celestial,
       Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also
       sense whether the
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
       spell is active there and, if so, where.</p><p>The spell is blocked by 1
       foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
       lead.</p>
@@ -57,8 +57,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -106,7 +106,7 @@ type: spell
 img: icons/magic/perception/eye-ringed-green.webp
 effects:
   - name: Detect Evil and Good
-    origin: Compendium.degringo5e.spells24.Item.phbsplDetectEvil
+    origin: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
     duration:
       rounds: null
       startTime: null
@@ -135,7 +135,7 @@ effects:
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1727465710325
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!phbsplDetectEvil.pOgbtXbKVGdbwjjE'
 folder: pBaAAtXBCq9FVEnL
@@ -143,7 +143,7 @@ sort: 4200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -154,6 +154,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425949474
   modifiedTime: 1745256790241
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplDetectEvil'

@@ -511,8 +511,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -575,14 +575,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745448292278
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!7198siHjPJf8g0cG.vnO8N4pro9PVOOQn'
   - _id: j1LTHxGLXWdnEbwq
@@ -665,8 +665,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -739,14 +739,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.WdpSeGqhZpptz37y
+      compendiumSource: Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745448291327
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!7198siHjPJf8g0cG.j1LTHxGLXWdnEbwq'
   - _id: Wa8BU72wRqyBCqkI
@@ -829,8 +829,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -910,7 +910,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745448291327
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!7198siHjPJf8g0cG.Wa8BU72wRqyBCqkI'
   - _id: HzLuzqlmtBSeSS4Q
@@ -922,7 +922,7 @@ items:
         value: >-
           <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
           make a [[/save]] saving throw, taking [[/damage average
-          activity=degringo5eactivity100]] damage on a failed save, or half as much
+          activity=dnd5eactivity100]] damage on a failed save, or half as much
           damage on a successful one.</p>
         chat: >-
           <p>The Wyvern attacks with its Stinger. The target must make a
@@ -1000,8 +1000,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -1063,8 +1063,8 @@ items:
             includeBase: true
             parts: []
           sort: 0
-        degringo5eactivity100:
-          _id: degringo5eactivity100
+        dnd5eactivity100:
+          _id: dnd5eactivity100
           type: save
           activation:
             type: action
@@ -1142,7 +1142,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1154,7 +1154,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745448335175
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!7198siHjPJf8g0cG.HzLuzqlmtBSeSS4Q'
 effects: []
@@ -1170,6 +1170,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171205449
   modifiedTime: 1745448348733
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!7198siHjPJf8g0cG'

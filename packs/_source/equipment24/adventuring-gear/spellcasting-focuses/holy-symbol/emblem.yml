@@ -4,7 +4,7 @@ system:
     value: >-
       <p><em><strong>Usage Requirement: </strong>Borne on fabric or a
       Shield</em></p><p>A
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}
       takes one of the forms in the Holy Symbol table and is bejeweled or
       painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol
       as a Spellcasting Focus.</p>
@@ -64,7 +64,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -75,6 +75,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425915234
   modifiedTime: 1745256813828
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbhsyEmblemborn'

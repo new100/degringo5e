@@ -4,10 +4,10 @@ system:
     value: >-
       <p>You gain the following benefits.</p><p><strong>Two Cantrips.</strong>
       You learn two cantrips of your choice from the
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric},
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid},
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric},
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid},
       or
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}
       spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability
       for this feat's spells (choose when you select this
       feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell from
@@ -53,7 +53,7 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -64,6 +64,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866663151
   modifiedTime: 1745256780499
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbftMagicInitia'

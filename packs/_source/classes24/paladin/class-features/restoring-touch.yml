@@ -52,7 +52,7 @@ system:
         targets:
           - type: itemUses
             value: 5 * @scaling
-            target: Compendium.degringo5e.classes24.Item.phbpdnLayOnHands
+            target: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
             scaling:
               mode: ''
               formula: ''
@@ -94,7 +94,7 @@ system:
   identifier: restoring-touch
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -105,7 +105,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745256764004
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

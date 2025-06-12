@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You can cast
-      @UUID[Compendium.degringo5e.spells.Item.A3q2gTNqG6fvNGrv]{Disguise Self} at
+      @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{Disguise Self} at
       will, without expending a spell slot.</p>
     chat: ''
   source:
@@ -26,8 +26,8 @@ system:
   requirements: Warlock 2
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -94,6 +94,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037383274
   modifiedTime: 1725992288125
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!MhJfdBl1B7PdU4oZ'

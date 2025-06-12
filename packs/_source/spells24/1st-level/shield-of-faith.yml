@@ -51,8 +51,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -95,7 +95,7 @@ type: spell
 img: icons/magic/holy/barrier-shield-winged-cross.webp
 effects:
   - name: Shimmering Field
-    origin: Compendium.degringo5e.spells24.Item.phbsplShieldofFa
+    origin: Compendium.dnd5e.spells24.Item.phbsplShieldofFa
     duration:
       startTime: null
       seconds: 600
@@ -118,7 +118,7 @@ effects:
     tint: '#ffffff'
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.jZ6JNykRtdQ90MOo.ActiveEffect.FKDbXBUs6VJlf8ZY
+        Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo.ActiveEffect.FKDbXBUs6VJlf8ZY
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -137,7 +137,7 @@ sort: 600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -148,6 +148,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425970585
   modifiedTime: 1740685854399
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplShieldofFa'

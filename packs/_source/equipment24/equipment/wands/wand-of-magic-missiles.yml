@@ -7,7 +7,7 @@ system:
     4pBEpvS3jgCIhpUi:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplMagicMissi
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
         challenge:
           attack: null
           save: null
@@ -69,7 +69,7 @@ system:
     value: >-
       <p><em>Wand, Uncommon</em></p><p>This wand has 7 charges. While holding
       it, you can expend no more than 3 charges to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile} from
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile} from
       it. For 1 charge, you cast the level 1 version of the spell. You can
       increase the spell's level by 1 for each additional charge you
       expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand
@@ -140,7 +140,7 @@ system:
 effects: []
 folder: rLoBplj1TIznxeWI
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -151,7 +151,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: -200000
 ownership:

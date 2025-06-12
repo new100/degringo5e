@@ -67,7 +67,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Uncommon, See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather
       Token}</em></p><p>If you are on a boat or ship, you can take a Magic
       action to toss the token up to 10 feet in the air. The token disappears,
       and a giant flapping fan takes its place. The fan floats and creates a
@@ -117,7 +117,7 @@ system:
 effects:
   - name: 'Feather Token: Fan'
     img: icons/magic/air/air-wave-gust-blue.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgFanQuaalsFeat
+    origin: Compendium.dnd5e.equipment24.Item.dmgFanQuaalsFeat
     transfer: false
     _id: xCyHeKeepXMk3KXZ
     type: base
@@ -147,11 +147,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730769776812
       modifiedTime: 1730769890567
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgFanQuaalsFeat.xCyHeKeepXMk3KXZ'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -162,7 +162,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699839
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 300000
 ownership:

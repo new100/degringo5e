@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <p>These metal restraints can bind a Small or Medium creature. Escaping
-      the manacles requires a successful [[/check activity=degringo5eactivity000]]
+      the manacles requires a successful [[/check activity=dnd5eactivity000]]
       check. Breaking them requires a successful [[/check
       activity=9DosjAvEYAW0LLK8]] check. Each set of manacles comes with one
       key. Without the key, a creature proficient with thieves' tools can pick
@@ -55,8 +55,8 @@ system:
   properties: []
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: check
       activation:
         type: action
@@ -216,7 +216,7 @@ sort: 10000000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -227,6 +227,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1725037308976
   modifiedTime: 1744841453433
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!tWJLHIL6ZIZUez9k'

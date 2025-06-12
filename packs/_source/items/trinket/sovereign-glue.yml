@@ -12,7 +12,7 @@ system:
       glue can cover a 1-foot square surface. The glue takes 1 minute to set.
       Once it has done so, the bond it creates can be broken only by the
       application of universal solvent or oil of etherealness, or with a
-      @UUID[Compendium.degringo5e.spells.Item.3okM6Gn63zzEULkz]{Wish}
+      @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish}
       spell.</p><section class="secret foundry-note"
       id="secret-s3MCPshCsEZEYTHn"><p><strong>Foundry Note</strong></p><p>The 7
       charges reflect the maximum amount a character can find. Please adjust as
@@ -60,8 +60,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -133,6 +133,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037329958
   modifiedTime: 1725992561360
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!zJ5LhDvTxYKzPIx4'

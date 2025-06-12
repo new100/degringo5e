@@ -87,8 +87,8 @@ system:
   identifier: aura-of-courage
 effects:
   - name: Courageous
-    img: systems/degringo5e/icons/svg/items/feature.svg
-    origin: Compendium.degringo5e.classes24.Item.phbpdnCourageAur
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Compendium.dnd5e.classes24.Item.phbpdnCourageAur
     transfer: false
     _id: cJtDumOL6RUzrBHA
     type: base
@@ -120,7 +120,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbpdnCourageAur.cJtDumOL6RUzrBHA'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -131,7 +131,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745256763632
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -53,8 +53,8 @@ system:
     - vocal
     - somatic
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -99,7 +99,7 @@ flags: {}
 img: icons/magic/defensive/shield-barrier-glowing-triangle-green.webp
 effects:
   - name: Protection from Poison
-    origin: Compendium.degringo5e.spells.Item.MAxM77CDUu8dgIRQ
+    origin: Compendium.dnd5e.spells.Item.MAxM77CDUu8dgIRQ
     duration:
       startTime: null
       seconds: 3600
@@ -145,6 +145,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037354331
   modifiedTime: 1725992719226
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!MAxM77CDUu8dgIRQ'

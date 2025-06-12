@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Mephits</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
+        <h1>Mephits</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -660,7 +660,7 @@ items:
     img: icons/magic/death/skull-humanoid-white-blue.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -672,7 +672,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717036
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -806,7 +806,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717036
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -913,7 +913,7 @@ items:
     img: icons/magic/air/air-wave-gust-smoke-yellow.webp
     effects:
       - name: Blinded
-        img: systems/degringo5e/icons/svg/statuses/blinded.svg
+        img: systems/dnd5e/icons/svg/statuses/blinded.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmBlindingBreath
         transfer: false
         _id: uNffaKFUEBaATXHm
@@ -950,7 +950,7 @@ items:
         _key: >-
           !actors.items.effects!mmDustMephit0000.mmBlindingBreath.uNffaKFUEBaATXHm
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -962,7 +962,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717036
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -977,7 +977,7 @@ items:
         cSodzDxxCJH0nwai:
           type: cast
           spell:
-            uuid: Compendium.degringo5e.spells24.Item.phbsplSleep00000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
             challenge:
               attack: null
               save: null
@@ -1033,7 +1033,7 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] casts the
-          @UUID[Compendium.degringo5e.spells24.Item.phbsplSleep00000] spell,
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000] spell,
           requiring no spell components and using Charisma as the spellcasting
           ability (spell save DC [[lookup @attributes.spell.dc]]).</p>
         chat: ''
@@ -1058,7 +1058,7 @@ items:
     effects: []
     folder: 4T18pEvubPMQLzvD
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1070,7 +1070,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717036
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1135,8 +1135,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -1185,7 +1185,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
     effects:
       - name: Sleeping
-        origin: Compendium.degringo5e.spells24.Item.phbsplSleep00000
+        origin: Compendium.dnd5e.spells24.Item.phbsplSleep00000
         duration:
           rounds: null
           startTime: null
@@ -1225,12 +1225,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.04Wa4xUzjA31kPno
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDustMephit0000.Item.mmSleep000000000.Activity.cSodzDxxCJH0nwai
+          Compendium.dnd5e.actors24.Actor.mmDustMephit0000.Item.mmSleep000000000.Activity.cSodzDxxCJH0nwai
         changes:
           - key: system.properties
             mode: 2
@@ -1271,23 +1271,23 @@ items:
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.degringo5espellchange
+          !actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
     sort: 400000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmSleep000000000.Activity.cSodzDxxCJH0nwai
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplSleep00000
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSleep00000
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717036
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: CF13ievxQ48W9L9w
     _key: '!actors.items!mmDustMephit0000.CF13ievxQ48W9L9w'
@@ -1301,7 +1301,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712717067
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

@@ -55,7 +55,7 @@ system:
             scaling: {}
           - type: itemUses
             value: '-(floor(@classes.sorcerer.levels / 2))'
-            target: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
+            target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
             scaling: {}
       description:
         chatFlavor: ''
@@ -94,7 +94,7 @@ system:
   identifier: sorcerous-restoration
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -105,7 +105,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745256765619
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

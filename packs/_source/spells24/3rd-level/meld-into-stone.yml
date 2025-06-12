@@ -59,8 +59,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: damage
       activation:
         type: action
@@ -108,8 +108,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity200:
-      _id: degringo5eactivity200
+    dnd5eactivity200:
+      _id: dnd5eactivity200
       type: damage
       activation:
         type: action
@@ -166,7 +166,7 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -177,6 +177,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425963239
   modifiedTime: 1745256796031
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplMeldintoSt'

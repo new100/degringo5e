@@ -176,7 +176,7 @@ img: icons/weapons/ammunition/shot-round-brown.webp
 effects:
   - name: Tripped
     img: icons/commodities/gems/pearl-rock.webp
-    origin: Compendium.degringo5e.equipment24.Item.phbagBallBearing
+    origin: Compendium.dnd5e.equipment24.Item.phbagBallBearing
     transfer: false
     _id: zW4roNKVL8HcoNwV
     type: base
@@ -212,7 +212,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -223,6 +223,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726532214231
   modifiedTime: 1740680113097
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!KbVt56CK4ud3FUk3'

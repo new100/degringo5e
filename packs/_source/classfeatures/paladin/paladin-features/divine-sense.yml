@@ -15,7 +15,7 @@ system:
       but not its identity (the vampire Count Strahd von Zarovich, for
       instance). Within the same radius, you also detect the presence of any
       place or object that has been consecrated or desecrated, as with the
-      @UUID[Compendium.degringo5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}
+      @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}
       spell.</p><p>You can use this feature a number of times equal to 1 + your
       Charisma modifier. When you finish a long rest, you regain all expended
       uses.</p>
@@ -38,8 +38,8 @@ system:
   requirements: Paladin 1
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -113,6 +113,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037381787
   modifiedTime: 1725992287695
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!E8ozg8avUVOX9N7u'

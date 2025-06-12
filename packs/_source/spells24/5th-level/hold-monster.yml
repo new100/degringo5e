@@ -52,8 +52,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -100,7 +100,7 @@ type: spell
 img: icons/magic/control/encase-creature-monster-hold.webp
 effects:
   - name: Paralyzed
-    origin: Compendium.degringo5e.spells24.Item.phbsplHoldMonste
+    origin: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
     duration:
       rounds: null
       startTime: null
@@ -111,7 +111,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
+    img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
     _id: vC7qgyy8cjgi3t0T
     type: base
     system: {}
@@ -140,7 +140,7 @@ sort: 1600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -151,6 +151,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425958797
   modifiedTime: 1745256794751
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplHoldMonste'

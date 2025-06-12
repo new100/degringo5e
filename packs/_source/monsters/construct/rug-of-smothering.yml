@@ -533,14 +533,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.KMQAgNxBCAHrd2JU
+      compendiumSource: Compendium.dnd5e.monsterfeatures.KMQAgNxBCAHrd2JU
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745447904734
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!f6HaKROPIcBRmSd1.PGulBR18kfO768c7'
   - _id: Jwm0r4Us1rwS6XfV
@@ -582,7 +582,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.0npeEcwmiVMdwGMV
+      compendiumSource: Compendium.dnd5e.monsterfeatures.0npeEcwmiVMdwGMV
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -630,7 +630,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.kyVgQNSa12loxVvr
+      compendiumSource: Compendium.dnd5e.monsterfeatures.kyVgQNSa12loxVvr
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -729,8 +729,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -803,7 +803,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -815,7 +815,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745175498369
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!f6HaKROPIcBRmSd1.7p94WH1WPMhF1ZP9'
 effects: []
@@ -831,6 +831,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726171245922
   modifiedTime: 1745175500905
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!f6HaKROPIcBRmSd1'

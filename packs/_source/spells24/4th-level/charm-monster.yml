@@ -51,8 +51,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -99,7 +99,7 @@ type: spell
 img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
 effects:
   - name: Charmed
-    origin: Compendium.degringo5e.spells24.Item.phbsplCharmMonst
+    origin: Compendium.dnd5e.spells24.Item.phbsplCharmMonst
     duration:
       rounds: null
       startTime: null
@@ -110,7 +110,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    img: systems/dnd5e/icons/svg/statuses/charmed.svg
     _id: CB1jIPB4yINOpjQX
     type: base
     system: {}
@@ -141,7 +141,7 @@ sort: 3400000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -152,6 +152,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425944531
   modifiedTime: 1745256787596
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplCharmMonst'

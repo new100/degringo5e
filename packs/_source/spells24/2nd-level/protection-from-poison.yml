@@ -46,8 +46,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -90,7 +90,7 @@ type: spell
 img: icons/skills/toxins/cup-glass-poisoned-held.webp
 effects:
   - name: Poison Protection
-    origin: Compendium.degringo5e.spells24.Item.phbsplProtection
+    origin: Compendium.dnd5e.spells24.Item.phbsplProtection
     duration:
       rounds: null
       startTime: null
@@ -134,7 +134,7 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -145,6 +145,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425967665
   modifiedTime: 1745256797292
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplProtection'

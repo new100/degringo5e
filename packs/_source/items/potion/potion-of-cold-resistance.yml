@@ -12,7 +12,7 @@ system:
       1 hour.</p>
 
       <p>For other potions of resistance, roll on the
-      @UUID[Compendium.degringo5e.tables.RollTable.JzLOE4IxcmxjLLuz]{Potion of
+      @UUID[Compendium.dnd5e.tables.RollTable.JzLOE4IxcmxjLLuz]{Potion of
       Resistance} table.</p>
     chat: ''
   source:
@@ -57,8 +57,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -130,6 +130,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037092094
   modifiedTime: 1725992481117
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!34YKlIJVVWLeBv7R'

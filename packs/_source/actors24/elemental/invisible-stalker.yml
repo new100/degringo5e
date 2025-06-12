@@ -605,7 +605,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -648,7 +648,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -660,7 +660,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -739,7 +739,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -751,7 +751,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -887,7 +887,7 @@ items:
     img: icons/magic/air/air-wave-gust-blue.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -899,7 +899,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1117,7 +1117,7 @@ items:
     img: icons/magic/air/wind-vortex-swirl-blue.webp
     effects:
       - name: Grappled
-        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        img: systems/dnd5e/icons/svg/statuses/grappled.svg
         origin: Item.mmVortex00000000
         _id: fWPQye4Mr7VNbX9J
         type: base
@@ -1166,7 +1166,7 @@ items:
         _key: >-
           !actors.items.effects!mmInvisibleStalk.mmVortex00000000.fWPQye4Mr7VNbX9J
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1178,7 +1178,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1186,12 +1186,12 @@ items:
     _key: '!actors.items!mmInvisibleStalk.mmVortex00000000'
 effects:
   - name: Invisible
-    _id: degringo5einvisible00
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
+    _id: dnd5einvisible00
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -1220,7 +1220,7 @@ effects:
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
-    _key: '!actors.effects!mmInvisibleStalk.degringo5einvisible00'
+    _key: '!actors.effects!mmInvisibleStalk.dnd5einvisible00'
 folder: mSjiQ0a7M8it70qu
 flags: {}
 _stats:
@@ -1230,7 +1230,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712722074
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

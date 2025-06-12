@@ -6,10 +6,10 @@ pages:
     type: class
     _id: gJV8iDqdNhRMLi5r
     system:
-      item: Compendium.degringo5e.classes24.Item.phbrgeRogue00000
+      item: Compendium.dnd5e.classes24.Item.phbrgeRogue00000
       description:
         value: >-
-          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000
+          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000
           inline classes="free-rules-embed"]</p> <h2>Becoming a Rogue
           …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in
           the Core Rogue Traits table.</p></li><li><p>Gain the Rogue's level 1
@@ -26,7 +26,7 @@ pages:
         subclass: >-
           <p>A Rogue subclass is a specialization that grants you features at
           certain levels, as specified in the subclass. The next page presents
-          the @UUID[Compendium.degringo5e.classes24.Item.phbrgeThief00000]{Thief}
+          the @UUID[Compendium.dnd5e.classes24.Item.phbrgeThief00000]{Thief}
           subclass.</p>
       subclassItems: []
       subclassHeader: ''
@@ -44,7 +44,7 @@ pages:
     ownership:
       default: -1
     flags:
-      degringo5e:
+      dnd5e:
         tocHidden: true
     _stats:
       duplicateSource: null
@@ -53,7 +53,7 @@ pages:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745514580126
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     category: null
     _key: '!journal.pages!phbRogue00000000.gJV8iDqdNhRMLi5r'
@@ -62,13 +62,13 @@ pages:
     type: subclass
     _id: BiqRuwpBfYi32N2p
     system:
-      item: Compendium.degringo5e.classes24.Item.phbrgeThief00000
+      item: Compendium.dnd5e.classes24.Item.phbrgeThief00000
       description:
         value: >-
           <blockquote><p>Hunt for Treasure as a Classic
           Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and
           explorer, you are the epitome of an adventurer
-          (@UUID[Compendium.degringo5e.classes24.Item.phbrgeThief00000]{Thief
+          (@UUID[Compendium.dnd5e.classes24.Item.phbrgeThief00000]{Thief
           subclass}). In addition to improving your agility and stealth, you
           gain abilities useful for delving into ruins and getting maximum
           benefit from the magic items you find there.</p>
@@ -93,13 +93,13 @@ pages:
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1735934791128
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     category: null
     _key: '!journal.pages!phbRogue00000000.BiqRuwpBfYi32N2p'
 folder: 1A8WFP1GVZkKdxii
 flags:
-  degringo5e:
+  dnd5e:
     type: special
     showPages: true
     append: 3
@@ -114,7 +114,7 @@ _stats:
   systemVersion: 4.0.1
   createdTime: 1724425889304
   modifiedTime: 1745677865517
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 1000000
 ownership:

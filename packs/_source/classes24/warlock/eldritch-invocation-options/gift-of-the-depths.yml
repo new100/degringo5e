@@ -8,7 +8,7 @@ system:
       <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can
       breathe underwater, and you gain a Swim Speed equal to your
       Speed.</p><p>You can also cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water Breathing}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterBreat]{Water Breathing}
       once without expending a spell slot. You regain the ability to cast it in
       this way again when you finish a Long Rest.</p><section
       id="secret-aH09PLbY0nXMKypM" class="secret"><p><strong>Foundry
@@ -95,7 +95,7 @@ system:
   identifier: gift-of-the-depths
 effects:
   - name: Water Breathing
-    origin: Compendium.degringo5e.classes24.Item.phbinvGiftoftheD
+    origin: Compendium.dnd5e.classes24.Item.phbinvGiftoftheD
     duration:
       rounds: null
       startTime: null
@@ -118,7 +118,7 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplWaterBreat.ActiveEffect.hyFupFam9XIbim0U
+        Compendium.dnd5e.spells24.Item.phbsplWaterBreat.ActiveEffect.hyFupFam9XIbim0U
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -130,7 +130,7 @@ effects:
     _key: '!items.effects!phbinvGiftoftheD.IEhxOF5rtwJ3xhOA'
 folder: BjeMHiqnKNWkWhox
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -141,7 +141,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762238
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

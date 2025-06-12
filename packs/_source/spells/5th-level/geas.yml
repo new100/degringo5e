@@ -64,8 +64,8 @@ system:
   properties:
     - vocal
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -126,7 +126,7 @@ flags: {}
 img: icons/magic/air/air-burst-spiral-large-yellow.webp
 effects:
   - name: Geas
-    origin: Compendium.degringo5e.spells.Item.JQyigMNPiDnGI18b
+    origin: Compendium.dnd5e.spells.Item.JQyigMNPiDnGI18b
     duration:
       startTime: null
       seconds: null
@@ -171,6 +171,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037353095
   modifiedTime: 1725992718814
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!JQyigMNPiDnGI18b'

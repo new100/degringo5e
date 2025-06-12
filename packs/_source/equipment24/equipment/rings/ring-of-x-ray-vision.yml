@@ -52,7 +52,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/degringo5e/icons/svg/damage/psychic.svg
+      img: systems/dnd5e/icons/svg/damage/psychic.svg
       appliedEffects: []
     v41FhJBMoCPTochw:
       type: save
@@ -165,7 +165,7 @@ system:
 effects:
   - name: X-Ray Vision
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfXrayVis
+    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfXrayVis
     transfer: false
     _id: vj2uuYo0TMWWXExd
     type: base
@@ -193,11 +193,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730679751329
       modifiedTime: 1730679787518
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgRingOfXrayVis.vj2uuYo0TMWWXExd'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -208,7 +208,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702884
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 2200000
 ownership:

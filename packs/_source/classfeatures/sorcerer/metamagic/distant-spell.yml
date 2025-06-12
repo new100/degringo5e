@@ -27,8 +27,8 @@ system:
   requirements: Sorcerer 3
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: special
@@ -38,7 +38,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.degringo5e.classfeatures.Item.LBKChJY5n02Afhnq
+            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
             value: '1'
             scaling:
               mode: ''
@@ -101,6 +101,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037381581
   modifiedTime: 1725992287619
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!DZpAa3LzMNBexbmX'

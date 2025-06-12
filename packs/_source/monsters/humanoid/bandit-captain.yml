@@ -547,7 +547,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.items.TIV3B1vbrVHIhQAm
+      compendiumSource: Compendium.dnd5e.items.TIV3B1vbrVHIhQAm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -586,8 +586,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -650,14 +650,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.EqoLg8T8EHvhJgKE
+      compendiumSource: Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745273657380
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!rb7OJt822wIO52qY.u3rhYD4gsxWEFbMc'
   - _id: tSPkVJScEndipsFU
@@ -741,8 +741,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -815,14 +815,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.items.fbC0Mg1a73wdFbqO
+      compendiumSource: Compendium.dnd5e.items.fbC0Mg1a73wdFbqO
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745107553733
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!rb7OJt822wIO52qY.tSPkVJScEndipsFU'
   - _id: mBUKIzY6aUW5Fnlm
@@ -907,8 +907,8 @@ items:
       container: null
       crewed: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -981,14 +981,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.items.0E565kQUBmndJ1a2
+      compendiumSource: Compendium.dnd5e.items.0E565kQUBmndJ1a2
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745173385725
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!rb7OJt822wIO52qY.mBUKIzY6aUW5Fnlm'
   - _id: mGcPB4SMyYkHFK9N
@@ -1019,8 +1019,8 @@ items:
       requirements: ''
       properties: []
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: reaction
@@ -1083,7 +1083,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.monsterfeatures.kfi26Jy0VLXv9TTm
+      compendiumSource: Compendium.dnd5e.monsterfeatures.kfi26Jy0VLXv9TTm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -1106,6 +1106,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1726171261393
   modifiedTime: 1726171450826
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!rb7OJt822wIO52qY'

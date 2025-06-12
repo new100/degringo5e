@@ -135,7 +135,7 @@ system:
       id="secret-vSYC0gYqNiDynkjf"><p><strong>Foundry Note</strong></p><p>The
       <strong>Life Stealing</strong> activity should be updated with its max
       uses set to the number of charges rolled.</p></section><p>
-      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: nine-lives-stealer
@@ -203,7 +203,7 @@ system:
 effects:
   - type: enchantment
     name: Nine Lives Stealer
-    img: systems/degringo5e/icons/spell-tiers/spell4.webp
+    img: systems/dnd5e/icons/spell-tiers/spell4.webp
     disabled: true
     _id: qiwTWGRINh3WFPaA
     system: {}
@@ -215,7 +215,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgNineLivesStea
+          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgNineLivesStea
           caption=false]</p>
         priority: null
       - key: system.rarity
@@ -257,12 +257,12 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730162619510
       modifiedTime: 1730162882385
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgNineLivesStea.qiwTWGRINh3WFPaA'
 folder: kie870i5kr7yuxO8
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity:
         - QxD7LVTB9MWX8QmK
@@ -274,7 +274,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745433606005
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 9300000
 ownership:

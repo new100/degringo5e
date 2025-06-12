@@ -750,8 +750,8 @@ items:
     img: icons/creatures/mammals/elk-moose-marked-green.webp
     effects:
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
-        origin: Compendium.degringo5e.actors24.Actor.mmElk00000000000.Item.mmRam00000000000
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmElk00000000000.Item.mmRam00000000000
         _id: GF5aJ8BZ8yVEuVJp
         type: base
         system: {}
@@ -785,7 +785,7 @@ items:
         _key: >-
           !actors.items.effects!mmElk00000000000.mmRam00000000000.GF5aJ8BZ8yVEuVJp
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -797,7 +797,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717351
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -816,6 +816,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1740679133849
   modifiedTime: 1745712717377
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!mmElk00000000000'

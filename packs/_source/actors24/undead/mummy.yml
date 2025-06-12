@@ -630,7 +630,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -642,7 +642,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -762,7 +762,7 @@ items:
             name: HP Max Decr.
             formula: 3d6
           name: HP Max Decrease
-          img: systems/degringo5e/icons/svg/hit-points.svg
+          img: systems/dnd5e/icons/svg/hit-points.svg
       uses:
         spent: 0
         recovery: []
@@ -840,8 +840,8 @@ items:
     img: icons/magic/lightning/claws-unarmed-strike-teal.webp
     effects:
       - name: Cursed
-        img: systems/degringo5e/icons/svg/statuses/cursed.svg
-        origin: Compendium.degringo5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000
+        img: systems/dnd5e/icons/svg/statuses/cursed.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000
         _id: t7Anyyhyg6fmTdXw
         type: base
         system: {}
@@ -881,7 +881,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummy000000000.mmRottingFist000.t7Anyyhyg6fmTdXw
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -893,7 +893,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -996,7 +996,7 @@ items:
     img: icons/magic/perception/eye-slit-red-orange.webp
     effects:
       - name: Frightened
-        img: systems/degringo5e/icons/svg/statuses/frightened.svg
+        img: systems/dnd5e/icons/svg/statuses/frightened.svg
         origin: Item.mmDreadfulGlare0
         _id: hRSvOovTSlu4Dw8c
         type: base
@@ -1033,7 +1033,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummy000000000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1045,7 +1045,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1054,7 +1054,7 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1063,7 +1063,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712723741
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

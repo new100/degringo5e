@@ -37,7 +37,7 @@ system:
   identifier: mindless-rage
 effects:
   - name: Mindless Rage
-    origin: Compendium.degringo5e.classes24.Item.phbbrbMindlessRa
+    origin: Compendium.dnd5e.classes24.Item.phbbrbMindlessRa
     duration:
       rounds: null
       startTime: null
@@ -48,7 +48,7 @@ effects:
       startTurn: null
     disabled: true
     flags: {}
-    img: systems/degringo5e/icons/svg/items/feature.svg
+    img: systems/dnd5e/icons/svg/items/feature.svg
     _id: Y9LOXK6Q4vot2cxi
     type: base
     system: {}
@@ -79,7 +79,7 @@ effects:
     _key: '!items.effects!phbbrbMindlessRa.Y9LOXK6Q4vot2cxi'
 folder: bEMqmmgGROsTGe0J
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -90,7 +90,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866492370
   modifiedTime: 1745256759982
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

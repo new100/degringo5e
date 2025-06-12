@@ -8,7 +8,7 @@ system:
     VVpK2CV6r5DFeB2o:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
+        uuid: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
         challenge:
           attack: null
           save: null
@@ -56,7 +56,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While
       wearing this hat, you can cast the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}
       spell. The spell ends if the hat is removed.</p>
     chat: ''
   identifier: hat-of-disguise
@@ -100,7 +100,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -111,7 +111,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 17600000
 ownership:

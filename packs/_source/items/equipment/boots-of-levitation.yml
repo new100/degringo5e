@@ -8,7 +8,7 @@ system:
       <p><em>Wondrous item, (requires attunement)</em></p>
 
       <p>While you wear these boots, you can use an action to cast the
-      <em>@UUID[Compendium.degringo5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate}</em>
+      <em>@UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate}</em>
       spell on yourself at will.</p>
     chat: ''
   source:
@@ -60,7 +60,7 @@ system:
     efepst7jgpEyeh5e:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.MRxldJd6C4bsBo3O
+        uuid: Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O
         challenge:
           attack: null
           save: null
@@ -107,7 +107,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -118,6 +118,6 @@ _stats:
   systemVersion: 4.1.0
   createdTime: 1725037150041
   modifiedTime: 1729015178969
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!HLhFCDGfI8EK7uV9'

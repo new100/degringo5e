@@ -38,8 +38,8 @@ system:
   properties: []
   requirements: Druid
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: ''
@@ -54,7 +54,7 @@ system:
             scaling: {}
           - type: itemUses
             value: '1'
-            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
             scaling: {}
           - type: spellSlots
             value: '-1'
@@ -104,7 +104,7 @@ system:
         max: ''
       sort: 0
       name: Regain Spell Slot
-      img: systems/degringo5e/icons/svg/trait.svg
+      img: systems/dnd5e/icons/svg/trait.svg
     7nAgPNN2dth7SR0D:
       type: utility
       activation:
@@ -116,7 +116,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
             scaling:
               mode: ''
           - type: spellSlots
@@ -170,12 +170,12 @@ system:
       sort: -100000
       name: Regain Wild Shape
       _id: 7nAgPNN2dth7SR0D
-      img: systems/degringo5e/icons/svg/abilities/intelligence.svg
+      img: systems/dnd5e/icons/svg/abilities/intelligence.svg
   enchant: {}
   identifier: wild-resurgence
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -186,7 +186,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1740680082812
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 1000000
 ownership:

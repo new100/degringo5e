@@ -97,7 +97,7 @@ system:
         name: ''
         formula: ''
       name: Light
-      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
   identifier: candle
 _id: ts2DfyhdfsR092Td
 type: consumable
@@ -108,7 +108,7 @@ sort: 75000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -119,6 +119,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1726532222006
   modifiedTime: 1740680146477
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ts2DfyhdfsR092Td'

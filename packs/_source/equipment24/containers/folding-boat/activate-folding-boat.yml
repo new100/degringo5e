@@ -63,7 +63,7 @@ system:
         - count: ''
           name: First Command Word (Rowboat)
           _id: E6rqP9kRz8STANcl
-          uuid: Compendium.degringo5e.actors24.Actor.phbmobRowboat000
+          uuid: Compendium.dnd5e.actors24.Actor.phbmobRowboat000
           level:
             min: null
             max: null
@@ -71,7 +71,7 @@ system:
         - count: ''
           name: Second Command Word (Keelboat)
           _id: cScim8zjtw1E4nCg
-          uuid: Compendium.degringo5e.actors24.Actor.phbmobKeelboat00
+          uuid: Compendium.dnd5e.actors24.Actor.phbmobKeelboat00
           level:
             min: null
             max: null
@@ -134,9 +134,9 @@ system:
   description:
     value: >-
       <p><strong>First Command Word.</strong> The box unfolds into a
-      @UUID[Compendium.degringo5e.actors24.Actor.phbmobRowboat000]{Rowboat}.</p><p><strong>Second
+      @UUID[Compendium.dnd5e.actors24.Actor.phbmobRowboat000]{Rowboat}.</p><p><strong>Second
       Command Word.</strong> The box unfolds into a
-      @UUID[Compendium.degringo5e.actors24.Actor.phbmobKeelboat00]{Keelboat}.</p><p><strong>Third
+      @UUID[Compendium.dnd5e.actors24.Actor.phbmobKeelboat00]{Keelboat}.</p><p><strong>Third
       Command Word.</strong> The <em>Folding Boat</em> folds back into a box if
       no creatures are aboard. Any objects in the vessel that can't fit inside
       the box remain outside the box as it folds. Any objects in the vessel that
@@ -144,7 +144,7 @@ system:
       weight becomes that of a normal vessel its size, and anything that was
       stored in the box remains in the boat.</p><p>Statistics for the Rowboat
       and Keelboat appear in
-      @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000]{Equipment}.
+      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000]{Equipment}.
       If either vessel is reduced to 0 Hit Points, the <em>Folding Boat</em> is
       destroyed.</p>
     chat: ''
@@ -189,7 +189,7 @@ system:
 effects: []
 folder: CXJsbhXV9uLcWcfH
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -200,7 +200,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1729820074508
   modifiedTime: 1745712698158
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 900000
 ownership:

@@ -13,7 +13,7 @@ system:
 
       <p>The pipes have 3 charges. If you play the pipes as an action, you can
       use a bonus action to expend 1 to 3 charges, calling forth one
-      @UUID[Compendium.degringo5e.monsters.Actor.8ihbbjkaOFTPbI73]{Swarm of Rats}
+      @UUID[Compendium.dnd5e.monsters.Actor.8ihbbjkaOFTPbI73]{Swarm of Rats}
       with each expended charge, provided that enough rats are within half a
       mile of you to be called in this fashion (as determined by the GM). If
       there aren't enough rats to form a swarm, the charge is wasted. Called
@@ -79,8 +79,8 @@ system:
     - mgc
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: check
       activation:
         type: bonus
@@ -136,8 +136,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity100:
-      _id: degringo5eactivity100
+    dnd5eactivity100:
+      _id: dnd5eactivity100
       type: save
       activation:
         type: bonus
@@ -213,6 +213,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037284913
   modifiedTime: 1725992545750
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!nvhk1quD0Dg1ZtSH'

@@ -56,8 +56,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -103,7 +103,7 @@ system:
   identifier: entangle
 effects:
   - name: Entangle
-    origin: Compendium.degringo5e.spells.Item.gMrWeG8fMDPRFiVe
+    origin: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
     duration:
       startTime: null
       seconds: 60
@@ -153,6 +153,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037362549
   modifiedTime: 1725992721946
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!gMrWeG8fMDPRFiVe'

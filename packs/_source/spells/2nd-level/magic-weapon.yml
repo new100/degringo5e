@@ -53,8 +53,8 @@ system:
     - somatic
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: enchant
       activation:
         type: action
@@ -116,7 +116,7 @@ img: icons/magic/fire/dagger-rune-enchant-flame-blue.webp
 effects:
   - name: Magic Weapon, +1
     flags:
-      degringo5e:
+      dnd5e:
         enchantment:
           level:
             min: null
@@ -169,7 +169,7 @@ effects:
     _key: '!items.effects!Sgjrf8qqv97CCWM4.SLSudYaACjmmmZsU'
   - name: Magic Weapon, +2
     flags:
-      degringo5e:
+      dnd5e:
         enchantment:
           level:
             min: 4
@@ -222,7 +222,7 @@ effects:
     _key: '!items.effects!Sgjrf8qqv97CCWM4.8OhsRxK3dF1JeQXO'
   - name: Magic Weapon, +3
     flags:
-      degringo5e:
+      dnd5e:
         enchantment:
           level:
             min: 6
@@ -281,6 +281,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037356520
   modifiedTime: 1725992719940
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!Sgjrf8qqv97CCWM4'

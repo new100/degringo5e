@@ -595,7 +595,7 @@ items:
     effects:
       - name: Acid Resistance
         img: icons/magic/acid/dissolve-pool-bubbles.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         _id: RM0B2jICsibgFm0E
         type: base
         system: {}
@@ -633,7 +633,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.RM0B2jICsibgFm0E
       - name: Cold Resistance
         img: icons/magic/water/snowflake-ice-purple.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -671,7 +671,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.uZOPfiqPvCCLReTj
       - name: Fire Resistance
         img: icons/magic/fire/flame-burning-earth-orange.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -709,7 +709,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.br641pBi8PTZSTJf
       - name: Poison Resistance
         img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -732,7 +732,7 @@ items:
         statuses: []
         sort: 0
         flags:
-          degringo5e:
+          dnd5e:
             riders:
               statuses: []
         _stats:
@@ -750,7 +750,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.srrXvF207wssH68S
       - name: Lightning Resistance
         img: icons/magic/lightning/bolt-strike-blue-white.webp
-        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -773,7 +773,7 @@ items:
         statuses: []
         sort: 0
         flags:
-          degringo5e:
+          dnd5e:
             riders:
               statuses: []
         _stats:
@@ -798,7 +798,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -876,7 +876,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -888,7 +888,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1038,7 +1038,7 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1050,7 +1050,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1171,7 +1171,7 @@ items:
     img: icons/creatures/abilities/dragon-fire-breath-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1183,7 +1183,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1244,7 +1244,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1274,7 +1274,7 @@ items:
     img: icons/skills/movement/arrows-up-trio-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1286,7 +1286,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1302,7 +1302,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712720945
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

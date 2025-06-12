@@ -8,7 +8,7 @@ system:
       <p><em>Wondrous item, (requires attunement)</em></p>
 
       <p>While wearing this hat, you can use an action to cast the
-      @UUID[Compendium.degringo5e.spells.Item.A3q2gTNqG6fvNGrv]{Disguise Self} spell
+      @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{Disguise Self} spell
       from it at will. The spell ends if the hat is removed.</p>
     chat: ''
   source:
@@ -60,7 +60,7 @@ system:
     wRay1ZVWKBGtk9mL:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.A3q2gTNqG6fvNGrv
+        uuid: Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv
         challenge:
           attack: null
           save: null
@@ -107,7 +107,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -118,6 +118,6 @@ _stats:
   systemVersion: 4.1.0
   createdTime: 1725037234437
   modifiedTime: 1729015322129
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!dQxqcjDm0IxYusCV'

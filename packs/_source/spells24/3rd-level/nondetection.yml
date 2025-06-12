@@ -49,8 +49,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -93,7 +93,7 @@ type: spell
 img: icons/magic/perception/hand-eye-fire-blue.webp
 effects:
   - name: Hidden from Divination
-    origin: Compendium.degringo5e.spells24.Item.phbsplNondetecti
+    origin: Compendium.dnd5e.spells24.Item.phbsplNondetecti
     duration:
       rounds: null
       startTime: null
@@ -130,7 +130,7 @@ sort: 600000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -141,6 +141,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425964979
   modifiedTime: 1745256796469
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplNondetecti'

@@ -599,7 +599,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -629,7 +629,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -641,7 +641,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -693,7 +693,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -887,8 +887,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/degringo5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.degringo5e.actors24.Actor.mmPurpleWorm0000.Item.mmBite0000000000
+        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmPurpleWorm0000.Item.mmBite0000000000
         _id: AvzcMcXTFpFurUhJ
         type: base
         system: {}
@@ -928,7 +928,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmBite0000000000.AvzcMcXTFpFurUhJ
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -940,7 +940,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1087,7 +1087,7 @@ items:
     img: icons/commodities/biological/stinger-insect-grey.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1099,7 +1099,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1328,7 +1328,7 @@ items:
     img: icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp
     effects:
       - name: Blinded, Restrained, and Total Cover
-        img: systems/degringo5e/icons/svg/statuses/blinded.svg
+        img: systems/dnd5e/icons/svg/statuses/blinded.svg
         origin: Item.mmSwallow0000000
         _id: VOHv1LyO3hHolZXo
         type: base
@@ -1376,7 +1376,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.VOHv1LyO3hHolZXo
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
         _id: aS5FyMP72vn3OKf1
         type: base
@@ -1422,7 +1422,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.aS5FyMP72vn3OKf1
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1434,7 +1434,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1450,7 +1450,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712725525
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

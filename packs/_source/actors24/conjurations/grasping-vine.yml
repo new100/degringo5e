@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGraspingVi
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGraspingVi
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -489,12 +489,12 @@ items:
           vine. On a hit, the target takes 4d8 Bludgeoning damage and is pulled
           up to 30 feet toward the vine; if the target is Huge or smaller, it
           has the &amp;Reference[Grappled] condition (escape DC equal to your
-          spell save DC).</p><p>The vine can grapple [[@flags.degringo5e.summon.level
+          spell save DC).</p><p>The vine can grapple [[@flags.dnd5e.summon.level
           - 3]] creature(s) at a time, and you can cause the vine to release a
           Grappled creature (no action required).</p><h3>Escape
           Tests</h3><p>[[/check ability=str skill=ath
-          dc=8+@prof+@flags.degringo5e.summon.mod]]</p><p>[[/check ability=dex
-          skill=acr dc=8+@prof+@flags.degringo5e.summon.mod]]</p>
+          dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex
+          skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>
         chat: ''
       source:
         custom: ''
@@ -516,8 +516,8 @@ items:
         - mgc
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: bonus
@@ -606,7 +606,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -618,13 +618,13 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160365
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplGraspingVi.phbaoiLevel4Conj'
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
     summon:
       level: 4
@@ -635,7 +635,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425918638
   modifiedTime: 1745256830201
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 400000
 ownership:

@@ -593,7 +593,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -671,7 +671,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -683,7 +683,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -909,7 +909,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.mmAttach00000000.m1rBdxxAM8FGk5gI
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -921,7 +921,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1054,7 +1054,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1117,7 +1117,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
             ability: wis
           name: ''
       uses:
@@ -1129,7 +1129,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMirrorImag]{Mirror
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMirrorImag]{Mirror
           Image}</em> spell, requiring no spell components and using Wisdom as
           the spellcasting ability. The spell ends early if the [[lookup @name
           lowercase]] starts or ends its turn in Bright Light.</p>
@@ -1153,7 +1153,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1165,7 +1165,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1228,8 +1228,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1275,7 +1275,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     effects:
       - name: Duplicate A
-        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1313,7 +1313,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.VUqQIaiZoIzxUdf1
       - name: Duplicate B
-        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1351,7 +1351,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.XcTQl9DhT9lC3bxI
       - name: Duplicate C
-        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1388,12 +1388,12 @@ items:
           exportSource: null
         _key: >-
           !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.uMsGEsbEZ2hckOKW
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
+          Compendium.dnd5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
         changes:
           - key: system.activation
             mode: 5
@@ -1442,23 +1442,23 @@ items:
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.degringo5espellchange
+          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
     sort: 5700000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: jluXgJ7dG39ONk0R
     _key: '!actors.items!mmCloaker0000000.jluXgJ7dG39ONk0R'
@@ -1563,7 +1563,7 @@ items:
     img: icons/magic/control/fear-fright-white.webp
     effects:
       - name: Frightened
-        img: systems/degringo5e/icons/svg/statuses/frightened.svg
+        img: systems/dnd5e/icons/svg/statuses/frightened.svg
         origin: Item.mmMoan0000000000
         _id: ozk8flGDR2kAITEI
         type: base
@@ -1600,7 +1600,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.mmMoan0000000000.ozk8flGDR2kAITEI
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1612,7 +1612,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1628,7 +1628,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415408481
   modifiedTime: 1745712715569
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

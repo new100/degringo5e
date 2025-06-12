@@ -26,8 +26,8 @@ system:
   requirements: Monk 2
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: bonus
@@ -37,7 +37,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.degringo5e.classfeatures.Item.10b6z2W1txNkrGP7
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
             value: '1'
             scaling:
               mode: ''
@@ -100,6 +100,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037390407
   modifiedTime: 1725992290579
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!yrSFIGTaQOH2PFRI'

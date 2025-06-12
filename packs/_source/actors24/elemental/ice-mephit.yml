@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Mephits</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
+        <h1>Mephits</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -662,7 +662,7 @@ items:
     img: icons/magic/death/skull-humanoid-white-blue.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -674,7 +674,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721853
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -821,7 +821,7 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -833,7 +833,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721853
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -949,7 +949,7 @@ items:
     img: icons/magic/light/beam-rays-blue-large.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -961,7 +961,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721853
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -976,7 +976,7 @@ items:
         sKdIh2G1RS2oqp8t:
           type: cast
           spell:
-            uuid: Compendium.degringo5e.spells24.Item.phbsplFogCloud00
+            uuid: Compendium.dnd5e.spells24.Item.phbsplFogCloud00
             challenge:
               attack: null
               save: null
@@ -1032,7 +1032,7 @@ items:
       description:
         value: >-
           <p>The mephit casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFogCloud00]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]</em>,
           requiring no spell components and using Charisma as the spellcasting
           ability.</p>
         chat: ''
@@ -1057,7 +1057,7 @@ items:
     effects: []
     folder: 4T18pEvubPMQLzvD
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1069,7 +1069,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721853
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1082,7 +1082,7 @@ items:
           <p>You create a 20-foot-radius Sphere of fog centered on a point
           within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts
           for the duration or until a strong wind (such as one created by
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
           Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
           Slot.</strong> The fog's radius increases by 20 feet for each spell
           slot level above 1.</p>
@@ -1130,8 +1130,8 @@ items:
         mode: prepared
         prepared: false
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -1173,12 +1173,12 @@ items:
     type: spell
     img: icons/magic/air/fog-gas-smoke-dense-white.webp
     effects:
-      - _id: degringo5espellchange
+      - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/degringo5e/icons/svg/activity/cast.svg
+        img: systems/dnd5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIceMephit00000.Item.mmFogCloud000000.Activity.sKdIh2G1RS2oqp8t
+          Compendium.dnd5e.actors24.Actor.mmIceMephit00000.Item.mmFogCloud000000.Activity.sKdIh2G1RS2oqp8t
         changes:
           - key: system.properties
             mode: 2
@@ -1219,30 +1219,30 @@ items:
           lastModifiedBy: null
           exportSource: null
         _key: >-
-          !actors.items.effects!mmIceMephit00000.pH1Rf3FfwlD3EELa.degringo5espellchange
+          !actors.items.effects!mmIceMephit00000.pH1Rf3FfwlD3EELa.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
     sort: 2800000
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         cachedFor: .Item.mmFogCloud000000.Activity.sKdIh2G1RS2oqp8t
     _stats:
-      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplFogCloud00
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFogCloud00
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721853
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: pH1Rf3FfwlD3EELa
     _key: '!actors.items!mmIceMephit00000.pH1Rf3FfwlD3EELa'
 effects: []
 folder: mSjiQ0a7M8it70qu
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1251,7 +1251,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712721881
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

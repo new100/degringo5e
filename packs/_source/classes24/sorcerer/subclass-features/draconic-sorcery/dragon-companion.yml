@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplSummonDrag]{Summon Dragon}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSummonDrag]{Summon Dragon}
       without a Material component. You can also cast it once without a spell
       slot, and you regain the ability to cast it in this way when you finish a
       Long Rest.</p><p>Whenever you start casting the spell, you can modify it
@@ -92,7 +92,7 @@ system:
   identifier: dragon-companion
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -103,7 +103,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866556244
   modifiedTime: 1745256765404
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

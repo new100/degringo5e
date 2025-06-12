@@ -116,7 +116,7 @@ system:
 effects:
   - name: Flyer
     img: icons/consumables/potions/potion-bottle-corked-white.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgPotionOfFlyin
+    origin: Compendium.dnd5e.equipment24.Item.dmgPotionOfFlyin
     transfer: false
     _id: GIybtF2qEmtPCOZj
     type: base
@@ -148,11 +148,11 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730862909967
       modifiedTime: 1730862970802
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgPotionOfFlyin.GIybtF2qEmtPCOZj'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -163,7 +163,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807295
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

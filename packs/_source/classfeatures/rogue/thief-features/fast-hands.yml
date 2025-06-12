@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>Starting at 3rd level, you can use the bonus action granted by your
-      @UUID[Compendium.degringo5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Cunning
+      @UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Cunning
       Action} to make a Dexterity (Sleight of Hand) check, use your thieves'
       tools to disarm a trap or open a lock, or take the Use an Object
       action.</p>
@@ -28,8 +28,8 @@ system:
   requirements: Thief 3
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: bonus
@@ -96,6 +96,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037386744
   modifiedTime: 1725992289256
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!ga3dt2zrCn2MHK8R'

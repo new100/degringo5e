@@ -8,7 +8,7 @@ system:
     745v4uo4m3ghldT9:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
+        uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
         challenge:
           attack: null
           save: null
@@ -252,7 +252,7 @@ system:
       has 6 charges and regains 1d6 expended charges daily at dawn. You can
       expend its charges to use the properties below.</p><p><em><strong>Faerie
       Fire.</strong></em> You can expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplFaerieFire]{Faerie Fire} from
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire} from
       the ring.</p><p><em><strong>Lightning Spheres.</strong></em> You can
       expend 2 charges as a Magic action to create up to four 3-foot-diameter
       spheres of lightning.</p><p>Each sphere appears in an unoccupied space you
@@ -326,7 +326,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -337,7 +337,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702692
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 1300000
 ownership:

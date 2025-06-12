@@ -6,7 +6,7 @@ type: feat
 system:
   description:
     value: >-
-      <p>You can cast @UUID[Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz]{Slow}
+      <p>You can cast @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Slow}
       once using a warlock spell slot. You can't do so again until you finish a
       long rest.</p>
     chat: ''
@@ -30,8 +30,8 @@ system:
   prerequisites:
     level: 5
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -106,6 +106,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037381674
   modifiedTime: 1725992287670
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!DjXi0IkCTbJx1gsp'

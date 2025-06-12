@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    degringo5e:
+    dnd5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -488,7 +488,7 @@ items:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
+          <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
           caption=false]</p>
         chat: ''
       source:
@@ -511,8 +511,8 @@ items:
         - mgc
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: ''
@@ -671,7 +671,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        img: systems/dnd5e/icons/svg/statuses/restrained.svg
         _id: NGnrAr3HdReYoTjS
         type: base
         system: {}
@@ -704,7 +704,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -716,13 +716,13 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160164
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbsplConjuredEl.1sm4KQqflaDX7MEu'
 effects: []
 folder: UvlQFmKuGiSS9WJd
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -731,7 +731,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425918299
   modifiedTime: 1745256830009
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 100000
 ownership:

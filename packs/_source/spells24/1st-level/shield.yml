@@ -5,7 +5,7 @@ system:
       <p>An imperceptible barrier of magical force protects you. Until the start
       of your next turn, you have a +5 bonus to AC, including against the
       triggering attack, and you take no damage from
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
+      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
       Missile}</em>.</p>
     chat: ''
   source:
@@ -51,8 +51,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -115,7 +115,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.degringo5e.spells24.Item.phbsplShield0000
+    origin: Compendium.dnd5e.spells24.Item.phbsplShield0000
     tint: '#ffffff'
     transfer: false
     name: Imperceptible Barrier
@@ -126,7 +126,7 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+        Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -145,7 +145,7 @@ sort: 700000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -156,6 +156,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425970477
   modifiedTime: 1745256798096
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplShield0000'

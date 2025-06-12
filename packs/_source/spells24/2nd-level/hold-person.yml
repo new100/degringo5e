@@ -46,8 +46,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -94,7 +94,7 @@ type: spell
 img: icons/magic/control/encase-creature-humanoid-hold.webp
 effects:
   - name: Paralyzed
-    origin: Compendium.degringo5e.spells24.Item.phbsplHoldPerson
+    origin: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
     duration:
       rounds: null
       startTime: null
@@ -105,7 +105,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
+    img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
     _id: PklwZi3SKQ3JU2M2
     type: base
     system: {}
@@ -134,7 +134,7 @@ sort: 2800000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -145,6 +145,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425958892
   modifiedTime: 1745256794789
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplHoldPerson'

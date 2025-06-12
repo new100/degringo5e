@@ -117,7 +117,7 @@ system:
 effects:
   - name: Winged
     img: icons/magic/holy/angel-wings-gray.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgWingedBoots00
+    origin: Compendium.dnd5e.equipment24.Item.dmgWingedBoots00
     transfer: false
     _id: jKz5xLbftW2r0f3P
     type: base
@@ -145,18 +145,18 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgWingsOfFlying.ActiveEffect.JLR5JpSUgL3yYcvt
+        Compendium.dnd5e.equipment24.Item.dmgWingsOfFlying.ActiveEffect.JLR5JpSUgL3yYcvt
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730660820044
       modifiedTime: 1730660828819
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgWingedBoots00.jKz5xLbftW2r0f3P'
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -167,7 +167,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 37900000
 ownership:

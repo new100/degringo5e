@@ -6,7 +6,7 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Modify footwear to give
       Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagClimbersKit]{Climber's
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagClimbersKit]{Climber's
       Kit}</p>
     chat: ''
   source:
@@ -109,7 +109,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -120,6 +120,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425916600
   modifiedTime: 1745256814048
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbtulCobblersTo'

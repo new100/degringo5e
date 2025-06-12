@@ -18,7 +18,7 @@ system:
 
       <p><strong>Wish</strong>. The sword has 1d4 – 1 charges. While holding it,
       you can use an action to expend 1 charge and cast the
-      @UUID[Compendium.degringo5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it.
+      @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it.
       This property can't be used again until the next dawn. The sword loses
       this property if it has no charges.</p>
     chat: ''
@@ -96,8 +96,8 @@ system:
   crewed: false
   magicalBonus: 1
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: attack
       activation:
         type: action
@@ -181,6 +181,6 @@ _stats:
   systemVersion: 4.3.0
   createdTime: 1725037247888
   modifiedTime: 1738529766156
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!fWR9EFEjR0JtFdCC'

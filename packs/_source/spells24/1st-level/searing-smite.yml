@@ -53,8 +53,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -176,7 +176,7 @@ type: spell
 img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
 effects:
   - name: Seared
-    origin: Compendium.degringo5e.spells24.Item.phbsplSearingSmi
+    origin: Compendium.dnd5e.spells24.Item.phbsplSearingSmi
     duration:
       rounds: null
       startTime: null
@@ -217,7 +217,7 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -228,6 +228,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425969823
   modifiedTime: 1745256797874
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplSearingSmi'

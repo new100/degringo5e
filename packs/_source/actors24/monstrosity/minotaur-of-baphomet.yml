@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Minotaur of
-        Baphomet</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.jqKn0BtJJlHPShTp
+        Baphomet</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.jqKn0BtJJlHPShTp
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -693,7 +693,7 @@ items:
     img: icons/weapons/polearms/trident-jeweled-purple.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -705,7 +705,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723531
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -928,7 +928,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -965,7 +965,7 @@ items:
         _key: >-
           !actors.items.effects!mmMinotaurOfBaph.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -977,7 +977,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723531
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -993,7 +993,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712723563
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

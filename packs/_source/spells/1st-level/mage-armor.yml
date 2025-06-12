@@ -52,8 +52,8 @@ system:
     - somatic
     - material
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -109,7 +109,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.degringo5e.spells.CKZTpZlxj7hjjo2H
+    origin: Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H
     transfer: false
     flags: {}
     tint: '#ffffff'
@@ -143,6 +143,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037350935
   modifiedTime: 1725992718089
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!CKZTpZlxj7hjjo2H'

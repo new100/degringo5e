@@ -8,7 +8,7 @@ system:
     8RstC93WBiFEF5ya:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplMagicMissi
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
         challenge:
           attack: null
           save: null
@@ -121,7 +121,7 @@ system:
       located on the robe's upper-front portion, are particularly large. While
       wearing this robe, you can take a Magic action to remove one of the stars
       and expend it to cast the level 5 version of
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}.
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}.
       Daily at dusk, 1d6 removed stars reappear on the robe.</p><p>While you
       wear the robe, you can take a Magic action to enter the Astral Plane along
       with everything you are wearing and carrying. You remain there until you
@@ -174,7 +174,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -185,7 +185,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702971
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 32500000
 ownership:

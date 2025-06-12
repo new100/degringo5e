@@ -533,7 +533,7 @@ items:
             - force
           custom:
             enabled: true
-            formula: (4 + 2 * (@flags.degringo5e.summon.level - 5))d8
+            formula: (4 + 2 * (@flags.dnd5e.summon.level - 5))d8
           scaling:
             mode: ''
             number: null
@@ -549,8 +549,8 @@ items:
       properties: []
       proficient: null
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: bonus
@@ -615,7 +615,7 @@ items:
       ammunition: {}
       identifier: clenched-fist
     _id: flSMgvK8J2USFtGo
-    img: systems/degringo5e/icons/svg/items/weapon.svg
+    img: systems/dnd5e/icons/svg/items/weapon.svg
     effects: []
     folder: null
     sort: 0
@@ -661,8 +661,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: check
           activation:
             type: bonus
@@ -717,7 +717,7 @@ items:
       enchant: {}
       identifier: forceful-hand
     _id: kKg1WU7qO2fLSB0e
-    img: systems/degringo5e/icons/svg/items/feature.svg
+    img: systems/dnd5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -762,8 +762,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: damage
           activation:
             type: bonus
@@ -822,7 +822,7 @@ items:
                   - bludgeoning
                 custom:
                   enabled: true
-                  formula: (2 + 2 * (@flags.degringo5e.summon.level - 5))d6
+                  formula: (2 + 2 * (@flags.dnd5e.summon.level - 5))d6
                 scaling:
                   mode: whole
                   number: null
@@ -831,7 +831,7 @@ items:
       enchant: {}
       identifier: grasping-hand
     _id: rne03sCadusyP3Yg
-    img: systems/degringo5e/icons/svg/items/feature.svg
+    img: systems/dnd5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -870,8 +870,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: bonus
@@ -926,7 +926,7 @@ items:
       enchant: {}
       identifier: interposing-hand
     _id: vgK74YR1Lv2WrGCx
-    img: systems/degringo5e/icons/svg/items/feature.svg
+    img: systems/dnd5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -956,6 +956,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1726171250692
   modifiedTime: 1726171448499
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!iHj5Tkm6HRgXuaWP'

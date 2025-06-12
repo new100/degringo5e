@@ -111,7 +111,7 @@ img: icons/creatures/unholy/demon-fire-horned-winged-roar.webp
 effects:
   - name: 'Flames Card: Devilish Enmity'
     img: icons/creatures/unholy/demon-fire-horned-mask.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgDmtFlames0000
+    origin: Compendium.dnd5e.equipment24.Item.dmgDmtFlames0000
     transfer: false
     _id: UpR6gfUl5Qqjddq1
     type: base
@@ -128,7 +128,7 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtFlames0000]{Flames}</em></p><p>This
+      @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtFlames0000]{Flames}</em></p><p>This
       enmity lasts until either you or the devil dies.</p>
     tint: '#ffffff'
     statuses: []
@@ -142,7 +142,7 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729190308338
       modifiedTime: 1729190625632
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgDmtFlames0000.UpR6gfUl5Qqjddq1'
 folder: XVXuU21XyvevGap7
@@ -150,7 +150,7 @@ sort: 1700000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -161,6 +161,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1729190087505
   modifiedTime: 1745256804260
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!dmgDmtFlames0000'

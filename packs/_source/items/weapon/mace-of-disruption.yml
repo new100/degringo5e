@@ -88,8 +88,8 @@ system:
   crewed: false
   magicalBonus: null
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: attack
       activation:
         type: action
@@ -150,8 +150,8 @@ system:
         spent: 0
         recovery: []
       sort: 0
-    degringo5eactivity100:
-      _id: degringo5eactivity100
+    dnd5eactivity100:
+      _id: dnd5eactivity100
       type: save
       activation:
         type: ''
@@ -273,7 +273,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -284,6 +284,6 @@ _stats:
   systemVersion: 4.3.0
   createdTime: 1725037277636
   modifiedTime: 1738530002191
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!m7RubLd1lUcMjYgY'

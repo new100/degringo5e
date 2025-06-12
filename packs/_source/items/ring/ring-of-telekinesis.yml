@@ -8,7 +8,7 @@ system:
       <p><em>(Requires attunement)</em></p>
 
       <p>While wearing this ring, you can cast the
-      @UUID[Compendium.degringo5e.spells.Item.HQfd7jJyULIoGxrZ]{Telekinesis} spell at
+      @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{Telekinesis} spell at
       will, but you can target only objects that aren't being worn or
       carried.</p>
     chat: ''
@@ -61,7 +61,7 @@ system:
     yhJYyZZLiK862s7T:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.HQfd7jJyULIoGxrZ
+        uuid: Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ
         challenge:
           attack: null
           save: null
@@ -116,7 +116,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -127,6 +127,6 @@ _stats:
   systemVersion: 4.1.0
   createdTime: 1725037258445
   modifiedTime: 1731017469461
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!hxfOtvFrY1PXHQN1'

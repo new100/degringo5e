@@ -584,7 +584,7 @@ items:
     img: icons/magic/water/bubbles-air-water-light.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -596,7 +596,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718634
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -655,7 +655,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/degringo5e/icons/svg/monster.svg
+          img: systems/dnd5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -685,7 +685,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -697,7 +697,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718634
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -886,8 +886,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/degringo5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.degringo5e.actors24.Actor.mmGiantCrocodile.Item.mmBite0000000000
+        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmGiantCrocodile.Item.mmBite0000000000
         _id: sBCqplORWr2DwgKU
         type: base
         system: {}
@@ -927,7 +927,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantCrocodile.mmBite0000000000.sBCqplORWr2DwgKU
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -939,7 +939,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718634
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1079,7 +1079,7 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects:
       - name: Prone
-        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
         _id: uAvQlHXKSwnCjRtt
         type: base
@@ -1114,7 +1114,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantCrocodile.mmTail0000000000.uAvQlHXKSwnCjRtt
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1126,7 +1126,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718634
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1142,7 +1142,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415449930
   modifiedTime: 1745712718661
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

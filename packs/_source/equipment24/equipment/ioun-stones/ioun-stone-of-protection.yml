@@ -11,7 +11,7 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgIounStone0000]{Ioun
+      <p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun
       Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun
       Stone</em> into the air, the stone orbits your head at a distance of 1d3
       feet, conferring its benefit to you while doing so. You can have up to
@@ -63,7 +63,7 @@ system:
   proficient: null
 effects:
   - name: 'Enhanced Protection: +1 AC'
-    img: systems/degringo5e/icons/svg/activity/save.svg
+    img: systems/dnd5e/icons/svg/activity/save.svg
     _id: DjgONYhHwEnVKjfF
     type: base
     system: {}
@@ -98,7 +98,7 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1730487471606
       modifiedTime: 1730487555040
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgProtectionIou.DjgONYhHwEnVKjfF'
 flags: {}
@@ -109,7 +109,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702263
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 25000
 ownership:

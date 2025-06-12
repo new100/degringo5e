@@ -8,7 +8,7 @@ system:
       <p><em>Wondrous item</em></p>
 
       <p>While wearing this circlet, you can use an action to cast the
-      <em>@UUID[Compendium.degringo5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching
+      <em>@UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching
       Ray}</em> spell with it. When you make the spell's attacks, you do so with
       an attack bonus of +5. The circlet can't be used this way again until the
       next dawn.</p>
@@ -64,7 +64,7 @@ system:
     4JwrimevYN6xmgJV:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells.Item.7u2obDvuvtZBkTfq
+        uuid: Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq
         challenge:
           attack: 5
           save: null
@@ -118,7 +118,7 @@ sort: 0
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -129,6 +129,6 @@ _stats:
   systemVersion: 4.1.0
   createdTime: 1725037117921
   modifiedTime: 1729015238060
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!9UvWQTY5yIgkJmmb'

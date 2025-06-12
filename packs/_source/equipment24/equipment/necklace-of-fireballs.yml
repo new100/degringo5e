@@ -63,7 +63,7 @@ system:
     v2sP2OkYkHfhR8hu:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: 15
@@ -127,7 +127,7 @@ system:
       hanging from it. You can take a Magic action to detach a bead and throw it
       up to 60 feet away. When it reaches the end of its trajectory, the bead
       detonates as a level 3
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball} (save DC
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (save DC
       15).</p><p>You can hurl multiple beads, or even the whole necklace, at one
       time. When you do so, increase the damage of the <em>Fireball</em> by 1d6
       for each bead after the first (maximum 12d6).</p><section class="secret"
@@ -179,7 +179,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -190,7 +190,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701541
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 22700000
 ownership:

@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You always have the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDivineSmit]{Divine Smite} spell
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Divine Smite} spell
       prepared. In addition, you can cast it without expending a spell slot, but
       you must finish a Long Rest before you can cast it in this way
       again.</p><section id="secret-47mDL7wHB8aQP7SD"
@@ -38,7 +38,7 @@ system:
   identifier: paladins-smite
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -49,7 +49,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745256763929
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

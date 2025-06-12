@@ -453,7 +453,7 @@ prototypeToken:
     color: null
   detectionModes: []
   flags:
-    degringo5e: {}
+    dnd5e: {}
   randomImg: false
   ring:
     enabled: false
@@ -499,7 +499,7 @@ effects:
     transfer: false
     flags: {}
     _stats:
-      compendiumSource: Actor.eIQIKf1xngnKcRpg.ActiveEffect.degringo5einvisible00
+      compendiumSource: Actor.eIQIKf1xngnKcRpg.ActiveEffect.dnd5einvisible00
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -508,7 +508,7 @@ effects:
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
-    img: systems/degringo5e/icons/svg/statuses/invisible.svg
+    img: systems/dnd5e/icons/svg/statuses/invisible.svg
     type: base
     system: {}
     tint: '#ffffff'
@@ -525,6 +525,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1726171263873
   modifiedTime: 1726171451406
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!tuHyePQ9GazMTyc0'

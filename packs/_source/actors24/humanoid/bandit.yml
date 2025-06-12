@@ -408,12 +408,12 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
-        Armor}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepLightCross]{Light
+        @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather
+        Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLightCross]{Light
         Crossbow},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepScimitar00]{Scimitar}</p></div><h1>Bandits</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ORyQoMthsD5YZa49
+        @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}</p></div><h1>Bandits</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.ORyQoMthsD5YZa49
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Bandit</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.BOqXIilnnBRsQabZ
+        mm"]</p><h2>Bandit</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.BOqXIilnnBRsQabZ
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -708,19 +708,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepScimitar00
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepScimitar00
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713831
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmBandit00000000.otGT32geRnrgVe3j'
   - name: Light Crossbow
@@ -877,19 +877,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepLightCross
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepLightCross
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713831
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmBandit00000000.0qG1ZLUPB2MrHV8B'
   - name: Leather Armor
@@ -952,14 +952,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713831
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: sD8cJZJSn1z2RKhf
     sort: 0
@@ -974,7 +974,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712713858
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

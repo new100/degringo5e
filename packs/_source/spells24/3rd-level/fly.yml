@@ -53,8 +53,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -97,7 +97,7 @@ type: spell
 img: icons/creatures/birds/songbird-yellow-flying.webp
 effects:
   - name: Flight
-    origin: Compendium.degringo5e.spells24.Item.phbsplFly0000000
+    origin: Compendium.dnd5e.spells24.Item.phbsplFly0000000
     duration:
       rounds: null
       startTime: null
@@ -142,7 +142,7 @@ sort: 2000000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -153,6 +153,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425954637
   modifiedTime: 1745256793318
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!phbsplFly0000000'

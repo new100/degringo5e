@@ -408,13 +408,13 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
+        @UUID[Compendium.dnd5e.equipment24.Item.phbwepHeavyCross]{Heavy
         Crossbow},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
+        @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather
         Armor},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}</p></div><h1>Toughs</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
+        @UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}</p></div><h1>Toughs</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Tough</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l
+        mm"]</p><h2>Tough</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -706,19 +706,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepMace000000
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepMace000000
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmTough000000000.g247cae7xSU9n39H'
   - name: Heavy Crossbow
@@ -876,19 +876,19 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.phbwepHeavyCross
+      compendiumSource: Compendium.dnd5e.equipment24.phbwepHeavyCross
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!mmTough000000000.wY4qcHbGDew7U0jj'
   - name: Leather Armor
@@ -951,14 +951,14 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _id: QTizUswaAvb6NFeK
     sort: 0
@@ -1010,7 +1010,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     ownership:
       default: 0
@@ -1026,7 +1026,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712728677
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

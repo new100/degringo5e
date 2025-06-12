@@ -8,7 +8,7 @@ system:
     7eb7D4APf14llP0v:
       type: cast
       spell:
-        uuid: Compendium.degringo5e.spells24.Item.phbsplJump000000
+        uuid: Compendium.dnd5e.spells24.Item.phbsplJump000000
         challenge:
           attack: null
           save: null
@@ -64,7 +64,7 @@ system:
     value: >-
       <p><em>Ring, Uncommon (Requires Attunement)</em></p><p>While wearing this
       ring, you can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplJump000000]{Jump} from it, but
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplJump000000]{Jump} from it, but
       can target only yourself when you do so.</p>
     chat: ''
   identifier: ring-of-jumping
@@ -108,7 +108,7 @@ system:
   proficient: null
 effects: []
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -119,7 +119,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1740680126906
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 900000
 ownership:

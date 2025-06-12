@@ -28,8 +28,8 @@ system:
   requirements: Monk 5
   properties: []
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: special
@@ -39,7 +39,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.degringo5e.classfeatures.Item.10b6z2W1txNkrGP7
+            target: Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7
             value: '1'
             scaling:
               mode: ''
@@ -99,7 +99,7 @@ flags: {}
 img: icons/skills/melee/unarmed-punch-fist-blue.webp
 effects:
   - name: Stunning Strike
-    origin: Compendium.degringo5e.classfeatures.Item.pvRc6GAu1ok6zihC
+    origin: Compendium.dnd5e.classfeatures.Item.pvRc6GAu1ok6zihC
     duration:
       startTime: null
       seconds: null
@@ -141,6 +141,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037388762
   modifiedTime: 1725992290024
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!pvRc6GAu1ok6zihC'

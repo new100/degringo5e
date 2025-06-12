@@ -58,8 +58,8 @@ system:
     - material
     - concentration
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: utility
       activation:
         type: action
@@ -104,7 +104,7 @@ flags: {}
 img: icons/magic/control/buff-flight-wings-runes-purple.webp
 effects:
   - name: Haste
-    origin: Compendium.degringo5e.spells.Item.Szvk5FEVQW3uhJi5
+    origin: Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5
     duration:
       startTime: null
       seconds: 60
@@ -152,7 +152,7 @@ effects:
     tint: '#ffffff'
     _stats:
       compendiumSource: >-
-        Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+        Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -174,6 +174,6 @@ _stats:
   systemVersion: 4.0.0
   createdTime: 1725037356722
   modifiedTime: 1725992720032
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!items!Szvk5FEVQW3uhJi5'

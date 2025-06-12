@@ -55,8 +55,8 @@ system:
     mode: prepared
     prepared: false
   activities:
-    degringo5eactivity000:
-      _id: degringo5eactivity000
+    dnd5eactivity000:
+      _id: dnd5eactivity000
       type: save
       activation:
         type: action
@@ -118,7 +118,7 @@ type: spell
 img: icons/magic/unholy/beam-ringed-impact-purple.webp
 effects:
   - name: Spiked
-    origin: Compendium.degringo5e.spells24.Item.phbsplMindSpike0
+    origin: Compendium.dnd5e.spells24.Item.phbsplMindSpike0
     duration:
       rounds: null
       startTime: null
@@ -164,7 +164,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1745433110943
   modifiedTime: 1745712695373
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 101563
 ownership:

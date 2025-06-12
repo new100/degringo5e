@@ -362,7 +362,7 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepGreatclub0]{Greatclub}),
+      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub}),
       Very Rare (Requires Attunement)</em></p><p>While you are attuned to this
       magic weapon, your Strength is 20 unless your Strength is already equal to
       or greater than that score. The weapon deals an extra 1d8 Thunder damage
@@ -488,12 +488,12 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729880382268
       modifiedTime: 1729882427373
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgThunderousGre.c8qf2gTNGwdg4hTP'
   - name: Prone
     img: icons/magic/lightning/bolt-cloud-sky-green.webp
-    origin: Compendium.degringo5e.equipment24.Item.dmgThunderousGre
+    origin: Compendium.dnd5e.equipment24.Item.dmgThunderousGre
     transfer: false
     _id: Rg9qnmIespepasJN
     type: base
@@ -522,12 +522,12 @@ effects:
       systemVersion: 4.1.0
       createdTime: 1729880727744
       modifiedTime: 1729880809003
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!items.effects!dmgThunderousGre.Rg9qnmIespepasJN'
 folder: kie870i5kr7yuxO8
 flags:
-  degringo5e:
+  dnd5e:
     riders:
       activity: []
       effect: []
@@ -538,7 +538,7 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745611687561
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 sort: 0
 ownership:

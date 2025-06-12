@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGiantInsec
+        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGiantInsec
         caption=false]</p>
       public: ''
     alignment: Unaligned
@@ -524,7 +524,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobGiantInsec.phbaoiSpiderClim'
   - name: Multiattack
@@ -532,7 +532,7 @@ items:
       description:
         value: >-
           <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
+          level (round down).</p><p>[[floor(@flags.dnd5e.summon.level /
           2)]]{Number of attacks}</p>
         chat: ''
       source:
@@ -554,8 +554,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: utility
           activation:
             type: action
@@ -624,7 +624,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -636,7 +636,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobGiantInsec.phbaoiMultiattac'
   - name: Poison Jab
@@ -666,8 +666,8 @@ items:
       properties: []
       requirements: ''
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -766,7 +766,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -778,7 +778,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobGiantInsec.phbaoiPoisonJab0'
   - name: Web Bolt
@@ -809,8 +809,8 @@ items:
       properties: []
       requirements: Spider Only
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
           activation:
             type: action
@@ -894,7 +894,7 @@ items:
     img: icons/creatures/webs/web-spider-moving-blue.webp
     effects:
       - name: Webbed
-        origin: Compendium.degringo5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiWebBoltSpi
+        origin: Compendium.dnd5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiWebBoltSpi
         duration:
           rounds: 1
           startTime: null
@@ -962,7 +962,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobGiantInsec.phbaoiWebBoltSpi'
   - name: Venomous Spew
@@ -993,8 +993,8 @@ items:
       properties: []
       requirements: Centipede Only
       activities:
-        degringo5eactivity000:
-          _id: degringo5eactivity000
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: save
           activation:
             type: action
@@ -1067,8 +1067,8 @@ items:
     img: icons/magic/acid/projectile-flame-smoke-green.webp
     effects:
       - name: Poisoned
-        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.degringo5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiVenomousSp
+        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.dnd5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiVenomousSp
         transfer: false
         _id: jVWtHTrlPNi4dpDi
         type: base
@@ -1093,14 +1093,14 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
+            Compendium.dnd5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1725916429627
           modifiedTime: 1725916429627
-          lastModifiedBy: null
+          lastModifiedBy: dnd5ebuilder0000
           exportSource: null
         _key: >-
           !actors.items.effects!phbmobGiantInsec.phbaoiVenomousSp.jVWtHTrlPNi4dpDi
@@ -1109,7 +1109,7 @@ items:
     ownership:
       default: 0
     flags:
-      degringo5e:
+      dnd5e:
         riders:
           activity: []
           effect: []
@@ -1121,7 +1121,7 @@ items:
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
-      lastModifiedBy: null
+      lastModifiedBy: dnd5ebuilder0000
       exportSource: null
     _key: '!actors.items!phbmobGiantInsec.phbaoiVenomousSp'
 effects: []
@@ -1130,7 +1130,7 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  degringo5e:
+  dnd5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
@@ -1139,6 +1139,6 @@ _stats:
   systemVersion: 4.4.0
   createdTime: 1724425913370
   modifiedTime: 1745256827644
-  lastModifiedBy: null
+  lastModifiedBy: dnd5ebuilder0000
   exportSource: null
 _key: '!actors!phbmobGiantInsec'
