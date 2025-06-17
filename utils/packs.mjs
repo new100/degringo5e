@@ -62,21 +62,21 @@ function packageCommand() {
  * Clean Packs
  * ----------------------------------------- */
 async function cleanPacks(packName, entryName) {
-  logger.debug(`Iniciando limpeza de pacotes. packName: ${packName}, entryName: ${entryName}`);
+  logger.info(`Iniciando limpeza de pacotes. packName: ${packName}, entryName: ${entryName}`);
   entryName = entryName?.toLowerCase();
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
 
-  logger.debug(`Pastas encontradas para limpeza: ${folders.map(f => f.name).join(", ")}`);
+  logger.info(`Pastas encontradas para limpeza: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     logger.info(`Limpando pacote: ${folder.name}`);
     for await (const src of _walkDir(path.join(PACK_SRC, folder.name))) {
-      logger.debug(`Processando arquivo: ${src}`);
+      logger.info(`Processando arquivo: ${src}`);
       try {
         const data = YAML.load(await readFile(src, { encoding: "utf8" }));
-        logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
+        logger.info(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
 
         if (entryName && (entryName !== data.name.toLowerCase())) continue;
         if (!data._id || !data._key) {
@@ -107,12 +107,12 @@ async function* _walkDir(directoryPath) {
  * Compile Packs
  * ----------------------------------------- */
 async function compilePacks(packName) {
-  logger.debug(`Iniciando compilação de pacotes. packName: ${packName}`);
+  logger.info(`Iniciando compilação de pacotes. packName: ${packName}`);
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
 
-  logger.debug(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
+  logger.info(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     const src = path.join(PACK_SRC, folder.name);
@@ -130,14 +130,14 @@ async function compilePacks(packName) {
  * Extract Packs
  * ----------------------------------------- */
 async function extractPacks(packName, entryName) {
-  logger.debug(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
+  logger.info(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
   entryName = entryName?.toLowerCase();
 
   const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
-  logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
+  logger.info(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
 
   const packs = system.packs.filter(p => !packName || p.name === packName);
-  logger.debug(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
+  logger.info(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
 
   for (const packInfo of packs) {
     const dest = path.join(PACK_SRC, packInfo.name);
@@ -146,7 +146,7 @@ async function extractPacks(packName, entryName) {
       await extractPack(packInfo.path, dest, {
         log: true,
         transformEntry: entry => {
-          logger.debug(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
+          logger.info(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
           if (entryName && (entryName !== entry.name.toLowerCase())) return false;
           cleanPackEntry(entry);
           return true;
@@ -163,7 +163,7 @@ async function extractPacks(packName, entryName) {
  * Helpers
  * ----------------------------------------- */
 function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
-  logger.debug(`Limpando entrada: ${data.name || "desconhecido"}`);
+  logger.info(`Limpando entrada: ${data.name || "desconhecido"}`);
   if (data.ownership) data.ownership = { default: ownership };
   if (clearSourceId) {
     delete data._stats?.compendiumSource;
