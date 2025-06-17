@@ -9,7 +9,7 @@ system:
       magical.</p><p>This ammunition is typically found or sold in quantities of
       ten or twenty pieces. Ten pieces of this ammunition are equivalent in
       value to a potion of the same
-      rarity.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      rarity.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   price:
@@ -136,7 +136,7 @@ img: icons/weapons/ammunition/arrow-head-war-flight.webp
 effects:
   - type: enchantment
     name: Ammunition +1
-    img: systems/dnd5e/icons/spell-tiers/spell2.webp
+    img: systems/degringo5e/icons/spell-tiers/spell2.webp
     disabled: true
     _id: 08fHYdssxOSTW2nC
     system: {}
@@ -148,7 +148,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgAmmunition12o
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -178,14 +178,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729871035237
       modifiedTime: 1729890225858
@@ -194,7 +194,7 @@ effects:
     _key: '!items.effects!dmgAmmunition12o.08fHYdssxOSTW2nC'
   - type: enchantment
     name: Ammunition +2
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     _id: Ck4FgoSL8VjpYhCx
     system: {}
@@ -206,7 +206,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgAmmunition12o
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -236,14 +236,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729871042864
       modifiedTime: 1731107372236
@@ -252,7 +252,7 @@ effects:
     _key: '!items.effects!dmgAmmunition12o.Ck4FgoSL8VjpYhCx'
   - type: enchantment
     name: Ammunition +3
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     _id: cAXvvSaUg544GENu
     system: {}
@@ -264,7 +264,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgAmmunition12o
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -294,14 +294,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729871048604
       modifiedTime: 1731107379621
@@ -313,14 +313,14 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729870520071
   modifiedTime: 1745256802119

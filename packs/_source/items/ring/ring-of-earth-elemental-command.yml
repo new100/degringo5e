@@ -10,7 +10,7 @@ system:
       <p>This ring is linked to the Elemental Plane of Earth.</p>
 
       <p>While wearing this ring, you have advantage on attack rolls against
-      @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{Earth Elemental}s,
+      @UUID[Compendium.degringo5e.monsters.Actor.sApYLZj9PTZ40wJr]{Earth Elemental}s,
       and they have disadvantage on attack rolls against you. In addition, you
       have access to properties based on the linked plane.</p>
 
@@ -19,7 +19,7 @@ system:
 
       <p><strong>Ring of Earth Elemental Command</strong>. You can expend 2 of
       the ring's charges to cast
-      @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
+      @UUID[Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
       an Earth Elemental. In addition, you can move in difficult terrain that is
       composed of rubble, rocks, or dirt as if it were normal terrain. You can
       also speak and understand Terran.</p>
@@ -37,9 +37,9 @@ system:
 
       <li>You can cast the following spells from the ring, expending the
       necessary number of charges:
-      @UUID[Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{Stone Shape} (2
-      charges), @UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin}
-      (3 charges), or @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall
+      @UUID[Compendium.degringo5e.spells.Item.QvGcdRUSNRKEQJlK]{Stone Shape} (2
+      charges), @UUID[Compendium.degringo5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin}
+      (3 charges), or @UUID[Compendium.degringo5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall
       of Stone} (3 charges).</li>
 
       </ul>
@@ -96,7 +96,7 @@ system:
     2BmS0duA6cOAkzUW:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
+        uuid: Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp
         challenge:
           attack: null
           save: 17
@@ -150,7 +150,7 @@ system:
     d8GlId9yzDbJHrS7:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK
+        uuid: Compendium.degringo5e.spells.Item.QvGcdRUSNRKEQJlK
         challenge:
           attack: null
           save: 17
@@ -200,7 +200,7 @@ system:
     lsp1CkHeT5EWo09F:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79
+        uuid: Compendium.degringo5e.spells.Item.ReMbjfeOKoSj3O79
         challenge:
           attack: null
           save: 17
@@ -250,7 +250,7 @@ system:
     KEqwUW6z1Hk9CyB2:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY
+        uuid: Compendium.degringo5e.spells.Item.NmoRmM1mhuM3pqnY
         challenge:
           attack: null
           save: 17
@@ -305,14 +305,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037219133
   modifiedTime: 1729016818176

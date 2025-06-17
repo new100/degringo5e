@@ -3,9 +3,9 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This polished obsidian horse can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmNightmare00000]{Nightmare}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmNightmare00000]{Nightmare}</strong>
       for up to 24 hours. The nightmare fights only to defend itself. Once it
       has been used, it can't be used again until 5 days have passed.</p><p>The
       figurine has a [[/r 1d10cs1]]{10 percent chance} each time you use it to
@@ -85,7 +85,7 @@ system:
         - count: ''
           name: ''
           _id: LW2oFsJxrujNmv6Q
-          uuid: Compendium.dnd5e.actors24.Actor.5SgVGhQBswgWRwsF
+          uuid: Compendium.degringo5e.actors24.Actor.5SgVGhQBswgWRwsF
           level:
             min: null
             max: null
@@ -149,14 +149,14 @@ sort: 106250
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781735095
   modifiedTime: 1745712700212

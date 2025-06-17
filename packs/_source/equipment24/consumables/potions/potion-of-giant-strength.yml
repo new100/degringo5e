@@ -18,16 +18,16 @@ system:
       liquid has floating in it a sliver of light resembling a giant's
       fingernail.</p><table><thead><tr><td>Potion</td><td>Str.</td><td>Rarity</td></tr></thead><tbody><tr><td><em>Potion
       of Giant Strength</em>
-      (@UUID[Compendium.dnd5e.equipment24.Item.dmgHillPotionOfG]{hill})</td><td>21</td><td>Uncommon</td></tr><tr><td><em>Potion
+      (@UUID[Compendium.degringo5e.equipment24.Item.dmgHillPotionOfG]{hill})</td><td>21</td><td>Uncommon</td></tr><tr><td><em>Potion
       of Giant Strength</em>
-      (@UUID[Compendium.dnd5e.equipment24.Item.dmgFrostPotionOf]{frost} or
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgStonePotionOf]{stone})</td><td>23</td><td>Rare</td></tr><tr><td><em>Potion
+      (@UUID[Compendium.degringo5e.equipment24.Item.dmgFrostPotionOf]{frost} or
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgStonePotionOf]{stone})</td><td>23</td><td>Rare</td></tr><tr><td><em>Potion
       of Giant Strength</em>
-      (@UUID[Compendium.dnd5e.equipment24.Item.dmgFirePotionOfG]{fire})</td><td>25</td><td>Rare</td></tr><tr><td><em>Potion
+      (@UUID[Compendium.degringo5e.equipment24.Item.dmgFirePotionOfG]{fire})</td><td>25</td><td>Rare</td></tr><tr><td><em>Potion
       of Giant Strength</em>
-      (@UUID[Compendium.dnd5e.equipment24.Item.dmgCloudPotionOf]{cloud})</td><td>27</td><td>Very
+      (@UUID[Compendium.degringo5e.equipment24.Item.dmgCloudPotionOf]{cloud})</td><td>27</td><td>Very
       Rare</td></tr><tr><td><em>Potion of Giant Strength</em>
-      (@UUID[Compendium.dnd5e.equipment24.Item.dmgStormPotionOf]{storm})</td><td>29</td><td>Legendary</td></tr></tbody></table>
+      (@UUID[Compendium.degringo5e.equipment24.Item.dmgStormPotionOf]{storm})</td><td>29</td><td>Legendary</td></tr></tbody></table>
     chat: ''
   identifier: potion-of-giant-strength
   source:
@@ -69,14 +69,14 @@ system:
 effects: []
 folder: 4NjJfCbRAVhw8ESv
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730751926980
   modifiedTime: 1745432524912

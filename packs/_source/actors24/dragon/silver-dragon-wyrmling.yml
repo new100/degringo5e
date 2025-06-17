@@ -408,10 +408,10 @@ system:
     biography:
       value: >-
         <h1>Silver
-        Dragons</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.REGxFxNrTLFswtA1
+        Dragons</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.REGxFxNrTLFswtA1
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Silver Dragon
-        Wyrmling</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HwVckgQCUMSXFgQx
+        Wyrmling</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HwVckgQCUMSXFgQx
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Good
@@ -630,7 +630,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -638,7 +638,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738022939205
       modifiedTime: 1745712726997
@@ -771,7 +771,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738022941278
       modifiedTime: 1745712726997
@@ -891,7 +891,7 @@ items:
     img: icons/creatures/abilities/dragon-ice-breath-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -899,7 +899,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmColdBreath0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738022942478
       modifiedTime: 1745712726997
@@ -1012,7 +1012,7 @@ items:
     img: icons/magic/unholy/energy-smoke-pink.webp
     effects:
       - name: Incapacitated
-        img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+        img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
         origin: Item.mmParalyzingBrea
         _id: MML0hjuixzKZ61FT
         type: base
@@ -1050,7 +1050,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1059,7 +1059,7 @@ items:
         _key: >-
           !actors.items.effects!mmSilverDragonWy.mmParalyzingBrea.MML0hjuixzKZ61FT
       - name: Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmParalyzingBrea
         _id: qHhQi1VSyVic0Z22
         type: base
@@ -1098,7 +1098,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1107,7 +1107,7 @@ items:
         _key: >-
           !actors.items.effects!mmSilverDragonWy.mmParalyzingBrea.qHhQi1VSyVic0Z22
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1115,7 +1115,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParalyzingBrea
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738022943744
       modifiedTime: 1745712726997
@@ -1131,7 +1131,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712727025

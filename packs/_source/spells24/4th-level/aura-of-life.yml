@@ -99,7 +99,7 @@ system:
         max: ''
       sort: 0
       name: Create Aura
-      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
       appliedEffects:
         - GV4hKah5zwQ3Bisx
   identifier: aura-of-life
@@ -108,7 +108,7 @@ type: spell
 img: icons/magic/holy/meditation-chi-focus-blue.webp
 effects:
   - name: Aura of Life
-    origin: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
+    origin: Compendium.degringo5e.spells24.Item.phbsplAuraofLife
     duration:
       rounds: null
       startTime: null
@@ -141,7 +141,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -153,14 +153,14 @@ sort: 3800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425941996
   modifiedTime: 1745256786201

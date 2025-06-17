@@ -3,10 +3,10 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This marble statuette resembles a trumpeting
       elephant. It can become an
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmElephant000000]{Elephant}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmElephant000000]{Elephant}</strong>
       for up to 24 hours. Once it has been used, it can't be used again until 7
       days have passed.</p><section class="secret"
       id="secret-RHHx3aKcpKsHN2aK"><p><strong>Foundry Note</strong></p><p>This
@@ -81,7 +81,7 @@ system:
         - count: ''
           name: ''
           _id: Gl5T1A074yAaSUE1
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobElephant00
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobElephant00
           level:
             min: null
             max: null
@@ -145,14 +145,14 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781723263
   modifiedTime: 1745712700179

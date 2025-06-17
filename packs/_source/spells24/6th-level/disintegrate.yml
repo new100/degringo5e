@@ -5,15 +5,15 @@ system:
       <p>You launch a green ray at a target you can see within range. The target
       can be a creature, a nonmagical object, or a creation of magical force,
       such as the wall created by
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall of
       Force}.</em></p><p>A creature targeted by this spell makes a Dexterity
       saving throw. On a failed save, the target takes 10d6 + 40 Force damage.
       If this damage reduces it to 0 Hit Points, it and everything nonmagical it
       is wearing and carrying are disintegrated into gray dust. The target can
       be revived only by a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueResurr]{True
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueResurr]{True
       Resurrection}</em> or a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell.</p><p>This spell automatically disintegrates a Large or smaller
       nonmagical object or a creation of magical force. If such a target is Huge
       or larger, this spell disintegrates a 10-foot-Cube portion of
@@ -132,14 +132,14 @@ sort: 1500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425950013
   modifiedTime: 1745256790609

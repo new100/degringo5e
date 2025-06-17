@@ -2,7 +2,7 @@ _id: phbpdnOathOfDevo
 name: Oath of Devotion
 type: subclass
 folder: VHaxJHEReTihmspe
-img: systems/dnd5e/icons/classes/devotion.webp
+img: systems/degringo5e/icons/classes/devotion.webp
 system:
   description:
     value: >-
@@ -32,9 +32,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbpdnDevotionSp
+          - uuid: Compendium.degringo5e.classes24.Item.phbpdnDevotionSp
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbpdnSacredWeap
+          - uuid: Compendium.degringo5e.classes24.Item.phbpdnSacredWeap
             optional: false
         optional: false
         spell: null
@@ -45,7 +45,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbpdnDevotionAu
+          - uuid: Compendium.degringo5e.classes24.Item.phbpdnDevotionAu
             optional: false
         optional: false
         spell: null
@@ -56,7 +56,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbpdnSmiteOfPro
+          - uuid: Compendium.degringo5e.classes24.Item.phbpdnSmiteOfPro
             optional: false
         optional: false
         spell: null
@@ -67,7 +67,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbpdnHolyNimbus
+          - uuid: Compendium.degringo5e.classes24.Item.phbpdnHolyNimbus
             optional: false
         optional: false
         spell: null
@@ -78,9 +78,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplShieldofFa
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplShieldofFa
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+          - uuid: Compendium.degringo5e.spells24.Item.phbEvilAndGoodPr
             optional: false
         optional: false
         spell:
@@ -98,9 +98,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplZoneofTrut
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplZoneofTrut
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplAid0000000
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplAid0000000
             optional: false
         optional: false
         spell:
@@ -118,9 +118,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplDispelMagi
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplBeaconofHo
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplBeaconofHo
             optional: false
         optional: false
         spell:
@@ -138,9 +138,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplGuardianof
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplGuardianof
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplFreedomofM
             optional: false
         optional: false
         spell:
@@ -158,9 +158,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplFlameStrik
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplCommune000
+          - uuid: Compendium.degringo5e.spells24.Item.phbsplCommune000
             optional: false
         optional: false
         spell:
@@ -184,7 +184,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866569467
   modifiedTime: 1745256763863

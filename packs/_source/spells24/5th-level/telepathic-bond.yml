@@ -104,7 +104,7 @@ img: icons/skills/social/diplomacy-handshake-gray.webp
 effects:
   - name: Bonded Telepathy
     img: icons/skills/social/diplomacy-handshake-gray.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplRarysTelep
+    origin: Compendium.degringo5e.spells24.Item.phbsplRarysTelep
     transfer: false
     _id: 6DciPRMecBWvJCZq
     type: base
@@ -132,7 +132,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724428622825
       modifiedTime: 1724429807547
@@ -144,14 +144,14 @@ sort: 600000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425967972
   modifiedTime: 1745256797380

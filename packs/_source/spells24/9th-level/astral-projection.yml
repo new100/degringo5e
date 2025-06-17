@@ -114,7 +114,7 @@ img: icons/magic/light/orbs-hand-gray.webp
 effects:
   - name: Suspended Animation
     img: icons/magic/time/hourglass-brown-orange.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAstralProj
+    origin: Compendium.degringo5e.spells24.Item.phbsplAstralProj
     transfer: false
     _id: SRez59EeCZRy66QS
     type: base
@@ -142,7 +142,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725372000223
       modifiedTime: 1725372505585
@@ -154,14 +154,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425941749
   modifiedTime: 1745256785975

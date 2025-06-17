@@ -54,7 +54,7 @@ system:
           override: false
         level: '4'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDimensionD
       name: ''
       img: ''
   uses:
@@ -67,7 +67,7 @@ system:
     value: >-
       <div><p><em>Wondrous Item, Rare</em></p></div><p>This cape smells faintly
       of brimstone. While wearing it, you can use it to cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]{Dimension
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDimensionD]{Dimension
       Door}</em> as a Magic action. This property can't be used again until the
       next dawn.</p><p>When you teleport with that spell, you leave behind a
       cloud of smoke. The space you left is &amp;Reference[LightlyObscured] by
@@ -114,14 +114,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698493

@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You always have the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark}
       spell prepared. You can cast it twice without expending a spell slot, and
       you regain all expended uses of this ability when you finish a Long
       Rest.</p><p>The number of times you can cast the spell without a spell
@@ -40,14 +40,14 @@ system:
   identifier: favored-enemy
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735932734523
   modifiedTime: 1745256764837

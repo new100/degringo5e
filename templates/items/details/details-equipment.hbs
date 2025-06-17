@@ -1,39 +1,39 @@
 <fieldset>
-    <legend>{{ localize "DND5E.ItemEquipmentDetails" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.ItemEquipmentDetails" }}</legend>
 
     {{!-- Equipment Type --}}
-    {{ formField fields.type.fields.value value=source.type.value label="DND5E.ItemEquipmentType" blank=""
+    {{ formField fields.type.fields.value value=source.type.value label="DEGRINGO5E.ItemEquipmentType" blank=""
                  localize=true options=equipmentTypeOptions }}
 
     {{!-- Equipment Base --}}
     {{#if baseItemOptions.length}}
-    {{ formField fields.type.fields.baseItem value=source.type.baseItem label="DND5E.ItemEquipmentBase" blank=""
+    {{ formField fields.type.fields.baseItem value=source.type.baseItem label="DEGRINGO5E.ItemEquipmentBase" blank=""
                  localize=true options=baseItemOptions }}
     {{/if}}
 
     {{!-- Proficiency --}}
-    {{ formField fields.proficient value=source.proficient blank="DND5E.Automatic" localize=true
+    {{ formField fields.proficient value=source.proficient blank="DEGRINGO5E.Automatic" localize=true
                  choices=CONFIG.weaponAndArmorProficiencyLevels }}
 
     {{!-- Armor --}}
     {{#if system.isArmor}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.Armor" }}</label>
+        <label>{{ localize "DEGRINGO5E.Armor" }}</label>
         <div class="form-fields">
 
             {{!-- Value --}}
-            {{ formField fields.armor.fields.value value=source.armor.value step=1 label="DND5E.AC" localize=true
+            {{ formField fields.armor.fields.value value=source.armor.value step=1 label="DEGRINGO5E.AC" localize=true
                          classes="label-top" }}
 
             {{!-- Max Dex --}}
             {{#if hasDexModifier}}
-            {{ formField fields.armor.fields.dex value=source.armor.dex label="DND5E.ItemEquipmentDexModAbbr"
+            {{ formField fields.armor.fields.dex value=source.armor.dex label="DEGRINGO5E.ItemEquipmentDexModAbbr"
                          placeholder="∞" localize=true classes="label-top" }}
             {{/if}}
 
             {{!-- Strength Requirement --}}
             {{#if system.isArmor}}
-            {{ formField fields.strength value=source.strength label="DND5E.AbilityStr" placeholder="—" localize=true
+            {{ formField fields.strength value=source.strength label="DEGRINGO5E.AbilityStr" placeholder="—" localize=true
                          classes="label-top" }}
             {{/if}}
         </div>
@@ -41,42 +41,42 @@
     {{/if}}
 
     {{!-- Properties --}}
-    {{ formField fields.properties options=properties.options label="DND5E.ItemEquipmentProperties" localize=true
+    {{ formField fields.properties options=properties.options label="DEGRINGO5E.ItemEquipmentProperties" localize=true
                  input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid checkbox-grid-3" }}
 
     {{!-- Magical Properties --}}
     {{#if properties.object.mgc}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.ITEM.Property.Magical" }}</label>
+        <label>{{ localize "DEGRINGO5E.ITEM.Property.Magical" }}</label>
         <div class="form-fields">
 
             {{!-- Attunement --}}
             {{#unless system.isMountable}}
             <div class="form-group label-top">
-                <label>{{ localize "DND5E.Attunement" }}</label>
+                <label>{{ localize "DEGRINGO5E.Attunement" }}</label>
                 <div class="form-fields">
 
                     {{!-- Attuned --}}
                     {{#if source.attunement}}
                     {{ formInput fields.attuned value=source.attuned input=inputs.createCheckboxInput
-                                 ariaLabel=(localize "DND5E.Attuned") dataset=(dnd5e-object tooltip="DND5E.Attuned") }}
+                                 ariaLabel=(localize "DEGRINGO5E.Attuned") dataset=(degringo5e-object tooltip="DEGRINGO5E.Attuned") }}
                     {{/if}}
 
                     {{!-- Attunement --}}
                     {{ formInput fields.attunement value=source.attunement choices=CONFIG.attunementTypes
-                                 blank="DND5E.AttunementNone" localize=true }}
+                                 blank="DEGRINGO5E.AttunementNone" localize=true }}
                 </div>
             </div>
             {{/unless}}
 
             {{!-- Magical Bonus --}}
             {{ formField fields.armor.fields.magicalBonus value=source.armor.magicalBonus step=1 placeholder="0"
-                         label="DND5E.Bonus" localize=true classes="label-top" }}
+                         label="DEGRINGO5E.Bonus" localize=true classes="label-top" }}
         </div>
     </div>
     {{/if}}
 </fieldset>
 
 {{#if system.isMountable}}
-    {{> "dnd5e.details-mountable" }}
+    {{> "degringo5e.details-mountable" }}
 {{/if}}

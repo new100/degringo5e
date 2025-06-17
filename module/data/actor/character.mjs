@@ -80,7 +80,7 @@ export default class CharacterData extends CreatureTemplate {
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.BONUSES"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.BONUSES"];
 
   /* -------------------------------------------- */
 
@@ -104,35 +104,35 @@ export default class CharacterData extends CreatureTemplate {
         ...AttributesFields.creature,
         hp: new SchemaField({
           value: new NumberField({
-            nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.HitPointsCurrent"
+            nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.HitPointsCurrent"
           }),
           max: new NumberField({
-            nullable: true, integer: true, min: 0, initial: null, label: "DND5E.HitPointsOverride",
-            hint: "DND5E.HitPointsOverrideHint"
+            nullable: true, integer: true, min: 0, initial: null, label: "DEGRINGO5E.HitPointsOverride",
+            hint: "DEGRINGO5E.HitPointsOverrideHint"
           }),
-          temp: new NumberField({ integer: true, initial: 0, min: 0, label: "DND5E.HitPointsTemp" }),
+          temp: new NumberField({ integer: true, initial: 0, min: 0, label: "DEGRINGO5E.HitPointsTemp" }),
           tempmax: new NumberField({
-            integer: true, initial: 0, label: "DND5E.HitPointsTempMax", hint: "DND5E.HitPointsTempMaxHint"
+            integer: true, initial: 0, label: "DEGRINGO5E.HitPointsTempMax", hint: "DEGRINGO5E.HitPointsTempMaxHint"
           }),
           bonuses: new SchemaField({
-            level: new FormulaField({ deterministic: true, label: "DND5E.HitPointsBonusLevel" }),
-            overall: new FormulaField({ deterministic: true, label: "DND5E.HitPointsBonusOverall" })
+            level: new FormulaField({ deterministic: true, label: "DEGRINGO5E.HitPointsBonusLevel" }),
+            overall: new FormulaField({ deterministic: true, label: "DEGRINGO5E.HitPointsBonusOverall" })
           })
-        }, { label: "DND5E.HitPoints" }),
+        }, { label: "DEGRINGO5E.HitPoints" }),
         death: new RollConfigField({
           ability: false,
           success: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveSuccesses"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.DeathSaveSuccesses"
           }),
           failure: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveFailures"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.DeathSaveFailures"
           }),
           bonuses: new SchemaField({
-            save: new FormulaField({ required: true, label: "DND5E.DeathSaveBonus" })
+            save: new FormulaField({ required: true, label: "DEGRINGO5E.DeathSaveBonus" })
           })
-        }, { label: "DND5E.DeathSave" }),
-        inspiration: new BooleanField({ required: true, label: "DND5E.Inspiration" })
-      }, { label: "DND5E.Attributes" }),
+        }, { label: "DEGRINGO5E.DeathSave" }),
+        inspiration: new BooleanField({ required: true, label: "DEGRINGO5E.Inspiration" })
+      }, { label: "DEGRINGO5E.Attributes" }),
       bastion: new SchemaField({
         name: new StringField({ required: true }),
         description: new HTMLField()
@@ -141,25 +141,25 @@ export default class CharacterData extends CreatureTemplate {
         ...DetailsFields.common,
         ...DetailsFields.creature,
         background: new LocalDocumentField(foundry.documents.BaseItem, {
-          required: true, fallback: true, label: "DND5E.Background"
+          required: true, fallback: true, label: "DEGRINGO5E.Background"
         }),
-        originalClass: new StringField({ required: true, label: "DND5E.ClassOriginal" }),
+        originalClass: new StringField({ required: true, label: "DEGRINGO5E.ClassOriginal" }),
         xp: new SchemaField({
           value: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.ExperiencePoints.Current"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.ExperiencePoints.Current"
           })
-        }, { label: "DND5E.ExperiencePoints.Label" }),
-        appearance: new StringField({ required: true, label: "DND5E.Appearance" }),
-        trait: new StringField({ required: true, label: "DND5E.PersonalityTraits" }),
-        gender: new StringField({ label: "DND5E.Gender" }),
-        eyes: new StringField({ label: "DND5E.Eyes" }),
-        height: new StringField({ label: "DND5E.Height" }),
-        faith: new StringField({ label: "DND5E.Faith" }),
-        hair: new StringField({ label: "DND5E.Hair" }),
-        skin: new StringField({ label: "DND5E.Skin" }),
-        age: new StringField({ label: "DND5E.Age" }),
-        weight: new StringField({ label: "DND5E.Weight" })
-      }, { label: "DND5E.Details" }),
+        }, { label: "DEGRINGO5E.ExperiencePoints.Label" }),
+        appearance: new StringField({ required: true, label: "DEGRINGO5E.Appearance" }),
+        trait: new StringField({ required: true, label: "DEGRINGO5E.PersonalityTraits" }),
+        gender: new StringField({ label: "DEGRINGO5E.Gender" }),
+        eyes: new StringField({ label: "DEGRINGO5E.Eyes" }),
+        height: new StringField({ label: "DEGRINGO5E.Height" }),
+        faith: new StringField({ label: "DEGRINGO5E.Faith" }),
+        hair: new StringField({ label: "DEGRINGO5E.Hair" }),
+        skin: new StringField({ label: "DEGRINGO5E.Skin" }),
+        age: new StringField({ label: "DEGRINGO5E.Age" }),
+        weight: new StringField({ label: "DEGRINGO5E.Weight" })
+      }, { label: "DEGRINGO5E.Details" }),
       traits: new SchemaField({
         ...TraitsFields.common,
         ...TraitsFields.creature,
@@ -168,19 +168,19 @@ export default class CharacterData extends CreatureTemplate {
             value: new SetField(new StringField()),
             bonus: new SetField(new StringField())
           })
-        }, { label: "DND5E.TraitWeaponProf" }),
-        armorProf: new SimpleTraitField({}, { label: "DND5E.TraitArmorProf" })
-      }, { label: "DND5E.Traits" }),
+        }, { label: "DEGRINGO5E.TraitWeaponProf" }),
+        armorProf: new SimpleTraitField({}, { label: "DEGRINGO5E.TraitArmorProf" })
+      }, { label: "DEGRINGO5E.Traits" }),
       resources: new SchemaField({
-        primary: makeResourceField({ label: "DND5E.ResourcePrimary" }),
-        secondary: makeResourceField({ label: "DND5E.ResourceSecondary" }),
-        tertiary: makeResourceField({ label: "DND5E.ResourceTertiary" })
-      }, { label: "DND5E.Resources" }),
+        primary: makeResourceField({ label: "DEGRINGO5E.ResourcePrimary" }),
+        secondary: makeResourceField({ label: "DEGRINGO5E.ResourceSecondary" }),
+        tertiary: makeResourceField({ label: "DEGRINGO5E.ResourceTertiary" })
+      }, { label: "DEGRINGO5E.Resources" }),
       favorites: new ArrayField(new SchemaField({
         type: new StringField({ required: true, blank: false }),
         id: new StringField({ required: true, blank: false }),
         sort: new IntegerSortField()
-      }), { label: "DND5E.Favorites" })
+      }), { label: "DEGRINGO5E.Favorites" })
     });
   }
 
@@ -215,17 +215,17 @@ export default class CharacterData extends CreatureTemplate {
 
     // Experience required for next level
     const { xp, level } = this.details;
-    xp.max = level >= CONFIG.DND5E.maxLevel ? Infinity : this.parent.getLevelExp(level || 1);
+    xp.max = level >= CONFIG.DEGRINGO5E.maxLevel ? Infinity : this.parent.getLevelExp(level || 1);
     xp.min = level ? this.parent.getLevelExp(level - 1) : 0;
     if ( Number.isFinite(xp.max) ) {
       const required = xp.max - xp.min;
       const pct = Math.round((xp.value - xp.min) * 100 / required);
       xp.pct = Math.clamp(pct, 0, 100);
-    } else if ( game.settings.get("dnd5e", "levelingMode") === "xpBoons" ) {
-      const overflow = xp.value - this.parent.getLevelExp(CONFIG.DND5E.maxLevel);
-      xp.boonsEarned = Math.max(0, Math.floor(overflow / CONFIG.DND5E.epicBoonInterval));
-      const progress = overflow - (CONFIG.DND5E.epicBoonInterval * xp.boonsEarned);
-      xp.pct = Math.clamp(Math.round((progress / CONFIG.DND5E.epicBoonInterval) * 100), 0, 100);
+    } else if ( game.settings.get("degringo5e", "levelingMode") === "xpBoons" ) {
+      const overflow = xp.value - this.parent.getLevelExp(CONFIG.DEGRINGO5E.maxLevel);
+      xp.boonsEarned = Math.max(0, Math.floor(overflow / CONFIG.DEGRINGO5E.epicBoonInterval));
+      const progress = overflow - (CONFIG.DEGRINGO5E.epicBoonInterval * xp.boonsEarned);
+      xp.pct = Math.clamp(Math.round((progress / CONFIG.DEGRINGO5E.epicBoonInterval) * 100), 0, 100);
     } else {
       xp.pct = 100;
     }
@@ -247,8 +247,8 @@ export default class CharacterData extends CreatureTemplate {
     } else {
       this.details.type = new CreatureTypeField({ swarm: false }).initialize({ value: "humanoid" }, this);
     }
-    for ( const key of Object.keys(CONFIG.DND5E.movementTypes) ) this.attributes.movement[key] ??= 0;
-    for ( const key of Object.keys(CONFIG.DND5E.senses) ) this.attributes.senses[key] ??= 0;
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.movementTypes) ) this.attributes.movement[key] ??= 0;
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.senses) ) this.attributes.senses[key] ??= 0;
     this.attributes.movement.units ??= defaultUnits("length");
     this.attributes.senses.units ??= defaultUnits("length");
   }
@@ -283,7 +283,7 @@ export default class CharacterData extends CreatureTemplate {
         .map(c => c.advancement.byType.HitPoints?.[0]).filter(a => a);
       hpOptions.bonus = (simplifyBonus(this.attributes.hp.bonuses.level, rollData) * this.details.level)
         + simplifyBonus(this.attributes.hp.bonuses.overall, rollData);
-      hpOptions.mod = this.abilities[CONFIG.DND5E.defaultAbilities.hitPoints ?? "con"]?.mod ?? 0;
+      hpOptions.mod = this.abilities[CONFIG.DEGRINGO5E.defaultAbilities.hitPoints ?? "con"]?.mod ?? 0;
     }
     AttributesFields.prepareHitPoints.call(this, this.attributes.hp, hpOptions);
   }
@@ -372,10 +372,10 @@ export default class CharacterData extends CreatureTemplate {
  */
 function makeResourceField(schemaOptions={}) {
   return new SchemaField({
-    value: new NumberField({required: true, integer: true, initial: 0, labels: "DND5E.ResourceValue"}),
-    max: new NumberField({required: true, integer: true, initial: 0, labels: "DND5E.ResourceMax"}),
-    sr: new BooleanField({required: true, labels: "DND5E.REST.Short.Recovery"}),
-    lr: new BooleanField({required: true, labels: "DND5E.REST.Long.Recovery"}),
-    label: new StringField({required: true, labels: "DND5E.ResourceLabel"})
+    value: new NumberField({required: true, integer: true, initial: 0, labels: "DEGRINGO5E.ResourceValue"}),
+    max: new NumberField({required: true, integer: true, initial: 0, labels: "DEGRINGO5E.ResourceMax"}),
+    sr: new BooleanField({required: true, labels: "DEGRINGO5E.REST.Short.Recovery"}),
+    lr: new BooleanField({required: true, labels: "DEGRINGO5E.REST.Long.Recovery"}),
+    label: new StringField({required: true, labels: "DEGRINGO5E.ResourceLabel"})
   }, schemaOptions);
 }

@@ -6,7 +6,7 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Write text with impressive
       flourishes that guard against forgery (DC 15)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, <em>Spell
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagInk00000000]{Ink}, <em>Spell
       Scroll</em></p>
     chat: ''
   source:
@@ -109,14 +109,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425916416
   modifiedTime: 1740680141119

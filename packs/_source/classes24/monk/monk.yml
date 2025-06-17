@@ -2,7 +2,7 @@ _id: phbmnkMonk000000
 name: Monk
 type: class
 folder: Dq7BWtsgu2yi7Ld2
-img: systems/dnd5e/icons/classes/monk.webp
+img: systems/degringo5e/icons/classes/monk.webp
 system:
   description:
     value: >-
@@ -20,13 +20,13 @@ system:
       Musical Instrument</em></p></td></tr><tr><th scope="row"><p>Armor
       Training</p></th><td><p>None</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, 5
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSpear00000]{Spear}, 5
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
       Artisan's Tools or Musical Instrument chosen for the tool proficiency
       above,
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's
       Pack}, and [[/award 11GP]]; or (B) [[/award
-      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000
+      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000
       inline classes="free-rules-embed"]</p><h2>Becoming a Monk …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Monk Traits
       table.</li><li>Gain the Monk's level 1 features, which are listed in the
@@ -49,14 +49,14 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepSpear00000
+      key: Compendium.degringo5e.equipment24.Item.phbwepSpear00000
       requiresProficiency: false
       _id: O0MjTQnMYC8Xq3AM
       group: z3xcULs5Q70zNQ2D
       sort: 200000
     - type: linked
       count: 5
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: 0ZcOXGUX7x39CPpk
       group: z3xcULs5Q70zNQ2D
@@ -82,7 +82,7 @@ system:
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagExplorersPa
+      key: Compendium.degringo5e.equipment24.Item.phbagExplorersPa
       requiresProficiency: false
       _id: YZ87ItdbDaRpBDQ2
       group: z3xcULs5Q70zNQ2D
@@ -98,11 +98,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkMartialArt
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkMartialArt
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkUnarmoredD
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkUnarmoredD
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkUnarmedStr
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkUnarmedStr
             optional: false
         optional: false
         spell: null
@@ -113,11 +113,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkMonksFocus
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkMonksFocus
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkUnarmoredM
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkUnarmoredM
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkUncannyMet
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkUncannyMet
             optional: false
         optional: false
         spell: null
@@ -128,7 +128,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkDeflectAtt
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkDeflectAtt
             optional: false
         optional: false
         spell: null
@@ -139,7 +139,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkSlowFall00
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkSlowFall00
             optional: false
         optional: false
         spell: null
@@ -151,9 +151,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbmnkExtraAttac
+            uuid: Compendium.degringo5e.classes24.Item.phbmnkExtraAttac
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbmnkStunningSt
+            uuid: Compendium.degringo5e.classes24.Item.phbmnkStunningSt
         optional: false
         spell: null
       value: {}
@@ -163,7 +163,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkEmpoweredS
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkEmpoweredS
             optional: false
         optional: false
         spell: null
@@ -174,7 +174,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkEvasion000
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkEvasion000
             optional: false
         optional: false
         spell: null
@@ -185,7 +185,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkAcrobaticM
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkAcrobaticM
             optional: false
         optional: false
         spell: null
@@ -196,9 +196,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkHeightened
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkHeightened
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkSelfrestor
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkSelfrestor
             optional: false
         optional: false
         spell: null
@@ -210,7 +210,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbmnkDeflectEne
+            uuid: Compendium.degringo5e.classes24.Item.phbmnkDeflectEne
         optional: false
         spell: null
       value: {}
@@ -220,7 +220,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkDiscipline
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkDiscipline
             optional: false
         optional: false
         spell: null
@@ -231,7 +231,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkPerfectFoc
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkPerfectFoc
             optional: false
         optional: false
         spell: null
@@ -242,7 +242,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkSuperiorDe
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkSuperiorDe
             optional: false
         optional: false
         spell: null
@@ -253,7 +253,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -264,7 +264,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmnkBodyAndMin
+          - uuid: Compendium.degringo5e.classes24.Item.phbmnkBodyAndMin
             optional: false
         optional: false
         spell: null
@@ -431,18 +431,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
         spell: null
         restriction:
           type: feat
@@ -601,7 +601,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866307724
   modifiedTime: 1745517441315

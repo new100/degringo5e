@@ -14,7 +14,7 @@ pages:
       format: 1
       content: >-
         <section class="fvtt advice"><figure class="icon"><img
-        src="systems/dnd5e/icons/spell-tiers/spell3.webp" class="round"
+        src="systems/degringo5e/icons/spell-tiers/spell3.webp" class="round"
         /></figure><article><h3>Make Magical Items with Templates</h3><p>Magical
         items can often come with a lot of variants. For example, +1 armor can
         exist on Light, Medium, or Heavy Armor. For +1-3 armor alone that's
@@ -24,7 +24,7 @@ pages:
         items which can be used to enchant any item. Now, the <strong>Armor, +1,
         +2, or +3</strong> item and your chosen armor type is all you need!
         Here's how you can use them:</p><p>Open an item like the
-        @UUID[Compendium.dnd5e.equipment24.Item.dmgArmor12or3000]{Armor, +1, +2,
+        @UUID[Compendium.degringo5e.equipment24.Item.dmgArmor12or3000]{Armor, +1, +2,
         or +3}, change to the <strong>Effects</strong> tab, and drag your effect
         onto your item. This will automatically apply the enchantment, bring
         over any helpful Activities and Active Effects, and update the item's
@@ -42,7 +42,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731354937975
       modifiedTime: 1731425709951
@@ -54,7 +54,7 @@ folder: kkR3zR8yqdNg4nMV
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1731354907281
   modifiedTime: 1745677863638

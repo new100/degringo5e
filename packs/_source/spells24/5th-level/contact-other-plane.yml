@@ -13,7 +13,7 @@ system:
       misleading, the DM might instead offer a short phrase as an
       answer.</p><p>On a failed save, you take 6d6 Psychic damage and have the
       &amp;Reference[Incapacitated] condition until you finish a Long Rest. A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em> spell cast on you ends this effect.</p>
     chat: ''
   source:
@@ -120,14 +120,14 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425947349
   modifiedTime: 1745256789006

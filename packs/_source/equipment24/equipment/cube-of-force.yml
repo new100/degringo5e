@@ -49,7 +49,7 @@ system:
           override: false
         level: '1'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplMageArmor0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplMageArmor0
       name: ''
       img: ''
     ZtRR3jrinUNMIEvU:
@@ -95,7 +95,7 @@ system:
           override: false
         level: '1'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplShield0000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplShield0000
       name: ''
       img: ''
     tCJJNlbzPWFK6X2m:
@@ -142,7 +142,7 @@ system:
           override: false
         level: '3'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplLeomundsTi
+        uuid: Compendium.degringo5e.spells24.Item.phbsplLeomundsTi
       name: ''
       img: ''
     KRhYoWhmZNWAmv1i:
@@ -189,7 +189,7 @@ system:
           override: false
         level: '4'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbPrivateSanctu
+        uuid: Compendium.degringo5e.spells24.Item.phbPrivateSanctu
       name: ''
       img: ''
     N5Y0YZKK2llU4HXf:
@@ -236,7 +236,7 @@ system:
           override: true
         level: '4'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplOtilukesRe
+        uuid: Compendium.degringo5e.spells24.Item.phbsplOtilukesRe
       name: ''
       img: ''
     ZIMYDxhyS56bcRQE:
@@ -283,7 +283,7 @@ system:
           override: false
         level: '5'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWallofForc
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWallofForc
       name: ''
       img: ''
   uses:
@@ -304,11 +304,11 @@ system:
       class="no-break">expended</span> charges daily at
       dawn.</p><table><caption>Cube of Force
       Faces</caption><thead><tr><td>Spell</td><td>Charge
-      Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage
-      Armor}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLeomundsTi]{Tiny
-      Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbPrivateSanctu]{Private
-      Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplOtilukesRe]{Resilient
-      Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall
+      Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage
+      Armor}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLeomundsTi]{Tiny
+      Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbPrivateSanctu]{Private
+      Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplOtilukesRe]{Resilient
+      Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall
       of Force}</em></td><td>5</td></tr></tbody></table>
     chat: ''
   identifier: cube-of-force
@@ -352,14 +352,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698819

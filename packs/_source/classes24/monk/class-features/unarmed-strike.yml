@@ -186,7 +186,7 @@ system:
 effects:
   - name: Grappled
     img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
-    origin: Compendium.dnd5e.classes24.Item.phbmnkUnarmedStr
+    origin: Compendium.degringo5e.classes24.Item.phbmnkUnarmedStr
     transfer: false
     _id: OM3Rt1nQv3WKS0pc
     type: base
@@ -209,10 +209,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.phbUnarmedStrike.ActiveEffect.bdG1d6kwc7F8Gbfg
+        Compendium.degringo5e.equipment24.Item.phbUnarmedStrike.ActiveEffect.bdG1d6kwc7F8Gbfg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -221,7 +221,7 @@ effects:
     _key: '!items.effects!phbmnkUnarmedStr.OM3Rt1nQv3WKS0pc'
   - name: Prone
     img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
-    origin: Compendium.dnd5e.classes24.Item.phbmnkUnarmedStr
+    origin: Compendium.degringo5e.classes24.Item.phbmnkUnarmedStr
     transfer: false
     _id: OgkonP6JL0AdFtQN
     type: base
@@ -244,10 +244,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.phbUnarmedStrike.ActiveEffect.SfM8X3xktY0PR0Kz
+        Compendium.degringo5e.equipment24.Item.phbUnarmedStrike.ActiveEffect.SfM8X3xktY0PR0Kz
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -256,14 +256,14 @@ effects:
     _key: '!items.effects!phbmnkUnarmedStr.OgkonP6JL0AdFtQN'
 folder: kK77WX8hVJHRQRda
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866307724
   modifiedTime: 1745256763421

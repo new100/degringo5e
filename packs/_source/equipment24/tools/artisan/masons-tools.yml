@@ -5,7 +5,7 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Strength</p><p
       class="phb-meta"><strong>Utilize:</strong> Chisel a symbol or hole in
       stone (DC 10)</p><p class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBlockandTac]{Block and
       Tackle}</p>
     chat: ''
   source:
@@ -108,14 +108,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917369
   modifiedTime: 1740680142163

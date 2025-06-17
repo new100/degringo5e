@@ -9,7 +9,7 @@ system:
       proofs the area against planar travel, and therefore prevents creatures
       from accessing the area by way of the Astral Plane, the Ethereal Plane,
       the Feywild, the Shadowfell, or the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane
       Shift}</em> spell.</p><p>In addition, the spell damages types of creatures
       that you choose when you cast it. Choose one or more of the following:
       Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a
@@ -107,7 +107,7 @@ system:
         name: ''
         formula: ''
       name: Create Ward
-      img: systems/dnd5e/icons/svg/rosa-shield.svg
+      img: systems/degringo5e/icons/svg/rosa-shield.svg
       appliedEffects: []
     9IBiOeIf2PC1wcLp:
       type: damage
@@ -180,14 +180,14 @@ sort: 1000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425954836
   modifiedTime: 1745256793399

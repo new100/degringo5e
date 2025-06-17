@@ -462,7 +462,7 @@ system:
     license: CC-BY-4.0
     book: SRD 5.2
 _id: mmOctopus0000000
-img: systems/dnd5e/tokens/beast/Octopus.webp
+img: systems/degringo5e/tokens/beast/Octopus.webp
 prototypeToken:
   name: Octopus
   displayName: 0
@@ -472,7 +472,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/dnd5e/tokens/beast/Octopus.webp
+    src: systems/degringo5e/tokens/beast/Octopus.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -589,7 +589,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680154463
@@ -638,7 +638,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680154463
@@ -751,7 +751,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -759,7 +759,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680154463
@@ -931,7 +931,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -939,7 +939,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680154463
@@ -988,7 +988,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCompression000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342043530
@@ -1037,7 +1037,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWaterBreathing
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342043530
@@ -1239,8 +1239,8 @@ items:
     img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmOctopus0000000.Item.mmTentacles00000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmOctopus0000000.Item.mmTentacles00000
         _id: ALFBGlQz2ndsPVr1
         type: base
         system: {}
@@ -1269,7 +1269,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1278,7 +1278,7 @@ items:
         _key: >-
           !actors.items.effects!mmOctopus0000000.mmTentacles00000.ALFBGlQz2ndsPVr1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1286,7 +1286,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTentacles00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342043530
@@ -1302,12 +1302,12 @@ sort: 2900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679135261
   modifiedTime: 1745256822798

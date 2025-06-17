@@ -3,7 +3,7 @@ system:
   description:
     value: >-
       <p>You gain the ability to cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> 1d3
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> 1d3
       times.</p>
     chat: ''
   price:
@@ -57,7 +57,7 @@ system:
           - vocal
           - somatic
           - material
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWish000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWish000000
       name: 'Card Effect: Wish'
       img: icons/svg/card-joker.svg
   uses:
@@ -108,14 +108,14 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729202089541
   modifiedTime: 1740680119060

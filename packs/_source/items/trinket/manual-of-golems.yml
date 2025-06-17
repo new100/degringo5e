@@ -10,7 +10,7 @@ system:
       <p>This tome contains information and incantations necessary to make a
       particular type of golem. The GM chooses the type or determines it
       randomly from the
-      @UUID[Compendium.dnd5e.tables.RollTable.htMPUPPABjI6fwck]{Manual of
+      @UUID[Compendium.degringo5e.tables.RollTable.htMPUPPABjI6fwck]{Manual of
       Golems} table. Refer to the table below for a detailed description on each
       golem. To decipher and use the manual, you must be a spellcaster with at
       least two 5th-level spell slots. A creature that can't use a Manual of
@@ -40,7 +40,7 @@ system:
 
       <td>1-5</td>
 
-      <td>@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]{Clay
+      <td>@UUID[Compendium.degringo5e.monsters.Actor.YOqhbf8WsX0jH9Fu]{Clay
       Golem}</td>
 
       <td>30 days</td>
@@ -53,7 +53,7 @@ system:
 
       <td>6-17</td>
 
-      <td>@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]{Flesh
+      <td>@UUID[Compendium.degringo5e.monsters.Actor.Hm4o2FgPZsdbXjLq]{Flesh
       Golem}</td>
 
       <td>60 days</td>
@@ -66,7 +66,7 @@ system:
 
       <td>18</td>
 
-      <td>@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]{Iron
+      <td>@UUID[Compendium.degringo5e.monsters.Actor.h98AuPfomEPcCibP]{Iron
       Golem}</td>
 
       <td>120 days</td>
@@ -79,7 +79,7 @@ system:
 
       <td>19-20</td>
 
-      <td>@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]{Stone
+      <td>@UUID[Compendium.degringo5e.monsters.Actor.z3gSIXHHWYaHjfBT]{Stone
       Golem}</td>
 
       <td>90 days</td>
@@ -230,7 +230,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037199912
   modifiedTime: 1725992517327

@@ -123,7 +123,7 @@ img: icons/magic/lightning/claws-unarmed-strike-teal.webp
 effects:
   - name: Shocked
     img: icons/magic/lightning/bolt-strike-wide-white.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplShockingGr
+    origin: Compendium.degringo5e.spells24.Item.phbsplShockingGr
     transfer: false
     _id: DQCAm67ck1GEKHtE
     type: base
@@ -149,7 +149,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725555777146
       modifiedTime: 1725556056886
@@ -161,14 +161,14 @@ sort: 106250
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425970868
   modifiedTime: 1745256798222

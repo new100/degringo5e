@@ -5,7 +5,7 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Charisma</p><p
       class="phb-meta"><strong>Utilize:</strong> Apply makeup (DC 10)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costume}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCostume0000]{Costume}</p>
     chat: ''
   source:
     custom: ''
@@ -107,14 +107,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425916773
   modifiedTime: 1740680141627

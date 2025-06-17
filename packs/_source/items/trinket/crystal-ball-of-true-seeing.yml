@@ -8,7 +8,7 @@ system:
       <p><em>Wondrous item, (requires attunement)</em></p>
 
       <p>The Crystal Ball is about 6 inches in diameter. While touching it, you
-      can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}
+      can cast the @UUID[Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20]{Scrying}
       spell (save DC 17) with it.</p>
 
       <p>While Scrying with the Crystal Ball, you have Truesight with a radius
@@ -59,7 +59,7 @@ system:
     bUNsvbS9nKpNy3ER:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20
+        uuid: Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20
         challenge:
           attack: null
           save: 17
@@ -110,14 +110,14 @@ sort: 2200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037122058
   modifiedTime: 1729014715400

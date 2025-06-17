@@ -12,8 +12,8 @@ system:
       destroyed.</p><p><strong>Spells</strong>. While holding the wand, you can
       use an action to expend some of its charges to cast one of the following
       spells (save DC 17):
-      @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Hold Monster} (5
-      charges) or @UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{Hold
+      @UUID[Compendium.degringo5e.spells.Item.l9Ju5KE7bbn3WpTm]{Hold Monster} (5
+      charges) or @UUID[Compendium.degringo5e.spells.Item.3Lo9boi7P2ro6QV4]{Hold
       Person} (2 charges).</p><p><strong>Assisted Escape</strong>. While holding
       the wand, you can use your reaction to expend 1 charge and gain advantage
       on a saving throw you make to avoid being paralyzed or restrained, or you
@@ -69,7 +69,7 @@ system:
     yAh2VKsLWwGagH4w:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm
+        uuid: Compendium.degringo5e.spells.Item.l9Ju5KE7bbn3WpTm
         challenge:
           attack: null
           save: 17
@@ -119,7 +119,7 @@ system:
     T4OTnHCe9gEtxKtc:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4
+        uuid: Compendium.degringo5e.spells.Item.3Lo9boi7P2ro6QV4
         challenge:
           attack: null
           save: 17
@@ -226,14 +226,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1725037109504
   modifiedTime: 1730323638379

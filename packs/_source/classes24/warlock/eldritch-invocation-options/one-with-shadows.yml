@@ -8,7 +8,7 @@ system:
       <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While
       you're in an area of &amp;Reference[Dim Light] or
       &amp;Reference[Darkness], you can cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility} on
       yourself without expending a spell slot.</p><section class="secret"
       id="secret-SvwkLQLYzHCKzuss"><p><strong>Foundry Note</strong></p><p>The
       <strong>Cast</strong> activity can be used in place of the Invisibility
@@ -88,7 +88,7 @@ system:
   identifier: one-with-shadows
 effects:
   - name: Invisible
-    origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+    origin: Compendium.degringo5e.spells24.Item.phbsplInvisibili
     duration:
       rounds: null
       startTime: null
@@ -99,7 +99,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     _id: 9svfDetqjhsFP3ey
     type: base
     system: {}
@@ -116,7 +116,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -125,14 +125,14 @@ effects:
     _key: '!items.effects!phbinvOnewithSha.9svfDetqjhsFP3ey'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762447

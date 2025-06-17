@@ -6,10 +6,10 @@ pages:
     type: class
     _id: UCOh3zlvGxyk5jLr
     system:
-      item: Compendium.dnd5e.classes24.Item.phbdrdDruid00000
+      item: Compendium.degringo5e.classes24.Item.phbdrdDruid00000
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
+          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
           inline classes="free-rules-embed"]</p> <h2>Becoming a Druid
           …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in
           the Core Druid Traits table.</p></li><li><p>Gain the Druid's level 1
@@ -26,7 +26,7 @@ pages:
         subclass: >-
           <p>A Druid subclass is a specialization that grants you features at
           certain levels, as specified in the subclass. The next page presents
-          the @UUID[Compendium.dnd5e.classes24.Item.phbdrdCirland000]{Circle of
+          the @UUID[Compendium.degringo5e.classes24.Item.phbdrdCirland000]{Circle of
           the Land} subclass.</p>
       subclassItems: []
       subclassHeader: ''
@@ -44,12 +44,12 @@ pages:
     ownership:
       default: -1
     flags:
-      dnd5e:
+      degringo5e:
         tocHidden: true
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745512291741
@@ -62,12 +62,12 @@ pages:
     type: subclass
     _id: Ysgeru1iCA7CCe3x
     system:
-      item: Compendium.dnd5e.classes24.Item.phbdrdCirland000
+      item: Compendium.degringo5e.classes24.Item.phbdrdCirland000
       description:
         value: >-
           <blockquote><p>Celebrate Connection to the Natural
           World</p></blockquote><p>The
-          @UUID[Compendium.dnd5e.classes24.Item.phbdrdCirland000]{Circle of the
+          @UUID[Compendium.degringo5e.classes24.Item.phbdrdCirland000]{Circle of the
           Land} comprises mystics and sages who safeguard ancient knowledge and
           rites. These Druids meet within sacred circles of trees or standing
           stones to whisper primal secrets in Druidic. The circle's wisest
@@ -89,7 +89,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1735934525587
@@ -99,7 +99,7 @@ pages:
     _key: '!journal.pages!phbDruid00000000.Ysgeru1iCA7CCe3x'
 folder: 1A8WFP1GVZkKdxii
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: true
     append: 3
@@ -110,7 +110,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.1
   createdTime: 1724425888900
   modifiedTime: 1745677865034

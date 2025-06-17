@@ -599,7 +599,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -629,7 +629,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -637,7 +637,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
@@ -689,7 +689,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTunneler000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
@@ -887,8 +887,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmPurpleWorm0000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmPurpleWorm0000.Item.mmBite0000000000
         _id: AvzcMcXTFpFurUhJ
         type: base
         system: {}
@@ -919,7 +919,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -928,7 +928,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmBite0000000000.AvzcMcXTFpFurUhJ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -936,7 +936,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
@@ -1087,7 +1087,7 @@ items:
     img: icons/commodities/biological/stinger-insect-grey.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1095,7 +1095,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTailStinger000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
@@ -1328,7 +1328,7 @@ items:
     img: icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp
     effects:
       - name: Blinded, Restrained, and Total Cover
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmSwallow0000000
         _id: VOHv1LyO3hHolZXo
         type: base
@@ -1367,7 +1367,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1376,7 +1376,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.VOHv1LyO3hHolZXo
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
         _id: aS5FyMP72vn3OKf1
         type: base
@@ -1413,7 +1413,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1422,7 +1422,7 @@ items:
         _key: >-
           !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.aS5FyMP72vn3OKf1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1430,7 +1430,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwallow0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712725496
@@ -1446,7 +1446,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712725525

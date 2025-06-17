@@ -408,8 +408,8 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepMorningsta]{Morningstar}</p></div>
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepMorningsta]{Morningstar}</p></div>
       public: ''
     alignment: Chaotic Evil
     ideal: ''
@@ -704,8 +704,8 @@ items:
     img: icons/weapons/axes/axe-battle-black.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmEttin000000000.Item.2zUJENAN0VZgqxYm
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmEttin000000000.Item.2zUJENAN0VZgqxYm
         _id: caDkLzcCdCR8vwlw
         type: base
         system: {}
@@ -732,7 +732,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -744,15 +744,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepBattleaxe0
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepBattleaxe0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717532
@@ -911,7 +911,7 @@ items:
     effects:
       - name: 'Next Attack: Disadv.'
         img: modules/dnd-players-handbook/assets/icons/items/morningstar.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmEttin000000000.Item.5LN8JEIko2tgE2WO
+        origin: Compendium.degringo5e.actors24.Actor.mmEttin000000000.Item.5LN8JEIko2tgE2WO
         _id: 1SUTrOeGym7HuWxB
         type: base
         system: {}
@@ -937,7 +937,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -949,15 +949,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepMorningsta
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepMorningsta
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717532
@@ -1017,7 +1017,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1047,7 +1047,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1055,7 +1055,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712717532
@@ -1071,7 +1071,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745600173872
   modifiedTime: 1745712717559

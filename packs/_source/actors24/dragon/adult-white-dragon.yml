@@ -592,7 +592,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIceWalk0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -657,7 +657,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -690,7 +690,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -698,7 +698,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -780,7 +780,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -788,7 +788,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -938,7 +938,7 @@ items:
     img: icons/skills/melee/shield-damaged-broken-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -946,7 +946,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1066,7 +1066,7 @@ items:
     img: icons/creatures/abilities/dragon-ice-breath-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1074,7 +1074,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmColdBreath0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1197,7 +1197,7 @@ items:
     effects:
       - name: 0 ft. Speed
         img: icons/magic/water/projectile-ice-chunk-blue.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFreezingBurst0
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFreezingBurst0
         _id: K6EbT8HrfSUSJW2F
         type: base
         system: {}
@@ -1241,10 +1241,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.mmYoungCopperDra.Item.mmSlowingBreath0.ActiveEffect.ztGUDHGfoUxlUY53
+            Compendium.degringo5e.actors24.Actor.mmYoungCopperDra.Item.mmSlowingBreath0.ActiveEffect.ztGUDHGfoUxlUY53
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1253,7 +1253,7 @@ items:
         _key: >-
           !actors.items.effects!mmAdultWhiteDrag.mmFreezingBurst0.K6EbT8HrfSUSJW2F
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1261,7 +1261,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFreezingBurst0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1322,7 +1322,7 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFear000000
             ability: cha
           name: ''
       uses:
@@ -1332,7 +1332,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>,
           requiring no Material components and using Charisma as the
           spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).
           The [[lookup @name lowercase]] can't take this action again until the
@@ -1357,7 +1357,7 @@ items:
     img: icons/magic/unholy/silhouette-robe-evil-glow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1365,7 +1365,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFrightfulPrese
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1482,7 +1482,7 @@ items:
     img: icons/magic/unholy/silhouette-robe-evil-glow.webp
     effects:
       - name: Fear
-        origin: Compendium.dnd5e.spells24.Item.phbsplFear000000
+        origin: Compendium.degringo5e.spells24.Item.phbsplFear000000
         duration:
           rounds: 1
           startTime: null
@@ -1493,7 +1493,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         _id: ijiWLu6EJZmEJPOZ
         type: base
         system: {}
@@ -1514,7 +1514,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1525,9 +1525,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
+          Compendium.degringo5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
         changes:
           - key: system.activation
             mode: 5
@@ -1561,7 +1561,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1574,13 +1574,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFear000000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplFear000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1645,7 +1645,7 @@ items:
             formula: ''
             name: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
           _id: IzdTKthBAsB8MBfB
       uses:
         spent: 0
@@ -1675,7 +1675,7 @@ items:
     img: icons/skills/movement/arrow-upward-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1683,7 +1683,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPounce00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711867
@@ -1696,12 +1696,12 @@ items:
 effects: []
 folder: xmXOrBADA4LyJOGl
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712711898

@@ -107,7 +107,7 @@ img: icons/containers/chest/chest-reinforced-box-brown.webp
 effects:
   - name: Sequestered
     img: icons/magic/control/debuff-chains-orb-movement-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplSequester0
+    origin: Compendium.degringo5e.spells24.Item.phbsplSequester0
     transfer: false
     _id: DWu3UoqOICFFQA1W
     type: base
@@ -137,7 +137,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724970035225
       modifiedTime: 1724970321949
@@ -149,14 +149,14 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425970199
   modifiedTime: 1745256797997

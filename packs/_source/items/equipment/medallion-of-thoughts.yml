@@ -9,7 +9,7 @@ system:
 
       <p>The medallion has 3 charges. While wearing it, you can use an action
       and expend 1 charge to cast the
-      @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
+      @UUID[Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
       spell (save DC 13) from it. The medallion regains 1d3 expended charges
       daily at dawn.</p>
     chat: ''
@@ -65,7 +65,7 @@ system:
     45QEWBV2pRgmI95c:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+        uuid: Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er
         challenge:
           attack: null
           save: 13
@@ -120,14 +120,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037304040
   modifiedTime: 1729015940864

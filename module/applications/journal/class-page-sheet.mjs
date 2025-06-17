@@ -34,7 +34,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
 
   /** @inheritDoc */
   get template() {
-    return `systems/dnd5e/templates/journal/page-${this.document.type}-${this.isEditable ? "edit" : "view"}.hbs`;
+    return `systems/degringo5e/templates/journal/page-${this.document.type}-${this.isEditable ? "edit" : "view"}.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -63,10 +63,10 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     context.systemFields = this.document.system.schema.fields;
 
     context.styleOptions = [
-      { value: "", label: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.Style.Inferred") },
+      { value: "", label: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.Style.Inferred") },
       { rule: true },
-      { value: "2024", label: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.Style.Modern") },
-      { value: "2014", label: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.Style.Legacy") }
+      { value: "2024", label: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.Style.Modern") },
+      { value: "2014", label: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.Style.Legacy") }
     ];
 
     context.title = Object.fromEntries(
@@ -105,7 +105,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     if ( linked.system.primaryAbility ) {
       context.primaryAbility = game.i18n.getListFormatter(
         { type: linked.system.primaryAbility.all ? "conjunction" : "disjunction" }
-      ).format(Array.from(linked.system.primaryAbility.value).map(v => CONFIG.DND5E.abilities[v]?.label));
+      ).format(Array.from(linked.system.primaryAbility.value).map(v => CONFIG.DEGRINGO5E.abilities[v]?.label));
     }
 
     return context;
@@ -195,9 +195,9 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     const scaleValues = (item.advancement.byType.ScaleValue ?? []);
     const spellProgression = await this._getSpellProgression(item);
 
-    const headers = [[{content: game.i18n.localize("DND5E.Level")}]];
-    if ( item.type === "class" ) headers[0].push({content: game.i18n.localize("DND5E.ProficiencyBonus")});
-    if ( hasFeatures ) headers[0].push({content: game.i18n.localize("DND5E.Features")});
+    const headers = [[{content: game.i18n.localize("DEGRINGO5E.Level")}]];
+    if ( item.type === "class" ) headers[0].push({content: game.i18n.localize("DEGRINGO5E.ProficiencyBonus")});
+    if ( hasFeatures ) headers[0].push({content: game.i18n.localize("DEGRINGO5E.Features")});
     headers[0].push(...scaleValues.map(a => ({content: a.title})));
     if ( spellProgression ) {
       if ( spellProgression.headers.length > 1 ) {
@@ -222,12 +222,12 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     };
 
     const rows = [];
-    for ( const level of Array.fromRange((CONFIG.DND5E.maxLevel - (initialLevel - 1)), initialLevel) ) {
+    for ( const level of Array.fromRange((CONFIG.DEGRINGO5E.maxLevel - (initialLevel - 1)), initialLevel) ) {
       let features = [];
       for ( const advancement of item.advancement.byLevel[level] ) {
         switch ( advancement.constructor.typeName ) {
           case "AbilityScoreImprovement":
-            features.push(game.i18n.localize("DND5E.ADVANCEMENT.AbilityScoreImprovement.Title"));
+            features.push(game.i18n.localize("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Title"));
             continue;
           case "ItemGrant":
             if ( advancement.configuration.optional ) continue;
@@ -277,11 +277,11 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
 
     if ( spellcasting.type === "leveled" ) {
       const spells = {};
-      const maxSpellLevel = CONFIG.DND5E.SPELL_SLOT_TABLE[CONFIG.DND5E.SPELL_SLOT_TABLE.length - 1].length;
+      const maxSpellLevel = CONFIG.DEGRINGO5E.SPELL_SLOT_TABLE[CONFIG.DEGRINGO5E.SPELL_SLOT_TABLE.length - 1].length;
       Array.fromRange(maxSpellLevel, 1).forEach(l => spells[`spell${l}`] = {});
 
       let largestSlot;
-      for ( const level of Array.fromRange(CONFIG.DND5E.maxLevel, 1).reverse() ) {
+      for ( const level of Array.fromRange(CONFIG.DEGRINGO5E.maxLevel, 1).reverse() ) {
         const progression = { slot: 0 };
         spellcasting.levels = level;
         Actor5e.computeClassProgression(progression, item, { spellcasting });
@@ -303,7 +303,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
 
       // Prepare headers & columns
       table.headers = [
-        [{content: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.SpellSlotsPerSpellLevel"), colSpan: largestSlot}],
+        [{content: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.SpellSlotsPerSpellLevel"), colSpan: largestSlot}],
         Array.fromRange(largestSlot, 1).map(spellLevel => ({content: spellLevel.ordinalString()}))
       ];
       table.cols = [{class: "spellcasting", span: largestSlot}];
@@ -314,13 +314,13 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
       const spells = { pact: {} };
 
       table.headers = [[
-        { content: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.SpellSlots") },
-        { content: game.i18n.localize("JOURNALENTRYPAGE.DND5E.Class.SpellSlotLevel") }
+        { content: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.SpellSlots") },
+        { content: game.i18n.localize("JOURNALENTRYPAGE.DEGRINGO5E.Class.SpellSlotLevel") }
       ]];
       table.cols = [{class: "spellcasting", span: 2}];
 
       // Loop through each level, gathering "Spell Slots" & "Slot Level" for each one
-      for ( const level of Array.fromRange(CONFIG.DND5E.maxLevel, 1) ) {
+      for ( const level of Array.fromRange(CONFIG.DEGRINGO5E.maxLevel, 1) ) {
         const progression = { pact: 0 };
         spellcasting.levels = level;
         Actor5e.computeClassProgression(progression, item, { spellcasting });
@@ -335,15 +335,15 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     else {
       /**
        * A hook event that fires to generate the table for custom spellcasting types.
-       * The actual hook names include the spellcasting type (e.g. `dnd5e.buildPsionicSpellcastingTable`).
+       * The actual hook names include the spellcasting type (e.g. `degringo5e.buildPsionicSpellcastingTable`).
        * @param {object} table                          Table definition being built. *Will be mutated.*
        * @param {Item5e} item                           Class for which the spellcasting table is being built.
        * @param {SpellcastingDescription} spellcasting  Spellcasting descriptive object.
-       * @function dnd5e.buildSpellcastingTable
+       * @function degringo5e.buildSpellcastingTable
        * @memberof hookEvents
        */
       Hooks.callAll(
-        `dnd5e.build${spellcasting.type.capitalize()}SpellcastingTable`, table, item, spellcasting
+        `degringo5e.build${spellcasting.type.capitalize()}SpellcastingTable`, table, item, spellcasting
       );
     }
 
@@ -362,8 +362,8 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
    */
   async _getOptionalTable(item, { modernStyle }) {
     const headers = [[
-      { content: game.i18n.localize("DND5E.Level") },
-      { content: game.i18n.localize("DND5E.Features") }
+      { content: game.i18n.localize("DEGRINGO5E.Level") },
+      { content: game.i18n.localize("DEGRINGO5E.Features") }
     ]];
 
     const cols = [
@@ -378,7 +378,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     };
 
     const rows = [];
-    for ( const level of Array.fromRange(CONFIG.DND5E.maxLevel, 1) ) {
+    for ( const level of Array.fromRange(CONFIG.DEGRINGO5E.maxLevel, 1) ) {
       let features = [];
       for ( const advancement of item.advancement.byLevel[level] ) {
         switch ( advancement.constructor.typeName ) {
@@ -420,7 +420,7 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
       if ( document?.type !== "feat" ) return null;
       return {
         document, level,
-        name: modernStyle ? game.i18n.format("JOURNALENTRYPAGE.DND5E.Class.Features.Name", {
+        name: modernStyle ? game.i18n.format("JOURNALENTRYPAGE.DEGRINGO5E.Class.Features.Name", {
           name: document.name, level: formatNumber(level)
         }) : document.name,
         description: await TextEditor.enrichHTML(document.system.description.value, {
@@ -439,22 +439,22 @@ export default class JournalClassPageSheet extends foundry.appv1.sheets.JournalP
     const asiLevels = (item.advancement.byType.AbilityScoreImprovement ?? []).map(a => a.level).sort((a, b) => a - b);
     if ( asiLevels.length ) {
       const [firstLevel, ...otherLevels] = asiLevels;
-      const name = game.i18n.localize("DND5E.ADVANCEMENT.AbilityScoreImprovement.Journal.Name");
+      const name = game.i18n.localize("DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Journal.Name");
       features.push({
         description: game.i18n.format(
-          `DND5E.ADVANCEMENT.AbilityScoreImprovement.Journal.Description${modernStyle ? "Modern" : "Legacy"}`,
+          `DEGRINGO5E.ADVANCEMENT.AbilityScoreImprovement.Journal.Description${modernStyle ? "Modern" : "Legacy"}`,
           {
             class: item.name,
             firstLevel: formatNumber(firstLevel),
             firstLevelOrdinal: formatNumber(firstLevel, { ordinal: true }),
-            maxAbilityScore: formatNumber(CONFIG.DND5E.maxAbilityScore),
+            maxAbilityScore: formatNumber(CONFIG.DEGRINGO5E.maxAbilityScore),
             otherLevels: game.i18n.getListFormatter({ style: "long" }).format(otherLevels.map(l => formatNumber(l))),
             otherLevelsOrdinal: game.i18n.getListFormatter({ style: "long" })
               .format(otherLevels.map(l => formatNumber(l, { ordinal: true })))
           }
         ),
         level: asiLevels[0],
-        name: modernStyle ? game.i18n.format("JOURNALENTRYPAGE.DND5E.Class.Features.Name", {
+        name: modernStyle ? game.i18n.format("JOURNALENTRYPAGE.DEGRINGO5E.Class.Features.Name", {
           name: name, level: formatNumber(firstLevel)
         }) : name
       });

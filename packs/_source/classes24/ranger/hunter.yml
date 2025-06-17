@@ -2,7 +2,7 @@ _id: phbrgrHunter0000
 name: Hunter
 type: subclass
 folder: Rbx9mlNEB2XYxGCZ
-img: systems/dnd5e/icons/classes/hunter.webp
+img: systems/degringo5e/icons/classes/hunter.webp
 system:
   description:
     value: >-
@@ -24,9 +24,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgrHuntersLor
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgrHuntersLor
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgrHuntersPre
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgrHuntersPre
             optional: false
         optional: false
         spell: null
@@ -37,7 +37,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgrDefensiveT
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgrDefensiveT
             optional: false
         optional: false
         spell: null
@@ -48,7 +48,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgrSuperiorHu
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgrSuperiorHu
             optional: false
         optional: false
         spell: null
@@ -59,7 +59,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe
             optional: false
         optional: false
         spell: null
@@ -76,7 +76,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866564824
   modifiedTime: 1745256764932

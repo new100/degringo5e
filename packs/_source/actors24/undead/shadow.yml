@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Shadow</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.VYmVmSUznIAKRkCf
+        <h1>Shadow</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.VYmVmSUznIAKRkCf
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -608,7 +608,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmorphous00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1736988212751
       modifiedTime: 1745712726747
@@ -655,7 +655,7 @@ items:
     img: icons/magic/light/explosion-star-glow-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -663,7 +663,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSunlightWeakne
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1736988226676
       modifiedTime: 1745712726747
@@ -788,7 +788,7 @@ items:
             - count: ''
               name: ''
               _id: 7E2SMjypDSbFmZvc
-              uuid: Compendium.dnd5e.actors24.Actor.mmShadow00000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmShadow00000000
               level:
                 min: null
                 max: null
@@ -845,7 +845,7 @@ items:
             name: 'Decrease: STR Score'
             formula: 1d4
           name: STR Score -1d4
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -856,7 +856,7 @@ items:
           and the target's Strength score decreases by [[/r 1d4]]. The target
           dies if this reduces that score to 0. If a Humanoid is slain by this
           attack, a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmShadow00000000]{Shadow}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmShadow00000000]{Shadow}</strong>
           rises from the corpse [[/r 1d4]] hours later.</p><section
           class="secret" id="secret-qqwbOYJqDuTP2N5e"><p><strong>Foundry
           Note</strong></p><p>This feature also provides an <strong>Active
@@ -965,7 +965,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: 1738099880376
@@ -1011,7 +1011,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: 1738099769470
           modifiedTime: 1738099855288
@@ -1058,7 +1058,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: 1738099783844
           modifiedTime: 1738099862951
@@ -1105,7 +1105,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: 1738099828775
           modifiedTime: 1738100496662
@@ -1115,7 +1115,7 @@ items:
         _key: >-
           !actors.items.effects!mmShadow00000000.mmDrainingSwipe0.nXy1JjamI8lCQT16
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1123,7 +1123,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDrainingSwipe0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1736988238694
       modifiedTime: 1745712726747
@@ -1187,7 +1187,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1216,7 +1216,7 @@ items:
     img: icons/magic/control/silhouette-hold-change-green.webp
     effects:
       - name: Hide
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
+        img: systems/degringo5e/icons/svg/statuses/hiding.svg
         origin: Item.mmShadowStealth0
         _id: siHMgi75fxHCESex
         type: base
@@ -1251,7 +1251,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -1260,7 +1260,7 @@ items:
         _key: >-
           !actors.items.effects!mmShadow00000000.mmShadowStealth0.siHMgi75fxHCESex
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1268,7 +1268,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShadowStealth0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1736988324786
       modifiedTime: 1745712726747
@@ -1284,7 +1284,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712726782

@@ -93,7 +93,7 @@ img: icons/magic/control/silhouette-hold-change-blue.webp
 effects:
   - name: Blurred
     img: icons/magic/control/silhouette-hold-change-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplBlur000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplBlur000000
     _id: PsuBObX6WLcNEvUw
     type: base
     system: {}
@@ -116,14 +116,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -135,14 +135,14 @@ sort: 4800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425944071
   modifiedTime: 1745256787231

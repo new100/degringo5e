@@ -585,7 +585,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718569
@@ -780,8 +780,8 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGiantCrab00000.Item.mmClaw0000000000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantCrab00000.Item.mmClaw0000000000
         _id: LUQxsTZO5TCSCD5L
         type: base
         system: {}
@@ -809,7 +809,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -818,7 +818,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantCrab00000.mmClaw0000000000.LUQxsTZO5TCSCD5L
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -826,7 +826,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718569
@@ -845,7 +845,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679134149
   modifiedTime: 1745712718605

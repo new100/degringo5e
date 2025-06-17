@@ -8,13 +8,13 @@ export default class BastionSetting extends foundry.abstract.DataModel {
   static defineSchema() {
     return {
       button: new BooleanField({
-        required: true, label: "DND5E.Bastion.Button.Label", hint: "DND5E.Bastion.Button.Hint"
+        required: true, label: "DEGRINGO5E.Bastion.Button.Label", hint: "DEGRINGO5E.Bastion.Button.Hint"
       }),
       duration: new NumberField({
-        required: true, positive: true, integer: true, initial: 7, label: "DND5E.Bastion.Duration.Label"
+        required: true, positive: true, integer: true, initial: 7, label: "DEGRINGO5E.Bastion.Duration.Label"
       }),
       enabled: new BooleanField({
-        required: true, label: "DND5E.Bastion.Enabled.Label", hint: "DND5E.Bastion.Enabled.Hint"
+        required: true, label: "DEGRINGO5E.Bastion.Enabled.Label", hint: "DEGRINGO5E.Bastion.Enabled.Hint"
       })
     };
   }

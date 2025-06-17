@@ -8,7 +8,7 @@ system:
     UtT5lj94xD2gC7t7:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDetectThou
         challenge:
           attack: null
           save: 13
@@ -55,7 +55,7 @@ system:
     KeNwSWKR7BsH8e9G:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+        uuid: Compendium.degringo5e.spells24.Item.phbsplSuggestion
         challenge:
           attack: null
           save: 13
@@ -107,9 +107,9 @@ system:
     value: >-
       <p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While
       wearing this helm, you have telepathy with a range of 30 feet, and you can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
       Thoughts} or
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion} (save
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplSuggestion]{Suggestion} (save
       DC 13) from the helm. Once either spell is cast from the helm, that spell
       can't be cast from it again until the next dawn.</p>
     chat: ''
@@ -183,7 +183,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730696336539
       modifiedTime: 1730696368791
@@ -191,14 +191,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgHelmOfTelepat.hFWmlSeGZKjnB2ZE'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700646

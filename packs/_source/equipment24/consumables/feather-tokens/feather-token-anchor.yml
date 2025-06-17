@@ -67,7 +67,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Uncommon, See:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
       Token}</em></p><p>You can take a Magic action to touch the token to a boat
       or ship. For the next 24 hours, the vessel can't be moved by any means.
       Touching the token to the vessel again ends the effect. When the effect
@@ -129,7 +129,7 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>@Embed[Compendium.dnd5e.equipment24.Item.dmgAnchorQuaalsF
+      <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAnchorQuaalsF
       caption=false]</p>
     origin: null
     tint: '#ffffff'
@@ -141,7 +141,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730755411111
       modifiedTime: 1730755609479
@@ -149,14 +149,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgAnchorQuaalsF.Fvj9Ua7rVEqdfPz5'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712697765

@@ -112,7 +112,7 @@ system:
         proficiency: false
         saves: false
       profiles:
-        - uuid: Compendium.dnd5e.actors24.Actor.dmgIllusoryCreat
+        - uuid: Compendium.degringo5e.actors24.Actor.dmgIllusoryCreat
           _id: kqU6YKom2tUYYBDe
           level:
             min: null
@@ -134,14 +134,14 @@ sort: 900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425967562
   modifiedTime: 1745256797264

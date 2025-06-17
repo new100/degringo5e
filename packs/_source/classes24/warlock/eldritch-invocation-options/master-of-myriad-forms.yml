@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplAlterSelf0]{Alter Self}
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplAlterSelf0]{Alter Self}
       without expending a spell slot.</p><section class="secret"
       id="secret-x7wmXuFqGaXQspxB"><p><strong>Foundry Note</strong></p><p>This
       feature includes Alter Self's activities.</p><p>The <strong>Aquatic
@@ -380,7 +380,7 @@ system:
 effects:
   - name: Aquatic Adaptation
     img: icons/creatures/fish/fish-bluefin-yellow-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 6SL9vuAkx7nAfS5D
     type: base
@@ -410,7 +410,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -419,7 +419,7 @@ effects:
     _key: '!items.effects!phbinvMasterofMy.6SL9vuAkx7nAfS5D'
   - name: Altered Appearance
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 1jrUeJtfZMGhJOZa
     type: base
@@ -443,7 +443,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -452,7 +452,7 @@ effects:
     _key: '!items.effects!phbinvMasterofMy.1jrUeJtfZMGhJOZa'
   - name: Natural Weapon
     img: icons/creatures/abilities/fang-tooth-blood-red.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: baEBDez6IgWNpkSX
     type: base
@@ -481,7 +481,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -490,14 +490,14 @@ effects:
     _key: '!items.effects!phbinvMasterofMy.baEBDez6IgWNpkSX'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762407

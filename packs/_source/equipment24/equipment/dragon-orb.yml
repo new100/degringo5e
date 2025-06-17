@@ -62,7 +62,7 @@ system:
     FaXepcc5YH9rqwu7:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+        uuid: Compendium.degringo5e.spells24.Item.phbsplSuggestion
         challenge:
           attack: null
           save: 18
@@ -109,7 +109,7 @@ system:
     gU19MBO5R6a6xhIX:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+        uuid: Compendium.degringo5e.spells24.Item.phbsplCureWounds
         challenge:
           attack: null
           save: null
@@ -160,7 +160,7 @@ system:
     OQftVaabJyONkpL3:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDaylight00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDaylight00
         challenge:
           attack: null
           save: null
@@ -210,7 +210,7 @@ system:
     tUFymm8hAKT7VZul:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDeathWard0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDeathWard0
         challenge:
           attack: null
           save: null
@@ -261,7 +261,7 @@ system:
     QDkpJHMmqFX13rKr:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
         challenge:
           attack: null
           save: null
@@ -304,7 +304,7 @@ system:
     FJYPyl7amErsBC3X:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplScrying000
         challenge:
           attack: null
           save: 18
@@ -416,7 +416,7 @@ system:
       imposes the Charmed condition on you for as long as you remain attuned to
       it.</p><p>While you are Charmed by the orb, you can't voluntarily end your
       Attunement to it, and the orb casts
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion} on you
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplSuggestion]{Suggestion} on you
       at will (save DC 18), urging you to work toward the evil ends it desires.
       The dragon essence within the orb might want many things: the annihilation
       of a particular society or organization, freedom from the orb, to spread
@@ -424,7 +424,7 @@ system:
       else the GM decides.</p><p><em><strong>Destroying an Orb.</strong></em> An
       <em>Dragon Orb</em> has AC 20 and is destroyed if it takes damage from a
       <em>+3 Weapon</em> or a
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDisintegra]{Disintegrate}
       spell. Nothing else can harm it.</p></section><p>An orb is an etched
       crystal globe about 10 inches in diameter. When used, it grows to about 20
       inches in diameter, and mist swirls inside
@@ -433,11 +433,11 @@ system:
       you can cast one of the spells on the following table from it. The table
       indicates how many charges you must expend to cast the
       spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge
-      Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
+      Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
       Wounds} (level 9
-      version)</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death
-      Ward}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect
-      Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}
+      version)</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplDaylight00]{Daylight}</p></td><td><p>1</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplDeathWard0]{Death
+      Ward}</p></td><td><p>2</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
+      Magic}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}
       (save DC
       18)</p></td><td><p>3</p></td><td></td></tr></tbody></table><p><em><strong>Call
       Dragons.</strong></em> While you control the orb, you can take a Magic
@@ -489,8 +489,8 @@ system:
   proficient: null
 effects:
   - name: Charmed
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgOrbOfDragonki
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgOrbOfDragonki
     transfer: false
     _id: raPJlnmYfmMnMEE3
     type: base
@@ -515,7 +515,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730689159090
       modifiedTime: 1730689175797
@@ -523,14 +523,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgOrbOfDragonki.raPJlnmYfmMnMEE3'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701746

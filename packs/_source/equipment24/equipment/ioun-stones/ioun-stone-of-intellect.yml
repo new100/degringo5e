@@ -11,7 +11,7 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun
+      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgIounStone0000]{Ioun
       Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun
       Stone</em> into the air, the stone orbits your head at a distance of 1d3
       feet, conferring its benefit to you while doing so. You can have up to
@@ -63,7 +63,7 @@ system:
   proficient: null
 effects:
   - name: 'Enhanced Intellect: Intelligence Bonus'
-    img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+    img: systems/degringo5e/icons/svg/abilities/intelligence.svg
     _id: wPZxFH2R0HxRees5
     type: base
     system: {}
@@ -98,7 +98,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730481922568
       modifiedTime: 1730486093864
@@ -109,7 +109,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700959

@@ -26,9 +26,9 @@ export default class AdvancementSelection extends Dialog {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "advancement"],
-      template: "systems/dnd5e/templates/advancement/advancement-selection.hbs",
-      title: "DND5E.AdvancementSelectionTitle",
+      classes: ["degringo5e", "sheet", "advancement"],
+      template: "systems/degringo5e/templates/advancement/advancement-selection.hbs",
+      title: "DEGRINGO5E.AdvancementSelectionTitle",
       width: 500,
       height: "auto"
     });
@@ -46,7 +46,7 @@ export default class AdvancementSelection extends Dialog {
   /** @inheritDoc */
   getData() {
     const context = { types: {} };
-    for ( let [name, config] of Object.entries(CONFIG.DND5E.advancementTypes) ) {
+    for ( let [name, config] of Object.entries(CONFIG.DEGRINGO5E.advancementTypes) ) {
       const advancement = config.documentClass;
       if ( config.hidden || !config.validItemTypes?.has(this.item.type) ) continue;
       context.types[name] = {
@@ -56,7 +56,7 @@ export default class AdvancementSelection extends Dialog {
         disabled: !advancement.availableForItem(this.item)
       };
     }
-    context.types = dnd5e.utils.sortObjectEntries(context.types, "label");
+    context.types = degringo5e.utils.sortObjectEntries(context.types, "label");
     return context;
   }
 
@@ -92,7 +92,7 @@ export default class AdvancementSelection extends Dialog {
       "The `AdvancementSelection#createDialog` dialog has been deprecated and replaced with `Advancement#createDialog`.",
       { since: "DnD5e 4.4", until: "DnD5e 5.2" }
     );
-    const advancement = await dnd5e.documents.advancement.Advancement.createDialog({}, { parent: item });
+    const advancement = await degringo5e.documents.advancement.Advancement.createDialog({}, { parent: item });
     return advancement?.sheet.render(true) ?? null;
   }
 

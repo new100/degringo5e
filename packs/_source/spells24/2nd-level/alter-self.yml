@@ -401,7 +401,7 @@ img: icons/magic/control/silhouette-hold-change-green.webp
 effects:
   - name: Aquatic Adaptation
     img: icons/creatures/fish/fish-bluefin-yellow-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 6SL9vuAkx7nAfS5D
     type: base
@@ -431,7 +431,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725048208451
       modifiedTime: 1725048922411
@@ -440,7 +440,7 @@ effects:
     _key: '!items.effects!phbsplAlterSelf0.6SL9vuAkx7nAfS5D'
   - name: Altered Appearance
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: 1jrUeJtfZMGhJOZa
     type: base
@@ -464,7 +464,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725048980878
       modifiedTime: 1725049328488
@@ -473,7 +473,7 @@ effects:
     _key: '!items.effects!phbsplAlterSelf0.1jrUeJtfZMGhJOZa'
   - name: Natural Weapon
     img: icons/creatures/abilities/fang-tooth-blood-red.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+    origin: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
     transfer: false
     _id: baEBDez6IgWNpkSX
     type: base
@@ -502,7 +502,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725049566534
       modifiedTime: 1725049699059
@@ -514,14 +514,14 @@ sort: 5600000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425940243
   modifiedTime: 1745256785130

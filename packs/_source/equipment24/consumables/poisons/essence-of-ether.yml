@@ -117,7 +117,7 @@ system:
 effects:
   - name: Poisoned and Unconscious
     img: icons/magic/air/fog-gas-smoke-brown.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgEssenceOfEthe
+    origin: Compendium.degringo5e.equipment24.Item.dmgEssenceOfEthe
     transfer: false
     _id: izr2j393TujCLu53
     type: base
@@ -141,10 +141,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730740405450
       modifiedTime: 1730740455818
@@ -153,14 +153,14 @@ effects:
     _key: '!items.effects!dmgEssenceOfEthe.izr2j393TujCLu53'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256805104

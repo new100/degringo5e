@@ -8,7 +8,7 @@ system:
     d1jV8IcMQtx6uhSU:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplEnlargeRed
+        uuid: Compendium.degringo5e.spells24.Item.phbsplEnlargeRed
         challenge:
           attack: null
           save: null
@@ -67,7 +67,7 @@ system:
     value: >-
       <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the
       "reduce" effect of the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}
       spell for 1d4 hours (no Concentration required).</p><p>The red in the
       potion's liquid continuously contracts to a tiny bead and then expands to
       color the clear liquid around it. Shaking the bottle fails to interrupt
@@ -112,14 +112,14 @@ system:
     - mgc
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807253

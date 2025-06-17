@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Silver
-        Dragons</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.REGxFxNrTLFswtA1
+        Dragons</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.REGxFxNrTLFswtA1
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Good
@@ -629,7 +629,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -637,7 +637,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712731247
@@ -770,7 +770,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712731247
@@ -890,7 +890,7 @@ items:
     img: icons/creatures/abilities/dragon-ice-breath-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -898,7 +898,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmColdBreath0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712731247
@@ -1011,7 +1011,7 @@ items:
     img: icons/magic/unholy/energy-smoke-pink.webp
     effects:
       - name: Incapacitated
-        img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+        img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
         origin: Item.mmParalyzingBrea
         _id: MML0hjuixzKZ61FT
         type: base
@@ -1049,7 +1049,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1058,7 +1058,7 @@ items:
         _key: >-
           !actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.MML0hjuixzKZ61FT
       - name: Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmParalyzingBrea
         _id: qHhQi1VSyVic0Z22
         type: base
@@ -1097,7 +1097,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1106,7 +1106,7 @@ items:
         _key: >-
           !actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.qHhQi1VSyVic0Z22
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1114,7 +1114,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParalyzingBrea
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712731247
@@ -1130,7 +1130,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712731275

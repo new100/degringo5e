@@ -2,7 +2,7 @@ name: Spell Scroll, Level 1
 system:
   description:
     value: >-
-      <p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagCantripScro]{Spell
+      <p>A @UUID[Compendium.degringo5e.equipment24.Item.phbagCantripScro]{Spell
       Scroll (Cantrip)} or <em>Spell Scroll</em> (Level 1) is a magic item that
       bears the words of a cantrip or level 1 spell, respectively, determined by
       the scroll's creator. If the spell is on your class's spell list, you can
@@ -63,14 +63,14 @@ sort: 6000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425912111
   modifiedTime: 1745256812936

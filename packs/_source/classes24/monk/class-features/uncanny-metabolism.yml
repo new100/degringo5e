@@ -53,7 +53,7 @@ system:
         targets:
           - type: itemUses
             value: '-@classes.monk.levels'
-            target: Compendium.dnd5e.classes24.Item.phbmnkMonksFocus
+            target: Compendium.degringo5e.classes24.Item.phbmnkMonksFocus
             scaling: {}
           - type: itemUses
             value: '1'
@@ -101,14 +101,14 @@ system:
   identifier: uncanny-metabolism
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866307724
   modifiedTime: 1745256763496

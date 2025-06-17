@@ -598,7 +598,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -627,7 +627,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -635,7 +635,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737750992797
       modifiedTime: 1745712713119
@@ -780,7 +780,7 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
         _id: uAvQlHXKSwnCjRtt
         type: base
@@ -806,7 +806,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -815,7 +815,7 @@ items:
         _key: >-
           !actors.items.effects!mmAnkylosaurus00.mmTail0000000000.uAvQlHXKSwnCjRtt
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -823,7 +823,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737750994940
       modifiedTime: 1745712713119
@@ -839,7 +839,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712713145

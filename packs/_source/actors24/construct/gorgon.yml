@@ -684,7 +684,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -712,7 +712,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -721,7 +721,7 @@ items:
         _key: >-
           !actors.items.effects!mmGorgon00000000.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -729,7 +729,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720324
@@ -847,7 +847,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Petrified
-        img: systems/dnd5e/icons/svg/statuses/petrified.svg
+        img: systems/degringo5e/icons/svg/statuses/petrified.svg
         origin: Item.mmPetrifyingBrea
         _id: ggyTZHJj11jkOFlX
         type: base
@@ -884,7 +884,7 @@ items:
           compendiumSource: Item.mmPetrifyingGaze.ActiveEffect.YLFv2Ujss9c0vtMQ
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -893,7 +893,7 @@ items:
         _key: >-
           !actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.ggyTZHJj11jkOFlX
       - name: Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmPetrifyingBrea
         _id: SY6t8UAImw8B9PVT
         type: base
@@ -931,7 +931,7 @@ items:
           compendiumSource: Item.mmPetrifyingGaze.ActiveEffect.a5kKgU7vfT0v17yF
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -940,7 +940,7 @@ items:
         _key: >-
           !actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.SY6t8UAImw8B9PVT
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -948,7 +948,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBrea
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720324
@@ -1061,7 +1061,7 @@ items:
     img: icons/commodities/bones/hooves-cloven-brown.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1069,7 +1069,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTrample0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720324
@@ -1085,7 +1085,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415490996
   modifiedTime: 1745712720353

@@ -24,7 +24,7 @@ const { BooleanField, NumberField, SchemaField, SetField, StringField } = foundr
  * @property {number} materials.cost             GP cost for the required components.
  * @property {number} materials.supply           Quantity of this component available.
  * @property {object} preparation                Details on how this spell is prepared.
- * @property {string} preparation.mode           Spell preparation mode as defined in `DND5E.spellPreparationModes`.
+ * @property {string} preparation.mode           Spell preparation mode as defined in `DEGRINGO5E.spellPreparationModes`.
  * @property {boolean} preparation.prepared      Is the spell currently prepared?
  * @property {Set<string>} properties            General components and tags for this spell.
  * @property {RangeData} range                   Range of the spell
@@ -40,7 +40,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
   /** @override */
   static LOCALIZATION_PREFIXES = [
-    "DND5E.ACTIVATION", "DND5E.DURATION", "DND5E.RANGE", "DND5E.SOURCE", "DND5E.TARGET"
+    "DEGRINGO5E.ACTIVATION", "DEGRINGO5E.DURATION", "DEGRINGO5E.RANGE", "DEGRINGO5E.SOURCE", "DEGRINGO5E.TARGET"
   ];
 
   /* -------------------------------------------- */
@@ -48,24 +48,24 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      ability: new StringField({ label: "DND5E.SpellAbility" }),
+      ability: new StringField({ label: "DEGRINGO5E.SpellAbility" }),
       activation: new ActivationField(),
       duration: new DurationField(),
-      level: new NumberField({ required: true, integer: true, initial: 1, min: 0, label: "DND5E.SpellLevel" }),
+      level: new NumberField({ required: true, integer: true, initial: 1, min: 0, label: "DEGRINGO5E.SpellLevel" }),
       materials: new SchemaField({
-        value: new StringField({ required: true, label: "DND5E.SpellMaterialsDescription" }),
-        consumed: new BooleanField({ required: true, label: "DND5E.SpellMaterialsConsumed" }),
-        cost: new NumberField({ required: true, initial: 0, min: 0, label: "DND5E.SpellMaterialsCost" }),
-        supply: new NumberField({ required: true, initial: 0, min: 0, label: "DND5E.SpellMaterialsSupply" })
-      }, { label: "DND5E.SpellMaterials" }),
+        value: new StringField({ required: true, label: "DEGRINGO5E.SpellMaterialsDescription" }),
+        consumed: new BooleanField({ required: true, label: "DEGRINGO5E.SpellMaterialsConsumed" }),
+        cost: new NumberField({ required: true, initial: 0, min: 0, label: "DEGRINGO5E.SpellMaterialsCost" }),
+        supply: new NumberField({ required: true, initial: 0, min: 0, label: "DEGRINGO5E.SpellMaterialsSupply" })
+      }, { label: "DEGRINGO5E.SpellMaterials" }),
       preparation: new SchemaField({
-        mode: new StringField({ required: true, initial: "prepared", label: "DND5E.SpellPreparation.Mode" }),
-        prepared: new BooleanField({ required: true, label: "DND5E.SpellPrepared" })
-      }, { label: "DND5E.SpellPreparation.Label" }),
-      properties: new SetField(new StringField(), { label: "DND5E.SpellComponents" }),
+        mode: new StringField({ required: true, initial: "prepared", label: "DEGRINGO5E.SpellPreparation.Mode" }),
+        prepared: new BooleanField({ required: true, label: "DEGRINGO5E.SpellPrepared" })
+      }, { label: "DEGRINGO5E.SpellPreparation.Label" }),
+      properties: new SetField(new StringField(), { label: "DEGRINGO5E.SpellComponents" }),
       range: new RangeField(),
-      school: new StringField({ required: true, label: "DND5E.SpellSchool" }),
-      sourceClass: new StringField({ label: "DND5E.SpellSourceClass" }),
+      school: new StringField({ required: true, label: "DEGRINGO5E.SpellSchool" }),
+      sourceClass: new StringField({ label: "DEGRINGO5E.SpellSourceClass" }),
       target: new TargetField()
     });
   }
@@ -83,19 +83,19 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   static get compendiumBrowserFilters() {
     return new Map([
       ["level", {
-        label: "DND5E.Level",
+        label: "DEGRINGO5E.Level",
         type: "range",
         config: {
           keyPath: "system.level",
           min: 0,
-          max: Object.keys(CONFIG.DND5E.spellLevels).length - 1
+          max: Object.keys(CONFIG.DEGRINGO5E.spellLevels).length - 1
         }
       }],
       ["school", {
-        label: "DND5E.School",
+        label: "DEGRINGO5E.School",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.spellSchools,
+          choices: CONFIG.DEGRINGO5E.spellSchools,
           keyPath: "system.school"
         }
       }],
@@ -107,7 +107,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
           let exclude = new Set();
           for ( const [type, identifiers] of Object.entries(value ?? {}) ) {
             for ( const [identifier, v] of Object.entries(identifiers) ) {
-              const list = dnd5e.registry.spellLists.forType(type, identifier);
+              const list = degringo5e.registry.spellLists.forType(type, identifier);
               if ( !list || (v === 0) ) continue;
               if ( v === 1 ) include = include.union(list.uuids);
               else if ( v === -1 ) exclude = exclude.union(list.uuids);
@@ -117,7 +117,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
           if ( exclude.size ) filters.push({ o: "NOT", v: { k: "uuid", o: "in", v: exclude } });
         },
         config: {
-          choices: dnd5e.registry.spellLists.options.reduce((obj, entry) => {
+          choices: degringo5e.registry.spellLists.options.reduce((obj, entry) => {
             obj[`${entry.type}.${entry.value}`] = entry.label;
             return obj;
           }, {})
@@ -148,7 +148,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   static _migrateComponentData(source) {
     const components = filteredKeys(source.system?.components ?? {});
     if ( components.length ) {
-      foundry.utils.setProperty(source, "flags.dnd5e.migratedProperties", components);
+      foundry.utils.setProperty(source, "flags.degringo5e.migratedProperties", components);
     }
   }
 
@@ -179,10 +179,10 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     if ( "width" in source.target ) source.target.template.width = source.target.width;
 
     const type = source.target.type ?? source.target.template.type ?? source.target.affects.type;
-    if ( type in CONFIG.DND5E.areaTargetTypes ) {
+    if ( type in CONFIG.DEGRINGO5E.areaTargetTypes ) {
       if ( "type" in source.target ) source.target.template.type = type;
       if ( "value" in source.target ) source.target.template.size = source.target.value;
-    } else if ( type in CONFIG.DND5E.individualTargetTypes ) {
+    } else if ( type in CONFIG.DEGRINGO5E.individualTargetTypes ) {
       if ( "type" in source.target ) source.target.affects.type = type;
       if ( "value" in source.target ) source.target.affects.count = source.target.value;
     }
@@ -202,12 +202,12 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     this.duration.concentration = this.properties.has("concentration");
 
     const labels = this.parent.labels ??= {};
-    labels.level = CONFIG.DND5E.spellLevels[this.level];
-    labels.school = CONFIG.DND5E.spellSchools[this.school]?.label;
+    labels.level = CONFIG.DEGRINGO5E.spellLevels[this.level];
+    labels.school = CONFIG.DEGRINGO5E.spellSchools[this.school]?.label;
     if ( this.properties.has("material") ) labels.materials = this.materials.value;
 
     labels.components = this.properties.reduce((obj, c) => {
-      const config = this.validProperties.has(c) ? CONFIG.DND5E.itemProperties[c] : null;
+      const config = this.validProperties.has(c) ? CONFIG.DEGRINGO5E.itemProperties[c] : null;
       if ( !config ) return obj;
       const { abbreviation: abbr, label, icon } = config;
       obj.all.push({ abbr, icon, tag: config.isTag });
@@ -221,7 +221,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     Object.defineProperty(labels, "classes", {
       get() {
         return game.i18n.getListFormatter({ style: "narrow" }).format(
-          Array.from(dnd5e.registry.spellLists.forSpell(uuid))
+          Array.from(degringo5e.registry.spellLists.forSpell(uuid))
             .filter(list => list.metadata.type === "class")
             .map(list => list.name)
             .sort((lhs, rhs) => lhs.localeCompare(rhs, game.i18n.lang))
@@ -245,7 +245,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
     // Count preparations.
     const { mode, prepared } = this.preparation;
-    const config = CONFIG.DND5E.spellPreparationModes[mode];
+    const config = CONFIG.DEGRINGO5E.spellPreparationModes[mode];
     const isPrepared = config?.prepares && (mode !== "always") && (this.level > 0) && prepared;
     if ( this.parent.isOwned && this.sourceClass && isPrepared ) {
       const sourceClass = this.parent.actor.spellcastingClasses[this.sourceClass];
@@ -261,7 +261,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   async getCardData(enrichmentOptions={}) {
     const context = await super.getCardData(enrichmentOptions);
     context.isSpell = true;
-    context.subtitle = [this.parent.labels.level, CONFIG.DND5E.spellSchools[this.school]?.label].filterJoin(" &bull; ");
+    context.subtitle = [this.parent.labels.level, CONFIG.DEGRINGO5E.spellSchools[this.school]?.label].filterJoin(" &bull; ");
     const { activation, components, duration, range, target } = this.parent.labels;
     context.properties = [components?.vsm, activation, duration, range, target].filter(_ => _);
     if ( !this.properties.has("material") ) delete context.materials;
@@ -288,64 +288,64 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     context.subtitles = [
       { label: context.labels.level },
       { label: context.labels.school },
-      { label: CONFIG.DND5E.spellPreparationModes[this.preparation.mode]?.label },
+      { label: CONFIG.DEGRINGO5E.spellPreparationModes[this.preparation.mode]?.label },
       { label: context.labels.classes, classes: "full-width" }
     ];
 
-    context.parts = ["dnd5e.details-spell", "dnd5e.field-uses"];
+    context.parts = ["degringo5e.details-spell", "degringo5e.field-uses"];
 
     // Default Ability & Spellcasting Classes
     if ( this.parent.actor ) {
-      const ability = CONFIG.DND5E.abilities[
+      const ability = CONFIG.DEGRINGO5E.abilities[
         this.parent.actor.spellcastingClasses[this.sourceClass]?.spellcasting.ability
           ?? this.parent.actor.system.attributes?.spellcasting
       ]?.label?.toLowerCase();
-      if ( ability ) context.defaultAbility = game.i18n.format("DND5E.DefaultSpecific", { default: ability });
-      else context.defaultAbility = game.i18n.localize("DND5E.Default");
+      if ( ability ) context.defaultAbility = game.i18n.format("DEGRINGO5E.DefaultSpecific", { default: ability });
+      else context.defaultAbility = game.i18n.localize("DEGRINGO5E.Default");
       context.spellcastingClasses = Object.entries(this.parent.actor.spellcastingClasses ?? {})
         .map(([value, cls]) => ({ value, label: cls.name }));
     }
 
     // Activation
     context.activationTypes = [
-      ...Object.entries(CONFIG.DND5E.activityActivationTypes).map(([value, { label, group }]) => {
+      ...Object.entries(CONFIG.DEGRINGO5E.activityActivationTypes).map(([value, { label, group }]) => {
         return { value, label, group };
       }),
-      { value: "", label: "DND5E.NoneActionLabel" }
+      { value: "", label: "DEGRINGO5E.NoneActionLabel" }
     ];
 
     // Duration
     context.durationUnits = [
-      ...Object.entries(CONFIG.DND5E.specialTimePeriods).map(([value, label]) => ({ value, label })),
-      ...Object.entries(CONFIG.DND5E.scalarTimePeriods).map(([value, label]) => {
-        return { value, label, group: "DND5E.DurationTime" };
+      ...Object.entries(CONFIG.DEGRINGO5E.specialTimePeriods).map(([value, label]) => ({ value, label })),
+      ...Object.entries(CONFIG.DEGRINGO5E.scalarTimePeriods).map(([value, label]) => {
+        return { value, label, group: "DEGRINGO5E.DurationTime" };
       }),
-      ...Object.entries(CONFIG.DND5E.permanentTimePeriods).map(([value, label]) => {
-        return { value, label, group: "DND5E.DurationPermanent" };
+      ...Object.entries(CONFIG.DEGRINGO5E.permanentTimePeriods).map(([value, label]) => {
+        return { value, label, group: "DEGRINGO5E.DurationPermanent" };
       })
     ];
 
     // Targets
     context.targetTypes = [
-      ...Object.entries(CONFIG.DND5E.individualTargetTypes).map(([value, { label }]) => {
-        return { value, label, group: "DND5E.TargetTypeIndividual" };
+      ...Object.entries(CONFIG.DEGRINGO5E.individualTargetTypes).map(([value, { label }]) => {
+        return { value, label, group: "DEGRINGO5E.TargetTypeIndividual" };
       }),
-      ...Object.entries(CONFIG.DND5E.areaTargetTypes).map(([value, { label }]) => {
-        return { value, label, group: "DND5E.TargetTypeArea" };
+      ...Object.entries(CONFIG.DEGRINGO5E.areaTargetTypes).map(([value, { label }]) => {
+        return { value, label, group: "DEGRINGO5E.TargetTypeArea" };
       })
     ];
     context.scalarTarget = this.target.affects.type
-      && (CONFIG.DND5E.individualTargetTypes[this.target.affects.type]?.scalar !== false);
-    context.affectsPlaceholder = game.i18n.localize(`DND5E.TARGET.Count.${
+      && (CONFIG.DEGRINGO5E.individualTargetTypes[this.target.affects.type]?.scalar !== false);
+    context.affectsPlaceholder = game.i18n.localize(`DEGRINGO5E.TARGET.Count.${
       this.target?.template?.type ? "Every" : "Any"}`);
     context.dimensions = this.target.template.dimensions;
     // TODO: Ensure this behaves properly with enchantments, will probably need source target data
 
     // Range
     context.rangeTypes = [
-      ...Object.entries(CONFIG.DND5E.rangeTypes).map(([value, label]) => ({ value, label })),
-      ...Object.entries(CONFIG.DND5E.movementUnits).map(([value, { label }]) => {
-        return { value, label, group: "DND5E.RangeDistance" };
+      ...Object.entries(CONFIG.DEGRINGO5E.rangeTypes).map(([value, label]) => ({ value, label })),
+      ...Object.entries(CONFIG.DEGRINGO5E.movementUnits).map(([value, { label }]) => {
+        return { value, label, group: "DEGRINGO5E.RangeDistance" };
       })
     ];
   }
@@ -397,7 +397,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
   /** @override */
   get criticalThreshold() {
-    return this.parent?.actor?.flags.dnd5e?.spellCriticalThreshold ?? Infinity;
+    return this.parent?.actor?.flags.degringo5e?.spellCriticalThreshold ?? Infinity;
   }
 
   /* -------------------------------------------- */
@@ -408,13 +408,13 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
    */
   get linkedActivity() {
     const relative = this.parent.actor;
-    const uuid = this.parent.getFlag("dnd5e", "cachedFor");
+    const uuid = this.parent.getFlag("degringo5e", "cachedFor");
     if ( !relative || !uuid ) return null;
     const data = foundry.utils.parseUuid(uuid, { relative });
     const [itemId, , activityId] = (data?.embedded ?? []).slice(-3);
     return relative.items.get(itemId)?.system.activities?.get(activityId) ?? null;
     // TODO: Swap back to fromUuidSync once https://github.com/foundryvtt/foundryvtt/issues/11214 is resolved
-    // return fromUuidSync(this.parent.getFlag("dnd5e", "cachedFor"), { relative, strict: false }) ?? null;
+    // return fromUuidSync(this.parent.getFlag("degringo5e", "cachedFor"), { relative, strict: false }) ?? null;
   }
 
   /* -------------------------------------------- */
@@ -452,7 +452,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
     const { level, preparationMode } = header?.closest("[data-level]")?.dataset ?? {};
 
     // Determine the actor's spell slot progressions, if any.
-    const spellcastKeys = Object.keys(CONFIG.DND5E.spellcastingTypes);
+    const spellcastKeys = Object.keys(CONFIG.DEGRINGO5E.spellcastingTypes);
     const progs = Object.values(actor.classes).reduce((acc, cls) => {
       const type = cls.spellcasting?.type;
       if ( spellcastKeys.includes(type) ) acc.add(type);
@@ -463,7 +463,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
     // Case 1: Drop a cantrip.
     if ( itemData.system.level === 0 ) {
-      const modes = CONFIG.DND5E.spellPreparationModes;
+      const modes = CONFIG.DEGRINGO5E.spellPreparationModes;
       if ( modes[preparationMode]?.cantrips ) {
         prep.mode = "prepared";
       } else if ( !preparationMode ) {
@@ -496,7 +496,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
   /** @inheritDoc */
   getRollData(...options) {
     const data = super.getRollData(...options);
-    data.item.level = data.item.level + (this.parent.getFlag("dnd5e", "scaling") ?? 0);
+    data.item.level = data.item.level + (this.parent.getFlag("degringo5e", "scaling") ?? 0);
     return data;
   }
 
@@ -524,12 +524,12 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
       const update = { sourceClass: cls };
       const type = this.parent.actor.classes[cls].spellcasting.type;
       if ( (type !== "leveled") && (this.preparation.mode === "prepared") && (this.level > 0)
-        && (type in CONFIG.DND5E.spellPreparationModes) ) update["preparation.mode"] = type;
+        && (type in CONFIG.DEGRINGO5E.spellPreparationModes) ) update["preparation.mode"] = type;
       this.updateSource(update);
     };
 
     // If preparation mode matches an alt spellcasting type and matching class exists, set as that class
-    if ( this.preparation.mode in CONFIG.DND5E.spellcastingTypes ) {
+    if ( this.preparation.mode in CONFIG.DEGRINGO5E.spellcastingTypes ) {
       const altClasses = classes.filter(i => this.parent.actor.classes[i].spellcasting.type === this.preparation.mode);
       if ( altClasses.size === 1 ) setClass(altClasses.first());
       return;
@@ -543,7 +543,7 @@ export default class SpellData extends ItemDataModel.mixin(ActivitiesTemplate, I
 
     // Create intersection of spellcasting classes and classes that offer the spell
     const spellClasses = new Set(
-      dnd5e.registry.spellLists.forSpell(this.parent._stats.compendiumSource).map(l => l.metadata.identifier)
+      degringo5e.registry.spellLists.forSpell(this.parent._stats.compendiumSource).map(l => l.metadata.identifier)
     );
     const intersection = classes.intersection(spellClasses);
     if ( intersection.size === 1 ) setClass(intersection.first());

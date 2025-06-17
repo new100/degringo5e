@@ -263,8 +263,8 @@ system:
   mastery: nick
 effects:
   - name: Poisoned
-    img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgDaggerOfVenom
+    img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgDaggerOfVenom
     transfer: false
     _id: zM8Qfv5u9OCNUrhE
     type: base
@@ -291,7 +291,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729091648092
       modifiedTime: 1729091758305
@@ -332,7 +332,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729091772989
       modifiedTime: 1731015620978
@@ -341,7 +341,7 @@ effects:
     _key: '!items.effects!dmgDaggerOfVenom.f0WvHHwmTfdkF3OP'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - VHStJ3hZGwHAHcUQ
@@ -349,7 +349,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698917

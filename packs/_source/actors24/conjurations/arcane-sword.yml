@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbswdMordenkain
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbswdMordenkain
         caption=false]</p>
       public: ''
     alignment: ''
@@ -596,7 +596,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -604,7 +604,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160567
@@ -614,12 +614,12 @@ items:
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724949979079
   modifiedTime: 1745256830347

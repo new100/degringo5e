@@ -12,7 +12,7 @@ export default class TransformUsageDialog extends ActivityUsageDialog {
   static PARTS = {
     ...super.PARTS,
     creation: {
-      template: "systems/dnd5e/templates/activity/transform-usage-creation.hbs"
+      template: "systems/degringo5e/templates/activity/transform-usage-creation.hbs"
     }
   };
 
@@ -32,7 +32,7 @@ export default class TransformUsageDialog extends ActivityUsageDialog {
       }));
       context.hasCreation = true;
       context.transformFields = [{
-        field: new StringField({ label: game.i18n.localize("DND5E.TRANSFORM.Profile.Label") }),
+        field: new StringField({ label: game.i18n.localize("DEGRINGO5E.TRANSFORM.Profile.Label") }),
         name: "transform.profile",
         value: this.config.transform?.profile,
         options
@@ -55,6 +55,6 @@ export default class TransformUsageDialog extends ActivityUsageDialog {
   getProfileLabel(profile, rollData) {
     if ( profile.name ) return profile.name;
     const cr = simplifyBonus(profile.cr, rollData);
-    return game.i18n.format("DND5E.TRANSFORM.Profile.ChallengeRatingLabel", { cr: formatCR(cr) });
+    return game.i18n.format("DEGRINGO5E.TRANSFORM.Profile.ChallengeRatingLabel", { cr: formatCR(cr) });
   }
 }

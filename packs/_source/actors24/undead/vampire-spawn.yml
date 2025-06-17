@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Vampires</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
+        <h1>Vampires</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -595,7 +595,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpiderClimb000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -677,7 +677,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -685,7 +685,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -878,8 +878,8 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmVampireSpawn00.Item.mmClaw0000000000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmVampireSpawn00.Item.mmClaw0000000000
         _id: SVSXgb9yjhotXMza
         type: base
         system: {}
@@ -908,7 +908,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -917,7 +917,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampireSpawn00.mmClaw0000000000.SVSXgb9yjhotXMza
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -925,7 +925,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -1092,7 +1092,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1100,7 +1100,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -1163,7 +1163,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1192,7 +1192,7 @@ items:
     img: icons/skills/movement/figure-running-gray.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1200,7 +1200,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDeathlessAgili
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -1371,7 +1371,7 @@ items:
             formula: ''
             name: ''
           name: Staked to the Heart
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
           _id: HsKPQH0SsWtL4znC
       uses:
         spent: 0
@@ -1441,10 +1441,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
+            Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1453,7 +1453,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampireSpawn00.mmVampireWeaknes.v2EdEMrtcddO1p8U
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1461,7 +1461,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVampireWeaknes
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729290
@@ -1477,7 +1477,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712729320

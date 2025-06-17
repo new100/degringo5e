@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded
         Leather Armor}</p></div>
       public: ''
     alignment: Neutral Evil
@@ -621,10 +621,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmStuddedLea
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmStuddedLea
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -674,7 +674,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSunlightSensit
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -758,7 +758,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -766,7 +766,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -918,7 +918,7 @@ items:
     img: icons/weapons/swords/sword-guard-serrated.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -926,7 +926,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNecroticSword0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -1062,7 +1062,7 @@ items:
             - count: ''
               name: ''
               _id: JB27hLv8jcrMyZux
-              uuid: Compendium.dnd5e.actors24.Actor.mmZombie00000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmZombie00000000
               level:
                 min: null
                 max: null
@@ -1087,7 +1087,7 @@ items:
           decreases by an amount equal to the damage taken.</p><p
           class="feature">A Humanoid slain by this attack rises 24 hours later
           as a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmZombie00000000]{Zombie}</strong>
           under the [[lookup @name lowercase]]'s control, unless the Humanoid is
           restored to life or its body is destroyed. The [[lookup @name
           lowercase]] can have no more than twelve zombies under its control at
@@ -1112,7 +1112,7 @@ items:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1120,7 +1120,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLifeDrain00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -1276,7 +1276,7 @@ items:
     img: icons/weapons/bows/bow-recurve-black.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1284,7 +1284,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNecroticBow000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730259
@@ -1297,12 +1297,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712730289

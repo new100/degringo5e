@@ -601,7 +601,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -631,7 +631,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -639,7 +639,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
@@ -781,7 +781,7 @@ items:
     img: icons/weapons/clubs/club-simple-stone.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -789,7 +789,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmStoneClub00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
@@ -933,8 +933,8 @@ items:
     img: icons/commodities/stone/stone-pile-grey.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmStoneGiant0000.Item.mmBoulder0000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmStoneGiant0000.Item.mmBoulder0000000
         _id: wKWWzb7MJy7OauVf
         type: base
         system: {}
@@ -961,7 +961,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -970,7 +970,7 @@ items:
         _key: >-
           !actors.items.effects!mmStoneGiant0000.mmBoulder0000000.wKWWzb7MJy7OauVf
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -978,7 +978,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBoulder0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
@@ -1156,7 +1156,7 @@ items:
     img: icons/magic/light/beam-impact-deflect-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1164,7 +1164,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDeflectMissile
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727852
@@ -1177,12 +1177,12 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712727880

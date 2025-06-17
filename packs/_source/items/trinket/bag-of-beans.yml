@@ -15,9 +15,9 @@ system:
       or carried.</p><p>If you remove a bean from the bag, plant it in dirt or
       sand, and then water it, the bean produces an effect 1 minute later from
       the ground where it was planted. The GM can choose an effect from the
-      @UUID[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl]{Bag of Beans}
+      @UUID[Compendium.degringo5e.tables.RollTable.4ryVFV5LPHPzRKxl]{Bag of Beans}
       table, determine it randomly, or create an
-      effect.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl
+      effect.</p><p>@Embed[Compendium.degringo5e.tables.RollTable.4ryVFV5LPHPzRKxl
       rollable]</p>
     chat: ''
   source:
@@ -148,14 +148,14 @@ sort: 3100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.2
   createdTime: 1725037141214
   modifiedTime: 1726738255941

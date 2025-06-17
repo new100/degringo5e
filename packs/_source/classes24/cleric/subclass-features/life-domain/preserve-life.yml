@@ -48,7 +48,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbclcChannelDiv
+            target: Compendium.degringo5e.classes24.Item.phbclcChannelDiv
             scaling: {}
         scaling:
           allowed: false
@@ -107,14 +107,14 @@ system:
   identifier: preserve-life
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866589552
   modifiedTime: 1740680082017

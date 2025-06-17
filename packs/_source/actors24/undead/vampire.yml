@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Vampires</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
+        <h1>Vampires</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
         caption=false cite=false classes="no-embed mm"]</p>
       public: ''
     alignment: Lawful Evil
@@ -610,7 +610,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -643,7 +643,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -651,7 +651,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -715,7 +715,7 @@ items:
             name: ''
             formula: ''
           name: Paralyzed
-          img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+          img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
       uses:
         spent: 0
         recovery: []
@@ -753,7 +753,7 @@ items:
     img: icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp
     effects:
       - name: Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmMistyEscape000
         _id: SGrTBpl938UIe4e3
         type: base
@@ -783,7 +783,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -792,7 +792,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampire0000000.mmMistyEscape000.SGrTBpl938UIe4e3
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -800,7 +800,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMistyEscape000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -852,7 +852,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpiderClimb000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -935,7 +935,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -943,7 +943,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1148,8 +1148,8 @@ items:
     img: icons/magic/unholy/hand-claw-fire-blue.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmVampire0000000.Item.mmGraveStrike000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmGraveStrike000
         _id: BCbp3JZoHEGQ3Nzu
         type: base
         system: {}
@@ -1178,7 +1178,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1187,7 +1187,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampire0000000.mmGraveStrike000.BCbp3JZoHEGQ3Nzu
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1195,7 +1195,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGraveStrike000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1344,7 +1344,7 @@ items:
                 min: null
                 max: null
               types: []
-              uuid: Compendium.dnd5e.actors24.Actor.mmVampireSpawn00
+              uuid: Compendium.degringo5e.actors24.Actor.mmVampireSpawn00
           summon:
             prompt: true
             mode: ''
@@ -1367,7 +1367,7 @@ items:
           lowercase]] regains Hit Points equal to that amount. A Humanoid
           reduced to 0 Hit Points by this damage and then buried rises the
           following sunset as a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmVampireSpawn00]{Vampire
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmVampireSpawn00]{Vampire
           Spawn}</strong> under the [[lookup @name lowercase]]'s control.</p>
         chat: ''
       identifier: bite
@@ -1434,7 +1434,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1442,7 +1442,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1463,7 +1463,7 @@ items:
         fcRXSTOlFJShCl52:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCharmPerso
             challenge:
               attack: null
               save: null
@@ -1522,7 +1522,7 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]</em>,
           requiring no spell components and using Charisma as the spellcasting
           ability (spell save DC [[lookup @abilities.cha.dc]]), and the duration
           is [[lookup @duration.value activity=fcRXSTOlFJShCl52]] hours. The
@@ -1551,7 +1551,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1559,7 +1559,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCharm000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1677,7 +1677,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects:
       - name: Charmed
-        origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        origin: Compendium.degringo5e.spells24.Item.phbsplCharmPerso
         duration:
           rounds: 1
           startTime: null
@@ -1688,7 +1688,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/charmed.svg
+        img: systems/degringo5e/icons/svg/statuses/charmed.svg
         _id: 78JcD7wFiSCOfmns
         type: base
         system: {}
@@ -1707,7 +1707,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1718,9 +1718,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmVampire0000000.Item.mmCharm000000000.Activity.fcRXSTOlFJShCl52
+          Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmCharm000000000.Activity.fcRXSTOlFJShCl52
         changes:
           - key: system.activation
             mode: 5
@@ -1766,7 +1766,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1779,13 +1779,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmCharm000000000.Activity.fcRXSTOlFJShCl52
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCharmPerso
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1858,7 +1858,7 @@ items:
             - count: ''
               name: ''
               _id: vWYuudvXTt7s5kuC
-              uuid: Compendium.dnd5e.actors24.Actor.mmBat00000000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmBat00000000000
               level:
                 min: null
                 max: null
@@ -1876,7 +1876,7 @@ items:
         value: >-
           <p class="feature">If the [[lookup @name lowercase]] isn't in sunlight
           or running water, it shape-shifts into a Tiny
-          @UUID[Compendium.dnd5e.actors24.Actor.mmBat00000000000]{bat} (Speed 5
+          @UUID[Compendium.degringo5e.actors24.Actor.mmBat00000000000]{bat} (Speed 5
           ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly
           Speed 20 ft. [hover]), or it returns to its vampire form. Anything it
           is wearing transforms with it.</p><p class="feature">While in bat
@@ -1908,7 +1908,7 @@ items:
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1916,7 +1916,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShapeshift0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -1979,7 +1979,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCommand000
             ability: cha
           name: ''
       uses:
@@ -1989,7 +1989,7 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]</em>,
           requiring no spell components and using Charisma as the spellcasting
           ability (spell save DC [[lookup @abilities.cha.dc]]). The [[lookup
           @name lowercase]] can't take this action again until the start of its
@@ -2014,7 +2014,7 @@ items:
     img: icons/magic/control/mouth-smile-deception-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2022,7 +2022,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBeguile0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -2146,9 +2146,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmVampire0000000.Item.mmBeguile0000000.Activity.M0FuOWsRw7TefgiH
+          Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmBeguile0000000.Activity.M0FuOWsRw7TefgiH
         changes:
           - key: system.activation
             mode: 5
@@ -2190,7 +2190,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2203,13 +2203,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmBeguile0000000.Activity.M0FuOWsRw7TefgiH
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCommand000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCommand000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -2270,7 +2270,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -2300,7 +2300,7 @@ items:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2308,7 +2308,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDeathlessStrik
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -2479,7 +2479,7 @@ items:
             formula: ''
             name: ''
           name: Staked to the Heart
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
           _id: HsKPQH0SsWtL4znC
       uses:
         spent: 0
@@ -2549,10 +2549,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
+            Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2561,7 +2561,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampire0000000.mmVampireWeaknes.v2EdEMrtcddO1p8U
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2569,7 +2569,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVampireWeaknes
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729150
@@ -2585,7 +2585,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712729192

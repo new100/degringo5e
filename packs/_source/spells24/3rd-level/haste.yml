@@ -154,7 +154,7 @@ type: spell
 img: icons/magic/time/clock-spinning-gold-pink.webp
 effects:
   - name: Hasted
-    origin: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+    origin: Compendium.degringo5e.spells24.Item.phbsplHaste00000
     duration:
       rounds: null
       startTime: null
@@ -201,7 +201,7 @@ effects:
       to take only the Attack (one attack only), Dash, Disengage, Hide, or
       Utilize action.</p><p>When the spell ends, the target is Incapacitated and
       has a Speed of 0 until the end of its next turn, as a
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
       of lethargy} washes over it.</p>
     tint: '#ffffff'
     transfer: false
@@ -211,7 +211,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -219,7 +219,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplHaste00000.NEFWcyysYgsE6de3'
   - name: Lethargy
-    origin: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+    origin: Compendium.degringo5e.spells24.Item.phbsplHaste00000
     duration:
       rounds: 1
       startTime: null
@@ -268,7 +268,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -280,14 +280,14 @@ sort: 1700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425958065
   modifiedTime: 1745256794412

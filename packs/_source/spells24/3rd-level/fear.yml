@@ -101,7 +101,7 @@ type: spell
 img: icons/magic/unholy/silhouette-robe-evil-glow.webp
 effects:
   - name: Fear
-    origin: Compendium.dnd5e.spells24.Item.phbsplFear000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplFear000000
     duration:
       rounds: 1
       startTime: null
@@ -112,7 +112,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/frightened.svg
+    img: systems/degringo5e/icons/svg/statuses/frightened.svg
     _id: ijiWLu6EJZmEJPOZ
     type: base
     system: {}
@@ -133,7 +133,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -145,14 +145,14 @@ sort: 2300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425953067
   modifiedTime: 1745256792778

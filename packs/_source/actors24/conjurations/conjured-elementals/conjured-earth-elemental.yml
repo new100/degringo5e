@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -487,7 +487,7 @@ items:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
+          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
           caption=false]</p>
         chat: ''
       source:
@@ -654,7 +654,7 @@ items:
       crewed: false
     effects:
       - name: Restrained
-        origin: Compendium.dnd5e.actors24.Actor.phbsplConjuredEl.Item.oJkALZTVLPy8TJSR
+        origin: Compendium.degringo5e.actors24.Actor.phbsplConjuredEl.Item.oJkALZTVLPy8TJSR
         duration:
           rounds: null
           startTime: null
@@ -665,7 +665,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         _id: i5T6yzxlsSnXxGGa
         type: base
         system: {}
@@ -683,10 +683,10 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.phbsplConjuredEl.Item.1sm4KQqflaDX7MEu.ActiveEffect.NGnrAr3HdReYoTjS
+            Compendium.degringo5e.actors24.Actor.phbsplConjuredEl.Item.1sm4KQqflaDX7MEu.ActiveEffect.NGnrAr3HdReYoTjS
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.1
           createdTime: null
           modifiedTime: null
@@ -703,7 +703,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680158734
@@ -714,7 +714,7 @@ items:
 effects: []
 folder: UvlQFmKuGiSS9WJd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 sort: 100000
 ownership:
@@ -722,7 +722,7 @@ ownership:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1726782857688
   modifiedTime: 1745256827053

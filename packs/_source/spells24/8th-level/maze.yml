@@ -106,7 +106,7 @@ img: icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp
 effects:
   - name: Banished
     img: icons/sundries/misc/lock-steel-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplMaze000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplMaze000000
     transfer: false
     _id: y7cYsJ0DCzXt4Tvy
     type: base
@@ -133,7 +133,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725308416485
       modifiedTime: 1725308621852
@@ -145,14 +145,14 @@ sort: 100049
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425963150
   modifiedTime: 1745256796002

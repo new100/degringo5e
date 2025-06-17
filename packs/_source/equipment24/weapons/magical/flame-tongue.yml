@@ -138,7 +138,7 @@ system:
       feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a
       hit. The flames last until you take a Bonus Action to issue the command
       again or until you drop, stow, or sheathe the
-      weapon.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      weapon.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: flame-tongue
@@ -206,7 +206,7 @@ system:
 effects:
   - type: enchantment
     name: Flame Tongue
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     _id: VtBOwsAVipxkP2f5
     system: {}
@@ -218,7 +218,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgFlameTongue00
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgFlameTongue00
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -256,7 +256,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729803617244
       modifiedTime: 1731004864280
@@ -265,7 +265,7 @@ effects:
     _key: '!items.effects!dmgFlameTongue00.VtBOwsAVipxkP2f5'
   - type: enchantment
     name: Ablaze
-    img: systems/dnd5e/icons/items/flame-tongue-longsword.webp
+    img: systems/degringo5e/icons/items/flame-tongue-longsword.webp
     disabled: true
     _id: MHnAqxEXBhUbnjPq
     system: {}
@@ -297,7 +297,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731004134526
       modifiedTime: 1732647163594
@@ -306,7 +306,7 @@ effects:
     _key: '!items.effects!dmgFlameTongue00.MHnAqxEXBhUbnjPq'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - FrNZRC1C2HFJxUNu
@@ -314,7 +314,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745433544359

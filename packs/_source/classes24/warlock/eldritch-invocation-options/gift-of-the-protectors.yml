@@ -6,9 +6,9 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 9+ Warlock,
-      @UUID[Compendium.dnd5e.classes24.Item.phbinvPactTome00]{Pact of the Tome}
+      @UUID[Compendium.degringo5e.classes24.Item.phbinvPactTome00]{Pact of the Tome}
       Invocation</p></blockquote><p>A new page appears in your
-      @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} when
+      @UUID[Compendium.degringo5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} when
       you conjure it. With your permission, a creature can take an action to
       write its name on that page, which can contain a number of names equal to
       your Charisma modifier (minimum of one name).</p><p>When any creature
@@ -98,7 +98,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/activity/save.svg
+      img: systems/degringo5e/icons/svg/activity/save.svg
     OpTVpSocFQtVBROc:
       type: utility
       name: Write Name
@@ -149,7 +149,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait.svg
+      img: systems/degringo5e/icons/svg/trait.svg
     cRjGFIPOcDcUcsjl:
       type: utility
       name: Erase Name
@@ -200,20 +200,20 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-languages.svg
+      img: systems/degringo5e/icons/svg/trait-languages.svg
   enchant: {}
   identifier: gift-of-the-protectors
 effects: []
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1740680084019

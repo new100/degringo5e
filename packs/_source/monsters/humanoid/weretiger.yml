@@ -585,10 +585,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.monsterfeatures.VhByyxHJN7MNQJRd
+      compendiumSource: Compendium.degringo5e.monsterfeatures.VhByyxHJN7MNQJRd
       duplicateSource: null
       coreVersion: '13.345'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 5.1.0
       createdTime: null
       modifiedTime: 1749403946671
@@ -637,7 +637,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.345'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 5.1.0
       createdTime: null
       modifiedTime: 1749403935651
@@ -748,8 +748,8 @@ items:
       identifier: pounce-tiger-or-hybrid-form-only
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.monsters.Actor.zIr3NaNF0mWz5Ahq.Item.jW4qHQ761qRLeWM8
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.monsters.Actor.zIr3NaNF0mWz5Ahq.Item.jW4qHQ761qRLeWM8
         transfer: false
         _id: xx5oDVvttzxBUXpQ
         type: base
@@ -770,14 +770,14 @@ items:
           - prone
         sort: 0
         flags:
-          dnd5e:
+          degringo5e:
             riders:
               statuses: []
         _stats:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.3.8
           createdTime: 1744074885146
           modifiedTime: 1744074906625
@@ -790,7 +790,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -798,7 +798,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744074929043
@@ -902,7 +902,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744075424301
@@ -1130,7 +1130,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1138,7 +1138,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744075307516
@@ -1301,7 +1301,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1309,7 +1309,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744075307516
@@ -1475,7 +1475,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744075307516
@@ -1642,7 +1642,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1650,7 +1650,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744075307516
@@ -1666,7 +1666,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.3.8
   createdTime: 1726171267537
   modifiedTime: 1744075486015

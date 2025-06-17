@@ -82,7 +82,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/damage/force.svg
+      img: systems/degringo5e/icons/svg/damage/force.svg
       _id: EHLXN6WrPpxg0pRN
     72ZtIT83h5t5iHHC:
       type: utility
@@ -142,7 +142,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      img: systems/degringo5e/icons/svg/activity/heal.svg
       _id: 72ZtIT83h5t5iHHC
   enchant: {}
   prerequisites:
@@ -150,7 +150,7 @@ system:
   identifier: font-of-magic
 sort: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
@@ -160,7 +160,7 @@ folder: s3pztJl6gzeYmXdi
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.3.0
   createdTime: 1725037382917
   modifiedTime: 1738906913202

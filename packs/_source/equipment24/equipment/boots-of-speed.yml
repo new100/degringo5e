@@ -104,7 +104,7 @@ system:
 effects:
   - name: Boots of Speed Active
     img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgBootsOfSpeed0
+    origin: Compendium.degringo5e.equipment24.Item.dmgBootsOfSpeed0
     transfer: true
     _id: XP45fDHAojcVjDc0
     type: base
@@ -151,7 +151,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: 1728680333326
       modifiedTime: 1728681103651
@@ -159,14 +159,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgBootsOfSpeed0.XP45fDHAojcVjDc0'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

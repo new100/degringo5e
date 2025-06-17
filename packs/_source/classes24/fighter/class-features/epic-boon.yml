@@ -7,9 +7,9 @@ system:
   description:
     value: >-
       <p>You gain an
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
       Boon feat} or another feat of your choice for which you qualify.
-      @UUID[Compendium.dnd5e.feats24.Item.phbBoonofCombatP]{Boon of Combat
+      @UUID[Compendium.degringo5e.feats24.Item.phbBoonofCombatP]{Boon of Combat
       Prowess} is recommended.</p>
     chat: ''
   source:
@@ -35,14 +35,14 @@ system:
   identifier: epic-boon
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866361253
   modifiedTime: 1745256761480

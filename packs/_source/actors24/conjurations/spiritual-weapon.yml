@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSpiritualW
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -572,7 +572,7 @@ items:
             parts:
               - custom:
                   enabled: true
-                  formula: (@flags.dnd5e.summon.level - 1)d8 + @flags.dnd5e.summon.mod
+                  formula: (@flags.degringo5e.summon.level - 1)d8 + @flags.degringo5e.summon.mod
                 number: null
                 denomination: 8
                 bonus: ''
@@ -602,7 +602,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -610,7 +610,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160678
@@ -620,14 +620,14 @@ items:
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
     summon:
       level: 2
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918967
   modifiedTime: 1745256830402

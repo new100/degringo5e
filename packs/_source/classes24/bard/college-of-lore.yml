@@ -2,7 +2,7 @@ _id: phbbrdLore000000
 name: College of Lore
 type: subclass
 folder: taXfKVJXVI5Z807d
-img: systems/dnd5e/icons/classes/lore.webp
+img: systems/degringo5e/icons/classes/lore.webp
 system:
   description:
     value: >-
@@ -27,7 +27,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdMagicalDis
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdMagicalDis
             optional: false
         optional: false
         spell: null
@@ -38,7 +38,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdPeerlessSk
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdPeerlessSk
             optional: false
         optional: false
         spell: null
@@ -49,9 +49,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdBonusProfi
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdBonusProfi
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdCuttingWor
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdCuttingWor
             optional: false
         optional: false
         spell: null
@@ -82,7 +82,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866506195
   modifiedTime: 1745256760456

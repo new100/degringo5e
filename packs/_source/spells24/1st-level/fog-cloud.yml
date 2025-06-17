@@ -5,7 +5,7 @@ system:
       <p>You create a 20-foot-radius Sphere of fog centered on a point within
       range. The Sphere is &amp;Reference[heavilyobscured]. It lasts for the
       duration or until a strong wind (such as one created by
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
       Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
       Slot.</strong> The fog's radius increases by 20 feet for each spell slot
       level above 1.</p>
@@ -99,14 +99,14 @@ sort: 2800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425954737
   modifiedTime: 1745256793364

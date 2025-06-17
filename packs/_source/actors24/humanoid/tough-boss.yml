@@ -408,13 +408,13 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepHeavyCross]{Heavy
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainMail0]{Chain Mail},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
         Crossbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepWarhammer0]{Warhammer}</p></div><h1>Toughs</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepWarhammer0]{Warhammer}</p></div><h1>Toughs</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Tough
-        Boss</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.T47eTnRd4tadGFU9
+        Boss</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.T47eTnRd4tadGFU9
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -712,15 +712,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepWarhammer0
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepWarhammer0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728706
@@ -882,15 +882,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepHeavyCross
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepHeavyCross
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728706
@@ -958,10 +958,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainMail0
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmChainMail0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728706
@@ -1013,7 +1013,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPackTactics000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728706
@@ -1076,7 +1076,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1106,7 +1106,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1114,7 +1114,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728706
@@ -1130,7 +1130,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712728732

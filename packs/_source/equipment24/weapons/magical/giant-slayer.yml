@@ -140,7 +140,7 @@ system:
       you hit a Giant with this weapon, the Giant takes an extra 2d6 damage of
       the weapon's type and must succeed on a DC 15 Strength saving throw or
       have the Prone
-      condition.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      condition.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: giant-slayer
@@ -208,7 +208,7 @@ system:
 effects:
   - type: enchantment
     name: Giant Slayer
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     _id: ZwpawARncDIheC65
     system: {}
@@ -224,7 +224,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgGiantSlayer00
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgGiantSlayer00
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -254,7 +254,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730145783687
       modifiedTime: 1730146387864
@@ -263,7 +263,7 @@ effects:
     _key: '!items.effects!dmgGiantSlayer00.ZwpawARncDIheC65'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - RYyb1MBEt8avd2sN
@@ -271,7 +271,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256805475

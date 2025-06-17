@@ -10,14 +10,14 @@ system:
       entity to gain magical powers. The entity is a voice in the shadows—its
       identity unclear—but its boon to you is concrete: the ability to cast
       spells. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
       on spellcasting}. The information below details how you use those rules
       with Warlock spells, which appear in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Warlock
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Warlock
       spell list}.</p><p><strong>Cantrips.</strong> You know two Warlock
       cantrips of your choice.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEldritchBl]{Eldritch Blast} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEldritchBl]{Eldritch Blast} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
       are recommended. Whenever you gain a Warlock level, you can replace one of
       your cantrips from this feature with another Warlock cantrip of your
       choice.</p><p>When you reach Warlock levels 4 and 10, you learn another
@@ -25,7 +25,7 @@ system:
       Warlock Features table.</p><p><strong>Current Max Cantrips Known:</strong>
       [[lookup @scale.warlock.cantrips-known]]</p><p><strong>Spell
       Slots.</strong> The
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock
       Features table} shows how many spell slots you have to cast your Warlock
       spells of levels 1–5. The table also shows the level of those slots, all
       of which are the same level. You regain all expended Pact Magic spell
@@ -35,8 +35,8 @@ system:
       level 3 spell.</p><p><strong>Prepared Spells of Level 1+.</strong> You
       prepare the list of level 1+ spells that are available for you to cast
       with this feature. To start, choose two level 1 Warlock spells.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex} are
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm Person} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplHex0000000]{Hex} are
       recommended.</p><p><strong>Current Max Prepared Spells:</strong> [[lookup
       @scale.warlock.max-prepared]]</p><p>The number of spells on your list
       increases as you gain Warlock levels, as shown in the Prepared Spells
@@ -79,14 +79,14 @@ system:
   identifier: pact-magic
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745515016388

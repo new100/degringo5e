@@ -591,7 +591,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpiderClimb000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719421
@@ -643,7 +643,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWebWalker00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719421
@@ -789,7 +789,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -797,7 +797,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719421
@@ -910,7 +910,7 @@ items:
     img: icons/creatures/webs/web-thin-pruple.webp
     effects:
       - name: Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmWeb00000000000
         _id: fihuYABujdt7o9uo
         type: base
@@ -947,7 +947,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -956,7 +956,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantSpider000.mmWeb00000000000.fihuYABujdt7o9uo
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -964,7 +964,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWeb00000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719421
@@ -983,7 +983,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679134446
   modifiedTime: 1745712719448

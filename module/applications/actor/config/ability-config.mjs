@@ -14,7 +14,7 @@ export default class AbilityConfig extends BaseProficiencyConfig {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/ability-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/ability-config.hbs"
     }
   };
 
@@ -24,7 +24,7 @@ export default class AbilityConfig extends BaseProficiencyConfig {
 
   /** @override */
   get propertyConfig() {
-    return CONFIG.DND5E.abilities[this.options.key];
+    return CONFIG.DEGRINGO5E.abilities[this.options.key];
   }
 
   /* -------------------------------------------- */
@@ -35,8 +35,8 @@ export default class AbilityConfig extends BaseProficiencyConfig {
   async _preparePartContext(partId, context, options) {
     context = await super._preparePartContext(partId, context, options);
     context.proficiencyOptions = [
-      { value: 0, label: CONFIG.DND5E.proficiencyLevels[0] },
-      { value: 1, label: CONFIG.DND5E.proficiencyLevels[1] }
+      { value: 0, label: CONFIG.DEGRINGO5E.proficiencyLevels[0] },
+      { value: 1, label: CONFIG.DEGRINGO5E.proficiencyLevels[1] }
     ];
     return context;
   }

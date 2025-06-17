@@ -9,7 +9,7 @@ system:
 
       <p>This helm has 3 charges. While wearing it, you can use an action and
       expend 1 charge to cast the
-      @UUID[Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV]{Teleport} spell from
+      @UUID[Compendium.degringo5e.spells.Item.L4J89JXqbKs6puEV]{Teleport} spell from
       it. The helm regains 1d3 expended charges daily at dawn.</p>
     chat: ''
   source:
@@ -64,7 +64,7 @@ system:
     q6yG1p248C9kcHFU:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV
+        uuid: Compendium.degringo5e.spells.Item.L4J89JXqbKs6puEV
         challenge:
           attack: null
           save: null
@@ -118,14 +118,14 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037130501
   modifiedTime: 1729015959596

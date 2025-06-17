@@ -11,8 +11,8 @@ system:
   description:
     value: >-
       <p>You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
       cantrips. In addition, you can spend 10 minutes casting
       <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP),
       such as a toy, fire starter, or music box. When you create the device, you
@@ -50,7 +50,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340837858
   modifiedTime: 1745687030511

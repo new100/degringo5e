@@ -12,7 +12,7 @@ system:
       action to pull the fuzzy object from the bag and throw it up to 20 feet.
       When the object lands, it transforms into a creature you determine by
       rolling on the table that corresponds to the bag's color. See
-      @UUID[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}
+      @UUID[Compendium.degringo5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}
       for the creature's stat block. The creature vanishes at the next dawn or
       when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you
       and your allies, and it acts immediately after you on your Initiative
@@ -21,7 +21,7 @@ system:
       absence of such orders, the creature acts in a fashion appropriate to its
       nature.</p><p>Once three fuzzy objects have been pulled from the bag, the
       bag can't be used again until the next
-      dawn.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgGrayBagOfTric
+      dawn.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgGrayBagOfTric
       rollable]</p></div>
     chat: ''
   identifier: bag-of-tricks
@@ -128,7 +128,7 @@ system:
         - count: ''
           name: ''
           _id: 0Ucu6AtxqkzgKsd9
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobWeasel0000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobWeasel0000
           level:
             min: null
             max: null
@@ -136,7 +136,7 @@ system:
         - count: ''
           name: ''
           _id: sz8G8hKLXnov0Ogq
-          uuid: Compendium.dnd5e.actors24.Actor.q1YJIeIt6rK8fCKn
+          uuid: Compendium.degringo5e.actors24.Actor.q1YJIeIt6rK8fCKn
           level:
             min: null
             max: null
@@ -144,7 +144,7 @@ system:
         - count: ''
           name: ''
           _id: DuOt4Z41ZMs4foqq
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobBadger0000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobBadger0000
           level:
             min: null
             max: null
@@ -152,7 +152,7 @@ system:
         - count: ''
           name: ''
           _id: J1kF0U6RizYz9jaa
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobBoar000000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobBoar000000
           level:
             min: null
             max: null
@@ -160,7 +160,7 @@ system:
         - count: ''
           name: ''
           _id: vrkqGgFiq2kOG1kt
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobPanther000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobPanther000
           level:
             min: null
             max: null
@@ -168,7 +168,7 @@ system:
         - count: ''
           name: ''
           _id: iV4Q4Qjp73ZCcLqx
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobGiantBadge
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobGiantBadge
           level:
             min: null
             max: null
@@ -176,7 +176,7 @@ system:
         - count: ''
           name: ''
           _id: iYlBabuB5uOig7hm
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobDireWolf00
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobDireWolf00
           level:
             min: null
             max: null
@@ -184,7 +184,7 @@ system:
         - count: ''
           name: ''
           _id: 9txdXobEjQtYqTT7
-          uuid: Compendium.dnd5e.actors24.Actor.hQt3qIahnB1Odb40
+          uuid: Compendium.degringo5e.actors24.Actor.hQt3qIahnB1Odb40
           level:
             min: null
             max: null
@@ -198,14 +198,14 @@ system:
       appliedEffects: []
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698014

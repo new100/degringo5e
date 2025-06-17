@@ -408,13 +408,13 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmBreastplat]{Breastplate},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield}</p></div><h1>Guards</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Zh9j3VBgGnsvq9x4
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmBreastplat]{Breastplate},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLongsword0]{Longsword},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield}</p></div><h1>Guards</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Zh9j3VBgGnsvq9x4
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Guard
-        Captain</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vTvxvndvzT5NYBJi
+        Captain</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vTvxvndvzT5NYBJi
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -710,15 +710,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepJavelin000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepJavelin000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720783
@@ -875,15 +875,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepLongsword0
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepLongsword0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720783
@@ -950,10 +950,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmBreastplat
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmBreastplat
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720783
@@ -1024,10 +1024,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmShield0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720783
@@ -1089,7 +1089,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1119,7 +1119,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1127,7 +1127,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720783
@@ -1143,7 +1143,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712720812

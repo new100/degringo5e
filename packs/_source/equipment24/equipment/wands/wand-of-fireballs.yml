@@ -7,7 +7,7 @@ system:
     sKJAqxMR2KArEp0o:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: 15
@@ -70,7 +70,7 @@ system:
       <p><em>Wand, Rare (Requires Attunement by a Spellcaster)</em></p><p>This
       wand has 7 charges. While holding it, you can expend no more than 3
       charges to cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (save DC
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball} (save DC
       15) from it. For 1 charge, you cast the level 3 version of the spell. You
       can increase the spell's level by 1 for each additional charge you
       expend.</p><p><em><strong>Regaining Charges.</strong></em> The wand
@@ -141,14 +141,14 @@ system:
 effects: []
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704623

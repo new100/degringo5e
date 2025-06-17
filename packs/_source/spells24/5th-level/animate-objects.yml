@@ -23,11 +23,11 @@ system:
       Higher-Level Spell Slot.</strong> The creature's Slam damage increases by
       1d4 (Medium or smaller), 1d6 (Large), or 1d12 (Huge) for each spell slot
       level above 5.</p><h3>Animated Object
-      Sizes</h3><p>@UUID[Compendium.dnd5e.actors24.Actor.phbtaoAnimatedOb]{Tiny},
-      @UUID[Compendium.dnd5e.actors24.Actor.phbsaoAnimatedOb]{Small},
-      @UUID[Compendium.dnd5e.actors24.Actor.phbmaoAnimatedOb]{Medium},
-      @UUID[Compendium.dnd5e.actors24.Actor.phblaoAnimatedOb]{Large},
-      @UUID[Compendium.dnd5e.actors24.Actor.phbhaoAnimatedOb]{Huge}</p>
+      Sizes</h3><p>@UUID[Compendium.degringo5e.actors24.Actor.phbtaoAnimatedOb]{Tiny},
+      @UUID[Compendium.degringo5e.actors24.Actor.phbsaoAnimatedOb]{Small},
+      @UUID[Compendium.degringo5e.actors24.Actor.phbmaoAnimatedOb]{Medium},
+      @UUID[Compendium.degringo5e.actors24.Actor.phblaoAnimatedOb]{Large},
+      @UUID[Compendium.degringo5e.actors24.Actor.phbhaoAnimatedOb]{Huge}</p>
     chat: ''
   source:
     custom: ''
@@ -118,7 +118,7 @@ system:
         - count: floor(@attributes.spell.mod / 3)
           name: Huge Object (costs 3)
           _id: wlo67rwZWeVG9YzC
-          uuid: Compendium.dnd5e.actors24.Actor.phbhaoAnimatedOb
+          uuid: Compendium.degringo5e.actors24.Actor.phbhaoAnimatedOb
           level:
             min: null
             max: null
@@ -126,7 +126,7 @@ system:
         - count: floor(@attributes.spell.mod / 2)
           name: Large Object (costs 2)
           _id: 9gKBKcYbDDeyXoPY
-          uuid: Compendium.dnd5e.actors24.Actor.phblaoAnimatedOb
+          uuid: Compendium.degringo5e.actors24.Actor.phblaoAnimatedOb
           level:
             min: null
             max: null
@@ -134,7 +134,7 @@ system:
         - count: '@attributes.spell.mod'
           name: Medium Object
           _id: j8huhBMmSxwSoBCq
-          uuid: Compendium.dnd5e.actors24.Actor.phbmaoAnimatedOb
+          uuid: Compendium.degringo5e.actors24.Actor.phbmaoAnimatedOb
           level:
             min: null
             max: null
@@ -142,7 +142,7 @@ system:
         - count: '@attributes.spell.mod'
           name: Small Object
           _id: TZYGQ4aQjvvAIRPe
-          uuid: Compendium.dnd5e.actors24.Actor.phbsaoAnimatedOb
+          uuid: Compendium.degringo5e.actors24.Actor.phbsaoAnimatedOb
           level:
             min: null
             max: null
@@ -150,7 +150,7 @@ system:
         - count: '@attributes.spell.mod'
           name: Tiny Object
           _id: RUknezIXLCycNPIH
-          uuid: Compendium.dnd5e.actors24.Actor.phbtaoAnimatedOb
+          uuid: Compendium.degringo5e.actors24.Actor.phbtaoAnimatedOb
           level:
             min: null
             max: null
@@ -173,14 +173,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425940723
   modifiedTime: 1745256785510

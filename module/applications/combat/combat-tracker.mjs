@@ -70,7 +70,7 @@ export default class CombatTracker5e extends foundry.applications.sidebar.tabs.C
       const children = list.querySelectorAll(Array.from(combatants).map(c => `[data-combatant-id="${c.id}"]`).join(", "));
       if ( !children.length ) continue;
       const groupContainer = document.createElement("li");
-      groupContainer.classList.add("combatant", "combatant-group", "collapsible", "dnd5e2-collapsible");
+      groupContainer.classList.add("combatant", "combatant-group", "collapsible", "degringo5e2-collapsible");
       if ( !expanded ) groupContainer.classList.add("collapsed");
 
       // Determine the count
@@ -78,12 +78,12 @@ export default class CombatTracker5e extends foundry.applications.sidebar.tabs.C
       for ( const [index, element] of children.entries() ) {
         if ( element.classList.contains("active") ) activeEntry = index;
       }
-      let count = game.i18n.format(`DND5E.COMBATANT.Counted.${getPluralRules().select(children.length)}`, {
+      let count = game.i18n.format(`DEGRINGO5E.COMBATANT.Counted.${getPluralRules().select(children.length)}`, {
         number: formatNumber(children.length)
       });
       if ( activeEntry !== undefined ) {
         groupContainer.classList.add("active");
-        count = game.i18n.format("DND5E.COMBAT.Group.ActiveCount", {
+        count = game.i18n.format("DEGRINGO5E.COMBAT.Group.ActiveCount", {
           combatants: count, current: formatNumber(activeEntry + 1)
         });
       }
@@ -108,7 +108,7 @@ export default class CombatTracker5e extends foundry.applications.sidebar.tabs.C
         </div>
       `;
       groupContainer.dataset.groupKey = key;
-      groupContainer.querySelector(".name").innerText = game.i18n.format("DND5E.COMBAT.Group.Title", { name });
+      groupContainer.querySelector(".name").innerText = game.i18n.format("DEGRINGO5E.COMBAT.Group.Title", { name });
       children[0].before(groupContainer);
       groupContainer.querySelector(".group-children").replaceChildren(...children);
       groupContainer.addEventListener("click", event => {

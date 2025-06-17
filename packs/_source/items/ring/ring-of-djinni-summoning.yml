@@ -9,7 +9,7 @@ system:
 
       <p>While wearing this ring, you can speak its command word as an action to
       summon a particular
-      @UUID[Compendium.dnd5e.monsters.Actor.5P1VGAZQwOilwZQf]{Djinni} from the
+      @UUID[Compendium.degringo5e.monsters.Actor.5P1VGAZQwOilwZQf]{Djinni} from the
       Elemental Plane of Air. The djinni appears in an unoccupied space you
       choose within 120 feet of you. It remains as long as you concentrate (as
       if concentrating on a spell), to a maximum of 1 hour, or until it drops to
@@ -137,7 +137,7 @@ system:
             min: null
             max: null
           types: []
-          uuid: Compendium.dnd5e.monsters.Actor.5P1VGAZQwOilwZQf
+          uuid: Compendium.degringo5e.monsters.Actor.5P1VGAZQwOilwZQf
       summon:
         prompt: true
         mode: ''
@@ -153,14 +153,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037257586
   modifiedTime: 1731017333155

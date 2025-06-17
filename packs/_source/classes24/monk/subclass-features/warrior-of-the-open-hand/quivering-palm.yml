@@ -121,7 +121,7 @@ system:
         targets:
           - type: itemUses
             value: '4'
-            target: Compendium.dnd5e.classes24.Item.phbmnkMonksFocus
+            target: Compendium.degringo5e.classes24.Item.phbmnkMonksFocus
             scaling: {}
       description:
         chatFlavor: ''
@@ -162,8 +162,8 @@ system:
   identifier: quivering-palm
 effects:
   - name: Lethal Vibrations
-    img: systems/dnd5e/icons/svg/items/feature.svg
-    origin: Compendium.dnd5e.classes24.Item.phbmnkQuiveringP
+    img: systems/degringo5e/icons/svg/items/feature.svg
+    origin: Compendium.degringo5e.classes24.Item.phbmnkQuiveringP
     transfer: false
     _id: GnIJc9uI54mfAQz8
     type: base
@@ -187,7 +187,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -195,14 +195,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbmnkQuiveringP.GnIJc9uI54mfAQz8'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866574822
   modifiedTime: 1745256763321

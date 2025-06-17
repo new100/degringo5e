@@ -22,7 +22,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classfeatures.YgLQV1O849wE5TgM
+          - uuid: Compendium.degringo5e.classfeatures.YgLQV1O849wE5TgM
             optional: false
         optional: false
         spell:
@@ -38,7 +38,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classfeatures.dHu1yzIjD38BvGGd
+          - uuid: Compendium.degringo5e.classfeatures.dHu1yzIjD38BvGGd
             optional: false
         optional: false
         spell:
@@ -54,7 +54,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classfeatures.kYJsED0rqqqUcgKz
+          - uuid: Compendium.degringo5e.classfeatures.kYJsED0rqqqUcgKz
             optional: false
         optional: false
         spell:
@@ -70,7 +70,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classfeatures.aVKH6TLn1AG9hPSA
+          - uuid: Compendium.degringo5e.classfeatures.aVKH6TLn1AG9hPSA
             optional: false
         optional: false
         spell:
@@ -86,7 +86,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classfeatures.ipG5yx1tRNmeJfSH
+          - uuid: Compendium.degringo5e.classfeatures.ipG5yx1tRNmeJfSH
             optional: false
         optional: false
         spell:
@@ -108,12 +108,12 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classfeatures.8YwPFv3UAPjWVDNf
-          - uuid: Compendium.dnd5e.classfeatures.zSlV0O2rQMdoq6pB
-          - uuid: Compendium.dnd5e.classfeatures.hCop9uJrWhF1QPb4
-          - uuid: Compendium.dnd5e.classfeatures.3Nc6u9pyStByuJsm
-          - uuid: Compendium.dnd5e.classfeatures.06NVMYf58Z76O85O
-          - uuid: Compendium.dnd5e.classfeatures.mHcSjcHJ8oZu3hkb
+          - uuid: Compendium.degringo5e.classfeatures.8YwPFv3UAPjWVDNf
+          - uuid: Compendium.degringo5e.classfeatures.zSlV0O2rQMdoq6pB
+          - uuid: Compendium.degringo5e.classfeatures.hCop9uJrWhF1QPb4
+          - uuid: Compendium.degringo5e.classfeatures.3Nc6u9pyStByuJsm
+          - uuid: Compendium.degringo5e.classfeatures.06NVMYf58Z76O85O
+          - uuid: Compendium.degringo5e.classfeatures.mHcSjcHJ8oZu3hkb
         spell:
           ability: []
           preparation: ''
@@ -143,7 +143,7 @@ _id: sprHbe7cRg9osTzf
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037373027
   modifiedTime: 1725992730683

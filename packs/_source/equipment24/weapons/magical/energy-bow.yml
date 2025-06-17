@@ -93,7 +93,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
       appliedEffects: []
     tb2iE3Kl3QUgMeO4:
       type: utility
@@ -148,7 +148,7 @@ system:
         name: ''
         formula: ''
       name: Energy Ladder
-      img: systems/dnd5e/icons/svg/size.svg
+      img: systems/degringo5e/icons/svg/size.svg
       appliedEffects: []
     chvrwNIzOx8rq5fE:
       type: enchant
@@ -273,8 +273,8 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepLongbow000]{Longbow} or
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very
       Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls
       and damage rolls made with this magic weapon, which has no string. Each
       time you pull your arm back in a firing motion, a magical arrow made of
@@ -305,7 +305,7 @@ system:
       The arrows become glowing rungs that stick out of the wall, forming a
       magical ladder up to 60 feet long on the wall. This ladder lasts for 1
       minute before disappearing.</p></details><p>
-      @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: energy-bow
@@ -374,7 +374,7 @@ system:
 effects:
   - type: enchantment
     name: Energy Bow
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     _id: jQnQ2ghbt7j3nWke
     system: {}
@@ -394,7 +394,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgEnergyBow0000
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgEnergyBow0000
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -444,14 +444,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1730326243999
       modifiedTime: 1745611759074
@@ -459,8 +459,8 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgEnergyBow0000.jQnQ2ghbt7j3nWke'
   - name: Restrained (Arrow of Restraint)
-    img: systems/dnd5e/icons/svg/statuses/restrained.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgEnergyBow0000
+    img: systems/degringo5e/icons/svg/statuses/restrained.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgEnergyBow0000
     transfer: false
     _id: Yw1oocFffwM4cePn
     type: base
@@ -490,7 +490,7 @@ effects:
         Compendium.dnd-dungeon-masters-guide.equipment.Item.dmgEnergyBow0000.ActiveEffect.8hnthmLhtIdRp00M
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730327456828
       modifiedTime: 1730327456828
@@ -499,7 +499,7 @@ effects:
     _key: '!items.effects!dmgEnergyBow0000.Yw1oocFffwM4cePn'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - fBce4PkKN7HiCmRd
@@ -510,7 +510,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745611751175

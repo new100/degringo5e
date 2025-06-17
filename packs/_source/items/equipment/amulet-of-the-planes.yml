@@ -9,7 +9,7 @@ system:
       Amulet, you can use an action to name a location that you are familiar
       with on another plane of existence. Then make a DC 15 Intelligence check.
       On a successful check, you cast the
-      @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} spell.
+      @UUID[Compendium.degringo5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} spell.
       On a failure, you and each creature and object within 15 feet of you
       travel to a random destination. Roll a d100. On a 1-60, you travel to a
       random location on the plane you named. On a 61-100, you travel to a
@@ -64,7 +64,7 @@ system:
     38pYKge1C3c2wPLF:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz
+        uuid: Compendium.degringo5e.spells.Item.J6Jpw5XzB5aTeqnz
         challenge:
           attack: null
           save: null
@@ -165,14 +165,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037111223
   modifiedTime: 1730325171275

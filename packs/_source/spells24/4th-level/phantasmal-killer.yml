@@ -120,7 +120,7 @@ type: spell
 img: icons/magic/death/undead-ghosts-trio-blue.webp
 effects:
   - name: Fears Manifested
-    origin: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+    origin: Compendium.degringo5e.spells24.Item.phbsplPhantasmal
     duration:
       rounds: null
       startTime: null
@@ -149,7 +149,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -161,14 +161,14 @@ sort: 1100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425965711
   modifiedTime: 1745256796719

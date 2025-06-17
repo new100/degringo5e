@@ -22,9 +22,9 @@ system:
       it can be used again.</p><p>Each pouch of the haversack holds enough air
       for 10 minutes of breathing, divided by the number of breathing creatures
       inside.</p><p>Placing the haversack inside an extradimensional space
-      created by a @UUID[Compendium.dnd5e.equipment24.Item.dmgBagOfHolding0]{Bag
+      created by a @UUID[Compendium.degringo5e.equipment24.Item.dmgBagOfHolding0]{Bag
       of Holding},
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgPortableHole0]{Portable Hole},
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgPortableHole0]{Portable Hole},
       or similar item instantly destroys both items and opens a gate to the
       Astral Plane. The gate originates where the one item was placed inside the
       other. Any creature within 10 feet of the gate and not behind Total Cover
@@ -68,7 +68,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700688

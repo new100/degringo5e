@@ -150,7 +150,7 @@ system:
         name: Weather Change Delay
       name: Change Conditions
       _id: ucJPCYAaXqiukPF9
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects: []
   identifier: control-weather
 _id: phbsplControlWea
@@ -162,14 +162,14 @@ sort: 106250
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425947807
   modifiedTime: 1745256789335

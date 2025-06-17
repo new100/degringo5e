@@ -2,7 +2,7 @@ name: Goliath
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000
       inline classes="free-rules-embed"]</p><h3
       data-anchor="goliath-traits">Goliath Traits</h3><p><strong>Creature Type:
       </strong>Humanoid</p><p><strong>Size: </strong>Medium (about 7–8 feet
@@ -57,9 +57,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptGiantAnces
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptGiantAnces
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptPowerfulBu
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptPowerfulBu
             optional: false
         optional: false
         spell: null
@@ -77,12 +77,12 @@ system:
         allowDrops: false
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptCloudsJaun
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptFiresBurn0
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptFrostsChil
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptHillsTumbl
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptStonesEndu
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptStormsThun
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptCloudsJaun
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptFiresBurn0
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptFrostsChil
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptHillsTumbl
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptStonesEndu
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptStormsThun
         spell: null
         restriction:
           type: race
@@ -100,7 +100,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptLargeForm0
+            uuid: Compendium.degringo5e.origins24.Item.phbsptLargeForm0
         optional: false
         spell: null
       value: {}
@@ -139,7 +139,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340849458
   modifiedTime: 1745687141161

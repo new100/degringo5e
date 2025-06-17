@@ -31,12 +31,12 @@ system:
 effects:
   - name: Luck
     img: icons/commodities/flowers/clover.webp
-    origin: Compendium.dnd5e.origins24.Item.phbsptLuck000000
+    origin: Compendium.degringo5e.origins24.Item.phbsptLuck000000
     _id: k1FDpZEBCHzRsFSA
     type: base
     system: {}
     changes:
-      - key: flags.dnd5e.halflingLucky
+      - key: flags.degringo5e.halflingLucky
         mode: 5
         value: 'true'
         priority: null
@@ -59,7 +59,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -68,14 +68,14 @@ effects:
     _key: '!items.effects!phbsptLuck000000.k1FDpZEBCHzRsFSA'
 folder: zVLJosGQ7viZqH14
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866704040
   modifiedTime: 1745256777445

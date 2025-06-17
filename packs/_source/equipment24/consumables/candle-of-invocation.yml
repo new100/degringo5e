@@ -108,7 +108,7 @@ system:
           override: false
         level: '9'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGate000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGate000000
       img: ''
   uses:
     spent: 0
@@ -127,11 +127,11 @@ system:
       In addition, a Cleric or Druid in the light can cast level 1 spells they
       have prepared without expending spell slots.</p><p>Alternatively, when you
       light the candle for the first time, you can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGate000000]{Gate}</em> with
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGate000000]{Gate}</em> with
       it. Doing so destroys the candle. The portal created by the spell links to
       a particular Outer Plane chosen by the GM or determined by rolling on the
       following
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgCandleOfInvoc
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgCandleOfInvoc
       rollable]</p>
     chat: ''
   identifier: candle-of-invocation
@@ -174,7 +174,7 @@ system:
 effects:
   - name: Lit Candle of Invocation
     img: icons/sundries/lights/candles-lit-red-evil.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgCandleOfInvoc
+    origin: Compendium.degringo5e.equipment24.Item.dmgCandleOfInvoc
     transfer: false
     _id: gN0PgSLPlbsD8T2g
     type: base
@@ -202,7 +202,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1728928218637
       modifiedTime: 1728928572384
@@ -210,14 +210,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgCandleOfInvoc.gN0PgSLPlbsD8T2g'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698463

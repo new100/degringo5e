@@ -8,30 +8,30 @@ system:
     value: >-
       <p>You have learned to cast spells through studying the mystical forces of
       nature. See
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter
       7} for the rules on spellcasting. The information below details how you
       use those rules with Druid spells, which appear on the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid
       spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of
       your choice from the Druid spell list.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplProduceFla]{Produce Flame} are
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplProduceFla]{Produce Flame} are
       recommended.</p><p>Whenever you gain a Druid level, you can replace one of
       your cantrips with another cantrip of your choice from the Druid spell
       list.</p><p>When you reach Druid levels 4 and 10, you learn another
       cantrip of your choice from the Druid spell list, as shown in the Cantrips
       column of the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
       Features} table.</p><p><strong>Spell Slots.</strong> The Druid Features
       table shows how many spell slots you have to cast your level 1+ spells.
       You regain all expended slots when you finish a Long
       Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the
       list of level 1+ spells that are available for you to cast with this
       feature. To start, choose four level 1 spells from the Druid spell list.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}, and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave} are
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}, and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplThunderwav]{Thunderwave} are
       recommended.</p><p>The number of spells on your list increases as you gain
       Druid levels, as shown in the Prepared Spells column of the Druid Features
       table. Whenever that number increases, choose additional spells from the
@@ -73,14 +73,14 @@ system:
   identifier: spellcasting
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1745256761309

@@ -69,9 +69,9 @@ system:
   description:
     value: >-
       <div><p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, or
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, or
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare
       (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and
       damage rolls made with this magic weapon. In addition, while you are
       attuned to this weapon, your Hit Point maximum increases by 1 for each
@@ -93,7 +93,7 @@ system:
       used up all your available movement. If the creature dies or can no longer
       be seen or heard by you, the next nearest creature that you can see or
       hear becomes your new target.</p></section></div><p>
-      @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: berserker-axe
@@ -192,7 +192,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: 1728595622060
       modifiedTime: 1728595804921
@@ -201,7 +201,7 @@ effects:
     _key: '!items.effects!dmgBerserkerAxe0.7W0LDyDY0mcAVS1J'
   - type: enchantment
     name: Berserker Axe
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     _id: J4bEaPvFwAGKSrPm
     system: {}
@@ -221,7 +221,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgBerserkerAxe0
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgBerserkerAxe0
           caption=false]</p>
         priority: null
       - key: system.magicalBonus
@@ -251,7 +251,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730835222661
       modifiedTime: 1730835379186
@@ -260,7 +260,7 @@ effects:
     _key: '!items.effects!dmgBerserkerAxe0.J4bEaPvFwAGKSrPm'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect:
@@ -268,7 +268,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745433480191

@@ -178,7 +178,7 @@ type: spell
 img: icons/magic/nature/root-vines-grow-brown.webp
 effects:
   - name: Ensnared
-    origin: Compendium.dnd5e.spells24.Item.phbsplEnsnaringS
+    origin: Compendium.degringo5e.spells24.Item.phbsplEnsnaringS
     duration:
       rounds: null
       startTime: null
@@ -212,7 +212,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1725050339054
@@ -224,14 +224,14 @@ sort: 3500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425952139
   modifiedTime: 1745256792301

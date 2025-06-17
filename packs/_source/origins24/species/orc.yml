@@ -2,7 +2,7 @@ name: Orc
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="orc-traits">Orc
       Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size:
       </strong>Medium (about 6–7 feet tall)</p><p><strong>Speed:</strong> 30
@@ -38,9 +38,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptAdrenaline
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptAdrenaline
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptRelentless
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptRelentless
             optional: false
         optional: false
         spell: null
@@ -80,7 +80,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340861480
   modifiedTime: 1745687229095

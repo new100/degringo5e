@@ -47,7 +47,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbbrdBardicInsp
+            target: Compendium.degringo5e.classes24.Item.phbbrdBardicInsp
             scaling: {}
         scaling:
           allowed: false
@@ -94,19 +94,19 @@ system:
         max: ''
       sort: 0
       name: Cut with Words
-      img: systems/dnd5e/icons/svg/damage/psychic.svg
+      img: systems/degringo5e/icons/svg/damage/psychic.svg
   enchant: {}
   identifier: cutting-words
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866506195
   modifiedTime: 1740680081116

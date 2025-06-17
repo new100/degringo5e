@@ -16,7 +16,7 @@ export default class SpellSlotsConfig extends BaseConfigSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/spell-slots-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/spell-slots-config.hbs"
     }
   };
 
@@ -26,7 +26,7 @@ export default class SpellSlotsConfig extends BaseConfigSheet {
 
   /** @override */
   get title() {
-    return game.i18n.localize("DND5E.SpellSlotsConfig");
+    return game.i18n.localize("DEGRINGO5E.SpellSlotsConfig");
   }
 
   /* -------------------------------------------- */
@@ -39,17 +39,17 @@ export default class SpellSlotsConfig extends BaseConfigSheet {
 
     const source = this.document._source.system.spells;
     const { spells } = this.document.system;
-    context.overrides = Array.fromRange(Object.keys(CONFIG.DND5E.spellLevels).length - 1, 1).map(level => ({
+    context.overrides = Array.fromRange(Object.keys(CONFIG.DEGRINGO5E.spellLevels).length - 1, 1).map(level => ({
       value: source[`spell${level}`]?.override,
-      label: CONFIG.DND5E.spellLevels[level],
+      label: CONFIG.DEGRINGO5E.spellLevels[level],
       name: `system.spells.spell${level}.override`,
       placeholder: spells[`spell${level}`]?.max ?? 0
     }));
 
-    for ( const k of Object.keys(CONFIG.DND5E.spellcastingTypes) ) {
+    for ( const k of Object.keys(CONFIG.DEGRINGO5E.spellcastingTypes) ) {
       const hasSpell = this.document.items.some(i => i.type === "spell" && i.system.preparation.mode === k);
       if ( parseInt(spells[k]?.level) || hasSpell ) context.overrides.push({
-        label: CONFIG.DND5E.spellPreparationModes[k].label,
+        label: CONFIG.DEGRINGO5E.spellPreparationModes[k].label,
         value: source[k]?.override,
         name: `system.spells.${k}.override`,
         placeholder: spells[k]?.max ?? 0

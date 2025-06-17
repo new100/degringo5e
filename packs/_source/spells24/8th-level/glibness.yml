@@ -99,7 +99,7 @@ img: icons/skills/social/peace-luck-insult.webp
 effects:
   - name: Glib
     img: icons/magic/control/mouth-smile-deception-purple.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplGlibness00
+    origin: Compendium.degringo5e.spells24.Item.phbsplGlibness00
     transfer: false
     _id: tWt9b1JlQpDYbhfj
     type: base
@@ -123,7 +123,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725302248130
       modifiedTime: 1725302490813
@@ -135,14 +135,14 @@ sort: 100391
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956480
   modifiedTime: 1745256793764

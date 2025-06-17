@@ -11,9 +11,9 @@ system:
       vines, creepers, and so forth, and it gains senses similar to a human's.
       The DM chooses statistics appropriate for the awakened Plant, such as the
       statistics for the
-      <strong>@UUID[Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Awakened
+      <strong>@UUID[Compendium.degringo5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Awakened
       Shrub}</strong> or
-      <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened
+      <strong>@UUID[Compendium.degringo5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened
       Tree}</strong> in the <em>Monster Manual</em>.</p><p>The awakened target
       has the &amp;Reference[Charmed] condition for 30 days or until you or your
       allies deal damage to it. When that condition ends, the awakened creature
@@ -107,14 +107,14 @@ sort: 3700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425942310
   modifiedTime: 1745256786269

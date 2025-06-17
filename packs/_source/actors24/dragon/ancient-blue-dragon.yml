@@ -605,7 +605,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -638,7 +638,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -646,7 +646,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -708,7 +708,7 @@ items:
         value: >-
           <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
           It can replace one attack with a use of [[/item Spellcasting]] to cast
-          @UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Shatter} (level
+          @UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter} (level
           3 version).</p>
         chat: ''
       identifier: multiattack
@@ -730,7 +730,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -738,7 +738,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -888,7 +888,7 @@ items:
     img: icons/skills/melee/shield-damaged-broken-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -896,7 +896,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -1018,7 +1018,7 @@ items:
     img: icons/magic/lightning/bolt-strike-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1026,7 +1026,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLightningBreat
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -1047,7 +1047,7 @@ items:
         IHZ0zdX2oDJpETxa:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
             challenge:
               attack: null
               save: null
@@ -1092,7 +1092,7 @@ items:
         TF4DpKenlbgpJ2jI:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+            uuid: Compendium.degringo5e.spells24.Item.phbsplInvisibili
             challenge:
               attack: null
               save: null
@@ -1137,7 +1137,7 @@ items:
         zWJyRMFGYregSraa:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplMageHand00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplMageHand00
             challenge:
               attack: null
               save: null
@@ -1182,7 +1182,7 @@ items:
         0xVoBjoBlcYCB45o:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplShatter000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplShatter000
             challenge:
               attack: null
               save: null
@@ -1227,7 +1227,7 @@ items:
         O83uJwNqQQMd4TRh:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplScrying000
             challenge:
               attack: null
               save: null
@@ -1277,7 +1277,7 @@ items:
         FjVJerNY5nCuxX8e:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplSending000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplSending000
             challenge:
               attack: null
               save: null
@@ -1335,16 +1335,16 @@ items:
           as the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
           Will:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
           Magic}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage
           Hand}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Shatter}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em>
           (level 3 version)</p><p class="feature-trait"><strong>1/Day
           Each:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSending000]{Sending}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSending000]{Sending}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1365,7 +1365,7 @@ items:
     img: icons/magic/symbols/circled-gem-pink.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1373,7 +1373,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpellcasting00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -1491,7 +1491,7 @@ items:
     img: icons/magic/symbols/runes-carved-stone-green.webp
     effects:
       - name: Detect Magic
-        origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        origin: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
         duration:
           rounds: null
           startTime: null
@@ -1514,10 +1514,10 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1528,9 +1528,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.IHZ0zdX2oDJpETxa
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.IHZ0zdX2oDJpETxa
         changes:
           - key: system.properties
             mode: 2
@@ -1556,7 +1556,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1569,16 +1569,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.IHZ0zdX2oDJpETxa
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -1687,7 +1687,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        origin: Compendium.degringo5e.spells24.Item.phbsplInvisibili
         duration:
           rounds: null
           startTime: null
@@ -1698,7 +1698,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        img: systems/degringo5e/icons/svg/statuses/invisible.svg
         _id: 9svfDetqjhsFP3ey
         type: base
         system: {}
@@ -1715,7 +1715,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1726,9 +1726,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.TF4DpKenlbgpJ2jI
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.TF4DpKenlbgpJ2jI
         changes:
           - key: system.properties
             mode: 2
@@ -1754,7 +1754,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1767,13 +1767,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.TF4DpKenlbgpJ2jI
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplInvisibili
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -1891,7 +1891,7 @@ items:
             - count: ''
               name: ''
               _id: yXLZxwYBIj9AR2iQ
-              uuid: Compendium.dnd5e.actors24.Actor.phbsplMageHand00
+              uuid: Compendium.degringo5e.actors24.Actor.phbsplMageHand00
               level:
                 min: null
                 max: null
@@ -1908,9 +1908,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.zWJyRMFGYregSraa
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.zWJyRMFGYregSraa
         changes:
           - key: system.properties
             mode: 2
@@ -1936,7 +1936,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1949,16 +1949,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.zWJyRMFGYregSraa
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMageHand00
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplMageHand00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -2084,9 +2084,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.0xVoBjoBlcYCB45o
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.0xVoBjoBlcYCB45o
         changes:
           - key: system.properties
             mode: 2
@@ -2112,7 +2112,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2125,13 +2125,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.0xVoBjoBlcYCB45o
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplShatter000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplShatter000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -2667,7 +2667,7 @@ items:
             - count: ''
               name: ''
               _id: qLrzNj7kNKH7AlO9
-              uuid: Compendium.dnd5e.actors24.Actor.phbInvisibleSens
+              uuid: Compendium.degringo5e.actors24.Actor.phbInvisibleSens
               level:
                 min: null
                 max: null
@@ -2685,9 +2685,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.O83uJwNqQQMd4TRh
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.O83uJwNqQQMd4TRh
         changes:
           - key: system.properties
             mode: 2
@@ -2713,7 +2713,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2726,13 +2726,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.O83uJwNqQQMd4TRh
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplScrying000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplScrying000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -2845,9 +2845,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.FjVJerNY5nCuxX8e
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.FjVJerNY5nCuxX8e
         changes:
           - key: system.properties
             mode: 2
@@ -2873,7 +2873,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2886,13 +2886,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.FjVJerNY5nCuxX8e
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSending000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplSending000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -2951,7 +2951,7 @@ items:
             properties:
               - material
             spellbook: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+            uuid: Compendium.degringo5e.spells24.Item.phbsplInvisibili
             ability: ''
           name: ''
       uses:
@@ -2961,7 +2961,7 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]</em> on
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]</em> on
           itself, and it can fly up to half its Fly Speed. The dragon can't take
           this action again until the start of its next turn.</p>
         chat: ''
@@ -2984,7 +2984,7 @@ items:
     img: icons/magic/holy/angel-wings-gray.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2992,7 +2992,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCloakedFlight0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -3103,7 +3103,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        origin: Compendium.degringo5e.spells24.Item.phbsplInvisibili
         duration:
           rounds: null
           startTime: null
@@ -3114,7 +3114,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        img: systems/degringo5e/icons/svg/statuses/invisible.svg
         _id: 9svfDetqjhsFP3ey
         type: base
         system: {}
@@ -3131,7 +3131,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3142,9 +3142,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmCloakedFlight0.Activity.oUuMoEOsosDRcuNZ
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmCloakedFlight0.Activity.oUuMoEOsosDRcuNZ
         changes:
           - key: system.activation
             mode: 5
@@ -3174,7 +3174,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3187,13 +3187,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmCloakedFlight0.Activity.oUuMoEOsosDRcuNZ
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplInvisibili
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -3251,7 +3251,7 @@ items:
             level: 3
             properties: []
             spellbook: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplShatter000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplShatter000
             ability: ''
           name: ''
       uses:
@@ -3262,7 +3262,7 @@ items:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] uses Spellcasting to
           cast
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Shatter}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em>
           (level 3 version). The [[lookup @name lowercase]] can't take this
           action again until the start of its next turn.</p>
         chat: ''
@@ -3285,7 +3285,7 @@ items:
     img: icons/magic/sonic/explosion-shock-wave-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3293,7 +3293,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSonicBoom00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -3421,9 +3421,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmAncientBlueDra.Item.mmSonicBoom00000.Activity.ijIOufHOvI06vyN3
+          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSonicBoom00000.Activity.ijIOufHOvI06vyN3
         changes:
           - key: system.activation
             mode: 5
@@ -3449,7 +3449,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3462,13 +3462,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSonicBoom00000.Activity.ijIOufHOvI06vyN3
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplShatter000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplShatter000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -3529,7 +3529,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -3558,7 +3558,7 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3566,7 +3566,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTailSwipe00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712712139
@@ -3579,12 +3579,12 @@ items:
 effects: []
 folder: xmXOrBADA4LyJOGl
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712712183

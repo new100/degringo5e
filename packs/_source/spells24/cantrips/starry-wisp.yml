@@ -122,7 +122,7 @@ img: icons/magic/light/orb-hand-green.webp
 effects:
   - name: Illuminated
     img: icons/sundries/lights/lantern-iron-lit-yellow.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+    origin: Compendium.degringo5e.spells24.Item.phbsplStarryWisp
     transfer: false
     _id: T9kBIL7LS3j0Upwz
     type: base
@@ -148,7 +148,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725561224825
       modifiedTime: 1725561513735
@@ -160,14 +160,14 @@ sort: 100782
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425972403
   modifiedTime: 1745256798707

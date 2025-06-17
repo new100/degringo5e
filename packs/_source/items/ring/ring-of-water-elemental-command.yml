@@ -10,7 +10,7 @@ system:
       <p>This ring is linked to the Elemental Plane of Water.</p>
 
       <p>While wearing this ring, you have advantage on attack rolls against
-      @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{Water Elemental}s,
+      @UUID[Compendium.degringo5e.monsters.Actor.namJz755U1EhvEJa]{Water Elemental}s,
       and they have disadvantage on attack rolls against you. In addition, you
       have access to properties based on the linked plane.</p>
 
@@ -19,7 +19,7 @@ system:
 
       <p><strong>Ring of Water Elemental Command</strong>. You can expend 2 of
       the ring's charges to cast
-      @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
+      @UUID[Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
       a Water Elemental. In addition, you can stand on and walk across liquid
       surfaces as if they were solid ground. You can also speak and understand
       Aquan.</p>
@@ -34,11 +34,11 @@ system:
 
       <li>You can cast the following spells from the ring, expending the
       necessary number of charges:
-      @UUID[Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5]{Create or Destroy
+      @UUID[Compendium.degringo5e.spells.Item.a3XtAO5n2GrqiAh5]{Create or Destroy
       Water} (1 charge),
-      @UUID[Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{Control Water} (3
-      charges), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Ice Storm}
-      (2 charges), or @UUID[Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up]{Wall
+      @UUID[Compendium.degringo5e.spells.Item.7fFHlBk3UNX8gPKL]{Control Water} (3
+      charges), @UUID[Compendium.degringo5e.spells.Item.WN2LWEljYU6QqnRH]{Ice Storm}
+      (2 charges), or @UUID[Compendium.degringo5e.spells.Item.fzZnVKLmBMo2f5up]{Wall
       of Ice} (3 charges).</li>
 
       </ul>
@@ -95,7 +95,7 @@ system:
     UXQJwXpxp8Jg9y5Y:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
+        uuid: Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp
         challenge:
           attack: null
           save: 17
@@ -149,7 +149,7 @@ system:
     5dYgpmrfsu4gThpP:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5
+        uuid: Compendium.degringo5e.spells.Item.a3XtAO5n2GrqiAh5
         challenge:
           attack: null
           save: 17
@@ -199,7 +199,7 @@ system:
     x44Euvr98lcnkosn:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL
+        uuid: Compendium.degringo5e.spells.Item.7fFHlBk3UNX8gPKL
         challenge:
           attack: null
           save: 17
@@ -249,7 +249,7 @@ system:
     rrDO95DYgnJAMlkX:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
+        uuid: Compendium.degringo5e.spells.Item.WN2LWEljYU6QqnRH
         challenge:
           attack: null
           save: 17
@@ -299,7 +299,7 @@ system:
     RMqCV3LnQUBLFMq0:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up
+        uuid: Compendium.degringo5e.spells.Item.fzZnVKLmBMo2f5up
         challenge:
           attack: null
           save: 17
@@ -354,14 +354,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037152579
   modifiedTime: 1729016694291

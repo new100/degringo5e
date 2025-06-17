@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Pit
-        Fiend</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bBzXVjiSjkZzn8oA
+        Fiend</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bBzXVjiSjkZzn8oA
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -602,7 +602,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDiabolicalRest
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -712,7 +712,7 @@ items:
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmFearAura000000
         _id: Sb7G5OyhGbjLUoWo
         type: base
@@ -740,7 +740,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -749,7 +749,7 @@ items:
         _key: >-
           !actors.items.effects!mmPitFiend000000.mmFearAura000000.Sb7G5OyhGbjLUoWo
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -757,7 +757,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFearAura000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -808,7 +808,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -871,7 +871,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -901,7 +901,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -909,7 +909,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -974,7 +974,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1007,7 +1007,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1015,7 +1015,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -1266,8 +1266,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmPitFiend000000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmBite0000000000
         _id: O1edMGJIx0MF1uze
         type: base
         system: {}
@@ -1294,7 +1294,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1303,7 +1303,7 @@ items:
         _key: >-
           !actors.items.effects!mmPitFiend000000.mmBite0000000000.O1edMGJIx0MF1uze
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1311,7 +1311,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -1446,7 +1446,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDevilishClaw00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -1598,7 +1598,7 @@ items:
     img: icons/magic/fire/barrier-shield-explosion-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1606,7 +1606,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFieryMace00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -1670,7 +1670,7 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
             ability: cha
           name: ''
         UYyJcxVTi3IXTydV:
@@ -1719,7 +1719,7 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+            uuid: Compendium.degringo5e.spells24.Item.phbsplHoldMonste
             ability: cha
           name: ''
         d7nppEGoUKLye9JS:
@@ -1768,7 +1768,7 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+            uuid: Compendium.degringo5e.spells24.Item.phbsplWallofFire
             ability: cha
           name: ''
       uses:
@@ -1781,13 +1781,13 @@ items:
       description:
         value: >-
           <p class="feature">The pit fiend casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em>
           (level 5 version) twice, requiring no Material components and using
           Charisma as the spellcasting ability (spell save DC [[lookup
           @abilities.cha.dc]]).. It can replace one <em>Fireball</em> with
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold
           Monster}</em> (level 7 version) or
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of
           Fire}.</em></p>
         chat: ''
       identifier: hellfire-spellcasting
@@ -1809,7 +1809,7 @@ items:
     img: icons/magic/fire/explosion-flame-lightning-strike.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1817,7 +1817,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmHellfireSpellc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -1950,9 +1950,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.fN8SjzxRhERq8DlF
+          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.fN8SjzxRhERq8DlF
         changes:
           - key: system.ability
             mode: 5
@@ -1982,7 +1982,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1995,13 +1995,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmHellfireSpellc.Activity.fN8SjzxRhERq8DlF
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFireball00
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplFireball00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -2114,7 +2114,7 @@ items:
     img: icons/magic/control/encase-creature-monster-hold.webp
     effects:
       - name: Paralyzed
-        origin: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+        origin: Compendium.degringo5e.spells24.Item.phbsplHoldMonste
         duration:
           rounds: null
           startTime: null
@@ -2125,7 +2125,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         _id: vC7qgyy8cjgi3t0T
         type: base
         system: {}
@@ -2142,7 +2142,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2153,9 +2153,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.UYyJcxVTi3IXTydV
+          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.UYyJcxVTi3IXTydV
         changes:
           - key: system.ability
             mode: 5
@@ -2185,7 +2185,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2198,13 +2198,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmHellfireSpellc.Activity.UYyJcxVTi3IXTydV
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHoldMonste
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -2479,9 +2479,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.d7nppEGoUKLye9JS
+          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.d7nppEGoUKLye9JS
         changes:
           - key: system.ability
             mode: 5
@@ -2511,7 +2511,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2524,13 +2524,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmHellfireSpellc.Activity.d7nppEGoUKLye9JS
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplWallofFire
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724901
@@ -2541,12 +2541,12 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712724940

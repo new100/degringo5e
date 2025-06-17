@@ -26,7 +26,7 @@ export default class BaseRestDialog extends Dialog5e {
     position: {
       width: 380
     },
-    templates: ["systems/dnd5e/templates/actors/rest/rest-request.hbs"]
+    templates: ["systems/degringo5e/templates/actors/rest/rest-request.hbs"]
   };
 
   /* -------------------------------------------- */
@@ -68,8 +68,8 @@ export default class BaseRestDialog extends Dialog5e {
    * @type {boolean}
    */
   get promptNewDay() {
-    const duration = CONFIG.DND5E.restTypes[this.config.type]
-      ?.duration?.[game.settings.get("dnd5e", "restVariant")] ?? 0;
+    const duration = CONFIG.DEGRINGO5E.restTypes[this.config.type]
+      ?.duration?.[game.settings.get("degringo5e", "restVariant")] ?? 0;
     // Only prompt if rest is longer than 10 minutes and less than 24 hours
     return (duration > 10) && (duration < 1440);
   }
@@ -102,24 +102,24 @@ export default class BaseRestDialog extends Dialog5e {
       hd: this.actor.system.attributes?.hd,
       hp: this.actor.system.attributes?.hp,
       isGroup: this.actor.type === "group",
-      variant: game.settings.get("dnd5e", "restVariant")
+      variant: game.settings.get("degringo5e", "restVariant")
     };
     if ( this.promptNewDay ) context.fields.push({
       disabled: !!this.config.request,
       field: new BooleanField({
-        label: game.i18n.localize("DND5E.REST.NewDay.Label"),
-        hint: game.i18n.localize("DND5E.REST.NewDay.Hint")
+        label: game.i18n.localize("DEGRINGO5E.REST.NewDay.Label"),
+        hint: game.i18n.localize("DEGRINGO5E.REST.NewDay.Hint")
       }),
       input: context.inputs.createCheckboxInput,
       name: "newDay",
       value: context.config.newDay
     });
 
-    const rest = CONFIG.DND5E.restTypes[this.config.type];
+    const rest = CONFIG.DEGRINGO5E.restTypes[this.config.type];
     if ( "recoverTemp" in rest ) context.hitPoints.push({
       disabled: !!this.config.request,
       field: new BooleanField({
-        label: game.i18n.localize("DND5E.REST.RecoverTempHP.Label")
+        label: game.i18n.localize("DEGRINGO5E.REST.RecoverTempHP.Label")
       }),
       input: context.inputs.createCheckboxInput,
       name: "recoverTemp",
@@ -128,8 +128,8 @@ export default class BaseRestDialog extends Dialog5e {
     if ( "recoverTempMax" in rest ) context.hitPoints.push({
       disabled: !!this.config.request,
       field: new BooleanField({
-        label: game.i18n.localize("DND5E.REST.RecoverTempMaxHP.Label"),
-        hint: game.i18n.localize("DND5E.REST.RecoverTempMaxHP.Hint")
+        label: game.i18n.localize("DEGRINGO5E.REST.RecoverTempMaxHP.Label"),
+        hint: game.i18n.localize("DEGRINGO5E.REST.RecoverTempMaxHP.Hint")
       }),
       input: context.inputs.createCheckboxInput,
       name: "recoverTempMax",
@@ -137,12 +137,12 @@ export default class BaseRestDialog extends Dialog5e {
     });
 
     if ( this.isPartyGroup ) {
-      const restSettings = this.actor.getFlag("dnd5e", "restSettings") ?? {};
+      const restSettings = this.actor.getFlag("degringo5e", "restSettings") ?? {};
       context.request = [
         {
           field: new BooleanField({
-            label: game.i18n.localize("DND5E.REST.Request.AutoRest.Label"),
-            hint: game.i18n.localize("DND5E.REST.Request.AutoRest.Hint")
+            label: game.i18n.localize("DEGRINGO5E.REST.Request.AutoRest.Label"),
+            hint: game.i18n.localize("DEGRINGO5E.REST.Request.AutoRest.Hint")
           }),
           name: "autoRest",
           input: context.inputs.createCheckboxInput,
@@ -179,7 +179,7 @@ export default class BaseRestDialog extends Dialog5e {
     const data = foundry.utils.expandObject(formData.object);
     if ( this.isPartyGroup ) {
       data.targets = filteredKeys(data.targets ?? {});
-      this.actor.setFlag("dnd5e", "restSettings", data);
+      this.actor.setFlag("degringo5e", "restSettings", data);
     }
     foundry.utils.mergeObject(this.config, data);
     this.#rested = true;
@@ -204,7 +204,7 @@ export default class BaseRestDialog extends Dialog5e {
           {
             default: true,
             icon: "fa-solid fa-bed",
-            label: game.i18n.localize("DND5E.REST.Label"),
+            label: game.i18n.localize("DEGRINGO5E.REST.Label"),
             name: "rest",
             type: "submit"
           }

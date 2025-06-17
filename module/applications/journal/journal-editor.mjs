@@ -15,7 +15,7 @@ export default class JournalEditor extends DocumentSheet5e {
 
   /** @override */
   static DEFAULT_OPTIONS = {
-    classes: ["journal-editor", "dnd5e2-journal"],
+    classes: ["journal-editor", "degringo5e2-journal"],
     window: {
       resizable: true
     },
@@ -35,7 +35,7 @@ export default class JournalEditor extends DocumentSheet5e {
   /** @override */
   static PARTS = {
     editor: {
-      template: "systems/dnd5e/templates/journal/journal-editor.hbs"
+      template: "systems/degringo5e/templates/journal/journal-editor.hbs"
     }
   };
 

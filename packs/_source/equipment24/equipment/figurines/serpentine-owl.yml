@@ -3,9 +3,9 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This serpentine statuette of an owl can become
-      a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGiantOwl000000]{Giant
+      a <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmGiantOwl000000]{Giant
       Owl}</strong> for up to 8 hours. The owl can communicate telepathically
       with you at any range if you and it are on the same plane of existence.
       Once it has been used, it can't be used again until 2 days have
@@ -84,7 +84,7 @@ system:
             min: null
             max: null
           types: []
-          uuid: Compendium.dnd5e.actors24.Actor.VVXly3ue0i3YgGrB
+          uuid: Compendium.degringo5e.actors24.Actor.VVXly3ue0i3YgGrB
       summon:
         prompt: true
         mode: ''
@@ -144,14 +144,14 @@ sort: 175000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781760022
   modifiedTime: 1745712700279

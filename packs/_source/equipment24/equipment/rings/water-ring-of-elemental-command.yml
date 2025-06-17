@@ -60,7 +60,7 @@ system:
     vTkZY9QUnH16jHrV:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplCreateorDe
+        uuid: Compendium.degringo5e.spells24.Item.phbsplCreateorDe
         challenge:
           attack: null
           save: null
@@ -110,7 +110,7 @@ system:
     pBLKd2Ukm41DD9Tw:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplIceStorm00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplIceStorm00
         challenge:
           attack: null
           save: 18
@@ -161,7 +161,7 @@ system:
     f78Oiitz2BMcKx6i:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWaterWalk0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWaterWalk0
         challenge:
           attack: null
           save: null
@@ -212,7 +212,7 @@ system:
     J9591oTJtg4nJxEA:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplTsunami000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplTsunami000
         challenge:
           attack: null
           save: 18
@@ -262,7 +262,7 @@ system:
     OsiNV2wXjfJPtpUx:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWallofIce0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWallofIce0
         challenge:
           attack: null
           save: 18
@@ -345,13 +345,13 @@ system:
       must expend to cast the spell, which has a save DC of
       18.</p><table><thead><tr><th
       style="min-width:50px"><p>Plane</p></th><th><p>Spells
-      (Charges)</p></th></tr></thead><tbody><tr><td><p>Water</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create
+      (Charges)</p></th></tr></thead><tbody><tr><td><p>Water</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateorDe]{Create
       or Destroy Water} (1 charge),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami}
-      (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplTsunami000]{Tsunami}
+      (5 charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofIce0]{Wall
       of Ice} (3 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2
       charges)</p></td></tr></tbody></table>
     chat: ''
   identifier: ring-of-elemental-command
@@ -395,8 +395,8 @@ system:
   proficient: null
 effects:
   - name: Charmed
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfElement
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfElement
     transfer: false
     _id: cN85nWiTzfGzWR7D
     type: base
@@ -421,7 +421,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -430,14 +430,14 @@ effects:
     _key: '!items.effects!dmgWaterRingOfEl.cN85nWiTzfGzWR7D'
 folder: DC1x1wAm0NLFudA6
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730684815591
   modifiedTime: 1745712704871

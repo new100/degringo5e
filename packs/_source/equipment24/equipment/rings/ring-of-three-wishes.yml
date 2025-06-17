@@ -8,7 +8,7 @@ system:
     WZblPpwjjlyTdHJk:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWish000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWish000000
         challenge:
           attack: null
           save: null
@@ -63,7 +63,7 @@ system:
     value: >-
       <p><em>Ring, Legendary</em></p><p>While wearing this ring, you can expend
       1 of its 3 charges to cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish} from it. The
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish} from it. The
       ring becomes nonmagical when you use the last charge.</p>
     chat: ''
   identifier: ring-of-three-wishes
@@ -107,14 +107,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

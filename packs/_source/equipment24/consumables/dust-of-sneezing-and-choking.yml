@@ -75,7 +75,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Uncommon</em></p><p>Found in a small container, this
       powder resembles
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfDisappe]{Dust of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDustOfDisappe]{Dust of
       Disappearance}, and <em>Identify</em> reveals it to be such. There is
       enough of it for one use.</p><p>As a Utilize action, you can throw the
       dust into the air, forcing yourself and every creature in a 30-foot
@@ -86,7 +86,7 @@ system:
       creature [[/save ability=con dc=15]]{repeats the save} at the end of each
       of its turns, ending the effect on itself on a success. The effect also
       ends on any creature targeted by a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
       Restoration}</em> spell.</p>
     chat: ''
   identifier: dust-of-sneezing-and-choking
@@ -128,8 +128,8 @@ system:
     - mgc
 effects:
   - name: Incapacitated and Suffocating (Sneezing)
-    img: systems/dnd5e/icons/svg/statuses/suffocation.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin
+    img: systems/degringo5e/icons/svg/statuses/suffocation.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgDustOfSneezin
     transfer: false
     _id: AZcO17cLsTHbb0P9
     type: base
@@ -146,12 +146,12 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]<br /></em>The
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDustOfSneezin]<br /></em>The
       creature has the Incapacitated condition and is suffocating. The creature
       [[/save ability=con dc=15]]{repeats the save} at the end of each of its
       turns, ending the effect on itself on a success. The effect also ends on
       any creature targeted by a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
       Restoration}</em> spell.</p>
     tint: '#ffffff'
     statuses:
@@ -163,7 +163,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729285520227
       modifiedTime: 1729285803498
@@ -171,14 +171,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgDustOfSneezin.AZcO17cLsTHbb0P9'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699512

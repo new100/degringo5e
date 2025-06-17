@@ -47,11 +47,11 @@ export default class Token5e extends foundry.canvas.placeables.Token {
     // Allocate percentages of the total
     const tempPct = Math.clamp(temp, 0, displayMax) / displayMax;
     const colorPct = Math.clamp(value, 0, effectiveMax) / displayMax;
-    const hpColor = dnd5e.documents.Actor5e.getHPColor(value, effectiveMax);
+    const hpColor = degringo5e.documents.Actor5e.getHPColor(value, effectiveMax);
 
     // Determine colors to use
     const blk = 0x000000;
-    const c = CONFIG.DND5E.tokenHPColors;
+    const c = CONFIG.DEGRINGO5E.tokenHPColors;
 
     // Determine the container size (logic borrowed from core)
     let s = canvas.dimensions.uiScale;

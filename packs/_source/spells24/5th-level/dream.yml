@@ -121,7 +121,7 @@ type: spell
 img: icons/magic/control/sleep-bubble-purple.webp
 effects:
   - name: Trance State
-    origin: Compendium.dnd5e.spells24.Item.phbsplDream00000
+    origin: Compendium.degringo5e.spells24.Item.phbsplDream00000
     duration:
       rounds: null
       startTime: null
@@ -169,7 +169,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -181,14 +181,14 @@ sort: 2100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425951385
   modifiedTime: 1745256791862

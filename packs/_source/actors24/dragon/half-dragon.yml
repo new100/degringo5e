@@ -595,7 +595,7 @@ items:
     effects:
       - name: Acid Resistance
         img: icons/magic/acid/dissolve-pool-bubbles.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         _id: RM0B2jICsibgFm0E
         type: base
         system: {}
@@ -623,7 +623,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -633,7 +633,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.RM0B2jICsibgFm0E
       - name: Cold Resistance
         img: icons/magic/water/snowflake-ice-purple.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -660,7 +660,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -671,7 +671,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.uZOPfiqPvCCLReTj
       - name: Fire Resistance
         img: icons/magic/fire/flame-burning-earth-orange.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -698,7 +698,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -709,7 +709,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.br641pBi8PTZSTJf
       - name: Poison Resistance
         img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -732,14 +732,14 @@ items:
         statuses: []
         sort: 0
         flags:
-          dnd5e:
+          degringo5e:
             riders:
               statuses: []
         _stats:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -750,7 +750,7 @@ items:
           !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.srrXvF207wssH68S
       - name: Lightning Resistance
         img: icons/magic/lightning/bolt-strike-blue-white.webp
-        origin: Compendium.dnd5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
+        origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
         type: base
         system: {}
         changes:
@@ -773,14 +773,14 @@ items:
         statuses: []
         sort: 0
         flags:
-          dnd5e:
+          degringo5e:
             riders:
               statuses: []
         _stats:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -794,7 +794,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDraconicOrigin
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
@@ -876,7 +876,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -884,7 +884,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
@@ -1038,7 +1038,7 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1046,7 +1046,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
@@ -1171,7 +1171,7 @@ items:
     img: icons/creatures/abilities/dragon-fire-breath-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1179,7 +1179,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDragonsBreath0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
@@ -1244,7 +1244,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1274,7 +1274,7 @@ items:
     img: icons/skills/movement/arrows-up-trio-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1282,7 +1282,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLeap0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720917
@@ -1298,7 +1298,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712720945

@@ -12,9 +12,9 @@ system:
       sorcery point if the spell is a cantrip).</p><p>To be eligible, a spell
       must be incapable of targeting more than one creature at the spell's
       current level. For example,
-      @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} and
-      @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray} aren't
-      eligible, but @UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5]{Ray of
+      @UUID[Compendium.degringo5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} and
+      @UUID[Compendium.degringo5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray} aren't
+      eligible, but @UUID[Compendium.degringo5e.spells.Item.ctW81uiX56xZR2c5]{Ray of
       Frost} is.</p>
     chat: ''
   source:
@@ -44,7 +44,7 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq
+            target: Compendium.degringo5e.classfeatures.Item.LBKChJY5n02Afhnq
             value: '1'
             scaling:
               mode: ''
@@ -103,7 +103,7 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037383988
   modifiedTime: 1725992288335

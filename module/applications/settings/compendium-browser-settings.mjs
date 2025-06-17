@@ -59,7 +59,7 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
     classes: ["dialog-lg"],
     tag: "form",
     window: {
-      title: "DND5E.CompendiumBrowser.Sources.Label",
+      title: "DEGRINGO5E.CompendiumBrowser.Sources.Label",
       icon: "fas fa-book-open-reader",
       resizable: true
     },
@@ -80,11 +80,11 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
   static PARTS = {
     sidebar: {
       id: "sidebar",
-      template: "systems/dnd5e/templates/compendium/sources-sidebar.hbs"
+      template: "systems/degringo5e/templates/compendium/sources-sidebar.hbs"
     },
     packs: {
       id: "packs",
-      template: "systems/dnd5e/templates/compendium/sources-packs.hbs"
+      template: "systems/degringo5e/templates/compendium/sources-packs.hbs"
     }
   };
 
@@ -212,8 +212,8 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
         const { packageName, flags } = metadata;
         let tag = "";
         // Special case handling for D&D SRD.
-        if ( packageName === "dnd5e" ) {
-          tag = flags?.dnd5e?.sourceBook?.replace("SRD ", "");
+        if ( packageName === "degringo5e" ) {
+          tag = flags?.degringo5e?.sourceBook?.replace("SRD ", "");
         }
         return {
           tag, title,
@@ -334,8 +334,8 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
       case "package": packs = this._onTogglePackage(target); break;
       default: return;
     }
-    const setting = { ...game.settings.get("dnd5e", "packSourceConfiguration"), ...packs };
-    await game.settings.set("dnd5e", "packSourceConfiguration", setting);
+    const setting = { ...game.settings.get("degringo5e", "packSourceConfiguration"), ...packs };
+    await game.settings.set("degringo5e", "packSourceConfiguration", setting);
     this.render();
   }
 
@@ -378,7 +378,7 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
    */
   static collateSources() {
     const sources = new Set();
-    const setting = game.settings.get("dnd5e", "packSourceConfiguration");
+    const setting = game.settings.get("degringo5e", "packSourceConfiguration");
     for ( const { collection, documentName } of game.packs ) {
       if ( (documentName !== "Actor") && (documentName !== "Item") ) continue;
       if ( setting[collection] !== false ) sources.add(collection);

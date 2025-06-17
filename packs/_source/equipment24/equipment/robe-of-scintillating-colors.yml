@@ -180,7 +180,7 @@ system:
 effects:
   - name: Stunned
     img: icons/magic/light/beam-explosion-orange.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgRobeOfScintil
+    origin: Compendium.degringo5e.equipment24.Item.dmgRobeOfScintil
     transfer: false
     _id: yQoovzqIXdUiUcU4
     type: base
@@ -205,7 +205,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730678860086
       modifiedTime: 1730678903794
@@ -213,14 +213,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgRobeOfScintil.yQoovzqIXdUiUcU4'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702941

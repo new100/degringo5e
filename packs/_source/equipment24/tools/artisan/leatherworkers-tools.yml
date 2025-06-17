@@ -5,20 +5,20 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Dexterity</p><p
       class="phb-meta"><strong>Utilize:</strong> Add a design to a leather item
       (DC 10)</p><p class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSling00000]{Sling},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepWhip000000]{Whip},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmHideArmor0]{Hide Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSling00000]{Sling},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepWhip000000]{Whip},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmHideArmor0]{Hide Armor},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded Leather
       Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack},
-      @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseMaporSc]{Map or Scroll
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBackpack000]{Backpack},
+      @UUID[Compendium.degringo5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCaseMaporSc]{Map or Scroll
       Case},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagParchment00]{Parchment},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouch},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagQuiver00000]{Quiver},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagWaterskin00]{Waterskin}</p>
     chat: ''
   source:
     custom: ''
@@ -120,14 +120,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917276
   modifiedTime: 1740680142065

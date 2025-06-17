@@ -1,15 +1,15 @@
 <fieldset class="card levels">
-    <legend>{{ localize "DND5E.ADVANCEMENT.ItemChoice.FIELDS.choices.label" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.ADVANCEMENT.ItemChoice.FIELDS.choices.label" }}</legend>
     <div class="header">
         <span class="level-header">
-            {{ localize "DND5E.AbbreviationLevel" }}
+            {{ localize "DEGRINGO5E.AbbreviationLevel" }}
         </span>
         <span class="count-header">
-            {{ localize "DND5E.ADVANCEMENT.ItemChoice.FIELDS.choices.FIELDS.count.label" }}
+            {{ localize "DEGRINGO5E.ADVANCEMENT.ItemChoice.FIELDS.choices.FIELDS.count.label" }}
         </span>
         <span class="replacement-header">
             <i class="fa-solid fa-shuffle" data-tooltip
-               aria-label="{{ localize 'DND5E.ADVANCEMENT.ItemChoice.FIELDS.choices.FIELDS.replacement.label' }}"></i>
+               aria-label="{{ localize 'DEGRINGO5E.ADVANCEMENT.ItemChoice.FIELDS.choices.FIELDS.replacement.label' }}"></i>
         </span>
     </div>
     <ol class="levels-list unlist">
@@ -21,8 +21,8 @@
                        min="1" step="1">
             </div>
             <div class="level-replacement">
-                <dnd5e-checkbox name="configuration.choices.{{ @key }}.replacement"
-                                {{ checked replacement }}></dnd5e-checkbox>
+                <degringo5e-checkbox name="configuration.choices.{{ @key }}.replacement"
+                                {{ checked replacement }}></degringo5e-checkbox>
             </div>
         </li>
         {{/each}}

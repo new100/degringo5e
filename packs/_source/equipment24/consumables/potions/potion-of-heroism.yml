@@ -72,7 +72,7 @@ system:
       <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain 10
       Temporary Hit Points that last for 1 hour. For the same duration, you are
       under the effect of the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless} spell (no
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplBless00000]{Bless} spell (no
       Concentration required).</p><p>This potion's blue liquid bubbles and
       steams as if boiling.</p>
     chat: ''
@@ -146,7 +146,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.dnd5e.equipment24.Item.dmgPotionOfHeroi
+    origin: Compendium.degringo5e.equipment24.Item.dmgPotionOfHeroi
     tint: '#ffffff'
     transfer: false
     name: Blessed
@@ -156,10 +156,10 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
+        Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730863613614
       modifiedTime: 1730863634882
@@ -171,14 +171,14 @@ effects:
     sort: 0
     _key: '!items.effects!dmgPotionOfHeroi.dHNT1jBXfvYuNH16'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807479

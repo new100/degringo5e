@@ -680,8 +680,8 @@ items:
     img: icons/skills/melee/shield-damaged-broken-orange.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmTiger000000000.Item.mmRend0000000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmTiger000000000.Item.mmRend0000000000
         _id: 9A6Hpr7hApdISok9
         type: base
         system: {}
@@ -708,7 +708,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -717,7 +717,7 @@ items:
         _key: >-
           !actors.items.effects!mmTiger000000000.mmRend0000000000.9A6Hpr7hApdISok9
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -725,7 +725,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728590
@@ -789,7 +789,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -818,7 +818,7 @@ items:
     img: icons/skills/movement/ball-spinning-blue.webp
     effects:
       - name: Apply Hide Action to Target
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
+        img: systems/degringo5e/icons/svg/statuses/hiding.svg
         origin: Item.mmNimbleEscape00
         _id: 7U7Pe61lsMZgN7qh
         type: base
@@ -852,7 +852,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -861,7 +861,7 @@ items:
         _key: >-
           !actors.items.effects!mmTiger000000000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -869,7 +869,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNimbleEscape00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728590
@@ -888,7 +888,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679136283
   modifiedTime: 1745712728616

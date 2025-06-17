@@ -19,14 +19,14 @@ export default class CastSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/cast-identity.hbs",
+      template: "systems/degringo5e/templates/activity/cast-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/cast-effect.hbs",
+      template: "systems/degringo5e/templates/activity/cast-effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/cast-spell.hbs",
-        "systems/dnd5e/templates/activity/parts/cast-details.hbs"
+        "systems/degringo5e/templates/activity/parts/cast-spell.hbs",
+        "systems/degringo5e/templates/activity/parts/cast-details.hbs"
       ]
     }
   };
@@ -51,18 +51,18 @@ export default class CastSheet extends ActivitySheet {
 
     if ( context.spell ) {
       context.contentLink = context.spell.toAnchor().outerHTML;
-      if ( context.spell.system.level > 0 ) context.levelOptions = Object.entries(CONFIG.DND5E.spellLevels)
+      if ( context.spell.system.level > 0 ) context.levelOptions = Object.entries(CONFIG.DEGRINGO5E.spellLevels)
         .filter(([level]) => Number(level) >= context.spell.system.level)
         .map(([value, label]) => ({ value, label }));
     }
 
     context.abilityOptions = [
-      { value: "", label: game.i18n.localize("DND5E.Spellcasting") },
+      { value: "", label: game.i18n.localize("DEGRINGO5E.Spellcasting") },
       { rule: true },
-      ...Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label }))
+      ...Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label }))
     ];
-    context.propertyOptions = Array.from(CONFIG.DND5E.validProperties.spell).map(value => ({
-      value, label: CONFIG.DND5E.itemProperties[value]?.label ?? ""
+    context.propertyOptions = Array.from(CONFIG.DEGRINGO5E.validProperties.spell).map(value => ({
+      value, label: CONFIG.DEGRINGO5E.itemProperties[value]?.label ?? ""
     }));
 
     return context;
@@ -82,7 +82,7 @@ export default class CastSheet extends ActivitySheet {
   /** @inheritDoc */
   _getTabs() {
     const tabs = super._getTabs();
-    tabs.effect.label = "DND5E.CAST.SECTIONS.Spell";
+    tabs.effect.label = "DEGRINGO5E.CAST.SECTIONS.Spell";
     tabs.effect.icon = "fa-solid fa-wand-sparkles";
     return tabs;
   }

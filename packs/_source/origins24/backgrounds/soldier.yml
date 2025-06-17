@@ -4,21 +4,21 @@ system:
     value: >-
       <p><strong>Ability Scores:</strong> Strength, Dexterity,
       Constitution</p><p><strong>Feat:</strong>
-      @UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{Savage
+      @UUID[Compendium.degringo5e.feats24.Item.phbftSavageAttac]{Savage
       Attacker}</p><p><strong>Skill Proficiencies:</strong> Athletics and
       Intimidation</p><p><strong>Tool Proficiency:</strong> <em>Choose one kind
       of</em> <em>Gaming Set</em> (see
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{chapter
       6})</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, Gaming
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSpear00000]{Spear},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoArrows0000]{Arrows}, Gaming
       Set (same as above),
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer's Kit},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver},
-      @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagHealersKit0]{Healer's Kit},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagQuiver00000]{Quiver},
+      @UUID[Compendium.degringo5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes},
       14 GP; or (B) 50
-      GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000
+      GP</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSoldier0000
       inline classes="free-rules-embed"]</p>
     chat: ''
   source:
@@ -35,21 +35,21 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepSpear00000
+      key: Compendium.degringo5e.equipment24.Item.phbwepSpear00000
       requiresProficiency: false
       _id: DtQbHpEADm0GisSh
       group: tjUkY8Vnhv56vBSI
       sort: 200000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepShortbow00
+      key: Compendium.degringo5e.equipment24.Item.phbwepShortbow00
       requiresProficiency: false
       _id: XNRbfyybOUcefRds
       group: tjUkY8Vnhv56vBSI
       sort: 300000
     - type: linked
       count: 20
-      key: Compendium.dnd5e.equipment24.Item.phbamoArrows0000
+      key: Compendium.degringo5e.equipment24.Item.phbamoArrows0000
       requiresProficiency: false
       _id: eTkEm2kVE7f0O858
       group: tjUkY8Vnhv56vBSI
@@ -63,21 +63,21 @@ system:
       sort: 500000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagHealersKit0
+      key: Compendium.degringo5e.equipment24.Item.phbagHealersKit0
       requiresProficiency: false
       _id: 1YAWN3EyOKg2hPrV
       group: tjUkY8Vnhv56vBSI
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagQuiver00000
+      key: Compendium.degringo5e.equipment24.Item.phbagQuiver00000
       requiresProficiency: false
       _id: UJMbdz4YGev9s0NK
       group: tjUkY8Vnhv56vBSI
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT
+      key: Compendium.degringo5e.items.Item.SsAmWV6YBqeOFihT
       requiresProficiency: false
       _id: pgQLCuuBfGxbMKTl
       group: tjUkY8Vnhv56vBSI
@@ -133,7 +133,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.feats24.Item.phbftSavageAttac
+            uuid: Compendium.degringo5e.feats24.Item.phbftSavageAttac
         optional: false
         spell: null
       value: {}
@@ -171,7 +171,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866651037
   modifiedTime: 1745687998374

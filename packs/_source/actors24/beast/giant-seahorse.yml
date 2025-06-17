@@ -744,7 +744,7 @@ items:
     img: icons/creatures/fish/jellyfish-swarm-eyed-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -752,7 +752,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRam00000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719303
@@ -815,7 +815,7 @@ items:
             name: ''
             formula: ''
           name: Expand Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -845,7 +845,7 @@ items:
     img: icons/magic/water/orb-water-bubbles-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -853,7 +853,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBubbleDash0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719303
@@ -902,7 +902,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWaterBreathing
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719303
@@ -921,7 +921,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679134347
   modifiedTime: 1745712719335

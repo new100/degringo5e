@@ -71,8 +71,8 @@ export default class EnchantmentApplicationElement extends HTMLElement {
 
     // Calculate the maximum targets
     let item = this.enchantmentItem;
-    const scaling = this.chatMessage.getFlag("dnd5e", "scaling");
-    if ( scaling ) item = item.clone({ "flags.dnd5e.scaling": scaling });
+    const scaling = this.chatMessage.getFlag("degringo5e", "scaling");
+    if ( scaling ) item = item.clone({ "flags.degringo5e.scaling": scaling });
     const activity = item.system.activities.get(this.enchantmentActivity.id);
     const maxTargets = activity.target?.affects?.count;
     if ( maxTargets ) {
@@ -82,7 +82,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
         this.querySelector(".enchantment-control").append(div);
         this.countArea = this.querySelector(".count-area");
       }
-      this.countArea.innerHTML = game.i18n.format("DND5E.ENCHANT.Enchanted", {
+      this.countArea.innerHTML = game.i18n.format("DEGRINGO5E.ENCHANT.Enchanted", {
         current: '<span class="current">0</span>',
         max: `<span class="max">${maxTargets}<span>`
       });
@@ -100,7 +100,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
    * the card list.
    */
   buildItemList() {
-    const enchantedItems = dnd5e.registry.enchantments.applied(this.enchantmentActivity.uuid).map(enchantment => {
+    const enchantedItems = degringo5e.registry.enchantments.applied(this.enchantmentActivity.uuid).map(enchantment => {
       const item = enchantment.parent;
       const div = document.createElement("div");
       div.classList.add("preview");
@@ -113,16 +113,16 @@ export default class EnchantmentApplicationElement extends HTMLElement {
       div.querySelector(".name").append(item.name);
       if ( item.isOwner ) {
         const control = document.createElement("a");
-        control.ariaLabel = game.i18n.localize("DND5E.ENCHANTMENT.Action.Remove");
+        control.ariaLabel = game.i18n.localize("DEGRINGO5E.ENCHANTMENT.Action.Remove");
         control.dataset.action = "removeEnchantment";
-        control.dataset.tooltip = "DND5E.ENCHANTMENT.Action.Remove";
+        control.dataset.tooltip = "DEGRINGO5E.ENCHANTMENT.Action.Remove";
         control.innerHTML = '<i class="fa-solid fa-rotate-left" inert></i>';
         div.append(control);
       }
       return div;
     });
     if ( enchantedItems.length ) this.dropArea.replaceChildren(...enchantedItems);
-    else this.dropArea.innerHTML = `<p>${game.i18n.localize("DND5E.ENCHANT.DropArea")}</p>`;
+    else this.dropArea.innerHTML = `<p>${game.i18n.localize("DEGRINGO5E.ENCHANT.DropArea")}</p>`;
     if ( this.countArea ) this.countArea.querySelector(".current").innerText = enchantedItems.length;
   }
 
@@ -137,7 +137,7 @@ export default class EnchantmentApplicationElement extends HTMLElement {
   async _onDrop(event) {
     event.preventDefault();
     const data = foundry.applications.ux.TextEditor.implementation.getDragEventData(event);
-    const effect = this.enchantmentItem.effects.get(this.chatMessage.getFlag("dnd5e", "use.enchantmentProfile"));
+    const effect = this.enchantmentItem.effects.get(this.chatMessage.getFlag("degringo5e", "use.enchantmentProfile"));
     if ( (data.type !== "Item") || !effect ) return;
     const droppedItem = await Item.implementation.fromDropData(data);
 
@@ -149,14 +149,14 @@ export default class EnchantmentApplicationElement extends HTMLElement {
     }
 
     // If concentration is required, ensure it is still being maintained & GM is present
-    const concentrationId = this.chatMessage.getFlag("dnd5e", "use.concentrationId");
+    const concentrationId = this.chatMessage.getFlag("degringo5e", "use.concentrationId");
     const concentration = effect.parent.actor.effects.get(concentrationId);
     if ( concentrationId && !concentration ) {
-      ui.notifications.error("DND5E.ENCHANT.Warning.ConcentrationEnded", { console: false, localize: true });
+      ui.notifications.error("DEGRINGO5E.ENCHANT.Warning.ConcentrationEnded", { console: false, localize: true });
       return;
     }
     if ( !game.user.isGM && concentration && !concentration.actor?.isOwner ) {
-      ui.notifications.error("DND5E.EffectApplyWarningConcentration", { console: false, localize: true });
+      ui.notifications.error("DEGRINGO5E.EffectApplyWarningConcentration", { console: false, localize: true });
       return;
     }
 

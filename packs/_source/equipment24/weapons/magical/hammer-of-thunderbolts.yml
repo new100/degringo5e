@@ -207,8 +207,8 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMaul000000]{Maul} or
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepWarhammer0]{Warhammer}),
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepMaul000000]{Maul} or
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepWarhammer0]{Warhammer}),
       Legendary (Requires Attunement)</em></p><p>You gain a +1 bonus to attack
       rolls and damage rolls made with this magic weapon.</p><p>The weapon has 5
       charges. You can expend 1 charge and make a ranged attack with the weapon,
@@ -230,7 +230,7 @@ system:
       Giants.</strong></summary><p>The Strength score bestowed by your <em>Belt
       of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> increases by 4,
       to a maximum of 30.</p></details><p>
-      @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: hammer-of-thunderbolts
@@ -298,7 +298,7 @@ system:
 effects:
   - type: enchantment
     name: Hammer of Thunderbolts
-    img: systems/dnd5e/icons/spell-tiers/spell5.webp
+    img: systems/degringo5e/icons/spell-tiers/spell5.webp
     disabled: true
     _id: RSpASIW4HbToM7yC
     system: {}
@@ -326,7 +326,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgHammerOfThund
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgHammerOfThund
           caption=false]</p>
         priority: null
       - key: system.price.value
@@ -360,7 +360,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730397010444
       modifiedTime: 1745438836576
@@ -368,8 +368,8 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgHammerOfThund.RSpASIW4HbToM7yC'
   - name: Stunned
-    img: systems/dnd5e/icons/svg/statuses/stunned.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgHammerOfThund
+    img: systems/degringo5e/icons/svg/statuses/stunned.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgHammerOfThund
     transfer: false
     _id: 4awBYMh85YMXFJDS
     type: base
@@ -396,7 +396,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730397252747
       modifiedTime: 1730828665849
@@ -442,7 +442,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730397956984
       modifiedTime: 1730829063221
@@ -485,7 +485,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730399272124
       modifiedTime: 1730399751219
@@ -494,7 +494,7 @@ effects:
     _key: '!items.effects!dmgHammerOfThund.dC3xorzL0AAgy7y1'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - ArjEe6ID0twOfNfA
@@ -504,7 +504,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700540

@@ -8,7 +8,7 @@ export default class BastionSettingsConfig extends BaseSettingsConfig {
   /** @override */
   static DEFAULT_OPTIONS = {
     window: {
-      title: "DND5E.Bastion.Configuration.Label"
+      title: "DEGRINGO5E.Bastion.Configuration.Label"
     }
   };
 
@@ -16,7 +16,7 @@ export default class BastionSettingsConfig extends BaseSettingsConfig {
   static PARTS = {
     ...super.PARTS,
     config: {
-      template: "systems/dnd5e/templates/settings/bastion-config.hbs"
+      template: "systems/degringo5e/templates/settings/bastion-config.hbs"
     }
   };
 
@@ -28,7 +28,7 @@ export default class BastionSettingsConfig extends BaseSettingsConfig {
   async _preparePartContext(partId, context, options) {
     context = await super._preparePartContext(partId, context, options);
     context.fields = BastionSetting.schema.fields;
-    context.source = game.settings.get("dnd5e", "bastionConfiguration");
+    context.source = game.settings.get("degringo5e", "bastionConfiguration");
     return context;
   }
 }

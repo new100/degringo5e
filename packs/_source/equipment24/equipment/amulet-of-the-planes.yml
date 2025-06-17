@@ -65,11 +65,11 @@ system:
       wearing this amulet, you can take a Magic action to name a location that
       you are familiar with on another plane of existence. Then make a DC 15
       Intelligence (Arcana) check. On a successful check, you cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift} . On a
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane Shift} . On a
       failed check, you and each creature and object within 15 feet of you
       travel to a random destination determined by rolling 1d100 and consulting
       the following
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgAmuletOfThePl
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgAmuletOfThePl
       rollable caption=false]</p>
     chat: ''
   identifier: amulet-of-the-planes
@@ -113,14 +113,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712697736

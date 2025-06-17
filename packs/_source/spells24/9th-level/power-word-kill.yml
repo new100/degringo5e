@@ -98,7 +98,7 @@ system:
               - psychic
             scaling:
               mode: ''
-      img: systems/dnd5e/icons/svg/damage/necrotic.svg
+      img: systems/degringo5e/icons/svg/damage/necrotic.svg
       appliedEffects: []
   identifier: power-word-kill
 _id: phbsplPowerWordK
@@ -110,14 +110,14 @@ sort: 101563
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425966712
   modifiedTime: 1745256796998

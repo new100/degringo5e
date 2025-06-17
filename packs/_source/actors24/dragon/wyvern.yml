@@ -620,7 +620,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -628,7 +628,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730619
@@ -753,7 +753,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -761,7 +761,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730619
@@ -909,8 +909,8 @@ items:
     img: icons/creatures/abilities/stinger-poison-green.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmWyvern00000000.Item.mmSting000000000
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmWyvern00000000.Item.mmSting000000000
         _id: AtsQ5CYNLm8hVlFG
         type: base
         system: {}
@@ -937,7 +937,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -946,7 +946,7 @@ items:
         _key: >-
           !actors.items.effects!mmWyvern00000000.mmSting000000000.AtsQ5CYNLm8hVlFG
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -954,7 +954,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSting000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730619
@@ -970,7 +970,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712730649

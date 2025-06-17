@@ -181,7 +181,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-damage-resistances.svg
+      img: systems/degringo5e/icons/svg/trait-damage-resistances.svg
     EFzidO6yAapw8d60:
       type: utility
       name: Patient Defense
@@ -230,7 +230,7 @@ system:
         formula: ''
         name: ''
       _id: EFzidO6yAapw8d60
-      img: systems/dnd5e/icons/svg/trait-damage-resistances.svg
+      img: systems/degringo5e/icons/svg/trait-damage-resistances.svg
     0MuRZ0Ur95xQTKFq:
       type: utility
       name: Step of the Wind
@@ -283,13 +283,13 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
   enchant: {}
   identifier: monks-focus
 effects:
   - name: Patient Defense (Focus Point)
-    img: systems/dnd5e/icons/svg/items/feature.svg
-    origin: Compendium.dnd5e.classes24.Item.phbmnkMonksFocus
+    img: systems/degringo5e/icons/svg/items/feature.svg
+    origin: Compendium.degringo5e.classes24.Item.phbmnkMonksFocus
     transfer: false
     _id: UYHRNxrU74xiUJAy
     type: base
@@ -314,7 +314,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -322,8 +322,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbmnkMonksFocus.UYHRNxrU74xiUJAy'
   - name: Disengaged
-    img: systems/dnd5e/icons/svg/items/feature.svg
-    origin: Compendium.dnd5e.classes24.Item.phbmnkMonksFocus
+    img: systems/degringo5e/icons/svg/items/feature.svg
+    origin: Compendium.degringo5e.classes24.Item.phbmnkMonksFocus
     transfer: false
     _id: 92bFICMzRpJmnO56
     type: base
@@ -347,7 +347,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -355,14 +355,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbmnkMonksFocus.92bFICMzRpJmnO56'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866307724
   modifiedTime: 1745256763198

@@ -101,7 +101,7 @@ type: spell
 img: icons/skills/wounds/anatomy-organ-brain-pink-red.webp
 effects:
   - name: Charmed
-    origin: Compendium.dnd5e.spells24.Item.phbsplCompulsion
+    origin: Compendium.degringo5e.spells24.Item.phbsplCompulsion
     duration:
       rounds: null
       startTime: null
@@ -112,7 +112,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
     _id: VMGUJweP1J6ZQUsG
     type: base
     system: {}
@@ -132,7 +132,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -144,14 +144,14 @@ sort: 3300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425946062
   modifiedTime: 1745256788467

@@ -586,7 +586,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -649,7 +649,7 @@ items:
             name: 'Days: New Body'
             formula: 5d10
           name: 'Days: New Body'
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -680,7 +680,7 @@ items:
     img: icons/magic/light/explosion-glow-spiral-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -688,7 +688,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEldritchRestor
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -753,7 +753,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -786,7 +786,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -794,7 +794,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -962,7 +962,7 @@ items:
     img: icons/magic/acid/dissolve-pool-bubbles.webp
     effects:
       - name: Cursed
-        img: systems/dnd5e/icons/svg/statuses/cursed.svg
+        img: systems/degringo5e/icons/svg/statuses/cursed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmMucusCloud0000
         _id: VesaHwtQEHKpxdAB
         type: base
@@ -992,7 +992,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1001,7 +1001,7 @@ items:
         _key: >-
           !actors.items.effects!mmAboleth0000000.mmMucusCloud0000.VesaHwtQEHKpxdAB
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1009,7 +1009,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMucusCloud0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1062,7 +1062,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmProbingTelepat
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1258,7 +1258,7 @@ items:
     img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTentacle000000
         transfer: false
         _id: KxcWsIHohpNmagLJ
@@ -1288,7 +1288,7 @@ items:
             Compendium.dnd-monster-manual.features.Item.mmConstrict00000.ActiveEffect.Hd0Gy3wJtPfObERq
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1297,7 +1297,7 @@ items:
         _key: >-
           !actors.items.effects!mmAboleth0000000.mmTentacle000000.KxcWsIHohpNmagLJ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1305,7 +1305,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTentacle000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1388,7 +1388,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1396,7 +1396,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1545,7 +1545,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1555,7 +1555,7 @@ items:
           !actors.items.effects!mmAboleth0000000.yiiKNaJ2svcUWqLi.85n0EJTGfngNSLLl
     folder: null
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1563,7 +1563,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDominateMind00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1680,7 +1680,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1688,7 +1688,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmConsumeMemorie
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1751,7 +1751,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1780,7 +1780,7 @@ items:
     img: icons/creatures/tentacles/tentacle-earth-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1788,7 +1788,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLash0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1887,7 +1887,7 @@ items:
     img: icons/magic/control/silhouette-aura-energy.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1895,7 +1895,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPsychicDrain00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711070
@@ -1911,7 +1911,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415408481
   modifiedTime: 1745712711102

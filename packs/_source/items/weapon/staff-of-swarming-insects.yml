@@ -12,8 +12,8 @@ system:
       disperses.</p><p><strong>Spells</strong>. While holding the staff, you can
       use an action to expend some of its charges to cast one of the following
       spells from it, using your spell save DC:
-      @UUID[Compendium.dnd5e.spells.Item.czXrVRx6XYRWsHAi]{Giant Insect} (4
-      charges) or @UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{Insect
+      @UUID[Compendium.degringo5e.spells.Item.czXrVRx6XYRWsHAi]{Giant Insect} (4
+      charges) or @UUID[Compendium.degringo5e.spells.Item.OVikYmSdHliAG2YD]{Insect
       Plague} (5 charges).</p><p><strong>Insect Cloud</strong>. While holding
       the staff, you can use an action and expend 1 charge to cause a swarm of
       harmless flying insects to spread out in a 30-foot radius from you. The
@@ -96,7 +96,7 @@ system:
     YYSStWx9ygrl41hI:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.czXrVRx6XYRWsHAi
+        uuid: Compendium.degringo5e.spells.Item.czXrVRx6XYRWsHAi
         challenge:
           attack: null
           save: null
@@ -146,7 +146,7 @@ system:
     daXCQjAPpv1uGjw4:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD
+        uuid: Compendium.degringo5e.spells.Item.OVikYmSdHliAG2YD
         challenge:
           attack: null
           save: null
@@ -299,14 +299,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037228686
   modifiedTime: 1731019487934

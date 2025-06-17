@@ -1,8 +1,8 @@
 <section class="tab activity-{{ tab.id }} {{ tab.cssClass }}" data-tab="{{ tab.id }}" data-group="{{ tab.group }}">
     <fieldset>
-        <legend>{{ localize "DND5E.SUMMON.CreatureChanges.Label" }}</legend>
+        <legend>{{ localize "DEGRINGO5E.SUMMON.CreatureChanges.Label" }}</legend>
         <div class="form-group">
-            <p class="hint">{{ localize "DND5E.SUMMON.CreatureChanges.Hint" }}</p>
+            <p class="hint">{{ localize "DEGRINGO5E.SUMMON.CreatureChanges.Hint" }}</p>
         </div>
         {{ formField fields.match.fields.proficiency value=source.match.proficiency input=inputs.createCheckboxInput }}
         {{ formField fields.bonuses.fields.ac value=source.bonuses.ac }}
@@ -12,9 +12,9 @@
         {{ formField fields.creatureTypes value=source.creatureTypes options=creatureTypeOptions }}
     </fieldset>
     <fieldset>
-        <legend>{{ localize "DND5E.SUMMON.ItemChanges.Label" }}</legend>
+        <legend>{{ localize "DEGRINGO5E.SUMMON.ItemChanges.Label" }}</legend>
         <div class="form-group">
-            <p class="hint">{{ localize "DND5E.SUMMON.ItemChanges.Hint" }}</p>
+            <p class="hint">{{ localize "DEGRINGO5E.SUMMON.ItemChanges.Hint" }}</p>
         </div>
         {{ formField fields.match.fields.ability value=source.match.ability options=abilityOptions }}
         {{ formField fields.match.fields.attacks value=source.match.attacks input=inputs.createCheckboxInput }}
@@ -23,5 +23,5 @@
         {{ formField fields.bonuses.fields.saveDamage value=source.bonuses.saveDamage }}
         {{ formField fields.bonuses.fields.healing value=source.bonuses.healing }}
     </fieldset>
-    {{> "systems/dnd5e/templates/activity/parts/activity-effects.hbs" }}
+    {{> "systems/degringo5e/templates/activity/parts/activity-effects.hbs" }}
 </section>

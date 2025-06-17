@@ -39,7 +39,7 @@ system:
   identifier: natures-ward
 effects:
   - name: Nature's Ward
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
     duration:
       rounds: null
       startTime: null
@@ -50,7 +50,7 @@ effects:
       startTurn: null
     disabled: false
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -71,7 +71,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -79,7 +79,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesWar.WWAuOh7qyAZgchmL'
   - name: 'Nature''s Ward: Arid'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
     duration:
       rounds: null
       startTime: null
@@ -90,7 +90,7 @@ effects:
       startTurn: null
     disabled: true
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -111,7 +111,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -119,7 +119,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesWar.J6hYOcVvZlLKuWab'
   - name: 'Nature''s Ward: Polar'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
     duration:
       rounds: null
       startTime: null
@@ -130,7 +130,7 @@ effects:
       startTurn: null
     disabled: true
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -151,7 +151,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -159,7 +159,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesWar.XLIRgAYPO1ARo5pb'
   - name: 'Nature''s Ward: Temperate'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
     duration:
       rounds: null
       startTime: null
@@ -170,7 +170,7 @@ effects:
       startTurn: null
     disabled: true
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -191,7 +191,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -199,7 +199,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesWar.yruAlaBCduO8AcnU'
   - name: 'Nature''s Ward: Tropical'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
     duration:
       rounds: null
       startTime: null
@@ -210,7 +210,7 @@ effects:
       startTurn: null
     disabled: true
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/magic/nature/root-vine-caduceus-healing.webp
@@ -231,7 +231,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -239,14 +239,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesWar.lDVYGRNqqw3HwcKM'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866583501
   modifiedTime: 1745256761264

@@ -10,16 +10,16 @@ system:
       Spells table, you thereafter always have the listed spells
       prepared.</p><table><caption>Life Domain
       Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared
-      Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplAid0000000]{Aid},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds},<br
-      />@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser
-      Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMassHealin]{Mass
+      Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplAid0000000]{Aid},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplBless00000]{Bless},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds},<br
+      />@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
+      Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplMassHealin]{Mass
       Healing Word},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
-      of Life}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death
-      Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
-      Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplAuraofLife]{Aura
+      of Life}, @UUID[Compendium.degringo5e.spells24.Item.phbsplDeathWard0]{Death
+      Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
+      Restoration}, @UUID[Compendium.degringo5e.spells24.Item.phbsplMassCureWo]{Mass
       Cure Wounds}</td></tr></tbody></table><section class="secret"
       id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
       spells are granted automatically as you advance.</p></section>
@@ -48,14 +48,14 @@ system:
 effects: []
 folder: jWzqOsH9e7IW7WO7
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866589552
   modifiedTime: 1745256760876

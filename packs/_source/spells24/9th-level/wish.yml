@@ -150,7 +150,7 @@ img: icons/magic/symbols/star-solid-gold.webp
 effects:
   - name: Wish Stress
     img: icons/magic/symbols/star-solid-gold.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplWish000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplWish000000
     transfer: false
     _id: f16Ek2U8XKeGL7vB
     type: base
@@ -182,7 +182,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725392477694
       modifiedTime: 1725392659017
@@ -194,14 +194,14 @@ sort: 100007
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425978258
   modifiedTime: 1745256800213

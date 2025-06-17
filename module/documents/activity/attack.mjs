@@ -14,7 +14,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.ATTACK"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.ATTACK"];
 
   /* -------------------------------------------- */
 
@@ -22,8 +22,8 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "attack",
-      img: "systems/dnd5e/icons/svg/activity/attack.svg",
-      title: "DND5E.ATTACK.Title.one",
+      img: "systems/degringo5e/icons/svg/activity/attack.svg",
+      title: "DEGRINGO5E.ATTACK.Title.one",
       sheetClass: AttackSheet,
       usage: {
         actions: {
@@ -41,14 +41,14 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
   /** @override */
   _usageChatButtons(message) {
     const buttons = [{
-      label: game.i18n.localize("DND5E.Attack"),
-      icon: '<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/trait-weapon-proficiencies.svg" inert></i>',
+      label: game.i18n.localize("DEGRINGO5E.Attack"),
+      icon: '<i class="degringo5e-icon" data-src="systems/degringo5e/icons/svg/trait-weapon-proficiencies.svg" inert></i>',
       dataset: {
         action: "rollAttack"
       }
     }];
     if ( this.damage.parts.length || this.item.system.properties?.has("amm") ) buttons.push({
-      label: game.i18n.localize("DND5E.Damage"),
+      label: game.i18n.localize("DEGRINGO5E.Damage"),
       icon: '<i class="fa-solid fa-burst" inert></i>',
       dataset: {
         action: "rollDamage"
@@ -61,7 +61,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
 
   /** @override */
   async _triggerSubsequentActions(config, results) {
-    this.rollAttack({ event: config.event }, {}, { data: { "flags.dnd5e.originatingMessage": results.message?.id } });
+    this.rollAttack({ event: config.event }, {}, { data: { "flags.degringo5e.originatingMessage": results.message?.id } });
   }
 
   /* -------------------------------------------- */
@@ -98,18 +98,18 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     const targets = getTargetDescriptors();
 
     if ( (this.item.type === "weapon") && (this.item.system.quantity === 0) ) {
-      ui.notifications.warn("DND5E.ATTACK.Warning.NoQuantity", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.ATTACK.Warning.NoQuantity", { localize: true });
     }
 
     const buildConfig = this._buildAttackConfig.bind(this);
 
     const rollConfig = foundry.utils.mergeObject({
-      ammunition: this.item.getFlag("dnd5e", `last.${this.id}.ammunition`),
-      attackMode: this.item.getFlag("dnd5e", `last.${this.id}.attackMode`),
-      elvenAccuracy: this.actor?.getFlag("dnd5e", "elvenAccuracy")
-        && CONFIG.DND5E.characterFlags.elvenAccuracy.abilities.includes(this.ability),
-      halflingLucky: this.actor?.getFlag("dnd5e", "halflingLucky"),
-      mastery: this.item.getFlag("dnd5e", `last.${this.id}.mastery`),
+      ammunition: this.item.getFlag("degringo5e", `last.${this.id}.ammunition`),
+      attackMode: this.item.getFlag("degringo5e", `last.${this.id}.attackMode`),
+      elvenAccuracy: this.actor?.getFlag("degringo5e", "elvenAccuracy")
+        && CONFIG.DEGRINGO5E.characterFlags.elvenAccuracy.abilities.includes(this.ability),
+      halflingLucky: this.actor?.getFlag("degringo5e", "halflingLucky"),
+      mastery: this.item.getFlag("degringo5e", `last.${this.id}.mastery`),
       target: targets.length === 1 ? targets[0].ac : undefined
     }, config);
 
@@ -151,7 +151,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
           left: window.innerWidth - 710
         },
         window: {
-          title: game.i18n.localize("DND5E.AttackRoll"),
+          title: game.i18n.localize("DEGRINGO5E.AttackRoll"),
           subtitle: this.item.name,
           icon: this.item.img
         }
@@ -161,9 +161,9 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     const messageConfig = foundry.utils.mergeObject({
       create: true,
       data: {
-        flavor: `${this.item.name} - ${game.i18n.localize("DND5E.AttackRoll")}`,
+        flavor: `${this.item.name} - ${game.i18n.localize("DEGRINGO5E.AttackRoll")}`,
         flags: {
-          dnd5e: {
+          degringo5e: {
             ...this.messageFlags,
             messageType: "roll",
             roll: { type: "attack" }
@@ -178,7 +178,7 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     if ( !rolls.length ) return null;
     for ( const key of ["ammunition", "attackMode", "mastery"] ) {
       if ( !rolls[0].options[key] ) continue;
-      foundry.utils.setProperty(messageConfig.data, `flags.dnd5e.roll.${key}`, rolls[0].options[key]);
+      foundry.utils.setProperty(messageConfig.data, `flags.degringo5e.roll.${key}`, rolls[0].options[key]);
     }
     await CONFIG.Dice.D20Roll.buildPost(rolls, rollConfig, messageConfig);
 
@@ -204,29 +204,29 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
     else if ( rollConfig.attackMode ) rolls[0].options.attackMode = rollConfig.attackMode;
     if ( rolls[0].options.mastery ) flags.mastery = rolls[0].options.mastery;
     if ( canUpdate && !foundry.utils.isEmpty(flags) && (this.actor && this.actor.items.has(this.item.id)) ) {
-      await this.item.setFlag("dnd5e", `last.${this.id}`, flags);
+      await this.item.setFlag("degringo5e", `last.${this.id}`, flags);
     }
 
     /**
      * A hook event that fires after an attack has been rolled but before any ammunition is consumed.
-     * @function dnd5e.rollAttack
+     * @function degringo5e.rollAttack
      * @memberof hookEvents
      * @param {D20Roll[]} rolls                        The resulting rolls.
      * @param {object} data
      * @param {AttackActivity|null} data.subject       The Activity that performed the attack.
      * @param {AmmunitionUpdate|null} data.ammoUpdate  Any updates related to ammo consumption for this attack.
      */
-    Hooks.callAll("dnd5e.rollAttack", rolls, { subject: this, ammoUpdate });
-    Hooks.callAll("dnd5e.rollAttackV2", rolls, { subject: this, ammoUpdate });
+    Hooks.callAll("degringo5e.rollAttack", rolls, { subject: this, ammoUpdate });
+    Hooks.callAll("degringo5e.rollAttackV2", rolls, { subject: this, ammoUpdate });
 
     // Commit ammunition consumption on attack rolls resource consumption if the attack roll was made
     if ( canUpdate && ammoUpdate?.destroy ) {
       // If ammunition was deleted, store a copy of it in the roll message
       const data = this.actor.items.get(ammoUpdate.id).toObject();
-      const messageId = messageConfig.data?.flags?.dnd5e?.originatingMessage
+      const messageId = messageConfig.data?.flags?.degringo5e?.originatingMessage
         ?? rollConfig.event?.target.closest("[data-message-id]")?.dataset.messageId;
-      const attackMessage = dnd5e.registry.messages.get(messageId, "attack")?.pop();
-      await attackMessage?.setFlag("dnd5e", "roll.ammunitionData", data);
+      const attackMessage = degringo5e.registry.messages.get(messageId, "attack")?.pop();
+      await attackMessage?.setFlag("degringo5e", "roll.ammunitionData", data);
       await this.actor.deleteEmbeddedDocuments("Item", [ammoUpdate.id]);
     }
     else if ( canUpdate && ammoUpdate ) await this.actor?.updateEmbeddedDocuments("Item", [
@@ -235,13 +235,13 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
 
     /**
      * A hook event that fires after an attack has been rolled and ammunition has been consumed.
-     * @function dnd5e.postRollAttack
+     * @function degringo5e.postRollAttack
      * @memberof hookEvents
      * @param {D20Roll[]} rolls                   The resulting rolls.
      * @param {object} data
      * @param {AttackActivity|null} data.subject  The activity that performed the attack.
      */
-    Hooks.callAll("dnd5e.postRollAttack", rolls, { subject: this });
+    Hooks.callAll("degringo5e.postRollAttack", rolls, { subject: this });
 
     return rolls;
   }
@@ -298,16 +298,16 @@ export default class AttackActivity extends ActivityMixin(AttackActivityData) {
    */
   static #rollDamage(event, target, message) {
     const lastAttack = message.getAssociatedRolls("attack").pop();
-    const attackMode = lastAttack?.getFlag("dnd5e", "roll.attackMode");
+    const attackMode = lastAttack?.getFlag("degringo5e", "roll.attackMode");
 
     // Fetch the ammunition used with the last attack roll
     let ammunition;
     const actor = lastAttack?.getAssociatedActor();
     if ( actor ) {
-      const storedData = lastAttack.getFlag("dnd5e", "roll.ammunitionData");
+      const storedData = lastAttack.getFlag("degringo5e", "roll.ammunitionData");
       ammunition = storedData
         ? new Item.implementation(storedData, { parent: actor })
-        : actor.items.get(lastAttack.getFlag("dnd5e", "roll.ammunition"));
+        : actor.items.get(lastAttack.getFlag("degringo5e", "roll.ammunition"));
     }
 
     const isCritical = lastAttack?.rolls[0]?.isCritical;

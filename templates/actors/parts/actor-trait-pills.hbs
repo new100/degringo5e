@@ -2,14 +2,14 @@
 <div class="pills-group {{#unless values.length}}empty{{/unless}}">
     <h3 class="icon">
         {{#if icon}}<i class="{{ icon }}"></i>
-        {{~else if svg}}<dnd5e-icon src="systems/dnd5e/icons/svg/{{ svg }}.svg"></dnd5e-icon>{{/if}}
+        {{~else if svg}}<degringo5e-icon src="systems/degringo5e/icons/svg/{{ svg }}.svg"></degringo5e-icon>{{/if}}
         <span class="roboto-upper">{{ localize label }}</span>
         {{#if @root.editable}}
         <button type="button" class="config-button unbutton"
                 {{~#if configAction}} data-action="showConfiguration" data-config="{{ configAction }}"
                 {{~else}} data-action="showConfiguration" data-trait="{{ key }}"{{/if}}
-                data-tooltip="{{ localize 'DND5E.TraitConfig' trait=(localize label) }}"
-                aria-label="{{ localize 'DND5E.TraitConfig' trait=(localize label) }}">
+                data-tooltip="{{ localize 'DEGRINGO5E.TraitConfig' trait=(localize label) }}"
+                aria-label="{{ localize 'DEGRINGO5E.TraitConfig' trait=(localize label) }}">
             <i class="fas fa-cog" inert></i>
         </button>
         {{/if}}

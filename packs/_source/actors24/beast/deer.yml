@@ -588,7 +588,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAgile000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737755415435
       modifiedTime: 1745712716321
@@ -732,7 +732,7 @@ items:
     img: icons/creatures/mammals/elk-moose-marked-green.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmRam00000000000
         _id: HUmtXTzr92ZaAvf3
         type: base
@@ -758,7 +758,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1738093757864
@@ -767,7 +767,7 @@ items:
         _key: >-
           !actors.items.effects!mmDeer0000000000.mmRam00000000000.HUmtXTzr92ZaAvf3
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -775,7 +775,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRam00000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737755417781
       modifiedTime: 1745712716321
@@ -791,7 +791,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712716346

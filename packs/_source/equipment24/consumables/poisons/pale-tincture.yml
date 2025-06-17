@@ -133,7 +133,7 @@ system:
 effects:
   - name: Poisoned and Reduce Max
     img: icons/consumables/potions/potion-bottle-corked-white.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgPaleTincture0
+    origin: Compendium.degringo5e.equipment24.Item.dmgPaleTincture0
     transfer: false
     _id: o6ZuvxhWeXsg50MH
     type: base
@@ -165,10 +165,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730741351123
       modifiedTime: 1730741667881
@@ -177,14 +177,14 @@ effects:
     _key: '!items.effects!dmgPaleTincture0.o6ZuvxhWeXsg50MH'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256806846

@@ -9,9 +9,9 @@ system:
       <p>You have unearthed Eldritch Invocations, pieces of forbidden knowledge
       that imbue you with an abiding magical ability or other lessons. You gain
       one invocation of your choice, such as
-      @UUID[Compendium.dnd5e.classes24.Item.phbinvPactTome00]{Pact of the Tome}.
+      @UUID[Compendium.degringo5e.classes24.Item.phbinvPactTome00]{Pact of the Tome}.
       Invocations are described in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.FA4hxx49eazhISIt]{Eldritch
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.FA4hxx49eazhISIt]{Eldritch
       Invocation Options} section.</p><p><strong>Prerequisites.</strong> If an
       invocation has a prerequisite, you must meet it to learn that invocation.
       For example, if an invocation requires you to be a level 5+ Warlock, you
@@ -54,14 +54,14 @@ system:
   identifier: eldritch-invocations
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256766833

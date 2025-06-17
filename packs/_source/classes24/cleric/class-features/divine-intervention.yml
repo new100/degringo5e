@@ -8,7 +8,7 @@ system:
     value: >-
       <p>You can call on your deity or pantheon to intervene on your behalf. As
       a Magic action, choose any
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric
       spell} of level 5 or lower that doesn't require a Reaction to cast. As
       part of the same action, you cast that spell without expending a spell
       slot or needing Material components. You can't use this feature again
@@ -96,19 +96,19 @@ system:
         max: ''
       sort: 0
       name: ''
-      img: systems/dnd5e/icons/svg/damage/force.svg
+      img: systems/degringo5e/icons/svg/damage/force.svg
   enchant: {}
   identifier: divine-intervention
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866373481
   modifiedTime: 1740680081722

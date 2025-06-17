@@ -103,8 +103,8 @@ type: spell
 img: icons/magic/unholy/strike-body-life-soul-purple.webp
 effects:
   - name: Stunned
-    img: systems/dnd5e/icons/svg/statuses/stunned.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplPowerWordS
+    img: systems/degringo5e/icons/svg/statuses/stunned.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplPowerWordS
     transfer: false
     _id: o7XJceFSBTiIIPFo
     type: base
@@ -132,7 +132,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725309558474
       modifiedTime: 1725309691509
@@ -141,7 +141,7 @@ effects:
     _key: '!items.effects!phbsplPowerWordS.o7XJceFSBTiIIPFo'
   - name: No Movement
     img: icons/svg/anchor.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplPowerWordS
+    origin: Compendium.degringo5e.spells24.Item.phbsplPowerWordS
     transfer: false
     _id: B5dLPDfw1fDtfRW1
     type: base
@@ -185,7 +185,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725309698245
       modifiedTime: 1725309800044
@@ -197,14 +197,14 @@ sort: 100013
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425966817
   modifiedTime: 1745256797037

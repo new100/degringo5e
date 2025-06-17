@@ -171,7 +171,7 @@ system:
 effects:
   - name: Quick Acting
     img: icons/magic/movement/trail-streak-zigzag-yellow.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgManualOfQuick
+    origin: Compendium.degringo5e.equipment24.Item.dmgManualOfQuick
     transfer: false
     _id: yjQAL2g65jahNoBP
     type: base
@@ -201,10 +201,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgTomeOfUnderst.ActiveEffect.jXvtCEBoDCydH8fa
+        Compendium.degringo5e.equipment24.Item.dmgTomeOfUnderst.ActiveEffect.jXvtCEBoDCydH8fa
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730691991692
       modifiedTime: 1730692375530
@@ -212,14 +212,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgManualOfQuick.yjQAL2g65jahNoBP'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

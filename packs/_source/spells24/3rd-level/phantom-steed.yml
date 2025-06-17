@@ -3,14 +3,14 @@ system:
   description:
     value: >-
       <p>A Large, quasi-real,
-      @UUID[Compendium.dnd5e.actors24.Actor.phbsumPhantomSte]{horselike
+      @UUID[Compendium.degringo5e.actors24.Actor.phbsumPhantomSte]{horselike
       creature} appears on the ground in an unoccupied space of your choice
       within range. You decide the creature's appearance, and it is equipped
       with a saddle, bit, and bridle. Any of the equipment created by the spell
       vanishes in a puff of smoke if it is carried more than 10 feet away from
       the steed.</p><p>For the duration, you or a creature you choose can ride
       the steed. The steed uses the
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmRidingHorse000]{Riding
       Horse}</strong> stat block (see appendix B), except it has a Speed of 100
       feet and can travel 13 miles in an hour. When the spell ends, the steed
       gradually fades, giving the rider 1 minute to dismount. The spell ends
@@ -102,7 +102,7 @@ system:
         - count: ''
           name: ''
           _id: G7S0KZMpdXcKb2eo
-          uuid: Compendium.dnd5e.actors24.Actor.phbsumPhantomSte
+          uuid: Compendium.degringo5e.actors24.Actor.phbsumPhantomSte
           level:
             min: null
             max: null
@@ -125,14 +125,14 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425965814
   modifiedTime: 1745256796749

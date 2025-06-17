@@ -59,9 +59,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.races.ufysTkqet2Ctmtyi
+          - uuid: Compendium.degringo5e.races.ufysTkqet2Ctmtyi
             optional: false
-          - uuid: Compendium.dnd5e.races.mQPZDRbUhgYTbXKa
+          - uuid: Compendium.degringo5e.races.mQPZDRbUhgYTbXKa
             optional: false
         optional: false
         spell:
@@ -184,7 +184,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037392950
   modifiedTime: 1725992703517

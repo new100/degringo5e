@@ -19,7 +19,7 @@ export default class MovementSensesConfig extends BaseConfigSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/shared/config/movement-senses-config.hbs"
+      template: "systems/degringo5e/templates/shared/config/movement-senses-config.hbs"
     }
   };
 
@@ -41,7 +41,7 @@ export default class MovementSensesConfig extends BaseConfigSheet {
 
   /** @override */
   get title() {
-    return game.i18n.localize(this.options.type === "movement" ? "DND5E.Movement" : "DND5E.Senses");
+    return game.i18n.localize(this.options.type === "movement" ? "DEGRINGO5E.Movement" : "DEGRINGO5E.Senses");
   }
 
   /* -------------------------------------------- */
@@ -51,9 +51,9 @@ export default class MovementSensesConfig extends BaseConfigSheet {
    * @type {Record<string, string>}
    */
   get types() {
-    if ( this.options.type === "senses" ) return Object.keys(CONFIG.DND5E.senses);
+    if ( this.options.type === "senses" ) return Object.keys(CONFIG.DEGRINGO5E.senses);
     if ( this.document.type === "group" ) return ["land", "water", "air"];
-    return Object.keys(CONFIG.DND5E.movementTypes);
+    return Object.keys(CONFIG.DEGRINGO5E.movementTypes);
   }
 
   /* -------------------------------------------- */
@@ -84,11 +84,11 @@ export default class MovementSensesConfig extends BaseConfigSheet {
       placeholder: placeholderData?.[key] ?? ""
     }));
 
-    context.unitsOptions = Object.entries(CONFIG.DND5E.movementUnits).map(([value, { label }]) => ({ value, label }));
+    context.unitsOptions = Object.entries(CONFIG.DEGRINGO5E.movementUnits).map(([value, { label }]) => ({ value, label }));
     if ( (this.document.type === "pc") || ((this.document.type === "npc") && placeholderData) ) {
-      const automaticUnit = CONFIG.DND5E.movementUnits[placeholderData?.units ?? defaultUnits("length")]?.label ?? "";
+      const automaticUnit = CONFIG.DEGRINGO5E.movementUnits[placeholderData?.units ?? defaultUnits("length")]?.label ?? "";
       context.unitsOptions.unshift(
-        { value: "", label: game.i18n.format("DND5E.AutomaticValue", { value: automaticUnit.toLowerCase() }) },
+        { value: "", label: game.i18n.format("DEGRINGO5E.AutomaticValue", { value: automaticUnit.toLowerCase() }) },
         { rule: true }
       );
     }

@@ -81,7 +81,7 @@ system:
         visible: false
       sort: 0
       name: Expend Use
-      img: systems/dnd5e/icons/svg/monster.svg
+      img: systems/degringo5e/icons/svg/monster.svg
       appliedEffects: []
   enchant: {}
   prerequisites:
@@ -90,7 +90,7 @@ system:
     - trait
   identifier: legendary-resistance
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
@@ -101,7 +101,7 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.3.8
   createdTime: 1725304968656
   modifiedTime: 1744318649828

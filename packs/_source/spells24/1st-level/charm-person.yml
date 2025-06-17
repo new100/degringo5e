@@ -103,7 +103,7 @@ type: spell
 img: icons/magic/control/hypnosis-mesmerism-eye.webp
 effects:
   - name: Charmed
-    origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+    origin: Compendium.degringo5e.spells24.Item.phbsplCharmPerso
     duration:
       rounds: 1
       startTime: null
@@ -114,7 +114,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
     _id: 78JcD7wFiSCOfmns
     type: base
     system: {}
@@ -133,7 +133,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -145,14 +145,14 @@ sort: 5000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425944623
   modifiedTime: 1745256787700

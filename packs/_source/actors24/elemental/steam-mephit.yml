@@ -407,10 +407,10 @@ system:
   details:
     biography:
       value: >-
-        <h1>Mephits</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
+        <h1>Mephits</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Steam
-        Mephit</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.G3d4GDT0FWo30AdL
+        Mephit</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.G3d4GDT0FWo30AdL
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -599,7 +599,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBlurredForm000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737399032142
       modifiedTime: 1745712727731
@@ -715,7 +715,7 @@ items:
     img: icons/magic/death/skull-humanoid-white-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -723,7 +723,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDeathBurst0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737399318894
       modifiedTime: 1745712727731
@@ -874,7 +874,7 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -882,7 +882,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737399417449
       modifiedTime: 1745712727731
@@ -1006,8 +1006,8 @@ items:
     img: icons/magic/air/fog-gas-smoke-dense-white.webp
     effects:
       - name: 'Slowed: 10 ft.'
-        img: systems/dnd5e/icons/svg/statuses/heavily-encumbered.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmSteamMephit000.Item.mmSteamBreath000
+        img: systems/degringo5e/icons/svg/statuses/heavily-encumbered.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmSteamMephit000.Item.mmSteamBreath000
         transfer: false
         _id: IRvk3n3tGgtpMU10
         type: base
@@ -1051,7 +1051,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: 1737399682596
           modifiedTime: 1737399892679
@@ -1060,7 +1060,7 @@ items:
         _key: >-
           !actors.items.effects!mmSteamMephit000.mmSteamBreath000.IRvk3n3tGgtpMU10
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1068,7 +1068,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSteamBreath000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737399482314
       modifiedTime: 1745712727731
@@ -1084,7 +1084,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712727761

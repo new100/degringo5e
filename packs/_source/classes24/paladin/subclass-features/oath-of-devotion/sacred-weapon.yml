@@ -50,7 +50,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbpdnChannelDiv
+            target: Compendium.degringo5e.classes24.Item.phbpdnChannelDiv
             scaling: {}
       description:
         chatFlavor: ''
@@ -139,7 +139,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -147,14 +147,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbpdnSacredWeap.sEWDFOuWn47L5860'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866569467
   modifiedTime: 1745256764036

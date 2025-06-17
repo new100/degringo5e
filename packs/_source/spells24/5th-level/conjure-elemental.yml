@@ -5,10 +5,10 @@ system:
       <p>You conjure a Large, intangible spirit from the Elemental Planes that
       appears in an unoccupied space within range. Choose the spirit's element,
       which determines its damage type:
-      @UUID[Compendium.dnd5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)},
-      @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)},
-      @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredFireE]{fire (Fire)}, or
-      @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The
+      @UUID[Compendium.degringo5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)},
+      @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)},
+      @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredFireE]{fire (Fire)}, or
+      @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The
       spirit lasts for the duration.</p><p>Whenever a creature you can see
       enters the spirit's space or starts its turn within 5 feet of the spirit,
       you can force that creature to make a Dexterity saving throw if the spirit
@@ -113,28 +113,28 @@ system:
         - count: ''
           name: ''
           _id: xvb2BTZQi942QVyI
-          uuid: Compendium.dnd5e.actors24.Actor.phbsplConjuredEl
+          uuid: Compendium.degringo5e.actors24.Actor.phbsplConjuredEl
           level:
             min: null
             max: null
         - count: ''
           name: ''
           _id: rLsUbfInq7CCYy7G
-          uuid: Compendium.dnd5e.actors24.Actor.phbConjuredEarth
+          uuid: Compendium.degringo5e.actors24.Actor.phbConjuredEarth
           level:
             min: null
             max: null
         - count: ''
           name: ''
           _id: TDLfZ4CncKEEYZaq
-          uuid: Compendium.dnd5e.actors24.Actor.phbConjuredFireE
+          uuid: Compendium.degringo5e.actors24.Actor.phbConjuredFireE
           level:
             min: null
             max: null
         - count: ''
           name: ''
           _id: 40IDS6d0353u3Dv4
-          uuid: Compendium.dnd5e.actors24.Actor.phbConjuredWater
+          uuid: Compendium.degringo5e.actors24.Actor.phbConjuredWater
           level:
             min: null
             max: null
@@ -160,14 +160,14 @@ sort: 2900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.2
   createdTime: 1724425946689
   modifiedTime: 1746119578088

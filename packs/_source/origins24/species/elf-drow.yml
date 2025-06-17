@@ -5,9 +5,9 @@ img: icons/magic/nature/beam-hand-leaves-green.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000
       inline classes="free-rules-embed"]</p><h3
-      data-anchor="drow">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000
+      data-anchor="drow">Drow</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="elf-traits">Elf
       Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:
       </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30
@@ -25,9 +25,9 @@ system:
       Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>The range of your Darkvision increases
       to 120 feet. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights}
-      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie
-      Fire}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><p><strong>Fey
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDancingLig]{Dancing Lights}
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplFaerieFire]{Faerie
+      Fire}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><p><strong>Fey
       Ancestry.</strong> You have Advantage on saving throws you make to avoid
       or end the &amp;Reference[Charmed] condition.</p><p><strong>Keen
       Senses.</strong> You have proficiency in the Insight, Perception, or
@@ -56,13 +56,13 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptFeyAncestr
+            uuid: Compendium.degringo5e.origins24.Item.phbsptFeyAncestr
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptKeenSenses
+            uuid: Compendium.degringo5e.origins24.Item.phbsptKeenSenses
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptTrance0000
+            uuid: Compendium.degringo5e.origins24.Item.phbsptTrance0000
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptDrowElfLin
+            uuid: Compendium.degringo5e.origins24.Item.phbsptDrowElfLin
         optional: false
         spell: null
       value: {}
@@ -91,7 +91,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDancingLig
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDancingLig
         optional: false
         spell:
           ability:
@@ -114,7 +114,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
         optional: false
         spell:
           ability:
@@ -137,7 +137,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDarkness00
         optional: false
         spell:
           ability:
@@ -181,7 +181,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866714835
   modifiedTime: 1745686895308

@@ -8,7 +8,7 @@ export default class SheetConfig5e extends foundry.applications.apps.DocumentShe
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: "systems/dnd5e/templates/shared/sheet-config.hbs"
+      template: "systems/degringo5e/templates/shared/sheet-config.hbs"
     });
   }
 
@@ -17,7 +17,7 @@ export default class SheetConfig5e extends foundry.applications.apps.DocumentShe
   /** @inheritDoc */
   getData(options) {
     const context = super.getData(options);
-    context.CONFIG = CONFIG.DND5E;
+    context.CONFIG = CONFIG.DEGRINGO5E;
     return context;
   }
 
@@ -29,9 +29,9 @@ export default class SheetConfig5e extends foundry.applications.apps.DocumentShe
     delete formData.defaultClass;
     this.object.update(formData);
 
-    if ( "flags.dnd5e.theme" in formData ) {
+    if ( "flags.degringo5e.theme" in formData ) {
       const sheet = this.object.sheet.element?.[0];
-      if ( sheet ) setTheme(sheet, formData["flags.dnd5e.theme"]);
+      if ( sheet ) setTheme(sheet, formData["flags.degringo5e.theme"]);
     }
   }
 }

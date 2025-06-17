@@ -43,35 +43,35 @@ system:
       shown in the following table. The table indicates how many charges you
       must expend to cast the spell, which has a save DC of
       18.</p><table><thead><tr><td><p>Plane</p></td><td><p>Spells
-      (Charges)</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgAirRingOfElem]{Air
-      Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]{Chain
+      (Charges)</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.degringo5e.equipment24.Item.dmgAirRingOfElem]{Air
+      Ring}</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplChainLight]{Chain
       Lightning} (3 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFeatherFal]{Feather Fall} (0
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
       Wind} (2 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1
-      charge)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEarthRingOfEl]{Earth
-      Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEarthquake]{Earthquake}
-      (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWindWall00]{Wind Wall} (1
+      charge)</p></td></tr><tr><td><p>@UUID[Compendium.degringo5e.equipment24.Item.dmgEarthRingOfEl]{Earth
+      Ring}</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplEarthquake]{Earthquake}
+      (5 charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplStoneShape]{Stone
       Shape} (2 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplStoneskin0]{Stoneskin} (3
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofSton]{Wall of
       Stone} (3
-      charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFireRingOfEle]{Fire
-      Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning
+      charges)</p></td></tr><tr><td><p>@UUID[Compendium.degringo5e.equipment24.Item.dmgFireRingOfEle]{Fire
+      Ring}</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplBurningHan]{Burning
       Hands} (1 charge),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball} (2
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplFireStorm0]{Fire
       Storm} (4 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3
-      charges)</p></td></tr><tr><td><p>@UUID[Compendium.dnd5e.equipment24.Item.dmgWaterRingOfEl]{Water
-      Ring}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCreateorDe]{Create
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3
+      charges)</p></td></tr><tr><td><p>@UUID[Compendium.degringo5e.equipment24.Item.dmgWaterRingOfEl]{Water
+      Ring}</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateorDe]{Create
       or Destroy Water} (1 charge),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplTsunami000]{Tsunami}
-      (5 charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplIceStorm00]{Ice Storm} (2
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplTsunami000]{Tsunami}
+      (5 charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofIce0]{Wall
       of Ice} (3 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWaterWalk0]{Water Walk} (2
       charges)</p></td></tr></tbody></table>
     chat: ''
   identifier: ring-of-elemental-command
@@ -119,7 +119,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1731428580217
   modifiedTime: 1745712702525

@@ -1,5 +1,5 @@
 {
-  "id": "dnd5e",
+  "id": "degringo5e",
   "title": "Dungeons & Dragons Fifth Edition",
   "description": "A system for playing the fifth edition of the world's most popular role-playing game in the Foundry Virtual Tabletop environment.",
   "version": "5.1.0",
@@ -7,9 +7,9 @@
     "minimum": "13.341",
     "verified": "13"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-5.1.0/dnd5e-release-5.1.0.zip",
+  "url": "https://github.com/foundryvtt/degringo5e/",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt/degringo5e/master/system.json",
+  "download": "https://github.com/foundryvtt/degringo5e/releases/download/release-5.1.0/degringo5e-release-5.1.0.zip",
   "authors": [
     {
       "name": "Atropos",
@@ -18,10 +18,10 @@
     }
   ],
   "esmodules": [
-    "dnd5e.mjs"
+    "degringo5e.mjs"
   ],
   "styles": [
-    "dnd5e.css"
+    "degringo5e.css"
   ],
   "documentTypes": {
     "ActiveEffect": {
@@ -110,19 +110,19 @@
       }
     },
     "RegionBehavior": {
-      "dnd5e.rotateArea": {}
+      "degringo5e.rotateArea": {}
     }
   },
   "packs": [
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/heroes",
       "type": "Actor",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["character"]
         }
@@ -131,12 +131,12 @@
     {
       "name": "monsters",
       "label": "Monsters (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/monsters",
       "type": "Actor",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["npc"]
         }
@@ -145,12 +145,12 @@
     {
       "name": "items",
       "label": "Items (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/items",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
         }
@@ -159,12 +159,12 @@
     {
       "name": "tradegoods",
       "label": "Trade Goods (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/tradegoods",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["loot"]
         }
@@ -173,12 +173,12 @@
     {
       "name": "spells",
       "label": "Spells (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/spells",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sorting": "m",
           "sourceBook": "SRD 5.1",
           "types": ["spell"]
@@ -188,12 +188,12 @@
     {
       "name": "backgrounds",
       "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/backgrounds",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["background", "feat"]
         }
@@ -202,12 +202,12 @@
     {
       "name": "classes",
       "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/classes",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["class"]
         }
@@ -216,12 +216,12 @@
     {
       "name": "subclasses",
       "label": "Subclasses (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/subclasses",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["subclass"]
         }
@@ -230,12 +230,12 @@
     {
       "name": "classfeatures",
       "label": "Class & Subclass Features (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/classfeatures",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["feat", "weapon"]
         }
@@ -244,12 +244,12 @@
     {
       "name": "races",
       "label": "Races (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/races",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["race", "feat"]
         }
@@ -258,12 +258,12 @@
     {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/monsterfeatures",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.1",
           "types": ["feat", "weapon"]
         }
@@ -272,12 +272,12 @@
     {
       "name": "rules",
       "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/rules",
       "type": "JournalEntry",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "display": "table-of-contents"
         }
       }
@@ -285,7 +285,7 @@
     {
       "name": "tables",
       "label": "Tables (SRD)",
-      "system": "dnd5e",
+      "system": "degringo5e",
       "path": "packs/tables",
       "type": "RollTable",
       "private": false,
@@ -300,7 +300,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
         "display": "table-of-contents"
       }
@@ -314,9 +314,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.2",
           "types": ["class", "subclass", "feat"]
         }
@@ -331,9 +331,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.2",
           "types": ["race", "background", "feat"]
         }
@@ -348,9 +348,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.2",
           "types": ["feat"]
         }
@@ -365,9 +365,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sorting": "m",
           "sourceBook": "SRD 5.2",
           "types": ["spell"]
@@ -383,9 +383,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sourceBook": "SRD 5.2",
           "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
         }
@@ -400,7 +400,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "degringo5e"
     },
     {
       "name": "actors24",
@@ -411,9 +411,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "degringo5e",
       "flags": {
-        "dnd5e": {
+        "degringo5e": {
           "sorting": "m",
           "sourceBook": "SRD 5.2"
         }
@@ -496,8 +496,8 @@
     },
     {
       "type": "setup",
-      "url": "systems/dnd5e/ui/official/dnd5e-repo.jpg",
-      "thumbnail": "systems/dnd5e/ui/official/dnd5e-thumbnail.jpg"
+      "url": "systems/degringo5e/ui/official/degringo5e-repo.jpg",
+      "thumbnail": "systems/degringo5e/ui/official/degringo5e-thumbnail.jpg"
     }
   ],
   "socket": true,
@@ -506,15 +506,15 @@
     "units": "ft"
   },
   "primaryTokenAttribute": "attributes.hp",
-  "background": "systems/dnd5e/ui/official/dnd5e-background.webp",
+  "background": "systems/degringo5e/ui/official/degringo5e-background.webp",
   "flags": {
     "compendiumArtMappings": {
-      "dnd5e": {
-        "mapping": "systems/dnd5e/json/fa-token-mapping.json",
+      "degringo5e": {
+        "mapping": "systems/degringo5e/json/fa-token-mapping.json",
         "credit": "<em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em>"
       }
     },
-    "dnd5e": {
+    "degringo5e": {
       "sourceBooks": {
         "SRD 5.1": "SOURCE.BOOK.SRD51",
         "SRD 5.2": "SOURCE.BOOK.SRD52"
@@ -524,7 +524,7 @@
     "compatibleMigrationVersion": "0.8",
     "hotReload": {
       "extensions": ["css", "hbs", "json"],
-      "paths": ["dnd5e.css", "templates", "lang"]
+      "paths": ["degringo5e.css", "templates", "lang"]
     }
   }
 }

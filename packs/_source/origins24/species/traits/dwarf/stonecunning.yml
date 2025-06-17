@@ -86,7 +86,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/items/tool.svg
+      img: systems/degringo5e/icons/svg/items/tool.svg
   enchant: {}
   identifier: stonecunning
 _id: phbsptStonecunni
@@ -96,7 +96,7 @@ img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
 effects:
   - name: Stonecunning
     img: icons/skills/trades/construction-mason-stonecutter-sculpture.webp
-    origin: Compendium.dnd5e.origins24.Item.phbsptStonecunni
+    origin: Compendium.degringo5e.origins24.Item.phbsptStonecunni
     transfer: false
     _id: SAbuNo2AO3XXtkdv
     type: base
@@ -124,7 +124,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -135,14 +135,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866718338
   modifiedTime: 1745256777763

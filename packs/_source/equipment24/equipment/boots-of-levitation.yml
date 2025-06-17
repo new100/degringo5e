@@ -8,7 +8,7 @@ system:
     IcLhhO0f7VGtA9ut:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplLevitate00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplLevitate00
         challenge:
           attack: null
           save: null
@@ -65,7 +65,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Rare (Requires Attunement)</em></p><p>While you wear
       these boots, you can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLevitate00]{Levitate}</em>
       on yourself.</p>
     chat: ''
   identifier: boots-of-levitation
@@ -109,14 +109,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1740680116496

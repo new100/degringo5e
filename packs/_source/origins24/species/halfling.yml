@@ -2,7 +2,7 @@ name: Halfling
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000
       inline classes="free-rules-embed"]</p><h3
       data-anchor="halfling-traits">Halfling Traits</h3><p><strong>Creature
       Type: </strong>Humanoid</p><p><strong>Size: </strong>Small (about 2–3 feet
@@ -37,13 +37,13 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptBrave00000
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptBrave00000
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptHalflingNi
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptHalflingNi
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptLuck000000
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptLuck000000
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptNaturallyS
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptNaturallyS
             optional: false
         optional: false
         spell: null
@@ -83,7 +83,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866704040
   modifiedTime: 1745687164023

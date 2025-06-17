@@ -51,7 +51,7 @@ export default function DocumentSheetV2Mixin(Base) {
     /* -------------------------------------------- */
 
     /** @inheritDoc */
-    static _customElements = super._customElements.concat(["dnd5e-checkbox", "proficiency-cycle", "slide-toggle"]);
+    static _customElements = super._customElements.concat(["degringo5e-checkbox", "proficiency-cycle", "slide-toggle"]);
 
     /* -------------------------------------------- */
     /*  Rendering                                   */
@@ -94,8 +94,8 @@ export default function DocumentSheetV2Mixin(Base) {
         const toggle = document.createElement("slide-toggle");
         toggle.checked = this._mode === this.constructor.MODES.EDIT;
         toggle.classList.add("mode-slider");
-        toggle.dataset.tooltip = "DND5E.SheetModeEdit";
-        toggle.setAttribute("aria-label", game.i18n.localize("DND5E.SheetModeEdit"));
+        toggle.dataset.tooltip = "DEGRINGO5E.SheetModeEdit";
+        toggle.setAttribute("aria-label", game.i18n.localize("DEGRINGO5E.SheetModeEdit"));
         toggle.addEventListener("change", this._onChangeSheetMode.bind(this));
         toggle.addEventListener("dblclick", event => event.stopPropagation());
         header.insertAdjacentElement("afterbegin", toggle);
@@ -125,8 +125,8 @@ export default function DocumentSheetV2Mixin(Base) {
       elements.classList.add("header-elements");
       elements.innerHTML = `
         <div class="source-book">
-          <a class="config-button" data-action="source" data-tooltip="DND5E.SOURCE.Action.Configure"
-             aria-label="${game.i18n.localize("DND5E.SOURCE.Action.Configure")}">
+          <a class="config-button" data-action="source" data-tooltip="DEGRINGO5E.SOURCE.Action.Configure"
+             aria-label="${game.i18n.localize("DEGRINGO5E.SOURCE.Action.Configure")}">
             <i class="fas fa-cog"></i>
           </a>
           <span></span>
@@ -149,7 +149,7 @@ export default function DocumentSheetV2Mixin(Base) {
       const editable = this.isEditable && (this._mode === this.constructor.MODES.EDIT);
       elements.querySelector(".config-button")?.toggleAttribute("hidden", !editable);
       elements.querySelector(".source-book > span").innerText = editable
-        ? (source.label || game.i18n.localize("DND5E.SOURCE.FIELDS.source.label"))
+        ? (source.label || game.i18n.localize("DEGRINGO5E.SOURCE.FIELDS.source.label"))
         : source.label;
     }
 
@@ -205,7 +205,7 @@ export default function DocumentSheetV2Mixin(Base) {
       element.dataset.tooltip = `
         <section class="loading" data-uuid="${uuid}"><i class="fas fa-spinner fa-spin-pulse"></i></section>
       `;
-      element.dataset.tooltipClass = "dnd5e2 dnd5e-tooltip item-tooltip";
+      element.dataset.tooltipClass = "degringo5e2 degringo5e-tooltip item-tooltip";
       element.dataset.tooltipDirection ??= "LEFT";
     }
 
@@ -215,7 +215,7 @@ export default function DocumentSheetV2Mixin(Base) {
     _disableFields(form) {
       super._disableFields(form);
       form.querySelectorAll(".always-interactive").forEach(input => input.disabled = false);
-      form.querySelectorAll("dnd5e-checkbox:not(.always-interactive)").forEach(input => input.disabled = true);
+      form.querySelectorAll("degringo5e-checkbox:not(.always-interactive)").forEach(input => input.disabled = true);
     }
 
     /* -------------------------------------------- */
@@ -228,7 +228,7 @@ export default function DocumentSheetV2Mixin(Base) {
     async _onChangeSheetMode(event) {
       const { MODES } = this.constructor;
       const toggle = event.currentTarget;
-      const label = game.i18n.localize(`DND5E.SheetMode${toggle.checked ? "Play" : "Edit"}`);
+      const label = game.i18n.localize(`DEGRINGO5E.SheetMode${toggle.checked ? "Play" : "Edit"}`);
       toggle.dataset.tooltip = label;
       toggle.setAttribute("aria-label", label);
       this._mode = toggle.checked ? MODES.EDIT : MODES.PLAY;
@@ -280,7 +280,7 @@ export default function DocumentSheetV2Mixin(Base) {
       } else {
         const context = await item.getChatData({ secrets: item.isOwner });
         const content = await foundry.applications.handlebars.renderTemplate(
-          "systems/dnd5e/templates/items/parts/item-summary.hbs", context
+          "systems/degringo5e/templates/items/parts/item-summary.hbs", context
         );
         summary.querySelectorAll(".item-summary").forEach(el => el.remove());
         summary.insertAdjacentHTML("beforeend", content);

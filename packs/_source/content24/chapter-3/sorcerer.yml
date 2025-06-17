@@ -6,10 +6,10 @@ pages:
     type: class
     _id: fsqRUA4acVXH4I3O
     system:
-      item: Compendium.dnd5e.classes24.Item.phbscrSorcerer00
+      item: Compendium.degringo5e.classes24.Item.phbscrSorcerer00
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00
+          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00
           inline classes="free-rules-embed"]</p> <h2>Becoming a Sorcerer
           …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in
           the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer's
@@ -25,7 +25,7 @@ pages:
         subclass: >-
           <p>A Sorcerer subclass is a specialization that grants you features at
           certain levels, as specified in the subclass. The next page presents
-          the @UUID[Compendium.dnd5e.classes24.Item.phbscrDraconicSo]{Draconic
+          the @UUID[Compendium.degringo5e.classes24.Item.phbscrDraconicSo]{Draconic
           Sorcery} subclass.</p>
       subclassItems: []
       subclassHeader: ''
@@ -43,12 +43,12 @@ pages:
     ownership:
       default: -1
     flags:
-      dnd5e:
+      degringo5e:
         tocHidden: true
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745514685600
@@ -61,7 +61,7 @@ pages:
     type: subclass
     _id: h9Qhn4HyJyAnK5b9
     system:
-      item: Compendium.dnd5e.classes24.Item.phbscrDraconicSo
+      item: Compendium.degringo5e.classes24.Item.phbscrDraconicSo
       description:
         value: >-
           <blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your
@@ -71,7 +71,7 @@ pages:
           dragons' power. Or perhaps you handled a treasure taken from a
           dragon's hoard that was steeped in draconic power. Or you might have a
           dragon for an ancestor
-          (@UUID[Compendium.dnd5e.classes24.Item.phbscrDraconicSo]{Draconic
+          (@UUID[Compendium.degringo5e.classes24.Item.phbscrDraconicSo]{Draconic
           Sorcery} subclass).</p>
       style: ''
     title:
@@ -90,7 +90,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1735934824431
@@ -112,35 +112,35 @@ pages:
       content: >-
         <p>The following options are available to your Metamagic feature. The
         options are presented in alphabetical order.</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoCarefulSpe]{Careful
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoCarefulSpe
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoCarefulSpe]{Careful
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoCarefulSpe
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoDistantSpe]{Distant
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoDistantSpe
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoDistantSpe]{Distant
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoDistantSpe
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS]{Empowered
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoEmpoweredS]{Empowered
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoEmpoweredS
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoExtendedSp]{Extended
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoExtendedSp
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoExtendedSp]{Extended
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoExtendedSp
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoHeightened]{Heightened
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoHeightened
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoHeightened]{Heightened
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoHeightened
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoQuickenedS]{Quickened
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoQuickenedS
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoQuickenedS]{Quickened
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoQuickenedS
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe]{Seeking
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoSeekingSpe]{Seeking
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoSeekingSpe
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoSubtleSpel]{Subtle
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoSubtleSpel
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoSubtleSpel]{Subtle
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoSubtleSpel
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoTransmuted]{Transmuted
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoTransmuted
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoTransmuted]{Transmuted
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoTransmuted
         inline]</p><hr
-        /><h3>@UUID[Compendium.dnd5e.classes24.Item.phbmmoTwinnedSpe]{Twinned
-        Spell}</h3><p>@Embed[Compendium.dnd5e.classes24.Item.phbmmoTwinnedSpe
+        /><h3>@UUID[Compendium.degringo5e.classes24.Item.phbmmoTwinnedSpe]{Twinned
+        Spell}</h3><p>@Embed[Compendium.degringo5e.classes24.Item.phbmmoTwinnedSpe
         inline]</p><hr />
     video:
       controls: true
@@ -152,7 +152,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.1
       createdTime: 1726768321600
       modifiedTime: 1726768478698
@@ -162,7 +162,7 @@ pages:
     _key: '!journal.pages!phbSorcerer00000.XSkwrMRz9FDvovd1'
 folder: 1A8WFP1GVZkKdxii
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: true
     append: 3
@@ -173,7 +173,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.1
   createdTime: 1724425889394
   modifiedTime: 1745677865645

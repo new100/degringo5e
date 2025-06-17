@@ -608,7 +608,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEphemeral00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -659,7 +659,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIllumination00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -708,7 +708,7 @@ items:
     img: icons/magic/death/undead-ghost-scream-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -716,7 +716,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIncorporealMov
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -780,7 +780,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -812,7 +812,7 @@ items:
     img: icons/magic/control/silhouette-hold-change-blue.webp
     effects:
       - name: Invisible
-        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        img: systems/degringo5e/icons/svg/statuses/invisible.svg
         origin: Item.mmVanish00000000
         _id: oY6W5ijpozecYGkq
         type: base
@@ -852,7 +852,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -861,7 +861,7 @@ items:
         _key: >-
           !actors.items.effects!mmWillowisp00000.mmVanish00000000.oY6W5ijpozecYGkq
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -869,7 +869,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVanish00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -1025,7 +1025,7 @@ items:
     img: icons/magic/life/cross-area-circle-green-white.webp
     effects:
       - name: 'Failure: Dead'
-        img: systems/dnd5e/icons/svg/statuses/dead.svg
+        img: systems/degringo5e/icons/svg/statuses/dead.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmConsumeLife000
         _id: gCuUMpz0XzscFB4K
         type: base
@@ -1053,7 +1053,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1062,7 +1062,7 @@ items:
         _key: >-
           !actors.items.effects!mmWillowisp00000.YPy3wAfsPZ7cNJoJ.gCuUMpz0XzscFB4K
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1070,7 +1070,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmConsumeLife000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -1212,7 +1212,7 @@ items:
     img: icons/magic/lightning/orb-ball-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1220,7 +1220,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShock000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712730320
@@ -1233,12 +1233,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712730350

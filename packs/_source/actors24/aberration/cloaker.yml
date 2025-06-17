@@ -589,7 +589,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLightSensitivi
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -671,7 +671,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -679,7 +679,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -900,7 +900,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -909,7 +909,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.mmAttach00000000.m1rBdxxAM8FGk5gI
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -917,7 +917,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAttach00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -1050,7 +1050,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -1117,7 +1117,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+            uuid: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
             ability: wis
           name: ''
       uses:
@@ -1129,7 +1129,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMirrorImag]{Mirror
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMirrorImag]{Mirror
           Image}</em> spell, requiring no spell components and using Wisdom as
           the spellcasting ability. The spell ends early if the [[lookup @name
           lowercase]] starts or ends its turn in Bright Light.</p>
@@ -1153,7 +1153,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1161,7 +1161,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPhantasms00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -1275,7 +1275,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     effects:
       - name: Duplicate A
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1304,7 +1304,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1313,7 +1313,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.VUqQIaiZoIzxUdf1
       - name: Duplicate B
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1342,7 +1342,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1351,7 +1351,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.XcTQl9DhT9lC3bxI
       - name: Duplicate C
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
         duration:
           rounds: null
           startTime: null
@@ -1380,7 +1380,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1391,9 +1391,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
+          Compendium.degringo5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
         changes:
           - key: system.activation
             mode: 5
@@ -1435,7 +1435,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1448,13 +1448,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -1563,7 +1563,7 @@ items:
     img: icons/magic/control/fear-fright-white.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Item.mmMoan0000000000
         _id: ozk8flGDR2kAITEI
         type: base
@@ -1591,7 +1591,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1600,7 +1600,7 @@ items:
         _key: >-
           !actors.items.effects!mmCloaker0000000.mmMoan0000000000.ozk8flGDR2kAITEI
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1608,7 +1608,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMoan0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715539
@@ -1624,7 +1624,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415408481
   modifiedTime: 1745712715569

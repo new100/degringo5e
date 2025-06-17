@@ -101,7 +101,7 @@ type: spell
 img: icons/magic/holy/prayer-hands-glowing-yellow.webp
 effects:
   - name: Healed by Prayer
-    origin: Compendium.dnd5e.spells24.Item.phbsplPrayerofHe
+    origin: Compendium.degringo5e.spells24.Item.phbsplPrayerofHe
     duration:
       rounds: null
       startTime: null
@@ -119,7 +119,7 @@ effects:
     changes: []
     description: >-
       <p>A creature can’t be affected by the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] spell again until
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrayerofHe] spell again until
       that creature finishes a Long Rest.</p>
     tint: '#ffffff'
     transfer: false
@@ -129,7 +129,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -141,14 +141,14 @@ sort: 1300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425966923
   modifiedTime: 1745256797072

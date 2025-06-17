@@ -3,7 +3,7 @@
 /* ---------------------------------- */
 
 /* Journal-only */
-.sheet.dnd5e2-journal {
+.sheet.degringo5e2-journal {
   .window-resizable-handle {
     bottom: 2px;
     right: 2px;
@@ -12,7 +12,7 @@
 
   &.journal-entry .scrollable, &.journal-entry-page.editor-content {
     scrollbar-width: thin;
-    scrollbar-color: var(--dnd5e-color-gold) transparent;
+    scrollbar-color: var(--degringo5e-color-gold) transparent;
 
     &::-webkit-scrollbar-track {
       box-shadow: none;
@@ -21,7 +21,7 @@
 
     &::-webkit-scrollbar-thumb {
       border: none;
-      background: var(--dnd5e-color-gold);
+      background: var(--degringo5e-color-gold);
     }
   }
 
@@ -29,25 +29,25 @@
   .journal-entry-content,
   &.journal-entry-page .window-content {
     background: url("ui/texture1.webp") no-repeat top center / auto 770px,
-      var(--dnd5e-color-parchment) url("ui/texture2.webp") no-repeat bottom center / auto 704px;
+      var(--degringo5e-color-parchment) url("ui/texture2.webp") no-repeat bottom center / auto 704px;
 
-    h1 { font-size: var(--dnd5e-journal-h1-size); }
-    h2 { font-size: var(--dnd5e-journal-h2-size); }
-    h3 { font-size: var(--dnd5e-journal-h3-size); }
-    h4, h5 { font-size: var(--dnd5e-journal-h4-size); }
+    h1 { font-size: var(--degringo5e-journal-h1-size); }
+    h2 { font-size: var(--degringo5e-journal-h2-size); }
+    h3 { font-size: var(--degringo5e-journal-h3-size); }
+    h4, h5 { font-size: var(--degringo5e-journal-h4-size); }
 
     /* Page Title */
     .journal-header .title {
       border: 1px transparent;
       transition: border 250ms ease;
-      font-size: var(--dnd5e-journal-title-size);
-      font-family: var(--dnd5e-font-modesto);
+      font-size: var(--degringo5e-journal-title-size);
+      font-family: var(--degringo5e-font-modesto);
       font-weight: bold;
       letter-spacing: 1px;
 
       &:hover, &:focus {
-        border: 1px solid var(--dnd5e-color-gold);
-        box-shadow: 0 0 6px var(--dnd5e-color-gold);
+        border: 1px solid var(--degringo5e-color-gold);
+        box-shadow: 0 0 6px var(--degringo5e-color-gold);
       }
 
       &:disabled {
@@ -139,7 +139,7 @@
 /*  Journal Pages                            */
 /* ----------------------------------------- */
 
-.dnd5e2.journal-editor {
+.degringo5e2.journal-editor {
   .window-content { padding: 0; }
   [data-application-part], .editor { height: 100%; }
   .prosemirror {
@@ -156,7 +156,7 @@
   }
 }
 
-.dnd5e2-journal.app .editable {
+.degringo5e2-journal.app .editable {
   .journal-header {
     flex: 0;
     flex-wrap: nowrap;
@@ -277,7 +277,7 @@
   }
   .travel-info, .field.block {
     min-height: 4em;
-    background: linear-gradient(to top, var(--dnd5e-block-background) 65%, transparent);
+    background: linear-gradient(to top, var(--degringo5e-block-background) 65%, transparent);
     border: 1px solid var(--entry-border-color);
     border-top: none;
     border-radius: 0 0 10px 10px;

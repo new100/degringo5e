@@ -7,7 +7,7 @@ system:
     dWZ4qmQhS20AwoaG:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
         challenge:
           attack: null
           save: null
@@ -65,7 +65,7 @@ system:
     value: >-
       <p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding
       it, you can expend 1 charge to cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic} from
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic} from
       it. The wand regains 1d3 expended charges daily at dawn.</p>
     chat: ''
   identifier: wand-of-magic-detection
@@ -131,14 +131,14 @@ system:
 effects: []
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704680

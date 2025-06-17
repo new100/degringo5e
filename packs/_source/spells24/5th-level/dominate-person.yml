@@ -108,7 +108,7 @@ type: spell
 img: icons/magic/control/control-influence-puppet.webp
 effects:
   - name: Dominated
-    origin: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+    origin: Compendium.degringo5e.spells24.Item.phbsplDominatePe
     duration:
       rounds: null
       startTime: null
@@ -137,7 +137,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -149,14 +149,14 @@ sort: 2200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425951030
   modifiedTime: 1745256791587

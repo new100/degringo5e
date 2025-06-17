@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplSummonDrag
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSummonDrag
         caption=false]</p>
       public: ''
     alignment: Neutral
@@ -787,7 +787,7 @@ items:
     effects:
       - name: Shared Acid Resistance
         img: icons/magic/acid/projectile-glowing-bubbles.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
         transfer: false
         _id: 7cJTSbk7inXzZrgc
         type: base
@@ -815,7 +815,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1724444490482
           modifiedTime: 1724445384271
@@ -825,7 +825,7 @@ items:
           !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.7cJTSbk7inXzZrgc
       - name: Shared Cold Resistance
         img: icons/magic/water/snowflake-ice-blue.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
         transfer: false
         type: base
         system: {}
@@ -852,7 +852,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1724444536651
           modifiedTime: 1724445449479
@@ -863,7 +863,7 @@ items:
           !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.RhMVHKsPIntvMb9t
       - name: Shared Fire Resistance
         img: icons/magic/fire/flame-burning-yellow-orange.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
         transfer: false
         type: base
         system: {}
@@ -890,7 +890,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1724444538538
           modifiedTime: 1724445469278
@@ -901,7 +901,7 @@ items:
           !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.88nNini6vAbvuYpW
       - name: Shared Lightning Resistance
         img: icons/magic/lightning/bolt-cloud-sky-white.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
         transfer: false
         type: base
         system: {}
@@ -928,7 +928,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1724444539750
           modifiedTime: 1724445481203
@@ -939,7 +939,7 @@ items:
           !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.aM5KtLpDsfmHWiz2
       - name: Shared Poison Resistance
         img: icons/skills/toxins/poison-bottle-corked-fire-green.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
         transfer: false
         type: base
         system: {}
@@ -966,7 +966,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1724444540837
           modifiedTime: 1724445492474
@@ -980,7 +980,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -988,7 +988,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159247
@@ -1001,7 +1001,7 @@ items:
         value: >-
           <p>The spirit makes a number of [[/item Rend]] attacks equal to half
           the spell's level (round down), and it uses [[/item Breath
-          Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of
+          Weapon]].</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of
           attacks}</p>
         chat: ''
       source:
@@ -1093,7 +1093,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1101,7 +1101,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159247
@@ -1225,7 +1225,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1233,7 +1233,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159247
@@ -1356,7 +1356,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1364,7 +1364,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159247
@@ -1377,12 +1377,12 @@ sort: 200782
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425912241
   modifiedTime: 1745256827525

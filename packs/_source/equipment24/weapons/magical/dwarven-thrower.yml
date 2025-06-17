@@ -144,9 +144,9 @@ system:
   description:
     value: >-
       <div><p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepWarhammer0]{Warhammer}),
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepWarhammer0]{Warhammer}),
       Very Rare (Requires Attunement by a Dwarf or a Creature Attuned to a
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgBeltOfDwarven]{Belt of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgBeltOfDwarven]{Belt of
       Dwarvenkind})</em></p></div><p>You gain a +3 bonus to attack rolls and
       damage rolls made with this magic weapon. It has the Thrown property with
       a normal range of 20 feet and a long range of 60 feet. When you hit with a
@@ -225,14 +225,14 @@ system:
 effects: []
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

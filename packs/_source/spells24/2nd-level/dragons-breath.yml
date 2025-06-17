@@ -165,7 +165,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects: []
   identifier: dragons-breath
 _id: phbsplDragonsBre
@@ -177,14 +177,14 @@ sort: 3900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425951204
   modifiedTime: 1740680096115

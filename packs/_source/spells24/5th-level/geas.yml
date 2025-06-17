@@ -13,11 +13,11 @@ system:
       issue any command you choose, short of an activity that would result in
       certain death. Should you issue a suicidal command, the spell
       ends.</p><p>A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
       Curse}</em>,
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em>, or
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell ends this spell.</p><p><strong>Using a Higher-Level Spell
       Slot.</strong> If you use a level 7 or 8 spell slot, the duration is 365
       days. If you use a level 9 spell slot, the spell lasts until it is ended
@@ -130,7 +130,7 @@ type: spell
 img: icons/equipment/head/hat-pointed-leather-black-glowing.webp
 effects:
   - name: Under Orders
-    origin: Compendium.dnd5e.spells24.Item.phbsplGeas000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplGeas000000
     duration:
       rounds: null
       startTime: null
@@ -159,7 +159,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -171,14 +171,14 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956193
   modifiedTime: 1745256793639

@@ -122,7 +122,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: systems/dnd5e/icons/svg/statuses/exhaustion-1.svg
+      img: systems/degringo5e/icons/svg/statuses/exhaustion-1.svg
       appliedEffects:
         - ujpteFz6imf8RZsj
     WOo8u0FLAzNMpMJN:
@@ -181,7 +181,7 @@ system:
               - acid
             scaling:
               mode: ''
-      img: systems/dnd5e/icons/svg/statuses/exhaustion-2.svg
+      img: systems/degringo5e/icons/svg/statuses/exhaustion-2.svg
       appliedEffects: []
     Fd8ZGgmDyNmJJuj3:
       type: save
@@ -243,7 +243,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: systems/dnd5e/icons/svg/statuses/exhaustion-3.svg
+      img: systems/degringo5e/icons/svg/statuses/exhaustion-3.svg
       appliedEffects: []
     H4uCtCkANBkttnov:
       type: damage
@@ -301,7 +301,7 @@ system:
             scaling:
               mode: ''
       name: 'Turn 4: Hailstones'
-      img: systems/dnd5e/icons/svg/statuses/exhaustion-4.svg
+      img: systems/degringo5e/icons/svg/statuses/exhaustion-4.svg
       appliedEffects: []
     yt2oWWelZl1zV4CB:
       type: damage
@@ -360,7 +360,7 @@ system:
             scaling:
               mode: ''
               number: 1
-      img: systems/dnd5e/icons/svg/statuses/exhaustion-5.svg
+      img: systems/degringo5e/icons/svg/statuses/exhaustion-5.svg
       appliedEffects: []
   identifier: storm-of-vengeance
 _id: phbsplStormofVen
@@ -368,8 +368,8 @@ type: spell
 img: icons/magic/lightning/bolt-cloud-sky-white.webp
 effects:
   - name: Deafened
-    img: systems/dnd5e/icons/svg/statuses/deafened.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplStormofVen
+    img: systems/degringo5e/icons/svg/statuses/deafened.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplStormofVen
     transfer: false
     _id: ujpteFz6imf8RZsj
     type: base
@@ -394,7 +394,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725386260763
       modifiedTime: 1725386286562
@@ -406,14 +406,14 @@ sort: 100196
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425973107
   modifiedTime: 1745256798836

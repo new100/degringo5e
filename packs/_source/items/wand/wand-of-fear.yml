@@ -11,7 +11,7 @@ system:
       crumbles into ashes and is destroyed.</p><p><strong>Command</strong>.
       While holding the wand, you can use an action to expend 1 charge and
       command another creature to flee or grovel, as with the
-      @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command} spell (save
+      @UUID[Compendium.degringo5e.spells.Item.arzCrMRgcNiQuh43]{Command} spell (save
       DC 15).</p><p><strong>Cone of Fear</strong>. While holding the wand, you
       can use an action to expend 2 charges, causing the wand's tip to emit a
       60-foot cone of amber light. Each creature in the cone must succeed on a
@@ -138,7 +138,7 @@ system:
     J1oQUVbZNLMFnm4f:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43
+        uuid: Compendium.degringo5e.spells.Item.arzCrMRgcNiQuh43
         challenge:
           attack: null
           save: 15
@@ -193,14 +193,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1725037136851
   modifiedTime: 1731015855536

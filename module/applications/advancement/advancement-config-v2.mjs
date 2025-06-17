@@ -6,7 +6,7 @@ import PseudoDocumentSheet from "../api/pseudo-document-sheet.mjs";
  */
 export default class AdvancementConfig extends PseudoDocumentSheet {
   constructor(advancement={}, options={}) {
-    if ( advancement instanceof dnd5e.documents.advancement.Advancement ) {
+    if ( advancement instanceof degringo5e.documents.advancement.Advancement ) {
       foundry.utils.logCompatibilityWarning(
         "`AdvancementConfig` should be constructed by passing the Advancement as `options.document`, not as separate parameter.",
         { since: "DnD5e 5.1", until: "DnD5e 5.3" }
@@ -38,7 +38,7 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/advancement/advancement-controls-section.hbs"
+      template: "systems/degringo5e/templates/advancement/advancement-controls-section.hbs"
     }
   };
 
@@ -67,9 +67,9 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
 
   /** @inheritDoc */
   async _prepareContext(options) {
-    const levels = Array.fromRange(CONFIG.DND5E.maxLevel + 1).map(l => ({ value: l, label: l }));
+    const levels = Array.fromRange(CONFIG.DEGRINGO5E.maxLevel + 1).map(l => ({ value: l, label: l }));
     if ( ["class", "subclass"].includes(this.item.type) ) delete levels[0];
-    else levels[0].label = game.i18n.localize("DND5E.ADVANCEMENT.Config.AnyLevel");
+    else levels[0].label = game.i18n.localize("DEGRINGO5E.ADVANCEMENT.Config.AnyLevel");
     const context = {
       ...(await super._prepareContext(options)),
       advancement: this.advancement,
@@ -86,9 +86,9 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
       },
       levels,
       classRestrictionOptions: [
-        { value: "", label: game.i18n.localize("DND5E.AdvancementClassRestrictionNone") },
-        { value: "primary", label: game.i18n.localize("DND5E.AdvancementClassRestrictionPrimary") },
-        { value: "secondary", label: game.i18n.localize("DND5E.AdvancementClassRestrictionSecondary") }
+        { value: "", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionNone") },
+        { value: "primary", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionPrimary") },
+        { value: "secondary", label: game.i18n.localize("DEGRINGO5E.AdvancementClassRestrictionSecondary") }
       ],
       showClassRestrictions: this.item.type === "class",
       showLevelSelector: !this.advancement.constructor.metadata.multiLevel
@@ -213,13 +213,13 @@ export default class AdvancementConfig extends PseudoDocumentSheet {
 
     // Abort if this uuid is the parent item
     if ( item.uuid === this.item.uuid ) {
-      ui.notifications.error("DND5E.ADVANCEMENT.ItemGrant.Warning.Recursive", {localize: true});
+      ui.notifications.error("DEGRINGO5E.ADVANCEMENT.ItemGrant.Warning.Recursive", {localize: true});
       return;
     }
 
     // Abort if this uuid exists already
     if ( existingItems.find(i => i.uuid === item.uuid) ) {
-      ui.notifications.warn("DND5E.ADVANCEMENT.ItemGrant.Warning.Duplicate", {localize: true});
+      ui.notifications.warn("DEGRINGO5E.ADVANCEMENT.ItemGrant.Warning.Duplicate", {localize: true});
       return;
     }
 

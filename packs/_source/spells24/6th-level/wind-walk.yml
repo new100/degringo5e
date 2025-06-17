@@ -112,7 +112,7 @@ img: icons/magic/air/wind-weather-snow-gusts.webp
 effects:
   - name: Cloud Form
     img: icons/magic/air/weather-clouds.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplWindWalk00
+    origin: Compendium.degringo5e.spells24.Item.phbsplWindWalk00
     transfer: false
     _id: yuAiVeSve8sEy6JQ
     type: base
@@ -167,7 +167,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724859609679
       modifiedTime: 1724861948154
@@ -179,14 +179,14 @@ sort: 100013
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425978077
   modifiedTime: 1745256800133

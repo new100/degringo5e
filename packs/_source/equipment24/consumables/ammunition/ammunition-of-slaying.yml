@@ -9,9 +9,9 @@ system:
       on a failed save or half as much extra damage on a successful
       one.</p><p>After dealing its extra damage to a creature, the ammunition
       becomes nonmagical.</p><details><summary>Creature Type Table (click to
-      expand)</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgSlayingAmmuni
+      expand)</summary><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgSlayingAmmuni
       rollable]</p></details><p>
-      @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   price:
@@ -314,7 +314,7 @@ img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
 effects:
   - type: enchantment
     name: Ammunition of Slaying Aberrations
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     _id: 4GIkMFeZQHZnfjvq
     system: {}
@@ -326,7 +326,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -356,7 +356,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1731107472566
@@ -365,7 +365,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.4GIkMFeZQHZnfjvq'
   - type: enchantment
     name: Ammunition of Slaying Beasts
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -376,7 +376,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -402,7 +402,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880757916
       modifiedTime: 1729890200106
@@ -412,7 +412,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.70bFeuTndNorjLBe'
   - type: enchantment
     name: Ammunition of Slaying Celestials
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -423,7 +423,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -449,7 +449,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880762473
       modifiedTime: 1729890195447
@@ -459,7 +459,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.o4aDyFCK0ekd9w8j'
   - type: enchantment
     name: Ammunition of Slaying Constructs
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -470,7 +470,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -496,7 +496,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880764703
       modifiedTime: 1729890192492
@@ -506,7 +506,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.AvExH8PizzJN0jSM'
   - type: enchantment
     name: Ammunition of Slaying Dragons
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -517,7 +517,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -543,7 +543,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880766483
       modifiedTime: 1729890189521
@@ -553,7 +553,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.VRMET3XgPTjBG91L'
   - type: enchantment
     name: Ammunition of Slaying Elementals
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -564,7 +564,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -590,7 +590,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880855437
       modifiedTime: 1729890186558
@@ -600,7 +600,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.ku2JX8rDga8GUBul'
   - type: enchantment
     name: Ammunition of Slaying Humanoids
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -611,7 +611,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -637,7 +637,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880858036
       modifiedTime: 1729890183754
@@ -647,7 +647,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.ZssaQ07jWS7jFiej'
   - type: enchantment
     name: Ammunition of Slaying Fey
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -658,7 +658,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -684,7 +684,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880860245
       modifiedTime: 1729890181003
@@ -694,7 +694,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.3JnW3nSByOVKu1LW'
   - type: enchantment
     name: Ammunition of Slaying Fiends
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -705,7 +705,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -731,7 +731,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880862997
       modifiedTime: 1729890178231
@@ -741,7 +741,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.ulADMO3yope7gn5R'
   - type: enchantment
     name: Ammunition of Slaying Giants
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -752,7 +752,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -778,7 +778,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880991154
       modifiedTime: 1729890175246
@@ -788,7 +788,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.MKSR9zEe2s3qVILa'
   - type: enchantment
     name: Ammunition of Slaying Monstrosities
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -799,7 +799,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -825,7 +825,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880994342
       modifiedTime: 1729890171819
@@ -835,7 +835,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.cFNisqoGRSTHYDI4'
   - type: enchantment
     name: Ammunition of Slaying Oozes
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -846,7 +846,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -872,7 +872,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729880998089
       modifiedTime: 1729890167836
@@ -882,7 +882,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.3mSYXVx987sezjuS'
   - type: enchantment
     name: Ammunition of Slaying Plants
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -893,7 +893,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -919,7 +919,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729881000245
       modifiedTime: 1729890162977
@@ -929,7 +929,7 @@ effects:
     _key: '!items.effects!dmgSlayingAmmuni.BsXM9mDyGJ1R754S'
   - type: enchantment
     name: Ammunition of Slaying Undead
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -940,7 +940,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgSlayingAmmuni
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgSlayingAmmuni
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -966,7 +966,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729881073350
       modifiedTime: 1729890158768
@@ -979,7 +979,7 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - FXPI8uOLJuWDUTax
@@ -987,7 +987,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728337643089
   modifiedTime: 1746464506652

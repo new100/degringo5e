@@ -7,7 +7,7 @@ system:
       damage on a failed save or half as much damage on a successful
       one.</p><p>A Humanoid killed by this spell rises at the start of your next
       turn as a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmZombie00000000]{Zombie}</strong>
       (see appendix B) that follows your verbal orders.</p>
     chat: ''
   source:
@@ -160,7 +160,7 @@ system:
         proficiency: false
         saves: false
       profiles:
-        - uuid: Compendium.dnd5e.actors24.Actor.mmZombie00000000
+        - uuid: Compendium.degringo5e.actors24.Actor.mmZombie00000000
           _id: zl3kO0TCnNPCrj46
           level:
             min: null
@@ -181,14 +181,14 @@ sort: 1700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425953719
   modifiedTime: 1745256792996

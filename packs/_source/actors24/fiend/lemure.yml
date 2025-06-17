@@ -407,9 +407,9 @@ system:
   details:
     biography:
       value: >-
-        <h1>Lemures</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.StGSoy9GntE0mCiY
+        <h1>Lemures</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.StGSoy9GntE0mCiY
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Lemure</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HJOkVF1j68fs3m7Y
+        mm"]</p><h2>Lemure</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.HJOkVF1j68fs3m7Y
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -615,7 +615,7 @@ items:
             name: 'Revive: Days'
             formula: 1d10
           name: 'Revive: Days'
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -625,7 +625,7 @@ items:
           <p class="feature">If the [[lookup @name lowercase]] dies in the Nine
           Hells, it revives with all its Hit Points in [[/r 1d10]] days unless
           it is killed by a creature under the effects of a
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplBless00000]{Bless}</em>
           spell or its remains are sprinkled with Holy Water.</p>
         chat: ''
       identifier: hellish-restoration
@@ -648,7 +648,7 @@ items:
     img: icons/creatures/unholy/demon-fire-imp.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -656,7 +656,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmHellishRestora
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722554
@@ -789,7 +789,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVileSlime00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722554
@@ -802,12 +802,12 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712722579

@@ -585,7 +585,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718859
@@ -637,7 +637,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmStandingLeap00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718859
@@ -826,8 +826,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGiantFrog00000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantFrog00000.Item.mmBite0000000000
         _id: PCME8GwPLyFitNxH
         type: base
         system: {}
@@ -855,7 +855,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -864,7 +864,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantFrog00000.mmBite0000000000.PCME8GwPLyFitNxH
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -872,7 +872,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718859
@@ -995,7 +995,7 @@ items:
             name: ''
             formula: ''
           name: Swallowed
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1037,7 +1037,7 @@ items:
     img: icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp
     effects:
       - name: Blinded, Restrained, and Total Cover
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmSwallow0000000
         _id: VOHv1LyO3hHolZXo
         type: base
@@ -1076,7 +1076,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1085,7 +1085,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantFrog00000.mmSwallow0000000.VOHv1LyO3hHolZXo
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
         _id: aS5FyMP72vn3OKf1
         type: base
@@ -1122,7 +1122,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1131,7 +1131,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantFrog00000.mmSwallow0000000.aS5FyMP72vn3OKf1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1139,7 +1139,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwallow0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718859
@@ -1155,7 +1155,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415449930
   modifiedTime: 1745712718885

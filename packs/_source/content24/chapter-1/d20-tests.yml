@@ -49,12 +49,12 @@ pages:
     ownership:
       default: -1
     flags:
-      dnd5e:
+      degringo5e:
         tocHidden: true
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1745435131792
@@ -84,7 +84,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1735933828859
@@ -114,7 +114,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1726021330618
@@ -138,7 +138,7 @@ pages:
         roll hits if the roll equals or exceeds the target’s
         &amp;Reference[armorclass]. Attack rolls usually occur in battle,
         described in
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbCombat0000000]{Combat}
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbCombat0000000]{Combat}
         later in this chapter, but the GM might also ask for an attack roll in
         other situations, such as an archery competition.</p><h2>Ability
         Modifier</h2><p>The &amp;Reference[attackrolls] Abilities table shows
@@ -151,12 +151,12 @@ pages:
         with a weapon</p></td></tr><tr><td><p>Varies</p></td><td><p>Spell attack
         (the ability used is determined by the spellcaster’s spellcasting
         feature, as explained in
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.ujhsaI8nVkjXwMHD#attack-rolls]{chapter
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.ujhsaI8nVkjXwMHD#attack-rolls]{chapter
         7})</p></td></tr></tbody></table><p>Some features let you use different
         ability modifiers from those listed. For example, the
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#finesse]{Finesse
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#finesse]{Finesse
         property} (see
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#finesse]{Equipment})
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#finesse]{Equipment})
         lets you use Strength or Dexterity with a weapon that has that
         property.</p><h2>Proficiency Bonus</h2><p>You add your Proficiency Bonus
         to your attack roll when you attack using a weapon you have proficiency
@@ -165,7 +165,7 @@ pages:
         information about weapon proficiencies.</p><h2>Armor Class</h2><p>A
         creature’s Armor Class represents how well the creature avoids being
         wounded in combat. The AC of a character is determined at
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.l4eqkEUGLVS2jBhO]{character
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.l4eqkEUGLVS2jBhO]{character
         creation}, whereas the AC of a monster appears in its stat
         block.</p><p><em><strong>Calculating AC.</strong></em> All creatures
         start with the same base AC calculation:</p><p
@@ -180,7 +180,7 @@ pages:
         (called a “natural 20”) for an attack roll, the attack hits regardless
         of any modifiers or the target’s AC. This is called a
         &amp;Reference[Critical Hits]{Critical Hit} (see
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbCombat0000000]{Combat}
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbCombat0000000]{Combat}
         later in this chapter).</p><p>If you roll a 1 on the d20 (a “natural 1”)
         for an attack roll, the attack misses regardless of any modifiers or the
         target’s AC.</p>
@@ -194,7 +194,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1745435303464
@@ -269,7 +269,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1735933839995
@@ -296,7 +296,7 @@ pages:
         reflects the impact that training has on the creature’s capabilities. A
         character’s Proficiency Bonus increases as the character gains levels
         (described in
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.iHbj5aJvc1T7i5YI]{chapter
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.iHbj5aJvc1T7i5YI]{chapter
         2}). A monster’s Proficiency Bonus is based on its
         &amp;Reference[challengerating]. The Proficiency Bonus table shows how
         the bonus is determined.</p><p>This bonus is applied to a
@@ -319,7 +319,7 @@ pages:
         only once.</p><h2>Skill Proficiencies</h2><p>Most ability checks involve
         using a skill, which represents a category of things creatures try to do
         with an ability check. The descriptions of the actions you take (see
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbActions000000]{Actions}
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbActions000000]{Actions}
         later in this chapter) specify which skill applies if you make an
         ability check for that action, and many other rules note when a skill is
         relevant. The GM has the ultimate say on whether a skill is relevant in
@@ -407,7 +407,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1745435684584
@@ -417,7 +417,7 @@ pages:
     _key: '!journal.pages!phbD20Tests00000.zU9fgQbLaVbJvPRX'
 folder: DEIORpZoUWPUBTPh
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: true
     append: 1
@@ -428,7 +428,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425888790
   modifiedTime: 1745677864937

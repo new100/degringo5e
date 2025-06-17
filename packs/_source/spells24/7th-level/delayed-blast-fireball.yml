@@ -128,7 +128,7 @@ system:
         formula: ''
         name: ''
       name: Create Bead
-      img: systems/dnd5e/icons/svg/damage/force.svg
+      img: systems/degringo5e/icons/svg/damage/force.svg
       _id: 9yLyrnGNwM8EL6Uy
     iWd7zKpQIgWofJAp:
       type: save
@@ -179,7 +179,7 @@ system:
           calculation: spellcasting
           formula: ''
       name: Touch Bead
-      img: systems/dnd5e/icons/svg/trait-skills.svg
+      img: systems/degringo5e/icons/svg/trait-skills.svg
       _id: iWd7zKpQIgWofJAp
     9i14Jmun9em69EnX:
       type: utility
@@ -231,7 +231,7 @@ system:
         formula: ''
         name: ''
       name: Turn End Damage Increase
-      img: systems/dnd5e/icons/svg/scale-value.svg
+      img: systems/degringo5e/icons/svg/scale-value.svg
       _id: 9i14Jmun9em69EnX
       appliedEffects: []
     M15GlfjeWy7Cdiqn:
@@ -308,14 +308,14 @@ sort: 2000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425949200
   modifiedTime: 1745256790118

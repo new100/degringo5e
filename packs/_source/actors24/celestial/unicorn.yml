@@ -610,7 +610,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -643,7 +643,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -651,7 +651,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -702,7 +702,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -784,7 +784,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -792,7 +792,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -925,7 +925,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmHooves00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -1060,7 +1060,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRadiantHorn000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -1081,7 +1081,7 @@ items:
         3sIvFIrXAhLKOUVa:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDetectEvil
             challenge:
               attack: null
               save: null
@@ -1124,7 +1124,7 @@ items:
         ejOywreUgtxUYqJb:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDruidcraft
             challenge:
               attack: null
               save: null
@@ -1167,7 +1167,7 @@ items:
         ofSNAnJVrF0XFHHc:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
             challenge:
               attack: null
               save: null
@@ -1219,7 +1219,7 @@ items:
         VCfr2seLyj0miRcB:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDispelEvil
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDispelEvil
             challenge:
               attack: null
               save: null
@@ -1271,7 +1271,7 @@ items:
         TxnJnvbfOtT4YvbS:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplEntangle00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplEntangle00
             challenge:
               attack: null
               save: null
@@ -1323,7 +1323,7 @@ items:
         4bSkMbNN5owReh6k:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPasswithou
             challenge:
               attack: null
               save: null
@@ -1375,7 +1375,7 @@ items:
         SvEQuv4IrXq3drfF:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplWordofReca
+            uuid: Compendium.degringo5e.spells24.Item.phbsplWordofReca
             challenge:
               attack: null
               save: null
@@ -1435,18 +1435,18 @@ items:
           the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
           Will:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
           and Good}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em></p><p
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCalmEmotio]{Calm
           Emotions}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelEvil]{Dispel Evil
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]{Dispel Evil
           and Good}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEntangle00]{Entangle}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{Pass
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEntangle00]{Entangle}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPasswithou]{Pass
           without Trace}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWordofReca]{Word of
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWordofReca]{Word of
           Recall}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1468,7 +1468,7 @@ items:
     img: icons/magic/symbols/circled-gem-pink.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1476,7 +1476,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpellcasting00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -1493,7 +1493,7 @@ items:
           <p>For the duration, you sense the location of any Aberration,
           Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
           yourself. You also sense whether the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
           spell is active there and, if so, where.</p><p>The spell is blocked by
           1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
@@ -1593,7 +1593,7 @@ items:
     img: icons/magic/perception/eye-ringed-green.webp
     effects:
       - name: Detect Evil and Good
-        origin: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        origin: Compendium.degringo5e.spells24.Item.phbsplDetectEvil
         duration:
           rounds: null
           startTime: null
@@ -1618,7 +1618,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1629,9 +1629,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.3sIvFIrXAhLKOUVa
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.3sIvFIrXAhLKOUVa
         changes:
           - key: system.properties
             mode: 2
@@ -1665,7 +1665,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1678,16 +1678,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.3sIvFIrXAhLKOUVa
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -1810,9 +1810,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.ejOywreUgtxUYqJb
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.ejOywreUgtxUYqJb
         changes:
           - key: system.properties
             mode: 2
@@ -1846,7 +1846,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1859,13 +1859,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.ejOywreUgtxUYqJb
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDruidcraft
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -1983,7 +1983,7 @@ items:
     img: icons/magic/sonic/explosion-shock-sound-wave.webp
     effects:
       - name: Calmed
-        origin: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+        origin: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
         duration:
           rounds: null
           startTime: null
@@ -2019,7 +2019,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2028,7 +2028,7 @@ items:
         _key: >-
           !actors.items.effects!mmUnicorn0000000.DKRD4BpOE7xCo1AQ.xwyUvd93d4A5LHHH
       - name: Indifference
-        origin: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+        origin: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
         duration:
           rounds: null
           startTime: null
@@ -2054,10 +2054,10 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
+            Compendium.degringo5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2069,9 +2069,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.ofSNAnJVrF0XFHHc
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.ofSNAnJVrF0XFHHc
         changes:
           - key: system.properties
             mode: 2
@@ -2105,7 +2105,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2118,13 +2118,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.ofSNAnJVrF0XFHHc
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -2335,13 +2335,13 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+          img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
       identifier: dispel-evil-and-good
     type: spell
     img: icons/magic/holy/yin-yang-balance-symbol.webp
     effects:
       - name: Dispelling Evil and Good
-        origin: Compendium.dnd5e.spells24.Item.phbsplDispelEvil
+        origin: Compendium.degringo5e.spells24.Item.phbsplDispelEvil
         duration:
           rounds: 1
           startTime: null
@@ -2370,7 +2370,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2381,9 +2381,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.VCfr2seLyj0miRcB
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.VCfr2seLyj0miRcB
         changes:
           - key: system.properties
             mode: 2
@@ -2417,7 +2417,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2430,16 +2430,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.VCfr2seLyj0miRcB
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDispelEvil
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDispelEvil
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -2555,7 +2555,7 @@ items:
     img: icons/magic/nature/root-vine-entangle-foot-green.webp
     effects:
       - name: Restrained
-        origin: Compendium.dnd5e.spells24.Item.phbsplEntangle00
+        origin: Compendium.degringo5e.spells24.Item.phbsplEntangle00
         duration:
           rounds: 1
           startTime: null
@@ -2566,7 +2566,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         _id: wn7K2m4XhXhItgPT
         type: base
         system: {}
@@ -2585,7 +2585,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2596,9 +2596,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.TxnJnvbfOtT4YvbS
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.TxnJnvbfOtT4YvbS
         changes:
           - key: system.properties
             mode: 2
@@ -2632,7 +2632,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2645,13 +2645,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.TxnJnvbfOtT4YvbS
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEntangle00
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplEntangle00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -2756,7 +2756,7 @@ items:
     img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
     effects:
       - name: Concealed
-        origin: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+        origin: Compendium.degringo5e.spells24.Item.phbsplPasswithou
         duration:
           rounds: null
           startTime: null
@@ -2788,7 +2788,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2799,9 +2799,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.4bSkMbNN5owReh6k
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.4bSkMbNN5owReh6k
         changes:
           - key: system.properties
             mode: 2
@@ -2835,7 +2835,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2848,13 +2848,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.4bSkMbNN5owReh6k
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplPasswithou
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -2958,7 +2958,7 @@ items:
             name: ''
             formula: ''
           name: Teleport to Sanctuary
-          img: systems/dnd5e/icons/svg/trait-saves.svg
+          img: systems/degringo5e/icons/svg/trait-saves.svg
         CJ6NOsqtoO3HCGjQ:
           type: utility
           name: Designate Sanctuary
@@ -3005,7 +3005,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/items/background.svg
+          img: systems/degringo5e/icons/svg/items/background.svg
       identifier: word-of-recall
     type: spell
     img: icons/magic/movement/portal-vortex-orange.webp
@@ -3013,9 +3013,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.SvEQuv4IrXq3drfF
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.mmSpellcasting00.Activity.SvEQuv4IrXq3drfF
         changes:
           - key: system.properties
             mode: 2
@@ -3049,7 +3049,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3062,13 +3062,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.SvEQuv4IrXq3drfF
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplWordofReca
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplWordofReca
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3129,7 +3129,7 @@ items:
             formula: ''
             name: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
           _id: 7p8mgAgWVbmb8gpV
       uses:
         spent: 0
@@ -3160,7 +3160,7 @@ items:
     img: icons/commodities/bones/tooth-spiked-brown.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3168,7 +3168,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmChargingHorn00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3313,7 +3313,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3322,7 +3322,7 @@ items:
         _key: >-
           !actors.items.effects!mmUnicorn0000000.mmShimmeringShie.sGQwUaOCcVnE2PA7
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3330,7 +3330,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShimmeringShie
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3349,7 +3349,7 @@ items:
         OghPbiZjhgIJ5llC:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCureWounds
             challenge:
               attack: null
               save: null
@@ -3399,7 +3399,7 @@ items:
         lruyGaBCUcPkdyAC:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplLesserRest
+            uuid: Compendium.degringo5e.spells24.Item.phbsplLesserRest
             challenge:
               attack: null
               save: null
@@ -3455,9 +3455,9 @@ items:
       description:
         value: >-
           <p>The [[lookup @name]] touches another creature with its horn and
-          casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
+          casts <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
           Wounds}</em> or
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
           Restoration}</em> on that creature, using the same spellcasting
           ability as Spellcasting.</p>
         chat: ''
@@ -3482,7 +3482,7 @@ items:
     effects: []
     folder: null
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3490,7 +3490,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmUnicornsBlessi
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3607,9 +3607,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.lWC2jp0sRaJILIwH.Activity.OghPbiZjhgIJ5llC
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.lWC2jp0sRaJILIwH.Activity.OghPbiZjhgIJ5llC
         changes:
           - key: system.properties
             mode: 2
@@ -3643,7 +3643,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3656,13 +3656,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.lWC2jp0sRaJILIwH.Activity.OghPbiZjhgIJ5llC
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCureWounds
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3765,9 +3765,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmUnicorn0000000.Item.lWC2jp0sRaJILIwH.Activity.lruyGaBCUcPkdyAC
+          Compendium.degringo5e.actors24.Actor.mmUnicorn0000000.Item.lWC2jp0sRaJILIwH.Activity.lruyGaBCUcPkdyAC
         changes:
           - key: system.properties
             mode: 2
@@ -3801,7 +3801,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3814,13 +3814,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.lWC2jp0sRaJILIwH.Activity.lruyGaBCUcPkdyAC
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLesserRest
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplLesserRest
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729064
@@ -3831,12 +3831,12 @@ items:
 effects: []
 folder: B4jgCSN5ycmyM4ak
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415477323
   modifiedTime: 1745712729107

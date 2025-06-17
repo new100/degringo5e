@@ -107,7 +107,7 @@ system:
         name: ''
         formula: ''
       name: Conjure Feast
-      img: systems/dnd5e/icons/svg/activity/summon.svg
+      img: systems/degringo5e/icons/svg/activity/summon.svg
       appliedEffects: []
     6GsLAWV31TuE6ysp:
       type: heal
@@ -175,7 +175,7 @@ img: icons/consumables/food/cooked-hock-glowing-orange.webp
 effects:
   - name: Feast's Benefits
     img: icons/consumables/food/cooked-ribs-rack-glazed-bones-brown-white.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplHeroesFeas
+    origin: Compendium.degringo5e.spells24.Item.phbsplHeroesFeas
     transfer: false
     _id: wGsbKojtJs43Pjyx
     type: base
@@ -215,7 +215,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724773715492
       modifiedTime: 1724774447270
@@ -227,14 +227,14 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425958524
   modifiedTime: 1745256794591

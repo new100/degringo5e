@@ -8,9 +8,9 @@ system:
       <p><em>(Requires attunement by a bard, cleric, druid, sorcerer, warlock,
       or wizard)</em></p><p>While holding this staff, you can use an action to
       expend 1 of its 10 charges to cast
-      @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person},
-      @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}, or
-      @UUID[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{Comprehend Languages}
+      @UUID[Compendium.degringo5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person},
+      @UUID[Compendium.degringo5e.spells.Item.arzCrMRgcNiQuh43]{Command}, or
+      @UUID[Compendium.degringo5e.spells.Item.4dSvfvTy2ZIJ3K4k]{Comprehend Languages}
       from it using your spell save DC. The staff can also be used as a magic
       quarterstaff.</p><p>If you are holding the staff and fail a saving throw
       against an enchantment spell that targets only you, you can turn your
@@ -102,7 +102,7 @@ system:
     jQpPiY9JypFhSabm:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs
+        uuid: Compendium.degringo5e.spells.Item.eS7XnnApoxRxYXPs
         challenge:
           attack: null
           save: null
@@ -151,7 +151,7 @@ system:
     kyu1xW3gkZI4gPRh:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43
+        uuid: Compendium.degringo5e.spells.Item.arzCrMRgcNiQuh43
         challenge:
           attack: null
           save: null
@@ -200,7 +200,7 @@ system:
     rkyJP9ExCzn3gY7I:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k
+        uuid: Compendium.degringo5e.spells.Item.4dSvfvTy2ZIJ3K4k
         challenge:
           attack: null
           save: null
@@ -404,14 +404,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037143507
   modifiedTime: 1731019499564

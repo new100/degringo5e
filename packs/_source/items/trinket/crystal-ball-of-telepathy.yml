@@ -8,13 +8,13 @@ system:
       <p><em>Wondrous item, (requires attunement)</em></p>
 
       <p>The crystal ball is about 6 inches in diameter. While touching it, you
-      can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}
+      can cast the @UUID[Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20]{Scrying}
       spell (save DC 17) with it.</p>
 
       <p>While Scrying with the Crystal Ball, you can communicate telepathically
       with creatures you can see within 30 feet of the spell's sensor. You can
       also use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell
+      @UUID[Compendium.degringo5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell
       (save DC 17) through the sensor on one of those creatures. You don't need
       to concentrate on this Suggestion to maintain it during its duration, but
       it ends if Scrying ends.</p>
@@ -130,7 +130,7 @@ system:
     gYpXMExP1crA0hHe:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20
+        uuid: Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20
         challenge:
           attack: null
           save: 17
@@ -176,7 +176,7 @@ system:
     5OrwGscvIsTh4piO:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4
+        uuid: Compendium.degringo5e.spells.Item.zMAWdyc8UVb37BK4
         challenge:
           attack: null
           save: 17
@@ -234,14 +234,14 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037100710
   modifiedTime: 1729014834198

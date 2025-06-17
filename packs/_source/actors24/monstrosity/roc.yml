@@ -603,7 +603,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -637,7 +637,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -645,7 +645,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726086
@@ -778,7 +778,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBeak0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726086
@@ -975,8 +975,8 @@ items:
     img: icons/creatures/claws/claw-talons-yellow-red.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmRoc00000000000.Item.mmTalons00000000
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmRoc00000000000.Item.mmTalons00000000
         _id: 14763NQ9RwBF1Vz8
         type: base
         system: {}
@@ -1008,7 +1008,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1017,7 +1017,7 @@ items:
         _key: >-
           !actors.items.effects!mmRoc00000000000.mmTalons00000000.14763NQ9RwBF1Vz8
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1025,7 +1025,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTalons00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726086
@@ -1094,7 +1094,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery:
@@ -1128,7 +1128,7 @@ items:
     img: icons/creatures/claws/claw-talons-glowing-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1136,7 +1136,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwoop000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726086
@@ -1152,7 +1152,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712726114

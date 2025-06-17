@@ -5,7 +5,7 @@ system:
       <p>An imperceptible barrier of magical force protects you. Until the start
       of your next turn, you have a +5 bonus to AC, including against the
       triggering attack, and you take no damage from
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
       Missile}</em>.</p>
     chat: ''
   source:
@@ -115,7 +115,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.dnd5e.spells24.Item.phbsplShield0000
+    origin: Compendium.degringo5e.spells24.Item.phbsplShield0000
     tint: '#ffffff'
     transfer: false
     name: Imperceptible Barrier
@@ -126,10 +126,10 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+        Compendium.degringo5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -145,14 +145,14 @@ sort: 700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425970477
   modifiedTime: 1745256798096

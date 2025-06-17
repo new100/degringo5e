@@ -21,7 +21,7 @@ export default class HitPointsConfig extends BaseConfigSheet {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/hit-points-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/hit-points-config.hbs"
     }
   };
 
@@ -31,7 +31,7 @@ export default class HitPointsConfig extends BaseConfigSheet {
 
   /** @override */
   get title() {
-    return game.i18n.localize("DND5E.HitPoints");
+    return game.i18n.localize("DEGRINGO5E.HitPoints");
   }
 
   /* -------------------------------------------- */
@@ -46,8 +46,8 @@ export default class HitPointsConfig extends BaseConfigSheet {
     context.source = this.document.system._source.attributes.hp;
 
     // Display positive ability modifier as its own row, but if negative merge into classes totals
-    const ability = CONFIG.DND5E.abilities[CONFIG.DND5E.defaultAbilities.hitPoints];
-    const mod = this.document.system.abilities?.[CONFIG.DND5E.defaultAbilities.hitPoints]?.mod ?? 0;
+    const ability = CONFIG.DEGRINGO5E.abilities[CONFIG.DEGRINGO5E.defaultAbilities.hitPoints];
+    const mod = this.document.system.abilities?.[CONFIG.DEGRINGO5E.defaultAbilities.hitPoints]?.mod ?? 0;
     if ( ability && (mod > 0) ) context.ability = { mod, name: ability.label };
 
     // Summarize HP from classes
@@ -95,7 +95,7 @@ export default class HitPointsConfig extends BaseConfigSheet {
       const roll = await this.document.rollNPCHitPoints();
       this.submit({ updateData: { "system.attributes.hp.max": roll.total } });
     } catch(error) {
-      ui.notifications.error("DND5E.HPFormulaError", { localize: true });
+      ui.notifications.error("DEGRINGO5E.HPFormulaError", { localize: true });
       throw error;
     }
   }

@@ -622,7 +622,7 @@ items:
             - count: '1'
               name: Troll Limb
               _id: Oo1ooV67nRAPVyLL
-              uuid: Compendium.dnd5e.actors24.Actor.mmTrollLimb00000
+              uuid: Compendium.degringo5e.actors24.Actor.mmTrollLimb00000
               level:
                 min: null
                 max: null
@@ -644,7 +644,7 @@ items:
           Bloodied and took 15+ Slashing damage during that turn, one of the
           [[lookup @name lowercase]]l's limbs is severed, falls into the
           [[lookup @name lowercase]]'s space, and becomes a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmTrollLimb00000]{Troll
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTrollLimb00000]{Troll
           Limb}</strong>. The limb acts immediately after the [[lookup @name
           lowercase]]'s turn. The [[lookup @name lowercase]] has 1
           &amp;Reference[Exhaustion apply=false] level for each missing limb,
@@ -678,7 +678,7 @@ items:
     img: icons/magic/death/hand-withered-gray.webp
     effects:
       - name: Exhaustion 1
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-1.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-1.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         _id: PFledLQkQ75osOlZ
         type: base
@@ -706,7 +706,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -715,7 +715,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.PFledLQkQ75osOlZ
       - name: Exhaustion 2
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-2.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-2.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         type: base
         system: {}
@@ -742,7 +742,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -752,7 +752,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.AVZPkC07GONXpRMe
       - name: Exhaustion 3
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-3.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-3.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         type: base
         system: {}
@@ -779,7 +779,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -789,7 +789,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.l1PiPpfAiF9TWs88
       - name: Exhaustion 4
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-4.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-4.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         type: base
         system: {}
@@ -816,7 +816,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -826,7 +826,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.DCB7xWKhKSEmZHNn
       - name: Exhaustion 5
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-5.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-5.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         type: base
         system: {}
@@ -853,7 +853,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -863,7 +863,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.9Tc60NhDJH43WdEU
       - name: Exhaustion Dead
-        img: systems/dnd5e/icons/svg/statuses/exhaustion-6.svg
+        img: systems/degringo5e/icons/svg/statuses/exhaustion-6.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
         type: base
         system: {}
@@ -890,7 +890,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -900,7 +900,7 @@ items:
         _key: >-
           !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.drQriWAwmwosemzp
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -908,7 +908,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728886
@@ -1007,7 +1007,7 @@ items:
     img: icons/skills/wounds/injury-stitched-flesh-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1015,7 +1015,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRegeneration00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728886
@@ -1078,7 +1078,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1107,7 +1107,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1115,7 +1115,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728886
@@ -1248,7 +1248,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728886
@@ -1313,7 +1313,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1342,7 +1342,7 @@ items:
     img: icons/skills/movement/figure-running-gray.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1350,7 +1350,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCharge00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728886
@@ -1363,12 +1363,12 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712728913

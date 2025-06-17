@@ -101,7 +101,7 @@ type: spell
 img: icons/skills/social/diplomacy-unity-alliance.webp
 effects:
   - name: Cannot Lie
-    origin: Compendium.dnd5e.spells24.Item.phbsplZoneofTrut
+    origin: Compendium.degringo5e.spells24.Item.phbsplZoneofTrut
     duration:
       rounds: null
       startTime: null
@@ -131,7 +131,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -143,14 +143,14 @@ sort: 103125
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425978807
   modifiedTime: 1745256800310

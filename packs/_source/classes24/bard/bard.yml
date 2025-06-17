@@ -2,7 +2,7 @@ _id: phbbrdBard000000
 name: Bard
 type: class
 folder: taXfKVJXVI5Z807d
-img: systems/dnd5e/icons/classes/bard.webp
+img: systems/degringo5e/icons/classes/bard.webp
 system:
   description:
     value: >-
@@ -22,12 +22,12 @@ system:
       Training</strong></p></th><td><p>Light
       armor</p></td></tr><tr><th><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
+      2 @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
       Musical Instrument of your choice,
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagEntertainer]{Entertainer's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagEntertainer]{Entertainer's
       Pack}, and [[/award 19gp]]; or (B) [[/award
-      90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000
+      90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000
       inline classes="free-rules-embed"]</p><h2>Becoming a Bard …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Bard Traits
       table.</li><li>Gain the Bard's level 1 features, which are listed in the
@@ -53,14 +53,14 @@ system:
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      key: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
       requiresProficiency: false
       _id: fEcFnfooD7rSDdEI
       group: tWEfE6HLPbiS0OtF
       sort: 225000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: JbNtnwGItIy5pcr1
       group: tWEfE6HLPbiS0OtF
@@ -74,7 +74,7 @@ system:
       sort: 237500
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagEntertainer
+      key: Compendium.degringo5e.equipment24.Item.phbagEntertainer
       requiresProficiency: false
       _id: X63sE2GlxSzKzUho
       group: tWEfE6HLPbiS0OtF
@@ -86,9 +86,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdBardicInsp
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdBardicInsp
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdSpellcasti
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdSpellcasti
             optional: false
         optional: false
         spell: null
@@ -99,9 +99,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdExpertise0
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdExpertise0
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdJackOfAllT
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdJackOfAllT
             optional: false
         optional: false
         spell: null
@@ -112,7 +112,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdFontOfInsp
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdFontOfInsp
             optional: false
         optional: false
         spell: null
@@ -140,7 +140,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdCountercha
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdCountercha
             optional: false
         optional: false
         spell: null
@@ -168,7 +168,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdMagicalSec
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdMagicalSec
             optional: false
         optional: false
         spell: null
@@ -213,7 +213,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdSuperiorIn
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdSuperiorIn
             optional: false
         optional: false
         spell: null
@@ -224,7 +224,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -235,7 +235,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrdWordsOfCre
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrdWordsOfCre
             optional: false
         optional: false
         spell: null
@@ -373,18 +373,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
         spell: null
         restriction:
           type: feat
@@ -398,9 +398,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordH
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPowerWordH
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordK
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPowerWordK
         optional: false
         spell:
           ability: []
@@ -546,7 +546,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866377962
   modifiedTime: 1745517454864

@@ -630,7 +630,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -638,7 +638,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
@@ -762,7 +762,7 @@ items:
             name: HP Max Decr.
             formula: 3d6
           name: HP Max Decrease
-          img: systems/dnd5e/icons/svg/hit-points.svg
+          img: systems/degringo5e/icons/svg/hit-points.svg
       uses:
         spent: 0
         recovery: []
@@ -840,8 +840,8 @@ items:
     img: icons/magic/lightning/claws-unarmed-strike-teal.webp
     effects:
       - name: Cursed
-        img: systems/dnd5e/icons/svg/statuses/cursed.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000
+        img: systems/degringo5e/icons/svg/statuses/cursed.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000
         _id: t7Anyyhyg6fmTdXw
         type: base
         system: {}
@@ -872,7 +872,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -881,7 +881,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummy000000000.mmRottingFist000.t7Anyyhyg6fmTdXw
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -889,7 +889,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRottingFist000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
@@ -996,7 +996,7 @@ items:
     img: icons/magic/perception/eye-slit-red-orange.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Item.mmDreadfulGlare0
         _id: hRSvOovTSlu4Dw8c
         type: base
@@ -1024,7 +1024,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1033,7 +1033,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummy000000000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1041,7 +1041,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDreadfulGlare0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723710
@@ -1054,12 +1054,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712723741

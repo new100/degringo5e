@@ -6,7 +6,7 @@ system:
       Psychic damage and the Charmed condition. The target is also unaffected by
       anything that would sense its emotions or alignment, read its thoughts, or
       magically detect its location, and no spell—not even
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>—can
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>—can
       gather information about the target, observe it remotely, or control its
       mind.</p>
     chat: ''
@@ -103,7 +103,7 @@ img: icons/sundries/books/book-open-purple.webp
 effects:
   - name: Mind Blanked
     img: icons/sundries/documents/paper-plain-white.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplMindBlank0
+    origin: Compendium.degringo5e.spells24.Item.phbsplMindBlank0
     transfer: false
     _id: po9iJIqq4OqhvMw0
     type: base
@@ -135,7 +135,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725308856004
       modifiedTime: 1725309438645
@@ -147,14 +147,14 @@ sort: 100025
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425963715
   modifiedTime: 1745256796193

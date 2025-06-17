@@ -90,12 +90,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcWand000000]{Wand},
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcWand000000]{Wand},
       Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a
       Spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell
       attack rolls determined by the wand's rarity. In addition, you ignore
       &amp;Reference[HalfCover] when making a spell attack
-      roll.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      roll.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: 1-wand-of-the-war-mage
@@ -161,7 +161,7 @@ system:
     reach: null
 effects:
   - name: War Mage +1
-    img: systems/dnd5e/icons/items/wand-of-the-war-mage.webp
+    img: systems/degringo5e/icons/items/wand-of-the-war-mage.webp
     _id: 7Pcy0FgaAr30JUBV
     type: base
     system: {}
@@ -194,7 +194,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730911421903
       modifiedTime: 1731109866962
@@ -202,7 +202,7 @@ effects:
       exportSource: null
     _key: '!items.effects!dmg1WandOfTheWar.7Pcy0FgaAr30JUBV'
   - name: War Mage +2
-    img: systems/dnd5e/icons/items/wand-of-the-war-mage.webp
+    img: systems/degringo5e/icons/items/wand-of-the-war-mage.webp
     _id: MFwYWOar805EHkdX
     type: base
     system: {}
@@ -225,7 +225,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar
+    origin: Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -233,10 +233,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
+        Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731109827169
       modifiedTime: 1731109875345
@@ -244,7 +244,7 @@ effects:
       exportSource: null
     _key: '!items.effects!dmg1WandOfTheWar.MFwYWOar805EHkdX'
   - name: War Mage +3
-    img: systems/dnd5e/icons/items/wand-of-the-war-mage.webp
+    img: systems/degringo5e/icons/items/wand-of-the-war-mage.webp
     _id: 5Z35lVoEDct7Ivx2
     type: base
     system: {}
@@ -267,7 +267,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar
+    origin: Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -275,10 +275,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
+        Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731109847118
       modifiedTime: 1731109884772
@@ -287,7 +287,7 @@ effects:
     _key: '!items.effects!dmg1WandOfTheWar.5Z35lVoEDct7Ivx2'
   - type: enchantment
     name: Wand of the War Mage, +1
-    img: systems/dnd5e/icons/spell-tiers/spell2.webp
+    img: systems/degringo5e/icons/spell-tiers/spell2.webp
     disabled: true
     _id: UaQkN55ZMKSt9LGT
     system: {}
@@ -303,7 +303,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
           caption=false]</p>
         priority: null
       - key: system.price.value
@@ -345,7 +345,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731109918289
       modifiedTime: 1745438836027
@@ -354,7 +354,7 @@ effects:
     _key: '!items.effects!dmg1WandOfTheWar.UaQkN55ZMKSt9LGT'
   - type: enchantment
     name: Wand of the War Mage, +2
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -369,7 +369,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
           caption=false]</p>
         priority: null
       - key: system.price.value
@@ -411,7 +411,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731110113063
       modifiedTime: 1745438836027
@@ -421,7 +421,7 @@ effects:
     _key: '!items.effects!dmg1WandOfTheWar.jqNFw2MJ4B1HG257'
   - type: enchantment
     name: Wand of the War Mage, +3
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     system: {}
     changes:
@@ -436,7 +436,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmg1WandOfTheWar
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
           caption=false]</p>
         priority: null
       - key: system.price.value
@@ -478,7 +478,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1731110117776
       modifiedTime: 1745438836027
@@ -488,7 +488,7 @@ effects:
     _key: '!items.effects!dmg1WandOfTheWar.kejXxpJFzlSWcpm1'
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect:
@@ -498,7 +498,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745433195913

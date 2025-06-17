@@ -7,10 +7,10 @@ system:
       target takes 10d12 Psychic damage and can't cast spells or take the Magic
       action. At the end of every 30 days, the target repeats the save, ending
       the effect on a success. The effect can also be ended by the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em>,
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell.</p><p>On a successful save, the target takes half as much damage
       only.</p>
     chat: ''
@@ -122,7 +122,7 @@ img: icons/skills/trades/academics-investigation-puzzles.webp
 effects:
   - name: Befuddled
     img: icons/skills/trades/academics-investigation-puzzles.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplBefuddleme
+    origin: Compendium.degringo5e.spells24.Item.phbsplBefuddleme
     transfer: false
     _id: KjjRlnccDwmAY7gG
     type: base
@@ -142,10 +142,10 @@ effects:
       spells or take the Magic action. At the end of every 30 days, the target
       repeats the [[/save ability=wis]] save, ending the effect on a success.
       The effect can also be ended by the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em>,
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell.</p>
     tint: '#ffffff'
     statuses: []
@@ -155,7 +155,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725292478326
       modifiedTime: 1725292767990
@@ -167,14 +167,14 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425943140
   modifiedTime: 1745256786688

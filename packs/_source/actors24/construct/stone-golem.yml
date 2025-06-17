@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Stone
-        Golem</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.XW2WF8vjTcmnKF17
+        Golem</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.XW2WF8vjTcmnKF17
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Unaligned
@@ -598,7 +598,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmImmutableForm0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737586873543
       modifiedTime: 1745712727910
@@ -649,7 +649,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737586876122
       modifiedTime: 1745712727910
@@ -731,7 +731,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -739,7 +739,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737586878375
       modifiedTime: 1745712727910
@@ -889,7 +889,7 @@ items:
     img: icons/magic/sonic/explosion-impact-shock-wave.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -897,7 +897,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSlam0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737586905179
       modifiedTime: 1745712727910
@@ -1049,7 +1049,7 @@ items:
     img: icons/magic/light/projectile-smoke-blue-light.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1057,7 +1057,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmForceBolt00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737586942280
       modifiedTime: 1745712727910
@@ -1124,7 +1124,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplSlow000000
             ability: con
           name: ''
       uses:
@@ -1137,7 +1137,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSlow000000]{Slow}</em>
           spell, requiring no spell components and using Constitution as the
           spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]).</p>
@@ -1161,7 +1161,7 @@ items:
     img: icons/magic/time/clock-stopwatch-white-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1169,7 +1169,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSlow0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737587012619
       modifiedTime: 1745712727910
@@ -1336,7 +1336,7 @@ items:
     img: icons/magic/time/clock-stopwatch-white-blue.webp
     effects:
       - name: Slowed
-        origin: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        origin: Compendium.degringo5e.spells24.Item.phbsplSlow000000
         duration:
           startTime: null
           seconds: 60
@@ -1392,10 +1392,10 @@ items:
         tint: '#ffffff'
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+            Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -1410,9 +1410,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmStoneGolem0000.Item.mmSlow0000000000.Activity.NJu26YkznURRXRCV
+          Compendium.degringo5e.actors24.Actor.mmStoneGolem0000.Item.mmSlow0000000000.Activity.NJu26YkznURRXRCV
         changes:
           - key: system.activation
             mode: 5
@@ -1454,7 +1454,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -1467,13 +1467,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSlow0000000000.Activity.NJu26YkznURRXRCV
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplSlow000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737587012776
       modifiedTime: 1745712727910
@@ -1484,12 +1484,12 @@ items:
 effects: []
 folder: TYL2OiqdnUspYV8R
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712727950

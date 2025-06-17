@@ -6,10 +6,10 @@ pages:
     type: class
     _id: P8IgUhHYBAq0Zcwp
     system:
-      item: Compendium.dnd5e.classes24.Item.phbmnkMonk000000
+      item: Compendium.degringo5e.classes24.Item.phbmnkMonk000000
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000
+          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000
           inline classes="free-rules-embed"]</p> <h2>Becoming a Monk
           …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in
           the Core Monk Traits table.</p></li><li><p>Gain the Monk's level 1
@@ -24,7 +24,7 @@ pages:
         subclass: >-
           <p>A Monk subclass is a specialization that grants you features at
           certain levels, as specified in the subclass. The next page presents
-          the @UUID[Compendium.dnd5e.classes24.Item.phbmnkOpenHandWa]{Warrior of
+          the @UUID[Compendium.degringo5e.classes24.Item.phbmnkOpenHandWa]{Warrior of
           the Open Hand} subclass.</p>
       subclassItems: []
       subclassHeader: ''
@@ -42,12 +42,12 @@ pages:
     ownership:
       default: -1
     flags:
-      dnd5e:
+      degringo5e:
         tocHidden: true
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745512387501
@@ -60,11 +60,11 @@ pages:
     type: subclass
     _id: qha7pVaUwH2gYdk1
     system:
-      item: Compendium.dnd5e.classes24.Item.phbmnkOpenHandWa
+      item: Compendium.degringo5e.classes24.Item.phbmnkOpenHandWa
       description:
         value: >-
           <blockquote><p>Master Unarmed Combat
-          Techniques</p></blockquote><p>@UUID[Compendium.dnd5e.classes24.Item.phbmnkOpenHandWa]{Warriors
+          Techniques</p></blockquote><p>@UUID[Compendium.degringo5e.classes24.Item.phbmnkOpenHandWa]{Warriors
           of the Open Hand} are masters of unarmed combat. They learn techniques
           to push and trip their opponents and manipulate their own energy to
           protect themselves from harm.</p>
@@ -85,7 +85,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1735934616562
@@ -95,7 +95,7 @@ pages:
     _key: '!journal.pages!phbMonk000000000.qha7pVaUwH2gYdk1'
 folder: 1A8WFP1GVZkKdxii
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: true
     append: 3
@@ -106,7 +106,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.1
   createdTime: 1724425889152
   modifiedTime: 1745677865322

@@ -97,7 +97,7 @@ type: spell
 img: icons/creatures/magical/spirit-undead-ghost-purple.webp
 effects:
   - name: Invisible
-    origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+    origin: Compendium.degringo5e.spells24.Item.phbsplInvisibili
     duration:
       rounds: null
       startTime: null
@@ -108,7 +108,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     _id: 9svfDetqjhsFP3ey
     type: base
     system: {}
@@ -125,7 +125,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -137,14 +137,14 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425960202
   modifiedTime: 1745256795236

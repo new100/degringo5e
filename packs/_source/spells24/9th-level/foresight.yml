@@ -94,8 +94,8 @@ type: spell
 img: icons/magic/symbols/circle-ouroboros.webp
 effects:
   - name: Foresight
-    img: systems/dnd5e/icons/svg/trait-damage-resistances.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplForesight0
+    img: systems/degringo5e/icons/svg/trait-damage-resistances.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplForesight0
     transfer: false
     _id: P3m4C2ZVEsMzgb5q
     type: base
@@ -121,7 +121,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725374503679
       modifiedTime: 1725374781233
@@ -133,14 +133,14 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425955033
   modifiedTime: 1745256793477

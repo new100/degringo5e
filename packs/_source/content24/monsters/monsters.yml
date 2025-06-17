@@ -44,7 +44,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1745594649793
@@ -173,7 +173,7 @@ pages:
         necessary ammunition.</p><h3>Equipping a Monster with Other
         Items</h3><p>You may equip monsters with additional gear however you
         like, using the equipment chapter of the
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000]{Equipment}
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000]{Equipment}
         for inspiration. You decide how much of a monster's equipment is
         recoverable after the creature is slain and whether any of that
         equipment is still usable.</p><p>Beware of giving a monster
@@ -184,7 +184,7 @@ pages:
         for Attunement purposes.</p><h2>Senses</h2><p>The Senses entry specifies
         a monster's Passive Perception score, as well as any special senses the
         monster possesses. Passive Perception and special senses are described
-        in @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule]{Rules
+        in @UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule]{Rules
         Glossary}<em>.</em></p><h2>Languages</h2><p>This entry lists languages
         that the monster can use to communicate. Sometimes a monster can
         understand a language but can't communicate with it, which is noted in
@@ -192,11 +192,11 @@ pages:
         language.</p><h3>Telepathy</h3><p>Telepathy is a magical ability that
         allows a creature to communicate mentally with another creature within a
         specified range. See
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule]{Rules
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule]{Rules
         Glossary} for more information.</p><h2>Challenge Rating</h2><p>Challenge
         Rating is defined in Rules Glossary, while guidance on using CR to plan
         potential combat encounters is in<em>
-        </em>@UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000]{Gameplay
+        </em>@UUID[Compendium.degringo5e.content24.JournalEntry.dmgDmsToolbox000]{Gameplay
         Toolbox}.</p><h3>Experience Points</h3><p>The number of Experience
         Points (XP) a monster is worth is based on its CR, as detailed in the
         Experience Points by Challenge Rating table. XP is awarded for defeating
@@ -229,7 +229,7 @@ pages:
         uses them as often as it can.</p></aside><h2>Actions</h2><p>A monster
         can take the actions in this section or take one of the actions
         available to all creatures, as described in
-        @UUID[Compendium.dnd5e.content24.JournalEntry.phbPlayingTheGam]{Playing
+        @UUID[Compendium.degringo5e.content24.JournalEntry.phbPlayingTheGam]{Playing
         the Game}.</p><h3>Attack Notation</h3><p>The entry for a monster's
         attack identifies whether the attack is a melee or a ranged attack and
         then provides the attack roll's bonus, its reach or range, and what
@@ -323,7 +323,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1745595040983
@@ -333,7 +333,7 @@ pages:
     _key: '!journal.pages!mmMonsterManual0.L30mSCHBdIu0HYSW'
 folder: sMpWBrn9gqvlMdTq
 flags:
-  dnd5e:
+  degringo5e:
     position: 11
     type: chapter
     showPages: true
@@ -343,7 +343,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1734633680851
   modifiedTime: 1745677864000

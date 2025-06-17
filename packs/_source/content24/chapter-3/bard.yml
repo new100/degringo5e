@@ -6,10 +6,10 @@ pages:
     type: class
     _id: V8pqIWlaL9GhY61t
     system:
-      item: Compendium.dnd5e.classes24.Item.phbbrdBard000000
+      item: Compendium.degringo5e.classes24.Item.phbbrdBard000000
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000
+          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000
           inline classes="free-rules-embed"]</p> <h2>Becoming a Bard
           …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in
           the Core Bard Traits table.</p></li><li><p>Gain the Bard's level 1
@@ -27,7 +27,7 @@ pages:
         subclass: >-
           <p>A Bard subclass is a specialization that grants you features at
           certain levels, as specified in the subclass. The next page presents
-          the @UUID[Compendium.dnd5e.classes24.Item.phbbrdLore000000]{College of
+          the @UUID[Compendium.degringo5e.classes24.Item.phbbrdLore000000]{College of
           Lore}subclass.</p>
       subclassItems: []
       subclassHeader: ''
@@ -45,12 +45,12 @@ pages:
     ownership:
       default: -1
     flags:
-      dnd5e:
+      degringo5e:
         tocHidden: true
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745512038999
@@ -63,12 +63,12 @@ pages:
     type: subclass
     _id: AK8mgYdk1zOiIU0w
     system:
-      item: Compendium.dnd5e.classes24.Item.phbbrdLore000000
+      item: Compendium.degringo5e.classes24.Item.phbbrdLore000000
       description:
         value: >-
           <blockquote><p>Plumb the Depths of Magical
           Knowledge</p></blockquote><p>Bards of the
-          @UUID[Compendium.dnd5e.classes24.Item.phbbrdLore000000]{College of
+          @UUID[Compendium.degringo5e.classes24.Item.phbbrdLore000000]{College of
           Lore} collect spells and secrets from diverse sources, such as
           scholarly tomes, mystical rites, and peasant tales. The college's
           members gather in libraries and universities to share their lore with
@@ -92,7 +92,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: 1735934426651
@@ -102,7 +102,7 @@ pages:
     _key: '!journal.pages!phbBard000000000.AK8mgYdk1zOiIU0w'
 folder: 1A8WFP1GVZkKdxii
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: true
     append: 3
@@ -113,7 +113,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.1
   createdTime: 1724425888129
   modifiedTime: 1745677864495

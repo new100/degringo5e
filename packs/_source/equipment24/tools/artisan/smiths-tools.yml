@@ -7,17 +7,17 @@ system:
       (DC 20)</p><p class="phb-meta"><strong>Craft:</strong> Any Melee weapon
       (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except
       Hide), Heavy armor,
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagChain000000]{Chain},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Firearm
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBallBearing]{Ball Bearings},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBucket00000]{Bucket},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCaltrops000]{Caltrops},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagChain000000]{Chain},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCrowbar0000]{Crowbar},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoBulletsFir]{Firearm
       Bullets},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook},
-      @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{Iron Spikes},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Sling
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook},
+      @UUID[Compendium.degringo5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagSpikesIron0]{Iron Spikes},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoBulletsSli]{Sling
       Bullets}</p>
     chat: ''
   source:
@@ -120,14 +120,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917756
   modifiedTime: 1740680142673

@@ -95,7 +95,7 @@ type: spell
 img: icons/magic/holy/barrier-shield-winged-cross.webp
 effects:
   - name: Shimmering Field
-    origin: Compendium.dnd5e.spells24.Item.phbsplShieldofFa
+    origin: Compendium.degringo5e.spells24.Item.phbsplShieldofFa
     duration:
       startTime: null
       seconds: 600
@@ -118,10 +118,10 @@ effects:
     tint: '#ffffff'
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo.ActiveEffect.FKDbXBUs6VJlf8ZY
+        Compendium.degringo5e.spells.Item.jZ6JNykRtdQ90MOo.ActiveEffect.FKDbXBUs6VJlf8ZY
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -137,14 +137,14 @@ sort: 600000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425970585
   modifiedTime: 1740685854399

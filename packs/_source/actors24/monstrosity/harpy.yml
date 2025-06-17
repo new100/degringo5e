@@ -673,7 +673,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720977
@@ -794,7 +794,7 @@ items:
     img: icons/skills/trades/music-singing-voice-blue.webp
     effects:
       - name: Charmed & Incapacitated
-        img: systems/dnd5e/icons/svg/statuses/charmed.svg
+        img: systems/degringo5e/icons/svg/statuses/charmed.svg
         origin: Item.mmLuringSong0000
         _id: gJscxYD5nf7GlEo8
         type: base
@@ -825,7 +825,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -834,7 +834,7 @@ items:
         _key: >-
           !actors.items.effects!mmHarpy000000000.mmLuringSong0000.gJscxYD5nf7GlEo8
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -842,7 +842,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLuringSong0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720977
@@ -855,12 +855,12 @@ items:
 effects: []
 folder: 36r8qm2aE4k6QTnW
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712721004

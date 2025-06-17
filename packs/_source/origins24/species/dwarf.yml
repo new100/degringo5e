@@ -2,7 +2,7 @@ name: Dwarf
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="dwarf-traits">Dwarf
       Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size:
       </strong>Medium (about 4–5 feet tall)</p><p><strong>Speed:</strong> 30
@@ -41,11 +41,11 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptDwarvenRes
+            uuid: Compendium.degringo5e.origins24.Item.phbsptDwarvenRes
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptDwarvenTou
+            uuid: Compendium.degringo5e.origins24.Item.phbsptDwarvenTou
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptStonecunni
+            uuid: Compendium.degringo5e.origins24.Item.phbsptStonecunni
         optional: false
         spell: null
       value: {}
@@ -97,7 +97,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866718338
   modifiedTime: 1745686484010

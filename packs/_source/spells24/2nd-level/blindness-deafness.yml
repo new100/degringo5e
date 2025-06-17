@@ -103,7 +103,7 @@ type: spell
 img: icons/equipment/head/crown-thorns-gold.webp
 effects:
   - name: Blindness
-    origin: Compendium.dnd5e.spells24.Item.phbsplBlindnessD
+    origin: Compendium.degringo5e.spells24.Item.phbsplBlindnessD
     duration:
       rounds: null
       startTime: null
@@ -114,7 +114,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/blinded.svg
+    img: systems/degringo5e/icons/svg/statuses/blinded.svg
     _id: MIYqFloILx3luzwc
     type: base
     system: {}
@@ -131,7 +131,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -139,7 +139,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplBlindnessD.MIYqFloILx3luzwc'
   - name: Deafness
-    origin: Compendium.dnd5e.spells24.Item.phbsplBlindnessD
+    origin: Compendium.degringo5e.spells24.Item.phbsplBlindnessD
     duration:
       rounds: null
       startTime: null
@@ -150,7 +150,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/deafened.svg
+    img: systems/degringo5e/icons/svg/statuses/deafened.svg
     type: base
     system: {}
     changes: []
@@ -166,7 +166,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -179,14 +179,14 @@ sort: 4900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425943890
   modifiedTime: 1745256787059

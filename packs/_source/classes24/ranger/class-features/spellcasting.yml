@@ -8,19 +8,19 @@ system:
     value: >-
       <p>You have learned to channel the magical essence of nature to cast
       spells. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
       on spellcasting}. The information below details how you use those rules
       with Ranger spells, which appear in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]{Ranger
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]{Ranger
       spell list}.</p><p><strong>Spell Slots.</strong> The
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{Ranger
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{Ranger
       Features table} shows how many spell slots you have to cast your level 1+
       spells. You regain all expended slots when you finish a Long
       Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the
       list of level 1+ spells that are available for you to cast with this
       feature. To start, choose two level 1 Ranger spells.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnsnaringS]{Ensnaring Strike}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnsnaringS]{Ensnaring Strike}
       are recommended.</p><p>The number of spells on your list increases as you
       gain Ranger levels, as shown in the Prepared Spells column of the Ranger
       Features table. Whenever that number increases, choose additional Ranger
@@ -61,14 +61,14 @@ system:
   identifier: spellcasting
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735932734523
   modifiedTime: 1745256765141

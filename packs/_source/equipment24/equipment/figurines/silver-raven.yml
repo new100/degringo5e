@@ -3,12 +3,12 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This silver statuette of a raven can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRaven000000000]{Raven}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmRaven000000000]{Raven}</strong>
       for up to 12 hours. Once it has been used, it can't be used again until 2
       days have passed. While in raven form, the figurine grants you the ability
-      to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalMess]{Animal
+      to cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalMess]{Animal
       Messenger}</em> on it.</p><section class="secret"
       id="secret-1zjsYfZzKHfXhi9j"><p><strong>Foundry Note</strong></p><p>This
       item's limited uses represent the 2 days required before the figurine can
@@ -79,7 +79,7 @@ system:
         - count: ''
           name: ''
           _id: AUX3WzRv6PMEm7dn
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobRaven00000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobRaven00000
           level:
             min: null
             max: null
@@ -94,7 +94,7 @@ system:
     bO4agG7byTwFTiFg:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalMess
+        uuid: Compendium.degringo5e.spells24.Item.phbsplAnimalMess
         challenge:
           attack: null
           save: null
@@ -191,14 +191,14 @@ sort: 162500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781769404
   modifiedTime: 1745712700308

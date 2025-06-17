@@ -114,8 +114,8 @@ type: spell
 img: icons/magic/control/voodoo-doll-pain-damage-green.webp
 effects:
   - name: Irresistible Dance
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplOttosIrres
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplOttosIrres
     transfer: false
     _id: MpToumiJ2o3S16K7
     type: base
@@ -146,7 +146,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724789517489
       modifiedTime: 1724789668232
@@ -155,7 +155,7 @@ effects:
     _key: '!items.effects!phbsplOttosIrres.MpToumiJ2o3S16K7'
   - name: Short Dance
     img: icons/magic/time/clock-analog-gray.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplOttosIrres
+    origin: Compendium.degringo5e.spells24.Item.phbsplOttosIrres
     transfer: false
     _id: UhFtBDEZEDpVgz9G
     type: base
@@ -181,7 +181,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724789679356
       modifiedTime: 1724789813441
@@ -193,14 +193,14 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425965394
   modifiedTime: 1745256796626

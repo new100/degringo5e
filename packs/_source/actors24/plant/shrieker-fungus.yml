@@ -604,7 +604,7 @@ items:
             name: ''
             formula: ''
           name: Use
-          img: systems/dnd5e/icons/svg/activity/utility.svg
+          img: systems/degringo5e/icons/svg/activity/utility.svg
       uses:
         spent: 0
         recovery: []
@@ -639,7 +639,7 @@ items:
     img: icons/magic/sonic/explosion-shock-sound-wave.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -647,7 +647,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShriek00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726947
@@ -663,7 +663,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416220719
   modifiedTime: 1745712726971

@@ -71,7 +71,7 @@ export default class NPCData extends CreatureTemplate {
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.NPC", "DND5E.BONUSES", "DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.NPC", "DEGRINGO5E.BONUSES", "DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
@@ -95,38 +95,38 @@ export default class NPCData extends CreatureTemplate {
         ...AttributesFields.creature,
         hd: new SchemaField({
           spent: new NumberField({integer: true, min: 0, initial: 0})
-        }, {label: "DND5E.HitDice"}),
+        }, {label: "DEGRINGO5E.HitDice"}),
         hp: new SchemaField({
           value: new NumberField({
-            nullable: false, integer: true, min: 0, initial: 10, label: "DND5E.HitPointsCurrent"
+            nullable: false, integer: true, min: 0, initial: 10, label: "DEGRINGO5E.HitPointsCurrent"
           }),
           max: new NumberField({
-            nullable: false, integer: true, min: 0, initial: 10, label: "DND5E.HitPointsMax"
+            nullable: false, integer: true, min: 0, initial: 10, label: "DEGRINGO5E.HitPointsMax"
           }),
-          temp: new NumberField({integer: true, initial: 0, min: 0, label: "DND5E.HitPointsTemp"}),
+          temp: new NumberField({integer: true, initial: 0, min: 0, label: "DEGRINGO5E.HitPointsTemp"}),
           tempmax: new NumberField({
-            integer: true, initial: 0, label: "DND5E.HitPointsTempMax", hint: "DND5E.HitPointsTempMaxHint"
+            integer: true, initial: 0, label: "DEGRINGO5E.HitPointsTempMax", hint: "DEGRINGO5E.HitPointsTempMaxHint"
           }),
-          formula: new FormulaField({required: true, label: "DND5E.HPFormula"})
-        }, {label: "DND5E.HitPoints"}),
+          formula: new FormulaField({required: true, label: "DEGRINGO5E.HPFormula"})
+        }, {label: "DEGRINGO5E.HitPoints"}),
         death: new RollConfigField({
           ability: false,
           success: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveSuccesses"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.DeathSaveSuccesses"
           }),
           failure: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveFailures"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.DeathSaveFailures"
           }),
           bonuses: new SchemaField({
-            save: new FormulaField({ required: true, label: "DND5E.DeathSaveBonus" })
+            save: new FormulaField({ required: true, label: "DEGRINGO5E.DeathSaveBonus" })
           })
-        }, {label: "DND5E.DeathSave"}),
+        }, {label: "DEGRINGO5E.DeathSave"}),
         spell: new SchemaField({
           level: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.SpellcasterLevel"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.SpellcasterLevel"
           })
         })
-      }, {label: "DND5E.Attributes"}),
+      }, {label: "DEGRINGO5E.Attributes"}),
       details: new SchemaField({
         ...DetailsFields.common,
         ...DetailsFields.creature,
@@ -139,45 +139,45 @@ export default class NPCData extends CreatureTemplate {
           custom: new StringField({ required: true })
         }),
         cr: new NumberField({
-          required: true, nullable: true, min: 0, initial: 1, label: "DND5E.ChallengeRating"
+          required: true, nullable: true, min: 0, initial: 1, label: "DEGRINGO5E.ChallengeRating"
         }),
         treasure: new SchemaField({
           value: new SetField(new StringField())
         })
-      }, {label: "DND5E.Details"}),
+      }, {label: "DEGRINGO5E.Details"}),
       resources: new SchemaField({
         legact: new SchemaField({
           value: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.LegendaryAction.Remaining"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.LegendaryAction.Remaining"
           }),
           max: new NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.LegendaryAction.Max"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.LegendaryAction.Max"
           })
-        }, {label: "DND5E.LegendaryAction.Label"}),
+        }, {label: "DEGRINGO5E.LegendaryAction.Label"}),
         legres: new SchemaField({
           value: new NumberField({
             required: true, nullable: false, integer: true, min: 0, initial: 0,
-            label: "DND5E.LegendaryResistance.Remaining"
+            label: "DEGRINGO5E.LegendaryResistance.Remaining"
           }),
           max: new NumberField({
             required: true, nullable: false, integer: true, min: 0, initial: 0,
-            label: "DND5E.LegendaryResistance.Max"
+            label: "DEGRINGO5E.LegendaryResistance.Max"
           })
-        }, {label: "DND5E.LegendaryResistance.Label"}),
+        }, {label: "DEGRINGO5E.LegendaryResistance.Label"}),
         lair: new SchemaField({
-          value: new BooleanField({required: true, label: "DND5E.LAIR.Action.Uses"}),
+          value: new BooleanField({required: true, label: "DEGRINGO5E.LAIR.Action.Uses"}),
           initiative: new NumberField({
-            required: true, integer: true, label: "DND5E.LAIR.Action.Initiative"
+            required: true, integer: true, label: "DEGRINGO5E.LAIR.Action.Initiative"
           }),
-          inside: new BooleanField({ label: "DND5E.LAIR.Inside" })
-        }, {label: "DND5E.LAIR.Action.Label"})
-      }, {label: "DND5E.Resources"}),
+          inside: new BooleanField({ label: "DEGRINGO5E.LAIR.Inside" })
+        }, {label: "DEGRINGO5E.LAIR.Action.Label"})
+      }, {label: "DEGRINGO5E.Resources"}),
       source: new SourceField(),
       traits: new SchemaField({
         ...TraitsFields.common,
         ...TraitsFields.creature,
         important: new BooleanField()
-      }, {label: "DND5E.Traits"})
+      }, {label: "DEGRINGO5E.Traits"})
     });
   }
 
@@ -187,26 +187,26 @@ export default class NPCData extends CreatureTemplate {
   static get compendiumBrowserFilters() {
     return new Map([
       ["size", {
-        label: "DND5E.Size",
+        label: "DEGRINGO5E.Size",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.actorSizes,
+          choices: CONFIG.DEGRINGO5E.actorSizes,
           keyPath: "system.traits.size"
         }
       }],
       ["type", {
-        label: "DND5E.CreatureType",
+        label: "DEGRINGO5E.CreatureType",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.creatureTypes,
+          choices: CONFIG.DEGRINGO5E.creatureTypes,
           keyPath: "system.details.type.value"
         }
       }],
       ["habitat", {
-        label: "DND5E.Habitat.Configuration.Label",
+        label: "DEGRINGO5E.Habitat.Configuration.Label",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.habitats
+          choices: CONFIG.DEGRINGO5E.habitats
         },
         createFilter: (filters, value, def) => {
           const { include, exclude } = Object.entries(value).reduce((d, [key, value]) => {
@@ -223,7 +223,7 @@ export default class NPCData extends CreatureTemplate {
         }
       }],
       ["cr", {
-        label: "DND5E.ChallengeRating",
+        label: "DEGRINGO5E.ChallengeRating",
         type: "range",
         config: {
           keyPath: "system.details.cr",
@@ -232,10 +232,10 @@ export default class NPCData extends CreatureTemplate {
         }
       }],
       ["movement", {
-        label: "DND5E.Movement",
+        label: "DEGRINGO5E.Movement",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.movementTypes
+          choices: CONFIG.DEGRINGO5E.movementTypes
         },
         createFilter: (filters, value, def) => {
           for ( const [k, v] of Object.entries(value ?? {}) ) {
@@ -328,7 +328,7 @@ export default class NPCData extends CreatureTemplate {
 
       // Match a known creature type
       const typeLc = match.groups.type.trim().toLowerCase();
-      const typeMatch = Object.entries(CONFIG.DND5E.creatureTypes).find(([k, v]) => {
+      const typeMatch = Object.entries(CONFIG.DEGRINGO5E.creatureTypes).find(([k, v]) => {
         return (typeLc === k)
           || (typeLc === game.i18n.localize(v.label).toLowerCase())
           || (typeLc === game.i18n.localize(`${v.label}Pl`).toLowerCase());
@@ -343,7 +343,7 @@ export default class NPCData extends CreatureTemplate {
       // Match a swarm
       if ( match.groups.size ) {
         const sizeLc = match.groups.size ? match.groups.size.trim().toLowerCase() : "tiny";
-        const sizeMatch = Object.entries(CONFIG.DND5E.actorSizes).find(([k, v]) => {
+        const sizeMatch = Object.entries(CONFIG.DEGRINGO5E.actorSizes).find(([k, v]) => {
           return (sizeLc === k) || (sizeLc === game.i18n.localize(v.label).toLowerCase());
         });
         source.type.swarm = sizeMatch ? sizeMatch[0] : "tiny";
@@ -370,7 +370,7 @@ export default class NPCData extends CreatureTemplate {
     // Determine hit dice denomination & max from hit points formula
     const [, max, denomination] = this.attributes.hp.formula?.match(/(\d*)d(\d+)/i) ?? [];
     this.attributes.hd.max = Number(max ?? 0);
-    this.attributes.hd.denomination = Number(denomination ?? CONFIG.DND5E.actorSizes[this.traits.size]?.hitDie ?? 4);
+    this.attributes.hd.denomination = Number(denomination ?? CONFIG.DEGRINGO5E.actorSizes[this.traits.size]?.hitDie ?? 4);
 
     for ( const item of this.parent.items ) {
       // Class levels & hit dice
@@ -421,8 +421,8 @@ export default class NPCData extends CreatureTemplate {
       AttributesFields.prepareRace.call(this, this.details.race, { force: true });
       this.details.type = this.details.race.system.type;
     }
-    for ( const key of Object.keys(CONFIG.DND5E.movementTypes) ) this.attributes.movement[key] ??= 0;
-    for ( const key of Object.keys(CONFIG.DND5E.senses) ) this.attributes.senses[key] ??= 0;
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.movementTypes) ) this.attributes.movement[key] ??= 0;
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.senses) ) this.attributes.senses[key] ??= 0;
     this.attributes.movement.units ??= defaultUnits("length");
     this.attributes.senses.units ??= defaultUnits("length");
   }
@@ -456,7 +456,7 @@ export default class NPCData extends CreatureTemplate {
     // Hit Points
     const hpOptions = {
       advancement: Object.values(this.parent.classes).map(c => c.advancement.byType.HitPoints?.[0]).filter(a => a),
-      mod: this.abilities[CONFIG.DND5E.defaultAbilities.hitPoints ?? "con"]?.mod ?? 0
+      mod: this.abilities[CONFIG.DEGRINGO5E.defaultAbilities.hitPoints ?? "con"]?.mod ?? 0
     };
     AttributesFields.prepareHitPoints.call(this, this.attributes.hp, hpOptions);
 
@@ -506,13 +506,13 @@ export default class NPCData extends CreatureTemplate {
     if ( !max ) return "";
     const pr = getPluralRules().select(max);
     const rulesVersion = this.source?.rules
-      || (game.settings.get("dnd5e", "rulesVersion") === "modern" ? "2024" : "2014");
-    return game.i18n.format(`DND5E.LegendaryAction.Description${rulesVersion === "2014" ? "Legacy" : ""}`, {
+      || (game.settings.get("degringo5e", "rulesVersion") === "modern" ? "2024" : "2014");
+    return game.i18n.format(`DEGRINGO5E.LegendaryAction.Description${rulesVersion === "2014" ? "Legacy" : ""}`, {
       name: name.toLowerCase(),
-      uses: this.resources.lair.value ? game.i18n.format("DND5E.LegendaryAction.LairUses", {
+      uses: this.resources.lair.value ? game.i18n.format("DEGRINGO5E.LegendaryAction.LairUses", {
         normal: formatNumber(max), lair: formatNumber(max + 1)
       }) : formatNumber(max),
-      usesNamed: game.i18n.format(`DND5E.ACTIVATION.Type.Legendary.Counted.${pr}`, { number: formatNumber(max) })
+      usesNamed: game.i18n.format(`DEGRINGO5E.ACTIVATION.Type.Legendary.Counted.${pr}`, { number: formatNumber(max) })
     });
   }
 
@@ -546,10 +546,10 @@ export default class NPCData extends CreatureTemplate {
    */
   async resistSave(message) {
     if ( this.resources.legres.value === 0 ) throw new Error("No legendary resistances remaining.");
-    if ( message.flags.dnd5e?.roll?.type !== "save" ) throw new Error("Chat message must contain a save roll.");
-    if ( message.flags.dnd5e?.roll?.forceSuccess ) throw new Error("Save has already been resisted.");
+    if ( message.flags.degringo5e?.roll?.type !== "save" ) throw new Error("Chat message must contain a save roll.");
+    if ( message.flags.degringo5e?.roll?.forceSuccess ) throw new Error("Save has already been resisted.");
     await this.parent.update({ "system.resources.legres.value": this.resources.legres.value - 1 });
-    await message.setFlag("dnd5e", "roll.forceSuccess", true);
+    await message.setFlag("degringo5e", "roll.forceSuccess", true);
   }
 
   /* -------------------------------------------- */
@@ -569,19 +569,19 @@ export default class NPCData extends CreatureTemplate {
     }
     const template = document.createElement("template");
     template.innerHTML = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/actors/embeds/npc-embed.hbs", context
+      "systems/degringo5e/templates/actors/embeds/npc-embed.hbs", context
     );
 
     /**
      * A hook event that fires after an embedded NPC stat block rendered.
-     * @function dnd5e.renderNPCStatBlock
+     * @function degringo5e.renderNPCStatBlock
      * @memberof hookEvents
      * @param {Actor5e} actor                   NPC being embedded.
      * @param {HTMLTemplateElement} template    Template whose children will be embedded.
      * @param {DocumentHTMLEmbedConfig} config  Configuration for embedding behavior.
      * @param {EnrichmentOptions} options       Original enrichment options.
      */
-    Hooks.call("dnd5e.renderNPCStatBlock", this.parent, template, config, options);
+    Hooks.call("degringo5e.renderNPCStatBlock", this.parent, template, config, options);
 
     return template.content;
   }
@@ -605,23 +605,23 @@ export default class NPCData extends CreatureTemplate {
       abilityTables: Array.fromRange(3).map(_ => ({ abilities: [] })),
       actionSections: {
         trait: {
-          label: game.i18n.localize("DND5E.NPC.SECTIONS.Traits"),
+          label: game.i18n.localize("DEGRINGO5E.NPC.SECTIONS.Traits"),
           actions: []
         },
         action: {
-          label: game.i18n.localize("DND5E.NPC.SECTIONS.Actions"),
+          label: game.i18n.localize("DEGRINGO5E.NPC.SECTIONS.Actions"),
           actions: []
         },
         bonus: {
-          label: game.i18n.localize("DND5E.NPC.SECTIONS.BonusActions"),
+          label: game.i18n.localize("DEGRINGO5E.NPC.SECTIONS.BonusActions"),
           actions: []
         },
         reaction: {
-          label: game.i18n.localize("DND5E.NPC.SECTIONS.Reactions"),
+          label: game.i18n.localize("DEGRINGO5E.NPC.SECTIONS.Reactions"),
           actions: []
         },
         legendary: {
-          label: game.i18n.localize("DND5E.NPC.SECTIONS.LegendaryActions"),
+          label: game.i18n.localize("DEGRINGO5E.NPC.SECTIONS.LegendaryActions"),
           description: "",
           actions: []
         }
@@ -630,11 +630,11 @@ export default class NPCData extends CreatureTemplate {
       summary: {
         // Challenge Rating (e.g. `23 (XP 50,000; PB +7`))
         cr: `${formatCR(this.details.cr, { narrow: false })} (${
-          game.i18n.format(`DND5E.ExperiencePoints.StatBlock.${
+          game.i18n.format(`DEGRINGO5E.ExperiencePoints.StatBlock.${
             (this.resources.lair.value) && (this.details.cr !== null) ? "Lair" : "Standard"}`, {
             value: formatNumber(this.parent.getCRExp(this.details.cr)),
             lair: formatNumber(this.parent.getCRExp(this.details.cr + 1))
-          })}; ${game.i18n.localize("DND5E.ProficiencyBonusAbbr")} ${
+          })}; ${game.i18n.localize("DEGRINGO5E.ProficiencyBonusAbbr")} ${
           formatNumber(this.attributes.prof, { signDisplay: "always" })})`,
 
         // Gear
@@ -655,17 +655,17 @@ export default class NPCData extends CreatureTemplate {
         // Senses (e.g. `Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27`)
         senses: [
           formatter.format([
-            ...Object.entries(CONFIG.DND5E.senses)
+            ...Object.entries(CONFIG.DEGRINGO5E.senses)
               .filter(([k]) => this.attributes.senses[k])
               .map(([k, label]) => prepareMeasured(this.attributes.senses[k], this.attributes.senses.units, label)),
             ...splitSemicolons(this.attributes.senses.special)
           ].sort((lhs, rhs) => lhs.localeCompare(rhs, game.i18n.lang))),
-          `${game.i18n.localize("DND5E.PassivePerception")} ${formatNumber(this.skills.prc.passive)}`
+          `${game.i18n.localize("DEGRINGO5E.PassivePerception")} ${formatNumber(this.skills.prc.passive)}`
         ].filterJoin("; "),
 
         // Skills (e.g. `Perception +17, Stealth +7`)
         skills: formatter.format(
-          Object.entries(CONFIG.DND5E.skills)
+          Object.entries(CONFIG.DEGRINGO5E.skills)
             .filter(([k]) => this.skills[k].value > 0)
             .map(([k, { label }]) => `${label} ${formatNumber(this.skills[k].total, { signDisplay: "always" })}`)
         ),
@@ -673,20 +673,20 @@ export default class NPCData extends CreatureTemplate {
         // Speed (e.g. `40 ft., Burrow 40 ft., Fly 80 ft.`)
         speed: formatter.format([
           prepareMeasured(this.attributes.movement.walk, this.attributes.movement.units),
-          ...Object.entries(CONFIG.DND5E.movementTypes)
+          ...Object.entries(CONFIG.DEGRINGO5E.movementTypes)
             .filter(([k]) => this.attributes.movement[k] && (k !== "walk"))
             .map(([k, label]) => {
               let prepared = prepareMeasured(this.attributes.movement[k], this.attributes.movement.units, label);
               if ( (k === "fly") && this.attributes.movement.hover ) {
-                prepared = `${prepared} (${game.i18n.localize("DND5E.MovementHover").toLowerCase()})`;
+                prepared = `${prepared} (${game.i18n.localize("DEGRINGO5E.MovementHover").toLowerCase()})`;
               }
               return prepared;
             })
         ]),
 
         // Tag (e.g. `Gargantuan Dragon, Lawful Evil`)
-        tag: game.i18n.format("DND5E.CreatureTag", {
-          size: CONFIG.DND5E.actorSizes[this.traits.size]?.label ?? "",
+        tag: game.i18n.format("DEGRINGO5E.CreatureTag", {
+          size: CONFIG.DEGRINGO5E.actorSizes[this.traits.size]?.label ?? "",
           type: Actor5e.formatCreatureType(this.details.type),
           alignment: this.details.alignment
         }).replace(/, $/, "")
@@ -694,7 +694,7 @@ export default class NPCData extends CreatureTemplate {
       system: this
     };
 
-    for ( const [index, [key, { abbreviation }]] of Object.entries(CONFIG.DND5E.abilities).entries() ) {
+    for ( const [index, [key, { abbreviation }]] of Object.entries(CONFIG.DEGRINGO5E.abilities).entries() ) {
       context.abilityTables[index % 3].abilities.push({ ...this.abilities[key], label: abbreviation.capitalize() });
     }
 
@@ -705,18 +705,18 @@ export default class NPCData extends CreatureTemplate {
         const trait = `${category[0]}${type[0]}`;
         const data = this.traits[trait];
         const { value, physical } = data.value.reduce((acc, t) => {
-          if ( data.bypasses?.size && CONFIG.DND5E.damageTypes[t]?.isPhysical ) acc.physical.push(t);
+          if ( data.bypasses?.size && CONFIG.DEGRINGO5E.damageTypes[t]?.isPhysical ) acc.physical.push(t);
           else acc.value.push(t);
           return acc;
         }, { value: [], physical: [] });
         const list = prepareTrait({ value, custom: data.custom }, trait);
         if ( list ) entries.push(list);
-        if ( physical.length ) entries.push(game.i18n.format("DND5E.DamagePhysicalBypasses", {
+        if ( physical.length ) entries.push(game.i18n.format("DEGRINGO5E.DamagePhysicalBypasses", {
           damageTypes: game.i18n.getListFormatter({ style: "long", type: "conjunction" }).format(
-            physical.map(t => CONFIG.DND5E.damageTypes[t].label)
+            physical.map(t => CONFIG.DEGRINGO5E.damageTypes[t].label)
           ),
           bypassTypes: game.i18n.getListFormatter({ style: "long", type: "disjunction" }).format(
-            Array.from(data.bypasses).map(t => CONFIG.DND5E.itemProperties[t]?.label).filter(_ => _)
+            Array.from(data.bypasses).map(t => CONFIG.DEGRINGO5E.itemProperties[t]?.label).filter(_ => _)
           )
         }));
       }

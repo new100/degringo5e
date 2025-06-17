@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You can call on the aid of an otherworldly steed. You always have the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFindSteed0]{Find Steed} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFindSteed0]{Find Steed} spell
       prepared.</p><p>You can also cast the spell once without expending a spell
       slot, and you regain the ability to do so when you finish a Long
       Rest.</p><section class="secret"
@@ -38,14 +38,14 @@ system:
   identifier: faithful-steed
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745256763751

@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Succubus</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Kzvd8PBUBkJG5zSg
+        <h1>Succubus</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Kzvd8PBUBkJG5zSg
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -627,7 +627,7 @@ items:
             - count: '1'
               name: Incubus
               _id: rY6YwVLswioAGOId
-              uuid: Compendium.dnd5e.actors24.Actor.mmIncubus0000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmIncubus0000000
               level:
                 min: null
                 max: null
@@ -645,7 +645,7 @@ items:
         value: >-
           <p class="feature">When the [[lookup @name lowercase]] finishes a Long
           Rest, it can shape-shift into an
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmIncubus0000000]{Incubus}</strong>,
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmIncubus0000000]{Incubus}</strong>,
           using that stat block instead of this one.</p>
         chat: ''
       identifier: incubus-form
@@ -668,7 +668,7 @@ items:
     img: icons/creatures/unholy/demon-horned-winged-laughing.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -676,7 +676,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIncubusForm000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672136116
       modifiedTime: 1745712728049
@@ -739,7 +739,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -769,7 +769,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -777,7 +777,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672138388
       modifiedTime: 1745712728049
@@ -919,7 +919,7 @@ items:
     img: icons/magic/unholy/hand-grasping-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -927,7 +927,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFiendishTouch0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672139749
       modifiedTime: 1745712728049
@@ -948,7 +948,7 @@ items:
         o1l4tzAnLGufXAfu:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDominatePe
             challenge:
               attack: null
               save: null
@@ -1002,7 +1002,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDominatePe]{Dominate
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDominatePe]{Dominate
           Person}</em> (level 8 version), requiring no spell components and
           using Charisma as the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]).</p>
@@ -1026,7 +1026,7 @@ items:
     img: icons/magic/control/control-influence-puppet.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1034,7 +1034,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCharm000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672141477
       modifiedTime: 1745712728049
@@ -1151,7 +1151,7 @@ items:
     img: icons/magic/control/mouth-smile-deception-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1159,7 +1159,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDrainingKiss00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672142999
       modifiedTime: 1745712728049
@@ -1224,7 +1224,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1256,7 +1256,7 @@ items:
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1264,7 +1264,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShapeshift0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672145250
       modifiedTime: 1745712728049
@@ -1388,7 +1388,7 @@ items:
     img: icons/magic/control/control-influence-puppet.webp
     effects:
       - name: Dominated
-        origin: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+        origin: Compendium.degringo5e.spells24.Item.phbsplDominatePe
         duration:
           rounds: null
           startTime: null
@@ -1417,7 +1417,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1428,9 +1428,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmSuccubus000000.Item.mmCharm000000000.Activity.o1l4tzAnLGufXAfu
+          Compendium.degringo5e.actors24.Actor.mmSuccubus000000.Item.mmCharm000000000.Activity.o1l4tzAnLGufXAfu
         changes:
           - key: system.ability
             mode: 5
@@ -1468,7 +1468,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737672540966
@@ -1481,13 +1481,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmCharm000000000.Activity.o1l4tzAnLGufXAfu
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDominatePe
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737672528842
       modifiedTime: 1745712728049
@@ -1501,7 +1501,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712728078

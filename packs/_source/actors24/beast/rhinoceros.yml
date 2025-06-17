@@ -750,7 +750,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -778,7 +778,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1738094695132
@@ -787,7 +787,7 @@ items:
         _key: >-
           !actors.items.effects!mmRhinoceros0000.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -795,7 +795,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738011495222
       modifiedTime: 1745712725982
@@ -811,7 +811,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712726007

@@ -242,7 +242,7 @@ system:
 effects:
   - name: Blinded by Brilliance
     img: icons/commodities/gems/gem-faceted-octagon-yellow.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgGemOfBrightne
+    origin: Compendium.degringo5e.equipment24.Item.dmgGemOfBrightne
     transfer: false
     _id: 05Lok63szRXdAafx
     type: base
@@ -267,7 +267,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730729662573
       modifiedTime: 1730729694845
@@ -275,14 +275,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgGemOfBrightne.05Lok63szRXdAafx'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700355

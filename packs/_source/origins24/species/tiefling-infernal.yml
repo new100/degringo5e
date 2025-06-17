@@ -5,9 +5,9 @@ img: icons/creatures/unholy/demon-horned-winged-laughing.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
       inline classes="free-rules-embed"]</p><h3
-      data-anchor="infernal">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie
+      data-anchor="infernal">Infernal</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie
       inline classes="free-rules-embed"]</p><h3
       data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
       Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7
@@ -24,15 +24,15 @@ system:
       level. Intelligence, Wisdom, or Charisma is your spellcasting ability for
       the spells you cast with this trait (choose the ability when you select
       the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
       cantrip. When you cast it with this trait, the spell uses the same
       spellcasting ability you use for your Fiendish Legacy
       trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level
       1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have
       Resistance to Fire damage. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}
-      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish
-      Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplHellishReb]{Hellish
+      Rebuke}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>
     chat: ''
   source:
     revision: 1
@@ -55,9 +55,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptOtherworld
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptInfernalLe
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptInfernalLe
             optional: false
         optional: false
         spell: null
@@ -70,7 +70,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            uuid: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:
@@ -104,7 +104,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFireBolt00
         optional: false
         spell:
           ability:
@@ -127,7 +127,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplHellishReb
+            uuid: Compendium.degringo5e.spells24.Item.phbsplHellishReb
         optional: false
         spell:
           ability:
@@ -150,7 +150,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDarkness00
         optional: false
         spell:
           ability:
@@ -194,7 +194,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340871134
   modifiedTime: 1745687564746

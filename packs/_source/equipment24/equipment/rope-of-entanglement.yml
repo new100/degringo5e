@@ -165,7 +165,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/activity/damage.svg
+      img: systems/degringo5e/icons/svg/activity/damage.svg
       appliedEffects: []
     60i9AJLDM4Meg8TG:
       type: utility
@@ -220,7 +220,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      img: systems/degringo5e/icons/svg/activity/heal.svg
       appliedEffects: []
   uses:
     spent: 0
@@ -295,7 +295,7 @@ system:
 effects:
   - name: Entangled
     img: icons/sundries/survival/rope-wrapped-purple.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgRopeOfEntangl
+    origin: Compendium.degringo5e.equipment24.Item.dmgRopeOfEntangl
     transfer: false
     _id: sYzIZOD83JG2W6wh
     type: base
@@ -320,7 +320,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730668967369
       modifiedTime: 1730668978033
@@ -328,14 +328,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgRopeOfEntangl.sYzIZOD83JG2W6wh'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712703205

@@ -106,7 +106,7 @@ img: icons/magic/life/cross-explosion-burst-green.webp
 effects:
   - name: Regenerating
     img: icons/magic/life/cross-yellow-green.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplRegenerate
+    origin: Compendium.degringo5e.spells24.Item.phbsplRegenerate
     transfer: false
     _id: O73gdwM6cCbr9LXn
     type: base
@@ -133,7 +133,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724966450239
       modifiedTime: 1724966609573
@@ -145,14 +145,14 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425968792
   modifiedTime: 1745256797505

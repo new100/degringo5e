@@ -66,7 +66,7 @@ system:
         proficiency: false
         saves: false
       profiles:
-        - uuid: Compendium.dnd5e.actors24.Actor.mmDjinni00000000
+        - uuid: Compendium.degringo5e.actors24.Actor.mmDjinni00000000
           _id: E8ksl8svBNm5a4Lz
           level:
             min: null
@@ -87,7 +87,7 @@ system:
     value: >-
       <p><em>Ring, Legendary (Requires Attunement)</em></p><p>While wearing this
       ring, you can take a Magic action to summon a particular
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmDjinni00000000]{Djinni}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmDjinni00000000]{Djinni}</strong>
       from the Elemental Plane of Air. The djinni appears in an unoccupied space
       you choose within 120 feet of yourself. It remains as long as you maintain
       Concentration, to a maximum of 1 hour, or until it drops to 0 Hit
@@ -140,14 +140,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702492

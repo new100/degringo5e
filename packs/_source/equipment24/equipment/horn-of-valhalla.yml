@@ -17,7 +17,7 @@ system:
       table.</p><p>If you blow the horn without meeting its requirement, the
       summoned spirits attack you. If you meet the requirement, they are
       Friendly to you and your allies and follow your
-      commands.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgHornOfValhall
+      commands.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgHornOfValhall
       rollable]</p>
     chat: ''
   price:
@@ -91,7 +91,7 @@ system:
         - count: '@scaling'
           name: ''
           _id: duDmJXZDPTjLDu4W
-          uuid: Compendium.dnd5e.actors24.Actor.kz1t6xeXVwODpYb2
+          uuid: Compendium.degringo5e.actors24.Actor.kz1t6xeXVwODpYb2
           level:
             min: null
             max: null
@@ -153,7 +153,7 @@ img: icons/tools/instruments/flute-simple-wood.webp
 effects:
   - name: 'Horn of Valhalla: Condition Immunity'
     img: icons/commodities/treasure/horn-carved-banded.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgHornofValhall
+    origin: Compendium.degringo5e.equipment24.Item.dmgHornofValhall
     transfer: false
     _id: 7da5gsAdyzIIfWBL
     type: base
@@ -188,7 +188,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730403921838
       modifiedTime: 1730404021898
@@ -200,14 +200,14 @@ sort: 37950000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730402610154
   modifiedTime: 1745712700805

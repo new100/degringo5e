@@ -10,7 +10,7 @@ system:
       <p>This ring is linked to the Elemental Plane of Fire.</p>
 
       <p>While wearing this ring, you have advantage on attack rolls against
-      @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental}s,
+      @UUID[Compendium.degringo5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental}s,
       and they have disadvantage on attack rolls against you. In addition, you
       have access to properties based on the linked plane.</p>
 
@@ -19,7 +19,7 @@ system:
 
       <p><strong>Ring of Fire Elemental Command</strong>. You can expend 2 of
       the ring's charges to cast
-      @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
+      @UUID[Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
       a Fire Elemental. In addition, you have resistance to fire damage. You can
       also speak and understand Ignan.</p>
 
@@ -32,9 +32,9 @@ system:
 
       <li>You can cast the following spells from the ring, expending the
       necessary number of charges:
-      @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} (1
-      charge), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (2
-      charges), or @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of
+      @UUID[Compendium.degringo5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} (1
+      charge), @UUID[Compendium.degringo5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (2
+      charges), or @UUID[Compendium.degringo5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of
       Fire} (3 charges).</li>
 
       </ul>
@@ -91,7 +91,7 @@ system:
     dxaE4B2S9PJ692hU:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
+        uuid: Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp
         challenge:
           attack: null
           save: 17
@@ -145,7 +145,7 @@ system:
     rWInlhCUYFV0xFpU:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F
+        uuid: Compendium.degringo5e.spells.Item.5SuJewoa1CRWaj1F
         challenge:
           attack: null
           save: 17
@@ -195,7 +195,7 @@ system:
     MWSaqDybpLBn8R9V:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+        uuid: Compendium.degringo5e.spells.Item.ztgcdrWPshKRpFd0
         challenge:
           attack: null
           save: 17
@@ -245,7 +245,7 @@ system:
     Favmm3fyHI1GTOcN:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6
+        uuid: Compendium.degringo5e.spells.Item.X3DrXgxjwI2dvkD6
         challenge:
           attack: null
           save: 17
@@ -300,14 +300,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037164666
   modifiedTime: 1729016853926

@@ -222,7 +222,7 @@ system:
               formula: ''
       name: Reheat
       _id: YPEmwJHX7g68307N
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects: []
   identifier: heat-metal
 _id: phbsplHeatMetal0
@@ -231,7 +231,7 @@ img: icons/magic/fire/flame-burning-chain.webp
 effects:
   - name: Heated Metal
     img: icons/magic/fire/flame-burning-chain.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+    origin: Compendium.degringo5e.spells24.Item.phbsplHeatMetal0
     transfer: false
     _id: VVQbCUE5W44bF4QU
     type: base
@@ -260,7 +260,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725651192762
       modifiedTime: 1725651285907
@@ -272,14 +272,14 @@ sort: 2900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425958340
   modifiedTime: 1745256794514

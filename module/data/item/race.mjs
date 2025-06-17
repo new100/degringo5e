@@ -23,14 +23,14 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), { label: "DND5E.AdvancementTitle" }),
+      advancement: new ArrayField(new AdvancementField(), { label: "DEGRINGO5E.AdvancementTitle" }),
       movement: new MovementField({}, { initialUnits: defaultUnits("length") }),
       senses: new SensesField({}, { initialUnits: defaultUnits("length") }),
       type: new CreatureTypeField({ swarm: false }, { initial: { value: "humanoid" } })
@@ -50,7 +50,7 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
   static get compendiumBrowserFilters() {
     return new Map([
       ["hasDarkvision", {
-        label: "DND5E.CompendiumBrowser.Filters.HasDarkvision",
+        label: "DEGRINGO5E.CompendiumBrowser.Filters.HasDarkvision",
         type: "boolean",
         createFilter: (filters, value, def) => {
           if ( value === 0 ) return;
@@ -72,7 +72,7 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
    */
   get movementLabels() {
     const units = this.movement.units || defaultUnits("length");
-    return Object.entries(CONFIG.DND5E.movementTypes).reduce((obj, [k, label]) => {
+    return Object.entries(CONFIG.DEGRINGO5E.movementTypes).reduce((obj, [k, label]) => {
       const value = this.movement[k];
       if ( value ) obj[k] = `${label} ${formatLength(value, units)}`;
       return obj;
@@ -87,7 +87,7 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
    */
   get sensesLabels() {
     const units = this.senses.units || defaultUnits("length");
-    return Object.entries(CONFIG.DND5E.senses).reduce((arr, [k, label]) => {
+    return Object.entries(CONFIG.DEGRINGO5E.senses).reduce((arr, [k, label]) => {
       const value = this.senses[k];
       if ( value ) arr.push(`${label} ${formatLength(value, units)}`);
       return arr;
@@ -121,20 +121,20 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.race) }];
     context.singleDescription = true;
 
-    context.parts = ["dnd5e.details-species"];
+    context.parts = ["degringo5e.details-species"];
     context.info = [{
-      label: "DND5E.CreatureType",
+      label: "DEGRINGO5E.CreatureType",
       classes: "info-sm",
       value: this.typeLabel,
       config: "type",
-      tooltip: "DND5E.CreatureTypeTitle"
+      tooltip: "DEGRINGO5E.CreatureTypeTitle"
     },
     {
-      label: "DND5E.Movement",
+      label: "DEGRINGO5E.Movement",
       classes: "info-sm info-grid",
       config: "movement",
-      tooltip: "DND5E.MovementConfig",
-      value: Object.entries(CONFIG.DND5E.movementTypes).reduce((str, [k, label]) => {
+      tooltip: "DEGRINGO5E.MovementConfig",
+      value: Object.entries(CONFIG.DEGRINGO5E.movementTypes).reduce((str, [k, label]) => {
         const value = this.movement[k];
         if ( !value ) return str;
         return `${str}
@@ -144,11 +144,11 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
       }, "")
     },
     {
-      label: "DND5E.Senses",
+      label: "DEGRINGO5E.Senses",
       classes: "info-sm info-grid",
       config: "senses",
-      tooltip: "DND5E.SensesConfig",
-      value: Object.entries(CONFIG.DND5E.senses).reduce((str, [k, label]) => {
+      tooltip: "DEGRINGO5E.SensesConfig",
+      value: Object.entries(CONFIG.DEGRINGO5E.senses).reduce((str, [k, label]) => {
         const value = this.senses[k];
         if ( !value ) return str;
         return `${str}
@@ -173,7 +173,7 @@ export default class RaceData extends ItemDataModel.mixin(ItemDescriptionTemplat
       { type: "Trait", configuration: { grants: ["languages:standard:common"] } }
     ];
     this.parent.updateSource({"system.advancement": toCreate.map(c => {
-      const config = CONFIG.DND5E.advancementTypes[c.type];
+      const config = CONFIG.DEGRINGO5E.advancementTypes[c.type];
       const cls = config.documentClass ?? config;
       return new cls(c, { parent: this.parent }).toObject();
     })});

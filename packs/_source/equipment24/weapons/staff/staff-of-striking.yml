@@ -133,7 +133,7 @@ system:
     max: '10'
   description:
     value: >-
-      <p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff},
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff},
       Very Rare (Requires Attunement)</em></p><p>This staff can be wielded as a
       magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls
       made with it.</p><p>The staff has 10 charges. When you hit with a melee
@@ -142,7 +142,7 @@ system:
       damage.</p><p><em><strong>Regaining Charges.</strong></em> The staff
       regains 1d6 + 4 expended charges daily at dawn. If you expend the last
       charge, roll [[/r 1d20]]. On a 1, the staff becomes a nonmagical
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}.</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}.</p>
     chat: ''
   identifier: staff-of-striking
   source:
@@ -212,14 +212,14 @@ system:
 effects: []
 folder: 5p9KrkF39e6vFO4g
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

@@ -13,7 +13,7 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.CHECK"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.CHECK"];
 
   /* -------------------------------------------- */
 
@@ -21,8 +21,8 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "check",
-      img: "systems/dnd5e/icons/svg/activity/check.svg",
-      title: "DND5E.CHECK.Title",
+      img: "systems/degringo5e/icons/svg/activity/check.svg",
+      title: "DEGRINGO5E.CHECK.Title",
       sheetClass: CheckSheet,
       usage: {
         actions: {
@@ -42,31 +42,31 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
     const dc = this.check.dc.value;
 
     const createButton = (abilityKey, associated) => {
-      const ability = CONFIG.DND5E.abilities[abilityKey]?.label;
-      const checkType = (associated in CONFIG.DND5E.skills) ? "skill"
-        : (associated in CONFIG.DND5E.tools) ? "tool": "ability";
+      const ability = CONFIG.DEGRINGO5E.abilities[abilityKey]?.label;
+      const checkType = (associated in CONFIG.DEGRINGO5E.skills) ? "skill"
+        : (associated in CONFIG.DEGRINGO5E.tools) ? "tool": "ability";
       const dataset = { ability: abilityKey, action: "rollCheck", visibility: "all" };
       if ( dc ) dataset.dc = dc;
       if ( checkType !== "ability" ) dataset[checkType] = associated;
 
       let label = ability;
       let type;
-      if ( checkType === "skill" ) type = CONFIG.DND5E.skills[associated]?.label;
+      if ( checkType === "skill" ) type = CONFIG.DEGRINGO5E.skills[associated]?.label;
       else if ( checkType === "tool" ) type = Trait.keyLabel(associated, { trait: "tool" });
-      if ( type ) label = game.i18n.format("EDITOR.DND5E.Inline.SpecificCheck", { ability, type });
+      if ( type ) label = game.i18n.format("EDITOR.DEGRINGO5E.Inline.SpecificCheck", { ability, type });
       else label = ability;
 
       buttons.push({
         label: dc ? `
-          <span class="visible-dc">${game.i18n.format("EDITOR.DND5E.Inline.DC", { dc, check: wrap(label) })}</span>
+          <span class="visible-dc">${game.i18n.format("EDITOR.DEGRINGO5E.Inline.DC", { dc, check: wrap(label) })}</span>
           <span class="hidden-dc">${wrap(label)}</span>
         ` : wrap(label),
         icon: checkType === "tool" ? '<i class="fa-solid fa-hammer" inert></i>'
-          : '<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/ability-score-improvement.svg" inert></i>',
+          : '<i class="degringo5e-icon" data-src="systems/degringo5e/icons/svg/ability-score-improvement.svg" inert></i>',
         dataset
       });
     };
-    const wrap = check => game.i18n.format("EDITOR.DND5E.Inline.CheckShort", { check });
+    const wrap = check => game.i18n.format("EDITOR.DEGRINGO5E.Inline.CheckShort", { check });
 
     const associated = Array.from(this.check.associated);
     if ( !associated.length && (this.item.type === "tool") ) associated.push(this.item.system.type.baseItem);
@@ -93,11 +93,11 @@ export default class CheckActivity extends ActivityMixin(CheckActivityData) {
   static async #rollCheck(event, target, message) {
     const targets = getSceneTargets();
     if ( !targets.length && game.user.character ) targets.push(game.user.character);
-    if ( !targets.length ) ui.notifications.warn("DND5E.ActionWarningNoToken", { localize: true });
+    if ( !targets.length ) ui.notifications.warn("DEGRINGO5E.ActionWarningNoToken", { localize: true });
     let { ability, dc, skill, tool } = target.dataset;
     dc = parseInt(dc);
     const rollData = { event, target: Number.isFinite(dc) ? dc : this.check.dc.value };
-    if ( ability in CONFIG.DND5E.abilities ) rollData.ability = ability;
+    if ( ability in CONFIG.DEGRINGO5E.abilities ) rollData.ability = ability;
 
     for ( const token of targets ) {
       const actor = token instanceof Actor ? token : token.actor;

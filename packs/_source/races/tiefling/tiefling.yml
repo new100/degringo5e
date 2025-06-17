@@ -44,9 +44,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.races.q71Pe1F8RRtEJt8Q
+          - uuid: Compendium.degringo5e.races.q71Pe1F8RRtEJt8Q
             optional: false
-          - uuid: Compendium.dnd5e.races.wJc88B8OP1y1xzMw
+          - uuid: Compendium.degringo5e.races.wJc88B8OP1y1xzMw
             optional: false
         optional: false
         spell:
@@ -63,7 +63,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells.22dPoeXfaaAv4K3h
+          - uuid: Compendium.degringo5e.spells.22dPoeXfaaAv4K3h
             optional: false
         optional: false
         spell:
@@ -80,7 +80,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells.S7VbUetIfVT7B6Eq
+          - uuid: Compendium.degringo5e.spells.S7VbUetIfVT7B6Eq
             optional: false
         optional: false
         spell:
@@ -137,7 +137,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells.MUO1uYN7JR1hm4dR
+          - uuid: Compendium.degringo5e.spells.MUO1uYN7JR1hm4dR
             optional: false
         optional: false
         spell:
@@ -190,7 +190,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037393065
   modifiedTime: 1725992703578

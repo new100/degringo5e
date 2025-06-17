@@ -27,10 +27,10 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage.
       You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}
-      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray
       of
-      Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold
+      Sickness}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
       Person}</td></tr></tbody></table><section class="secret"
       id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry Note</strong></p><p>The
       Resistance and spells are granted to you automatically and you will be
@@ -61,7 +61,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340880630
   modifiedTime: 1745687661469

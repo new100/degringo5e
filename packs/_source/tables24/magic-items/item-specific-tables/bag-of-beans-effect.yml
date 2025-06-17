@@ -76,7 +76,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      A @UUID[Compendium.dnd5e.actors24.Actor.mmTreant00000000]{Treant} sprouts.
+      A @UUID[Compendium.degringo5e.actors24.Actor.mmTreant00000000]{Treant} sprouts.
       Roll [[/r 1d2#Treant alignment]]{any die}. On an odd roll, the treant is
       Chaotic Evil. On an even roll, the treant is Chaotic Good.
     name: ''
@@ -153,7 +153,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Three @UUID[Compendium.dnd5e.actors24.Actor.mmShriekerFungus]{Shrieker
+      Three @UUID[Compendium.degringo5e.actors24.Actor.mmShriekerFungus]{Shrieker
       Fungi} sprout.
     name: ''
     _key: '!tables.results!dmgBagOfBeansEff.2XUZ3pcRsXgZVNUs'
@@ -178,7 +178,7 @@ results:
       exportSource: null
     description: >-
       [[/r 1d4 + 4#Bright-pink toads]] bright-pink
-      @UUID[Compendium.dnd5e.actors24.Actor.mmFrog0000000000]{toads} crawl
+      @UUID[Compendium.degringo5e.actors24.Actor.mmFrog0000000000]{toads} crawl
       forth. Whenever a toad is touched, it transforms into a Large or smaller
       monster of the DM’s choice that acts in accordance with its alignment and
       nature. The monster remains for 1 minute, then disappears in a puff of
@@ -205,7 +205,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      A hungry @UUID[Compendium.dnd5e.actors24.Actor.mmBulette0000000]{Bulette}
+      A hungry @UUID[Compendium.degringo5e.actors24.Actor.mmBulette0000000]{Bulette}
       burrows up and attacks.
     name: ''
     _key: '!tables.results!dmgBagOfBeansEff.udTEwZi4QrPNpiRQ'
@@ -285,8 +285,8 @@ results:
     description: >-
       A pyramid with a 60-foot-square base bursts upward. Inside is a burial
       chamber containing a
-      @UUID[Compendium.dnd5e.actors24.Actor.mmMummy000000000]{Mummy} , a
-      @UUID[Compendium.dnd5e.actors24.Actor.mmMummyLord00000]{Mummy Lord} , or
+      @UUID[Compendium.degringo5e.actors24.Actor.mmMummy000000000]{Mummy} , a
+      @UUID[Compendium.degringo5e.actors24.Actor.mmMummyLord00000]{Mummy Lord} , or
       some other Undead of the DM’s choice. Its sarcophagus contains treasure of
       the DM’s choice.
     name: ''
@@ -323,7 +323,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.2
   createdTime: 1727883396246
   modifiedTime: 1745611683650

@@ -15,7 +15,7 @@ system:
       this Shield, you have Resistance to damage from attacks made with Ranged
       weapons.</p><p><em><strong>Curse.</strong></em> This Shield is cursed.
       Attuning to it curses you until you are targeted by a
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse} spell
       or similar magic. Removing the Shield fails to end the curse on you.
       Whenever an attack with a Ranged weapon targets a creature within 10 feet
       of you, the curse causes you to become the target instead.</p>
@@ -64,7 +64,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712703338

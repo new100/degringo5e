@@ -106,7 +106,7 @@ system:
         name: ''
         formula: ''
       name: Enter Border Ethereal
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       appliedEffects:
         - louTI4Z9bNUYBa8K
   identifier: etherealness
@@ -115,8 +115,8 @@ type: spell
 img: icons/magic/air/wind-vortex-swirl-purple.webp
 effects:
   - name: Etherealness
-    img: systems/dnd5e/icons/svg/statuses/ethereal.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplEtherealne
+    img: systems/degringo5e/icons/svg/statuses/ethereal.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplEtherealne
     transfer: false
     _id: louTI4Z9bNUYBa8K
     type: base
@@ -141,7 +141,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724883904852
       modifiedTime: 1724884047228
@@ -153,14 +153,14 @@ sort: 1800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425952418
   modifiedTime: 1745256792447

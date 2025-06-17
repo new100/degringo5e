@@ -56,7 +56,7 @@ export default function PseudoDocumentMixin(Base) {
      * @type {object}
      */
     static get documentConfig() {
-      return CONFIG.DND5E[`${this.documentName.toLowerCase()}Types`];
+      return CONFIG.DEGRINGO5E[`${this.documentName.toLowerCase()}Types`];
     }
 
     get documentConfig() {
@@ -271,13 +271,13 @@ export default function PseudoDocumentMixin(Base) {
       types ??= this._createDialogTypes(parent);
       if ( !types.length || !parent ) return null;
 
-      const label = game.i18n.localize(`DOCUMENT.DND5E.${this.documentName}`);
+      const label = game.i18n.localize(`DOCUMENT.DEGRINGO5E.${this.documentName}`);
       const title = game.i18n.format("DOCUMENT.Create", { type: label });
       let type = data.type;
 
       if ( !types.includes(type) ) type = types[0];
       const content = await foundry.applications.handlebars.renderTemplate(
-        "systems/dnd5e/templates/apps/document-create.hbs",
+        "systems/degringo5e/templates/apps/document-create.hbs",
         {
           name, type,
           types: types.map(t => {
@@ -306,7 +306,7 @@ export default function PseudoDocumentMixin(Base) {
         callback: html => {
           const form = html.querySelector("form");
           if ( !form.checkValidity() ) {
-            throw new Error(game.i18n.format("DOCUMENT.DND5E.Warning.SelectType", { name: label }));
+            throw new Error(game.i18n.format("DOCUMENT.DEGRINGO5E.Warning.SelectType", { name: label }));
           }
           const fd = new foundry.applications.ux.FormDataExtended(form);
           const createData = foundry.utils.mergeObject(data, fd.object, { inplace: false });
@@ -314,7 +314,7 @@ export default function PseudoDocumentMixin(Base) {
           parent[`create${this.documentName}`](createData.type, createData);
         },
         rejectClose: false,
-        options: { ...options, jQuery: false, width: 350, classes: ["dnd5e2", "create-document", "dialog"] }
+        options: { ...options, jQuery: false, width: 350, classes: ["degringo5e2", "create-document", "dialog"] }
       });
     }
 

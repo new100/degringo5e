@@ -104,7 +104,7 @@ export default class TransformActivityData extends BaseActivityData {
       this.settings = new TransformationSetting({ preset: this.transform.preset });
     }
     else if ( !this.transform.customize ) this.settings = new TransformationSetting({
-      ...(CONFIG.DND5E.transformation.presets[this.transform.preset]?.settings ?? {}),
+      ...(CONFIG.DEGRINGO5E.transformation.presets[this.transform.preset]?.settings ?? {}),
       preset: this.transform.preset
     });
   }

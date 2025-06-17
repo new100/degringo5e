@@ -10,11 +10,11 @@ system:
       strong, and loyal steed, creating a long-lasting bond with it. Appearing
       in an unoccupied space within range, the steed takes on a form that you
       choose, such as a
-      @UUID[Compendium.dnd5e.monsters.Actor.T1xZTDCGuvMBSq8d]{warhorse}, a
-      @UUID[Compendium.dnd5e.monsters.Actor.PHO4J98zK2p4KNyc]{pony}, a
-      @UUID[Compendium.dnd5e.monsters.Actor.FQMFuzzSh73d0Nrd]{camel}, an
-      @UUID[Compendium.dnd5e.monsters.Actor.55PkbskG5iBZGrgR]{elk}, or a
-      @UUID[Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA]{mastiff}. (Your DM
+      @UUID[Compendium.degringo5e.monsters.Actor.T1xZTDCGuvMBSq8d]{warhorse}, a
+      @UUID[Compendium.degringo5e.monsters.Actor.PHO4J98zK2p4KNyc]{pony}, a
+      @UUID[Compendium.degringo5e.monsters.Actor.FQMFuzzSh73d0Nrd]{camel}, an
+      @UUID[Compendium.degringo5e.monsters.Actor.55PkbskG5iBZGrgR]{elk}, or a
+      @UUID[Compendium.degringo5e.monsters.Actor.YTpL2c3NO4sOn2UA]{mastiff}. (Your DM
       might allow other animals to be summoned as steeds.) The steed has the
       statistics of the chosen form, though it is a celestial, fey, or fiend
       (your choice) instead of its normal type. Additionally, if your steed has
@@ -122,35 +122,35 @@ system:
       profiles:
         - name: ''
           _id: AjbDWduosqyViS2D
-          uuid: Compendium.dnd5e.monsters.Actor.FQMFuzzSh73d0Nrd
+          uuid: Compendium.degringo5e.monsters.Actor.FQMFuzzSh73d0Nrd
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 5bNPkSBX9Nc043lQ
-          uuid: Compendium.dnd5e.monsters.Actor.55PkbskG5iBZGrgR
+          uuid: Compendium.degringo5e.monsters.Actor.55PkbskG5iBZGrgR
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 3hWu8Ub25OiFqWhu
-          uuid: Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA
+          uuid: Compendium.degringo5e.monsters.Actor.YTpL2c3NO4sOn2UA
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: qwzKyNaevY3tXRfu
-          uuid: Compendium.dnd5e.monsters.Actor.PHO4J98zK2p4KNyc
+          uuid: Compendium.degringo5e.monsters.Actor.PHO4J98zK2p4KNyc
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: DprNdxi3hb7lbrjw
-          uuid: Compendium.dnd5e.monsters.Actor.T1xZTDCGuvMBSq8d
+          uuid: Compendium.degringo5e.monsters.Actor.T1xZTDCGuvMBSq8d
           level:
             min: null
             max: null
@@ -172,7 +172,7 @@ folder: Qi4Se3we69ukl2V9
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037347604
   modifiedTime: 1725992717038

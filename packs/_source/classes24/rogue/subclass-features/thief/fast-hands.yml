@@ -84,7 +84,7 @@ system:
         associated:
           - slt
         ability: ''
-      img: systems/dnd5e/icons/svg/statuses/grappled.svg
+      img: systems/degringo5e/icons/svg/statuses/grappled.svg
     g6OUYMMm32iPjgCB:
       type: check
       name: Thieves' Tools
@@ -133,7 +133,7 @@ system:
         associated:
           - thief
         ability: dex
-      img: systems/dnd5e/icons/svg/versatile.svg
+      img: systems/degringo5e/icons/svg/versatile.svg
     5pHgM0ZQStN6rIGE:
       type: utility
       name: Use an Object
@@ -184,14 +184,14 @@ system:
   identifier: fast-hands
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866560489
   modifiedTime: 1745256764318

@@ -124,7 +124,7 @@ system:
       ounces.</p><p>You can take a Utilize action to pour 1 or more ounces of
       solvent from the tube onto a surface within reach. Each ounce instantly
       dissolves up to 1 square foot of adhesive it touches, including
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgSovereignGlue]{Sovereign
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgSovereignGlue]{Sovereign
       Glue}.</p><section class="secret"
       id="secret-cCr2F0ctb7qvQ3x8"><p><strong>Foundry Note</strong></p><p>This
       item includes 7 limited uses. The <strong>Determine Ounces</strong>
@@ -171,14 +171,14 @@ system:
     - mgc
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704448

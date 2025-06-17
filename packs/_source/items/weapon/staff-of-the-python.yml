@@ -9,7 +9,7 @@ system:
 
       <p>You can use an action to speak this staff's command word and throw the
       staff on the ground within 10 feet of you. The staff becomes a
-      @UUID[Compendium.dnd5e.monsters.Actor.NpvwE1feOHyEqAbP]{Giant Constrictor
+      @UUID[Compendium.degringo5e.monsters.Actor.NpvwE1feOHyEqAbP]{Giant Constrictor
       Snake} under your control and acts on its own initiative count. By using a
       bonus action to speak the command word again, you return the staff to its
       normal form in a space formerly occupied by the snake.</p>
@@ -152,7 +152,7 @@ system:
         - count: ''
           name: ''
           _id: deszxA0Rg213RXlx
-          uuid: Compendium.dnd5e.monsters.Actor.NpvwE1feOHyEqAbP
+          uuid: Compendium.degringo5e.monsters.Actor.NpvwE1feOHyEqAbP
           level:
             min: null
             max: null
@@ -215,14 +215,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037170767
   modifiedTime: 1731019471000

@@ -408,10 +408,10 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepHandCrossb]{Hand
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHandCrossb]{Hand
         Crossbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves'
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Shortsword},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbtulThievesToo]{Thieves'
         Tools}</p></div>
       public: ''
     alignment: Neutral
@@ -718,15 +718,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepShortsword
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepShortsword
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727675
@@ -897,15 +897,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepHandCrossb
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepHandCrossb
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727675
@@ -965,7 +965,7 @@ items:
             formula: ''
             name: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -995,7 +995,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-watch.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1003,7 +1003,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCunningAction0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727675
@@ -1019,7 +1019,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712727702

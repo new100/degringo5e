@@ -4,10 +4,10 @@ system:
     value: >-
       <p>You gain the following benefits.</p><p><strong>Two Cantrips.</strong>
       You learn two cantrips of your choice from the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric},
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid},
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric},
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid},
       or
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}
       spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability
       for this feat's spells (choose when you select this
       feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell from
@@ -53,14 +53,14 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866663151
   modifiedTime: 1745256780499

@@ -14,12 +14,12 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
   /**
    * Static ID used for the enchantment that modifies spell data.
    */
-  static ENCHANTMENT_ID = staticID("dnd5espellchanges");
+  static ENCHANTMENT_ID = staticID("degringo5espellchanges");
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.CAST"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.CAST"];
 
   /* -------------------------------------------- */
 
@@ -27,8 +27,8 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "cast",
-      img: "systems/dnd5e/icons/svg/activity/cast.svg",
-      title: "DND5E.CAST.Title",
+      img: "systems/degringo5e/icons/svg/activity/cast.svg",
+      title: "DEGRINGO5E.CAST.Title",
       sheetClass: CastSheet
     }, { inplace: false })
   );
@@ -43,7 +43,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
    */
   get cachedSpell() {
     return this.actor?.sourcedItems.get(this.spell.uuid)
-      ?.find(i => i.getFlag("dnd5e", "cachedFor") === this.relativeUUID);
+      ?.find(i => i.getFlag("degringo5e", "cachedFor") === this.relativeUUID);
   }
 
   /* -------------------------------------------- */
@@ -64,13 +64,13 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
   async use(usage={}, dialog={}, message={}) {
     if ( !this.item.isEmbedded || this.item.pack ) return;
     if ( !this.item.isOwner ) {
-      ui.notifications.error("DND5E.DocumentUseWarn", { localize: true });
+      ui.notifications.error("DEGRINGO5E.DocumentUseWarn", { localize: true });
       return;
     }
 
     /**
      * A hook event that fires before a linked spell is used by a Cast activity.
-     * @function dnd5e.preUseLinkedSpell
+     * @function degringo5e.preUseLinkedSpell
      * @memberof hookEvents
      * @param {CastActivity} activity                                Cast activity being used.
      * @param {Partial<ActivityUseConfiguration>} usageConfig        Configuration info for the activation.
@@ -78,7 +78,7 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
      * @param {Partial<ActivityMessageConfiguration>} messageConfig  Configuration info for the created chat message.
      * @returns {boolean}  Explicitly return `false` to prevent activity from being used.
      */
-    if ( Hooks.call("dnd5e.preUseLinkedSpell", this, usage, dialog, message) === false ) return;
+    if ( Hooks.call("degringo5e.preUseLinkedSpell", this, usage, dialog, message) === false ) return;
 
     let spell = this.cachedSpell;
     if ( !spell ) {
@@ -89,13 +89,13 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
 
     /**
      * A hook event that fires after a linked spell is used by a Cast activity.
-     * @function dnd5e.postUseLinkedSpell
+     * @function degringo5e.postUseLinkedSpell
      * @memberof hookEvents
      * @param {CastActivity} activity                          Activity being activated.
      * @param {Partial<ActivityUseConfiguration>} usageConfig  Configuration data for the activation.
      * @param {ActivityUsageResults} results                   Final details on the activation.
      */
-    if ( results ) Hooks.callAll("dnd5e.postUseLinkedSpell", this, usage, results);
+    if ( results ) Hooks.callAll("degringo5e.postUseLinkedSpell", this, usage, results);
 
     return results;
   }
@@ -117,14 +117,14 @@ export default class CastActivity extends ActivityMixin(CastActivityData) {
         {
           _id: this.constructor.ENCHANTMENT_ID,
           type: "enchantment",
-          name: game.i18n.localize("DND5E.CAST.Enchantment.Name"),
-          img: "systems/dnd5e/icons/svg/activity/cast.svg",
+          name: game.i18n.localize("DEGRINGO5E.CAST.Enchantment.Name"),
+          img: "systems/degringo5e/icons/svg/activity/cast.svg",
           origin: this.uuid,
           changes: this.getSpellChanges()
         }
       ],
       flags: {
-        dnd5e: {
+        degringo5e: {
           cachedFor: this.relativeUUID
         }
       },

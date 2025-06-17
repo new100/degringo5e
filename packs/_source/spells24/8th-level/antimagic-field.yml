@@ -12,7 +12,7 @@ system:
       aura.</p><p>Ongoing spells, except those cast by an Artifact or a deity,
       are suppressed in the area. While an effect is suppressed, it doesn't
       function, but the time it spends suppressed counts against its
-      duration.</p><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+      duration.</p><p><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}</em> has no effect on the aura, and the auras created by different
       <em>Antimagic Field</em> spells don't nullify each other.</p>
     chat: ''
@@ -115,14 +115,14 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425940930
   modifiedTime: 1745256785627

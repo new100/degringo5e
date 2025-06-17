@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplAnimateObj
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplAnimateObj
         caption=false]</p>
       public: ''
     alignment: Unaligned
@@ -574,8 +574,8 @@ items:
               - custom:
                   enabled: true
                   formula: >-
-                    (@flags.dnd5e.summon.level - 3)d6 + @mod +
-                    @flags.dnd5e.summon.mod
+                    (@flags.degringo5e.summon.level - 3)d6 + @mod +
+                    @flags.degringo5e.summon.mod
                 number: null
                 denomination: null
                 bonus: ''
@@ -605,7 +605,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -613,7 +613,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159149
@@ -626,7 +626,7 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
     summon:
       level: 5
@@ -634,7 +634,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425910125
   modifiedTime: 1745256827409

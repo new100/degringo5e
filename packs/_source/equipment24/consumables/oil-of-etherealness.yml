@@ -11,7 +11,7 @@ system:
       (one additional vial is required for each size category above Medium).
       Applying the oil takes 10 minutes. The affected creature then gains the
       effect of the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEtherealne]{Etherealness} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness} spell
       for 1 hour.</p><p>Beads of this cloudy, gray oil form on the outside of
       its container and quickly evaporate.</p>
     chat: ''
@@ -102,7 +102,7 @@ system:
         name: ''
         formula: ''
       name: Apply Oil
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       _id: CEUD70b6Aouaqs6Z
       appliedEffects:
         - YIlD33DO4Py9aaRi
@@ -110,8 +110,8 @@ system:
     value: potion
 effects:
   - name: Etherealness
-    img: systems/dnd5e/icons/svg/statuses/ethereal.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgOilOfEthereal
+    img: systems/degringo5e/icons/svg/statuses/ethereal.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgOilOfEthereal
     transfer: false
     _id: YIlD33DO4Py9aaRi
     type: base
@@ -134,10 +134,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplEtherealne.ActiveEffect.louTI4Z9bNUYBa8K
+        Compendium.degringo5e.spells24.Item.phbsplEtherealne.ActiveEffect.louTI4Z9bNUYBa8K
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730494572998
       modifiedTime: 1730494593209
@@ -145,14 +145,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgOilOfEthereal.YIlD33DO4Py9aaRi'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256806752

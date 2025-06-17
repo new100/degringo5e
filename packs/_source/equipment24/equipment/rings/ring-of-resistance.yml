@@ -161,13 +161,13 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgsupRingofResi]{Ring},
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.dmgsupRingofResi]{Ring},
       Rare</em></p><p>You have Resistance to one damage type while wearing this
       ring. The gemstone in the ring indicates the type, which the GM chooses or
       determines randomly by rolling on the following
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRingOfResista
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgRingOfResista
       rollable
-      caption=false]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      caption=false]</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: ring-of-resistance
@@ -211,7 +211,7 @@ system:
   proficient: null
 effects:
   - name: Acid Resistance
-    img: systems/dnd5e/icons/svg/damage/acid.svg
+    img: systems/degringo5e/icons/svg/damage/acid.svg
     _id: M9FSD0rpBM2XIEzQ
     type: base
     system: {}
@@ -230,7 +230,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -238,10 +238,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.YP420EGhAHmNVa8w
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.YP420EGhAHmNVa8w
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844683713
       modifiedTime: 1730844683713
@@ -249,7 +249,7 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgRingOfResista.M9FSD0rpBM2XIEzQ'
   - name: Cold Resistance
-    img: systems/dnd5e/icons/svg/damage/cold.svg
+    img: systems/degringo5e/icons/svg/damage/cold.svg
     type: base
     system: {}
     changes:
@@ -267,7 +267,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -275,10 +275,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.ACmdUQgMzhh6BiJs
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.ACmdUQgMzhh6BiJs
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844686361
       modifiedTime: 1730844686361
@@ -287,7 +287,7 @@ effects:
     _id: VEnkRUkJKOh6wKWS
     _key: '!items.effects!dmgRingOfResista.VEnkRUkJKOh6wKWS'
   - name: Fire Resistance
-    img: systems/dnd5e/icons/svg/damage/fire.svg
+    img: systems/degringo5e/icons/svg/damage/fire.svg
     type: base
     system: {}
     changes:
@@ -305,7 +305,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -313,10 +313,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.Lakck2k6LIxzlncZ
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.Lakck2k6LIxzlncZ
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844689211
       modifiedTime: 1730844689211
@@ -325,7 +325,7 @@ effects:
     _id: JQNsTcP2jKVGMuvh
     _key: '!items.effects!dmgRingOfResista.JQNsTcP2jKVGMuvh'
   - name: Force Resistance
-    img: systems/dnd5e/icons/svg/damage/force.svg
+    img: systems/degringo5e/icons/svg/damage/force.svg
     type: base
     system: {}
     changes:
@@ -343,7 +343,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -351,10 +351,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.nP2MPjGkjwc2qoa7
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.nP2MPjGkjwc2qoa7
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844691812
       modifiedTime: 1730844691812
@@ -363,7 +363,7 @@ effects:
     _id: jFl3BJMsLvcypLTS
     _key: '!items.effects!dmgRingOfResista.jFl3BJMsLvcypLTS'
   - name: Lightning Resistance
-    img: systems/dnd5e/icons/svg/damage/lightning.svg
+    img: systems/degringo5e/icons/svg/damage/lightning.svg
     type: base
     system: {}
     changes:
@@ -381,7 +381,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -389,10 +389,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.MHtyWzlMMBeUoFnz
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.MHtyWzlMMBeUoFnz
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844697174
       modifiedTime: 1730844697174
@@ -401,7 +401,7 @@ effects:
     _id: MNeyPXbTgvHvBZe5
     _key: '!items.effects!dmgRingOfResista.MNeyPXbTgvHvBZe5'
   - name: Necrotic Resistance
-    img: systems/dnd5e/icons/svg/damage/necrotic.svg
+    img: systems/degringo5e/icons/svg/damage/necrotic.svg
     type: base
     system: {}
     changes:
@@ -419,7 +419,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -427,10 +427,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.OVh17qutRZ4vceWw
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.OVh17qutRZ4vceWw
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844699866
       modifiedTime: 1730844699866
@@ -439,7 +439,7 @@ effects:
     _id: 01YXdlZK1vD4LXv6
     _key: '!items.effects!dmgRingOfResista.01YXdlZK1vD4LXv6'
   - name: Poison Resistance
-    img: systems/dnd5e/icons/svg/damage/necrotic.svg
+    img: systems/degringo5e/icons/svg/damage/necrotic.svg
     type: base
     system: {}
     changes:
@@ -457,7 +457,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -465,10 +465,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.R2WuyXjV8Z8E0wKu
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.R2WuyXjV8Z8E0wKu
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844702877
       modifiedTime: 1730844702877
@@ -477,7 +477,7 @@ effects:
     _id: zQi42zdJw8VZNATF
     _key: '!items.effects!dmgRingOfResista.zQi42zdJw8VZNATF'
   - name: Psychic Resistance
-    img: systems/dnd5e/icons/svg/damage/psychic.svg
+    img: systems/degringo5e/icons/svg/damage/psychic.svg
     type: base
     system: {}
     changes:
@@ -495,7 +495,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -503,10 +503,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.meu3jAB2SZjKZrUC
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.meu3jAB2SZjKZrUC
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844705520
       modifiedTime: 1730844705520
@@ -515,7 +515,7 @@ effects:
     _id: W0PypYGpeJur9AJl
     _key: '!items.effects!dmgRingOfResista.W0PypYGpeJur9AJl'
   - name: Radiant Resistance
-    img: systems/dnd5e/icons/svg/damage/radiant.svg
+    img: systems/degringo5e/icons/svg/damage/radiant.svg
     type: base
     system: {}
     changes:
@@ -533,7 +533,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -541,10 +541,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.MOoO1WhULDcQtooN
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.MOoO1WhULDcQtooN
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844708029
       modifiedTime: 1730844708029
@@ -553,7 +553,7 @@ effects:
     _id: SnhlQBFtBdEB1OGB
     _key: '!items.effects!dmgRingOfResista.SnhlQBFtBdEB1OGB'
   - name: Thunder Resistance
-    img: systems/dnd5e/icons/svg/damage/thunder.svg
+    img: systems/degringo5e/icons/svg/damage/thunder.svg
     type: base
     system: {}
     changes:
@@ -571,7 +571,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfResista
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfResista
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -579,10 +579,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.FtKhRdQT4zB1DG4f
+        Compendium.degringo5e.equipment24.Item.dmgArmorOfResist.ActiveEffect.FtKhRdQT4zB1DG4f
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730844710422
       modifiedTime: 1730844710422
@@ -592,7 +592,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.1154actymx6hAYXS'
   - type: enchantment
     name: Ring of Resistance (Acid)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -612,7 +612,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -639,7 +639,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845236084
       modifiedTime: 1745438836957
@@ -649,7 +649,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.dBl3gfYXWn7YguDb'
   - type: enchantment
     name: Ring of Resistance (Cold)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -669,7 +669,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -696,7 +696,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845284667
       modifiedTime: 1745438836957
@@ -706,7 +706,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.P5fYc9OEg5GKGgkR'
   - type: enchantment
     name: Ring of Resistance (Fire)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -726,7 +726,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -753,7 +753,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845322240
       modifiedTime: 1745438836957
@@ -763,7 +763,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.8IIAYzI3gqAJIBYo'
   - type: enchantment
     name: Ring of Resistance (Force)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -783,7 +783,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -810,7 +810,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845343915
       modifiedTime: 1745438836957
@@ -820,7 +820,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.ivnRnslXhD6UZH0L'
   - type: enchantment
     name: Ring of Resistance (Lightning)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -840,7 +840,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -867,7 +867,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845365844
       modifiedTime: 1745438836957
@@ -877,7 +877,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.96wcenml9tk62g37'
   - type: enchantment
     name: Ring of Resistance (Necrotic)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -897,7 +897,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -924,7 +924,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845400213
       modifiedTime: 1745438836957
@@ -934,7 +934,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.9r8SX6QYbeLa780J'
   - type: enchantment
     name: Ring of Resistance (Poison)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -954,7 +954,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -981,7 +981,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845419421
       modifiedTime: 1745438836957
@@ -991,7 +991,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.msSwrsX2i4sCvhLa'
   - type: enchantment
     name: Ring of Resistance (Psychic)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -1011,7 +1011,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -1038,7 +1038,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845438901
       modifiedTime: 1745438836957
@@ -1048,7 +1048,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.ls5HwdyGS36zGNsf'
   - type: enchantment
     name: Ring of Resistance (Radiant)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -1068,7 +1068,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -1095,7 +1095,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845459708
       modifiedTime: 1745438836957
@@ -1105,7 +1105,7 @@ effects:
     _key: '!items.effects!dmgRingOfResista.zgCVJEc1e9dCj7Ut'
   - type: enchantment
     name: Ring of Resistance (Thunder)
-    img: systems/dnd5e/icons/spell-tiers/spell3.webp
+    img: systems/degringo5e/icons/spell-tiers/spell3.webp
     disabled: true
     system: {}
     changes:
@@ -1125,7 +1125,7 @@ effects:
         mode: 5
         value: >-
           {}<p><em>See:
-          @UUID[Compendium.dnd5e.equipment24.Item.dmgRingOfResista]</em></p>
+          @UUID[Compendium.degringo5e.equipment24.Item.dmgRingOfResista]</em></p>
           <p>You have Resistance to one damage type while wearing this ring. The
           gemstone in the ring indicates the type.</p>
         priority: null
@@ -1152,7 +1152,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730845485683
       modifiedTime: 1745438836957
@@ -1161,7 +1161,7 @@ effects:
     _id: JA9aLSXZ6W3O0W9l
     _key: '!items.effects!dmgRingOfResista.JA9aLSXZ6W3O0W9l'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect:
@@ -1178,7 +1178,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745433176689

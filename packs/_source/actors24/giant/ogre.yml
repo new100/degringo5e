@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins
-        (3)}</p></div><h1>Ogres</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.1Hp2MOUaAODie8ex
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreatclub0]{Greatclub},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins
+        (3)}</p></div><h1>Ogres</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.1Hp2MOUaAODie8ex
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Ogre</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kqE5GUlHs8pLCwvw
+        mm"]</p><h2>Ogre</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.kqE5GUlHs8pLCwvw
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -713,15 +713,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepGreatclub0
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepGreatclub0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724210
@@ -879,15 +879,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepJavelin000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepJavelin000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724210
@@ -897,12 +897,12 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712724238

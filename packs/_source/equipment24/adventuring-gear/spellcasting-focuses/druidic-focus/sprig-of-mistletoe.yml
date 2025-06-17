@@ -2,7 +2,7 @@ name: Sprig of mistletoe
 system:
   description:
     value: >-
-      <p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic
+      <p>A @UUID[Compendium.degringo5e.equipment24.Item.phbagDruidicFocu]{Druidic
       Focus} takes one of the forms in the Druidic Focuses table and is carved,
       tied with ribbon, or painted to channel primal magic. A Druid or Ranger
       can use such an object as a Spellcasting Focus.</p>
@@ -62,14 +62,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425914546
   modifiedTime: 1745256813716

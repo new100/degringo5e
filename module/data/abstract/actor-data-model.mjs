@@ -32,7 +32,7 @@ export default class ActorDataModel extends SystemDataModel {
    * @type {Actor5e[]}
    */
   get transferDestinations() {
-    const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const primaryParty = game.settings.get("degringo5e", "primaryParty")?.actor;
     if ( !primaryParty?.system.members.ids.has(this.parent.id) ) return [];
     const destinations = primaryParty.system.members.map(m => m.actor).filter(a => a.isOwner && a !== this.parent);
     if ( primaryParty.isOwner ) destinations.unshift(primaryParty);
@@ -59,7 +59,7 @@ export default class ActorDataModel extends SystemDataModel {
    */
   _prepareScaleValues() {
     this.scale = this.parent.items.reduce((scale, item) => {
-      if ( CONFIG.DND5E.advancementTypes.ScaleValue.validItemTypes.has(item.type) ) {
+      if ( CONFIG.DEGRINGO5E.advancementTypes.ScaleValue.validItemTypes.has(item.type) ) {
         scale[item.identifier] = item.scaleValues;
       }
       return scale;

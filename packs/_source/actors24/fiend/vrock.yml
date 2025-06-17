@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Vrock</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.yqpU1D8Hjb3YzIHu
+        <h1>Vrock</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.yqpU1D8Hjb3YzIHu
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -536,7 +536,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDemonicRestora
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674744803
       modifiedTime: 1745712729458
@@ -587,7 +587,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674747375
       modifiedTime: 1745712729458
@@ -650,7 +650,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
           appliedEffects: []
       uses:
         spent: 0
@@ -680,7 +680,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -688,7 +688,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674748688
       modifiedTime: 1745712729458
@@ -840,7 +840,7 @@ items:
     img: icons/magic/unholy/strike-beam-blood-large-red-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -848,7 +848,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShred000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674749995
       modifiedTime: 1745712729458
@@ -1023,7 +1023,7 @@ items:
     img: icons/magic/air/fog-gas-smoke-orange.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Item.mmSpores00000000
         _id: DeVYxc3BdGlZNeD9
         type: base
@@ -1061,7 +1061,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737920990479
@@ -1070,7 +1070,7 @@ items:
         _key: >-
           !actors.items.effects!mmVrock000000000.mmSpores00000000.DeVYxc3BdGlZNeD9
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1078,7 +1078,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpores00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674751341
       modifiedTime: 1745712729458
@@ -1199,7 +1199,7 @@ items:
         subtype: ''
     effects:
       - name: Stunned
-        img: systems/dnd5e/icons/svg/statuses/stunned.svg
+        img: systems/degringo5e/icons/svg/statuses/stunned.svg
         origin: Item.mmStunningScreec
         _id: dQ635FV7U5Y5LUE7
         type: base
@@ -1227,7 +1227,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: 1737921114342
@@ -1237,7 +1237,7 @@ items:
           !actors.items.effects!mmVrock000000000.mmStunningScreec.dQ635FV7U5Y5LUE7
     folder: 4T18pEvubPMQLzvD
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1245,7 +1245,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmStunningScreec
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737674752570
       modifiedTime: 1745712729458
@@ -1261,7 +1261,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712729487

@@ -591,7 +591,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTelepathicBond
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721493
@@ -795,8 +795,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmHomunculus0000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmHomunculus0000.Item.mmBite0000000000
         transfer: false
         _id: V1AmhFqcodun54W7
         type: base
@@ -825,7 +825,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -834,8 +834,8 @@ items:
         _key: >-
           !actors.items.effects!mmHomunculus0000.mmBite0000000000.V1AmhFqcodun54W7
       - name: Unconscious
-        img: systems/dnd5e/icons/svg/statuses/unconscious.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmHomunculus0000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/unconscious.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmHomunculus0000.Item.mmBite0000000000
         transfer: false
         _id: 1xPlmvipGrfrNiPY
         type: base
@@ -863,7 +863,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -872,7 +872,7 @@ items:
         _key: >-
           !actors.items.effects!mmHomunculus0000.mmBite0000000000.1xPlmvipGrfrNiPY
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -880,7 +880,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721493
@@ -893,12 +893,12 @@ items:
 effects: []
 folder: TYL2OiqdnUspYV8R
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415490996
   modifiedTime: 1745712721520

@@ -107,7 +107,7 @@ system:
         - count: ''
           name: ''
           _id: cfMwwH4dggymzi99
-          uuid: Compendium.dnd5e.actors24.Actor.phbsplMordSword0
+          uuid: Compendium.degringo5e.actors24.Actor.phbsplMordSword0
           level:
             min: null
             max: null
@@ -116,7 +116,7 @@ system:
         mode: ''
         identifier: ''
       name: Create Spectral Sword
-      img: systems/dnd5e/icons/svg/properties/magical.svg
+      img: systems/degringo5e/icons/svg/properties/magical.svg
   identifier: mordenkainens-sword
 _id: phbswdMordenkain
 type: spell
@@ -127,14 +127,14 @@ sort: 1300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425964789
   modifiedTime: 1745256800365

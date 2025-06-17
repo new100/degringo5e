@@ -72,7 +72,7 @@ system:
             min: null
             max: null
           types: []
-          uuid: Compendium.dnd5e.actors24.Actor.dmgqftFloatingWh
+          uuid: Compendium.degringo5e.actors24.Actor.dmgqftFloatingWh
       summon:
         prompt: true
         mode: ''
@@ -87,10 +87,10 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Rare, See:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
       Token}</em></p><p>You can take a Magic action to throw the token to a
       point within 10 feet of yourself. The token disappears, and a
-      @UUID[Compendium.dnd5e.actors24.Actor.dmgqftFloatingWh]{floating whip}
+      @UUID[Compendium.degringo5e.actors24.Actor.dmgqftFloatingWh]{floating whip}
       takes its place. You can then take a Bonus Action to make a melee spell
       attack against a creature within 10 feet of the whip, with an attack bonus
       of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus
@@ -140,14 +140,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704967

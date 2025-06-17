@@ -174,7 +174,7 @@ type: spell
 img: icons/magic/light/orb-hands-humanoid-yellow.webp
 effects:
   - name: Half Speed
-    origin: Compendium.dnd5e.spells24.Item.phbsplSpiritGuar
+    origin: Compendium.degringo5e.spells24.Item.phbsplSpiritGuar
     duration:
       rounds: null
       startTime: null
@@ -219,7 +219,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -231,14 +231,14 @@ sort: 101563
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425972143
   modifiedTime: 1745256798662

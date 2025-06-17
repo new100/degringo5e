@@ -8,7 +8,7 @@ system:
     0Ecazu341cv88FXR:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
+        uuid: Compendium.degringo5e.spells24.Item.phbsplAnimalFrie
         challenge:
           attack: null
           save: null
@@ -66,7 +66,7 @@ system:
     value: >-
       <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you can
       cast the level 3 version of the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship}
       spell (save DC 13).</p><p>Agitating this potion's muddy liquid brings
       little bits into view: a fish scale, a hummingbird feather, a cat claw, or
       a squirrel hair.</p>
@@ -110,14 +110,14 @@ system:
     - mgc
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807137

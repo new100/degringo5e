@@ -170,7 +170,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects:
         - RZmnRyi6pyjIRN1i
   identifier: sunbeam
@@ -179,8 +179,8 @@ type: spell
 img: icons/magic/light/beam-rays-orange-large.webp
 effects:
   - name: Blinded
-    img: systems/dnd5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplSunbeam000
+    img: systems/degringo5e/icons/svg/statuses/blinded.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplSunbeam000
     transfer: false
     _id: RZmnRyi6pyjIRN1i
     type: base
@@ -207,7 +207,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724798213021
       modifiedTime: 1724798277064
@@ -219,14 +219,14 @@ sort: 100782
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425974121
   modifiedTime: 1745256798940

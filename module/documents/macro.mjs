@@ -16,9 +16,9 @@ export async function create5eMacro(dropData, slot) {
       foundry.utils.mergeObject(macroData, {
         name: `${activity.item.name}: ${activity.name}`,
         img: activity.img,
-        command: `dnd5e.documents.macro.rollItem("${activity.item._source.name}", { activityName: "${
+        command: `degringo5e.documents.macro.rollItem("${activity.item._source.name}", { activityName: "${
           activity._source.name}", event });`,
-        flags: { "dnd5e.itemMacro": true }
+        flags: { "degringo5e.itemMacro": true }
       });
       break;
     case "Item":
@@ -30,8 +30,8 @@ export async function create5eMacro(dropData, slot) {
       foundry.utils.mergeObject(macroData, {
         name: itemData.name,
         img: itemData.img,
-        command: `dnd5e.documents.macro.rollItem("${itemData._source.name}", { event })`,
-        flags: { "dnd5e.itemMacro": true }
+        command: `degringo5e.documents.macro.rollItem("${itemData._source.name}", { event })`,
+        flags: { "degringo5e.itemMacro": true }
       });
       break;
     case "ActiveEffect":
@@ -43,8 +43,8 @@ export async function create5eMacro(dropData, slot) {
       foundry.utils.mergeObject(macroData, {
         name: effectData.name,
         img: effectData.img,
-        command: `dnd5e.documents.macro.toggleEffect("${effectData.name}")`,
-        flags: { "dnd5e.effectMacro": true }
+        command: `degringo5e.documents.macro.toggleEffect("${effectData.name}")`,
+        flags: { "degringo5e.effectMacro": true }
       });
       break;
     default:

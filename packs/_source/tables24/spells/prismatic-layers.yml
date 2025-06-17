@@ -168,28 +168,28 @@ results:
     description: >-
       <p><strong>Indigo.</strong><em> Failed Save:</em> The target has the <span
       class="reference-link"><a class="content-link" draggable="true" data-link
-      data-uuid="Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc"
+      data-uuid="Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc"
       data-id="cSVcyZyNe2iG1fIc" data-type="JournalEntryPage"
-      data-pack="dnd5e.rules" data-tooltip="Rule Page"><i class="fas
+      data-pack="degringo5e.rules" data-tooltip="Rule Page"><i class="fas
       fa-book-open"></i>Restrained</a><a class="enricher-action"
       data-action="apply" data-status="restrained"
-      data-tooltip="EDITOR.DND5E.Inline.ApplyStatus" aria-label="Apply Status to
+      data-tooltip="EDITOR.DEGRINGO5E.Inline.ApplyStatus" aria-label="Apply Status to
       Selected Tokens"><i class="fas fa-fw fa-reply-all
       fa-flip-horizontal"></i></a></span> condition and makes a <span
       class="roll-link" data-type="save" data-ability="con"><a
       data-action="roll"><i class="fa-solid fa-dice-d20"></i>Constitution</a><a
       class="enricher-action" data-action="request"
-      data-tooltip="EDITOR.DND5E.Inline.RequestRoll" aria-label="Request
+      data-tooltip="EDITOR.DEGRINGO5E.Inline.RequestRoll" aria-label="Request
       Roll"><i class="fa-solid fa-comment-dots"></i></a></span> saving throw at
       the end of each of its turns. If it successfully saves three times, the
       condition ends. If it fails three times, it has the <span
       class="reference-link"><a class="content-link" draggable="true" data-link
-      data-uuid="Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi"
+      data-uuid="Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi"
       data-id="xaNDaW6NwQTgHSmi" data-type="JournalEntryPage"
-      data-pack="dnd5e.rules" data-tooltip="Rule Page"><i class="fas
+      data-pack="degringo5e.rules" data-tooltip="Rule Page"><i class="fas
       fa-book-open"></i>Petrified</a><a class="enricher-action"
       data-action="apply" data-status="petrified"
-      data-tooltip="EDITOR.DND5E.Inline.ApplyStatus" aria-label="Apply Status to
+      data-tooltip="EDITOR.DEGRINGO5E.Inline.ApplyStatus" aria-label="Apply Status to
       Selected Tokens"><i class="fas fa-fw fa-reply-all
       fa-flip-horizontal"></i></a></span> condition until it is freed by an
       effect like the <em>Greater Restoration</em> spell. The successes and
@@ -221,18 +221,18 @@ results:
     description: >-
       <p><strong>Violet.</strong><em> Failed Save:</em> The target has the <span
       class="reference-link"><a class="content-link" draggable="true" data-link
-      data-uuid="Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ"
+      data-uuid="Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ"
       data-id="0b8N4FymGGfbZGpJ" data-type="JournalEntryPage"
-      data-pack="dnd5e.rules" data-tooltip="Rule Page"><i class="fas
+      data-pack="degringo5e.rules" data-tooltip="Rule Page"><i class="fas
       fa-book-open"></i>Blinded</a><a class="enricher-action"
       data-action="apply" data-status="blinded"
-      data-tooltip="EDITOR.DND5E.Inline.ApplyStatus" aria-label="Apply Status to
+      data-tooltip="EDITOR.DEGRINGO5E.Inline.ApplyStatus" aria-label="Apply Status to
       Selected Tokens"><i class="fas fa-fw fa-reply-all
       fa-flip-horizontal"></i></a></span> condition and makes a <span
       class="roll-link" data-type="save" data-ability="wis"><a
       data-action="roll"><i class="fa-solid fa-dice-d20"></i>Wisdom</a><a
       class="enricher-action" data-action="request"
-      data-tooltip="EDITOR.DND5E.Inline.RequestRoll" aria-label="Request
+      data-tooltip="EDITOR.DEGRINGO5E.Inline.RequestRoll" aria-label="Request
       Roll"><i class="fa-solid fa-comment-dots"></i></a></span> saving throw at
       the start of your next turn. On a successful save, the condition ends. On
       a failed save, the condition ends, and the creature teleports to another
@@ -247,7 +247,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1724425888205
   modifiedTime: 1726508211169

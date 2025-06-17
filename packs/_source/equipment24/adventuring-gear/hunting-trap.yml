@@ -178,7 +178,7 @@ img: icons/environment/traps/trap-jaw-steel.webp
 effects:
   - name: Trapped
     img: icons/environment/traps/trap-jaw-steel.webp
-    origin: Compendium.dnd5e.equipment24.Item.phbagHuntingTrap
+    origin: Compendium.degringo5e.equipment24.Item.phbagHuntingTrap
     transfer: false
     _id: 9jl46RZ5GOjs9QlJ
     type: base
@@ -202,7 +202,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725851254906
       modifiedTime: 1725851272140
@@ -213,14 +213,14 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425909228
   modifiedTime: 1745256812032

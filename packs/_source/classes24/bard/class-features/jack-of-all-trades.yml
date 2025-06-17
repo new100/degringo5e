@@ -40,7 +40,7 @@ system:
 effects:
   - _id: c7gWn9MMrBQb8ygm
     changes:
-      - key: flags.dnd5e.jackOfAllTrades
+      - key: flags.degringo5e.jackOfAllTrades
         mode: 5
         value: 'true'
         priority: null
@@ -53,7 +53,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.dnd5e.classes24.Item.phbbrdJackOfAllT
+    origin: Compendium.degringo5e.classes24.Item.phbbrdJackOfAllT
     transfer: true
     flags: {}
     tint: '#ffffff'
@@ -62,10 +62,10 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classfeatures.Item.ezWijmCnlnQ9ZRX2.ActiveEffect.K4xQzXl1Z4zMnyOa
+        Compendium.degringo5e.classfeatures.Item.ezWijmCnlnQ9ZRX2.ActiveEffect.K4xQzXl1Z4zMnyOa
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -77,14 +77,14 @@ effects:
     sort: 0
     _key: '!items.effects!phbbrdJackOfAllT.c7gWn9MMrBQb8ygm'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866377962
   modifiedTime: 1745256760432

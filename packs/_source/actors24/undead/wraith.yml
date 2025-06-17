@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Wraith</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.MjPLUclFHalyuLor
+        <h1>Wraith</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.MjPLUclFHalyuLor
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -608,7 +608,7 @@ items:
     img: icons/magic/death/undead-ghost-scream-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -616,7 +616,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIncorporealMov
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737050005332
       modifiedTime: 1745712730558
@@ -667,7 +667,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSunlightSensit
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737050007944
       modifiedTime: 1745712730558
@@ -781,7 +781,7 @@ items:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -789,7 +789,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLifeDrain00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737050009280
       modifiedTime: 1745712730558
@@ -867,7 +867,7 @@ items:
             - count: ''
               name: Specter
               _id: y0YdYaqmueLXoHCZ
-              uuid: Compendium.dnd5e.actors24.Actor.mmSpecter0000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmSpecter0000000
               level:
                 min: null
                 max: null
@@ -887,7 +887,7 @@ items:
           corpse within [[lookup @range.value activity=ypIQdXr13u7LATUP]] feet
           of itself that has been dead for no longer than 1 minute. The target's
           spirit rises as a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmSpecter0000000]{Specter}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmSpecter0000000]{Specter}</strong>
           in the space of its corpse or in the nearest unoccupied space. The
           specter is under the [[lookup @name lowercase]]'s control. The
           [[lookup @name lowercase]] can have no more than seven specters under
@@ -912,7 +912,7 @@ items:
     img: icons/magic/death/undead-skeleton-lich-armor.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -920,7 +920,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCreateSpecter0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737050010547
       modifiedTime: 1745712730558
@@ -933,12 +933,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712730585

@@ -32,17 +32,17 @@ export default class DurationField extends SchemaField {
    * @param {object} [labels]  Object in which to insert generated labels.
    */
   static prepareData(rollData, labels) {
-    this.duration.scalar = this.duration.units in CONFIG.DND5E.scalarTimePeriods;
+    this.duration.scalar = this.duration.units in CONFIG.DEGRINGO5E.scalarTimePeriods;
     if ( this.duration.scalar ) {
-      prepareFormulaValue(this, "duration.value", "DND5E.DURATION.FIELDS.duration.value.label", rollData);
+      prepareFormulaValue(this, "duration.value", "DEGRINGO5E.DURATION.FIELDS.duration.value.label", rollData);
     } else this.duration.value = null;
 
     if ( labels && this.duration.units ) {
-      let duration = CONFIG.DND5E.timePeriods[this.duration.units] ?? "";
+      let duration = CONFIG.DEGRINGO5E.timePeriods[this.duration.units] ?? "";
       if ( this.duration.value ) duration = `${this.duration.value} ${duration.toLowerCase()}`;
       labels.duration = duration;
       labels.concentrationDuration = this.duration.concentration || this.properties?.has("concentration")
-        ? game.i18n.format("DND5E.ConcentrationDuration", { duration }) : duration;
+        ? game.i18n.format("DEGRINGO5E.ConcentrationDuration", { duration }) : duration;
     }
 
     Object.defineProperty(this.duration, "getEffectData", {

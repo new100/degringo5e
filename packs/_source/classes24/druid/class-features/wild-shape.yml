@@ -17,15 +17,15 @@ system:
       you regain all expended uses when you finish a Long Rest.</p><p>You gain
       additional uses when you reach certain Druid levels, as shown in the Wild
       Shape column of the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
       Features} table.</p><p><strong>Current Number of Uses:</strong> [[lookup
       @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms. </strong>You
       know four Beast forms for this feature, chosen from among Beast stat
       blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly
-      Speed. The @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat},
-      @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse},
-      @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Spider}, and
-      @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wolf} are
+      Speed. The @UUID[Compendium.degringo5e.actors24.Actor.mmRat00000000000]{Rat},
+      @UUID[Compendium.degringo5e.actors24.Actor.mmRidingHorse000]{Riding Horse},
+      @UUID[Compendium.degringo5e.actors24.Actor.mmSpider00000000]{Spider}, and
+      @UUID[Compendium.degringo5e.actors24.Actor.mmWolf0000000000]{Wolf} are
       recommended. Whenever you finish a Long Rest, you can replace one of your
       known forms with another eligible form.</p><section class="fvtt
       advice"><figure class="icon"><img src="icons/vtt-512.png"
@@ -156,19 +156,19 @@ system:
         max: ''
       sort: 0
       name: Wild Shape
-      img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+      img: systems/degringo5e/icons/svg/abilities/intelligence.svg
   enchant: {}
   identifier: wild-shape
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1745256761362

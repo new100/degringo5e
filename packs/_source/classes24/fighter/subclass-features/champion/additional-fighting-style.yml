@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You gain another
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
       Style feat} of your choice.</p>
     chat: ''
   source:
@@ -33,14 +33,14 @@ system:
   identifier: additional-fighting-style
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866578955
   modifiedTime: 1745256761434

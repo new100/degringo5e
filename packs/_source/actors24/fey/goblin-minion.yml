@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers
-        (3)}</p></div><h1>Goblins</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
+        (3)}</p></div><h1>Goblins</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Goblin
-        Minion</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.x4VLvBATmEBnTTxK
+        Minion</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.x4VLvBATmEBnTTxK
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Neutral
@@ -717,15 +717,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepDagger0000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepDagger0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720139
@@ -786,7 +786,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -815,7 +815,7 @@ items:
     img: icons/skills/movement/ball-spinning-blue.webp
     effects:
       - name: Apply Hide Action to Target
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
+        img: systems/degringo5e/icons/svg/statuses/hiding.svg
         origin: Item.mmNimbleEscape00
         _id: 7U7Pe61lsMZgN7qh
         type: base
@@ -849,7 +849,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -858,7 +858,7 @@ items:
         _key: >-
           !actors.items.effects!mmGoblinMinion00.mmNimbleEscape00.7U7Pe61lsMZgN7qh
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -866,7 +866,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNimbleEscape00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737740196991
       modifiedTime: 1745712720139
@@ -879,12 +879,12 @@ items:
 effects: []
 folder: EypLbRzz5Hphlv5M
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712720171

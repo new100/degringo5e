@@ -115,7 +115,7 @@ img: icons/skills/melee/sword-engraved-glow-purple.webp
 effects:
   - name: Magic Weapon +1
     flags:
-      dnd5e:
+      degringo5e:
         enchantment:
           level:
             min: 2
@@ -161,7 +161,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -170,7 +170,7 @@ effects:
     _key: '!items.effects!phbsplMagicWeapo.IMt1nMPrWppyRYMT'
   - name: Magic Weapon +2
     flags:
-      dnd5e:
+      degringo5e:
         enchantment:
           level:
             min: 3
@@ -216,7 +216,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -225,7 +225,7 @@ effects:
     _key: '!items.effects!phbsplMagicWeapo.9zA6SFF8HKk9xNn2'
   - name: Magic Weapon +3
     flags:
-      dnd5e:
+      degringo5e:
         enchantment:
           level:
             min: 6
@@ -271,7 +271,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -283,14 +283,14 @@ sort: 2000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425962592
   modifiedTime: 1745256795840

@@ -10,7 +10,7 @@ system:
       <p>This ring is linked to the Elemental Plane of Air.</p>
 
       <p>While wearing this ring, you have advantage on attack rolls against
-      @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}s,
+      @UUID[Compendium.degringo5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}s,
       and they have disadvantage on attack rolls against you. In addition, you
       have access to properties based on the linked plane.</p>
 
@@ -19,7 +19,7 @@ system:
 
       <p><strong>Ring of Air Elemental Command</strong>. You can expend 2 of the
       ring's charges to cast
-      @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
+      @UUID[Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on
       an Air Elemental. In addition, when you fall, you descend 60 feet per
       round and take no damage from falling. You can also speak and understand
       Auran.</p>
@@ -36,10 +36,10 @@ system:
 
       <li>You can cast the following spells from the ring, expending the
       necessary number of charges:
-      @UUID[Compendium.dnd5e.spells.Item.QbTxN5dWIbYZ4jLU]{Chain Lightning} (3
-      charges), @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust of
+      @UUID[Compendium.degringo5e.spells.Item.QbTxN5dWIbYZ4jLU]{Chain Lightning} (3
+      charges), @UUID[Compendium.degringo5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust of
       Wind} (2 charges), or
-      @UUID[Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW]{Wind Wall} (1
+      @UUID[Compendium.degringo5e.spells.Item.ew6GA8dJy2spQmFW]{Wind Wall} (1
       charge).</li>
 
       </ul>
@@ -96,7 +96,7 @@ system:
     bHxilWVcS6pXWF14:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
+        uuid: Compendium.degringo5e.spells.Item.eEpy1ONlXumKS1mp
         challenge:
           attack: null
           save: 17
@@ -150,7 +150,7 @@ system:
     N5oNPgMOhNHD8tPw:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.QbTxN5dWIbYZ4jLU
+        uuid: Compendium.degringo5e.spells.Item.QbTxN5dWIbYZ4jLU
         challenge:
           attack: null
           save: 17
@@ -200,7 +200,7 @@ system:
     EYXcYiN0xI0cNnfD:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz
+        uuid: Compendium.degringo5e.spells.Item.FSMy6VAjDnXY9vWz
         challenge:
           attack: null
           save: 17
@@ -250,7 +250,7 @@ system:
     TPa1m5E6TgXJLysw:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW
+        uuid: Compendium.degringo5e.spells.Item.ew6GA8dJy2spQmFW
         challenge:
           attack: null
           save: 17
@@ -305,14 +305,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037211115
   modifiedTime: 1729016766442

@@ -1,7 +1,7 @@
 <{{ elements.effects }} class="effects-element" v2>
 
     {{!-- Searching --}}
-    <item-list-controls for="effects" label="{{ localize "DND5E.EffectsSearch" }}" sort="a"
+    <item-list-controls for="effects" label="{{ localize "DEGRINGO5E.EffectsSearch" }}" sort="a"
                         collection="effects"></item-list-controls>
 
     {{!-- Effects List --}}
@@ -14,7 +14,7 @@
             {{!-- Section Header --}}
             <div class="items-header header {{#if disabled}}disabled{{/if}}">
                 <h3 class="item-name effect-name">{{ localize label }}</h3>
-                <div class="item-header effect-source">{{ localize "DND5E.SOURCE.FIELDS.source.label" }}</div>
+                <div class="item-header effect-source">{{ localize "DEGRINGO5E.SOURCE.FIELDS.source.label" }}</div>
                 <div class="item-header item-controls effect-controls">
                     {{#if info}}
                     <a class="info-control" data-tooltip aria-label="{{ info }}">
@@ -69,20 +69,20 @@
                         {{#if @root.editable}}
                         {{!-- Editing --}}
                         <a class="effect-control item-control" data-action="edit" data-tooltip
-                           aria-label="{{ localize "DND5E.EffectEdit" }}">
+                           aria-label="{{ localize "DEGRINGO5E.EffectEdit" }}">
                             <i class="fas fa-pen-to-square"></i>
                         </a>
 
                         {{!-- Deleting --}}
                         <a class="effect-control item-control" data-action="delete" data-tooltip
-                           aria-label="{{ localize "DND5E.EffectDelete" }}">
+                           aria-label="{{ localize "DEGRINGO5E.EffectDelete" }}">
                             <i class="fas fa-trash"></i>
                         </a>
                         {{else if toggleable}}
                         <a class="effect-control item-control {{#unless disabled}}active{{/unless}}"
                            data-action="toggle"
-                           data-tooltip aria-label="{{#if disabled}}{{ localize "DND5E.EffectEnable" }}
-                           {{~else}}{{ localize "DND5E.EffectDisable" }}{{/if}}">
+                           data-tooltip aria-label="{{#if disabled}}{{ localize "DEGRINGO5E.EffectEnable" }}
+                           {{~else}}{{ localize "DEGRINGO5E.EffectDisable" }}{{/if}}">
                             {{#if disabled}}
                             <i class="fas fa-toggle-off"></i>
                             {{else}}
@@ -93,7 +93,7 @@
 
                         {{!-- Context Menu --}}
                         <a class="effect-control item-control always-interactive" data-context-menu
-                           aria-label="{{ localize "DND5E.AdditionalControls" }}">
+                           aria-label="{{ localize "DEGRINGO5E.AdditionalControls" }}">
                             <i class="fas fa-ellipsis-vertical"></i>
                         </a>
 
@@ -115,7 +115,7 @@
         <div class="items-section card">
 
             <div class="items-header header">
-                <h3 class="item-name">{{ localize "DND5E.Conditions" }}</h3>
+                <h3 class="item-name">{{ localize "DEGRINGO5E.Conditions" }}</h3>
             </div>
 
             <ul class="conditions-list unlist">
@@ -124,7 +124,7 @@
                     data-action="toggleCondition" data-uuid="{{ reference }}" data-condition-id="{{ id }}"
                     data-tooltip="<section class=&quot;loading&quot;><i class=&quot;fas fa-spinner fa-spin-pulse&quot;></i></section>">
                     <div class="icon">
-                        <dnd5e-icon src="{{ img }}"></dnd5e-icon>
+                        <degringo5e-icon src="{{ img }}"></degringo5e-icon>
                     </div>
                     <div class="name-stacked">
                         <span class="title">{{ name }}</span>

@@ -3,9 +3,9 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This onyx statuette of a dog can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmMastiff0000000]{Mastiff}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmMastiff0000000]{Mastiff}</strong>
       for up to 6 hours. The mastiff has an Intelligence of 8 and can speak
       Common. It also has Blindsight with a range of 60 feet. Once it has been
       used, it can't be used again until 7 days have passed.</p><section
@@ -82,7 +82,7 @@ system:
         - count: ''
           name: ''
           _id: EgCV0cs5EPQgUJOh
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobMastiff000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobMastiff000
           level:
             min: null
             max: null
@@ -182,7 +182,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729784122011
       modifiedTime: 1729784777789
@@ -194,14 +194,14 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781752415
   modifiedTime: 1745712700249

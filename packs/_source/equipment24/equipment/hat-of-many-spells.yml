@@ -60,7 +60,7 @@ system:
     FP4ljN4wxHN6eDyy:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplEnlargeRed
+        uuid: Compendium.degringo5e.spells24.Item.phbsplEnlargeRed
         challenge:
           attack: null
           save: null
@@ -103,7 +103,7 @@ system:
     B7ruAG3G8KyYSNXL:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
         challenge:
           attack: null
           save: null
@@ -146,7 +146,7 @@ system:
     1Oov0JtLLqUAI5g2:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: null
@@ -189,7 +189,7 @@ system:
     iMR8V4vNeUNVrl7e:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        uuid: Compendium.degringo5e.spells24.Item.phbsplInvisibili
         challenge:
           attack: null
           save: null
@@ -232,7 +232,7 @@ system:
     IPT9TqSywIaDcipD:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplLightningB
+        uuid: Compendium.degringo5e.spells24.Item.phbsplLightningB
         challenge:
           attack: null
           save: null
@@ -275,7 +275,7 @@ system:
     QvbApkrkH2Nn5qnF:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+        uuid: Compendium.degringo5e.spells24.Item.phbPhantasmalFor
         challenge:
           attack: null
           save: null
@@ -318,7 +318,7 @@ system:
     Gk6b31UEgbMYpKUk:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplPolymorph0
         challenge:
           attack: null
           save: null
@@ -361,7 +361,7 @@ system:
     mqMYCmjvPFOaDSKv:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+        uuid: Compendium.degringo5e.spells24.Item.phbsplStinkingCl
         challenge:
           attack: null
           save: null
@@ -425,7 +425,7 @@ system:
       spell and a random effect occurs instead, determined by rolling on the
       following table.</p><p>Any spell you cast from the hat uses your spell
       save DC and spell attack bonus.</p><details><summary>Roll
-      Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgHatOfManySpel
+      Table</summary><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgHatOfManySpel
       caption=false rollable]</p></details>
     chat: ''
   identifier: hat-of-many-spells
@@ -470,14 +470,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745611849020

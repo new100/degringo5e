@@ -408,14 +408,14 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmHalfPlateA]{Half Plate
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmHalfPlateA]{Half Plate
         Armor},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield}</p></div><h1>Hobgoblins</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.eFGs6u803PtWG5k7
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLongbow000]{Longbow},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLongsword0]{Longsword},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield}</p></div><h1>Hobgoblins</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.eFGs6u803PtWG5k7
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Hobgoblin
-        Warrior</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.qn7hUk5eNskZNKk9
+        Warrior</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.qn7hUk5eNskZNKk9
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -721,15 +721,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepLongsword0
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepLongsword0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721433
@@ -900,15 +900,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepLongbow000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepLongbow000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721433
@@ -976,10 +976,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmHalfPlateA
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmHalfPlateA
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721433
@@ -1050,10 +1050,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmShield0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721433
@@ -1105,7 +1105,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPackTactics000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737742683579
       modifiedTime: 1745712721433
@@ -1121,7 +1121,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712721462

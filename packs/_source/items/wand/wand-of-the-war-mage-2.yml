@@ -61,7 +61,7 @@ system:
 effects:
   - name: Wand of the War Mage +2
     img: icons/weapons/wands/wand-gem-teal.webp
-    origin: Compendium.dnd5e.items.Item.k3T7tpcdzDyVKlF4
+    origin: Compendium.degringo5e.items.Item.k3T7tpcdzDyVKlF4
     _id: s8wl3gTptLVyPcsW
     type: base
     system: {}
@@ -89,7 +89,7 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
@@ -97,7 +97,7 @@ effects:
       duplicateSource: null
       exportSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1745449953329
       modifiedTime: 1745449969568
@@ -111,7 +111,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037267214
   modifiedTime: 1730323666084

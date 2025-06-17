@@ -588,7 +588,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTunneler000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713057
@@ -799,8 +799,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmAnkheg00000000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmAnkheg00000000.Item.mmBite0000000000
         _id: ihvVTpfklXa7XAe2
         type: base
         system: {}
@@ -828,7 +828,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -837,7 +837,7 @@ items:
         _key: >-
           !actors.items.effects!mmAnkheg00000000.mmBite0000000000.ihvVTpfklXa7XAe2
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -845,7 +845,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713057
@@ -970,7 +970,7 @@ items:
     img: icons/magic/acid/projectile-needles-salvo-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -978,7 +978,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAcidSpray00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713057
@@ -994,7 +994,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712713090

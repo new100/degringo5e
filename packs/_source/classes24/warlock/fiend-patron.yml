@@ -2,7 +2,7 @@ _id: phbwlkFiendPatro
 name: Fiend Patron
 type: subclass
 folder: gG4h5ERlpEXbmxIJ
-img: systems/dnd5e/icons/classes/fiend.webp
+img: systems/degringo5e/icons/classes/fiend.webp
 system:
   description:
     value: >-
@@ -27,9 +27,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkDarkOnesBl
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkDarkOnesBl
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkFiendSpell
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkFiendSpell
             optional: false
         optional: false
         spell: null
@@ -40,7 +40,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkDarkOnesOw
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkDarkOnesOw
             optional: false
         optional: false
         spell: null
@@ -51,7 +51,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkFiendishRe
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkFiendishRe
             optional: false
         optional: false
         spell: null
@@ -62,7 +62,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkHurlThroug
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkHurlThroug
             optional: false
         optional: false
         spell: null
@@ -74,13 +74,13 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplBurningHan
+            uuid: Compendium.degringo5e.spells24.Item.phbsplBurningHan
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCommand000
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
+            uuid: Compendium.degringo5e.spells24.Item.phbsplScorchingR
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+            uuid: Compendium.degringo5e.spells24.Item.phbsplSuggestion
         optional: false
         spell:
           ability: []
@@ -101,9 +101,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+            uuid: Compendium.degringo5e.spells24.Item.phbsplStinkingCl
         optional: false
         spell:
           ability: []
@@ -124,9 +124,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFireShield
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFireShield
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+            uuid: Compendium.degringo5e.spells24.Item.phbsplWallofFire
         optional: false
         spell:
           ability: []
@@ -147,9 +147,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplGeas000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplGeas000000
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+            uuid: Compendium.degringo5e.spells24.Item.phbsplInsectPlag
         optional: false
         spell:
           ability: []
@@ -175,7 +175,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866551616
   modifiedTime: 1745256767365

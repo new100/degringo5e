@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <p>You can cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor} on
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage Armor} on
       yourself without expending a spell slot.</p><section
       id="secret-G6Bmiw5YEqEfBh2e" class="secret"><p><strong>Foundry
       Note</strong></p><p>The <strong>Mage Armor</strong> activity is configured
@@ -99,7 +99,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.dnd5e.classes24.Item.phbinvArmorofSha
+    origin: Compendium.degringo5e.classes24.Item.phbinvArmorofSha
     transfer: true
     flags: {}
     tint: '#ffffff'
@@ -108,10 +108,10 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+        Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -124,14 +124,14 @@ effects:
     _key: '!items.effects!phbinvArmorofSha.3UaxEJx1X9kDrR65'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256761967

@@ -47,7 +47,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+            target: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
             scaling: {}
       description:
         chatFlavor: ''
@@ -81,20 +81,20 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/ability-score-improvement.svg
+      img: systems/degringo5e/icons/svg/ability-score-improvement.svg
   enchant: {}
   identifier: empowered-spell
 effects: []
 folder: 6RKLEZHPbdWG3fZe
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745256762703

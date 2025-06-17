@@ -54,7 +54,7 @@ system:
           override: true
         level: '2'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWeb0000000
       name: ''
       img: ''
   uses:
@@ -75,7 +75,7 @@ system:
       free.</p><p><strong>Spider Walk.</strong> You can't be caught in webs of
       any sort and can move through webs as if they were Difficult
       Terrain.</p><p><strong>Web.</strong> You can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em> (save
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web}</em> (save
       DC 13). The web created by the spell fills twice its normal area. Once
       used, this property can't be used again until the next dawn.</p>
     chat: ''
@@ -159,7 +159,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1728946973777
       modifiedTime: 1728947113494
@@ -167,14 +167,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgCloakOfArachn.6ZKscgdcc55OsAuN'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256803537

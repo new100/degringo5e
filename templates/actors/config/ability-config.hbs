@@ -1,14 +1,14 @@
 <section class="flexcol">
     {{!-- Ability Score & Maxmimum --}}
     <fieldset class="card">
-        <legend>{{ localize "DND5E.ABILITY.SECTIONS.Score" ability=label }}</legend>
+        <legend>{{ localize "DEGRINGO5E.ABILITY.SECTIONS.Score" ability=label }}</legend>
         <div class="form-group split-group">
-            <label>{{ localize "DND5E.AbilityScore" }}</label>
+            <label>{{ localize "DEGRINGO5E.AbilityScore" }}</label>
             <div class="form-fields">
                 {{ formField fields.value name=(concat prefix "value") value=data.value localize=true
-                             label=(localize "DND5E.AbilityScoreShort") classes="label-top" rootId=partId }}
+                             label=(localize "DEGRINGO5E.AbilityScoreShort") classes="label-top" rootId=partId }}
                 {{ formField fields.max name=(concat prefix "max") value=data.max placeholder="20" localize=true
-                             label=(localize "DND5E.AbilityScoreMaxShort") classes="label-top" rootId=partId }}
+                             label=(localize "DEGRINGO5E.AbilityScoreMaxShort") classes="label-top" rootId=partId }}
             </div>
         </div>
         {{ formField fields.proficient name=(concat prefix "proficient") value=data.proficient
@@ -17,9 +17,9 @@
 
     {{!-- Local Bonuses --}}
     <fieldset class="card">
-        <legend>{{ localize "DND5E.ABILITY.SECTIONS.Bonuses.Label" ability=label }}</legend>
+        <legend>{{ localize "DEGRINGO5E.ABILITY.SECTIONS.Bonuses.Label" ability=label }}</legend>
         <div class="form-group">
-            <p class="hint">{{ localize "DND5E.ABILITY.SECTIONS.Bonuses.Hint" ability=label }}</p>
+            <p class="hint">{{ localize "DEGRINGO5E.ABILITY.SECTIONS.Bonuses.Hint" ability=label }}</p>
         </div>
         {{ formField fields.bonuses.fields.save name=(concat prefix "bonuses.save") value=data.bonuses.save
                      localize=true rootId=partId }}
@@ -30,9 +30,9 @@
     {{!-- Global Bonuses --}}
     {{#if global}}
     <fieldset class="card">
-        <legend>{{ localize "DND5E.ABILITY.SECTIONS.Global.Label" }}</legend>
+        <legend>{{ localize "DEGRINGO5E.ABILITY.SECTIONS.Global.Label" }}</legend>
         <div class="form-group">
-            <p class="hint">{{ localize "DND5E.ABILITY.SECTIONS.Global.Hint" }}</p>
+            <p class="hint">{{ localize "DEGRINGO5E.ABILITY.SECTIONS.Global.Hint" }}</p>
         </div>
         {{ formField global.fields.save value=global.data.save localize=true rootId=partId }}
         {{ formField global.fields.check value=global.data.check localize=true rootId=partId }}

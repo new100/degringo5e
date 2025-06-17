@@ -68,7 +68,7 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
       div.innerHTML = `
         <label class="roboto-upper">
           <i class="fa-solid fa-bolt"></i>
-          <span>${game.i18n.localize("DND5E.Effects")}</span>
+          <span>${game.i18n.localize("DEGRINGO5E.Effects")}</span>
           <i class="fa-solid fa-caret-down"></i>
         </label>
         <div class="collapsible-content">
@@ -107,7 +107,7 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
           <span class="subtitle">${effect.duration.label}</span>
         </div>
         <button class="apply-effect" type="button" data-action="applyEffect"
-                data-tooltip aria-label="${game.i18n.localize("DND5E.EffectsApplyTokens")}">
+                data-tooltip aria-label="${game.i18n.localize("DEGRINGO5E.EffectsApplyTokens")}">
           <i class="fas fa-reply-all fa-flip-horizontal" inert></i>
         </button>
       `;
@@ -137,7 +137,7 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
         <span class="title"></span>
       </div>
       <div class="checkbox">
-        <dnd5e-checkbox name="${uuid}"${checked}${disabled}></dnd5e-checkbox>
+        <degringo5e-checkbox name="${uuid}"${checked}${disabled}></degringo5e-checkbox>
       </div>
     `;
     Object.assign(li.querySelector(".gold-icon"), { alt: name, src: actor.img });
@@ -160,17 +160,17 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
    */
   async _applyEffectToActor(effect, actor) {
     const concentration = this.chatMessage.getAssociatedActor()?.effects
-      .get(this.chatMessage.getFlag("dnd5e", "use.concentrationId"));
+      .get(this.chatMessage.getFlag("degringo5e", "use.concentrationId"));
     const origin = concentration ?? effect;
     if ( !game.user.isGM && !actor.isOwner ) {
-      throw new Error(game.i18n.localize("DND5E.EffectApplyWarningOwnership"));
+      throw new Error(game.i18n.localize("DEGRINGO5E.EffectApplyWarningOwnership"));
     }
 
     const effectFlags = {
       flags: {
-        dnd5e: {
-          scaling: this.chatMessage.getFlag("dnd5e", "scaling"),
-          spellLevel: this.chatMessage.getFlag("dnd5e", "use.spellLevel")
+        degringo5e: {
+          scaling: this.chatMessage.getFlag("degringo5e", "scaling"),
+          spellLevel: this.chatMessage.getFlag("degringo5e", "use.spellLevel")
         }
       }
     };
@@ -185,7 +185,7 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
     }
 
     if ( !game.user.isGM && concentration && !concentration.actor?.isOwner ) {
-      throw new Error(game.i18n.localize("DND5E.EffectApplyWarningConcentration"));
+      throw new Error(game.i18n.localize("DEGRINGO5E.EffectApplyWarningConcentration"));
     }
 
     // Otherwise, create a new effect on the target
@@ -212,7 +212,7 @@ export default class EffectApplicationElement extends TargetedApplicationMixin(C
     if ( !effect ) return;
     for ( const target of this.targetList.querySelectorAll("[data-target-uuid]") ) {
       const actor = fromUuidSync(target.dataset.targetUuid);
-      if ( !actor || !target.querySelector("dnd5e-checkbox")?.checked ) continue;
+      if ( !actor || !target.querySelector("degringo5e-checkbox")?.checked ) continue;
       try {
         await this._applyEffectToActor(effect, actor);
       } catch(err) {

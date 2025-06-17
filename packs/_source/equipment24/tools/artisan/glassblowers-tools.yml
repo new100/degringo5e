@@ -6,11 +6,11 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Discern what a glass object
       held in the past 24 hours (DC 15)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagMagnifyingG]{Magnifying
+      @UUID[Compendium.degringo5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagMagnifyingG]{Magnifying
       Glass},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagSpyglass100]{Spyglass},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagVial0000000]{Vial}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagSpyglass100]{Spyglass},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagVial0000000]{Vial}</p>
     chat: ''
   source:
     custom: ''
@@ -112,14 +112,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917035
   modifiedTime: 1740680141749

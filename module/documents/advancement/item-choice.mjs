@@ -18,9 +18,9 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
       },
       order: 50,
       icon: "icons/magic/symbols/cog-orange-red.webp",
-      typeIcon: "systems/dnd5e/icons/svg/item-choice.svg",
-      title: game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.Title"),
-      hint: game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.Hint"),
+      typeIcon: "systems/degringo5e/icons/svg/item-choice.svg",
+      title: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Title"),
+      hint: game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Hint"),
       multiLevel: true,
       apps: {
         config: ItemChoiceConfig,
@@ -53,8 +53,8 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
   titleForLevel(level, { configMode=false }={}) {
     const data = this.configuration.choices[level] ?? {};
     let tag;
-    if ( data.count ) tag = game.i18n.format("DND5E.ADVANCEMENT.ItemChoice.Choose", { count: data.count });
-    else if ( data.replacement ) tag = game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.Replacement.Title");
+    if ( data.count ) tag = game.i18n.format("DEGRINGO5E.ADVANCEMENT.ItemChoice.Choose", { count: data.count });
+    else if ( data.replacement ) tag = game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Replacement.Title");
     else return this.title;
     return `${this.title} <em>(${tag})</em>`;
   }
@@ -65,7 +65,7 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
   summaryForLevel(level, { configMode=false }={}) {
     const items = this.value.added?.[level];
     if ( !items || configMode ) return "";
-    return Object.values(items).reduce((html, uuid) => html + game.dnd5e.utils.linkForUuid(uuid), "");
+    return Object.values(items).reduce((html, uuid) => html + game.degringo5e.utils.linkForUuid(uuid), "");
   }
 
   /* -------------------------------------------- */
@@ -117,7 +117,7 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
 
     if ( data.replaced ) {
       if ( !original ) {
-        throw new ItemChoiceAdvancement.ERROR(game.i18n.localize("DND5E.ADVANCEMENT.ItemChoice.Warning.NoOriginal"));
+        throw new ItemChoiceAdvancement.ERROR(game.i18n.localize("DEGRINGO5E.ADVANCEMENT.ItemChoice.Warning.NoOriginal"));
       }
       this.actor.items.delete(data.replaced.original);
       this.updateSource({ [`value.replaced.${level}`]: data.replaced });
@@ -168,21 +168,21 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
     if ( type && (type !== item.type) ) {
       type = game.i18n.localize(CONFIG.Item.typeLabels[restriction]);
       if ( strict ) {
-        throw new Error(game.i18n.format("DND5E.ADVANCEMENT.ItemChoice.Warning.InvalidType", { type: typeLabel }));
+        throw new Error(game.i18n.format("DEGRINGO5E.ADVANCEMENT.ItemChoice.Warning.InvalidType", { type: typeLabel }));
       }
       return false;
     }
 
     // If additional type restrictions applied, make sure they are valid
     if ( (type === "feat") && restriction.type ) {
-      const typeConfig = CONFIG.DND5E.featureTypes[restriction.type];
+      const typeConfig = CONFIG.DEGRINGO5E.featureTypes[restriction.type];
       const subtype = typeConfig.subtypes?.[restriction.subtype];
       let errorLabel;
       if ( restriction.type !== item.system.type.value ) errorLabel = typeConfig.label;
       else if ( subtype && (restriction.subtype !== item.system.type.subtype) ) errorLabel = subtype;
       if ( errorLabel ) {
         if ( strict ) {
-          throw new Error(game.i18n.format("DND5E.ADVANCEMENT.ItemChoice.Warning.InvalidType", { type: errorLabel }));
+          throw new Error(game.i18n.format("DEGRINGO5E.ADVANCEMENT.ItemChoice.Warning.InvalidType", { type: errorLabel }));
         }
         return false;
       }
@@ -191,9 +191,9 @@ export default class ItemChoiceAdvancement extends ItemGrantAdvancement {
     // If spell level is restricted, ensure the spell is of the appropriate level
     const l = parseInt(restriction.level);
     if ( (type === "spell") && !Number.isNaN(l) && (item.system.level !== l) ) {
-      const level = CONFIG.DND5E.spellLevels[l];
+      const level = CONFIG.DEGRINGO5E.spellLevels[l];
       if ( strict ) {
-        throw new Error(game.i18n.format("DND5E.ADVANCEMENT.ItemChoice.Warning.SpellLevelSpecific", { level }));
+        throw new Error(game.i18n.format("DEGRINGO5E.ADVANCEMENT.ItemChoice.Warning.SpellLevelSpecific", { level }));
       }
       return false;
     }

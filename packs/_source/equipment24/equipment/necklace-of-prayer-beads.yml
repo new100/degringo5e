@@ -8,7 +8,7 @@ system:
     SEwmmaZFABa5L61F:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplBless00000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplBless00000
         challenge:
           attack: null
           save: null
@@ -60,7 +60,7 @@ system:
     i1xNzPeIb7VkHrh6:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+        uuid: Compendium.degringo5e.spells24.Item.phbsplCureWounds
         challenge:
           attack: null
           save: null
@@ -112,7 +112,7 @@ system:
     yiGuTjneUv0F9NnC:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGreaterRes
         challenge:
           attack: null
           save: null
@@ -164,7 +164,7 @@ system:
     xjMwMrJpNfh3HZyP:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplShiningSmi
+        uuid: Compendium.degringo5e.spells24.Item.phbsplShiningSmi
         challenge:
           attack: null
           save: null
@@ -216,7 +216,7 @@ system:
     FGwlSZAUgTaknnt1:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGuardianof
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGuardianof
         challenge:
           attack: null
           save: null
@@ -268,7 +268,7 @@ system:
     VBwVZg8g1vPZ1xep:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWindWalk00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWindWalk00
         challenge:
           attack: null
           save: null
@@ -335,7 +335,7 @@ system:
       bead contains a spell that you can cast from it as a Bonus Action (using
       your spell save DC if a save is necessary). Once a magic bead's spell is
       cast, that bead can't be used again until the next
-      dawn.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgNecklaceOfPra
+      dawn.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgNecklaceOfPra
       caption=false rollable]</p><section class="secret"
       id="secret-T9EktTumIxEuAXft"><p><strong>Foundry Note</strong></p><p>This
       item includes an activity for each spell with a limited use per dawn. You
@@ -384,14 +384,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701573

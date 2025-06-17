@@ -1,7 +1,7 @@
 <section class="flexcol">
     {{!-- Initiative --}}
     <fieldset class="card">
-        <legend>{{ localize "DND5E.Initiative" }}</legend>
+        <legend>{{ localize "DEGRINGO5E.Initiative" }}</legend>
         {{ formField fields.ability value=data.ability options=abilityOptions localize=true rootId=partId }}
         {{ formField fields.bonus value=data.bonus localize=true rootId=partId }}
         <hr>
@@ -12,16 +12,16 @@
 
     {{!-- Rolls --}}
     <fieldset class="card">
-        <legend>{{ localize "DND5E.ROLL.Section" label=(localize "DND5E.Initiative") }}</legend>
+        <legend>{{ localize "DEGRINGO5E.ROLL.Section" label=(localize "DEGRINGO5E.Initiative") }}</legend>
         {{ formField fields.roll.fields.mode value=data.roll.mode options=advantageModeOptions localize=true
                      rootId=partId }}
         <div class="form-group split-group">
-            <label>{{ localize "DND5E.ROLL.Range.Label" }}</label>
+            <label>{{ localize "DEGRINGO5E.ROLL.Range.Label" }}</label>
             <div class="form-fields">
                 {{ formField fields.roll.fields.min value=data.roll.min placeholder="1" type="number" localize=true
-                             label=(localize "DND5E.Minimum") hint=false classes="label-top" rootId=partId }}
+                             label=(localize "DEGRINGO5E.Minimum") hint=false classes="label-top" rootId=partId }}
                 {{ formField fields.roll.fields.max value=data.roll.max placeholder="20" type="number" localize=true
-                             label=(localize "DND5E.Maximum") hint=false classes="label-top" rootId=partId }}
+                             label=(localize "DEGRINGO5E.Maximum") hint=false classes="label-top" rootId=partId }}
             </div>
         </div>
     </fieldset>
@@ -31,6 +31,6 @@
         <legend>{{ ability.label }}</legend>
         {{ formField ability.local.field name=ability.local.name value=ability.local.value localize=true rootId=partId }}
         {{ formField ability.global.field name=ability.global.name value=ability.global.value
-                     label=(localize "DND5E.GlobalBonus") rootId=partId }}
+                     label=(localize "DEGRINGO5E.GlobalBonus") rootId=partId }}
     </fieldset>
 </fieldset>

@@ -50,7 +50,7 @@ export default class RequestMessageData extends ChatMessageDataModel {
     actions: {
       handleRequest: RequestMessageData.#handleRequest
     },
-    template: "systems/dnd5e/templates/chat/request-card.hbs"
+    template: "systems/degringo5e/templates/chat/request-card.hbs"
   }, { inplace: false }));
 
   /* -------------------------------------------- */
@@ -62,7 +62,7 @@ export default class RequestMessageData extends ChatMessageDataModel {
     return {
       button: {
         icon: this.button.icon,
-        label: game.i18n.localize(this.button.label || "DND5E.CHATMESSAGE.REQUEST.Action.Handle")
+        label: game.i18n.localize(this.button.label || "DEGRINGO5E.CHATMESSAGE.REQUEST.Action.Handle")
       },
       content: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
         this.parent.content, { rollData: this.parent.getRollData() }
@@ -87,9 +87,9 @@ export default class RequestMessageData extends ChatMessageDataModel {
    */
   static async #handleRequest(event, target) {
     const actor = fromUuidSync(target.closest("[data-uuid]").dataset.uuid);
-    const result = await CONFIG.DND5E.requests[this.handler](actor, this.parent, this.data);
+    const result = await CONFIG.DEGRINGO5E.requests[this.handler](actor, this.parent, this.data);
     if ( result instanceof ChatMessage ) {
-      result.setFlag("dnd5e", "requestResult", { actorId: actor.id, requestId: this.parent.id });
+      result.setFlag("degringo5e", "requestResult", { actorId: actor.id, requestId: this.parent.id });
     }
   }
 
@@ -103,7 +103,7 @@ export default class RequestMessageData extends ChatMessageDataModel {
    * @param {string} userId
    */
   static onUpdateResultMessage(message, changes, options, userId) {
-    const flag = foundry.utils.getProperty(changes, "flags.dnd5e.requestResult");
+    const flag = foundry.utils.getProperty(changes, "flags.degringo5e.requestResult");
     if ( !flag || (game.users.activeGM !== game.user) ) return;
 
     const actor = game.actors.get(flag.actorId);

@@ -43,7 +43,7 @@ export default class PropertyAttribution extends Application5e {
   /** @override */
   static PARTS = {
     attribution: {
-      template: "systems/dnd5e/templates/apps/property-attribution.hbs"
+      template: "systems/degringo5e/templates/apps/property-attribution.hbs"
     }
   };
 
@@ -100,11 +100,11 @@ export default class PropertyAttribution extends Application5e {
   getPropertyLabel(property) {
     const parts = property.split(".");
     if ( parts[0] === "abilities" && parts[1] ) {
-      return CONFIG.DND5E.abilities[parts[1]]?.label ?? property;
-    } else if ( (property === "attributes.ac.dex") && CONFIG.DND5E.abilities.dex ) {
-      return CONFIG.DND5E.abilities.dex.label;
+      return CONFIG.DEGRINGO5E.abilities[parts[1]]?.label ?? property;
+    } else if ( (property === "attributes.ac.dex") && CONFIG.DEGRINGO5E.abilities.dex ) {
+      return CONFIG.DEGRINGO5E.abilities.dex.label;
     } else if ( (parts[0] === "prof") || (property === "attributes.prof") ) {
-      return game.i18n.localize("DND5E.Proficiency");
+      return game.i18n.localize("DEGRINGO5E.Proficiency");
     }
     return property;
   }

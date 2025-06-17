@@ -53,7 +53,7 @@ system:
         max: ''
       sort: 0
       name: Whisper
-      img: systems/dnd5e/icons/svg/damage/psychic.svg
+      img: systems/degringo5e/icons/svg/damage/psychic.svg
   uses:
     spent: 0
     recovery: []
@@ -61,7 +61,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 7+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{Speak with
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithD]{Speak with
       Dead} without expending a spell slot.</p>
     chat: ''
   source:
@@ -83,14 +83,14 @@ system:
 effects: []
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1740680084508

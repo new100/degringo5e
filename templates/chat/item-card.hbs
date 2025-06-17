@@ -1,4 +1,4 @@
-<div class="dnd5e2 chat-card item-card" data-actor-id="{{ actor.id }}" data-item-id="{{ item.id }}"
+<div class="degringo5e2 chat-card item-card" data-actor-id="{{ actor.id }}" data-item-id="{{ item.id }}"
      {{#if tokenId}}data-token-id="{{tokenId}}"{{/if}} {{#if isSpell}}data-spell-level="{{ item.system.level }}"{{/if}}>
 
     {{!-- Collapsible Item Details --}}
@@ -28,7 +28,7 @@
 
     {{!-- Materials --}}
     {{#if data.materials.value}}
-    <p class="supplement"><strong>{{ localize "DND5E.Materials" }}</strong>{{ data.materials.value }}</p>
+    <p class="supplement"><strong>{{ localize "DEGRINGO5E.Materials" }}</strong>{{ data.materials.value }}</p>
     {{/if}}
 
     {{!-- Item Properties --}}

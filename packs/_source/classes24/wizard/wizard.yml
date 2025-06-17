@@ -2,7 +2,7 @@ _id: phbwzdWizard0000
 name: Wizard
 type: class
 folder: 5UciSMNOwLY83syr
-img: systems/dnd5e/icons/classes/wizard.webp
+img: systems/degringo5e/icons/classes/wizard.webp
 system:
   description:
     value: >-
@@ -20,23 +20,23 @@ system:
       Training</strong></p></th><td><p>None</p></td></tr><tr><th
       scope="row"><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) 2
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe},
-      @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRobe0000000]{Robe},
+      @UUID[Compendium.degringo5e.items.Item.LBajgahniRJbAgDr]{Spellbook},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack},
       and [[/award 5GP]]; or (B) [[/award
-      55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000
+      55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000
       inline classes="free-rules-embed"]</p><h2>Becoming a Wizard …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Wizard
       Traits table.</li><li>Gain the Wizard's level 1 features, which are listed
       in the Wizard Features table.</li></ul><h3>As a Multiclass
       Character</h3><ul><li>Gain the Hit Point Die from the Core Wizard Traits
       table.</li><li>Gain the Wizard's level 1 features, which are listed in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard
       Features table}. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
       rules} to determine your available spell slots.</li></ul><aside
       class="notable"><p><strong>Expanding and Replacing a
       Spellbook</strong></p><p>The spells you add to your spellbook as you gain
@@ -72,7 +72,7 @@ system:
       sort: 100000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: Ac2gEqPAS8Y0xgxs
       group: zcKhKDfR6l9mjjo0
@@ -84,21 +84,21 @@ system:
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa
+      key: Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa
       requiresProficiency: false
       _id: WuhfdgDOMfGFoprm
       group: lVKJqhzrzUJbCutg
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagRobe0000000
+      key: Compendium.degringo5e.equipment24.Item.phbagRobe0000000
       requiresProficiency: false
       _id: 01FYjSGd8b9I8peX
       group: zcKhKDfR6l9mjjo0
       sort: 400000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagScholarsPac
+      key: Compendium.degringo5e.equipment24.Item.phbagScholarsPac
       requiresProficiency: false
       _id: ipKkaDAn6KnKgpVH
       group: zcKhKDfR6l9mjjo0
@@ -114,11 +114,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdSpellcasti
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdSpellcasti
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdRitualAdep
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdRitualAdep
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdArcaneReco
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdArcaneReco
             optional: false
         optional: false
         spell: null
@@ -129,7 +129,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdScholar000
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdScholar000
             optional: false
         optional: false
         spell: null
@@ -140,7 +140,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdMemorizeSp
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdMemorizeSp
             optional: false
         optional: false
         spell: null
@@ -151,7 +151,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdSpellMaste
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdSpellMaste
             optional: false
         optional: false
         spell: null
@@ -162,7 +162,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -173,7 +173,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwzdSignatureS
+          - uuid: Compendium.degringo5e.classes24.Item.phbwzdSignatureS
             optional: false
         optional: false
         spell: null
@@ -356,18 +356,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
         spell: null
         restriction:
           type: feat
@@ -449,7 +449,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866273692
   modifiedTime: 1745517421308

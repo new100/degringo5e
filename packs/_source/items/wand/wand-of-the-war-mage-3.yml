@@ -61,7 +61,7 @@ system:
 effects:
   - name: Wand of the War Mage +3
     img: icons/weapons/wands/wand-carved-stone-shard.webp
-    origin: Compendium.dnd5e.items.Item.IuVaBrq17AqxpXc4
+    origin: Compendium.degringo5e.items.Item.IuVaBrq17AqxpXc4
     _id: 57wol3ftCtHAGwV5
     type: base
     system: {}
@@ -89,7 +89,7 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
@@ -97,7 +97,7 @@ effects:
       duplicateSource: null
       exportSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1745449985182
       modifiedTime: 1745450005088
@@ -111,7 +111,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037158041
   modifiedTime: 1730323669596

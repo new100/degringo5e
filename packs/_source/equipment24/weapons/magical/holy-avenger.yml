@@ -78,7 +78,7 @@ system:
       levels in the Paladin class, the size of the Emanation increases to 30
       feet.</p><p>[[10 + floor(@classes.paladin.levels / 17) * 20]]{Emanation
       Size
-      (feet)}</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      (feet)}</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: holy-avenger
@@ -146,7 +146,7 @@ system:
 effects:
   - type: enchantment
     name: Holy Avenger
-    img: systems/dnd5e/icons/spell-tiers/spell5.webp
+    img: systems/degringo5e/icons/spell-tiers/spell5.webp
     disabled: true
     _id: I7Iwl7awPq2wftoF
     system: {}
@@ -158,7 +158,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgHolyAvenger00
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgHolyAvenger00
           caption=false]</p>
         priority: null
       - key: system.rarity
@@ -208,7 +208,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730147062199
       modifiedTime: 1745438836668
@@ -217,7 +217,7 @@ effects:
     _key: '!items.effects!dmgHolyAvenger00.I7Iwl7awPq2wftoF'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - 6vKfMHP7AWboTcww
@@ -225,7 +225,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700745

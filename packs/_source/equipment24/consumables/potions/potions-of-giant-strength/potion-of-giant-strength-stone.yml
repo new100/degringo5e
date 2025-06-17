@@ -111,7 +111,7 @@ system:
 effects:
   - name: Strength of Stone
     img: icons/consumables/potions/bottle-corked-empty.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgStonePotionOf
+    origin: Compendium.degringo5e.equipment24.Item.dmgStonePotionOf
     transfer: false
     _id: ja1TakW2VVvY8HW3
     type: base
@@ -139,7 +139,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743796378
       modifiedTime: 1730744006754
@@ -147,14 +147,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgStonePotionOf.ja1TakW2VVvY8HW3'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745432578420

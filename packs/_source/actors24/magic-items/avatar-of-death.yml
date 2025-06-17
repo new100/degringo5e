@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDmtSkull00000]{Skull
+        <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDmtSkull00000]{Skull
         (Deck of Many Things)}</p>
       public: ''
     alignment: Neutral Evil
@@ -583,7 +583,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -591,7 +591,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680148650
@@ -685,7 +685,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -693,7 +693,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680148650
@@ -776,7 +776,7 @@ items:
                   - necrotic
                 scaling:
                   number: 1
-          img: systems/dnd5e/icons/svg/activity/attack.svg
+          img: systems/degringo5e/icons/svg/activity/attack.svg
       uses:
         spent: 0
         recovery: []
@@ -808,7 +808,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -821,7 +821,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680148650
@@ -831,12 +831,12 @@ items:
 effects: []
 folder: 2AjZvlZWDCwSd0ry
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729205098710
   modifiedTime: 1745256817210

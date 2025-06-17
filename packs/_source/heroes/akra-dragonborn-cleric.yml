@@ -602,7 +602,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -641,7 +641,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -728,16 +728,16 @@ items:
             allowDrops: false
             type: feat
             pool:
-              - uuid: Compendium.dnd5e.races.NnSZlrsHCFeH3cCq
-              - uuid: Compendium.dnd5e.races.KVgvW5yhKcmQUanz
-              - uuid: Compendium.dnd5e.races.JrUcwLR2aQC09iUM
-              - uuid: Compendium.dnd5e.races.pJzMSk9qYywYy65w
-              - uuid: Compendium.dnd5e.races.bFpLM0N3uTeHLdzu
-              - uuid: Compendium.dnd5e.races.YPQQBZAuRiSwuBfh
-              - uuid: Compendium.dnd5e.races.lXIxndsBaQglHBtO
-              - uuid: Compendium.dnd5e.races.kB61JPKQrDBbSNU7
-              - uuid: Compendium.dnd5e.races.pAYTdRGftNr8AitK
-              - uuid: Compendium.dnd5e.races.KL7wx9Q8XNJQir0k
+              - uuid: Compendium.degringo5e.races.NnSZlrsHCFeH3cCq
+              - uuid: Compendium.degringo5e.races.KVgvW5yhKcmQUanz
+              - uuid: Compendium.degringo5e.races.JrUcwLR2aQC09iUM
+              - uuid: Compendium.degringo5e.races.pJzMSk9qYywYy65w
+              - uuid: Compendium.degringo5e.races.bFpLM0N3uTeHLdzu
+              - uuid: Compendium.degringo5e.races.YPQQBZAuRiSwuBfh
+              - uuid: Compendium.degringo5e.races.lXIxndsBaQglHBtO
+              - uuid: Compendium.degringo5e.races.kB61JPKQrDBbSNU7
+              - uuid: Compendium.degringo5e.races.pAYTdRGftNr8AitK
+              - uuid: Compendium.degringo5e.races.KL7wx9Q8XNJQir0k
             spell:
               ability: []
               preparation: ''
@@ -752,7 +752,7 @@ items:
           value:
             added:
               '0':
-                vWo0CO4uYJ8XRnRi: Compendium.dnd5e.races.Item.KL7wx9Q8XNJQir0k
+                vWo0CO4uYJ8XRnRi: Compendium.degringo5e.races.Item.KL7wx9Q8XNJQir0k
             replaced: {}
           title: Draconic Ancestry
           hint: >-
@@ -879,9 +879,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.races.Item.K4DNDcR6vngbp0pf
+      compendiumSource: Compendium.degringo5e.races.Item.K4DNDcR6vngbp0pf
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093997920
@@ -1008,8 +1008,8 @@ items:
         level: null
       identifier: breath-weapon-white
     flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.races.Item.KL7wx9Q8XNJQir0k
+      degringo5e:
+        sourceId: Compendium.degringo5e.races.Item.KL7wx9Q8XNJQir0k
         advancementOrigin: eRfgJRQJdRPFSbf5.QIrBmvSmNOTEJLWn
         riders:
           activity: []
@@ -1018,9 +1018,9 @@ items:
     effects: []
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.races.Item.KL7wx9Q8XNJQir0k
+      compendiumSource: Compendium.degringo5e.races.Item.KL7wx9Q8XNJQir0k
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093815097
@@ -1047,46 +1047,46 @@ items:
           Wisdom, Charisma<br /><strong>Skills:</strong> Choose two from
           History, Insight, Medicine, Persuasion, and Religion</p><h1>Cleric
           Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency
-          Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v4gKwLhAq9vuqza7]{Spellcasting}
-          , @UUID[Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB]{Divine
-          Domain}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
+          Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v4gKwLhAq9vuqza7]{Spellcasting}
+          , @UUID[Compendium.degringo5e.classfeatures.Item.x637K2Icp2ZFM1TB]{Divine
+          Domain}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
           Divinity (1/rest)}, Divine Domain
           feature</td></tr><tr><td>3rd</td><td>+2</td><td>2nd Level Spell
-          Slot</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
+          Slot</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
           Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level
           Spell Slot,
-          @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
+          @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
           Undead (CR
-          1/2)}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
+          1/2)}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
           Divinity (2/rest)}, Divine Domain
           feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell
-          Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{ASI},
-          @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
+          Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{ASI},
+          @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
           Undead (CR 1)}, Divine Domain
           feature</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell
-          Slot</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
+          Slot</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
           Intervention}</td></tr><tr><td>11th</td><td>+4</td><td>6th Level Spell
           Slot,
-          @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
+          @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
           Undead (CR
-          2)}</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
+          2)}</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
           Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level
           Spell
-          Slot</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
+          Slot</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
           Undead (CR 3)}</td></tr><tr><td>15th</td><td>+5</td><td>8th Level
           Spell
-          Slot</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
+          Slot</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
           Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9th Level
           Spell Slot,
-          @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
+          @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
           Undead (CR 4)}, Divine Domain
-          feature</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
+          feature</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
           Divinity
-          (3/rest)}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
+          (3/rest)}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
           Score
-          Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
+          Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
           Intervention (Automatic Success)}</td></tr></tbody></table><h1>Divine
-          Domains</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.H3RYLGqCiqm8BP3q]{Life
+          Domains</h1><p>@UUID[Compendium.degringo5e.subclasses.Item.H3RYLGqCiqm8BP3q]{Life
           Domain}</p>
         chat: ''
       source:
@@ -1106,7 +1106,7 @@ items:
           value:
             '1': max
           title: Hit Points
-          icon: systems/dnd5e/icons/svg/hit-points.svg
+          icon: systems/degringo5e/icons/svg/hit-points.svg
           _id: XqASCKr26BUOObF5
         - _id: vLDkTMgod0IS4HJn
           type: Trait
@@ -1179,9 +1179,9 @@ items:
         - type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.v4gKwLhAq9vuqza7
+              - uuid: Compendium.degringo5e.classfeatures.v4gKwLhAq9vuqza7
                 optional: false
-              - uuid: Compendium.dnd5e.classfeatures.x637K2Icp2ZFM1TB
+              - uuid: Compendium.degringo5e.classfeatures.x637K2Icp2ZFM1TB
                 optional: false
             optional: false
             spell:
@@ -1193,17 +1193,17 @@ items:
                 requireSlot: false
           value:
             added:
-              sYPnCIXmh7C72RMi: Compendium.dnd5e.classfeatures.Item.v4gKwLhAq9vuqza7
-              tUGnDwsGjGCMrxKX: Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB
+              sYPnCIXmh7C72RMi: Compendium.degringo5e.classfeatures.Item.v4gKwLhAq9vuqza7
+              tUGnDwsGjGCMrxKX: Compendium.degringo5e.classfeatures.Item.x637K2Icp2ZFM1TB
           level: 1
           title: Features
           _id: axeH6FmdvAfb3TnK
         - type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.YpiLQEKGalROn7iJ
+              - uuid: Compendium.degringo5e.classfeatures.YpiLQEKGalROn7iJ
                 optional: false
-              - uuid: Compendium.dnd5e.classfeatures.r91UIgwFdHwkXdia
+              - uuid: Compendium.degringo5e.classfeatures.r91UIgwFdHwkXdia
                 optional: false
             optional: false
             spell:
@@ -1220,7 +1220,7 @@ items:
         - type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.NMy4piwXIpLjYbRE
+              - uuid: Compendium.degringo5e.classfeatures.NMy4piwXIpLjYbRE
                 optional: false
             optional: false
             spell:
@@ -1237,7 +1237,7 @@ items:
         - type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.eVXqHn0ojWrEuYGU
+              - uuid: Compendium.degringo5e.classfeatures.eVXqHn0ojWrEuYGU
                 optional: false
             optional: false
             spell:
@@ -1407,14 +1407,14 @@ items:
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.Ajyq6nGwF7FtLhDQ
+          key: Compendium.degringo5e.items.Item.Ajyq6nGwF7FtLhDQ
           _id: lomxiG4seGEODc0X
           group: 8YSDVdYvwcM9CZyn
           sort: 600000
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.F0Df164Xv1gWcYt0
+          key: Compendium.degringo5e.items.Item.F0Df164Xv1gWcYt0
           _id: oPqhjxGI22oLSbJU
           group: 8YSDVdYvwcM9CZyn
           sort: 700000
@@ -1426,21 +1426,21 @@ items:
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG
+          key: Compendium.degringo5e.items.Item.XmnlF5fgIO3tg6TG
           _id: pcfTItJqTlcXtDlH
           group: kQ5WDegIiIjZ80F2
           sort: 800000
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5
+          key: Compendium.degringo5e.items.Item.WwdpHLXGX5r8uZu5
           _id: kSPggXc9mzhJoGt8
           group: kQ5WDegIiIjZ80F2
           sort: 900000
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA
+          key: Compendium.degringo5e.items.Item.rLMflzmxpe8JGTOA
           _id: 0pHFdJtUUguvm8Ew
           group: kQ5WDegIiIjZ80F2
           sort: 1000000
@@ -1457,14 +1457,14 @@ items:
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF
+          key: Compendium.degringo5e.items.Item.ddWvQRLmnnIS0eLF
           _id: mzsGhss9eFfp8Vr8
           group: JTXoh1m5OJ6A1Nsn
           sort: 1200000
           requiresProficiency: false
         - type: linked
           count: 20
-          key: Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG
+          key: Compendium.degringo5e.items.Item.SItCnYBqhzqBoaWG
           _id: pTcJ5DdfXPpuzG03
           group: JTXoh1m5OJ6A1Nsn
           sort: 1300000
@@ -1483,14 +1483,14 @@ items:
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.6BybWxK5GcEzqcOV
+          key: Compendium.degringo5e.items.Item.6BybWxK5GcEzqcOV
           _id: pwn69DG4Fa6yosHE
           group: RtqG5F8t7K6hJSlc
           sort: 1500000
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP
+          key: Compendium.degringo5e.items.Item.8KWz5DJbWUpNWniP
           _id: 3bdc9v8f5R9Hy23e
           group: RtqG5F8t7K6hJSlc
           sort: 1600000
@@ -1502,7 +1502,7 @@ items:
           requiresProficiency: false
         - type: linked
           count: null
-          key: Compendium.dnd5e.items.Item.sSs3hSzkKBMNBgTs
+          key: Compendium.degringo5e.items.Item.sSs3hSzkKBMNBgTs
           _id: SUjHLQ6oJoxSW0CE
           group: M69HsHoj2jxdBLBU
           sort: 1700000
@@ -1526,9 +1526,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.classes.Item.tlwBnN8GmqJcTgub
+      compendiumSource: Compendium.degringo5e.classes.Item.tlwBnN8GmqJcTgub
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093997972
@@ -1542,7 +1542,7 @@ items:
     type: feat
     system:
       description:
-        value: "<p>As a conduit for divine power, you can cast cleric spells.</p>\n<h5>Cantrips</h5>\n<p>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</p>\n<h5>Preparing and Casting Spells</h5>\n<p>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>\n<p>For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>\n<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>\n<h5>Spellcasting Ability</h5>\n<p>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC</strong>= 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Spell attack modifier</strong>\_= your proficiency bonus + your Wisdom modifier</p>\n<h5>Ritual Casting</h5>\n<p>You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use a holy symbol (see @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Adventuring Gear}) as a spellcasting focus for your cleric spells.</p>"
+        value: "<p>As a conduit for divine power, you can cast cleric spells.</p>\n<h5>Cantrips</h5>\n<p>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</p>\n<h5>Preparing and Casting Spells</h5>\n<p>The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>\n<p>For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>\n<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>\n<h5>Spellcasting Ability</h5>\n<p>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC</strong>= 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Spell attack modifier</strong>\_= your proficiency bonus + your Wisdom modifier</p>\n<h5>Ritual Casting</h5>\n<p>You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use a holy symbol (see @UUID[Compendium.degringo5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Adventuring Gear}) as a spellcasting focus for your cleric spells.</p>"
         chat: ''
       source:
         custom: ''
@@ -1566,8 +1566,8 @@ items:
         level: null
       identifier: spellcasting
     flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.classfeatures.Item.v4gKwLhAq9vuqza7
+      degringo5e:
+        sourceId: Compendium.degringo5e.classfeatures.Item.v4gKwLhAq9vuqza7
         advancementOrigin: PZNSd7pd1tmTdLmw.axeH6FmdvAfb3TnK
         riders:
           activity: []
@@ -1578,9 +1578,9 @@ items:
     sort: 0
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.classfeatures.Item.gbNo5eVPaqr8IVKL
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.gbNo5eVPaqr8IVKL
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093815145
@@ -1634,8 +1634,8 @@ items:
       identifier: divine-domain
     sort: 0
     flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB
+      degringo5e:
+        sourceId: Compendium.degringo5e.classfeatures.Item.x637K2Icp2ZFM1TB
         advancementOrigin: PZNSd7pd1tmTdLmw.axeH6FmdvAfb3TnK
         riders:
           activity: []
@@ -1645,9 +1645,9 @@ items:
     folder: hraxTGrJtk9MmXqT
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.x637K2Icp2ZFM1TB
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093815195
@@ -1672,19 +1672,19 @@ items:
           Diancecht), and gods of home and community (such as Hestia, Hathor,
           and Boldrei).</p><table><caption>Life Domain
           Spells</caption><thead><tr><td>Cleric
-          Level</td><td>Spells</td></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Bless},
-          @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure
-          Wounds}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser
+          Level</td><td>Spells</td></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr]{Bless},
+          @UUID[Compendium.degringo5e.spells.Item.uUWb1wZgtMou0TVP]{Cure
+          Wounds}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.degringo5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser
           Restoration},
-          @UUID[Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0]{Spiritual
-          Weapon}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Beacon
+          @UUID[Compendium.degringo5e.spells.Item.JbxsYXxSOTZbf9I0]{Spiritual
+          Weapon}</td></tr><tr><td>5th</td><td>@UUID[Compendium.degringo5e.spells.Item.ZU9d6woBdUP8pIPt]{Beacon
           of Hope},
-          @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Death
-          Ward}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Guardian
+          @UUID[Compendium.degringo5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}</td></tr><tr><td>7th</td><td>@UUID[Compendium.degringo5e.spells.Item.VtCXMdyM6mAdIJZb]{Death
+          Ward}, @UUID[Compendium.degringo5e.spells.Item.TgHsuhNasPbhu8MO]{Guardian
           of
-          Faith}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{Mass
+          Faith}</td></tr><tr><td>9th</td><td>@UUID[Compendium.degringo5e.spells.Item.Pyzmm8R7rVsNAPsd]{Mass
           Cure Wounds},
-          @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Raise
+          @UUID[Compendium.degringo5e.spells.Item.AGFMPAmuzwWO6Dfz]{Raise
           Dead}</td></tr></tbody></table>
         chat: ''
       source:
@@ -1714,9 +1714,9 @@ items:
           type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.68bYIOvx6rIqnlOW
+              - uuid: Compendium.degringo5e.classfeatures.68bYIOvx6rIqnlOW
                 optional: false
-              - uuid: Compendium.dnd5e.classfeatures.jF8AFfEMICIJnAkR
+              - uuid: Compendium.degringo5e.classfeatures.jF8AFfEMICIJnAkR
                 optional: false
             optional: false
             spell:
@@ -1728,15 +1728,15 @@ items:
                 requireSlot: false
           value:
             added:
-              BVZ0RopCWd4K0oQy: Compendium.dnd5e.classfeatures.Item.68bYIOvx6rIqnlOW
-              a9hkL9uYDaDoEx3U: Compendium.dnd5e.classfeatures.Item.jF8AFfEMICIJnAkR
+              BVZ0RopCWd4K0oQy: Compendium.degringo5e.classfeatures.Item.68bYIOvx6rIqnlOW
+              a9hkL9uYDaDoEx3U: Compendium.degringo5e.classfeatures.Item.jF8AFfEMICIJnAkR
           level: 1
           title: Features
         - _id: 4qh4ejxpwugva6ma
           type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.hEymt45rICi4f9eL
+              - uuid: Compendium.degringo5e.classfeatures.hEymt45rICi4f9eL
                 optional: false
             optional: false
             spell:
@@ -1753,7 +1753,7 @@ items:
           type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.yv49QN6Bzqs0ecCs
+              - uuid: Compendium.degringo5e.classfeatures.yv49QN6Bzqs0ecCs
                 optional: false
             optional: false
             spell:
@@ -1770,7 +1770,7 @@ items:
           type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.T6u5z8ZTX6UftXqE
+              - uuid: Compendium.degringo5e.classfeatures.T6u5z8ZTX6UftXqE
                 optional: false
             optional: false
             spell:
@@ -1787,7 +1787,7 @@ items:
           type: ItemGrant
           configuration:
             items:
-              - uuid: Compendium.dnd5e.classfeatures.4UOgxzr83vFuUash
+              - uuid: Compendium.degringo5e.classfeatures.4UOgxzr83vFuUash
                 optional: false
             optional: false
             spell:
@@ -1831,9 +1831,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.subclasses.Item.H3RYLGqCiqm8BP3q
+      compendiumSource: Compendium.degringo5e.subclasses.Item.H3RYLGqCiqm8BP3q
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738094105363
@@ -1873,8 +1873,8 @@ items:
         level: null
       identifier: bonus-proficiency
     flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.classfeatures.Item.68bYIOvx6rIqnlOW
+      degringo5e:
+        sourceId: Compendium.degringo5e.classfeatures.Item.68bYIOvx6rIqnlOW
         advancementOrigin: AD9TpaN6zrfvZUwa.9fyr5t01nhdg0u8n
         riders:
           activity: []
@@ -1885,9 +1885,9 @@ items:
     sort: 0
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.classfeatures.Item.68bYIOvx6rIqnlOW
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.68bYIOvx6rIqnlOW
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093815247
@@ -1929,8 +1929,8 @@ items:
         level: null
       identifier: disciple-of-life
     flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.classfeatures.Item.jF8AFfEMICIJnAkR
+      degringo5e:
+        sourceId: Compendium.degringo5e.classfeatures.Item.jF8AFfEMICIJnAkR
         advancementOrigin: AD9TpaN6zrfvZUwa.9fyr5t01nhdg0u8n
         riders:
           activity: []
@@ -1941,9 +1941,9 @@ items:
     sort: 0
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.classfeatures.Item.jF8AFfEMICIJnAkR
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.jF8AFfEMICIJnAkR
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: 1738093815296
@@ -1992,9 +1992,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.1FSubnBpSTDmVaYV
+      compendiumSource: Compendium.degringo5e.items.Item.1FSubnBpSTDmVaYV
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2122,9 +2122,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.1L5wkmbw0fmNAr38
+      compendiumSource: Compendium.degringo5e.items.Item.1L5wkmbw0fmNAr38
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2278,9 +2278,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.29ZLE8PERtFVD3QU
+      compendiumSource: Compendium.degringo5e.items.Item.29ZLE8PERtFVD3QU
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2332,9 +2332,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.3b0RvGi0TnTYpIxn
+      compendiumSource: Compendium.degringo5e.items.Item.3b0RvGi0TnTYpIxn
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2390,9 +2390,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.4MtQKPn9qMWCFjDA
+      compendiumSource: Compendium.degringo5e.items.Item.4MtQKPn9qMWCFjDA
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2515,9 +2515,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB
+      compendiumSource: Compendium.degringo5e.items.Item.8RXjiddJ6VGyE7vB
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2642,9 +2642,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.8d95YV1jHcxPygJ9
+      compendiumSource: Compendium.degringo5e.items.Item.8d95YV1jHcxPygJ9
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2706,9 +2706,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf
+      compendiumSource: Compendium.degringo5e.items.Item.9bWTRRDym06PzSAf
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2755,9 +2755,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.DVXmyetZuvxbzAwW
+      compendiumSource: Compendium.degringo5e.items.Item.DVXmyetZuvxbzAwW
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2816,9 +2816,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.H8YCd689ezlD26aT
+      compendiumSource: Compendium.degringo5e.items.Item.H8YCd689ezlD26aT
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -2944,15 +2944,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.QXmaarJ4X8P0C1HV
+      compendiumSource: Compendium.degringo5e.items.Item.QXmaarJ4X8P0C1HV
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3025,9 +3025,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG
+      compendiumSource: Compendium.degringo5e.items.Item.SItCnYBqhzqBoaWG
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3077,9 +3077,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.V13fjV5oSmvbRdgP
+      compendiumSource: Compendium.degringo5e.items.Item.V13fjV5oSmvbRdgP
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3154,9 +3154,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG
+      compendiumSource: Compendium.degringo5e.items.Item.XmnlF5fgIO3tg6TG
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3324,9 +3324,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF
+      compendiumSource: Compendium.degringo5e.items.Item.ddWvQRLmnnIS0eLF
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3451,9 +3451,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp
+      compendiumSource: Compendium.degringo5e.items.Item.irtqrzaUCeshmTZp
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3502,9 +3502,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.odV5cq2HSLSCH69k
+      compendiumSource: Compendium.degringo5e.items.Item.odV5cq2HSLSCH69k
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3578,9 +3578,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.sSs3hSzkKBMNBgTs
+      compendiumSource: Compendium.degringo5e.items.Item.sSs3hSzkKBMNBgTs
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3694,9 +3694,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.2skfDtglk1mGrb3l
+      compendiumSource: Compendium.degringo5e.spells.Item.2skfDtglk1mGrb3l
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3832,9 +3832,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z
+      compendiumSource: Compendium.degringo5e.spells.Item.7buEm5KhI5lP8m1z
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -3992,7 +3992,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.1.0
           createdTime: null
           modifiedTime: null
@@ -4010,9 +4010,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr
+      compendiumSource: Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4178,7 +4178,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.1.0
           createdTime: null
           modifiedTime: null
@@ -4193,9 +4193,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf
+      compendiumSource: Compendium.degringo5e.spells.Item.95K2aUhAGV9qXjnf
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4306,9 +4306,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.Kn7K5PtYUJAKZTTp
+      compendiumSource: Compendium.degringo5e.spells.Item.Kn7K5PtYUJAKZTTp
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4437,9 +4437,9 @@ items:
     folder: Z8kZlnggh1PtuF3Y
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR
+      compendiumSource: Compendium.degringo5e.spells.Item.MUO1uYN7JR1hm4dR
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4553,9 +4553,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8
+      compendiumSource: Compendium.degringo5e.spells.Item.Mzh95utKDPIrjiH8
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4666,9 +4666,9 @@ items:
     folder: Z8kZlnggh1PtuF3Y
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY
+      compendiumSource: Compendium.degringo5e.spells.Item.P7mF2MxSuVJwHRRY
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4778,9 +4778,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5
+      compendiumSource: Compendium.degringo5e.spells.Item.a3XtAO5n2GrqiAh5
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -4890,9 +4890,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43
+      compendiumSource: Compendium.degringo5e.spells.Item.arzCrMRgcNiQuh43
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5007,9 +5007,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8
+      compendiumSource: Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5129,9 +5129,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl
+      compendiumSource: Compendium.degringo5e.spells.Item.gvdA9nPuWLck4tBl
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5241,7 +5241,7 @@ items:
     img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
     effects:
       - name: Shield of Faith
-        origin: Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo
+        origin: Compendium.degringo5e.spells.Item.jZ6JNykRtdQ90MOo
         duration:
           startTime: null
           seconds: 600
@@ -5266,7 +5266,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.1.0
           createdTime: null
           modifiedTime: null
@@ -5281,9 +5281,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo
+      compendiumSource: Compendium.degringo5e.spells.Item.jZ6JNykRtdQ90MOo
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5415,9 +5415,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.ksaaTxIbKx2sJfia
+      compendiumSource: Compendium.degringo5e.spells.Item.ksaaTxIbKx2sJfia
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5545,9 +5545,9 @@ items:
     folder: Z8kZlnggh1PtuF3Y
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.n9pJzTDsAwQxJVRl
+      compendiumSource: Compendium.degringo5e.spells.Item.n9pJzTDsAwQxJVRl
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5671,9 +5671,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.o8Dh7fblk1d16tnO
+      compendiumSource: Compendium.degringo5e.spells.Item.o8Dh7fblk1d16tnO
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5792,9 +5792,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP
+      compendiumSource: Compendium.degringo5e.spells.Item.uUWb1wZgtMou0TVP
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -5910,9 +5910,9 @@ items:
     folder: ERuXllkhTQF51rDJ
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2
+      compendiumSource: Compendium.degringo5e.spells.Item.xmDBqZhRVrtLP8h2
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -6077,9 +6077,9 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      compendiumSource: Compendium.dnd5e.items.Item.Ajyq6nGwF7FtLhDQ
+      compendiumSource: Compendium.degringo5e.items.Item.Ajyq6nGwF7FtLhDQ
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -6092,12 +6092,12 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725036842807
   modifiedTime: 1738093116093

@@ -12,7 +12,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.SAVE"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.SAVE"];
 
   /* -------------------------------------------- */
 
@@ -20,8 +20,8 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "save",
-      img: "systems/dnd5e/icons/svg/activity/save.svg",
-      title: "DND5E.SAVE.Title.one",
+      img: "systems/degringo5e/icons/svg/activity/save.svg",
+      title: "DEGRINGO5E.SAVE.Title.one",
       sheetClass: SaveSheet,
       usage: {
         actions: {
@@ -42,11 +42,11 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
     const dc = this.save.dc.value;
 
     for ( const abilityId of this.save.ability ) {
-      const ability = CONFIG.DND5E.abilities[abilityId]?.label ?? "";
+      const ability = CONFIG.DEGRINGO5E.abilities[abilityId]?.label ?? "";
       buttons.push({
         label: `
-          <span class="visible-dc">${game.i18n.format("DND5E.SavingThrowDC", { dc, ability })}</span>
-          <span class="hidden-dc">${game.i18n.format("DND5E.SavePromptTitle", { ability })}</span>
+          <span class="visible-dc">${game.i18n.format("DEGRINGO5E.SavingThrowDC", { dc, ability })}</span>
+          <span class="hidden-dc">${game.i18n.format("DEGRINGO5E.SavePromptTitle", { ability })}</span>
         `,
         icon: '<i class="fa-solid fa-shield-heart" inert></i>',
         dataset: {
@@ -59,7 +59,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
     }
 
     if ( this.damage.parts.length ) buttons.push({
-      label: game.i18n.localize("DND5E.Damage"),
+      label: game.i18n.localize("DEGRINGO5E.Damage"),
       icon: '<i class="fas fa-burst" inert></i>',
       dataset: {
         action: "rollDamage"
@@ -75,7 +75,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   /** @inheritDoc */
   async rollDamage(config={}, dialog={}, message={}) {
     message = foundry.utils.mergeObject({
-      "data.flags.dnd5e.roll": {
+      "data.flags.degringo5e.roll": {
         damageOnSave: this.damage.onSave
       }
     }, message);
@@ -109,7 +109,7 @@ export default class SaveActivity extends ActivityMixin(SaveActivityData) {
   static async #rollSave(event, target, message) {
     const targets = getSceneTargets();
     if ( !targets.length && game.user.character ) targets.push(game.user.character);
-    if ( !targets.length ) ui.notifications.warn("DND5E.ActionWarningNoToken", { localize: true });
+    if ( !targets.length ) ui.notifications.warn("DEGRINGO5E.ActionWarningNoToken", { localize: true });
     const dc = parseInt(target.dataset.dc);
     for ( const token of targets ) {
       const actor = token instanceof Actor ? token : token.actor;

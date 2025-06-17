@@ -16,7 +16,7 @@ const { ArrayField, BooleanField, NumberField, SchemaField, StringField } = foun
 /**
  * System data definition for Vehicles.
  *
- * @property {string} vehicleType                      Type of vehicle as defined in `DND5E.vehicleTypes`.
+ * @property {string} vehicleType                      Type of vehicle as defined in `DEGRINGO5E.vehicleTypes`.
  * @property {object} attributes
  * @property {ArmorClassData} attributes.ac
  * @property {string} attributes.ac.motionless         Changes to vehicle AC when not moving.
@@ -52,7 +52,7 @@ export default class VehicleData extends CommonTemplate {
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
@@ -64,71 +64,71 @@ export default class VehicleData extends CommonTemplate {
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      vehicleType: new StringField({ required: true, initial: "water", label: "DND5E.VehicleType" }),
+      vehicleType: new StringField({ required: true, initial: "water", label: "DEGRINGO5E.VehicleType" }),
       attributes: new SchemaField({
         ...AttributesFields.common,
         ac: new SchemaField({
           ...AttributesFields.armorClass,
-          motionless: new StringField({ required: true, label: "DND5E.ArmorClassMotionless" })
-        }, { label: "DND5E.ArmorClass" }),
+          motionless: new StringField({ required: true, label: "DEGRINGO5E.ArmorClassMotionless" })
+        }, { label: "DEGRINGO5E.ArmorClass" }),
         hp: new SchemaField({
           value: new NumberField({
-            nullable: true, integer: true, min: 0, initial: null, label: "DND5E.HitPointsCurrent"
+            nullable: true, integer: true, min: 0, initial: null, label: "DEGRINGO5E.HitPointsCurrent"
           }),
           max: new NumberField({
-            nullable: true, integer: true, min: 0, initial: null, label: "DND5E.HitPointsMax"
+            nullable: true, integer: true, min: 0, initial: null, label: "DEGRINGO5E.HitPointsMax"
           }),
-          temp: new NumberField({ integer: true, initial: 0, min: 0, label: "DND5E.HitPointsTemp" }),
+          temp: new NumberField({ integer: true, initial: 0, min: 0, label: "DEGRINGO5E.HitPointsTemp" }),
           tempmax: new NumberField({
-            integer: true, initial: 0, label: "DND5E.HitPointsTempMax", hint: "DND5E.HitPointsTempMaxHint"
+            integer: true, initial: 0, label: "DEGRINGO5E.HitPointsTempMax", hint: "DEGRINGO5E.HitPointsTempMaxHint"
           }),
           dt: new NumberField({
-            required: true, integer: true, min: 0, label: "DND5E.DamageThreshold"
+            required: true, integer: true, min: 0, label: "DEGRINGO5E.DamageThreshold"
           }),
           mt: new NumberField({
-            required: true, integer: true, min: 0, label: "DND5E.VehicleMishapThreshold"
+            required: true, integer: true, min: 0, label: "DEGRINGO5E.VehicleMishapThreshold"
           })
-        }, {label: "DND5E.HitPoints"}),
+        }, {label: "DEGRINGO5E.HitPoints"}),
         actions: new SchemaField({
-          stations: new BooleanField({ required: true, label: "DND5E.VehicleActionStations" }),
+          stations: new BooleanField({ required: true, label: "DEGRINGO5E.VehicleActionStations" }),
           value: new NumberField({
-            required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DND5E.VehicleActionMax"
+            required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DEGRINGO5E.VehicleActionMax"
           }),
           thresholds: new SchemaField({
             2: new NumberField({
-              required: true, integer: true, min: 0, label: "DND5E.VehicleActionThresholdsFull"
+              required: true, integer: true, min: 0, label: "DEGRINGO5E.VehicleActionThresholdsFull"
             }),
             1: new NumberField({
-              required: true, integer: true, min: 0, label: "DND5E.VehicleActionThresholdsMid"
+              required: true, integer: true, min: 0, label: "DEGRINGO5E.VehicleActionThresholdsMid"
             }),
             0: new NumberField({
-              required: true, integer: true, min: 0, label: "DND5E.VehicleActionThresholdsMin"
+              required: true, integer: true, min: 0, label: "DEGRINGO5E.VehicleActionThresholdsMin"
             })
-          }, {label: "DND5E.VehicleActionThresholds"})
-        }, {label: "DND5E.VehicleActions"}),
+          }, {label: "DEGRINGO5E.VehicleActionThresholds"})
+        }, {label: "DEGRINGO5E.VehicleActions"}),
         capacity: new SchemaField({
-          creature: new StringField({ required: true, label: "DND5E.VehicleCreatureCapacity" }),
+          creature: new StringField({ required: true, label: "DEGRINGO5E.VehicleCreatureCapacity" }),
           cargo: new NumberField({
-            required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DND5E.VehicleCargoCapacity"
+            required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DEGRINGO5E.VehicleCargoCapacity"
           })
-        }, { label: "DND5E.VehicleCargoCrew" })
-      }, { label: "DND5E.Attributes" }),
-      details: new SchemaField(DetailsFields.common, { label: "DND5E.Details" }),
+        }, { label: "DEGRINGO5E.VehicleCargoCrew" })
+      }, { label: "DEGRINGO5E.Attributes" }),
+      details: new SchemaField(DetailsFields.common, { label: "DEGRINGO5E.Details" }),
       source: new SourceField(),
       traits: new SchemaField({
         ...TraitsFields.common,
-        size: new StringField({ required: true, initial: "lg", label: "DND5E.Size" }),
-        di: new DamageTraitField({}, { label: "DND5E.DamImm", initialValue: ["poison", "psychic"] }),
-        ci: new SimpleTraitField({}, { label: "DND5E.ConImm", initialValue: [
+        size: new StringField({ required: true, initial: "lg", label: "DEGRINGO5E.Size" }),
+        di: new DamageTraitField({}, { label: "DEGRINGO5E.DamImm", initialValue: ["poison", "psychic"] }),
+        ci: new SimpleTraitField({}, { label: "DEGRINGO5E.ConImm", initialValue: [
           "blinded", "charmed", "deafened", "frightened", "paralyzed",
           "petrified", "poisoned", "stunned", "unconscious"
         ] }),
-        dimensions: new StringField({ required: true, label: "DND5E.Dimensions" })
-      }, { label: "DND5E.Traits" }),
+        dimensions: new StringField({ required: true, label: "DEGRINGO5E.Dimensions" })
+      }, { label: "DEGRINGO5E.Traits" }),
       cargo: new SchemaField({
-        crew: new ArrayField(makePassengerData(), { label: "DND5E.VehicleCrew" }),
-        passengers: new ArrayField(makePassengerData(), { label: "DND5E.VehiclePassengers" })
-      }, { label: "DND5E.VehicleCrewPassengers" })
+        crew: new ArrayField(makePassengerData(), { label: "DEGRINGO5E.VehicleCrew" }),
+        passengers: new ArrayField(makePassengerData(), { label: "DEGRINGO5E.VehiclePassengers" })
+      }, { label: "DEGRINGO5E.VehicleCrewPassengers" })
     });
   }
 
@@ -178,7 +178,7 @@ export default class VehicleData extends CommonTemplate {
     this.prepareAbilities({ rollData, originalSaves });
     AttributesFields.prepareArmorClass.call(this, rollData);
     AttributesFields.prepareEncumbrance.call(this, rollData, { validateItem: item =>
-      (item.flags.dnd5e?.vehicleCargo === true) || !["weapon", "equipment"].includes(item.type)
+      (item.flags.degringo5e?.vehicleCargo === true) || !["weapon", "equipment"].includes(item.type)
     });
     AttributesFields.prepareHitPoints.call(this, this.attributes.hp);
     AttributesFields.prepareInitiative.call(this, rollData);
@@ -205,9 +205,9 @@ export default class VehicleData extends CommonTemplate {
  */
 function makePassengerData(schemaOptions={}) {
   return new SchemaField({
-    name: new StringField({required: true, label: "DND5E.VehiclePassengerName"}),
+    name: new StringField({required: true, label: "DEGRINGO5E.VehiclePassengerName"}),
     quantity: new NumberField({
-      required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DND5E.VehiclePassengerQuantity"
+      required: true, nullable: false, integer: true, initial: 0, min: 0, label: "DEGRINGO5E.VehiclePassengerQuantity"
     })
   }, schemaOptions);
 }

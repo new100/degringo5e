@@ -2,7 +2,7 @@ _id: phbdrdDruid00000
 name: Druid
 type: class
 folder: 5WSAEI5S847BwZ8e
-img: systems/dnd5e/icons/classes/druid.webp
+img: systems/degringo5e/icons/classes/druid.webp
 system:
   description:
     value: >-
@@ -22,15 +22,15 @@ system:
       scope="row"><p><strong>Armor Training</strong></p></th><td><p>Light armor
       and Shields</p></td></tr><tr><th scope="row"><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Sickle},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus}
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's
-      Pack}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulHerbalismK]{Herbalism
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSickle0000]{Sickle},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus}
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's
+      Pack}, @UUID[Compendium.degringo5e.equipment24.Item.phbtulHerbalismK]{Herbalism
       Kit}, and [[/award 9GP]]; or (B) [[/award
-      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
+      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
       inline classes="free-rules-embed"]</p><h2>Becoming a Druid …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Druid Traits
       table.</li><li>Gain the Druid's level 1 features, which are listed in the
@@ -55,21 +55,21 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      key: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
       requiresProficiency: false
       _id: rkPZmPWx6nzImWwC
       group: SE7gQkJVBVBLku2Z
       sort: 200000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      key: Compendium.degringo5e.equipment24.Item.phbarmShield0000
       requiresProficiency: false
       _id: 9zoKn2Wfan8s4Zrw
       group: SE7gQkJVBVBLku2Z
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepSickle0000
       requiresProficiency: false
       _id: CVZKjmb4PIYJViPx
       group: SE7gQkJVBVBLku2Z
@@ -81,21 +81,21 @@ system:
       sort: 500000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa
+      key: Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa
       requiresProficiency: false
       _id: QSpEE9Vk7jat3iJF
       group: LSQ0jJVeVhuSyjFF
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagExplorersPa
+      key: Compendium.degringo5e.equipment24.Item.phbagExplorersPa
       requiresProficiency: false
       _id: anr8GUJzm5gPRqAR
       group: SE7gQkJVBVBLku2Z
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
+      key: Compendium.degringo5e.equipment24.Item.phbtulHerbalismK
       requiresProficiency: false
       _id: f6RriL1CTIForH9O
       group: SE7gQkJVBVBLku2Z
@@ -111,11 +111,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdSpellcasti
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdDruidic000
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdPrimalOrde
             optional: false
         optional: false
         spell:
@@ -133,9 +133,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdWildCompan
             optional: false
         optional: false
         spell: null
@@ -146,7 +146,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildResurg
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdWildResurg
             optional: false
         optional: false
         spell: null
@@ -157,7 +157,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdElementalF
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdElementalF
             optional: false
         optional: false
         spell: null
@@ -168,7 +168,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdImprovedEl
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdImprovedEl
             optional: false
         optional: false
         spell: null
@@ -180,7 +180,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbdrdBeastSpell
+            uuid: Compendium.degringo5e.classes24.Item.phbdrdBeastSpell
         optional: false
         spell: null
       value: {}
@@ -190,7 +190,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -201,7 +201,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdArchdruid0
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdArchdruid0
             optional: false
         optional: false
         spell: null
@@ -394,7 +394,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+            uuid: Compendium.degringo5e.spells24.Item.phbsplSpeakwithA
         optional: false
         spell:
           ability: []
@@ -417,8 +417,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
-          - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
+          - uuid: Compendium.degringo5e.classes24.Item.phbPrimalOrderMa
+          - uuid: Compendium.degringo5e.classes24.Item.phbPrimalOrderWa
         spell: null
         restriction:
           type: class
@@ -440,8 +440,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbFuryPotentSpe
-          - uuid: Compendium.dnd5e.classes24.Item.phbFuryPrimalStr
+          - uuid: Compendium.degringo5e.classes24.Item.phbFuryPotentSpe
+          - uuid: Compendium.degringo5e.classes24.Item.phbFuryPrimalStr
         spell: null
         restriction:
           type: class
@@ -462,18 +462,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
         spell: null
         restriction:
           type: feat
@@ -622,7 +622,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1745517448540

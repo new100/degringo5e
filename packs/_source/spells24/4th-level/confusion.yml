@@ -6,7 +6,7 @@ system:
       within range must succeed on a Wisdom saving throw, or that target can't
       take Bonus Actions or Reactions and must roll 1d10 at the start of each of
       its turns to determine its behavior for that turn, consulting the table
-      below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB
+      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
       rollable cite=false classes="caption-top"]{Behavior for the Turn}</p><p>At
       the end of each of its turns, an affected target repeats the save, ending
       the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell
@@ -108,7 +108,7 @@ type: spell
 img: icons/magic/symbols/question-stone-yellow.webp
 effects:
   - name: Confused
-    origin: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+    origin: Compendium.degringo5e.spells24.Item.phbsplConfusion0
     duration:
       rounds: null
       startTime: null
@@ -128,7 +128,7 @@ effects:
       <p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at
       the start of each of its turns to determine its behavior for that turn,
       consulting the table
-      below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB
+      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
       rollable cite=false classes="caption-top"]{Behavior for the Turn}</p><p>At
       the end of each of its turns, an affected target repeats the [[/save
       ability=wis]] save, ending the spell on itself on a success.</p>
@@ -140,7 +140,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -152,14 +152,14 @@ sort: 3200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425946258
   modifiedTime: 1745256788584

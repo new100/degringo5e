@@ -6,7 +6,7 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Improve food's flavor (DC 10),
       or detect spoiled or poisoned food (DC 15)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRations0000]{Rations}</p>
     chat: ''
   source:
     custom: ''
@@ -165,14 +165,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425916697
   modifiedTime: 1745256814074

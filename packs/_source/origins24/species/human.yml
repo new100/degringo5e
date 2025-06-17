@@ -2,7 +2,7 @@ name: Human
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="human-traits">Human
       Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size:
       </strong>Medium (about 4–7 feet tall) or Small (about 2–4 feet tall),
@@ -37,11 +37,11 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptResourcefu
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptResourcefu
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptSkillful00
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptSkillful00
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptVersatile0
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptVersatile0
             optional: false
         optional: false
         spell: null
@@ -74,10 +74,10 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbftAlert000000
-          - uuid: Compendium.dnd5e.feats24.Item.phbftMagicInitia
-          - uuid: Compendium.dnd5e.feats24.Item.phbftSavageAttac
-          - uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+          - uuid: Compendium.degringo5e.feats24.Item.phbftAlert000000
+          - uuid: Compendium.degringo5e.feats24.Item.phbftMagicInitia
+          - uuid: Compendium.degringo5e.feats24.Item.phbftSavageAttac
+          - uuid: Compendium.degringo5e.feats24.Item.phbftSkilled0000
         spell: null
         restriction:
           type: feat
@@ -119,7 +119,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.3
   createdTime: 1735866697989
   modifiedTime: 1747071019574

@@ -2,7 +2,7 @@ _id: phbscrDraconicSo
 name: Draconic Sorcery
 type: subclass
 folder: 45fGQlR9VJAIreZA
-img: systems/dnd5e/icons/classes/draconic.webp
+img: systems/degringo5e/icons/classes/draconic.webp
 system:
   description:
     value: >-
@@ -26,9 +26,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrDraconicRe
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrDraconicRe
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrDraconicSp
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrDraconicSp
             optional: false
         optional: false
         spell: null
@@ -39,7 +39,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrElementalA
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrElementalA
             optional: false
         optional: false
         spell: null
@@ -50,7 +50,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrDragonWing
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrDragonWing
             optional: false
         optional: false
         spell: null
@@ -61,7 +61,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrDragonComp
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrDragonComp
             optional: false
         optional: false
         spell: null
@@ -73,13 +73,13 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+            uuid: Compendium.degringo5e.spells24.Item.phbsplAlterSelf0
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+            uuid: Compendium.degringo5e.spells24.Item.phbsplChromaticO
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCommand000
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDragonsBre
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDragonsBre
         optional: false
         spell:
           ability: []
@@ -99,9 +99,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFear000000
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFly0000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFly0000000
         optional: false
         spell:
           ability: []
@@ -121,9 +121,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
+            uuid: Compendium.degringo5e.spells24.Item.phbsplArcaneEye0
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCharmMonst
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCharmMonst
         optional: false
         spell:
           ability: []
@@ -143,9 +143,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplLegendLore
+            uuid: Compendium.degringo5e.spells24.Item.phbsplLegendLore
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplSummonDrag
+            uuid: Compendium.degringo5e.spells24.Item.phbsplSummonDrag
         optional: false
         spell:
           ability: []
@@ -194,7 +194,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866556244
   modifiedTime: 1745256765354

@@ -7,17 +7,17 @@ system:
       The Ammunition table lists the different types and the amount you get when
       you buy them. The table also lists the item that is typically used to
       store each type; storage must be bought
-      separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</td><td>1
+      separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.degringo5e.equipment24.Item.phbagQuiver00000]{Quiver}</td><td>1
       lb.</td><td>1
-      GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</td><td>1½
+      GP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.degringo5e.equipment24.Item.phbagCaseCrossbo]{Case}</td><td>1½
       lb.</td><td>1
-      GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets,
-      Firearm}</td><td>10</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>2
+      GP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbamoBulletsFir]{Bullets,
+      Firearm}</td><td>10</td><td>@UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>2
       lb.</td><td>3
-      GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Bullets,
-      Sling}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1½
+      GP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbamoBulletsSli]{Bullets,
+      Sling}</td><td>20</td><td>@UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1½
       lb.</td><td>4
-      CP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1
+      CP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1
       lb.</td><td>1 GP</td></tr></tbody></table>
     chat: ''
   price:
@@ -54,7 +54,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425904976
   modifiedTime: 1745256810752

@@ -7,24 +7,24 @@ system:
   description:
     value: >-
       <p>Drawing from your innate magic, you can cast spells. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
       on spellcasting}. The information below details how you use those rules
       with Sorcerer spells, which appear in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga]{Sorcerer
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga]{Sorcerer
       spell list} later in the class's
       description.</p><p><strong>Cantrips.</strong> You know four Sorcerer
       cantrips of your choice.
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp},
-      and @UUID[Compendium.dnd5e.spells24.Item.phbsplSorcerousB]{Sorcerous
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplShockingGr]{Shocking Grasp},
+      and @UUID[Compendium.degringo5e.spells24.Item.phbsplSorcerousB]{Sorcerous
       Burst} are recommended. Whenever you gain a Sorcerer level, you can
       replace one of your cantrips from this feature with another Sorcerer
       cantrip of your choice.</p><p>When you reach Sorcerer levels 4 and 10, you
       learn another Sorcerer cantrip of your choice, as shown in the Cantrips
       column of the Sorcerer Features table.</p><p><strong>Spell Slots.</strong>
       The
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
       Features table} shows how many spell slots you have to cast your level 1+
       spells. You regain all expended slots when you finish a Long
       Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the
@@ -71,14 +71,14 @@ system:
   identifier: spellcasting
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745256765675

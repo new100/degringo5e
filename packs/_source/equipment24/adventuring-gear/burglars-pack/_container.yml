@@ -3,18 +3,18 @@ system:
   description:
     value: >-
       <p>A Burglar's Pack contains the following items:
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}, 10
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candles},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar},
-      @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBackpack000]{Backpack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBallBearing]{Ball Bearings},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBell0000000]{Bell}, 10
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCandle00000]{Candles},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCrowbar0000]{Crowbar},
+      @UUID[Compendium.degringo5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagOil00000000]{flasks of Oil},
       5 days of
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRations0000]{Rations},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRope0000000]{Rope},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>
     chat: ''
   price:
     value: 16
@@ -59,7 +59,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425906992
   modifiedTime: 1745256811259

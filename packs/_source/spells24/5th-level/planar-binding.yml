@@ -6,7 +6,7 @@ system:
       your service. The creature must be within range for the entire casting of
       the spell. (Typically, the creature is first summoned into the center of
       the inverted version of the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicCircl]{Magic
       Circle}</em> spell to trap it while this spell is cast.) At the completion
       of the casting, the target must succeed on a Charisma saving throw or be
       bound to serve you for the duration. If the creature was summoned or
@@ -116,7 +116,7 @@ type: spell
 img: icons/magic/control/debuff-chains-shackles-movement-blue.webp
 effects:
   - name: Bound to Service
-    origin: Compendium.dnd5e.spells24.Item.phbsplPlanarBind
+    origin: Compendium.degringo5e.spells24.Item.phbsplPlanarBind
     duration:
       rounds: null
       startTime: null
@@ -144,7 +144,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -156,14 +156,14 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425966021
   modifiedTime: 1745256796822

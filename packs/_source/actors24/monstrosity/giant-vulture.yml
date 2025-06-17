@@ -591,7 +591,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPackTactics000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719589
@@ -735,7 +735,7 @@ items:
     img: icons/commodities/bones/beak-orange-green.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGouge000000000
         _id: Bu9GvjGYEnGjbq3U
         type: base
@@ -763,7 +763,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -772,7 +772,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantVulture00.mmGouge000000000.Bu9GvjGYEnGjbq3U
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -780,7 +780,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGouge000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719589
@@ -796,7 +796,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712719613

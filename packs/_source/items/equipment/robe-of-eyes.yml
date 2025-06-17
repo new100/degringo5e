@@ -26,9 +26,9 @@ system:
       or avert your own eyes, you are never considered to be doing so while
       wearing this robe.</p>
 
-      <p>A @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{Light} spell
+      <p>A @UUID[Compendium.degringo5e.spells.Item.Bnn9Nzajixvow9xi]{Light} spell
       cast on the robe or a
-      @UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Daylight} spell cast
+      @UUID[Compendium.degringo5e.spells.Item.BP3GCwa66IAw1yTG]{Daylight} spell cast
       within 5 feet of the robe causes you to be blinded for 1 minute. At the
       end of each of your turns, you can make a Constitution saving throw (DC 11
       for light or DC 15 for daylight), ending the blindness on a success.</p>
@@ -208,14 +208,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037196157
   modifiedTime: 1731019239452

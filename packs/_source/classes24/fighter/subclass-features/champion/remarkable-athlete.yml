@@ -41,7 +41,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.dnd5e.remarkableAthlete
+      - key: flags.degringo5e.remarkableAthlete
         mode: 5
         value: 'true'
         priority: null
@@ -65,7 +65,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -73,14 +73,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbftrRemarkable.1f8R9CFfhsetkhF5'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866578955
   modifiedTime: 1745256761685

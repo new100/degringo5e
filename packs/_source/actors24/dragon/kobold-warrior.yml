@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers
-        (3)}</p></div><h1>Kobolds</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.NC8c3St0SoWBP6K8
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
+        (3)}</p></div><h1>Kobolds</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.NC8c3St0SoWBP6K8
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Kobold
-        Warrior</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.khL20BavkkD4YZGY
+        Warrior</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.khL20BavkkD4YZGY
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -716,15 +716,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepDagger0000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepDagger0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722348
@@ -774,7 +774,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPackTactics000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738026317224
       modifiedTime: 1745712722348
@@ -825,7 +825,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSunlightSensit
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738026319392
       modifiedTime: 1745712722348
@@ -841,7 +841,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712722374

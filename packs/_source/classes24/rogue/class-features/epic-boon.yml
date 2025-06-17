@@ -7,9 +7,9 @@ system:
   description:
     value: >-
       <p>You gain an
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
       Boon feat} or another feat of your choice for which you qualify.
-      @UUID[Compendium.dnd5e.feats24.Item.phbBoonoftheNigh]{Boon of the Night
+      @UUID[Compendium.degringo5e.feats24.Item.phbBoonoftheNigh]{Boon of the Night
       Spirit} is recommended.</p><section class="secret"
       id="secret-Wpt1OtuMYQJ7BwK8"><p><strong>Foundry Note</strong></p><p>You
       will be prompted for a choice while leveling up.</p></section>
@@ -37,14 +37,14 @@ system:
   identifier: epic-boon
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866292069
   modifiedTime: 1745256764250

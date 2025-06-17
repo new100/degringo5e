@@ -7,12 +7,12 @@ system:
   description:
     value: >-
       <p>You have learned to cast spells through prayer and meditation. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules
       on spellcasting}. The information below details how you use those rules
       with Paladin spells, which appear in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{Paladin
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{Paladin
       spell list}.</p><p><strong>Spell Slots.</strong> The
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{Paladin
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{Paladin
       Features table} shows how many spell slots you have to cast your level 1+
       spells. You regain all expended slots when you finish a Long
       Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the
@@ -59,14 +59,14 @@ system:
   identifier: spellcasting
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866297701
   modifiedTime: 1745256764083

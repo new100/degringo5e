@@ -69,7 +69,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Rare, See:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
       Token}</em></p><p>You can take a Magic action to touch the token to a body
       of water at least 60 feet in diameter. The token disappears, and a
       50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The
@@ -119,14 +119,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704069

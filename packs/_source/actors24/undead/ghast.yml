@@ -653,7 +653,7 @@ items:
     img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmStench00000000
         _id: rHL9lpchOon81CN1
         type: base
@@ -681,7 +681,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -690,7 +690,7 @@ items:
         _key: >-
           !actors.items.effects!mmGhast000000000.5bjPpreGFvealK36.rHL9lpchOon81CN1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -698,7 +698,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmStench00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718062
@@ -849,7 +849,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -857,7 +857,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718062
@@ -1041,8 +1041,8 @@ items:
     img: icons/skills/melee/blood-slash-foam-red.webp
     effects:
       - name: Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGhast000000000.Item.SQ1vT3qHTKj46khh
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGhast000000000.Item.SQ1vT3qHTKj46khh
         _id: Iw0CKY4OcHwWY1LV
         type: base
         system: {}
@@ -1069,7 +1069,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1078,7 +1078,7 @@ items:
         _key: >-
           !actors.items.effects!mmGhast000000000.SQ1vT3qHTKj46khh.Iw0CKY4OcHwWY1LV
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1086,7 +1086,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718062
@@ -1099,12 +1099,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712718097

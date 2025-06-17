@@ -9,7 +9,7 @@ system:
       <p><em>Wondrous Item, Rare</em></p><p>This heavy cloth bag contains 3d4
       dry beans when found. The bag weighs half a pound regardless of how many
       beans it contains and becomes a
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{nonmagical item}
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{nonmagical item}
       when it no longer contains any beans.</p><p>If you dump one or more beans
       out of the bag, they explode in a 10-foot-radius Sphere centered on them.
       All the dumped beans are destroyed in the explosion, and each creature in
@@ -20,7 +20,7 @@ system:
       later from the ground where it was planted. The GM can choose an effect
       from the following table or determine it
       randomly.</p><details><summary>Bag of Beans Effect (click to
-      expand)</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgBagOfBeansEff
+      expand)</summary><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgBagOfBeansEff
       rollable caption=false]</p></details><p></p><section class="secret"
       id="secret-Ksf2KyYXOK1HhLmm"><p><strong>Foundry Note</strong></p><p>Upon
       obtaining this item, the <strong>Count Beans</strong> activity can be used
@@ -249,14 +249,14 @@ system:
       appliedEffects: []
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712697960

@@ -48,7 +48,7 @@ system:
           override: true
         level: '2'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
+        uuid: Compendium.degringo5e.spells24.Item.phbsplScorchingR
       name: ''
       img: ''
   uses:
@@ -61,7 +61,7 @@ system:
     value: >-
       <div><p><em>Wondrous Item, Uncommon</em></p></div><p>While wearing this
       circlet, you can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Scorching
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
       Ray}</em> with it (+5 to hit). The circlet can't cast this spell again
       until the next dawn.</p>
     chat: ''
@@ -106,14 +106,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

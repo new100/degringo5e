@@ -8,7 +8,7 @@ system:
       you occupied when you disappeared. You remain imprisoned until you are
       found and removed from the sphere. You can't be located by any Divination
       magic, but a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell can reveal the location of your prison. You draw no more cards.</p>
     chat: ''
   price:
@@ -114,7 +114,7 @@ img: icons/magic/symbols/ring-circle-smoke-blue.webp
 effects:
   - name: 'Donjon Card: Suspended Animation'
     img: icons/magic/control/encase-creature-humanoid-hold.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDmtDonjon0000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDmtDonjon0000
     transfer: false
     _id: dJN7ArhjS5DHmArT
     type: base
@@ -131,10 +131,10 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtDonjon0000]{Donjon}</em></p><p>You
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtDonjon0000]{Donjon}</em></p><p>You
       remain imprisoned until you are found and removed from the sphere. You
       can’t be located by any Divination magic, but a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell can reveal the location of your prison.</p>
     tint: '#ffffff'
     statuses:
@@ -147,7 +147,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729188510567
       modifiedTime: 1729188888227
@@ -159,14 +159,14 @@ sort: 2000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729187354163
   modifiedTime: 1745256804093

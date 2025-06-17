@@ -127,7 +127,7 @@ system:
 effects:
   - name: Poisoned
     img: icons/consumables/potions/bottle-bulb-corked-glowing-red.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo
+    origin: Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo
     transfer: false
     _id: zpDCMRInMzrnRAAd
     type: base
@@ -152,7 +152,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730739953658
       modifiedTime: 1730740510789
@@ -161,14 +161,14 @@ effects:
     _key: '!items.effects!dmgAssassinsBloo.zpDCMRInMzrnRAAd'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256802575

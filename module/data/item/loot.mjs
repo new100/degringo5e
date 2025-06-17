@@ -30,15 +30,15 @@ export default class LootData extends ItemDataModel.mixin(
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      properties: new SetField(new StringField(), { label: "DND5E.ItemLootProperties" }),
-      type: new ItemTypeField({ baseItem: false }, { label: "DND5E.ItemLootType" })
+      properties: new SetField(new StringField(), { label: "DEGRINGO5E.ItemLootProperties" }),
+      type: new ItemTypeField({ baseItem: false }, { label: "DEGRINGO5E.ItemLootType" })
     });
   }
 
@@ -55,10 +55,10 @@ export default class LootData extends ItemDataModel.mixin(
   static get compendiumBrowserFilters() {
     return new Map([
       ["type", {
-        label: "DND5E.ItemLootType",
+        label: "DEGRINGO5E.ItemLootType",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.lootTypes,
+          choices: CONFIG.DEGRINGO5E.lootTypes,
           keyPath: "system.type.value"
         }
       }],
@@ -93,7 +93,7 @@ export default class LootData extends ItemDataModel.mixin(
     this.prepareDescriptionData();
     this.prepareIdentifiable();
     this.preparePhysicalData();
-    this.type.label = CONFIG.DND5E.lootTypes[this.type.value]?.label ?? game.i18n.localize(CONFIG.Item.typeLabels.loot);
+    this.type.label = CONFIG.DEGRINGO5E.lootTypes[this.type.value]?.label ?? game.i18n.localize(CONFIG.Item.typeLabels.loot);
   }
 
   /* -------------------------------------------- */
@@ -105,8 +105,8 @@ export default class LootData extends ItemDataModel.mixin(
       ...this.physicalItemSheetFields
     ];
 
-    context.parts = ["dnd5e.details-loot"];
-    const itemTypes = CONFIG.DND5E.lootTypes[this._source.type.value];
+    context.parts = ["degringo5e.details-loot"];
+    const itemTypes = CONFIG.DEGRINGO5E.lootTypes[this._source.type.value];
     if ( itemTypes ) {
       context.itemType = itemTypes.label;
       context.itemSubtypes = itemTypes.subtypes;
@@ -124,7 +124,7 @@ export default class LootData extends ItemDataModel.mixin(
   get chatProperties() {
     return [
       this.type.label,
-      this.weight ? `${this.weight.value} ${game.i18n.localize("DND5E.AbbreviationLbs")}` : null,
+      this.weight ? `${this.weight.value} ${game.i18n.localize("DEGRINGO5E.AbbreviationLbs")}` : null,
       this.priceLabel
     ];
   }
@@ -133,7 +133,7 @@ export default class LootData extends ItemDataModel.mixin(
 
   /** @override */
   static get itemCategories() {
-    return CONFIG.DND5E.lootTypes;
+    return CONFIG.DEGRINGO5E.lootTypes;
   }
 
   /* -------------------------------------------- */

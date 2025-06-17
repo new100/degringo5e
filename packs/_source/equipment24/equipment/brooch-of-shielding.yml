@@ -14,7 +14,7 @@ system:
       <div><p><em>Wondrous Item, Uncommon (Requires
       Attunement)</em></p></div><p>While wearing this brooch, you have
       Resistance to Force damage, and you have Immunity to damage from the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
       Missile}</em> spell.</p>
     chat: ''
   identifier: brooch-of-shielding
@@ -58,7 +58,7 @@ system:
   proficient: null
 effects:
   - name: 'Resistance: Force'
-    img: systems/dnd5e/icons/svg/activity/save.svg
+    img: systems/degringo5e/icons/svg/activity/save.svg
     _id: rTeT5OPP4biUfHyX
     type: base
     system: {}
@@ -78,7 +78,7 @@ effects:
       startTurn: null
     description: >-
       <p>Additionally, you have Immunity to damage from the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
       Missile}</em> spell.</p>
     origin: null
     tint: '#ffffff'
@@ -90,7 +90,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1728924884072
       modifiedTime: 1728925152043
@@ -98,14 +98,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgBroochOfShiel.rTeT5OPP4biUfHyX'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

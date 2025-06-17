@@ -96,7 +96,7 @@ type: spell
 img: icons/creatures/mammals/dog-husky-white-blue.webp
 effects:
   - name: Bestial Communication
-    origin: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+    origin: Compendium.degringo5e.spells24.Item.phbsplSpeakwithA
     duration:
       rounds: 1
       startTime: null
@@ -125,7 +125,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -137,14 +137,14 @@ sort: 300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425971690
   modifiedTime: 1745256798506

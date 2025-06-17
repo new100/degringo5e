@@ -11,7 +11,7 @@ system:
       alignment. The candle's alignment can be detected with the Detect Evil and
       Good spell. The GM chooses the god and associated alignment or determines
       the alignment randomly from the
-      @UUID[Compendium.dnd5e.tables.RollTable.C1N8LjO7gOjEWgh4]{Candle of
+      @UUID[Compendium.degringo5e.tables.RollTable.C1N8LjO7gOjEWgh4]{Candle of
       Invocation} table.</p>
 
       <p>The candle's magic is activated when the candle is lit, which requires
@@ -28,7 +28,7 @@ system:
 
       <p>Alternatively, when you light the candle for the first time, you can
       cast the
-      <em>@UUID[Compendium.dnd5e.spells.Item.XbwGq5kDJNvAxNXV]{Gate}</em>spell
+      <em>@UUID[Compendium.degringo5e.spells.Item.XbwGq5kDJNvAxNXV]{Gate}</em>spell
       with it. Doing so destroys the candle.</p>
     chat: ''
   source:
@@ -142,7 +142,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037220102
   modifiedTime: 1725992524062

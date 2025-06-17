@@ -204,11 +204,11 @@ system:
       its possessions behind but no other physical
       remains.</p><p><em><strong>Sphere Interactions.</strong></em> If the
       sphere comes into contact with a planar portal (such as that created by
-      the @UUID[Compendium.dnd5e.spells24.Item.phbsplGate000000]{Gate} spell) or
+      the @UUID[Compendium.degringo5e.spells24.Item.phbsplGate000000]{Gate} spell) or
       an extradimensional space (such as that within a
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgPortableHole0]{Portable Hole}),
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgPortableHole0]{Portable Hole}),
       the GM determines randomly what happens using the following
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgSphereOfAnnih]</p>
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgSphereOfAnnih]</p>
     chat: ''
   identifier: sphere-of-annihilation
   source:
@@ -252,14 +252,14 @@ system:
 effects: []
 folder: U4xmShLy19Ry54zl
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730664060452
   modifiedTime: 1745712703512

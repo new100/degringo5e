@@ -10,13 +10,13 @@ system:
       hand doesn't occupy its space.</p><p>When you cast the spell and as a
       Bonus Action on your later turns, you can move the hand up to 60 feet and
       then cause one of the following effects:</p><p><strong>Clenched Fist
-      </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiClenchedFi
+      </strong>@Embed[Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiClenchedFi
       inline]</p><p><strong>Forceful Hand</strong>
-      @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiForcefulHa
+      @Embed[Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiForcefulHa
       inline]</p><p><strong>Grasping Hand</strong>
-      @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiGraspingHa
+      @Embed[Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiGraspingHa
       inline classes="no-secrets"]</p><p><strong>Interposing Hand
-      </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin
+      </strong>@Embed[Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin
       inline]</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage
       of the Clenched Fist increases by 2d8 and the damage of the Grasping Hand
       increases by 2d6 for each spell slot level above 5.</p>
@@ -111,7 +111,7 @@ system:
         - count: ''
           name: ''
           _id: vQGgSbSWhF45U93e
-          uuid: Compendium.dnd5e.actors24.Actor.phbsplBigbysHand
+          uuid: Compendium.degringo5e.actors24.Actor.phbsplBigbysHand
           level:
             min: null
             max: null
@@ -134,14 +134,14 @@ sort: 3500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425943329
   modifiedTime: 1745256786861

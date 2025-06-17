@@ -101,7 +101,7 @@ type: spell
 img: icons/creatures/amphibians/frog-water-teal.webp
 effects:
   - name: Water Walking
-    origin: Compendium.dnd5e.spells24.Item.phbsplWaterWalk0
+    origin: Compendium.degringo5e.spells24.Item.phbsplWaterWalk0
     duration:
       rounds: 1
       startTime: null
@@ -130,7 +130,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -142,14 +142,14 @@ sort: 100013
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425977593
   modifiedTime: 1745256800001

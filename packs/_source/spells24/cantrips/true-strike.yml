@@ -165,7 +165,7 @@ system:
           bonus: ''
         includeBase: true
         parts: []
-      img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
+      img: systems/degringo5e/icons/svg/damage/bludgeoning.svg
       appliedEffects: []
     cGNXKjpoRima6wjQ:
       type: attack
@@ -220,7 +220,7 @@ system:
         includeBase: true
         parts: []
       _id: cGNXKjpoRima6wjQ
-      img: systems/dnd5e/icons/svg/damage/piercing.svg
+      img: systems/degringo5e/icons/svg/damage/piercing.svg
       appliedEffects: []
   identifier: true-strike
 _id: phbsplTrueStrike
@@ -269,7 +269,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725569956584
       modifiedTime: 1725572087216
@@ -311,10 +311,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplTrueStrike.ActiveEffect.SouQfUgwb9LlUraq
+        Compendium.degringo5e.spells24.Item.phbsplTrueStrike.ActiveEffect.SouQfUgwb9LlUraq
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725572096560
       modifiedTime: 1725572184460
@@ -327,7 +327,7 @@ sort: 100025
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - CiLsaHBi9F6eIXUS
@@ -336,7 +336,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425976371
   modifiedTime: 1745256799544

@@ -600,7 +600,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -630,7 +630,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -638,7 +638,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
@@ -782,7 +782,7 @@ items:
     img: icons/weapons/clubs/club-simple-black.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTreeClub000000
         _id: 7GhARrr7f6zhJjqy
         type: base
@@ -810,7 +810,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -819,7 +819,7 @@ items:
         _key: >-
           !actors.items.effects!mmHillGiant00000.mmTreeClub000000.7GhARrr7f6zhJjqy
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -827,7 +827,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTreeClub000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
@@ -971,7 +971,7 @@ items:
     img: icons/commodities/materials/material-cotton-white.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTrashLob000000
         _id: BMs7Yw88gCikNkXO
         type: base
@@ -999,7 +999,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1008,7 +1008,7 @@ items:
         _key: >-
           !actors.items.effects!mmHillGiant00000.mmTrashLob000000.BMs7Yw88gCikNkXO
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1016,7 +1016,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTrashLob000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721203
@@ -1029,12 +1029,12 @@ items:
 effects: []
 folder: uzfjTR3kDzzsWp3V
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415632845
   modifiedTime: 1745712721231

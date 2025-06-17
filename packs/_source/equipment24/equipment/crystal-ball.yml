@@ -8,7 +8,7 @@ system:
     2e2o9P9Kr0NgHi4B:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplScrying000
         challenge:
           attack: null
           save: 17
@@ -60,7 +60,7 @@ system:
     value: >-
       <p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>While
       touching this crystal orb, you can cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying} (save DC
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying} (save DC
       17) with it.</p>
     chat: ''
   identifier: crystal-ball
@@ -104,14 +104,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1740680118118

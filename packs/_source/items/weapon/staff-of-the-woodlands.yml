@@ -14,24 +14,24 @@ system:
       nonmagical quarterstaff.</p><p><strong>Spells</strong>. You can use an
       action to expend 1 or more of the staff's charges to cast one of the
       following spells from it, using your spell save DC:
-      @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{Animal Friendship} (1
-      charge), @UUID[Compendium.dnd5e.spells.Item.MCEpGpvovcXagwQS]{Awaken} (5
-      charges), @UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Barkskin}
-      (2 charges), @UUID[Compendium.dnd5e.spells.Item.Iv2qqSAT7OkXKPFx]{Locate
+      @UUID[Compendium.degringo5e.spells.Item.hDOENzjuj5WpLq7B]{Animal Friendship} (1
+      charge), @UUID[Compendium.degringo5e.spells.Item.MCEpGpvovcXagwQS]{Awaken} (5
+      charges), @UUID[Compendium.degringo5e.spells.Item.JPwIEfgUPVebr5AH]{Barkskin}
+      (2 charges), @UUID[Compendium.degringo5e.spells.Item.Iv2qqSAT7OkXKPFx]{Locate
       Animals or Plants} (2 charges),
-      @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{Speak with Animals}
-      (1 charge), @UUID[Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy]{Speak
+      @UUID[Compendium.degringo5e.spells.Item.aL1F8fvYLtNzUbKu]{Speak with Animals}
+      (1 charge), @UUID[Compendium.degringo5e.spells.Item.2VXGS206tuChoeXy]{Speak
       with Plants} (3 charges), or
-      @UUID[Compendium.dnd5e.spells.Item.AQsBc94ES7W7s7iG]{Wall of Thorns} (6
+      @UUID[Compendium.degringo5e.spells.Item.AQsBc94ES7W7s7iG]{Wall of Thorns} (6
       charges).</p><p>You can also use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj]{Pass without Trace}
+      @UUID[Compendium.degringo5e.spells.Item.pRMvmknwLf2tdMTj]{Pass without Trace}
       spell from the staff without using any charges.</p><p><strong>Tree
       Form</strong>. You can use an action to plant one end of the staff in
       fertile earth and expend 1 charge to transform the staff into a healthy
       tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its
       branches at the top spread out in a 20-foot radius. The tree appears
       ordinary but radiates a faint aura of transmutation magic if targeted by
-      @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic}. While
+      @UUID[Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic}. While
       touching the tree and using another action to speak its command word, you
       return the staff to its normal form. Any creature in the tree falls when
       it reverts to a staff.</p>
@@ -184,7 +184,7 @@ system:
     3NG2heM5F2MZC8jp:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B
+        uuid: Compendium.degringo5e.spells.Item.hDOENzjuj5WpLq7B
         challenge:
           attack: null
           save: null
@@ -233,7 +233,7 @@ system:
     joTmq1XPNETQqiag:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.MCEpGpvovcXagwQS
+        uuid: Compendium.degringo5e.spells.Item.MCEpGpvovcXagwQS
         challenge:
           attack: null
           save: null
@@ -283,7 +283,7 @@ system:
     5nuhAqCJUQrLA2Dl:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH
+        uuid: Compendium.degringo5e.spells.Item.JPwIEfgUPVebr5AH
         challenge:
           attack: null
           save: null
@@ -333,7 +333,7 @@ system:
     xETqUC7cpESvgEeV:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.Iv2qqSAT7OkXKPFx
+        uuid: Compendium.degringo5e.spells.Item.Iv2qqSAT7OkXKPFx
         challenge:
           attack: null
           save: null
@@ -383,7 +383,7 @@ system:
     Jddd8ljisRX31g8l:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy
+        uuid: Compendium.degringo5e.spells.Item.2VXGS206tuChoeXy
         challenge:
           attack: null
           save: null
@@ -433,7 +433,7 @@ system:
     8u2nn7PKK1PomSZA:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.AQsBc94ES7W7s7iG
+        uuid: Compendium.degringo5e.spells.Item.AQsBc94ES7W7s7iG
         challenge:
           attack: null
           save: null
@@ -483,7 +483,7 @@ system:
     iXNUoYwkgNbcwFJZ:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj
+        uuid: Compendium.degringo5e.spells.Item.pRMvmknwLf2tdMTj
         challenge:
           attack: null
           save: null
@@ -525,7 +525,7 @@ system:
     SdJnKtMS2hnx9Yhf:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu
+        uuid: Compendium.degringo5e.spells.Item.aL1F8fvYLtNzUbKu
         challenge:
           attack: null
           save: null
@@ -626,7 +626,7 @@ system:
   mastery: ''
 effects:
   - name: Staff of the Woodlands
-    origin: Compendium.dnd5e.items.Item.caEn3ixCUFBnHTx6
+    origin: Compendium.degringo5e.items.Item.caEn3ixCUFBnHTx6
     duration:
       rounds: null
       startTime: null
@@ -661,7 +661,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -673,14 +673,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037231207
   modifiedTime: 1729014343709

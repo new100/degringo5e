@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Marilith</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.I4KPmOfsuEucKfST
+        <h1>Marilith</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.I4KPmOfsuEucKfST
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -602,7 +602,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -653,7 +653,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDemonicRestora
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -704,7 +704,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmReactive000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -767,7 +767,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -796,7 +796,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -804,7 +804,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -958,7 +958,7 @@ items:
     img: icons/weapons/swords/sword-runed-glowing.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -966,7 +966,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPactBlade00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -1131,7 +1131,7 @@ items:
     img: icons/magic/nature/root-vine-entangled-hands.webp
     effects:
       - name: Grappled and Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmConstrict00000
         transfer: false
         _id: Hd0Gy3wJtPfObERq
@@ -1161,7 +1161,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1170,7 +1170,7 @@ items:
         _key: >-
           !actors.items.effects!mmMarilith000000.mmConstrict00000.Hd0Gy3wJtPfObERq
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1178,7 +1178,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmConstrict00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -1249,7 +1249,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery:
@@ -1282,7 +1282,7 @@ items:
     img: icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1290,7 +1290,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTeleport000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -1385,7 +1385,7 @@ items:
     img: icons/skills/melee/swords-parry-block-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1393,7 +1393,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParry000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723178
@@ -1406,12 +1406,12 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712723207

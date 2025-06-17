@@ -5,7 +5,7 @@
         {{!-- Icon --}}
         <div class="icon {{#if img.svg}}svg{{/if}}">
             {{#if img.svg}}
-            <dnd5e-icon src="{{ img.src }}"></dnd5e-icon>
+            <degringo5e-icon src="{{ img.src }}"></degringo5e-icon>
             {{else}}
             <img src="{{ img.src }}" class="gold-icon" alt="{{ name }}">
             {{/if}}
@@ -20,7 +20,7 @@
             {{#if @root.editable}}
             {{!-- Delete --}}
             <button type="button" class="unbutton control-button" data-action="deleteDocument"
-                    data-tooltip aria-label="{{ localize "DND5E.ACTIVITY.Action.Delete" }}">
+                    data-tooltip aria-label="{{ localize "DEGRINGO5E.ACTIVITY.Action.Delete" }}">
                 <i class="fas fa-trash" inert></i>
             </button>
             {{/if}}

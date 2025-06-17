@@ -114,7 +114,7 @@ system:
         name: ''
         formula: ''
       name: Small Vertical Portal
-      img: systems/dnd5e/icons/svg/trait-condition-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-condition-immunities.svg
       appliedEffects: []
     rR2zwuw2IFFRTQhi:
       type: utility
@@ -164,7 +164,7 @@ system:
         name: ''
       name: Large Vertical Portal
       _id: rR2zwuw2IFFRTQhi
-      img: systems/dnd5e/icons/svg/trait-condition-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-condition-immunities.svg
       appliedEffects: []
     iUhxzsW99W33R6di:
       type: utility
@@ -214,7 +214,7 @@ system:
         name: ''
       name: Small Horizontal Portal
       _id: iUhxzsW99W33R6di
-      img: systems/dnd5e/icons/svg/activity/summon.svg
+      img: systems/degringo5e/icons/svg/activity/summon.svg
       appliedEffects: []
     B3wsBcXONvUm9pUR:
       type: utility
@@ -264,7 +264,7 @@ system:
         name: ''
       name: Large Horizontal Portal
       _id: B3wsBcXONvUm9pUR
-      img: systems/dnd5e/icons/svg/activity/summon.svg
+      img: systems/degringo5e/icons/svg/activity/summon.svg
       appliedEffects: []
   identifier: gate
 _id: phbsplGate000000
@@ -276,14 +276,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956097
   modifiedTime: 1745256793604

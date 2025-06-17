@@ -54,7 +54,7 @@ system:
             scaling: {}
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
             scaling: {}
           - type: spellSlots
             value: '-1'
@@ -104,7 +104,7 @@ system:
         max: ''
       sort: 0
       name: Regain Spell Slot
-      img: systems/dnd5e/icons/svg/trait.svg
+      img: systems/degringo5e/icons/svg/trait.svg
     7nAgPNN2dth7SR0D:
       type: utility
       activation:
@@ -116,7 +116,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
             scaling:
               mode: ''
           - type: spellSlots
@@ -170,19 +170,19 @@ system:
       sort: -100000
       name: Regain Wild Shape
       _id: 7nAgPNN2dth7SR0D
-      img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+      img: systems/degringo5e/icons/svg/abilities/intelligence.svg
   enchant: {}
   identifier: wild-resurgence
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866366918
   modifiedTime: 1740680082812

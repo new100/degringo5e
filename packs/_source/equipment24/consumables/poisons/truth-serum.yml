@@ -116,7 +116,7 @@ effects:
   - name: Poisoned
     img: >-
       icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgTruthSerum000
+    origin: Compendium.degringo5e.equipment24.Item.dmgTruthSerum000
     transfer: false
     _id: tA62YPOpn76531tv
     type: base
@@ -139,10 +139,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742210347
       modifiedTime: 1730742235736
@@ -151,14 +151,14 @@ effects:
     _key: '!items.effects!dmgTruthSerum000.tA62YPOpn76531tv'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256809773

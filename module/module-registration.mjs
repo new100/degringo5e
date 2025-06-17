@@ -27,26 +27,26 @@ const registerMethods = [registerSourceBooks, registerSpellLists];
 /* -------------------------------------------- */
 
 /**
- * Register package source books from `flags.dnd5e.sourceBooks`.
+ * Register package source books from `flags.degringo5e.sourceBooks`.
  * @param {Module|System|World} manifest  Manifest from which to register data.
  * @returns {string|void}                 Description of the data registered.
  */
 function registerSourceBooks(manifest) {
-  if ( !manifest.flags.dnd5e?.sourceBooks ) return;
-  Object.assign(CONFIG.DND5E.sourceBooks, manifest.flags.dnd5e.sourceBooks);
+  if ( !manifest.flags.degringo5e?.sourceBooks ) return;
+  Object.assign(CONFIG.DEGRINGO5E.sourceBooks, manifest.flags.degringo5e.sourceBooks);
   return "source books";
 }
 
 /* -------------------------------------------- */
 
 /**
- * Register package spell lists from `flags.dnd5e.spellLists`.
+ * Register package spell lists from `flags.degringo5e.spellLists`.
  * @param {Module|System|World} manifest  Manifest from which to register data.
  * @returns {string|void}                 Description of the data registered.
  */
 function registerSpellLists(manifest) {
-  if ( foundry.utils.getType(manifest.flags.dnd5e?.spellLists) !== "Array" ) return;
-  manifest.flags.dnd5e.spellLists.forEach(uuid => dnd5e.registry.spellLists.register(uuid));
+  if ( foundry.utils.getType(manifest.flags.degringo5e?.spellLists) !== "Array" ) return;
+  manifest.flags.degringo5e.spellLists.forEach(uuid => degringo5e.registry.spellLists.register(uuid));
   return "spell lists";
 }
 
@@ -77,12 +77,12 @@ const setupMethods = [setupPackDisplay, setupPackSorting];
 /* -------------------------------------------- */
 
 /**
- * Set application based on `flags.dnd5e.display`.
+ * Set application based on `flags.degringo5e.display`.
  * @param {Compendium} pack  Pack to set up.
  * @returns {string|void}    Description of the step.
  */
 function setupPackDisplay(pack) {
-  const display = pack.metadata.flags.display ?? pack.metadata.flags.dnd5e?.display;
+  const display = pack.metadata.flags.display ?? pack.metadata.flags.degringo5e?.display;
   if ( display !== "table-of-contents" ) return;
   pack.applicationClass = TableOfContentsCompendium;
   return "table of contents";
@@ -94,14 +94,14 @@ let collectionSortingModes;
 let sortingChanged = false;
 
 /**
- * Set default sorting order based on `flags.dnd5e.sorting`.
+ * Set default sorting order based on `flags.degringo5e.sorting`.
  * @param {Compendium} pack  Pack to set up.
  * @returns {string|void}    Description of the step.
  */
 function setupPackSorting(pack) {
   collectionSortingModes ??= game.settings.get("core", "collectionSortingModes") ?? {};
-  if ( !pack.metadata.flags.dnd5e?.sorting || collectionSortingModes[pack.metadata.id] ) return;
-  collectionSortingModes[pack.metadata.id] = pack.metadata.flags.dnd5e.sorting;
+  if ( !pack.metadata.flags.degringo5e?.sorting || collectionSortingModes[pack.metadata.id] ) return;
+  collectionSortingModes[pack.metadata.id] = pack.metadata.flags.degringo5e.sorting;
   sortingChanged = true;
   return "default sorting";
 }

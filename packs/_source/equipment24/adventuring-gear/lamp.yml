@@ -3,7 +3,7 @@ system:
   description:
     value: >-
       <p>A Lamp burns
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to
       cast Bright Light in a 15-foot radius and Dim Light for an additional 30
       feet.</p>
     chat: ''
@@ -110,7 +110,7 @@ system:
       sort: 0
       _id: khBeGXY2PYjIvbvA
       name: Light
-      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
       appliedEffects: []
   identifier: lamp
 _id: phbagLamp0000000
@@ -122,14 +122,14 @@ sort: 3200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425909666
   modifiedTime: 1745431704598

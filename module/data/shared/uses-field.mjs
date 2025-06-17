@@ -56,7 +56,7 @@ export default class UsesField extends SchemaField {
    * @param {object} [labels]  Object in which to insert generated labels.
    */
   static prepareData(rollData, labels) {
-    prepareFormulaValue(this, "uses.max", "DND5E.USES.FIELDS.uses.max.label", rollData);
+    prepareFormulaValue(this, "uses.max", "DEGRINGO5E.USES.FIELDS.uses.max.label", rollData);
     this.uses.value = this.uses.max ? Math.clamp(this.uses.max - this.uses.spent, 0, this.uses.max) : 0;
 
     const periods = [];
@@ -65,10 +65,10 @@ export default class UsesField extends SchemaField {
         recovery.formula ??= "6";
         recovery.type = "recoverAll";
         recovery.recharge = { options: UsesField.rechargeOptions };
-        if ( labels ) labels.recharge ??= `${game.i18n.localize("DND5E.Recharge")} [${
+        if ( labels ) labels.recharge ??= `${game.i18n.localize("DEGRINGO5E.Recharge")} [${
           recovery.formula}${parseInt(recovery.formula) < 6 ? "+" : ""}]`;
-      } else if ( recovery.period in CONFIG.DND5E.limitedUsePeriods ) {
-        const config = CONFIG.DND5E.limitedUsePeriods[recovery.period];
+      } else if ( recovery.period in CONFIG.DEGRINGO5E.limitedUsePeriods ) {
+        const config = CONFIG.DEGRINGO5E.limitedUsePeriods[recovery.period];
         periods.push(config.abbreviation ?? config.label);
       }
     }
@@ -91,7 +91,7 @@ export default class UsesField extends SchemaField {
   static get rechargeOptions() {
     return Array.fromRange(5, 2).reverse().map(min => ({
       value: min,
-      label: game.i18n.format("DND5E.USES.Recovery.Recharge.Range", {
+      label: game.i18n.format("DEGRINGO5E.USES.Recovery.Recharge.Range", {
         range: min === 6 ? formatNumber(6) : formatRange(min, 6)
       })
     }));
@@ -112,16 +112,16 @@ export default class UsesField extends SchemaField {
     // Recharge X–Y
     if ( recovery.period === "recharge" ) {
       const value = parseInt(recovery.formula);
-      return `${game.i18n.localize("DND5E.Recharge")} ${value === 6 ? "6" : `${value}–6`}`;
+      return `${game.i18n.localize("DEGRINGO5E.Recharge")} ${value === 6 ? "6" : `${value}–6`}`;
     }
 
     // Recharge after a Short or Long Rest
     if ( ["lr", "sr"].includes(recovery.period) && (this.uses.max === 1) ) {
-      return game.i18n.localize(`DND5E.Recharge${recovery.period === "sr" ? "Short" : "Long"}`);
+      return game.i18n.localize(`DEGRINGO5E.Recharge${recovery.period === "sr" ? "Short" : "Long"}`);
     }
 
     // X/Day
-    const period = CONFIG.DND5E.limitedUsePeriods[recovery.period === "sr" ? "sr" : "day"]?.label ?? "";
+    const period = CONFIG.DEGRINGO5E.limitedUsePeriods[recovery.period === "sr" ? "sr" : "day"]?.label ?? "";
     if ( !period ) return "";
     return `${this.uses.max}/${period}`;
   }
@@ -169,13 +169,13 @@ export default class UsesField extends SchemaField {
           : { item: this.item.id, keyPath: `system.activities.${this.id}.uses.spent` };
         roll = new CONFIG.Dice.BasicRoll(profile.formula, rollData, { delta });
         if ( ["day", "dawn", "dusk"].includes(profile.period)
-          && (game.settings.get("dnd5e", "restVariant") === "gritty") ) {
+          && (game.settings.get("degringo5e", "restVariant") === "gritty") ) {
           roll.alter(7, 0, { multiplyNumeric: true });
         }
         total = (await roll.evaluate()).total;
       } catch(err) {
         Hooks.onError("UsesField#recoverUses", err, {
-          msg: game.i18n.format("DND5E.ItemRecoveryFormulaWarning", {
+          msg: game.i18n.format("DEGRINGO5E.ItemRecoveryFormulaWarning", {
             name: item.name, formula: profile.formula, uuid: this.uuid ?? item.uuid
           }),
           log: "error",
@@ -242,9 +242,9 @@ export default class UsesField extends SchemaField {
     const rolls = await CONFIG.Dice.BasicRoll.buildConfigure(rollConfig, dialogConfig, messageConfig);
     await CONFIG.Dice.BasicRoll.buildEvaluate(rolls, rollConfig, messageConfig);
     if ( !rolls.length ) return;
-    messageConfig.data.flavor = game.i18n.format("DND5E.ItemRechargeCheck", {
+    messageConfig.data.flavor = game.i18n.format("DEGRINGO5E.ItemRechargeCheck", {
       name: this.name,
-      result: game.i18n.localize(`DND5E.ItemRecharge${rolls[0].isSuccess ? "Success" : "Failure"}`)
+      result: game.i18n.localize(`DEGRINGO5E.ItemRecharge${rolls[0].isSuccess ? "Success" : "Failure"}`)
     });
     await CONFIG.Dice.BasicRoll.buildPost(rolls, rollConfig, messageConfig);
 
@@ -257,7 +257,7 @@ export default class UsesField extends SchemaField {
     /**
      * A hook event that fires after an Item or Activity has rolled to recharge, but before any usage changes have
      * been made.
-     * @function dnd5e.rollRecharge
+     * @function degringo5e.rollRecharge
      * @memberof hookEvents
      * @param {BasicRoll[]} rolls             The resulting rolls.
      * @param {object} data
@@ -265,20 +265,20 @@ export default class UsesField extends SchemaField {
      * @param {object} data.updates           Updates to be applied to the subject.
      * @returns {boolean}                     Explicitly return `false` to prevent updates from being performed.
      */
-    if ( Hooks.call("dnd5e.rollRecharge", rolls, { subject: this, updates }) === false ) return rolls;
-    if ( Hooks.call("dnd5e.rollRechargeV2", rolls, { subject: this, updates }) === false ) return rolls;
+    if ( Hooks.call("degringo5e.rollRecharge", rolls, { subject: this, updates }) === false ) return rolls;
+    if ( Hooks.call("degringo5e.rollRechargeV2", rolls, { subject: this, updates }) === false ) return rolls;
 
     if ( (rollConfig.apply !== false) && !foundry.utils.isEmpty(updates) ) await this.update(updates);
 
     /**
      * A hook event that fires after an Item or Activity has rolled recharge and usage updates have been performed.
-     * @function dnd5e.postRollRecharge
+     * @function degringo5e.postRollRecharge
      * @memberof hookEvents
      * @param {BasicRoll[]} rolls     The resulting rolls.
      * @param {object} data
      * @param {Actor5e} data.subject  Item or Activity for which the roll was performed.
      */
-    Hooks.callAll("dnd5e.postRollRecharge", rolls, { subject: this });
+    Hooks.callAll("degringo5e.postRollRecharge", rolls, { subject: this });
 
     return { rolls, updates };
   }

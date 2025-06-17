@@ -16,7 +16,7 @@ const { ArrayField, BooleanField, NumberField, SchemaField, SetField, StringFiel
  * @property {object[]} advancement             Advancement objects for this class.
  * @property {object} hd                        Object describing hit dice properties.
  * @property {string} hd.additional             Additional hit dice beyond the level of the class.
- * @property {string} hd.denomination           Denomination of hit dice available as defined in `DND5E.hitDieTypes`.
+ * @property {string} hd.denomination           Denomination of hit dice available as defined in `DEGRINGO5E.hitDieTypes`.
  * @property {number} hd.spent                  Number of hit dice consumed.
  * @property {number} levels                    Current number of levels in this class.
  * @property {object} primaryAbility
@@ -33,14 +33,14 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.CLASS", "DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.CLASS", "DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), { label: "DND5E.AdvancementTitle" }),
+      advancement: new ArrayField(new AdvancementField(), { label: "DEGRINGO5E.AdvancementTitle" }),
       hd: new SchemaField({
         additional: new FormulaField({ deterministic: true, required: true }),
         denomination: new StringField({
@@ -65,7 +65,7 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
   static get compendiumBrowserFilters() {
     return new Map([
       ["hasSpellcasting", {
-        label: "DND5E.CompendiumBrowser.Filters.HasSpellcasting",
+        label: "DEGRINGO5E.CompendiumBrowser.Filters.HasSpellcasting",
         type: "boolean",
         createFilter: (filters, value, def) => {
           if ( value === 0 ) return;
@@ -124,9 +124,9 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.class) }];
     context.singleDescription = true;
 
-    context.parts = ["dnd5e.details-class", "dnd5e.details-spellcasting", "dnd5e.details-starting-equipment"];
-    context.hitDieOptions = CONFIG.DND5E.hitDieTypes.map(d => ({ value: d, label: d }));
-    context.primaryAbilities = Object.entries(CONFIG.DND5E.abilities).map(([value, data]) => ({
+    context.parts = ["degringo5e.details-class", "degringo5e.details-spellcasting", "degringo5e.details-starting-equipment"];
+    context.hitDieOptions = CONFIG.DEGRINGO5E.hitDieTypes.map(d => ({ value: d, label: d }));
+    context.primaryAbilities = Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, data]) => ({
       value, label: data.label, selected: this.primaryAbility.value.has(value)
     }));
   }
@@ -239,7 +239,7 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
       needsMigration = true;
     }
 
-    if ( needsMigration ) foundry.utils.setProperty(source, "flags.dnd5e.persistSourceMigration", true);
+    if ( needsMigration ) foundry.utils.setProperty(source, "flags.degringo5e.persistSourceMigration", true);
   }
 
   /* -------------------------------------------- */
@@ -271,23 +271,23 @@ export default class ClassData extends ItemDataModel.mixin(ItemDescriptionTempla
 
     // Check to make sure the updated class level isn't below zero
     if ( changed.system.levels <= 0 ) {
-      ui.notifications.warn("DND5E.MaxClassLevelMinimumWarn", { localize: true });
+      ui.notifications.warn("DEGRINGO5E.MaxClassLevelMinimumWarn", { localize: true });
       changed.system.levels = 1;
     }
 
     // Check to make sure the updated class level doesn't exceed level cap
-    if ( changed.system.levels > CONFIG.DND5E.maxLevel ) {
-      ui.notifications.warn(game.i18n.format("DND5E.MaxClassLevelExceededWarn", { max: CONFIG.DND5E.maxLevel }));
-      changed.system.levels = CONFIG.DND5E.maxLevel;
+    if ( changed.system.levels > CONFIG.DEGRINGO5E.maxLevel ) {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.MaxClassLevelExceededWarn", { max: CONFIG.DEGRINGO5E.maxLevel }));
+      changed.system.levels = CONFIG.DEGRINGO5E.maxLevel;
     }
 
     if ( this.parent.actor?.type !== "character" ) return;
 
     // Check to ensure the updated character doesn't exceed level cap
     const newCharacterLevel = this.parent.actor.system.details.level + (changed.system.levels - this.levels);
-    if ( newCharacterLevel > CONFIG.DND5E.maxLevel ) {
-      ui.notifications.warn(game.i18n.format("DND5E.MaxCharacterLevelExceededWarn", { max: CONFIG.DND5E.maxLevel }));
-      changed.system.levels -= newCharacterLevel - CONFIG.DND5E.maxLevel;
+    if ( newCharacterLevel > CONFIG.DEGRINGO5E.maxLevel ) {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.MaxCharacterLevelExceededWarn", { max: CONFIG.DEGRINGO5E.maxLevel }));
+      changed.system.levels -= newCharacterLevel - CONFIG.DEGRINGO5E.maxLevel;
     }
   }
 

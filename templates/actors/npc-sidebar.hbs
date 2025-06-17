@@ -7,7 +7,7 @@
         {{!-- TODO: Allow clicking this to roll a hit die --}}
         <h3 class="icon">
             <i class="fa-solid fa-dice-d{{ denomination }}"></i>
-            <span class="roboto-upper">{{ localize "DND5E.HitDice" }}</span>
+            <span class="roboto-upper">{{ localize "DEGRINGO5E.HitDice" }}</span>
             <span class="counter">{{ value }} &sol; {{ max }}</span>
         </h3>
     </div>
@@ -15,17 +15,17 @@
     {{/if}}
 
     {{!-- Speed --}}
-    {{> "dnd5e.actor-trait-pills" values=speed key="speed" icon="fas fa-shoe-prints"
-        label="DND5E.Speed" configAction="movement" }}
+    {{> "degringo5e.actor-trait-pills" values=speed key="speed" icon="fas fa-shoe-prints"
+        label="DEGRINGO5E.Speed" configAction="movement" }}
 
     {{!-- Skills --}}
     <div class="pills-group {{#unless skills}}empty{{/unless}}">
         <h3 class="icon">
             <i class="fas fa-briefcase" inert></i>
-            <span class="roboto-upper">{{ localize "DND5E.Skills" }}</span>
+            <span class="roboto-upper">{{ localize "DEGRINGO5E.Skills" }}</span>
             {{#if editable}}
             <button type="button" class="config-button unbutton" data-action="showConfiguration" data-config="skills"
-                    data-tooltip="DND5E.SkillsConfig" aria-label="{{ localize 'DND5E.SkillsConfig' }}">
+                    data-tooltip="DEGRINGO5E.SkillsConfig" aria-label="{{ localize 'DEGRINGO5E.SkillsConfig' }}">
                 <i class="fas fa-cog" inert></i>
             </button>
             {{/if}}
@@ -37,7 +37,7 @@
                    data-action="roll" data-type="skill">
                     <span class="label">{{ label }}</span>
                     <span class="separator">&vert;</span>
-                    <span class="value">{{ dnd5e-numberFormat total signDisplay="always" }}</span>
+                    <span class="value">{{ degringo5e-numberFormat total signDisplay="always" }}</span>
                 </a>
             </li>
             {{/each}}
@@ -45,43 +45,43 @@
     </div>
 
     {{!-- Senses --}}
-    {{> "dnd5e.actor-trait-pills" values=senses key="senses" icon="fas fa-eye"
-        label="DND5E.Senses" configAction="senses" }}
+    {{> "degringo5e.actor-trait-pills" values=senses key="senses" icon="fas fa-eye"
+        label="DEGRINGO5E.Senses" configAction="senses" }}
 
     {{!-- Resistances --}}
-    {{> "dnd5e.actor-trait-pills" values=traits.dr key="dr" color="green" icon="fas fa-shield-halved"
-        label="DND5E.Resistances" }}
+    {{> "degringo5e.actor-trait-pills" values=traits.dr key="dr" color="green" icon="fas fa-shield-halved"
+        label="DEGRINGO5E.Resistances" }}
 
     {{!-- Immunities --}}
     {{#if editable}}
-        {{> "dnd5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
-            label="DND5E.DamImm" }}
+        {{> "degringo5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
+            label="DEGRINGO5E.DamImm" }}
     {{else}}
-        {{> "dnd5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
-            label="DND5E.Immunities" }}
+        {{> "degringo5e.actor-trait-pills" values=traits.di key="di" color="green" icon="fas fa-shield"
+            label="DEGRINGO5E.Immunities" }}
     {{/if}}
-    {{> "dnd5e.actor-trait-pills" values=traits.ci key="ci" color="green" svg="rosa-shield"
-        label="DND5E.ConImm" }}
+    {{> "degringo5e.actor-trait-pills" values=traits.ci key="ci" color="green" svg="rosa-shield"
+        label="DEGRINGO5E.ConImm" }}
 
     {{!-- Vulnerabilities --}}
-    {{> "dnd5e.actor-trait-pills" values=traits.dv key="dv" color="maroon" icon="fas fa-heart-crack"
-        label="DND5E.Vulnerabilities" }}
+    {{> "degringo5e.actor-trait-pills" values=traits.dv key="dv" color="maroon" icon="fas fa-heart-crack"
+        label="DEGRINGO5E.Vulnerabilities" }}
 
     {{!-- Damage Modification --}}
-    {{> "dnd5e.actor-trait-pills" values=traits.dm key="dm" icon="fas fa-heart-circle-plus"
-        label="DND5E.DamageModification.Label" }}
+    {{> "degringo5e.actor-trait-pills" values=traits.dm key="dm" icon="fas fa-heart-circle-plus"
+        label="DEGRINGO5E.DamageModification.Label" }}
 
     {{!-- Languages --}}
-    {{> "dnd5e.actor-trait-pills" values=traits.languages key="languages" icon="fas fa-flag"
-        label="DND5E.Languages" }}
+    {{> "degringo5e.actor-trait-pills" values=traits.languages key="languages" icon="fas fa-flag"
+        label="DEGRINGO5E.Languages" }}
 
     {{!-- Habitat --}}
-    {{> "dnd5e.actor-trait-pills" values=habitat configAction="habitat" icon="fa-solid fa-mountain-sun"
-        label="DND5E.Habitat.Configuration.Label" }}
+    {{> "degringo5e.actor-trait-pills" values=habitat configAction="habitat" icon="fa-solid fa-mountain-sun"
+        label="DEGRINGO5E.Habitat.Configuration.Label" }}
 
     {{!-- Treasure --}}
     {{!-- TODO: Allow clicking a treasure category pill to roll appropriately for random treasure --}}
-    {{> "dnd5e.actor-trait-pills" values=treasure configAction="treasure" icon="fa-solid fa-gem"
-        label="DND5E.Treasure.Configuration.Label" }}
+    {{> "degringo5e.actor-trait-pills" values=treasure configAction="treasure" icon="fa-solid fa-gem"
+        label="DEGRINGO5E.Treasure.Configuration.Label" }}
 
 </div>

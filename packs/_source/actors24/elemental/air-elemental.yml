@@ -605,7 +605,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAirForm0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711931
@@ -747,7 +747,7 @@ items:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -755,7 +755,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmThunderousSlam
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711931
@@ -837,7 +837,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -845,7 +845,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711931
@@ -970,7 +970,7 @@ items:
     img: icons/magic/air/wind-tornado-wall-blue.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmWhirlwind00000
         _id: qihlGD6RZ55pZY9n
         type: base
@@ -1007,7 +1007,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1016,7 +1016,7 @@ items:
         _key: >-
           !actors.items.effects!mmAirElemental00.mmWhirlwind00000.qihlGD6RZ55pZY9n
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1024,7 +1024,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWhirlwind00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712711931
@@ -1037,12 +1037,12 @@ items:
 effects: []
 folder: mSjiQ0a7M8it70qu
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712711963

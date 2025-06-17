@@ -229,7 +229,7 @@ system:
         name: ''
         formula: ''
       name: Cast and Hold
-      img: systems/dnd5e/icons/svg/trait-skills.svg
+      img: systems/degringo5e/icons/svg/trait-skills.svg
       appliedEffects: []
     NKBsnjBBIgsaOPaY:
       type: save
@@ -302,7 +302,7 @@ img: icons/magic/water/projectile-ice-snowball.webp
 effects:
   - name: Trapped in Ice
     img: icons/magic/water/barrier-ice-water-cube.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplOtilukesFr
+    origin: Compendium.degringo5e.spells24.Item.phbsplOtilukesFr
     transfer: false
     _id: JC3QmmHnM4YKj9ek
     type: base
@@ -331,7 +331,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724781444555
       modifiedTime: 1724782761235
@@ -343,14 +343,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425965185
   modifiedTime: 1745256796540

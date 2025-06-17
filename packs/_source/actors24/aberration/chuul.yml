@@ -589,7 +589,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715418
@@ -615,7 +615,7 @@ items:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] senses magic within
           120 feet of itself. This trait otherwise works like the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
           Magic}</em> spell but isn't itself magical.</p>
         chat: ''
       identifier: sense-magic
@@ -642,7 +642,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSenseMagic0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715418
@@ -724,7 +724,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -732,7 +732,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715418
@@ -841,7 +841,7 @@ items:
     img: icons/creatures/tentacles/tentacles-thing-green.webp
     effects:
       - name: Poisoned & Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Item.mmParalyzingTent
         _id: 5ReKSrBu11ume7GP
         type: base
@@ -881,7 +881,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -890,7 +890,7 @@ items:
         _key: >-
           !actors.items.effects!mmChuul000000000.mmParalyzingTent.5ReKSrBu11ume7GP
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -898,7 +898,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParalyzingTent
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715418
@@ -1091,7 +1091,7 @@ items:
     img: icons/commodities/claws/claw-pincer-grey.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPincer00000000
         _id: GCED8YlF6qXTgEkd
         type: base
@@ -1120,7 +1120,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1129,7 +1129,7 @@ items:
         _key: >-
           !actors.items.effects!mmChuul000000000.mmPincer00000000.GCED8YlF6qXTgEkd
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1137,7 +1137,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPincer00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715418
@@ -1153,7 +1153,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415408481
   modifiedTime: 1745712715445

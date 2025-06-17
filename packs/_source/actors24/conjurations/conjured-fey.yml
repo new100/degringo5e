@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureFey
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey
         caption=false]</p>
       public: ''
     alignment: ''
@@ -482,7 +482,7 @@ items:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureFey
+          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey
           caption=false]</p>
         chat: ''
       activities:
@@ -657,7 +657,7 @@ items:
     img: icons/magic/control/fear-fright-mask-yellow.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Actor.phbsplConjuredFe.Item.phbaoiAttackAtta
         transfer: false
         _id: sEpCnDgBAYjTuRgI
@@ -686,7 +686,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: null
           modifiedTime: null
@@ -699,15 +699,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.actors24.Actor.phbsplConjuredFe.Item.phbaoiAttackAtta
+      compendiumSource: Compendium.degringo5e.actors24.Actor.phbsplConjuredFe.Item.phbaoiAttackAtta
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160251
@@ -717,12 +717,12 @@ items:
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724693407526
   modifiedTime: 1745256830065

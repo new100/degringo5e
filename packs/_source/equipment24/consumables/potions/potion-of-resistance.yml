@@ -87,7 +87,7 @@ system:
       <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you have
       Resistance to one type of damage for 1 hour. The GM chooses the type or
       determines it randomly by rolling on the following
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgPotionOfResis
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgPotionOfResis
       caption=false rollable]</p><section class="secret"
       id="secret-yI26znYuybVCz6iX"><p><strong>Foundry Note</strong></p><p>This
       item includes Active Effects for each type of resistance. Use the AE for
@@ -132,7 +132,7 @@ system:
     - mgc
 effects:
   - name: Acid  Resistance
-    img: systems/dnd5e/icons/svg/damage/acid.svg
+    img: systems/degringo5e/icons/svg/damage/acid.svg
     _id: rp68qDxzWquL4KsY
     type: base
     system: {}
@@ -161,7 +161,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742932160
       modifiedTime: 1730743308429
@@ -169,7 +169,7 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgPotionOfResis.rp68qDxzWquL4KsY'
   - name: Cold Resistance
-    img: systems/dnd5e/icons/svg/damage/cold.svg
+    img: systems/degringo5e/icons/svg/damage/cold.svg
     type: base
     system: {}
     changes:
@@ -197,7 +197,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742963737
       modifiedTime: 1730743312391
@@ -206,7 +206,7 @@ effects:
     _id: En6oT73Shu6Alr46
     _key: '!items.effects!dmgPotionOfResis.En6oT73Shu6Alr46'
   - name: Fire Resistance
-    img: systems/dnd5e/icons/svg/damage/fire.svg
+    img: systems/degringo5e/icons/svg/damage/fire.svg
     type: base
     system: {}
     changes:
@@ -234,7 +234,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742973948
       modifiedTime: 1730743317025
@@ -243,7 +243,7 @@ effects:
     _id: UI7peFQB9vCGuwpG
     _key: '!items.effects!dmgPotionOfResis.UI7peFQB9vCGuwpG'
   - name: Force Resistance
-    img: systems/dnd5e/icons/svg/damage/force.svg
+    img: systems/degringo5e/icons/svg/damage/force.svg
     type: base
     system: {}
     changes:
@@ -271,7 +271,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742983352
       modifiedTime: 1730743320811
@@ -280,7 +280,7 @@ effects:
     _id: CuxyOkR4W9VP8KOM
     _key: '!items.effects!dmgPotionOfResis.CuxyOkR4W9VP8KOM'
   - name: Lightning Resistance
-    img: systems/dnd5e/icons/svg/damage/lightning.svg
+    img: systems/degringo5e/icons/svg/damage/lightning.svg
     type: base
     system: {}
     changes:
@@ -308,7 +308,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730742995160
       modifiedTime: 1730743327323
@@ -317,7 +317,7 @@ effects:
     _id: ZPdhGzt0bhaZyVd2
     _key: '!items.effects!dmgPotionOfResis.ZPdhGzt0bhaZyVd2'
   - name: Necrotic Resistance
-    img: systems/dnd5e/icons/svg/damage/necrotic.svg
+    img: systems/degringo5e/icons/svg/damage/necrotic.svg
     type: base
     system: {}
     changes:
@@ -345,7 +345,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743004328
       modifiedTime: 1730743332532
@@ -354,7 +354,7 @@ effects:
     _id: 29M8rjINOWKcHek6
     _key: '!items.effects!dmgPotionOfResis.29M8rjINOWKcHek6'
   - name: Poison Resistance
-    img: systems/dnd5e/icons/svg/damage/poison.svg
+    img: systems/degringo5e/icons/svg/damage/poison.svg
     type: base
     system: {}
     changes:
@@ -382,7 +382,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743017944
       modifiedTime: 1730743338873
@@ -391,7 +391,7 @@ effects:
     _id: VAndQR2Hu88gg4NF
     _key: '!items.effects!dmgPotionOfResis.VAndQR2Hu88gg4NF'
   - name: Psychic Resistance
-    img: systems/dnd5e/icons/svg/damage/psychic.svg
+    img: systems/degringo5e/icons/svg/damage/psychic.svg
     type: base
     system: {}
     changes:
@@ -419,7 +419,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743031712
       modifiedTime: 1730743345317
@@ -428,7 +428,7 @@ effects:
     _id: 4YWphFJwC5ojd6Ib
     _key: '!items.effects!dmgPotionOfResis.4YWphFJwC5ojd6Ib'
   - name: Radiant Resistance
-    img: systems/dnd5e/icons/svg/damage/radiant.svg
+    img: systems/degringo5e/icons/svg/damage/radiant.svg
     type: base
     system: {}
     changes:
@@ -456,7 +456,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743042178
       modifiedTime: 1730743348580
@@ -465,7 +465,7 @@ effects:
     _id: SH3poodOtfaaAiv8
     _key: '!items.effects!dmgPotionOfResis.SH3poodOtfaaAiv8'
   - name: Thunder Resistance
-    img: systems/dnd5e/icons/svg/damage/thunder.svg
+    img: systems/degringo5e/icons/svg/damage/thunder.svg
     type: base
     system: {}
     changes:
@@ -493,7 +493,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743053206
       modifiedTime: 1730743351968
@@ -503,14 +503,14 @@ effects:
     _key: '!items.effects!dmgPotionOfResis.hSarjVpqNwhqKOB1'
 folder: 4NjJfCbRAVhw8ESv
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730742719641
   modifiedTime: 1745256807726

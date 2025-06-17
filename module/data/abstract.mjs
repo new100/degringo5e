@@ -6,7 +6,7 @@ import _SystemDataModel from "./abstract/system-data-model.mjs";
 export default class SystemDataModel extends _SystemDataModel {
   constructor(...args) {
     foundry.utils.logCompatibilityWarning(
-      "`dnd5e.dataModels.SystemDataModel has been moved to `dnd5e.dataModels.abstract.SystemDataModel",
+      "`degringo5e.dataModels.SystemDataModel has been moved to `degringo5e.dataModels.abstract.SystemDataModel",
       { since: "DnD5e 5.1", until: "DnD5e 5.3", once: true }
     );
     super(...args);
@@ -16,7 +16,7 @@ export default class SystemDataModel extends _SystemDataModel {
 export class ActorDataModel extends _ActorDataModel {
   constructor(...args) {
     foundry.utils.logCompatibilityWarning(
-      "`dnd5e.dataModels.ActorDataModel has been moved to `dnd5e.dataModels.abstract.ActorDataModel",
+      "`degringo5e.dataModels.ActorDataModel has been moved to `degringo5e.dataModels.abstract.ActorDataModel",
       { since: "DnD5e 5.1", until: "DnD5e 5.3", once: true }
     );
     super(...args);
@@ -26,7 +26,7 @@ export class ActorDataModel extends _ActorDataModel {
 export class ItemDataModel extends _ItemDataModel {
   constructor(...args) {
     foundry.utils.logCompatibilityWarning(
-      "`dnd5e.dataModels.ItemDataModel has been moved to `dnd5e.dataModels.abstract.ItemDataModel",
+      "`degringo5e.dataModels.ItemDataModel has been moved to `degringo5e.dataModels.abstract.ItemDataModel",
       { since: "DnD5e 5.1", until: "DnD5e 5.3", once: true }
     );
     super(...args);
@@ -36,7 +36,7 @@ export class ItemDataModel extends _ItemDataModel {
 export class SparseDataModel extends _SparseDataModel {
   constructor(...args) {
     foundry.utils.logCompatibilityWarning(
-      "`dnd5e.dataModels.SparseDataModel has been moved to `dnd5e.dataModels.abstract.SparseDataModel",
+      "`degringo5e.dataModels.SparseDataModel has been moved to `degringo5e.dataModels.abstract.SparseDataModel",
       { since: "DnD5e 5.1", until: "DnD5e 5.3", once: true }
     );
     super(...args);

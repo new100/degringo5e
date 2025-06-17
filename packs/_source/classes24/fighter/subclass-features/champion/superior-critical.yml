@@ -40,7 +40,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.dnd5e.weaponCriticalThreshold
+      - key: flags.degringo5e.weaponCriticalThreshold
         mode: 3
         value: '18'
         priority: null
@@ -54,7 +54,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.classes24.Item.phbftrSuperiorCr
+    origin: Compendium.degringo5e.classes24.Item.phbftrSuperiorCr
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -62,10 +62,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbftrImprovedCr.ActiveEffect.fbCF0jqdt3NMZdkc
+        Compendium.degringo5e.classes24.Item.phbftrImprovedCr.ActiveEffect.fbCF0jqdt3NMZdkc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -73,14 +73,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbftrSuperiorCr.kKOE6KCEE0v4a5lw'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866578955
   modifiedTime: 1745256761772

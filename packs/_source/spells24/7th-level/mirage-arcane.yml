@@ -103,7 +103,7 @@ system:
         name: ''
         formula: ''
       name: Alter Terrain
-      img: systems/dnd5e/icons/svg/damage/slashing.svg
+      img: systems/degringo5e/icons/svg/damage/slashing.svg
       appliedEffects: []
   identifier: mirage-arcane
 _id: phbsplMirageArca
@@ -115,14 +115,14 @@ sort: 1400000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425964108
   modifiedTime: 1745256796256

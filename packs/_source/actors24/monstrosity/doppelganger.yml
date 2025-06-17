@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Doppelganger</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.1HjQuidJ5OdJh2Nd
+        <h1>Doppelganger</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.1HjQuidJ5OdJh2Nd
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -606,7 +606,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -636,7 +636,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -644,7 +644,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -791,7 +791,7 @@ items:
     img: icons/magic/sonic/explosion-impact-shock-wave.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -799,7 +799,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSlam0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -861,7 +861,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDetectThou
             ability: cha
           name: ''
       uses:
@@ -871,7 +871,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
           Thoughts}</em>, requiring no spell components and using Charisma as
           the spellcasting ability (spell save DC [[lookup
           @abilities.cha.dc]]).</p>
@@ -895,7 +895,7 @@ items:
     img: icons/skills/social/diplomacy-handshake-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -903,7 +903,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmReadThoughts00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -1080,7 +1080,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/damage/psychic.svg
+          img: systems/degringo5e/icons/svg/damage/psychic.svg
       identifier: detect-thoughts
     type: spell
     img: icons/skills/social/diplomacy-handshake-yellow.webp
@@ -1088,9 +1088,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmDoppelganger00.Item.mmReadThoughts00.Activity.pZvAlG6vpOmPZ3KP
+          Compendium.degringo5e.actors24.Actor.mmDoppelganger00.Item.mmReadThoughts00.Activity.pZvAlG6vpOmPZ3KP
         changes:
           - key: system.ability
             mode: 5
@@ -1128,7 +1128,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1141,16 +1141,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmReadThoughts00.Activity.pZvAlG6vpOmPZ3KP
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectThou
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -1266,7 +1266,7 @@ items:
     img: icons/magic/control/silhouette-hold-change-green.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Item.mmUnsettlingVisa
         _id: t3d77s2YYM0OgsvZ
         type: base
@@ -1305,7 +1305,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1314,7 +1314,7 @@ items:
         _key: >-
           !actors.items.effects!mmDoppelganger00.mmUnsettlingVisa.t3d77s2YYM0OgsvZ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1322,7 +1322,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmUnsettlingVisa
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -1387,7 +1387,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1419,7 +1419,7 @@ items:
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1427,7 +1427,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShapeshift0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712716587
@@ -1443,7 +1443,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712716617

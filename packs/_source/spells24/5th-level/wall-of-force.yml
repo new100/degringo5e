@@ -13,9 +13,9 @@ system:
       creature is pushed to one side of the wall (you choose which
       side).</p><p>Nothing can physically pass through the wall. It is immune to
       all damage and can't be dispelled by
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}.</em> A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em>
       spell destroys the wall instantly, however. The wall also extends into the
       Ethereal Plane and blocks ethereal travel through the wall.</p>
     chat: ''
@@ -169,14 +169,14 @@ sort: 100391
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425977048
   modifiedTime: 1745256799744

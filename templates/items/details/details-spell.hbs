@@ -1,5 +1,5 @@
 <fieldset>
-    <legend>{{ localize "DND5E.SpellDetails" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.SpellDetails" }}</legend>
 
     {{!-- Spell Level --}}
     {{ formField fields.level value=source.level choices=CONFIG.spellLevels localize=true }}
@@ -9,23 +9,23 @@
                  localize=true }}
 
     {{!-- Spell Components --}}
-    {{ formField fields.properties options=properties.options label="DND5E.SpellComponents" localize=true
+    {{ formField fields.properties options=properties.options label="DEGRINGO5E.SpellComponents" localize=true
                  input=inputs.createMultiCheckboxInput stacked=true classes="checkbox-grid checkbox-grid-3" }}
 
     {{!-- Material Components --}}
     {{#if properties.object.material}}
     <div class="form-group split-group">
-        <label>{{ localize "DND5E.SpellMaterials" }}</label>
+        <label>{{ localize "DEGRINGO5E.SpellMaterials" }}</label>
         <div class="form-fields">
 
             {{!-- Material Supply --}}
-            {{ formField fields.materials.fields.supply value=source.materials.supply label="DND5E.Supply" localize=true
+            {{ formField fields.materials.fields.supply value=source.materials.supply label="DEGRINGO5E.Supply" localize=true
                          classes="label-top" placeholder="0" }}
 
             {{!-- Material Cost --}}
             <div class="form-group label-top">
-                <label class="label-icon currency gp" aria-label="{{ localize "DND5E.CostGP" }}">
-                    {{ localize "DND5E.Cost" }}
+                <label class="label-icon currency gp" aria-label="{{ localize "DEGRINGO5E.CostGP" }}">
+                    {{ localize "DEGRINGO5E.Cost" }}
                 </label>
                 <div class="form-fields">
                     {{ formInput fields.materials.fields.cost value=source.materials.cost placeholder="—" }}
@@ -33,7 +33,7 @@
             </div>
 
             {{!-- Material Consumption --}}
-            {{ formField fields.materials.fields.consumed value=source.materials.consumed label="DND5E.Consumed"
+            {{ formField fields.materials.fields.consumed value=source.materials.consumed label="DEGRINGO5E.Consumed"
                          localize=true input=inputs.createCheckboxInput classes="checkbox" }}
         </div>
 
@@ -45,14 +45,14 @@
 
     {{!-- Preparation Mode --}}
     <div class="form-group">
-        <label>{{ localize "DND5E.SpellPreparation.Mode" }}</label>
+        <label>{{ localize "DEGRINGO5E.SpellPreparation.Mode" }}</label>
         <div class="form-fields">
 
             {{!-- Prepared --}}
             {{#if (eq source.preparation.mode "prepared")}}
             {{ formInput fields.preparation.fields.prepared value=source.preparation.prepared
-                         dataset=(dnd5e-object tooltip="DND5E.Prepared") input=inputs.createCheckboxInput
-                         ariaLabel=(localize "DND5E.Prepared") }}
+                         dataset=(degringo5e-object tooltip="DEGRINGO5E.Prepared") input=inputs.createCheckboxInput
+                         ariaLabel=(localize "DEGRINGO5E.Prepared") }}
             {{/if}}
 
             {{!-- Mode --}}
@@ -71,20 +71,20 @@
 </fieldset>
 
 <fieldset>
-    <legend>{{ localize "DND5E.Casting" }}</legend>
+    <legend>{{ localize "DEGRINGO5E.Casting" }}</legend>
 
     {{!-- Activation --}}
-    {{> "dnd5e.field-activation" activation=system.activation fields=fields.activation.fields data=source.activation
-        activationTypes=activationTypes inputs=inputs label="DND5E.SpellCastTime" }}
+    {{> "degringo5e.field-activation" activation=system.activation fields=fields.activation.fields data=source.activation
+        activationTypes=activationTypes inputs=inputs label="DEGRINGO5E.SpellCastTime" }}
 
     {{!-- Range --}}
-    {{> "dnd5e.field-range" range=system.range fields=fields.range.fields data=source.range rangeTypes=rangeTypes
+    {{> "degringo5e.field-range" range=system.range fields=fields.range.fields data=source.range rangeTypes=rangeTypes
         inputs=inputs }}
 
     {{!-- Duration --}}
-    {{> "dnd5e.field-duration" duration=system.duration fields=fields.duration.fields data=source.duration
+    {{> "degringo5e.field-duration" duration=system.duration fields=fields.duration.fields data=source.duration
         durationUnits=durationUnits inputs=inputs }}
 </fieldset>
 
-{{> "dnd5e.field-targets" target=system.target fields=fields.target.fields data=source.target inputs=inputs
+{{> "degringo5e.field-targets" target=system.target fields=fields.target.fields data=source.target inputs=inputs
     disabled=false }}

@@ -14,10 +14,10 @@ system:
 
       <p><strong>Spells</strong>. While holding the rod, you can use an action
       to cast one of the following spells from it:
-      @UUID[Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8]{Detect Evil and
-      Good}, @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic},
-      @UUID[Compendium.dnd5e.spells.Item.2skfDtglk1mGrb3l]{Detect Poison and
-      Disease}, or @UUID[Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH]{See
+      @UUID[Compendium.degringo5e.spells.Item.Mzh95utKDPIrjiH8]{Detect Evil and
+      Good}, @UUID[Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic},
+      @UUID[Compendium.degringo5e.spells.Item.2skfDtglk1mGrb3l]{Detect Poison and
+      Disease}, or @UUID[Compendium.degringo5e.spells.Item.DQzlB5Y3k791W5bH]{See
       Invisibility}.</p>
 
       <p><strong>Protective Aura</strong>. As an action, you can plant the haft
@@ -140,7 +140,7 @@ system:
     oA9zbvC3W4wWhyp8:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8
+        uuid: Compendium.degringo5e.spells.Item.Mzh95utKDPIrjiH8
         challenge:
           attack: null
           save: null
@@ -182,7 +182,7 @@ system:
     IHSMR3HySfUImEHj:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8
+        uuid: Compendium.degringo5e.spells.Item.ghXTfe7sgCbgf1Q8
         challenge:
           attack: null
           save: null
@@ -224,7 +224,7 @@ system:
     5IazOhC4axC53B6B:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.2skfDtglk1mGrb3l
+        uuid: Compendium.degringo5e.spells.Item.2skfDtglk1mGrb3l
         challenge:
           attack: null
           save: null
@@ -266,7 +266,7 @@ system:
     fJkRusyWDVH98JZF:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH
+        uuid: Compendium.degringo5e.spells.Item.DQzlB5Y3k791W5bH
         challenge:
           attack: null
           save: null
@@ -313,14 +313,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037134551
   modifiedTime: 1730323612662

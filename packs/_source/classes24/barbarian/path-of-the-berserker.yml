@@ -1,7 +1,7 @@
 _id: phbbrbBerserker0
 name: Path of the Berserker
 type: subclass
-img: systems/dnd5e/icons/classes/berserker.webp
+img: systems/degringo5e/icons/classes/berserker.webp
 system:
   description:
     value: >-
@@ -24,7 +24,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbFrenzy0000
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbFrenzy0000
             optional: false
         optional: false
         spell: null
@@ -35,7 +35,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbMindlessRa
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbMindlessRa
             optional: false
         optional: false
         spell: null
@@ -46,7 +46,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbRetaliatio
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbRetaliatio
             optional: false
         optional: false
         spell: null
@@ -57,7 +57,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbIntimidati
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbIntimidati
             optional: false
         optional: false
         spell: null
@@ -75,7 +75,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866492370
   modifiedTime: 1745256759673

@@ -6,15 +6,15 @@ type: feat
 system:
   description:
     value: >-
-      <p>You learn the @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{Find
+      <p>You learn the @UUID[Compendium.degringo5e.spells.Item.JGT5bNqu9REL7Fuz]{Find
       Familiar} spell and can cast it as a ritual. The spell doesn't count
       against your number of spells known. When you cast the spell, you can
       choose one of the normal forms for your familiar or one of the following
       special forms:
-      @UUID[Compendium.dnd5e.monsters.Actor.dLQiESMsfsXijD5c]{Imp},
+      @UUID[Compendium.degringo5e.monsters.Actor.dLQiESMsfsXijD5c]{Imp},
       pseudodragon,
-      @UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4]{Quasit}, or
-      @UUID[Compendium.dnd5e.monsters.Actor.MUpBNDoJEr09bLaO]{Sprite}.</p><p>Additionally,
+      @UUID[Compendium.degringo5e.monsters.Actor.bwtkdzavdNHISgp4]{Quasit}, or
+      @UUID[Compendium.degringo5e.monsters.Actor.MUpBNDoJEr09bLaO]{Sprite}.</p><p>Additionally,
       when you take the Attack action, you can forgo one of your own attacks to
       allow your familiar to make one attack of its own with its reaction.</p>
     chat: ''
@@ -46,7 +46,7 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037382456
   modifiedTime: 1725992287878

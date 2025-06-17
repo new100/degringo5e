@@ -2,7 +2,7 @@ _id: phbrgeRogue00000
 name: Rogue
 type: class
 folder: JBKpeqLQWPp9Wt59
-img: systems/dnd5e/icons/classes/rogue.webp
+img: systems/degringo5e/icons/classes/rogue.webp
 system:
   description:
     value: >-
@@ -21,16 +21,16 @@ system:
       scope="row"><p>Armor Training</p></th><td><p>Light
       armor</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Short­sword},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBurglarsPac]{Burglar's Pack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
+      2 @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Short­sword},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoArrows0000]{Arrows},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagQuiver00000]{Quiver},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBurglarsPac]{Burglar's Pack},
       and [[/award 8GP]]; or (B) [[/award
-      100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000
+      100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000
       inline classes="free-rules-embed"]</p><h2>Becoming a Rogue …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Rogue Traits
       table.</li><li>Gain the Rogue's level 1 features, which are listed in the
@@ -40,7 +40,7 @@ system:
       Rogue's skill list, proficiency with Thieves' Tools, and training with
       Light armor.</li><li>Gain the Rogue's level 1 features, which are listed
       in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{Rogue
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{Rogue
       Features table}.</li></ul>
     chat: ''
   source:
@@ -57,56 +57,56 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      key: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
       requiresProficiency: false
       _id: a5uNZ5i3Wkr3ArSg
       group: H3jVZpWr5rfZX6BH
       sort: 200000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: uguY1ICYVysI5FNd
       group: H3jVZpWr5rfZX6BH
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepShortsword
+      key: Compendium.degringo5e.equipment24.Item.phbwepShortsword
       requiresProficiency: false
       _id: 0fHs18tKJmqxQtqv
       group: H3jVZpWr5rfZX6BH
       sort: 400000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepShortbow00
+      key: Compendium.degringo5e.equipment24.Item.phbwepShortbow00
       requiresProficiency: false
       _id: G09ulNZRrt29qgTU
       group: H3jVZpWr5rfZX6BH
       sort: 500000
     - type: linked
       count: 20
-      key: Compendium.dnd5e.equipment24.Item.phbamoArrows0000
+      key: Compendium.degringo5e.equipment24.Item.phbamoArrows0000
       requiresProficiency: false
       _id: 6xP9mFhLJOLLE9xt
       group: H3jVZpWr5rfZX6BH
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagQuiver00000
+      key: Compendium.degringo5e.equipment24.Item.phbagQuiver00000
       requiresProficiency: false
       _id: xHDA0B0GHJuDOF4f
       group: H3jVZpWr5rfZX6BH
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbtulThievesToo
+      key: Compendium.degringo5e.equipment24.Item.phbtulThievesToo
       requiresProficiency: false
       _id: gczRNKxoXd20eUTQ
       group: H3jVZpWr5rfZX6BH
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagBurglarsPac
+      key: Compendium.degringo5e.equipment24.Item.phbagBurglarsPac
       requiresProficiency: false
       _id: 4tEh3PUpH9nhT646
       group: H3jVZpWr5rfZX6BH
@@ -122,13 +122,13 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeExpertise0
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeExpertise0
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeSneakAttac
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeSneakAttac
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeThievesCan
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeThievesCan
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeWeaponMast
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeWeaponMast
             optional: false
         optional: false
         spell: null
@@ -139,7 +139,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeCunningAct
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeCunningAct
             optional: false
         optional: false
         spell: null
@@ -150,7 +150,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeSteadyAim0
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeSteadyAim0
             optional: false
         optional: false
         spell: null
@@ -161,9 +161,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeCunningStr
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeCunningStr
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeUncannyDod
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeUncannyDod
             optional: false
         optional: false
         spell: null
@@ -174,9 +174,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeEvasion000
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeEvasion000
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeReliableTa
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeReliableTa
             optional: false
         optional: false
         spell: null
@@ -187,7 +187,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeImprovedCu
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeImprovedCu
             optional: false
         optional: false
         spell: null
@@ -198,7 +198,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeDeviousStr
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeDeviousStr
             optional: false
         optional: false
         spell: null
@@ -209,7 +209,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeSlipperyMi
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeSlipperyMi
             optional: false
         optional: false
         spell: null
@@ -220,7 +220,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeElusive000
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeElusive000
             optional: false
         optional: false
         spell: null
@@ -232,7 +232,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbrgeEpicBoon00
+            uuid: Compendium.degringo5e.classes24.Item.phbrgeEpicBoon00
         optional: false
         spell: null
       value: {}
@@ -242,7 +242,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbrgeStrokeOfLu
+          - uuid: Compendium.degringo5e.classes24.Item.phbrgeStrokeOfLu
             optional: false
         optional: false
         spell: null
@@ -463,18 +463,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
         spell: null
         restriction:
           type: feat
@@ -638,7 +638,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866292069
   modifiedTime: 1745517431994

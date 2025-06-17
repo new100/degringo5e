@@ -12,12 +12,12 @@ system:
       equipment it's wearing and carrying (one additional vial is required for
       each size category above Medium).  Applying the oil takes 10 minutes.  The
       affected creature then gains the effect of a
-      @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Freedom of Movement}
+      @UUID[Compendium.degringo5e.spells.Item.da0a1t2FqaTjRZGT]{Freedom of Movement}
       spell for 8 hours.</p>
 
       <p>Alternatively, the oil can be poured on the ground as an action, where
       it covers a 10‑foot square, duplicating the effect of the
-      @UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{Grease} spell in that
+      @UUID[Compendium.degringo5e.spells.Item.etgcR9wqmrhyZ0tx]{Grease} spell in that
       area for 8 hours.</p>
     chat: ''
   source:
@@ -131,7 +131,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037142391
   modifiedTime: 1725992497922

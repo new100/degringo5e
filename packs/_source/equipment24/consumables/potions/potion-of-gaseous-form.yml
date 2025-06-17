@@ -8,7 +8,7 @@ system:
     eISSWIPSZm5fK4Zi:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGaseousFor
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGaseousFor
         challenge:
           attack: null
           save: null
@@ -67,7 +67,7 @@ system:
     value: >-
       <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the
       effect of the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplGaseousFor]{Gaseous Form} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous Form} spell
       for 1 hour (no Concentration required) or until you end the effect as a
       Bonus Action.</p><p>This potion's container seems to hold fog that moves
       and pours like water.</p>
@@ -111,14 +111,14 @@ system:
     - mgc
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256807337

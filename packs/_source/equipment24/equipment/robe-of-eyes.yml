@@ -122,9 +122,9 @@ system:
       sight.</p><p><strong>Special Senses.</strong> You have Darkvision and
       Truesight, both with a range of 120
       feet.</p><p><em><strong>Drawbacks.</strong></em> A<em>
-      </em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} spell
+      </em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light} spell
       cast on the robe or a
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDaylight00]{Daylight} spell
       cast within 5 feet of the robe gives you the &amp;Reference[Blinded]
       condition for 1 minute. At the end of each of your turns, you make a
       Constitution saving throw (DC 11 for <em>Light</em> or DC 15 for
@@ -204,7 +204,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730679153911
       modifiedTime: 1730679212594
@@ -212,14 +212,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgRobeOfEyes000.XYTd1ck6pd7NhWs7'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712702913

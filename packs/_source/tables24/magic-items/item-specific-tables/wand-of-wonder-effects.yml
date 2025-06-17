@@ -3,7 +3,7 @@ name: Wand of Wonder Effects
 img: icons/weapons/wands/wand-gem-violet.webp
 description: >-
   <p>A roll table of effects for the
-  @UUID[Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder}
+  @UUID[Compendium.degringo5e.equipment24.Item.dmgWandOfWonder0]{Wand of Wonder}
   which implements the effects as activities where possible.</p>
 results:
   - type: text
@@ -28,12 +28,12 @@ results:
     description: >-
       You cast a spell originating from the chosen point. Roll 1d10 to determine
       the spell: on a 1–2,
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}; on a
-      3–4, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire};
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}; on a
+      3–4, @UUID[Compendium.degringo5e.spells24.Item.phbsplFaerieFire]{Faerie Fire};
       on a 5–6,
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}; on a
-      7–8, @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}; on a
-      9–10, @UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}; on a
+      7–8, @UUID[Compendium.degringo5e.spells24.Item.phbsplSlow000000]{Slow}; on a
+      9–10, @UUID[Compendium.degringo5e.spells24.Item.phbsplStinkingCl]{Stinking
       Cloud}.
     name: ''
     _key: '!tables.results!dmgWandOfWonderE.2I7bZrYZgzKuOSf6'
@@ -82,7 +82,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      You cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of
+      You cast @UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
       Wind}. The Line created by the spell extends from you to the chosen point
       of origin.
     name: ''
@@ -182,7 +182,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      You cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning
+      You cast @UUID[Compendium.degringo5e.spells24.Item.phbsplLightningB]{Lightning
       Bolt}. The Line created by the spell extends from you to the chosen point
       of origin.
     name: ''
@@ -209,7 +209,7 @@ results:
     description: >-
       The creature closest to the chosen point of origin is enlarged as if you
       had cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} on
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} on
       it. If the target isn’t you and can’t be affected by that spell, you
       become the target instead.
     name: ''
@@ -316,7 +316,7 @@ results:
     description: >-
       Nothing happens at the chosen point of origin. Instead, you shrink as if
       you had cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} on
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} on
       yourself and remain in that state for 1 minute.
     name: ''
     _key: '!tables.results!dmgWandOfWonderE.caPlRb51hUbh7kir'
@@ -394,7 +394,7 @@ results:
       exportSource: null
     description: >-
       Nothing happens at the chosen point of origin. Instead, you cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} on
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility} on
       yourself.
     name: ''
     _key: '!tables.results!dmgWandOfWonderE.AnmrUluiTuPEDidg'
@@ -446,7 +446,7 @@ results:
       exportSource: null
     description: >-
       You cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPolymorph0]{Polymorph},
       targeting the creature closest to the chosen point of origin. Roll [[/r
       1d4]] to determine the target’s new form. On a 1, the new form is a Black
       Bear; on a 2, the new form is a Giant Wasp; on a 3–4, the new form is a
@@ -480,7 +480,7 @@ results:
       next turn. On a successful save, the effect ends. On a failed save, the
       creature has the &amp;Reference[Petrified] condition instead of the
       Restrained condition. The petrification lasts until the creature is freed
-      by the @UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      by the @UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration} spell or similar magic.
     name: ''
     _key: '!tables.results!dmgWandOfWonderE.4cFS9yfJW2gakbcA'
@@ -491,7 +491,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.2
   createdTime: 1727883396246
   modifiedTime: 1745612232635

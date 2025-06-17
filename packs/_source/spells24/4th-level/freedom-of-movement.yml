@@ -111,7 +111,7 @@ type: spell
 img: icons/magic/water/elemental-water.webp
 effects:
   - name: Unrestricted Movement
-    origin: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+    origin: Compendium.degringo5e.spells24.Item.phbsplFreedomofM
     duration:
       rounds: null
       startTime: null
@@ -148,7 +148,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -160,14 +160,14 @@ sort: 2000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425955725
   modifiedTime: 1745256793524

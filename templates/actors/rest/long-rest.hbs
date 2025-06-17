@@ -1,23 +1,23 @@
 <section class="flexcol">
     <div class="note info">
-        {{ localize (ifThen isGroup "DND5E.REST.Long.Hint.Group" "DND5E.REST.Long.Hint.Normal") }}
+        {{ localize (ifThen isGroup "DEGRINGO5E.REST.Long.Hint.Group" "DEGRINGO5E.REST.Long.Hint.Normal") }}
     </div>
 
     {{#if fields.length}}
     <fieldset>
-        <legend>{{ localize "DND5E.REST.Configuration" }}</legend>
-        {{> "dnd5e.fieldlist" fields }}
+        <legend>{{ localize "DEGRINGO5E.REST.Configuration" }}</legend>
+        {{> "degringo5e.fieldlist" fields }}
     </fieldset>
     {{/if}}
 
     {{#if hitPoints.length}}
     <fieldset>
-        <legend>{{ localize "DND5E.HitPoints" }}</legend>
-        {{> "dnd5e.fieldlist" hitPoints }}
+        <legend>{{ localize "DEGRINGO5E.HitPoints" }}</legend>
+        {{> "degringo5e.fieldlist" hitPoints }}
     </fieldset>
     {{/if}}
 
     {{#if request}}
-    {{> "systems/dnd5e/templates/actors/rest/rest-request.hbs" }}
+    {{> "systems/degringo5e/templates/actors/rest/rest-request.hbs" }}
     {{/if}}
 </section>

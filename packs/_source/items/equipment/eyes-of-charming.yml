@@ -9,7 +9,7 @@ system:
 
       <p>These crystal lenses fit over the eyes. They have 3 charges. While
       wearing them, you can expend 1 charge as an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person} spell
+      @UUID[Compendium.degringo5e.spells.Item.eS7XnnApoxRxYXPs]{Charm Person} spell
       (save DC 13) on a humanoid within 30 feet of you, provided that you and
       the target can see each other. The lenses regain all expended charges
       daily at dawn.</p>
@@ -65,7 +65,7 @@ system:
     9rqbuaaYgPZZKVFJ:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs
+        uuid: Compendium.degringo5e.spells.Item.eS7XnnApoxRxYXPs
         challenge:
           attack: null
           save: 13
@@ -119,14 +119,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037115295
   modifiedTime: 1731019107334

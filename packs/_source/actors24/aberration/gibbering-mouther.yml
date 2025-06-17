@@ -632,7 +632,7 @@ items:
     img: icons/magic/earth/barrier-stone-explosion-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -640,7 +640,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAberrantGround
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719771
@@ -798,7 +798,7 @@ items:
     img: icons/creatures/slimes/slime-face-teeth-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -806,7 +806,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGibbering00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719771
@@ -942,8 +942,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGibberingMouth.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGibberingMouth.Item.mmBite0000000000
         transfer: false
         _id: curEfZRyYfOUrImr
         type: base
@@ -970,7 +970,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -979,7 +979,7 @@ items:
         _key: >-
           !actors.items.effects!mmGibberingMouth.mmBite0000000000.curEfZRyYfOUrImr
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -987,7 +987,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719771
@@ -1110,7 +1110,7 @@ items:
     img: icons/magic/light/projectile-smoke-yellow.webp
     effects:
       - name: Blinded
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmBlindingSpittl
         transfer: false
         _id: ZsONDi9D0HnUuZKa
@@ -1139,7 +1139,7 @@ items:
             Compendium.dnd-monster-manual.features.Item.mmBlindingFlash0.ActiveEffect.ru1Dxgrjeu1wB0QP
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1148,7 +1148,7 @@ items:
         _key: >-
           !actors.items.effects!mmGibberingMouth.mmBlindingSpittl.ZsONDi9D0HnUuZKa
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1156,7 +1156,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBlindingSpittl
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719771
@@ -1172,7 +1172,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415408481
   modifiedTime: 1745712719798

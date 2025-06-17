@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGraspingVi
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGraspingVi
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -489,12 +489,12 @@ items:
           vine. On a hit, the target takes 4d8 Bludgeoning damage and is pulled
           up to 30 feet toward the vine; if the target is Huge or smaller, it
           has the &amp;Reference[Grappled] condition (escape DC equal to your
-          spell save DC).</p><p>The vine can grapple [[@flags.dnd5e.summon.level
+          spell save DC).</p><p>The vine can grapple [[@flags.degringo5e.summon.level
           - 3]] creature(s) at a time, and you can cause the vine to release a
           Grappled creature (no action required).</p><h3>Escape
           Tests</h3><p>[[/check ability=str skill=ath
-          dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex
-          skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>
+          dc=8+@prof+@flags.degringo5e.summon.mod]]</p><p>[[/check ability=dex
+          skill=acr dc=8+@prof+@flags.degringo5e.summon.mod]]</p>
         chat: ''
       source:
         custom: ''
@@ -606,7 +606,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -614,7 +614,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160365
@@ -624,14 +624,14 @@ items:
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
     summon:
       level: 4
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918638
   modifiedTime: 1745256830201

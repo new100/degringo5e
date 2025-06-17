@@ -11,7 +11,7 @@ system:
       destination determines whether you arrive there successfully. The DM rolls
       [[/gmr 1d100]] and consults the Teleportation Outcome table and the
       explanations after
-      it.</p><details><summary><strong>@UUID[Compendium.dnd5e.tables24.RollTable.phbsplTeleportMi]{Teleportation
+      it.</p><details><summary><strong>@UUID[Compendium.degringo5e.tables24.RollTable.phbsplTeleportMi]{Teleportation
       Outcome}</strong></summary><table><thead><tr><td>Familiarity</td><td>Mishap</td><td>Similar
       Area</td><td>Off Target</td><td>On
       Target</td></tr></thead><tbody><tr><td>Permanent
@@ -135,7 +135,7 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       appliedEffects: []
   identifier: teleport
 _id: phbsplTeleport00
@@ -147,14 +147,14 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425974953
   modifiedTime: 1745256799110

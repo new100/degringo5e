@@ -8,13 +8,13 @@ system:
       <p><em>Wondrous item, (requires attunement)</em></p>
 
       <p>While wearing this helm, you can use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
+      @UUID[Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
       spell (save DC 13) from it. As long as you maintain concentration on the
       spell, you can use a bonus action to send a telepathic message to a
       creature you are focused on. It can reply using a bonus action to do so
       while your focus on it continues.<br />While focusing on a creature with
       Detect Thoughts, you can use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell
+      @UUID[Compendium.degringo5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell
       (save DC 13) from the helm on that creature. Once used, the Suggestion
       property can't be used again until the next dawn.</p>
     chat: ''
@@ -67,7 +67,7 @@ system:
     ojwSZNV7dBmpFdcC:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+        uuid: Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er
         challenge:
           attack: null
           save: 13
@@ -113,7 +113,7 @@ system:
     HG9ikbJ7bHYwKcug:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4
+        uuid: Compendium.degringo5e.spells.Item.zMAWdyc8UVb37BK4
         challenge:
           attack: null
           save: 13
@@ -218,14 +218,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037137132
   modifiedTime: 1729016158181

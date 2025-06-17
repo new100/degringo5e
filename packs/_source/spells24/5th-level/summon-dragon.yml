@@ -4,7 +4,7 @@ system:
     value: >-
       <p>You call forth a Dragon spirit. It manifests in an unoccupied space
       that you can see within range and uses the
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobDraconicSp]{Draconic
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobDraconicSp]{Draconic
       Spirit}</strong> stat block. The creature disappears when it drops to 0
       Hit Points or when the spell ends.</p><p>The creature is an ally to you
       and your allies. In combat, the creature shares your Initiative count, but
@@ -116,7 +116,7 @@ system:
         - count: ''
           name: ''
           _id: Bi6h3KIV8Sx2zSdH
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobDraconicSp
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp
           level:
             min: null
             max: null
@@ -136,14 +136,14 @@ sort: 125000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425973657
   modifiedTime: 1745256798908

@@ -97,7 +97,7 @@ system:
         - count: ''
           name: ''
           _id: AjhX4dq7UIu11qT8
-          uuid: Compendium.dnd5e.actors24.Actor.dmgIllusoryCreat
+          uuid: Compendium.degringo5e.actors24.Actor.dmgIllusoryCreat
           level:
             min: null
             max: null
@@ -116,7 +116,7 @@ type: spell
 img: icons/magic/control/fear-fright-mask-orange.webp
 effects:
   - name: Invisible
-    origin: Compendium.dnd5e.spells24.Item.phbsplMislead000
+    origin: Compendium.degringo5e.spells24.Item.phbsplMislead000
     duration:
       rounds: null
       startTime: null
@@ -127,7 +127,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     _id: 3mTWrCYjgS8jIDRU
     type: base
     system: {}
@@ -142,10 +142,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplInvisibili.ActiveEffect.9svfDetqjhsFP3ey
+        Compendium.degringo5e.spells24.Item.phbsplInvisibili.ActiveEffect.9svfDetqjhsFP3ey
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -157,14 +157,14 @@ sort: 1100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425964302
   modifiedTime: 1745256796321

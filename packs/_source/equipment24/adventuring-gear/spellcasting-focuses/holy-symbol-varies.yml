@@ -7,11 +7,11 @@ system:
       a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a
       Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard
       or banner) or a Shield.</p><table><caption>Holy
-      Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{Amulet}
+      Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbhsyAmuletworn]{Amulet}
       (worn or held)</td><td>1 lb.</td><td>5
-      GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{Emblem}
+      GP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbhsyEmblemborn]{Emblem}
       (borne on fabric or a Shield)</td><td>—</td><td>5
-      GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{Reliquary}
+      GP</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.phbhsyReliquaryh]{Reliquary}
       (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>
     chat: ''
   price:
@@ -48,7 +48,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425909046
   modifiedTime: 1745256811979

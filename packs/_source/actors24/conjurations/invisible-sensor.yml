@@ -468,7 +468,7 @@ prototypeToken:
       scale: 1
       texture: icons/magic/perception/eye-tendrils-web-purple.webp
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -482,11 +482,11 @@ items: []
 effects:
   - name: Invisible
     _id: dnd5einvisible00
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -509,7 +509,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -543,7 +543,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -577,7 +577,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -586,12 +586,12 @@ effects:
     _key: '!actors.effects!phbInvisibleSens.O96hoqlJot40eGqB'
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425906907
   modifiedTime: 1740679894060

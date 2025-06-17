@@ -283,7 +283,7 @@ system:
 effects:
   - name: 'Cunning Strike: Poisoned'
     img: icons/skills/melee/blade-tip-acid-poison-green.webp
-    origin: Compendium.dnd5e.classes24.Item.phbrgeCunningStr
+    origin: Compendium.degringo5e.classes24.Item.phbrgeCunningStr
     transfer: false
     _id: RazTM6biKVtNtjEW
     type: base
@@ -310,7 +310,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -319,7 +319,7 @@ effects:
     _key: '!items.effects!phbrgeCunningStr.RazTM6biKVtNtjEW'
   - name: 'Cunning Strike: Tripped'
     img: icons/skills/melee/blade-tip-acid-poison-green.webp
-    origin: Compendium.dnd5e.classes24.Item.phbrgeCunningStr
+    origin: Compendium.degringo5e.classes24.Item.phbrgeCunningStr
     transfer: false
     _id: La47n2N3VtECtnA9
     type: base
@@ -344,7 +344,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -352,14 +352,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbrgeCunningStr.La47n2N3VtECtnA9'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866292069
   modifiedTime: 1745256764169

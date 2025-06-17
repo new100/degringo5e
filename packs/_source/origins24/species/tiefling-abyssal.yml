@@ -5,9 +5,9 @@ img: icons/creatures/unholy/demon-female-succubus-orange.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
       inline classes="free-rules-embed"]</p><h3
-      data-anchor="abyssal">Abyssal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief
+      data-anchor="abyssal">Abyssal</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief
       inline classes="free-rules-embed"]</p><h3
       data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
       Type</strong>: Humanoid</p><p><strong>Size: </strong>Medium (about 4–7
@@ -24,17 +24,17 @@ system:
       level. Intelligence, Wisdom, or Charisma is your spellcasting ability for
       the spells you cast with this trait (choose the ability when you select
       the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
       cantrip. When you cast it with this trait, the spell uses the same
       spellcasting ability you use for your Fiendish Legacy
       trait.</p><table><caption>Abyssal Legacy
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage.
       You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}
-      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray
       of
-      Sickness}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold
+      Sickness}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
       Person}</td></tr></tbody></table>
     chat: ''
   source:
@@ -58,9 +58,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptOtherworld
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptAbyssalLeg
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptAbyssalLeg
             optional: false
         optional: false
         spell: null
@@ -86,7 +86,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPoisonSpra
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPoisonSpra
         optional: false
         spell:
           ability:
@@ -109,7 +109,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplRayofSickn
+            uuid: Compendium.degringo5e.spells24.Item.phbsplRayofSickn
         optional: false
         spell:
           ability:
@@ -132,7 +132,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+            uuid: Compendium.degringo5e.spells24.Item.phbsplHoldPerson
         optional: false
         spell:
           ability:
@@ -155,7 +155,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            uuid: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:
@@ -197,7 +197,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340880630
   modifiedTime: 1745687556386

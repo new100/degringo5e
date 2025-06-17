@@ -16,7 +16,7 @@ pages:
         <p>A condition is a temporary game state. The definition of a condition
         says how it affects its recipient, and various rules define how to end a
         condition. This glossary defines these
-        conditions:</p><ul><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.uDogReMO6QtH6NDw]{Blinded}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.vLAsIUa0FhZNsyLk]{Charmed}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3]{Deafened}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3]{Exhaustion}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.93uaingTESo8N1qL]{Frightened}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.KbQ1k0OIowtZeQgp]{Grappled}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.4i3G895hy99piand]{Incapacitated}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN]{Invisible}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.RnxZoTglPnLc6UPb]{Paralyzed}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.6vtLuQT9lwZ9N299]{Petrified}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.HWs8kEojffqwTSJz]{Poisoned}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.QxCrRcgMdUd3gfzz]{Prone}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.dqLeGdpHtb8FfcxX]{Restrained}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.EjbXjvyQAMlDyANI]{Stunned}</li><li>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.fZCRaKEJd4KoQCqH]{Unconscious}</li></ul><p>A
+        conditions:</p><ul><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.uDogReMO6QtH6NDw]{Blinded}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.vLAsIUa0FhZNsyLk]{Charmed}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3]{Deafened}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3]{Exhaustion}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.93uaingTESo8N1qL]{Frightened}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.KbQ1k0OIowtZeQgp]{Grappled}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.4i3G895hy99piand]{Incapacitated}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN]{Invisible}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.RnxZoTglPnLc6UPb]{Paralyzed}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.6vtLuQT9lwZ9N299]{Petrified}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.HWs8kEojffqwTSJz]{Poisoned}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.QxCrRcgMdUd3gfzz]{Prone}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.dqLeGdpHtb8FfcxX]{Restrained}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.EjbXjvyQAMlDyANI]{Stunned}</li><li>@UUID[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.fZCRaKEJd4KoQCqH]{Unconscious}</li></ul><p>A
         condition doesn’t stack with itself; a recipient either has a condition
         or doesn’t. The &amp;Reference[Exhaustion] condition is an exception to
         that rule.</p><h2>Duration</h2><p>A condition lasts either for a
@@ -37,7 +37,7 @@ pages:
     _stats:
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -47,7 +47,7 @@ pages:
     _key: '!journal.pages!phbConditions000.BuIBCfux6QYAah3q'
 folder: DEIORpZoUWPUBTPh
 flags:
-  dnd5e:
+  degringo5e:
     type: special
     showPages: false
     order: 400700
@@ -59,7 +59,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.1
   createdTime: 1724425888659
   modifiedTime: 1745677864750

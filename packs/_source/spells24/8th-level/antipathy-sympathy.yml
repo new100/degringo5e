@@ -233,7 +233,7 @@ img: icons/magic/control/control-influence-rally-purple.webp
 effects:
   - name: Antipathy
     img: icons/magic/control/modfiy-luck-fortune-red.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAntipathyS
+    origin: Compendium.degringo5e.spells24.Item.phbsplAntipathyS
     transfer: false
     _id: bW6xZzK4dmulRmUT
     type: base
@@ -257,7 +257,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725288818281
       modifiedTime: 1725289339445
@@ -266,7 +266,7 @@ effects:
     _key: '!items.effects!phbsplAntipathyS.bW6xZzK4dmulRmUT'
   - name: Sympathy
     img: icons/magic/control/modfiy-luck-fortune-gray.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplAntipathyS
+    origin: Compendium.degringo5e.spells24.Item.phbsplAntipathyS
     transfer: false
     _id: Cz9yMSQmtWRnz81Z
     type: base
@@ -290,7 +290,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725288896535
       modifiedTime: 1725289350198
@@ -298,8 +298,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplAntipathyS.Cz9yMSQmtWRnz81Z'
   - name: Frightened
-    img: systems/dnd5e/icons/svg/statuses/frightened.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplAntipathyS
+    img: systems/degringo5e/icons/svg/statuses/frightened.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplAntipathyS
     transfer: false
     _id: aNztI08V5rN4s5mF
     type: base
@@ -333,7 +333,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725291461839
       modifiedTime: 1725291827932
@@ -341,8 +341,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplAntipathyS.aNztI08V5rN4s5mF'
   - name: Charmed
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplAntipathyS
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplAntipathyS
     transfer: false
     type: base
     system: {}
@@ -377,7 +377,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725291844436
       modifiedTime: 1725291900960
@@ -390,14 +390,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425941036
   modifiedTime: 1745256785679

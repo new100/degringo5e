@@ -8,7 +8,7 @@ system:
       <p><em>Wondrous item</em></p>
 
       <p>While wearing this helm, you can use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{Comprehend Languages}
+      @UUID[Compendium.degringo5e.spells.Item.4dSvfvTy2ZIJ3K4k]{Comprehend Languages}
       spell from it at will.</p>
     chat: ''
   source:
@@ -60,7 +60,7 @@ system:
     IdB6TzhzjLfc2Zlt:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k
+        uuid: Compendium.degringo5e.spells.Item.4dSvfvTy2ZIJ3K4k
         challenge:
           attack: null
           save: null
@@ -107,14 +107,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037299729
   modifiedTime: 1729015970591

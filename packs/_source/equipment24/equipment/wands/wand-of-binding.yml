@@ -7,7 +7,7 @@ system:
     FYtfhGIVPzCls9Mv:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+        uuid: Compendium.degringo5e.spells24.Item.phbsplHoldMonste
         challenge:
           attack: null
           save: 17
@@ -58,7 +58,7 @@ system:
     fKknnO6Gnieic15C:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+        uuid: Compendium.degringo5e.spells24.Item.phbsplHoldPerson
         challenge:
           attack: null
           save: 17
@@ -120,8 +120,8 @@ system:
       you can cast one of the spells (save DC 17) on the following table from
       it. The table indicates how many charges you must expend to cast the
       spell.</p><table><thead><tr><th><p>Spell</p></th><th><p>Charge
-      Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold
-      Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold
+      Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold
+      Monster}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
       Person}</p></td><td><p>2</p></td><td></td></tr></tbody></table><p><em><strong>Regaining
       Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at
       dawn. If you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the
@@ -190,14 +190,14 @@ system:
 effects: []
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704539

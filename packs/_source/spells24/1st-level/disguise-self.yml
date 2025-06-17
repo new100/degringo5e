@@ -106,7 +106,7 @@ type: spell
 img: icons/equipment/head/mask-carved-bird-grey-pink.webp
 effects:
   - name: Disguised
-    origin: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
+    origin: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe
     duration:
       rounds: null
       startTime: null
@@ -135,7 +135,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -147,14 +147,14 @@ sort: 3900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425949918
   modifiedTime: 1745256790565

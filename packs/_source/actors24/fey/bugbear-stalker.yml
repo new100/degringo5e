@@ -408,12 +408,12 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepMorningsta]{Morningstar}</p></div><h1>Bugbears</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.gzTUYPi9wHg0WMP0
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepMorningsta]{Morningstar}</p></div><h1>Bugbears</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.gzTUYPi9wHg0WMP0
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Bugbear
-        Stalker</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lMvm5fxnuHBDhxD2
+        Stalker</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lMvm5fxnuHBDhxD2
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Evil
@@ -715,15 +715,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepJavelin000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepJavelin000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714944
@@ -884,15 +884,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepMorningsta
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepMorningsta
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714944
@@ -959,10 +959,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainShirt
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmChainShirt
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714944
@@ -1012,7 +1012,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAbduct00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737680658024
       modifiedTime: 1745712714944
@@ -1075,7 +1075,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1104,7 +1104,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1112,7 +1112,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737680660013
       modifiedTime: 1745712714944
@@ -1268,7 +1268,7 @@ items:
     img: icons/skills/melee/hand-grip-staff-yellow-brown.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Item.mmQuickGrapple00
         _id: 5yLzwp2Gu803QgI9
         type: base
@@ -1306,7 +1306,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1315,7 +1315,7 @@ items:
         _key: >-
           !actors.items.effects!mmBugbearStalker.mmQuickGrapple00.5yLzwp2Gu803QgI9
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1323,7 +1323,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmQuickGrapple00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737680661239
       modifiedTime: 1745712714944
@@ -1336,12 +1336,12 @@ items:
 effects: []
 folder: EypLbRzz5Hphlv5M
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712714974

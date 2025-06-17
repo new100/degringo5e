@@ -93,7 +93,7 @@ system:
         name: ''
         formula: ''
       name: Teleport to Sanctuary
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       appliedEffects: []
     CJ6NOsqtoO3HCGjQ:
       type: utility
@@ -141,7 +141,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/items/background.svg
+      img: systems/degringo5e/icons/svg/items/background.svg
       appliedEffects: []
   identifier: word-of-recall
 _id: phbsplWordofReca
@@ -153,14 +153,14 @@ sort: 100007
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425978529
   modifiedTime: 1745256800278

@@ -407,10 +407,10 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}</p></div><h1>Skeletons</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.w1RMyPzpjolhQMVX
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Shortsword}</p></div><h1>Skeletons</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.w1RMyPzpjolhQMVX
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Skeleton</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.pm1ZyudVsOl0ve5C
+        mm"]</p><h2>Skeleton</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.pm1ZyudVsOl0ve5C
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -713,15 +713,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepShortsword
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepShortsword
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727054
@@ -881,15 +881,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepShortbow00
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepShortbow00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712727054
@@ -902,7 +902,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712727080

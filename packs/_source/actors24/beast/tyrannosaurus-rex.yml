@@ -618,7 +618,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -626,7 +626,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738012564209
       modifiedTime: 1745712729003
@@ -817,8 +817,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmTyrannosaurusR.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmTyrannosaurusR.Item.mmBite0000000000
         _id: zlY4Bf1g2pEv81sd
         type: base
         system: {}
@@ -849,7 +849,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: 1738012780149
           modifiedTime: 1738012846998
@@ -858,7 +858,7 @@ items:
         _key: >-
           !actors.items.effects!mmTyrannosaurusR.mmBite0000000000.zlY4Bf1g2pEv81sd
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -866,7 +866,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738012566013
       modifiedTime: 1745712729003
@@ -1010,7 +1010,7 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
         _id: uAvQlHXKSwnCjRtt
         type: base
@@ -1036,7 +1036,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1045,7 +1045,7 @@ items:
         _key: >-
           !actors.items.effects!mmTyrannosaurusR.mmTail0000000000.uAvQlHXKSwnCjRtt
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1053,7 +1053,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1738012567177
       modifiedTime: 1745712729003
@@ -1069,7 +1069,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712729031

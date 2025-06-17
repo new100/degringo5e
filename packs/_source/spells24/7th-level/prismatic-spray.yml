@@ -5,7 +5,7 @@ system:
       <p>Eight rays of light flash from you in a 60-foot Cone. Each creature in
       the Cone makes a Dexterity saving throw. For each target, roll 1d8 to
       determine which color ray affects it, consulting the Prismatic Rays
-      table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbPrismaticRays
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbPrismaticRays
       rollable=true caption=false]{Prismatic Rays}</p>
     chat: ''
   source:
@@ -166,7 +166,7 @@ system:
           calculation: spellcasting
           formula: ''
       name: Indigo Save (Con)
-      img: systems/dnd5e/icons/svg/abilities/constitution.svg
+      img: systems/degringo5e/icons/svg/abilities/constitution.svg
       appliedEffects: []
     aVMkONwxZ9IGOjZs:
       type: save
@@ -216,7 +216,7 @@ system:
           calculation: spellcasting
           formula: ''
       name: Violet Save (Wis)
-      img: systems/dnd5e/icons/svg/abilities/wisdom.svg
+      img: systems/degringo5e/icons/svg/abilities/wisdom.svg
       _id: aVMkONwxZ9IGOjZs
       appliedEffects: []
   identifier: prismatic-spray
@@ -226,7 +226,7 @@ img: icons/magic/light/beams-strike-blue.webp
 effects:
   - name: Petrifying (Indigo)
     img: icons/magic/defensive/armor-stone-skin.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplPrismaticS
+    origin: Compendium.degringo5e.spells24.Item.phbsplPrismaticS
     transfer: false
     _id: cCQh7iXKnT8PKmc1
     type: base
@@ -247,7 +247,7 @@ effects:
       If it successfully saves three times, the condition ends. If it fails
       three times, it has the &amp;Reference[Petrified] condition until it is
       freed by an effect like the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em> spell. The successes and failures needn’t be
       consecutive; keep track of both until the target collects three of a
       kind.</p>
@@ -260,7 +260,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724958684378
       modifiedTime: 1724959126557
@@ -269,7 +269,7 @@ effects:
     _key: '!items.effects!phbsplPrismaticS.cCQh7iXKnT8PKmc1'
   - name: Teleporting (Violet)
     img: icons/magic/control/silhouette-grow-shrink-blue.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplPrismaticS
+    origin: Compendium.degringo5e.spells24.Item.phbsplPrismaticS
     transfer: false
     _id: jFAGct9YCYvLJodW
     type: base
@@ -299,7 +299,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724959216304
       modifiedTime: 1724959310974
@@ -311,14 +311,14 @@ sort: 1000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425967138
   modifiedTime: 1745256797132

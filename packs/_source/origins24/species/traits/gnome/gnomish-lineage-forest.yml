@@ -11,9 +11,9 @@ system:
   description:
     value: >-
       <p>You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}
       cantrip. You also always have the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}
       spell prepared. You can cast it without a spell slot a number of times
       equal to your Proficiency Bonus, and you regain all expended uses when you
       finish a Long Rest. You can also use any spell slots you have to cast the
@@ -45,7 +45,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340832108
   modifiedTime: 1745687047732

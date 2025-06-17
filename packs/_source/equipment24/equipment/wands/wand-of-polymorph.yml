@@ -7,7 +7,7 @@ system:
     dJ9lbA7B6ysE0Md8:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplPolymorph0
         challenge:
           attack: null
           save: 15
@@ -63,7 +63,7 @@ system:
       <p><em>Wand, Very Rare (Requires Attunement by a
       Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can
       expend 1 charge to cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph} (save DC
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPolymorph0]{Polymorph} (save DC
       15) from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand
       regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's
       last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is
@@ -132,14 +132,14 @@ system:
 effects: []
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704746

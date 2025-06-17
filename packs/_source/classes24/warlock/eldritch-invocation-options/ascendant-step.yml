@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplLevitate00]{Levitate} on
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplLevitate00]{Levitate} on
       yourself without expending a spell slot.</p>
     chat: ''
   source:
@@ -99,7 +99,7 @@ effects:
       <p>The target can move only by pushing or pulling against a fixed object
       or surface within reach (such as a wall or a ceiling), which allows it to
       move as if it were climbing.</p>
-    origin: Compendium.dnd5e.classes24.Item.phbinvAscendantS
+    origin: Compendium.degringo5e.classes24.Item.phbinvAscendantS
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -107,10 +107,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplLevitate00.ActiveEffect.axhLHcJQHprSpHRD
+        Compendium.degringo5e.spells24.Item.phbsplLevitate00.ActiveEffect.axhLHcJQHprSpHRD
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -119,14 +119,14 @@ effects:
     _key: '!items.effects!phbinvAscendantS.GYjbKCZHH2Yl0vTI'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762003

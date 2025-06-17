@@ -79,7 +79,7 @@ export default class EnchantActivityData extends BaseActivityData {
    * @type {ActiveEffect5e[]}
    */
   get appliedEnchantments() {
-    return dnd5e.registry.enchantments.applied(this.uuid);
+    return degringo5e.registry.enchantments.applied(this.uuid);
   }
 
   /* -------------------------------------------- */
@@ -117,9 +117,9 @@ export default class EnchantActivityData extends BaseActivityData {
   static transformEffectsData(source, options) {
     const effects = [];
     for ( const effect of source.effects ) {
-      if ( (effect.type !== "enchantment") && (effect.flags?.dnd5e?.type !== "enchantment") ) continue;
-      effects.push({ _id: effect._id, ...(effect.flags?.dnd5e?.enchantment ?? {}) });
-      delete effect.flags?.dnd5e?.enchantment;
+      if ( (effect.type !== "enchantment") && (effect.flags?.degringo5e?.type !== "enchantment") ) continue;
+      effects.push({ _id: effect._id, ...(effect.flags?.degringo5e?.enchantment ?? {}) });
+      delete effect.flags?.degringo5e?.enchantment;
     }
     return effects;
   }

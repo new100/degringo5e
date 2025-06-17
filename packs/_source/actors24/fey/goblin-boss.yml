@@ -408,13 +408,13 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}</p></div><h1>Goblins</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepScimitar00]{Scimitar},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}</p></div><h1>Goblins</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Goblin
-        Boss</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bgTL13d21Sxf05VY
+        Boss</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bgTL13d21Sxf05VY
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Chaotic Neutral
@@ -796,15 +796,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepScimitar00
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepScimitar00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720078
@@ -1040,15 +1040,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepShortbow00
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepShortbow00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720078
@@ -1115,10 +1115,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainShirt
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmChainShirt
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720078
@@ -1189,10 +1189,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmShield0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720078
@@ -1254,7 +1254,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1284,7 +1284,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1292,7 +1292,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737738597107
       modifiedTime: 1745712720078
@@ -1356,7 +1356,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1385,7 +1385,7 @@ items:
     img: icons/skills/movement/ball-spinning-blue.webp
     effects:
       - name: Apply Hide Action to Target
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
+        img: systems/degringo5e/icons/svg/statuses/hiding.svg
         origin: Item.mmNimbleEscape00
         _id: 7U7Pe61lsMZgN7qh
         type: base
@@ -1419,7 +1419,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: null
           modifiedTime: null
@@ -1428,7 +1428,7 @@ items:
         _key: >-
           !actors.items.effects!mmGoblinBoss0000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1436,7 +1436,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNimbleEscape00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737738599249
       modifiedTime: 1745712720078
@@ -1502,7 +1502,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1538,7 +1538,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1546,7 +1546,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRedirectAttack
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737738600513
       modifiedTime: 1745712720078
@@ -1562,7 +1562,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712720107

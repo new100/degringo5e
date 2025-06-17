@@ -601,7 +601,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAirForm0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
@@ -648,7 +648,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -656,7 +656,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmInvisibility00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
@@ -739,7 +739,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -747,7 +747,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
@@ -887,7 +887,7 @@ items:
     img: icons/magic/air/air-wave-gust-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -895,7 +895,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWindSwipe00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
@@ -1117,7 +1117,7 @@ items:
     img: icons/magic/air/wind-vortex-swirl-blue.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Item.mmVortex00000000
         _id: fWPQye4Mr7VNbX9J
         type: base
@@ -1157,7 +1157,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1166,7 +1166,7 @@ items:
         _key: >-
           !actors.items.effects!mmInvisibleStalk.mmVortex00000000.fWPQye4Mr7VNbX9J
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1174,7 +1174,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVortex00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722047
@@ -1187,11 +1187,11 @@ items:
 effects:
   - name: Invisible
     _id: dnd5einvisible00
-    img: systems/dnd5e/icons/svg/statuses/invisible.svg
+    img: systems/degringo5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
     description: >-
-      @Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
+      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
       inline]
     type: base
     system: {}
@@ -1214,7 +1214,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -1226,7 +1226,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415528484
   modifiedTime: 1745712722074

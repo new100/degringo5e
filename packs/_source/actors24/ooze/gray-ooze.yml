@@ -343,10 +343,10 @@ system:
     biography:
       value: >-
         <h1>Gray
-        Oozes</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.IMrvogdwbM9y1eDJ
+        Oozes</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.IMrvogdwbM9y1eDJ
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Gray
-        Ooze</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3CtaZvXT0QtPFi3T
+        Ooze</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3CtaZvXT0QtPFi3T
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Unaligned
@@ -526,7 +526,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmorphous00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737044344846
       modifiedTime: 1740680152422
@@ -556,7 +556,7 @@ items:
           immediately after dealing damage to the [[lookup @name lowercase]] and
           coming into contact with it. The weapon is destroyed if the penalty
           reaches −5. The penalty can be removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
           spell on the weapon.</p><p class="feature">The [[lookup @name
           lowercase]] can eat through 2-inch-thick, nonmagical metal or wood in
           1 round.</p><section class="secret"
@@ -619,7 +619,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -628,7 +628,7 @@ items:
         _key: >-
           !actors.items.effects!mmGrayOoze000000.mmCorrosiveForm0.caD7IB1k2XLnkUDS
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -636,7 +636,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCorrosiveForm0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737044480544
       modifiedTime: 1740680152422
@@ -705,7 +705,7 @@ items:
           Nonmagical armor worn by the target takes a −1 penalty to the AC it
           offers. The armor is destroyed if the penalty reduces its AC to 10.
           The penalty can be removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
           spell on the armor.</p><section class="secret"
           id="secret-RpEIbnL6lqJ2F9gS"><p><strong>Foundry
           Note</strong></p><p>This feature provides an <strong>AC
@@ -799,7 +799,7 @@ items:
           <p>Nonmagical armor worn by the target takes a −1 penalty to the AC it
           offers. The armor is destroyed if the penalty reduces its AC to 10.
           The penalty can be removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
           spell on the armor.</p>
         origin: null
         tint: '#ffffff'
@@ -811,7 +811,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: 1737045216647
           modifiedTime: 1737045356349
@@ -820,7 +820,7 @@ items:
         _key: >-
           !actors.items.effects!mmGrayOoze000000.mmPseudopod00000.UGL33MKaIUmf7sRj
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -828,7 +828,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPseudopod00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737044686755
       modifiedTime: 1740680152422
@@ -844,7 +844,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745256821031

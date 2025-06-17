@@ -27,59 +27,59 @@ export default class NPCActorSheet extends BaseActorSheet {
   /** @override */
   static PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/npc-header.hbs"
+      template: "systems/degringo5e/templates/actors/npc-header.hbs"
     },
     sidebarCollapser: {
       container: { classes: ["main-content"], id: "main" },
-      template: "systems/dnd5e/templates/actors/npc-sidebar-collapser.hbs"
+      template: "systems/degringo5e/templates/actors/npc-sidebar-collapser.hbs"
     },
     sidebar: {
       container: { classes: ["main-content"], id: "main" },
-      template: "systems/dnd5e/templates/actors/npc-sidebar.hbs"
+      template: "systems/degringo5e/templates/actors/npc-sidebar.hbs"
     },
     features: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-features.hbs",
-      templates: ["systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs"],
+      template: "systems/degringo5e/templates/actors/tabs/actor-features.hbs",
+      templates: ["systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs"],
       scrollable: [""]
     },
     inventory: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-inventory.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/actor-inventory.hbs",
       templates: [
-        "systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs",
-        "systems/dnd5e/templates/inventory/encumbrance.hbs"
+        "systems/degringo5e/templates/inventory/inventory.hbs", "systems/degringo5e/templates/inventory/activity.hbs",
+        "systems/degringo5e/templates/inventory/encumbrance.hbs"
       ],
       scrollable: [""]
     },
     spells: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-spells.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/creature-spells.hbs",
       scrollable: [""]
     },
     effects: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/actor-effects.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/actor-effects.hbs",
       scrollable: [""]
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/npc-biography.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/npc-biography.hbs",
       scrollable: [""]
     },
     specialTraits: {
       classes: ["flexcol"],
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/tabs/creature-special-traits.hbs",
+      template: "systems/degringo5e/templates/actors/tabs/creature-special-traits.hbs",
       scrollable: [""]
     },
     warnings: {
-      template: "systems/dnd5e/templates/actors/parts/actor-warnings-dialog.hbs"
+      template: "systems/degringo5e/templates/actors/parts/actor-warnings-dialog.hbs"
     },
     tabs: {
       id: "tabs",
       classes: ["tabs-right"],
-      template: "systems/dnd5e/templates/shared/sidebar-tabs.hbs"
+      template: "systems/degringo5e/templates/shared/sidebar-tabs.hbs"
     }
   };
 
@@ -87,12 +87,12 @@ export default class NPCActorSheet extends BaseActorSheet {
 
   /** @override */
   static TABS = [
-    { tab: "features", label: "DND5E.Features", icon: "fas fa-list" },
-    { tab: "inventory", label: "DND5E.Inventory", svg: "systems/dnd5e/icons/svg/backpack.svg" },
+    { tab: "features", label: "DEGRINGO5E.Features", icon: "fas fa-list" },
+    { tab: "inventory", label: "DEGRINGO5E.Inventory", svg: "systems/degringo5e/icons/svg/backpack.svg" },
     { tab: "spells", label: "TYPES.Item.spellPl", icon: "fas fa-book" },
-    { tab: "effects", label: "DND5E.Effects", icon: "fas fa-bolt" },
-    { tab: "biography", label: "DND5E.Biography", icon: "fas fa-feather" },
-    { tab: "specialTraits", label: "DND5E.SpecialTraits", icon: "fas fa-star" }
+    { tab: "effects", label: "DEGRINGO5E.Effects", icon: "fas fa-bolt" },
+    { tab: "biography", label: "DEGRINGO5E.Biography", icon: "fas fa-feather" },
+    { tab: "specialTraits", label: "DEGRINGO5E.SpecialTraits", icon: "fas fa-star" }
   ];
 
   /* -------------------------------------------- */
@@ -210,7 +210,7 @@ export default class NPCActorSheet extends BaseActorSheet {
    * @protected
    */
   async _prepareFeaturesContext(context, options) {
-    const sections = Object.entries(CONFIG.DND5E.activityActivationTypes).reduce((obj, [id, config], i) => {
+    const sections = Object.entries(CONFIG.DEGRINGO5E.activityActivationTypes).reduce((obj, [id, config], i) => {
       const { header: label, passive } = config;
       if ( passive ) return obj;
       obj[id] ??= {
@@ -220,7 +220,7 @@ export default class NPCActorSheet extends BaseActorSheet {
       return obj;
     }, {});
     sections.passive = {
-      id: "passive", label: "DND5E.Features", order: 0, items: [], minWidth: 210,
+      id: "passive", label: "DEGRINGO5E.Features", order: 0, items: [], minWidth: 210,
       columns: ["recovery", "uses", "roll", "formula", "controls"]
     };
     context.itemCategories.features?.forEach(i => {
@@ -229,14 +229,14 @@ export default class NPCActorSheet extends BaseActorSheet {
     });
     context.sections = customElements.get(this.options.elements.inventory).prepareSections(Object.values(sections));
     context.listControls = {
-      label: "DND5E.FeatureSearch",
+      label: "DEGRINGO5E.FeatureSearch",
       list: "features",
       filters: [
-        { key: "action", label: "DND5E.ACTIVATION.Type.Action.Label" },
-        { key: "bonus", label: "DND5E.ACTIVATION.Type.BonusAction.Label" },
-        { key: "reaction", label: "DND5E.ACTIVATION.Type.Reaction.Label" },
-        { key: "legendary", label: "DND5E.ACTIVATION.Type.Legendary.Label" },
-        { key: "lair", label: "DND5E.ACTIVATION.Type.Lair.Label" }
+        { key: "action", label: "DEGRINGO5E.ACTIVATION.Type.Action.Label" },
+        { key: "bonus", label: "DEGRINGO5E.ACTIVATION.Type.BonusAction.Label" },
+        { key: "reaction", label: "DEGRINGO5E.ACTIVATION.Type.Reaction.Label" },
+        { key: "legendary", label: "DEGRINGO5E.ACTIVATION.Type.Legendary.Label" },
+        { key: "lair", label: "DEGRINGO5E.ACTIVATION.Type.Lair.Label" }
       ],
       sorting: [
         { key: "m", label: "SIDEBAR.SortModeManual", dataset: { icon: "fa-solid fa-arrow-down-short-wide" } },
@@ -281,8 +281,8 @@ export default class NPCActorSheet extends BaseActorSheet {
         if ( filled ) classes.push("filled");
         return {
           n, filled,
-          tooltip: `DND5E.${i18n}.Label`,
-          label: game.i18n.format(`DND5E.${i18n}.Ordinal.${plurals.select(n)}`, { n }),
+          tooltip: `DEGRINGO5E.${i18n}.Label`,
+          label: game.i18n.format(`DEGRINGO5E.${i18n}.Ordinal.${plurals.select(n)}`, { n }),
           classes: classes.join(" ")
         };
       });
@@ -293,9 +293,9 @@ export default class NPCActorSheet extends BaseActorSheet {
     // Visibility
     if ( this._mode === this.constructor.MODES.PLAY ) {
       context.showDeathSaves = context.important && !context.system.attributes.hp.value;
-      context.showInitiativeScore = game.settings.get("dnd5e", "rulesVersion") === "modern";
+      context.showInitiativeScore = game.settings.get("degringo5e", "rulesVersion") === "modern";
     }
-    context.showLoyalty = context.important && game.settings.get("dnd5e", "loyaltyScore") && game.user.isGM;
+    context.showLoyalty = context.important && game.settings.get("degringo5e", "loyaltyScore") && game.user.isGM;
 
     return context;
   }
@@ -327,9 +327,9 @@ export default class NPCActorSheet extends BaseActorSheet {
       const any = details.habitat.value.find(({ type }) => type === "any");
       context.habitat = [
         ...habitat.value.map(({ type, subtype }) => {
-          let { label } = CONFIG.DND5E.habitats[type] ?? {};
+          let { label } = CONFIG.DEGRINGO5E.habitats[type] ?? {};
           if ( label && (!any || (type === "any")) ) {
-            if ( subtype ) label = game.i18n.format("DND5E.Habitat.Subtype", { type: label, subtype });
+            if ( subtype ) label = game.i18n.format("DEGRINGO5E.Habitat.Subtype", { type: label, subtype });
             return { label };
           }
           return null;
@@ -342,23 +342,23 @@ export default class NPCActorSheet extends BaseActorSheet {
     context.senses = this._prepareSenses(context);
     if ( this.actor.system.skills.prc ) context.senses.push({
       key: "passivePerception",
-      label: game.i18n.localize("DND5E.PassivePerception"),
+      label: game.i18n.localize("DEGRINGO5E.PassivePerception"),
       value: this.actor.system.skills.prc.passive
     });
 
     // Skills & Tools
-    const skillSetting = game.settings.get("dnd5e", "defaultSkills");
+    const skillSetting = game.settings.get("degringo5e", "defaultSkills");
     context.skills = this._prepareSkillsTools(context, "skills")
       .filter(v => v.value || skillSetting.has(v.key) || v.bonuses.check || v.bonuses.passive);
     context.tools = this._prepareSkillsTools(context, "tools");
 
     // Speed
-    context.speed = Object.entries(CONFIG.DND5E.movementTypes).map(([k, label]) => {
+    context.speed = Object.entries(CONFIG.DEGRINGO5E.movementTypes).map(([k, label]) => {
       const value = attributes.movement[k];
       if ( !value ) return null;
       const data = { label, value };
       if ( (k === "fly") && attributes.movement.hover ) data.icons = [{
-        icon: "fas fa-cloud", label: game.i18n.localize("DND5E.MovementHover")
+        icon: "fas fa-cloud", label: game.i18n.localize("DEGRINGO5E.MovementHover")
       }];
       return data;
     }).filter(_ => _);
@@ -371,7 +371,7 @@ export default class NPCActorSheet extends BaseActorSheet {
       const any = details.treasure.value.has("any");
       context.treasure = Array.from(details.treasure.value)
         .map(id => {
-          const { label } = CONFIG.DND5E.treasure[id] ?? {};
+          const { label } = CONFIG.DEGRINGO5E.treasure[id] ?? {};
           if ( label && (!any || (id === "any")) ) return { label };
           return null;
         }, [])
@@ -389,7 +389,7 @@ export default class NPCActorSheet extends BaseActorSheet {
     context = await super._prepareSpecialTraitsContext(context, options);
 
     context.flags.sections.unshift({
-      label: game.i18n.localize("DND5E.NPC.Label"),
+      label: game.i18n.localize("DEGRINGO5E.NPC.Label"),
       fields: [{
         field: this.document.system.schema.fields.traits.fields.important,
         input: createCheckboxInput,
@@ -418,20 +418,20 @@ export default class NPCActorSheet extends BaseActorSheet {
     const mod = spellAbility?.mod ?? 0;
     const attackBonus = msak === rsak ? msak : 0;
     context.spellcasting.push({
-      label: game.i18n.format("DND5E.SpellcastingClass", {
-        class: spellcaster?.name ?? game.i18n.format("DND5E.NPC.Label")
+      label: game.i18n.format("DEGRINGO5E.SpellcastingClass", {
+        class: spellcaster?.name ?? game.i18n.format("DEGRINGO5E.NPC.Label")
       }),
       level: spellcaster?.system.levels ?? attributes.spell.level,
       ability: {
         ability, mod,
-        label: CONFIG.DND5E.abilities[ability]?.abbreviation
+        label: CONFIG.DEGRINGO5E.abilities[ability]?.abbreviation
       },
       attack: mod + attributes.prof + attackBonus,
       save: spellAbility?.dc ?? 0,
       noSpellcaster: !spellcaster,
       concentration: {
         mod: attributes.concentration.save,
-        tooltip: game.i18n.format("DND5E.AbilityConfigure", { ability: game.i18n.localize("DND5E.Concentration") })
+        tooltip: game.i18n.format("DEGRINGO5E.AbilityConfigure", { ability: game.i18n.localize("DEGRINGO5E.Concentration") })
       }
     });
 
@@ -483,7 +483,7 @@ export default class NPCActorSheet extends BaseActorSheet {
   async _prepareItem(item, ctx) {
     await super._prepareItem(item, ctx);
     const isPassive = item.system.properties?.has("trait")
-      || CONFIG.DND5E.activityActivationTypes[item.system.activities?.contents[0]?.activation.type]?.passive;
+      || CONFIG.DEGRINGO5E.activityActivationTypes[item.system.activities?.contents[0]?.activation.type]?.passive;
     ctx.group = isPassive ? "passive" : item.system.activities?.contents[0]?.activation.type || "passive";
   }
 
@@ -505,7 +505,7 @@ export default class NPCActorSheet extends BaseActorSheet {
     const elements = this.element.querySelector(".header-elements .cr-xp");
     if ( !elements || this.actor.limited ) return;
     const xp = this.actor.system.details.xp.value;
-    elements.innerText = xp === null ? "" : game.i18n.format("DND5E.ExperiencePoints.Format", {
+    elements.innerText = xp === null ? "" : game.i18n.format("DEGRINGO5E.ExperiencePoints.Format", {
       value: formatNumber(xp)
     });
 

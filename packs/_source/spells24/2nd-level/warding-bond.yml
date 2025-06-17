@@ -98,7 +98,7 @@ type: spell
 img: icons/magic/movement/abstract-ribbons-red-orange.webp
 effects:
   - name: Bonded
-    origin: Compendium.dnd5e.spells24.Item.phbsplWardingBon
+    origin: Compendium.degringo5e.spells24.Item.phbsplWardingBon
     duration:
       rounds: null
       startTime: null
@@ -189,7 +189,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -201,14 +201,14 @@ sort: 112500
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425977406
   modifiedTime: 1745256799886

@@ -613,7 +613,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -646,7 +646,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -654,7 +654,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -705,7 +705,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -768,7 +768,7 @@ items:
             name: Roll d6
             formula: 1d6
           name: Roll d6
-          img: systems/dnd5e/icons/svg/dice/d6.svg
+          img: systems/degringo5e/icons/svg/dice/d6.svg
       uses:
         spent: 0
         recovery: []
@@ -776,7 +776,7 @@ items:
       description:
         value: >-
           <p class="feature">If the [[lookup @name lowercase]] is targeted by a
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
           Missile}</em> spell or a spell that requires a ranged attack roll,
           roll [[/r 1d6]].</p><p class="feature">On a <strong>1–5</strong>, the
           [[lookup @name lowercase]] is unaffected.</p><p class="feature">On a
@@ -803,7 +803,7 @@ items:
     img: icons/commodities/biological/shell-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -811,7 +811,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmReflectiveCara
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -874,7 +874,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -905,7 +905,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -913,7 +913,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -1108,8 +1108,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmTarrasque00000.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmTarrasque00000.Item.mmBite0000000000
         _id: wMLRjKVfS2fpTjiH
         type: base
         system: {}
@@ -1140,7 +1140,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1149,7 +1149,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.mmBite0000000000.wMLRjKVfS2fpTjiH
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1157,7 +1157,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -1290,7 +1290,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaw0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -1434,8 +1434,8 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmTarrasque00000.Item.mmTail0000000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmTarrasque00000.Item.mmTail0000000000
         _id: rpn1911j8EHqAHMP
         type: base
         system: {}
@@ -1462,7 +1462,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1471,7 +1471,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.mmTail0000000000.rpn1911j8EHqAHMP
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1479,7 +1479,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -1606,7 +1606,7 @@ items:
     img: icons/magic/sonic/explosion-shock-sound-wave.webp
     effects:
       - name: Deafened & Frightened
-        img: systems/dnd5e/icons/svg/statuses/deafened.svg
+        img: systems/degringo5e/icons/svg/statuses/deafened.svg
         origin: Item.mmThunderousBell
         _id: DDrzXcjt2wWiTS9J
         type: base
@@ -1645,7 +1645,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1654,7 +1654,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.mmThunderousBell.DDrzXcjt2wWiTS9J
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1662,7 +1662,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmThunderousBell
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -1895,7 +1895,7 @@ items:
     img: icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp
     effects:
       - name: Blinded, Restrained, and Total Cover
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmSwallow0000000
         _id: VOHv1LyO3hHolZXo
         type: base
@@ -1934,7 +1934,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1943,7 +1943,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.mmSwallow0000000.VOHv1LyO3hHolZXo
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
         _id: aS5FyMP72vn3OKf1
         type: base
@@ -1980,7 +1980,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1989,7 +1989,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.mmSwallow0000000.aS5FyMP72vn3OKf1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1997,7 +1997,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwallow0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -2060,7 +2060,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -2090,7 +2090,7 @@ items:
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2098,7 +2098,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmOnslaught00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -2166,7 +2166,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -2203,7 +2203,7 @@ items:
     img: icons/magic/earth/barrier-stone-brown-green.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmWorldshakingMo
         _id: ERWPInrx4mXsqrwL
         type: base
@@ -2241,7 +2241,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2250,7 +2250,7 @@ items:
         _key: >-
           !actors.items.effects!mmTarrasque00000.kBI2qYix7GyXmhaD.ERWPInrx4mXsqrwL
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2258,7 +2258,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWorldshakingMo
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -2309,7 +2309,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSiegeMonster00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728520
@@ -2325,7 +2325,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712728556

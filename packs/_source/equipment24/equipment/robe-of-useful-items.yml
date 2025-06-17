@@ -323,16 +323,16 @@ system:
       object or creature it represents. Once the last patch is removed, the robe
       becomes an ordinary garment.</p><p>The robe has two of each of the
       following
-      patches:</p><ul><li>@UUID[Compendium.dnd5e.equipment24.Item.KZUoiZrigDbovEu7]{Bullseye
+      patches:</p><ul><li>@UUID[Compendium.degringo5e.equipment24.Item.KZUoiZrigDbovEu7]{Bullseye
       Lantern} (filled and lit)</li>
-      <li>@UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}</li>
-      <li>@UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}</li>
-      <li>@UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{Pole}</li>
-      <li>@UUID[Compendium.dnd5e.equipment24.Item.x8jC9e00t4cUYiKR]{Rope}
-      (coiled)</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack}</li></ul><p>In
+      <li>@UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Dagger}</li>
+      <li>@UUID[Compendium.degringo5e.equipment24.Item.phbagMirror00000]{Mirror}</li>
+      <li>@UUID[Compendium.degringo5e.equipment24.Item.phbagPole0000000]{Pole}</li>
+      <li>@UUID[Compendium.degringo5e.equipment24.Item.x8jC9e00t4cUYiKR]{Rope}
+      (coiled)</li><li>@UUID[Compendium.degringo5e.equipment24.Item.phbagSack0000000]{Sack}</li></ul><p>In
       addition, the robe has [[/r 4d4]] other patches. The GM chooses the
       patches or determines them randomly by rolling on the following
-      table.</p><details><summary>Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRobeOfUsefulI
+      table.</p><details><summary>Table</summary><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgRobeOfUsefulI
       rollable]</p></details><section class="secret"
       id="secret-xQk1DSLrx4a4jmWy"><p><strong>Foundry Note</strong></p><p>This
       item includes activities for each of the always present patches above
@@ -381,14 +381,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712703012

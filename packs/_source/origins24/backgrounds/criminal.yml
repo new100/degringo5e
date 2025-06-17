@@ -1,7 +1,7 @@
 name: Criminal
 system:
   description:
-    value: "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies:</strong> Sleight of Hand and Stealth</p><p><strong>Tool Proficiency:</strong> Thieves' Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 16\_GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>"
+    value: "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.degringo5e.feats24.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies:</strong> Sleight of Hand and Stealth</p><p><strong>Tool Proficiency:</strong> Thieves' Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) 2 @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.degringo5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools}, @UUID[Compendium.degringo5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 @UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.degringo5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 16\_GP; or (B) 50 GP</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgCriminal000 inline classes=\"free-rules-embed\"]</p>"
     chat: ''
   source:
     custom: ''
@@ -17,35 +17,35 @@ system:
       sort: 100000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: 7B991PQwtEPst2lm
       group: FIqxCvfdb4YPaDyl
       sort: 200000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbtulThievesToo
+      key: Compendium.degringo5e.equipment24.Item.phbtulThievesToo
       requiresProficiency: false
       _id: AlpgDfVKgcYd5rLC
       group: FIqxCvfdb4YPaDyl
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagCrowbar0000
+      key: Compendium.degringo5e.equipment24.Item.phbagCrowbar0000
       requiresProficiency: false
       _id: 8PuRM4pC5hnCsIxs
       group: FIqxCvfdb4YPaDyl
       sort: 400000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+      key: Compendium.degringo5e.equipment24.Item.phbagPouch000000
       requiresProficiency: false
       _id: mp0feeLVQbHaU276
       group: FIqxCvfdb4YPaDyl
       sort: 500000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+      key: Compendium.degringo5e.equipment24.Item.phbagClothesTrav
       requiresProficiency: false
       _id: 2txtXcXiPUM87Yb7
       group: FIqxCvfdb4YPaDyl
@@ -82,7 +82,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.feats24.Item.phbftAlert000000
+            uuid: Compendium.degringo5e.feats24.Item.phbftAlert000000
         optional: false
         spell: null
       value: {}
@@ -139,7 +139,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866666283
   modifiedTime: 1745687868405

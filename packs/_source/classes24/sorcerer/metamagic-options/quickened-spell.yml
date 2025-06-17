@@ -47,7 +47,7 @@ system:
         targets:
           - type: itemUses
             value: '2'
-            target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+            target: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
             scaling: {}
       description:
         chatFlavor: ''
@@ -86,14 +86,14 @@ system:
 effects: []
 folder: 6RKLEZHPbdWG3fZe
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745256762774

@@ -5,14 +5,14 @@ system:
       <p class="phb-meta"><strong>Ability:</strong> Dexterity</p><p
       class="phb-meta"><strong>Utilize:</strong> Carve a pattern in wood (DC
       10)</p><p class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepClub000000]{Club},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepClub000000]{Club},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreatclub0]{Greatclub},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff},
       Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus,
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}, Druidic
-      Focus, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pen},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoArrows0000]{Arrows},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoBolts00000]{Bolts}, Druidic
+      Focus, @UUID[Compendium.degringo5e.equipment24.Item.phbagInkPen00000]{Ink Pen},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbamoNeedles000]{Needles}</p>
     chat: ''
   source:
     custom: ''
@@ -114,14 +114,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918104
   modifiedTime: 1740680143044

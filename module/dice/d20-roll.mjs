@@ -211,7 +211,7 @@ export default class D20Roll extends BasicRoll {
     let advantage = true;
     let disadvantage = true;
 
-    const rtLabel = game.i18n.localize("DND5E.FlagsReliableTalent");
+    const rtLabel = game.i18n.localize("DEGRINGO5E.FlagsReliableTalent");
     for ( const roll of rolls ) {
       if ( !roll.validD20Roll ) continue;
       if ( !roll.hasAdvantage ) advantage = false;
@@ -222,8 +222,8 @@ export default class D20Roll extends BasicRoll {
     }
 
     messageData.flavor ??= "";
-    if ( advantage ) messageData.flavor += ` (${game.i18n.localize("DND5E.Advantage")})`;
-    else if ( disadvantage ) messageData.flavor += ` (${game.i18n.localize("DND5E.Disadvantage")})`;
+    if ( advantage ) messageData.flavor += ` (${game.i18n.localize("DEGRINGO5E.Advantage")})`;
+    else if ( disadvantage ) messageData.flavor += ` (${game.i18n.localize("DEGRINGO5E.Disadvantage")})`;
   }
 
   /* -------------------------------------------- */

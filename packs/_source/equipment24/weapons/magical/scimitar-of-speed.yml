@@ -66,7 +66,7 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}),
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepScimitar00]{Scimitar}),
       Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack
       rolls and damage rolls made with this magic weapon. In addition, you can
       make one attack with it as a Bonus Action on each of your turns.</p>
@@ -139,14 +139,14 @@ system:
 effects: []
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

@@ -3,7 +3,7 @@ system:
   description:
     value: >-
       <p><em><strong>Storage:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition}
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.degringo5e.equipment24.Item.phbagAmmunitionV]{Ammunition}
       is required by a weapon that has the Ammunition property. A weapon's
       description specifies the type of ammunition used by the weapon. The
       Ammunition table lists the different types and the amount you get when you
@@ -62,14 +62,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425913154
   modifiedTime: 1745256813251

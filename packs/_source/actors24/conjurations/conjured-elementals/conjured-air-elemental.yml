@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -488,7 +488,7 @@ items:
     system:
       description:
         value: >-
-          <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplConjureEle
+          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
           caption=false]</p>
         chat: ''
       source:
@@ -671,7 +671,7 @@ items:
           startTurn: null
         disabled: false
         flags: {}
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         _id: NGnrAr3HdReYoTjS
         type: base
         system: {}
@@ -691,7 +691,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: null
           modifiedTime: null
@@ -704,7 +704,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -712,7 +712,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160164
@@ -722,12 +722,12 @@ items:
 effects: []
 folder: UvlQFmKuGiSS9WJd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918299
   modifiedTime: 1745256830009

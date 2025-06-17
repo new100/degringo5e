@@ -597,7 +597,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmorphous00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714418
@@ -685,7 +685,7 @@ items:
           to the [[lookup @name lowercase]] and coming into contact with it. The
           weapon is destroyed if the penalty reaches −5. The penalty can be
           removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
           spell on the weapon.</p><p class="feature">In 1 minute, the [[lookup
           @name lowercase]] can eat through 2 feet of nonmagical wood or
           metal.</p><section id="secret-NtgKYdQoCuiAaxOa"
@@ -748,7 +748,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -757,7 +757,7 @@ items:
         _key: >-
           !actors.items.effects!mmBlackPudding00.mmCorrosiveForm0.caD7IB1k2XLnkUDS
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -765,7 +765,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCorrosiveForm0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714418
@@ -817,7 +817,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpiderClimb000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714418
@@ -897,7 +897,7 @@ items:
             - count: '2'
               name: Black Pudding
               _id: tqwi23UTxK7RtlbZ
-              uuid: Compendium.dnd5e.actors24.Actor.mmBlackPudding00
+              uuid: Compendium.degringo5e.actors24.Actor.mmBlackPudding00
               level:
                 min: null
                 max: null
@@ -941,7 +941,7 @@ items:
     img: icons/creatures/slimes/slime-movement-pseudopod-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -949,7 +949,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSplit000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714418
@@ -1030,7 +1030,7 @@ items:
           Nonmagical armor worn by the target takes a -1 penalty to the AC it
           offers. The armor is destroyed if the penalty reduces its AC to 10.
           The penalty can be removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
           spell on the armor.</p>
         chat: ''
       identifier: dissolving-pseudopod
@@ -1137,7 +1137,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1146,7 +1146,7 @@ items:
         _key: >-
           !actors.items.effects!mmBlackPudding00.mmDissolvingPseu.qYzNNpsYbmdB2cg6
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1154,7 +1154,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDissolvingPseu
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714418
@@ -1170,7 +1170,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416058088
   modifiedTime: 1745712714450

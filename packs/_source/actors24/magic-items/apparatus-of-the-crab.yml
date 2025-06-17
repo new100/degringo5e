@@ -94,7 +94,7 @@ system:
     biography:
       value: >-
         <p>To be used as a vehicle, the
-        @UUID[Compendium.dnd5e.equipment24.Item.dmgApparatusOfKw]{apparatus}
+        @UUID[Compendium.degringo5e.equipment24.Item.dmgApparatusOfKw]{apparatus}
         requires one pilot. While the apparatus’s hatch is closed, the
         compartment is airtight and watertight. The compartment holds enough air
         for 10 hours of breathing, divided by the number of breathing creatures
@@ -353,7 +353,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -361,7 +361,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712710795
@@ -510,7 +510,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -518,7 +518,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712710795
@@ -562,7 +562,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: 1728508865121
@@ -596,7 +596,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
@@ -629,7 +629,7 @@ effects:
       compendiumSource: Actor.dmgApparatusofKw.ActiveEffect.xIiZeSr9KPqMrDFq
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
@@ -663,7 +663,7 @@ effects:
       compendiumSource: Actor.dmgApparatusofKw.ActiveEffect.xIiZeSr9KPqMrDFq
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
@@ -697,7 +697,7 @@ effects:
       compendiumSource: Actor.dmgApparatusofKw.ActiveEffect.xIiZeSr9KPqMrDFq
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
@@ -733,7 +733,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
@@ -745,7 +745,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728507975227
   modifiedTime: 1745712710820

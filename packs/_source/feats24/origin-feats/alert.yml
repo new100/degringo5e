@@ -43,7 +43,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.dnd5e.initiativeAlert
+      - key: flags.degringo5e.initiativeAlert
         mode: 2
         value: 'true'
         priority: null
@@ -63,14 +63,14 @@ effects:
     statuses: []
     sort: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -82,14 +82,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866666366
   modifiedTime: 1745256780460

@@ -6,7 +6,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplJump000000]{Jump} on
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplJump000000]{Jump} on
       yourself without expending a spell slot.</p><section
       id="secret-JpQyXOJAkEKVXxff" class="secret"><p><strong>Foundry
       Note</strong></p><p>This feature can be used in place of the Jump spell
@@ -84,7 +84,7 @@ system:
   identifier: otherworldly-leap
 effects:
   - name: Jump
-    origin: Compendium.dnd5e.spells24.Item.phbsplJump000000
+    origin: Compendium.degringo5e.spells24.Item.phbsplJump000000
     duration:
       rounds: 1
       startTime: null
@@ -111,7 +111,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -120,14 +120,14 @@ effects:
     _key: '!items.effects!phbinvOtherworld.Esyd01OZ3NCv8gtp'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762472

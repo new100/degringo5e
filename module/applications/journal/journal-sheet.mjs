@@ -11,7 +11,7 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     const options = super.defaultOptions;
-    options.classes.push("dnd5e2-journal");
+    options.classes.push("degringo5e2-journal");
     return options;
   }
 
@@ -48,7 +48,7 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
     const header = html.querySelector(".journal-entry-content .journal-header");
 
     // Insert navigation
-    const nav = this.document.getFlag("dnd5e", "navigation");
+    const nav = this.document.getFlag("degringo5e", "navigation");
     if ( nav ) {
       const getDocument = id => {
         if ( !this.document.pack ) return game.journal.get(id);
@@ -62,11 +62,11 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
       element.innerHTML = `
         <ul>
           <li>${previous ? `<a class="content-link" data-uuid="${previous.uuid}" rel="prev" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Previous" data-tooltip-direction="LEFT"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Previous" data-tooltip-direction="LEFT"></a>` : ""}</li>
           <li>${up ? `<a class="content-link parent" data-uuid="${up.uuid}" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Up"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Up"></a>` : ""}</li>
           <li>${next ? `<a class="content-link" data-uuid="${next.uuid}" rel="next" data-link
-            data-tooltip="DND5E.JOURNALENTRY.Navigation.Next" data-tooltip-direction="RIGHT"></a>` : ""}</li>
+            data-tooltip="DEGRINGO5E.JOURNALENTRY.Navigation.Next" data-tooltip-direction="RIGHT"></a>` : ""}</li>
         </ul>
       `;
       if ( previous ) element.querySelector("[rel=prev]").innerText = previous.name;
@@ -89,7 +89,7 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
       let element;
       if ( context.editable ) element = jQuery[0];
       else element = jQuery[0].parentElement;
-      element?.classList.add("dnd5e2-journal");
+      element?.classList.add("degringo5e2-journal");
     }
   }
 
@@ -104,7 +104,7 @@ export default class JournalSheet5e extends foundry.appv1.sheets.JournalSheet {
    */
   static onRenderJournalEntryPageProseMirrorSheet(page, element, context, options) {
     if ( page.document.parent.sheet instanceof JournalSheet5e ) {
-      element.classList.add("dnd5e2-journal", "themed", "theme-light");
+      element.classList.add("degringo5e2-journal", "themed", "theme-light");
     }
   }
 

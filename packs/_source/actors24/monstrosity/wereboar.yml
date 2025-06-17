@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins
         (6)}</p></div>
       public: ''
     alignment: Neutral Evil
@@ -707,15 +707,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepJavelin000
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbwepJavelin000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729930
@@ -777,7 +777,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -808,7 +808,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -816,7 +816,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729930
@@ -991,7 +991,7 @@ items:
             - count: ''
               name: ''
               _id: wdmtDfcVF1jh6UOO
-              uuid: Compendium.dnd5e.actors24.Actor.mmWereboar000000
+              uuid: Compendium.degringo5e.actors24.Actor.mmWereboar000000
               level:
                 min: null
                 max: null
@@ -1013,7 +1013,7 @@ items:
           @save.dc.value activity=lS5miercc4WPdVfN]].</p><p><em>Failure:</em>
           The target is cursed. If the cursed target drops to 0 Hit Points, it
           instead becomes a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmWereboar000000]{Wereboar}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmWereboar000000]{Wereboar}</strong>
           under the DM's control and has 10 Hit Points.</p><p><em>Success:</em>
           The target is immune to this [[lookup @name lowercase]]'s curse for 24
           hours.</p>
@@ -1081,7 +1081,7 @@ items:
     img: icons/skills/wounds/bone-broken-tooth-fang-red.webp
     effects:
       - name: Cursed
-        img: systems/dnd5e/icons/svg/statuses/cursed.svg
+        img: systems/degringo5e/icons/svg/statuses/cursed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
         _id: dgfff9ONKHAUcthM
         type: base
@@ -1109,7 +1109,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1118,7 +1118,7 @@ items:
         _key: >-
           !actors.items.effects!mmWereboar000000.mmGore0000000000.dgfff9ONKHAUcthM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1126,7 +1126,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGore0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729930
@@ -1332,7 +1332,7 @@ items:
     img: icons/commodities/bones/horn-simple-grey.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTusk0000000000
         _id: OhQRYqL5fjvDhcQq
         type: base
@@ -1358,7 +1358,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1367,7 +1367,7 @@ items:
         _key: >-
           !actors.items.effects!mmWereboar000000.mmTusk0000000000.OhQRYqL5fjvDhcQq
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1375,7 +1375,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTusk0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729930
@@ -1440,7 +1440,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1491,7 +1491,7 @@ items:
           startRound: null
           startTurn: null
         description: ''
-        origin: Compendium.dnd5e.actors24.Actor.mmWereboar000000.Item.mmShapeshift0000
+        origin: Compendium.degringo5e.actors24.Actor.mmWereboar000000.Item.mmShapeshift0000
         tint: '#ffffff'
         transfer: true
         statuses: []
@@ -1499,10 +1499,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
+            Compendium.degringo5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1511,7 +1511,7 @@ items:
         _key: >-
           !actors.items.effects!mmWereboar000000.mmShapeshift0000.0MySRgQBnXCMPL21
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1519,7 +1519,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShapeshift0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729930
@@ -1535,7 +1535,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712729965

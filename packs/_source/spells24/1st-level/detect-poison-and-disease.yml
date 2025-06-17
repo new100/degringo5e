@@ -106,7 +106,7 @@ type: spell
 img: icons/skills/toxins/poison-bottle-open-fire-purple.webp
 effects:
   - name: Detect Poison and Disease
-    origin: Compendium.dnd5e.spells24.Item.phbsplDetectPois
+    origin: Compendium.degringo5e.spells24.Item.phbsplDetectPois
     duration:
       rounds: null
       startTime: null
@@ -129,10 +129,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+        Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1727465745268
@@ -144,14 +144,14 @@ sort: 4000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425949650
   modifiedTime: 1745256790340

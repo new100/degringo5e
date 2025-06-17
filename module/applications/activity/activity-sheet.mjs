@@ -37,23 +37,23 @@ export default class ActivitySheet extends PseudoDocumentSheet {
       template: "templates/generic/tab-navigation.hbs"
     },
     identity: {
-      template: "systems/dnd5e/templates/activity/identity.hbs",
+      template: "systems/degringo5e/templates/activity/identity.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-identity.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-identity.hbs"
       ]
     },
     activation: {
-      template: "systems/dnd5e/templates/activity/activation.hbs",
+      template: "systems/degringo5e/templates/activity/activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-time.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-targeting.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-time.hbs",
+        "systems/degringo5e/templates/activity/parts/activity-targeting.hbs",
+        "systems/degringo5e/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/effect.hbs",
+      template: "systems/degringo5e/templates/activity/effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-effects.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-effects.hbs"
       ]
     }
   };
@@ -141,30 +141,30 @@ export default class ActivitySheet extends PseudoDocumentSheet {
     }
 
     context.activationTypes = [
-      ...Object.entries(CONFIG.DND5E.activityActivationTypes).map(([value, config]) => ({
+      ...Object.entries(CONFIG.DEGRINGO5E.activityActivationTypes).map(([value, config]) => ({
         value,
         label: game.i18n.localize(config.label),
         group: game.i18n.localize(config.group)
       })),
-      { value: "", label: game.i18n.localize("DND5E.NoneActionLabel") }
+      { value: "", label: game.i18n.localize("DEGRINGO5E.NoneActionLabel") }
     ];
     context.affectsPlaceholder = game.i18n.localize(
-      `DND5E.TARGET.Count.${context.data.target?.template?.type ? "Every" : "Any"}`
+      `DEGRINGO5E.TARGET.Count.${context.data.target?.template?.type ? "Every" : "Any"}`
     );
     context.durationUnits = [
-      { value: "inst", label: game.i18n.localize("DND5E.TimeInst") },
-      ...Object.entries(CONFIG.DND5E.scalarTimePeriods).map(([value, label]) => ({
-        value, label, group: game.i18n.localize("DND5E.DurationTime")
+      { value: "inst", label: game.i18n.localize("DEGRINGO5E.TimeInst") },
+      ...Object.entries(CONFIG.DEGRINGO5E.scalarTimePeriods).map(([value, label]) => ({
+        value, label, group: game.i18n.localize("DEGRINGO5E.DurationTime")
       })),
-      ...Object.entries(CONFIG.DND5E.permanentTimePeriods).map(([value, label]) => ({
-        value, label, group: game.i18n.localize("DND5E.DurationPermanent")
+      ...Object.entries(CONFIG.DEGRINGO5E.permanentTimePeriods).map(([value, label]) => ({
+        value, label, group: game.i18n.localize("DEGRINGO5E.DurationPermanent")
       })),
-      { value: "spec", label: game.i18n.localize("DND5E.Special") }
+      { value: "spec", label: game.i18n.localize("DEGRINGO5E.Special") }
     ];
     context.rangeUnits = [
-      ...Object.entries(CONFIG.DND5E.rangeTypes).map(([value, label]) => ({ value, label })),
-      ...Object.entries(CONFIG.DND5E.movementUnits).map(([value, { label }]) => ({
-        value, label, group: game.i18n.localize("DND5E.RangeDistance")
+      ...Object.entries(CONFIG.DEGRINGO5E.rangeTypes).map(([value, label]) => ({ value, label })),
+      ...Object.entries(CONFIG.DEGRINGO5E.movementUnits).map(([value, { label }]) => ({
+        value, label, group: game.i18n.localize("DEGRINGO5E.RangeDistance")
       }))
     ];
 
@@ -172,10 +172,10 @@ export default class ActivitySheet extends PseudoDocumentSheet {
     const canScale = this.activity.canConfigureScaling;
     const consumptionTypeOptions = Array.from(this.activity.validConsumptionTypes).map(value => ({
       value,
-      label: CONFIG.DND5E.activityConsumptionTypes[value].label
+      label: CONFIG.DEGRINGO5E.activityConsumptionTypes[value].label
     }));
     context.consumptionTargets = context.source.consumption.targets.map((data, index) => {
-      const typeConfig = CONFIG.DND5E.activityConsumptionTypes[data.type] ?? {};
+      const typeConfig = CONFIG.DEGRINGO5E.activityConsumptionTypes[data.type] ?? {};
       const showTextTarget = typeConfig.targetRequiresEmbedded && !this.item.isEmbedded;
       const target = new ConsumptionTargetData(data, { parent: this.activity });
       return {
@@ -185,15 +185,15 @@ export default class ActivitySheet extends PseudoDocumentSheet {
         source: context.source.consumption.targets[index] ?? data,
         typeOptions: consumptionTypeOptions,
         scalingModes: canScale ? [
-          { value: "", label: game.i18n.localize("DND5E.CONSUMPTION.Scaling.None") },
-          { value: "amount", label: game.i18n.localize("DND5E.CONSUMPTION.Scaling.Amount") },
+          { value: "", label: game.i18n.localize("DEGRINGO5E.CONSUMPTION.Scaling.None") },
+          { value: "amount", label: game.i18n.localize("DEGRINGO5E.CONSUMPTION.Scaling.Amount") },
           ...(typeConfig.scalingModes ?? []).map(({ value, label }) => ({ value, label: game.i18n.localize(label) }))
         ] : null,
         showTargets: "validTargets" in typeConfig,
         selectedTarget: ("validTargets" in typeConfig) && ((data.type === "itemUses") && data.target?.includes("."))
           ? (this.activity.actor?.sourcedItems?.get(data.target)?.first()?.id ?? data.target)
           : data.target,
-        targetPlaceholder: data.type === "itemUses" ? game.i18n.localize("DND5E.CONSUMPTION.Target.ThisItem") : null,
+        targetPlaceholder: data.type === "itemUses" ? game.i18n.localize("DEGRINGO5E.CONSUMPTION.Target.ThisItem") : null,
         validTargets: showTextTarget ? null : target.validTargets
       };
     });
@@ -201,11 +201,11 @@ export default class ActivitySheet extends PseudoDocumentSheet {
     context.showScaling = !this.activity.isSpell;
 
     // Uses recovery
-    context.recoveryPeriods = CONFIG.DND5E.limitedUsePeriods.recoveryOptions;
+    context.recoveryPeriods = CONFIG.DEGRINGO5E.limitedUsePeriods.recoveryOptions;
     context.recoveryTypes = [
-      { value: "recoverAll", label: game.i18n.localize("DND5E.USES.Recovery.Type.RecoverAll") },
-      { value: "loseAll", label: game.i18n.localize("DND5E.USES.Recovery.Type.LoseAll") },
-      { value: "formula", label: game.i18n.localize("DND5E.USES.Recovery.Type.Formula") }
+      { value: "recoverAll", label: game.i18n.localize("DEGRINGO5E.USES.Recovery.Type.RecoverAll") },
+      { value: "loseAll", label: game.i18n.localize("DEGRINGO5E.USES.Recovery.Type.LoseAll") },
+      { value: "formula", label: game.i18n.localize("DEGRINGO5E.USES.Recovery.Type.Formula") }
     ];
     context.usesRecovery = context.source.uses.recovery.map((data, index) => ({
       data,
@@ -284,15 +284,15 @@ export default class ActivitySheet extends PseudoDocumentSheet {
 
     context.denominationOptions = [
       { value: "", label: "" },
-      ...CONFIG.DND5E.dieSteps.map(value => ({ value, label: `d${value}` }))
+      ...CONFIG.DEGRINGO5E.dieSteps.map(value => ({ value, label: `d${value}` }))
     ];
     if ( context.activity.damage?.parts ) {
       const scaleKey = (this.item.type === "spell") && (this.item.system.level === 0) ? "labelCantrip" : "label";
       const scalingOptions = [
-        { value: "", label: game.i18n.localize("DND5E.DAMAGE.Scaling.None") },
-        ...Object.entries(CONFIG.DND5E.damageScalingModes).map(([value, { [scaleKey]: label }]) => ({ value, label }))
+        { value: "", label: game.i18n.localize("DEGRINGO5E.DAMAGE.Scaling.None") },
+        ...Object.entries(CONFIG.DEGRINGO5E.damageScalingModes).map(([value, { [scaleKey]: label }]) => ({ value, label }))
       ];
-      const typeOptions = Object.entries(CONFIG.DND5E.damageTypes).map(([value, { label }]) => ({ value, label }));
+      const typeOptions = Object.entries(CONFIG.DEGRINGO5E.damageTypes).map(([value, { label }]) => ({ value, label }));
       const makePart = (data, index) => this._prepareDamagePartContext(context, {
         data, index, scalingOptions, typeOptions,
         locked: data.locked || (index === undefined),
@@ -340,29 +340,29 @@ export default class ActivitySheet extends PseudoDocumentSheet {
     return this._markTabs({
       identity: {
         id: "identity", group: "sheet", icon: "fa-solid fa-tag",
-        label: "DND5E.ACTIVITY.SECTIONS.Identity"
+        label: "DEGRINGO5E.ACTIVITY.SECTIONS.Identity"
       },
       activation: {
         id: "activation", group: "sheet", icon: "fa-solid fa-clapperboard",
-        label: "DND5E.ACTIVITY.SECTIONS.Activation",
+        label: "DEGRINGO5E.ACTIVITY.SECTIONS.Activation",
         tabs: {
           time: {
             id: "time", group: "activation", icon: "fa-solid fa-clock",
-            label: "DND5E.ACTIVITY.SECTIONS.Time"
+            label: "DEGRINGO5E.ACTIVITY.SECTIONS.Time"
           },
           consumption: {
             id: "consumption", group: "activation", icon: "fa-solid fa-boxes-stacked",
-            label: "DND5E.CONSUMPTION.FIELDS.consumption.label"
+            label: "DEGRINGO5E.CONSUMPTION.FIELDS.consumption.label"
           },
           targeting: {
             id: "activation-targeting", group: "activation", icon: "fa-solid fa-bullseye",
-            label: "DND5E.TARGET.FIELDS.target.label"
+            label: "DEGRINGO5E.TARGET.FIELDS.target.label"
           }
         }
       },
       effect: {
         id: "effect", group: "sheet", icon: "fa-solid fa-sun",
-        label: "DND5E.ACTIVITY.SECTIONS.Effect"
+        label: "DEGRINGO5E.ACTIVITY.SECTIONS.Effect"
       }
     });
   }
@@ -491,7 +491,7 @@ export default class ActivitySheet extends PseudoDocumentSheet {
    */
   static #addRecovery(event, target) {
     const periods = new Set(
-      Object.entries(CONFIG.DND5E.limitedUsePeriods).filter(([, config]) => !config.deprecated).map(([k]) => k)
+      Object.entries(CONFIG.DEGRINGO5E.limitedUsePeriods).filter(([, config]) => !config.deprecated).map(([k]) => k)
     );
     const existingPeriods = new Set(this.activity.uses.recovery.map(t => t.period));
     const filteredPeriods = periods.difference(existingPeriods);

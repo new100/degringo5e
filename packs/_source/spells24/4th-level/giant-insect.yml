@@ -1,7 +1,7 @@
 name: Giant Insect
 system:
   description:
-    value: "<p>You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobGiantInsec]{Giant Insect}</strong> stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong>\_Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the insect's Traits and Actions, the following attributes are also affected.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell's level</td></tr><tr><td><strong>HP</strong></td><td>30 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
+    value: "<p>You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobGiantInsec]{Giant Insect}</strong> stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong>\_Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the insect's Traits and Actions, the following attributes are also affected.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell's level</td></tr><tr><td><strong>HP</strong></td><td>30 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
     chat: ''
   source:
     custom: ''
@@ -92,7 +92,7 @@ system:
         - count: ''
           name: ''
           _id: 87m6T7MhqiLf4cce
-          uuid: Compendium.dnd5e.actors24.Actor.mmGiantCentipede
+          uuid: Compendium.degringo5e.actors24.Actor.mmGiantCentipede
           level:
             min: null
             max: null
@@ -100,7 +100,7 @@ system:
         - count: ''
           name: ''
           _id: iFpFFJ3LnEvpmc03
-          uuid: Compendium.dnd5e.actors24.Actor.mmGiantSpider000
+          uuid: Compendium.degringo5e.actors24.Actor.mmGiantSpider000
           level:
             min: null
             max: null
@@ -108,7 +108,7 @@ system:
         - count: ''
           name: ''
           _id: S3oooMSQPdPsBiVU
-          uuid: Compendium.dnd5e.actors24.Actor.mmGiantWasp00000
+          uuid: Compendium.degringo5e.actors24.Actor.mmGiantWasp00000
           level:
             min: null
             max: null
@@ -135,14 +135,14 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956378
   modifiedTime: 1745256793724

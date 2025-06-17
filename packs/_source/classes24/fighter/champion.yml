@@ -2,7 +2,7 @@ _id: phbftrChampion00
 name: Champion
 type: subclass
 folder: FCphxnvdYmavFNkr
-img: systems/dnd5e/icons/classes/champion.webp
+img: systems/degringo5e/icons/classes/champion.webp
 system:
   description:
     value: >-
@@ -26,9 +26,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrImprovedCr
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrImprovedCr
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrRemarkable
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrRemarkable
             optional: false
         optional: false
         spell: null
@@ -39,7 +39,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrAdditional
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrAdditional
             optional: false
         optional: false
         spell: null
@@ -50,7 +50,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrHeroicWarr
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrHeroicWarr
             optional: false
         optional: false
         spell: null
@@ -61,7 +61,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrSuperiorCr
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrSuperiorCr
             optional: false
         optional: false
         spell: null
@@ -72,7 +72,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbftrSurvivor00
+          - uuid: Compendium.degringo5e.classes24.Item.phbftrSurvivor00
             optional: false
         optional: false
         spell: null
@@ -89,16 +89,16 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstArchery000
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstBlindFight
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstDefense000
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstDueling000
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstIntercepti
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstProtection
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstThrownWeap
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstTwoWeaponF
-          - uuid: Compendium.dnd5e.feats24.Item.phbfstUnarmedFig
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstArchery000
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstBlindFight
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstDefense000
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstDueling000
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstGreatWeapo
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstIntercepti
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstProtection
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstThrownWeap
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstTwoWeaponF
+          - uuid: Compendium.degringo5e.feats24.Item.phbfstUnarmedFig
         spell: null
         restriction:
           type: class
@@ -118,7 +118,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866578955
   modifiedTime: 1745256761455

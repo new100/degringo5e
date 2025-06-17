@@ -4,7 +4,7 @@ type: feat
 img: icons/magic/control/debuff-chains-orb-movement-blue.webp
 system:
   description:
-    value: "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd5e.classes24.Item.phbinvPactChain0]{Pact of the Chain} Invocation</p></blockquote><p>When you cast @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick Attack.</strong> As a Bonus Action, you can command the familiar to take the\_Attack\_action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the familiar forces a creature to make a saving throw, it uses your spell save DC.</p><p><strong>Resistance.</strong> When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>Foundry Note</strong></p><p>The <strong>Find Familiar with Flight</strong> and <strong>with Swimming</strong> activities both allow you to summon a familiar with the relevant movement bonus. Both activities consume a Pact Magic spell slot.</p><p>The <strong>Invest with Resistance</strong> activity includes an Active Effect for resisting each type of damage which can be applied to get the relevant resistance. Be sure you disable/delete the previous Active Effect in the \"Effects\" tab of your sheet when you change Resistances.</p><p>The familiar automatically uses your Save DC.</p></section>"
+    value: "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.degringo5e.classes24.Item.phbinvPactChain0]{Pact of the Chain} Invocation</p></blockquote><p>When you cast @UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick Attack.</strong> As a Bonus Action, you can command the familiar to take the\_Attack\_action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the familiar forces a creature to make a saving throw, it uses your spell save DC.</p><p><strong>Resistance.</strong> When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.</p><section class=\"secret\" id=\"secret-D3vSCo0uEG4Kp1X6\"><p><strong>Foundry Note</strong></p><p>The <strong>Find Familiar with Flight</strong> and <strong>with Swimming</strong> activities both allow you to summon a familiar with the relevant movement bonus. Both activities consume a Pact Magic spell slot.</p><p>The <strong>Invest with Resistance</strong> activity includes an Active Effect for resisting each type of damage which can be applied to get the relevant resistance. Be sure you disable/delete the previous Active Effect in the \"Effects\" tab of your sheet when you change Resistances.</p><p>The familiar automatically uses your Save DC.</p></section>"
     chat: ''
   source:
     custom: ''
@@ -243,13 +243,13 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-damage-resistances.svg
+      img: systems/degringo5e/icons/svg/trait-damage-resistances.svg
   enchant: {}
   identifier: investment-of-the-chain-master
 effects:
   - name: Investment of Flight
     img: icons/magic/control/debuff-chains-orb-movement-blue.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     _id: Ziuu5P6LoAvevtuN
     type: base
@@ -277,7 +277,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -286,7 +286,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.Ziuu5P6LoAvevtuN'
   - name: Investment of Swimming
     img: icons/magic/control/debuff-chains-orb-movement-blue.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     _id: VxM3FsirIcd3Of7q
     type: base
@@ -314,7 +314,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -323,7 +323,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.VxM3FsirIcd3Of7q'
   - name: Resist Acid
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     _id: chVfpaM9kmt2hOWW
     type: base
@@ -349,10 +349,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.jZGIulxQFLY7uRDe
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.jZGIulxQFLY7uRDe
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -361,7 +361,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.chVfpaM9kmt2hOWW'
   - name: Resist Bludgeoning
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -386,10 +386,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.HybTLXiZgGa3t61e
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.HybTLXiZgGa3t61e
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -399,7 +399,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.SzrV0ZUdpHCl8ury'
   - name: Resist Cold
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -424,10 +424,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.6z5fLOHiOiHHcuac
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.6z5fLOHiOiHHcuac
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -437,7 +437,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.dNB2b7C34xZ8f1VC'
   - name: Resist Fire
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -462,10 +462,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.DW6JJBsbBtR1Z75R
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.DW6JJBsbBtR1Z75R
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -475,7 +475,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.J9HrAcFSX8Oiz5Os'
   - name: Resist Force
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -500,10 +500,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.2kTlaPSpacxduIm7
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.2kTlaPSpacxduIm7
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -513,7 +513,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.931L7kMtCmfeKCke'
   - name: Resist Lightning
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -538,10 +538,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.5ZizSWuVy8cy77K1
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.5ZizSWuVy8cy77K1
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -551,7 +551,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.ftnhEVvBRxrbAfa3'
   - name: Resist Necrotic
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -576,10 +576,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.fcFLysPw4llFTQsg
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.fcFLysPw4llFTQsg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -589,7 +589,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.wNoq81xzNrVLdSGT'
   - name: Resist Piercing
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -614,10 +614,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.8Uf0Dw8A3l7CI8Fd
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.8Uf0Dw8A3l7CI8Fd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -627,7 +627,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.8tJH6UHt7riDLp1q'
   - name: Resist Poison
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -652,10 +652,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.PpWYucbhugNEIBJ7
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.PpWYucbhugNEIBJ7
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -665,7 +665,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.W1jLBRVt0gryqFMJ'
   - name: Resist Psychic
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -690,10 +690,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.BbvC3rh4RDmi06XI
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.BbvC3rh4RDmi06XI
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -703,7 +703,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.XYrQSl0kdJtV6Bf0'
   - name: Resist Radiant
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -728,10 +728,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.IFg9ae4ZyhMDPa3m
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.IFg9ae4ZyhMDPa3m
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -741,7 +741,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.hNA4gzQMT9cM2ALU'
   - name: Resist Slashing
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -766,10 +766,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.30KWef6vBjF8RChr
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.30KWef6vBjF8RChr
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -779,7 +779,7 @@ effects:
     _key: '!items.effects!phbinvInvestment.QDl6CxMONYK8Kru1'
   - name: Resist Thunder
     img: icons/magic/defensive/shield-barrier-deflect-teal.webp
-    origin: Compendium.dnd5e.classes24.Item.phbinvInvestment
+    origin: Compendium.degringo5e.classes24.Item.phbinvInvestment
     transfer: false
     type: base
     system: {}
@@ -804,10 +804,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.P7YUT6Y1NXGpo5Er
+        Compendium.degringo5e.classes24.Item.phbrgrSuperiorDe.ActiveEffect.P7YUT6Y1NXGpo5Er
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -817,14 +817,14 @@ effects:
     _key: '!items.effects!phbinvInvestment.0vsrMfL3s6IQtWcM'
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256762289

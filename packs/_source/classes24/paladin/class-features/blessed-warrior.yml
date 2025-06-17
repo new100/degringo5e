@@ -3,10 +3,10 @@ system:
   description:
     value: >-
       <p>You learn two
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{Cleric
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{Cleric
       cantrips} of your choice.
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance}</em>
-      and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSacredFlam]{Sacred
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidance00]{Guidance}</em>
+      and <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSacredFlam]{Sacred
       Flame}</em> are recommended. The chosen cantrips count as Paladin spells
       for you, and Charisma is your spellcasting ability for them. Whenever you
       gain a Paladin level, you can replace one of these cantrips with another
@@ -44,7 +44,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745513480134
   modifiedTime: 1745712691385

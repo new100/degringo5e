@@ -53,7 +53,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+            target: Compendium.degringo5e.classes24.Item.phbdrdWildShape0
             scaling: {}
         scaling:
           allowed: false
@@ -155,7 +155,7 @@ system:
   identifier: natures-sanctuary
 effects:
   - name: 'Nature''s Ward: Arid'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesSan
     duration:
       rounds: null
       startTime: null
@@ -183,10 +183,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.J6hYOcVvZlLKuWab
+        Compendium.degringo5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.J6hYOcVvZlLKuWab
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -194,7 +194,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesSan.h0xW0mOYF8frKgHf'
   - name: 'Nature''s Ward: Polar'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesSan
     duration:
       rounds: null
       startTime: null
@@ -222,10 +222,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.XLIRgAYPO1ARo5pb
+        Compendium.degringo5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.XLIRgAYPO1ARo5pb
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -233,7 +233,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesSan.7YVMASgXswIFXNs2'
   - name: 'Nature''s Ward: Temperate'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesSan
     duration:
       rounds: null
       startTime: null
@@ -261,10 +261,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.yruAlaBCduO8AcnU
+        Compendium.degringo5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.yruAlaBCduO8AcnU
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -272,7 +272,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesSan.Gqgjm2NswU6f7qVL'
   - name: 'Nature''s Ward: Tropical'
-    origin: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+    origin: Compendium.degringo5e.classes24.Item.phbdrdNaturesSan
     duration:
       rounds: null
       startTime: null
@@ -300,10 +300,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.lDVYGRNqqw3HwcKM
+        Compendium.degringo5e.classes24.Item.phbdrdNaturesWar.ActiveEffect.lDVYGRNqqw3HwcKM
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -311,14 +311,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbdrdNaturesSan.LKxwXqkEIXJR2XAa'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866583501
   modifiedTime: 1745256761250

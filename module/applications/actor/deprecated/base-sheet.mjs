@@ -78,19 +78,19 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       scrollY: [
-        "dnd5e-inventory .inventory-list",
-        "dnd5e-effects .effects-list",
+        "degringo5e-inventory .inventory-list",
+        "degringo5e-effects .effects-list",
         ".center-pane"
       ],
       tabs: [{navSelector: ".tabs", contentSelector: ".sheet-body", initial: "description"}],
       width: 720,
       height: Math.max(680, Math.max(
-        237 + (Object.keys(CONFIG.DND5E.abilities).length * 70),
-        240 + (Object.keys(CONFIG.DND5E.skills).length * 24)
+        237 + (Object.keys(CONFIG.DEGRINGO5E.abilities).length * 70),
+        240 + (Object.keys(CONFIG.DEGRINGO5E.skills).length * 24)
       )),
       elements: {
-        effects: "dnd5e-effects",
-        inventory: "dnd5e-inventory"
+        effects: "degringo5e-effects",
+        inventory: "degringo5e-inventory"
       }
     });
   }
@@ -107,8 +107,8 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
   /** @override */
   get template() {
-    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e/templates/actors/limited-sheet.hbs";
-    return `systems/dnd5e/templates/actors/${this.actor.type}-sheet.hbs`;
+    if ( !game.user.isGM && this.actor.limited ) return "systems/degringo5e/templates/actors/limited-sheet.hbs";
+    return `systems/degringo5e/templates/actors/${this.actor.type}-sheet.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -145,7 +145,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
       isCharacter: this.actor.type === "character",
       isNPC: this.actor.type === "npc",
       isVehicle: this.actor.type === "vehicle",
-      config: CONFIG.DND5E,
+      config: CONFIG.DEGRINGO5E,
       rollableClass: this.isEditable ? "rollable" : "",
       rollData: this.actor.getRollData(),
       overrides: {
@@ -168,8 +168,8 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     // Ability Scores
     for ( const [a, abl] of Object.entries(context.abilities) ) {
       abl.icon = this._getProficiencyIcon(abl.proficient);
-      abl.hover = CONFIG.DND5E.proficiencyLevels[abl.proficient];
-      abl.label = CONFIG.DND5E.abilities[a]?.label;
+      abl.hover = CONFIG.DEGRINGO5E.proficiencyLevels[abl.proficient];
+      abl.label = CONFIG.DEGRINGO5E.abilities[a]?.label;
       abl.baseProf = source.system.abilities[a]?.proficient ?? 0;
       abl.key = a;
     }
@@ -178,15 +178,15 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const baseAbility = (prop, key) => {
       let src = source.system[prop]?.[key]?.ability;
       if ( src ) return src;
-      if ( prop === "skills" ) src = CONFIG.DND5E.skills[key]?.ability;
+      if ( prop === "skills" ) src = CONFIG.DEGRINGO5E.skills[key]?.ability;
       return src ?? "int";
     };
     ["skills", "tools"].forEach(prop => {
       for ( const [key, entry] of Object.entries(context[prop]) ) {
-        entry.abbreviation = CONFIG.DND5E.abilities[entry.ability]?.abbreviation;
+        entry.abbreviation = CONFIG.DEGRINGO5E.abilities[entry.ability]?.abbreviation;
         entry.icon = this._getProficiencyIcon(entry.value);
-        entry.hover = CONFIG.DND5E.proficiencyLevels[entry.value];
-        entry.label = (prop === "skills") ? CONFIG.DND5E.skills[key]?.label : Trait.keyLabel(key, {trait: "tool"});
+        entry.hover = CONFIG.DEGRINGO5E.proficiencyLevels[entry.value];
+        entry.label = (prop === "skills") ? CONFIG.DEGRINGO5E.skills[key]?.label : Trait.keyLabel(key, {trait: "tool"});
         entry.baseValue = source.system[prop]?.[key]?.value ?? 0;
         entry.baseAbility = baseAbility(prop, key);
       }
@@ -227,13 +227,13 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const labels = {...this.actor.labels};
 
     // Currency Labels
-    labels.currencies = Object.entries(CONFIG.DND5E.currencies).reduce((obj, [k, c]) => {
+    labels.currencies = Object.entries(CONFIG.DEGRINGO5E.currencies).reduce((obj, [k, c]) => {
       obj[k] = c.label;
       return obj;
     }, {});
 
     // Proficiency
-    labels.proficiency = game.settings.get("dnd5e", "proficiencyModifier") === "dice"
+    labels.proficiency = game.settings.get("degringo5e", "proficiencyModifier") === "dice"
       ? `d${this.actor.system.attributes.prof * 2}`
       : `+${this.actor.system.attributes.prof}`;
 
@@ -254,13 +254,13 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
     // Prepare an array of available movement speeds
     let speeds = [
-      [movement.burrow, `${game.i18n.localize("DND5E.MovementBurrow")} ${movement.burrow}`],
-      [movement.climb, `${game.i18n.localize("DND5E.MovementClimb")} ${movement.climb}`],
-      [movement.fly, `${game.i18n.localize("DND5E.MovementFly")} ${movement.fly}${movement.hover ? ` (${game.i18n.localize("DND5E.MovementHover")})` : ""}`],
-      [movement.swim, `${game.i18n.localize("DND5E.MovementSwim")} ${movement.swim}`]
+      [movement.burrow, `${game.i18n.localize("DEGRINGO5E.MovementBurrow")} ${movement.burrow}`],
+      [movement.climb, `${game.i18n.localize("DEGRINGO5E.MovementClimb")} ${movement.climb}`],
+      [movement.fly, `${game.i18n.localize("DEGRINGO5E.MovementFly")} ${movement.fly}${movement.hover ? ` (${game.i18n.localize("DEGRINGO5E.MovementHover")})` : ""}`],
+      [movement.swim, `${game.i18n.localize("DEGRINGO5E.MovementSwim")} ${movement.swim}`]
     ];
     if ( largestPrimary ) {
-      speeds.push([movement.walk, `${game.i18n.localize("DND5E.MovementWalk")} ${movement.walk}`]);
+      speeds.push([movement.walk, `${game.i18n.localize("DEGRINGO5E.MovementWalk")} ${movement.walk}`]);
     }
 
     // Filter and sort speeds on their values
@@ -297,7 +297,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const senses = systemData.attributes.senses ?? {};
     const tags = {};
     const units = senses.units ?? defaultUnits("length");
-    for ( let [k, label] of Object.entries(CONFIG.DND5E.senses) ) {
+    for ( let [k, label] of Object.entries(CONFIG.DEGRINGO5E.senses) ) {
       const v = senses[k] ?? 0;
       if ( v === 0 ) continue;
       tags[k] = `${game.i18n.localize(label)} ${formatLength(v, units)}`;
@@ -324,7 +324,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
    */
   _prepareTraits(systemData) {
     const traits = {};
-    for ( const [trait, traitConfig] of Object.entries(CONFIG.DND5E.traits) ) {
+    for ( const [trait, traitConfig] of Object.entries(CONFIG.DEGRINGO5E.traits) ) {
       if ( trait === "dm" ) continue;
       const key = traitConfig.actorKeyPath?.replace("system.", "") ?? `traits.${trait}`;
       const data = foundry.utils.deepClone(foundry.utils.getProperty(systemData, key));
@@ -339,7 +339,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
       const physical = [];
       if ( data.bypasses?.size ) {
         values = values.filter(t => {
-          if ( !CONFIG.DND5E.damageTypes[t]?.isPhysical ) return true;
+          if ( !CONFIG.DEGRINGO5E.damageTypes[t]?.isPhysical ) return true;
           physical.push(t);
           return false;
         });
@@ -354,10 +354,10 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
       if ( physical.length ) {
         const damageTypesFormatter = new Intl.ListFormat(game.i18n.lang, { style: "long", type: "conjunction" });
         const bypassFormatter = new Intl.ListFormat(game.i18n.lang, { style: "long", type: "disjunction" });
-        data.selected.physical = game.i18n.format("DND5E.DamagePhysicalBypasses", {
+        data.selected.physical = game.i18n.format("DEGRINGO5E.DamagePhysicalBypasses", {
           damageTypes: damageTypesFormatter.format(physical.map(t => Trait.keyLabel(t, { trait }))),
           bypassTypes: bypassFormatter.format(data.bypasses.reduce((acc, t) => {
-            const v = CONFIG.DND5E.itemProperties[t];
+            const v = CONFIG.DEGRINGO5E.itemProperties[t];
             if ( v && v.isPhysical ) acc.push(v.label);
             return acc;
           }, []))
@@ -370,7 +370,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
       // If petrified, display "All Damage" instead of all damage types separately
       if ( (trait === "dr") && this.document.hasConditionEffect("petrification") ) {
-        data.selected = { custom1: game.i18n.localize("DND5E.DamageAll") };
+        data.selected = { custom1: game.i18n.localize("DEGRINGO5E.DamageAll") };
         data.cssClass = "";
       }
     }
@@ -401,7 +401,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const spellbook = {};
 
     // Define section and label mappings
-    const sections = Object.entries(CONFIG.DND5E.spellPreparationModes).reduce((acc, [k, {order}]) => {
+    const sections = Object.entries(CONFIG.DEGRINGO5E.spellPreparationModes).reduce((acc, [k, {order}]) => {
       if ( Number.isNumeric(order) ) acc[k] = Number(order);
       return acc;
     }, {});
@@ -427,7 +427,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     };
 
     // Determine the maximum spell level which has a slot
-    const maxLevel = Array.fromRange(Object.keys(CONFIG.DND5E.spellLevels).length - 1, 1).reduce((max, i) => {
+    const maxLevel = Array.fromRange(Object.keys(CONFIG.DEGRINGO5E.spellLevels).length - 1, 1).reduce((max, i) => {
       const level = levels[`spell${i}`];
       if ( level && (level.max || level.override ) && ( i > max ) ) max = i;
       return max;
@@ -435,20 +435,20 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
     // Level-based spellcasters have cantrips and leveled slots
     if ( maxLevel > 0 ) {
-      registerSection("spell0", 0, CONFIG.DND5E.spellLevels[0]);
+      registerSection("spell0", 0, CONFIG.DEGRINGO5E.spellLevels[0]);
       for (let lvl = 1; lvl <= maxLevel; lvl++) {
         const sl = `spell${lvl}`;
-        registerSection(sl, lvl, CONFIG.DND5E.spellLevels[lvl], levels[sl]);
+        registerSection(sl, lvl, CONFIG.DEGRINGO5E.spellLevels[lvl], levels[sl]);
       }
     }
 
     // Create spellbook sections for all alternative spell preparation modes that have spell slots.
-    for ( const [k, v] of Object.entries(CONFIG.DND5E.spellPreparationModes) ) {
+    for ( const [k, v] of Object.entries(CONFIG.DEGRINGO5E.spellPreparationModes) ) {
       if ( !(k in levels) || !v.upcast || !levels[k].max ) continue;
 
-      if ( !spellbook["0"] && v.cantrips ) registerSection("spell0", 0, CONFIG.DND5E.spellLevels[0]);
+      if ( !spellbook["0"] && v.cantrips ) registerSection("spell0", 0, CONFIG.DEGRINGO5E.spellLevels[0]);
       const l = levels[k];
-      const level = game.i18n.localize(`DND5E.SpellLevel${l.level}`);
+      const level = game.i18n.localize(`DEGRINGO5E.SpellLevel${l.level}`);
       const label = `${v.label} — ${level}`;
       registerSection(k, sections[k], label, {
         prepMode: k,
@@ -466,11 +466,11 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
       const sl = `spell${s}`;
 
       // Spells from items
-      if ( spell.getFlag("dnd5e", "cachedFor") ) {
+      if ( spell.getFlag("degringo5e", "cachedFor") ) {
         s = "item";
         if ( !spell.system.linkedActivity?.displayInSpellbook ) return;
         if ( !spellbook[s] ) {
-          registerSection(null, s, game.i18n.localize("DND5E.CAST.SECTIONS.Spellbook"));
+          registerSection(null, s, game.i18n.localize("DEGRINGO5E.CAST.SECTIONS.Spellbook"));
           spellbook[s].order = 1000;
         }
       }
@@ -480,7 +480,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
         s = sections[mode];
         if ( !spellbook[s] ) {
           const l = levels[mode] || {};
-          const config = CONFIG.DND5E.spellPreparationModes[mode];
+          const config = CONFIG.DEGRINGO5E.spellPreparationModes[mode];
           registerSection(mode, s, config.label, {
             prepMode: mode,
             value: l.value,
@@ -493,7 +493,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
       // Sections for higher-level spells which the caster "should not" have, but spell items exist for
       else if ( !spellbook[s] ) {
-        registerSection(sl, s, CONFIG.DND5E.spellLevels[s], {levels: levels[sl]});
+        registerSection(sl, s, CONFIG.DEGRINGO5E.spellLevels[s], {levels: levels[sl]});
       }
 
       // Add the spell to the relevant heading
@@ -549,7 +549,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const alwaysPrepared = ["innate", "always"];
     const actions = ["action", "bonus", "reaction"];
     const recoveries = ["lr", "sr"];
-    const spellSchools = new Set(Object.keys(CONFIG.DND5E.spellSchools));
+    const spellSchools = new Set(Object.keys(CONFIG.DEGRINGO5E.spellSchools));
     const schoolFilter = spellSchools.intersection(filters);
     const spellcastingClasses = new Set(Object.keys(this.actor.spellcastingClasses));
     const classFilter = spellcastingClasses.intersection(filters);
@@ -611,7 +611,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
   /**
    * Get the font-awesome icon used to display a certain level of skill proficiency.
-   * @param {number} level  A proficiency mode defined in `CONFIG.DND5E.proficiencyLevels`.
+   * @param {number} level  A proficiency mode defined in `CONFIG.DEGRINGO5E.proficiencyLevels`.
    * @returns {string}      HTML string for the chosen icon.
    * @private
    */
@@ -702,7 +702,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     for ( const override of Object.keys(foundry.utils.flattenObject(this.actor.overrides)) ) {
       html.find(`input[name="${override}"],select[name="${override}"]`).each((i, el) => {
         el.disabled = true;
-        el.dataset.tooltip = "DND5E.ActiveEffectOverrideWarning";
+        el.dataset.tooltip = "DEGRINGO5E.ActiveEffectOverrideWarning";
       });
 
       for ( const [key, regex] of Object.entries(proficiencyToggles) ) {
@@ -710,13 +710,13 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
         if ( match ) {
           const toggle = html.find(`li[data-${key}="${match}"] .proficiency-toggle`);
           toggle.addClass("disabled");
-          toggle.attr("data-tooltip", "DND5E.ActiveEffectOverrideWarning");
+          toggle.attr("data-tooltip", "DEGRINGO5E.ActiveEffectOverrideWarning");
         }
       }
 
       const [, spell] = override.match(/system\.spells\.(spell\d)\.override/) || [];
       if ( spell ) {
-        html.find(`.spell-max[data-level="${spell}"]`).attr("data-tooltip", "DND5E.ActiveEffectOverrideWarning");
+        html.find(`.spell-max[data-level="${spell}"]`).attr("data-tooltip", "DEGRINGO5E.ActiveEffectOverrideWarning");
       }
     }
   }
@@ -735,7 +735,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const classId = event.target.closest("[data-item-id]")?.dataset.itemId;
     if ( !delta || !classId ) return;
     const classItem = this.actor.items.get(classId);
-    if ( !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( !game.settings.get("degringo5e", "disableAdvancements") ) {
       const manager = AdvancementManager.forLevelChange(this.actor, classId, delta);
       if ( manager.steps.length ) {
         if ( delta > 0 ) return manager.render(true);
@@ -864,7 +864,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
   /** @override */
   async _onDropActor(event, data) {
-    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("dnd5e", "allowPolymorphing"));
+    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("degringo5e", "allowPolymorphing"));
     if ( !canPolymorph || (this._tabs[0].active === "bastion") ) return false;
 
     // Get the target actor
@@ -874,10 +874,10 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
     // Configure the transformation
     const settings = await TransformDialog.promptSettings(this.actor, sourceActor, {
-      transform: { settings: game.settings.get("dnd5e", "transformationSettings") }
+      transform: { settings: game.settings.get("degringo5e", "transformationSettings") }
     });
     if ( !settings ) return;
-    await game.settings.set("dnd5e", "transformationSettings", settings.toObject());
+    await game.settings.set("degringo5e", "transformationSettings", settings.toObject());
 
     return this.actor.transformInto(sourceActor, settings);
   }
@@ -936,8 +936,8 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     let items = itemData instanceof Array ? itemData : [itemData];
     const itemsWithoutAdvancement = items.filter(i => !i.system.advancement?.length);
     const multipleAdvancements = (items.length - itemsWithoutAdvancement.length) > 1;
-    if ( multipleAdvancements && !game.settings.get("dnd5e", "disableAdvancements") ) {
-      ui.notifications.warn(game.i18n.format("DND5E.WarnCantAddMultipleAdvancements"));
+    if ( multipleAdvancements && !game.settings.get("degringo5e", "disableAdvancements") ) {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.WarnCantAddMultipleAdvancements"));
       items = itemsWithoutAdvancement;
     }
 
@@ -970,7 +970,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
   async _onDropSingleItem(itemData, event) {
     // Check to make sure items of this type are allowed on this actor
     if ( this.constructor.unsupportedItemTypes.has(itemData.type) ) {
-      ui.notifications.warn(game.i18n.format("DND5E.ActorWarningInvalidItem", {
+      ui.notifications.warn(game.i18n.format("DEGRINGO5E.ActorWarningInvalidItem", {
         itemType: game.i18n.localize(CONFIG.Item.typeLabels[itemData.type]),
         actorType: game.i18n.localize(CONFIG.Actor.typeLabels[this.actor.type])
       }));
@@ -993,12 +993,12 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
     // Bypass normal creation flow for any items with advancement
     if ( this.actor.system.metadata?.supportsAdvancement && itemData.system.advancement?.length
-        && !game.settings.get("dnd5e", "disableAdvancements") ) {
+        && !game.settings.get("degringo5e", "disableAdvancements") ) {
       // Ensure that this item isn't violating the singleton rule
       const dataModel = CONFIG.Item.dataModels[itemData.type];
       const singleton = dataModel?.metadata.singleton ?? false;
       if ( singleton && this.actor.itemTypes[itemData.type].length ) {
-        ui.notifications.error(game.i18n.format("DND5E.ActorWarningSingleton", {
+        ui.notifications.error(game.i18n.format("DEGRINGO5E.ActorWarningSingleton", {
           itemType: game.i18n.localize(CONFIG.Item.typeLabels[itemData.type]),
           actorType: game.i18n.localize(CONFIG.Actor.typeLabels[this.actor.type])
         }));
@@ -1049,7 +1049,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     const { level, preparationMode } = header?.closest("[data-level]")?.dataset ?? {};
 
     // Determine the actor's spell slot progressions, if any.
-    const spellcastKeys = Object.keys(CONFIG.DND5E.spellcastingTypes);
+    const spellcastKeys = Object.keys(CONFIG.DEGRINGO5E.spellcastingTypes);
     const progs = Object.values(this.document.classes).reduce((acc, cls) => {
       const type = cls.spellcasting?.type;
       if ( spellcastKeys.includes(type) ) acc.add(type);
@@ -1060,7 +1060,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
 
     // Case 1: Drop a cantrip.
     if ( itemData.system.level === 0 ) {
-      const modes = CONFIG.DND5E.spellPreparationModes;
+      const modes = CONFIG.DEGRINGO5E.spellPreparationModes;
       if ( modes[preparationMode]?.cantrips ) {
         prep.mode = "prepared";
       } else if ( !preparationMode ) {
@@ -1252,7 +1252,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
     let buttons = super._getHeaderButtons();
     if ( this.actor.isPolymorphed ) {
       buttons.unshift({
-        label: "DND5E.TRANSFORM.Action.Restore",
+        label: "DEGRINGO5E.TRANSFORM.Action.Restore",
         class: "restore-transformation",
         icon: "fas fa-backward",
         onclick: () => this.actor.revertOriginalForm()
@@ -1267,7 +1267,7 @@ export default class ActorSheet5e extends ActorSheetMixin(foundry.appv1?.sheets?
   async _updateObject(event, formData) {
     // Unset any flags which are "false"
     for ( const [k, v] of Object.entries(formData) ) {
-      if ( k.startsWith("flags.dnd5e.") && !v ) {
+      if ( k.startsWith("flags.degringo5e.") && !v ) {
         delete formData[k];
         if ( foundry.utils.hasProperty(this.document._source, k) ) formData[k.replace(/\.([\w\d]+)$/, ".-=$1")] = null;
       }

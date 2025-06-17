@@ -168,7 +168,7 @@ system:
           formula: ''
       name: While Concentrating
       _id: 3PZbzzH8sBJl3heA
-      img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      img: systems/degringo5e/icons/svg/statuses/concentrating.svg
       appliedEffects:
         - 5btX5iwwleMMzkvj
         - Kj1GwWXD5k0Zen75
@@ -179,7 +179,7 @@ type: spell
 img: icons/skills/wounds/injury-eyes-blood-red.webp
 effects:
   - name: Asleep
-    img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+    img: systems/degringo5e/icons/svg/statuses/unconscious.svg
     _id: 5btX5iwwleMMzkvj
     type: base
     system: {}
@@ -208,7 +208,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724704205512
       modifiedTime: 1724705060011
@@ -216,7 +216,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplEyebite000.5btX5iwwleMMzkvj'
   - name: Panicked
-    img: systems/dnd5e/icons/svg/statuses/frightened.svg
+    img: systems/degringo5e/icons/svg/statuses/frightened.svg
     _id: Kj1GwWXD5k0Zen75
     type: base
     system: {}
@@ -247,7 +247,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724704219239
       modifiedTime: 1724705080996
@@ -255,7 +255,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplEyebite000.Kj1GwWXD5k0Zen75'
   - name: Sickened
-    img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+    img: systems/degringo5e/icons/svg/statuses/poisoned.svg
     _id: 5ZKeVyumUK0i76am
     type: base
     system: {}
@@ -281,7 +281,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724704244632
       modifiedTime: 1724705101567
@@ -293,14 +293,14 @@ sort: 1300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425952698
   modifiedTime: 1745256792583

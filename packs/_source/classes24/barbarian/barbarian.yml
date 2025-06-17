@@ -1,10 +1,10 @@
 _id: phbbrbBarbarian0
 name: Barbarian
 type: class
-img: systems/dnd5e/icons/classes/barbarian.webp
+img: systems/degringo5e/icons/classes/barbarian.webp
 system:
   description:
-    value: "<h3>Core Barbarian Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Strength</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D12 per Barbarian level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Constitution</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial\_weapons</p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbwepHandaxe000]{Handaxes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 15GP]]; or (B) [[/award 75GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrbBarbarian0 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Barbarian …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Barbarian Traits table.</li><li>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.</li><li>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</li></ul>"
+    value: "<h3>Core Barbarian Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Strength</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D12 per Barbarian level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Constitution</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Athletics, Intimidation, Nature, Perception, or Survival</p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial\_weapons</p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, 4 @UUID[Compendium.degringo5e.equipment24.Item.phbwepHandaxe000]{Handaxes}, @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 15GP]]; or (B) [[/award 75GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrbBarbarian0 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Barbarian …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Barbarian Traits table.</li><li>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.</li><li>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</li></ul>"
     chat: ''
   source:
     custom: ''
@@ -25,21 +25,21 @@ system:
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagExplorersPa
+      key: Compendium.degringo5e.equipment24.Item.phbagExplorersPa
       requiresProficiency: false
       _id: EFPVIxAZ7F488Wt8
       group: 0Yx0DOCxeeNYZw7n
       sort: 300000
     - type: linked
       count: 4
-      key: Compendium.dnd5e.equipment24.Item.phbwepHandaxe000
+      key: Compendium.degringo5e.equipment24.Item.phbwepHandaxe000
       requiresProficiency: false
       _id: CF9oDnOKVLy0OehZ
       group: 0Yx0DOCxeeNYZw7n
       sort: 400000
     - type: linked
       count: 1
-      key: Compendium.dnd5e.equipment24.Item.phbwepGreataxe00
+      key: Compendium.degringo5e.equipment24.Item.phbwepGreataxe00
       requiresProficiency: false
       _id: ubIakV0ZwY5Av8bB
       group: 0Yx0DOCxeeNYZw7n
@@ -85,13 +85,13 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbRage000000
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbRage000000
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbUnarmoredD
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbUnarmoredD
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbWeaponMast
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbWeaponMast
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbUnarmedStr
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbUnarmedStr
             optional: false
         optional: false
         spell: null
@@ -102,9 +102,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbDangerSens
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbDangerSens
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbRecklessAt
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbRecklessAt
             optional: false
         optional: false
         spell: null
@@ -115,7 +115,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbPrimalKnow
             optional: false
         optional: false
         spell: null
@@ -144,9 +144,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbExtraAttac
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbExtraAttac
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbFastMoveme
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbFastMoveme
             optional: false
         optional: false
         spell: null
@@ -157,9 +157,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbFeralInsti
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbFeralInsti
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbInstinctiv
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbInstinctiv
             optional: false
         optional: false
         spell: null
@@ -187,7 +187,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbBrutalStri
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbBrutalStri
             optional: false
         optional: false
         spell: null
@@ -198,7 +198,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbRelentless
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbRelentless
             optional: false
         optional: false
         spell: null
@@ -226,7 +226,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbImpBrutalS
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbImpBrutalS
             optional: false
         optional: false
         spell: null
@@ -237,7 +237,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbPersistent
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbPersistent
             optional: false
         optional: false
         spell: null
@@ -265,7 +265,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbImp2Brutal
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbImp2Brutal
             optional: false
         optional: false
         spell: null
@@ -276,7 +276,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbIndomitabl
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbIndomitabl
             optional: false
         optional: false
         spell: null
@@ -287,7 +287,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -298,7 +298,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbbrbPrimalCham
+          - uuid: Compendium.degringo5e.classes24.Item.phbbrbPrimalCham
             optional: false
         optional: false
         spell: null
@@ -342,18 +342,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
         spell: null
         restriction:
           type: feat
@@ -603,7 +603,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735865940469
   modifiedTime: 1745517458913

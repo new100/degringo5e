@@ -3,10 +3,10 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This bronze statuette is of a griffon rampant.
       It can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGriffon0000000]{Griffon}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmGriffon0000000]{Griffon}</strong>
       for up to 6 hours. Once it has been used, it can't be used again until 5
       days have passed.</p><section class="secret"
       id="secret-CyXRwZfsh4tOiRUf"><p><strong>Foundry Note</strong></p><p>This
@@ -82,7 +82,7 @@ system:
         - count: ''
           name: ''
           _id: EgCV0cs5EPQgUJOh
-          uuid: Compendium.dnd5e.actors24.Actor.h052EIIUmRwJum65
+          uuid: Compendium.degringo5e.actors24.Actor.h052EIIUmRwJum65
           level:
             min: null
             max: null
@@ -147,14 +147,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781655759
   modifiedTime: 1745712700054

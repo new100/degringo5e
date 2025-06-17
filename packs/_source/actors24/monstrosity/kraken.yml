@@ -596,7 +596,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAmphibious0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -661,7 +661,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -694,7 +694,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -702,7 +702,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -753,7 +753,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSiegeMonster00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -816,7 +816,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -846,7 +846,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -854,7 +854,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -1052,7 +1052,7 @@ items:
     img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTentacle000000
         transfer: false
         _id: KxcWsIHohpNmagLJ
@@ -1090,7 +1090,7 @@ items:
             Compendium.dnd-monster-manual.features.Item.mmConstrict00000.ActiveEffect.Hd0Gy3wJtPfObERq
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1099,7 +1099,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmTentacle000000.KxcWsIHohpNmagLJ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1107,7 +1107,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTentacle000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -1229,7 +1229,7 @@ items:
     img: icons/magic/movement/trail-streak-pink.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmFling000000000
         _id: UovyViBfR9aAlt0y
         type: base
@@ -1255,7 +1255,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1264,7 +1264,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmFling000000000.UovyViBfR9aAlt0y
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1272,7 +1272,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFling000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -1384,7 +1384,7 @@ items:
     img: icons/magic/lightning/bolt-strike-blue-white.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1392,7 +1392,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLightningStrik
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -1633,7 +1633,7 @@ items:
             name: ''
             formula: ''
           name: Escape from Corpse
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1680,7 +1680,7 @@ items:
     img: icons/creatures/abilities/mouth-teeth-rows-needles-purple.webp
     effects:
       - name: Restrained & Total Cover
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmSwallow0000000
         _id: VOHv1LyO3hHolZXo
         type: base
@@ -1718,7 +1718,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1727,7 +1727,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmSwallow0000000.VOHv1LyO3hHolZXo
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
         _id: aS5FyMP72vn3OKf1
         type: base
@@ -1764,7 +1764,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1773,8 +1773,8 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmSwallow0000000.aS5FyMP72vn3OKf1
       - name: 'Escape: Prone'
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmKraken00000000.Item.mmSwallow0000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmKraken00000000.Item.mmSwallow0000000
         _id: afivY2VBJc5HUyt1
         type: base
         system: {}
@@ -1802,7 +1802,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1811,7 +1811,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmSwallow0000000.afivY2VBJc5HUyt1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1819,7 +1819,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwallow0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -1882,7 +1882,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1911,7 +1911,7 @@ items:
     img: icons/magic/lightning/bolt-strike-blue.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmStormBolt00000
         _id: UXwZ02kqy96aH3dZ
         type: base
@@ -1948,7 +1948,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1957,7 +1957,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmStormBolt00000.UXwZ02kqy96aH3dZ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1965,7 +1965,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmStormBolt00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -2039,7 +2039,7 @@ items:
               calculation: con
               formula: 8 + @mod + @prof
           name: Save
-          img: systems/dnd5e/icons/svg/activity/save.svg
+          img: systems/degringo5e/icons/svg/activity/save.svg
       uses:
         spent: 0
         recovery: []
@@ -2078,7 +2078,7 @@ items:
     img: icons/magic/unholy/strike-beam-blood-small-red-purple.webp
     effects:
       - name: Blinded & Poisoned
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmToxicInk000000
         _id: 6eeusiffMtDU3C3c
         type: base
@@ -2117,7 +2117,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2126,7 +2126,7 @@ items:
         _key: >-
           !actors.items.effects!mmKraken00000000.mmToxicInk000000.6eeusiffMtDU3C3c
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2134,7 +2134,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmToxicInk000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712722403
@@ -2147,12 +2147,12 @@ items:
 effects: []
 folder: 36r8qm2aE4k6QTnW
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712722436

@@ -119,7 +119,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/item-choice.svg
+      img: systems/degringo5e/icons/svg/item-choice.svg
       appliedEffects:
         - asqZlVwoKSS1ckCU
   uses:
@@ -166,8 +166,8 @@ type: consumable
 img: icons/magic/earth/projectile-stone-boulder-blue.webp
 effects:
   - name: 'Comet Card: Marked Foe'
-    img: systems/dnd5e/icons/svg/statuses/marked.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgDmtComet00000
+    img: systems/degringo5e/icons/svg/statuses/marked.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgDmtComet00000
     transfer: false
     _id: 3M7d2VBW3htCp7Aj
     type: base
@@ -194,7 +194,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729184146197
       modifiedTime: 1729185015772
@@ -203,7 +203,7 @@ effects:
     _key: '!items.effects!dmgDmtComet00000.3M7d2VBW3htCp7Aj'
   - name: 'Comet Card: Death Save Advantage'
     img: icons/magic/control/control-influence-rally-purple.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDmtComet00000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDmtComet00000
     transfer: false
     _id: asqZlVwoKSS1ckCU
     type: base
@@ -220,7 +220,7 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtComet00000]{Comet}</em></p><p>You
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtComet00000]{Comet}</em></p><p>You
       have Advantage on Death Saving Throws for 1 year.</p>
     tint: '#ffffff'
     statuses: []
@@ -230,7 +230,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729186254079
       modifiedTime: 1729186500527
@@ -242,14 +242,14 @@ sort: 2100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729183692427
   modifiedTime: 1745432954367

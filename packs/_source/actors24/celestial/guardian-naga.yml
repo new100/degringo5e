@@ -572,7 +572,7 @@ items:
         value: >-
           <p>If the [[lookup @name lowercase]] dies, it returns to life in [[/r
           1d6#Days]] days and regains all its Hit Points unless
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelEvil]</em> is
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]</em> is
           cast on its remains.</p>
         chat: ''
       identifier: celestial-restoration
@@ -599,7 +599,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCelestialResto
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -681,7 +681,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -689,7 +689,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -840,7 +840,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -848,7 +848,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -964,7 +964,7 @@ items:
     img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
     effects:
       - name: Blinded
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmPoisonousSpitt
         _id: q1VTMWxbLg5ZnQ9W
         type: base
@@ -1001,7 +1001,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1010,7 +1010,7 @@ items:
         _key: >-
           !actors.items.effects!mmGuardianNaga00.mmPoisonousSpitt.q1VTMWxbLg5ZnQ9W
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1018,7 +1018,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPoisonousSpitt
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -1039,7 +1039,7 @@ items:
         M9EIrjdXmubaCeE4:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            uuid: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
             challenge:
               attack: null
               save: null
@@ -1085,7 +1085,7 @@ items:
         wTA8s6qU53snS3Vc:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplClairvoyan
+            uuid: Compendium.degringo5e.spells24.Item.phbsplClairvoyan
             challenge:
               attack: null
               save: null
@@ -1136,7 +1136,7 @@ items:
         vjc33jF2khedRZkL:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCureWounds
             challenge:
               attack: null
               save: null
@@ -1187,7 +1187,7 @@ items:
         hdHL9iKsLO6w3PZt:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFlameStrik
             challenge:
               attack: null
               save: null
@@ -1238,7 +1238,7 @@ items:
         OY1v1jqQQPzRcY2C:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplGeas000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplGeas000000
             challenge:
               attack: null
               save: null
@@ -1289,7 +1289,7 @@ items:
         PyDVxG4ueV6jaRtE:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
+            uuid: Compendium.degringo5e.spells24.Item.phbsplTrueSeeing
             challenge:
               attack: null
               save: null
@@ -1348,15 +1348,15 @@ items:
           using Wisdom as the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
           Will:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
           Wounds}</em> (level 6 version),
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlameStrik]{Flame
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFlameStrik]{Flame
           Strike}</em> (level 6 version),
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGeas000000]{Geas}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueSeeing]{True
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGeas000000]{Geas}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueSeeing]{True
           Seeing}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1378,7 +1378,7 @@ items:
     img: icons/magic/symbols/circled-gem-pink.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1386,7 +1386,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpellcasting00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -1506,9 +1506,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.M9EIrjdXmubaCeE4
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.M9EIrjdXmubaCeE4
         changes:
           - key: system.properties
             mode: 2
@@ -1538,7 +1538,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1551,16 +1551,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.M9EIrjdXmubaCeE4
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -1679,7 +1679,7 @@ items:
             - count: ''
               name: ''
               _id: OMyIBH1UGRjnWzIa
-              uuid: Compendium.dnd5e.actors24.Actor.phbInvisibleSens
+              uuid: Compendium.degringo5e.actors24.Actor.phbInvisibleSens
               level:
                 min: null
                 max: null
@@ -1700,9 +1700,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.wTA8s6qU53snS3Vc
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.wTA8s6qU53snS3Vc
         changes:
           - key: system.properties
             mode: 2
@@ -1732,7 +1732,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1745,13 +1745,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.wTA8s6qU53snS3Vc
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplClairvoyan
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplClairvoyan
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -1866,9 +1866,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.vjc33jF2khedRZkL
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.vjc33jF2khedRZkL
         changes:
           - key: system.properties
             mode: 2
@@ -1898,7 +1898,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1911,13 +1911,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.vjc33jF2khedRZkL
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCureWounds
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -2060,9 +2060,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.hdHL9iKsLO6w3PZt
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.hdHL9iKsLO6w3PZt
         changes:
           - key: system.properties
             mode: 2
@@ -2092,7 +2092,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2105,16 +2105,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.hdHL9iKsLO6w3PZt
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplFlameStrik
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -2137,11 +2137,11 @@ items:
           day.</p><p>You can issue any command you choose, short of an activity
           that would result in certain death. Should you issue a suicidal
           command, the spell ends.</p><p>A
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
           Curse}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
           Restoration}</em>, or
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
           spell ends this spell.</p><p><strong>Using a Higher-Level Spell
           Slot.</strong> If you use a level 7 or 8 spell slot, the duration is
           365 days. If you use a level 9 spell slot, the spell lasts until it is
@@ -2254,7 +2254,7 @@ items:
     img: icons/equipment/head/hat-pointed-leather-black-glowing.webp
     effects:
       - name: Under Orders
-        origin: Compendium.dnd5e.spells24.Item.phbsplGeas000000
+        origin: Compendium.degringo5e.spells24.Item.phbsplGeas000000
         duration:
           rounds: null
           startTime: null
@@ -2284,7 +2284,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2295,9 +2295,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.OY1v1jqQQPzRcY2C
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.OY1v1jqQQPzRcY2C
         changes:
           - key: system.properties
             mode: 2
@@ -2327,7 +2327,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2340,16 +2340,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.OY1v1jqQQPzRcY2C
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGeas000000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplGeas000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -2450,14 +2450,14 @@ items:
             name: ''
             formula: ''
           name: Grant Truesight
-          img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+          img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
       identifier: true-seeing
     type: spell
     img: icons/magic/perception/eye-slit-orange.webp
     effects:
       - name: Truesight
         img: icons/magic/perception/eye-slit-orange.webp
-        origin: Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
+        origin: Compendium.degringo5e.spells24.Item.phbsplTrueSeeing
         transfer: false
         _id: nW7Dh0S9wT7QHWCj
         type: base
@@ -2485,7 +2485,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2496,9 +2496,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.PyDVxG4ueV6jaRtE
+          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.PyDVxG4ueV6jaRtE
         changes:
           - key: system.properties
             mode: 2
@@ -2528,7 +2528,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2541,13 +2541,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.PyDVxG4ueV6jaRtE
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplTrueSeeing
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712720844
@@ -2558,12 +2558,12 @@ items:
 effects: []
 folder: B4jgCSN5ycmyM4ak
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415477323
   modifiedTime: 1745712720879

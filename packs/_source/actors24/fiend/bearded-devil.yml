@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Bearded
-        Devil</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx
+        Devil</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -603,7 +603,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
@@ -666,7 +666,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -696,7 +696,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -704,7 +704,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
@@ -838,7 +838,7 @@ items:
     img: icons/commodities/materials/hair-braid-gold.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmBeard000000000
         transfer: false
         _id: dnpr0RaXDWfSZOYz
@@ -867,7 +867,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -876,7 +876,7 @@ items:
         _key: >-
           !actors.items.effects!mmBeardedDevil00.mmBeard000000000.dnpr0RaXDWfSZOYz
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -884,7 +884,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBeard000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
@@ -1043,7 +1043,7 @@ items:
                 scaling:
                   number: 1
           name: 'Damage: Infernal Wound'
-          img: systems/dnd5e/icons/svg/activity/damage.svg
+          img: systems/degringo5e/icons/svg/activity/damage.svg
         KNWa0TFhANjmQCds:
           type: check
           _id: KNWa0TFhANjmQCds
@@ -1089,7 +1089,7 @@ items:
               formula: '12'
             ability: ''
           name: 'Check: Stanch Wound'
-          img: systems/dnd5e/icons/svg/hit-points.svg
+          img: systems/degringo5e/icons/svg/hit-points.svg
       uses:
         spent: 0
         recovery: []
@@ -1174,7 +1174,7 @@ items:
     img: icons/weapons/polearms/glaive-hooked-steel.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1182,7 +1182,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmInfernalGlaive
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714130
@@ -1195,12 +1195,12 @@ items:
 effects: []
 folder: 3893ZA5FlQZHzMBd
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712714158

@@ -106,7 +106,7 @@ type: spell
 img: icons/magic/symbols/runes-carved-stone-green.webp
 effects:
   - name: Detect Magic
-    origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+    origin: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
     duration:
       rounds: null
       startTime: null
@@ -129,10 +129,10 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+        Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: 1727465727470
@@ -144,14 +144,14 @@ sort: 4100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425949563
   modifiedTime: 1745256790293

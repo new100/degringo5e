@@ -225,8 +225,8 @@ class MessageRegistry {
    * @param {ChatMessage5e} message  Message to add to the registry.
    */
   static track(message) {
-    const origin = message.getFlag("dnd5e", "originatingMessage");
-    const type = message.getFlag("dnd5e", "roll.type");
+    const origin = message.getFlag("degringo5e", "originatingMessage");
+    const type = message.getFlag("degringo5e", "roll.type");
     if ( !origin || !type ) return;
     if ( !MessageRegistry.#messages.has(origin) ) MessageRegistry.#messages.set(origin, new Map());
     const originMap = MessageRegistry.#messages.get(origin);
@@ -241,8 +241,8 @@ class MessageRegistry {
    * @param {ChatMessage5e} message  Message to remove from the registry.
    */
   static untrack(message) {
-    const origin = message.getFlag("dnd5e", "originatingMessage");
-    const type = message.getFlag("dnd5e", "roll.type");
+    const origin = message.getFlag("degringo5e", "originatingMessage");
+    const type = message.getFlag("degringo5e", "roll.type");
     MessageRegistry.#messages.get(origin)?.get(type)?.delete(message.id);
   }
 }
@@ -281,7 +281,7 @@ class SpellListRegistry {
    * @type {FormSelectOption[]}
    */
   static get options() {
-    return Object.entries(CONFIG.DND5E.spellListTypes).map(([type, group]) => {
+    return Object.entries(CONFIG.DEGRINGO5E.spellListTypes).map(([type, group]) => {
       const lists = this.#byType.get(type);
       if ( !lists ) return [];
       return Array.from(lists.entries())
@@ -317,7 +317,7 @@ class SpellListRegistry {
 
   /**
    * Retrieve a specific spell list from the registry.
-   * @param {string} type        Type of list as defined in `CONFIG.DND5E.spellListTypes`.
+   * @param {string} type        Type of list as defined in `CONFIG.DEGRINGO5E.spellListTypes`.
    * @param {string} identifier  Identifier of the specific spell list.
    * @returns {SpellList|null}
    */
@@ -412,7 +412,7 @@ export class SpellList {
    * @type {string}
    */
   get name() {
-    return dnd5e.registry[SpellList.#REGISTRIES[this.metadata.type]]?.get(this.metadata.identifier)?.name
+    return degringo5e.registry[SpellList.#REGISTRIES[this.metadata.type]]?.get(this.metadata.identifier)?.name
       ?? this.metadata.name;
   }
 

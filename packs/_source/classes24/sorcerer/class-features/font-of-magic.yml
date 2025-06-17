@@ -86,7 +86,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/damage/force.svg
+      img: systems/degringo5e/icons/svg/damage/force.svg
     qAphJay1yKd7VWxH:
       type: utility
       name: Regain Sorcery Points
@@ -146,19 +146,19 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      img: systems/degringo5e/icons/svg/activity/heal.svg
   enchant: {}
   identifier: font-of-magic
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745256765502

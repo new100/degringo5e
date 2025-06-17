@@ -59,7 +59,7 @@ system:
         - count: ''
           name: ''
           _id: OPGmJyPFZox9o5it
-          uuid: Compendium.dnd5e.actors24.Actor.phbsplArcaneEye0
+          uuid: Compendium.degringo5e.actors24.Actor.phbsplArcaneEye0
           level:
             min: null
             max: null
@@ -82,7 +82,7 @@ system:
   description:
     value: >-
       <blockquote><p>Prerequisite: Level 9+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}
       without expending a spell slot.</p><section class="secret"
       id="secret-yVljO3Op1LVKKBRZ"><p><strong>Foundry Note</strong></p><p>This
       feature can be used in place of Arcane Eye and includes a
@@ -107,14 +107,14 @@ system:
 effects: []
 folder: BjeMHiqnKNWkWhox
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1740680084434

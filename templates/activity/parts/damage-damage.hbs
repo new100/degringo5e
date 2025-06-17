@@ -1,8 +1,8 @@
 <fieldset>
     <legend>
-        <span>{{ localize "DND5E.DAMAGE.FIELDS.damage.label" }}</span>
+        <span>{{ localize "DEGRINGO5E.DAMAGE.FIELDS.damage.label" }}</span>
         <button type="button" class="unbutton control-button" data-action="addDamagePart"
-                data-tooltip aria-label="{{ localize "DND5E.DAMAGE.Part.Action.Create" }}">
+                data-tooltip aria-label="{{ localize "DEGRINGO5E.DAMAGE.Part.Action.Create" }}">
             <i class="fas fa-plus" inert></i>
         </button>
     </legend>
@@ -12,5 +12,5 @@
     {{ formField fields.bonus value=../source.damage.critical.bonus }}
     {{/if}}
     {{/with}}
-    {{> "systems/dnd5e/templates/activity/parts/damage-parts.hbs" }}
+    {{> "systems/degringo5e/templates/activity/parts/damage-parts.hbs" }}
 </fieldset>

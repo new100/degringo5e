@@ -12,7 +12,7 @@ system:
       action to pull the fuzzy object from the bag and throw it up to 20 feet.
       When the object lands, it transforms into a creature you determine by
       rolling on the table that corresponds to the bag's color. See
-      @UUID[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}
+      @UUID[Compendium.degringo5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}
       for the creature's stat block. The creature vanishes at the next dawn or
       when it is reduced to 0 Hit Points.</p><p>The creature is Friendly to you
       and your allies, and it acts immediately after you on your Initiative
@@ -21,7 +21,7 @@ system:
       absence of such orders, the creature acts in a fashion appropriate to its
       nature.</p><p>Once three fuzzy objects have been pulled from the bag, the
       bag can't be used again until the next
-      dawn.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgTanBagOfTrick
+      dawn.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgTanBagOfTrick
       rollable]</p></div>
     chat: ''
   identifier: bag-of-tricks
@@ -109,49 +109,49 @@ system:
         proficiency: false
         saves: false
       profiles:
-        - uuid: Compendium.dnd5e.actors24.Actor.phbmobApe0000000
+        - uuid: Compendium.degringo5e.actors24.Actor.phbmobApe0000000
           _id: GHPZeky1w72GL4lN
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.MZYCPIVoBs918qGZ
+        - uuid: Compendium.degringo5e.actors24.Actor.MZYCPIVoBs918qGZ
           _id: oJtdCfur0YjQcN5S
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.JW8bXggOMBx1S6tF
+        - uuid: Compendium.degringo5e.actors24.Actor.JW8bXggOMBx1S6tF
           _id: mK0C90AP9NoSoDHc
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.SXXvwaLBNuzBymp3
+        - uuid: Compendium.degringo5e.actors24.Actor.SXXvwaLBNuzBymp3
           _id: Q84QytFBOgZlPYyK
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.phbmobBlackBear0
+        - uuid: Compendium.degringo5e.actors24.Actor.phbmobBlackBear0
           _id: paUPq24gdSjQUCNq
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.phbmobGiantWease
+        - uuid: Compendium.degringo5e.actors24.Actor.phbmobGiantWease
           _id: yFG9Dsrd6Dd4qI2J
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.aAqfEHPiVbhMwZ6j
+        - uuid: Compendium.degringo5e.actors24.Actor.aAqfEHPiVbhMwZ6j
           _id: W3Q0TgeomalBWPDE
           level:
             min: null
             max: null
           types: []
-        - uuid: Compendium.dnd5e.actors24.Actor.phbmobTiger00000
+        - uuid: Compendium.degringo5e.actors24.Actor.phbmobTiger00000
           _id: Eonmk8mpWd3O0Xn1
           level:
             min: null
@@ -186,7 +186,7 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
@@ -196,7 +196,7 @@ ownership:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728589118138
   modifiedTime: 1745712704282

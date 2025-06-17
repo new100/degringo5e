@@ -73,10 +73,10 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfProtect
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfProtect
     transfer: true
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     tint: '#ffffff'
@@ -85,10 +85,10 @@ effects:
     statuses: []
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.items.Item.QtmVEreNIWEVOoLR.ActiveEffect.q1wbe9ru251bfnhg
+        Compendium.degringo5e.items.Item.QtmVEreNIWEVOoLR.ActiveEffect.q1wbe9ru251bfnhg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1730683236644
       modifiedTime: 1745610436026
@@ -100,14 +100,14 @@ effects:
     sort: 0
     _key: '!items.effects!dmgRingOfProtect.vKSASCidlRLgY3lA'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

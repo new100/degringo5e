@@ -3,13 +3,13 @@ system:
   description:
     value: >-
       <p>A Priest's Pack contains the following items:
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagHolyWater00]{Holy Water},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}, 7 days of
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, and
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}.</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBackpack000]{Backpack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBlanket0000]{Blanket},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagHolyWater00]{Holy Water},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagLamp0000000]{Lamp}, 7 days of
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRations0000]{Rations},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRobe0000000]{Robe}, and
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagTinderbox00]{Tinderbox}.</p>
     chat: ''
   price:
     value: 33
@@ -54,7 +54,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425911162
   modifiedTime: 1745256812635

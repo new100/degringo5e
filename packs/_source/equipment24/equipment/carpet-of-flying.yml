@@ -62,7 +62,7 @@ system:
         proficiency: false
         saves: false
       profiles:
-        - uuid: Compendium.dnd5e.actors24.Actor.dmg3x5CarpetofFl
+        - uuid: Compendium.degringo5e.actors24.Actor.dmg3x5CarpetofFl
           _id: oBweoMWkw0gwe2fl
           level:
             min: null
@@ -133,7 +133,7 @@ system:
         - count: ''
           name: ''
           _id: oBweoMWkw0gwe2fl
-          uuid: Compendium.dnd5e.actors24.Actor.dmg4x6CarpetofFl
+          uuid: Compendium.degringo5e.actors24.Actor.dmg4x6CarpetofFl
           level:
             min: null
             max: null
@@ -204,7 +204,7 @@ system:
         - count: ''
           name: ''
           _id: oBweoMWkw0gwe2fl
-          uuid: Compendium.dnd5e.actors24.Actor.dmg5x7CarpetofFl
+          uuid: Compendium.degringo5e.actors24.Actor.dmg5x7CarpetofFl
           level:
             min: null
             max: null
@@ -275,7 +275,7 @@ system:
         - count: ''
           name: ''
           _id: oBweoMWkw0gwe2fl
-          uuid: Compendium.dnd5e.actors24.Actor.dmg6x9CarpetofFl
+          uuid: Compendium.degringo5e.actors24.Actor.dmg6x9CarpetofFl
           level:
             min: null
             max: null
@@ -300,7 +300,7 @@ system:
       chooses the size of a given carpet or determines it randomly by rolling on
       the following table. A carpet can carry up to twice the weight shown on
       the table, but its Fly Speed is halved if it carries more than its normal
-      capacity.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgCarpetOfFlyin
+      capacity.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgCarpetOfFlyin
       rollable]</p><section class="secret"
       id="secret-T3avxyNy4el35GqZ"><p><strong>Foundry Note</strong></p><p>The
       four provided summoning activities represent the possible sizes of the
@@ -348,14 +348,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712698522

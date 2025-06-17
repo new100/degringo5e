@@ -8,7 +8,7 @@ system:
     73f7nND3BlavEH4a:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        uuid: Compendium.degringo5e.spells24.Item.phbsplCharmPerso
         challenge:
           attack: null
           save: 13
@@ -65,7 +65,7 @@ system:
       <div><p><em>Wondrous Item, Uncommon (Requires
       Attunement)</em></p></div><p>These crystal lenses fit over the eyes. They
       have 3 charges. While wearing them, you can expend 1 or more charges to
-      cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm
+      cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm
       Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of
       the spell. You increase the spell's level by one for each additional
       charge you expend. The lenses regain all expended charges daily at
@@ -112,14 +112,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699748

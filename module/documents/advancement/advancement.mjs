@@ -83,11 +83,11 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   static get metadata() {
     return {
       name: "Advancement",
-      label: "DOCUMENT.DND5E.Advancement",
+      label: "DOCUMENT.DEGRINGO5E.Advancement",
       order: 100,
       icon: "icons/svg/upgrade.svg",
       typeIcon: "icons/svg/upgrade.svg",
-      title: game.i18n.localize("DND5E.AdvancementTitle"),
+      title: game.i18n.localize("DEGRINGO5E.AdvancementTitle"),
       hint: "",
       multiLevel: false,
       validItemTypes: new Set(["background", "class", "race", "subclass"]),
@@ -242,8 +242,8 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   /** @inheritDoc */
   async delete(options={}) {
     if ( this.item.actor?.system.metadata?.supportsAdvancement
-        && !game.settings.get("dnd5e", "disableAdvancements") ) {
-      const manager = dnd5e.applications.advancement.AdvancementManager
+        && !game.settings.get("degringo5e", "disableAdvancements") ) {
+      const manager = degringo5e.applications.advancement.AdvancementManager
         .forDeletedAdvancement(this.item.actor, this.item.id, this.id);
       if ( manager.steps.length ) return manager.render(true);
     }
@@ -310,8 +310,8 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
     return source.clone({
       _stats,
       _id: id ?? foundry.utils.randomID(),
-      "flags.dnd5e.sourceId": uuid,
-      "flags.dnd5e.advancementOrigin": `${this.item.id}.${this.id}`
+      "flags.degringo5e.sourceId": uuid,
+      "flags.degringo5e.advancementOrigin": `${this.item.id}.${this.id}`
     }, { keepId: true }).toObject();
   }
 
@@ -326,12 +326,12 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
   getContextMenuOptions() {
     if ( this.item.isOwner && !this.item.collection?.locked ) return [
       {
-        name: "DND5E.ADVANCEMENT.Action.Edit",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Edit",
         icon: "<i class='fas fa-edit fa-fw'></i>",
         callback: () => this.sheet?.render(true)
       },
       {
-        name: "DND5E.ADVANCEMENT.Action.Duplicate",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Duplicate",
         icon: "<i class='fas fa-copy fa-fw'></i>",
         condition: li => this?.constructor.availableForItem(this.item),
         callback: () => {
@@ -341,14 +341,14 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
         }
       },
       {
-        name: "DND5E.ADVANCEMENT.Action.Delete",
+        name: "DEGRINGO5E.ADVANCEMENT.Action.Delete",
         icon: "<i class='fas fa-trash fa-fw'></i>",
         callback: () => this.deleteDialog()
       }
     ];
 
     return [{
-      name: "DND5E.ADVANCEMENT.Action.View",
+      name: "DEGRINGO5E.ADVANCEMENT.Action.View",
       icon: "<i class='fas fa-eye fa-fw'></i>",
       callback: () => this.sheet?.render(true)
     }];
@@ -369,13 +369,13 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
     /**
      * A hook even that fires when the context menu for an Advancement is opened.
-     * @function dnd5e.getItemAdvancementContext
+     * @function degringo5e.getItemAdvancementContext
      * @memberof hookEvents
      * @param {Advancement} advancement       The Advancement.
      * @param {HTMLElement} target            The element that menu was triggered on.
      * @param {ContextMenuEntry[]} menuItems  The context menu entries.
      */
-    Hooks.callAll("dnd5e.getItemAdvancementContext", advancement, target, menuItems);
+    Hooks.callAll("degringo5e.getItemAdvancementContext", advancement, target, menuItems);
     ui.context.menuItems = menuItems;
   }
 
@@ -385,7 +385,7 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
   /** @override */
   static _createDialogData(type, parent) {
-    const Advancement = CONFIG.DND5E.advancementTypes[type].documentClass;
+    const Advancement = CONFIG.DEGRINGO5E.advancementTypes[type].documentClass;
     return {
       type,
       disabled: !Advancement.availableForItem(parent),
@@ -399,7 +399,7 @@ export default class Advancement extends PseudoDocumentMixin(BaseAdvancement) {
 
   /** @override */
   static _createDialogTypes(parent) {
-    return Object.entries(CONFIG.DND5E.advancementTypes)
+    return Object.entries(CONFIG.DEGRINGO5E.advancementTypes)
       .filter(([, { hidden, validItemTypes }]) => !hidden && validItemTypes?.has(parent.type))
       .map(([k]) => k);
   }

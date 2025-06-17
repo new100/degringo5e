@@ -5,7 +5,7 @@ img: icons/environment/wilderness/terrain-rocks-brown.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="gnome-traits">Gnome
       Traits</h3><p><strong>Creature Type: </strong>Humanoid</p><p><strong>Size:
       </strong>Small (about 3–4 feet tall)</p><p><strong>Speed:</strong> 30
@@ -18,8 +18,8 @@ system:
       Intelligence, Wisdom, or Charisma is your spellcasting ability for the
       spells you cast with this trait (choose the ability when you select the
       lineage):</p><p><strong>Rock Gnome.</strong> You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} and
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending} and
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
       cantrips. In addition, you can spend 10 minutes casting
       <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP),
       such as a toy, fire starter, or music box. When you create the device, you
@@ -54,9 +54,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptGnomishCun
+            uuid: Compendium.degringo5e.origins24.Item.phbsptGnomishCun
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptRockGnomeL
+            uuid: Compendium.degringo5e.origins24.Item.phbsptRockGnomeL
         optional: false
         spell: null
       value: {}
@@ -68,9 +68,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplMending000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplMending000
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPrestidigi
         optional: false
         spell:
           ability:
@@ -114,7 +114,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340837858
   modifiedTime: 1745687023440

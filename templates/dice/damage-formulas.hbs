@@ -25,10 +25,10 @@
                     {{else if damageConfig}}
                     {{ damageConfig.label }}
                     {{else}}
-                    {{ localize "DND5E.Formula" }}
+                    {{ localize "DEGRINGO5E.Formula" }}
                     {{/if}}
                     {{#if damageConfig.icon}}
-                    <dnd5e-icon src="{{ damageConfig.icon }}" alt="{{ damageConfig.label }}"></dnd5e-icon>
+                    <degringo5e-icon src="{{ damageConfig.icon }}" alt="{{ damageConfig.label }}"></degringo5e-icon>
                     {{/if}}
                 </span>
             </div>
@@ -36,7 +36,7 @@
             {{!-- Situational Bonus --}}
             <div class="form-group">
                 <input type="text" class="full-width" name="roll.{{ @index }}.situational"
-                       value="{{ roll.data.situational }}" placeholder="{{ localize "DND5E.RollSituationalBonus" }}">
+                       value="{{ roll.data.situational }}" placeholder="{{ localize "DEGRINGO5E.RollSituationalBonus" }}">
             </div>
         </li>
         {{/each}}

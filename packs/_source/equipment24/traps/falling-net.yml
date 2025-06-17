@@ -481,12 +481,12 @@ system:
       a successful check.</p><p><em><strong>Detect and Disarm.</strong></em> As
       a Search action, a creature can examine the trapped area and make a
       [[/check prc 11]] check, detecting the trip wire and the suspended
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{Net} on a
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagNet00000000]{Net} on a
       successful check. Once detected, the trip wire can be easily cut or
       avoided (no ability check required).</p><p><em><strong>Destroy the
       Net.</strong></em> Reducing the Net to 0 Hit Points frees any creature
       trapped in it (see
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.xIDcbjgXOndS8zRl]{Adventuring
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbEquipment0000.JournalEntryPage.xIDcbjgXOndS8zRl]{Adventuring
       Gear} for the Net's statistics).</p><p><em><strong>Set the
       Trap.</strong></em> A creature that has Thieves' Tools and all the trap's
       components (including a Net) can try to set a falling net trap, doing so
@@ -563,7 +563,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -572,14 +572,14 @@ effects:
     _key: '!items.effects!dmgFallingNet000.bXEGPRY5cCI6s34S'
 folder: 8wnVMAA0qwPzQVxS
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730831452785
   modifiedTime: 1745256805161

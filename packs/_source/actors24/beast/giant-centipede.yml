@@ -671,7 +671,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: >-
           Compendium.dnd-monster-manual.actors.Actor.mmGiantCentipede.Item.mmBite0000000000
         _id: PzxN1RHxvVfpYZxa
@@ -700,7 +700,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '12.331'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -708,7 +708,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -716,7 +716,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '12.331'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342039971
@@ -734,7 +734,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '12.331'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679132059
   modifiedTime: 1745415447968

@@ -10,7 +10,7 @@
         {{#if replaceable}}
         <div class="item-name">
             <label class="flexrow">
-                <h4>{{ localize "DND5E.ADVANCEMENT.ItemChoice.Replacement.None" }}</h4>
+                <h4>{{ localize "DEGRINGO5E.ADVANCEMENT.ItemChoice.Replacement.None" }}</h4>
                 <input type="radio" name="replace" value="" {{ checked noReplacement }}>
             </label>
         </div>
@@ -18,7 +18,7 @@
 
         {{#if abilities.options}}
         <div class="form-group">
-            <label>{{ localize "DND5E.SpellAbility" }}</label>
+            <label>{{ localize "DEGRINGO5E.SpellAbility" }}</label>
             <select name="ability" {{ disabled abilities.disabled }}>
                 {{ selectOptions abilities.options selected=abilities.selected }}
             </select>
@@ -26,7 +26,7 @@
         {{/if}}
 
         {{#each previousLevels}}
-        <h4 class="form-header">{{ localize "DND5E.AdvancementLevelHeader" level=@key }}</h4>
+        <h4 class="form-header">{{ localize "DEGRINGO5E.AdvancementLevelHeader" level=@key }}</h4>
         {{#each this}}
         <div class="item-name flexrow {{#if replaced}}replaced{{/if}}">
             <div class="item-image" style="background-image: url('{{ img }}');"></div>
@@ -41,7 +41,7 @@
         {{/each}}
 
         <h4 class="form-header">
-            {{ localize "DND5E.ADVANCEMENT.ItemChoice.Chosen" current=choices.current max=choices.max }}
+            {{ localize "DEGRINGO5E.ADVANCEMENT.ItemChoice.Chosen" current=choices.current max=choices.max }}
         </h4>
 
         {{#each items}}
@@ -53,19 +53,19 @@
                 </h4>
                 {{#if dropped}}
                 <button type="button" class="unbutton control-button item-control item-delete"
-                        data-tooltip aria-label="{{ localize 'DND5E.ItemDelete' }}">
+                        data-tooltip aria-label="{{ localize 'DEGRINGO5E.ItemDelete' }}">
                     <i class="fa-solid fa-trash" inert></i>
                 </button>
                 <input type="hidden" name="{{ uuid }}" value="true" data-dtype="Boolean">
                 {{else}}
-                <dnd5e-checkbox name="{{ uuid }}" {{ checked checked }} {{ disabled disabled }}></dnd5e-checkbox>
+                <degringo5e-checkbox name="{{ uuid }}" {{ checked checked }} {{ disabled disabled }}></degringo5e-checkbox>
                 {{/if}}
             </label>
         </div>
         {{/each}}
 
         {{#if advancement.configuration.allowDrops}}
-        <p class="hint centered">{{ localize "DND5E.AdvancementFlowDropAreaHint" }}</p>
+        <p class="hint centered">{{ localize "DEGRINGO5E.AdvancementFlowDropAreaHint" }}</p>
         {{/if}}
     </div>
 </form>

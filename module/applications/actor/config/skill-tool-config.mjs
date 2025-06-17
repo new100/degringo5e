@@ -8,7 +8,7 @@ export default class SkillToolConfig extends BaseProficiencyConfig {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/actors/config/skill-tool-config.hbs"
+      template: "systems/degringo5e/templates/actors/config/skill-tool-config.hbs"
     }
   };
 
@@ -21,7 +21,7 @@ export default class SkillToolConfig extends BaseProficiencyConfig {
    * @type {SkillConfiguration|ToolConfiguration}
    */
   get propertyConfig() {
-    return CONFIG.DND5E[this.options.trait === "skills" ? "skills" : "tools"][this.options.key];
+    return CONFIG.DEGRINGO5E[this.options.trait === "skills" ? "skills" : "tools"][this.options.key];
   }
 
   /* -------------------------------------------- */
@@ -31,10 +31,10 @@ export default class SkillToolConfig extends BaseProficiencyConfig {
   /** @inheritDoc */
   async _preparePartContext(partId, context, options) {
     context = await super._preparePartContext(partId, context, options);
-    context.abilityOptions = Object.entries(CONFIG.DND5E.abilities).map(([value, { label }]) => ({ value, label }));
-    context.proficiencyOptions = Object.entries(CONFIG.DND5E.proficiencyLevels)
+    context.abilityOptions = Object.entries(CONFIG.DEGRINGO5E.abilities).map(([value, { label }]) => ({ value, label }));
+    context.proficiencyOptions = Object.entries(CONFIG.DEGRINGO5E.proficiencyLevels)
       .map(([value, label]) => ({ value, label }));
-    context.section = `DND5E.${this.options.trait === "skills" ? "SKILL" : "TOOL"}.SECTIONS.`;
+    context.section = `DEGRINGO5E.${this.options.trait === "skills" ? "SKILL" : "TOOL"}.SECTIONS.`;
     context.global.skill = this.options.trait === "skills";
     return context;
   }

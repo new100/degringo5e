@@ -6,7 +6,7 @@ system:
       of the DM's choice. One or more powerful beings guard the place. While
       your soul is trapped in this way, your body is inert, ceases aging, and
       requires no food, air, or water. A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell can't return your soul to your body, but the spell reveals the
       location of the object that holds your soul. You draw no more cards.</p>
     chat: ''
@@ -113,7 +113,7 @@ img: icons/magic/unholy/orb-stone-pink.webp
 effects:
   - name: 'Void Card: Contained Soul'
     img: icons/magic/unholy/strike-body-life-soul-purple.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDmtVoid000000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDmtVoid000000
     transfer: false
     _id: ZCkhbQFg4H5ePlNm
     type: base
@@ -130,7 +130,7 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtVoid000000]{Void}</em></p><p>While
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtVoid000000]{Void}</em></p><p>While
       your soul is trapped in this way, your body is inert, ceases aging, and
       requires no food, air, or water.</p>
     tint: '#ffffff'
@@ -143,7 +143,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729207481799
       modifiedTime: 1729207648154
@@ -154,14 +154,14 @@ sort: 1300000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729207284596
   modifiedTime: 1745256804740

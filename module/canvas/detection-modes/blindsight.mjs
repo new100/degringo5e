@@ -5,7 +5,7 @@ export class DetectionModeBlindsight extends foundry.canvas.perception.Detection
   constructor() {
     super({
       id: "blindsight",
-      label: "DND5E.SenseBlindsight",
+      label: "DEGRINGO5E.SenseBlindsight",
       type: (foundry.canvas?.perception?.DetectionMode ?? DetectionMode).DETECTION_TYPES.OTHER,
       walls: true,
       angle: false

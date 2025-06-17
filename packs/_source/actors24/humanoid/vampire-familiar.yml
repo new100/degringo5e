@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers
-        (10)}</p></div><h1>Vampires</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
+        (10)}</p></div><h1>Vampires</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
         caption=false cite=false classes="no-embed mm
         free-rules-embed"]</p><h2>Vampire
-        Familiar</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.iWbAQD1GN6bn7JeU
+        Familiar</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.iWbAQD1GN6bn7JeU
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral Evil
@@ -599,7 +599,7 @@ items:
     img: icons/magic/control/energy-stream-link-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -607,7 +607,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmVampiricConnec
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729228
@@ -670,7 +670,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -699,7 +699,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -707,7 +707,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729228
@@ -866,7 +866,7 @@ items:
     img: icons/weapons/daggers/dagger-magical-glowing-blue.webp
     effects:
       - name: Poisoned & Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmUmbralDagger00
         _id: dsK5sPtkUMySmyvw
         type: base
@@ -896,7 +896,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -905,7 +905,7 @@ items:
         _key: >-
           !actors.items.effects!mmVampireFamilia.mmUmbralDagger00.dsK5sPtkUMySmyvw
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -913,7 +913,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmUmbralDagger00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729228
@@ -976,7 +976,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1005,7 +1005,7 @@ items:
     img: icons/skills/movement/figure-running-gray.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1013,7 +1013,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDeathlessAgili
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729228
@@ -1029,7 +1029,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712729256

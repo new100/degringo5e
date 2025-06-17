@@ -103,7 +103,7 @@ type: spell
 img: icons/magic/lightning/bolt-strike-beam-purple.webp
 effects:
   - name: Brief Enfeeblement
-    origin: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+    origin: Compendium.degringo5e.spells24.Item.phbsplRayofEnfee
     duration:
       rounds: 1
       startTime: null
@@ -130,7 +130,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -138,7 +138,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplRayofEnfee.yril8uhQgO1dR507'
   - name: Enervated
-    origin: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+    origin: Compendium.degringo5e.spells24.Item.phbsplRayofEnfee
     duration:
       rounds: null
       startTime: null
@@ -183,7 +183,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -195,14 +195,14 @@ sort: 1100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425968070
   modifiedTime: 1745256797408

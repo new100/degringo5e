@@ -103,7 +103,7 @@ type: spell
 img: icons/sundries/documents/document-writing-pink.webp
 effects:
   - name: Comprehension
-    origin: Compendium.dnd5e.spells24.Item.phbsplComprehend
+    origin: Compendium.degringo5e.spells24.Item.phbsplComprehend
     duration:
       rounds: 1
       startTime: null
@@ -114,7 +114,7 @@ effects:
       startTurn: null
     disabled: false
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           statuses: []
     img: icons/sundries/books/book-open-purple.webp
@@ -135,7 +135,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.2
       createdTime: null
       modifiedTime: 1746464316606
@@ -147,14 +147,14 @@ sort: 4500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.2
   createdTime: 1724425945966
   modifiedTime: 1746464353780

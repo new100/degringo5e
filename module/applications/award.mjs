@@ -33,7 +33,7 @@ export default class Award extends Application5e {
     },
     tag: "form",
     window: {
-      title: "DND5E.Award.Title"
+      title: "DEGRINGO5E.Award.Title"
     }
   };
 
@@ -42,7 +42,7 @@ export default class Award extends Application5e {
   /** @override */
   static PARTS = {
     award: {
-      template: "systems/dnd5e/templates/apps/award.hbs"
+      template: "systems/degringo5e/templates/apps/award.hbs"
     }
   };
 
@@ -77,7 +77,7 @@ export default class Award extends Application5e {
   get transferDestinations() {
     if ( this.isPartyAward ) return this.origin.system.transferDestinations ?? [];
     if ( !game.user.isGM ) return [];
-    const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const primaryParty = game.settings.get("degringo5e", "primaryParty")?.actor;
     return primaryParty
       ? [primaryParty, ...primaryParty.system.transferDestinations]
       : game.users.map(u => u.character).filter(c => c);
@@ -101,7 +101,7 @@ export default class Award extends Application5e {
   async _prepareContext(options) {
     const context = await super._prepareContext(options);
 
-    context.currency = Object.entries(CONFIG.DND5E.currencies).reduce((obj, [k, { label, icon }]) => {
+    context.currency = Object.entries(CONFIG.DEGRINGO5E.currencies).reduce((obj, [k, { label, icon }]) => {
       obj[k] = {
         label, icon,
         value: this.award.currency ? this.award.currency[k] : this.origin?.system.currency[k]
@@ -110,8 +110,8 @@ export default class Award extends Application5e {
     }, {});
     context.destinations = Award.prepareDestinations(this.transferDestinations, this.award.savedDestinations);
     context.each = this.award.each ?? false;
-    context.hideXP = game.settings.get("dnd5e", "levelingMode") === "noxp";
-    context.noPrimaryParty = !game.settings.get("dnd5e", "primaryParty")?.actor && !this.isPartyAward;
+    context.hideXP = game.settings.get("degringo5e", "levelingMode") === "noxp";
+    context.noPrimaryParty = !game.settings.get("degringo5e", "primaryParty")?.actor && !this.isPartyAward;
     context.xp = this.award.xp ?? this.origin?.system.details.xp.value ?? this.origin?.system.details.xp.derived;
 
     return context;
@@ -127,7 +127,7 @@ export default class Award extends Application5e {
    */
   static prepareDestinations(destinations, savedDestinations) {
     const icons = {
-      container: '<dnd5e-icon class="fa-fw" src="systems/dnd5e/icons/svg/backpack.svg"></dnd5e-icon>',
+      container: '<degringo5e-icon class="fa-fw" src="systems/degringo5e/icons/svg/backpack.svg"></degringo5e-icon>',
       group: '<i class="fa-solid fa-people-group"></i>',
       vehicle: '<i class="fa-solid fa-sailboat"></i>'
     };
@@ -201,7 +201,7 @@ export default class Award extends Application5e {
    */
   _saveDestinations(destinations) {
     const target = this.isPartyAward ? this.origin : game.user;
-    target.setFlag("dnd5e", "awardDestinations", destinations);
+    target.setFlag("degringo5e", "awardDestinations", destinations);
   }
 
   /* -------------------------------------------- */
@@ -297,7 +297,7 @@ export default class Award extends Application5e {
     for ( const [destination, result] of results ) {
       const entries = [];
       for ( const [key, amount] of Object.entries(result.currency ?? {}) ) {
-        const label = CONFIG.DND5E.currencies[key].label;
+        const label = CONFIG.DEGRINGO5E.currencies[key].label;
         entries.push(`
           <span class="award-entry">
             ${formatNumber(amount)} <i class="currency ${key}" data-tooltip aria-label="${label}"></i>
@@ -306,13 +306,13 @@ export default class Award extends Application5e {
       }
       if ( result.xp ) entries.push(`
         <span class="award-entry">
-          ${formatNumber(result.xp)} ${game.i18n.localize("DND5E.ExperiencePoints.Abbreviation")}
+          ${formatNumber(result.xp)} ${game.i18n.localize("DEGRINGO5E.ExperiencePoints.Abbreviation")}
         </span>
       `);
       if ( !entries.length ) continue;
 
-      const content = game.i18n.format("DND5E.Award.Message", {
-        name: destination.name, award: `<span class="dnd5e2">${game.i18n.getListFormatter().format(entries)}</span>`
+      const content = game.i18n.format("DEGRINGO5E.Award.Message", {
+        name: destination.name, award: `<span class="degringo5e2">${game.i18n.getListFormatter().format(entries)}</span>`
       });
 
       const whisperTargets = game.users.filter(user => destination.testUserPermission(user, "OWNER"));
@@ -365,7 +365,7 @@ export default class Award extends Application5e {
    */
   static async handleAward(message) {
     if ( !game.user.isGM ) {
-      ui.notifications.error("DND5E.Award.NotGMError", { localize: true });
+      ui.notifications.error("DEGRINGO5E.Award.NotGMError", { localize: true });
       return;
     }
 
@@ -379,7 +379,7 @@ export default class Award extends Application5e {
       }
 
       // If the party command is set, a primary party is set, and the award isn't empty, skip the UI
-      const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+      const primaryParty = game.settings.get("degringo5e", "primaryParty")?.actor;
       if ( party && primaryParty && (xp || filteredKeys(currency).length) ) {
         const destinations = each ? primaryParty.system.playerCharacters : [primaryParty];
         const results = new Map();
@@ -390,7 +390,7 @@ export default class Award extends Application5e {
 
       // Otherwise show the UI with defaults
       else {
-        const savedDestinations = game.user.getFlag("dnd5e", "awardDestinations");
+        const savedDestinations = game.user.getFlag("degringo5e", "awardDestinations");
         const app = new Award({ award: { currency, xp, each, savedDestinations } });
         app.render({ force: true });
       }
@@ -420,7 +420,7 @@ export default class Award extends Application5e {
       label = label?.toLowerCase();
       try {
         new Roll(amount);
-        if ( label in CONFIG.DND5E.currencies ) currency[label] = amount;
+        if ( label in CONFIG.DEGRINGO5E.currencies ) currency[label] = amount;
         else if ( label === "xp" ) xp = Number(amount);
         else if ( part === "each" ) each = true;
         else if ( part === "party" ) party = true;
@@ -431,7 +431,7 @@ export default class Award extends Application5e {
     }
 
     // Display warning about an unrecognized commands
-    if ( unrecognized.length ) throw new Error(game.i18n.format("DND5E.Award.UnrecognizedWarning", {
+    if ( unrecognized.length ) throw new Error(game.i18n.format("DEGRINGO5E.Award.UnrecognizedWarning", {
       commands: game.i18n.getListFormatter().format(unrecognized.map(u => `"${u}"`))
     }));
 

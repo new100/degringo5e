@@ -51,13 +51,13 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.races.LOMdcNAGWh5xpfm4
+          - uuid: Compendium.degringo5e.races.LOMdcNAGWh5xpfm4
             optional: false
-          - uuid: Compendium.dnd5e.races.7Yoo9hG0hfPSmBoC
+          - uuid: Compendium.degringo5e.races.7Yoo9hG0hfPSmBoC
             optional: false
-          - uuid: Compendium.dnd5e.races.PqxZgcJzp1VVgP8t
+          - uuid: Compendium.degringo5e.races.PqxZgcJzp1VVgP8t
             optional: false
-          - uuid: Compendium.dnd5e.races.GWPjKFeIthBBeCFJ
+          - uuid: Compendium.degringo5e.races.GWPjKFeIthBBeCFJ
             optional: false
         optional: false
         spell:
@@ -137,7 +137,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037393019
   modifiedTime: 1725992703550

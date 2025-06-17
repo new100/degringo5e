@@ -5,7 +5,7 @@ system:
       <p>You touch a dead Humanoid or a piece of one. If the creature has been
       dead no longer than 10 days, the spell forms a new body for it and calls
       the soul to enter that body.
-      @Embed[Compendium.dnd5e.tables24.RollTable.phbsplReincarnat rollable
+      @Embed[Compendium.degringo5e.tables24.RollTable.phbsplReincarnat rollable
       classes="caption-top"]</p><p>The reincarnated creature makes any choices
       that a species' description offers, and the creature recalls its former
       life. It retains the capabilities it had in its original form, except it
@@ -102,14 +102,14 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425968888
   modifiedTime: 1745256797533

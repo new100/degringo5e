@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGiantInsec
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGiantInsec
         caption=false]</p>
       public: ''
     alignment: Unaligned
@@ -520,7 +520,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
@@ -532,7 +532,7 @@ items:
       description:
         value: >-
           <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.dnd5e.summon.level /
+          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
           2)]]{Number of attacks}</p>
         chat: ''
       source:
@@ -624,7 +624,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -632,7 +632,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
@@ -766,7 +766,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -774,7 +774,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
@@ -894,7 +894,7 @@ items:
     img: icons/creatures/webs/web-spider-moving-blue.webp
     effects:
       - name: Webbed
-        origin: Compendium.dnd5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiWebBoltSpi
+        origin: Compendium.degringo5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiWebBoltSpi
         duration:
           rounds: 1
           startTime: null
@@ -941,7 +941,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: null
           modifiedTime: null
@@ -958,7 +958,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
@@ -1067,8 +1067,8 @@ items:
     img: icons/magic/acid/projectile-flame-smoke-green.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiVenomousSp
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.phbmobGiantInsec.Item.phbaoiVenomousSp
         transfer: false
         _id: jVWtHTrlPNi4dpDi
         type: base
@@ -1093,10 +1093,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
+            Compendium.degringo5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1725916429627
           modifiedTime: 1725916429627
@@ -1109,7 +1109,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1117,7 +1117,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159368
@@ -1130,12 +1130,12 @@ sort: 500000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425913370
   modifiedTime: 1745256827644

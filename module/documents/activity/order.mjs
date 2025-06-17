@@ -37,13 +37,13 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
   /** @inheritDoc */
   static metadata = Object.freeze(foundry.utils.mergeObject(super.metadata, {
     type: "order",
-    img: "systems/dnd5e/icons/svg/activity/order.svg",
-    title: "DND5E.FACILITY.Order.Issue",
+    img: "systems/degringo5e/icons/svg/activity/order.svg",
+    title: "DEGRINGO5E.FACILITY.Order.Issue",
     usage: {
       actions: {
         pay: OrderActivity.#onPayOrder
       },
-      chatCard: "systems/dnd5e/templates/chat/order-activity-card.hbs",
+      chatCard: "systems/degringo5e/templates/chat/order-activity-card.hbs",
       dialog: OrderUsageDialog
     }
   }, { inplace: false }));
@@ -127,7 +127,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
   _finalizeEnlarge(usageConfig, updates) {
     // Special facilities enlarge immediately.
     if ( (this.item.system.type.value !== "special") || (this.item.system.size === "vast") ) return;
-    const sizes = Object.entries(CONFIG.DND5E.facilities.sizes).sort((a, b) => a.value - b.value);
+    const sizes = Object.entries(CONFIG.DEGRINGO5E.facilities.sizes).sort((a, b) => a.value - b.value);
     const index = sizes.findIndex(([size]) => size === this.item.system.size);
     updates["system.size"] = sizes[index + 1][0];
   }
@@ -206,7 +206,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
   _prepareUsageScaling(usageConfig, messageConfig, item) {
     // FIXME: No scaling happening here, but this is the only context we have both usageConfig and messageConfig.
     const { costs, craft, trade } = usageConfig;
-    messageConfig.data.flags.dnd5e.order = { costs, craft, trade };
+    messageConfig.data.flags.degringo5e.order = { costs, craft, trade };
   }
 
   /* -------------------------------------------- */
@@ -220,14 +220,14 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
 
   /** @override */
   _usageChatButtons(message) {
-    const { costs } = message.data.flags.dnd5e.order;
+    const { costs } = message.data.flags.degringo5e.order;
     if ( !costs.gold || costs.paid ) return [];
     return [{
-      label: game.i18n.localize("DND5E.FACILITY.Costs.Automatic"),
+      label: game.i18n.localize("DEGRINGO5E.FACILITY.Costs.Automatic"),
       icon: '<i class="fas fa-coins"></i>',
       dataset: { action: "pay", method: "automatic" }
     }, {
-      label: game.i18n.localize("DND5E.FACILITY.Costs.Manual"),
+      label: game.i18n.localize("DEGRINGO5E.FACILITY.Costs.Manual"),
       icon: '<i class="fas fa-clipboard-check"></i>',
       dataset: { action: "pay", method: "manual" }
     }];
@@ -237,17 +237,17 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
 
   /** @override */
   async _usageChatContext(message) {
-    const { costs, craft, trade } = message.data.flags.dnd5e.order;
+    const { costs, craft, trade } = message.data.flags.degringo5e.order;
     const { type } = this.item.system;
     const supplements = [];
     if ( costs.days ) supplements.push(`
-      <strong>${game.i18n.localize("DND5E.DurationTime")}</strong>
-      ${game.i18n.format("DND5E.FACILITY.Costs.Days", { days: costs.days })}
+      <strong>${game.i18n.localize("DEGRINGO5E.DurationTime")}</strong>
+      ${game.i18n.format("DEGRINGO5E.FACILITY.Costs.Days", { days: costs.days })}
     `);
     if ( costs.gold ) supplements.push(`
-      <strong>${game.i18n.localize("DND5E.CurrencyGP")}</strong>
+      <strong>${game.i18n.localize("DEGRINGO5E.CurrencyGP")}</strong>
       ${formatNumber(costs.gold)}
-      (${game.i18n.localize(`DND5E.FACILITY.Costs.${costs.paid ? "Paid" : "Unpaid"}`)})
+      (${game.i18n.localize(`DEGRINGO5E.FACILITY.Costs.${costs.paid ? "Paid" : "Unpaid"}`)})
     `);
     if ( craft?.item ) {
       const item = await fromUuid(craft.item);
@@ -258,9 +258,9 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
       `);
     }
     if ( trade?.stock?.value && trade.sell ) supplements.push(`
-      <strong>${game.i18n.localize("DND5E.FACILITY.Trade.Sell.Supplement")}</strong>
+      <strong>${game.i18n.localize("DEGRINGO5E.FACILITY.Trade.Sell.Supplement")}</strong>
       ${formatNumber(trade.stock.value)}
-      ${CONFIG.DND5E.currencies.gp?.abbreviation ?? ""}
+      ${CONFIG.DEGRINGO5E.currencies.gp?.abbreviation ?? ""}
     `);
     if ( trade?.creatures ) {
       const creatures = [];
@@ -272,17 +272,17 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
       }
       else creatures.push(...await Promise.all(trade.creatures.buy.filter(_ => _).map(uuid => fromUuid(uuid))));
       supplements.push(`
-        <strong>${game.i18n.localize(`DND5E.FACILITY.Trade.${trade.sell ? "Sell" : "Buy"}.Supplement`)}</strong>
+        <strong>${game.i18n.localize(`DEGRINGO5E.FACILITY.Trade.${trade.sell ? "Sell" : "Buy"}.Supplement`)}</strong>
         ${game.i18n.getListFormatter({ style: "narrow" }).format(creatures.map(a => a.toAnchor().outerHTML))}
       `);
     }
-    const facilityType = game.i18n.localize(`DND5E.FACILITY.Types.${type.value.titleCase()}.Label.one`);
+    const facilityType = game.i18n.localize(`DEGRINGO5E.FACILITY.Types.${type.value.titleCase()}.Label.one`);
     const buttons = this._usageChatButtons(message);
     return {
       supplements,
       buttons: buttons.length ? buttons : null,
-      description: game.i18n.format("DND5E.FACILITY.Use.Description", {
-        order: game.i18n.localize(`DND5E.FACILITY.Orders.${this.order}.inf`),
+      description: game.i18n.format("DEGRINGO5E.FACILITY.Use.Description", {
+        order: game.i18n.localize(`DEGRINGO5E.FACILITY.Orders.${this.order}.inf`),
         link: this.item.toAnchor().outerHTML,
         facilityType: facilityType.toLocaleLowerCase(game.i18n.lang)
       })
@@ -303,8 +303,8 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
    */
   static async #onPayOrder(event, target, message) {
     const { method } = target.dataset;
-    const order = message.getFlag("dnd5e", "order");
-    const config = foundry.utils.expandObject({ "data.flags.dnd5e.order": order });
+    const order = message.getFlag("degringo5e", "order");
+    const config = foundry.utils.expandObject({ "data.flags.degringo5e.order": order });
     if ( method === "automatic" ) {
       try {
         await CurrencyManager.deductActorCurrency(this.actor, order.costs.gold, "gp", {
@@ -316,7 +316,7 @@ export default class OrderActivity extends ActivityMixin(OrderActivityData) {
         return;
       }
     }
-    foundry.utils.setProperty(config, "data.flags.dnd5e.order.costs.paid", true);
+    foundry.utils.setProperty(config, "data.flags.degringo5e.order.costs.paid", true);
     const context = await this._usageChatContext(config);
     const content = await foundry.applications.handlebars.renderTemplate(this.metadata.usage.chatCard, context);
     await message.update({ content, flags: config.data.flags });

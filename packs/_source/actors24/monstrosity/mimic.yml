@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Mimic</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lLRnYAv64F7SfrJd
+        <h1>Mimic</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lLRnYAv64F7SfrJd
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -605,7 +605,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
         A8tsdGbbQVLbTmxk:
           type: check
           name: Escape Check
@@ -686,7 +686,7 @@ items:
     img: icons/creatures/slimes/slime-movement-pseudopods-blue.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmAdhesive000000
         _id: PTmNYKeeD3d7EbJn
         type: base
@@ -716,7 +716,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -725,7 +725,7 @@ items:
         _key: >-
           !actors.items.effects!mmMimic000000000.mmAdhesive000000.PTmNYKeeD3d7EbJn
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -733,7 +733,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAdhesive000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723471
@@ -959,7 +959,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -967,7 +967,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723471
@@ -1171,8 +1171,8 @@ items:
     img: icons/creatures/slimes/slime-movement-pseudopods-blue.webp
     effects:
       - name: Grappled
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmMimic000000000.Item.mmPseudopod00000
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmMimic000000000.Item.mmPseudopod00000
         _id: grTPAGPf3Hftz86s
         type: base
         system: {}
@@ -1204,7 +1204,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1213,7 +1213,7 @@ items:
         _key: >-
           !actors.items.effects!mmMimic000000000.mmPseudopod00000.grTPAGPf3Hftz86s
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1221,7 +1221,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPseudopod00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723471
@@ -1286,7 +1286,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1318,7 +1318,7 @@ items:
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1326,7 +1326,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmShapeshift0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723471
@@ -1342,7 +1342,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712723500

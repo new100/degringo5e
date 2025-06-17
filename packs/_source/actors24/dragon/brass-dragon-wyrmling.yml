@@ -663,7 +663,7 @@ items:
     img: icons/creatures/abilities/dragon-fire-breath-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -671,7 +671,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFireBreath0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714773
@@ -804,7 +804,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714773
@@ -972,7 +972,7 @@ items:
     img: icons/magic/control/sleep-bubble-purple.webp
     effects:
       - name: Incapacitated
-        img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+        img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
         origin: Item.mmSleepBreath000
         _id: 9t5G87DeDyAF22dr
         type: base
@@ -1010,7 +1010,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1019,7 +1019,7 @@ items:
         _key: >-
           !actors.items.effects!mmBrassDragonWyr.mmSleepBreath000.9t5G87DeDyAF22dr
       - name: Unconscious
-        img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+        img: systems/degringo5e/icons/svg/statuses/unconscious.svg
         origin: Item.mmSleepBreath000
         _id: eiPsvHBjVi4pRHqJ
         type: base
@@ -1057,7 +1057,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1066,7 +1066,7 @@ items:
         _key: >-
           !actors.items.effects!mmBrassDragonWyr.mmSleepBreath000.eiPsvHBjVi4pRHqJ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1074,7 +1074,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSleepBreath000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714773
@@ -1087,12 +1087,12 @@ items:
 effects: []
 folder: xmXOrBADA4LyJOGl
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415505941
   modifiedTime: 1745712714804

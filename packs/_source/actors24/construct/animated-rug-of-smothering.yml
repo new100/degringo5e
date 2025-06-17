@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Animated
-        Objects</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YKvIouWZhOP2prWL
+        Objects</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.YKvIouWZhOP2prWL
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Unaligned
@@ -752,7 +752,7 @@ items:
     img: icons/commodities/cloth/cloth-bolt-embroidered-pink.webp
     effects:
       - name: Grappled + Other Conditions
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmSmother0000000
         _id: wfTA3WUcjBVzGa2H
         type: base
@@ -787,7 +787,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -796,7 +796,7 @@ items:
         _key: >-
           !actors.items.effects!mmAnimatedRugOfS.mmSmother0000000.wfTA3WUcjBVzGa2H
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -804,7 +804,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSmother0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712713004
@@ -820,7 +820,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415490996
   modifiedTime: 1745712713030

@@ -8,7 +8,7 @@ system:
       <p><em>Wand (requires attunement by a spellcaster)</em></p><p>This wand
       has 7 charges. While holding it, you can use an action to expend 1 of its
       charges to cast the
-      @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Polymorph} spell
+      @UUID[Compendium.degringo5e.spells.Item.04nMsTWkIFvkbXlY]{Polymorph} spell
       (save DC 15) from it.</p><p>The wand regains 1d6 + 1 expended charges
       daily at dawn. If you expend the wand's last charge, roll a d20. On a 1,
       the wand crumbles into ashes and is destroyed.</p>
@@ -62,7 +62,7 @@ system:
     NGoTVneu5RYDoqnb:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY
+        uuid: Compendium.degringo5e.spells.Item.04nMsTWkIFvkbXlY
         challenge:
           attack: null
           save: 15
@@ -117,14 +117,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1725037269467
   modifiedTime: 1731015960717

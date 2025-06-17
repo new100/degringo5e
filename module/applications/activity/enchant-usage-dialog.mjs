@@ -11,7 +11,7 @@ export default class EnchantUsageDialog extends ActivityUsageDialog {
   static PARTS = {
     ...super.PARTS,
     creation: {
-      template: "systems/dnd5e/templates/activity/enchant-usage-creation.hbs"
+      template: "systems/degringo5e/templates/activity/enchant-usage-creation.hbs"
     }
   };
 
@@ -27,7 +27,7 @@ export default class EnchantUsageDialog extends ActivityUsageDialog {
     if ( (enchantments.length > 1) && this._shouldDisplay("create.enchantment") ) {
       context.hasCreation = true;
       context.enchantment = {
-        field: new StringField({ label: game.i18n.localize("DND5E.ENCHANTMENT.Label") }),
+        field: new StringField({ label: game.i18n.localize("DEGRINGO5E.ENCHANTMENT.Label") }),
         name: "enchantmentProfile",
         value: this.config.enchantmentProfile,
         options: enchantments.map(e => ({ value: e._id, label: e.effect.name }))

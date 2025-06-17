@@ -23,7 +23,7 @@ system:
       if they were difficult terrain.</li>
 
       <li>You can use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Web} spell (save DC
+      @UUID[Compendium.degringo5e.spells.Item.UJJu9c2UvCzVljiP]{Web} spell (save DC
       13). The web created by the spell fills twice its normal area. Once used,
       this property of the cloak can't be used again until the next dawn.</li>
 
@@ -80,7 +80,7 @@ system:
     ARmT21Y3mklDGsvO:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP
+        uuid: Compendium.degringo5e.spells.Item.UJJu9c2UvCzVljiP
         challenge:
           attack: null
           save: 13
@@ -135,14 +135,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037203028
   modifiedTime: 1729015261227

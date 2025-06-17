@@ -112,7 +112,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.dnd5e.classes24.Item.phbbrbRage000000
+            target: Compendium.degringo5e.classes24.Item.phbbrbRage000000
             scaling: {}
           - type: itemUses
             value: '-1'
@@ -154,12 +154,12 @@ system:
         name: ''
         formula: ''
       name: Recharge with Rage
-      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
   enchant: {}
   identifier: intimidating-presence
 effects:
   - name: Intimidated
-    origin: Compendium.dnd5e.classes24.Item.phbbrbIntimidati
+    origin: Compendium.degringo5e.classes24.Item.phbbrbIntimidati
     duration:
       rounds: 1
       startTime: null
@@ -185,7 +185,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -194,14 +194,14 @@ effects:
     _key: '!items.effects!phbbrbIntimidati.3LofAPFLZJMQJirN'
 folder: bEMqmmgGROsTGe0J
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866492370
   modifiedTime: 1745256759960

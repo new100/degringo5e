@@ -97,7 +97,7 @@ system:
         name: ''
         formula: ''
       name: Transport
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       appliedEffects: []
   identifier: plane-shift
 _id: phbsplPlaneShift
@@ -109,14 +109,14 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425966118
   modifiedTime: 1745256796851

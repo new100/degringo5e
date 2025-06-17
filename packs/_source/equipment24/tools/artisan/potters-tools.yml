@@ -7,8 +7,8 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Discern what a ceramic object
       held in the past 24 hours (DC 15)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagJug00000000]{Jug},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagJug00000000]{Jug},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagLamp0000000]{Lamp}</p>
     chat: ''
   source:
     custom: ''
@@ -110,14 +110,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917659
   modifiedTime: 1740680142544

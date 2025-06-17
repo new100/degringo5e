@@ -173,7 +173,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-languages.svg
+      img: systems/degringo5e/icons/svg/trait-languages.svg
       appliedEffects:
         - EWoLqkPJeK9dwYhn
   uses:
@@ -183,8 +183,8 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepLongbow000]{Longbow} or
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very
       Rare (Requires Attunement)</em></p><p>When you nock an arrow on this bow,
       it whispers in Elvish, "Swift defeat to my enemies." When you use this
       weapon to make a ranged attack, you can utter or sign the following
@@ -198,7 +198,7 @@ system:
       long range. If the attack hits, your sworn enemy takes an extra 3d6
       Piercing damage.</p><p>While your sworn enemy lives, you have Disadvantage
       on attack rolls with all other
-      weapons.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      weapons.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: oathbow
@@ -266,7 +266,7 @@ system:
 effects:
   - type: enchantment
     name: Oathbow
-    img: systems/dnd5e/icons/spell-tiers/spell4.webp
+    img: systems/degringo5e/icons/spell-tiers/spell4.webp
     disabled: true
     _id: L4ylYIFxr0vdht6M
     system: {}
@@ -282,7 +282,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgOathbow000000
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgOathbow000000
           caption=false]</p>
         priority: null
       - key: system.attunement
@@ -324,7 +324,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730745712869
       modifiedTime: 1745438836755
@@ -333,7 +333,7 @@ effects:
     _key: '!items.effects!dmgOathbow000000.L4ylYIFxr0vdht6M'
   - name: Sworn Enemy
     img: icons/skills/targeting/crosshair-bars-yellow.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgOathbow000000
+    origin: Compendium.degringo5e.equipment24.Item.dmgOathbow000000
     transfer: false
     _id: EWoLqkPJeK9dwYhn
     type: base
@@ -364,7 +364,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730745760894
       modifiedTime: 1730747206387
@@ -373,7 +373,7 @@ effects:
     _key: '!items.effects!dmgOathbow000000.EWoLqkPJeK9dwYhn'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity:
         - wBvt7GZJkhTta6By
@@ -382,7 +382,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

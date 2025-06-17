@@ -7,21 +7,21 @@ system:
   description:
     value: >-
       <p>You gain the service of a familiar, a spirit that takes an animal form
-      you choose: @UUID[Compendium.dnd5e.monsters.Actor.qav2dvMIUiMQCCsy]{bat},
-      @UUID[Compendium.dnd5e.monsters.Actor.hIf83RD3ZVW4Egfi]{cat},
-      @UUID[Compendium.dnd5e.monsters.Actor.8RgUhb31VvjUNZU1]{crab},
-      @UUID[Compendium.dnd5e.monsters.Actor.EZgiprHXA2D7Uyb3]{frog} (toad),
-      @UUID[Compendium.dnd5e.monsters.Actor.fnkPNfIpS62LqOu4]{hawk},
-      @UUID[Compendium.dnd5e.monsters.Actor.I2x01hzOjVN4NUjf]{lizard},
-      @UUID[Compendium.dnd5e.monsters.Actor.3UUNbGiG2Yf1ZPxM]{octopus},
-      @UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]{owl},
-      @UUID[Compendium.dnd5e.monsters.Actor.D5rwVIxmfFrdyyxT]{poisonous snake},
-      fish (@UUID[Compendium.dnd5e.monsters.Actor.nkyCGJ9wXeAZkyyz]{quipper}),
-      @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]{rat},
-      @UUID[Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx]{raven},
-      @UUID[Compendium.dnd5e.monsters.Actor.FWSDiq9SZsdiBAa8]{sea horse},
-      @UUID[Compendium.dnd5e.monsters.Actor.28gU50HtG8Kp7uIz]{spider}, or
-      @UUID[Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN]{weasel}. Appearing
+      you choose: @UUID[Compendium.degringo5e.monsters.Actor.qav2dvMIUiMQCCsy]{bat},
+      @UUID[Compendium.degringo5e.monsters.Actor.hIf83RD3ZVW4Egfi]{cat},
+      @UUID[Compendium.degringo5e.monsters.Actor.8RgUhb31VvjUNZU1]{crab},
+      @UUID[Compendium.degringo5e.monsters.Actor.EZgiprHXA2D7Uyb3]{frog} (toad),
+      @UUID[Compendium.degringo5e.monsters.Actor.fnkPNfIpS62LqOu4]{hawk},
+      @UUID[Compendium.degringo5e.monsters.Actor.I2x01hzOjVN4NUjf]{lizard},
+      @UUID[Compendium.degringo5e.monsters.Actor.3UUNbGiG2Yf1ZPxM]{octopus},
+      @UUID[Compendium.degringo5e.monsters.Actor.d0prpsGSAorDadec]{owl},
+      @UUID[Compendium.degringo5e.monsters.Actor.D5rwVIxmfFrdyyxT]{poisonous snake},
+      fish (@UUID[Compendium.degringo5e.monsters.Actor.nkyCGJ9wXeAZkyyz]{quipper}),
+      @UUID[Compendium.degringo5e.monsters.Actor.pozQUPTnLZW8epox]{rat},
+      @UUID[Compendium.degringo5e.monsters.Actor.LPdX5YLlwci0NDZx]{raven},
+      @UUID[Compendium.degringo5e.monsters.Actor.FWSDiq9SZsdiBAa8]{sea horse},
+      @UUID[Compendium.degringo5e.monsters.Actor.28gU50HtG8Kp7uIz]{spider}, or
+      @UUID[Compendium.degringo5e.monsters.Actor.WOdeacKCYVhgLDuN]{weasel}. Appearing
       in an unoccupied space within range, the familiar has the statistics of
       the chosen form, though it is a celestial, fey, or fiend (your choice)
       instead of a beast.</p><p>Your familiar acts independently of you, but it
@@ -141,105 +141,105 @@ system:
       profiles:
         - name: ''
           _id: HShhzdPtYkhNleyj
-          uuid: Compendium.dnd5e.monsters.Actor.qav2dvMIUiMQCCsy
+          uuid: Compendium.degringo5e.monsters.Actor.qav2dvMIUiMQCCsy
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: NIHXnk03LvysDp7t
-          uuid: Compendium.dnd5e.monsters.Actor.hIf83RD3ZVW4Egfi
+          uuid: Compendium.degringo5e.monsters.Actor.hIf83RD3ZVW4Egfi
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: L59Xqchh128r45Rc
-          uuid: Compendium.dnd5e.monsters.Actor.8RgUhb31VvjUNZU1
+          uuid: Compendium.degringo5e.monsters.Actor.8RgUhb31VvjUNZU1
           level:
             min: null
             max: null
           types: []
         - name: Fish
           _id: kaiiJrnUWOqlQHt3
-          uuid: Compendium.dnd5e.monsters.Actor.nkyCGJ9wXeAZkyyz
+          uuid: Compendium.degringo5e.monsters.Actor.nkyCGJ9wXeAZkyyz
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: zGRnQq2EkrfRb14O
-          uuid: Compendium.dnd5e.monsters.Actor.EZgiprHXA2D7Uyb3
+          uuid: Compendium.degringo5e.monsters.Actor.EZgiprHXA2D7Uyb3
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: n2fhgnH9XTc8MbKt
-          uuid: Compendium.dnd5e.monsters.Actor.fnkPNfIpS62LqOu4
+          uuid: Compendium.degringo5e.monsters.Actor.fnkPNfIpS62LqOu4
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: bZJcnv1H2Vjm5XI6
-          uuid: Compendium.dnd5e.monsters.Actor.I2x01hzOjVN4NUjf
+          uuid: Compendium.degringo5e.monsters.Actor.I2x01hzOjVN4NUjf
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: aqC42mfjOB5PB5JU
-          uuid: Compendium.dnd5e.monsters.Actor.3UUNbGiG2Yf1ZPxM
+          uuid: Compendium.degringo5e.monsters.Actor.3UUNbGiG2Yf1ZPxM
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 9sLcKSCGrnG7gO7O
-          uuid: Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec
+          uuid: Compendium.degringo5e.monsters.Actor.d0prpsGSAorDadec
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: IxXkUKUna11rHprj
-          uuid: Compendium.dnd5e.monsters.Actor.D5rwVIxmfFrdyyxT
+          uuid: Compendium.degringo5e.monsters.Actor.D5rwVIxmfFrdyyxT
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 0t4KAcZWZ7fY9A5u
-          uuid: Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox
+          uuid: Compendium.degringo5e.monsters.Actor.pozQUPTnLZW8epox
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: op4FTfM9QWefJxOJ
-          uuid: Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx
+          uuid: Compendium.degringo5e.monsters.Actor.LPdX5YLlwci0NDZx
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 1gJGQBWi5LJYjONw
-          uuid: Compendium.dnd5e.monsters.Actor.FWSDiq9SZsdiBAa8
+          uuid: Compendium.degringo5e.monsters.Actor.FWSDiq9SZsdiBAa8
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: 7hgp23Fe02ITFtIw
-          uuid: Compendium.dnd5e.monsters.Actor.28gU50HtG8Kp7uIz
+          uuid: Compendium.degringo5e.monsters.Actor.28gU50HtG8Kp7uIz
           level:
             min: null
             max: null
           types: []
         - name: ''
           _id: czhL1VUn6ecvG0WV
-          uuid: Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN
+          uuid: Compendium.degringo5e.monsters.Actor.WOdeacKCYVhgLDuN
           level:
             min: null
             max: null
@@ -261,7 +261,7 @@ folder: ERuXllkhTQF51rDJ
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037352867
   modifiedTime: 1725992718741

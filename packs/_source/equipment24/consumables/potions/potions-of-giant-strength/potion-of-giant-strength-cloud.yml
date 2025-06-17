@@ -112,8 +112,8 @@ system:
     - mgc
 effects:
   - name: Strength of Clouds
-    img: systems/dnd5e/icons/items/potion-of-giant-strength-storm.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgCloudPotionOf
+    img: systems/degringo5e/icons/items/potion-of-giant-strength-storm.webp
+    origin: Compendium.degringo5e.equipment24.Item.dmgCloudPotionOf
     transfer: false
     _id: 1dBN1NUlcymoWlxz
     type: base
@@ -139,10 +139,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
+        Compendium.degringo5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730743971520
       modifiedTime: 1730744483640
@@ -150,14 +150,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgCloudPotionOf.1dBN1NUlcymoWlxz'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745432520720

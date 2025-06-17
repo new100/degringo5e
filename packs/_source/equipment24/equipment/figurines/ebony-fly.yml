@@ -3,10 +3,10 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>This ebony statuette, carved in the likeness of
       a horsefly, can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.dmgGiantFly00000]{Giant
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.dmgGiantFly00000]{Giant
       Fly}</strong> for up to 12 hours and can be ridden as a mount. Once it has
       been used, it can't be used again until 2 days have passed.</p><section
       class="secret" id="secret-50TFh1zOfnv1SBKO"><p><strong>Foundry
@@ -82,7 +82,7 @@ system:
         - count: ''
           name: ''
           _id: EgCV0cs5EPQgUJOh
-          uuid: Compendium.dnd5e.actors24.Actor.dmgGiantFly00000
+          uuid: Compendium.degringo5e.actors24.Actor.dmgGiantFly00000
           level:
             min: null
             max: null
@@ -147,14 +147,14 @@ sort: 200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781672492
   modifiedTime: 1745712700083

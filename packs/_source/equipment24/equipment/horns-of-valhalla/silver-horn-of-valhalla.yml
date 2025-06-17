@@ -70,7 +70,7 @@ system:
         - count: '2'
           name: ''
           _id: duDmJXZDPTjLDu4W
-          uuid: Compendium.dnd5e.actors24.Actor.mmBerserker00000
+          uuid: Compendium.degringo5e.actors24.Actor.mmBerserker00000
           level:
             min: null
             max: null
@@ -93,12 +93,12 @@ system:
     max: '7'
   description:
     value: >-
-      <p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgHornofValhall]{Horn
+      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgHornofValhall]{Horn
       of Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits:
       2</em></p><p>You can take a Magic action to blow this horn. In response,
       warrior spirits from the plane of Ysgard appear in unoccupied spaces
       within 60 feet of you. Each spirit uses the
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmBerserker00000]{Berserker}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmBerserker00000]{Berserker}</strong>
       stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit
       Points. The spirits look like living, breathing warriors, and they have
       Immunity to the &amp;Reference[Charmed apply=false] and
@@ -150,7 +150,7 @@ system:
 effects:
   - name: 'Horn of Valhalla: Condition Immunity'
     img: icons/commodities/treasure/horn-carved-banded.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgSilverHornOfV
+    origin: Compendium.degringo5e.equipment24.Item.dmgSilverHornOfV
     transfer: false
     _id: k8UhBonX9A2LPImO
     type: base
@@ -183,10 +183,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgHornofValhall.ActiveEffect.7da5gsAdyzIIfWBL
+        Compendium.degringo5e.equipment24.Item.dmgHornofValhall.ActiveEffect.7da5gsAdyzIIfWBL
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730408061245
       modifiedTime: 1730408061245
@@ -194,14 +194,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgSilverHornOfV.k8UhBonX9A2LPImO'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712703368

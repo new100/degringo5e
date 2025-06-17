@@ -2,7 +2,7 @@ _id: phbwlkWarlock000
 name: Warlock
 type: class
 folder: gG4h5ERlpEXbmxIJ
-img: systems/dnd5e/icons/classes/warlock.webp
+img: systems/degringo5e/icons/classes/warlock.webp
 system:
   description:
     value: >-
@@ -19,25 +19,25 @@ system:
       scope="row"><p>Armor Training</p></th><td><p>Light
       armor</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B: </em>(A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Sickle}, 2
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbafcOrb0000000]{orb}),
-      @UUID[Compendium.dnd5e.equipment24.Item.phiPN9UzkXk3i5xh]{Book} (occult
-      lore), @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac]{Scholar's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSickle0000]{Sickle}, 2
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbafcOrb0000000]{orb}),
+      @UUID[Compendium.degringo5e.equipment24.Item.phiPN9UzkXk3i5xh]{Book} (occult
+      lore), @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's
       Pack}, and [[/award 15GP]]; or (B) [[/award
-      100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwlkWarlock000
+      100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwlkWarlock000
       inline classes="free-rules-embed"]</p><h2>Becoming a Warlock …</h2><h3>As
       a Level 1 Character</h3><ul><li>Gain all the traits in the Core Warlock
       Traits table.</li><li>Gain the Warlock's level 1 features, which are
       listed in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock
       Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain
       the following traits from the Core Warlock Traits table: Hit Point Die and
       training with Light armor.</li><li>Gain the Warlock's level 1 features,
       which are listed in the Warlock Features table. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
       rules} to determine your available spell slots.</li></ul>
     chat: ''
   source:
@@ -54,42 +54,42 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      key: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
       requiresProficiency: false
       _id: E16bWj9PWbA3ZDHF
       group: HNL3GVldnPCsg4BR
       sort: 200000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepSickle0000
       requiresProficiency: false
       _id: c2w1NtOevecavhT1
       group: HNL3GVldnPCsg4BR
       sort: 300000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: cbnBTbycZMQuhcSY
       group: HNL3GVldnPCsg4BR
       sort: 400000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbafcOrb0000000
+      key: Compendium.degringo5e.equipment24.Item.phbafcOrb0000000
       requiresProficiency: false
       _id: O8EoDIxQhPCa9Y1L
       group: HNL3GVldnPCsg4BR
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagBook0000000
+      key: Compendium.degringo5e.equipment24.Item.phbagBook0000000
       requiresProficiency: false
       _id: azIjGwebr4IUGOUW
       group: HNL3GVldnPCsg4BR
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagScholarsPac
+      key: Compendium.degringo5e.equipment24.Item.phbagScholarsPac
       requiresProficiency: false
       _id: QtlLMEGt8LF296xx
       group: HNL3GVldnPCsg4BR
@@ -105,9 +105,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkEldritchIn
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkEldritchIn
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkPactMagic0
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkPactMagic0
             optional: false
         optional: false
         spell: null
@@ -118,7 +118,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkMagicalCun
             optional: false
         optional: false
         spell: null
@@ -129,7 +129,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkContactPat
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkContactPat
             optional: false
         optional: false
         spell: null
@@ -140,7 +140,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkMysticArca
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkMysticArca
             optional: false
         optional: false
         spell: null
@@ -152,7 +152,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbwlkEpicBoon00
+            uuid: Compendium.degringo5e.classes24.Item.phbwlkEpicBoon00
         optional: false
         spell: null
       value: {}
@@ -162,7 +162,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbwlkEldritchMa
+          - uuid: Compendium.degringo5e.classes24.Item.phbwlkEldritchMa
             optional: false
         optional: false
         spell: null
@@ -416,34 +416,34 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvAgonizingB
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvArmorofSha
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvAscendantS
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvDevilsSigh
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvDevouringB
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvEldritchMi
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvEldritchSm
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvEldritchSp
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvGazeofTwoM
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvGiftoftheD
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvGiftoftheP
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvInvestment
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvLessonsoft
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvLifedrinke
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvMaskofMany
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvMasterofMy
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvMistyVisio
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvOnewithSha
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvOtherworld
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvPactBlade0
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvPactChain0
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvPactTome00
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvRepellingB
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvThirstingB
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvVisionsOfD
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvWhispersOf
-          - uuid: Compendium.dnd5e.classes24.Item.phbinvWitchSight
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvAgonizingB
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvArmorofSha
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvAscendantS
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvDevilsSigh
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvDevouringB
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvEldritchMi
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvEldritchSm
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvEldritchSp
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvFiendishVi
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvGazeofTwoM
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvGiftoftheD
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvGiftoftheP
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvInvestment
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvLessonsoft
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvLifedrinke
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvMaskofMany
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvMasterofMy
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvMistyVisio
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvOnewithSha
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvOtherworld
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvPactBlade0
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvPactChain0
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvPactTome00
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvRepellingB
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvThirstingB
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvVisionsOfD
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvWhispersOf
+          - uuid: Compendium.degringo5e.classes24.Item.phbinvWitchSight
         spell: null
         restriction:
           type: class
@@ -460,7 +460,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplContactOth
+            uuid: Compendium.degringo5e.spells24.Item.phbsplContactOth
         optional: false
         spell:
           ability: []
@@ -486,18 +486,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
         spell: null
         restriction:
           type: feat
@@ -591,7 +591,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745517425940

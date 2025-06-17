@@ -19,14 +19,14 @@ export default class BackgroundData extends ItemDataModel.mixin(ItemDescriptionT
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), {label: "DND5E.AdvancementTitle"})
+      advancement: new ArrayField(new AdvancementField(), {label: "DEGRINGO5E.AdvancementTitle"})
     });
   }
 
@@ -53,7 +53,7 @@ export default class BackgroundData extends ItemDataModel.mixin(ItemDescriptionT
   async getSheetData(context) {
     context.subtitles = [{ label: game.i18n.localize(CONFIG.Item.typeLabels.background) }];
     context.singleDescription = true;
-    context.parts = ["dnd5e.details-background", "dnd5e.details-starting-equipment"];
+    context.parts = ["degringo5e.details-background", "degringo5e.details-starting-equipment"];
   }
 
   /* -------------------------------------------- */

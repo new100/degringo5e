@@ -90,19 +90,19 @@ system:
         name: ''
         formula: ''
       name: Regain Pact Spell Slots
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      img: systems/degringo5e/icons/svg/activity/heal.svg
   enchant: {}
   identifier: magical-cunning
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256768167

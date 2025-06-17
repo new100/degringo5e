@@ -107,7 +107,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+            target: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
             scaling: {}
           - type: itemUses
             value: '-1'
@@ -150,7 +150,7 @@ system:
 effects:
   - name: Winged
     img: icons/creatures/abilities/wing-batlike-white-blue.webp
-    origin: Compendium.dnd5e.classes24.Item.phbscrDragonWing
+    origin: Compendium.degringo5e.classes24.Item.phbscrDragonWing
     transfer: true
     _id: RZklxO114TnQQDyG
     type: base
@@ -180,7 +180,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -188,14 +188,14 @@ effects:
       exportSource: null
     _key: '!items.effects!phbscrDragonWing.RZklxO114TnQQDyG'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866556244
   modifiedTime: 1745256765427

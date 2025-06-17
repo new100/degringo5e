@@ -221,7 +221,7 @@ img: icons/sundries/survival/cuffs-shackles-steel.webp
 effects:
   - name: Manacled
     img: icons/sundries/survival/cuffs-shackles-steel.webp
-    origin: Compendium.dnd5e.equipment24.Item.phbagManacles000
+    origin: Compendium.degringo5e.equipment24.Item.phbagManacles000
     transfer: false
     _id: hKJK8c3uwhFNdn5m
     type: base
@@ -245,7 +245,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725852629542
       modifiedTime: 1725852641762
@@ -256,14 +256,14 @@ sort: 3700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425910000
   modifiedTime: 1745256812284

@@ -43,34 +43,34 @@ export default class CreatureTemplate extends CommonTemplate {
       }),
       skills: new MappingField(new RollConfigField({
         value: new NumberField({
-          required: true, nullable: false, min: 0, max: 2, step: 0.5, initial: 0, label: "DND5E.ProficiencyLevel"
+          required: true, nullable: false, min: 0, max: 2, step: 0.5, initial: 0, label: "DEGRINGO5E.ProficiencyLevel"
         }),
         ability: "dex",
         bonuses: new SchemaField({
-          check: new FormulaField({ required: true, label: "DND5E.SkillBonusCheck" }),
-          passive: new FormulaField({ required: true, label: "DND5E.SkillBonusPassive" })
-        }, { label: "DND5E.SkillBonuses" })
+          check: new FormulaField({ required: true, label: "DEGRINGO5E.SkillBonusCheck" }),
+          passive: new FormulaField({ required: true, label: "DEGRINGO5E.SkillBonusPassive" })
+        }, { label: "DEGRINGO5E.SkillBonuses" })
       }), {
-        initialKeys: CONFIG.DND5E.skills, initialValue: this._initialSkillValue,
-        initialKeysOnly: true, label: "DND5E.Skills"
+        initialKeys: CONFIG.DEGRINGO5E.skills, initialValue: this._initialSkillValue,
+        initialKeysOnly: true, label: "DEGRINGO5E.Skills"
       }),
       tools: new MappingField(new RollConfigField({
         value: new NumberField({
-          required: true, nullable: false, min: 0, max: 2, step: 0.5, initial: 1, label: "DND5E.ProficiencyLevel"
+          required: true, nullable: false, min: 0, max: 2, step: 0.5, initial: 1, label: "DEGRINGO5E.ProficiencyLevel"
         }),
         ability: "int",
         bonuses: new SchemaField({
-          check: new FormulaField({ required: true, label: "DND5E.CheckBonus" })
-        }, { label: "DND5E.ToolBonuses" })
+          check: new FormulaField({ required: true, label: "DEGRINGO5E.CheckBonus" })
+        }, { label: "DEGRINGO5E.ToolBonuses" })
       })),
       spells: new MappingField(new SchemaField({
         value: new NumberField({
-          nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.SpellProgAvailable"
+          nullable: false, integer: true, min: 0, initial: 0, label: "DEGRINGO5E.SpellProgAvailable"
         }),
         override: new NumberField({
-          integer: true, min: 0, label: "DND5E.SpellProgOverride"
+          integer: true, min: 0, label: "DEGRINGO5E.SpellProgOverride"
         })
-      }), { initialKeys: this._spellLevels, label: "DND5E.SpellLevels" })
+      }), { initialKeys: this._spellLevels, label: "DEGRINGO5E.SpellLevels" })
     });
   }
 
@@ -84,7 +84,7 @@ export default class CreatureTemplate extends CommonTemplate {
    * @private
    */
   static _initialSkillValue(key, initial) {
-    if ( CONFIG.DND5E.skills[key]?.ability ) initial.ability = CONFIG.DND5E.skills[key].ability;
+    if ( CONFIG.DEGRINGO5E.skills[key]?.ability ) initial.ability = CONFIG.DEGRINGO5E.skills[key].ability;
     return initial;
   }
 
@@ -96,7 +96,7 @@ export default class CreatureTemplate extends CommonTemplate {
    * @private
    */
   static get _spellLevels() {
-    const levels = Object.keys(CONFIG.DND5E.spellLevels).filter(a => a !== "0").map(l => `spell${l}`);
+    const levels = Object.keys(CONFIG.DEGRINGO5E.spellLevels).filter(a => a !== "0").map(l => `spell${l}`);
     return [...levels, "pact"];
   }
 
@@ -133,7 +133,7 @@ export default class CreatureTemplate extends CommonTemplate {
       const match = s.match(pattern);
       if ( !match ) continue;
       const type = match[1].toLowerCase();
-      if ( (type in CONFIG.DND5E.senses) && !(type in source.attributes.senses) ) {
+      if ( (type in CONFIG.DEGRINGO5E.senses) && !(type in source.attributes.senses) ) {
         source.attributes.senses[type] = Number(match[2]).toNearest(0.5);
         wasMatched = true;
       }
@@ -154,7 +154,7 @@ export default class CreatureTemplate extends CommonTemplate {
     if ( !original || foundry.utils.isEmpty(original.value) ) return;
     source.tools ??= {};
     for ( const prof of original.value ) {
-      const validProf = (prof in CONFIG.DND5E.toolProficiencies) || (prof in CONFIG.DND5E.tools);
+      const validProf = (prof in CONFIG.DEGRINGO5E.toolProficiencies) || (prof in CONFIG.DEGRINGO5E.tools);
       if ( !validProf || (prof in source.tools) ) continue;
       source.tools[prof] = {
         value: 1,
@@ -195,7 +195,7 @@ export default class CreatureTemplate extends CommonTemplate {
    *                                             If undefined, `this.getRollData()` is used.
    * @param {object} [options.originalSkills]    Original skills if actor is polymorphed.
    *                                             If undefined, the skills of the actor identified by
-   *                                             `this.flags.dnd5e.originalActor` are used.
+   *                                             `this.flags.degringo5e.originalActor` are used.
    * @param {object} [options.globalBonuses]     Global ability bonuses for this actor.
    *                                             If undefined, `this.system.bonuses.abilities` is used.
    * @param {number} [options.globalCheckBonus]  Global check bonus for this actor.
@@ -210,7 +210,7 @@ export default class CreatureTemplate extends CommonTemplate {
     skillData, rollData, originalSkills, globalBonuses,
     globalCheckBonus, globalSkillBonus, ability
   }={}) {
-    const flags = this.parent.flags.dnd5e ?? {};
+    const flags = this.parent.flags.degringo5e ?? {};
 
     skillData ??= foundry.utils.deepClone(this.skills[skillId]);
     rollData ??= this.parent.getRollData();
@@ -237,7 +237,7 @@ export default class CreatureTemplate extends CommonTemplate {
     if ( Number.isNumeric(skillData.prof.term) ) skillData.total += skillData.prof.flat;
 
     // Compute passive bonus
-    const passive = flags.observantFeat && CONFIG.DND5E.characterFlags.observantFeat.skills.includes(skillId) ? 5 : 0;
+    const passive = flags.observantFeat && CONFIG.DEGRINGO5E.characterFlags.observantFeat.skills.includes(skillId) ? 5 : 0;
     const passiveBonus = simplifyBonus(skillData.bonuses?.passive, rollData);
     skillData.passive = 10 + skillData.mod + skillData.bonus + skillData.prof.flat + passive + passiveBonus;
 

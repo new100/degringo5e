@@ -586,7 +586,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWaterBreathing
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719071
@@ -782,7 +782,7 @@ items:
     img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
     effects:
       - name: Grappled & Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmTentacles00000
         _id: GyZrmzBP0NB8oRZI
         type: base
@@ -813,7 +813,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -822,7 +822,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantOctopus00.mmTentacles00000.GyZrmzBP0NB8oRZI
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -830,7 +830,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTentacles00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719071
@@ -895,7 +895,7 @@ items:
             formula: ''
             name: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -931,7 +931,7 @@ items:
     effects: []
     folder: 4T18pEvubPMQLzvD
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -939,7 +939,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmInkCloud000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712719071
@@ -955,7 +955,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415449930
   modifiedTime: 1745712719106

@@ -610,7 +610,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEtherealSight0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -659,7 +659,7 @@ items:
     img: icons/magic/death/undead-ghost-scream-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -667,7 +667,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIncorporealMov
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -749,7 +749,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -757,7 +757,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -899,7 +899,7 @@ items:
     img: icons/magic/death/hand-withered-gray.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -907,7 +907,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWitheringTouch
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -969,7 +969,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplEtherealne
+            uuid: Compendium.degringo5e.spells24.Item.phbsplEtherealne
             ability: cha
           name: Etherealness
       uses:
@@ -979,7 +979,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEtherealne]{Etherealness}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness}</em>
           spell, requiring no spell components and using Charisma as the
           spellcasting ability. The [[lookup @name lowercase]] is visible on the
           Material Plane while on the Border Ethereal and vice versa, but it
@@ -1004,7 +1004,7 @@ items:
     img: icons/magic/air/wind-vortex-swirl-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1012,7 +1012,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEtherealness00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -1131,14 +1131,14 @@ items:
             name: ''
             formula: ''
           name: Enter Border Ethereal
-          img: systems/dnd5e/icons/svg/trait-saves.svg
+          img: systems/degringo5e/icons/svg/trait-saves.svg
       identifier: etherealness
     type: spell
     img: icons/magic/air/wind-vortex-swirl-purple.webp
     effects:
       - name: Etherealness
-        img: systems/dnd5e/icons/svg/statuses/ethereal.svg
-        origin: Compendium.dnd5e.spells24.Item.phbsplEtherealne
+        img: systems/degringo5e/icons/svg/statuses/ethereal.svg
+        origin: Compendium.degringo5e.spells24.Item.phbsplEtherealne
         transfer: false
         _id: louTI4Z9bNUYBa8K
         type: base
@@ -1163,7 +1163,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1174,9 +1174,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmGhost000000000.Item.pB2kBCFQfO3vNHBI.Activity.N5QCNM4uIBjpu6sD
+          Compendium.degringo5e.actors24.Actor.mmGhost000000000.Item.pB2kBCFQfO3vNHBI.Activity.N5QCNM4uIBjpu6sD
         changes:
           - key: system.ability
             mode: 5
@@ -1214,7 +1214,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1227,13 +1227,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.pB2kBCFQfO3vNHBI.Activity.N5QCNM4uIBjpu6sD
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEtherealne
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplEtherealne
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -1349,7 +1349,7 @@ items:
     img: icons/magic/death/skull-energy-light-purple.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
         origin: Item.mmHorrificVisage
         _id: lx2ebHyyyaaWf8s1
         type: base
@@ -1377,7 +1377,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1386,7 +1386,7 @@ items:
         _key: >-
           !actors.items.effects!mmGhost000000000.4aPdVm2lhKxkHq7K.lx2ebHyyyaaWf8s1
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1394,7 +1394,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmHorrificVisage
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -1515,7 +1515,7 @@ items:
       crewed: false
     effects:
       - name: Incapacitated
-        img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+        img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
         origin: Item.mmPossession0000
         _id: EeZIaR3X4cI5glMX
         type: base
@@ -1543,7 +1543,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1556,7 +1556,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1564,7 +1564,7 @@ items:
       compendiumSource: Item.mmPossession0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712718126
@@ -1577,7 +1577,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712718156

@@ -7,7 +7,7 @@ system:
     Z62czXwABB7SN1lP:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDarkness00
         challenge:
           attack: null
           save: null
@@ -59,7 +59,7 @@ system:
     4h4Aazi3L1MmByOt:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFaerieFire
         challenge:
           attack: null
           save: 15
@@ -111,7 +111,7 @@ system:
     76MvwJBXwm1GbzfW:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: 15
@@ -163,7 +163,7 @@ system:
     F6QdFpERu7c4x6cd:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplSlow000000
         challenge:
           attack: null
           save: 15
@@ -215,7 +215,7 @@ system:
     uDrKgJTXIcF0EM33:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+        uuid: Compendium.degringo5e.spells24.Item.phbsplStinkingCl
         challenge:
           attack: null
           save: 15
@@ -267,7 +267,7 @@ system:
     yMZ4RIhJV1jvkKaf:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGustofWind
         challenge:
           attack: null
           save: 15
@@ -433,7 +433,7 @@ system:
     EhdR11nT5sMOi9h5:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplLightningB
+        uuid: Compendium.degringo5e.spells24.Item.phbsplLightningB
         challenge:
           attack: null
           save: 15
@@ -485,7 +485,7 @@ system:
     cKz4qaK2elWiFRCS:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplEnlargeRed
+        uuid: Compendium.degringo5e.spells24.Item.phbsplEnlargeRed
         challenge:
           attack: null
           save: 15
@@ -654,7 +654,7 @@ system:
     hohchQU2VPFVUIWG:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        uuid: Compendium.degringo5e.spells24.Item.phbsplInvisibili
         challenge:
           attack: null
           save: 15
@@ -770,7 +770,7 @@ system:
     Wxry2v7kMU16VG7T:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplPolymorph0
         challenge:
           attack: null
           save: 15
@@ -840,7 +840,7 @@ system:
       regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's
       last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into dust and is
       destroyed.</p><details><summary>Wand of Wonder Effects
-      Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgWandOfWonderE
+      Table</summary><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgWandOfWonderE
       rollable caption=false]</p></details><section class="secret"
       id="secret-cRW0AfZNJaYwjQa0"><p><strong>Foundry Note</strong></p><p>The
       actionable effects of the table are included as activities and implemented
@@ -912,7 +912,7 @@ system:
 effects:
   - name: Blinded
     img: icons/commodities/biological/eye-red-pink.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgWandOfWonder0
+    origin: Compendium.degringo5e.equipment24.Item.dmgWandOfWonder0
     transfer: false
     _id: jSv9Ref3gLDObysC
     type: base
@@ -937,7 +937,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730461969557
       modifiedTime: 1730462009273
@@ -946,14 +946,14 @@ effects:
     _key: '!items.effects!dmgWandOfWonder0.jSv9Ref3gLDObysC'
 folder: rLoBplj1TIznxeWI
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704839

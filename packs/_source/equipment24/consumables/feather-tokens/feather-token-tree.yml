@@ -69,7 +69,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Uncommon, See:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
       Token}</em></p><p>You must be outdoors to use this token. You can take a
       Magic action to touch it to an unoccupied space on the ground. The token
       disappears, and in its place a nonmagical oak tree springs into existence.
@@ -117,14 +117,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712704373

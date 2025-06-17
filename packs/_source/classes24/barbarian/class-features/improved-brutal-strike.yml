@@ -85,7 +85,7 @@ system:
         name: ''
         formula: ''
       name: Sundering Blow
-      img: systems/dnd5e/icons/svg/properties/magical.svg
+      img: systems/degringo5e/icons/svg/properties/magical.svg
     I30qGlPDcyKwz65H:
       type: utility
       name: Staggering Blow
@@ -134,12 +134,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
+      img: systems/degringo5e/icons/svg/damage/bludgeoning.svg
   enchant: {}
   identifier: improved-brutal-strike
 effects:
   - name: Staggered
-    origin: Compendium.dnd5e.classes24.Item.phbbrbImpBrutalS
+    origin: Compendium.degringo5e.classes24.Item.phbbrbImpBrutalS
     duration:
       rounds: null
       startTime: null
@@ -150,7 +150,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/items/feature.svg
+    img: systems/degringo5e/icons/svg/items/feature.svg
     _id: L9N4evZo1jt46dap
     type: base
     system: {}
@@ -167,7 +167,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -175,7 +175,7 @@ effects:
       exportSource: null
     _key: '!items.effects!phbbrbImpBrutalS.L9N4evZo1jt46dap'
   - name: Sundered
-    origin: Compendium.dnd5e.classes24.Item.phbbrbImpBrutalS
+    origin: Compendium.degringo5e.classes24.Item.phbbrbImpBrutalS
     duration:
       rounds: null
       startTime: null
@@ -186,7 +186,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/items/feature.svg
+    img: systems/degringo5e/icons/svg/items/feature.svg
     _id: tUyuyTQGmpUqMcFe
     type: base
     system: {}
@@ -202,7 +202,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -211,14 +211,14 @@ effects:
     _key: '!items.effects!phbbrbImpBrutalS.tUyuyTQGmpUqMcFe'
 folder: p6WDpW0gzmKfhGad
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735865940469
   modifiedTime: 1745256759892

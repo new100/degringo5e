@@ -126,7 +126,7 @@ system:
         - count: ''
           name: ''
           _id: VP2dV3II1UkimGJz
-          uuid: Compendium.dnd5e.actors24.Actor.dmgIllusoryCreat
+          uuid: Compendium.degringo5e.actors24.Actor.dmgIllusoryCreat
           level:
             min: null
             max: null
@@ -161,14 +161,14 @@ system:
       creature identifies it as an illusion with a successful [[/check
       ability=int skill=inv dc=15 format=long]]. The illusion lasts until its
       card is moved or the illusion is dispelled (using a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}</em> spell or a similar effect). When the illusion ends, the image
       on its card disappears, and that card can't be used
-      again.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgDeckOfIllusio
+      again.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgDeckOfIllusio
       rollable]</p><section class="secret"
       id="secret-dg7rbpSc8GfB0AXm"><p><strong>Foundry Note</strong></p><p>Due to
       the single-use nature of each card, it is recommended to import a copy of
-      the @UUID[Compendium.dnd5e.tables24.RollTable.dmgDeckOfIllusio]{table} and
+      the @UUID[Compendium.degringo5e.tables24.RollTable.dmgDeckOfIllusio]{table} and
       insert its UUID into the @Embed enricher, above.</p><p>Additionally, when
       first obtained, the GM or player should use the <strong>Count Number of
       Cards</strong> activity to randomly determine the total number of cards
@@ -216,14 +216,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256803902

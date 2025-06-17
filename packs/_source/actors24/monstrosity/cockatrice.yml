@@ -785,7 +785,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Restrained
-        img: systems/dnd5e/icons/svg/items/weapon.svg
+        img: systems/degringo5e/icons/svg/items/weapon.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
         _id: 9dBgxzdq0cmzyhfR
         type: base
@@ -814,7 +814,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -823,7 +823,7 @@ items:
         _key: >-
           !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.9dBgxzdq0cmzyhfR
       - name: Petrified
-        img: systems/dnd5e/icons/svg/statuses/petrified.svg
+        img: systems/degringo5e/icons/svg/statuses/petrified.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
         _id: ScizgnitVoBvVzPx
         type: base
@@ -851,7 +851,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -860,7 +860,7 @@ items:
         _key: >-
           !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.ScizgnitVoBvVzPx
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -868,7 +868,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715673
@@ -884,7 +884,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712715698

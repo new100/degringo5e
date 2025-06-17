@@ -342,7 +342,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplBigbysHand
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplBigbysHand
         caption=false]</p>
       public: ''
     alignment: ''
@@ -470,7 +470,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags:
-    dnd5e:
+    degringo5e:
       tokenRing:
         effects: 1
   randomImg: false
@@ -568,7 +568,7 @@ items:
             parts:
               - custom:
                   enabled: true
-                  formula: (2 * @flags.dnd5e.summon.level - 8)d8
+                  formula: (2 * @flags.degringo5e.summon.level - 8)d8
                 number: null
                 denomination: 0
                 bonus: ''
@@ -598,7 +598,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -606,7 +606,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160054
@@ -658,7 +658,7 @@ items:
               max: ''
             spellSlot: true
           description:
-            chatFlavor: '[[5 + 5 * @flags.dnd5e.summon.mod]] foot push'
+            chatFlavor: '[[5 + 5 * @flags.degringo5e.summon.mod]] foot push'
           duration:
             value: ''
             units: inst
@@ -718,7 +718,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -726,7 +726,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160054
@@ -744,9 +744,9 @@ items:
           you can take a Bonus Action to cause the hand to crush it, dealing
           Bludgeoning damage to the target equal to 4d6 plus your spellcasting
           ability modifier.</p><h3>Grapple Escape Tests</h3><p>[[/check
-          ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Strength
+          ability=str skill=ath dc=8+@prof+@flags.degringo5e.summon.mod]]{Strength
           (Athletics)} [[/check ability=dex skill=acr
-          dc=8+@prof+@flags.dnd5e.summon.mod]]{Dexterity (Acrobatics)}</p>
+          dc=8+@prof+@flags.degringo5e.summon.mod]]{Dexterity (Acrobatics)}</p>
         chat: ''
       source:
         custom: ''
@@ -888,8 +888,8 @@ items:
               - custom:
                   enabled: true
                   formula: >-
-                    (2 * @flags.dnd5e.summon.level - 6)d6 +
-                    @flags.dnd5e.summon.mod
+                    (2 * @flags.degringo5e.summon.level - 6)d6 +
+                    @flags.degringo5e.summon.mod
                 number: null
                 denomination: 0
                 bonus: ''
@@ -913,7 +913,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -921,7 +921,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160054
@@ -1061,7 +1061,7 @@ items:
             Actor.phbsplBigbysHand.Item.phbaoiInterposin.ActiveEffect.wDcd4bpCErQfW0To
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: null
           modifiedTime: null
@@ -1071,7 +1071,7 @@ items:
           !actors.items.effects!phbsplBigbysHand.phbaoiInterposin.wDcd4bpCErQfW0To
       - name: Interposed
         img: icons/magic/earth/barrier-stone-explosion-debris.webp
-        origin: Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin
+        origin: Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin
         transfer: false
         _id: 7kq0juDjYR7wlwee
         type: base
@@ -1097,7 +1097,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1725985592766
           modifiedTime: 1725985869321
@@ -1110,7 +1110,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1118,7 +1118,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680160054
@@ -1128,7 +1128,7 @@ items:
 effects: []
 folder: 9mmdDqYZFLIJBacj
 flags:
-  dnd5e:
+  degringo5e:
     summon:
       mod: 2
       level: 5
@@ -1136,7 +1136,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918173
   modifiedTime: 1745256829944

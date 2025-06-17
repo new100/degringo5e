@@ -408,13 +408,13 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepHeavyCross]{Heavy
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
         Crossbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
         Armor},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}</p></div><h1>Toughs</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}</p></div><h1>Toughs</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Tough</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l
+        mm"]</p><h2>Tough</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -706,15 +706,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepMace000000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepMace000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
@@ -876,15 +876,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepHeavyCross
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepHeavyCross
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
@@ -951,10 +951,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmLeatherArm
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
@@ -1006,7 +1006,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPackTactics000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712728649
@@ -1022,7 +1022,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712728677

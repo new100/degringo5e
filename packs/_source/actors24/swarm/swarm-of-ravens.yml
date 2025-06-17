@@ -603,7 +603,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwarm000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737060845457
       modifiedTime: 1745712728399
@@ -808,7 +808,7 @@ items:
     img: icons/creatures/birds/corvid-call-sound-glowing.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -816,7 +816,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBeaks000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737060849574
       modifiedTime: 1745712728399
@@ -927,7 +927,7 @@ items:
     img: icons/magic/sonic/projectile-sound-rings-wave.webp
     effects:
       - name: Deafened and Disadvantaged
-        img: systems/dnd5e/icons/svg/statuses/deafened.svg
+        img: systems/degringo5e/icons/svg/statuses/deafened.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmCacophony00000
         transfer: false
         _id: 5cNk7YVIesN5RiIh
@@ -956,7 +956,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -965,7 +965,7 @@ items:
         _key: >-
           !actors.items.effects!mmSwarmOfRavens0.mmCacophony00000.5cNk7YVIesN5RiIh
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -973,7 +973,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmCacophony00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737060850909
       modifiedTime: 1745712728399
@@ -989,7 +989,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712728427

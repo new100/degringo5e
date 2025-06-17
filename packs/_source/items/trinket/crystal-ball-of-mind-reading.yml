@@ -9,11 +9,11 @@ system:
 
       <p>The Crystal Ball is about 6 inches in diameter. While touching it, you
       can cast the
-      @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}spell (save
+      @UUID[Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20]{Scrying}spell (save
       DC 17) with it.</p>
 
       <p>You can use an action to cast the
-      @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
+      @UUID[Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts}
       spell (save DC 17) while you are Scrying with the Crystal Ball, targeting
       creatures you can see within 30 feet of the spell's sensor. You don't need
       to concentrate on this Detect Thoughts to maintain it during its duration,
@@ -119,7 +119,7 @@ system:
     tZv4jpd4zviSzUWu:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20
+        uuid: Compendium.degringo5e.spells.Item.fVbCxFRaORalHB20
         challenge:
           attack: null
           save: 17
@@ -165,7 +165,7 @@ system:
     fRkGCqgiCHP528xk:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+        uuid: Compendium.degringo5e.spells.Item.ppWAAEul0QHtm4er
         challenge:
           attack: null
           save: 17
@@ -218,14 +218,14 @@ sort: 5600000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037195309
   modifiedTime: 1729014839344

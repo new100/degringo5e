@@ -7,7 +7,7 @@ system:
   description:
     value: >-
       <p>You gain an
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic
       Boon} feat or another feat of your choice for which you qualify. Boon of
       Spell Recall is recommended.</p>
     chat: ''
@@ -34,14 +34,14 @@ system:
   identifier: epic-boon
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866377962
   modifiedTime: 1745256760359

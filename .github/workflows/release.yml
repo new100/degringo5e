@@ -95,7 +95,7 @@ jobs:
     - name: Build All
       run: |
         npm run build
-        mv --force dnd5e-compiled.mjs dnd5e.mjs
+        mv --force degringo5e-compiled.mjs degringo5e.mjs
 
 
     - name: Load Manifest

@@ -98,7 +98,7 @@ type: spell
 img: icons/magic/unholy/hand-marked-pink.webp
 effects:
   - name: Ethereal
-    origin: Compendium.dnd5e.spells24.Item.phbsplBlink00000
+    origin: Compendium.degringo5e.spells24.Item.phbsplBlink00000
     duration:
       rounds: 1
       startTime: null
@@ -109,7 +109,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/ethereal.svg
+    img: systems/degringo5e/icons/svg/statuses/ethereal.svg
     _id: La5ofK0TnPSTL3iq
     type: base
     system: {}
@@ -124,7 +124,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -136,14 +136,14 @@ sort: 3400000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425943980
   modifiedTime: 1745256787159

@@ -21,11 +21,11 @@ system:
       lineage).</p><table><caption>High Elf Lineage
       Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
       cantrip. Whenever you finish a Long Rest, you can replace that cantrip
       with a different cantrip from the Wizard spell
-      list.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect
-      Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty
+      list.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
+      Magic}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty
       Step}</td></tr></tbody></table><section class="secret"
       id="secret-9CEnkbCgcLTJ03JL"><p><strong>Foundry Note</strong></p><p>You
       will automatically be granted the relevant features and spells when you
@@ -49,14 +49,14 @@ system:
 effects: []
 folder: 3uafOaOCZJQeUNtw
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866711197
   modifiedTime: 1745686912063

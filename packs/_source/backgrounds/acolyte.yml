@@ -13,7 +13,7 @@ system:
 
       <p>Choose a god, a pantheon of gods, or some other quasi-divine being from
       among those listed in
-      @UUID[Compendium.dnd5e.rules.JournalEntry.udVPA9JW5wy5t3G5.JournalEntryPage.2lysbY50fgv1R3v7]{Fantasy-Historical
+      @UUID[Compendium.degringo5e.rules.JournalEntry.udVPA9JW5wy5t3G5.JournalEntryPage.2lysbY50fgv1R3v7]{Fantasy-Historical
       Pantheons}, and work with your DM to detail the nature of your religious
       service. Were you a lesser functionary in a temple, raised from childhood
       to assist the priests in the sacred rites? Or were you a high priest who
@@ -30,12 +30,12 @@ system:
 
       <p><strong>Equipment: </strong>A holy symbol (a gift to you when you
       entered the priesthood), a prayer book or prayer wheel, 5 sticks of
-      incense, @UUID[Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp]{vestments}, a
-      set of @UUID[Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB]{common
+      incense, @UUID[Compendium.degringo5e.items.Item.irtqrzaUCeshmTZp]{vestments}, a
+      set of @UUID[Compendium.degringo5e.items.Item.8RXjiddJ6VGyE7vB]{common
       clothes}, and a pouch containing 15 gp.</p>
 
       <p><strong>Feature:</strong>
-      @UUID[Compendium.dnd5e.backgrounds.Item.64N1NWh9kC1dI7zN]{Shelter of the
+      @UUID[Compendium.degringo5e.backgrounds.Item.64N1NWh9kC1dI7zN]{Shelter of the
       Faithful}</p>
 
       <hr />
@@ -48,14 +48,14 @@ system:
       mannerisms and ideals. Their flaws might be some hidden hypocrisy or
       heretical idea, or an ideal or bond taken to an extreme.</p>
 
-      <p>@UUID[Compendium.dnd5e.tables.RollTable.HDzErjwy3TseLOZX]{Personality
+      <p>@UUID[Compendium.degringo5e.tables.RollTable.HDzErjwy3TseLOZX]{Personality
       Traits}</p>
 
-      <p>@UUID[Compendium.dnd5e.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideals}</p>
+      <p>@UUID[Compendium.degringo5e.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideals}</p>
 
-      <p>@UUID[Compendium.dnd5e.tables.RollTable.DZhd8JkjqlpCP8EB]{Bonds}</p>
+      <p>@UUID[Compendium.degringo5e.tables.RollTable.DZhd8JkjqlpCP8EB]{Bonds}</p>
 
-      <p>@UUID[Compendium.dnd5e.tables.RollTable.COIHGOnoJnmXduad]{Flaws}</p>
+      <p>@UUID[Compendium.degringo5e.tables.RollTable.COIHGOnoJnmXduad]{Flaws}</p>
     chat: ''
   source:
     custom: ''
@@ -95,7 +95,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.backgrounds.64N1NWh9kC1dI7zN
+          - uuid: Compendium.degringo5e.backgrounds.64N1NWh9kC1dI7zN
             optional: false
         optional: false
         spell:
@@ -127,42 +127,42 @@ system:
       requiresProficiency: false
     - type: linked
       count: null
-      key: Compendium.dnd5e.items.Item.odV5cq2HSLSCH69k
+      key: Compendium.degringo5e.items.Item.odV5cq2HSLSCH69k
       _id: BkhMHTlh4lvWJbUV
       group: D2qNFQ88JhFwY8bv
       sort: 400000
       requiresProficiency: false
     - type: linked
       count: null
-      key: Compendium.dnd5e.items.Item.Nd4r4hocpfu6fYDP
+      key: Compendium.degringo5e.items.Item.Nd4r4hocpfu6fYDP
       _id: ZfMgYgrtZd79FA7n
       group: D2qNFQ88JhFwY8bv
       sort: 500000
       requiresProficiency: false
     - type: linked
       count: 5
-      key: Compendium.dnd5e.items.Item.3b0RvGi0TnTYpIxn
+      key: Compendium.degringo5e.items.Item.3b0RvGi0TnTYpIxn
       _id: R0uTjUcQN2YrB9rx
       group: SWn3glXteLaNLSms
       sort: 600000
       requiresProficiency: false
     - type: linked
       count: null
-      key: Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp
+      key: Compendium.degringo5e.items.Item.irtqrzaUCeshmTZp
       _id: xZrjP2RKlIaHP1aH
       group: SWn3glXteLaNLSms
       sort: 700000
       requiresProficiency: false
     - type: linked
       count: null
-      key: Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB
+      key: Compendium.degringo5e.items.Item.8RXjiddJ6VGyE7vB
       _id: X43SWt9ujvg2tOXt
       group: SWn3glXteLaNLSms
       sort: 800000
       requiresProficiency: false
     - type: linked
       count: null
-      key: Compendium.dnd5e.backgrounds.Item.dQaOdm9dbVN0RZYP
+      key: Compendium.degringo5e.backgrounds.Item.dQaOdm9dbVN0RZYP
       _id: wTrqZ2jdIrHxSuD5
       group: SWn3glXteLaNLSms
       sort: 900000
@@ -178,7 +178,7 @@ _id: IgJkSnLiLJOWH7eK
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037368262
   modifiedTime: 1725992238309

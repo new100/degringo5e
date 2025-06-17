@@ -10,7 +10,7 @@ system:
       that fails its save is forced back to its plane of origin (if it isn't
       there already) and can't return to the current plane for 24 hours by any
       means short of a
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
       spell.</p><table><thead><tr><td>Hit Points</td><td>Divine Word
       Effect</td></tr></thead><tbody><tr><td>0–20</td><td>The target
       dies.</td></tr><tr><td>21–30</td><td>The target has the
@@ -125,8 +125,8 @@ type: spell
 img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 effects:
   - name: Death
-    img: systems/dnd5e/icons/svg/statuses/dead.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplDivineWord
+    img: systems/degringo5e/icons/svg/statuses/dead.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplDivineWord
     transfer: false
     _id: poB090Yp3gKXXcMH
     type: base
@@ -151,7 +151,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724883132817
       modifiedTime: 1724883224416
@@ -159,8 +159,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplDivineWord.poB090Yp3gKXXcMH'
   - name: Blinded, Deafened, Stunned
-    img: systems/dnd5e/icons/svg/statuses/stunned.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplDivineWord
+    img: systems/degringo5e/icons/svg/statuses/stunned.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplDivineWord
     transfer: false
     _id: grWj3oo8iH8egvi1
     type: base
@@ -187,7 +187,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724883228265
       modifiedTime: 1724883335681
@@ -195,8 +195,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplDivineWord.grWj3oo8iH8egvi1'
   - name: Blinded, Deafened
-    img: systems/dnd5e/icons/svg/statuses/blinded.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplDivineWord
+    img: systems/degringo5e/icons/svg/statuses/blinded.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplDivineWord
     transfer: false
     _id: 8O8KymREuOZFi45g
     type: base
@@ -220,7 +220,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724883338160
       modifiedTime: 1724883369318
@@ -228,8 +228,8 @@ effects:
       exportSource: null
     _key: '!items.effects!phbsplDivineWord.8O8KymREuOZFi45g'
   - name: Deafened
-    img: systems/dnd5e/icons/svg/statuses/deafened.svg
-    origin: Compendium.dnd5e.spells24.Item.phbsplDivineWord
+    img: systems/degringo5e/icons/svg/statuses/deafened.svg
+    origin: Compendium.degringo5e.spells24.Item.phbsplDivineWord
     transfer: false
     _id: qZvAfjU2H6Fg6y6M
     type: base
@@ -253,7 +253,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724883371355
       modifiedTime: 1724883402185
@@ -265,14 +265,14 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425950635
   modifiedTime: 1745256791274

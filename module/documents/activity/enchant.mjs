@@ -12,7 +12,7 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
-  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DND5E.ENCHANT"];
+  static LOCALIZATION_PREFIXES = [...super.LOCALIZATION_PREFIXES, "DEGRINGO5E.ENCHANT"];
 
   /* -------------------------------------------- */
 
@@ -20,8 +20,8 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "enchant",
-      img: "systems/dnd5e/icons/svg/activity/enchant.svg",
-      title: "DND5E.ENCHANT.Title",
+      img: "systems/degringo5e/icons/svg/activity/enchant.svg",
+      title: "DEGRINGO5E.ENCHANT.Title",
       sheetClass: EnchantSheet,
       usage: {
         dialog: EnchantUsageDialog
@@ -68,7 +68,7 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
 
     // Store selected enchantment profile in message flag
     if ( usageConfig.enchantmentProfile ) foundry.utils.setProperty(
-      messageConfig, "data.flags.dnd5e.use.enchantmentProfile", usageConfig.enchantmentProfile
+      messageConfig, "data.flags.degringo5e.use.enchantmentProfile", usageConfig.enchantmentProfile
     );
   }
 
@@ -92,11 +92,11 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
     const errors = [];
 
     if ( !this.restrictions.allowMagical && item.system.properties?.has("mgc") ) {
-      errors.push(new EnchantmentError(game.i18n.localize("DND5E.ENCHANT.Warning.NoMagicalItems")));
+      errors.push(new EnchantmentError(game.i18n.localize("DEGRINGO5E.ENCHANT.Warning.NoMagicalItems")));
     }
 
     if ( this.restrictions.type && (item.type !== this.restrictions.type) ) {
-      errors.push(new EnchantmentError(game.i18n.format("DND5E.ENCHANT.Warning.WrongType", {
+      errors.push(new EnchantmentError(game.i18n.format("DEGRINGO5E.ENCHANT.Warning.WrongType", {
         incorrectType: game.i18n.localize(CONFIG.Item.typeLabels[item.type]),
         allowedType: game.i18n.localize(CONFIG.Item.typeLabels[this.restrictions.type])
       })));
@@ -110,7 +110,7 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
         return config.label;
       };
       errors.push(new EnchantmentError(game.i18n.format(
-        `DND5E.ENCHANT.Warning.${item.system.type?.value ? "WrongType" : "NoSubtype"}`,
+        `DEGRINGO5E.ENCHANT.Warning.${item.system.type?.value ? "WrongType" : "NoSubtype"}`,
         {
           allowedType: game.i18n.getListFormatter({ type: "disjunction" }).format(
             Array.from(this.restrictions.categories).map(c => getLabel(c).toLowerCase())
@@ -122,16 +122,16 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
 
     if ( this.restrictions.properties.size
       && !this.restrictions.properties.intersection(item.system.properties ?? new Set()).size ) {
-      errors.push(new EnchantmentError(game.i18n.format("DND5E.Enchantment.Warning.MissingProperty", {
+      errors.push(new EnchantmentError(game.i18n.format("DEGRINGO5E.Enchantment.Warning.MissingProperty", {
         validProperties: game.i18n.getListFormatter({ type: "disjunction" }).format(
-          Array.from(this.restrictions.properties).map(p => CONFIG.DND5E.itemProperties[p]?.label ?? p)
+          Array.from(this.restrictions.properties).map(p => CONFIG.DEGRINGO5E.itemProperties[p]?.label ?? p)
         )
       })));
     }
 
     /**
      * A hook event that fires while validating whether an enchantment can be applied to a specific item.
-     * @function dnd5e.canEnchant
+     * @function degringo5e.canEnchant
      * @memberof hookEvents
      * @param {EnchantActivity} activity   The activity performing the enchanting.
      * @param {Item5e} item                Item to which the enchantment will be applied.
@@ -139,7 +139,7 @@ export default class EnchantActivity extends ActivityMixin(EnchantActivityData) 
      *                                     so long as no errors are listed, otherwise the provided errors will be
      *                                     displayed to the user.
      */
-    Hooks.callAll("dnd5e.canEnchant", this, item, errors);
+    Hooks.callAll("degringo5e.canEnchant", this, item, errors);
 
     return errors.length ? errors : true;
   }

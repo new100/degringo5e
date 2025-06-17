@@ -96,7 +96,7 @@ type: spell
 img: icons/magic/water/bubbles-air-water-blue.webp
 effects:
   - name: Water Breathing
-    origin: Compendium.dnd5e.spells24.Item.phbsplWaterBreat
+    origin: Compendium.degringo5e.spells24.Item.phbsplWaterBreat
     duration:
       rounds: null
       startTime: null
@@ -121,7 +121,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -133,14 +133,14 @@ sort: 100025
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425977495
   modifiedTime: 1745256799963

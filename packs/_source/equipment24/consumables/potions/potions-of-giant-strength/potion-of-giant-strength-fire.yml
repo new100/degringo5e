@@ -113,7 +113,7 @@ system:
 effects:
   - name: Strength of Fire
     img: icons/consumables/potions/bottle-corked-empty.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgFirePotionOfG
+    origin: Compendium.degringo5e.equipment24.Item.dmgFirePotionOfG
     transfer: false
     _id: Men77BWldNXaCmrA
     type: base
@@ -139,10 +139,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
+        Compendium.degringo5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730744291010
       modifiedTime: 1730744301121
@@ -150,14 +150,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgFirePotionOfG.Men77BWldNXaCmrA'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745432533283

@@ -599,7 +599,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBound000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -698,7 +698,7 @@ items:
     img: icons/skills/wounds/injury-stitched-flesh-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -706,7 +706,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRegeneration00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -765,7 +765,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpellStoring00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -847,7 +847,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -855,7 +855,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -1007,7 +1007,7 @@ items:
     img: icons/skills/melee/unarmed-punch-fist.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1015,7 +1015,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFist0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -1081,7 +1081,7 @@ items:
             name: ''
             formula: ''
           name: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1156,7 +1156,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1165,7 +1165,7 @@ items:
         _key: >-
           !actors.items.effects!mmShieldGuardian.mmProtection0000.4neflArm7JowxOTM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1173,7 +1173,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmProtection0000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726880
@@ -1189,7 +1189,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415490996
   modifiedTime: 1745712726917

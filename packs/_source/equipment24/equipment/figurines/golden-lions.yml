@@ -3,11 +3,11 @@ system:
   description:
     value: >-
       <p><em>See
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgFigurineOfWon]{Figurine of
       Wondrous Power}</em></p><p>These gold statuettes of lions are always
       created in pairs. You can use one figurine or both simultaneously. Each
       can become a
-      <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmLion0000000000]{Lion}</strong>
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmLion0000000000]{Lion}</strong>
       for up to 1 hour. Once a lion has been used, it can't be used again until
       7 days have passed.</p><section class="secret"
       id="secret-e1wLN4czlgS5CpcW"><p><strong>Foundry Note</strong></p><p>Each
@@ -84,7 +84,7 @@ system:
         - count: ''
           name: ''
           _id: EgCV0cs5EPQgUJOh
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobLion000000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobLion000000
           level:
             min: null
             max: null
@@ -162,7 +162,7 @@ system:
         - count: ''
           name: ''
           _id: EgCV0cs5EPQgUJOh
-          uuid: Compendium.dnd5e.actors24.Actor.phbmobLion000000
+          uuid: Compendium.degringo5e.actors24.Actor.phbmobLion000000
           level:
             min: null
             max: null
@@ -224,14 +224,14 @@ sort: 150000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729781683569
   modifiedTime: 1745712700111

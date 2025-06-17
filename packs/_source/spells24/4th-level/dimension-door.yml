@@ -106,7 +106,7 @@ system:
         max: ''
       sort: 0
       name: ''
-      img: systems/dnd5e/icons/svg/trait-saves.svg
+      img: systems/degringo5e/icons/svg/trait-saves.svg
       appliedEffects: []
   identifier: dimension-door
 _id: phbsplDimensionD
@@ -118,14 +118,14 @@ sort: 2700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425949835
   modifiedTime: 1745256790484

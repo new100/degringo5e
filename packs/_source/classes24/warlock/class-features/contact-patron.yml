@@ -8,7 +8,7 @@ system:
     value: >-
       <p>In the past, you usually contacted your patron through intermediaries.
       Now you can communicate directly; you always have the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplContactOth]{Contact Other
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplContactOth]{Contact Other
       Plane} spell prepared. With this feature, you can cast the spell without
       expending a spell slot to contact your patron, and you automatically
       succeed on the spell's saving throw.</p><p>Once you cast the spell with
@@ -41,14 +41,14 @@ system:
   identifier: contact-patron
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866281378
   modifiedTime: 1745256765718

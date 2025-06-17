@@ -2,12 +2,12 @@ name: Wooden staff
 system:
   description:
     value: >-
-      <p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic
+      <p>A @UUID[Compendium.degringo5e.equipment24.Item.phbagDruidicFocu]{Druidic
       Focus} takes one of the forms in the Druidic Focuses table and is carved,
       tied with ribbon, or painted to channel primal magic. A Druid or Ranger
       can use such an object as a Spellcasting Focus.</p><p>This item also
       functions as a
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section
       class="secret" id="secret-XEbhgCaozZsnw6QT"><p><strong>Foundry
       Note</strong></p><p>This item has been configured with the additional
       properties of a Quarterstaff.</p></section>
@@ -135,14 +135,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425914618
   modifiedTime: 1740680139493

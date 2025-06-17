@@ -1,7 +1,7 @@
 name: Alchemist's Supplies
 system:
   description:
-    value: "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC\_15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{Alchemist's Fire}, @UUID[Compendium.dnd5e.equipment24.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume}</p>"
+    value: "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC\_15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.degringo5e.equipment24.Item.phbagAlchemistsF]{Alchemist's Fire}, @UUID[Compendium.degringo5e.equipment24.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.degringo5e.equipment24.Item.phbagOil00000000]{Oil}, @UUID[Compendium.degringo5e.equipment24.Item.phbagPaper000000]{Paper}, @UUID[Compendium.degringo5e.equipment24.Item.phbagPerfume0000]{Perfume}</p>"
     chat: ''
   source:
     custom: ''
@@ -103,14 +103,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425916205
   modifiedTime: 1745256813980

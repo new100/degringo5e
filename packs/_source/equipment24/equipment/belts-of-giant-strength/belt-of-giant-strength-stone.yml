@@ -12,7 +12,7 @@ system:
   description:
     value: >-
       <div><p><em>See:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgBeltOfGiantSt]</em></p><p>While
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt]</em></p><p>While
       wearing this belt, your Strength changes to 23. The type of giant
       determines the score. The item has no effect on you if your Strength
       without the belt is equal to or greater than 23.</p></div>
@@ -85,10 +85,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgBeltOfGiantSt.ActiveEffect.dVP7XiBERjMWs7xK
+        Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt.ActiveEffect.dVP7XiBERjMWs7xK
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: 1728595053466
@@ -96,7 +96,7 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgstoBeltofGian.dVP7XiBERjMWs7xK'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
@@ -106,7 +106,7 @@ ownership:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728594623619
   modifiedTime: 1745432715291

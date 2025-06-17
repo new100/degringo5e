@@ -176,7 +176,7 @@ img: icons/skills/ranged/arrow-flying-poisoned-green.webp
 effects:
   - name: Lingering Acid
     img: icons/magic/acid/dissolve-arm-flesh.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA
+    origin: Compendium.degringo5e.spells24.Item.phbsplMelfsAcidA
     transfer: false
     _id: NgglkyjzTbDh5Loa
     type: base
@@ -203,7 +203,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.1
       createdTime: 1726502703941
       modifiedTime: 1726502874630
@@ -215,14 +215,14 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425963336
   modifiedTime: 1745256796063

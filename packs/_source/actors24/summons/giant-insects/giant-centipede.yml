@@ -464,7 +464,7 @@ system:
     revision: 2
     license: CC-BY-4.0
 _id: mmGiantCentipede
-img: systems/dnd5e/tokens/beast/GiantCentipede.webp
+img: systems/degringo5e/tokens/beast/GiantCentipede.webp
 prototypeToken:
   name: Giant Centipede
   displayName: 0
@@ -474,7 +474,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/dnd5e/tokens/beast/GiantCentipede.webp
+    src: systems/degringo5e/tokens/beast/GiantCentipede.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -591,7 +591,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151395
@@ -603,7 +603,7 @@ items:
       description:
         value: >-
           <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.dnd5e.summon.level /
+          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
           2)]]{Number of attacks}</p>
         chat: ''
       source:
@@ -693,7 +693,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -701,7 +701,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151395
@@ -833,7 +833,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -841,7 +841,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151395
@@ -945,8 +945,8 @@ items:
     img: icons/magic/acid/projectile-flame-smoke-green.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGiantCentipede.Item.phbaoiVenomousSp
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantCentipede.Item.phbaoiVenomousSp
         transfer: false
         _id: uUvxWKSj8qQRIbTK
         type: base
@@ -973,7 +973,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -986,7 +986,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -994,7 +994,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680151395
@@ -1131,8 +1131,8 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects:
       - name: Poisoned
-        img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmGiantCentipede.Item.mmBite0000000000
+        img: systems/degringo5e/icons/svg/statuses/poisoned.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantCentipede.Item.mmBite0000000000
         _id: PzxN1RHxvVfpYZxa
         type: base
         system: {}
@@ -1159,7 +1159,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1168,7 +1168,7 @@ items:
         _key: >-
           !actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1176,7 +1176,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745342039971
@@ -1192,12 +1192,12 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679132059
   modifiedTime: 1745256820109

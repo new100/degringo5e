@@ -45,7 +45,7 @@ system:
           override: true
         level: '5'
         properties: []
-        uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplScrying000
       name: ''
       img: ''
     2MFzBAO64WpUiqFx:
@@ -89,7 +89,7 @@ system:
         level: '2'
         properties:
           - concentration
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDetectThou
       name: ''
       img: ''
   uses:
@@ -100,9 +100,9 @@ system:
     value: >-
       <div><p><em>Wondrous Item, Legendary (Requires
       Attunement)</em></p></div><p>While touching this crystal orb, you can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>
       (save DC 17) with it. In addition, you can cast
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
       Thoughts}</em> (save DC 17) targeting creatures you can see within 30 feet
       of the spell's sensor. You don't need to concentrate on this <em>Detect
       Thoughts</em> spell to maintain it during its duration, but it ends if the
@@ -149,14 +149,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256806531

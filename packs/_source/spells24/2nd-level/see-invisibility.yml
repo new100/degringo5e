@@ -95,7 +95,7 @@ type: spell
 img: icons/magic/perception/orb-eye-scrying.webp
 effects:
   - name: See Invisibility
-    origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
+    origin: Compendium.degringo5e.spells24.Item.phbsplSeeInvisib
     duration:
       rounds: 1
       startTime: null
@@ -128,7 +128,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -140,14 +140,14 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425969918
   modifiedTime: 1745256797905

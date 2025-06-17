@@ -8,7 +8,7 @@ system:
       <p><em>(Requires attunement)</em></p>
 
       <p>While wearing this ring, you can cast the
-      @UUID[Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h]{Jump} spell from it
+      @UUID[Compendium.degringo5e.spells.Item.ZrTc23tToJ0JpH2h]{Jump} spell from it
       as a bonus action at will, but can target only yourself when you do
       so.</p>
     chat: ''
@@ -61,7 +61,7 @@ system:
     PapftzJT2Yh8Iu9D:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h
+        uuid: Compendium.degringo5e.spells.Item.ZrTc23tToJ0JpH2h
         challenge:
           attack: null
           save: null
@@ -118,14 +118,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.1.0
   createdTime: 1725037321555
   modifiedTime: 1731017520719

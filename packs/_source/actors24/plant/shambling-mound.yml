@@ -593,7 +593,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLightningAbsor
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726818
@@ -676,7 +676,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -684,7 +684,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726818
@@ -837,7 +837,7 @@ items:
     img: icons/magic/lightning/bolt-strike-purple.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -845,7 +845,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmChargedTendril
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726818
@@ -1060,7 +1060,7 @@ items:
     img: icons/creatures/slimes/slime-face-skull-green.webp
     effects:
       - name: Grappled, Blinded & Restrained
-        img: systems/dnd5e/icons/svg/statuses/grappled.svg
+        img: systems/degringo5e/icons/svg/statuses/grappled.svg
         origin: Item.mmEngulf00000000
         _id: vsa7d6xWOAvWdOWM
         type: base
@@ -1092,7 +1092,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1101,7 +1101,7 @@ items:
         _key: >-
           !actors.items.effects!mmShamblingMound.mmEngulf00000000.vsa7d6xWOAvWdOWM
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1109,7 +1109,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmEngulf00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726818
@@ -1125,7 +1125,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416220719
   modifiedTime: 1745712726851

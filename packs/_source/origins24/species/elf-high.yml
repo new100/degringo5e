@@ -5,9 +5,9 @@ img: icons/magic/nature/leaf-oak-wreath-glow-green.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000
       inline classes="free-rules-embed"]</p><h3 data-anchor="high-elves">High
-      Elves</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000
+      Elves</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000
       inline classes="free-rules-embed"]</p><h3 data-anchor="elf-traits">Elf
       Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size:
       </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30
@@ -24,13 +24,13 @@ system:
       ability when you select the lineage).</p><table><caption>High Elf Lineage
       Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}
       cantrip. Whenever you finish a Long Rest, you can replace that cantrip
       with a different cantrip from the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard
       spell
-      list}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect
-      Magic}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty
+      list}.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
+      Magic}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty
       Step}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have
       Advantage on saving throws you make to avoid or end the Charmed
       condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the
@@ -59,13 +59,13 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptFeyAncestr
+            uuid: Compendium.degringo5e.origins24.Item.phbsptFeyAncestr
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptKeenSenses
+            uuid: Compendium.degringo5e.origins24.Item.phbsptKeenSenses
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptTrance0000
+            uuid: Compendium.degringo5e.origins24.Item.phbsptTrance0000
           - optional: false
-            uuid: Compendium.dnd5e.origins24.Item.phbsptHighElfLin
+            uuid: Compendium.degringo5e.origins24.Item.phbsptHighElfLin
         optional: false
         spell: null
       value: {}
@@ -94,7 +94,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
+            uuid: Compendium.degringo5e.spells24.Item.phbsplPrestidigi
         optional: false
         spell:
           ability:
@@ -117,7 +117,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDetectMagi
         optional: false
         spell:
           ability:
@@ -140,7 +140,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplMistyStep0
+            uuid: Compendium.degringo5e.spells24.Item.phbsplMistyStep0
         optional: false
         spell:
           ability:
@@ -184,7 +184,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866711197
   modifiedTime: 1745686713052

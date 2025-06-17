@@ -171,7 +171,7 @@ system:
 effects:
   - name: Well Exercised
     img: icons/magic/control/buff-strength-muscle-damage.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgManualOfGainf
+    origin: Compendium.degringo5e.equipment24.Item.dmgManualOfGainf
     transfer: false
     _id: ME2J4WX5cDLqGWDW
     type: base
@@ -201,10 +201,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgTomeOfUnderst.ActiveEffect.jXvtCEBoDCydH8fa
+        Compendium.degringo5e.equipment24.Item.dmgTomeOfUnderst.ActiveEffect.jXvtCEBoDCydH8fa
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730692202699
       modifiedTime: 1730692420288
@@ -212,14 +212,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgManualOfGainf.ME2J4WX5cDLqGWDW'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745256806358

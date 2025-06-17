@@ -5,9 +5,9 @@ img: icons/creatures/eyes/humanoid-single-yellow.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
       inline classes="free-rules-embed"]</p><h3
-      data-anchor="chthonic">Chthonic</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie
+      data-anchor="chthonic">Chthonic</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie
       inline classes="free-rules-embed"]</p><h3
       data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
       Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7
@@ -24,15 +24,15 @@ system:
       level. Intelligence, Wisdom, or Charisma is your spellcasting ability for
       the spells you cast with this trait (choose the ability when you select
       the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
       cantrip. When you cast it with this trait, the spell uses the same
       spellcasting ability you use for your Fiendish Legacy
       trait.</p><table><caption>Fiendish Legacies</caption><thead><tr><td>Level
       1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have
       Resistance to Necrotic damage.You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch}
-      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False
-      Life}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Ray
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplChillTouch]{Chill Touch}
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplFalseLife0]{False
+      Life}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofEnfee]{Ray
       of Enfeeblement}</td></tr></tbody></table>
     chat: ''
   source:
@@ -56,9 +56,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptOtherworld
             optional: false
-          - uuid: Compendium.dnd5e.origins24.Item.phbsptChthonicLe
+          - uuid: Compendium.degringo5e.origins24.Item.phbsptChthonicLe
             optional: false
         optional: false
         spell: null
@@ -71,7 +71,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            uuid: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:
@@ -105,7 +105,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+            uuid: Compendium.degringo5e.spells24.Item.phbsplChillTouch
         optional: false
         spell:
           ability:
@@ -128,7 +128,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFalseLife0
+            uuid: Compendium.degringo5e.spells24.Item.phbsplFalseLife0
         optional: false
         spell:
           ability:
@@ -151,7 +151,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+            uuid: Compendium.degringo5e.spells24.Item.phbsplRayofEnfee
         optional: false
         spell:
           ability:
@@ -195,7 +195,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340875961
   modifiedTime: 1745687644553

@@ -60,7 +60,7 @@ system:
     HgyNbSPAeSN3PFTa:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplBurningHan
+        uuid: Compendium.degringo5e.spells24.Item.phbsplBurningHan
         challenge:
           attack: null
           save: 18
@@ -111,7 +111,7 @@ system:
     rvrzr3I0Bman3wVX:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: 18
@@ -162,7 +162,7 @@ system:
     lbxQxbL2AvJ8wXXl:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireStorm0
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireStorm0
         challenge:
           attack: null
           save: 18
@@ -213,7 +213,7 @@ system:
     D2CTrKYHV92RzVqB:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWallofFire
         challenge:
           attack: null
           save: 18
@@ -295,12 +295,12 @@ system:
       you must expend to cast the spell, which has a save DC of
       18.</p><table><thead><tr><th
       style="min-width:50px"><p>Plane</p></th><th><p>Spells
-      (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning
+      (Charges)</p></th></tr></thead><tbody><tr><td><p>Fire</p></td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplBurningHan]{Burning
       Hands} (1 charge),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (2
-      charges), @UUID[Compendium.dnd5e.spells24.Item.phbsplFireStorm0]{Fire
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball} (2
+      charges), @UUID[Compendium.degringo5e.spells24.Item.phbsplFireStorm0]{Fire
       Storm} (4 charges),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of Fire} (3
       charges)</p></td></tr></tbody></table>
     chat: ''
   identifier: ring-of-elemental-command
@@ -344,8 +344,8 @@ system:
   proficient: null
 effects:
   - name: Charmed
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
-    origin: Compendium.dnd5e.equipment24.Item.dmgRingOfElement
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
+    origin: Compendium.degringo5e.equipment24.Item.dmgRingOfElement
     transfer: false
     _id: cN85nWiTzfGzWR7D
     type: base
@@ -370,7 +370,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: null
       modifiedTime: null
@@ -401,7 +401,7 @@ effects:
       startRound: null
       startTurn: null
     description: ''
-    origin: Compendium.dnd5e.equipment24.Item.dmgFireRingOfEle
+    origin: Compendium.degringo5e.equipment24.Item.dmgFireRingOfEle
     tint: '#ffffff'
     transfer: true
     statuses: []
@@ -409,10 +409,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgAirRingOfElem.ActiveEffect.d5aFCMPqEUaUQ37L
+        Compendium.degringo5e.equipment24.Item.dmgAirRingOfElem.ActiveEffect.d5aFCMPqEUaUQ37L
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730685911376
       modifiedTime: 1730685957680
@@ -421,14 +421,14 @@ effects:
     _key: '!items.effects!dmgFireRingOfEle.RoINTVV5dmSu3Ebo'
 folder: DC1x1wAm0NLFudA6
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1730684815591
   modifiedTime: 1745712699907

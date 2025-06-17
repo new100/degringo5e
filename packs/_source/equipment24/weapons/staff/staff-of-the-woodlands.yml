@@ -93,7 +93,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
+        uuid: Compendium.degringo5e.spells24.Item.phbsplAnimalFrie
       img: ''
     ZsTnyKpNKhX2UNw8:
       type: cast
@@ -144,7 +144,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplAwaken0000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplAwaken0000
       img: ''
     HRmbe3tUq47ZLbeM:
       type: cast
@@ -195,7 +195,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplBarkskin00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplBarkskin00
       img: ''
     swaYlNmRQNmfu6MB:
       type: cast
@@ -246,7 +246,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplLocateAnim
+        uuid: Compendium.degringo5e.spells24.Item.phbsplLocateAnim
       img: ''
     cDbVrjDu0tnXlzaR:
       type: cast
@@ -297,7 +297,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+        uuid: Compendium.degringo5e.spells24.Item.phbsplPasswithou
       img: ''
     j5AgCtSJZN12vsJW:
       type: cast
@@ -347,7 +347,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+        uuid: Compendium.degringo5e.spells24.Item.phbsplSpeakwithA
       img: ''
     eoNl5saIm2pOFmsu:
       type: cast
@@ -398,12 +398,12 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithP
+        uuid: Compendium.degringo5e.spells24.Item.phbsplSpeakwithP
       img: ''
     WmZyIUTekKP2iDtH:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWallofThor
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWallofThor
         challenge:
           attack: null
           save: null
@@ -511,7 +511,7 @@ system:
     max: '6'
   description:
     value: >-
-      <p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff},
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff},
       Rare (Requires Attunement by a Druid)</em></p><p>This staff has 6 charges
       and can be wielded as a magic Quarterstaff that grants a +2 bonus to
       attack rolls and damage rolls made with it. While holding it, you have a
@@ -644,7 +644,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729886547004
       modifiedTime: 1729886624459
@@ -653,14 +653,14 @@ effects:
     _key: '!items.effects!dmgStaffOfTheWoo.r6B9McDx4diFtkOt'
 folder: 5p9KrkF39e6vFO4g
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712703812

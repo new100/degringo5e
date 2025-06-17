@@ -10,7 +10,7 @@ system:
       can also specify a password that, when spoken aloud within 5 feet of the
       warded area, makes the speaker immune to its effects.</p><p>The spell
       creates the effects below within the warded area.
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
       Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of
       the following effects can be dispelled. If all four are dispelled,
       <em>Guards and Wards</em> ends. If you cast the spell every day for 365
@@ -22,27 +22,27 @@ system:
       going in the opposite direction from the one it
       chooses.</p><p><strong>Doors.</strong> All doors in the warded area are
       magically locked, as if sealed by the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplArcaneLock]{Arcane
       Lock}</em> spell. In addition, you can cover up to ten doors with an
       illusion to make them appear as plain sections of
       wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded
       area from top to bottom, as in the
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web}</em>
       spell. These strands regrow in 10 minutes if they are destroyed while
       <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect.
       </strong>Place one of the following magical effects within the warded
-      area:</p><ul><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing
+      area:</p><ul><li><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDancingLig]{Dancing
       Lights}</em> in four corridors, with a simple program that the lights
       repeat as long as <em>Guards and Wards</em>
-      lasts</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMouth]{Magic
+      lasts</li><li><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMouth]{Magic
       Mouth}</em> in two
-      locations</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking
+      locations</li><li><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplStinkingCl]{Stinking
       Cloud}</em> in two locations (the vapors return within 10 minutes if
       dispersed while <em>Guards and Wards</em>
-      lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust
+      lasts)</li><li><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust
       of Wind}</em> in one corridor or room (the wind blows continuously while
       the spell
-      lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</em>
+      lasts)</li><li><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSuggestion]{Suggestion}</em>
       in one 5-foot square; any creature that enters that square receives the
       suggestion mentally</li></ul>
     chat: ''
@@ -149,14 +149,14 @@ sort: 800000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425957322
   modifiedTime: 1745256794102

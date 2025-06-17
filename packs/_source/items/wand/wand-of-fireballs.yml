@@ -8,7 +8,7 @@ system:
       <p><em>Wand (requires attunement by a spellcaster)</em></p><p>This wand
       has 7 charges. While holding it, you can use an action to expend 1 or more
       of its charges to cast the
-      @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} spell (save
+      @UUID[Compendium.degringo5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} spell (save
       DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell.
       You can increase the spell slot level by one for each additional charge
       you expend.</p><p>The wand regains 1d6 + 1 expended charges daily at dawn.
@@ -69,7 +69,7 @@ system:
     iBdnsohqpy6cLAm8:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+        uuid: Compendium.degringo5e.spells.Item.ztgcdrWPshKRpFd0
         challenge:
           attack: null
           save: 15
@@ -127,14 +127,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 5.0.0
   createdTime: 1725037134840
   modifiedTime: 1731015872768

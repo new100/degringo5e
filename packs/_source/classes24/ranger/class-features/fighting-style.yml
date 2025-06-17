@@ -7,10 +7,10 @@ system:
   description:
     value: >-
       <p>You gain a
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
       Style feat} of your choice. Instead of choosing one of those feats, you
       can choose the option below.</p><hr
-      /><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstDruidicWar
+      /><p>@Embed[Compendium.degringo5e.classes24.Item.phbfstDruidicWar
       caption=false]</p>
     chat: ''
   source:
@@ -35,14 +35,14 @@ system:
   identifier: fighting-style
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735932734523
   modifiedTime: 1745514415082

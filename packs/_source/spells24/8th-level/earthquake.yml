@@ -247,7 +247,7 @@ img: icons/magic/earth/barrier-stone-brown-green.webp
 effects:
   - name: Buried in Rubble
     img: icons/environment/settlement/building-rubble.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplEarthquake
+    origin: Compendium.degringo5e.spells24.Item.phbsplEarthquake
     transfer: false
     _id: 6UanNy7OTib1zFSq
     type: base
@@ -276,7 +276,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1725301184846
       modifiedTime: 1725301621147
@@ -288,14 +288,14 @@ sort: 100782
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425951573
   modifiedTime: 1745256792050

@@ -1,7 +1,7 @@
 name: Poisoner's Kit
 system:
   description:
-    value: "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC\_10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPoisonBasic]{Basic Poison}</p>"
+    value: "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC\_10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbagPoisonBasic]{Basic Poison}</p>"
     chat: ''
   source:
     custom: ''
@@ -103,14 +103,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917626
   modifiedTime: 1740680142467

@@ -117,7 +117,7 @@ effects:
   - name: Poisoned and Unconscious
     img: >-
       icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgOilOfTaggit00
+    origin: Compendium.degringo5e.equipment24.Item.dmgOilOfTaggit00
     transfer: false
     _id: H2a1ShsSWCmSWfW7
     type: base
@@ -141,10 +141,10 @@ effects:
     flags: {}
     _stats:
       compendiumSource: >-
-        Compendium.dnd5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730741153710
       modifiedTime: 1730741171243
@@ -153,14 +153,14 @@ effects:
     _key: '!items.effects!dmgOilOfTaggit00.H2a1ShsSWCmSWfW7'
 folder: bRhjJ3GivNsz0GTF
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1728419101980
   modifiedTime: 1745256806801

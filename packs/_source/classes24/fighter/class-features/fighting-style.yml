@@ -7,9 +7,9 @@ system:
   description:
     value: >-
       <p>You have honed your martial prowess and gain a
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
       Style feat} of your choice.
-      @UUID[Compendium.dnd5e.feats24.Item.phbfstDefense000]{Defense} is
+      @UUID[Compendium.degringo5e.feats24.Item.phbfstDefense000]{Defense} is
       recommended.</p><p>Whenever you gain a Fighter level, you can replace the
       feat you chose with a different Fighting Style feat.</p>
     chat: ''
@@ -36,14 +36,14 @@ system:
   identifier: fighting-style
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866361253
   modifiedTime: 1745256761597

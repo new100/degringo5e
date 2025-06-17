@@ -9,9 +9,9 @@ system:
 
       <p>While a fire burns in this brazier, you can use an action to speak the
       brazier's command word and summon a
-      @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental},
+      @UUID[Compendium.degringo5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental},
       as if you had cast the
-      <em>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure
+      <em>@UUID[Compendium.degringo5e.spells.Item.1LkZvINag7KqBmDR]{Conjure
       Elemental}</em> spell. The brazier can't be used this way again until the
       next dawn.</p>
 
@@ -131,7 +131,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1725037177644
   modifiedTime: 1725992509809

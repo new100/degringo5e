@@ -3,17 +3,17 @@ system:
   description:
     value: >-
       <p>An Entertainer's Pack contains the following items:
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell},
-      @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costumes},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}, 8
-      flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBackpack000]{Backpack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBedroll0000]{Bedroll},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBell0000000]{Bell},
+      @UUID[Compendium.degringo5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagCostume0000]{Costumes},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagMirror00000]{Mirror}, 8
+      flasks of @UUID[Compendium.degringo5e.equipment24.Item.phbagOil00000000]{Oil},
       9 days of
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRations0000]{Rations},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>
     chat: ''
   price:
     value: 40
@@ -58,7 +58,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425908475
   modifiedTime: 1745256811837

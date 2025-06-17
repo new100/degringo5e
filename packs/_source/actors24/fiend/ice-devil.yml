@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Ice
-        Devil</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.sA9Jx5SXPoQvmnOO
+        Devil</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.sA9Jx5SXPoQvmnOO
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -602,7 +602,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDiabolicalRest
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -653,7 +653,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -716,7 +716,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -746,7 +746,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -754,7 +754,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -905,7 +905,7 @@ items:
     img: icons/creatures/abilities/tail-swipe-green.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -913,7 +913,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTail0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -979,7 +979,7 @@ items:
               - somatic
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplWallofIce0
+            uuid: Compendium.degringo5e.spells24.Item.phbsplWallofIce0
             ability: int
           name: ''
       uses:
@@ -992,7 +992,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{Wall of
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofIce0]{Wall of
           Ice}</em> (level 8 version), requiring no spell components and using
           Intelligence as the spellcasting ability (spell save DC [[lookup
           @abilities.int.dc]]).</p>
@@ -1016,7 +1016,7 @@ items:
     img: icons/magic/water/barrier-ice-wall-snow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1024,7 +1024,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIceWall0000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -1302,9 +1302,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmIceDevil000000.Item.mmIceWall0000000.Activity.EAYOqr0SbvmvajZ4
+          Compendium.degringo5e.actors24.Actor.mmIceDevil000000.Item.mmIceWall0000000.Activity.EAYOqr0SbvmvajZ4
         changes:
           - key: system.ability
             mode: 5
@@ -1342,7 +1342,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1355,13 +1355,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmIceWall0000000.Activity.EAYOqr0SbvmvajZ4
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplWallofIce0
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplWallofIce0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -1548,7 +1548,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1558,7 +1558,7 @@ items:
           !actors.items.effects!mmIceDevil000000.mmIceSpear000000.273sG6C6R7qUcL2v
     folder: pSCWWdqMX9eUATRJ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1566,7 +1566,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIceSpear000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712721786
@@ -1582,7 +1582,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415564135
   modifiedTime: 1745712721821

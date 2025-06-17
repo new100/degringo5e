@@ -7,7 +7,7 @@ system:
     61qS4dLeKZdtrWoL:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplHeal000000
+        uuid: Compendium.degringo5e.spells24.Item.phbsplHeal000000
         challenge:
           attack: null
           save: null
@@ -57,7 +57,7 @@ system:
     bHhFcL8mph4snByq:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplResurrecti
+        uuid: Compendium.degringo5e.spells24.Item.phbsplResurrecti
         challenge:
           attack: null
           save: null
@@ -116,9 +116,9 @@ system:
     value: >-
       <p><em>Rod, Legendary (Requires Attunement)</em></p><p>The rod has 5
       charges. While you hold it, you can cast one of the following spells from
-      it: @UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal} (expends
+      it: @UUID[Compendium.degringo5e.spells24.Item.phbsplHeal000000]{Heal} (expends
       1 charge) or
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplResurrecti]{Resurrection}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplResurrecti]{Resurrection}
       (expends 5 charges).</p><p>The rod regains 1 expended charge daily at
       dawn. If you expend the last charge, roll [[/r 1d20]]. On a 1, the rod
       disappears in a harmless burst of radiance.</p>
@@ -186,14 +186,14 @@ system:
 effects: []
 folder: XVIITMl9kCCSjZQz
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.1
   createdTime: 1727883376108
   modifiedTime: 1746118484165

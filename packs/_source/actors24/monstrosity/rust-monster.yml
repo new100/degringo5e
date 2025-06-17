@@ -602,7 +602,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -634,7 +634,7 @@ items:
     img: icons/magic/air/fog-gas-smoke-dense-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -642,7 +642,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIronScent00000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -705,7 +705,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -738,7 +738,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -746,7 +746,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -876,7 +876,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -884,7 +884,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -970,7 +970,7 @@ items:
           (weapon). Armor is destroyed if the penalty reduces its AC to 10, and
           a weapon is destroyed if its penalty reaches -5. The penalty can be
           removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]</em> spell
           on the armor or weapon.</p><section class="secret"
           id="secret-4QbvfWBnYI6ImcGC"><p><strong>Foundry
           Note</strong></p><p>This feature also provides a
@@ -1025,7 +1025,7 @@ items:
           attack rolls (weapon). Armor is destroyed if the penalty reduces its
           AC to 10, and a weapon is destroyed if its penalty reaches -5. The
           penalty can be removed by casting the
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]</em> spell
           on the armor or weapon.</p>
         origin: null
         tint: '#ffffff'
@@ -1037,7 +1037,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1046,7 +1046,7 @@ items:
         _key: >-
           !actors.items.effects!mmRustMonster000.mmAntennae000000.PTSwIOo5chgO4d1p
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1054,7 +1054,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmAntennae000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -1122,7 +1122,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1158,7 +1158,7 @@ items:
     img: icons/tools/smithing/furnace-fire-metal-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1166,7 +1166,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDestroyMetal00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -1258,7 +1258,7 @@ items:
     img: icons/commodities/biological/antenna-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1266,7 +1266,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmReflexiveAnten
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712726210
@@ -1282,7 +1282,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712726244

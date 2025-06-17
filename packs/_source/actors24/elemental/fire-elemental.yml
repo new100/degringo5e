@@ -408,7 +408,7 @@ system:
     biography:
       value: >-
         <h1>Fire
-        Elemental</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.M6gKJjmLDllg2rjI
+        Elemental</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.M6gKJjmLDllg2rjI
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -665,7 +665,7 @@ items:
     img: icons/magic/fire/barrier-wall-flame-ring-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -673,7 +673,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFireAura000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077420642
       modifiedTime: 1745712717589
@@ -777,7 +777,7 @@ items:
     img: icons/magic/fire/flame-burning-embers-yellow.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -785,7 +785,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmFireForm000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077502187
       modifiedTime: 1745712717589
@@ -836,7 +836,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmIllumination00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077532503
       modifiedTime: 1745712717589
@@ -944,7 +944,7 @@ items:
     img: icons/magic/water/orb-water-bubbles-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -952,7 +952,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWaterSusceptib
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077566681
       modifiedTime: 1745712717589
@@ -1034,7 +1034,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1042,7 +1042,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077580714
       modifiedTime: 1745712717589
@@ -1176,7 +1176,7 @@ items:
     img: icons/magic/fire/blast-jet-stream-splash.webp
     effects:
       - name: Burning
-        img: systems/dnd5e/icons/svg/statuses/burning.svg
+        img: systems/degringo5e/icons/svg/statuses/burning.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmBurn0000000000
         transfer: false
         _id: ePppPvhLU1DnHySS
@@ -1193,7 +1193,7 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT
+          <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT
           caption=false]</p>
         tint: '#ffffff'
         statuses:
@@ -1204,7 +1204,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -1213,7 +1213,7 @@ items:
         _key: >-
           !actors.items.effects!mmFireElemental0.mmBurn0000000000.ePppPvhLU1DnHySS
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1221,7 +1221,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBurn0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737077622859
       modifiedTime: 1745712717589
@@ -1237,7 +1237,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712717619

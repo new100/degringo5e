@@ -608,7 +608,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwarm000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737052598411
       modifiedTime: 1745712728166
@@ -818,7 +818,7 @@ items:
     img: icons/magic/death/hand-withered-gray.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmSwarmOfGraspin
         _id: WJe5ci1Tiu0hQCb8
         type: base
@@ -846,7 +846,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.0
           createdTime: null
           modifiedTime: null
@@ -855,7 +855,7 @@ items:
         _key: >-
           !actors.items.effects!mmSwarmOfCrawlin.mmSwarmOfGraspin.WJe5ci1Tiu0hQCb8
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -863,7 +863,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSwarmOfGraspin
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737052601026
       modifiedTime: 1745712728166
@@ -879,7 +879,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712728192

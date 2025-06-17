@@ -2,7 +2,7 @@ _id: phbclcCleric0000
 name: Cleric
 type: class
 folder: 4I70IkQQuwHPyfKp
-img: systems/dnd5e/icons/classes/cleric.webp
+img: systems/degringo5e/icons/classes/cleric.webp
 system:
   description:
     value: >-
@@ -18,13 +18,13 @@ system:
       scope="row"><p>Armor Training</p></th><td><p>Light and Medium armor and
       Shields</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagPriestsPack]{Priest's Pack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPriestsPack]{Priest's Pack},
       and [[/award 7GP]]; or (B) [[/award
-      110GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000
+      110GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000
       inline classes="free-rules-embed"]</p><h2>Becoming a Cleric …</h2><h3>As a
       Level 1 Character</h3><ul><li>Gain all the traits in the Core Cleric
       Traits table.</li><li>Gain the Cleric's level 1 features, which are listed
@@ -49,21 +49,21 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmChainShirt
+      key: Compendium.degringo5e.equipment24.Item.phbarmChainShirt
       requiresProficiency: false
       _id: bGGpwQNPkEm90Aak
       group: hRVywVtYMIyj47LI
       sort: 200000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      key: Compendium.degringo5e.equipment24.Item.phbarmShield0000
       requiresProficiency: false
       _id: XN2TO8Ned2z0tGU1
       group: hRVywVtYMIyj47LI
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepMace000000
+      key: Compendium.degringo5e.equipment24.Item.phbwepMace000000
       requiresProficiency: false
       _id: 2TqR6FTmfE5pF3uU
       group: hRVywVtYMIyj47LI
@@ -77,7 +77,7 @@ system:
       sort: 500000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagPriestsPack
+      key: Compendium.degringo5e.equipment24.Item.phbagPriestsPack
       requiresProficiency: false
       _id: svexQM2NoMbtszQz
       group: hRVywVtYMIyj47LI
@@ -93,9 +93,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcSpellcasti
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcSpellcasti
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcDivineOrde
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcDivineOrde
             optional: false
         optional: false
         spell: null
@@ -106,7 +106,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcChannelDiv
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcChannelDiv
             optional: false
         optional: false
         spell: null
@@ -117,7 +117,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcSearUndead
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcSearUndead
             optional: false
         optional: false
         spell: null
@@ -128,7 +128,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcDivineInte
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcDivineInte
             optional: false
         optional: false
         spell: null
@@ -139,7 +139,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcImprovedBl
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcImprovedBl
             optional: false
         optional: false
         spell: null
@@ -150,7 +150,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -161,7 +161,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbclcGreaterDiv
+          - uuid: Compendium.degringo5e.classes24.Item.phbclcGreaterDiv
             optional: false
         optional: false
         spell: null
@@ -320,7 +320,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbclcBlessedStr
+            uuid: Compendium.degringo5e.classes24.Item.phbclcBlessedStr
         optional: false
         spell: null
       value: {}
@@ -337,18 +337,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
         spell: null
         restriction:
           type: feat
@@ -367,8 +367,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderPr
-          - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderTh
+          - uuid: Compendium.degringo5e.classes24.Item.phbDivineOrderPr
+          - uuid: Compendium.degringo5e.classes24.Item.phbDivineOrderTh
         spell: null
         restriction:
           type: class
@@ -390,8 +390,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbDivineStrike0
-          - uuid: Compendium.dnd5e.classes24.Item.phbClcPotentSpel
+          - uuid: Compendium.degringo5e.classes24.Item.phbDivineStrike0
+          - uuid: Compendium.degringo5e.classes24.Item.phbClcPotentSpel
         spell: null
         restriction:
           type: class
@@ -515,7 +515,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866373481
   modifiedTime: 1745517451303

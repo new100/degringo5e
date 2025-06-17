@@ -533,7 +533,7 @@ items:
             - force
           custom:
             enabled: true
-            formula: (4 + 2 * (@flags.dnd5e.summon.level - 5))d8
+            formula: (4 + 2 * (@flags.degringo5e.summon.level - 5))d8
           scaling:
             mode: ''
             number: null
@@ -615,7 +615,7 @@ items:
       ammunition: {}
       identifier: clenched-fist
     _id: flSMgvK8J2USFtGo
-    img: systems/dnd5e/icons/svg/items/weapon.svg
+    img: systems/degringo5e/icons/svg/items/weapon.svg
     effects: []
     folder: null
     sort: 0
@@ -626,7 +626,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -717,7 +717,7 @@ items:
       enchant: {}
       identifier: forceful-hand
     _id: kKg1WU7qO2fLSB0e
-    img: systems/dnd5e/icons/svg/items/feature.svg
+    img: systems/degringo5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -728,7 +728,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -822,7 +822,7 @@ items:
                   - bludgeoning
                 custom:
                   enabled: true
-                  formula: (2 + 2 * (@flags.dnd5e.summon.level - 5))d6
+                  formula: (2 + 2 * (@flags.degringo5e.summon.level - 5))d6
                 scaling:
                   mode: whole
                   number: null
@@ -831,7 +831,7 @@ items:
       enchant: {}
       identifier: grasping-hand
     _id: rne03sCadusyP3Yg
-    img: systems/dnd5e/icons/svg/items/feature.svg
+    img: systems/degringo5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -842,7 +842,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -926,7 +926,7 @@ items:
       enchant: {}
       identifier: interposing-hand
     _id: vgK74YR1Lv2WrGCx
-    img: systems/dnd5e/icons/svg/items/feature.svg
+    img: systems/degringo5e/icons/svg/items/feature.svg
     effects: []
     folder: null
     sort: 0
@@ -937,7 +937,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -952,7 +952,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.0
   createdTime: 1726171250692
   modifiedTime: 1726171448499

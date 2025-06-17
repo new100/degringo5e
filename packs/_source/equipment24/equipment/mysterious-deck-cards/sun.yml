@@ -109,7 +109,7 @@ img: icons/magic/nature/symbol-sun-yellow.webp
 effects:
   - name: 'Sun Card: Daily Temp HP'
     img: icons/magic/time/day-night-sunset-sunrise.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDmtSun0000000
     transfer: false
     _id: enZ79fOzsta0vlqK
     type: base
@@ -126,7 +126,7 @@ effects:
       startTurn: null
     description: >-
       <p><em>Source:
-      @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You
       gain [[/healing 10 type=temphp]]{10 Temporary Hit Points} daily at dawn
       until you die.</p>
     tint: '#ffffff'
@@ -137,7 +137,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729205768672
       modifiedTime: 1729205932148
@@ -148,14 +148,14 @@ sort: 1200000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729205718209
   modifiedTime: 1745256804632

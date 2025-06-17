@@ -676,7 +676,7 @@ items:
     img: icons/skills/melee/shield-damaged-broken-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -684,7 +684,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRend0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724567
@@ -748,7 +748,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -777,7 +777,7 @@ items:
     img: icons/skills/movement/ball-spinning-blue.webp
     effects:
       - name: Apply Hide Action to Target
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
+        img: systems/degringo5e/icons/svg/statuses/hiding.svg
         origin: Item.mmNimbleEscape00
         _id: 7U7Pe61lsMZgN7qh
         type: base
@@ -811,7 +811,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -820,7 +820,7 @@ items:
         _key: >-
           !actors.items.effects!mmPanther0000000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -828,7 +828,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNimbleEscape00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712724567
@@ -847,7 +847,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1740679135471
   modifiedTime: 1745712724592

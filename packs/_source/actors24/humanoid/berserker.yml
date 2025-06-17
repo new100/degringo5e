@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmHideArmor0]{Hide
-        Armor}</p></div><h1>Berserkers</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.rCW1BWWOS7a0ibg1
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreataxe00]{Greataxe},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmHideArmor0]{Hide
+        Armor}</p></div><h1>Berserkers</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.rCW1BWWOS7a0ibg1
         caption=false cite=false classes="no-embed
-        mm"]</p><h2>Berserker</h2><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.W16gTtESSKym2RPY
+        mm"]</p><h2>Berserker</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.W16gTtESSKym2RPY
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -707,15 +707,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepGreataxe00
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepGreataxe00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714247
@@ -782,10 +782,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmHideArmor0
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmHideArmor0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714247
@@ -835,7 +835,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBloodiedFrenzy
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714247
@@ -851,7 +851,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712714273

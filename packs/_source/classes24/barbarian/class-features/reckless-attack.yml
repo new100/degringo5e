@@ -38,7 +38,7 @@ system:
   identifier: reckless-attack
 effects:
   - name: Reckless
-    origin: Compendium.dnd5e.classes24.Item.phbbrbRecklessAt
+    origin: Compendium.degringo5e.classes24.Item.phbbrbRecklessAt
     duration:
       rounds: 1
       startTime: null
@@ -63,7 +63,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.2.0
       createdTime: null
       modifiedTime: null
@@ -72,14 +72,14 @@ effects:
     _key: '!items.effects!phbbrbRecklessAt.XA0GhXVB54U2IuRP'
 folder: p6WDpW0gzmKfhGad
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735865940469
   modifiedTime: 1745256760101

@@ -104,7 +104,7 @@ type: spell
 img: icons/magic/air/air-smoke-casting.webp
 effects:
   - name: Gaseous Form
-    origin: Compendium.dnd5e.spells24.Item.phbsplGaseousFor
+    origin: Compendium.degringo5e.spells24.Item.phbsplGaseousFor
     duration:
       rounds: null
       startTime: null
@@ -168,7 +168,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -180,14 +180,14 @@ sort: 1900000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425956002
   modifiedTime: 1745256793568

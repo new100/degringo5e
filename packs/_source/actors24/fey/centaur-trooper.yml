@@ -408,9 +408,9 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmBreastplat]{Breastplate},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepPike000000]{Pike}</p></div>
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmBreastplat]{Breastplate},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLongbow000]{Longbow},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepPike000000]{Pike}</p></div>
       public: ''
     alignment: Neutral Good
     ideal: ''
@@ -709,15 +709,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepPike000000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepPike000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715234
@@ -878,15 +878,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepLongbow000
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepLongbow000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715234
@@ -953,10 +953,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmBreastplat
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmBreastplat
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715234
@@ -1018,7 +1018,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1048,7 +1048,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1056,7 +1056,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715234
@@ -1181,7 +1181,7 @@ items:
     img: icons/magic/earth/projectile-stone-landslide.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmTramplingCharg
         _id: OY3B1NBPgGcFmHGi
         type: base
@@ -1218,7 +1218,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1227,7 +1227,7 @@ items:
         _key: >-
           !actors.items.effects!mmCentaurTrooper.mmTramplingCharg.OY3B1NBPgGcFmHGi
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1235,7 +1235,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmTramplingCharg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712715234
@@ -1251,7 +1251,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415541848
   modifiedTime: 1745712715262

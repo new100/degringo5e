@@ -8,8 +8,8 @@ system:
     value: >-
       <p>You have mastered two of the Words of Creation: the words of life and
       death. You therefore always have the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordH]{Power Word Heal}
-      and @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordK]{Power Word
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplPowerWordH]{Power Word Heal}
+      and @UUID[Compendium.degringo5e.spells24.Item.phbsplPowerWordK]{Power Word
       Kill} spells prepared. When you cast either spell, you can target a second
       creature with it if that creature is within 10 feet of the first
       target.</p><section id="secret-aHHp3ZnTrWPHHB7j"
@@ -39,14 +39,14 @@ system:
   identifier: words-of-creation
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866377962
   modifiedTime: 1745256760596

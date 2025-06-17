@@ -2,7 +2,7 @@ _id: phbdrdCirland000
 name: Circle of the Land
 type: subclass
 folder: 5WSAEI5S847BwZ8e
-img: systems/dnd5e/icons/classes/land.webp
+img: systems/degringo5e/icons/classes/land.webp
 system:
   description:
     value: >-
@@ -26,9 +26,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdLandSpells
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdLandSpells
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdLandsAid00
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdLandsAid00
             optional: false
         optional: false
         spell: null
@@ -39,7 +39,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturalRec
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdNaturalRec
             optional: false
         optional: false
         spell: null
@@ -50,7 +50,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdNaturesWar
             optional: false
         optional: false
         spell: null
@@ -61,7 +61,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+          - uuid: Compendium.degringo5e.classes24.Item.phbdrdNaturesSan
             optional: false
         optional: false
         spell: null
@@ -101,7 +101,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866583501
   modifiedTime: 1745256761026

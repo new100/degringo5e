@@ -6,7 +6,7 @@ system:
       Uncommon</em></p><p>This suit of armor is reinforced with adamantine, one
       of the hardest substances in existence. While you're wearing it, any
       &amp;Reference[CriticalHits] against you becomes a normal
-      hit.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      hit.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   price:
@@ -119,7 +119,7 @@ img: icons/equipment/chest/breastplate-layered-leather-blue.webp
 effects:
   - type: enchantment
     name: Adamantine Armor
-    img: systems/dnd5e/icons/spell-tiers/spell2.webp
+    img: systems/degringo5e/icons/spell-tiers/spell2.webp
     disabled: true
     _id: nqdPjlPUrizNLhug
     system: {}
@@ -135,7 +135,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgAdamantineArm
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAdamantineArm
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -177,7 +177,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1729869208805
       modifiedTime: 1745438836116
@@ -189,14 +189,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729869056243
   modifiedTime: 1745431956207

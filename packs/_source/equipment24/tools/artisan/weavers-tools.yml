@@ -6,18 +6,18 @@ system:
       class="phb-meta"><strong>Utilize:</strong> Mend a tear in clothing (DC
       10), or sew a Tiny design (DC 10)</p><p
       class="phb-meta"><strong>Craft:</strong>
-      @UUID[Compendium.dnd5e.equipment24.Item.phbarmPaddedArmo]{Padded Armor},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBasket00000]{Basket},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{Net},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagString00000]{String},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagTent0000000]{Tent},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Traveler's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmPaddedArmo]{Padded Armor},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBasket00000]{Basket},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBedroll0000]{Bedroll},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBlanket0000]{Blanket},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagClothesFine]{Fine Clothes},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagNet00000000]{Net},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRobe0000000]{Robe},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagRope0000000]{Rope},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagSack0000000]{Sack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagString00000]{String},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagTent0000000]{Tent},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagClothesTrav]{Traveler's
       Clothes}</p>
     chat: ''
   source:
@@ -120,14 +120,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425918002
   modifiedTime: 1745256814324

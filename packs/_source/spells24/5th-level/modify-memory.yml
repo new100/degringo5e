@@ -26,9 +26,9 @@ system:
       illogical modified memory, such as a false memory of how much the creature
       enjoyed swimming in acid, is dismissed as a bad dream. The DM might deem a
       modified memory too nonsensical to affect a creature.</p><p>A
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
       Curse}</em> or
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em> spell cast on the target restores the creature's true
       memory.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
       alter the target's memories of an event that took place up to 7 days ago
@@ -129,7 +129,7 @@ type: spell
 img: icons/sundries/documents/document-letter-blue.webp
 effects:
   - name: Memory Modification
-    origin: Compendium.dnd5e.spells24.Item.phbsplModifyMemo
+    origin: Compendium.degringo5e.spells24.Item.phbsplModifyMemo
     duration:
       rounds: null
       startTime: null
@@ -140,7 +140,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+    img: systems/degringo5e/icons/svg/statuses/incapacitated.svg
     _id: ayfixWGhTtaIUusk
     type: base
     system: {}
@@ -162,7 +162,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -174,14 +174,14 @@ sort: 1000000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425964591
   modifiedTime: 1745256796378

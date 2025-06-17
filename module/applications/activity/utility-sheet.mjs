@@ -16,11 +16,11 @@ export default class UtilitySheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/utility-identity.hbs",
+      template: "systems/degringo5e/templates/activity/utility-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/utility-effect.hbs",
+      template: "systems/degringo5e/templates/activity/utility-effect.hbs",
       templates: super.PARTS.effect.templates
     }
   };

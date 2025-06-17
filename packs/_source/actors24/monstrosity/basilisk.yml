@@ -688,7 +688,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -696,7 +696,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714012
@@ -871,7 +871,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Restrained
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
+        img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmPetrifyingGaze
         _id: a5kKgU7vfT0v17yF
         type: base
@@ -909,7 +909,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -918,7 +918,7 @@ items:
         _key: >-
           !actors.items.effects!mmBasilisk000000.mmPetrifyingGaze.a5kKgU7vfT0v17yF
       - name: Petrified
-        img: systems/dnd5e/icons/svg/statuses/petrified.svg
+        img: systems/degringo5e/icons/svg/statuses/petrified.svg
         origin: Item.mmPetrifyingGaze
         _id: YLFv2Ujss9c0vtMQ
         type: base
@@ -955,7 +955,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -964,7 +964,7 @@ items:
         _key: >-
           !actors.items.effects!mmBasilisk000000.mmPetrifyingGaze.YLFv2Ujss9c0vtMQ
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -972,7 +972,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmPetrifyingGaze
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712714012
@@ -985,12 +985,12 @@ items:
 effects: []
 folder: 36r8qm2aE4k6QTnW
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416008124
   modifiedTime: 1745712714044

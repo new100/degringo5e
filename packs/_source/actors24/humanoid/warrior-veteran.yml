@@ -408,11 +408,11 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbwepHeavyCross]{Heavy
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreatsword]{Greatsword},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
         Crossbow},
-        @UUID[Compendium.dnd5e.equipment24.Item.phbarmSplintArmo]{Splint
-        Armor}</p></div><h1>Warriors</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmSplintArmo]{Splint
+        Armor}</p></div><h1>Warriors</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Neutral
@@ -708,15 +708,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepGreatsword
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepGreatsword
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729700
@@ -878,15 +878,15 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.phbwepHeavyCross
+      compendiumSource: Compendium.degringo5e.equipment24.phbwepHeavyCross
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729700
@@ -954,10 +954,10 @@ items:
       default: 0
     flags: {}
     _stats:
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmSplintArmo
+      compendiumSource: Compendium.degringo5e.equipment24.Item.phbarmSplintArmo
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729700
@@ -1019,7 +1019,7 @@ items:
             visible: false
             name: ''
             formula: ''
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -1048,7 +1048,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1056,7 +1056,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729700
@@ -1151,7 +1151,7 @@ items:
     img: icons/skills/melee/swords-parry-block-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1159,7 +1159,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmParry000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729700
@@ -1172,12 +1172,12 @@ items:
 effects: []
 folder: oq65o5ZsauMtb1JY
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745415931803
   modifiedTime: 1745712729728

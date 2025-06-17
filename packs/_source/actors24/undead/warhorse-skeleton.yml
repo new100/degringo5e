@@ -407,7 +407,7 @@ system:
   details:
     biography:
       value: >-
-        <h1>Skeletons</h1><p>@Embed[Compendium.dnd5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.w1RMyPzpjolhQMVX
+        <h1>Skeletons</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.w1RMyPzpjolhQMVX
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
     alignment: Lawful Evil
@@ -730,8 +730,8 @@ items:
     img: icons/commodities/bones/hooves-cloven-brown.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmWarhorseSkelet.Item.mmHooves00000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmWarhorseSkelet.Item.mmHooves00000000
         _id: NpRjOvORcyUv8cmg
         type: base
         system: {}
@@ -756,7 +756,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -765,7 +765,7 @@ items:
         _key: >-
           !actors.items.effects!mmWarhorseSkelet.mmHooves00000000.NpRjOvORcyUv8cmg
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -773,7 +773,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmHooves00000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712729593
@@ -786,12 +786,12 @@ items:
 effects: []
 folder: fSNeRtZ6WOSjk4f8
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712729618

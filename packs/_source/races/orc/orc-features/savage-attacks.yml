@@ -39,7 +39,7 @@ effects:
     type: base
     system: {}
     changes:
-      - key: flags.dnd5e.meleeCriticalDamageDice
+      - key: flags.degringo5e.meleeCriticalDamageDice
         mode: 2
         value: '1'
         priority: null
@@ -63,7 +63,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.2
       createdTime: 1726735346691
       modifiedTime: 1726735383382
@@ -75,7 +75,7 @@ sort: 0
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.0.2
   createdTime: 1725037392505
   modifiedTime: 1726735392150

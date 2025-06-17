@@ -49,11 +49,11 @@ system:
         targets:
           - type: itemUses
             value: '2'
-            target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+            target: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
             scaling: {}
           - type: itemUses
             value: '-1'
-            target: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+            target: Compendium.degringo5e.classes24.Item.phbscrInnateSorc
             scaling: {}
       description:
         chatFlavor: ''
@@ -87,19 +87,19 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+      img: systems/degringo5e/icons/svg/trait-damage-immunities.svg
   enchant: {}
   identifier: sorcery-incarnate
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1740680088718

@@ -198,7 +198,7 @@ system:
       death or imprisonment, it defends itself but otherwise takes no actions.
       At the end of the duration, the creature acts in accordance with its
       normal disposition and alignment.</p><p>An
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify} spell
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplIdentify00]{Identify} spell
       reveals if the flask contains a creature, but the only way to determine
       the type of creature is to open the flask. A newly discovered <em>Iron
       Flask</em> might already contain a creature chosen by the GM.</p><section
@@ -253,14 +253,14 @@ system:
   proficient: null
 effects: []
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712701050

@@ -40,14 +40,14 @@ export default class FeatData extends ItemDataModel.mixin(
   /* -------------------------------------------- */
 
   /** @override */
-  static LOCALIZATION_PREFIXES = ["DND5E.FEATURE", "DND5E.ENCHANTMENT", "DND5E.Prerequisites", "DND5E.SOURCE"];
+  static LOCALIZATION_PREFIXES = ["DEGRINGO5E.FEATURE", "DEGRINGO5E.ENCHANTMENT", "DEGRINGO5E.Prerequisites", "DEGRINGO5E.SOURCE"];
 
   /* -------------------------------------------- */
 
   /** @inheritDoc */
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
-      advancement: new ArrayField(new AdvancementField(), { label: "DND5E.AdvancementTitle" }),
+      advancement: new ArrayField(new AdvancementField(), { label: "DEGRINGO5E.AdvancementTitle" }),
       cover: new NumberField({ min: 0, max: 1 }),
       crewed: new BooleanField(),
       enchant: new SchemaField({
@@ -77,18 +77,18 @@ export default class FeatData extends ItemDataModel.mixin(
   static get compendiumBrowserFilters() {
     return new Map([
       ["category", {
-        label: "DND5E.ITEM.Category.Label",
+        label: "DEGRINGO5E.ITEM.Category.Label",
         type: "set",
         config: {
-          choices: CONFIG.DND5E.featureTypes,
+          choices: CONFIG.DEGRINGO5E.featureTypes,
           keyPath: "system.type.value"
         }
       }],
       ["subtype", {
-        label: "DND5E.ItemFeatureType",
+        label: "DEGRINGO5E.ItemFeatureType",
         type: "set",
         config: {
-          choices: Object.values(CONFIG.DND5E.featureTypes).reduce((obj, config) => {
+          choices: Object.values(CONFIG.DEGRINGO5E.featureTypes).reduce((obj, config) => {
             for ( const [key, label] of Object.entries(config.subtypes ?? {}) ) obj[key] = label;
             return obj;
           }, {}),
@@ -109,18 +109,18 @@ export default class FeatData extends ItemDataModel.mixin(
     this.prepareDescriptionData();
 
     if ( this.type.value ) {
-      const config = CONFIG.DND5E.featureTypes[this.type.value];
+      const config = CONFIG.DEGRINGO5E.featureTypes[this.type.value];
       if ( config ) this.type.label = config.subtypes?.[this.type.subtype] ?? null;
       else this.type.label = game.i18n.localize(CONFIG.Item.typeLabels.feat);
     }
 
     let label;
     const activation = this.activities.contents[0]?.activation.type;
-    if ( activation === "legendary" ) label = game.i18n.localize("DND5E.LegendaryAction.Label");
-    else if ( activation === "lair" ) label = game.i18n.localize("DND5E.LAIR.Action.Label");
-    else if ( activation === "action" && this.hasAttack ) label = game.i18n.localize("DND5E.Attack");
-    else if ( activation ) label = game.i18n.localize("DND5E.Action");
-    else label = game.i18n.localize("DND5E.Passive");
+    if ( activation === "legendary" ) label = game.i18n.localize("DEGRINGO5E.LegendaryAction.Label");
+    else if ( activation === "lair" ) label = game.i18n.localize("DEGRINGO5E.LAIR.Action.Label");
+    else if ( activation === "action" && this.hasAttack ) label = game.i18n.localize("DEGRINGO5E.Attack");
+    else if ( activation ) label = game.i18n.localize("DEGRINGO5E.Action");
+    else label = game.i18n.localize("DEGRINGO5E.Passive");
     this.parent.labels ??= {};
     this.parent.labels.featType = label;
   }
@@ -150,11 +150,11 @@ export default class FeatData extends ItemDataModel.mixin(
       { label: this.type.label },
       { label: this.parent.labels.featType },
       { label: this.requirements, value: this._source.requirements, field: this.schema.getField("requirements"),
-        placeholder: "DND5E.Requirements" }
+        placeholder: "DEGRINGO5E.Requirements" }
     ];
 
-    context.parts = ["dnd5e.details-feat", "dnd5e.field-uses"];
-    const itemTypes = CONFIG.DND5E.featureTypes[this._source.type.value];
+    context.parts = ["degringo5e.details-feat", "degringo5e.field-uses"];
+    const itemTypes = CONFIG.DEGRINGO5E.featureTypes[this._source.type.value];
     if ( itemTypes ) {
       context.itemType = itemTypes.label;
       context.itemSubtypes = itemTypes.subtypes;
@@ -244,8 +244,8 @@ export default class FeatData extends ItemDataModel.mixin(
    * @type {boolean}
    */
   get isEnchantmentSource() {
-    return CONFIG.DND5E.featureTypes[this.type?.value]?.subtypes?.[this.type?.subtype]
-      && (this.type?.subtype in CONFIG.DND5E.featureTypes.enchantment.subtypes);
+    return CONFIG.DEGRINGO5E.featureTypes[this.type?.value]?.subtypes?.[this.type?.subtype]
+      && (this.type?.subtype in CONFIG.DEGRINGO5E.featureTypes.enchantment.subtypes);
   }
 
   /* -------------------------------------------- */

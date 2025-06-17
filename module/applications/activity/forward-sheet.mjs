@@ -16,17 +16,17 @@ export default class ForwardSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     identity: {
-      template: "systems/dnd5e/templates/activity/forward-identity.hbs",
+      template: "systems/degringo5e/templates/activity/forward-identity.hbs",
       templates: super.PARTS.identity.templates
     },
     activation: {
-      template: "systems/dnd5e/templates/activity/forward-activation.hbs",
+      template: "systems/degringo5e/templates/activity/forward-activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/degringo5e/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/forward-effect.hbs"
+      template: "systems/degringo5e/templates/activity/forward-effect.hbs"
     }
   };
 
@@ -50,7 +50,7 @@ export default class ForwardSheet extends ActivitySheet {
     context.activityOptions = [
       { value: "", label: "" },
       ...this.item.system.activities.contents
-        .filter(a => (a.type !== "forward") && (CONFIG.DND5E.activityTypes[a.type] !== false))
+        .filter(a => (a.type !== "forward") && (CONFIG.DEGRINGO5E.activityTypes[a.type] !== false))
         .map(activity => ({ value: activity.id, label: activity.name }))
     ];
     return context;
@@ -67,15 +67,15 @@ export default class ForwardSheet extends ActivitySheet {
     return this._markTabs({
       identity: {
         id: "identity", group: "sheet", icon: "fa-solid fa-tag",
-        label: "DND5E.ACTIVITY.SECTIONS.Identity"
+        label: "DEGRINGO5E.ACTIVITY.SECTIONS.Identity"
       },
       activation: {
         id: "activation", group: "sheet", icon: "fa-solid fa-boxes-stacked",
-        label: "DND5E.CONSUMPTION.FIELDS.consumption.label"
+        label: "DEGRINGO5E.CONSUMPTION.FIELDS.consumption.label"
       },
       effect: {
         id: "effect", group: "sheet", icon: "fa-solid fa-sun",
-        label: "DND5E.ACTIVITY.SECTIONS.Effect"
+        label: "DEGRINGO5E.ACTIVITY.SECTIONS.Effect"
       }
     });
   }

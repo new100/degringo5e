@@ -4,7 +4,7 @@ system:
   details:
     biography:
       value: >-
-        <p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
         caption=false]</p>
       public: ''
     alignment: Neutral
@@ -520,7 +520,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -528,7 +528,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
@@ -652,7 +652,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -660,7 +660,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
@@ -775,8 +775,8 @@ items:
     img: icons/magic/fire/elemental-creature-horse.webp
     effects:
       - name: Frightened
-        img: systems/dnd5e/icons/svg/statuses/frightened.svg
-        origin: Compendium.dnd5e.actors24.Actor.phbostFiend00000.Item.phbaoiFellGlareF
+        img: systems/degringo5e/icons/svg/statuses/frightened.svg
+        origin: Compendium.degringo5e.actors24.Actor.phbostFiend00000.Item.phbaoiFellGlareF
         transfer: false
         _id: TMhI7D143iHjrZgb
         type: base
@@ -799,10 +799,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
+            Compendium.degringo5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.0.0
           createdTime: 1725984132195
           modifiedTime: 1725984132195
@@ -815,7 +815,7 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -823,7 +823,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1740680159863
@@ -836,12 +836,12 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     showTokenPortrait: false
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425917826
   modifiedTime: 1745256827936

@@ -86,7 +86,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/size.svg
+      img: systems/degringo5e/icons/svg/size.svg
   enchant: {}
   identifier: large-form
   advancement: []
@@ -99,7 +99,7 @@ img: icons/magic/control/silhouette-grow-shrink-tan.webp
 effects:
   - name: Large Form
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
-    origin: Compendium.dnd5e.origins24.Item.phbsptLargeForm0
+    origin: Compendium.degringo5e.origins24.Item.phbsptLargeForm0
     transfer: false
     _id: QI7POclNlvX9a8VD
     type: base
@@ -127,7 +127,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: null
@@ -138,14 +138,14 @@ sort: 100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745340849458
   modifiedTime: 1745341995510

@@ -663,7 +663,7 @@ items:
     img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -671,7 +671,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBite0000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737750263353
       modifiedTime: 1745712711994
@@ -818,8 +818,8 @@ items:
     img: icons/creatures/claws/claw-curved-jagged-gray.webp
     effects:
       - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmAllosaurus0000.Item.mmClaws000000000
+        img: systems/degringo5e/icons/svg/statuses/prone.svg
+        origin: Compendium.degringo5e.actors24.Actor.mmAllosaurus0000.Item.mmClaws000000000
         _id: o2HIiixtauDbonc3
         type: base
         system: {}
@@ -844,7 +844,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.2.2
           createdTime: 1737750784709
           modifiedTime: 1737750809300
@@ -853,7 +853,7 @@ items:
         _key: >-
           !actors.items.effects!mmAllosaurus0000.mmClaws000000000.o2HIiixtauDbonc3
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -861,7 +861,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmClaws000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: 1737750266047
       modifiedTime: 1745712711994
@@ -877,7 +877,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1732598129404
   modifiedTime: 1745712712020

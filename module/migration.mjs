@@ -53,7 +53,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
         });
       }
     } catch(err) {
-      err.message = `Failed dnd5e system migration for Actor ${actor.name}: ${err.message}`;
+      err.message = `Failed degringo5e system migration for Actor ${actor.name}: ${err.message}`;
       console.error(err);
     }
     incrementProgress();
@@ -81,7 +81,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
         });
       }
     } catch(err) {
-      err.message = `Failed dnd5e system migration for Item ${item.name}: ${err.message}`;
+      err.message = `Failed degringo5e system migration for Item ${item.name}: ${err.message}`;
       console.error(err);
     }
     incrementProgress();
@@ -96,7 +96,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
         await m.update(updateData, {enforceTypes: false, render: false});
       }
     } catch(err) {
-      err.message = `Failed dnd5e system migration for Macro ${m.name}: ${err.message}`;
+      err.message = `Failed degringo5e system migration for Macro ${m.name}: ${err.message}`;
       console.error(err);
     }
     incrementProgress();
@@ -111,7 +111,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
         await table.update(updateData, { enforceTypes: false, render: false });
       }
     } catch(err) {
-      err.message = `Failed dnd5e system migration for RollTable ${table.name}: ${err.message}`;
+      err.message = `Failed degringo5e system migration for RollTable ${table.name}: ${err.message}`;
       console.error(err);
     }
     incrementProgress();
@@ -126,7 +126,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
         await s.update(updateData, {enforceTypes: false, render: false});
       }
     } catch(err) {
-      err.message = `Failed dnd5e system migration for Scene ${s.name}: ${err.message}`;
+      err.message = `Failed degringo5e system migration for Scene ${s.name}: ${err.message}`;
       console.error(err);
     }
 
@@ -159,7 +159,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
           });
         }
       } catch(err) {
-        err.message = `Failed dnd5e system migration for ActorDelta [${token.id}]: ${err.message}`;
+        err.message = `Failed degringo5e system migration for ActorDelta [${token.id}]: ${err.message}`;
         console.error(err);
       }
       incrementProgress();
@@ -174,7 +174,7 @@ export async function migrateWorld({ bypassVersionCheck=false }={}) {
   if ( legacyFolder ) legacyFolder.update({ name: "D&D Legacy Content" });
 
   // Set the migration as complete
-  game.settings.set("dnd5e", "systemMigrationVersion", game.system.version);
+  game.settings.set("degringo5e", "systemMigrationVersion", game.system.version);
   progress.update({ message: "MIGRATION.5eComplete", format: { version }, pct: 1 });
 }
 
@@ -260,7 +260,7 @@ export async function migrateCompendium(pack, { bypassVersionCheck=false, increm
 
       // Handle migration failures
       catch(err) {
-        err.message = `Failed dnd5e system migration for document ${doc.name} in pack ${pack.collection}: ${err.message}`;
+        err.message = `Failed degringo5e system migration for document ${doc.name} in pack ${pack.collection}: ${err.message}`;
         console.error(err);
         if ( strict ) throw err;
       }
@@ -347,7 +347,7 @@ export async function refreshCompendium(pack, { bypassVersionCheck, migrate=true
     try {
       await migrateCompendium(pack, { bypassVersionCheck, strict: true });
     } catch( err ) {
-      err.message = `Failed dnd5e system migration pack ${pack.collection}: ${err.message}`;
+      err.message = `Failed degringo5e system migration pack ${pack.collection}: ${err.message}`;
       console.error(err);
       return;
     }
@@ -385,7 +385,7 @@ export async function migrateArmorClass(pack) {
   await pack.configure({locked: false});
   const actors = await pack.getDocuments();
   const updates = [];
-  const armor = new Set(Object.keys(CONFIG.DND5E.armorTypes));
+  const armor = new Set(Object.keys(CONFIG.DEGRINGO5E.armorTypes));
 
   for ( const actor of actors ) {
     try {
@@ -425,10 +425,10 @@ export async function migrateArmorClass(pack) {
 export async function migrateSettings() {
   // Migrate Disable Experience Tracking to Leveling Mode
   const disableExperienceTracking = game.settings.storage.get("world")
-    ?.find(s => s.key === "dnd5e.disableExperienceTracking")?.value;
-  const levelingMode = game.settings.storage.get("world")?.find(s => s.key === "dnd5e.levelingMode")?.value;
+    ?.find(s => s.key === "degringo5e.disableExperienceTracking")?.value;
+  const levelingMode = game.settings.storage.get("world")?.find(s => s.key === "degringo5e.levelingMode")?.value;
   if ( (disableExperienceTracking !== undefined) && (levelingMode === undefined) ) {
-    await game.settings.set("dnd5e", "levelingMode", "noxp");
+    await game.settings.set("degringo5e", "levelingMode", "noxp");
   }
 }
 
@@ -531,11 +531,11 @@ export function migrateItemData(item, itemData, migrationData, flags={}) {
 
   // Migrate embedded effects
   if ( itemData.effects ) {
-    const riders = foundry.utils.getProperty(itemData, "flags.dnd5e.riders.effect");
-    if ( riders?.length ) updateData["flags.dnd5e.riders.effect"] = riders;
+    const riders = foundry.utils.getProperty(itemData, "flags.degringo5e.riders.effect");
+    if ( riders?.length ) updateData["flags.degringo5e.riders.effect"] = riders;
     const effects = migrateEffects(itemData, migrationData, updateData, flags);
-    if ( riders?.length === updateData["flags.dnd5e.riders.effect"]?.length ) {
-      delete updateData["flags.dnd5e.riders.effect"];
+    if ( riders?.length === updateData["flags.degringo5e.riders.effect"]?.length ) {
+      delete updateData["flags.degringo5e.riders.effect"];
     }
     if ( effects.length > 0 ) updateData.effects = effects;
   }
@@ -549,18 +549,18 @@ export function migrateItemData(item, itemData, migrationData, flags={}) {
   }
 
   // Migrate properties
-  const migratedProperties = foundry.utils.getProperty(itemData, "flags.dnd5e.migratedProperties");
+  const migratedProperties = foundry.utils.getProperty(itemData, "flags.degringo5e.migratedProperties");
   if ( migratedProperties?.length ) {
     flags.persistSourceMigration = true;
     const properties = new Set(foundry.utils.getProperty(itemData, "system.properties") ?? [])
       .union(new Set(migratedProperties));
     updateData["system.properties"] = Array.from(properties);
-    updateData["flags.dnd5e.-=migratedProperties"] = null;
+    updateData["flags.degringo5e.-=migratedProperties"] = null;
   }
 
-  if ( foundry.utils.getProperty(itemData, "flags.dnd5e.persistSourceMigration") ) {
+  if ( foundry.utils.getProperty(itemData, "flags.degringo5e.persistSourceMigration") ) {
     flags.persistSourceMigration = true;
-    updateData["flags.dnd5e.-=persistSourceMigration"] = null;
+    updateData["flags.degringo5e.-=persistSourceMigration"] = null;
   }
 
   return updateData;
@@ -581,14 +581,14 @@ export function migrateEffects(parent, migrationData, itemUpdateData, flags={}) 
   return parent.effects.reduce((arr, e) => {
     const effectData = e instanceof CONFIG.ActiveEffect.documentClass ? e.toObject() : e;
     let effectUpdate = migrateEffectData(effectData, migrationData, { parent });
-    if ( effectData.flags?.dnd5e?.rider ) {
-      itemUpdateData["flags.dnd5e.riders.effect"] ??= [];
-      itemUpdateData["flags.dnd5e.riders.effect"].push(effectData._id);
-      effectUpdate["flags.dnd5e.-=rider"] = null;
+    if ( effectData.flags?.degringo5e?.rider ) {
+      itemUpdateData["flags.degringo5e.riders.effect"] ??= [];
+      itemUpdateData["flags.degringo5e.riders.effect"].push(effectData._id);
+      effectUpdate["flags.degringo5e.-=rider"] = null;
     }
-    if ( effectData.flags?.dnd5e?.persistSourceMigration ) {
+    if ( effectData.flags?.degringo5e?.persistSourceMigration ) {
       flags.persistSourceMigration = true;
-      effectUpdate["flags.dnd5e.-=persistSourceMigration"] = null;
+      effectUpdate["flags.degringo5e.-=persistSourceMigration"] = null;
     }
     if ( !foundry.utils.isEmpty(effectUpdate) ) {
       effectUpdate._id = effectData._id;
@@ -716,8 +716,8 @@ export const migrateSceneData = function(scene, migrationData) {
 export const getMigrationData = async function() {
   const data = {};
   try {
-    const icons = await fetch("systems/dnd5e/json/icon-migration.json");
-    const spellIcons = await fetch("systems/dnd5e/json/spell-icon-migration.json");
+    const icons = await fetch("systems/degringo5e/json/icon-migration.json");
+    const spellIcons = await fetch("systems/degringo5e/json/spell-icon-migration.json");
     data.iconMap = {...await icons.json(), ...await spellIcons.json()};
   } catch(err) {
     console.warn(`Failed to retrieve icon migration data: ${err.message}`);
@@ -802,11 +802,11 @@ function _migrateActorAC(actorData, updateData) {
  * @private
  */
 function _migrateActorFlags(actorData, updateData) {
-  const initiativeAdv = foundry.utils.getProperty(actorData, "flags.dnd5e.initiativeAdv");
+  const initiativeAdv = foundry.utils.getProperty(actorData, "flags.degringo5e.initiativeAdv");
   if ( initiativeAdv ) {
     const key = "system.attributes.init.roll.mode";
     updateData[key] = Math.min(1, (foundry.utils.getProperty(actorData, key) ?? 0) + 1);
-    updateData["flags.dnd5e.-=initiativeAdv"] = null;
+    updateData["flags.degringo5e.-=initiativeAdv"] = null;
   }
   return updateData;
 }
@@ -822,11 +822,11 @@ function _migrateActorFlags(actorData, updateData) {
  */
 function _migrateActorMovementSenses(actorData, updateData) {
   if ( actorData._stats?.systemVersion && foundry.utils.isNewerVersion("2.4.0", actorData._stats.systemVersion) ) {
-    for ( const key of Object.keys(CONFIG.DND5E.movementTypes) ) {
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.movementTypes) ) {
       const keyPath = `system.attributes.movement.${key}`;
       if ( foundry.utils.getProperty(actorData, keyPath) === 0 ) updateData[keyPath] = null;
     }
-    for ( const key of Object.keys(CONFIG.DND5E.senses) ) {
+    for ( const key of Object.keys(CONFIG.DEGRINGO5E.senses) ) {
       const keyPath = `system.attributes.senses.${key}`;
       if ( foundry.utils.getProperty(actorData, keyPath) === 0 ) updateData[keyPath] = null;
     }
@@ -844,12 +844,12 @@ function _migrateActorMovementSenses(actorData, updateData) {
  * @private
  */
 function _migrateTokenImage(actorData, updateData) {
-  const oldSystemPNG = /^systems\/dnd5e\/tokens\/([a-z]+)\/([A-z]+).png$/;
+  const oldSystemPNG = /^systems\/degringo5e\/tokens\/([a-z]+)\/([A-z]+).png$/;
   for ( const path of ["texture.src", "prototypeToken.texture.src"] ) {
     const v = foundry.utils.getProperty(actorData, path);
     if ( oldSystemPNG.test(v) ) {
       const [type, fileName] = v.match(oldSystemPNG).slice(1);
-      updateData[path] = `systems/dnd5e/tokens/${type}/${fileName}.webp`;
+      updateData[path] = `systems/degringo5e/tokens/${type}/${fileName}.webp`;
     }
   }
   return updateData;
@@ -907,13 +907,13 @@ function _migrateEffectArmorClass(effect, updateData) {
  * @param {object} flags       Track the needs migration flag.
  */
 function _migrateItemUses(item, itemData, updateData, flags) {
-  const value = foundry.utils.getProperty(itemData, "flags.dnd5e.migratedUses");
+  const value = foundry.utils.getProperty(itemData, "flags.degringo5e.migratedUses");
   const max = foundry.utils.getProperty(item, "system.uses.max");
   if ( (value !== undefined) && (max !== undefined) && Number.isNumeric(value) && Number.isNumeric(max) ) {
     foundry.utils.setProperty(updateData, "system.uses.spent", parseInt(max) - parseInt(value));
     flags.persistSourceMigration = true;
   }
-  if ( value !== undefined ) updateData["flags.dnd5e.-=migratedUses"] = null;
+  if ( value !== undefined ) updateData["flags.degringo5e.-=migratedUses"] = null;
 }
 
 /* -------------------------------------------- */
@@ -941,16 +941,16 @@ function _migrateTransferEffect(effect, parent, updateData) {
 /* -------------------------------------------- */
 
 /**
- * Migrate macros from the old 'dnd5e.rollItemMacro' and 'dnd5e.macros' commands to the new location.
+ * Migrate macros from the old 'degringo5e.rollItemMacro' and 'degringo5e.macros' commands to the new location.
  * @param {object} macro       Macro data to migrate.
  * @param {object} updateData  Existing update to expand upon.
  * @returns {object}           The updateData to apply.
  */
 function _migrateMacroCommands(macro, updateData) {
-  if ( macro.command.includes("game.dnd5e.rollItemMacro") ) {
-    updateData.command = macro.command.replaceAll("game.dnd5e.rollItemMacro", "dnd5e.documents.macro.rollItem");
-  } else if ( macro.command.includes("game.dnd5e.macros.") ) {
-    updateData.command = macro.command.replaceAll("game.dnd5e.macros.", "dnd5e.documents.macro.");
+  if ( macro.command.includes("game.degringo5e.rollItemMacro") ) {
+    updateData.command = macro.command.replaceAll("game.degringo5e.rollItemMacro", "degringo5e.documents.macro.rollItem");
+  } else if ( macro.command.includes("game.degringo5e.macros.") ) {
+    updateData.command = macro.command.replaceAll("game.degringo5e.macros.", "degringo5e.documents.macro.");
   }
   return updateData;
 }
@@ -964,8 +964,8 @@ function _migrateMacroCommands(macro, updateData) {
  */
 export async function purgeFlags(pack) {
   const cleanFlags = flags => {
-    const flags5e = flags.dnd5e || null;
-    return flags5e ? {dnd5e: flags5e} : {};
+    const flags5e = flags.degringo5e || null;
+    return flags5e ? {degringo5e: flags5e} : {};
   };
   await pack.configure({locked: false});
   const content = await pack.getDocuments();

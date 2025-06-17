@@ -15,7 +15,7 @@ system:
       collects three of a kind.</p><p>If you maintain your Concentration on this
       spell for the entire possible duration, the target is Petrified until the
       condition is ended by
-      <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}</em> or similar magic.</p>
     chat: ''
   source:
@@ -122,7 +122,7 @@ img: icons/magic/earth/strike-body-stone-crumble.webp
 effects:
   - name: Turning to Stone
     img: icons/magic/defensive/armor-stone-skin.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplFleshtoSto
+    origin: Compendium.degringo5e.spells24.Item.phbsplFleshtoSto
     transfer: false
     _id: Xt8AUh0PfYhGYBvY
     type: base
@@ -152,7 +152,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724708938829
       modifiedTime: 1724709521609
@@ -161,7 +161,7 @@ effects:
     _key: '!items.effects!phbsplFleshtoSto.Xt8AUh0PfYhGYBvY'
   - name: Unable to Move
     img: icons/magic/life/heart-broken-red.webp
-    origin: Compendium.dnd5e.spells24.Item.phbsplFleshtoSto
+    origin: Compendium.degringo5e.spells24.Item.phbsplFleshtoSto
     transfer: false
     _id: sFyjp6wt9bjyIl9W
     type: base
@@ -207,7 +207,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: 1724709070719
       modifiedTime: 1724709944544
@@ -219,14 +219,14 @@ sort: 1100000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425954533
   modifiedTime: 1745256793278

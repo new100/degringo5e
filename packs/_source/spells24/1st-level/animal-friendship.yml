@@ -102,7 +102,7 @@ type: spell
 img: icons/creatures/abilities/paw-glowing-yellow.webp
 effects:
   - name: Charmed
-    origin: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
+    origin: Compendium.degringo5e.spells24.Item.phbsplAnimalFrie
     duration:
       rounds: 1
       startTime: null
@@ -113,7 +113,7 @@ effects:
       startTurn: null
     disabled: false
     flags: {}
-    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    img: systems/degringo5e/icons/svg/statuses/charmed.svg
     _id: 55NWwccKvMKQPL4h
     type: base
     system: {}
@@ -131,7 +131,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -143,14 +143,14 @@ sort: 5600000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425940341
   modifiedTime: 1745256785241

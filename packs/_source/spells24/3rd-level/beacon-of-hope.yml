@@ -92,7 +92,7 @@ type: spell
 img: icons/magic/holy/chalice-glowing-gold.webp
 effects:
   - name: Hopeful
-    origin: Compendium.dnd5e.spells24.Item.phbsplBeaconofHo
+    origin: Compendium.degringo5e.spells24.Item.phbsplBeaconofHo
     duration:
       rounds: null
       startTime: null
@@ -120,7 +120,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
@@ -132,14 +132,14 @@ sort: 3700000
 ownership:
   default: 0
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1724425942956
   modifiedTime: 1745256786546

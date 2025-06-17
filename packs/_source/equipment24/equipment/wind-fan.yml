@@ -50,7 +50,7 @@ system:
         level: '2'
         properties: []
         spellbook: false
-        uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
+        uuid: Compendium.degringo5e.spells24.Item.phbsplGustofWind
       img: ''
   uses:
     spent: 0
@@ -61,7 +61,7 @@ system:
   description:
     value: >-
       <p><em>Wondrous Item, Uncommon</em></p><p>While holding this fan, you can
-      cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}
+      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of Wind}
       (save DC 13) from it. Each subsequent time the fan is used before the next
       dawn, it has a cumulative 20 percent chance of not working; if the fan
       fails to work, it tears into useless, nonmagical
@@ -115,14 +115,14 @@ system:
 effects: []
 folder: U4xmShLy19Ry54zl
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1729874927255
   modifiedTime: 1745712704997

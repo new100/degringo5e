@@ -2,7 +2,7 @@ _id: phbscrSorcerer00
 name: Sorcerer
 type: class
 folder: 45fGQlR9VJAIreZA
-img: systems/dnd5e/icons/classes/sorcerer.webp
+img: systems/degringo5e/icons/classes/sorcerer.webp
 system:
   description:
     value: >-
@@ -21,23 +21,23 @@ system:
       Training</strong></p></th><td><p>None</p></td></tr><tr><th
       scope="row"><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A)
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, 2
-      @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]{crystal}),
-      @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepSpear00000]{Spear}, 2
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbafcCrystal000]{crystal}),
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's
       Pack}, and [[/award 28GP]]; or (B) [[/award
-      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00
+      50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00
       inline classes="free-rules-embed"]</p><h2>Becoming a Sorcerer …</h2><h3>As
       a Level 1 Character</h3><ul><li>Gain all the traits in the Core Sorcerer
       Traits table.</li><li>Gain the Sorcerer's level 1 features, which are
       listed in the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
       Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain
       the Hit Point Die from the Core Sorcerer Traits table.</li><li>Gain the
       Sorcerer's level 1 features, which are listed in the Sorcerer Features
       table. See the
-      @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
+      @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
       rules} to determine your available spell slots.</li></ul>
     chat: ''
   source:
@@ -54,14 +54,14 @@ system:
       sort: 100000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbwepSpear00000
+      key: Compendium.degringo5e.equipment24.Item.phbwepSpear00000
       requiresProficiency: false
       _id: qlvsOcz6euiRnNL3
       group: pR0mEuxe1qPdiMXB
       sort: 200000
     - type: linked
       count: 2
-      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      key: Compendium.degringo5e.equipment24.Item.phbwepDagger0000
       requiresProficiency: false
       _id: A2PetGWTbbmothUy
       group: pR0mEuxe1qPdiMXB
@@ -73,14 +73,14 @@ system:
       sort: 400000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbafcCrystal000
+      key: Compendium.degringo5e.equipment24.Item.phbafcCrystal000
       requiresProficiency: false
       _id: zmwYHbS3JVzU8FXX
       group: C1ovxcWZDF54nw08
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.dnd5e.equipment24.Item.phbagDungeoneers
+      key: Compendium.degringo5e.equipment24.Item.phbagDungeoneers
       requiresProficiency: false
       _id: LgbG4QYKBQTlDhOd
       group: pR0mEuxe1qPdiMXB
@@ -96,9 +96,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrSpellcasti
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrSpellcasti
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrInnateSorc
             optional: false
         optional: false
         spell: null
@@ -109,9 +109,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrFontOfMagi
             optional: false
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrMetamagic0
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrMetamagic0
             optional: false
         optional: false
         spell: null
@@ -122,7 +122,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrSorcerousR
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrSorcerousR
             optional: false
         optional: false
         spell: null
@@ -134,7 +134,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.classes24.Item.phbscrSorceryInc
+            uuid: Compendium.degringo5e.classes24.Item.phbscrSorceryInc
         optional: false
         spell: null
       value: {}
@@ -144,7 +144,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrEpicBoon00
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrEpicBoon00
             optional: false
         optional: false
         spell: null
@@ -155,7 +155,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.classes24.Item.phbscrArcaneApot
+          - uuid: Compendium.degringo5e.classes24.Item.phbscrArcaneApot
             optional: false
         optional: false
         spell: null
@@ -308,16 +308,16 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoCarefulSpe
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoDistantSpe
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoExtendedSp
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoHeightened
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoQuickenedS
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoSubtleSpel
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoTransmuted
-          - uuid: Compendium.dnd5e.classes24.Item.phbmmoTwinnedSpe
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoCarefulSpe
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoDistantSpe
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoEmpoweredS
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoExtendedSp
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoHeightened
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoQuickenedS
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoSeekingSpe
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoSubtleSpel
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoTransmuted
+          - uuid: Compendium.degringo5e.classes24.Item.phbmmoTwinnedSpe
         spell: null
         restriction:
           type: class
@@ -348,18 +348,18 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofCombatP
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofEnergyR
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFate000
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofFortitu
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofIrresis
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofRecover
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSkill00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpeed00
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
-          - uuid: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofCombatP
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofDimensi
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofEnergyR
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFate000
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofFortitu
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofIrresis
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofRecover
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSkill00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpeed00
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofSpellRe
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonoftheNigh
+          - uuid: Compendium.degringo5e.feats24.Item.phbBoonofTruesig
         spell: null
         restriction:
           type: feat
@@ -486,7 +486,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1735866286897
   modifiedTime: 1745517428812

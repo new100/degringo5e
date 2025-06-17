@@ -128,7 +128,7 @@ system:
     m8aK98SDuts6egnq:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplDaylight00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplDaylight00
         challenge:
           attack: null
           save: null
@@ -171,7 +171,7 @@ system:
     ePzoCWNEAI8dymbs:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        uuid: Compendium.degringo5e.spells24.Item.phbsplFireball00
         challenge:
           attack: null
           save: 18
@@ -218,7 +218,7 @@ system:
     cyHTGkuJ0EfnTyR3:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplPrismaticS
+        uuid: Compendium.degringo5e.spells24.Item.phbsplPrismaticS
         challenge:
           attack: null
           save: 18
@@ -265,7 +265,7 @@ system:
     jOM1L4QpJZo0dPr3:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+        uuid: Compendium.degringo5e.spells24.Item.phbsplWallofFire
         challenge:
           attack: null
           save: 18
@@ -402,11 +402,11 @@ system:
       damage.</p><p><em><strong>Spells.</strong></em> You can cast one of the
       following spells (save DC 18), using one of the helm's gems of the
       specified type as a component:
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} (opal),
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball} (fire
-      opal), @UUID[Compendium.dnd5e.spells24.Item.phbsplPrismaticS]{Prismatic
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDaylight00]{Daylight} (opal),
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball} (fire
+      opal), @UUID[Compendium.degringo5e.spells24.Item.phbsplPrismaticS]{Prismatic
       Spray} (diamond), or
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of Fire}
       (ruby). The gem is destroyed when the spell is cast and disappears from
       the helm.</p><p><em><strong>Taking Fire Damage.</strong></em> Roll [[/r
       1d20]] if you are wearing the helm and take Fire damage as a result of
@@ -494,7 +494,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730696745413
       modifiedTime: 1730696974775
@@ -531,7 +531,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730697009876
       modifiedTime: 1730697052686
@@ -539,14 +539,14 @@ effects:
       exportSource: null
     _key: '!items.effects!dmgHelmOfBrillia.MxOB3as0nJAw2AVI'
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712700596

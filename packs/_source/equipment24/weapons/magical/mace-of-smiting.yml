@@ -122,7 +122,7 @@ system:
   description:
     value: >-
       <p><em>Weapon
-      (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}),
+      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}),
       Rare</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made
       with this magic weapon. The bonus increases to +3 when you use the weapon
       to attack a Construct.</p><p>When you roll a 20 on an attack roll made
@@ -199,14 +199,14 @@ system:
 effects: []
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect: []
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745431704598

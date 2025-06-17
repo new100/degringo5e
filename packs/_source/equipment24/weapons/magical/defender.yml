@@ -78,7 +78,7 @@ system:
       bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to
       Armor Class. The adjusted bonuses remain in effect until the start of your
       next turn, although you must hold the weapon to gain a bonus to AC from
-      it.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
+      it.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: defender
@@ -146,7 +146,7 @@ system:
 effects:
   - name: 'Transferred AC Bonus: 1'
     img: icons/skills/melee/sword-damaged-broken-glow-red.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDefender00000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDefender00000
     transfer: true
     _id: 4l1ngEyNnOxpfTGs
     type: base
@@ -184,7 +184,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730132516608
       modifiedTime: 1730133212832
@@ -193,7 +193,7 @@ effects:
     _key: '!items.effects!dmgDefender00000.4l1ngEyNnOxpfTGs'
   - type: enchantment
     name: Defender
-    img: systems/dnd5e/icons/spell-tiers/spell5.webp
+    img: systems/degringo5e/icons/spell-tiers/spell5.webp
     disabled: true
     _id: yBwZfNAoRtuUk5mz
     system: {}
@@ -205,7 +205,7 @@ effects:
       - key: system.description.value
         mode: 5
         value: >-
-          {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDefender00000
+          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDefender00000
           caption=false]</p>
         priority: null
       - key: system.properties
@@ -255,7 +255,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730132637979
       modifiedTime: 1745438836302
@@ -264,7 +264,7 @@ effects:
     _key: '!items.effects!dmgDefender00000.yBwZfNAoRtuUk5mz'
   - name: 'Transferred AC Bonus: 2'
     img: icons/skills/melee/sword-damaged-broken-orange.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDefender00000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDefender00000
     transfer: true
     type: base
     system: {}
@@ -301,7 +301,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730133269480
       modifiedTime: 1730133309511
@@ -311,7 +311,7 @@ effects:
     _key: '!items.effects!dmgDefender00000.jiyXZKFtvIRlZfh2'
   - name: 'Transferred AC Bonus: 3'
     img: icons/skills/melee/sword-damaged-broken-purple.webp
-    origin: Compendium.dnd5e.equipment24.Item.dmgDefender00000
+    origin: Compendium.degringo5e.equipment24.Item.dmgDefender00000
     transfer: true
     type: base
     system: {}
@@ -348,7 +348,7 @@ effects:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.1.0
       createdTime: 1730133312749
       modifiedTime: 1730133328345
@@ -358,7 +358,7 @@ effects:
     _key: '!items.effects!dmgDefender00000.v3JBpJJorZfV3fXj'
 folder: kie870i5kr7yuxO8
 flags:
-  dnd5e:
+  degringo5e:
     riders:
       activity: []
       effect:
@@ -368,7 +368,7 @@ flags:
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1727883376108
   modifiedTime: 1745712699016

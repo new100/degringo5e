@@ -616,7 +616,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -649,7 +649,7 @@ items:
     img: icons/equipment/shield/heater-steel-crystal-red.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -657,7 +657,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmLegendaryResis
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -707,7 +707,7 @@ items:
     img: icons/magic/death/hand-dirt-undead-zombie.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -715,7 +715,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmUndeadRestorat
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -766,7 +766,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMagicResistanc
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -890,7 +890,7 @@ items:
             name: HP Max Decr.
             formula: 3d6
           name: HP Max Decrease
-          img: systems/dnd5e/icons/svg/hit-points.svg
+          img: systems/degringo5e/icons/svg/hit-points.svg
       uses:
         spent: 0
         recovery: []
@@ -968,7 +968,7 @@ items:
     img: icons/magic/lightning/claws-unarmed-strike-teal.webp
     effects:
       - name: Cursed
-        img: systems/dnd5e/icons/svg/statuses/cursed.svg
+        img: systems/degringo5e/icons/svg/statuses/cursed.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmRottingFist000
         _id: B1S4dZd1Lz0jokIo
         type: base
@@ -998,10 +998,10 @@ items:
         flags: {}
         _stats:
           compendiumSource: >-
-            Compendium.dnd5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000.ActiveEffect.t7Anyyhyg6fmTdXw
+            Compendium.degringo5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000.ActiveEffect.t7Anyyhyg6fmTdXw
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1010,7 +1010,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummyLord00000.mmRottingFist000.B1S4dZd1Lz0jokIo
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1018,7 +1018,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmRottingFist000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -1101,7 +1101,7 @@ items:
     img: icons/skills/melee/strike-weapons-orange.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1109,7 +1109,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmMultiattack000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -1169,13 +1169,13 @@ items:
             properties:
               - material
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+            uuid: Compendium.degringo5e.spells24.Item.phbsplDispelMagi
             ability: ''
           name: ''
         2L5xIB4F7pzLxodZ:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            uuid: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
             challenge:
               attack: null
               save: null
@@ -1220,7 +1220,7 @@ items:
         r1CShKUHpGLk6S15:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateDea
+            uuid: Compendium.degringo5e.spells24.Item.phbsplAnimateDea
             challenge:
               attack: null
               save: null
@@ -1270,7 +1270,7 @@ items:
         UuaXl5nquzkuZass:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplHarm000000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplHarm000000
             challenge:
               attack: null
               save: null
@@ -1320,7 +1320,7 @@ items:
         h8Z0JRmWxCy0fyYu:
           type: cast
           spell:
-            uuid: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+            uuid: Compendium.degringo5e.spells24.Item.phbsplInsectPlag
             challenge:
               attack: null
               save: null
@@ -1378,14 +1378,14 @@ items:
           the spellcasting ability (spell save DC [[lookup
           @attributes.spell.dc]], +9 to hit with spell attacks):</p><p
           class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
           Magic}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{Animate
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimateDea]{Animate
           Dead}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHarm000000]{Harm}</em>,
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Insect
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHarm000000]{Harm}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInsectPlag]{Insect
           Plague}</em> (level 7 version)</p>
         chat: ''
       identifier: spellcasting
@@ -1407,7 +1407,7 @@ items:
     img: icons/magic/symbols/circled-gem-pink.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -1415,7 +1415,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmSpellcasting00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -1518,9 +1518,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1546,7 +1546,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1559,13 +1559,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDispelMagi
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -1683,9 +1683,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.2L5xIB4F7pzLxodZ
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.2L5xIB4F7pzLxodZ
         changes:
           - key: system.properties
             mode: 2
@@ -1711,7 +1711,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1724,16 +1724,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.2L5xIB4F7pzLxodZ
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplThaumaturg
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -1747,9 +1747,9 @@ items:
         value: >-
           <p>Choose a pile of bones or a corpse of a Medium or Small Humanoid
           within range. The target becomes an Undead creature: a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobSkeleton00]{Skeleton}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobSkeleton00]{Skeleton}</strong>
           if you chose bones or a
-          <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobZombie0000]{Zombie}</strong>
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobZombie0000]{Zombie}</strong>
           if you chose a corpse.</p><p>On each of your turns, you can take a
           Bonus Action to mentally command any creature you made with this spell
           if the creature is within 60 feet of you (if you control multiple
@@ -1862,7 +1862,7 @@ items:
             - count: ''
               name: Skeleton (bones)
               _id: l3jb6CSvoMCwcgt6
-              uuid: Compendium.dnd5e.actors24.Actor.phbmobSkeleton00
+              uuid: Compendium.degringo5e.actors24.Actor.phbmobSkeleton00
               level:
                 min: null
                 max: null
@@ -1870,7 +1870,7 @@ items:
             - count: ''
               name: Zombie (corpse)
               _id: pZwDbNd78btaIk1A
-              uuid: Compendium.dnd5e.actors24.Actor.phbmobZombie0000
+              uuid: Compendium.degringo5e.actors24.Actor.phbmobZombie0000
               level:
                 min: null
                 max: null
@@ -1891,9 +1891,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.r1CShKUHpGLk6S15
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.r1CShKUHpGLk6S15
         changes:
           - key: system.properties
             mode: 2
@@ -1919,7 +1919,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -1932,13 +1932,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.r1CShKUHpGLk6S15
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAnimateDea
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplAnimateDea
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2064,9 +2064,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.UuaXl5nquzkuZass
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.UuaXl5nquzkuZass
         changes:
           - key: system.properties
             mode: 2
@@ -2092,7 +2092,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2105,16 +2105,16 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
         cachedFor: .Item.mmSpellcasting00.Activity.UuaXl5nquzkuZass
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHarm000000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHarm000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2244,9 +2244,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.h8Z0JRmWxCy0fyYu
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.h8Z0JRmWxCy0fyYu
         changes:
           - key: system.properties
             mode: 2
@@ -2272,7 +2272,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2285,13 +2285,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.mmSpellcasting00.Activity.h8Z0JRmWxCy0fyYu
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplInsectPlag
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2429,7 +2429,7 @@ items:
     img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2437,7 +2437,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmChannelNegativ
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2500,7 +2500,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -2529,7 +2529,7 @@ items:
     img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2537,7 +2537,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmGlare000000000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2607,7 +2607,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -2686,7 +2686,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2695,7 +2695,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.Xy0tzgObrMRF2lHm
       - name: Blinded
-        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmWhirlwindOfSan
         _id: MMp7IK5bYYPYtSdL
         type: base
@@ -2734,7 +2734,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -2743,7 +2743,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.MMp7IK5bYYPYtSdL
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2751,7 +2751,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmWhirlwindOfSan
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2811,7 +2811,7 @@ items:
             level: 2
             properties: []
             spellbook: true
-            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            uuid: Compendium.degringo5e.spells24.Item.phbsplCommand000
             ability: ''
           name: Command
       uses:
@@ -2821,7 +2821,7 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCommand000]{Command}</em>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em>
           (level 2 version), using the same spellcasting ability as
           Spellcasting. The [[lookup @name lowercase]] can't take this action
           again until the start of its next turn.</p>
@@ -2845,7 +2845,7 @@ items:
     img: icons/magic/sonic/scream-wail-shout-teal.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -2853,7 +2853,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDreadCommand00
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -2977,9 +2977,9 @@ items:
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
+        img: systems/degringo5e/icons/svg/activity/cast.svg
         origin: >-
-          Compendium.dnd5e.actors24.Actor.mmMummyLord00000.Item.SSc4GeA0NJxba8O4.Activity.9RQr4xjb1zKIXBxn
+          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.SSc4GeA0NJxba8O4.Activity.9RQr4xjb1zKIXBxn
         changes:
           - key: system.activation
             mode: 5
@@ -3005,7 +3005,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3018,13 +3018,13 @@ items:
     ownership:
       default: 0
     flags:
-      dnd5e:
+      degringo5e:
         cachedFor: .Item.SSc4GeA0NJxba8O4.Activity.9RQr4xjb1zKIXBxn
     _stats:
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCommand000
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCommand000
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -3085,7 +3085,7 @@ items:
             name: ''
             formula: ''
           name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
+          img: systems/degringo5e/icons/svg/monster.svg
       uses:
         spent: 0
         recovery: []
@@ -3114,7 +3114,7 @@ items:
     img: icons/magic/unholy/hand-claw-fire-blue.webp
     effects: []
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3122,7 +3122,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmNecroticStrike
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -3238,7 +3238,7 @@ items:
     img: icons/magic/perception/eye-slit-red-orange.webp
     effects:
       - name: Paralyzed
-        img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+        img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmDreadfulGlare0
         _id: hRSvOovTSlu4Dw8c
         type: base
@@ -3267,7 +3267,7 @@ items:
           compendiumSource: null
           duplicateSource: null
           coreVersion: '13.344'
-          systemId: dnd5e
+          systemId: degringo5e
           systemVersion: 4.4.0
           createdTime: null
           modifiedTime: null
@@ -3276,7 +3276,7 @@ items:
         _key: >-
           !actors.items.effects!mmMummyLord00000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c
     flags:
-      dnd5e:
+      degringo5e:
         riders:
           activity: []
           effect: []
@@ -3284,7 +3284,7 @@ items:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDreadfulGlare0
       duplicateSource: null
       coreVersion: '13.344'
-      systemId: dnd5e
+      systemId: degringo5e
       systemVersion: 4.4.0
       createdTime: null
       modifiedTime: 1745712723775
@@ -3300,7 +3300,7 @@ flags: {}
 _stats:
   duplicateSource: null
   coreVersion: '13.344'
-  systemId: dnd5e
+  systemId: degringo5e
   systemVersion: 4.4.0
   createdTime: 1745416271017
   modifiedTime: 1745712723815
