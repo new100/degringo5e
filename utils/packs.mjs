@@ -7,9 +7,7 @@ import { hideBin } from "yargs/helpers";
 import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
 import winston from "winston";
 
-/**
- * Configuração do logger para salvar logs em um arquivo.
- */
+// Logger
 const logger = winston.createLogger({
   level: "debug",
   format: winston.format.combine(
@@ -25,56 +23,52 @@ const logger = winston.createLogger({
   ]
 });
 
-/**
- * Folder where the compiled compendium packs should be located relative to the
- * base 5e system folder.
- * @type {string}
- */
+// Pastas
 const PACK_DEST = "packs";
-
-/**
- * Folder where source JSON files should be located relative to the 5e system folder.
- * @type {string}
- */
 const PACK_SRC = "packs/_source";
 
-const argv = yargs(hideBin(process.argv))
-  .command(packageCommand())
-  .help().alias("help", "h")
-  .argv;
-
-function packageCommand() {
-  return {
-    command: "package [action] [pack] [entry]",
-    describe: "Manage packages",
-    builder: yargs => {
-      yargs.positional("action", {
-        describe: "The action to perform.",
-        type: "string",
-        choices: ["unpack", "pack", "clean"]
-      });
-      yargs.positional("pack", {
-        describe: "Name of the pack upon which to work.",
-        type: "string"
-      });
-      yargs.positional("entry", {
-        describe: "Name of any entry within a pack upon which to work. Only applicable to extract & clean commands.",
-        type: "string"
-      });
+// Yargs com suporte a "package" opcional
+yargs(hideBin(process.argv))
+  .command(
+    ["package <action> [pack] [entry]", "$0 <action> [pack] [entry]"],
+    "Manage packages (pack/unpack/clean)",
+    yargs => {
+      yargs
+        .positional("action", {
+          describe: "The action to perform",
+          type: "string",
+          choices: ["pack", "unpack", "clean"]
+        })
+        .positional("pack", {
+          describe: "Pack name to operate on",
+          type: "string"
+        })
+        .positional("entry", {
+          describe: "Entry inside the pack (for unpack or clean)",
+          type: "string"
+        });
     },
-    handler: async argv => {
+    async argv => {
       const { action, pack, entry } = argv;
       switch (action) {
-        case "clean":
-          return await cleanPacks(pack, entry);
         case "pack":
-          return await compilePacks(pack);
+          await compilePacks(pack);
+          break;
         case "unpack":
-          return await extractPacks(pack, entry);
+          await extractPacks(pack, entry);
+          break;
+        case "clean":
+          await cleanPacks(pack, entry);
+          break;
+        default:
+          console.log(`❌ Invalid action: ${action}`);
+          break;
       }
     }
-  };
-}
+  )
+  .help()
+  .alias("help", "h")
+  .argv;
 
 /** -----------------------------------------
  * Clean Packs
@@ -146,22 +140,23 @@ function validatePackEntry(data, filePath) {
  * Compile Packs
  * ----------------------------------------- */
 async function compilePacks(packName) {
-  logger.debug(`Iniciando compilação de pacotes. packName: ${packName}`);
-  if (!packName) {
-    logger.error("Nenhum nome de pacote foi fornecido. Use o comando corretamente.");
-    return;
-  }
+  logger.debug(`Iniciando compilação de pacotes. packName: ${packName || 'todos'}`);
 
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
 
-  logger.debug(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
+  if (folders.length === 0) {
+    logger.error(`Nenhum pacote encontrado${packName ? ` com o nome ${packName}` : ""}.`);
+    return;
+  }
+
+  logger.info(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     const src = path.join(PACK_SRC, folder.name);
     const dest = path.join(PACK_DEST, folder.name);
-    logger.info(`Compilando pacote: ${folder.name}, src: ${src}, dest: ${dest}`);
+    logger.info(`Compilando pacote: ${folder.name}`);
     try {
       await compilePack(src, dest, { recursive: true, log: true, transformEntry: cleanPackEntry, yaml: true });
     } catch (err) {
@@ -182,7 +177,7 @@ async function extractPacks(packName, entryName) {
     logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
 
     const packs = system.packs.filter(p => !packName || p.name === packName);
-    logger.debug(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
+    logger.info(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
 
     for (const packInfo of packs) {
       const dest = path.join(PACK_SRC, packInfo.name);
@@ -253,8 +248,4 @@ function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
 
 function cleanString(str) {
   return str.replace(/\u2060/gu, "").replace(/[‘’]/gu, "'").replace(/[“”]/gu, '"');
-}
-
-function slugify(name) {
-  return name.toLowerCase().replace("'", "").replace(/[^a-z0-9]+/gi, " ").trim().replace(/\s+|-{2,}/g, "-");
 }
