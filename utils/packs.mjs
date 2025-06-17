@@ -7,7 +7,7 @@ import { hideBin } from "yargs/helpers";
 import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
 import winston from "winston";
 
-// Logger
+// Configuração de Logs
 const logger = winston.createLogger({
   level: "debug",
   format: winston.format.combine(
@@ -23,14 +23,14 @@ const logger = winston.createLogger({
   ]
 });
 
-// Diretórios padrão
+// Diretórios
 const PACK_DEST = "packs";
 const PACK_SRC = "packs/_source";
 
-// CLI com yargs
+// CLI
 yargs(hideBin(process.argv))
   .command(
-    ["package <action> [pack] [entry]", "$0 <action> [pack] [entry]"],
+    ["package <action> [pack]", "$0 <action> [pack]"],
     "Gerenciar pacotes (pack/unpack/clean)",
     yargs => {
       yargs
@@ -42,30 +42,16 @@ yargs(hideBin(process.argv))
         .positional("pack", {
           describe: "Nome do pacote (opcional)",
           type: "string"
-        })
-        .positional("entry", {
-          describe: "Entrada específica (opcional para unpack/clean)",
-          type: "string"
         });
     },
     async argv => {
-      const { action, pack, entry } = argv;
+      const { action, pack } = argv;
       try {
-        switch (action) {
-          case "pack":
-            await compilePacks(pack);
-            break;
-          case "unpack":
-            await extractPacks(pack, entry);
-            break;
-          case "clean":
-            await cleanPacks(pack, entry);
-            break;
-          default:
-            logger.error(`❌ Ação inválida: ${action}`);
-        }
+        if (action === "pack") await compilePacks(pack);
+        if (action === "unpack") await extractPacks(pack);
+        if (action === "clean") await cleanPacks(pack);
       } catch (err) {
-        logger.error(`Erro geral na execução: ${err.message}`);
+        logger.error(`Erro geral: ${err.message}`);
       }
     }
   )
@@ -80,6 +66,7 @@ yargs(hideBin(process.argv))
 
 async function compilePacks(packName) {
   logger.info(`🚀 Iniciando compilação. Pacote: ${packName ?? "Todos"}`);
+
   const folders = getValidFolders(PACK_SRC, packName);
 
   if (folders.length === 0) {
@@ -89,11 +76,26 @@ async function compilePacks(packName) {
 
   for (const folder of folders) {
     const src = path.join(PACK_SRC, folder.name);
-    const dest = path.join(PACK_DEST, folder.name);
+    const dest = path.join(PACK_DEST, folder.name + ".db");
 
-    if (!hasYamlFiles(src)) {
+    // Verifica arquivos YAML válidos
+    const files = fs.readdirSync(src).filter(f => f.endsWith(".yml"));
+    const invalidFiles = files.filter(file => !isValidYamlFile(path.join(src, file)));
+
+    if (files.length === 0) {
       logger.warn(`⚠️ Pasta '${folder.name}' está vazia. Ignorando...`);
       continue;
+    }
+
+    if (invalidFiles.length > 0) {
+      logger.error(`❌ Pasta '${folder.name}' possui arquivos inválidos. Ignorando...`);
+      continue;
+    }
+
+    // Deletar DB antigo
+    if (fs.existsSync(dest)) {
+      fs.rmSync(dest, { force: true });
+      logger.info(`🗑️ DB antigo '${folder.name}.db' removido.`);
     }
 
     try {
@@ -111,9 +113,8 @@ async function compilePacks(packName) {
   }
 }
 
-async function extractPacks(packName, entryName) {
+async function extractPacks(packName) {
   logger.info(`🔍 Iniciando extração. Pacote: ${packName ?? "Todos"}`);
-  entryName = entryName?.toLowerCase();
 
   try {
     const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
@@ -131,7 +132,6 @@ async function extractPacks(packName, entryName) {
         await extractPack(packInfo.path, dest, {
           log: true,
           transformEntry: entry => {
-            if (entryName && (entryName !== entry.name.toLowerCase())) return false;
             cleanPackEntry(entry);
             return true;
           },
@@ -147,7 +147,7 @@ async function extractPacks(packName, entryName) {
   }
 }
 
-async function cleanPacks(packName, entryName) {
+async function cleanPacks(packName) {
   logger.info(`🧹 Iniciando limpeza. Pacote: ${packName ?? "Todos"}`);
   const folders = getValidFolders(PACK_SRC, packName);
 
@@ -192,12 +192,22 @@ function getValidFolders(basePath, packName) {
   );
 }
 
-function hasYamlFiles(dir) {
+function isValidYamlFile(filePath) {
   try {
-    const files = fs.readdirSync(dir);
-    return files.some(file => file.endsWith(".yml"));
+    const content = fs.readFileSync(filePath, "utf8");
+    const data = YAML.load(content);
+    const requiredFields = ["_id", "_key", "name", "type"];
+
+    const valid = requiredFields.every(field => field in data);
+
+    if (!valid) {
+      logger.error(`❌ Arquivo inválido: ${filePath}. Faltando campos obrigatórios.`);
+      return false;
+    }
+
+    return true;
   } catch (err) {
-    logger.error(`Erro ao acessar '${dir}': ${err.message}`);
+    logger.error(`❌ Erro ao ler ${filePath}: ${err.message}`);
     return false;
   }
 }
@@ -212,20 +222,28 @@ function validatePackEntry(data, filePath) {
   return true;
 }
 
+function generateUserId() {
+  return [...Array(16)].map(() => Math.random().toString(36)[2] || '0').join('').toUpperCase();
+}
+
 function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
   if (data.ownership) data.ownership = { default: ownership };
+
+  if (!data._stats) data._stats = {};
+  data._stats.lastModifiedBy = generateUserId();
+
   if (clearSourceId) {
-    delete data._stats?.compendiumSource;
+    delete data._stats.compendiumSource;
     delete data.flags?.core?.sourceId;
   }
+
   delete data.flags?.importSource;
   delete data.flags?.exportSource;
-  if (data._stats?.lastModifiedBy) data._stats.lastModifiedBy = "degringo5ebuilder0000";
 
   if (data.flags) {
-    Object.entries(data.flags).forEach(([key, value]) => {
+    for (const [key, value] of Object.entries(data.flags)) {
       if (Object.keys(value).length === 0) delete data.flags[key];
-    });
+    }
   }
 
   if (data.system?.activation?.cost === 0) data.system.activation.cost = null;
