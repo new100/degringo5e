@@ -608,8 +608,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and uses [[/item .mmConstrict00000]].</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and uses [[/item
+          .mmConstrict00000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -933,17 +933,13 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC
-          [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup
-          @target.affects.special activity=IgOMjRxAt7UISkJq]] [[lookup
-          @target.affects.type activity=IgOMjRxAt7UISkJq]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=IgOMjRxAt7UISkJq]] [[lookup @range.units
-          activity=IgOMjRxAt7UISkJq]].</p><p><em>Failure:</em> [[/damage
-          average]] damage. The target has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and
-          it has the &amp;Reference[Restrained apply=false] condition until the
-          grapple ends.</p>
+          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC [[lookup @save.dc.value
+          activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] [[lookup
+          @target.affects.type activity=IgOMjRxAt7UISkJq]] the [[lookup @name lowercase]] can see within [[lookup
+          @range.value activity=IgOMjRxAt7UISkJq]] [[lookup @range.units
+          activity=IgOMjRxAt7UISkJq]].</p><p><em>Failure:</em> [[/damage average]] damage. The target has the
+          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the
+          &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>
         chat: ''
       identifier: constrict
       source:
@@ -981,9 +977,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><strong>Escape Tests (see source item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p><strong>Escape Tests (see source item for DC)</strong></p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
@@ -1000,8 +995,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBehir000000000.mmConstrict00000.Hd0Gy3wJtPfObERq
+        _key: '!actors.items.effects!mmBehir000000000.mmConstrict00000.Hd0Gy3wJtPfObERq'
     flags:
       degringo5e:
         riders:
@@ -1202,28 +1196,20 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=YorssyWMumAsvzx3]], [[lookup
-          @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup
-          @name lowercase]] (the [[lookup @name lowercase]] can have only one
-          creature swallowed at a time).</p><p class="feature"><em>Failure:</em>
-          The [[lookup @name lowercase]] swallows the target, which is no longer
-          &amp;Reference[Grappled apply=false]. While swallowed, a creature has
-          the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
-          apply=false] conditions, has Total Cover against attacks and other
-          effects outside the [[lookup @name lowercase]], and takes [[/damage
-          average activity=zrWNjO9mkbN28spL]] damage at the start of each of the
-          [[lookup @name lowercase]]'s turns.</p><p class="feature">If the
-          [[lookup @name lowercase]] takes 30 damage or more on a single turn
-          from the swallowed creature, the [[lookup @name lowercase]] must
-          succeed on a [[/save format=long activity=rGeGukkm2t2fXsoy]] at the
-          end of that turn or regurgitate the creature, which falls in a space
-          within [[lookup @range.value activity=rGeGukkm2t2fXsoy]] [[lookup
-          @range.units activity=rGeGukkm2t2fXsoy]]. of the [[lookup @name
-          lowercase]] and has the &amp;Reference[Prone apply=false] condition.
-          If the [[lookup @name lowercase]] dies, a swallowed creature is no
-          longer Restrained and can escape from the corpse by using 15 feet of
-          movement, exiting Prone.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=YorssyWMumAsvzx3]],
+          [[lookup @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup @name lowercase]] (the [[lookup
+          @name lowercase]] can have only one creature swallowed at a time).</p><p class="feature"><em>Failure:</em> The
+          [[lookup @name lowercase]] swallows the target, which is no longer &amp;Reference[Grappled apply=false]. While
+          swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false]
+          conditions, has Total Cover against attacks and other effects outside the [[lookup @name lowercase]], and
+          takes [[/damage average activity=zrWNjO9mkbN28spL]] damage at the start of each of the [[lookup @name
+          lowercase]]'s turns.</p><p class="feature">If the [[lookup @name lowercase]] takes 30 damage or more on a
+          single turn from the swallowed creature, the [[lookup @name lowercase]] must succeed on a [[/save format=long
+          activity=rGeGukkm2t2fXsoy]] at the end of that turn or regurgitate the creature, which falls in a space within
+          [[lookup @range.value activity=rGeGukkm2t2fXsoy]] [[lookup @range.units activity=rGeGukkm2t2fXsoy]]. of the
+          [[lookup @name lowercase]] and has the &amp;Reference[Prone apply=false] condition. If the [[lookup @name
+          lowercase]] dies, a swallowed creature is no longer Restrained and can escape from the corpse by using 15 feet
+          of movement, exiting Prone.</p>
         chat: ''
       identifier: swallow
       source:
@@ -1260,9 +1246,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>While swallowed, a creature has the &amp;Reference[Blinded
-          apply=false] and &amp;Reference[Restrained apply=false] conditions,
-          has &amp;Reference[Total Cover apply=false] against attacks.</p>
+          <p>While swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
+          apply=false] conditions, has &amp;Reference[Total Cover apply=false] against attacks.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1289,8 +1274,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBehir000000000.mmSwallow0000000.VOHv1LyO3hHolZXo
+        _key: '!actors.items.effects!mmBehir000000000.mmSwallow0000000.VOHv1LyO3hHolZXo'
       - name: Prone
         img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
@@ -1307,9 +1291,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If you are regurgitated, you fall into a space within 10 ft. and
-          are &amp;Reference[Prone apply=false].</p>
+        description: <p>If you are regurgitated, you fall into a space within 10 ft. and are &amp;Reference[Prone apply=false].</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1335,8 +1317,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBehir000000000.mmSwallow0000000.aS5FyMP72vn3OKf1
+        _key: '!actors.items.effects!mmBehir000000000.mmSwallow0000000.aS5FyMP72vn3OKf1'
     flags:
       degringo5e:
         riders:
@@ -1441,14 +1422,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type
-          activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
-          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width
-          activity=LpjgVwftzGNMgTUJ]]-foot-wide [[lookup @target.template.type
-          capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup
+          @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
+          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide
+          [[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure: </em>[[/damage
+          average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: lightning-breath
       source:

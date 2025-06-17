@@ -491,9 +491,8 @@ items:
     system:
       description:
         value: >-
-          <p>If the efreeti dies, its body disintegrates in a flash of fire and
-          puff of smoke, leaving behind only equipment the djinni was wearing or
-          carrying.</p>
+          <p>If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only
+          equipment the djinni was wearing or carrying.</p>
         chat: ''
       source:
         custom: ''
@@ -540,22 +539,17 @@ items:
     system:
       description:
         value: >-
-          <p>The efreeti's innate spell casting ability is Charisma (spell save
-          DC 15, +7 to hit with spell attacks). It can innately cast the
-          following spells, requiring no material components:</p>
+          <p>The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It
+          can innately cast the following spells, requiring no material components:</p>
 
-          <p><strong>At will:</strong> [[/item .ghXTfe7sgCbgf1Q8]]{detect
-          magic}</p>
+          <p><strong>At will:</strong> [[/item .ghXTfe7sgCbgf1Q8]]{detect magic}</p>
 
-          <p><strong>3/day</strong>: [[/item
-          .WahI41a3goVUg0x1]]{enlarge/reduce}, [[/item
+          <p><strong>3/day</strong>: [[/item .WahI41a3goVUg0x1]]{enlarge/reduce}, [[/item
           .gopnZvS0c2jD5FP8]]{tongues}</p>
 
-          <p><strong>1/day each</strong>: conjure elemental (fire elemental
-          only), [[/item .2IWiZAJtOGDoKjiz]]{gaseous form}, [[/item
-          .1N8dDMMgZ1h1YJ3B]]{invisibility}, [[/item .nslx2nT3p4lNkmdp]]{major
-          image}, [[/item .J6Jpw5XzB5aTeqnz]]{plane shift}, [[/item
-          .X3DrXgxjwI2dvkD6]]{wall of fire}</p>
+          <p><strong>1/day each</strong>: conjure elemental (fire elemental only), [[/item .2IWiZAJtOGDoKjiz]]{gaseous
+          form}, [[/item .1N8dDMMgZ1h1YJ3B]]{invisibility}, [[/item .nslx2nT3p4lNkmdp]]{major image}, [[/item
+          .J6Jpw5XzB5aTeqnz]]{plane shift}, [[/item .X3DrXgxjwI2dvkD6]]{wall of fire}</p>
         chat: ''
       source:
         custom: ''
@@ -612,9 +606,7 @@ items:
         revision: 1
       activation:
         type: minute
-        condition: >-
-          an area of air, earth, fire, or water that fills a 10-foot cube within
-          range
+        condition: an area of air, earth, fire, or water that fills a 10-foot cube within range
         value: 1
       duration:
         value: '1'
@@ -722,8 +714,8 @@ items:
     system:
       description:
         value: >-
-          <p>The efreeti makes two [[/item .tR7JGJjIz6H1oerb]]{scimitar} attacks
-          or uses its [[/item .9D7vAr8iJbSa4g5N]]{Hurl Flame} twice.</p>
+          <p>The efreeti makes two [[/item .tR7JGJjIz6H1oerb]]{scimitar} attacks or uses its [[/item
+          .9D7vAr8iJbSa4g5N]]{Hurl Flame} twice.</p>
         chat: ''
       source:
         custom: ''
@@ -1173,13 +1165,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magic within 30 feet of
-          you. If you sense magic in this way, you can use your action to see a
-          faint aura around any visible creature or object in the area that
-          bears magic, and you learn its school of magic, if any.</p><p>The
-          spell can penetrate most barriers, but it is blocked by 1 foot of
-          stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood
-          or dirt.</p>
+          <p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way,
+          you can use your action to see a faint aura around any visible creature or object in the area that bears
+          magic, and you learn its school of magic, if any.</p><p>The spell can penetrate most barriers, but it is
+          blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
         chat: ''
       source:
         custom: ''
@@ -1290,30 +1279,21 @@ items:
     system:
       description:
         value: >-
-          <p>You cause a creature or an object you can see within range to grow
-          larger or smaller for the Duration. Choose either a creature or an
-          object that is neither worn nor carried. If the target is unwilling,
-          it can make a Constitution saving throw. On a success, the spell has
-          no effect.</p><p>If the target is a creature, everything it is wearing
-          and carrying changes size with it. Any item dropped by an affected
-          creature returns to normal size at
-          once.</p><p><strong>Enlarge</strong>. The target's size doubles in all
-          dimensions, and its weight is multiplied by eight. This growth
-          increases its size by one category—from Medium to Large, for example.
-          If there isn't enough room for the target to double its size, the
-          creature or object attains the maximum possible size in the space
-          available. Until the spell ends, the target also has advantage on
-          Strength Checks and Strength Saving Throws. The target's Weapons also
-          grow to match its new size. While these Weapons are enlarged, the
-          target's attacks with them deal 1d4 extra
-          damage.</p><p><strong>Reduce</strong>. The target's size is halved in
-          all dimensions, and its weight is reduced to one-eighth of normal.
-          This reduction decreases its size by one category—from Medium to
-          Small, for example. Until the spell ends, the target also has
-          disadvantage on Strength Checks and Strength Saving Throws. The
-          target's Weapons also shrink to match its new size. While these
-          Weapons are reduced, the target's attacks with them deal 1d4 less
-          damage (this can't reduce the damage below 1).</p>
+          <p>You cause a creature or an object you can see within range to grow larger or smaller for the Duration.
+          Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can
+          make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature,
+          everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns
+          to normal size at once.</p><p><strong>Enlarge</strong>. The target's size doubles in all dimensions, and its
+          weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for
+          example. If there isn't enough room for the target to double its size, the creature or object attains the
+          maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength
+          Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons
+          are enlarged, the target's attacks with them deal 1d4 extra damage.</p><p><strong>Reduce</strong>. The
+          target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction
+          decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also
+          has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its
+          new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't
+          reduce the damage below 1).</p>
         chat: ''
       source:
         custom: ''
@@ -1436,10 +1416,9 @@ items:
     system:
       description:
         value: >-
-          <p>This spell grants the creature you touch the ability to understand
-          any spoken language it hears. Moreover, when the target speaks, any
-          creature that knows at least one language and can hear the target
-          understands what it says.</p>
+          <p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover,
+          when the target speaks, any creature that knows at least one language and can hear the target understands what
+          it says.</p>
         chat: ''
       source:
         custom: ''
@@ -1556,21 +1535,15 @@ items:
     system:
       description:
         value: >-
-          <p>You transform a willing creature you touch, along with everything
-          it's wearing and carrying, into a misty cloud for the duration. The
-          spell ends if the creature drops to 0 hit points. An incorporeal
-          creature isn't affected.</p><p>While in this form, the target's only
-          method of movement is a flying speed of 10 feet. The target can enter
-          and occupy the space of another creature. The target has resistance to
-          nonmagical damage, and it has advantage on Strength, Dexterity, and
-          Constitution saving throws. The target can pass through small holes,
-          narrow openings, and even mere cracks, though it treats liquids as
-          though they were solid surfaces. The target can't fall and remains
-          hovering in the air even when stunned or otherwise
-          incapacitated.</p><p>While in the form of a misty cloud, the target
-          can't talk or manipulate objects, and any objects it was carrying or
-          holding can't be dropped, used, or otherwise interacted with. The
-          target can't attack or cast spells.</p>
+          <p>You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty
+          cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't
+          affected.</p><p>While in this form, the target's only method of movement is a flying speed of 10 feet. The
+          target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and
+          it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small
+          holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The
+          target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.</p><p>While in
+          the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or
+          holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.</p>
         chat: ''
       source:
         custom: ''
@@ -1689,12 +1662,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch becomes invisible until the spell ends.
-          Anything the target is wearing or carrying is invisible as long as it
-          is on the target's person. The spell ends for a target that attacks or
-          casts a spell.</p><p><strong>At Higher Levels.</strong> When you cast
-          this spell using a spell slot of 3rd level or higher, you can target
-          one additional creature for each slot level above 2nd.</p>
+          <p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is
+          invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a
+          spell.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or
+          higher, you can target one additional creature for each slot level above 2nd.</p>
         chat: ''
       source:
         custom: ''
@@ -1813,31 +1784,21 @@ items:
     system:
       description:
         value: >-
-          <p>You create the image of an object, a creature, or some other
-          visible phenomenon that is no larger than a 20-foot cube. The image
-          appears at a spot that you can see within range and lasts for the
-          duration. It seems completely real, including sounds, smells, and
-          temperature appropriate to the thing depicted. You can't create
-          sufficient heat or cold to cause damage, a sound loud enough to deal
-          thunder damage or deafen a creature, or a smell that might sicken a
-          creature (like a troglodyte's stench).</p><p>As long as you are within
-          range of the illusion, you can use your action to cause the image to
-          move to any other spot within range. As the image changes location,
-          you can alter its appearance so that its movements appear natural for
-          the image. For example, if you create an image of a creature and move
-          it, you can alter the image so that it appears to be walking.
-          Similarly, you can cause the illusion to make different sounds at
-          different times, even making it carry on a conversation, for
-          example.</p><p>Physical interaction with the image reveals it to be an
-          illusion, because things can pass through it. A creature that uses its
-          action to examine the image can determine that it is an illusion with
-          a successful Intelligence (Investigation) check against your spell
-          save DC. If a creature discerns the illusion for what it is, the
-          creature can see through the image, and its other sensory qualities
-          become faint to the creature.</p><p><strong>At Higher Levels.</strong>
-          When you cast this spell using a spell slot of 6th level or higher,
-          the spell lasts until dispelled, without requiring your
-          concentration.</p>
+          <p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a
+          20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems
+          completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create
+          sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a
+          smell that might sicken a creature (like a troglodyte's stench).</p><p>As long as you are within range of the
+          illusion, you can use your action to cause the image to move to any other spot within range. As the image
+          changes location, you can alter its appearance so that its movements appear natural for the image. For
+          example, if you create an image of a creature and move it, you can alter the image so that it appears to be
+          walking. Similarly, you can cause the illusion to make different sounds at different times, even making it
+          carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion,
+          because things can pass through it. A creature that uses its action to examine the image can determine that it
+          is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature
+          discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities
+          become faint to the creature.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell
+          slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.</p>
         chat: ''
       source:
         custom: ''
@@ -1957,25 +1918,18 @@ items:
     system:
       description:
         value: >-
-          <p>You and up to eight willing creatures who link hands in a circle
-          are transported to a different plane of existence. You can specify a
-          target destination in general terms, such as the City of Brass on the
-          Elemental Plane of Fire or the palace of Dispater on the second level
-          of the Nine Hells, and you appear in or near that destination. If you
-          are trying to reach the City of Brass, for example, you might arrive
-          in its Street of Steel, before its Gate of Ashes, or looking at the
-          city from across the Sea of Fire, at the DM's
-          discretion.</p><p>Alternatively, if you know the sigil sequence of a
-          teleportation circle on another plane of existence, this spell can
-          take you to that circle. If the teleportation circle is too small to
-          hold all the creatures you transported, they appear in the closest
-          unoccupied spaces next to the circle.</p><p>You can use this spell to
-          banish an unwilling creature to another plane. Choose a creature
-          within your reach and make a melee spell attack against it. On a hit,
-          the creature must make a Charisma saving throw. If the creature fails
-          this save, it is transported to a random location on the plane of
-          existence you specify. A creature so transported must find its own way
-          back to your current plane of existence.</p>
+          <p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of
+          existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental
+          Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that
+          destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of
+          Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's
+          discretion.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of
+          existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the
+          creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p><p>You can use
+          this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a
+          melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails
+          this save, it is transported to a random location on the plane of existence you specify. A creature so
+          transported must find its own way back to your current plane of existence.</p>
         chat: ''
       source:
         custom: ''
@@ -2010,9 +1964,7 @@ items:
       level: 7
       school: con
       materials:
-        value: >-
-          A forked, metal rod worth at least 250 gp, attuned to a particular
-          plane of existence
+        value: A forked, metal rod worth at least 250 gp, attuned to a particular plane of existence
         consumed: false
         cost: 250
         supply: 0
@@ -2153,20 +2105,15 @@ items:
     system:
       description:
         value: >-
-          <p>You create a wall of fire on a solid surface within range. You can
-          make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a
-          ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick.
-          The wall is opaque and lasts for the duration.</p><p>When the wall
-          appears, each creature within its area must make a Dexterity saving
-          throw. On a failed save, a creature takes 5d8 fire damage, or half as
-          much damage on a successful save.</p><p>One side of the wall, selected
-          by you when you cast this spell, deals 5d8 fire damage to each
-          creature that ends its turn within 10 feet of that side or inside the
-          wall. A creature takes the same damage when it enters the wall for the
-          first time on a turn or ends its turn there. The other side of the
-          wall deals no damage.</p><p><strong>At Higher Levels.</strong> When
-          you cast this spell using a spell slot of 5th level or higher, the
-          damage increases by 1d8 for each slot level above 4th.</p>
+          <p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20
+          feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The
+          wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must
+          make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a
+          successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage
+          to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same
+          damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall
+          deals no damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th
+          level or higher, the damage increases by 1d8 for each slot level above 4th.</p>
         chat: ''
       source:
         custom: ''

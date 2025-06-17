@@ -560,9 +560,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -666,9 +665,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: bite
       source:
@@ -744,9 +742,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -763,8 +759,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDireWolf000000.mmBite0000000000.06LlPZDddykVJ2XW
+        _key: '!actors.items.effects!mmDireWolf000000.mmBite0000000000.06LlPZDddykVJ2XW'
     flags:
       degringo5e:
         riders:

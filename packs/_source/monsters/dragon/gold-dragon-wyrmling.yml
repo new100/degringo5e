@@ -700,18 +700,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales fire
-          in a 90-foot cone. Each creature in that area must make a [[/save
-          activity=o8fOmWWIqCYwGu3C]] saving throw, taking [[/damage average
-          activity=o8fOmWWIqCYwGu3C]] damage on a failed save, or half as much
-          damage on a successful one.</p><p><strong>Weakening Breath.</strong>
-          The dragon exhales gas in a 90-foot cone. Each creature in that area
-          must succeed on a [[/save activity=J4QhEMZOdsyIy2D6]] saving throw or
-          have disadvantage on Strength-based attack rolls, Strength checks, and
-          Strength saving throws for 1 minute. A creature can repeat the saving
-          throw at the end of each of its turns, ending the effect on itself on
-          a success.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales
+          fire in a 90-foot cone. Each creature in that area must make a [[/save activity=o8fOmWWIqCYwGu3C]] saving
+          throw, taking [[/damage average activity=o8fOmWWIqCYwGu3C]] damage on a failed save, or half as much damage on
+          a successful one.</p><p><strong>Weakening Breath.</strong> The dragon exhales gas in a 90-foot cone. Each
+          creature in that area must succeed on a [[/save activity=J4QhEMZOdsyIy2D6]] saving throw or have disadvantage
+          on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can
+          repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''

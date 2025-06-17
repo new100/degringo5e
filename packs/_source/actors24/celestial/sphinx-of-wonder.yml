@@ -407,8 +407,7 @@ system:
     biography:
       value: >-
         <h1>Sphinxes</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Sphinx of
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Sphinx of
         Wonder</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.knvt7pCk5slbRRf0
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -571,9 +570,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -833,10 +830,9 @@ items:
         max: '2'
       description:
         value: >-
-          <p><em>Trigger:</em> The [[lookup @name]] or another creature within
-          [[lookup @range.value activity=AyYipNx3cFaXA0LU]] feet makes an
-          ability check or a saving throw. <em>Response:</em> The sphinx adds 2
-          to the roll.</p>
+          <p><em>Trigger:</em> The [[lookup @name]] or another creature within [[lookup @range.value
+          activity=AyYipNx3cFaXA0LU]] feet makes an ability check or a saving throw. <em>Response:</em> The sphinx adds
+          2 to the roll.</p>
         chat: ''
       identifier: burst-of-ingenuity
       source:

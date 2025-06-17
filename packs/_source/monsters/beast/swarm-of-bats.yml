@@ -500,10 +500,8 @@ items:
     system:
       description:
         value: >-
-          <p>Melee Weapon Attack: [[/attack]], 0 ft., one creature in the
-          swarm's space. Hit: [[/damage average]] damage, or [[/damage 1d4
-          piercing average]] damage if the swarm has half of its hit points or
-          fewer.</p>
+          <p>Melee Weapon Attack: [[/attack]], 0 ft., one creature in the swarm's space. Hit: [[/damage average]]
+          damage, or [[/damage 1d4 piercing average]] damage if the swarm has half of its hit points or fewer.</p>
         chat: <p>The Swarm of Bats attacks with a flurry of Bites.</p>
       source:
         custom: ''
@@ -674,10 +672,9 @@ items:
     system:
       description:
         value: >-
-          <p>The swarm can occupy another creature's space and vice versa, and
-          the swarm can move through any opening large enough for a Tiny bat.
-          The swarm can't regain<strong> hit points</strong> or gain
-          temporary<strong> hit points</strong>.</p>
+          <p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening
+          large enough for a Tiny bat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit
+          points</strong>.</p>
         chat: ''
       source:
         custom: ''
@@ -723,9 +720,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The swarm has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on hearing.</p>
+        value: <p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>
         chat: ''
       source:
         custom: ''

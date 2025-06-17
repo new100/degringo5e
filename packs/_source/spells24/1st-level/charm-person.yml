@@ -2,14 +2,11 @@ name: Charm Person
 system:
   description:
     value: >-
-      <p>One Humanoid you can see within range makes a Wisdom saving throw. It
-      does so with Advantage if you or your allies are fighting it. On a failed
-      save, the target has the &amp;Reference[charmed apply=false] condition
-      until the spell ends or until you or your allies damage it. The Charmed
-      creature is Friendly to you. When the spell ends, the target knows it was
-      Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
-      You can target one additional creature for each spell slot level above
-      1.</p>
+      <p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your
+      allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition until
+      the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell
+      ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+      target one additional creature for each spell slot level above 1.</p>
     chat: ''
   source:
     custom: ''
@@ -120,10 +117,9 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>the target has the &amp;Reference[charmed apply=false] condition until
-      the spell ends or until you or your allies damage it. The Charmed creature
-      is Friendly to you. When the spell ends, the target knows it was Charmed
-      by you.</p>
+      <p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your
+      allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by
+      you.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

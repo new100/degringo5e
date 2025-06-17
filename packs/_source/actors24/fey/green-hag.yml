@@ -914,21 +914,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While within 30 feet of at least two hag allies,
-          the [[lookup @name lowercase]] can cast one of the following spells,
-          requiring no Material components, using the spell's normal casting
-          time, and using Intelligence as the spellcasting ability (spell save
-          DC [[lookup @abilities.int.dc]]):
+          <p class="feature">While within 30 feet of at least two hag allies, the [[lookup @name lowercase]] can cast
+          one of the following spells, requiring no Material components, using the spell's normal casting time, and
+          using Intelligence as the spellcasting ability (spell save DC [[lookup @abilities.int.dc]]):
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAugury0000]{Augury}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find
-          Familiar}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find Familiar}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIdentify00]{Identify}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate
-          Object}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
-          or <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplUnseenServ]{Unseen
-          Servant}</em>. The [[lookup @name lowercase]] must finish a Long Rest
-          before using this trait to cast that spell again.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate Object}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplUnseenServ]{Unseen Servant}</em>. The [[lookup @name
+          lowercase]] must finish a Long Rest before using this trait to cast that spell again.</p>
         chat: ''
       identifier: coven-magic
       source:
@@ -972,18 +967,14 @@ items:
     system:
       description:
         value: >-
-          <p>You receive an omen from an otherworldly entity about the results
-          of a course of action that you plan to take within the next 30
-          minutes. The DM chooses the omen from the Omens
+          <p>You receive an omen from an otherworldly entity about the results of a course of action that you plan to
+          take within the next 30 minutes. The DM chooses the omen from the Omens
           table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be
-          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal
-          and woe</td><td>Good and
-          bad</td></tr><tr><td>Indifference</td><td>Neither good nor
-          bad</td></tr></tbody></table><p>The spell doesn't account for
-          circumstances, such as other spells, that might change the
-          results.</p><p>If you cast the spell more than once before finishing a
-          Long Rest, there is a cumulative 25 percent chance for each casting
-          after the first that you get no answer.</p>
+          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal and
+          woe</td><td>Good and bad</td></tr><tr><td>Indifference</td><td>Neither good nor
+          bad</td></tr></tbody></table><p>The spell doesn't account for circumstances, such as other spells, that might
+          change the results.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a
+          cumulative 25 percent chance for each casting after the first that you get no answer.</p>
         chat: ''
       source:
         custom: ''
@@ -1022,9 +1013,7 @@ items:
         - material
         - ritual
       materials:
-        value: >-
-          specially marked sticks, bones, cards, or other divinatory tokens
-          worth 25+ GP
+        value: specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP
         consumed: false
         cost: 0
         supply: 0
@@ -1079,8 +1068,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.8ju3sHk7cBC4KmcD
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.8ju3sHk7cBC4KmcD
         changes:
           - key: system.ability
             mode: 5
@@ -1116,8 +1104,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.3rCVpd7aieYnPHwB.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.3rCVpd7aieYnPHwB.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 5200000
     ownership:
@@ -1141,39 +1128,27 @@ items:
     system:
       description:
         value: >-
-          <p>You gain the service of a familiar, a spirit that takes an animal
-          form you choose: <strong>Bat</strong>, <strong>Cat</strong>,
-          <strong>Frog</strong>, <strong>Hawk</strong>, <strong>Lizard</strong>,
-          <strong>Octopus</strong>, <strong>Owl</strong>, <strong>Rat</strong>,
-          <strong>Raven</strong>, <strong>Spider</strong>,
-          <strong>Weasel</strong>, or another Beast that has a Challenge Rating
-          of 0. Appearing in an unoccupied space within range, the familiar has
-          the statistics of the chosen form (see appendix B), though it is a
-          Celestial, Fey, or Fiend (your choice) instead of a Beast. Your
-          familiar acts independently of you, but it obeys your
-          commands.</p><p><strong>Telepathic Connection.</strong> While your
-          familiar is within 100 feet of you, you can communicate with it
-          telepathically. Additionally, as a Bonus Action, you can see through
-          the familiar's eyes and hear what it hears until the start of your
-          next turn, gaining the benefits of any special senses it
-          has.</p><p>Finally, when you cast a spell with a range of touch, your
-          familiar can deliver the touch. Your familiar must be within 100 feet
-          of you, and it must take a Reaction to deliver the touch when you cast
-          the spell.</p><p><strong>Combat.</strong> The familiar is an ally to
-          you and your allies. It rolls its own Initiative and acts on its own
-          turn. A familiar can't attack, but it can take other actions as
-          normal.</p><p><strong>Disappearance of the Familiar.</strong> When the
-          familiar drops to 0 Hit Points, it disappears. It reappears after you
-          cast this spell again. As a Magic action, you can temporarily dismiss
-          the familiar to a pocket dimension. Alternatively, you can dismiss it
-          forever. As a Magic action while it is temporarily dismissed, you can
-          cause it to reappear in an unoccupied space within 30 feet of you.
-          Whenever the familiar drops to 0 Hit Points or disappears into the
-          pocket dimension, it leaves behind in its space anything it was
-          wearing or carrying.</p><p><strong>One Familiar Only.</strong> You
-          can't have more than one familiar at a time. If you cast this spell
-          while you have a familiar, you instead cause it to adopt a new
-          eligible form.</p>
+          <p>You gain the service of a familiar, a spirit that takes an animal form you choose: <strong>Bat</strong>,
+          <strong>Cat</strong>, <strong>Frog</strong>, <strong>Hawk</strong>, <strong>Lizard</strong>,
+          <strong>Octopus</strong>, <strong>Owl</strong>, <strong>Rat</strong>, <strong>Raven</strong>,
+          <strong>Spider</strong>, <strong>Weasel</strong>, or another Beast that has a Challenge Rating of 0. Appearing
+          in an unoccupied space within range, the familiar has the statistics of the chosen form (see appendix B),
+          though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of
+          you, but it obeys your commands.</p><p><strong>Telepathic Connection.</strong> While your familiar is within
+          100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see
+          through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of
+          any special senses it has.</p><p>Finally, when you cast a spell with a range of touch, your familiar can
+          deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the
+          touch when you cast the spell.</p><p><strong>Combat.</strong> The familiar is an ally to you and your allies.
+          It rolls its own Initiative and acts on its own turn. A familiar can't attack, but it can take other actions
+          as normal.</p><p><strong>Disappearance of the Familiar.</strong> When the familiar drops to 0 Hit Points, it
+          disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the
+          familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is
+          temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the
+          familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything
+          it was wearing or carrying.</p><p><strong>One Familiar Only.</strong> You can't have more than one familiar at
+          a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible
+          form.</p>
         chat: ''
       source:
         custom: ''
@@ -1295,8 +1270,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.tFMa0R3ASrW58hwK
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.tFMa0R3ASrW58hwK
         changes:
           - key: system.ability
             mode: 5
@@ -1332,8 +1306,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.ijY9hc5b4AQkz5ZS.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.ijY9hc5b4AQkz5ZS.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2900000
     ownership:
@@ -1357,14 +1330,11 @@ items:
     system:
       description:
         value: >-
-          <p>You touch an object throughout the spell's casting. If the object
-          is a magic item or some other magical object, you learn its properties
-          and how to use them, whether it requires Attunement, and how many
-          charges it has, if any. You learn whether any ongoing spells are
-          affecting the item and what they are. If the item was created by a
-          spell, you learn that spell's name.</p><p>If you instead touch a
-          creature throughout the casting, you learn which ongoing spells, if
-          any, are currently affecting it.</p>
+          <p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical
+          object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it
+          has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was
+          created by a spell, you learn that spell's name.</p><p>If you instead touch a creature throughout the casting,
+          you learn which ongoing spells, if any, are currently affecting it.</p>
         chat: ''
       source:
         custom: ''
@@ -1456,8 +1426,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.vT617J2KBufcrx7f
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.vT617J2KBufcrx7f
         changes:
           - key: system.ability
             mode: 5
@@ -1493,8 +1462,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.kUzXgVwiKDTtw9Mo.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.kUzXgVwiKDTtw9Mo.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1700000
     ownership:
@@ -1518,15 +1486,12 @@ items:
     system:
       description:
         value: >-
-          <p>Describe or name an object that is familiar to you. You sense the
-          direction to the object's location if that object is within 1,000 feet
-          of you. If the object is in motion, you know the direction of its
-          movement.</p><p>The spell can locate a specific object known to you if
-          you have seen it up close—within 30 feet—at least once. Alternatively,
-          the spell can locate the nearest object of a particular kind, such as
-          a certain kind of apparel, jewelry, furniture, tool, or
-          weapon.</p><p>This spell can't locate an object if any thickness of
-          lead blocks a direct path between you and the object.</p>
+          <p>Describe or name an object that is familiar to you. You sense the direction to the object's location if
+          that object is within 1,000 feet of you. If the object is in motion, you know the direction of its
+          movement.</p><p>The spell can locate a specific object known to you if you have seen it up close—within 30
+          feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a
+          certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any
+          thickness of lead blocks a direct path between you and the object.</p>
         chat: ''
       source:
         custom: ''
@@ -1622,8 +1587,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.N6ny9K2f4ckcSvXq
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.N6ny9K2f4ckcSvXq
         changes:
           - key: system.ability
             mode: 5
@@ -1659,8 +1623,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.amFlR7cm6e8cdMEg.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.amFlR7cm6e8cdMEg.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2200000
     ownership:
@@ -1687,30 +1650,21 @@ items:
     system:
       description:
         value: >-
-          <p>You can see and hear a creature you choose that is on the same
-          plane of existence as you. The target makes a Wisdom saving throw,
-          which is modified (see the tables below) by how well you know the
-          target and the sort of physical connection you have to it. The target
-          doesn't know what it is making the save against, only that it feels
-          uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is
-          …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand
-          (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the
-          target)</td><td>+0</td></tr><tr><td>Extensive (know the target
-          well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You
-          Have the Target's …</td><td>Save
-          Modifier</td></tr></thead><tbody><tr><td>Picture or other
-          likeness</td><td>−2</td></tr><tr><td>Garment or other
-          possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit
-          of nail</td><td>−10</td></tr></tbody></table><p>On a successful save,
-          the target isn't affected, and you can't use this spell on it again
-          for 24 hours.</p><p>On a failed save, the spell creates an Invisible,
-          intangible sensor within 10 feet of the target. You can see and hear
-          through the sensor as if you were there. The sensor moves with the
-          target, remaining within 10 feet of it for the duration. If something
-          can see the sensor, it appears as a luminous orb about the size of
-          your fist.</p><p>Instead of targeting a creature, you can target a
-          location you have seen. When you do so, the sensor appears at that
-          location and doesn't move.</p>
+          <p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes
+          a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort
+          of physical connection you have to it. The target doesn't know what it is making the save against, only that
+          it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the
+          target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the
+          target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or
+          other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of
+          nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't
+          use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible
+          sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor
+          moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it
+          appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a
+          location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>
         chat: ''
       source:
         custom: ''
@@ -1750,9 +1704,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 1,000+ GP, such as a crystal ball, mirror, or
-          water-filled font
+        value: a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font
         consumed: false
         cost: 0
         supply: 0
@@ -2230,8 +2182,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.1LYa3YdeNryXGv4z
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.1LYa3YdeNryXGv4z
         changes:
           - key: system.ability
             mode: 5
@@ -2267,8 +2218,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.LsZ3LIUekPUB0IAu.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.LsZ3LIUekPUB0IAu.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 400000
     ownership:
@@ -2292,20 +2242,15 @@ items:
     system:
       description:
         value: >-
-          <p>This spell creates an Invisible, mindless, shapeless, Medium force
-          that performs simple tasks at your command until the spell ends. The
-          servant springs into existence in an unoccupied space on the ground
-          within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it
-          can't attack. If it drops to 0 Hit Points, the spell ends.</p><p>Once
-          on each of your turns as a Bonus Action, you can mentally command the
-          servant to move up to 15 feet and interact with an object. The servant
-          can perform simple tasks that a human could do, such as fetching
-          things, cleaning, mending, folding clothes, lighting fires, serving
-          food, and pouring drinks. Once you give the command, the servant
-          performs the task to the best of its ability until it completes the
-          task, then waits for your next command.</p><p>If you command the
-          servant to perform a task that would move it more than 60 feet away
-          from you, the spell ends.</p>
+          <p>This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your
+          command until the spell ends. The servant springs into existence in an unoccupied space on the ground within
+          range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the
+          spell ends.</p><p>Once on each of your turns as a Bonus Action, you can mentally command the servant to move
+          up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as
+          fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once
+          you give the command, the servant performs the task to the best of its ability until it completes the task,
+          then waits for your next command.</p><p>If you command the servant to perform a task that would move it more
+          than 60 feet away from you, the spell ends.</p>
         chat: ''
       source:
         custom: ''
@@ -2422,8 +2367,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.IsLR26jWhhHrcdgh
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmCovenMagic0000.Activity.IsLR26jWhhHrcdgh
         changes:
           - key: system.ability
             mode: 5
@@ -2459,8 +2403,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.NpwyLKMMy9agOfxL.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.NpwyLKMMy9agOfxL.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 106250
     ownership:
@@ -2541,9 +2484,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can mimic animal
-          sounds and humanoid voices. A creature that hears the sounds can tell
-          they are imitations only with a successful [[/check format=long]].</p>
+          <p class="feature">The [[lookup @name lowercase]] can mimic animal sounds and humanoid voices. A creature that
+          hears the sounds can tell they are imitations only with a successful [[/check format=long]].</p>
         chat: ''
       identifier: mimicry
       source:
@@ -2642,9 +2584,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p> The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks.</p>
+        value: <p> The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -3080,21 +3020,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Wisdom as
-          the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +4 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDancingLig]{Dancing
-          Lights}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise
-          Self}</em> (24-hour duration),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
-          (self only, and the hag leaves no tracks while Invisible),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
-          Illusion}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray of
-          Sickness}</em> (level 3 version)</p>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +4 to
+          hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDancingLig]{Dancing Lights}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}</em> (24-hour duration),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> (self only, and the hag
+          leaves no tracks while Invisible), <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
+          Illusion}</em>, <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}</em> (level 3
+          version)</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -3137,14 +3071,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create up to four torch-size lights within range, making them
-          appear as torches, lanterns, or glowing orbs that hover for the
-          duration. Alternatively, you combine the four lights into one glowing
-          Medium form that is vaguely humanlike. Whichever form you choose, each
-          light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action,
-          you can move the lights up to 60 feet to a space within range. A light
-          must be within 20 feet of another light created by this spell, and a
-          light vanishes if it exceeds the spell's range.</p>
+          <p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing
+          orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that
+          is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a
+          Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of
+          another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>
         chat: ''
       source:
         custom: ''
@@ -3317,8 +3248,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.SmjbRqSgfdMvDEXe
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.SmjbRqSgfdMvDEXe
         changes:
           - key: system.properties
             mode: 2
@@ -3350,8 +3280,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.WHzIxRkgJHT6dAcb.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.WHzIxRkgJHT6dAcb.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1800000
     ownership:
@@ -3375,18 +3304,14 @@ items:
     system:
       description:
         value: >-
-          <p>You make yourself—including your clothing, armor, weapons, and
-          other belongings on your person—look different until the spell ends.
-          You can seem 1 foot shorter or taller and can appear heavier or
-          lighter. You must adopt a form that has the same basic arrangement of
-          limbs as you have. Otherwise, the extent of the illusion is up to
-          you.</p><p>The changes wrought by this spell fail to hold up to
-          physical inspection. For example, if you use this spell to add a hat
-          to your outfit, objects pass through the hat, and anyone who touches
-          it would feel nothing.</p><p>To discern that you are disguised, a
-          creature must take the Study action to inspect your appearance and
-          succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]]
-          check against your spell save DC.</p>
+          <p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look
+          different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You
+          must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the
+          illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For
+          example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who
+          touches it would feel nothing.</p><p>To discern that you are disguised, a creature must take the Study action
+          to inspect your appearance and succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check
+          against your spell save DC.</p>
         chat: ''
       source:
         custom: ''
@@ -3495,10 +3420,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">To discern that you
-          are disguised, a creature must take the Study action to inspect your
-          appearance and succeed on an [[/check ability=int skill=inv]] check
-          against your spell save DC.</span></p>
+          <p><span style="font-family:Signika, sans-serif">To discern that you are disguised, a creature must take the
+          Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your
+          spell save DC.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -3513,14 +3437,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.3SIvYE13BfHn7qvz.SrIb7dbaZs5F4zi9
+        _key: '!actors.items.effects!mmGreenHag000000.3SIvYE13BfHn7qvz.SrIb7dbaZs5F4zi9'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.lOqIlUmpbGB62aiJ
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.lOqIlUmpbGB62aiJ
         changes:
           - key: system.properties
             mode: 2
@@ -3552,8 +3474,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.3SIvYE13BfHn7qvz.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.3SIvYE13BfHn7qvz.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 3900000
     ownership:
@@ -3577,11 +3498,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -3690,9 +3610,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3708,14 +3626,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.P1WohR9zwkV78Jwb.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmGreenHag000000.P1WohR9zwkV78Jwb.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.IwyEZMg6lpOAkscT
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.IwyEZMg6lpOAkscT
         changes:
           - key: system.properties
             mode: 2
@@ -3747,8 +3663,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.P1WohR9zwkV78Jwb.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.P1WohR9zwkV78Jwb.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -3772,24 +3687,18 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. See the descriptions below for the effects of each.
-          The illusion ends if you cast this spell again.</p><p>If a creature
-          takes a Study action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful [[/check
-          ability=int skill=inv dc=@attributes.spell.dc]] check against your
-          spell save DC. If a creature discerns the illusion for what it is, the
-          illusion becomes faint to the creature.</p><p><strong>Sound.</strong>
-          If you create a sound, its volume can range from a whisper to a
-          scream. It can be your voice, someone else's voice, a lion's roar, a
-          beating of drums, or any other sound you choose. The sound continues
-          unabated throughout the duration, or you can make discrete sounds at
-          different times before the spell ends.</p><p><strong>Image.</strong>
-          If you create an image of an object—such as a chair, muddy footprints,
-          or a small chest—it must be no larger than a 5-foot Cube. The image
-          can't create sound, light, smell, or any other sensory effect.
-          Physical interaction with the image reveals it to be an illusion,
-          since things can pass through it.</p>
+          <p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions
+          below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a
+          Study action to examine the sound or image, the creature can determine that it is an illusion with a
+          successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a
+          creature discerns the illusion for what it is, the illusion becomes faint to the
+          creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a
+          scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you
+          choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different
+          times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, since things can pass through it.</p>
         chat: ''
       source:
         custom: ''
@@ -3916,8 +3825,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.HS7IMtG7X42Hrw91
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.HS7IMtG7X42Hrw91
         changes:
           - key: system.properties
             mode: 2
@@ -3949,8 +3857,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.lQDlH8pdy1WcUTMT.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.lQDlH8pdy1WcUTMT.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 600000
     ownership:
@@ -3974,12 +3881,10 @@ items:
     system:
       description:
         value: >-
-          <p>You shoot a greenish ray at a creature within range. Make a ranged
-          spell attack against the target. On a hit, the target takes 2d8 Poison
-          damage and has the &amp;Reference[poisoned] condition until the end of
-          your next turn.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The damage increases by 1d8 for each spell slot level
-          above 1.</p>
+          <p>You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a
+          hit, the target takes 2d8 Poison damage and has the &amp;Reference[poisoned] condition until the end of your
+          next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell
+          slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -4091,8 +3996,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.NDhxy35O9XezhDFg
+        origin: Compendium.degringo5e.actors24.Actor.mmGreenHag000000.Item.mmSpellcasting00.Activity.NDhxy35O9XezhDFg
         changes:
           - key: system.properties
             mode: 2
@@ -4124,8 +4028,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGreenHag000000.b6RHBNfOpyYoM3zy.dnd5espellchange
+        _key: '!actors.items.effects!mmGreenHag000000.b6RHBNfOpyYoM3zy.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 900000
     ownership:

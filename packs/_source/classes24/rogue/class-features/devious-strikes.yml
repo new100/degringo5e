@@ -6,30 +6,21 @@ img: icons/skills/melee/strike-sword-stabbed-brown.webp
 system:
   description:
     value: >-
-      <p>You've practiced new ways to use your Sneak Attack deviously. The
-      following effects are now among your Cunning Strike
-      options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed
-      on a Constitution saving throw, or on its next turn, it can do only one of
-      the following: move or take an action or a Bonus
-      Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must
-      succeed on a Constitution saving throw, or it has the
-      &amp;Reference[Unconscious] condition for 1 minute or until it takes any
-      damage. The Unconscious target repeats the save at the end of each of its
-      turns, ending the effect on itself on a success.</p><p><strong>Obscure
-      (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw,
-      or it has the &amp;Reference[Blinded] condition until the end of its next
-      turn.</p><section class="secret"
-      id="secret-1jUuw8B9GvVx5ctH"><p><strong>Foundry Note</strong></p><p>After
-      using Cunning Strike effects use the [[/item Cunning Strike
-      activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will
-      prompt you to select how many dice you expended on effects and deduct them
-      from your Sneak Attack roll automatically.</p><p>You can control the
-      damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong>
-      activity includes an Active Effect for tracking the dazed target but it
-      does not automate the effect.</p><p>The <strong>Knock Out</strong>
-      activity includes an Active Effect which applies the Unconscious
-      condition.</p><p>The <strong>Obscure</strong> activity includes an Active
-      Effect which applies the Blinded condition.</p></section>
+      <p>You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning
+      Strike options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed on a Constitution saving throw,
+      or on its next turn, it can do only one of the following: move or take an action or a Bonus
+      Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or
+      it has the &amp;Reference[Unconscious] condition for 1 minute or until it takes any damage. The Unconscious target
+      repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Obscure
+      (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the &amp;Reference[Blinded]
+      condition until the end of its next turn.</p><section class="secret"
+      id="secret-1jUuw8B9GvVx5ctH"><p><strong>Foundry Note</strong></p><p>After using Cunning Strike effects use the
+      [[/item Cunning Strike activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will prompt you to
+      select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You
+      can control the damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong> activity includes an
+      Active Effect for tracking the dazed target but it does not automate the effect.</p><p>The <strong>Knock
+      Out</strong> activity includes an Active Effect which applies the Unconscious condition.</p><p>The
+      <strong>Obscure</strong> activity includes an Active Effect which applies the Blinded condition.</p></section>
     chat: ''
   source:
     custom: ''
@@ -229,9 +220,7 @@ effects:
       turns: 1
       startRound: null
       startTurn: null
-    description: >-
-      <p>On its next turn, the target can do only one of the following: move or
-      take an action or a Bonus Action.</p>
+    description: '<p>On its next turn, the target can do only one of the following: move or take an action or a Bonus Action.</p>'
     tint: '#ffffff'
     statuses: []
     sort: 0
@@ -265,9 +254,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The target has the Unconscious condition for 1 minute or until it takes
-      any damage. The Unconscious target repeats the save at the end of each of
-      its turns, ending the effect on itself on a success.</p>
+      <p>The target has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target
+      repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
     tint: '#ffffff'
     statuses:
       - unconscious

@@ -6,14 +6,12 @@ img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 system:
   description:
     value: >-
-      <p>You can now use your Deflect Attacks feature against attacks that deal
-      any damage type, not just Bludgeoning, Piercing, or Slashing.</p><section
-      class="secret" id="secret-XAQmFmc4TpSF2Oh1"><p>The <strong>Reduce</strong>
-      activity can be used to heal yourself to reduce the total damage if it's
-      not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity
-      can be used to roll damage and consume a use of your Focus Points if you
-      can reduce it to 0. You can select the type of damage in the roll dialog.
-      The dice increase automatically as you level up.</p></section>
+      <p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning,
+      Piercing, or Slashing.</p><section class="secret" id="secret-XAQmFmc4TpSF2Oh1"><p>The <strong>Reduce</strong>
+      activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The
+      <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can
+      reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level
+      up.</p></section>
     chat: ''
   source:
     custom: ''
@@ -40,9 +38,7 @@ system:
         type: reaction
         value: null
         override: false
-        condition: >-
-          When an attack roll hits you and its damage includes Bludgeoning,
-          Piercing, or Slashing damage
+        condition: When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage
       consumption:
         scaling:
           allowed: false

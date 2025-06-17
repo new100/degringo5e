@@ -614,9 +614,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -709,11 +707,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of (A) [[/item Paralyzing
-          Breath]] or (B) [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceKnife00]{Ice
-          Knife}</em>.</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          (A) [[/item Paralyzing Breath]] or (B) [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceKnife00]{Ice Knife}</em>.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -994,12 +990,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=8P7hmd3Nron4RAIv]], each [[lookup @target.affects.type
-          activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
-          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], each [[lookup
+          @target.affects.type activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
+          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: cold-breath
       source:
@@ -1110,17 +1104,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup
-          @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup
-          @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p
-          class="feature"><em>First Failure:</em> The target has the
-          &amp;Reference[Incapacitated apply=false] condition until the end of
-          its next turn, when it repeats the save.</p><p
-          class="feature"><em>Second Failure:</em> The target has the
-          &amp;Reference[Paralyzed apply=false] condition, and it repeats the
-          save at the end of each of its turns, ending the effect on itself on a
-          success. After 1 minute, it succeeds automatically.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]],
+          each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size
+          activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class="feature"><em>First Failure:</em> The target has the
+          &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the
+          save.</p><p class="feature"><em>Second Failure:</em> The target has the &amp;Reference[Paralyzed apply=false]
+          condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success.
+          After 1 minute, it succeeds automatically.</p>
         chat: ''
       identifier: paralyzing-breath
       source:
@@ -1157,9 +1147,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the end of its next turn, when it repeats the
-          save.</p>
+          <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when
+          it repeats the save.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1185,8 +1174,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.mmParalyzingBrea.MML0hjuixzKZ61FT
+        _key: '!actors.items.effects!mmAdultSilverDra.mmParalyzingBrea.MML0hjuixzKZ61FT'
       - name: Paralyzed
         img: icons/magic/unholy/energy-smoke-pink.webp
         origin: Item.mmParalyzingBrea
@@ -1204,10 +1192,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Paralyzed apply=false] condition,
-          and it repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After 1 minute, it succeeds
-          automatically.</p>
+          <p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of
+          each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1233,8 +1219,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.mmParalyzingBrea.qHhQi1VSyVic0Z22
+        _key: '!actors.items.effects!mmAdultSilverDra.mmParalyzingBrea.qHhQi1VSyVic0Z22'
     flags:
       degringo5e:
         riders:
@@ -1544,26 +1529,17 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +11 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold
-          Monster}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceKnife00]{Ice
-          Knife}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em>
-          (Beast or Humanoid form only, no Temporary Hit Points gained from the
-          spell, and no Concentration or Temporary Hit Points required to
-          maintain the spell)</p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceStorm00]{Ice
-          Storm}</em> (level 5 version),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplZoneofTrut]{Zone of
-          Truth}</em></p>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +11
+          to hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceKnife00]{Ice Knife}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em> (Beast or Humanoid form
+          only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to
+          maintain the spell)</p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</em> (level 5 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplZoneofTrut]{Zone of Truth}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1606,13 +1582,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1732,8 +1706,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1742,14 +1715,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.xM689Lh3r7eqGpAY.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAdultSilverDra.xM689Lh3r7eqGpAY.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.CiyV6aE1iDTziw6G
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.CiyV6aE1iDTziw6G
         changes:
           - key: system.properties
             mode: 2
@@ -1781,8 +1752,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.xM689Lh3r7eqGpAY.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.xM689Lh3r7eqGpAY.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1809,12 +1779,10 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a creature that you can see within range. The target must
-          succeed on a Wisdom saving throw or have the Paralyzed condition for
-          the duration. At the end of each of its turns, the target repeats the
-          save, ending the spell on itself on a success.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional
-          creature for each spell slot level above 5.</p>
+          <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have
+          the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending
+          the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one
+          additional creature for each spell slot level above 5.</p>
         chat: ''
       source:
         custom: ''
@@ -1927,8 +1895,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the end of each of its turns, the target repeats the [[/save
-          ability=wis]] save, ending the spell on itself on a success.</p>
+          <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on
+          itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1944,14 +1912,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.FGKQ5cIUuEwLPYE3.vC7qgyy8cjgi3t0T
+        _key: '!actors.items.effects!mmAdultSilverDra.FGKQ5cIUuEwLPYE3.vC7qgyy8cjgi3t0T'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.JnW5QuL2QpiZdkZd
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.JnW5QuL2QpiZdkZd
         changes:
           - key: system.properties
             mode: 2
@@ -1983,8 +1949,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.FGKQ5cIUuEwLPYE3.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.FGKQ5cIUuEwLPYE3.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1600000
     ownership:
@@ -2008,13 +1973,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create a shard of ice and fling it at one creature within
-          range. Make a ranged spell attack against the target. On a hit, the
-          target takes 1d10 Piercing damage. Hit or miss, the shard then
-          explodes. The target and each creature within 5 feet of it must
-          succeed on a Dexterity saving throw or take 2d6 Cold
-          damage.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The
-          Cold damage increases by 1d6 for each spell slot level above 1.</p>
+          <p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the
+          target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and
+          each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold
+          damage.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The Cold damage increases by 1d6 for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -2193,8 +2156,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.Mm57tpsRQNJeqBEk
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.Mm57tpsRQNJeqBEk
         changes:
           - key: system.properties
             mode: 2
@@ -2226,8 +2188,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.hVcbJwtsvzfFPmZO.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.hVcbJwtsvzfFPmZO.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1800000
     ownership:
@@ -2254,21 +2215,15 @@ items:
     system:
       description:
         value: >-
-          <p>You shape-shift into another creature for the duration or until you
-          take a Magic action to shape-shift into a different eligible form. The
-          new form must be of a creature that has a Challenge Rating no higher
-          than your level or Challenge Rating. You must have seen the sort of
-          creature before, and it can't be a Construct or an Undead.</p><p>When
-          you shape-shift, you gain a number of Temporary Hit Points equal to
-          the Hit Points of the form. The spell ends early if you have no
-          Temporary Hit Points left.</p><p>Your game statistics are replaced by
-          the stat block of the chosen form, but you retain your creature type;
-          alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit
-          Points; Hit Point Dice; proficiencies; and ability to communicate. If
-          you have the Spellcasting feature, you retain it too.</p><p>Upon
-          shape-shifting, you determine whether your equipment drops to the
-          ground or changes in size and shape to fit the new form while you're
-          in it.</p>
+          <p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into
+          a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your
+          level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an
+          Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the
+          form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced
+          by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence,
+          Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you
+          have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your
+          equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>
         chat: ''
       source:
         custom: ''
@@ -2364,8 +2319,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.x0Bq3sGlabIhhkI9
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.x0Bq3sGlabIhhkI9
         changes:
           - key: system.properties
             mode: 2
@@ -2401,8 +2355,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.zLAU5o1agGKxqPYb.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.zLAU5o1agGKxqPYb.dnd5espellchange'
     folder: iG0Zia8jh6uK39TB
     sort: 100391
     ownership:
@@ -2426,15 +2379,11 @@ items:
     system:
       description:
         value: >-
-          <p>Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a
-          point within range. Each creature in the Cylinder makes a Dexterity
-          saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold
-          damage on a failed save or half as much damage on a successful
-          one.</p><p>Hailstones turn ground in the Cylinder into
-          &amp;Reference[DifficultTerrain] until the end of your next
-          turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          Bludgeoning damage increases by 1d10 for each spell slot level above
-          4.</p>
+          <p>Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in
+          the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a
+          failed save or half as much damage on a successful one.</p><p>Hailstones turn ground in the Cylinder into
+          &amp;Reference[DifficultTerrain] until the end of your next turn.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The Bludgeoning damage increases by 1d10 for each spell slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -2559,8 +2508,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.fb1EproTsdan1xxh
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.fb1EproTsdan1xxh
         changes:
           - key: system.properties
             mode: 2
@@ -2592,8 +2540,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.SivIEpMZpBnAAlI3.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.SivIEpMZpBnAAlI3.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 1400000
     ownership:
@@ -2617,15 +2564,12 @@ items:
     system:
       description:
         value: >-
-          <p>You create a magical zone that guards against deception in a
-          15-foot-radius Sphere centered on a point within range. Until the
-          spell ends, a creature that enters the spell's area for the first time
-          on a turn or starts its turn there makes a Charisma saving throw. On a
-          failed save, a creature can't speak a deliberate lie while in the
-          radius. You know whether a creature succeeds or fails on this
-          save.</p><p>An affected creature is aware of the spell and can avoid
-          answering questions to which it would normally respond with a lie.
-          Such a creature can be evasive yet must be truthful.</p>
+          <p>You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point
+          within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or
+          starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie
+          while in the radius. You know whether a creature succeeds or fails on this save.</p><p>An affected creature is
+          aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a
+          creature can be evasive yet must be truthful.</p>
         chat: ''
       source:
         custom: ''
@@ -2736,11 +2680,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>On a failed save, a creature can’t speak a deliberate lie while in
-          the radius. You know whether a creature succeeds or fails on this
-          save.</p><p>An affected creature is aware of the spell and can avoid
-          answering questions to which it would normally respond with a lie.
-          Such a creature can be evasive yet must be truthful.</p>
+          <p>On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature
+          succeeds or fails on this save.</p><p>An affected creature is aware of the spell and can avoid answering
+          questions to which it would normally respond with a lie. Such a creature can be evasive yet must be
+          truthful.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2755,14 +2698,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.Tgz7wo84W1pSb5UE.BgkyT4A5qyArRveO
+        _key: '!actors.items.effects!mmAdultSilverDra.Tgz7wo84W1pSb5UE.BgkyT4A5qyArRveO'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.IJQB1IY6tiKR3glw
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmSpellcasting00.Activity.IJQB1IY6tiKR3glw
         changes:
           - key: system.properties
             mode: 2
@@ -2794,8 +2735,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.Tgz7wo84W1pSb5UE.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.Tgz7wo84W1pSb5UE.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 103125
     ownership:
@@ -2875,9 +2815,8 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]</em>. The
-          dragon can't take this action again until the start of its next
-          turn.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]</em>. The dragon can't take this action again
+          until the start of its next turn.</p>
         chat: ''
       identifier: chill
       source:
@@ -2939,9 +2878,7 @@ items:
             spellSlot: true
             targets: []
           description:
-            chatFlavor: >-
-              On Success: The target is pushed up to 30 feet straight away from
-              the attacking creature
+            chatFlavor: 'On Success: The target is pushed up to 30 feet straight away from the attacking creature'
           duration:
             units: inst
             concentration: false
@@ -2996,16 +2933,12 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=pVs8BTVDNh54CZ0a]], each creature in a [[lookup
-          @target.template.size activity=pVs8BTVDNh54CZ0a]]-foot-long, [[lookup
-          @target.template.width activity=pVs8BTVDNh54CZ0a]]-foot-wide
-          Line.</p><p><em>Failure:</em> [[/damage average]] damage, and the
-          [[lookup @target.affects.special activity=pVs8BTVDNh54CZ0a]] from the
-          [[lookup @name lowercase]].</p><p><em>Success:</em> Half damage
-          only.</p><p><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=pVs8BTVDNh54CZ0a]], each creature in a
+          [[lookup @target.template.size activity=pVs8BTVDNh54CZ0a]]-foot-long, [[lookup @target.template.width
+          activity=pVs8BTVDNh54CZ0a]]-foot-wide Line.</p><p><em>Failure:</em> [[/damage average]] damage, and the
+          [[lookup @target.affects.special activity=pVs8BTVDNh54CZ0a]] from the [[lookup @name
+          lowercase]].</p><p><em>Success:</em> Half damage only.</p><p><em>Failure or Success:</em> The [[lookup @name
+          lowercase]] can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: cold-gale
       source:
@@ -3108,9 +3041,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:
@@ -3153,12 +3084,10 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a creature that you can see within range. The target must
-          succeed on a Wisdom saving throw or have the Paralyzed condition for
-          the duration. At the end of each of its turns, the target repeats the
-          save, ending the spell on itself on a success.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional
-          creature for each spell slot level above 5.</p>
+          <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have
+          the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending
+          the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one
+          additional creature for each spell slot level above 5.</p>
         chat: ''
       source:
         custom: ''
@@ -3271,8 +3200,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the end of each of its turns, the target repeats the [[/save
-          ability=wis]] save, ending the spell on itself on a success.</p>
+          <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on
+          itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3288,14 +3217,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.gjsupslJSKQGlNdY.vC7qgyy8cjgi3t0T
+        _key: '!actors.items.effects!mmAdultSilverDra.gjsupslJSKQGlNdY.vC7qgyy8cjgi3t0T'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmChill000000000.Activity.RfHNQIf2DtRCskYp
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultSilverDra.Item.mmChill000000000.Activity.RfHNQIf2DtRCskYp
         changes:
           - key: system.activation
             mode: 5
@@ -3327,8 +3254,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultSilverDra.gjsupslJSKQGlNdY.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultSilverDra.gjsupslJSKQGlNdY.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1600000
     ownership:

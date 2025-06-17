@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSpiritualW
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSpiritualW caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -485,12 +483,10 @@ items:
     system:
       description:
         value: >-
-          <p>As a Bonus Action on your later turns, you can move the force up to
-          20 feet and repeat the attack against a creature within 5 feet of it.
-          On a hit, the target takes Force damage equal to 1d8 plus your
-          spellcasting ability modifier.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong> The damage increases by 1d8 for every slot level
-          above 2.</p>
+          <p>As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a
+          creature within 5 feet of it. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting
+          ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for
+          every slot level above 2.</p>
         chat: ''
       source:
         custom: ''

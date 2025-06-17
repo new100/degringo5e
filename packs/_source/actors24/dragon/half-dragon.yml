@@ -562,14 +562,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] is related to a type
-          of dragon associated with one of the following damage types (DM's
-          choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects
-          other aspects of the stat block.</p><section class="secret"
-          id="secret-9qS4XvlccQjIsypM"><p><strong>Foundry
-          Note</strong></p><p>This feature provides an Active Effect to manage
-          <strong>Damage Resistances</strong> in the character sheet's Effects
-          tab. The resistances outlined will need to be manually
+          <p class="feature">The [[lookup @name lowercase]] is related to a type of dragon associated with one of the
+          following damage types (DM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other
+          aspects of the stat block.</p><section class="secret" id="secret-9qS4XvlccQjIsypM"><p><strong>Foundry
+          Note</strong></p><p>This feature provides an Active Effect to manage <strong>Damage Resistances</strong> in
+          the character sheet's Effects tab. The resistances outlined will need to be manually
           enabled/disabled.</p></section>
         chat: ''
       identifier: draconic-origin
@@ -629,8 +626,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.RM0B2jICsibgFm0E
+        _key: '!actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.RM0B2jICsibgFm0E'
       - name: Cold Resistance
         img: icons/magic/water/snowflake-ice-purple.webp
         origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
@@ -667,8 +663,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: uZOPfiqPvCCLReTj
-        _key: >-
-          !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.uZOPfiqPvCCLReTj
+        _key: '!actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.uZOPfiqPvCCLReTj'
       - name: Fire Resistance
         img: icons/magic/fire/flame-burning-earth-orange.webp
         origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
@@ -705,8 +700,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: br641pBi8PTZSTJf
-        _key: >-
-          !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.br641pBi8PTZSTJf
+        _key: '!actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.br641pBi8PTZSTJf'
       - name: Poison Resistance
         img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
         origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
@@ -746,8 +740,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: srrXvF207wssH68S
-        _key: >-
-          !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.srrXvF207wssH68S
+        _key: '!actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.srrXvF207wssH68S'
       - name: Lightning Resistance
         img: icons/magic/lightning/bolt-strike-blue-white.webp
         origin: Compendium.degringo5e.actors24.Actor.mmHalfdragon0000.Item.mmDraconicOrigin
@@ -787,8 +780,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: mkid1qBPo2Hf3hgD
-        _key: >-
-          !actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.mkid1qBPo2Hf3hgD
+        _key: '!actors.items.effects!mmHalfdragon0000.mmDraconicOrigin.mkid1qBPo2Hf3hgD'
     flags: {}
     _stats:
       compendiumSource: Compendium.dnd-monster-manual.features.Item.mmDraconicOrigin
@@ -853,9 +845,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1144,13 +1134,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=YfxQb5tcONgLb2nD]], each [[lookup
-          @target.affects.type activity=YfxQb5tcONgLb2nD]] in a [[lookup
-          @target.template.size activity=YfxQb5tcONgLb2nD]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage of the
-          type chosen for the Draconic Origin trait.</p><p
-          class="feature"><em>Success:</em> Half damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=YfxQb5tcONgLb2nD]],
+          each [[lookup @target.affects.type activity=YfxQb5tcONgLb2nD]] in a [[lookup @target.template.size
+          activity=YfxQb5tcONgLb2nD]]-foot Cone.</p><p class="feature"><em>Failure:</em> [[/damage average]] damage of
+          the type chosen for the Draconic Origin trait.</p><p class="feature"><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: dragons-breath
       source:
@@ -1251,9 +1238,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value
-          activity=C28C43DeD8iFtZMe]] feet by [[lookup @activation.condition
-          activity=C28C43DeD8iFtZMe]].</p>
+          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value activity=C28C43DeD8iFtZMe]] feet by
+          [[lookup @activation.condition activity=C28C43DeD8iFtZMe]].</p>
         chat: ''
       identifier: leap
       source:

@@ -548,9 +548,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The devil has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The devil has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -596,9 +594,7 @@ items:
     img: icons/magic/defensive/illusion-evasion-echo-purple.webp
     system:
       description:
-        value: >-
-          <p>The devil can't be frightened while it can see an allied creature
-          within 30 feet of it.</p>
+        value: <p>The devil can't be frightened while it can see an allied creature within 30 feet of it.</p>
         chat: ''
       source:
         custom: ''
@@ -645,16 +641,14 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or be &amp;Reference[poisoned] for
-          1 minute. While poisoned in this way, the target can't regain hit
-          points. The target can repeat the saving throw at the end of each of
-          its turns, ending the effect on itself on a success.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or be
+          &amp;Reference[poisoned] for 1 minute. While poisoned in this way, the target can't regain hit points. The
+          target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a
+          success.</p>
         chat: >-
-          <p>The Bearded Devil attacks with its Beard. The target must make a
-          <strong>Constitution</strong> saving throw. The target can repeat the
-          saving throw at the end of each of its turns, ending the effect on
-          itself on a success.</p>
+          <p>The Bearded Devil attacks with its Beard. The target must make a <strong>Constitution</strong> saving
+          throw. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on
+          a success.</p>
       source:
         custom: ''
         book: ''
@@ -882,20 +876,15 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature other than an undead or a construct, it must succeed on a
-          [[/save]] saving throw or lose 5 (1d10) hit points at the start of
-          each of its turns due to an infernal wound.</p><p>Each time the devil
-          hits the wounded target with this attack, the damage dealt by the
-          wound increases by 5 (1d10). Any creature can take an action to stanch
-          the wound with a successful DC 12 Wisdom (Medicine) check. The wound
-          also closes if the target receives magical healing.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature other than an undead or a
+          construct, it must succeed on a [[/save]] saving throw or lose 5 (1d10) hit points at the start of each of its
+          turns due to an infernal wound.</p><p>Each time the devil hits the wounded target with this attack, the damage
+          dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a
+          successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</p>
         chat: >-
-          <p>The Bearded Devil attacks with its Glaive. If the target is a
-          creature other than an undead or a construct, it must make a
-          <strong>Constitution</strong> saving throw. Any creature can take an
-          action to stanch the wound with a successful Wisdom (Medicine)
-          check.</p>
+          <p>The Bearded Devil attacks with its Glaive. If the target is a creature other than an undead or a construct,
+          it must make a <strong>Constitution</strong> saving throw. Any creature can take an action to stanch the wound
+          with a successful Wisdom (Medicine) check.</p>
       source:
         custom: ''
         book: ''
@@ -1123,8 +1112,7 @@ items:
     system:
       description:
         value: >-
-          <p>The devil makes two attacks: one with its [[/item
-          .ndwCjJFBLTujojCl]]{beard} and one with its [[/item
+          <p>The devil makes two attacks: one with its [[/item .ndwCjJFBLTujojCl]]{beard} and one with its [[/item
           .RgZ4lGrNf9AaIyrG]]{glaive}.</p>
         chat: ''
       source:

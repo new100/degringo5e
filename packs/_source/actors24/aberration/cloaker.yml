@@ -561,9 +561,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">While in Bright Light, the [[lookup @name
-          lowercase]] has Disadvantage on attack rolls.</p>
+        value: <p class="feature">While in Bright Light, the [[lookup @name lowercase]] has Disadvantage on attack rolls.</p>
         chat: ''
       identifier: light-sensitivity
       source:
@@ -648,9 +646,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item Attach]] attack
-          and two [[/item Tail]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes one [[/item Attach]] attack and two [[/item Tail]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -795,19 +791,15 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, the [[lookup @name lowercase]]
-          attaches to it. While the [[lookup @name lowercase]] is attached, the
-          target has the &amp;Reference[Blinded apply=false] condition, and the
-          [[lookup @name lowercase]] can't make Attach attacks against other
-          targets. In addition, the [[lookup @name lowercase]] halves the damage
-          it takes (round down), and the target takes the same amount of
-          damage.</p><p>The [[lookup @name lowercase]] can detach itself by
-          spending 5 feet of movement. The target or a creature within [[lookup
-          @range.value activity=6iLqAufAeEqDOlGs]] feet of it can take an action
-          to try to detach the [[lookup @name lowercase]], doing so by
-          succeeding on a DC [[lookup @check.dc.value
-          activity=6iLqAufAeEqDOlGs]] Strength (Athletics) check.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, the
+          [[lookup @name lowercase]] attaches to it. While the [[lookup @name lowercase]] is attached, the target has
+          the &amp;Reference[Blinded apply=false] condition, and the [[lookup @name lowercase]] can't make Attach
+          attacks against other targets. In addition, the [[lookup @name lowercase]] halves the damage it takes (round
+          down), and the target takes the same amount of damage.</p><p>The [[lookup @name lowercase]] can detach itself
+          by spending 5 feet of movement. The target or a creature within [[lookup @range.value
+          activity=6iLqAufAeEqDOlGs]] feet of it can take an action to try to detach the [[lookup @name lowercase]],
+          doing so by succeeding on a DC [[lookup @check.dc.value activity=6iLqAufAeEqDOlGs]] Strength (Athletics)
+          check.</p>
         chat: ''
       identifier: attach
       source:
@@ -888,9 +880,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>While attached, the target has the &amp;Reference[Blinded
-          apply=false] condition.</p>
+        description: <p>While attached, the target has the &amp;Reference[Blinded apply=false] condition.</p>
         tint: '#ffffff'
         statuses:
           - blinded
@@ -906,8 +896,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.mmAttach00000000.m1rBdxxAM8FGk5gI
+        _key: '!actors.items.effects!mmCloaker0000000.mmAttach00000000.m1rBdxxAM8FGk5gI'
     flags:
       degringo5e:
         riders:
@@ -1129,9 +1118,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMirrorImag]{Mirror
-          Image}</em> spell, requiring no spell components and using Wisdom as
-          the spellcasting ability. The spell ends early if the [[lookup @name
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMirrorImag]{Mirror Image}</em> spell, requiring no spell
+          components and using Wisdom as the spellcasting ability. The spell ends early if the [[lookup @name
           lowercase]] starts or ends its turn in Bright Light.</p>
         chat: ''
       identifier: phantasms
@@ -1175,19 +1163,14 @@ items:
     system:
       description:
         value: >-
-          <p>Three illusory duplicates of yourself appear in your space. Until
-          the spell ends, the duplicates move with you and mimic your actions,
-          shifting position so it's impossible to track which image is
-          real.</p><p>Each time a creature hits you with an attack roll during
-          the spell's duration, roll a [[/r
-          (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate
-          destroyed]]{d6 for each} of your remaining duplicates. If any of the
-          d6s rolls a 3 or higher, one of the duplicates is hit instead of you,
-          and the duplicate is destroyed. The duplicates otherwise ignore all
-          other damage and effects. The spell ends when all three duplicates are
-          destroyed.</p><p>A creature is unaffected by this spell if it has the
-          &amp;Reference[blinded apply=false] condition,
-          &amp;Reference[blindsight], or &amp;Reference[truesight].</p>
+          <p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with
+          you and mimic your actions, shifting position so it's impossible to track which image is real.</p><p>Each time
+          a creature hits you with an attack roll during the spell's duration, roll a [[/r
+          (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate destroyed]]{d6 for each} of your remaining
+          duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the
+          duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all
+          three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it has the
+          &amp;Reference[blinded apply=false] condition, &amp;Reference[blindsight], or &amp;Reference[truesight].</p>
         chat: ''
       source:
         custom: ''
@@ -1310,8 +1293,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.VUqQIaiZoIzxUdf1
+        _key: '!actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.VUqQIaiZoIzxUdf1'
       - name: Duplicate B
         origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
         duration:
@@ -1348,8 +1330,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.XcTQl9DhT9lC3bxI
+        _key: '!actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.XcTQl9DhT9lC3bxI'
       - name: Duplicate C
         origin: Compendium.degringo5e.spells24.Item.phbsplMirrorImag
         duration:
@@ -1386,14 +1367,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.uMsGEsbEZ2hckOKW
+        _key: '!actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.uMsGEsbEZ2hckOKW'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
+        origin: Compendium.degringo5e.actors24.Actor.mmCloaker0000000.Item.mmPhantasms00000.Activity.4GBMAwbnCOrMQ4Gf
         changes:
           - key: system.activation
             mode: 5
@@ -1441,8 +1420,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.dnd5espellchange
+        _key: '!actors.items.effects!mmCloaker0000000.jluXgJ7dG39ONk0R.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 5700000
     ownership:
@@ -1532,17 +1510,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Mng39fcFDc4I1AzY]], each [[lookup
-          @target.affects.type activity=Mng39fcFDc4I1AzY]] in a [[lookup
-          @target.template.size activity=Mng39fcFDc4I1AzY]]-[[lookup
-          @target.template.units activity=Mng39fcFDc4I1AzY]]. Emanation
-          originating from the [[lookup @name
-          lowercase]].</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Frightened apply=false] condition until the end of the
-          [[lookup @name lowercase]]'s next turn.</p><p><em>Success:</em> The
-          target is immune to this [[lookup @name lowercase]]'s Moan for the
-          next 24 hours.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Mng39fcFDc4I1AzY]], each
+          [[lookup @target.affects.type activity=Mng39fcFDc4I1AzY]] in a [[lookup @target.template.size
+          activity=Mng39fcFDc4I1AzY]]-[[lookup @target.template.units activity=Mng39fcFDc4I1AzY]]. Emanation originating
+          from the [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the &amp;Reference[Frightened
+          apply=false] condition until the end of the [[lookup @name lowercase]]'s next turn.</p><p><em>Success:</em>
+          The target is immune to this [[lookup @name lowercase]]'s Moan for the next 24 hours.</p>
         chat: ''
       identifier: moan
       source:
@@ -1579,8 +1552,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the end of the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition until the end of the attacking
+          creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1597,8 +1570,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloaker0000000.mmMoan0000000000.ozk8flGDR2kAITEI
+        _key: '!actors.items.effects!mmCloaker0000000.mmMoan0000000000.ozk8flGDR2kAITEI'
     flags:
       degringo5e:
         riders:

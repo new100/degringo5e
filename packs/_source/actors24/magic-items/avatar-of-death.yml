@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDmtSkull00000]{Skull
-        (Deck of Many Things)}</p>
+      value: <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDmtSkull00000]{Skull (Deck of Many Things)}</p>
       public: ''
     alignment: Neutral Evil
     ideal: ''
@@ -491,10 +489,8 @@ items:
     system:
       description:
         value: >-
-          <p>The avatar can move through other creatures and objects as if they
-          were &amp;Reference[DifficultTerrain]. It takes 5 (1d10) Force damage
-          if it ends its turn inside <span class="no-break">an
-          object.</span></p>
+          <p>The avatar can move through other creatures and objects as if they were &amp;Reference[DifficultTerrain].
+          It takes 5 (1d10) Force damage if it ends its turn inside <span class="no-break">an object.</span></p>
         chat: ''
       activities:
         NHizvKWvHz8sNorD:
@@ -602,10 +598,9 @@ items:
     system:
       description:
         value: >-
-          <p>The avatar makes a number of [[/item .dmgaoiReapingScy]]{Reaping
-          Scythe} attacks equal to half the summoner's Proficiency Bonus
-          (ro<span class="no-break">unded
-          up).</span></p><p>[[ceil(@prof/2)]]{Number of Attacks}</p>
+          <p>The avatar makes a number of [[/item .dmgaoiReapingScy]]{Reaping Scythe} attacks equal to half the
+          summoner's Proficiency Bonus (ro<span class="no-break">unded up).</span></p><p>[[ceil(@prof/2)]]{Number of
+          Attacks}</p>
         chat: ''
       activities:
         w5vHZx04p0uYaUWM:
@@ -704,9 +699,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> Automatic hit, reach 5 ft.
-          <em>Hit:</em> 7 ( <span class="no-break">1d8 + 3</span> ) Slashing
-          damage plus 4 (1d8) <span class="no-break">Necrotic</span> <span
+          <p><em>Melee Attack Roll:</em> Automatic hit, reach 5 ft. <em>Hit:</em> 7 ( <span class="no-break">1d8 +
+          3</span> ) Slashing damage plus 4 (1d8) <span class="no-break">Necrotic</span> <span
           class="no-break">damage.</span></p>
         chat: ''
       activities:

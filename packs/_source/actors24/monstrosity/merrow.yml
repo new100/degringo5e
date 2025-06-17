@@ -657,14 +657,11 @@ items:
         max: ''
       description:
         value: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">The
-          </span>[[lookup @name lowercase]]<span style="font-family:'Roboto
-          Condensed', sans-serif"> makes two attacks, using </span>[[/item
-          .mmBite0000000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif">, </span>[[/item .mmClaw0000000000]]<span
-          style="font-family:'Roboto Condensed', sans-serif">, or </span>[[/item
-          .mmHarpoon0000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif"> in any combination.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">The </span>[[lookup @name lowercase]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> makes two attacks, using </span>[[/item
+          .mmBite0000000000]]<span style="font-family:'Roboto Condensed', sans-serif">, </span>[[/item
+          .mmClaw0000000000]]<span style="font-family:'Roboto Condensed', sans-serif">, or </span>[[/item
+          .mmHarpoon0000000]]<span style="font-family:'Roboto Condensed', sans-serif"> in any combination.</span></p>
         chat: ''
       identifier: multiattack
       source:
@@ -770,11 +767,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]<span
-          style="font-family:'Roboto Condensed', sans-serif">, and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the end
-          of the </span>[[lookup @name lowercase]]'s<span
-          style="font-family:'Roboto Condensed', sans-serif"> next
+          <p>[[/attack extended]]. [[/damage average extended]]<span style="font-family:'Roboto Condensed',
+          sans-serif">, and the target has the &amp;Reference[Poisoned apply=false] condition until the end of the
+          </span>[[lookup @name lowercase]]'s<span style="font-family:'Roboto Condensed', sans-serif"> next
           turn.</span></p>
         chat: ''
       identifier: bite
@@ -857,8 +852,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the end of the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of the attacking creature's
+          next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -875,8 +870,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMerrow00000000.mmBite0000000000.AvXElHfuQ1EFMV9n
+        _key: '!actors.items.effects!mmMerrow00000000.mmBite0000000000.AvXElHfuQ1EFMV9n'
     flags:
       degringo5e:
         riders:
@@ -1095,9 +1089,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Large or smaller creature, the [[lookup @name
-          lowercase]] pulls the target up to 15 feet straight toward itself.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller
+          creature, the [[lookup @name lowercase]] pulls the target up to 15 feet straight toward itself.</p>
         chat: ''
       identifier: harpoon
       source:

@@ -489,9 +489,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a Large or smaller creature, it is grappled (escape DC 13). Until this
-          grapple ends, the ankheg can bite only the grappled creature and has
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a Large or smaller creature, it is
+          grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has
           advantage on attack rolls to do so.</p>
         chat: <p>The Ankheg attacks with its Bite.</p>
       source:
@@ -668,15 +667,13 @@ items:
     system:
       description:
         value: >-
-          <p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide,
-          provided that it has no creature grappled.</p><p>Each creature in that
-          line must make a  <strong>DC 13 Dexterity</strong> saving throw,
-          taking <strong>10 (3d6) <em>acid damage</em></strong> on a failed
-          save, or half as much damage on a successful one.</p>
+          <p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature
+          grappled.</p><p>Each creature in that line must make a  <strong>DC 13 Dexterity</strong> saving throw, taking
+          <strong>10 (3d6) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful
+          one.</p>
         chat: >-
-          <p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide.
-          Each creature in that line must make a <strong>Dexterity</strong>
-          saving throw.</p>
+          <p>The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide. Each creature in that line must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

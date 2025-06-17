@@ -489,15 +489,12 @@ items:
     system:
       description:
         value: >-
-          <p>If the elephant moves at least 20 ft. straight toward a creature
-          and then hits it with a gore attack on the same turn, that target must
-          succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone]. If the target is prone, the elephant can make
-          one stomp attack against it as a bonus action.</p>
+          <p>If the elephant moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the
+          same turn, that target must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone]. If the
+          target is prone, the elephant can make one stomp attack against it as a bonus action.</p>
         chat: >-
-          <p>If the elephant moves at least <strong>20 ft.</strong> straight
-          toward a creature and then hits it with a gore attack on the same
-          turn, that target must succeed on a Strength saving throw.</p>
+          <p>If the elephant moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a
+          gore attack on the same turn, that target must succeed on a Strength saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -768,9 +765,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone
-          creature. <em>Hit:</em><strong> </strong>[[/damage average]]
-          damage.</p>
+          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone creature. <em>Hit:</em><strong>
+          </strong>[[/damage average]] damage.</p>
         chat: <p>The Elephant attacks with its Stomp.</p>
       source:
         custom: ''

@@ -5,13 +5,11 @@ img: icons/creatures/magical/spirit-undead-masked-blue.webp
 system:
   description:
     value: >-
-      <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}
-      without expending a spell slot.</p><section class="secret"
-      id="secret-vIzXrLvsSDtyMciU"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Cast</strong> activity can be used in-place of Disguise Self and
-      includes an Active Effect for tracking when you are
-      disguised.</p></section>
+      <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self} without expending a spell
+      slot.</p><section class="secret" id="secret-vIzXrLvsSDtyMciU"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Cast</strong> activity can be used in-place of Disguise Self and includes an Active Effect for tracking
+      when you are disguised.</p></section>
     chat: ''
   source:
     custom: ''
@@ -102,17 +100,15 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p><span style="font-family:Signika, sans-serif">To discern that you are
-      disguised, a creature must take the Study action to inspect your
-      appearance and succeed on an [[/check ability=int skill=inv]] check
-      against your spell save DC.</span></p>
+      <p><span style="font-family:Signika, sans-serif">To discern that you are disguised, a creature must take the Study
+      action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save
+      DC.</span></p>
     tint: '#ffffff'
     transfer: false
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplDisguiseSe.ActiveEffect.SrIb7dbaZs5F4zi9
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDisguiseSe.ActiveEffect.SrIb7dbaZs5F4zi9
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

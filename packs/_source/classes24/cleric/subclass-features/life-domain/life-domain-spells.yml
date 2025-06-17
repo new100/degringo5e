@@ -5,11 +5,9 @@ img: icons/magic/life/cross-flared-green.webp
 system:
   description:
     value: >-
-      <p>Your connection to this divine domain ensures you always have certain
-      spells ready. When you reach a Cleric level specified in the Life Domain
-      Spells table, you thereafter always have the listed spells
-      prepared.</p><table><caption>Life Domain
-      Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared
+      <p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric
+      level specified in the Life Domain Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Life Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared
       Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplAid0000000]{Aid},
       @UUID[Compendium.degringo5e.spells24.Item.phbsplBless00000]{Bless},
       @UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds},<br
@@ -18,11 +16,10 @@ system:
       Healing Word},
       @UUID[Compendium.degringo5e.spells24.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplAuraofLife]{Aura
       of Life}, @UUID[Compendium.degringo5e.spells24.Item.phbsplDeathWard0]{Death
-      Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-      Restoration}, @UUID[Compendium.degringo5e.spells24.Item.phbsplMassCureWo]{Mass
-      Cure Wounds}</td></tr></tbody></table><section class="secret"
-      id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
-      spells are granted automatically as you advance.</p></section>
+      Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration},
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplMassCureWo]{Mass Cure Wounds}</td></tr></tbody></table><section
+      class="secret" id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These spells are granted
+      automatically as you advance.</p></section>
     chat: ''
   source:
     custom: ''

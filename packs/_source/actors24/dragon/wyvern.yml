@@ -597,9 +597,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and one [[/item .mmSting000000000]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and one [[/item
+          .mmSting000000000]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -847,9 +846,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the start
-          of the wyvern's next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false] condition until the start of the wyvern's next turn.</p>
         chat: ''
       identifier: sting
       source:
@@ -925,8 +923,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The &amp;Reference[Poisoned apply=false] condition until the start
-          of the attacking creature’s next turn.</p>
+          <p>The &amp;Reference[Poisoned apply=false] condition until the start of the attacking creature’s next
+          turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -943,8 +941,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWyvern00000000.mmSting000000000.AtsQ5CYNLm8hVlFG
+        _key: '!actors.items.effects!mmWyvern00000000.mmSting000000000.AtsQ5CYNLm8hVlFG'
     flags:
       degringo5e:
         riders:

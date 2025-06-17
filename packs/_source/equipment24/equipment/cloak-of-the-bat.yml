@@ -26,9 +26,7 @@ system:
         units: spec
         concentration: false
         override: false
-        special: >-
-          fail to grip the cloak’s edges while flying in this way, or if you are
-          no longer in Dim Light or Darkness
+        special: fail to grip the cloak’s edges while flying in this way, or if you are no longer in Dim Light or Darkness
       effects:
         - _id: LOByj7F1KjZdSUMi
       range:
@@ -117,19 +115,14 @@ system:
     max: '1'
   description:
     value: >-
-      <div><p><em>Wondrous Item, Rare (Requires
-      Attunement)</em></p></div><p>While wearing this cloak, you have Advantage
-      on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you
-      can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet.
-      If you ever fail to grip the cloak's edges while flying in this way, or if
-      you are no longer in &amp;Reference[DimLight] or &amp;Reference[Darkness],
-      you lose this Fly Speed.</p><p>While wearing the cloak in an area of Dim
-      Light or Darkness, you can cast
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPolymorph0]{Polymorph}</em>
-      on yourself, shape-shifting into a
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmBat00000000000]{Bat}</strong>.
-      While in that form, you retain your Intelligence, Wisdom, and Charisma
-      scores. The cloak can't be used this way again until the next dawn.</p>
+      <div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While wearing this cloak, you have
+      Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak
+      and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or
+      if you are no longer in &amp;Reference[DimLight] or &amp;Reference[Darkness], you lose this Fly Speed.</p><p>While
+      wearing the cloak in an area of Dim Light or Darkness, you can cast
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPolymorph0]{Polymorph}</em> on yourself, shape-shifting into a
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmBat00000000000]{Bat}</strong>. While in that form, you retain
+      your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.</p>
     chat: ''
   identifier: cloak-of-the-bat
   source:

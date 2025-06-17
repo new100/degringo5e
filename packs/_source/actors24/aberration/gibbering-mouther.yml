@@ -608,9 +608,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The ground in a [[lookup @target.template.size
-          activity=zVznqPXgYjETqpQz]]-foot Emanation originating from the
-          [[lookup @name]] is &amp;Reference[Difficult Terrain].</p>
+          <p>The ground in a [[lookup @target.template.size activity=zVznqPXgYjETqpQz]]-foot Emanation originating from
+          the [[lookup @name]] is &amp;Reference[Difficult Terrain].</p>
         chat: ''
       identifier: aberrant-ground
       source:
@@ -762,21 +761,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] babbles incoherently
-          while it doesn't have the Incapacitated condition.</p><p><em>Wisdom
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=PyGOI84k0PPYrru8]], any [[lookup @target.affects.type
-          activity=PyGOI84k0PPYrru8]] that starts its turn within [[lookup
-          @target.template.size activity=PyGOI84k0PPYrru8]] feet of the [[lookup
-          @name lowercase]] while it is babbling.</p><p><em>Failure:</em> The
-          target rolls [[/r 1d8]] to determine what it does during the current
-          turn:</p><p class="feature-trait"><strong>1–4.</strong> The target
-          does nothing.</p><p class="feature-trait"><strong>5–6.</strong> The
-          target takes no action or Bonus Action and uses all its movement to
-          move in a random direction.</p><p
-          class="feature-trait"><strong>7–8.</strong> The target makes a melee
-          attack against a randomly determined creature within its reach or does
-          nothing if it can't make such an attack.</p>
+          <p class="feature">The [[lookup @name lowercase]] babbles incoherently while it doesn't have the Incapacitated
+          condition.</p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=PyGOI84k0PPYrru8]], any
+          [[lookup @target.affects.type activity=PyGOI84k0PPYrru8]] that starts its turn within [[lookup
+          @target.template.size activity=PyGOI84k0PPYrru8]] feet of the [[lookup @name lowercase]] while it is
+          babbling.</p><p><em>Failure:</em> The target rolls [[/r 1d8]] to determine what it does during the current
+          turn:</p><p class="feature-trait"><strong>1–4.</strong> The target does nothing.</p><p
+          class="feature-trait"><strong>5–6.</strong> The target takes no action or Bonus Action and uses all its
+          movement to move in a random direction.</p><p class="feature-trait"><strong>7–8.</strong> The target makes a
+          melee attack against a randomly determined creature within its reach or does nothing if it can't make such an
+          attack.</p>
         chat: ''
       identifier: gibbering
       source:
@@ -872,11 +866,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition. The target dies if it is reduced to 0 Hit
-          Points by this attack. Its body is then absorbed into the [[lookup
-          @name]], leaving only equipment behind.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition. The target dies if it is reduced to 0 Hit Points by this
+          attack. Its body is then absorbed into the [[lookup @name]], leaving only equipment behind.</p>
         chat: ''
       identifier: bite
       source:
@@ -958,9 +950,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Prone] condition.</p>
+        description: <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone] condition.</p>
         tint: '#ffffff'
         statuses:
           - prone
@@ -976,8 +966,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGibberingMouth.mmBite0000000000.curEfZRyYfOUrImr
+        _key: '!actors.items.effects!mmGibberingMouth.mmBite0000000000.curEfZRyYfOUrImr'
     flags:
       degringo5e:
         riders:
@@ -1082,13 +1071,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=JfU8KFZkAJxWtrhk]], each creature in a [[lookup
-          @target.template.size activity=JfU8KFZkAJxWtrhk]]-foot-radius Sphere
-          centered on a point within [[lookup @range.value
-          activity=JfU8KFZkAJxWtrhk]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target has the &amp;Reference[Blinded
-          apply=false] condition until the end of the [[lookup @name
+          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=JfU8KFZkAJxWtrhk]], each creature in a
+          [[lookup @target.template.size activity=JfU8KFZkAJxWtrhk]]-foot-radius Sphere centered on a point within
+          [[lookup @range.value activity=JfU8KFZkAJxWtrhk]] feet.</p><p><em>Failure:</em> [[/damage average]] damage,
+          and the target has the &amp;Reference[Blinded apply=false] condition until the end of the [[lookup @name
           lowercase]]'s next turn.</p>
         chat: ''
       identifier: blinding-spittle
@@ -1126,17 +1112,14 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>the target has the &amp;Reference[Blinded apply=false] condition
-          until the end of the user’s next turn.</p>
+        description: <p>the target has the &amp;Reference[Blinded apply=false] condition until the end of the user’s next turn.</p>
         tint: '#ffffff'
         statuses:
           - blinded
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.dnd-monster-manual.features.Item.mmBlindingFlash0.ActiveEffect.ru1Dxgrjeu1wB0QP
+          compendiumSource: Compendium.dnd-monster-manual.features.Item.mmBlindingFlash0.ActiveEffect.ru1Dxgrjeu1wB0QP
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1145,8 +1128,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGibberingMouth.mmBlindingSpittl.ZsONDi9D0HnUuZKa
+        _key: '!actors.items.effects!mmGibberingMouth.mmBlindingSpittl.ZsONDi9D0HnUuZKa'
     flags:
       degringo5e:
         riders:

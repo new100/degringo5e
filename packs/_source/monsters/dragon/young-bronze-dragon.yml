@@ -864,8 +864,7 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon makes three attacks: one with its [[/item
-          .22lf3TLPObmD4s6h]]{bite} and two with its [[/item
+          <p>The dragon makes three attacks: one with its [[/item .22lf3TLPObmD4s6h]]{bite} and two with its [[/item
           .LGFPSpA0pvVpj3cF]]{claws}.</p>
         chat: ''
       source:
@@ -966,16 +965,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Lightning Breath.</strong> The dragon exhales
-          lightning in a 120-foot line that is 10 feet wide. Each creature in
-          that line must make a [[/save activity=w2CftR6CLr5PZ7zY]] saving
-          throw, taking [[/damage average activity=w2CftR6CLr5PZ7zY]] damage on
-          a failed save, or half as much damage on a successful
-          one.</p><p><strong>Repulsion Breath.</strong> The dragon exhales
-          repulsion energy in a 30-foot cone. Each creature in that area must
-          succeed on a [[/save activity=YElWYv6C5UfhAu48]] saving throw. On a
-          failed save, the creature is pushed 60 feet away from the dragon.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Lightning Breath.</strong> The dragon
+          exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a [[/save
+          activity=w2CftR6CLr5PZ7zY]] saving throw, taking [[/damage average activity=w2CftR6CLr5PZ7zY]] damage on a
+          failed save, or half as much damage on a successful one.</p><p><strong>Repulsion Breath.</strong> The dragon
+          exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a [[/save
+          activity=YElWYv6C5UfhAu48]] saving throw. On a failed save, the creature is pushed 60 feet away from the
+          dragon.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''

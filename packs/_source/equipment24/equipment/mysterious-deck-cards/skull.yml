@@ -2,18 +2,13 @@ name: Skull
 system:
   description:
     value: >-
-      <p>An
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.dmgAvatarofDeath]{Avatar of
-      Death}</strong> appears in an unoccupied space as close to you as
-      possible. The avatar targets only you with its attacks, appearing as a
-      ghostly skeleton clad in a tattered black robe and carrying a spectral
-      scythe. The avatar disappears when it drops to 0 Hit Points or you die. If
-      an ally of yours deals damage to the avatar, that ally summons another
-      <strong>Avatar of Death</strong> . The new avatar appears in an unoccupied
-      space as close to that ally as possible and targets only that ally with
-      its attacks. You and your allies can each summon only one avatar as a
-      consequence of this draw. A creature slain by an avatar can't be restored
-      to life.</p>
+      <p>An <strong>@UUID[Compendium.degringo5e.actors24.Actor.dmgAvatarofDeath]{Avatar of Death}</strong> appears in an
+      unoccupied space as close to you as possible. The avatar targets only you with its attacks, appearing as a ghostly
+      skeleton clad in a tattered black robe and carrying a spectral scythe. The avatar disappears when it drops to 0
+      Hit Points or you die. If an ally of yours deals damage to the avatar, that ally summons another <strong>Avatar of
+      Death</strong> . The new avatar appears in an unoccupied space as close to that ally as possible and targets only
+      that ally with its attacks. You and your allies can each summon only one avatar as a consequence of this draw. A
+      creature slain by an avatar can't be restored to life.</p>
     chat: ''
   price:
     value: 0

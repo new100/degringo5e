@@ -574,9 +574,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -626,9 +624,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body
-          dissolves into ichor, and it gains a new body instantly, reviving with
-          all its Hit Points somewhere in the Abyss.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body dissolves into ichor, and it gains a new
+          body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>
         chat: ''
       identifier: demonic-restoration
       source:
@@ -677,8 +674,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can take one
-          &amp;Reference[Reaction] on every turn of combat.</p>
+          <p class="feature">The [[lookup @name lowercase]] can take one &amp;Reference[Reaction] on every turn of
+          combat.</p>
         chat: ''
       identifier: reactive
       source:
@@ -774,8 +771,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes six [[/item
-          .mmPactBlade00000]] attacks and uses [[/item .mmConstrict00000]].</p>
+          <p>The [[lookup @name lowercase]] makes six [[/item .mmPactBlade00000]] attacks and uses [[/item
+          .mmConstrict00000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -889,9 +886,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: pact-blade
       source:
@@ -1102,15 +1097,12 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC
-          [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup
-          @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage. The target has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and
-          it has the &amp;Reference[Restrained apply=false] condition until the
-          grapple ends.</p>
+          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC [[lookup @save.dc.value
+          activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
+          [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]]
+          feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled
+          apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained
+          apply=false] condition until the grapple ends.</p>
         chat: ''
       identifier: constrict
       source:
@@ -1148,9 +1140,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><strong>Escape Tests (see source item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p><strong>Escape Tests (see source item for DC)</strong></p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
@@ -1167,8 +1158,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMarilith000000.mmConstrict00000.Hd0Gy3wJtPfObERq
+        _key: '!actors.items.effects!mmMarilith000000.mmConstrict00000.Hd0Gy3wJtPfObERq'
     flags:
       degringo5e:
         riders:
@@ -1259,9 +1249,8 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] teleports up to
-          [[lookup @range.value activity=dnoRMdFzhUUku26D]] feet to an
-          unoccupied space it can see.</p>
+          <p class="feature">The [[lookup @name lowercase]] teleports up to [[lookup @range.value
+          activity=dnoRMdFzhUUku26D]] feet to an unoccupied space it can see.</p>
         chat: ''
       identifier: teleport
       source:
@@ -1360,11 +1349,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup
-          @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em>
-          The [[lookup @name lowercase]] adds [[lookup @roll.formula
-          activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly
-          causing it to miss.</p>
+          <p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition
+          activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em> The [[lookup @name lowercase]] adds [[lookup @roll.formula
+          activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly causing it to miss.</p>
         chat: ''
       identifier: parry
       source:

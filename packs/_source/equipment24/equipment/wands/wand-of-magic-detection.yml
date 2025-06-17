@@ -63,10 +63,9 @@ system:
     max: '3'
   description:
     value: >-
-      <p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding
-      it, you can expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic} from
-      it. The wand regains 1d3 expended charges daily at dawn.</p>
+      <p><em>Wand, Uncommon</em></p><p>This wand has 3 charges. While holding it, you can expend 1 charge to cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic} from it. The wand regains 1d3 expended
+      charges daily at dawn.</p>
     chat: ''
   identifier: wand-of-magic-detection
   source:

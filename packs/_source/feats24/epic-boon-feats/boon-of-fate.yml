@@ -2,17 +2,13 @@ name: Boon of Fate
 system:
   description:
     value: >-
-      <p>You gain the following benefits.</p><p><strong>Ability Score
-      Increase.</strong> Increase one ability score of your choice by 1, to a
-      maximum of 30.</p><p><strong>Improve Fate.</strong> When you or another
-      creature within 60 feet of you succeeds on or fails a D20 Test, you can
-      roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll.
-      Once you use this benefit, you can't use it again until you roll
-      Initiative or finish a Short or Long Rest.</p><section
-      id="secret-zl5SPZXJtl1mEKOl" class="secret"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Improve Fate</strong> activity includes a
-      roll and automatically restores a use after a Short or Long Rest. It does
-      not automatically refresh after you roll Initiative though.</p></section>
+      <p>You gain the following benefits.</p><p><strong>Ability Score Increase.</strong> Increase one ability score of
+      your choice by 1, to a maximum of 30.</p><p><strong>Improve Fate.</strong> When you or another creature within 60
+      feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to
+      the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or
+      Long Rest.</p><section id="secret-zl5SPZXJtl1mEKOl" class="secret"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Improve Fate</strong> activity includes a roll and automatically restores a use after a Short or Long
+      Rest. It does not automatically refresh after you roll Initiative though.</p></section>
     chat: ''
   source:
     custom: ''
@@ -43,9 +39,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          When you or another creature within 60 feet of you succeeds or fails a
-          D20 Test
+        condition: When you or another creature within 60 feet of you succeeds or fails a D20 Test
       consumption:
         scaling:
           allowed: false

@@ -2,9 +2,8 @@ _id: dmgEfreetiBottle
 name: Efreeti Bottle
 img: icons/consumables/drinks/alcohol-spirits-bottle-green.webp
 description: >-
-  <p>The first time the
-  @UUID[Compendium.degringo5e.equipment24.Item.dmgEfreetiBottle]{bottle} is opened,
-  the DM rolls on the following table to determine what happens.</p>
+  <p>The first time the @UUID[Compendium.degringo5e.equipment24.Item.dmgEfreetiBottle]{bottle} is opened, the DM rolls
+  on the following table to determine what happens.</p>
 results:
   - type: text
     range:
@@ -25,9 +24,7 @@ results:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: >-
-      The efreeti attacks you. After fighting for 5 rounds, the efreeti
-      disappears, and the bottle loses its magic.
+    description: The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic.
     name: ''
     _key: '!tables.results!dmgEfreetiBottle.hIMFk3cFV5DvTi5P'
   - type: text
@@ -50,11 +47,10 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      The efreeti understands your languages and obeys your commands for 1 hour,
-      after which it returns to the bottle, and a new stopper contains it. The
-      stopper can’t be removed for 24 hours. The next two times the bottle is
-      opened, the same effect occurs. If the bottle is opened a fourth time, the
-      efreeti escapes and disappears, and the bottle loses its magic.
+      The efreeti understands your languages and obeys your commands for 1 hour, after which it returns to the bottle,
+      and a new stopper contains it. The stopper can’t be removed for 24 hours. The next two times the bottle is opened,
+      the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle
+      loses its magic.
     name: ''
     _key: '!tables.results!dmgEfreetiBottle.2Qz1VaCKqhOTnHY0'
   - type: text
@@ -78,9 +74,8 @@ results:
       exportSource: null
     description: >-
       The efreeti understands your languages and can cast
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> once
-      for you. It disappears when it grants the wish or after 1 hour, and the
-      bottle loses its magic.
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> once for you. It disappears when it
+      grants the wish or after 1 hour, and the bottle loses its magic.
     name: ''
     _key: '!tables.results!dmgEfreetiBottle.o1BN0d6UGKqzFWvU'
 replacement: true

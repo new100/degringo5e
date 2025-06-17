@@ -11,15 +11,11 @@ system:
     max: ''
   description:
     value: >-
-      <div><p><em>Wondrous Item, Uncommon (Requires
-      Attunement)</em></p></div><p>While wearing these bracers, you have
-      proficiency with the Longbow and Shortbow, and you gain a +2 bonus to
-      damage rolls made with such weapons.</p><section class="secret"
-      id="secret-l1W6lw8WR2ku4qP2"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Bonus Damage: Bows</strong> passive effect applies the damage
-      bonus to <em>all</em> ranged weapon damage rolls and should be disabled
-      before rolling damage for weapons other than a Longbow or
-      Shortbow.</p></section>
+      <div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While wearing these bracers, you have
+      proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such
+      weapons.</p><section class="secret" id="secret-l1W6lw8WR2ku4qP2"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Bonus Damage: Bows</strong> passive effect applies the damage bonus to <em>all</em> ranged weapon damage
+      rolls and should be disabled before rolling damage for weapons other than a Longbow or Shortbow.</p></section>
     chat: ''
   identifier: bracers-of-archery
   source:
@@ -121,9 +117,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>you gain a +2 bonus to damage rolls on ranged attacks made with a
-      Longbow or Shortbow</p>
+    description: <p>you gain a +2 bonus to damage rolls on ranged attacks made with a Longbow or Shortbow</p>
     origin: null
     tint: '#ffffff'
     transfer: true

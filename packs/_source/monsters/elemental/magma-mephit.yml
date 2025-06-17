@@ -492,9 +492,8 @@ items:
     system:
       description:
         value: >-
-          <p>The mephit can innately cast [[/item .2yHXEcrRbadZDr5M]]{heat
-          metal} (spell save DC 10), requiring no material components. Its
-          innate spellcasting ability is Charisma.</p>
+          <p>The mephit can innately cast [[/item .2yHXEcrRbadZDr5M]]{heat metal} (spell save DC 10), requiring no
+          material components. Its innate spellcasting ability is Charisma.</p>
         chat: ''
       source:
         custom: ''
@@ -541,14 +540,12 @@ items:
     system:
       description:
         value: >-
-          <p>When the mephit dies, it explodes in a burst of lava. Each creature
-          within 5 ft. of it must make a [[/save]] saving throw, taking
-          [[/damage average]] damage on a failed save, or half as much damage on
-          a successful one.</p>
+          <p>When the mephit dies, it explodes in a burst of lava. Each creature within 5 ft. of it must make a
+          [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a
+          successful one.</p>
         chat: >-
-          <p>When the mephit dies, it explodes in a burst of lava. Each creature
-          within 5 ft. of it must make a <strong>Dexterity</strong> saving
-          throw.</p>
+          <p>When the mephit dies, it explodes in a burst of lava. Each creature within 5 ft. of it must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -664,9 +661,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the mephit remains motionless, it is indistinguishable from
-          an ordinary mound of magma.</p>
+        value: <p>While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.</p>
         chat: ''
       source:
         custom: ''
@@ -892,13 +887,11 @@ items:
     system:
       description:
         value: >-
-          <p>The mephit exhales a 15-foot cone of fire. Each creature in that
-          area must make a [[/save]] saving throw, taking [[/damage average]]
-          damage on a failed save, or half as much damage on a successful
-          one.</p>
+          <p>The mephit exhales a 15-foot cone of fire. Each creature in that area must make a [[/save]] saving throw,
+          taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The mephit exhales a 15-foot cone of fire. Each creature in that
-          area must make a <strong>Dexterity</strong> saving throw.</p>
+          <p>The mephit exhales a 15-foot cone of fire. Each creature in that area must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1022,19 +1015,14 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a manufactured metal object, such as a metal weapon or a
-          suit of heavy or medium metal armor, that you can see within range.
-          You cause the object to glow red-hot. Any creature in physical contact
-          with the object takes 2d8 fire damage when you cast the spell. Until
-          the spell ends, you can use a bonus action on each of your subsequent
-          turns to cause this damage again.</p><p>If a creature is holding or
-          wearing the object and takes the damage from it, the creature must
-          succeed on a Constitution saving throw or drop the object if it can.
-          If it doesn't drop the object, it has disadvantage on attack rolls and
-          ability checks until the start of your next turn.</p><p><strong>Higher
-          Levels.</strong> When you cast this spell using a spell slot of 3rd
-          level or higher, the damage increases by 1d8 for each slot level above
-          2nd.</p>
+          <p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that
+          you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the
+          object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each
+          of your subsequent turns to cause this damage again.</p><p>If a creature is holding or wearing the object and
+          takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it
+          can. If it doesn't drop the object, it has disadvantage on attack rolls and ability checks until the start of
+          your next turn.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level
+          or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
         chat: ''
       source:
         custom: ''

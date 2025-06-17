@@ -573,9 +573,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>Whenever the [[lookup @name lowercase]] is subjected to
-          &amp;Reference[Acid] damage, it takes no damage and instead regains a
-          number of Hit Points equal to the Acid damage dealt.</p>
+          <p>Whenever the [[lookup @name lowercase]] is subjected to &amp;Reference[Acid] damage, it takes no damage and
+          instead regains a number of Hit Points equal to the Acid damage dealt.</p>
         chat: ''
       identifier: acid-absorption
       source:
@@ -672,14 +671,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>Whenever the [[lookup @name lowercase]] starts its turn
-          &amp;Reference[Bloodied], roll [[/r 1d6]]. On a 6, the [[lookup @name
-          lowercase]] goes berserk. On each of its turns while berserk, the
-          [[lookup @name lowercase]] attacks the nearest creature it can see. If
-          no creature is near enough to move to and attack, the [[lookup @name
-          lowercase]] attacks an object. Once the [[lookup @name lowercase]]
-          goes berserk, it remains so until it is destroyed or it is no longer
-          Bloodied.</p>
+          <p>Whenever the [[lookup @name lowercase]] starts its turn &amp;Reference[Bloodied], roll [[/r 1d6]]. On a 6,
+          the [[lookup @name lowercase]] goes berserk. On each of its turns while berserk, the [[lookup @name
+          lowercase]] attacks the nearest creature it can see. If no creature is near enough to move to and attack, the
+          [[lookup @name lowercase]] attacks an object. Once the [[lookup @name lowercase]] goes berserk, it remains so
+          until it is destroyed or it is no longer Bloodied.</p>
         chat: ''
       identifier: berserk
       source:
@@ -718,11 +714,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>On each of its turns while berserk, the creature attacks the
-          nearest creature it can see. If no creature is near enough to move to
-          and attack, the creature attacks an object. Once the creature goes
-          berserk, it remains so until it is destroyed or it is no longer
-          &amp;Reference[Bloodied apply=false].</p>
+          <p>On each of its turns while berserk, the creature attacks the nearest creature it can see. If no creature is
+          near enough to move to and attack, the creature attacks an object. Once the creature goes berserk, it remains
+          so until it is destroyed or it is no longer &amp;Reference[Bloodied apply=false].</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -737,8 +731,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmClayGolem00000.mmBerserk0000000.8SBNBxgUqwEyYJcK
+        _key: '!actors.items.effects!mmClayGolem00000.mmBerserk0000000.8SBNBxgUqwEyYJcK'
     flags:
       degringo5e:
         riders:
@@ -771,9 +764,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] can't
-          shape-shift.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] can't shape-shift.</p>
         chat: ''
       identifier: immutable-form
       source:
@@ -822,9 +813,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -910,8 +899,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item Slam]] attacks, or
-          it makes three Slam attacks if it used Hasten this turn.</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item Slam]] attacks, or it makes three Slam attacks if it used
+          Hasten this turn.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1026,9 +1015,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the
-          target's Hit Point maximum decreases by an amount equal to the Acid
-          damage taken.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target's Hit Point maximum decreases by an
+          amount equal to the Acid damage taken.</p>
         chat: ''
       identifier: slam
       source:
@@ -1178,8 +1166,8 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Dash] and &amp;Reference[Disengage] actions.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Dash] and &amp;Reference[Disengage]
+          actions.</p>
         chat: ''
       identifier: hasten
       source:

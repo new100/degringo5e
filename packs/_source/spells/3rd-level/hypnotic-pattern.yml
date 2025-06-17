@@ -38,9 +38,7 @@ system:
   level: 3
   school: ill
   materials:
-    value: >-
-      A glowing stick of incense or a crystal vial filled with phosphorescent
-      material.
+    value: A glowing stick of incense or a crystal vial filled with phosphorescent material.
     consumed: false
     cost: 0
     supply: 0
@@ -135,8 +133,8 @@ effects:
         value: '0'
         priority: null
     description: >-
-      <p>The creature is Charmed for the duration. While charmed by this spell,
-      the creature is Incapacitated and has a speed of 0.</p>
+      <p>The creature is Charmed for the duration. While charmed by this spell, the creature is Incapacitated and has a
+      speed of 0.</p>
     transfer: false
     statuses:
       - charmed

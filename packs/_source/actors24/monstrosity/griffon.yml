@@ -609,11 +609,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">The
-          </span>[[lookup @name lowercase]] <span style="font-family:'Roboto
-          Condensed', sans-serif">makes two</span> [[/item .mmRend0000000000]]
-          <span style="font-family:'Roboto Condensed',
-          sans-serif">attacks.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">The </span>[[lookup @name lowercase]] <span
+          style="font-family:'Roboto Condensed', sans-serif">makes two</span> [[/item .mmRend0000000000]] <span
+          style="font-family:'Roboto Condensed', sans-serif">attacks.</span></p>
         chat: ''
       identifier: multiattack
       source:
@@ -767,10 +765,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, it has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from
-          both of the [[lookup @name lowercase]]'s front claws.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has
+          the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from both of the
+          [[lookup @name lowercase]]'s front claws.</p>
         chat: ''
       identifier: rend
       source:
@@ -851,10 +848,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC) from both
-          of the attacking creature's front claws.</p>
+          <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC) from both of the attacking
+          creature's front claws.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -871,8 +867,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGriffon0000000.mmRend0000000000.FqB7QZZZTiN3trAC
+        _key: '!actors.items.effects!mmGriffon0000000.mmRend0000000000.FqB7QZZZTiN3trAC'
     flags:
       degringo5e:
         riders:

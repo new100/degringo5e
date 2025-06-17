@@ -13,9 +13,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          When you hit a Large or smaller creature with an attack roll and deal
-          damage to it
+        condition: When you hit a Large or smaller creature with an attack roll and deal damage to it
       consumption:
         scaling:
           allowed: false
@@ -66,9 +64,8 @@ system:
     max: '@prof'
   description:
     value: >-
-      <p>When you hit a Large or smaller creature with an attack roll and deal
-      damage to it, you can give that target the &amp;Reference[Prone]
-      condition.</p>
+      <p>When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target
+      the &amp;Reference[Prone] condition.</p>
     chat: ''
   source:
     revision: 1

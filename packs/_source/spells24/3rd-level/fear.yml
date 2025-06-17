@@ -2,14 +2,11 @@ name: Fear
 system:
   description:
     value: >-
-      <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw
-      or drop whatever it is holding and have the &amp;Reference[frightened
-      apply=false] condition for the duration.</p><p>A Frightened creature takes
-      the &amp;Reference[dash] action and moves away from you by the safest
-      route on each of its turns unless there is nowhere to move. If the
-      creature ends its turn in a space where it doesn't have line of sight to
-      you, the creature makes a Wisdom saving throw. On a successful save, the
-      spell ends on that creature.</p>
+      <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have
+      the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes the
+      &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is
+      nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature
+      makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>
     chat: ''
   source:
     custom: ''
@@ -118,12 +115,10 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>A &amp;Reference[frightened apply=false] creature takes the
-      &amp;Reference[dash] action and moves away from you by the safest route on
-      each of its turns unless there is nowhere to move. If the creature ends
-      its turn in a space where it doesn’t have line of sight to you, the
-      creature makes a [[/save ability=wis]] saving throw. On a successful save,
-      the spell ends on that creature.</p>
+      <p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from you
+      by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space
+      where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw. On a
+      successful save, the spell ends on that creature.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

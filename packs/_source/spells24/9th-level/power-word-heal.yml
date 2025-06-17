@@ -2,16 +2,12 @@ name: Power Word Heal
 system:
   description:
     value: >-
-      <p>A wave of healing energy washes over one creature you can see within
-      range. The target regains all its Hit Points. If the creature has the
-      &amp;Reference[Charmed], &amp;Reference[Frightened],
-      &amp;Reference[Paralyzed], &amp;Reference[Poisoned], or
-      &amp;Reference[Stunned] condition, the condition ends. If the creature has
-      the &amp;Reference[Prone] condition, it can use its Reaction to stand
-      up.</p><section id="secret-TZTRxIEOucKFdjFi" class="secret"><p>Foundry
-      Note</p><p>The <strong>Heal Fully</strong> activity is configured to heal
-      1,000 Hit Points such that any single creature can be healed
-      fully.</p></section>
+      <p>A wave of healing energy washes over one creature you can see within range. The target regains all its Hit
+      Points. If the creature has the &amp;Reference[Charmed], &amp;Reference[Frightened], &amp;Reference[Paralyzed],
+      &amp;Reference[Poisoned], or &amp;Reference[Stunned] condition, the condition ends. If the creature has the
+      &amp;Reference[Prone] condition, it can use its Reaction to stand up.</p><section id="secret-TZTRxIEOucKFdjFi"
+      class="secret"><p>Foundry Note</p><p>The <strong>Heal Fully</strong> activity is configured to heal 1,000 Hit
+      Points such that any single creature can be healed fully.</p></section>
     chat: ''
   source:
     custom: ''

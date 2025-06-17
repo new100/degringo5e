@@ -2,9 +2,8 @@ name: Rogue
 system:
   description:
     value: >-
-      <p> An NPC of the DM's choice becomes Hostile toward you. You don't know
-      the identity of this NPC until they or someone else reveals it. Nothing
-      less than a <em>Wish</em> spell or divine intervention can end the NPC's
+      <p> An NPC of the DM's choice becomes Hostile toward you. You don't know the identity of this NPC until they or
+      someone else reveals it. Nothing less than a <em>Wish</em> spell or divine intervention can end the NPC's
       hostility toward you.</p>
     chat: ''
   price:
@@ -129,9 +128,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtRogue00000]{Rogue}</em></p><p>An
-      NPC (unknown identity) is Hostile towards you.</p>
+      <p><em>Source: @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtRogue00000]{Rogue}</em></p><p>An NPC (unknown
+      identity) is Hostile towards you.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

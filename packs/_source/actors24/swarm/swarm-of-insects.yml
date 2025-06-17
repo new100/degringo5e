@@ -578,9 +578,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can climb difficult surfaces,
-          including along ceilings, without needing to make an ability
-          check.</p>
+          <p>The [[lookup @name lowercase]] can climb difficult surfaces, including along ceilings, without needing to
+          make an ability check.</p>
         chat: ''
       identifier: spider-climb
       source:
@@ -630,9 +629,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The swarm can occupy another creature's space and vice versa, and
-          the swarm can move through any opening large enough for a Tiny insect.
-          The swarm can't regain Hit Points or gain Temporary Hit Points.</p>
+          <p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening
+          large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points.</p>
         chat: ''
       identifier: swarm
       source:
@@ -796,9 +794,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], or [[/damage
-          average activity=3Yo83eZUNwX51AcE]] if [[lookup @activation.condition
-          activity=3Yo83eZUNwX51AcE]]</p>
+          <p>[[/attack extended]]. [[/damage average extended]], or [[/damage average activity=3Yo83eZUNwX51AcE]] if
+          [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>
         chat: ''
       identifier: bites
       source:

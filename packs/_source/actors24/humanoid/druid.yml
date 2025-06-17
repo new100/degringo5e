@@ -408,8 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded
-        Leather Armor}</p></div>
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}</p></div>
       public: ''
     alignment: Neutral
     ideal: ''
@@ -688,9 +687,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .mmVineStaff00000]] or [[/item .mmVerdantWisp000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .mmVineStaff00000]] or [[/item
+          .mmVerdantWisp000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -962,9 +960,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: verdant-wisp
       source:
@@ -1394,18 +1390,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, using Wisdom as the spellcasting ability (spell save
-          DC [[lookup @attributes.spell.dc]]):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with
-          Animals}</em></p><p class="feature-trait"><strong>2/Day Each:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, using Wisdom as the
+          spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
+          Will:</strong> <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}</em></p><p
+          class="feature-trait"><strong>2/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEntangle00]{Entangle}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThunderwav]{Thunderwave}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalMess]{Animal
-          Messenger}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalMess]{Animal Messenger}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLongstride]{Longstrider}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMoonbeam00]{Moonbeam}</em></p>
         chat: ''
@@ -1450,19 +1443,15 @@ items:
     system:
       description:
         value: >-
-          <p>Whispering to the spirits of nature, you create one of the
-          following effects within range.</p><p><strong>Weather Sensor.</strong>
-          You create a Tiny, harmless sensory effect that predicts what the
-          weather will be at your location for the next 24 hours. The effect
-          might manifest as a golden orb for clear skies, a cloud for rain,
-          falling snowflakes for snow, and so on. This effect persists for 1
-          round.</p><p><strong>Bloom.</strong> You instantly make a flower
-          blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory
-          Effect.</strong> You create a harmless sensory effect, such as falling
-          leaves, spectral dancing fairies, a gentle breeze, the sound of an
-          animal, or the faint odor of skunk. The effect must fit in a 5-foot
-          Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a
-          candle, a torch, or a campfire.</p>
+          <p>Whispering to the spirits of nature, you create one of the following effects within
+          range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what
+          the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for
+          clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1
+          round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud
+          bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves,
+          spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must
+          fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a
+          campfire.</p>
         chat: ''
       source:
         custom: ''
@@ -1562,8 +1551,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes: []
         system: {}
         disabled: false
@@ -1591,8 +1579,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.TJRGXmcjfvHAliH6.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.TJRGXmcjfvHAliH6.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1700000
     ownership:
@@ -1616,12 +1603,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you can comprehend and verbally communicate with
-          Beasts, and you can use any of the Influence action's skill options
-          with them.</p><p>Most Beasts have little to say about topics that
-          don't pertain to survival or companionship, but at minimum, a Beast
-          can give you information about nearby locations and monsters,
-          including whatever it has perceived within the past day.</p>
+          <p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the
+          Influence action's skill options with them.</p><p>Most Beasts have little to say about topics that don't
+          pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations
+          and monsters, including whatever it has perceived within the past day.</p>
         chat: ''
       source:
         custom: ''
@@ -1747,14 +1732,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.rnHaNNaeCidsdNoG.lHx55SIuimKR3ALR
+        _key: '!actors.items.effects!mmDruid000000000.rnHaNNaeCidsdNoG.lHx55SIuimKR3ALR'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.2HDHPkwefVWFOzlW
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.2HDHPkwefVWFOzlW
         changes: []
         system: {}
         disabled: false
@@ -1782,8 +1765,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.rnHaNNaeCidsdNoG.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.rnHaNNaeCidsdNoG.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 300000
     ownership:
@@ -1807,16 +1789,13 @@ items:
     system:
       description:
         value: >-
-          <p>Grasping plants sprout from the ground in a 20-foot square within
-          range. For the duration, these plants turn the ground in the area into
-          &amp;Reference[difficultterrain]. They disappear when the spell
-          ends.</p><p>Each creature (other than you) in the area when you cast
-          the spell must succeed on a Strength saving throw or have the
-          &amp;Reference[restrained apply=false] condition until the spell ends.
-          A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath dc=@attributes.spell.dc]] check against your
-          spell save DC. On a success, it frees itself from the grasping plants
-          and is no longer Restrained by them.</p>
+          <p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants
+          turn the ground in the area into &amp;Reference[difficultterrain]. They disappear when the spell
+          ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength
+          saving throw or have the &amp;Reference[restrained apply=false] condition until the spell ends. A Restrained
+          creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against
+          your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by
+          them.</p>
         chat: ''
       source:
         custom: ''
@@ -1928,10 +1907,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath]] check against your spell save DC. On a
-          success, it frees itself from the grasping plants and is no longer
-          Restrained by them.</p>
+          <p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your
+          spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1947,14 +1924,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.NtmJOdVVNW4jyd24.wn7K2m4XhXhItgPT
+        _key: '!actors.items.effects!mmDruid000000000.NtmJOdVVNW4jyd24.wn7K2m4XhXhItgPT'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.kRFj55nvsQK6tgYJ
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.kRFj55nvsQK6tgYJ
         changes: []
         system: {}
         disabled: false
@@ -1982,8 +1957,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.NtmJOdVVNW4jyd24.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.NtmJOdVVNW4jyd24.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 3400000
     ownership:
@@ -2007,15 +1981,12 @@ items:
     system:
       description:
         value: >-
-          <p>You unleash a wave of thunderous energy. Each creature in a 15-foot
-          Cube originating from you makes a Constitution saving throw. On a
-          failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet
-          away from you. On a successful save, a creature takes half as much
-          damage only.</p><p>In addition, unsecured objects that are entirely
-          within the Cube are pushed 10 feet away from you, and a thunderous
-          boom is audible within 300 feet.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong> The damage increases by 1d8 for each spell slot
-          level above 1.</p>
+          <p>You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a
+          Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away
+          from you. On a successful save, a creature takes half as much damage only.</p><p>In addition, unsecured
+          objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible
+          within 300 feet.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -2125,8 +2096,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.nkTQoVkqdDGCEbsC
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.nkTQoVkqdDGCEbsC
         changes: []
         system: {}
         disabled: false
@@ -2154,8 +2124,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.kdc53KLaLU9CW6dh.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.kdc53KLaLU9CW6dh.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 112500
     ownership:
@@ -2291,12 +2260,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The Beast travels for the duration toward the specified location,
-          covering about 25 miles per 24 hours or 50 miles if the Beast can
-          fly.</p><p>When the Beast arrives, it delivers your message to the
-          creature that you described, mimicking your communication. If the
-          Beast doesn’t reach its destination before the spell ends, the message
-          is lost, and the Beast returns to where you cast the spell.</p>
+          <p>The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or
+          50 miles if the Beast can fly.</p><p>When the Beast arrives, it delivers your message to the creature that you
+          described, mimicking your communication. If the Beast doesn’t reach its destination before the spell ends, the
+          message is lost, and the Beast returns to where you cast the spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2311,14 +2278,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.2wnXlRyaVnQFLOji.jubviBNu11G84UZd
+        _key: '!actors.items.effects!mmDruid000000000.2wnXlRyaVnQFLOji.jubviBNu11G84UZd'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.mknEHePWqzWQ3BAI
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.mknEHePWqzWQ3BAI
         changes: []
         system: {}
         disabled: false
@@ -2346,8 +2311,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.2wnXlRyaVnQFLOji.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.2wnXlRyaVnQFLOji.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 5500000
     ownership:
@@ -2371,10 +2335,9 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature. The target's Speed increases by 10 feet until
-          the spell ends.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> You can target one additional creature for each spell
-          slot level above 1.</p>
+          <p>You touch a creature. The target's Speed increases by 10 feet until the spell ends.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above
+          1.</p>
         chat: ''
       source:
         custom: ''
@@ -2503,14 +2466,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.TrVoUfhvvvEWG2fS.I746neZVrgJFkRco
+        _key: '!actors.items.effects!mmDruid000000000.TrVoUfhvvvEWG2fS.I746neZVrgJFkRco'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.k6VQ3W6iKHSqJlZg
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.k6VQ3W6iKHSqJlZg
         changes: []
         system: {}
         disabled: false
@@ -2538,8 +2499,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.TrVoUfhvvvEWG2fS.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.TrVoUfhvvvEWG2fS.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1300000
     ownership:
@@ -2563,20 +2523,15 @@ items:
     system:
       description:
         value: >-
-          <p>A silvery beam of pale light shines down in a 5-foot-radius,
-          40-foot-high Cylinder centered on a point within range. Until the
-          spell ends, Dim Light fills the Cylinder, and you can take a Magic
-          action on later turns to move the Cylinder up to 60 feet.</p><p>When
-          the Cylinder appears, each creature in it makes a Constitution saving
-          throw. On a failed save, a creature takes 2d10 Radiant damage, and if
-          the creature is shape-shifted (as a result of the <em>Polymorph</em>
-          spell, for example), it reverts to its true form and can't shape-shift
-          until it leaves the Cylinder. On a successful save, a creature takes
-          half as much damage only. A creature also makes this save when the
-          spell's area moves into its space and when it enters the spell's area
-          or ends its turn there. A creature makes this save only once per
-          turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The
-          damage increases by 1d10 for each spell slot level above 2.</p>
+          <p>A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point
+          within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later
+          turns to move the Cylinder up to 60 feet.</p><p>When the Cylinder appears, each creature in it makes a
+          Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is
+          shape-shifted (as a result of the <em>Polymorph</em> spell, for example), it reverts to its true form and
+          can't shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage
+          only. A creature also makes this save when the spell's area moves into its space and when it enters the
+          spell's area or ends its turn there. A creature makes this save only once per turn.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -2685,8 +2640,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.qhGxfRb2sww4YJKs
+        origin: Compendium.degringo5e.actors24.Actor.mmDruid000000000.Item.mmSpellcasting00.Activity.qhGxfRb2sww4YJKs
         changes: []
         system: {}
         disabled: false
@@ -2714,8 +2668,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDruid000000000.0KWA94HrnX1qAj50.dnd5espellchange
+        _key: '!actors.items.effects!mmDruid000000000.0KWA94HrnX1qAj50.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1600000
     ownership:

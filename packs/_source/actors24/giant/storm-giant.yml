@@ -661,9 +661,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .mmStormSword0000]] or [[/item .mmThunderbolt000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .mmStormSword0000]] or [[/item
+          .mmThunderbolt000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -777,9 +776,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: storm-sword
       source:
@@ -929,9 +926,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target has the &amp;Reference[Blinded apply=false] and
-          &amp;Reference[Deafened apply=false] conditions until the start of the
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target has the
+          &amp;Reference[Blinded apply=false] and &amp;Reference[Deafened apply=false] conditions until the start of the
           [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: thunderbolt
@@ -1013,9 +1009,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Blinded apply=false] and
-          &amp;Reference[Deafened apply=false] conditions until the start of the
-          attacking creature’s next turn.</p>
+          <p>The target has the &amp;Reference[Blinded apply=false] and &amp;Reference[Deafened apply=false] conditions
+          until the start of the attacking creature’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1033,8 +1028,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStormGiant0000.mmThunderbolt000.R2yhnEJ7lKT4VSvK
+        _key: '!actors.items.effects!mmStormGiant0000.mmThunderbolt000.R2yhnEJ7lKT4VSvK'
     flags:
       degringo5e:
         riders:
@@ -1140,15 +1134,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=YVri6iuieFUUiO1d]], each creature in a
-          [[lookup @target.template.size
-          activity=YVri6iuieFUUiO1d]]-foot-radius, [[lookup
-          @target.template.height activity=YVri6iuieFUUiO1d]]-feet-high Cylinder
-          originating from a point the [[lookup @name lowercase]] can see within
-          [[lookup @range.value activity=YVri6iuieFUUiO1d]] feet.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage.</p><p
-          class="feature"><em>Success:</em> Half damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=YVri6iuieFUUiO1d]],
+          each creature in a [[lookup @target.template.size activity=YVri6iuieFUUiO1d]]-foot-radius, [[lookup
+          @target.template.height activity=YVri6iuieFUUiO1d]]-feet-high Cylinder originating from a point the [[lookup
+          @name lowercase]] can see within [[lookup @range.value activity=YVri6iuieFUUiO1d]] feet.</p><p
+          class="feature"><em>Failure:</em> [[/damage average]] damage.</p><p class="feature"><em>Success:</em> Half
+          damage.</p>
         chat: ''
       identifier: lightning-storm
       source:
@@ -1341,17 +1332,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Wisdom as
-          the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p
+          class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light}</em></p><p
           class="feature-trait"><strong>1/Day:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control
-          Weather}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control Weather}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1394,13 +1381,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1520,8 +1505,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1530,14 +1514,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStormGiant0000.a7WqdxaUOqFULucH.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmStormGiant0000.a7WqdxaUOqFULucH.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1569,8 +1551,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStormGiant0000.a7WqdxaUOqFULucH.dnd5espellchange
+        _key: '!actors.items.effects!mmStormGiant0000.a7WqdxaUOqFULucH.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1597,12 +1578,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch one Large or smaller object that isn't being worn or
-          carried by someone else. Until the spell ends, the object sheds Bright
-          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
-          light can be colored as you like.</p><p>Covering the object with
-          something opaque blocks the light. The spell ends if you cast it
-          again.</p>
+          <p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell
+          ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can
+          be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if
+          you cast it again.</p>
         chat: ''
       source:
         custom: ''
@@ -1720,8 +1699,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.8OxWWy4xx5jb9MMq
+        origin: Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.8OxWWy4xx5jb9MMq
         changes:
           - key: system.properties
             mode: 2
@@ -1753,8 +1731,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStormGiant0000.FuybodXmPwcWpHYX.dnd5espellchange
+        _key: '!actors.items.effects!mmStormGiant0000.FuybodXmPwcWpHYX.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1100000
     ownership:
@@ -1778,19 +1755,15 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell, and it ends early
-          if you go indoors.</p><p>When you cast the spell, you change the
-          current weather conditions, which are determined by the DM. You can
-          change precipitation, temperature, and wind. It takes 1d4 × 10 minutes
-          for the new conditions to take effect. Once they do so, you can change
-          the conditions again. When the spell ends, the weather gradually
-          returns to normal.</p><p>When you change the weather conditions, find
-          a current condition on the following tables and change its stage by
-          one, up or down. When changing the wind, you can change its
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather
+          conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4
+          × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When
+          the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a
+          current condition on the following tables and change its stage by one, up or down. When changing the wind, you
+          can change its
           direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light
-          clouds</td></tr><tr><td>3</td><td>Overcast or ground
-          fog</td></tr><tr><td>4</td><td>Rain, hail, or
+          clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or
           snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or
           blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat
           wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate
@@ -1934,8 +1907,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.ru627ohqJBU8D3QG
+        origin: Compendium.degringo5e.actors24.Actor.mmStormGiant0000.Item.mmSpellcasting00.Activity.ru627ohqJBU8D3QG
         changes:
           - key: system.properties
             mode: 2
@@ -1967,8 +1939,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStormGiant0000.P1YPgugYe3pgj9DW.dnd5espellchange
+        _key: '!actors.items.effects!mmStormGiant0000.P1YPgugYe3pgj9DW.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 106250
     ownership:

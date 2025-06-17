@@ -408,8 +408,7 @@ system:
     biography:
       value: >-
         <h1>Warriors</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Warrior
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Warrior
         Infantry</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Tg6q9tEwUMz6alIf
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -733,9 +732,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics

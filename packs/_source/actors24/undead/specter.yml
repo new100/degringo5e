@@ -582,10 +582,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move through other creatures and
-          objects as if they were &amp;Reference[Difficult Terrain]. It takes
-          [[/damage 1d10 average type=force]] damage if it ends its turn inside
-          an object.</p>
+          <p>The [[lookup @name lowercase]] can move through other creatures and objects as if they were
+          &amp;Reference[Difficult Terrain]. It takes [[/damage 1d10 average type=force]] damage if it ends its turn
+          inside an object.</p>
         chat: ''
       identifier: incorporeal-movement
       source:
@@ -638,9 +637,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>While in sunlight, the [[lookup @name lowercase]] has Disadvantage
-          on ability checks and attack rolls.</p>
+        value: <p>While in sunlight, the [[lookup @name lowercase]] has Disadvantage on ability checks and attack rolls.</p>
         chat: ''
       identifier: sunlight-sensitivity
       source:
@@ -757,9 +754,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature, its Hit Point maximum decreases by an
-          amount equal to the damage taken.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, its Hit
+          Point maximum decreases by an amount equal to the damage taken.</p>
         chat: ''
       identifier: life-drain
       source:

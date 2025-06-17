@@ -2,14 +2,11 @@ name: Sunburst
 system:
   description:
     value: >-
-      <p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a
-      point you choose within range. Each creature in the Sphere makes a
-      Constitution saving throw. On a failed save, a creature takes 12d6 Radiant
-      damage and has the &amp;Reference[Blinded apply=false] condition for 1
-      minute. On a successful save, it takes half as much damage only.</p><p>A
-      creature Blinded by this spell makes another [[/save ability=con
-      dc=@attributes.spell.dc format=long]] at the end of each of its turns,
-      ending the effect on itself on a success.</p><p>This spell dispels
+      <p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each
+      creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage
+      and has the &amp;Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as
+      much damage only.</p><p>A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc
+      format=long]] at the end of each of its turns, ending the effect on itself on a success.</p><p>This spell dispels
       &amp;Reference[Darkness] in its area that was created by any spell.</p>
     chat: ''
   source:
@@ -139,9 +136,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>A creature &amp;Reference[Blinded apply=false] by this spell makes
-      another [[/save ability=con format=long]] at the end of each of its turns,
-      ending the effect on itself on a success.</p>
+      <p>A creature &amp;Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at
+      the end of each of its turns, ending the effect on itself on a success.</p>
     tint: '#ffffff'
     statuses:
       - blinded

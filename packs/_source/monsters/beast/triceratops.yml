@@ -652,8 +652,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone
-          creature. Hit: [[/damage average]] damage.</p>
+          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone creature. Hit: [[/damage average]]
+          damage.</p>
         chat: <p>The Triceratops attacks with its Stomp.</p>
       source:
         custom: ''
@@ -817,15 +817,12 @@ items:
     system:
       description:
         value: >-
-          <p>If the triceratops moves at least 20 ft. straight toward a creature
-          and then hits it with a gore attack on the same turn, that target must
-          succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone]. If the target is prone, the triceratops can
-          make one stomp attack against it as a bonus action.</p>
+          <p>If the triceratops moves at least 20 ft. straight toward a creature and then hits it with a gore attack on
+          the same turn, that target must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone]. If
+          the target is prone, the triceratops can make one stomp attack against it as a bonus action.</p>
         chat: >-
-          <p>If the triceratops moves at least <strong>20 ft.</strong> straight
-          toward a creature and then hits it with a gore attack on the same
-          turn, that target must succeed on a Strength saving throw.</p>
+          <p>If the triceratops moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with
+          a gore attack on the same turn, that target must succeed on a Strength saving throw.</p>
       source:
         custom: ''
         book: ''

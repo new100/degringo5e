@@ -604,9 +604,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmBite0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmBite0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -793,16 +791,13 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a creature, it is subjected to the following
-          effect.</p><p><em>Constitution Saving Throw</em>: DC [[lookup
-          @save.dc.value activity=F0T3hYR3EtUEMhvs]].</p><p><em>First
-          Failure</em>: The target has the &amp;Reference[Poisoned apply=false]
-          condition. While Poisoned, the target's Hit Point maximum doesn't
-          return to normal when finishing a Long Rest, and it repeats the save
-          every 24 hours that elapse, ending the effect on itself on a
-          success.</p><p><em>Subsequent Failures</em>: The Poisoned target's Hit
-          Point maximum decreases by 5 ([[/r 1d10]]).</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is subjected to the
+          following effect.</p><p><em>Constitution Saving Throw</em>: DC [[lookup @save.dc.value
+          activity=F0T3hYR3EtUEMhvs]].</p><p><em>First Failure</em>: The target has the &amp;Reference[Poisoned
+          apply=false] condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing
+          a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a
+          success.</p><p><em>Subsequent Failures</em>: The Poisoned target's Hit Point maximum decreases by 5 ([[/r
+          1d10]]).</p>
         chat: ''
       identifier: bite
       source:
@@ -884,13 +879,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><em>First CON Save Failure</em>: The target has the
-          &amp;Reference[Poisoned apply=false] condition. While Poisoned, the
-          target’s Hit Point maximum doesn’t return to normal when finishing a
-          Long Rest, and it repeats the save every 24 hours that elapse, ending
-          the effect on itself on a success. </p><p><em>Subsequent CON Save
-          Failures</em>: The Poisoned target’s Hit Point maximum decreases by 5
-          ([[/r 1d10]]).&lt;/p&gt;</p>
+          <p><em>First CON Save Failure</em>: The target has the &amp;Reference[Poisoned apply=false] condition. While
+          Poisoned, the target’s Hit Point maximum doesn’t return to normal when finishing a Long Rest, and it repeats
+          the save every 24 hours that elapse, ending the effect on itself on a success. </p><p><em>Subsequent CON Save
+          Failures</em>: The Poisoned target’s Hit Point maximum decreases by 5 ([[/r 1d10]]).&lt;/p&gt;</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -907,8 +899,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDeathDog000000.mmBite0000000000.Of7ZUjIfSDfzRMeU
+        _key: '!actors.items.effects!mmDeathDog000000.mmBite0000000000.Of7ZUjIfSDfzRMeU'
     flags:
       degringo5e:
         riders:

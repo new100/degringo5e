@@ -608,11 +608,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes two attacks,
-          using [[/item .mmThunderousMace]] or [[/item .mmThundercloud00]] in
-          any combination. It can replace one attack with a use of Spellcasting
-          to cast <em>[[/item
-          .mmSpellcasting00.Activity.NdueMCpXRc7fLDFa]]</em>.</p>
+          <p class="feature">The [[lookup @name lowercase]] makes two attacks, using [[/item .mmThunderousMace]] or
+          [[/item .mmThundercloud00]] in any combination. It can replace one attack with a use of Spellcasting to cast
+          <em>[[/item .mmSpellcasting00.Activity.NdueMCpXRc7fLDFa]]</em>.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -726,9 +724,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: thunderous-mace
       source:
@@ -878,9 +874,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Incapacitated apply=false] condition until the
-          end of its next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Incapacitated
+          apply=false] condition until the end of its next turn.</p>
         chat: ''
       identifier: thundercloud
       source:
@@ -960,9 +955,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the end of its next turn.</p>
+        description: <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -979,8 +972,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.mmThundercloud00.ZwKTwzvDAUm6FSgv
+        _key: '!actors.items.effects!mmCloudGiant0000.mmThundercloud00.ZwKTwzvDAUm6FSgv'
     flags:
       degringo5e:
         riders:
@@ -1299,21 +1291,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFogCloud00]{Fog
-          Cloud}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFogCloud00]{Fog Cloud}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control
-          Weather}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous
-          Form}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control Weather}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous Form}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTelekinesi]{Telekinesis}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1417,8 +1403,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty
-          Step}</em>, using the same spellcasting ability as Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty Step}</em>, using the same spellcasting
+          ability as Spellcasting.</p>
         chat: ''
       identifier: misty-step
       source:
@@ -1460,9 +1446,7 @@ items:
   - name: Misty Step
     system:
       description:
-        value: >-
-          <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to
-          an unoccupied space you can see.</p>
+        value: <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>
         chat: ''
       source:
         custom: ''
@@ -1551,8 +1535,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmMistyStep00000.Activity.sstmyMnemXbXqI5Y
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmMistyStep00000.Activity.sstmyMnemXbXqI5Y
         changes:
           - key: system.activation
             mode: 5
@@ -1584,8 +1567,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.TJtpDWOIWpI3N5tk.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.TJtpDWOIWpI3N5tk.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1700000
     ownership:
@@ -1609,13 +1591,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1735,8 +1715,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1745,14 +1724,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.tDpxRgayYQlncN0W.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmCloudGiant0000.tDpxRgayYQlncN0W.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1784,8 +1761,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.tDpxRgayYQlncN0W.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.tDpxRgayYQlncN0W.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1812,13 +1788,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create a 20-foot-radius Sphere of fog centered on a point
-          within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts
-          for the duration or until a strong wind (such as one created by
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
-          Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The fog's radius increases by 20 feet for each spell
-          slot level above 1.</p>
+          <p>You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is
+          &amp;Reference[heavilyobscured]. It lasts for the duration or until a strong wind (such as one created by
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses
+          it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The fog's radius increases by 20 feet for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1910,8 +1884,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.NdueMCpXRc7fLDFa
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.NdueMCpXRc7fLDFa
         changes:
           - key: system.properties
             mode: 2
@@ -1943,8 +1916,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.GHs3dKAxEC2DDy3O.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.GHs3dKAxEC2DDy3O.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2800000
     ownership:
@@ -1968,12 +1940,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch one Large or smaller object that isn't being worn or
-          carried by someone else. Until the spell ends, the object sheds Bright
-          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
-          light can be colored as you like.</p><p>Covering the object with
-          something opaque blocks the light. The spell ends if you cast it
-          again.</p>
+          <p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell
+          ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can
+          be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if
+          you cast it again.</p>
         chat: ''
       source:
         custom: ''
@@ -2091,8 +2061,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.bhjL32S4ziUQZALT
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.bhjL32S4ziUQZALT
         changes:
           - key: system.properties
             mode: 2
@@ -2124,8 +2093,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.Zr0A1mgE8vqYWD8Y.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.Zr0A1mgE8vqYWD8Y.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1100000
     ownership:
@@ -2149,19 +2117,15 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell, and it ends early
-          if you go indoors.</p><p>When you cast the spell, you change the
-          current weather conditions, which are determined by the DM. You can
-          change precipitation, temperature, and wind. It takes 1d4 × 10 minutes
-          for the new conditions to take effect. Once they do so, you can change
-          the conditions again. When the spell ends, the weather gradually
-          returns to normal.</p><p>When you change the weather conditions, find
-          a current condition on the following tables and change its stage by
-          one, up or down. When changing the wind, you can change its
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather
+          conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4
+          × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When
+          the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a
+          current condition on the following tables and change its stage by one, up or down. When changing the wind, you
+          can change its
           direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light
-          clouds</td></tr><tr><td>3</td><td>Overcast or ground
-          fog</td></tr><tr><td>4</td><td>Rain, hail, or
+          clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or
           snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or
           blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat
           wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate
@@ -2305,8 +2269,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.VCMQtb1U2Tcr48cE
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.VCMQtb1U2Tcr48cE
         changes:
           - key: system.properties
             mode: 2
@@ -2338,8 +2301,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.gaL6LDFQVg4Wwhyo.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.gaL6LDFQVg4Wwhyo.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 106250
     ownership:
@@ -2363,23 +2325,16 @@ items:
     system:
       description:
         value: >-
-          <p>A willing creature you touch shape-shifts, along with everything
-          it's wearing and carrying, into a misty cloud for the duration. The
-          spell ends on the target if it drops to 0 Hit Points or if it takes a
-          Magic action to end the spell on itself.</p><p>While in this form, the
-          target's only method of movement is a Fly Speed of 10 feet, and it can
-          hover. The target can enter and occupy the space of another creature.
-          The target has Resistance to Bludgeoning, Piercing, and Slashing
-          damage; it has Immunity to the &amp;Reference[prone apply=false]
-          condition; and it has Advantage on Strength, Dexterity, and
-          Constitution saving throws. The target can pass through narrow
-          openings, but it treats liquids as though they were solid
-          surfaces.</p><p>The target can't talk or manipulate objects, and any
-          objects it was carrying or holding can't be dropped, used, or
-          otherwise interacted with. Finally, the target can't attack or cast
-          spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can target one additional creature for each spell slot level above
-          3.</p>
+          <p>A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty
+          cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action
+          to end the spell on itself.</p><p>While in this form, the target's only method of movement is a Fly Speed of
+          10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has
+          Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone
+          apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The
+          target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The
+          target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or
+          otherwise interacted with. Finally, the target can't attack or cast spells.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -2514,17 +2469,13 @@ items:
             value: icons/magic/air/wind-vortex-swirl-blue-purple.webp
             priority: null
         description: >-
-          <p>The target’s only method of movement is a Fly Speed of 10 feet, and
-          it can hover. The target can enter and occupy the space of another
-          creature. The target has Resistance to Bludgeoning, Piercing, and
-          Slashing damage; it has Immunity to the &amp;Reference[prone
-          apply=false] condition; and it has Advantage on Strength, Dexterity,
-          and Constitution saving throws. The target can pass through narrow
-          openings, but it treats liquids as though they were solid
-          surfaces.</p><p>The target can’t talk or manipulate objects, and any
-          objects it was carrying or holding can’t be dropped, used, or
-          otherwise interacted with. Finally, the target can’t attack or cast
-          spells.</p>
+          <p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and
+          occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage;
+          it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength,
+          Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids
+          as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was
+          carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or
+          cast spells.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2540,14 +2491,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.cRRXxPgI7zuiWi7z.QeYsfnjEj2T9A3C8
+        _key: '!actors.items.effects!mmCloudGiant0000.cRRXxPgI7zuiWi7z.QeYsfnjEj2T9A3C8'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.c0EtMztiY2kfISaf
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.c0EtMztiY2kfISaf
         changes:
           - key: system.properties
             mode: 2
@@ -2579,8 +2528,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.cRRXxPgI7zuiWi7z.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.cRRXxPgI7zuiWi7z.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 1900000
     ownership:
@@ -2604,29 +2552,21 @@ items:
     system:
       description:
         value: >-
-          <p>You gain the ability to move or manipulate creatures or objects by
-          thought. When you cast the spell and as a Magic action on your later
-          turns before the spell ends, you can exert your will on one creature
-          or object that you can see within range, causing the appropriate
-          effect below. You can affect the same target round after round or
-          choose a new one at any time. If you switch targets, the prior target
-          is no longer affected by the spell.</p><p><strong>Creature.</strong>
-          You can try to move a Huge or smaller creature. The target must
-          succeed on a Strength saving throw, or you move it up to 30 feet in
-          any direction within the spell's range. Until the end of your next
-          turn, the creature has the &amp;Reference[Restrained] condition, and
-          if you lift it into the air, it is suspended there. It falls at the
-          end of your next turn unless you use this option on it again and it
-          fails the save.</p><p><strong>Object.</strong> You can try to move a
-          Huge or smaller object. If the object isn't being worn or carried, you
-          automatically move it up to 30 feet in any direction within the
-          spell's range.</p><p>If the object is worn or carried by a creature,
-          that creature must succeed on a Strength saving throw, or you pull the
-          object away and move it up to 30 feet in any direction within the
-          spell's range.</p><p>You can exert fine control on objects with your
-          telekinetic grip, such as manipulating a simple tool, opening a door
-          or a container, stowing or retrieving an item from an open container,
-          or pouring the contents from a vial.</p>
+          <p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as
+          a Magic action on your later turns before the spell ends, you can exert your will on one creature or object
+          that you can see within range, causing the appropriate effect below. You can affect the same target round
+          after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by
+          the spell.</p><p><strong>Creature.</strong> You can try to move a Huge or smaller creature. The target must
+          succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range.
+          Until the end of your next turn, the creature has the &amp;Reference[Restrained] condition, and if you lift it
+          into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it
+          again and it fails the save.</p><p><strong>Object.</strong> You can try to move a Huge or smaller object. If
+          the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the
+          spell's range.</p><p>If the object is worn or carried by a creature, that creature must succeed on a Strength
+          saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's
+          range.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple
+          tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the
+          contents from a vial.</p>
         chat: ''
       source:
         custom: ''
@@ -2726,8 +2666,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.cg7Ucc16ElBsXmRo
+        origin: Compendium.degringo5e.actors24.Actor.mmCloudGiant0000.Item.mmSpellcasting00.Activity.cg7Ucc16ElBsXmRo
         changes:
           - key: system.properties
             mode: 2
@@ -2759,8 +2698,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCloudGiant0000.2QgHUABlBcMzHf5Z.dnd5espellchange
+        _key: '!actors.items.effects!mmCloudGiant0000.2QgHUABlBcMzHf5Z.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 103125
     ownership:

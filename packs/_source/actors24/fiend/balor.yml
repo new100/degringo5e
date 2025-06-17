@@ -650,15 +650,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] explodes when it
-          dies.</p><p class="feature"><em>Dexterity Saving Throw:</em> DC
-          [[lookup @save.dc.value activity=jTq2czA8KQITUK4c]], each creature in
-          a [[lookup @target.template.size activity=jTq2czA8KQITUK4c]]-foot
-          Emanation originating from the [[lookup @name lowercase]].</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage.</p><p
-          class="feature"><em>Failure or Success:</em> If the [[lookup @name
-          lowercase]] dies outside the Abyss, it gains a new body instantly,
-          reviving with all its Hit Points somewhere in the Abyss.</p>
+          <p class="feature">The [[lookup @name lowercase]] explodes when it dies.</p><p class="feature"><em>Dexterity
+          Saving Throw:</em> DC [[lookup @save.dc.value activity=jTq2czA8KQITUK4c]], each creature in a [[lookup
+          @target.template.size activity=jTq2czA8KQITUK4c]]-foot Emanation originating from the [[lookup @name
+          lowercase]].</p><p class="feature"><em>Failure:</em> [[/damage average]] damage.</p><p
+          class="feature"><em>Failure or Success:</em> If the [[lookup @name lowercase]] dies outside the Abyss, it
+          gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>
         chat: ''
       identifier: death-throes
       source:
@@ -770,11 +767,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>At the end of each of the [[lookup @name lowercase]]'s turns, each
-          [[lookup @target.affects.type activity=15VgJKVXwYBOFSqJ]] of the
-          [[lookup @name lowercase]]'s choice in a [[lookup
-          @target.template.size activity=15VgJKVXwYBOFSqJ]]-foot Emanation
-          originating from the [[lookup @name lowercase]] takes [[/damage
+          <p>At the end of each of the [[lookup @name lowercase]]'s turns, each [[lookup @target.affects.type
+          activity=15VgJKVXwYBOFSqJ]] of the [[lookup @name lowercase]]'s choice in a [[lookup @target.template.size
+          activity=15VgJKVXwYBOFSqJ]]-foot Emanation originating from the [[lookup @name lowercase]] takes [[/damage
           average]] damage.</p>
         chat: ''
       identifier: fire-aura
@@ -876,9 +871,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -934,9 +927,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -1032,9 +1023,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmFlameWhip00000]] attack and one [[/item .mmLightningBlade]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmFlameWhip00000]] attack and one [[/item
+          .mmLightningBlade]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1096,9 +1086,7 @@ items:
             spellSlot: true
             targets: []
           description:
-            chatFlavor: >-
-              On Hit: Huge or smaller creatures pulled 25 ft. toward attacking
-              creature.
+            chatFlavor: 'On Hit: Huge or smaller creatures pulled 25 ft. toward attacking creature.'
           duration:
             units: inst
             concentration: false
@@ -1152,10 +1140,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Huge or smaller creature, the [[lookup @name
-          lowercase]] pulls the target up to 25 feet straight toward itself, and
-          the target has the &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Huge or smaller
+          creature, the [[lookup @name lowercase]] pulls the target up to 25 feet straight toward itself, and the target
+          has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: flame-whip
       source:
@@ -1252,8 +1239,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBalor000000000.mmFlameWhip00000.ZjYcf64z7AHBBoj5
+        _key: '!actors.items.effects!mmBalor000000000.mmFlameWhip00000.ZjYcf64z7AHBBoj5'
     flags:
       degringo5e:
         riders:
@@ -1339,10 +1325,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] teleports [[lookup
-          @target.affects.special activity=dnoRMdFzhUUku26D]] of itself up to
-          [[lookup @range.value activity=dnoRMdFzhUUku26D]] feet to an
-          unoccupied space the  [[lookup @name lowercase]] can see.</p>
+          <p>The [[lookup @name lowercase]] teleports [[lookup @target.affects.special activity=dnoRMdFzhUUku26D]] of
+          itself up to [[lookup @range.value activity=dnoRMdFzhUUku26D]] feet to an unoccupied space the  [[lookup @name
+          lowercase]] can see.</p>
         chat: ''
       identifier: teleport
       source:
@@ -1455,9 +1440,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target can't take &amp;Reference[Reaction] until the start of
-          the [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target can't take
+          &amp;Reference[Reaction] until the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: lightning-blade
       source:

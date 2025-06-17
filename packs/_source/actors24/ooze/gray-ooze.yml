@@ -344,8 +344,7 @@ system:
       value: >-
         <h1>Gray
         Oozes</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.IMrvogdwbM9y1eDJ
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Gray
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Gray
         Ooze</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3CtaZvXT0QtPFi3T
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -499,8 +498,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move through a space as narrow
-          as 1 inch without expending extra movement to do so.</p>
+          <p>The [[lookup @name lowercase]] can move through a space as narrow as 1 inch without expending extra
+          movement to do so.</p>
         chat: ''
       identifier: amorphous
       source:
@@ -550,22 +549,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">Nonmagical ammunition is destroyed immediately
-          after hitting the [[lookup @name lowercase]] and dealing any damage.
-          Any nonmagical weapon takes a cumulative −1 penalty to attack rolls
-          immediately after dealing damage to the [[lookup @name lowercase]] and
-          coming into contact with it. The weapon is destroyed if the penalty
-          reaches −5. The penalty can be removed by casting the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
-          spell on the weapon.</p><p class="feature">The [[lookup @name
-          lowercase]] can eat through 2-inch-thick, nonmagical metal or wood in
-          1 round.</p><section class="secret"
-          id="secret-NtgKYdQoCuiAaxOa"><p><strong>Foundry
-          Note</strong></p><p>This feature provides an <strong>Attack
-          Penalty</strong> active effect that will modify a targeted weapon.
-          Since this penalty can be applied multiple times to multiple
-          nonmagical weapons, this active effect needs to be dragged from this
-          item's Effect tab onto the target Item's weapons.</p></section>
+          <p class="feature">Nonmagical ammunition is destroyed immediately after hitting the [[lookup @name lowercase]]
+          and dealing any damage. Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after
+          dealing damage to the [[lookup @name lowercase]] and coming into contact with it. The weapon is destroyed if
+          the penalty reaches −5. The penalty can be removed by casting the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em> spell on the weapon.</p><p
+          class="feature">The [[lookup @name lowercase]] can eat through 2-inch-thick, nonmagical metal or wood in 1
+          round.</p><section class="secret" id="secret-NtgKYdQoCuiAaxOa"><p><strong>Foundry Note</strong></p><p>This
+          feature provides an <strong>Attack Penalty</strong> active effect that will modify a targeted weapon. Since
+          this penalty can be applied multiple times to multiple nonmagical weapons, this active effect needs to be
+          dragged from this item's Effect tab onto the target Item's weapons.</p></section>
         chat: ''
       identifier: corrosive-form
       source:
@@ -606,9 +599,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Any nonmagical weapon takes a cumulative −1 penalty to attack rolls
-          immediately after dealing damage to the attacking creature and coming
-          into contact with it.</p>
+          <p>Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after dealing damage to the
+          attacking creature and coming into contact with it.</p>
         origin: null
         tint: '#ffffff'
         transfer: true
@@ -625,8 +617,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGrayOoze000000.mmCorrosiveForm0.caD7IB1k2XLnkUDS
+        _key: '!actors.items.effects!mmGrayOoze000000.mmCorrosiveForm0.caD7IB1k2XLnkUDS'
     flags:
       degringo5e:
         riders:
@@ -701,17 +692,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          Nonmagical armor worn by the target takes a −1 penalty to the AC it
-          offers. The armor is destroyed if the penalty reduces its AC to 10.
-          The penalty can be removed by casting the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
-          spell on the armor.</p><section class="secret"
-          id="secret-RpEIbnL6lqJ2F9gS"><p><strong>Foundry
-          Note</strong></p><p>This feature provides an <strong>AC
-          Penalty</strong> enchantment that will modify a targeted armor. Since
-          this penalty can be applied multiple times, this enchantment needs to
-          be dragged from this item's Effect tab onto the target armor
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. Nonmagical armor worn by the target
+          takes a −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The
+          penalty can be removed by casting the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em> spell on the armor.</p><section
+          class="secret" id="secret-RpEIbnL6lqJ2F9gS"><p><strong>Foundry Note</strong></p><p>This feature provides an
+          <strong>AC Penalty</strong> enchantment that will modify a targeted armor. Since this penalty can be applied
+          multiple times, this enchantment needs to be dragged from this item's Effect tab onto the target armor
           item.</p></section>
         chat: ''
       identifier: pseudopod
@@ -796,11 +783,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Nonmagical armor worn by the target takes a −1 penalty to the AC it
-          offers. The armor is destroyed if the penalty reduces its AC to 10.
-          The penalty can be removed by casting the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em>
-          spell on the armor.</p>
+          <p>Nonmagical armor worn by the target takes a −1 penalty to the AC it offers. The armor is destroyed if the
+          penalty reduces its AC to 10. The penalty can be removed by casting the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMending000]{Mending}</em> spell on the armor.</p>
         origin: null
         tint: '#ffffff'
         transfer: true
@@ -817,8 +802,7 @@ items:
           modifiedTime: 1737045356349
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGrayOoze000000.mmPseudopod00000.UGL33MKaIUmf7sRj
+        _key: '!actors.items.effects!mmGrayOoze000000.mmPseudopod00000.UGL33MKaIUmf7sRj'
     flags:
       degringo5e:
         riders:

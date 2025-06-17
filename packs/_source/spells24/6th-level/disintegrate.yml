@@ -2,23 +2,17 @@ name: Disintegrate
 system:
   description:
     value: >-
-      <p>You launch a green ray at a target you can see within range. The target
-      can be a creature, a nonmagical object, or a creation of magical force,
-      such as the wall created by
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall of
-      Force}.</em></p><p>A creature targeted by this spell makes a Dexterity
-      saving throw. On a failed save, the target takes 10d6 + 40 Force damage.
-      If this damage reduces it to 0 Hit Points, it and everything nonmagical it
-      is wearing and carrying are disintegrated into gray dust. The target can
-      be revived only by a
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueResurr]{True
-      Resurrection}</em> or a
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-      spell.</p><p>This spell automatically disintegrates a Large or smaller
-      nonmagical object or a creation of magical force. If such a target is Huge
-      or larger, this spell disintegrates a 10-foot-Cube portion of
-      it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage
-      increases by 3d6 for each spell slot level above 6.</p>
+      <p>You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object,
+      or a creation of magical force, such as the wall created by
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall of Force}.</em></p><p>A creature targeted by
+      this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this
+      damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into
+      gray dust. The target can be revived only by a
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueResurr]{True Resurrection}</em> or a
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p><p>This spell automatically
+      disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or
+      larger, this spell disintegrates a 10-foot-Cube portion of it.</p><p><strong>Using a Higher-Level Spell
+      Slot.</strong> The damage increases by 3d6 for each spell slot level above 6.</p>
     chat: ''
   source:
     custom: ''

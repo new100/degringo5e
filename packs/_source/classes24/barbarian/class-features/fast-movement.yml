@@ -5,11 +5,9 @@ img: icons/skills/movement/feet-winged-boots-brown.webp
 system:
   description:
     value: >-
-      <p>Your speed increases by 10 feet while you aren't wearing Heavy
-      armor.</p><section id="secret-6cmMiIJhUk5cpOGz"
-      class="secret"><p><strong>Foundry Note</strong></p><p>This feature
-      includes an Active Effect which will automatically increase your movement
-      speed. Disable the Fast Movement Active Effect if you're wearing Heavy
+      <p>Your speed increases by 10 feet while you aren't wearing Heavy armor.</p><section id="secret-6cmMiIJhUk5cpOGz"
+      class="secret"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will
+      automatically increase your movement speed. Disable the Fast Movement Active Effect if you're wearing Heavy
       armor.</p></section>
     chat: ''
   source:
@@ -57,8 +55,7 @@ effects:
     description: ''
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classfeatures.Item.Kl6zifJ5OmdHlOi2.ActiveEffect.TIBmPKKnAAiWYuN4
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.Kl6zifJ5OmdHlOi2.ActiveEffect.TIBmPKKnAAiWYuN4
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

@@ -563,9 +563,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] knows if it hears a
-          lie.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] knows if it hears a lie.</p>
         chat: ''
       identifier: divine-awareness
       source:
@@ -615,10 +613,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] dies outside
-          Mount Celestia, its body disappears, and it gains a new body
-          instantly, reviving with all its Hit Points somewhere in Mount
-          Celestia.</p>
+          <p class="feature">If the [[lookup @name lowercase]] dies outside Mount Celestia, its body disappears, and it
+          gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.</p>
         chat: ''
       identifier: exalted-restoration
       source:
@@ -667,9 +663,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -755,8 +749,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Radiant Sword]]
-          attacks or uses [[/item Holy Burst]] twice.</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item Radiant Sword]] attacks or uses [[/item Holy Burst]]
+          twice.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -870,9 +864,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: radiant-sword
       source:
@@ -1034,13 +1026,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=HrgMO1rsQla47fff]], each [[lookup
-          @target.affects.type activity=HrgMO1rsQla47fff]] in a [[lookup
-          @target.template.size activity=HrgMO1rsQla47fff]]-foot-radius Sphere
-          centered on a point the [[lookup @name lowercase]] can see within
-          [[lookup @range.value activity=HrgMO1rsQla47fff]]
-          feet.</p><p><em>Failure:</em> [[/damage average]]
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=HrgMO1rsQla47fff]],
+          each [[lookup @target.affects.type activity=HrgMO1rsQla47fff]] in a [[lookup @target.template.size
+          activity=HrgMO1rsQla47fff]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=HrgMO1rsQla47fff]] feet.</p><p><em>Failure:</em> [[/damage average]]
           damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: holy-burst
@@ -1339,21 +1328,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
-          and Good}</em></p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em></p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommune000]{Commune}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control
-          Weather}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]{Dispel Evil
-          and Good}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRaiseDead0]{Raise
-          Dead}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control Weather}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]{Dispel Evil and Good}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRaiseDead0]{Raise Dead}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1396,12 +1379,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the location of any Aberration,
-          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
-          yourself. You also sense whether the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
-          spell is active there and, if so, where.</p><p>The spell is blocked by
-          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          <p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead
+          within 30 feet of yourself. You also sense whether the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so,
+          where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
         chat: ''
       source:
@@ -1530,14 +1511,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.NKJjjt9DcNYbSJNX.pOgbtXbKVGdbwjjE
+        _key: '!actors.items.effects!mmPlanetar000000.NKJjjt9DcNYbSJNX.pOgbtXbKVGdbwjjE'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.KsqD0FXKpIWITGqi
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.KsqD0FXKpIWITGqi
         changes:
           - key: system.properties
             mode: 2
@@ -1569,8 +1548,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.NKJjjt9DcNYbSJNX.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.NKJjjt9DcNYbSJNX.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4200000
     ownership:
@@ -1597,17 +1575,13 @@ items:
     system:
       description:
         value: >-
-          <p>You contact a deity or a divine proxy and ask up to three questions
-          that can be answered with yes or no. You must ask your questions
-          before the spell ends. You receive a correct answer for each
-          question.</p><p>Divine beings aren't necessarily omniscient, so you
-          might receive "unclear" as an answer if a question pertains to
-          information that lies beyond the deity's knowledge. In a case where a
-          one-word answer could be misleading or contrary to the deity's
-          interests, the DM might offer a short phrase as an answer
-          instead.</p><p>If you cast the spell more than once before finishing a
-          Long Rest, there is a cumulative 25 percent chance for each casting
-          after the first that you get no answer.</p>
+          <p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no.
+          You must ask your questions before the spell ends. You receive a correct answer for each
+          question.</p><p>Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a
+          question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer
+          could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer
+          instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25
+          percent chance for each casting after the first that you get no answer.</p>
         chat: ''
       source:
         custom: ''
@@ -1701,8 +1675,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.hMljYASG9jFTFyHB
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.hMljYASG9jFTFyHB
         changes:
           - key: system.properties
             mode: 2
@@ -1734,8 +1707,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.qi4FBfGudzDz6Lei.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.qi4FBfGudzDz6Lei.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 3200000
     ownership:
@@ -1759,19 +1731,15 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell, and it ends early
-          if you go indoors.</p><p>When you cast the spell, you change the
-          current weather conditions, which are determined by the DM. You can
-          change precipitation, temperature, and wind. It takes 1d4 × 10 minutes
-          for the new conditions to take effect. Once they do so, you can change
-          the conditions again. When the spell ends, the weather gradually
-          returns to normal.</p><p>When you change the weather conditions, find
-          a current condition on the following tables and change its stage by
-          one, up or down. When changing the wind, you can change its
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather
+          conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4
+          × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When
+          the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a
+          current condition on the following tables and change its stage by one, up or down. When changing the wind, you
+          can change its
           direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light
-          clouds</td></tr><tr><td>3</td><td>Overcast or ground
-          fog</td></tr><tr><td>4</td><td>Rain, hail, or
+          clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or
           snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or
           blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat
           wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate
@@ -1915,8 +1883,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.KPV1GjH9kqg79buR
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.KPV1GjH9kqg79buR
         changes:
           - key: system.properties
             mode: 2
@@ -1948,8 +1915,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.LcdboPtDut4HQJfr.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.LcdboPtDut4HQJfr.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 106250
     ownership:
@@ -1973,20 +1939,15 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead
-          have Disadvantage on attack rolls against you. You can end the spell
-          early by using either of the following special
-          functions.</p><p><strong>Break Enchantment.</strong> As a Magic
-          action, you touch a creature that is possessed by or has the
-          &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from
-          one or more creatures of the types above. The target is no longer
-          possessed, Charmed, or Frightened by such
-          creatures.</p><p><strong>Dismissal.</strong> As a Magic action, you
-          target one creature you can see within 5 feet of you that has one of
-          the creature types above. The target must succeed on a Charisma saving
-          throw or be sent back to its home plane if it isn't there already. If
-          they aren't on their home plane, Undead are sent to the Shadowfell,
-          and Fey are sent to the Feywild.</p>
+          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against
+          you. You can end the spell early by using either of the following special functions.</p><p><strong>Break
+          Enchantment.</strong> As a Magic action, you touch a creature that is possessed by or has the
+          &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from one or more creatures of the types above.
+          The target is no longer possessed, Charmed, or Frightened by such creatures.</p><p><strong>Dismissal.</strong>
+          As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types
+          above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there
+          already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the
+          Feywild.</p>
         chat: ''
       source:
         custom: ''
@@ -2195,10 +2156,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead
-          have Disadvantage on attack rolls against you. You can end the spell
-          early by using either of the following special functions:
-          <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>
+          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against
+          you. You can end the spell early by using either of the following special functions: <strong>Break
+          Enchantment</strong> or <strong>Dismissal</strong>.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2213,14 +2173,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.fkctWMs3HtVhRarn.RMeb9TUrFdhXMTzz
+        _key: '!actors.items.effects!mmPlanetar000000.fkctWMs3HtVhRarn.RMeb9TUrFdhXMTzz'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.csp5tMWb1818ciVb
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.csp5tMWb1818ciVb
         changes:
           - key: system.properties
             mode: 2
@@ -2252,8 +2210,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.fkctWMs3HtVhRarn.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.fkctWMs3HtVhRarn.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2300000
     ownership:
@@ -2280,16 +2237,13 @@ items:
     system:
       description:
         value: >-
-          <p>With a touch, you revive a dead creature if it has been dead no
-          longer than 10 days and it wasn't Undead when it died.</p><p>The
-          creature returns to life with 1 Hit Point. This spell also neutralizes
-          any poisons that affected the creature at the time of
-          death.</p><p>This spell closes all mortal wounds, but it doesn't
-          restore missing body parts. If the creature is lacking body parts or
-          organs integral for its survival—its head, for instance—the spell
-          automatically fails.</p><p>Coming back from the dead is an ordeal. The
-          target takes a −4 penalty to D20 Tests. Every time the target finishes
-          a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
+          <p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead
+          when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons
+          that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't
+          restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its
+          head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target
+          takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until
+          it becomes 0.</p>
         chat: ''
       source:
         custom: ''
@@ -2434,9 +2388,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: null
         tint: '#ffffff'
         transfer: false
@@ -2453,8 +2406,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.etY0sDrXe6DcFEzc
+        _key: '!actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.etY0sDrXe6DcFEzc'
       - name: Resurrection Sickness (Day 2)
         img: icons/svg/stoned.svg
         type: base
@@ -2498,9 +2450,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: null
         tint: '#ffffff'
         transfer: false
@@ -2508,8 +2459,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2519,8 +2469,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: QUWVMgg2HidYsUxy
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.QUWVMgg2HidYsUxy
+        _key: '!actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.QUWVMgg2HidYsUxy'
       - name: Resurrection Sickness (Day 4)
         img: icons/svg/stoned.svg
         type: base
@@ -2564,9 +2513,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: null
         tint: '#ffffff'
         transfer: false
@@ -2574,8 +2522,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2585,8 +2532,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: vyf4vVVoGkZPyAqa
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.vyf4vVVoGkZPyAqa
+        _key: '!actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.vyf4vVVoGkZPyAqa'
       - name: Resurrection Sickness (Day 3)
         img: icons/svg/stoned.svg
         type: base
@@ -2630,9 +2576,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: null
         tint: '#ffffff'
         transfer: false
@@ -2640,8 +2585,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2651,14 +2595,12 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: 0EAyGy8YaKbvgvkm
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.0EAyGy8YaKbvgvkm
+        _key: '!actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.0EAyGy8YaKbvgvkm'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.F7FwhnL3jN7kY1Kx
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.mmSpellcasting00.Activity.F7FwhnL3jN7kY1Kx
         changes:
           - key: system.properties
             mode: 2
@@ -2690,8 +2632,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.sHGzr73GjWhM74N0.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 700000
     ownership:
@@ -3118,13 +3059,11 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
-          Wounds}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
-          Restoration}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>, using the same spellcasting ability as Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>, using the same
+          spellcasting ability as Spellcasting.</p>
         chat: ''
       identifier: divine-aid
       source:
@@ -3169,11 +3108,9 @@ items:
     system:
       description:
         value: >-
-          <p>You bless up to three creatures within range. Whenever a target
-          makes an attack roll or a saving throw before the spell ends, the
-          target adds 1d4 to the attack roll or save.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional
-          creature for each spell slot level above 1.</p>
+          <p>You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw
+          before the spell ends, the target adds 1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -3300,12 +3237,11 @@ items:
         transfer: false
         name: Blessed
         description: >-
-          <p>Whenever a target makes an attack roll or a saving throw before the
-          spell ends, the target adds 1d4 to the attack roll or save.</p>
+          <p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the
+          attack roll or save.</p>
         statuses: []
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
+          compendiumSource: Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -3318,14 +3254,12 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.WWhaUIpBX0pg9wIY.1dzvDffEh8wZ0oQy
+        _key: '!actors.items.effects!mmPlanetar000000.WWhaUIpBX0pg9wIY.1dzvDffEh8wZ0oQy'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.V0Qrt1uTAqiU9SCm
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.V0Qrt1uTAqiU9SCm
         changes:
           - key: system.activation
             mode: 5
@@ -3357,8 +3291,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.WWhaUIpBX0pg9wIY.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.WWhaUIpBX0pg9wIY.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 5200000
     ownership:
@@ -3472,8 +3405,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.R4x9qJ4BYyFenPUf
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.R4x9qJ4BYyFenPUf
         changes:
           - key: system.activation
             mode: 5
@@ -3505,8 +3437,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.7H9hxFRjh2YaEVHN.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.7H9hxFRjh2YaEVHN.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -3530,10 +3461,9 @@ items:
     system:
       description:
         value: >-
-          <p>A creature of your choice that you can see within range regains Hit
-          Points equal to 2d4 plus your spellcasting ability
-          modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          healing increases by 2d4 for each spell slot level above 1.</p>
+          <p>A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your
+          spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases
+          by 2d4 for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -3631,8 +3561,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.xlmEmICWCOXh1DRs
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.xlmEmICWCOXh1DRs
         changes:
           - key: system.activation
             mode: 5
@@ -3664,8 +3593,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.m13Jk0xxCRfVybrr.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.m13Jk0xxCRfVybrr.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2300000
     ownership:
@@ -3689,8 +3617,7 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and end one condition on it:
-          &amp;Reference[blinded], &amp;Reference[deafened],
+          <p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened],
           &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>
         chat: ''
       source:
@@ -3781,8 +3708,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.mV8EoRveUz19SU1p
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.mV8EoRveUz19SU1p
         changes:
           - key: system.activation
             mode: 5
@@ -3814,8 +3740,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.6WQAwKYqmxkMKSGL.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.6WQAwKYqmxkMKSGL.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2500000
     ownership:
@@ -3839,10 +3764,9 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch regains a number of Hit Points equal to 2d8
-          plus your spellcasting ability modifier.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> The healing increases by 2d8 for
-          each spell slot level above 1.</p>
+          <p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability
+          modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell
+          slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -3943,8 +3867,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.N63RhnD3BRmiTqpg
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.N63RhnD3BRmiTqpg
         changes:
           - key: system.properties
             mode: 2
@@ -3976,8 +3899,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.anpZyBksu302DAWs.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.anpZyBksu302DAWs.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4300000
     ownership:
@@ -4001,11 +3923,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -4114,9 +4035,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -4132,14 +4051,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.zdreCsDiTh8AFj6w.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmPlanetar000000.zdreCsDiTh8AFj6w.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.w9BH3AT3qTwTihLT
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.w9BH3AT3qTwTihLT
         changes:
           - key: system.properties
             mode: 2
@@ -4175,8 +4092,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.zdreCsDiTh8AFj6w.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.zdreCsDiTh8AFj6w.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -4200,8 +4116,7 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and end one condition on it:
-          &amp;Reference[blinded], &amp;Reference[deafened],
+          <p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened],
           &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>
         chat: ''
       source:
@@ -4292,8 +4207,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.Vhx3xegO9xZtn80N
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.Vhx3xegO9xZtn80N
         changes:
           - key: system.properties
             mode: 2
@@ -4325,8 +4239,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.0KRZWGRmZw1gbdm1.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.0KRZWGRmZw1gbdm1.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2500000
     ownership:
@@ -4350,9 +4263,8 @@ items:
     system:
       description:
         value: >-
-          <p>At your touch, all curses affecting one creature or object end. If
-          the object is a cursed magic item, its curse remains, but the spell
-          breaks its owner's Attunement to the object so it can be removed or
+          <p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its
+          curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or
           discarded.</p>
         chat: ''
       source:
@@ -4448,8 +4360,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.g4RGSObd7KLgjYL6
+        origin: Compendium.degringo5e.actors24.Actor.mmPlanetar000000.Item.ywmAOORQe290yHgp.Activity.g4RGSObd7KLgjYL6
         changes:
           - key: system.properties
             mode: 2
@@ -4481,8 +4392,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPlanetar000000.ZZ5w3O15nYKw2PG8.dnd5espellchange
+        _key: '!actors.items.effects!mmPlanetar000000.ZZ5w3O15nYKw2PG8.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 300000
     ownership:

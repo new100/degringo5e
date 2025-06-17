@@ -748,12 +748,10 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature and the [[lookup @name lowercase]]
-          moved 30+ feet straight toward it immediately before the hit, the
-          target has the &amp;Reference[Prone apply=false] condition, and the
-          [[lookup @name lowercase]] can make one [[/item .mmBite0000000000]]
-          attack against it.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature and the
+          [[lookup @name lowercase]] moved 30+ feet straight toward it immediately before the hit, the target has the
+          &amp;Reference[Prone apply=false] condition, and the [[lookup @name lowercase]] can make one [[/item
+          .mmBite0000000000]] attack against it.</p>
         chat: ''
       identifier: claws
       source:
@@ -850,8 +848,7 @@ items:
           modifiedTime: 1737750809300
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAllosaurus0000.mmClaws000000000.o2HIiixtauDbonc3
+        _key: '!actors.items.effects!mmAllosaurus0000.mmClaws000000000.o2HIiixtauDbonc3'
     flags:
       degringo5e:
         riders:

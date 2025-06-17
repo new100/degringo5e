@@ -534,9 +534,7 @@ items:
     img: icons/equipment/shield/kite-wooden-oak-glow.webp
     system:
       description:
-        value: >-
-          <p>If the dragon fails a saving throw, it can choose to succeed
-          instead.</p>
+        value: <p>If the dragon fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       source:
         custom: ''
@@ -643,10 +641,8 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon can use its [[/item .M3VJyuM63OKH7JH0]]{Frightful
-          Presence}. It then makes three attacks: one with its [[/item
-          .YauNxZeIeT4uDcTf]]{bite} and two with its [[/item
-          .GQLQiLBrkoOiNc8q]]{claws}.</p>
+          <p>The dragon can use its [[/item .M3VJyuM63OKH7JH0]]{Frightful Presence}. It then makes three attacks: one
+          with its [[/item .YauNxZeIeT4uDcTf]]{bite} and two with its [[/item .GQLQiLBrkoOiNc8q]]{claws}.</p>
         chat: ''
       source:
         custom: ''
@@ -1250,18 +1246,15 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of the dragon's choice that is within 120 feet of the
-          dragon and aware of it must succeed on a [[/save]] saving throw or
-          become &amp;Reference[frightened] for 1 minute.</p><p>A creature can
-          repeat the saving throw at the end of each of its turns, ending the
-          effect on itself on a success. If a creature's saving throw is
-          successful or the effect ends for it, the creature is immune to the
-          dragon's Frightful Presence for the next 24 hours.</p>
+          <p>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on
+          a [[/save]] saving throw or become &amp;Reference[frightened] for 1 minute.</p><p>A creature can repeat the
+          saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving
+          throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for
+          the next 24 hours.</p>
         chat: >-
-          <p>Each creature of the dragon's choice that is <strong>within 120
-          feet</strong> of the dragon and aware of it must succeed on a Wisdom
-          saving throw. A creature can repeat the saving throw at the end of
-          each of its turns.</p>
+          <p>Each creature of the dragon's choice that is <strong>within 120 feet</strong> of the dragon and aware of it
+          must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its
+          turns.</p>
       source:
         custom: ''
         book: ''
@@ -1365,14 +1358,12 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon exhales acid in a 90-foot line that is 10 feet wide.
-          Each creature in that line must make a [[/save]] saving throw, taking
-          [[/damage average]] damage on a failed save, or half as much damage on
-          a successful one.</p>
+          <p>The dragon exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a
+          [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a
+          successful one.</p>
         chat: >-
-          <p>The dragon exhales acid in a 90-foot line that is 10 feet wide.
-          Each creature in that line must make a <strong>Dexterity</strong>
-          saving throw.</p>
+          <p>The dragon exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1798,10 +1789,9 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon beats its wings. Each creature within 15 feet of the
-          dragon must succeed on a [[/save]] saving throw or take [[/damage
-          average]] damage and be knocked &amp;Reference[prone]. The dragon can
-          then fly up to half its flying speed.</p>
+          <p>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a [[/save]] saving
+          throw or take [[/damage average]] damage and be knocked &amp;Reference[prone]. The dragon can then fly up to
+          half its flying speed.</p>
         chat: ''
       source:
         custom: ''

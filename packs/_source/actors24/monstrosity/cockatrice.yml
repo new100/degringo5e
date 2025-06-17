@@ -711,16 +711,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature, it is subjected to the following
-          effect.</p><p class="feature"><em>Constitution Saving Throw:</em> DC
-          [[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]].</p><p
-          class="feature"><em>First Failure:</em> The target has the
-          &amp;Reference[Restrained apply=false] condition and repeats the save
-          at the end of its next turn if it is still Restrained, ending the
-          effect on itself on a success.</p><p class="feature"><em>Second
-          Failure:</em> The target has the &amp;Reference[Petrified apply=false]
-          condition instead of the Restrained condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is
+          subjected to the following effect.</p><p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
+          @save.dc.value activity=udF9lrpAQMvL0b9J]].</p><p class="feature"><em>First Failure:</em> The target has the
+          &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is
+          still Restrained, ending the effect on itself on a success.</p><p class="feature"><em>Second Failure:</em> The
+          target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>
         chat: ''
       identifier: petrifying-bite
       source:
@@ -801,9 +797,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Restrained apply=false] condition
-          and repeats the save at the end of its next turn if it is still
-          Restrained, ending the effect on itself on a success.</p>
+          <p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its
+          next turn if it is still Restrained, ending the effect on itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -820,8 +815,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.9dBgxzdq0cmzyhfR
+        _key: '!actors.items.effects!mmCockatrice0000.mmPetrifyingBite.9dBgxzdq0cmzyhfR'
       - name: Petrified
         img: systems/degringo5e/icons/svg/statuses/petrified.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmPetrifyingBite
@@ -838,9 +832,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Petrified apply=false] condition
-          instead of the Restrained condition.</p>
+        description: <p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -857,8 +849,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCockatrice0000.mmPetrifyingBite.ScizgnitVoBvVzPx
+        _key: '!actors.items.effects!mmCockatrice0000.mmPetrifyingBite.ScizgnitVoBvVzPx'
     flags:
       degringo5e:
         riders:

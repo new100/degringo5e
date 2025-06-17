@@ -2,10 +2,9 @@ name: Foresight
 system:
   description:
     value: >-
-      <p>You touch a willing creature and bestow a limited ability to see into
-      the immediate future. For the duration, the target has Advantage on D20
-      Tests, and other creatures have Disadvantage on attack rolls against it.
-      The spell ends early if you cast it again.</p>
+      <p>You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration,
+      the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell
+      ends early if you cast it again.</p>
     chat: ''
   source:
     custom: ''
@@ -111,8 +110,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>For the duration, the target has Advantage on D20 Tests, and other
-      creatures have Disadvantage on attack rolls against it.</p>
+      <p>For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls
+      against it.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

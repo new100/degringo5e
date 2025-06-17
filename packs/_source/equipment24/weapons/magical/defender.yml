@@ -70,14 +70,11 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>Weapon (Any Melee Weapon), Legendary (Requires
-      Attunement)</em></p><p>You gain a +3 bonus to attack rolls and damage
-      rolls made with this magic weapon.</p><p>The first time you attack with
-      the weapon on each of your turns, you can transfer some or all of the
-      weapon's bonus to your Armor Class. For example, you could reduce the
-      bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to
-      Armor Class. The adjusted bonuses remain in effect until the start of your
-      next turn, although you must hold the weapon to gain a bonus to AC from
+      <p><em>Weapon (Any Melee Weapon), Legendary (Requires Attunement)</em></p><p>You gain a +3 bonus to attack rolls
+      and damage rolls made with this magic weapon.</p><p>The first time you attack with the weapon on each of your
+      turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the
+      bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain
+      in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from
       it.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
@@ -174,8 +171,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The adjusted bonuses remain in effect until the start of your next
-      turn, although you must hold the weapon to gain a bonus to AC from it.</p>
+      <p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to
+      gain a bonus to AC from it.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
@@ -204,9 +201,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDefender00000
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgDefender00000 caption=false]</p>'
         priority: null
       - key: system.properties
         mode: 2
@@ -291,8 +286,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The adjusted bonuses remain in effect until the start of your next
-      turn, although you must hold the weapon to gain a bonus to AC from it.</p>
+      <p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to
+      gain a bonus to AC from it.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
@@ -338,8 +333,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The adjusted bonuses remain in effect until the start of your next
-      turn, although you must hold the weapon to gain a bonus to AC from it.</p>
+      <p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to
+      gain a bonus to AC from it.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

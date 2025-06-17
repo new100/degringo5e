@@ -5,19 +5,14 @@ img: icons/creatures/birds/raptor-owl-flying-moon.webp
 system:
   description:
     value: >-
-      <p>You gain proficiency in another skill of your choice from the skill
-      list available to Barbarians at level 1.</p><p>In addition, while your
-      Rage is active, you can channel primal power when you attempt certain
-      tasks; whenever you make an ability check using one of the following
-      skills, you can make it as a Strength check even if it normally uses a
-      different ability: Acrobatics, Intimidation, Perception, Stealth, or
-      Survival. When you use this ability, your Strength represents primal power
-      coursing through you, honing your agility, bearing, and
-      senses.</p><section class="secret"
-      id="secret-himIRZuFGInNkZgU"><p><strong>Foundry Note</strong></p><p>This
-      feature includes an Active Effect which will cause those skills to
-      automatically use your Strength modifier if it is higher than the normal
-      Ability Score associated with the Skill.</p></section>
+      <p>You gain proficiency in another skill of your choice from the skill list available to Barbarians at level
+      1.</p><p>In addition, while your Rage is active, you can channel primal power when you attempt certain tasks;
+      whenever you make an ability check using one of the following skills, you can make it as a Strength check even if
+      it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use
+      this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and
+      senses.</p><section class="secret" id="secret-himIRZuFGInNkZgU"><p><strong>Foundry Note</strong></p><p>This
+      feature includes an Active Effect which will cause those skills to automatically use your Strength modifier if it
+      is higher than the normal Ability Score associated with the Skill.</p></section>
     chat: ''
   source:
     custom: ''
@@ -84,8 +79,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classes24.Item.phbbrbPrimalKnow.ActiveEffect.ktAO4M4jvixfzyuO
+      compendiumSource: Compendium.degringo5e.classes24.Item.phbbrbPrimalKnow.ActiveEffect.ktAO4M4jvixfzyuO
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

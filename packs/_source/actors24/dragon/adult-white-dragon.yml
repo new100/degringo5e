@@ -563,10 +563,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move across and climb icy
-          surfaces without needing to make an ability check. Additionally,
-          &amp;Reference[Difficult Terrain] composed of ice or snow doesn't cost
-          it extra movement.</p>
+          <p>The [[lookup @name lowercase]] can move across and climb icy surfaces without needing to make an ability
+          check. Additionally, &amp;Reference[Difficult Terrain] composed of ice or snow doesn't cost it extra
+          movement.</p>
         chat: ''
       identifier: ice-walk
       source:
@@ -663,9 +662,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -757,9 +754,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]]
-          attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1040,12 +1035,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=8P7hmd3Nron4RAIv]], each [[lookup @target.affects.type
-          activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
-          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], each [[lookup
+          @target.affects.type activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
+          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: cold-breath
       source:
@@ -1165,17 +1158,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=U2i9u4ELjeLQfePP]], each [[lookup
-          @target.affects.type activity=U2i9u4ELjeLQfePP]] in a [[lookup
-          @target.template.size activity=U2i9u4ELjeLQfePP]]-foot-radius Sphere
-          centered on a point the [[lookup @name lowercase]] can see within
-          [[lookup @range.value activity=U2i9u4ELjeLQfePP]] feet.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target's Speed is 0 until the end of the target's next turn.</p><p
-          class="feature"><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=U2i9u4ELjeLQfePP]],
+          each [[lookup @target.affects.type activity=U2i9u4ELjeLQfePP]] in a [[lookup @target.template.size
+          activity=U2i9u4ELjeLQfePP]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=U2i9u4ELjeLQfePP]] feet.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target's Speed is 0 until the end of the target's next turn.</p><p
+          class="feature"><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: freezing-burst
       source:
@@ -1231,17 +1220,14 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target’s Speed is 0 until the end of the target’s next
-          turn.</p>
+        description: <p>The target’s Speed is 0 until the end of the target’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.mmYoungCopperDra.Item.mmSlowingBreath0.ActiveEffect.ztGUDHGfoUxlUY53
+          compendiumSource: Compendium.degringo5e.actors24.Actor.mmYoungCopperDra.Item.mmSlowingBreath0.ActiveEffect.ztGUDHGfoUxlUY53
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1250,8 +1236,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultWhiteDrag.mmFreezingBurst0.K6EbT8HrfSUSJW2F
+        _key: '!actors.items.effects!mmAdultWhiteDrag.mmFreezingBurst0.K6EbT8HrfSUSJW2F'
     flags:
       degringo5e:
         riders:
@@ -1332,11 +1317,9 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>,
-          requiring no Material components and using Charisma as the
-          spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]).
-          The [[lookup @name lowercase]] can't take this action again until the
-          start of its next turn.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>, requiring no Material components
+          and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]). The [[lookup
+          @name lowercase]] can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: frightful-presence
       source:
@@ -1379,15 +1362,11 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving
-          throw or drop whatever it is holding and have the
-          &amp;Reference[frightened apply=false] condition for the
-          duration.</p><p>A Frightened creature takes the &amp;Reference[dash]
-          action and moves away from you by the safest route on each of its
-          turns unless there is nowhere to move. If the creature ends its turn
-          in a space where it doesn't have line of sight to you, the creature
-          makes a Wisdom saving throw. On a successful save, the spell ends on
-          that creature.</p>
+          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and
+          have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes
+          the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there
+          is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the
+          creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>
         chat: ''
       source:
         custom: ''
@@ -1499,12 +1478,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>A &amp;Reference[frightened apply=false] creature takes the
-          &amp;Reference[dash] action and moves away from you by the safest
-          route on each of its turns unless there is nowhere to move. If the
-          creature ends its turn in a space where it doesn’t have line of sight
-          to you, the creature makes a [[/save ability=wis]] saving throw. On a
-          successful save, the spell ends on that creature.</p>
+          <p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from
+          you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in
+          a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw.
+          On a successful save, the spell ends on that creature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1520,14 +1497,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultWhiteDrag.J6PEYQgS9LHDoTaq.ijiWLu6EJZmEJPOZ
+        _key: '!actors.items.effects!mmAdultWhiteDrag.J6PEYQgS9LHDoTaq.ijiWLu6EJZmEJPOZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultWhiteDrag.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
         changes:
           - key: system.activation
             mode: 5
@@ -1567,8 +1542,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultWhiteDrag.J6PEYQgS9LHDoTaq.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultWhiteDrag.J6PEYQgS9LHDoTaq.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2300000
     ownership:
@@ -1652,9 +1626,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:

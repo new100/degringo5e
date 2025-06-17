@@ -566,9 +566,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] doesn't provoke an
-          &amp;Reference[OpportunityAttacks]{Opportunity Attack} when it flies
-          out of an enemy's reach.</p>
+          <p>The [[lookup @name lowercase]] doesn't provoke an &amp;Reference[OpportunityAttacks]{Opportunity Attack}
+          when it flies out of an enemy's reach.</p>
         chat: ''
       identifier: flyby
       source:
@@ -653,9 +652,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:

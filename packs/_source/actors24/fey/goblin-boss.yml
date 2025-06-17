@@ -407,13 +407,11 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepScimitar00]{Scimitar},
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain
+        Shirt}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepScimitar00]{Scimitar},
         @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}</p></div><h1>Goblins</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Goblin
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Goblin
         Boss</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.bgTL13d21Sxf05VY
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -572,8 +570,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], plus [[/damage
-          1d4 slashing average]] damage if the attack roll had Advantage.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], plus [[/damage 1d4 slashing average]] damage if the
+          attack roll had Advantage.</p>
         chat: ''
       price:
         value: 25
@@ -815,8 +813,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], plus [[/damage
-          1d4 piercing average]] damage if the attack roll had Advantage.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], plus [[/damage 1d4 piercing average]] damage if the
+          attack roll had Advantage.</p>
         chat: ''
       price:
         value: 25
@@ -1130,9 +1128,7 @@ items:
   - name: Shield
     system:
       description:
-        value: >-
-          <p>You gain the Armor Class benefit of a Shield only if you have
-          training with it.</p>
+        value: <p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>
         chat: ''
       price:
         value: 10
@@ -1261,9 +1257,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .8gwXLDcYj3mk6Kr3]] or [[/item .XbNHC5OBGT6VQF40]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .8gwXLDcYj3mk6Kr3]] or [[/item
+          .XbNHC5OBGT6VQF40]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1363,8 +1358,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Disengage] or &amp;Reference[Hide] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Disengage] or &amp;Reference[Hide]
+          action.</p>
         chat: ''
       identifier: nimble-escape
       source:
@@ -1425,8 +1420,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGoblinBoss0000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
+        _key: '!actors.items.effects!mmGoblinBoss0000.mmNimbleEscape00.7U7Pe61lsMZgN7qh'
     flags:
       degringo5e:
         riders:
@@ -1509,15 +1503,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Trigger:</em> A creature the [[lookup @name
-          lowercase]] can see makes an attack roll against it.</p><p
-          class="feature"><em>Response:</em> The [[lookup @name lowercase]]
-          chooses [[lookup @target.affects.special activity=pIlCmuPw8YUqAISY]]
-          within [[lookup @range.value activity=pIlCmuPw8YUqAISY]] feet of
-          itself. The [[lookup @name lowercase]] and that [[lookup
-          @target.affects.type activity=pIlCmuPw8YUqAISY]] swap places, and the
-          [[lookup @target.affects.type activity=pIlCmuPw8YUqAISY]] becomes the
-          target of the attack instead.</p>
+          <p class="feature"><em>Trigger:</em> A creature the [[lookup @name lowercase]] can see makes an attack roll
+          against it.</p><p class="feature"><em>Response:</em> The [[lookup @name lowercase]] chooses [[lookup
+          @target.affects.special activity=pIlCmuPw8YUqAISY]] within [[lookup @range.value activity=pIlCmuPw8YUqAISY]]
+          feet of itself. The [[lookup @name lowercase]] and that [[lookup @target.affects.type
+          activity=pIlCmuPw8YUqAISY]] swap places, and the [[lookup @target.affects.type activity=pIlCmuPw8YUqAISY]]
+          becomes the target of the attack instead.</p>
         chat: ''
       identifier: redirect-attack
       source:

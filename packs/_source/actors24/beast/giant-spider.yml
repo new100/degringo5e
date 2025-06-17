@@ -563,9 +563,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can climb difficult surfaces,
-          including along ceilings, without needing to make an ability
-          check.</p>
+          <p>The [[lookup @name lowercase]] can climb difficult surfaces, including along ceilings, without needing to
+          make an ability check.</p>
         chat: ''
       identifier: spider-climb
       source:
@@ -615,9 +614,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] ignores movement
-          restrictions caused by webs, and the [[lookup @name lowercase]] knows
-          the location of any other creature in contact with the same web.</p>
+          <p class="feature">The [[lookup @name lowercase]] ignores movement restrictions caused by webs, and the
+          [[lookup @name lowercase]] knows the location of any other creature in contact with the same web.</p>
         chat: ''
       identifier: web-walker
       source:
@@ -882,14 +880,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw</em>: DC [[lookup
-          @save.dc.value activity=6iMoUgxwYlvfKTXr]], one creature the [[lookup
-          @name lowercase]] can see within [[lookup @range.value
-          activity=6iMoUgxwYlvfKTXr]] feet.</p><p
-          class="feature"><em>Failure</em>: The target has the
-          &amp;Reference[Restrained apply=false] condition until the web is
-          destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to
-          Poison and Psychic damage).</p>
+          <p class="feature"><em>Dexterity Saving Throw</em>: DC [[lookup @save.dc.value activity=6iMoUgxwYlvfKTXr]],
+          one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=6iMoUgxwYlvfKTXr]]
+          feet.</p><p class="feature"><em>Failure</em>: The target has the &amp;Reference[Restrained apply=false]
+          condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and
+          Psychic damage).</p>
         chat: ''
       identifier: web
       source:
@@ -925,9 +920,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Restrained apply] condition until
-          the web is destroyed.</p>
+        description: <p>The target has the &amp;Reference[Restrained apply] condition until the web is destroyed.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -953,8 +946,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantSpider000.mmWeb00000000000.fihuYABujdt7o9uo
+        _key: '!actors.items.effects!mmGiantSpider000.mmWeb00000000000.fihuYABujdt7o9uo'
     flags:
       degringo5e:
         riders:

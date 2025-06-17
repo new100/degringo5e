@@ -680,11 +680,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a [[lookup @target.affects.special
-          activity=z58sUDUmqxECJgT3]] creature and the [[lookup @name
-          lowercase]] moved 20+ feet straight toward it immediately before the
-          hit, the target takes an extra [[/damage 1d6 bludgeoning average]]
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup
+          @target.affects.special activity=z58sUDUmqxECJgT3]] creature and the [[lookup @name lowercase]] moved 20+ feet
+          straight toward it immediately before the hit, the target takes an extra [[/damage 1d6 bludgeoning average]]
           damage and has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: ram
@@ -782,8 +780,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmElk00000000000.mmRam00000000000.GF5aJ8BZ8yVEuVJp
+        _key: '!actors.items.effects!mmElk00000000000.mmRam00000000000.GF5aJ8BZ8yVEuVJp'
     flags:
       degringo5e:
         riders:

@@ -90,11 +90,10 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcWand000000]{Wand},
-      Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a
-      Spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell
-      attack rolls determined by the wand's rarity. In addition, you ignore
-      &amp;Reference[HalfCover] when making a spell attack
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcWand000000]{Wand}, Uncommon (+1), Rare (+2), or Very
+      Rare (+3) (Requires Attunement by a Spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell
+      attack rolls determined by the wand's rarity. In addition, you ignore &amp;Reference[HalfCover] when making a
+      spell attack
       roll.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
@@ -232,8 +231,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -274,8 +272,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar.ActiveEffect.7Pcy0FgaAr30JUBV
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -302,9 +299,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar caption=false]</p>'
         priority: null
       - key: system.price.value
         mode: 2
@@ -368,9 +363,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar caption=false]</p>'
         priority: null
       - key: system.price.value
         mode: 2
@@ -435,9 +428,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmg1WandOfTheWar caption=false]</p>'
         priority: null
       - key: system.price.value
         mode: 2

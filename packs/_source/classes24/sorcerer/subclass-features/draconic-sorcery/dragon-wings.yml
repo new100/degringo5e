@@ -6,17 +6,13 @@ img: icons/creatures/abilities/wing-batlike-white-blue.webp
 system:
   description:
     value: >-
-      <p>As a Bonus Action, you can cause draconic wings to appear on your back.
-      The wings last for 1 hour or until you dismiss them (no action required).
-      For the duration, you have a Fly Speed of 60 feet.</p><p>Once you use this
-      feature, you can't use it again until you finish a Long Rest unless you
-      spend 3 Sorcery Points (no action required) to restore your use of
-      it.</p><section class="secret"
-      id="secret-sOSBeegnxa98QlIn"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Dragon Wings</strong> activity includes an Active Effect that
-      grants you a Fly Speed of 60 feet.</p><p>The <strong>Restore Use</strong>
-      activity can be used to expend the Sorcery Points to restore a use of the
-      <strong>Dragon Wings</strong> activity.</p></section>
+      <p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you
+      dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p><p>Once you use this
+      feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action
+      required) to restore your use of it.</p><section class="secret" id="secret-sOSBeegnxa98QlIn"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Dragon Wings</strong> activity includes an Active Effect that grants you a Fly
+      Speed of 60 feet.</p><p>The <strong>Restore Use</strong> activity can be used to expend the Sorcery Points to
+      restore a use of the <strong>Dragon Wings</strong> activity.</p></section>
     chat: ''
   source:
     custom: ''
@@ -170,8 +166,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>he wings last for 1 hour or until you dismiss them (no action
-      required). For the duration, you have a Fly Speed of 60 feet.</p>
+      <p>he wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed
+      of 60 feet.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

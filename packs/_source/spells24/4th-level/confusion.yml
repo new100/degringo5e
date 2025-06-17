@@ -2,16 +2,13 @@ name: Confusion
 system:
   description:
     value: >-
-      <p>Each creature in a 10-foot-radius Sphere centered on a point you choose
-      within range must succeed on a Wisdom saving throw, or that target can't
-      take Bonus Actions or Reactions and must roll 1d10 at the start of each of
-      its turns to determine its behavior for that turn, consulting the table
-      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
-      rollable cite=false classes="caption-top"]{Behavior for the Turn}</p><p>At
-      the end of each of its turns, an affected target repeats the save, ending
-      the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell
-      Slot.</strong> The Sphere's radius increases by 5 feet for each spell slot
-      level above 4.</p>
+      <p>Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom
+      saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its
+      turns to determine its behavior for that turn, consulting the table
+      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB rollable cite=false
+      classes="caption-top"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target repeats
+      the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+      Sphere's radius increases by 5 feet for each spell slot level above 4.</p>
     chat: ''
   source:
     custom: ''
@@ -125,13 +122,11 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at
-      the start of each of its turns to determine its behavior for that turn,
-      consulting the table
-      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
-      rollable cite=false classes="caption-top"]{Behavior for the Turn}</p><p>At
-      the end of each of its turns, an affected target repeats the [[/save
-      ability=wis]] save, ending the spell on itself on a success.</p>
+      <p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to
+      determine its behavior for that turn, consulting the table
+      below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB rollable cite=false
+      classes="caption-top"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target repeats
+      the [[/save ability=wis]] save, ending the spell on itself on a success.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

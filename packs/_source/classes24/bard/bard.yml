@@ -6,38 +6,25 @@ img: systems/degringo5e/icons/classes/bard.webp
 system:
   description:
     value: >-
-      <h3>Core Bard Traits</h3><table
-      class="core-class-traits"><tbody><tr><th><p><strong>Primary
-      Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th><p><strong>Hit
-      Point Die</strong></p></th><td><p>D8 per Bard
-      level</p></td></tr><tr><th><p><strong>Saving Throw
-      Proficiencies</strong></p></th><td><p>Dexterity and
-      Charisma</p></td></tr><tr><th><p><strong>Skill
-      Proficiencies</strong></p></th><td><p><em>Choose any 3
-      skills</em></p></td></tr><tr><th><p><strong>Weapon
-      Proficiencies</strong></p></th><td><p>Simple
-      weapons</p></td></tr><tr><th><p><strong>Tool
-      Proficiencies</strong></p></th><td><p><em>Choose 3 Musical
-      Instruments</em></p></td></tr><tr><th><p><strong>Armor
-      Training</strong></p></th><td><p>Light
-      armor</p></td></tr><tr><th><p><strong>Starting
-      Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      2 @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      Musical Instrument of your choice,
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagEntertainer]{Entertainer's
-      Pack}, and [[/award 19gp]]; or (B) [[/award
+      <h3>Core Bard Traits</h3><table class="core-class-traits"><tbody><tr><th><p><strong>Primary
+      Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D8
+      per Bard level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Dexterity and
+      Charisma</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose any 3
+      skills</em></p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple
+      weapons</p></td></tr><tr><th><p><strong>Tool Proficiencies</strong></p></th><td><p><em>Choose 3 Musical
+      Instruments</em></p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light
+      armor</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers}, Musical Instrument of your choice,
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagEntertainer]{Entertainer's Pack}, and [[/award 19gp]]; or (B)
+      [[/award
       90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Bard …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Bard Traits
-      table.</li><li>Gain the Bard's level 1 features, which are listed in the
-      Bard Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the following traits from the Core Bard Traits
-      table: Hit Point Die, proficiency in one skill of your choice, proficiency
-      with one Musical Instrument of your choice, and training with Light
-      armor.</li><li>Gain the Bard's level 1 features, which are listed in the
-      Bard Features table. See the multiclassing rules in chapter 2 to determine
-      your available spell slots.</li></ul>
+      inline classes="free-rules-embed"]</p><h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Bard Traits table.</li><li>Gain the Bard's level 1 features, which are listed in the Bard
+      Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Bard
+      Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of
+      your choice, and training with Light armor.</li><li>Gain the Bard's level 1 features, which are listed in the Bard
+      Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>
     chat: ''
   source:
     custom: ''

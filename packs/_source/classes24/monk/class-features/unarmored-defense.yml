@@ -6,11 +6,9 @@ img: icons/magic/control/silhouette-hold-change-blue.webp
 system:
   description:
     value: >-
-      <p>While you aren't wearing armor or wielding a Shield, your base Armor
-      Class equals 10 plus your Dexterity and Wisdom modifiers.</p><section
-      class="secret" id="secret-yjsIRRlbUz035Dnj"><p><strong>Foundry
-      Note</strong></p><p>This feature includes an Active Effect which updates
-      your Armor Class.</p></section>
+      <p>While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and
+      Wisdom modifiers.</p><section class="secret" id="secret-yjsIRRlbUz035Dnj"><p><strong>Foundry
+      Note</strong></p><p>This feature includes an Active Effect which updates your Armor Class.</p></section>
     chat: ''
   source:
     custom: ''
@@ -57,8 +55,7 @@ effects:
     description: ''
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classfeatures.Item.UAvV7N7T4zJhxdfI.ActiveEffect.R5ro4AuNjcdWD56O
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.UAvV7N7T4zJhxdfI.ActiveEffect.R5ro4AuNjcdWD56O
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

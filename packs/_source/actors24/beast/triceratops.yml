@@ -594,9 +594,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p> The [[lookup @name lowercase]] makes two [[/item
-          .mmGore0000000000]] attacks.</p>
+        value: <p> The [[lookup @name lowercase]] makes two [[/item .mmGore0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -770,11 +768,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]]
-          creature and the [[lookup @name lowercase]] moved 20+ feet straight
-          toward it immediately before the hit, the target takes an extra
-          [[/damage 2d8 average type=piercing]] damage and has the
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a [[lookup @target.affects.special
+          activity=iBenqFiBu40bUxkH]] creature and the [[lookup @name lowercase]] moved 20+ feet straight toward it
+          immediately before the hit, the target takes an extra [[/damage 2d8 average type=piercing]] damage and has the
           &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: gore
@@ -856,8 +852,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Prone apply=false] condition if
-          the attacking creature used its moving attack feature.</p>
+          <p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving
+          attack feature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -874,8 +870,7 @@ items:
           modifiedTime: 1738094721969
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTriceratops000.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmTriceratops000.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:

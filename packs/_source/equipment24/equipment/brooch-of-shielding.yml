@@ -11,11 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <div><p><em>Wondrous Item, Uncommon (Requires
-      Attunement)</em></p></div><p>While wearing this brooch, you have
+      <div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While wearing this brooch, you have
       Resistance to Force damage, and you have Immunity to damage from the
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
-      Missile}</em> spell.</p>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>
     chat: ''
   identifier: brooch-of-shielding
   source:
@@ -78,8 +76,7 @@ effects:
       startTurn: null
     description: >-
       <p>Additionally, you have Immunity to damage from the
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
-      Missile}</em> spell.</p>
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell.</p>
     origin: null
     tint: '#ffffff'
     transfer: true

@@ -491,22 +491,17 @@ items:
     system:
       description:
         value: >-
-          <p>The aboleth targets one creature it can see within 30 ft. of it.
-          The target must succeed on a [[/save]] saving throw or be magically
-          &amp;Reference[charmed] by the aboleth until the aboleth dies or until
-          it is on a different plane of existence from the target.</p><p>The
-          charmed target is under the aboleth's control and can't take
-          reactions, and the aboleth and the target can communicate
-          telepathically with each other over any distance.Whenever the charmed
-          target takes damage, the target can repeat the saving throw. On a
-          success, the effect ends. No more than once every 24 hours, the target
-          can also repeat the saving throw when it is at least 1 mile away from
-          the aboleth.</p>
+          <p>The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a [[/save]]
+          saving throw or be magically &amp;Reference[charmed] by the aboleth until the aboleth dies or until it is on a
+          different plane of existence from the target.</p><p>The charmed target is under the aboleth's control and
+          can't take reactions, and the aboleth and the target can communicate telepathically with each other over any
+          distance.Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the
+          effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least
+          1 mile away from the aboleth.</p>
         chat: >-
-          <p>The target must make a <strong>Wisdom</strong> saving throw.
-          Whenever the target takes damage, the target can repeat the saving
-          throw. No more than once every 24 hours, the target can also repeat
-          the saving throw when it is at least 1 mile away from the aboleth.</p>
+          <p>The target must make a <strong>Wisdom</strong> saving throw. Whenever the target takes damage, the target
+          can repeat the saving throw. No more than once every 24 hours, the target can also repeat the saving throw
+          when it is at least 1 mile away from the aboleth.</p>
       source:
         custom: ''
         book: ''
@@ -877,9 +872,8 @@ items:
     system:
       description:
         value: >-
-          <p>One creature charmed by the aboleth takes [[/damage average]]
-          damage, and the aboleth regains hit points equal to the damage the
-          creature takes.</p>
+          <p>One creature charmed by the aboleth takes [[/damage average]] damage, and the aboleth regains hit points
+          equal to the damage the creature takes.</p>
         chat: ''
       source:
         custom: ''
@@ -997,15 +991,12 @@ items:
     system:
       description:
         value: >-
-          <p>While underwater, the aboleth is surrounded by transformative
-          mucus. A creature that touches the aboleth or that hits it with a
-          melee attack while within 5 ft. of it must make a [[/save]] saving
-          throw. On a failure, the creature is diseased for [[/r 1d4]] hours.
-          The diseased creature can breathe only underwater.</p>
+          <p>While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or
+          that hits it with a melee attack while within 5 ft. of it must make a [[/save]] saving throw. On a failure,
+          the creature is diseased for [[/r 1d4]] hours. The diseased creature can breathe only underwater.</p>
         chat: >-
-          <p>While underwater, the aboleth is surrounded by transformative
-          mucus. A creature that touches the aboleth or that hits it with a
-          melee attack while within <strong>5 ft.</strong> of it must make a
+          <p>While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or
+          that hits it with a melee attack while within <strong>5 ft.</strong> of it must make a
           <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
@@ -1112,9 +1103,8 @@ items:
     system:
       description:
         value: >-
-          <p>If a creature communicates telepathically with the aboleth, the
-          aboleth learns the creature's greatest desires if the aboleth can see
-          the creature.</p>
+          <p>If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest
+          desires if the aboleth can see the creature.</p>
         chat: ''
       source:
         custom: ''
@@ -1162,8 +1152,8 @@ items:
       description:
         value: "<p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a [[/save]] saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes\_[[/damage average activity=dnd5eactivity100]]\_damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.</p>"
         chat: >-
-          <p>The Aboleth attacks with its Tentacle. If the target is a creature,
-          it must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The Aboleth attacks with its Tentacle. If the target is a creature, it must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1617,9 +1607,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The aboleth makes three [[/item .sgauK8Lyt8qxsxOH]]{tentacle}
-          attacks.</p>
+        value: <p>The aboleth makes three [[/item .sgauK8Lyt8qxsxOH]]{tentacle} attacks.</p>
         chat: ''
       source:
         custom: ''

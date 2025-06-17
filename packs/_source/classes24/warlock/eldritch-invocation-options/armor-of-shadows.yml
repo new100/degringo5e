@@ -5,13 +5,10 @@ img: icons/magic/control/control-influence-rally-purple.webp
 system:
   description:
     value: >-
-      <p>You can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage Armor} on
-      yourself without expending a spell slot.</p><section
-      id="secret-G6Bmiw5YEqEfBh2e" class="secret"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Mage Armor</strong> activity is configured
-      with the spell's effect and duration, including an Active Effect to set
-      the spell's provided AC formula.</p></section>
+      <p>You can cast @UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage Armor} on yourself without
+      expending a spell slot.</p><section id="secret-G6Bmiw5YEqEfBh2e" class="secret"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Mage Armor</strong> activity is configured with the spell's effect and duration,
+      including an Active Effect to set the spell's provided AC formula.</p></section>
     chat: ''
   source:
     custom: ''
@@ -107,8 +104,7 @@ effects:
     description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+      compendiumSource: Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

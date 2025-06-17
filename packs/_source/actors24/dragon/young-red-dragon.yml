@@ -605,9 +605,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -888,12 +886,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot Cone</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot Cone</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:

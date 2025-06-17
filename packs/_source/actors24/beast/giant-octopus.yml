@@ -559,8 +559,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can breathe only underwater. It can
-          hold its breath for 1 hour outside water.</p>
+          <p>The [[lookup @name lowercase]] can breathe only underwater. It can hold its breath for 1 hour outside
+          water.</p>
         chat: ''
       identifier: water-breathing
       source:
@@ -711,11 +711,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]) from all eight tentacles. While Grappled, the
-          target has the &amp;Reference[Restrained apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]])
+          from all eight tentacles. While Grappled, the target has the &amp;Reference[Restrained apply=false]
+          condition.</p>
         chat: ''
       identifier: tentacles
       source:
@@ -798,10 +797,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[/check ability=str skill=ath format=long]], see source
-          item for DC).While Grappled, the target has the
-          &amp;Reference[Restrained apply=false] condition.</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC).While Grappled, the target has the &amp;Reference[Restrained
+          apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -819,8 +817,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOctopus00.mmTentacles00000.GyZrmzBP0NB8oRZI
+        _key: '!actors.items.effects!mmGiantOctopus00.mmTentacles00000.GyZrmzBP0NB8oRZI'
     flags:
       degringo5e:
         riders:
@@ -902,13 +899,11 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Trigger</em>: The [[lookup @name lowercase]] takes damage while
-          underwater. <em>Response</em>: The [[lookup @name lowercase]] releases
-          ink that fills a [[lookup @target.template.size
-          activity=1MiIPcVuCpfgBIkS]]-foot Cube centered on itself, and the
-          [[lookup @name lowercase]] moves up to its Swim Speed. The Cube is
-          Heavily Obscured for 1 minute or until a strong current or similar
-          effect disperses the ink.</p>
+          <p><em>Trigger</em>: The [[lookup @name lowercase]] takes damage while underwater. <em>Response</em>: The
+          [[lookup @name lowercase]] releases ink that fills a [[lookup @target.template.size
+          activity=1MiIPcVuCpfgBIkS]]-foot Cube centered on itself, and the [[lookup @name lowercase]] moves up to its
+          Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses
+          the ink.</p>
         chat: ''
       identifier: ink-cloud
       source:

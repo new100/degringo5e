@@ -640,23 +640,16 @@ items:
         max: '4'
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] ends any turn
-          Bloodied and took 15+ Slashing damage during that turn, one of the
-          [[lookup @name lowercase]]l's limbs is severed, falls into the
-          [[lookup @name lowercase]]'s space, and becomes a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTrollLimb00000]{Troll
-          Limb}</strong>. The limb acts immediately after the [[lookup @name
-          lowercase]]'s turn. The [[lookup @name lowercase]] has 1
-          &amp;Reference[Exhaustion apply=false] level for each missing limb,
-          and it grows replacement limbs the next time it regains Hit
-          Points.</p><section class="secret"
-          id="secret-01PBOuaZ8xS1KYt6"><p><strong>Foundry
-          Note</strong></p><p>This feature provides an <strong>Active
-          Effect</strong> condition in the character sheet's Effects tab to
-          enable each level of Exhaustion. Since the condition can be applied
-          multiple times, the GM must manually manage the level of Exhaustion. 
-          There is an active effect available for each level of
-          exhaustion.</p></section>
+          <p class="feature">If the [[lookup @name lowercase]] ends any turn Bloodied and took 15+ Slashing damage
+          during that turn, one of the [[lookup @name lowercase]]l's limbs is severed, falls into the [[lookup @name
+          lowercase]]'s space, and becomes a <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTrollLimb00000]{Troll
+          Limb}</strong>. The limb acts immediately after the [[lookup @name lowercase]]'s turn. The [[lookup @name
+          lowercase]] has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb, and it grows replacement
+          limbs the next time it regains Hit Points.</p><section class="secret"
+          id="secret-01PBOuaZ8xS1KYt6"><p><strong>Foundry Note</strong></p><p>This feature provides an <strong>Active
+          Effect</strong> condition in the character sheet's Effects tab to enable each level of Exhaustion. Since the
+          condition can be applied multiple times, the GM must manually manage the level of Exhaustion.  There is an
+          active effect available for each level of exhaustion.</p></section>
         chat: ''
       identifier: loathsome-limbs
       source:
@@ -693,9 +686,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -712,8 +703,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.PFledLQkQ75osOlZ
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.PFledLQkQ75osOlZ'
       - name: Exhaustion 2
         img: systems/degringo5e/icons/svg/statuses/exhaustion-2.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
@@ -729,9 +719,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -749,8 +737,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: AVZPkC07GONXpRMe
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.AVZPkC07GONXpRMe
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.AVZPkC07GONXpRMe'
       - name: Exhaustion 3
         img: systems/degringo5e/icons/svg/statuses/exhaustion-3.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
@@ -766,9 +753,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -786,8 +771,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: l1PiPpfAiF9TWs88
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.l1PiPpfAiF9TWs88
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.l1PiPpfAiF9TWs88'
       - name: Exhaustion 4
         img: systems/degringo5e/icons/svg/statuses/exhaustion-4.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
@@ -803,9 +787,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -823,8 +805,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: DCB7xWKhKSEmZHNn
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.DCB7xWKhKSEmZHNn
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.DCB7xWKhKSEmZHNn'
       - name: Exhaustion 5
         img: systems/degringo5e/icons/svg/statuses/exhaustion-5.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
@@ -840,9 +821,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -860,8 +839,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: 9Tc60NhDJH43WdEU
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.9Tc60NhDJH43WdEU
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.9Tc60NhDJH43WdEU'
       - name: Exhaustion Dead
         img: systems/degringo5e/icons/svg/statuses/exhaustion-6.svg
         origin: Compendium.dnd-monster-manual.features.Item.mmLoathsomeLimbs
@@ -877,9 +855,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for
-          each missing limb.</p>
+        description: <p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -897,8 +873,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: drQriWAwmwosemzp
-        _key: >-
-          !actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.drQriWAwmwosemzp
+        _key: '!actors.items.effects!mmTroll000000000.mmLoathsomeLimbs.drQriWAwmwosemzp'
     flags:
       degringo5e:
         riders:
@@ -983,9 +958,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula
-          activity=5cGvjZJIJVicjJ3d]] Hit Points at the start of each of its
-          turns if it has at least 1 Hit Point.</p>
+          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] Hit Points at
+          the start of each of its turns if it has at least 1 Hit Point.</p>
         chat: ''
       identifier: regeneration
       source:
@@ -1084,9 +1058,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1320,8 +1292,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] moves up to [[lookup @range.special
-          activity=Y2IncZu5BjB42z7l]] straight toward an enemy it can see.</p>
+          <p>The [[lookup @name lowercase]] moves up to [[lookup @range.special activity=Y2IncZu5BjB42z7l]] straight
+          toward an enemy it can see.</p>
         chat: ''
       identifier: charge
       source:

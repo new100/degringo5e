@@ -71,10 +71,9 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must
-      succeed on a DC 11 Constitution saving throw or have the
-      &amp;Reference[Poisoned] condition for 1 hour. The Poisoned creature can't
-      knowingly communicate a lie.</p>
+      <p><em>Ingested Poison</em></p><p>A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving
+      throw or have the &amp;Reference[Poisoned] condition for 1 hour. The Poisoned creature can't knowingly communicate
+      a lie.</p>
     chat: ''
   identifier: truth-serum
   source:
@@ -114,8 +113,7 @@ system:
   properties: []
 effects:
   - name: Poisoned
-    img: >-
-      icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp
+    img: icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp
     origin: Compendium.degringo5e.equipment24.Item.dmgTruthSerum000
     transfer: false
     _id: tA62YPOpn76531tv
@@ -138,8 +136,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

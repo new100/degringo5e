@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0 caption=false]</p>
       public: ''
     alignment: Neutral
     type:
@@ -483,9 +481,8 @@ items:
     system:
       description:
         value: >-
-          <p> When you regain Hit Points from a level 1+ spell, the steed
-          regains the same number of Hit Points if you're within 5 feet of
-          it.</p>
+          <p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if
+          you're within 5 feet of it.</p>
         chat: ''
       source:
         custom: ''
@@ -539,9 +536,8 @@ items:
     system:
       description:
         value: >-
-          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell's level of
-          Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>
+          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus
+          the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>
         chat: ''
       source:
         custom: ''
@@ -673,10 +669,9 @@ items:
     system:
       description:
         value: >-
-          <p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one
-          creature within 60 feet the steed can see. <em>Failure:</em> The
-          target has the &amp;Reference[frightened apply=false] condition until
-          the end of your next turn.</p>
+          <p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see.
+          <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the end of your
+          next turn.</p>
         chat: ''
       source:
         custom: ''
@@ -806,8 +801,7 @@ items:
           modifiedTime: 1725984124938
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbmobOtherworld.phbaoiFellGlareF.mvCvu3ezA2FV5IeR
+        _key: '!actors.items.effects!phbmobOtherworld.phbaoiFellGlareF.mvCvu3ezA2FV5IeR'
     folder: null
     sort: 0
     ownership:
@@ -832,8 +826,8 @@ items:
     system:
       description:
         value: >-
-          <p> The steed teleports, along with its rider, to an unoccupied space
-          of your choice up to 60 feet away from itself.</p>
+          <p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from
+          itself.</p>
         chat: ''
       source:
         custom: ''
@@ -950,8 +944,8 @@ items:
     system:
       description:
         value: >-
-          <p> One creature within 5 feet of the steed regains a number of Hit
-          Points equal to 2d8 plus the spell's level.</p>
+          <p> One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell's
+          level.</p>
         chat: ''
       source:
         custom: ''

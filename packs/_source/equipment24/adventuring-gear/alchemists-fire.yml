@@ -2,12 +2,10 @@ name: Alchemist's Fire
 system:
   description:
     value: >-
-      <p>When you take the Attack action, you can replace one of your attacks
-      with throwing a flask of Alchemist's Fire. Target one creature or object
-      you can see within 20 feet of yourself. The target must succeed on a
-      Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency
-      Bonus) or take [[/damage 1d4 type=fire]] damage and start
-      &amp;Reference[burning].</p>
+      <p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire.
+      Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity
+      saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage
+      and start &amp;Reference[burning].</p>
     chat: ''
   price:
     value: 50

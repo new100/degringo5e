@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGiantInsec
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplGiantInsec caption=false]</p>
       public: ''
     alignment: Unaligned
     type:
@@ -480,8 +478,8 @@ items:
     system:
       description:
         value: >-
-          <p> The insect can climb difficult surfaces, including along ceilings,
-          without needing to make an ability check.</p>
+          <p> The insect can climb difficult surfaces, including along ceilings, without needing to make an ability
+          check.</p>
         chat: ''
       source:
         custom: ''
@@ -531,9 +529,8 @@ items:
     system:
       description:
         value: >-
-          <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
-          2)]]{Number of attacks}</p>
+          <p>The insect makes a number of attacks equal to half this spell's level (round
+          down).</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of attacks}</p>
         chat: ''
       source:
         custom: ''
@@ -643,9 +640,8 @@ items:
     system:
       description:
         value: >-
-          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3 plus the spell's level
-          Piercing damage plus 1d4 Poison damage.</p>
+          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3
+          plus the spell's level Piercing damage plus 1d4 Poison damage.</p>
         chat: ''
       source:
         custom: ''
@@ -785,10 +781,9 @@ items:
     system:
       description:
         value: >-
-          <p> <em>Ranged Attack Roll:</em> Bonus equals your spell attack
-          modifier, range 60 ft. <em>Hit:</em> 1d10 + 3 plus the spell's level
-          Bludgeoning damage, and the target's Speed is reduced to 0 until the
-          start of the insect's next turn.</p>
+          <p> <em>Ranged Attack Roll:</em> Bonus equals your spell attack modifier, range 60 ft. <em>Hit:</em> 1d10 + 3
+          plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the
+          insect's next turn.</p>
         chat: ''
       source:
         custom: ''
@@ -931,8 +926,8 @@ items:
             value: '0'
             priority: null
         description: >-
-          <p><span style="font-family:Signika, sans-serif">The target’s Speed is
-          reduced to 0 until the start of the insect’s next turn.</span></p>
+          <p><span style="font-family:Signika, sans-serif">The target’s Speed is reduced to 0 until the start of the
+          insect’s next turn.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -947,8 +942,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbmobGiantInsec.phbaoiWebBoltSpi.Gvwt9wpCcJgC0yMl
+        _key: '!actors.items.effects!phbmobGiantInsec.phbaoiWebBoltSpi.Gvwt9wpCcJgC0yMl'
     folder: null
     sort: 0
     ownership:
@@ -969,10 +963,9 @@ items:
     system:
       description:
         value: >-
-          <p><em>Constitution Saving Throw:</em> Your spell save DC, one
-          creature the insect can see within 10 feet. <em>Failure:</em> The
-          target has the &amp;Reference[Poisoned apply=false] condition until
-          the start of the insect's next turn.</p>
+          <p><em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet.
+          <em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition until the start of the
+          insect's next turn.</p>
         chat: ''
       source:
         custom: ''
@@ -1084,16 +1077,15 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the insect’s next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the insect’s next
+          turn.</p>
         tint: '#ffffff'
         statuses:
           - poisoned
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbginGiantCenti.Item.phbaoiVenomousSp.ActiveEffect.uUvxWKSj8qQRIbTK
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1102,8 +1094,7 @@ items:
           modifiedTime: 1725916429627
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbmobGiantInsec.phbaoiVenomousSp.jVWtHTrlPNi4dpDi
+        _key: '!actors.items.effects!phbmobGiantInsec.phbaoiVenomousSp.jVWtHTrlPNi4dpDi'
     folder: null
     sort: 0
     ownership:

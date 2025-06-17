@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplBigbysHand
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplBigbysHand caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -485,8 +483,8 @@ items:
     system:
       description:
         value: >-
-          <p> The hand strikes a target within 5 feet of it. Make a melee spell
-          attack. On a hit, the target takes 5d8 Force damage.</p>
+          <p> The hand strikes a target within 5 feet of it. Make a melee spell attack. On a hit, the target takes 5d8
+          Force damage.</p>
         chat: ''
       source:
         custom: ''
@@ -617,11 +615,9 @@ items:
     system:
       description:
         value: >-
-          <p>The hand attempts to push a Huge or smaller creature within 5 feet
-          of it. The target must succeed on a Strength saving throw, or the hand
-          pushes the target up to 5 feet plus a number of feet equal to five
-          times your spellcasting ability modifier. The hand moves with the
-          target, remaining within 5 feet of it.</p>
+          <p>The hand attempts to push a Huge or smaller creature within 5 feet of it. The target must succeed on a
+          Strength saving throw, or the hand pushes the target up to 5 feet plus a number of feet equal to five times
+          your spellcasting ability modifier. The hand moves with the target, remaining within 5 feet of it.</p>
         chat: ''
       source:
         custom: ''
@@ -737,15 +733,12 @@ items:
     system:
       description:
         value: >-
-          <p>The hand attempts to grapple a Huge or smaller creature within 5
-          feet of it. The target must succeed on a Dexterity saving throw, or
-          the target has the &amp;Reference[Grappled] condition, with an escape
-          DC equal to your spell save DC. While the hand grapples the target,
-          you can take a Bonus Action to cause the hand to crush it, dealing
-          Bludgeoning damage to the target equal to 4d6 plus your spellcasting
-          ability modifier.</p><h3>Grapple Escape Tests</h3><p>[[/check
-          ability=str skill=ath dc=8+@prof+@flags.degringo5e.summon.mod]]{Strength
-          (Athletics)} [[/check ability=dex skill=acr
+          <p>The hand attempts to grapple a Huge or smaller creature within 5 feet of it. The target must succeed on a
+          Dexterity saving throw, or the target has the &amp;Reference[Grappled] condition, with an escape DC equal to
+          your spell save DC. While the hand grapples the target, you can take a Bonus Action to cause the hand to crush
+          it, dealing Bludgeoning damage to the target equal to 4d6 plus your spellcasting ability
+          modifier.</p><h3>Grapple Escape Tests</h3><p>[[/check ability=str skill=ath
+          dc=8+@prof+@flags.degringo5e.summon.mod]]{Strength (Athletics)} [[/check ability=dex skill=acr
           dc=8+@prof+@flags.degringo5e.summon.mod]]{Dexterity (Acrobatics)}</p>
         chat: ''
       source:
@@ -887,9 +880,7 @@ items:
             parts:
               - custom:
                   enabled: true
-                  formula: >-
-                    (2 * @flags.degringo5e.summon.level - 6)d6 +
-                    @flags.degringo5e.summon.mod
+                  formula: (2 * @flags.degringo5e.summon.level - 6)d6 + @flags.degringo5e.summon.mod
                 number: null
                 denomination: 0
                 bonus: ''
@@ -932,10 +923,9 @@ items:
     system:
       description:
         value: >-
-          <p>The hand grants you &amp;Reference[HalfCover] against attacks and
-          other effects that originate from its space or that pass through it.
-          In addition, its space counts as &amp;Reference[DifficultTerrain] for
-          your enemies.</p>
+          <p>The hand grants you &amp;Reference[HalfCover] against attacks and other effects that originate from its
+          space or that pass through it. In addition, its space counts as &amp;Reference[DifficultTerrain] for your
+          enemies.</p>
         chat: ''
       source:
         custom: ''
@@ -1057,8 +1047,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Actor.phbsplBigbysHand.Item.phbaoiInterposin.ActiveEffect.wDcd4bpCErQfW0To
+          compendiumSource: Actor.phbsplBigbysHand.Item.phbaoiInterposin.ActiveEffect.wDcd4bpCErQfW0To
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1067,8 +1056,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbsplBigbysHand.phbaoiInterposin.wDcd4bpCErQfW0To
+        _key: '!actors.items.effects!phbsplBigbysHand.phbaoiInterposin.wDcd4bpCErQfW0To'
       - name: Interposed
         img: icons/magic/earth/barrier-stone-explosion-debris.webp
         origin: Compendium.degringo5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin
@@ -1086,9 +1074,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>Granting you &amp;Reference[HalfCover] from attacks or effects that
-          pass through its space.</p>
+        description: <p>Granting you &amp;Reference[HalfCover] from attacks or effects that pass through its space.</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -1103,8 +1089,7 @@ items:
           modifiedTime: 1725985869321
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbsplBigbysHand.phbaoiInterposin.7kq0juDjYR7wlwee
+        _key: '!actors.items.effects!phbsplBigbysHand.phbaoiInterposin.7kq0juDjYR7wlwee'
     folder: null
     sort: 0
     ownership:

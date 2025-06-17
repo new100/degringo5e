@@ -1025,9 +1025,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .XMKFiS5XUEC4fLCr]] or [[/item .4C5jy0VkmoTdrbTC]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .XMKFiS5XUEC4fLCr]] or [[/item
+          .4C5jy0VkmoTdrbTC]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1149,16 +1148,13 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] moves up to its
-          Speed without provoking &amp;Reference[OpportunityAttacks] and can
-          move through the spaces of [[lookup @target.affects.special
-          activity=FG9rAj3Q8UTxbGLF]]. Each [[lookup @target.affects.type
-          activity=FG9rAj3Q8UTxbGLF]] whose space the [[lookup @name lowercase]]
-          enters is targeted once by the following effect.</p><p
-          class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=FG9rAj3Q8UTxbGLF]].</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target has the &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature">The [[lookup @name lowercase]] moves up to its Speed without provoking
+          &amp;Reference[OpportunityAttacks] and can move through the spaces of [[lookup @target.affects.special
+          activity=FG9rAj3Q8UTxbGLF]]. Each [[lookup @target.affects.type activity=FG9rAj3Q8UTxbGLF]] whose space the
+          [[lookup @name lowercase]] enters is targeted once by the following effect.</p><p class="feature"><em>Strength
+          Saving Throw:</em> DC [[lookup @save.dc.value activity=FG9rAj3Q8UTxbGLF]].</p><p
+          class="feature"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Prone
+          apply=false] condition.</p>
         chat: ''
       identifier: trampling-charge
       source:
@@ -1196,9 +1192,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has a &amp;Reference[Prone apply=long]
-          condition.</p><p></p>
+        description: <p>The target has a &amp;Reference[Prone apply=long] condition.</p><p></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1224,8 +1218,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCentaurTrooper.mmTramplingCharg.OY3B1NBPgGcFmHGi
+        _key: '!actors.items.effects!mmCentaurTrooper.mmTramplingCharg.OY3B1NBPgGcFmHGi'
     flags:
       degringo5e:
         riders:

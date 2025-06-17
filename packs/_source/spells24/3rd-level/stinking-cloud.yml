@@ -2,16 +2,12 @@ name: Stinking Cloud
 system:
   description:
     value: >-
-      <p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered
-      on a point within range. The cloud is &amp;Reference[heavilyobscured]. The
-      cloud lingers in the air for the duration or until a strong wind (such as
-      the one created by
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
-      Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the
-      Sphere must succeed on a Constitution saving throw or have the
-      &amp;Reference[poisoned apply=false] condition until the end of the
-      current turn. While Poisoned in this way, the creature can't take an
-      action or a Bonus Action.</p>
+      <p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is
+      &amp;Reference[heavilyobscured]. The cloud lingers in the air for the duration or until a strong wind (such as the
+      one created by <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses
+      it.</p><p>Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the
+      &amp;Reference[poisoned apply=false] condition until the end of the current turn. While Poisoned in this way, the
+      creature can't take an action or a Bonus Action.</p>
     chat: ''
   source:
     custom: ''
@@ -181,8 +177,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>While &amp;Reference[poisoned apply=false] in this way, the creature
-      can’t take an action or a Bonus Action.</p>
+      <p>While &amp;Reference[poisoned apply=false] in this way, the creature can’t take an action or a Bonus
+      Action.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

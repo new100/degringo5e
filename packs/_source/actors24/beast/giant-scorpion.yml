@@ -605,9 +605,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks and one [[/item .mmSting000000000]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks and one [[/item
+          .mmSting000000000]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -761,10 +760,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]].  If the target
-          is a Large or smaller creature, it has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from
-          one of two claws.</p>
+          <p>[[/attack extended]]. [[/damage average extended]].  If the target is a Large or smaller creature, it has
+          the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of two
+          claws.</p>
         chat: ''
       identifier: claw
       source:
@@ -845,9 +843,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[/check ability=str skill=ath format=long]], see source
-          item for DC).</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -864,8 +861,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantScorpion0.mmClaw0000000000.4UopxSJg0E7WAHOk
+        _key: '!actors.items.effects!mmGiantScorpion0.mmClaw0000000000.4UopxSJg0E7WAHOk'
     flags:
       degringo5e:
         riders:

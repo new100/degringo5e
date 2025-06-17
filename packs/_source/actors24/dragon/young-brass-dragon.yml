@@ -602,9 +602,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks.  It can replace two attacks with a use of
-          [[/item .mmSleepBreath000]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks.  It can replace two attacks
+          with a use of [[/item .mmSleepBreath000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -861,13 +860,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width
-          activity=bDqgmtLG3zcVuqdi]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:
@@ -1032,18 +1028,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup
-          @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup
-          @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Incapacitated apply=false] condition until the end of
-          its next turn, at which point it repeats the save.</p><p
-          class="feature"><em>Second Failure:</em> The target has the
-          &amp;Reference[Unconscious apply=false] condition for [[lookup
-          @duration.value activity=EZma0lCmQeTuVuAL]] minute. This effect ends
-          for the target if it takes damage or a creature within 5 feet of it
-          takes an action to wake it.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]],
+          each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size
+          activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class="feature"><em>Failure:</em> The target has the
+          &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats
+          the save.</p><p class="feature"><em>Second Failure:</em> The target has the &amp;Reference[Unconscious
+          apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. This effect ends for
+          the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>
         chat: ''
       identifier: sleep-breath
       source:
@@ -1080,9 +1071,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the end of its next turn, at which point it repeats
-          the save.</p>
+          <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at
+          which point it repeats the save.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1108,8 +1098,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.9t5G87DeDyAF22dr
+        _key: '!actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.9t5G87DeDyAF22dr'
       - name: Unconscious
         img: systems/degringo5e/icons/svg/statuses/unconscious.svg
         origin: Item.mmSleepBreath000
@@ -1127,9 +1116,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Unconscious apply=false]
-          condition for the duration (see source item for the length of the
-          duration). </p>
+          <p>The target has the &amp;Reference[Unconscious apply=false] condition for the duration (see source item for
+          the length of the duration). </p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1155,8 +1143,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.eiPsvHBjVi4pRHqJ
+        _key: '!actors.items.effects!mmYoungBrassDrag.mmSleepBreath000.eiPsvHBjVi4pRHqJ'
     flags:
       degringo5e:
         riders:

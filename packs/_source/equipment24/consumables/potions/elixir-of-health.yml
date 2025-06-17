@@ -64,12 +64,10 @@ system:
     max: '1'
   description:
     value: >-
-      <div><p><em>Potion, Rare</em></p></div><p>When you drink this potion, you
-      are cured of all magical contagions. In addition, the following conditions
-      end on you: &amp;Reference[Blinded apply=false], &amp;Reference[Deafened
-      apply=false], &amp;Reference[Paralyzed apply=false], and
-      &amp;Reference[Poisoned apply=false].</p><p>The clear, red liquid has tiny
-      bubbles of light in it.</p>
+      <div><p><em>Potion, Rare</em></p></div><p>When you drink this potion, you are cured of all magical contagions. In
+      addition, the following conditions end on you: &amp;Reference[Blinded apply=false], &amp;Reference[Deafened
+      apply=false], &amp;Reference[Paralyzed apply=false], and &amp;Reference[Poisoned apply=false].</p><p>The clear,
+      red liquid has tiny bubbles of light in it.</p>
     chat: ''
   identifier: elixir-of-health
   source:

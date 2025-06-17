@@ -2,11 +2,10 @@ name: Comet
 system:
   description:
     value: >-
-      <p> The next time you enter combat against one or more Hostile creatures,
-      you can select one of them as your foe when you roll Initiative. If you
-      reduce your foe to 0 Hit Points during that combat, you have Advantage on
-      Death Saving Throws for 1 year. If someone else reduces your chosen foe to
-      0 Hit Points or you don't choose a foe, this card has no effect.</p>
+      <p> The next time you enter combat against one or more Hostile creatures, you can select one of them as your foe
+      when you roll Initiative. If you reduce your foe to 0 Hit Points during that combat, you have Advantage on Death
+      Saving Throws for 1 year. If someone else reduces your chosen foe to 0 Hit Points or you don't choose a foe, this
+      card has no effect.</p>
     chat: ''
   price:
     value: 0
@@ -183,8 +182,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>If you reduce your foe to 0 Hit Points during that combat, you have
-      Advantage on Death Saving Throws for 1 year.</p>
+      <p>If you reduce your foe to 0 Hit Points during that combat, you have Advantage on Death Saving Throws for 1
+      year.</p>
     tint: '#ffffff'
     statuses:
       - marked
@@ -219,9 +218,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtComet00000]{Comet}</em></p><p>You
-      have Advantage on Death Saving Throws for 1 year.</p>
+      <p><em>Source: @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtComet00000]{Comet}</em></p><p>You have Advantage
+      on Death Saving Throws for 1 year.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

@@ -4,11 +4,9 @@ img: icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp
 system:
   description:
     value: >-
-      <p>A creature subjected to this poison must succeed on a [[/save]] saving
-      throw or become &amp;Reference[poisoned] for 1 hour. The poisoned creature
-      can't knowingly speak a lie, as if under the effect of a
-      @UUID[Compendium.degringo5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth}
-      spell.</p>
+      <p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned]
+      for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a
+      @UUID[Compendium.degringo5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>
     chat: ''
   source:
     custom: ''

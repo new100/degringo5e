@@ -2,14 +2,11 @@ name: Haste
 system:
   description:
     value: >-
-      <p>Choose a willing creature that you can see within range. Until the
-      spell ends, the target's Speed is doubled, it gains a +2 bonus to Armor
-      Class, it has Advantage on Dexterity saving throws, and it gains an
-      additional action on each of its turns. That action can be used to take
-      only the Attack (one attack only), Dash, Disengage, Hide, or Utilize
-      action.</p><p>When the spell ends, the target is
-      &amp;Reference[Incapacitated apply=false] and has a Speed of 0 until the
-      end of its next turn, as a wave of lethargy washes over it.</p>
+      <p>Choose a willing creature that you can see within range. Until the spell ends, the target's Speed is doubled,
+      it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action
+      on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or
+      Utilize action.</p><p>When the spell ends, the target is &amp;Reference[Incapacitated apply=false] and has a Speed
+      of 0 until the end of its next turn, as a wave of lethargy washes over it.</p>
     chat: ''
   source:
     custom: ''
@@ -195,14 +192,12 @@ effects:
         value: '2'
         priority: null
     description: >-
-      <p>Until the spell ends, the target’s Speed is doubled, it gains a +2
-      bonus to Armor Class, it has Advantage on Dexterity saving throws, and it
-      gains an additional action on each of its turns. That action can be used
-      to take only the Attack (one attack only), Dash, Disengage, Hide, or
-      Utilize action.</p><p>When the spell ends, the target is Incapacitated and
-      has a Speed of 0 until the end of its next turn, as a
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
-      of lethargy} washes over it.</p>
+      <p>Until the spell ends, the target’s Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on
+      Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take
+      only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.</p><p>When the spell ends, the target
+      is Incapacitated and has a Speed of 0 until the end of its next turn, as a
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave of lethargy} washes
+      over it.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []
@@ -256,9 +251,8 @@ effects:
         value: '0'
         priority: null
     description: >-
-      <p>When the spell ends, the target is &amp;Reference[incapacitated
-      apply=false] and has a Speed of 0 until the end of its next turn, as a
-      wave of lethargy washes over it.</p>
+      <p>When the spell ends, the target is &amp;Reference[incapacitated apply=false] and has a Speed of 0 until the end
+      of its next turn, as a wave of lethargy washes over it.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

@@ -570,9 +570,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]]'s thoughts can't be
-          read by any means, and other creatures can communicate with it
-          telepathically only if it allows them.</p>
+          <p class="feature">The [[lookup @name lowercase]]'s thoughts can't be read by any means, and other creatures
+          can communicate with it telepathically only if it allows them.</p>
         chat: ''
       identifier: shielded-mind
       source:
@@ -675,9 +674,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the end
-          of the [[lookup @name lowercase]]'s next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false] condition until the end of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: bite
       source:
@@ -760,8 +758,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the end of the biter's next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of the biter's next
+          turn.</p>
         tint: '#ffffff'
         statuses:
           - poisoned
@@ -777,8 +775,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.mmBite0000000000.6JlL9rZMoNowDipt
+        _key: '!actors.items.effects!mmCouatl00000000.mmBite0000000000.6JlL9rZMoNowDipt'
     flags:
       degringo5e:
         riders:
@@ -924,15 +921,12 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC
-          [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup
-          @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage. The target has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and
-          it has the &amp;Reference[Restrained apply=false] condition until the
-          grapple ends.</p>
+          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC [[lookup @save.dc.value
+          activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
+          [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]]
+          feet.</p><p><em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled
+          apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained
+          apply=false] condition until the grapple ends.</p>
         chat: ''
       identifier: constrict
       source:
@@ -970,9 +964,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><strong>Escape Tests (see source item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p><strong>Escape Tests (see source item for DC)</strong></p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
@@ -989,8 +982,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.mmConstrict00000.Hd0Gy3wJtPfObERq
+        _key: '!actors.items.effects!mmCouatl00000000.mmConstrict00000.Hd0Gy3wJtPfObERq'
     flags:
       degringo5e:
         riders:
@@ -1461,27 +1453,18 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no spell components and using Wisdom as
-          the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
-          and Good}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
-          Thoughts}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em>
-          (Beast or Humanoid form only, no Temporary Hit Points gained from the
-          spell, and no Concentration or Temporary Hit Points required to
-          maintain the spell)</p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateFood]{Create Food
-          and Water}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no spell
+          components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p
+          class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em> (Beast or Humanoid form
+          only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to
+          maintain the spell)</p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateFood]{Create Food and Water}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDream00000]{Dream}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-          Restoration}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSleep00000]{Sleep}</em></p>
         chat: ''
@@ -1526,12 +1509,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the location of any Aberration,
-          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
-          yourself. You also sense whether the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
-          spell is active there and, if so, where.</p><p>The spell is blocked by
-          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          <p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead
+          within 30 feet of yourself. You also sense whether the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so,
+          where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
         chat: ''
       source:
@@ -1660,14 +1641,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.3ov18jCeVA8S88kM.pOgbtXbKVGdbwjjE
+        _key: '!actors.items.effects!mmCouatl00000000.3ov18jCeVA8S88kM.pOgbtXbKVGdbwjjE'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.sUKT5AkbIsOvMwob
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.sUKT5AkbIsOvMwob
         changes:
           - key: system.properties
             mode: 2
@@ -1707,8 +1686,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.3ov18jCeVA8S88kM.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.3ov18jCeVA8S88kM.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4200000
     ownership:
@@ -1735,13 +1713,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1861,8 +1837,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1871,14 +1846,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.Z0LBB9pGvtGYmYtU.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmCouatl00000000.Z0LBB9pGvtGYmYtU.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.VJXld2yPGOLX7bKo
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.VJXld2yPGOLX7bKo
         changes:
           - key: system.properties
             mode: 2
@@ -1918,8 +1891,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.Z0LBB9pGvtGYmYtU.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.Z0LBB9pGvtGYmYtU.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1946,28 +1918,20 @@ items:
     system:
       description:
         value: >-
-          <p>You activate one of the effects below. Until the spell ends, you
-          can activate either effect as a Magic action on your later
-          turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence
-          of thoughts within 30 feet of yourself that belong to creatures that
-          know languages or are telepathic. You don't read the thoughts, but you
-          know that a thinking creature is present.</p><p>The spell is blocked
-          by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
-          lead.</p><p><strong>Read Thoughts.</strong> Target one creature you
-          can see within 30 feet of yourself or one creature within 30 feet of
-          yourself that you detected with the Sense Thoughts option. You learn
-          what is most on the target's mind right now. If the target doesn't
-          know any languages and isn't telepathic, you learn nothing.</p><p>As a
-          Magic action on your next turn, you can try to probe deeper into the
-          target's mind. If you probe deeper, the target makes a Wisdom saving
-          throw. On a failed save, you discern the target's reasoning, emotions,
-          and something that looms large in its mind (such as a worry, love, or
-          hate). On a successful save, the spell ends. Either way, the target
-          knows that you are probing into its mind, and until you shift your
-          attention away from the target's mind, the target can take an action
-          on its turn to make an [[/check ability=int skill=arc
-          dc=@attributes.spell.dc]] check against your spell save DC, ending the
-          spell on a success.</p>
+          <p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic
+          action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within
+          30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the
+          thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone,
+          dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one
+          creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected
+          with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't
+          know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can
+          try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a
+          failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as
+          a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are
+          probing into its mind, and until you shift your attention away from the target's mind, the target can take an
+          action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your
+          spell save DC, ending the spell on a success.</p>
         chat: ''
       source:
         custom: ''
@@ -2118,8 +2082,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.YIvGRNDJOZXwMZ8S
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.YIvGRNDJOZXwMZ8S
         changes:
           - key: system.properties
             mode: 2
@@ -2159,8 +2122,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.fvUMKr2MYY3v76q0.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.fvUMKr2MYY3v76q0.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4000000
     ownership:
@@ -2187,21 +2149,15 @@ items:
     system:
       description:
         value: >-
-          <p>You shape-shift into another creature for the duration or until you
-          take a Magic action to shape-shift into a different eligible form. The
-          new form must be of a creature that has a Challenge Rating no higher
-          than your level or Challenge Rating. You must have seen the sort of
-          creature before, and it can't be a Construct or an Undead.</p><p>When
-          you shape-shift, you gain a number of Temporary Hit Points equal to
-          the Hit Points of the form. The spell ends early if you have no
-          Temporary Hit Points left.</p><p>Your game statistics are replaced by
-          the stat block of the chosen form, but you retain your creature type;
-          alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit
-          Points; Hit Point Dice; proficiencies; and ability to communicate. If
-          you have the Spellcasting feature, you retain it too.</p><p>Upon
-          shape-shifting, you determine whether your equipment drops to the
-          ground or changes in size and shape to fit the new form while you're
-          in it.</p>
+          <p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into
+          a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your
+          level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an
+          Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the
+          form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced
+          by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence,
+          Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you
+          have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your
+          equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>
         chat: ''
       source:
         custom: ''
@@ -2297,8 +2253,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.pqsEdkk5pmlT6JqV
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.pqsEdkk5pmlT6JqV
         changes:
           - key: system.properties
             mode: 2
@@ -2342,8 +2297,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.sOJ29wIQbeRNa4Qt.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.sOJ29wIQbeRNa4Qt.dnd5espellchange'
     folder: iG0Zia8jh6uK39TB
     sort: 100391
     ownership:
@@ -2367,11 +2321,9 @@ items:
     system:
       description:
         value: >-
-          <p>You create 45 pounds of food and 30 gallons of fresh water on the
-          ground or in containers within range—both useful in fending off the
-          hazards of malnutrition and dehydration. The food is bland but
-          nourishing and looks like a food of your choice, and the water is
-          clean. The food spoils after 24 hours if uneaten.</p>
+          <p>You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both
+          useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks
+          like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.</p>
         chat: ''
       source:
         custom: ''
@@ -2462,8 +2414,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.mRewTdJpZuAtSCaO
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.mRewTdJpZuAtSCaO
         changes:
           - key: system.properties
             mode: 2
@@ -2503,8 +2454,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.QdAb5sLcSgIoIpg2.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.QdAb5sLcSgIoIpg2.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2800000
     ownership:
@@ -2528,24 +2478,17 @@ items:
     system:
       description:
         value: >-
-          <p>You target a creature you know on the same plane of existence. You
-          or a willing creature you touch enters a trance state to act as a
-          dream messenger. While in the trance, the messenger is
-          &amp;Reference[Incapacitated apply=false] and has a Speed of
-          0.</p><p>If the target is asleep, the messenger appears in the
-          target's dreams and can converse with the target as long as it remains
-          asleep, through the spell's duration. The messenger can also shape the
-          dream's environment, creating landscapes, objects, and other images.
-          The messenger can emerge from the trance at any time, ending the
-          spell. The target recalls the dream perfectly upon waking.</p><p>If
-          the target is awake when you cast the spell, the messenger knows it
-          and can either end the trance (and the spell) or wait for the target
-          to sleep, at which point the messenger enters its dreams.</p><p>You
-          can make the messenger terrifying to the target. If you do so, the
-          messenger can deliver a message of no more than ten words, and then
-          the target makes a Wisdom saving throw. On a failed save, the target
-          gains no benefit from its rest, and it takes 3d6 Psychic damage when
-          it wakes up.</p>
+          <p>You target a creature you know on the same plane of existence. You or a willing creature you touch enters a
+          trance state to act as a dream messenger. While in the trance, the messenger is &amp;Reference[Incapacitated
+          apply=false] and has a Speed of 0.</p><p>If the target is asleep, the messenger appears in the target's dreams
+          and can converse with the target as long as it remains asleep, through the spell's duration. The messenger can
+          also shape the dream's environment, creating landscapes, objects, and other images. The messenger can emerge
+          from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.</p><p>If
+          the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the
+          spell) or wait for the target to sleep, at which point the messenger enters its dreams.</p><p>You can make the
+          messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten
+          words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its
+          rest, and it takes 3d6 Psychic damage when it wakes up.</p>
         chat: ''
       source:
         custom: ''
@@ -2688,8 +2631,8 @@ items:
             value: '0'
             priority: null
         description: >-
-          <p><span style="font-family:Signika, sans-serif">While in the trance,
-          the messenger is Incapacitated and has a Speed of 0.</span></p>
+          <p><span style="font-family:Signika, sans-serif">While in the trance, the messenger is Incapacitated and has a
+          Speed of 0.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2705,14 +2648,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.2QpBQBYj5OOOROeD.x52Ga7U45IJOPFxK
+        _key: '!actors.items.effects!mmCouatl00000000.2QpBQBYj5OOOROeD.x52Ga7U45IJOPFxK'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.l0rzaO0IDtNrBl00
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.l0rzaO0IDtNrBl00
         changes:
           - key: system.properties
             mode: 2
@@ -2752,8 +2693,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.2QpBQBYj5OOOROeD.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.2QpBQBYj5OOOROeD.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2100000
     ownership:
@@ -2777,13 +2717,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and magically remove one of the following
-          effects from it:</p><ul><li>1 &amp;Reference[Exhaustion]
-          level</li><li>The &amp;Reference[Charmed] or &amp;Reference[Petrified]
-          condition</li><li>A curse, including the target's Attunement to a
-          cursed magic item</li><li>Any reduction to one of the target's ability
-          scores</li><li>Any reduction to the target's Hit Point
-          maximum</li></ul>
+          <p>You touch a creature and magically remove one of the following effects from it:</p><ul><li>1
+          &amp;Reference[Exhaustion] level</li><li>The &amp;Reference[Charmed] or &amp;Reference[Petrified]
+          condition</li><li>A curse, including the target's Attunement to a cursed magic item</li><li>Any reduction to
+          one of the target's ability scores</li><li>Any reduction to the target's Hit Point maximum</li></ul>
         chat: ''
       source:
         custom: ''
@@ -2874,8 +2811,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.unDa71kCTCQ5dYQe
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.unDa71kCTCQ5dYQe
         changes:
           - key: system.properties
             mode: 2
@@ -2915,8 +2851,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.RcwrcfGLqHMeiMAX.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.RcwrcfGLqHMeiMAX.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1800000
     ownership:
@@ -2940,30 +2875,21 @@ items:
     system:
       description:
         value: >-
-          <p>You can see and hear a creature you choose that is on the same
-          plane of existence as you. The target makes a Wisdom saving throw,
-          which is modified (see the tables below) by how well you know the
-          target and the sort of physical connection you have to it. The target
-          doesn't know what it is making the save against, only that it feels
-          uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is
-          …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand
-          (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the
-          target)</td><td>+0</td></tr><tr><td>Extensive (know the target
-          well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You
-          Have the Target's …</td><td>Save
-          Modifier</td></tr></thead><tbody><tr><td>Picture or other
-          likeness</td><td>−2</td></tr><tr><td>Garment or other
-          possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit
-          of nail</td><td>−10</td></tr></tbody></table><p>On a successful save,
-          the target isn't affected, and you can't use this spell on it again
-          for 24 hours.</p><p>On a failed save, the spell creates an Invisible,
-          intangible sensor within 10 feet of the target. You can see and hear
-          through the sensor as if you were there. The sensor moves with the
-          target, remaining within 10 feet of it for the duration. If something
-          can see the sensor, it appears as a luminous orb about the size of
-          your fist.</p><p>Instead of targeting a creature, you can target a
-          location you have seen. When you do so, the sensor appears at that
-          location and doesn't move.</p>
+          <p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes
+          a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort
+          of physical connection you have to it. The target doesn't know what it is making the save against, only that
+          it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the
+          target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the
+          target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or
+          other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of
+          nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't
+          use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible
+          sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor
+          moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it
+          appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a
+          location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>
         chat: ''
       source:
         custom: ''
@@ -3003,9 +2929,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 1,000+ GP, such as a crystal ball, mirror, or
-          water-filled font
+        value: a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font
         consumed: false
         cost: 0
         supply: 0
@@ -3483,8 +3407,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.d39dHMBqm2sZnUGa
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.d39dHMBqm2sZnUGa
         changes:
           - key: system.properties
             mode: 2
@@ -3524,8 +3447,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.sSktU9MJhyaviFo2.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.sSktU9MJhyaviFo2.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 400000
     ownership:
@@ -3549,16 +3471,13 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of your choice in a 5-foot-radius Sphere centered on
-          a point within range must succeed on a Wisdom saving throw or have the
-          &amp;Reference[incapacitated apply=false] condition until the end of
-          its next turn, at which point it must repeat the save. If the target
-          fails the second save, the target has the &amp;Reference[unconscious]
-          condition for the duration. The spell ends on a target if it takes
-          damage or someone within 5 feet of it takes an action to shake it out
-          of the spell's effect.</p><p>Creatures that don't sleep, such as
-          elves, or that have Immunity to the Exhaustion condition automatically
-          succeed on saves against this spell.</p>
+          <p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a
+          Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next
+          turn, at which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't
+          sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against
+          this spell.</p>
         chat: ''
       source:
         custom: ''
@@ -3671,12 +3590,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target has the &amp;Reference[incapacitated apply=false]
-          condition until the end of its next turn, at which point it must
-          repeat the save. If the target fails the second save, the target has
-          the &amp;Reference[unconscious] condition for the duration. The spell
-          ends on a target if it takes damage or someone within 5 feet of it
-          takes an action to shake it out of the spell’s effect.</p>
+          <p>The target has the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at
+          which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3692,14 +3609,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.WZos2YJlqndVWXeQ.04Wa4xUzjA31kPno
+        _key: '!actors.items.effects!mmCouatl00000000.WZos2YJlqndVWXeQ.04Wa4xUzjA31kPno'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.RAZiIRqr2r002XSq
+        origin: Compendium.degringo5e.actors24.Actor.mmCouatl00000000.Item.mmSpellcasting00.Activity.RAZiIRqr2r002XSq
         changes:
           - key: system.properties
             mode: 2
@@ -3739,8 +3654,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCouatl00000000.WZos2YJlqndVWXeQ.dnd5espellchange
+        _key: '!actors.items.effects!mmCouatl00000000.WZos2YJlqndVWXeQ.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 400000
     ownership:

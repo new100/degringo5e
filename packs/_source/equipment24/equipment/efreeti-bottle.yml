@@ -24,9 +24,7 @@ system:
             value: '1'
             scaling: {}
       description:
-        chatFlavor: >-
-          GM rolls on the Efreeti Bottle table and user activates corresponding
-          activity
+        chatFlavor: GM rolls on the Efreeti Bottle table and user activates corresponding activity
       duration:
         units: inst
         concentration: false
@@ -229,10 +227,7 @@ system:
             target: ''
             scaling: {}
       description:
-        chatFlavor: >-
-          A Hostile
-          @UUID[Compendium.degringo5e.actors24.Actor.LTomFUTBrkRi0Pj5]{Efreeti}
-          appears
+        chatFlavor: A Hostile @UUID[Compendium.degringo5e.actors24.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears
       duration:
         units: inst
         concentration: false
@@ -274,14 +269,12 @@ system:
     autoDestroy: true
   description:
     value: >-
-      <div><p><em>Wondrous Item, Very Rare</em></p></div><p>When you take a
-      Magic action to remove the stopper of this painted brass bottle, a cloud
-      of thick smoke flows out of it. At the end of your turn, the smoke
-      disappears with a flash of harmless fire, and an
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmEfreeti0000000]{Efreeti}</strong>
-      appears in an unoccupied space within 30 feet of
-      you.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgEfreetiBottle
-      rollable classes="caption-top"]</p>
+      <div><p><em>Wondrous Item, Very Rare</em></p></div><p>When you take a Magic action to remove the stopper of this
+      painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a
+      flash of harmless fire, and an
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmEfreeti0000000]{Efreeti}</strong> appears in an unoccupied
+      space within 30 feet of you.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgEfreetiBottle rollable
+      classes="caption-top"]</p>
     chat: ''
   identifier: efreeti-bottle
   source:

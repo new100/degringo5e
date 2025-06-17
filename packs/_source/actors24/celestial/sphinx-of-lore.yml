@@ -571,10 +571,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">No magic can observe the [[lookup @name lowercase]]
-          remotely or detect its thoughts without its permission. Wisdom
-          (Insight) checks made to ascertain its intentions or sincerity are
-          made with Disadvantage.</p>
+          <p class="feature">No magic can observe the [[lookup @name lowercase]] remotely or detect its thoughts without
+          its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with
+          Disadvantage.</p>
         chat: ''
       identifier: inscrutable
       source:
@@ -671,9 +670,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -765,9 +762,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Claw]]
-          attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item Claw]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1026,14 +1021,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=zPMfwwIoTFzIrN5H]], each [[lookup
-          @target.affects.type activity=zPMfwwIoTFzIrN5H]] in a [[lookup
-          @target.template.size activity=zPMfwwIoTFzIrN5H]]-foot Emanation
-          originating from the [[lookup @name
-          lowercase]].</p><p><em>Failure:</em> [[/damage average]] damage, and
-          the target has the &amp;Reference[Incapacitated apply=false] condition
-          until the start of the [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=zPMfwwIoTFzIrN5H]], each
+          [[lookup @target.affects.type activity=zPMfwwIoTFzIrN5H]] in a [[lookup @target.template.size
+          activity=zPMfwwIoTFzIrN5H]]-foot Emanation originating from the [[lookup @name
+          lowercase]].</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the
+          &amp;Reference[Incapacitated apply=false] condition until the start of the [[lookup @name lowercase]]'s next
+          turn.</p>
         chat: ''
       identifier: mind-rending-roar
       source:
@@ -1070,8 +1063,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the start of the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the start of the attacking
+          creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1088,8 +1081,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.mmMindrendingRoa.hHsI0Xo1J4XM4z5K
+        _key: '!actors.items.effects!mmSphinxOfLore00.mmMindrendingRoa.hHsI0Xo1J4XM4z5K'
     flags:
       degringo5e:
         riders:
@@ -1648,30 +1640,20 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using
-          Intelligence as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Intelligence as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIdentify00]{Identify}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage
-          Hand}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
-          Illusion}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLegendLore]{Legend
-          Lore}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate
-          Object}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane
-          Shift}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLegendLore]{Legend Lore}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate Object}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTongues000]{Tongues}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1715,13 +1697,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1841,8 +1821,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1851,14 +1830,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.3iFVzsqSf2WVQfPZ.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmSphinxOfLore00.3iFVzsqSf2WVQfPZ.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.zZ5t9F3QWV5VI8dX
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.zZ5t9F3QWV5VI8dX
         changes:
           - key: system.properties
             mode: 2
@@ -1890,8 +1867,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.3iFVzsqSf2WVQfPZ.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.3iFVzsqSf2WVQfPZ.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1918,14 +1894,11 @@ items:
     system:
       description:
         value: >-
-          <p>You touch an object throughout the spell's casting. If the object
-          is a magic item or some other magical object, you learn its properties
-          and how to use them, whether it requires Attunement, and how many
-          charges it has, if any. You learn whether any ongoing spells are
-          affecting the item and what they are. If the item was created by a
-          spell, you learn that spell's name.</p><p>If you instead touch a
-          creature throughout the casting, you learn which ongoing spells, if
-          any, are currently affecting it.</p>
+          <p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical
+          object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it
+          has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was
+          created by a spell, you learn that spell's name.</p><p>If you instead touch a creature throughout the casting,
+          you learn which ongoing spells, if any, are currently affecting it.</p>
         chat: ''
       source:
         custom: ''
@@ -2017,8 +1990,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.xSAuuCl5mbYdh9jJ
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.xSAuuCl5mbYdh9jJ
         changes:
           - key: system.properties
             mode: 2
@@ -2050,8 +2022,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.leUcbtUfszTZvsrL.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.leUcbtUfszTZvsrL.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1700000
     ownership:
@@ -2075,16 +2046,12 @@ items:
     system:
       description:
         value: >-
-          <p>A spectral, floating hand appears at a point you choose within
-          range. The hand lasts for the duration. The hand vanishes if it is
-          ever more than 30 feet away from you or if you cast this spell
-          again.</p><p>When you cast the spell, you can use the hand to
-          manipulate an object, open an unlocked door or container, stow or
-          retrieve an item from an open container, or pour the contents out of a
-          vial.</p><p>As a Magic action on your later turns, you can control the
-          hand thus again. As part of that action, you can move the hand up to
-          30 feet.</p><p>The hand can't attack, activate magic items, or carry
-          more than 10 pounds.</p>
+          <p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The
+          hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you
+          cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your
+          later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30
+          feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
         chat: ''
       source:
         custom: ''
@@ -2199,8 +2166,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.KkMHoAHuujAJRyqH
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.KkMHoAHuujAJRyqH
         changes:
           - key: system.properties
             mode: 2
@@ -2232,8 +2198,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.XSFpn9go4Lz1KDDZ.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.XSFpn9go4Lz1KDDZ.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1000000
     ownership:
@@ -2260,24 +2225,18 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. See the descriptions below for the effects of each.
-          The illusion ends if you cast this spell again.</p><p>If a creature
-          takes a Study action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful [[/check
-          ability=int skill=inv dc=@attributes.spell.dc]] check against your
-          spell save DC. If a creature discerns the illusion for what it is, the
-          illusion becomes faint to the creature.</p><p><strong>Sound.</strong>
-          If you create a sound, its volume can range from a whisper to a
-          scream. It can be your voice, someone else's voice, a lion's roar, a
-          beating of drums, or any other sound you choose. The sound continues
-          unabated throughout the duration, or you can make discrete sounds at
-          different times before the spell ends.</p><p><strong>Image.</strong>
-          If you create an image of an object—such as a chair, muddy footprints,
-          or a small chest—it must be no larger than a 5-foot Cube. The image
-          can't create sound, light, smell, or any other sensory effect.
-          Physical interaction with the image reveals it to be an illusion,
-          since things can pass through it.</p>
+          <p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions
+          below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a
+          Study action to examine the sound or image, the creature can determine that it is an illusion with a
+          successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a
+          creature discerns the illusion for what it is, the illusion becomes faint to the
+          creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a
+          scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you
+          choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different
+          times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, since things can pass through it.</p>
         chat: ''
       source:
         custom: ''
@@ -2404,8 +2363,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.Wm7Dscls1T5AMLAF
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.Wm7Dscls1T5AMLAF
         changes:
           - key: system.properties
             mode: 2
@@ -2437,8 +2395,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.5BhLlAXMXjt3FGgl.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.5BhLlAXMXjt3FGgl.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 600000
     ownership:
@@ -2462,23 +2419,17 @@ items:
     system:
       description:
         value: >-
-          <p>You create a magical effect within range. Choose the effect from
-          the options below. If you cast this spell multiple times, you can have
-          up to three of its non-instantaneous effects active at a
-          time.</p><p><strong>Sensory Effect.</strong> You create an
-          instantaneous, harmless sensory effect, such as a shower of sparks, a
-          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
-          Play.</strong> You instantaneously light or snuff out a candle, a
-          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
-          instantaneously clean or soil an object no larger than 1 cubic
-          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
-          flavor up to 1 cubic foot of nonliving material for 1
-          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
-          mark, or a symbol appear on an object or a surface for 1
-          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
-          trinket or an illusory image that can fit in your hand. It lasts until
-          the end of your next turn. A trinket can deal no damage and has no
-          monetary worth.</p>
+          <p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell
+          multiple times, you can have up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a
+          shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You
+          instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or
+          Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor
+          Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a
+          surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory
+          image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and
+          has no monetary worth.</p>
         chat: ''
       source:
         custom: ''
@@ -2568,8 +2519,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.KxTJJh0RU3PbFVan
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.KxTJJh0RU3PbFVan
         changes:
           - key: system.properties
             mode: 2
@@ -2601,8 +2551,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.BcQlXdMvzWgF3rml.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.BcQlXdMvzWgF3rml.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 400000
     ownership:
@@ -2716,8 +2665,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.7rbTHJxnCPRHd9xI
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.7rbTHJxnCPRHd9xI
         changes:
           - key: system.properties
             mode: 2
@@ -2749,8 +2697,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.3QtVeoLFpQD2ZIZ6.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.3QtVeoLFpQD2ZIZ6.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -2774,16 +2721,13 @@ items:
     system:
       description:
         value: >-
-          <p>Name or describe a famous person, place, or object. The spell
-          brings to your mind a brief summary of the significant lore about that
-          famous thing, as described by the DM.</p><p>The lore might consist of
-          important details, amusing revelations, or even secret lore that has
-          never been widely known. The more information you already know about
-          the thing, the more precise and detailed the information you receive
-          is. That information is accurate but might be couched in figurative
-          language or poetry, as determined by the DM.</p><p>If the famous thing
-          you chose isn't actually famous, you hear sad musical notes played on
-          a trombone, and the spell fails.</p>
+          <p>Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the
+          significant lore about that famous thing, as described by the DM.</p><p>The lore might consist of important
+          details, amusing revelations, or even secret lore that has never been widely known. The more information you
+          already know about the thing, the more precise and detailed the information you receive is. That information
+          is accurate but might be couched in figurative language or poetry, as determined by the DM.</p><p>If the
+          famous thing you chose isn't actually famous, you hear sad musical notes played on a trombone, and the spell
+          fails.</p>
         chat: ''
       source:
         custom: ''
@@ -2817,9 +2761,7 @@ items:
         - somatic
         - material
       materials:
-        value: >-
-          incense worth 250+ GP, which the spell consumes, and four ivory strips
-          worth 50+ GP each
+        value: incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each
         consumed: true
         cost: 0
         supply: 0
@@ -2874,8 +2816,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.SAQ2laFok8AVFYwk
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.SAQ2laFok8AVFYwk
         changes:
           - key: system.properties
             mode: 2
@@ -2907,8 +2848,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.IPZZTC6sjbIVCUVY.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.IPZZTC6sjbIVCUVY.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1300000
     ownership:
@@ -2932,15 +2872,12 @@ items:
     system:
       description:
         value: >-
-          <p>Describe or name an object that is familiar to you. You sense the
-          direction to the object's location if that object is within 1,000 feet
-          of you. If the object is in motion, you know the direction of its
-          movement.</p><p>The spell can locate a specific object known to you if
-          you have seen it up close—within 30 feet—at least once. Alternatively,
-          the spell can locate the nearest object of a particular kind, such as
-          a certain kind of apparel, jewelry, furniture, tool, or
-          weapon.</p><p>This spell can't locate an object if any thickness of
-          lead blocks a direct path between you and the object.</p>
+          <p>Describe or name an object that is familiar to you. You sense the direction to the object's location if
+          that object is within 1,000 feet of you. If the object is in motion, you know the direction of its
+          movement.</p><p>The spell can locate a specific object known to you if you have seen it up close—within 30
+          feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a
+          certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any
+          thickness of lead blocks a direct path between you and the object.</p>
         chat: ''
       source:
         custom: ''
@@ -3036,8 +2973,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.gAH30Xnr4MeD0y3m
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.gAH30Xnr4MeD0y3m
         changes:
           - key: system.properties
             mode: 2
@@ -3069,8 +3005,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.jclLNcK4S0eIgQqs.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.jclLNcK4S0eIgQqs.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2200000
     ownership:
@@ -3097,16 +3032,13 @@ items:
     system:
       description:
         value: >-
-          <p>You and up to eight willing creatures who link hands in a circle
-          are transported to a different plane of existence. You can specify a
-          target destination in general terms, such as the City of Brass on the
-          Elemental Plane of Fire or the palace of Dispater on the second level
-          of the Nine Hells, and you appear in or near that destination, as
-          determined by the DM.</p><p>Alternatively, if you know the sigil
-          sequence of a teleportation circle on another plane of existence, this
-          spell can take you to that circle. If the teleportation circle is too
-          small to hold all the creatures you transported, they appear in the
-          closest unoccupied spaces next to the circle.</p>
+          <p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of
+          existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental
+          Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that
+          destination, as determined by the DM.</p><p>Alternatively, if you know the sigil sequence of a teleportation
+          circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is
+          too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the
+          circle.</p>
         chat: ''
       source:
         custom: ''
@@ -3202,8 +3134,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.dgvmpgJZsa79rUkP
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.dgvmpgJZsa79rUkP
         changes:
           - key: system.properties
             mode: 2
@@ -3235,8 +3166,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.I43UVsLdC2ERiWej.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.I43UVsLdC2ERiWej.dnd5espellchange'
     folder: EdAGMG8IF26PLkD3
     sort: 1200000
     ownership:
@@ -3260,9 +3190,8 @@ items:
     system:
       description:
         value: >-
-          <p>At your touch, all curses affecting one creature or object end. If
-          the object is a cursed magic item, its curse remains, but the spell
-          breaks its owner's Attunement to the object so it can be removed or
+          <p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its
+          curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or
           discarded.</p>
         chat: ''
       source:
@@ -3358,8 +3287,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.i775ivHO2t50OTUs
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.i775ivHO2t50OTUs
         changes:
           - key: system.properties
             mode: 2
@@ -3391,8 +3319,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.qLsO05aCvad2nWG6.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.qLsO05aCvad2nWG6.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 300000
     ownership:
@@ -3419,11 +3346,9 @@ items:
     system:
       description:
         value: >-
-          <p>This spell grants the creature you touch the ability to understand
-          any spoken or signed language that it hears or sees. Moreover, when
-          the target communicates by speaking or signing, any creature that
-          knows at least one language can understand it if that creature can
-          hear the speech or see the signing.</p>
+          <p>This spell grants the creature you touch the ability to understand any spoken or signed language that it
+          hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least
+          one language can understand it if that creature can hear the speech or see the signing.</p>
         chat: ''
       source:
         custom: ''
@@ -3546,14 +3471,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.n7uKSkGfYqj4FjU6.bmESvtHHL0Su7gn4
+        _key: '!actors.items.effects!mmSphinxOfLore00.n7uKSkGfYqj4FjU6.bmESvtHHL0Su7gn4'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.upCFJHKEtGOls5SV
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfLore00.Item.mmSpellcasting00.Activity.upCFJHKEtGOls5SV
         changes:
           - key: system.properties
             mode: 2
@@ -3585,8 +3508,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.n7uKSkGfYqj4FjU6.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfLore00.n7uKSkGfYqj4FjU6.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 100098
     ownership:
@@ -3669,9 +3591,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can teleport up to [[lookup
-          @range.value activity=a3RqyzU0UqzLJif0]] feet to an unoccupied space
-          it can see, and it makes one [[/item Claw]] attack.</p>
+          <p>The [[lookup @name lowercase]] can teleport up to [[lookup @range.value activity=a3RqyzU0UqzLJif0]] feet to
+          an unoccupied space it can see, and it makes one [[/item Claw]] attack.</p>
         chat: ''
       identifier: arcane-prowl
       source:
@@ -3821,16 +3742,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=xZul1ImCP658OBv3]], one [[lookup
-          @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target
-          gains 1 &amp;Reference[Exhaustion apply=false] level. While the target
-          has any Exhaustion levels, it appears [[/r 3d10]] years
-          older.</p><p><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=xZul1ImCP658OBv3]],
+          one [[lookup @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target gains 1
+          &amp;Reference[Exhaustion apply=false] level. While the target has any Exhaustion levels, it appears [[/r
+          3d10]] years older.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action
+          again until the start of its next turn.</p>
         chat: ''
       identifier: weight-of-years
       source:
@@ -3869,9 +3786,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target gains 1 &amp;Reference[Exhaustion apply=long] level.
-          </p>
+        description: <p>The target gains 1 &amp;Reference[Exhaustion apply=long] level. </p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3897,8 +3812,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfLore00.mmWeightOfYears0.Bf6DExMyhKyPPV4x
+        _key: '!actors.items.effects!mmSphinxOfLore00.mmWeightOfYears0.Bf6DExMyhKyPPV4x'
     flags:
       degringo5e:
         riders:

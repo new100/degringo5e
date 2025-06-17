@@ -609,9 +609,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes two attacks,
-          using [[/item .mmFrostAxe000000]] or [[/item .mmGreatBow000000]] in
-          any combination.</p>
+          <p class="feature">The [[lookup @name lowercase]] makes two attacks, using [[/item .mmFrostAxe000000]] or
+          [[/item .mmGreatBow000000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -725,9 +724,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: frost-axe
       source:
@@ -888,9 +885,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target's Speed decreases by 10 feet until the end of its next
-          turn.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target's Speed decreases by 10
+          feet until the end of its next turn.</p>
         chat: ''
       identifier: great-bow
       source:
@@ -978,9 +974,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target’s Speed decreases by 10 feet until the end of its next
-          turn.</p>
+        description: <p>The target’s Speed decreases by 10 feet until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -996,8 +990,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmFrostGiant0000.mmGreatBow000000.cGogXX8DEY06laQN
+        _key: '!actors.items.effects!mmFrostGiant0000.mmGreatBow000000.cGogXX8DEY06laQN'
     flags:
       degringo5e:
         riders:
@@ -1091,11 +1084,9 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] or one [[lookup
-          @target.affects.type activity=uN0VTW2Fqig7YAs9]] of its choice that
-          can see or hear it gains [[/healing average temp]] and has Advantage
-          on attack rolls until the start of the [[lookup @name lowercase]]'s
-          next turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] or one [[lookup @target.affects.type
+          activity=uN0VTW2Fqig7YAs9]] of its choice that can see or hear it gains [[/healing average temp]] and has
+          Advantage on attack rolls until the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: war-cry
       source:
@@ -1131,9 +1122,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has Advantage on attack rolls until the start of the
-          granter’s next turn.</p>
+        description: <p>The target has Advantage on attack rolls until the start of the granter’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -1149,8 +1138,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmFrostGiant0000.mmWarCry00000000.qNmREVJzIbrjEJyb
+        _key: '!actors.items.effects!mmFrostGiant0000.mmWarCry00000000.qNmREVJzIbrjEJyb'
     flags:
       degringo5e:
         riders:

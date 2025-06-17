@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplTensersFlo
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplTensersFlo caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -488,10 +486,9 @@ items:
     system:
       description:
         value: >-
-          <section id="secret-xvPfZzVKWfhDyIwx"
-          class="secret"><p><strong>Foundry Note</strong></p><p>This item serves
-          to offset the disk's computed carry weight capacity from 510 lbs. to
-          500 lbs. in accordance with the spell's description.</p></section>
+          <section id="secret-xvPfZzVKWfhDyIwx" class="secret"><p><strong>Foundry Note</strong></p><p>This item serves
+          to offset the disk's computed carry weight capacity from 510 lbs. to 500 lbs. in accordance with the spell's
+          description.</p></section>
         chat: ''
       source:
         custom: ''

@@ -65,13 +65,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the
-      "reduce" effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}
-      spell for 1d4 hours (no Concentration required).</p><p>The red in the
-      potion's liquid continuously contracts to a tiny bead and then expands to
-      color the clear liquid around it. Shaking the bottle fails to interrupt
-      this process.</p>
+      <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the "reduce" effect of the
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell for 1d4 hours (no Concentration
+      required).</p><p>The red in the potion's liquid continuously contracts to a tiny bead and then expands to color
+      the clear liquid around it. Shaking the bottle fails to interrupt this process.</p>
     chat: ''
   identifier: potion-of-diminution
   source:

@@ -563,9 +563,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While the [[lookup @name lowercase]] is on the same
-          plane of existence as its master, the two of them can communicate
-          telepathically with each other.</p>
+          <p class="feature">While the [[lookup @name lowercase]] is on the same plane of existence as its master, the
+          two of them can communicate telepathically with each other.</p>
         chat: ''
       identifier: telepathic-bond
       source:
@@ -720,15 +719,12 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. <em>Hit:</em> [[/damage]] damage, and the
-          target is subjected to the following effect.</p><p><em>Constitution
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=zINRP55nQzeLTh4x]].</p><p><em>Failure:</em> The target has
-          the Poisoned condition until the end of the homunculus's next
-          turn.</p><p><em>Failure by 5 or More:</em> The target has the
-          &amp;Reference[Poisoned apply=false] condition for 1 minute. While
-          Poisoned, the target has the &amp;Reference[Unconscious apply=false]
-          condition, which ends early if the target takes any damage.</p>
+          <p>[[/attack extended]]. <em>Hit:</em> [[/damage]] damage, and the target is subjected to the following
+          effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value
+          activity=zINRP55nQzeLTh4x]].</p><p><em>Failure:</em> The target has the Poisoned condition until the end of
+          the homunculus's next turn.</p><p><em>Failure by 5 or More:</em> The target has the &amp;Reference[Poisoned
+          apply=false] condition for 1 minute. While Poisoned, the target has the &amp;Reference[Unconscious
+          apply=false] condition, which ends early if the target takes any damage.</p>
         chat: ''
       identifier: bite
       source:
@@ -812,10 +808,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the end of the biter's next turn. While Poisoned, the target has
-          the &amp;Reference[Unconscious apply=false] condition, which ends
-          early if the target takes any damage.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of the biter's next turn.
+          While Poisoned, the target has the &amp;Reference[Unconscious apply=false] condition, which ends early if the
+          target takes any damage.</p>
         tint: '#ffffff'
         statuses:
           - poisoned
@@ -831,8 +826,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmHomunculus0000.mmBite0000000000.V1AmhFqcodun54W7
+        _key: '!actors.items.effects!mmHomunculus0000.mmBite0000000000.V1AmhFqcodun54W7'
       - name: Unconscious
         img: systems/degringo5e/icons/svg/statuses/unconscious.svg
         origin: Compendium.degringo5e.actors24.Actor.mmHomunculus0000.Item.mmBite0000000000
@@ -851,9 +845,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>While Poisoned, the target has the &amp;Reference[Unconscious
-          apply=false] condition, which ends early if the target takes any
-          damage.</p>
+          <p>While Poisoned, the target has the &amp;Reference[Unconscious apply=false] condition, which ends early if
+          the target takes any damage.</p>
         tint: '#ffffff'
         statuses:
           - unconscious
@@ -869,8 +862,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmHomunculus0000.mmBite0000000000.1xPlmvipGrfrNiPY
+        _key: '!actors.items.effects!mmHomunculus0000.mmBite0000000000.1xPlmvipGrfrNiPY'
     flags:
       degringo5e:
         riders:

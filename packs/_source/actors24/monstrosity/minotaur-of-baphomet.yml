@@ -855,13 +855,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]]
-          creature and the [[lookup @name lowercase]] [[lookup
-          @activation.condition activity=iBenqFiBu40bUxkH]] straight toward it
-          immediately before the hit, the target takes an extra [[/damage 3d6
-          type=piercing average]] damage and has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a [[lookup @target.affects.special
+          activity=iBenqFiBu40bUxkH]] creature and the [[lookup @name lowercase]] [[lookup @activation.condition
+          activity=iBenqFiBu40bUxkH]] straight toward it immediately before the hit, the target takes an extra [[/damage
+          3d6 type=piercing average]] damage and has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: gore
       source:
@@ -944,8 +941,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Prone apply=false] condition if
-          the attacking creature used its moving attack feature.</p>
+          <p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving
+          attack feature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -962,8 +959,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMinotaurOfBaph.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmMinotaurOfBaph.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:

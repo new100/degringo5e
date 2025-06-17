@@ -13,9 +13,7 @@ system:
         type: action
         value: null
         override: false
-        condition: >-
-          when you roll a 20 on an attack against a creature with fewer than 100
-          Hit Points
+        condition: when you roll a 20 on an attack against a creature with fewer than 100 Hit Points
       consumption:
         scaling:
           allowed: false
@@ -122,21 +120,17 @@ system:
     max: '9'
   description:
     value: >-
-      <p><em>Weapon (Any Simple or Martial), Very Rare (Requires
-      Attunement)</em></p><p>You gain a +2 bonus to attack rolls and damage
-      rolls made with this magic weapon.</p><p><strong>Life Stealing.</strong>
-      The weapon has [[/r 1d8 + 1]] charges. When you attack a creature that has
-      fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for
-      the attack roll, the creature must succeed on a DC 15 Constitution saving
-      throw or be slain instantly as the sword tears its life force from its
-      body. Constructs and Undead succeed on the save automatically. The weapon
-      loses 1 charge if the creature is slain. When the weapon has no charges
-      remaining, it loses this property.</p><section class="secret"
-      id="secret-vSYC0gYqNiDynkjf"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Life Stealing</strong> activity should be updated with its max
-      uses set to the number of charges rolled.</p></section><p>
-      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
-      cite=false caption=false classes="hide-in-embed"]</p>
+      <p><em>Weapon (Any Simple or Martial), Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack
+      rolls and damage rolls made with this magic weapon.</p><p><strong>Life Stealing.</strong> The weapon has [[/r 1d8
+      + 1]] charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the
+      d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as
+      the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon
+      loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this
+      property.</p><section class="secret" id="secret-vSYC0gYqNiDynkjf"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Life Stealing</strong> activity should be updated with its max uses set to the number of charges
+      rolled.</p></section><p>
+      @Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false
+      caption=false classes="hide-in-embed"]</p>
     chat: ''
   identifier: nine-lives-stealer
   source:
@@ -214,9 +208,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgNineLivesStea
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgNineLivesStea caption=false]</p>'
         priority: null
       - key: system.rarity
         mode: 5

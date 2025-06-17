@@ -604,9 +604,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmFist0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmFist0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -710,9 +708,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: fist
       source:
@@ -863,9 +859,7 @@ items:
             type: recoverAll
         max: '1'
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: rock
       source:

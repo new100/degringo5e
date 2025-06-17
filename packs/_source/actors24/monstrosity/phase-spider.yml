@@ -567,8 +567,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can see 60 feet into
-          the Ethereal Plane when it is on the Material Plane.</p>
+          <p class="feature">The [[lookup @name lowercase]] can see 60 feet into the Ethereal Plane when it is on the
+          Material Plane.</p>
         chat: ''
       identifier: ethereal-sight
       source:
@@ -618,9 +618,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can climb difficult surfaces,
-          including along ceilings, without needing to make an ability
-          check.</p>
+          <p>The [[lookup @name lowercase]] can climb difficult surfaces, including along ceilings, without needing to
+          make an ability check.</p>
         chat: ''
       identifier: spider-climb
       source:
@@ -670,9 +669,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] ignores movement
-          restrictions caused by webs, and the [[lookup @name lowercase]] knows
-          the location of any other creature in contact with the same web.</p>
+          <p class="feature">The [[lookup @name lowercase]] ignores movement restrictions caused by webs, and the
+          [[lookup @name lowercase]] knows the location of any other creature in contact with the same web.</p>
         chat: ''
       identifier: web-walker
       source:
@@ -768,11 +766,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">The
-          </span>[[lookup @name lowercase]]<span style="font-family:'Roboto
-          Condensed', sans-serif"> makes two </span>[[/item
-          .mmBite0000000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif"> attacks.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">The </span>[[lookup @name lowercase]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> makes two </span>[[/item .mmBite0000000000]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> attacks.</span></p>
         chat: ''
       identifier: multiattack
       source:
@@ -888,11 +884,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If this damage
-          reduces the target to 0 Hit Points, the target becomes Stable, and it
-          has the &amp;Reference[Poisoned apply=false] condition for 1 hour.
-          While Poisoned, the target also has the &amp;Reference[Paralyzed
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If this damage reduces the target to 0 Hit Points, the
+          target becomes Stable, and it has the &amp;Reference[Poisoned apply=false] condition for 1 hour. While
+          Poisoned, the target also has the &amp;Reference[Paralyzed apply=false] condition.</p>
         chat: ''
       identifier: bite
       source:
@@ -974,9 +968,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>f this damage reduces the target to 0 Hit Points, the target
-          becomes Stable, and it has the &amp;Reference[Poisoned apply=false]
-          condition for 1 hour. While Poisoned, the target also has the
+          <p>f this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the
+          &amp;Reference[Poisoned apply=false] condition for 1 hour. While Poisoned, the target also has the
           &amp;Reference[Paralyzed apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
@@ -995,8 +988,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPhaseSpider000.mmBite0000000000.E2YIhGkeVsLrfGq0
+        _key: '!actors.items.effects!mmPhaseSpider000.mmBite0000000000.E2YIhGkeVsLrfGq0'
     flags:
       degringo5e:
         riders:
@@ -1076,8 +1068,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] teleports from the
-          Material Plane to the Ethereal Plane or vice versa.</p>
+          <p class="feature">The [[lookup @name lowercase]] teleports from the Material Plane to the Ethereal Plane or
+          vice versa.</p>
         chat: ''
       identifier: ethereal-jaunt
       source:

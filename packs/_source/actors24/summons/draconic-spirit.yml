@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSummonDrag
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplSummonDrag caption=false]</p>
       public: ''
     alignment: Neutral
     type:
@@ -496,11 +494,10 @@ items:
       description:
         value: >-
           <p>When you summon the spirit, choose one of its Resistances. You have
-          &amp;Reference[damageresistance]{Resistance} to the chosen damage type
-          until the spell ends.</p><section id="secret-FlNLM1mGXlBLAFfA"
-          class="secret"><p><strong>Foundry Note</strong></p><p>Active effects
-          and activities applying those effects on this item are provided for
-          optional application of the chosen resistance.</p></section>
+          &amp;Reference[damageresistance]{Resistance} to the chosen damage type until the spell ends.</p><section
+          id="secret-FlNLM1mGXlBLAFfA" class="secret"><p><strong>Foundry Note</strong></p><p>Active effects and
+          activities applying those effects on this item are provided for optional application of the chosen
+          resistance.</p></section>
         chat: ''
       source:
         custom: ''
@@ -821,8 +818,7 @@ items:
           modifiedTime: 1724445384271
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.7cJTSbk7inXzZrgc
+        _key: '!actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.7cJTSbk7inXzZrgc'
       - name: Shared Cold Resistance
         img: icons/magic/water/snowflake-ice-blue.webp
         origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
@@ -859,8 +855,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: RhMVHKsPIntvMb9t
-        _key: >-
-          !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.RhMVHKsPIntvMb9t
+        _key: '!actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.RhMVHKsPIntvMb9t'
       - name: Shared Fire Resistance
         img: icons/magic/fire/flame-burning-yellow-orange.webp
         origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
@@ -897,8 +892,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: 88nNini6vAbvuYpW
-        _key: >-
-          !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.88nNini6vAbvuYpW
+        _key: '!actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.88nNini6vAbvuYpW'
       - name: Shared Lightning Resistance
         img: icons/magic/lightning/bolt-cloud-sky-white.webp
         origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
@@ -935,8 +929,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: aM5KtLpDsfmHWiz2
-        _key: >-
-          !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.aM5KtLpDsfmHWiz2
+        _key: '!actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.aM5KtLpDsfmHWiz2'
       - name: Shared Poison Resistance
         img: icons/skills/toxins/poison-bottle-corked-fire-green.webp
         origin: Compendium.degringo5e.actors24.Actor.phbmobDraconicSp.Item.phbaoiSharedResi
@@ -973,8 +966,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: C73Xnt0qigfb1tiy
-        _key: >-
-          !actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.C73Xnt0qigfb1tiy
+        _key: '!actors.items.effects!phbmobDraconicSp.phbaoiSharedResi.C73Xnt0qigfb1tiy'
     folder: null
     sort: 0
     ownership:
@@ -999,10 +991,8 @@ items:
     system:
       description:
         value: >-
-          <p>The spirit makes a number of [[/item Rend]] attacks equal to half
-          the spell's level (round down), and it uses [[/item Breath
-          Weapon]].</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of
-          attacks}</p>
+          <p>The spirit makes a number of [[/item Rend]] attacks equal to half the spell's level (round down), and it
+          uses [[/item Breath Weapon]].</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of attacks}</p>
         chat: ''
       source:
         custom: ''
@@ -1112,9 +1102,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack: </em>Bonus equals your spell attack modifier,
-          reach 10 feet. <em>Hit: </em>1d6 + 4 + the spell's level Piercing
-          damage.</p>
+          <p><em>Melee Attack: </em>Bonus equals your spell attack modifier, reach 10 feet. <em>Hit: </em>1d6 + 4 + the
+          spell's level Piercing damage.</p>
         chat: ''
       source:
         custom: ''
@@ -1244,9 +1233,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC equals your spell save DC, each
-          creature in a 30-foot Cone. <em>Failure: </em>2d6 damage of a type
-          this spirit has Resistance to (your choice when you cast the spell).
+          <p><em>Dexterity Saving Throw: </em>DC equals your spell save DC, each creature in a 30-foot Cone.
+          <em>Failure: </em>2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell).
           <em>Success: </em>Half damage.</p>
         chat: ''
       source:

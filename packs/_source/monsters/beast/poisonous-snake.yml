@@ -489,13 +489,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          make a [[/save]] saving throw, taking [[/damage average
-          activity=dnd5eactivity100]] damage on a failed save, or half as much
-          damage on a successful one.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must make a [[/save]] saving throw, taking
+          [[/damage average activity=dnd5eactivity100]] damage on a failed save, or half as much damage on a successful
+          one.</p>
         chat: >-
-          <p>The Poisonous Snake attacks with its Bite. The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The Poisonous Snake attacks with its Bite. The target must make a <strong>Constitution</strong> saving
+          throw.</p>
       source:
         custom: ''
         book: ''

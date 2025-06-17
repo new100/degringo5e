@@ -609,9 +609,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes two attacks,
-          using [[/item .mmFlameSword0000]] or [[/item .mmHammerThrow000]]in any
-          combination.</p>
+          <p class="feature">The [[lookup @name lowercase]] makes two attacks, using [[/item .mmFlameSword0000]] or
+          [[/item .mmHammerThrow000]]in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -725,9 +724,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: flame-sword
       source:
@@ -889,10 +886,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target is pushed up to 15 feet straight away from the [[lookup
-          @name lowercase]] and has Disadvantage on the next attack roll it
-          makes before the end of its next turn.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target is pushed up to 15 feet
+          straight away from the [[lookup @name lowercase]] and has Disadvantage on the next attack roll it makes before
+          the end of its next turn.</p>
         chat: ''
       identifier: hammer-throw
       source:
@@ -972,9 +968,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has Disadvantage on the next attack roll it makes before
-          the end of its next turn.</p>
+        description: <p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -990,8 +984,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmFireGiant00000.mmHammerThrow000.Jvy5UeJBi7Y0WmAp
+        _key: '!actors.items.effects!mmFireGiant00000.mmHammerThrow000.Jvy5UeJBi7Y0WmAp'
     flags:
       degringo5e:
         riders:

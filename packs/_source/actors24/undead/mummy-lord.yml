@@ -622,9 +622,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -681,11 +679,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>If destroyed, the  [[lookup @name lowercase]] gains a new body in
-          24 hours if its heart is intact, reviving with all its Hit Points. The
-          new body appears in an unoccupied space within the  [[lookup @name
-          lowercase]]'s lair. The heart is a Tiny object that has AC 17, HP 10,
-          and Immunity to all damage except Fire.</p>
+          <p>If destroyed, the  [[lookup @name lowercase]] gains a new body in 24 hours if its heart is intact, reviving
+          with all its Hit Points. The new body appears in an unoccupied space within the  [[lookup @name lowercase]]'s
+          lair. The heart is a Tiny object that has AC 17, HP 10, and Immunity to all damage except Fire.</p>
         chat: ''
       identifier: undead-restoration
       source:
@@ -738,9 +734,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -897,13 +891,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature, it is cursed. While cursed, the target
-          can't regain Hit Points, its Hit Point maximum doesn't return to
-          normal when finishing a Long Rest, and its Hit Point maximum decreases
-          by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A
-          creature dies and turns to dust if reduced to 0 Hit Points by this
-          attack.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is
+          cursed. While cursed, the target can't regain Hit Points, its Hit Point maximum doesn't return to normal when
+          finishing a Long Rest, and its Hit Point maximum decreases by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24
+          hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.</p>
         chat: ''
       identifier: rotting-fist
       source:
@@ -984,12 +975,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a creature, it is cursed. While cursed, the target
-          can’t regain Hit Points, its Hit Point maximum doesn’t return to
-          normal when finishing a Long Rest, and its Hit Point maximum decreases
-          by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A
-          creature dies and turns to dust if reduced to 0 Hit Points by this
-          attack.</p>
+          <p>If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, its Hit Point
+          maximum doesn’t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by [[/r
+          3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A creature dies and turns to dust if reduced to 0
+          Hit Points by this attack.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -997,8 +986,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000.ActiveEffect.t7Anyyhyg6fmTdXw
+          compendiumSource: Compendium.degringo5e.actors24.Actor.mmMummy000000000.Item.mmRottingFist000.ActiveEffect.t7Anyyhyg6fmTdXw
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1007,8 +995,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.mmRottingFist000.B1S4dZd1Lz0jokIo
+        _key: '!actors.items.effects!mmMummyLord00000.mmRottingFist000.B1S4dZd1Lz0jokIo'
     flags:
       degringo5e:
         riders:
@@ -1078,9 +1065,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmRottingFist000]] or [[/item .d6GVHcFrHv83C7eS]] attack, and it uses
-          [[/item .mmDreadfulGlare0]].</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmRottingFist000]] or [[/item .d6GVHcFrHv83C7eS]] attack,
+          and it uses [[/item .mmDreadfulGlare0]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1373,20 +1359,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Wisdom as
-          the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +9 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +9 to
+          hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimateDea]{Animate
-          Dead}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimateDea]{Animate Dead}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHarm000000]{Harm}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInsectPlag]{Insect
-          Plague}</em> (level 7 version)</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInsectPlag]{Insect Plague}</em> (level 7 version)</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1519,8 +1500,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1552,8 +1532,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.MNMv0vuxNlTLXjTJ.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.MNMv0vuxNlTLXjTJ.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -1577,21 +1556,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -1684,8 +1658,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.2L5xIB4F7pzLxodZ
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.2L5xIB4F7pzLxodZ
         changes:
           - key: system.properties
             mode: 2
@@ -1717,8 +1690,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.qJROiSCEROFUzokI.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.qJROiSCEROFUzokI.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -1745,30 +1717,21 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a pile of bones or a corpse of a Medium or Small Humanoid
-          within range. The target becomes an Undead creature: a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobSkeleton00]{Skeleton}</strong>
-          if you chose bones or a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobZombie0000]{Zombie}</strong>
-          if you chose a corpse.</p><p>On each of your turns, you can take a
-          Bonus Action to mentally command any creature you made with this spell
-          if the creature is within 60 feet of you (if you control multiple
-          creatures, you can command any of them at the same time, issuing the
-          same command to each one). You decide what action the creature will
-          take and where it will move on its next turn, or you can issue a
-          general command, such as to guard a chamber or corridor. If you issue
-          no commands, the creature takes the Dodge action and moves only to
-          avoid harm. Once given an order, the creature continues to follow it
-          until its task is complete.</p><p>The creature is under your control
-          for 24 hours, after which it stops obeying any command you've given
-          it. To maintain control of the creature for another 24 hours, you must
-          cast this spell on the creature again before the current 24-hour
-          period ends. This use of the spell reasserts your control over up to
-          four creatures you have animated with this spell rather than animating
-          a new creature.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> You animate or reassert control over two additional
-          Undead creatures for each spell slot level above 3. Each of the
-          creatures must come from a different corpse or pile of bones.</p>
+          <p>Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead
+          creature: a <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobSkeleton00]{Skeleton}</strong> if you
+          chose bones or a <strong>@UUID[Compendium.degringo5e.actors24.Actor.phbmobZombie0000]{Zombie}</strong> if you
+          chose a corpse.</p><p>On each of your turns, you can take a Bonus Action to mentally command any creature you
+          made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can
+          command any of them at the same time, issuing the same command to each one). You decide what action the
+          creature will take and where it will move on its next turn, or you can issue a general command, such as to
+          guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to
+          avoid harm. Once given an order, the creature continues to follow it until its task is complete.</p><p>The
+          creature is under your control for 24 hours, after which it stops obeying any command you've given it. To
+          maintain control of the creature for another 24 hours, you must cast this spell on the creature again before
+          the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you
+          have animated with this spell rather than animating a new creature.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> You animate or reassert control over two additional Undead creatures for each spell slot level
+          above 3. Each of the creatures must come from a different corpse or pile of bones.</p>
         chat: ''
       source:
         custom: ''
@@ -1892,8 +1855,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.r1CShKUHpGLk6S15
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.r1CShKUHpGLk6S15
         changes:
           - key: system.properties
             mode: 2
@@ -1925,8 +1887,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.TR4icqSOLRCzde5j.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.TR4icqSOLRCzde5j.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 100000
     ownership:
@@ -1950,12 +1911,10 @@ items:
     system:
       description:
         value: >-
-          <p>You unleash virulent magic on a creature you can see within range.
-          The target makes a Constitution saving throw. On a failed save, it
-          takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an
-          amount equal to the Necrotic damage it took. On a successful save, it
-          takes half as much damage only. This spell can't reduce a target's Hit
-          Point maximum below 1.</p>
+          <p>You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving
+          throw. On a failed save, it takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an amount
+          equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell
+          can't reduce a target's Hit Point maximum below 1.</p>
         chat: ''
       source:
         custom: ''
@@ -2065,8 +2024,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.UuaXl5nquzkuZass
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.UuaXl5nquzkuZass
         changes:
           - key: system.properties
             mode: 2
@@ -2098,8 +2056,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.4K4UcgI4iS2ecAzk.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.4K4UcgI4iS2ecAzk.dnd5espellchange'
     folder: 8WmlLARx1Df3Ii9v
     sort: 700000
     ownership:
@@ -2126,17 +2083,13 @@ items:
     system:
       description:
         value: >-
-          <p>Swarming locusts fill a 20-foot-radius Sphere centered on a point
-          you choose within range. The Sphere remains for the duration, and its
-          area is &amp;Reference[LightlyObscured] and
-          &amp;Reference[DifficultTerrain].</p><p>When the swarm appears, each
-          creature in it makes a Constitution saving throw, taking 4d10 Piercing
-          damage on a failed save or half as much damage on a successful one. A
-          creature also makes this save when it enters the spell's area for the
-          first time on a turn or ends its turn there. A creature makes this
-          save only once per turn.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong>The damage increases by 1d10 for each spell slot level
-          above 5.</p>
+          <p>Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range. The Sphere
+          remains for the duration, and its area is &amp;Reference[LightlyObscured] and
+          &amp;Reference[DifficultTerrain].</p><p>When the swarm appears, each creature in it makes a Constitution
+          saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A
+          creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn
+          there. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong>The damage increases by 1d10 for each spell slot level above 5.</p>
         chat: ''
       source:
         custom: ''
@@ -2245,8 +2198,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.h8Z0JRmWxCy0fyYu
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.mmSpellcasting00.Activity.h8Z0JRmWxCy0fyYu
         changes:
           - key: system.properties
             mode: 2
@@ -2278,8 +2230,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.4cGulOY7E3mxCmBK.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.4cGulOY7E3mxCmBK.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1500000
     ownership:
@@ -2506,9 +2457,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] uses [[/item
-          .mmDreadfulGlare0]].</p>
+        value: <p class="feature">The [[lookup @name lowercase]] uses [[/item .mmDreadfulGlare0]].</p>
         chat: ''
       identifier: glare
       source:
@@ -2614,18 +2563,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Trigger:</em> The [[lookup @name lowercase]] is
-          hit by an attack roll. <em>Response:</em> The [[lookup @name
-          lowercase]] adds 2 to its AC against the attack, possibly causing the
-          attack to miss, and the [[lookup @name lowercase]] teleports up to
-          [[lookup @range.value activity=EsBmMUQMO4b0g6Yw]] [[lookup
-          @range.units activity=EsBmMUQMO4b0g6Yw]]. [[lookup
-          @target.affects.special activity=EsBmMUQMO4b0g6Yw]]. Each creature of
-          its choice that it can see within [[lookup @target.template.size
-          activity=EsBmMUQMO4b0g6Yw]] [[lookup @target.template.units
-          activity=EsBmMUQMO4b0g6Yw]]. of its destination space has the
-          &amp;Reference[Blinded apply=false] condition until the end of the
-          [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature"><em>Trigger:</em> The [[lookup @name lowercase]] is hit by an attack roll.
+          <em>Response:</em> The [[lookup @name lowercase]] adds 2 to its AC against the attack, possibly causing the
+          attack to miss, and the [[lookup @name lowercase]] teleports up to [[lookup @range.value
+          activity=EsBmMUQMO4b0g6Yw]] [[lookup @range.units activity=EsBmMUQMO4b0g6Yw]]. [[lookup
+          @target.affects.special activity=EsBmMUQMO4b0g6Yw]]. Each creature of its choice that it can see within
+          [[lookup @target.template.size activity=EsBmMUQMO4b0g6Yw]] [[lookup @target.template.units
+          activity=EsBmMUQMO4b0g6Yw]]. of its destination space has the &amp;Reference[Blinded apply=false] condition
+          until the end of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: whirlwind-of-sand
       source:
@@ -2665,9 +2610,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The attacking creature adds 2 to its AC against the attack,
-          possibly causing the attack to miss.</p>
+        description: <p>The attacking creature adds 2 to its AC against the attack, possibly causing the attack to miss.</p>
         tint: '#ffffff'
         transfer: true
         statuses: []
@@ -2692,8 +2635,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.Xy0tzgObrMRF2lHm
+        _key: '!actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.Xy0tzgObrMRF2lHm'
       - name: Blinded
         img: systems/degringo5e/icons/svg/statuses/blinded.svg
         origin: Item.mmWhirlwindOfSan
@@ -2711,10 +2653,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Each creature of the attacking creature's choice that it can see
-          within 5 ft. of its destination space has the &amp;Reference[Blinded
-          apply=long] condition until the end of the attacking creature's next
-          turn.</p>
+          <p>Each creature of the attacking creature's choice that it can see within 5 ft. of its destination space has
+          the &amp;Reference[Blinded apply=long] condition until the end of the attacking creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2740,8 +2680,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.MMp7IK5bYYPYtSdL
+        _key: '!actors.items.effects!mmMummyLord00000.Hp6Uq0ZvymMIEGys.MMp7IK5bYYPYtSdL'
     flags:
       degringo5e:
         riders:
@@ -2821,10 +2760,9 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em>
-          (level 2 version), using the same spellcasting ability as
-          Spellcasting. The [[lookup @name lowercase]] can't take this action
-          again until the start of its next turn.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em> (level 2 version), using the
+          same spellcasting ability as Spellcasting. The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: dread-command
       source:
@@ -2867,21 +2805,15 @@ items:
     system:
       description:
         value: >-
-          <p>You speak a one-word command to a creature you can see within
-          range. The target must succeed on a Wisdom saving throw or follow the
-          command on its next turn. Choose the command from these
-          options:</p><p><strong>Approach.</strong> The target moves toward you
-          by the shortest and most direct route, ending its turn if it moves
-          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
-          whatever it is holding and then ends its
-          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
-          away from you by the fastest available
-          means.</p><p><strong>Grovel.</strong> The target has the Prone
-          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
-          turn, the target doesn't move and takes no action or Bonus
-          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can affect one additional creature for each spell slot level above
-          1.</p>
+          <p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom
+          saving throw or follow the command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route,
+          ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is
+          holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you
+          by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then
+          ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for
+          each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -2978,8 +2910,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.SSc4GeA0NJxba8O4.Activity.9RQr4xjb1zKIXBxn
+        origin: Compendium.degringo5e.actors24.Actor.mmMummyLord00000.Item.SSc4GeA0NJxba8O4.Activity.9RQr4xjb1zKIXBxn
         changes:
           - key: system.activation
             mode: 5
@@ -3011,8 +2942,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.KOWKJe3vIwDbWY0Y.dnd5espellchange
+        _key: '!actors.items.effects!mmMummyLord00000.KOWKJe3vIwDbWY0Y.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4700000
     ownership:
@@ -3092,8 +3022,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes one [[/item
-          .mmRottingFist000]] or [[/item .d6GVHcFrHv83C7eS]] attack.</p>
+          <p class="feature">The [[lookup @name lowercase]] makes one [[/item .mmRottingFist000]] or [[/item
+          .d6GVHcFrHv83C7eS]] attack.</p>
         chat: ''
       identifier: necrotic-strike
       source:
@@ -3210,13 +3140,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=8LmlZfevSQkOxGSN]], one [[lookup
-          @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target has the &amp;Reference[Paralyzed
-          apply=false] condition until the end of the [[lookup @name
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], one
+          [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> [[/damage average]] damage,
+          and the target has the &amp;Reference[Paralyzed apply=false] condition until the end of the [[lookup @name
           lowercase]]'s next turn.</p>
         chat: ''
       identifier: dreadful-glare
@@ -3254,9 +3181,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[<span style="font-family:'Roboto
-          Condensed', sans-serif">Paralyzed</span> apply=false] condition until
-          the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[<span style="font-family:'Roboto Condensed', sans-serif">Paralyzed</span>
+          apply=false] condition until the attacking creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3273,8 +3199,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummyLord00000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c
+        _key: '!actors.items.effects!mmMummyLord00000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c'
     flags:
       degringo5e:
         riders:

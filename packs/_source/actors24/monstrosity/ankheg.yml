@@ -560,9 +560,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can burrow through
-          solid rock at half its Burrow Speed and leaves a 10-foot-diameter
-          tunnel in its wake.</p>
+          <p class="feature">The [[lookup @name lowercase]] can burrow through solid rock at half its Burrow Speed and
+          leaves a 10-foot-diameter tunnel in its wake.</p>
         chat: ''
       identifier: tunneler
       source:
@@ -726,11 +725,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=xWlMeXFjELfSUWX9]]), reach [[lookup
-          @range.value activity=xWlMeXFjELfSUWX9]] ft. [[/damage average
-          extended]]. If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
+          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup @activation.condition activity=xWlMeXFjELfSUWX9]]), reach
+          [[lookup @range.value activity=xWlMeXFjELfSUWX9]] ft. [[/damage average extended]]. If the target is a Large
+          or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
           @skills.ath.passive]]).</p>
         chat: ''
       identifier: bite
@@ -815,9 +812,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC).</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -834,8 +830,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAnkheg00000000.mmBite0000000000.ihvVTpfklXa7XAe2
+        _key: '!actors.items.effects!mmAnkheg00000000.mmBite0000000000.ihvVTpfklXa7XAe2'
     flags:
       degringo5e:
         riders:
@@ -940,15 +935,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=20GU2JBM5zJfNPD1]], each [[lookup @target.affects.type
-          activity=20GU2JBM5zJfNPD1]] in a [[lookup @target.template.size
-          activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units
-          activity=20GU2JBM5zJfNPD1]]-long, [[lookup @target.template.width
-          activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units
-          activity=20GU2JBM5zJfNPD1]]-wide [[lookup @target.template.type
-          capitalize activity=20GU2JBM5zJfNPD1]].</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=20GU2JBM5zJfNPD1]], each [[lookup
+          @target.affects.type activity=20GU2JBM5zJfNPD1]] in a [[lookup @target.template.size
+          activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units activity=20GU2JBM5zJfNPD1]]-long, [[lookup
+          @target.template.width activity=20GU2JBM5zJfNPD1]]-[[lookup @target.template.units
+          activity=20GU2JBM5zJfNPD1]]-wide [[lookup @target.template.type capitalize
+          activity=20GU2JBM5zJfNPD1]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
           damage.</p>
         chat: ''
       identifier: acid-spray

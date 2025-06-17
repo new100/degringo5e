@@ -2,20 +2,15 @@ name: Slow
 system:
   description:
     value: >-
-      <p>You alter time around up to six creatures of your choice in a 40-foot
-      Cube within range. Each target must succeed on a Wisdom saving throw or be
-      affected by this spell for the duration.</p><p>An affected target's Speed
-      is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it
-      can't take Reactions. On its turns, it can take either an action or a
-      Bonus Action, not both, and it can make only one attack if it takes the
-      Attack action. If it casts a spell with a Somatic component, there is a
-      [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} chance the
-      spell fails as a result of the target making the spell's gestures too
-      slowly.</p><p>An affected target repeats the save at the end of each of
-      its turns, ending the spell on itself on a success.</p><section
-      id="secret-2RobIVhv3tn7gmU7" class="secret"><p><strong>Foundry
-      Note</strong></p><p>The inline roll above will return 1 if it succeeded or
-      0 if it failed.</p></section>
+      <p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must
+      succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's Speed
+      is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it
+      can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack
+      action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&lt;=25#Slowed spell cast
+      success]]{25 percent} chance the spell fails as a result of the target making the spell's gestures too
+      slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a
+      success.</p><section id="secret-2RobIVhv3tn7gmU7" class="secret"><p><strong>Foundry Note</strong></p><p>The inline
+      roll above will return 1 if it succeeded or 0 if it failed.</p></section>
     chat: ''
   source:
     custom: ''
@@ -192,22 +187,18 @@ effects:
         value: '-2'
         priority: null
     description: >-
-      <p>An affected target’s Speed is halved, it takes a −2 penalty to AC and
-      Dexterity saving throws, and it can’t take Reactions. On its turns, it can
-      take either an action or a Bonus Action, not both, and it can make only
-      one attack if it takes the Attack action. If it casts a spell with a
-      Somatic component, there is a [[/r 1d100cs&gt;25#Slowed spell cast
-      success]]{25 percent} chance the spell fails as a result of the target
-      making the spell’s gestures too slowly.</p><p>An affected target repeats
-      the [[/save ability=wis]] save at the end of each of its turns, ending the
-      spell on itself on a success.</p>
+      <p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t
+      take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one
+      attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r
+      1d100cs&gt;25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the
+      spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of
+      its turns, ending the spell on itself on a success.</p>
     transfer: false
     statuses: []
     flags: {}
     tint: '#ffffff'
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
+      compendiumSource: Compendium.degringo5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

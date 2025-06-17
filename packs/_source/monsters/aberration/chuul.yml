@@ -491,12 +491,9 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          &amp;Reference[grappled] (escape DC 14) if it is a Large or smaller
-          creature and the chuul doesn't have two other creatures grappled.</p>
-        chat: >-
-          <p>The Chuul attacks with its Pincer. The target is grappled if it is
-          a Large or smaller creature.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is &amp;Reference[grappled] (escape DC 14) if
+          it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.</p>
+        chat: <p>The Chuul attacks with its Pincer. The target is grappled if it is a Large or smaller creature.</p>
       source:
         custom: ''
         book: ''
@@ -661,16 +658,12 @@ items:
     system:
       description:
         value: >-
-          <p>One creature grappled by the chuul must succeed on a [[/save]]
-          saving throw or be &amp;Reference[poisoned] for 1 minute. Until this
-          poison ends, the target is &amp;Reference[paralyzed]. The target can
-          repeat the saving throw at the end of each of its turns, ending the
-          effect on itself on a success.</p>
+          <p>One creature grappled by the chuul must succeed on a [[/save]] saving throw or be &amp;Reference[poisoned]
+          for 1 minute. Until this poison ends, the target is &amp;Reference[paralyzed]. The target can repeat the
+          saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
         chat: >-
-          <p>One creature grappled by the chuul must make a
-          <strong>Constitution</strong> saving throw. The target can repeat the
-          saving throw at the end of each of its turns, ending the effect on
-          itself on a success.</p>
+          <p>One creature grappled by the chuul must make a <strong>Constitution</strong> saving throw. The target can
+          repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
       source:
         custom: ''
         book: ''
@@ -818,9 +811,8 @@ items:
     system:
       description:
         value: >-
-          <p>The chuul makes two [[/item .7lnXqe8AnWhtnQh7]]{pincer} attacks. If
-          the chuul is grappling a creature, the chuul can also use its [[/item
-          .XUzROtGqVZS61Ofm]]{tentacles} once.</p>
+          <p>The chuul makes two [[/item .7lnXqe8AnWhtnQh7]]{pincer} attacks. If the chuul is grappling a creature, the
+          chuul can also use its [[/item .XUzROtGqVZS61Ofm]]{tentacles} once.</p>
         chat: ''
       source:
         custom: ''
@@ -920,9 +912,8 @@ items:
     system:
       description:
         value: >-
-          <p>The chuul senses magic within 120 feet of it at will. This trait
-          otherwise works like the detect magic spell but isn't itself
-          magical.</p>
+          <p>The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic
+          spell but isn't itself magical.</p>
         chat: ''
       source:
         custom: ''

@@ -562,9 +562,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -668,9 +667,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target has the &amp;Reference[Poisoned apply=false] condition
-          until the end of its next turn.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target has the
+          &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>
         chat: ''
       identifier: gouge
       source:
@@ -750,9 +748,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the end of its next turn.</p>
+        description: <p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -769,8 +765,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantVulture00.mmGouge000000000.Bu9GvjGYEnGjbq3U
+        _key: '!actors.items.effects!mmGiantVulture00.mmGouge000000000.Bu9GvjGYEnGjbq3U'
     flags:
       degringo5e:
         riders:

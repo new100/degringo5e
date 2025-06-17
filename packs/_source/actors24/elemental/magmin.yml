@@ -625,14 +625,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] explodes [[lookup
-          @activation.condition activity=1SfqWSp7RSyHgG4b]].</p><p><em>Dexterity
-          Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type
-          activity=1SfqWSp7RSyHgG4b]] in a [[lookup @target.template.size
-          activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the
-          [[lookup @name lowercase]].</p><p><em>Failure: </em>[[/damage
-          average]] damage.</p><p><em>Success:</em> Half damage.</p>
+          <p>The [[lookup @name lowercase]] explodes [[lookup @activation.condition
+          activity=1SfqWSp7RSyHgG4b]].</p><p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
+          activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] in a [[lookup
+          @target.template.size activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the [[lookup @name
+          lowercase]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: death-burst
       source:
@@ -738,9 +735,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature or a flammable object that isn't being
-          worn or carried, it starts burning.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature or a
+          flammable object that isn't being worn or carried, it starts burning.</p>
         chat: ''
       identifier: touch
       source:
@@ -882,10 +878,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] sets itself ablaze
-          or extinguishes its flames. While ablaze, the [[lookup @name
-          lowercase]] sheds Bright Light in a 10-foot radius and Dim Light for
-          an additional 10 feet.</p>
+          <p class="feature">The [[lookup @name lowercase]] sets itself ablaze or extinguishes its flames. While ablaze,
+          the [[lookup @name lowercase]] sheds Bright Light in a 10-foot radius and Dim Light for an additional 10
+          feet.</p>
         chat: ''
       identifier: ignited-illumination
       source:

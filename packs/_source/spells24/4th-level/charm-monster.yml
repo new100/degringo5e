@@ -2,13 +2,11 @@ name: Charm Monster
 system:
   description:
     value: >-
-      <p>One creature you can see within range makes a Wisdom saving throw. It
-      does so with Advantage if you or your allies are fighting it. On a failed
-      save, the target has the &amp;Reference[Charmed apply=false] condition
-      until the spell ends or until you or your allies damage it. The Charmed
-      creature is Friendly to you. When the spell ends, the target knows it was
-      Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You
-      can target one additional creature for each spell slot level above 4.</p>
+      <p>One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your
+      allies are fighting it. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition until
+      the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell
+      ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can
+      target one additional creature for each spell slot level above 4.</p>
     chat: ''
   source:
     custom: ''
@@ -116,10 +114,9 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>The target has the &amp;Reference[Charmed apply=false] condition until
-      the spell ends or until you or your allies damage it. The Charmed creature
-      is Friendly to you. When the spell ends, the target knows it was Charmed
-      by you.</p>
+      <p>The target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your
+      allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by
+      you.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

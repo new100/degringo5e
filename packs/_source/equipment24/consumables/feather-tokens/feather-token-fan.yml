@@ -66,14 +66,11 @@ system:
     autoDestroy: true
   description:
     value: >-
-      <p><em>Wondrous Item, Uncommon, See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
-      Token}</em></p><p>If you are on a boat or ship, you can take a Magic
-      action to toss the token up to 10 feet in the air. The token disappears,
-      and a giant flapping fan takes its place. The fan floats and creates a
-      strong wind. This wind can fill the sails of one ship, increasing its
-      speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic
-      action.</p>
+      <p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      Token}</em></p><p>If you are on a boat or ship, you can take a Magic action to toss the token up to 10 feet in the
+      air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a strong wind.
+      This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss
+      the fan as a Magic action.</p>
     chat: ''
   identifier: fan-feather-token
   source:
@@ -133,8 +130,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>This wind can fill the sails of one ship, increasing its speed by 5
-      miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>
+      <p>This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss
+      the fan as a Magic action.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

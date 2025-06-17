@@ -7,14 +7,11 @@ system:
     value: >-
       <p>You know one extra cantrip from the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{Druid
-      spell list}. In addition, your mystical connection to nature gives you a
-      bonus to your Intelligence (Arcana or Nature) checks. The bonus equals
-      your Wisdom modifier (minimum bonus of +1, currently [[lookup
-      @abilities.wis.mod]]).</p><section class="secret"
-      id="secret-adiIB9wCX5zZdZ9F"><p><strong>Foundry Note</strong></p><p>This
-      feature includes an Active Effect which automates the increase to your
-      known cantrips and the bonus to your Arcane and Nature
-      checks.</p></section>
+      spell list}. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or
+      Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1, currently [[lookup
+      @abilities.wis.mod]]).</p><section class="secret" id="secret-adiIB9wCX5zZdZ9F"><p><strong>Foundry
+      Note</strong></p><p>This feature includes an Active Effect which automates the increase to your known cantrips and
+      the bonus to your Arcane and Nature checks.</p></section>
     chat: ''
   source:
     custom: ''
@@ -73,8 +70,7 @@ effects:
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.zxFq5nqzLiznWTeu
+      compendiumSource: Compendium.degringo5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.zxFq5nqzLiznWTeu
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

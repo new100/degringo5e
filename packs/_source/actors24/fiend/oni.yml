@@ -617,9 +617,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula
-          activity=5cGvjZJIJVicjJ3d]] Hit Points at the start of each of its
-          turns if it has at least 1 Hit Point.</p>
+          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] Hit Points at
+          the start of each of its turns if it has at least 1 Hit Point.</p>
         chat: ''
       identifier: regeneration
       source:
@@ -719,9 +718,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] or [[/item .mmNightmareRay00]] attacks. It can
-          replace one attack with a use of [[/item .mmSpellcasting00]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] or [[/item .mmNightmareRay00]]
+          attacks. It can replace one attack with a use of [[/item .mmSpellcasting00]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -985,9 +983,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target has the &amp;Reference[Frightened apply=false]
-          condition until the start of the [[lookup @name lowercase]]'s next
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target has the
+          &amp;Reference[Frightened apply=false] condition until the start of the [[lookup @name lowercase]]'s next
           turn.</p>
         chat: ''
       identifier: nightmare-ray
@@ -1069,8 +1066,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the start of the attacking creature’s next turn</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking
+          creature’s next turn</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1087,8 +1084,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.mmNightmareRay00.1W7nCxww2CjUF5Bh
+        _key: '!actors.items.effects!mmOni00000000000.mmNightmareRay00.1W7nCxww2CjUF5Bh'
     flags:
       degringo5e:
         riders:
@@ -1170,10 +1166,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a
-          Small or Medium Humanoid or a Large Giant, or it returns to its true
-          form. Other than its size, its game statistics are the same in each
-          form. Any equipment it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a Small or Medium Humanoid or a Large
+          Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any
+          equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -1426,16 +1421,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm
-          Person}</em> (level 2 version),
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em> (level 2 version),
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous
-          Form}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous Form}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSleep00000]{Sleep}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1538,9 +1529,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
-          on itself, requiring no spell components and using Charisma as the
-          spellcasting ability.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no
+          spell components and using Charisma as the spellcasting ability.</p>
         chat: ''
       identifier: invisibility
       source:
@@ -1583,11 +1573,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1696,9 +1685,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1714,14 +1701,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.7zCgLqwWT0prZxhy.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmOni00000000000.7zCgLqwWT0prZxhy.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
+        origin: Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
         changes:
           - key: system.activation
             mode: 5
@@ -1769,8 +1754,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.7zCgLqwWT0prZxhy.dnd5espellchange
+        _key: '!actors.items.effects!mmOni00000000000.7zCgLqwWT0prZxhy.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -1794,14 +1778,11 @@ items:
     system:
       description:
         value: >-
-          <p>One Humanoid you can see within range makes a Wisdom saving throw.
-          It does so with Advantage if you or your allies are fighting it. On a
-          failed save, the target has the &amp;Reference[charmed apply=false]
-          condition until the spell ends or until you or your allies damage it.
-          The Charmed creature is Friendly to you. When the spell ends, the
-          target knows it was Charmed by you.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong> You can target one additional creature for each
-          spell slot level above 1.</p>
+          <p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your
+          allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition
+          until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the
+          spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+          You can target one additional creature for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1915,10 +1896,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>the target has the &amp;Reference[charmed apply=false] condition
-          until the spell ends or until you or your allies damage it. The
-          Charmed creature is Friendly to you. When the spell ends, the target
-          knows it was Charmed by you.</p>
+          <p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your
+          allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was
+          Charmed by you.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1934,14 +1914,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.Gi0ufKRt8vdWL2P5.78JcD7wFiSCOfmns
+        _key: '!actors.items.effects!mmOni00000000000.Gi0ufKRt8vdWL2P5.78JcD7wFiSCOfmns'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1973,8 +1951,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.Gi0ufKRt8vdWL2P5.dnd5espellchange
+        _key: '!actors.items.effects!mmOni00000000000.Gi0ufKRt8vdWL2P5.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 5000000
     ownership:
@@ -1998,16 +1975,12 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, magical &amp;Reference[darkness] spreads from a
-          point within range and fills a 15-foot-radius Sphere. Darkvision can't
-          see through it, and nonmagical light can't illuminate
-          it.</p><p>Alternatively, you cast the spell on an object that isn't
-          being worn or carried, causing the Darkness to fill a 15-foot
-          Emanation originating from that object. Covering that object with
-          something opaque, such as a bowl or helm, blocks the
-          Darkness.</p><p>If any of this spell's area overlaps with an area of
-          Bright Light or Dim Light created by a spell of level 2 or lower, that
-          other spell is dispelled.</p>
+          <p>For the duration, magical &amp;Reference[darkness] spreads from a point within range and fills a
+          15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate
+          it.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the
+          Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque,
+          such as a bowl or helm, blocks the Darkness.</p><p>If any of this spell's area overlaps with an area of Bright
+          Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.</p>
         chat: ''
       source:
         custom: ''
@@ -2099,8 +2072,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.HAh5pQRixFZz7BB9
+        origin: Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.HAh5pQRixFZz7BB9
         changes:
           - key: system.properties
             mode: 2
@@ -2132,8 +2104,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.C0ZqTJQdzy66V1aq.dnd5espellchange
+        _key: '!actors.items.effects!mmOni00000000000.C0ZqTJQdzy66V1aq.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4200000
     ownership:
@@ -2157,23 +2128,16 @@ items:
     system:
       description:
         value: >-
-          <p>A willing creature you touch shape-shifts, along with everything
-          it's wearing and carrying, into a misty cloud for the duration. The
-          spell ends on the target if it drops to 0 Hit Points or if it takes a
-          Magic action to end the spell on itself.</p><p>While in this form, the
-          target's only method of movement is a Fly Speed of 10 feet, and it can
-          hover. The target can enter and occupy the space of another creature.
-          The target has Resistance to Bludgeoning, Piercing, and Slashing
-          damage; it has Immunity to the &amp;Reference[prone apply=false]
-          condition; and it has Advantage on Strength, Dexterity, and
-          Constitution saving throws. The target can pass through narrow
-          openings, but it treats liquids as though they were solid
-          surfaces.</p><p>The target can't talk or manipulate objects, and any
-          objects it was carrying or holding can't be dropped, used, or
-          otherwise interacted with. Finally, the target can't attack or cast
-          spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can target one additional creature for each spell slot level above
-          3.</p>
+          <p>A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty
+          cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action
+          to end the spell on itself.</p><p>While in this form, the target's only method of movement is a Fly Speed of
+          10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has
+          Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone
+          apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The
+          target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The
+          target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or
+          otherwise interacted with. Finally, the target can't attack or cast spells.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -2308,17 +2272,13 @@ items:
             value: icons/magic/air/wind-vortex-swirl-blue-purple.webp
             priority: null
         description: >-
-          <p>The target’s only method of movement is a Fly Speed of 10 feet, and
-          it can hover. The target can enter and occupy the space of another
-          creature. The target has Resistance to Bludgeoning, Piercing, and
-          Slashing damage; it has Immunity to the &amp;Reference[prone
-          apply=false] condition; and it has Advantage on Strength, Dexterity,
-          and Constitution saving throws. The target can pass through narrow
-          openings, but it treats liquids as though they were solid
-          surfaces.</p><p>The target can’t talk or manipulate objects, and any
-          objects it was carrying or holding can’t be dropped, used, or
-          otherwise interacted with. Finally, the target can’t attack or cast
-          spells.</p>
+          <p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and
+          occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage;
+          it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength,
+          Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids
+          as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was
+          carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or
+          cast spells.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2334,14 +2294,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.h96XIGXbBIW0GlyM.QeYsfnjEj2T9A3C8
+        _key: '!actors.items.effects!mmOni00000000000.h96XIGXbBIW0GlyM.QeYsfnjEj2T9A3C8'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.fRNxn3zh3CfpF8St
+        origin: Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.fRNxn3zh3CfpF8St
         changes:
           - key: system.properties
             mode: 2
@@ -2373,8 +2331,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.h96XIGXbBIW0GlyM.dnd5espellchange
+        _key: '!actors.items.effects!mmOni00000000000.h96XIGXbBIW0GlyM.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 1900000
     ownership:
@@ -2398,16 +2355,13 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of your choice in a 5-foot-radius Sphere centered on
-          a point within range must succeed on a Wisdom saving throw or have the
-          &amp;Reference[incapacitated apply=false] condition until the end of
-          its next turn, at which point it must repeat the save. If the target
-          fails the second save, the target has the &amp;Reference[unconscious]
-          condition for the duration. The spell ends on a target if it takes
-          damage or someone within 5 feet of it takes an action to shake it out
-          of the spell's effect.</p><p>Creatures that don't sleep, such as
-          elves, or that have Immunity to the Exhaustion condition automatically
-          succeed on saves against this spell.</p>
+          <p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a
+          Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next
+          turn, at which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't
+          sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against
+          this spell.</p>
         chat: ''
       source:
         custom: ''
@@ -2520,12 +2474,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target has the &amp;Reference[incapacitated apply=false]
-          condition until the end of its next turn, at which point it must
-          repeat the save. If the target fails the second save, the target has
-          the &amp;Reference[unconscious] condition for the duration. The spell
-          ends on a target if it takes damage or someone within 5 feet of it
-          takes an action to shake it out of the spell’s effect.</p>
+          <p>The target has the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at
+          which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2541,14 +2493,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.eTAy0I912YwURW6x.04Wa4xUzjA31kPno
+        _key: '!actors.items.effects!mmOni00000000000.eTAy0I912YwURW6x.04Wa4xUzjA31kPno'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.bDJzHMgc9srYARfd
+        origin: Compendium.degringo5e.actors24.Actor.mmOni00000000000.Item.mmSpellcasting00.Activity.bDJzHMgc9srYARfd
         changes:
           - key: system.properties
             mode: 2
@@ -2580,8 +2530,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOni00000000000.eTAy0I912YwURW6x.dnd5espellchange
+        _key: '!actors.items.effects!mmOni00000000000.eTAy0I912YwURW6x.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 400000
     ownership:

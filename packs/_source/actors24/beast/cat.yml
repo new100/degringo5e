@@ -562,8 +562,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]]'s jump distance is
-          determined using its Dexterity rather than its Strength.</p>
+          <p class="feature">The [[lookup @name lowercase]]'s jump distance is determined using its Dexterity rather
+          than its Strength.</p>
         chat: ''
       identifier: jumper
       source:
@@ -674,9 +674,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: scratch
       source:

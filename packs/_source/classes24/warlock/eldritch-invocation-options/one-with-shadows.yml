@@ -5,15 +5,12 @@ img: icons/magic/unholy/silhouette-robe-evil-power.webp
 system:
   description:
     value: >-
-      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While
-      you're in an area of &amp;Reference[Dim Light] or
-      &amp;Reference[Darkness], you can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility} on
-      yourself without expending a spell slot.</p><section class="secret"
-      id="secret-SvwkLQLYzHCKzuss"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Cast</strong> activity can be used in place of the Invisibility
-      spell and includes an Active Effect that sets the Invisible status
-      effect.</p></section>
+      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you're in an area of &amp;Reference[Dim
+      Light] or &amp;Reference[Darkness], you can cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell
+      slot.</p><section class="secret" id="secret-SvwkLQLYzHCKzuss"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that
+      sets the Invisible status effect.</p></section>
     chat: ''
   source:
     custom: ''
@@ -104,9 +101,7 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The spell ends early immediately after the target makes an attack roll,
-      deals damage, or casts a spell.</p>
+    description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

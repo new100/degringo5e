@@ -37,9 +37,7 @@ system:
           choice: false
           count: '1'
           type: creature
-          special: >-
-            When you a hit a creature with an attack roll using a weapon once
-            per turn
+          special: When you a hit a creature with an attack roll using a weapon once per turn
         override: false
         prompt: false
       uses:
@@ -96,9 +94,7 @@ system:
           choice: false
           count: '1'
           type: creature
-          special: >-
-            When you a hit a creature with an attack roll using a weapon once
-            per turn
+          special: When you a hit a creature with an attack roll using a weapon once per turn
         override: false
         prompt: false
       uses:
@@ -126,13 +122,10 @@ system:
     max: ''
   description:
     value: >-
-      <p>Once on each of your turns when you hit a creature with an attack roll
-      using a weapon, you can cause the target to take an extra 1d8 Necrotic or
-      Radiant damage (your choice).</p><section id="secret-iZHQe1DZBrtcFZCk"
-      class="secret"><p><strong>Foundry Note</strong></p><p>This feature's
-      damage will automatically increase when you gain
-      @UUID[Compendium.degringo5e.classes24.Item.phbclcImprovedBl]{Improved Blessed
-      Strikes}.</p></section>
+      <p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target
+      to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id="secret-iZHQe1DZBrtcFZCk"
+      class="secret"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you
+      gain @UUID[Compendium.degringo5e.classes24.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>
     chat: ''
   source:
     rules: '2024'

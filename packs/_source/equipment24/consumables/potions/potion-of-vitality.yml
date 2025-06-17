@@ -67,15 +67,12 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Very Rare</em></p><p>When you drink this potion, it removes
-      any &amp;Reference[Exhaustion apply=false] levels you have and ends the
-      &amp;Reference[Poisoned apply=false] condition on you. For the next 24
-      hours, you regain the maximum number of Hit Points for any Hit Point Die
-      you spend.</p><p>This potion's crimson liquid regularly pulses with dull
-      light, calling to mind a heartbeat.</p><section class="secret"
-      id="secret-z0SSGecWIDLeIdS3"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Full of Vitality</strong> Active Effect can be used for
-      tracking.</p></section>
+      <p><em>Potion, Very Rare</em></p><p>When you drink this potion, it removes any &amp;Reference[Exhaustion
+      apply=false] levels you have and ends the &amp;Reference[Poisoned apply=false] condition on you. For the next 24
+      hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.</p><p>This potion's crimson
+      liquid regularly pulses with dull light, calling to mind a heartbeat.</p><section class="secret"
+      id="secret-z0SSGecWIDLeIdS3"><p><strong>Foundry Note</strong></p><p>The <strong>Full of Vitality</strong> Active
+      Effect can be used for tracking.</p></section>
     chat: ''
   identifier: potion-of-vitality
   source:

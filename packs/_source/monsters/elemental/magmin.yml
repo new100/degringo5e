@@ -492,16 +492,13 @@ items:
     system:
       description:
         value: >-
-          <p>When the magmin dies, it explodes in a burst of fire and magma.
-          Each creature within 10 ft. of it must make a [[/save]] saving throw,
-          taking [[/damage average]] damage on a failed save, or half as much
-          damage on a successful one. Flammable objects that aren't being worn
-          or carried in that area are ignited.</p>
+          <p>When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make
+          a [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a
+          successful one. Flammable objects that aren't being worn or carried in that area are ignited.</p>
         chat: >-
-          <p>When the magmin dies, it explodes in a burst of fire and magma.
-          Each creature within 10 ft. of it must make a
-          <strong>Dexterity</strong> saving throw. Flammable objects that aren't
-          being worn or carried in that area are ignited.</p>
+          <p>When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make
+          a <strong>Dexterity</strong> saving throw. Flammable objects that aren't being worn or carried in that area
+          are ignited.</p>
       source:
         custom: ''
         book: ''
@@ -618,9 +615,8 @@ items:
     system:
       description:
         value: >-
-          <p>As a bonus action, the magmin can set itself ablaze or extinguish
-          its flames. While ablaze, the magmin sheds bright light in a 10-foot
-          radius and dim light for an additional 10 ft.</p>
+          <p>As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin
+          sheds bright light in a 10-foot radius and dim light for an additional 10 ft.</p>
         chat: ''
       source:
         custom: ''
@@ -721,10 +717,9 @@ items:
       description:
         value: "<p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature or a flammable object, it ignites. Until\_a creature\_takes an action to\_douse the fire,\_the\_target takes [[/damage average activity=Tv2pWtjFLchLGbMd]] damage at\_the\_end of each of its \_turns.</p>"
         chat: >-
-          <p>The Magmin attacks with its Touch. If the target is a creature or a
-          flammable object, it ignites. Until a target takes an action to douse
-          the fire, the target takes <strong>3 (1d6) <em>fire
-          damage</em></strong> at the end of each of its turns.</p>
+          <p>The Magmin attacks with its Touch. If the target is a creature or a flammable object, it ignites. Until a
+          target takes an action to douse the fire, the target takes <strong>3 (1d6) <em>fire damage</em></strong> at
+          the end of each of its turns.</p>
       source:
         custom: ''
         book: ''

@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -487,9 +485,7 @@ items:
     img: icons/magic/air/air-wave-gust-blue.webp
     system:
       description:
-        value: >-
-          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle
-          caption=false]</p>
+        value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureEle caption=false]</p>
         chat: ''
       source:
         custom: ''
@@ -517,9 +513,7 @@ items:
           activation:
             type: ''
             value: null
-            condition: >-
-              a creature you can see enters the spirit’s space or starts its
-              turn within 5 feet of the spirit
+            condition: a creature you can see enters the spirit’s space or starts its turn within 5 feet of the spirit
             override: false
           consumption:
             targets: []
@@ -595,9 +589,7 @@ items:
             type: ''
             value: null
             override: false
-            condition: >-
-              a creature you can see enters the spirit’s space or starts its
-              turn within 5 feet of the spirit
+            condition: a creature you can see enters the spirit’s space or starts its turn within 5 feet of the spirit
           consumption:
             targets: []
             scaling:
@@ -677,11 +669,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the start of each of its turns, the &amp;Reference[Restrained
-          apply=false] target repeats the [[/save ability=dex]] save. On a
-          failed save, the target takes 4d8 (plus 2d8 for each spell slot level
-          above 5) damage of the spirit’s type. On a successful save, the target
-          isn’t Restrained by the spirit.</p>
+          <p>At the start of each of its turns, the &amp;Reference[Restrained apply=false] target repeats the [[/save
+          ability=dex]] save. On a failed save, the target takes 4d8 (plus 2d8 for each spell slot level above 5) damage
+          of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -697,8 +687,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbsplConjuredEl.1sm4KQqflaDX7MEu.NGnrAr3HdReYoTjS
+        _key: '!actors.items.effects!phbsplConjuredEl.1sm4KQqflaDX7MEu.NGnrAr3HdReYoTjS'
     folder: null
     sort: 0
     ownership:

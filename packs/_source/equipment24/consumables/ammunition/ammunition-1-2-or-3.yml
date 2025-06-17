@@ -2,13 +2,11 @@ name: Ammunition, +1, +2, or +3
 system:
   description:
     value: >-
-      <p><em>Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare
-      (+3)</em></p><p>You have a bonus to attack rolls and damage rolls made
-      with this piece of magic ammunition. The bonus is determined by the rarity
-      of the ammunition. Once it hits a target, the ammunition is no longer
-      magical.</p><p>This ammunition is typically found or sold in quantities of
-      ten or twenty pieces. Ten pieces of this ammunition are equivalent in
-      value to a potion of the same
+      <p><em>Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare (+3)</em></p><p>You have a bonus to attack
+      rolls and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the
+      ammunition. Once it hits a target, the ammunition is no longer magical.</p><p>This ammunition is typically found
+      or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion
+      of the same
       rarity.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
@@ -147,9 +145,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o caption=false]</p>'
         priority: null
       - key: system.properties
         mode: 2
@@ -205,9 +201,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o caption=false]</p>'
         priority: null
       - key: system.properties
         mode: 2
@@ -263,9 +257,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAmmunition12o caption=false]</p>'
         priority: null
       - key: system.properties
         mode: 2

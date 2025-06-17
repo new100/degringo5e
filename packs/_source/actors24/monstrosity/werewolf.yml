@@ -739,9 +739,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -838,9 +837,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using  [[/item
-          .mmScratch0000000]]{Scratch} or [[/item .mYM6o8kM9SDVm45w]]{Longbow}
-          in any combination. It can replace one attack with a  [[/item
+          <p>The [[lookup @name lowercase]] makes two attacks, using  [[/item .mmScratch0000000]]{Scratch} or [[/item
+          .mYM6o8kM9SDVm45w]]{Longbow} in any combination. It can replace one attack with a  [[/item
           .mmBite0000000000]]{Bite} attack.</p>
         chat: ''
       identifier: multiattack
@@ -1047,16 +1045,13 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Humanoid, it is subjected to the following
-          effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=GBKhdBPogHNssDIa]].</p><p><em>Failure:</em>
-          The target is cursed. If the cursed target drops to 0 Hit Points, it
-          instead becomes a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmWerewolf000000]{Werewolf}</strong>
-          under the DM's control and has 10 Hit Points.</p><p><em>Success:</em>
-          The target is immune to this [[lookup @name lowercase]]'s curse for 24
-          hours.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Humanoid, it is subjected to the
+          following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value
+          activity=GBKhdBPogHNssDIa]].</p><p><em>Failure:</em> The target is cursed. If the cursed target drops to 0 Hit
+          Points, it instead becomes a
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmWerewolf000000]{Werewolf}</strong> under the DM's control
+          and has 10 Hit Points.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s curse
+          for 24 hours.</p>
         chat: ''
       identifier: bite
       source:
@@ -1154,8 +1149,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWerewolf000000.mmBite0000000000.EbwiU99jQULR0XNJ
+        _key: '!actors.items.effects!mmWerewolf000000.mmBite0000000000.EbwiU99jQULR0XNJ'
     flags:
       degringo5e:
         riders:
@@ -1240,9 +1234,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: scratch
       source:
@@ -1388,11 +1380,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a
-          Large wolf-humanoid hybrid form or a Medium wolf, or it returns to its
-          true humanoid form, or it returns to its true form. Its game
-          statistics, other than its size, are the same in each form. Any
-          equipment it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a Large wolf-humanoid hybrid form or a
+          Medium wolf, or it returns to its true humanoid form, or it returns to its true form. Its game statistics,
+          other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -1439,8 +1429,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
+          compendiumSource: Compendium.degringo5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1449,8 +1438,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWerewolf000000.mmShapeshift0000.lY4nQHrfwYJqGuWE
+        _key: '!actors.items.effects!mmWerewolf000000.mmShapeshift0000.lY4nQHrfwYJqGuWE'
     flags:
       degringo5e:
         riders:

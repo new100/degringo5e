@@ -497,9 +497,8 @@ items:
     system:
       description:
         value: >-
-          <p>The sphinx is immune to any effect that would sense its emotions or
-          read its thoughts, as well as any divination spell that it refuses.
-          Wisdom (Insight) checks made to ascertain the sphinx's intentions or
+          <p>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any
+          divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or
           sincerity have disadvantage.</p>
         chat: ''
       source:
@@ -593,26 +592,18 @@ items:
     system:
       description:
         value: >-
-          <p>The sphinx is a 9th-level spellcaster. Its spellcasting ability is
-          Intelligence (spell save DC 16, +8 to hit with spell attacks). It
-          requires no material components to cast its spells. The sphinx has the
-          following wizard spells prepared:</p><p>Cantrips (at will): [[/item
-          .Utk1OQRwYkMkFRD3]]{mage hand}, [[/item .oIzA2MEHwxhtQneU]]{minor
-          illusion}, [[/item .udsLtG0BugXHR2JQ]]{prestidigitation}</p><p>1st
-          level (4 slots): [[/item .ghXTfe7sgCbgf1Q8]]{detect magic}, [[/item
-          .3OZnNhunvRtPOQmH]]{identify}, [[/item
-          .z1mx84ONwkXKUZd7]]{shield}</p><p>2nd level (3 slots): [[/item
-          .S7VbUetIfVT7B6Eq]]{darkness}, [[/item .SleYkHovQ8NagmeV]]{locate
-          object}, [[/item .zMAWdyc8UVb37BK4]]{suggestion}</p><p>3rd level (3
-          slots): [[/item .15Fa6q1nH27XfbR8]]{dispel magic}, [[/item
-          .XZhdgVK3cLoxNCQl]]{remove curse}, [[/item
-          .gopnZvS0c2jD5FP8]]{tongues}</p><p>4th level (3 slots): [[/item
-          .pxpb2eOB6bv4phAf]]{banishment}, [[/item .tEpDmYZNGc9f5OhJ]]{greater
-          invisibility}</p><p>5th level (1 slot): [[/item
-          .W4Qx5z0id6da0vqg]]{legend lore}</p>
-        chat: >-
-          <p>The sphinx is a spellcaster. Its spellcasting ability is
-          Intelligence.</p>
+          <p>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to
+          hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following
+          wizard spells prepared:</p><p>Cantrips (at will): [[/item .Utk1OQRwYkMkFRD3]]{mage hand}, [[/item
+          .oIzA2MEHwxhtQneU]]{minor illusion}, [[/item .udsLtG0BugXHR2JQ]]{prestidigitation}</p><p>1st level (4 slots):
+          [[/item .ghXTfe7sgCbgf1Q8]]{detect magic}, [[/item .3OZnNhunvRtPOQmH]]{identify}, [[/item
+          .z1mx84ONwkXKUZd7]]{shield}</p><p>2nd level (3 slots): [[/item .S7VbUetIfVT7B6Eq]]{darkness}, [[/item
+          .SleYkHovQ8NagmeV]]{locate object}, [[/item .zMAWdyc8UVb37BK4]]{suggestion}</p><p>3rd level (3 slots): [[/item
+          .15Fa6q1nH27XfbR8]]{dispel magic}, [[/item .XZhdgVK3cLoxNCQl]]{remove curse}, [[/item
+          .gopnZvS0c2jD5FP8]]{tongues}</p><p>4th level (3 slots): [[/item .pxpb2eOB6bv4phAf]]{banishment}, [[/item
+          .tEpDmYZNGc9f5OhJ]]{greater invisibility}</p><p>5th level (1 slot): [[/item .W4Qx5z0id6da0vqg]]{legend
+          lore}</p>
+        chat: <p>The sphinx is a spellcaster. Its spellcasting ability is Intelligence.</p>
       source:
         custom: ''
         book: ''
@@ -920,10 +911,8 @@ items:
     system:
       description:
         value: >-
-          <p>The sphinx can take 3 legendary actions. Only one legendary action
-          option can be used at a time and only at the end of another creature's
-          turn. The sphinx regains spent legendary actions at the start of its
-          turn.</p>
+          <p>The sphinx can take 3 legendary actions. Only one legendary action option can be used at a time and only at
+          the end of another creature's turn. The sphinx regains spent legendary actions at the start of its turn.</p>
         chat: <p>The sphinx can take 3 legendary actions.</p>
       source:
         custom: ''
@@ -970,9 +959,8 @@ items:
     system:
       description:
         value: >-
-          <p>The mere presence of a legendary creature can have strange and
-          wondrous effects on its environment. Regional effects end abruptly or
-          dissipate over time when the legendary creature dies.</p>
+          <p>The mere presence of a legendary creature can have strange and wondrous effects on its environment.
+          Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>
         chat: ''
       source:
         custom: ''
@@ -1019,15 +1007,11 @@ items:
     system:
       description:
         value: >-
-          <p>If a legendary creature has lair actions, it can use them to
-          harness the ambient magic in its lair. On initiative count 20 (losing
-          all initiative ties), it can use one of its lair action options. It
-          can't do so while incapacitated or otherwise unable to take actions.
-          If surprised, it can't use one until after its first turn in the
-          combat.</p>
-        chat: >-
-          <p>If a legendary creature has lair actions, it can use them to
-          harness the ambient magic in its lair. </p>
+          <p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On
+          initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can't do so
+          while incapacitated or otherwise unable to take actions. If surprised, it can't use one until after its first
+          turn in the combat.</p>
+        chat: <p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. </p>
       source:
         custom: ''
         book: ''
@@ -1178,9 +1162,8 @@ items:
     system:
       description:
         value: >-
-          <p>The sphinx magically teleports, along with any equipment it is
-          wearing or carrying, up to 120 feet to an unoccupied space it can
-          see.</p>
+          <p>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an
+          unoccupied space it can see.</p>
         chat: ''
       source:
         custom: ''
@@ -1286,9 +1269,7 @@ items:
     img: icons/magic/light/projectiles-star-purple.webp
     system:
       description:
-        value: >-
-          <p>The sphinx casts a spell from its list of prepared spells, using a
-          spell slot as normal.</p>
+        value: <p>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</p>
         chat: ''
       source:
         custom: ''
@@ -1395,14 +1376,11 @@ items:
     system:
       description:
         value: >-
-          <p>A spectral, floating hand appears at a point you choose within
-          range. The hand lasts for the duration or until you dismiss it as an
-          action. The hand vanishes if it is ever more than 30 feet away from
-          you or if you cast this spell again.</p><p>You can use your action to
-          control the hand. You can use the hand to manipulate an object, open
-          an unlocked door or container, stow or retrieve an item from an open
-          container, or pour the contents out of a vial. You can move the hand
-          up to 30 feet each time you use it.</p><p>The hand can't attack,
+          <p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or
+          until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you
+          cast this spell again.</p><p>You can use your action to control the hand. You can use the hand to manipulate
+          an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the
+          contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack,
           activate magic items, or carry more than 10 pounds.</p>
         chat: ''
       source:
@@ -1513,22 +1491,16 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. The illusion also ends if you dismiss it as an
-          action or cast this spell again.</p><p>If you create a sound, its
-          volume can range from a whisper to a scream. It can be your voice,
-          someone else's voice, a lion's roar, a beating of drums, or any other
-          sound you choose. The sound continues unabated throughout the
-          duration, or you can make discrete sounds at different times before
-          the spell ends.</p><p>If you create an image of an object—such as a
-          chair, muddy footprints, or a small chest—it must be no larger than a
-          5-foot cube. The image can't create sound, light, smell, or any other
-          sensory effect. Physical interaction with the image reveals it to be
-          an illusion, because things can pass through it.</p><p>If a creature
-          uses its action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful Intelligence
-          (Investigation) check against your spell save DC. If a creature
-          discerns the illusion for what it is, the illusion becomes faint to
+          <p>You create a sound or an image of an object within range that lasts for the duration. The illusion also
+          ends if you dismiss it as an action or cast this spell again.</p><p>If you create a sound, its volume can
+          range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of
+          drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make
+          discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or
+          image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check
+          against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to
           the creature.</p>
         chat: ''
       source:
@@ -1639,36 +1611,29 @@ items:
     system:
       description:
         value: >-
-          <p>This spell is a minor magical trick that novice spellcasters use
-          for practice. You create one of the following magical effects within
-          range:</p>
+          <p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the
+          following magical effects within range:</p>
 
           <ul>
 
-          <li>You create an instantaneous, harmless sensory effect, such as a
-          shower of sparks, a puff of wind, faint musical notes, or an odd
-          odor.</li>
+          <li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint
+          musical notes, or an odd odor.</li>
 
-          <li>You instantaneously light or snuff out a candle, a torch, or a
-          small campfire.</li>
+          <li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
 
-          <li>You instantaneously clean or soil an object no larger than 1 cubic
-          foot.</li>
+          <li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
 
-          <li>You chill, warm, or flavor up to 1 cubic foot of nonliving
-          material for 1 hour.</li>
+          <li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
 
-          <li>You make a color, a small mark, or a symbol appear on an object or
-          a surface for 1 hour.</li>
+          <li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
 
-          <li>You create a nonmagical trinket or an illusory image that can fit
-          in your hand and that lasts until the end of your next turn.</li>
+          <li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the
+          end of your next turn.</li>
 
           </ul>
 
-          <p>If you cast this spell multiple times, you can have up to three of
-          its non-instantaneous effects active at a time, and you can dismiss
-          such an effect as an action.</p>
+          <p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at
+          a time, and you can dismiss such an effect as an action.</p>
         chat: ''
       source:
         custom: ''
@@ -1776,13 +1741,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magic within 30 feet of
-          you. If you sense magic in this way, you can use your action to see a
-          faint aura around any visible creature or object in the area that
-          bears magic, and you learn its school of magic, if any.</p><p>The
-          spell can penetrate most barriers, but it is blocked by 1 foot of
-          stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood
-          or dirt.</p>
+          <p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way,
+          you can use your action to see a faint aura around any visible creature or object in the area that bears
+          magic, and you learn its school of magic, if any.</p><p>The spell can penetrate most barriers, but it is
+          blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
         chat: ''
       source:
         custom: ''
@@ -1893,14 +1855,11 @@ items:
     system:
       description:
         value: >-
-          <p>You choose one object that you must touch throughout the casting of
-          the spell. If it is a magic item or some other magic-imbued object,
-          you learn its properties and how to use them, whether it requires
-          attunement to use, and how many charges it has, if any. You learn
-          whether any spells are affecting the item and what they are. If the
-          item was created by a spell, you learn which spell created
-          it.</p><p>If you instead touch a creature throughout the casting, you
-          learn what spells, if any, are currently affecting it.</p>
+          <p>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or
+          some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement
+          to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they
+          are. If the item was created by a spell, you learn which spell created it.</p><p>If you instead touch a
+          creature throughout the casting, you learn what spells, if any, are currently affecting it.</p>
         chat: ''
       source:
         custom: ''
@@ -2010,10 +1969,8 @@ items:
     system:
       description:
         value: >-
-          <p>An invisible barrier of magical force appears and protects you.
-          Until the start of your next turn, you have a +5 bonus to AC,
-          including against the triggering attack, and you take no damage from
-          magic missile.</p>
+          <p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have
+          a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</p>
         chat: ''
       source:
         custom: ''
@@ -2024,9 +1981,7 @@ items:
         revision: 1
       activation:
         type: reaction
-        condition: >-
-          Which you take when you are hit by an attack or targeted by the magic
-          missile spell
+        condition: Which you take when you are hit by an attack or targeted by the magic missile spell
         value: 1
       duration:
         value: '1'
@@ -2137,8 +2092,7 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!6wbasdWWqtXeIAyD.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva
+        _key: '!actors.items.effects!6wbasdWWqtXeIAyD.z1mx84ONwkXKUZd7.6pbotGIvqQkraPva'
     folder: null
     sort: 0
     ownership:
@@ -2163,15 +2117,12 @@ items:
     system:
       description:
         value: >-
-          <p>Choose one creature, object, or magical effect within range. Any
-          spell of 3rd level or lower on the target ends. For each spell of 4th
-          level or higher on the target, make an ability check using your
-          spellcasting ability. The DC equals 10 + the spell's level. On a
-          successful check, the spell ends.</p><p><strong>Higher
-          Levels.</strong> When you cast this spell using a spell slot of 4th
-          level or higher, you automatically end the effects of a spell on the
-          target if the spell's level is equal to or less than the level of the
-          spell slot you used.</p>
+          <p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target
+          ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting
+          ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><p><strong>Higher
+          Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, you automatically end the
+          effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you
+          used.</p>
         chat: ''
       source:
         custom: ''
@@ -2281,16 +2232,13 @@ items:
     system:
       description:
         value: >-
-          <p>Magical darkness spreads from a point you choose within range to
-          fill a 15-foot-radius sphere for the duration. The darkness spreads
-          around corners. A creature with darkvision can't see through this
-          darkness, and nonmagical light can't illuminate it.</p><p>If the point
-          you choose is on an object you are holding or one that isn't being
-          worn or carried, the darkness emanates from the object and moves with
-          it. Completely covering the source of the darkness with an opaque
-          object, such as a bowl or a helm, blocks the darkness.</p><p>If any of
-          this spell's area overlaps with an area of light created by a spell of
-          2nd level or lower, the spell that created the light is dispelled.</p>
+          <p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the
+          duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and
+          nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one
+          that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering
+          the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any
+          of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that
+          created the light is dispelled.</p>
         chat: ''
       source:
         custom: ''
@@ -2401,16 +2349,12 @@ items:
     system:
       description:
         value: >-
-          <p>Describe or name an object that is familiar to you. You sense the
-          direction to the object's location, as long as that object is within
-          1,000 feet of you. If the object is in motion, you know the direction
-          of its movement.</p><p>The spell can locate a specific object known to
-          you, as long as you have seen it up close—within 30 feet—at least
-          once. Alternatively, the spell can locate the nearest object of a
-          particular kind, such as a certain kind of apparel, jewelry,
-          furniture, tool, or weapon.</p><p>This spell can't locate an object if
-          any thickness of lead, even a thin sheet, blocks a direct path between
-          you and the object.</p>
+          <p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as
+          long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its
+          movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up
+          close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular
+          kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an
+          object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>
         chat: ''
       source:
         custom: ''
@@ -2520,23 +2464,17 @@ items:
     system:
       description:
         value: >-
-          <p>You suggest a course of activity (limited to a sentence or two) and
-          magically influence a creature you can see within range that can hear
-          and understand you. Creatures that can't be charmed are immune to this
-          effect. The suggestion must be worded in such a manner as to make the
-          course of action sound reasonable. Asking the creature to stab itself,
-          throw itself onto a spear, immolate itself, or do some other obviously
-          harmful act ends the spell.</p><p>The target must make a Wisdom saving
-          throw. On a failed save, it pursues the course of action you described
-          to the best of its ability. The suggested course of action can
-          continue for the entire duration. If the suggested activity can be
-          completed in a shorter time, the spell ends when the subject finishes
-          what it was asked to do.</p><p>You can also specify conditions that
-          will trigger a special activity during the duration. For example, you
-          might suggest that a knight give her warhorse to the first beggar she
-          meets. If the condition isn't met before the spell expires, the
-          activity isn't performed.</p><p>If you or any of your companions
-          damage the target, the spell ends.</p>
+          <p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can
+          see within range that can hear and understand you. Creatures that can't be charmed are immune to this effect.
+          The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the
+          creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act
+          ends the spell.</p><p>The target must make a Wisdom saving throw. On a failed save, it pursues the course of
+          action you described to the best of its ability. The suggested course of action can continue for the entire
+          duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject
+          finishes what it was asked to do.</p><p>You can also specify conditions that will trigger a special activity
+          during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she
+          meets. If the condition isn't met before the spell expires, the activity isn't performed.</p><p>If you or any
+          of your companions damage the target, the spell ends.</p>
         chat: ''
       source:
         custom: ''
@@ -2650,9 +2588,8 @@ items:
     system:
       description:
         value: >-
-          <p>At your touch, all curses affecting one creature or object end. If
-          the object is a cursed magic item, its curse remains, but the spell
-          breaks its owner's Attunement to the object so it can be removed or
+          <p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its
+          curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or
           discarded.</p>
         chat: ''
       source:
@@ -2762,10 +2699,9 @@ items:
     system:
       description:
         value: >-
-          <p>This spell grants the creature you touch the ability to understand
-          any spoken language it hears. Moreover, when the target speaks, any
-          creature that knows at least one language and can hear the target
-          understands what it says.</p>
+          <p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover,
+          when the target speaks, any creature that knows at least one language and can hear the target understands what
+          it says.</p>
         chat: ''
       source:
         custom: ''
@@ -2874,22 +2810,16 @@ items:
     system:
       description:
         value: >-
-          <p>You attempt to send one creature that you can see within range to
-          another plane of existence. The target must succeed on a Charisma
-          saving throw or be banished.</p><p>If the target is native to the
-          plane of existence you're on, you banish the target to a harmless
-          demiplane. While there, the target is incapacitated. The target
-          remains there until the spell ends, at which point the target
-          reappears in the space it left or in the nearest unoccupied space if
-          that space is occupied.</p><p>If the target is native to a different
-          plane of existence than the one you're on, the target is banished with
-          a faint popping noise, returning to its home plane. If the spell ends
-          before 1 minute has passed, the target reappears in the space it left
-          or in the nearest unoccupied space if that space is occupied.
-          Otherwise, the target doesn't return.</p><p><strong>At Higher
-          Levels.</strong> When you cast this spell using a spell slot of 5th
-          level or higher, you can target one additional creature for each slot
-          level above 4th.</p>
+          <p>You attempt to send one creature that you can see within range to another plane of existence. The target
+          must succeed on a Charisma saving throw or be banished.</p><p>If the target is native to the plane of
+          existence you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated.
+          The target remains there until the spell ends, at which point the target reappears in the space it left or in
+          the nearest unoccupied space if that space is occupied.</p><p>If the target is native to a different plane of
+          existence than the one you're on, the target is banished with a faint popping noise, returning to its home
+          plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the
+          nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.</p><p><strong>At
+          Higher Levels.</strong> When you cast this spell using a spell slot of 5th level or higher, you can target one
+          additional creature for each slot level above 4th.</p>
         chat: ''
       source:
         custom: ''
@@ -3004,9 +2934,8 @@ items:
     system:
       description:
         value: >-
-          <p>You or a creature you touch becomes Invisible until the spell ends.
-          Anything the target is wearing or carrying is Invisible as long as it
-          is on the target's person.</p>
+          <p>You or a creature you touch becomes Invisible until the spell ends. Anything the target is wearing or
+          carrying is Invisible as long as it is on the target's person.</p>
         chat: ''
       source:
         custom: ''
@@ -3116,20 +3045,15 @@ items:
     system:
       description:
         value: >-
-          <p>Name or describe a person, place, or object. The spell brings to
-          your mind a brief summary of the significant lore about the thing you
-          named. The lore might consist of current tales, forgotten stories, or
-          even secret lore that has never been widely known. If the thing you
-          named isn't of legendary importance, you gain no information. The more
-          information you already have about the thing, the more precise and
-          detailed the information you receive is.</p><p>The information you
-          learn is accurate but might be couched in figurative language. For
-          example, if you have a mysterious magic axe on hand, the spell might
-          yield this information: "Woe to the evildoer whose hand touches the
-          axe, for even the haft slices the hand of the evil ones. Only a true
-          Child of Stone, lover and beloved of Moradin, may awaken the true
-          powers of the axe, and only with the sacred word Rudnogg on the
-          lips."</p>
+          <p>Name or describe a person, place, or object. The spell brings to your mind a brief summary of the
+          significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or
+          even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you
+          gain no information. The more information you already have about the thing, the more precise and detailed the
+          information you receive is.</p><p>The information you learn is accurate but might be couched in figurative
+          language. For example, if you have a mysterious magic axe on hand, the spell might yield this information:
+          "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a
+          true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the
+          sacred word Rudnogg on the lips."</p>
         chat: ''
       source:
         custom: ''
@@ -3161,9 +3085,7 @@ items:
       level: 5
       school: div
       materials:
-        value: >-
-          Incense worth at least 250gp, which the spell consumes, and four ivory
-          strips worth at least 50gp each.
+        value: Incense worth at least 250gp, which the spell consumes, and four ivory strips worth at least 50gp each.
         consumed: true
         cost: 450
         supply: 0

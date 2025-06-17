@@ -6,18 +6,13 @@ img: icons/consumables/potions/bottle-circular-corked-labeled-green.webp
 system:
   description:
     value: >-
-      <p><em>Potion, Uncommon</em></p><p>One vial of this oil can cover one
-      Medium or smaller creature, along with the equipment it's wearing and
-      carrying (one additional vial is required for each size category above
-      Medium). Applying the oil takes 10 minutes. The affected creature then
-      gains the effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplFreedomofM]{Freedom of
-      Movement} spell for 8 hours.</p><p>Alternatively, the oil can be poured on
-      the ground as a Magic action, where it covers a 10-foot square,
-      duplicating the effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplGrease0000]{Grease} spell in
-      that area for 8 hours.</p><p>This sticky, black unguent is thick and
-      heavy, but it flows quickly when poured.</p>
+      <p><em>Potion, Uncommon</em></p><p>One vial of this oil can cover one Medium or smaller creature, along with the
+      equipment it's wearing and carrying (one additional vial is required for each size category above Medium).
+      Applying the oil takes 10 minutes. The affected creature then gains the effect of the
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplFreedomofM]{Freedom of Movement} spell for 8
+      hours.</p><p>Alternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot
+      square, duplicating the effect of the @UUID[Compendium.degringo5e.spells24.Item.phbsplGrease0000]{Grease} spell in
+      that area for 8 hours.</p><p>This sticky, black unguent is thick and heavy, but it flows quickly when poured.</p>
     chat: ''
   identifier: oil-of-slipperiness
   source:

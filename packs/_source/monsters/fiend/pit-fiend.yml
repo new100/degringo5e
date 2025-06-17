@@ -503,16 +503,13 @@ items:
     system:
       description:
         value: >-
-          <p>Any creature hostile to the pit fiend that starts its turn within
-          20 feet of the pit fiend must make a [[/save]] saving throw, unless
-          the pit fiend is incapacitated. On a failed save, the creature is
-          &amp;Reference[frightened] until the start of its next turn. If a
-          creature's saving throw is successful, the creature is immune to the
-          pit fiend's Fear Aura for the next 24 hours.</p>
+          <p>Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a
+          [[/save]] saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is
+          &amp;Reference[frightened] until the start of its next turn. If a creature's saving throw is successful, the
+          creature is immune to the pit fiend's Fear Aura for the next 24 hours.</p>
         chat: >-
-          <p>Any creature hostile to the pit fiend that starts its turn
-          <strong>within 20 feet</strong> of the pit fiend must make a
-          <strong>Wisdom</strong> saving throw.</p>
+          <p>Any creature hostile to the pit fiend that starts its turn <strong>within 20 feet</strong> of the pit fiend
+          must make a <strong>Wisdom</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -621,9 +618,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The pit fiend has advantage on saving throws against spells and
-          other magical effects.</p>
+        value: <p>The pit fiend has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -716,15 +711,12 @@ items:
     system:
       description:
         value: >-
-          <p>The pit fiend's spellcasting ability is Charisma (spell save DC
-          21). The pit fiend can innately cast the following spells, requiring
-          no material components:</p>
+          <p>The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the
+          following spells, requiring no material components:</p>
 
-          <p>At will: [[/item .ghXTfe7sgCbgf1Q8]]{detect magic}, [[/item
-          .ztgcdrWPshKRpFd0]]{fireball}</p>
+          <p>At will: [[/item .ghXTfe7sgCbgf1Q8]]{detect magic}, [[/item .ztgcdrWPshKRpFd0]]{fireball}</p>
 
-          <p>3/day each: [[/item .l9Ju5KE7bbn3WpTm]]{hold monster}, [[/item
-          .X3DrXgxjwI2dvkD6]]{wall of fire}</p>
+          <p>3/day each: [[/item .l9Ju5KE7bbn3WpTm]]{hold monster}, [[/item .X3DrXgxjwI2dvkD6]]{wall of fire}</p>
         chat: ''
       source:
         custom: ''
@@ -771,10 +763,8 @@ items:
     system:
       description:
         value: >-
-          <p>The pit fiend makes four attacks: one with its [[/item
-          .GjIQl7UOQUtsrj2v]]{bite}, one with its [[/item
-          .RkuPEGbAXHhxfNWJ]]{claw}, one with its [[/item
-          .gpjBebqxqbQA35st]]{mace}, and one with its [[/item
+          <p>The pit fiend makes four attacks: one with its [[/item .GjIQl7UOQUtsrj2v]]{bite}, one with its [[/item
+          .RkuPEGbAXHhxfNWJ]]{claw}, one with its [[/item .gpjBebqxqbQA35st]]{mace}, and one with its [[/item
           .Gh1DbMpJiaTlTwWp]]{tail}.</p>
         chat: ''
       source:
@@ -875,18 +865,14 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or become poisoned. While poisoned
-          in this way, the target can't regain hit points, and it takes
-          [[/damage average activity=dnd5eactivity100]] damage at the start of
-          each of its turns. The poisoned target can repeat the saving throw at
-          the end of each of its turns, ending the effect on itself on a
-          success.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or
+          become poisoned. While poisoned in this way, the target can't regain hit points, and it takes [[/damage
+          average activity=dnd5eactivity100]] damage at the start of each of its turns. The poisoned target can repeat
+          the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
         chat: >-
-          <p>The Pit Fiend attacks with its Bite. The target must succeed on a 
-          <strong>DC 21 Constitution</strong> saving throw or become poisoned.
-          The target can repeat the saving throw at the end of each of its
-          turns, ending the effect on itself on a success.</p>
+          <p>The Pit Fiend attacks with its Bite. The target must succeed on a  <strong>DC 21 Constitution</strong>
+          saving throw or become poisoned. The target can repeat the saving throw at the end of each of its turns,
+          ending the effect on itself on a success.</p>
       source:
         custom: ''
         book: ''
@@ -1628,13 +1614,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magic within 30 feet of
-          you. If you sense magic in this way, you can use your action to see a
-          faint aura around any visible creature or object in the area that
-          bears magic, and you learn its school of magic, if any.</p><p>The
-          spell can penetrate most barriers, but it is blocked by 1 foot of
-          stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood
-          or dirt.</p>
+          <p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way,
+          you can use your action to see a faint aura around any visible creature or object in the area that bears
+          magic, and you learn its school of magic, if any.</p><p>The spell can penetrate most barriers, but it is
+          blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
         chat: ''
       source:
         custom: ''
@@ -1745,16 +1728,12 @@ items:
     system:
       description:
         value: >-
-          <p>A bright streak flashes from your pointing finger to a point you
-          choose within range and then blossoms with a low roar into an
-          explosion of flame. Each creature in a 20-foot-radius sphere centered
-          on that point must make a Dexterity saving throw. A target takes 8d6
-          fire damage on a failed save, or half as much damage on a successful
-          one.</p><p>The fire spreads around corners. It ignites flammable
-          objects in the area that aren't being worn or
-          carried.</p><p><strong>Higher Levels.</strong> When you cast this
-          spell using a spell slot of 4th level or higher, the damage increases
-          by 1d6 for each slot level above 3rd.</p>
+          <p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with
+          a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must
+          make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a
+          successful one.</p><p>The fire spreads around corners. It ignites flammable objects in the area that aren't
+          being worn or carried.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of
+          4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
         chat: ''
       source:
         custom: ''
@@ -1880,15 +1859,12 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a creature that you can see within range. The target must
-          succeed on a Wisdom saving throw or be Paralyzed for the Duration.
-          This spell has no effect on Undead. At the end of each of its turns,
-          the target can make another Wisdom saving throw. On a success, the
-          spell ends on the target.</p><p><strong>At Higher Levels.</strong>
-          When you cast this spell using a spell slot of 6th level or higher,
-          you can target one additional creature for each slot level above 5th.
-          The creatures must be within 30 feet of each other when you target
-          them.</p>
+          <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be
+          Paralyzed for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target
+          can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one
+          additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you
+          target them.</p>
         chat: ''
       source:
         custom: ''
@@ -2011,20 +1987,15 @@ items:
     system:
       description:
         value: >-
-          <p>You create a wall of fire on a solid surface within range. You can
-          make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a
-          ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick.
-          The wall is opaque and lasts for the duration.</p><p>When the wall
-          appears, each creature within its area must make a Dexterity saving
-          throw. On a failed save, a creature takes 5d8 fire damage, or half as
-          much damage on a successful save.</p><p>One side of the wall, selected
-          by you when you cast this spell, deals 5d8 fire damage to each
-          creature that ends its turn within 10 feet of that side or inside the
-          wall. A creature takes the same damage when it enters the wall for the
-          first time on a turn or ends its turn there. The other side of the
-          wall deals no damage.</p><p><strong>At Higher Levels.</strong> When
-          you cast this spell using a spell slot of 5th level or higher, the
-          damage increases by 1d8 for each slot level above 4th.</p>
+          <p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20
+          feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The
+          wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must
+          make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a
+          successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage
+          to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same
+          damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall
+          deals no damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th
+          level or higher, the damage increases by 1d8 for each slot level above 4th.</p>
         chat: ''
       source:
         custom: ''

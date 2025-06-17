@@ -608,9 +608,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .mmStoneClub00000]] or [[/item .mmBoulder0000000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .mmStoneClub00000]] or [[/item
+          .mmBoulder0000000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -714,9 +713,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: stone-club
       source:
@@ -866,9 +863,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Prone]
-          condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Prone] condition.</p>
         chat: ''
       identifier: boulder
       source:
@@ -948,9 +944,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone] condition.</p>
+        description: <p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -967,8 +961,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmStoneGiant0000.mmBoulder0000000.wKWWzb7MJy7OauVf
+        _key: '!actors.items.effects!mmStoneGiant0000.mmBoulder0000000.wKWWzb7MJy7OauVf'
     flags:
       degringo5e:
         riders:
@@ -1004,9 +997,7 @@ items:
             type: reaction
             value: null
             override: false
-            condition: >-
-              hit by a ranged attack roll and takes Bludgeoning, Piercing, or
-              Slashing damage from it
+            condition: hit by a ranged attack roll and takes Bludgeoning, Piercing, or Slashing damage from it
           consumption:
             scaling:
               allowed: false
@@ -1124,18 +1115,13 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Trigger:</em> The [[lookup @name lowercase]] is
-          [[lookup @activation.condition activity=9T8cNbSBVACrrmRI]].</p><p
-          class="feature"><em>Response:</em> The [[lookup @name lowercase]]
-          reduces the damage it takes from the attack by [[/healing average]],
-          and if that damage is reduced to 0, the [[lookup @name lowercase]] can
-          redirect some of the attack's force.</p><p
-          class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=x0MjUmnv2OPAbm6y]], one [[lookup
-          @target.affects.type activity=x0MjUmnv2OPAbm6y]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=x0MjUmnv2OPAbm6y]] feet. </p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage.</p>
+          <p class="feature"><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition
+          activity=9T8cNbSBVACrrmRI]].</p><p class="feature"><em>Response:</em> The [[lookup @name lowercase]] reduces
+          the damage it takes from the attack by [[/healing average]], and if that damage is reduced to 0, the [[lookup
+          @name lowercase]] can redirect some of the attack's force.</p><p class="feature"><em>Dexterity Saving
+          Throw:</em> DC [[lookup @save.dc.value activity=x0MjUmnv2OPAbm6y]], one [[lookup @target.affects.type
+          activity=x0MjUmnv2OPAbm6y]] the [[lookup @name lowercase]] can see within [[lookup @range.value
+          activity=x0MjUmnv2OPAbm6y]] feet. </p><p class="feature"><em>Failure:</em> [[/damage average]] damage.</p>
         chat: ''
       identifier: deflect-missile
       source:

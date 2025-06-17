@@ -565,9 +565,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] doesn't provoke an
-          &amp;Reference[OpportunityAttacks]{Opportunity Attack} when it flies
-          out of an enemy's reach.</p>
+          <p>The [[lookup @name lowercase]] doesn't provoke an &amp;Reference[OpportunityAttacks]{Opportunity Attack}
+          when it flies out of an enemy's reach.</p>
         chat: ''
       identifier: flyby
       source:
@@ -903,14 +902,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no spell components and using Wisdom as
-          the spellcasting ability:</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
-          and Good},
-          @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em></p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no spell
+          components and using Wisdom as the spellcasting ability:</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good},
+          @UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em></p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em></p>
         chat: ''
       identifier: spellcasting
@@ -954,12 +950,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the location of any Aberration,
-          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
-          yourself. You also sense whether the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
-          spell is active there and, if so, where.</p><p>The spell is blocked by
-          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          <p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead
+          within 30 feet of yourself. You also sense whether the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so,
+          where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
         chat: ''
       source:
@@ -1088,14 +1082,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOwl000000.0RWcAlp0LmNrnko3.pOgbtXbKVGdbwjjE
+        _key: '!actors.items.effects!mmGiantOwl000000.0RWcAlp0LmNrnko3.pOgbtXbKVGdbwjjE'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.ITEsNWkCvRcZk9Bt
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.ITEsNWkCvRcZk9Bt
         changes:
           - key: system.properties
             mode: 2
@@ -1135,8 +1127,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOwl000000.0RWcAlp0LmNrnko3.dnd5espellchange
+        _key: '!actors.items.effects!mmGiantOwl000000.0RWcAlp0LmNrnko3.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4200000
     ownership:
@@ -1163,13 +1154,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1289,8 +1278,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1299,14 +1287,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOwl000000.JzMBiy422W8ODen0.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmGiantOwl000000.JzMBiy422W8ODen0.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.2UplUlqKAgPmAZ3h
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.2UplUlqKAgPmAZ3h
         changes:
           - key: system.properties
             mode: 2
@@ -1346,8 +1332,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOwl000000.JzMBiy422W8ODen0.dnd5espellchange
+        _key: '!actors.items.effects!mmGiantOwl000000.JzMBiy422W8ODen0.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1374,17 +1359,13 @@ items:
     system:
       description:
         value: >-
-          <p>You create an Invisible sensor within range in a location familiar
-          to you (a place you have visited or seen before) or in an obvious
-          location that is unfamiliar to you (such as behind a door, around a
-          corner, or in a grove of trees). The intangible, invulnerable sensor
-          remains in place for the duration.</p><p>When you cast the spell,
-          choose seeing or hearing. You can use the chosen sense through the
-          sensor as if you were in its space. As a Bonus Action, you can switch
-          between seeing and hearing.</p><p>A creature that sees the sensor
-          (such as a creature benefiting from <em>See Invisibility</em> or
-          &amp;Reference[truesight]) sees a luminous orb about the size of your
-          fist.</p>
+          <p>You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen
+          before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a
+          grove of trees). The intangible, invulnerable sensor remains in place for the duration.</p><p>When you cast
+          the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its
+          space. As a Bonus Action, you can switch between seeing and hearing.</p><p>A creature that sees the sensor
+          (such as a creature benefiting from <em>See Invisibility</em> or &amp;Reference[truesight]) sees a luminous
+          orb about the size of your fist.</p>
         chat: ''
       source:
         custom: ''
@@ -1425,9 +1406,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 100+ GP, either a jeweled horn for hearing or a glass
-          eye for seeing
+        value: a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing
         consumed: false
         cost: 0
         supply: 0
@@ -1503,8 +1482,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.d3PpQotp7DC0Jeml
+        origin: Compendium.degringo5e.actors24.Actor.mmGiantOwl000000.Item.mmSpellcasting00.Activity.d3PpQotp7DC0Jeml
         changes:
           - key: system.properties
             mode: 2
@@ -1544,8 +1522,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantOwl000000.8M451QIEc6AvBiCw.dnd5espellchange
+        _key: '!actors.items.effects!mmGiantOwl000000.8M451QIEc6AvBiCw.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 3200000
     ownership:

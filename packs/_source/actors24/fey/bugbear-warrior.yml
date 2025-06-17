@@ -407,12 +407,10 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmHideArmor0]{Hide Armor},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLightHamme]{Light Hammers
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbarmHideArmor0]{Hide
+        Armor}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepLightHamme]{Light Hammers
         (3)}</p></div><h1>Bugbears</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.gzTUYPi9wHg0WMP0
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Bugbear
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Bugbear
         Warrior</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.aZNE3q6npBVVLIa1
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -568,11 +566,10 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee or Ranged Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=FHmD55OJjrFoBkHr]]), reach [[lookup
-          @item.range.reach item=ST0XpSUdRn52jAF0]] ft. or range [[lookup
-          @item.range.value item=ST0XpSUdRn52jAF0]]/[[lookup @item.range.long
-          item=ST0XpSUdRn52jAF0]] ft. [[/damage average extended]]</p>
+          <p><em>Melee or Ranged Attack Roll:</em> [[/attack]] ([[lookup @activation.condition
+          activity=FHmD55OJjrFoBkHr]]), reach [[lookup @item.range.reach item=ST0XpSUdRn52jAF0]] ft. or range [[lookup
+          @item.range.value item=ST0XpSUdRn52jAF0]]/[[lookup @item.range.long item=ST0XpSUdRn52jAF0]] ft. [[/damage
+          average extended]]</p>
         chat: ''
       price:
         value: 2
@@ -821,9 +818,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] needn't spend extra movement to move
-          a creature it is grappling.</p>
+        value: <p>The [[lookup @name lowercase]] needn't spend extra movement to move a creature it is grappling.</p>
         chat: ''
       identifier: abduct
       source:
@@ -974,9 +969,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
           @skills.ath.passive]]).</p>
         chat: ''
       identifier: grab
@@ -1058,9 +1052,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC).</p>
+          <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1077,8 +1070,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBugbearWarrior.mmGrab0000000000.2N5R5UunQHBncwF3
+        _key: '!actors.items.effects!mmBugbearWarrior.mmGrab0000000000.2N5R5UunQHBncwF3'
     flags:
       degringo5e:
         riders:

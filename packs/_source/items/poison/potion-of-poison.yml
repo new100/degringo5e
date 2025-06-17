@@ -5,19 +5,15 @@ img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
 system:
   description:
     value: >-
-      <p><em>This concoction looks, smells, and tastes like a potion of healing
-      or other beneficial potion.</em></p><p>However, it is actually poison
-      masked by illusion magic. An identify spell reveals its true
-      nature.</p><p>If you drink it, you take [[/damage]] damage, and you must
-      succeed on a [[/save]] saving throw or be &amp;reference[poisoned]. At the
-      start of each of your turns while you are poisoned in this way, you take
-      [[/damage]] damage. At the end of each of your turns, you can repeat the
-      saving throw. On a successful save, the poison damage you take on your
-      subsequent turns decreases by 1d6. The poison ends when the damage
-      decreases to 0.</p><section class="secret"
-      id="secret-zrLCcwvOwukVWTvT"><p>For convenience, you can use these
-      enrichers ([[/damage 2d6 poison]] or [[/damage 1d6 poison]]) to perform
-      the damage roll for the reduced damage.</p></section>
+      <p><em>This concoction looks, smells, and tastes like a potion of healing or other beneficial
+      potion.</em></p><p>However, it is actually poison masked by illusion magic. An identify spell reveals its true
+      nature.</p><p>If you drink it, you take [[/damage]] damage, and you must succeed on a [[/save]] saving throw or be
+      &amp;reference[poisoned]. At the start of each of your turns while you are poisoned in this way, you take
+      [[/damage]] damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the
+      poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to
+      0.</p><section class="secret" id="secret-zrLCcwvOwukVWTvT"><p>For convenience, you can use these enrichers
+      ([[/damage 2d6 poison]] or [[/damage 1d6 poison]]) to perform the damage roll for the reduced
+      damage.</p></section>
     chat: ''
   source:
     custom: ''

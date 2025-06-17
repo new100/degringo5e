@@ -560,9 +560,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] can hold its breath
-          for 1 hour.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] can hold its breath for 1 hour.</p>
         chat: ''
       identifier: hold-breath
       source:
@@ -662,9 +660,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and one [[/item .mmTail0000000000]]
-          attack</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and one [[/item
+          .mmTail0000000000]] attack</p>
         chat: ''
       identifier: multiattack
       source:
@@ -820,12 +817,10 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]].If the target is
-          a [[lookup @target.affects.special activity=xWlMeXFjELfSUWX9]]
-          creature, it has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[lookup @skills.ath.passive]]). While Grappled, the target
-          has the &amp;Reference[Restrained apply=false] condition and can't be
-          targeted by the [[lookup @name lowercase]]'s Tail.</p>
+          <p>[[/attack extended]]. [[/damage average extended]].If the target is a [[lookup @target.affects.special
+          activity=xWlMeXFjELfSUWX9]] creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC
+          [[lookup @skills.ath.passive]]). While Grappled, the target has the &amp;Reference[Restrained apply=false]
+          condition and can't be targeted by the [[lookup @name lowercase]]'s Tail.</p>
         chat: ''
       identifier: bite
       source:
@@ -902,11 +897,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC). While
-          Grappled, the target has the &amp;Reference[Restrained apply=false]
-          condition.</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC). While Grappled, the target
+          has the &amp;Reference[Restrained apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -924,8 +917,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantCrocodile.mmBite0000000000.sBCqplORWr2DwgKU
+        _key: '!actors.items.effects!mmGiantCrocodile.mmBite0000000000.sBCqplORWr2DwgKU'
     flags:
       degringo5e:
         riders:
@@ -1012,9 +1004,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition. </p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition. </p>
         chat: ''
       identifier: tail
       source:
@@ -1111,8 +1102,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantCrocodile.mmTail0000000000.uAvQlHXKSwnCjRtt
+        _key: '!actors.items.effects!mmGiantCrocodile.mmTail0000000000.uAvQlHXKSwnCjRtt'
     flags:
       degringo5e:
         riders:

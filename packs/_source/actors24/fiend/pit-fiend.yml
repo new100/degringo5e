@@ -575,9 +575,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its
-          body disappears in sulfurous smoke, and it gains a new body instantly,
-          reviving with all its Hit Points somewhere in the Nine Hells.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its body disappears in sulfurous smoke, and
+          it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>
         chat: ''
       identifier: diabolical-restoration
       source:
@@ -681,16 +680,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] emanates an aura in
-          a [[lookup @target.template.size activity=oT8238p9jXwVy76c]]-foot
-          Emanation while it doesn't have the Incapacitated condition.</p><p
-          class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=oT8238p9jXwVy76c]], [[lookup
-          @target.affects.special activity=oT8238p9jXwVy76c]].</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Frightened apply=false] condition until the start of
-          its next turn.</p><p class="feature"><em>Success:</em> The target is
-          immune to this [[lookup @name lowercase]]'s aura for 24 hours.</p>
+          <p class="feature">The [[lookup @name lowercase]] emanates an aura in a [[lookup @target.template.size
+          activity=oT8238p9jXwVy76c]]-foot Emanation while it doesn't have the Incapacitated condition.</p><p
+          class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=oT8238p9jXwVy76c]], [[lookup
+          @target.affects.special activity=oT8238p9jXwVy76c]].</p><p class="feature"><em>Failure:</em> The target has
+          the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p><p
+          class="feature"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s aura for 24
+          hours.</p>
         chat: ''
       identifier: fear-aura
       source:
@@ -727,9 +723,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the start of its next turn.</p>
+        description: <p>The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -746,8 +740,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.mmFearAura000000.Sb7G5OyhGbjLUoWo
+        _key: '!actors.items.effects!mmPitFiend000000.mmFearAura000000.Sb7G5OyhGbjLUoWo'
     flags:
       degringo5e:
         riders:
@@ -780,9 +773,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -878,9 +869,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack, two [[/item .mmDevilishClaw00]] attacks,
-          and one [[/item .mmFieryMace00000]] attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack, two [[/item
+          .mmDevilishClaw00]] attacks, and one [[/item .mmFieryMace00000]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -980,9 +970,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -1195,16 +1183,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature, it must make the following saving
-          throw.</p><p class="feature"><em>Constitution Saving Throw:</em> DC
-          [[lookup @save.dc.value activity=fM7YmQ4hBtRXJkMe]].</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Poisoned apply=false] condition. While Poisoned, the
-          target can't regain Hit Points and takes [[/damage average
-          activity=aa2GUeTEVLOdmfrB]] damage at the start of each of its turns,
-          and it repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After 1 minute, it succeeds
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it must
+          make the following saving throw.</p><p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
+          @save.dc.value activity=fM7YmQ4hBtRXJkMe]].</p><p class="feature"><em>Failure:</em> The target has the
+          &amp;Reference[Poisoned apply=false] condition. While Poisoned, the target can't regain Hit Points and takes
+          [[/damage average activity=aa2GUeTEVLOdmfrB]] damage at the start of each of its turns, and it repeats the
+          save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds
           automatically.</p>
         chat: ''
       identifier: bite
@@ -1281,9 +1265,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false]
-          condition.</p>
+        description: <p>The target has the &amp;Reference[Poisoned apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1300,8 +1282,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.mmBite0000000000.O1edMGJIx0MF1uze
+        _key: '!actors.items.effects!mmPitFiend000000.mmBite0000000000.O1edMGJIx0MF1uze'
     flags:
       degringo5e:
         riders:
@@ -1375,9 +1356,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: devilish-claw
       source:
@@ -1531,9 +1510,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: fiery-mace
       source:
@@ -1781,14 +1758,11 @@ items:
       description:
         value: >-
           <p class="feature">The pit fiend casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em>
-          (level 5 version) twice, requiring no Material components and using
-          Charisma as the spellcasting ability (spell save DC [[lookup
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em> (level 5 version) twice,
+          requiring no Material components and using Charisma as the spellcasting ability (spell save DC [[lookup
           @abilities.cha.dc]]).. It can replace one <em>Fireball</em> with
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold
-          Monster}</em> (level 7 version) or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of
-          Fire}.</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldMonste]{Hold Monster}</em> (level 7 version) or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall of Fire}.</em></p>
         chat: ''
       identifier: hellfire-spellcasting
       source:
@@ -1831,14 +1805,11 @@ items:
     system:
       description:
         value: >-
-          <p>A bright streak flashes from you to a point you choose within range
-          and then blossoms with a low roar into a fiery explosion. Each
-          creature in a 20-foot-radius Sphere centered on that point makes a
-          Dexterity saving throw, taking 8d6 Fire damage on a failed save or
-          half as much damage on a successful one.</p><p>Flammable objects in
-          the area that aren't being worn or carried start
-          burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d6 for each spell slot level above 3.</p>
+          <p>A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into
+          a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving
+          throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable
+          objects in the area that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -1951,8 +1922,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.fN8SjzxRhERq8DlF
+        origin: Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.fN8SjzxRhERq8DlF
         changes:
           - key: system.ability
             mode: 5
@@ -1988,8 +1958,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.VAZbEXPMFjy1i6tB.dnd5espellchange
+        _key: '!actors.items.effects!mmPitFiend000000.VAZbEXPMFjy1i6tB.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2100000
     ownership:
@@ -2013,12 +1982,10 @@ items:
     system:
       description:
         value: >-
-          <p>Choose a creature that you can see within range. The target must
-          succeed on a Wisdom saving throw or have the Paralyzed condition for
-          the duration. At the end of each of its turns, the target repeats the
-          save, ending the spell on itself on a success.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional
-          creature for each spell slot level above 5.</p>
+          <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have
+          the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending
+          the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one
+          additional creature for each spell slot level above 5.</p>
         chat: ''
       source:
         custom: ''
@@ -2131,8 +2098,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the end of each of its turns, the target repeats the [[/save
-          ability=wis]] save, ending the spell on itself on a success.</p>
+          <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on
+          itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2148,14 +2115,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.5irtCzIrQGv5EGRw.vC7qgyy8cjgi3t0T
+        _key: '!actors.items.effects!mmPitFiend000000.5irtCzIrQGv5EGRw.vC7qgyy8cjgi3t0T'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.UYyJcxVTi3IXTydV
+        origin: Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.UYyJcxVTi3IXTydV
         changes:
           - key: system.ability
             mode: 5
@@ -2191,8 +2156,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.5irtCzIrQGv5EGRw.dnd5espellchange
+        _key: '!actors.items.effects!mmPitFiend000000.5irtCzIrQGv5EGRw.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1600000
     ownership:
@@ -2216,19 +2180,15 @@ items:
     system:
       description:
         value: >-
-          <p>You create a wall of fire on a solid surface within range. You can
-          make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a
-          ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick.
-          The wall is opaque and lasts for the duration.</p><p>When the wall
-          appears, each creature in its area makes a Dexterity saving throw,
-          taking 5d8 Fire damage on a failed save or half as much damage on a
-          successful one.</p><p>One side of the wall, selected by you when you
-          cast this spell, deals 5d8 Fire damage to each creature that ends its
-          turn within 10 feet of that side or inside the wall. A creature takes
-          the same damage when it enters the wall for the first time on a turn
-          or ends its turn there. The other side of the wall deals no
-          damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d8 for each spell slot level above 4.</p>
+          <p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20
+          feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The
+          wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature in its area makes a
+          Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful
+          one.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each
+          creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage
+          when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals
+          no damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell
+          slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -2480,8 +2440,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.d7nppEGoUKLye9JS
+        origin: Compendium.degringo5e.actors24.Actor.mmPitFiend000000.Item.mmHellfireSpellc.Activity.d7nppEGoUKLye9JS
         changes:
           - key: system.ability
             mode: 5
@@ -2517,8 +2476,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPitFiend000000.JoMfpvWvju6ILd45.dnd5espellchange
+        _key: '!actors.items.effects!mmPitFiend000000.JoMfpvWvju6ILd45.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 200000
     ownership:

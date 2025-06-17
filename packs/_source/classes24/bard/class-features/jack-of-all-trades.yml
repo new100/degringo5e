@@ -6,14 +6,11 @@ img: icons/skills/trades/academics-investigation-puzzles.webp
 system:
   description:
     value: >-
-      <p>You can add half your Proficiency Bonus (round down) to any ability
-      check you make that uses a skill proficiency you lack and that doesn't
-      otherwise use your Proficiency Bonus.</p><p>For example, if you make a
-      Strength (Athletics) check and lack Athletics proficiency, you can add
-      half your Proficiency Bonus to the check.</p><section
-      id="secret-su4PzYrZZDdS1qZg" class="secret"><p><strong>Foundry
-      Note</strong></p><p>This feature includes an Active Effect which will
-      automatically grant you half proficiency for all skills which you aren't
+      <p>You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill
+      proficiency you lack and that doesn't otherwise use your Proficiency Bonus.</p><p>For example, if you make a
+      Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the
+      check.</p><section id="secret-su4PzYrZZDdS1qZg" class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+      includes an Active Effect which will automatically grant you half proficiency for all skills which you aren't
       currently proficient in.</p></section>
     chat: ''
   source:
@@ -61,8 +58,7 @@ effects:
     description: ''
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classfeatures.Item.ezWijmCnlnQ9ZRX2.ActiveEffect.K4xQzXl1Z4zMnyOa
+      compendiumSource: Compendium.degringo5e.classfeatures.Item.ezWijmCnlnQ9ZRX2.ActiveEffect.K4xQzXl1Z4zMnyOa
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

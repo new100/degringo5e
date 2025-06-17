@@ -508,9 +508,7 @@ items:
     img: icons/creatures/slimes/slime-movement-dripping-purple.webp
     system:
       description:
-        value: >-
-          <p>The shadow can move through a space as narrow as 1 inch wide
-          without squeezing.</p>
+        value: <p>The shadow can move through a space as narrow as 1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -556,9 +554,7 @@ items:
     img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
     system:
       description:
-        value: >-
-          <p>While in dim light or darkness, the shadow can take the Hide action
-          as a bonus action.</p>
+        value: <p>While in dim light or darkness, the shadow can take the Hide action as a bonus action.</p>
         chat: <p>The shadow can take the Hide action as a bonus action.</p>
       source:
         custom: ''
@@ -658,8 +654,8 @@ items:
     system:
       description:
         value: >-
-          <p>While in sunlight, the shadow has<strong> disadvantage </strong>on
-          attack rolls, ability checks, and saving throws.</p>
+          <p>While in sunlight, the shadow has<strong> disadvantage </strong>on attack rolls, ability checks, and saving
+          throws.</p>
         chat: ''
       source:
         custom: ''
@@ -706,11 +702,10 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target's
-          Strength score is reduced by 1d4. The target dies if this reduces its
-          Strength to 0. Otherwise, the reduction lasts until the target
-          finishes a short or long rest.If a non-evil humanoid dies from this
-          attack, a new shadow rises from the corpse 1d4 hours later.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target's Strength score is reduced by 1d4. The target
+          dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or
+          long rest.If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours
+          later.</p>
         chat: <p>The Shadow attacks with its Strength Drain.</p>
       source:
         custom: ''

@@ -407,13 +407,10 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainMail0]{Chain Mail},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
-        Crossbow},
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainMail0]{Chain
+        Mail}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy Crossbow},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepWarhammer0]{Warhammer}</p></div><h1>Toughs</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Tough
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Tough
         Boss</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.T47eTnRd4tadGFU9
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -562,9 +559,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, the [[lookup @name lowercase]] pushes
-          the target up to 10 feet straight away from itself.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, the
+          [[lookup @name lowercase]] pushes the target up to 10 feet straight away from itself.</p>
         chat: ''
       price:
         value: 15
@@ -984,9 +980,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -1083,9 +1078,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .iD5121TXziB6ZcSt]] or [[/item .7MS7v84QoTYESVax]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .iD5121TXziB6ZcSt]] or [[/item
+          .7MS7v84QoTYESVax]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:

@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbFaithfulHound
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbFaithfulHound caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -485,9 +483,8 @@ items:
     system:
       description:
         value: >-
-          <p>At the start of each of your turns, the hound attempts to bite one
-          enemy within 5 feet of it. That enemy must succeed on a Dexterity
-          saving throw or take 4d8 Force damage.</p>
+          <p>At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy
+          must succeed on a Dexterity saving throw or take 4d8 Force damage.</p>
         chat: ''
       activities:
         zrKZx3UXrGlDq2if:
@@ -607,9 +604,7 @@ effects:
     img: systems/degringo5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
-    description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
-      inline]
+    description: '@Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]'
     type: base
     system: {}
     changes: []

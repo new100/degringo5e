@@ -497,9 +497,7 @@ items:
     img: icons/creatures/slimes/slime-movement-dripping-purple.webp
     system:
       description:
-        value: >-
-          <p>The ooze can move through a space as narrow as 1 inch wide without
-          squeezing.</p>
+        value: <p>The ooze can move through a space as narrow as 1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -546,12 +544,10 @@ items:
     system:
       description:
         value: >-
-          <p>Any nonmagical weapon made of metal that hits the ooze corrodes.
-          After <strong>dealing damage</strong>, the weapon takes a permanent
-          and cumulative -1 penalty to damage rolls.</p><p>If its penalty drops
-          to -5, the weapon is destroyed. Nonmagical ammunition made of metal
-          that hits the ooze is destroyed after dealing damage. The ooze can eat
-          through 2-inch-thick, nonmagical metal in 1 round.</p>
+          <p>Any nonmagical weapon made of metal that hits the ooze corrodes. After <strong>dealing damage</strong>, the
+          weapon takes a permanent and cumulative -1 penalty to damage rolls.</p><p>If its penalty drops to -5, the
+          weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.
+          The ooze can eat through 2-inch-thick, nonmagical metal in 1 round.</p>
         chat: <p>The ooze corrodes metal.</p>
       source:
         custom: ''
@@ -597,9 +593,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the ooze remains motionless, it is indistinguishable from an
-          oily pool or wet rock.</p>
+        value: <p>While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.</p>
         chat: ''
       source:
         custom: ''
@@ -646,14 +640,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          wearing nonmagical metal armor, its armor is partly corroded and takes
-          a permanent and cumulative -1 penalty to the AC it offers. The armor
-          is destroyed if the penalty reduces its AC to 10.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is wearing nonmagical metal armor, its
+          armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is
+          destroyed if the penalty reduces its AC to 10.</p>
         chat: >-
-          <p>The Gray Ooze attacks with its Pseudopod. If the target is wearing
-          nonmagical metal armor, its armor is partly corroded and takes a
-          permanent and cumulative -1 penalty to the AC it offers.</p>
+          <p>The Gray Ooze attacks with its Pseudopod. If the target is wearing nonmagical metal armor, its armor is
+          partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers.</p>
       source:
         custom: ''
         book: ''

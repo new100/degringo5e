@@ -571,9 +571,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -676,9 +674,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the start
-          of the [[lookup @name lowercase]]'s next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false] condition until the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: rend
       source:
@@ -759,8 +756,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p> The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the [[lookup @name lowercase]]’s next turn.</p>
+          <p> The target has the &amp;Reference[Poisoned apply=false] condition until the start of the [[lookup @name
+          lowercase]]’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -777,8 +774,7 @@ items:
           modifiedTime: 1737667251065
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.mmRend0000000000.KlXNOgoOPqEV7BoN
+        _key: '!actors.items.effects!mmQuasit00000000.mmRend0000000000.KlXNOgoOPqEV7BoN'
     flags:
       degringo5e:
         riders:
@@ -860,9 +856,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
-          on itself, requiring no spell components and using Charisma as the
-          spellcasting ability.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no
+          spell components and using Charisma as the spellcasting ability.</p>
         chat: ''
       identifier: invisibility
       source:
@@ -905,11 +900,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1018,9 +1012,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1036,14 +1028,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.32LONl1rUCtttKkg.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmQuasit00000000.32LONl1rUCtttKkg.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmQuasit00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
+        origin: Compendium.degringo5e.actors24.Actor.mmQuasit00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
         changes:
           - key: system.ability
             mode: 5
@@ -1087,8 +1077,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.32LONl1rUCtttKkg.dnd5espellchange
+        _key: '!actors.items.effects!mmQuasit00000000.32LONl1rUCtttKkg.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -1173,11 +1162,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts to
-          resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb
-          40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true
-          form. Its game statistics are the same in each form, except for its
-          Speed. Any equipment it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a
+          centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game
+          statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't
+          transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -1228,8 +1216,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.Q4RaKl2vHLshyF3B
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.Q4RaKl2vHLshyF3B
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1238,8 +1225,7 @@ items:
           modifiedTime: 1737667572550
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.mmShapeshift0000.4NzZxgY0MLwkXs9D
+        _key: '!actors.items.effects!mmQuasit00000000.mmShapeshift0000.4NzZxgY0MLwkXs9D'
       - name: Centipede Form
         origin: Compendium.degringo5e.actors24.Actor.mmQuasit00000000.Item.mmShapeshift0000
         duration:
@@ -1271,8 +1257,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.NFMrfbOawWP0jdQ8
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.NFMrfbOawWP0jdQ8
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1281,8 +1266,7 @@ items:
           modifiedTime: 1737667574150
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.mmShapeshift0000.ZC4DrnZ0xxvvTFjf
+        _key: '!actors.items.effects!mmQuasit00000000.mmShapeshift0000.ZC4DrnZ0xxvvTFjf'
       - name: Toad Form
         origin: Compendium.degringo5e.actors24.Actor.mmQuasit00000000.Item.mmShapeshift0000
         duration:
@@ -1314,8 +1298,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.LK7QKDKtjaAzAIIv
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.LK7QKDKtjaAzAIIv
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1324,8 +1307,7 @@ items:
           modifiedTime: 1737667576213
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.mmShapeshift0000.tJNkg2riPFHGiBkH
+        _key: '!actors.items.effects!mmQuasit00000000.mmShapeshift0000.tJNkg2riPFHGiBkH'
     flags:
       degringo5e:
         riders:
@@ -1416,13 +1398,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=L6pjs2RafI3pF8b3]], one creature within
-          [[lookup @range.value activity=L6pjs2RafI3pF8b3]] feet.</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Frightened apply=false] condition. At the end of each
-          of its turns, the target repeats the save, ending the effect on itself
-          on a success. After 1 minute, it succeeds automatically.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=L6pjs2RafI3pF8b3]], one
+          creature within [[lookup @range.value activity=L6pjs2RafI3pF8b3]] feet.</p><p
+          class="feature"><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition. At the
+          end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1
+          minute, it succeeds automatically.</p>
         chat: ''
       identifier: scare
       source:
@@ -1459,9 +1439,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false]
-          condition.</p>
+        description: <p>The target has the &amp;Reference[Frightened apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1478,8 +1456,7 @@ items:
           modifiedTime: 1737915233066
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmQuasit00000000.mmScare000000000.u8Gu5Oo3a48vKYla
+        _key: '!actors.items.effects!mmQuasit00000000.mmScare000000000.u8Gu5Oo3a48vKYla'
     folder: 4T18pEvubPMQLzvD
     flags:
       degringo5e:

@@ -2,9 +2,8 @@ name: Flames
 system:
   description:
     value: >-
-      <p> A powerful devil becomes your enemy. The devil seeks your ruin and
-      torments you, savoring your suffering before attempting to slay you. This
-      enmity lasts until either you or the devil dies.</p>
+      <p> A powerful devil becomes your enemy. The devil seeks your ruin and torments you, savoring your suffering
+      before attempting to slay you. This enmity lasts until either you or the devil dies.</p>
     chat: ''
   price:
     value: 0
@@ -127,9 +126,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtFlames0000]{Flames}</em></p><p>This
-      enmity lasts until either you or the devil dies.</p>
+      <p><em>Source: @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtFlames0000]{Flames}</em></p><p>This enmity lasts
+      until either you or the devil dies.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

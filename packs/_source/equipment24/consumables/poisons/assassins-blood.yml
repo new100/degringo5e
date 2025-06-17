@@ -81,11 +81,9 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood
-      makes a DC 10 Constitution saving throw. On a failed save, the creature
-      takes 6 (1d12) Poison damage and has the &amp;Reference[Poisoned
-      apply=false] condition for 24 hours. On a successful save, the creature
-      takes half as much damage only.</p>
+      <p><em>Ingested Poison</em></p><p>A creature subjected to Assassin's Blood makes a DC 10 Constitution saving
+      throw. On a failed save, the creature takes 6 (1d12) Poison damage and has the &amp;Reference[Poisoned
+      apply=false] condition for 24 hours. On a successful save, the creature takes half as much damage only.</p>
     chat: ''
   identifier: assassins-blood
   source:

@@ -655,18 +655,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales fire
-          in a 40-foot line that is 5 feet wide. Each creature in that line must
-          make a [[/save activity=Es6C2unaFSW7LHd3]] saving throw, taking
-          [[/damage average activity=Es6C2unaFSW7LHd3]] damage on a failed save,
-          or half as much damage on a successful one.</p><p><strong>Sleep
-          Breath.</strong> The dragon exhales sleep gas in a 30-foot cone. Each
-          creature in that area must succeed on a [[/save
-          activity=6xecSNeczVQ2Wtcg]] saving throw or fall
-          &amp;Reference[unconscious] for 5 minutes. This effect ends for a
-          creature if the creature takes damage or someone uses an action to
-          wake it.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales
+          fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a [[/save
+          activity=Es6C2unaFSW7LHd3]] saving throw, taking [[/damage average activity=Es6C2unaFSW7LHd3]] damage on a
+          failed save, or half as much damage on a successful one.</p><p><strong>Sleep Breath.</strong> The dragon
+          exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a [[/save
+          activity=6xecSNeczVQ2Wtcg]] saving throw or fall &amp;Reference[unconscious] for 5 minutes. This effect ends
+          for a creature if the creature takes damage or someone uses an action to wake it.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''
@@ -1017,8 +1012,7 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon makes three attacks: one with its [[/item
-          .dYJy66Ftt58qpTUi]]{bite} and two with its [[/item
+          <p>The dragon makes three attacks: one with its [[/item .dYJy66Ftt58qpTUi]]{bite} and two with its [[/item
           .YHom7FFObzrKEBLQ]]{claws}.</p>
         chat: ''
       source:

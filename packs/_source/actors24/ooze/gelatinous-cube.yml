@@ -720,19 +720,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] fills its entire
-          space and is transparent. Other creatures can enter that space, but a
-          creature that does so is subjected to the [[lookup @name lowercase]]'s
-          Engulf and has Disadvantage on the saving throw.</p><p
-          class="feature">Creatures inside the [[lookup @name lowercase]] have
-          &amp;Reference[Total Cover], and the [[lookup @name lowercase]] can
-          hold one Large creature or up to four Medium or Small creatures inside
-          itself at a time.</p><p class="feature">As an action, a creature
-          within [[lookup @range.value activity=EcTOfXWsDJRHLydy]] [[lookup
-          @range.units activity=EcTOfXWsDJRHLydy]]. of the [[lookup @name
-          lowercase]] can pull a creature or an object out of the [[lookup @name
-          lowercase]] by succeeding on a [[/check dc=12 ability=str skill=ath
-          format=long]], and the puller takes [[/damage average
+          <p class="feature">The [[lookup @name lowercase]] fills its entire space and is transparent. Other creatures
+          can enter that space, but a creature that does so is subjected to the [[lookup @name lowercase]]'s Engulf and
+          has Disadvantage on the saving throw.</p><p class="feature">Creatures inside the [[lookup @name lowercase]]
+          have &amp;Reference[Total Cover], and the [[lookup @name lowercase]] can hold one Large creature or up to four
+          Medium or Small creatures inside itself at a time.</p><p class="feature">As an action, a creature within
+          [[lookup @range.value activity=EcTOfXWsDJRHLydy]] [[lookup @range.units activity=EcTOfXWsDJRHLydy]]. of the
+          [[lookup @name lowercase]] can pull a creature or an object out of the [[lookup @name lowercase]] by
+          succeeding on a [[/check dc=12 ability=str skill=ath format=long]], and the puller takes [[/damage average
           activity=PMCvyqxfUYiPzNK8]] damage.</p>
         chat: ''
       identifier: ooze-cube
@@ -787,8 +782,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGelatinousCube.mmOozeCube000000.Nqpxg74Yw9uEVMxQ
+        _key: '!actors.items.effects!mmGelatinousCube.mmOozeCube000000.Nqpxg74Yw9uEVMxQ'
     flags:
       degringo5e:
         riders:
@@ -869,11 +863,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">Even when the [[lookup @name lowercase]] is in
-          plain sight, a creature must succeed on a [[/check dc=15 ability=wis
-          skill=prc format=long]] to notice the [[lookup @name lowercase]] if
-          the creature hasn't witnessed the [[lookup @name lowercase]] move or
-          otherwise act.</p>
+          <p class="feature">Even when the [[lookup @name lowercase]] is in plain sight, a creature must succeed on a
+          [[/check dc=15 ability=wis skill=prc format=long]] to notice the [[lookup @name lowercase]] if the creature
+          hasn't witnessed the [[lookup @name lowercase]] move or otherwise act.</p>
         chat: ''
       identifier: transparent
       source:
@@ -967,9 +959,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: pseudopod
       source:
@@ -1175,28 +1165,19 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] moves up to its
-          Speed without provoking Opportunity Attacks. The [[lookup @name
-          lowercase]] can move through the spaces of Large or smaller creatures
-          if it has room inside itself to contain them (see the
-          @UUID[.mmOozeCube000000] trait).</p><p class="feature"><em>Dexterity
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=5o0Bh8PQaojx5XMx]], each creature whose space the [[lookup
-          @name lowercase]] enters for the first time during this move.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target is engulfed. An engulfed target is &amp;Reference[suffocating],
-          can't cast spells with a Verbal component, has the
-          &amp;Reference[Restrained apply=false] condition, and takes [[/damage
-          average]] damage at the start of each of the [[lookup @name
-          lowercase]]'s turns. When the [[lookup @name lowercase]] moves, the
-          engulfed target moves with it. An engulfed target can try to escape by
-          taking an action to make a [[/check ability=str skill=ath
-          dc=@abilities.str.dc]] check. On a successful check, the target
-          escapes and enters the nearest unoccupied space.</p><p
-          class="feature"><em>Success:</em> Half damage, and the target moves to
-          an unoccupied space within 5 feet of the [[lookup @name lowercase]]'s.
-          If there is no unoccupied space, the target fails the save
-          instead.</p>
+          <p class="feature">The [[lookup @name lowercase]] moves up to its Speed without provoking Opportunity Attacks.
+          The [[lookup @name lowercase]] can move through the spaces of Large or smaller creatures if it has room inside
+          itself to contain them (see the @UUID[.mmOozeCube000000] trait).</p><p class="feature"><em>Dexterity Saving
+          Throw:</em> DC [[lookup @save.dc.value activity=5o0Bh8PQaojx5XMx]], each creature whose space the [[lookup
+          @name lowercase]] enters for the first time during this move.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target is engulfed. An engulfed target is &amp;Reference[suffocating],
+          can't cast spells with a Verbal component, has the &amp;Reference[Restrained apply=false] condition, and takes
+          [[/damage average]] damage at the start of each of the [[lookup @name lowercase]]'s turns. When the [[lookup
+          @name lowercase]] moves, the engulfed target moves with it. An engulfed target can try to escape by taking an
+          action to make a [[/check ability=str skill=ath dc=@abilities.str.dc]] check. On a successful check, the
+          target escapes and enters the nearest unoccupied space.</p><p class="feature"><em>Success:</em> Half damage,
+          and the target moves to an unoccupied space within 5 feet of the [[lookup @name lowercase]]'s. If there is no
+          unoccupied space, the target fails the save instead.</p>
         chat: ''
       identifier: engulf
       source:
@@ -1233,10 +1214,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>An engulfed target is &amp;Reference[suffocating], can’t cast
-          spells with a Verbal component, has the &amp;Reference[Restrained
-          apply=false] condition, and takes [[/damage average 3d6 type=acid]]
-          damage at the start of each of the user's turns.</p>
+          <p>An engulfed target is &amp;Reference[suffocating], can’t cast spells with a Verbal component, has the
+          &amp;Reference[Restrained apply=false] condition, and takes [[/damage average 3d6 type=acid]] damage at the
+          start of each of the user's turns.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1255,8 +1235,7 @@ items:
           modifiedTime: 1737043923086
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGelatinousCube.mmEngulf00000000.vsa7d6xWOAvWdOWM
+        _key: '!actors.items.effects!mmGelatinousCube.mmEngulf00000000.vsa7d6xWOAvWdOWM'
     flags:
       degringo5e:
         riders:

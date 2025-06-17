@@ -575,9 +575,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -673,9 +671,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBeard000000000]] attack and one [[/item .mmInfernalGlaive]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBeard000000000]] attack and one [[/item
+          .mmInfernalGlaive]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -770,9 +767,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the start
-          of the [[lookup @name lowercase]]'s next turn. Until this poison ends,
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false] condition until the start of the [[lookup @name lowercase]]'s next turn. Until this poison ends,
           the target can't regain Hit Points.</p>
         chat: ''
       identifier: beard
@@ -855,9 +851,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the user's next turn. Until this poison ends, the
-          target can’t regain Hit Points.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the user's next turn.
+          Until this poison ends, the target can’t regain Hit Points.</p>
         tint: '#ffffff'
         statuses:
           - poisoned
@@ -873,8 +868,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBeardedDevil00.mmBeard000000000.dnpr0RaXDWfSZOYz
+        _key: '!actors.items.effects!mmBeardedDevil00.mmBeard000000000.dnpr0RaXDWfSZOYz'
     flags:
       degringo5e:
         riders:
@@ -1096,17 +1090,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature and doesn't already have an infernal
-          wound, it is subjected to the following effect.</p><p><em>Constitution
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=4qy3fKL086OAE1xR]].</p><p><em>Failure:</em> The target
-          receives an infernal wound. While wounded, the target loses [[/damage
-          average activity=IS4utGV80LpDrjvt]] Hit Points at the start of each of
-          its turns. The wound closes after 1 minute, after a spell restores Hit
-          Points to the target, or after the target or a creature within 5 feet
-          of it takes an action to stanch the wound, doing so by succeeding on a
-          [[/check format=long activity=KNWa0TFhANjmQCds]].</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature and doesn't
+          already have an infernal wound, it is subjected to the following effect.</p><p><em>Constitution Saving
+          Throw:</em> DC [[lookup @save.dc.value activity=4qy3fKL086OAE1xR]].</p><p><em>Failure:</em> The target
+          receives an infernal wound. While wounded, the target loses [[/damage average activity=IS4utGV80LpDrjvt]] Hit
+          Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points
+          to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound,
+          doing so by succeeding on a [[/check format=long activity=KNWa0TFhANjmQCds]].</p>
         chat: ''
       identifier: infernal-glaive
       source:

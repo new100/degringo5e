@@ -700,11 +700,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Huge or smaller creature and the elk moved 20+ feet
-          straight it immediately before the hit, the target takes an extra
-          [[/damage average activity=i9cI4yuGrjw1or1q]] and has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Huge or smaller
+          creature and the elk moved 20+ feet straight it immediately before the hit, the target takes an extra
+          [[/damage average activity=i9cI4yuGrjw1or1q]] and has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: ram
       source:
@@ -801,8 +799,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantElk000000.mmRam00000000000.HUmtXTzr92ZaAvf3
+        _key: '!actors.items.effects!mmGiantElk000000.mmRam00000000000.HUmtXTzr92ZaAvf3'
     flags:
       degringo5e:
         riders:

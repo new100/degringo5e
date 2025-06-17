@@ -2,11 +2,9 @@ name: Counterspell
 system:
   description:
     value: >-
-      <p>You attempt to interrupt a creature in the process of casting a spell.
-      The creature makes a Constitution saving throw. On a failed save, the
-      spell dissipates with no effect, and the action, Bonus Action, or Reaction
-      used to cast it is wasted. If that spell was cast with a spell slot, the
-      slot isn't expended.</p>
+      <p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving
+      throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to
+      cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p>
     chat: ''
   source:
     custom: ''
@@ -15,9 +13,7 @@ system:
     book: SRD 5.2
   activation:
     type: reaction
-    condition: >-
-      when you see a creature within range casting a spell with Verbal, Somatic,
-      or Material components
+    condition: when you see a creature within range casting a spell with Verbal, Somatic, or Material components
     value: null
   duration:
     value: ''

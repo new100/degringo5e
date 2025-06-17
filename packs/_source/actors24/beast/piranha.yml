@@ -673,10 +673,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=xWlMeXFjELfSUWX9]]), reach [[lookup
-          @range.value activity=xWlMeXFjELfSUWX9]] [[lookup @range.units
-          activity=xWlMeXFjELfSUWX9]]. [[/damage average extended]].</p>
+          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup @activation.condition activity=xWlMeXFjELfSUWX9]]), reach
+          [[lookup @range.value activity=xWlMeXFjELfSUWX9]] [[lookup @range.units activity=xWlMeXFjELfSUWX9]]. [[/damage
+          average extended]].</p>
         chat: ''
       identifier: bite
       source:

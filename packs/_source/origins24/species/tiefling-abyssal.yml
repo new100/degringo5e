@@ -5,35 +5,25 @@ img: icons/creatures/unholy/demon-female-succubus-orange.webp
 system:
   description:
     value: >-
-      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
-      inline classes="free-rules-embed"]</p><h3
+      <p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline
+      classes="free-rules-embed"]</p><h3
       data-anchor="abyssal">Abyssal</h3><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief
-      inline classes="free-rules-embed"]</p><h3
-      data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
-      Type</strong>: Humanoid</p><p><strong>Size: </strong>Medium (about 4–7
-      feet tall) or Small (about 3–4 feet tall), chosen when you select this
-      species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you
-      have the following special traits.</p><p><strong>Darkvision. </strong>You
-      have Darkvision with a range of 60 feet.</p><p><strong>Fiendish
-      Legacy.</strong> You are the recipient of a legacy that grants you
-      supernatural abilities.</p><p>When you reach character levels 3 and 5, you
-      learn a higher-level spell, as shown on the table. You always have that
-      spell prepared. You can cast it once without a spell slot, and you regain
-      the ability to cast it in that way when you finish a Long Rest. You can
-      also cast the spell using any spell slots you have of the appropriate
-      level. Intelligence, Wisdom, or Charisma is your spellcasting ability for
-      the spells you cast with this trait (choose the ability when you select
-      the legacy).</p><p><strong>Otherworldly Presence.</strong> You know the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
-      cantrip. When you cast it with this trait, the spell uses the same
-      spellcasting ability you use for your Fiendish Legacy
-      trait.</p><table><caption>Abyssal Legacy
-      Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
-      5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage.
-      You also know the
+      inline classes="free-rules-embed"]</p><h3 data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
+      Type</strong>: Humanoid</p><p><strong>Size: </strong>Medium (about 4–7 feet tall) or Small (about 3–4 feet tall),
+      chosen when you select this species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you have the
+      following special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60
+      feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural
+      abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table.
+      You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast
+      it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the
+      appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with
+      this trait (choose the ability when you select the legacy).</p><p><strong>Otherworldly Presence.</strong> You know
+      the @UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this
+      trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy
+      trait.</p><table><caption>Abyssal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
+      5</td></tr></thead><tbody><tr><td>You have Resistance to Poison damage. You also know the
       @UUID[Compendium.degringo5e.spells24.Item.phbsplPoisonSpra]{Poison Spray}
-      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray
-      of
+      cantrip.</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplRayofSickn]{Ray of
       Sickness}</td><td>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
       Person}</td></tr></tbody></table>
     chat: ''
@@ -101,9 +91,7 @@ system:
       value: {}
       level: 1
       title: Abyssal Tiefling Traits
-      hint: >-
-        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
-        spells you cast with this trait.
+      hint: Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.
     - _id: KwcwntR3Ai0R5iPN
       type: ItemGrant
       configuration:
@@ -124,9 +112,7 @@ system:
       value: {}
       level: 3
       title: Abyssal Tiefling Traits
-      hint: >-
-        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
-        spells you cast with this trait.
+      hint: Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.
     - _id: 9iZufhdzY3XN7Em3
       type: ItemGrant
       configuration:
@@ -147,9 +133,7 @@ system:
       value: {}
       level: 5
       title: Abyssal Tiefling Traits
-      hint: >-
-        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
-        spells you cast with this trait.
+      hint: Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait.
     - _id: YENpPevreTnGrRVK
       type: ItemGrant
       configuration:

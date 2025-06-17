@@ -575,9 +575,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its
-          body disappears in sulfurous smoke, and it gains a new body instantly,
-          reviving with all its Hit Points somewhere in the Nine Hells.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its body disappears in sulfurous smoke, and
+          it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>
         chat: ''
       identifier: diabolical-restoration
       source:
@@ -625,9 +624,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -723,9 +720,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item
-          .mmSearingFork000]] or [[/item .mmHurlFlame00000]] in any combination.
-          It can replace one attack with a use of [[/item
+          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item .mmSearingFork000]] or [[/item
+          .mmHurlFlame00000]] in any combination. It can replace one attack with a use of [[/item
           .mmInfernalTail00]].</p>
         chat: ''
       identifier: multiattack
@@ -840,9 +836,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: searing-fork
       source:
@@ -991,9 +985,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a flammable object that isn't being worn or carried,
-          it starts burning.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a flammable object
+          that isn't being worn or carried, it starts burning.</p>
         chat: ''
       identifier: hurl-flame
       source:
@@ -1253,21 +1246,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=tJYeyUk3iPYJq9xM]], one [[lookup
-          @target.affects.type activity=tJYeyUk3iPYJq9xM]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=tJYeyUk3iPYJq9xM]] [[lookup @range.units
-          activity=tJYeyUk3iPYJq9xM]].</p><p class="feature"><em>Failure:</em>
-          [[/damage average activity=tJYeyUk3iPYJq9xM]] damage, and the target
-          receives an infernal wound if it doesn't have one. While wounded, the
-          target loses [[/damage average activity=zZfCQ0IeJZCjPLzE]] Hit Points
-          at the start of each of its turns. The wound closes after [[lookup
-          @duration.value activity=tJYeyUk3iPYJq9xM]] [[lookup @duration.units
-          activity=tJYeyUk3iPYJq9xM]], after a spell restores Hit Points to the
-          target, or after the target or a creature within 5 feet of it takes an
-          action to stanch the wound, doing so by succeeding on a [[/check dc=17
-          ability=wis skill=med format=long]].</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=tJYeyUk3iPYJq9xM]],
+          one [[lookup @target.affects.type activity=tJYeyUk3iPYJq9xM]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=tJYeyUk3iPYJq9xM]] [[lookup @range.units activity=tJYeyUk3iPYJq9xM]].</p><p
+          class="feature"><em>Failure:</em> [[/damage average activity=tJYeyUk3iPYJq9xM]] damage, and the target
+          receives an infernal wound if it doesn't have one. While wounded, the target loses [[/damage average
+          activity=zZfCQ0IeJZCjPLzE]] Hit Points at the start of each of its turns. The wound closes after [[lookup
+          @duration.value activity=tJYeyUk3iPYJq9xM]] [[lookup @duration.units activity=tJYeyUk3iPYJq9xM]], after a
+          spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action
+          to stanch the wound, doing so by succeeding on a [[/check dc=17 ability=wis skill=med format=long]].</p>
         chat: ''
       identifier: infernal-tail
       source:

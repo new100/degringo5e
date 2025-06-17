@@ -580,9 +580,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] can't wear or carry
-          anything.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] can't wear or carry anything.</p>
         chat: ''
       identifier: ephemeral
       source:
@@ -632,8 +630,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] sheds Bright Light in a 20-foot
-          radius and Dim Light for an additional 20 feet.</p>
+          <p>The [[lookup @name lowercase]] sheds Bright Light in a 20-foot radius and Dim Light for an additional 20
+          feet.</p>
         chat: ''
       identifier: illumination
       source:
@@ -683,10 +681,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move through other creatures and
-          objects as if they were &amp;Reference[Difficult Terrain]. It takes
-          [[/damage 1d10 average type=force]] damage if it ends its turn inside
-          an object.</p>
+          <p>The [[lookup @name lowercase]] can move through other creatures and objects as if they were
+          &amp;Reference[Difficult Terrain]. It takes [[/damage 1d10 average type=force]] damage if it ends its turn
+          inside an object.</p>
         chat: ''
       identifier: incorporeal-movement
       source:
@@ -787,11 +784,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] and its light have
-          the &amp;Reference[Invisible apply=false] condition until the [[lookup
-          @name lowercase]]'s &amp;Reference[Concentration] ends on this effect,
-          which ends early immediately after the [[lookup @name lowercase]]
-          makes an attack roll or uses Consume Life.</p>
+          <p class="feature">The [[lookup @name lowercase]] and its light have the &amp;Reference[Invisible apply=false]
+          condition until the [[lookup @name lowercase]]'s &amp;Reference[Concentration] ends on this effect, which ends
+          early immediately after the [[lookup @name lowercase]] makes an attack roll or uses Consume Life.</p>
         chat: ''
       identifier: vanish
       source:
@@ -828,11 +823,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The attacking creature and its light have the
-          &amp;Reference[Invisible apply=false] condition until their
-          Concentration ends on this effect, which ends early immediately after
-          the wisp makes an attack roll or uses the Consume Life bonus
-          action.</p>
+          <p>The attacking creature and its light have the &amp;Reference[Invisible apply=false] condition until their
+          Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses
+          the Consume Life bonus action.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -858,8 +851,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWillowisp00000.mmVanish00000000.oY6W5ijpozecYGkq
+        _key: '!actors.items.effects!mmWillowisp00000.mmVanish00000000.oY6W5ijpozecYGkq'
     flags:
       degringo5e:
         riders:
@@ -997,14 +989,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=1Hy8CdhpwQlLxDPq]], [[lookup
-          @target.affects.special activity=1Hy8CdhpwQlLxDPq]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=1Hy8CdhpwQlLxDPq]] feet. that has 0 Hit
-          Points.</p><p><em>Failure:</em> The target dies, and the [[lookup
-          @name lowercase]] regains [[/healing average
-          activity=1waYTjY3NAIGZgrI]].</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=1Hy8CdhpwQlLxDPq]],
+          [[lookup @target.affects.special activity=1Hy8CdhpwQlLxDPq]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=1Hy8CdhpwQlLxDPq]] feet. that has 0 Hit Points.</p><p><em>Failure:</em> The
+          target dies, and the [[lookup @name lowercase]] regains [[/healing average activity=1waYTjY3NAIGZgrI]].</p>
         chat: ''
       identifier: consume-life
       source:
@@ -1040,9 +1028,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target dies if the creature that is at 0 Hit Points fails a
-          Constitution save.</p>
+        description: <p>The target dies if the creature that is at 0 Hit Points fails a Constitution save.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1059,8 +1045,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWillowisp00000.YPy3wAfsPZ7cNJoJ.gCuUMpz0XzscFB4K
+        _key: '!actors.items.effects!mmWillowisp00000.YPy3wAfsPZ7cNJoJ.gCuUMpz0XzscFB4K'
     flags:
       degringo5e:
         riders:
@@ -1145,9 +1130,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: shock
       source:

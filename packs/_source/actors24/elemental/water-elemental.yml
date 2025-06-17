@@ -621,9 +621,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] takes Cold
-          damage, its Speed decreases by 20 feet until the end of its next
-          turn.</p>
+          <p class="feature">If the [[lookup @name lowercase]] takes Cold damage, its Speed decreases by 20 feet until
+          the end of its next turn.</p>
         chat: ''
       identifier: freeze
       source:
@@ -669,8 +668,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the attacking creature takes Cold damage, its Speed decreases by
-          20 feet until the end of its next turn.</p>
+          <p>If the attacking creature takes Cold damage, its Speed decreases by 20 feet until the end of its next
+          turn.</p>
         tint: '#ffffff'
         transfer: true
         statuses: []
@@ -686,8 +685,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWaterElemental.mmFreeze00000000.B3otZdkyUcUlgrmk
+        _key: '!actors.items.effects!mmWaterElemental.mmFreeze00000000.B3otZdkyUcUlgrmk'
     flags:
       degringo5e:
         riders:
@@ -721,9 +719,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can enter an enemy's
-          space and stop there. It can move through a space as narrow as 1 inch
-          without expending extra movement to do so.</p>
+          <p class="feature">The [[lookup @name lowercase]] can enter an enemy's space and stop there. It can move
+          through a space as narrow as 1 inch without expending extra movement to do so.</p>
         chat: ''
       identifier: water-form
       source:
@@ -812,9 +809,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmSlam0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmSlam0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -908,9 +903,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, it has the &amp;Reference[Prone]
-          condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has
+          the &amp;Reference[Prone] condition.</p>
         chat: ''
       identifier: slam
       source:
@@ -1184,24 +1178,17 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=TQchFj2VXXJgU7Lq]], each [[lookup
-          @target.affects.type activity=TQchFj2VXXJgU7Lq]] in the [[lookup @name
-          lowercase]]'s space.</p><p class="feature"><em>Failure:</em> [[/damage
-          average activity=TQchFj2VXXJgU7Lq]] damage. If the target is a Large
-          or smaller creature, it has the &amp;Reference[Grappled apply=false]
-          condition (escape DC [[lookup @skills.ath.passive]]). Until the
-          grapple ends, the target has the &amp;Reference[Restrained
-          apply=false] condition, is &amp;Reference[suffocating]{suffocating}
-          unless it can breathe water, and takes [[/damage average
-          activity=khxVwH3AB0sx1qRG]] damage at the start of each of the
-          [[lookup @name lowercase]]'s turns. The [[lookup @name lowercase]] can
-          grapple one Large creature or up to two Medium or smaller creatures at
-          a time with Whelm.</p><p class="feature">As an action, a creature
-          within 5 feet of the [[lookup @name lowercase]] can pull a creature
-          out of it by succeeding on a [[/check ath dc=@skills.ath.passive
-          format=long]].</p><p class="feature"><em>Success:</em> Half damage
-          only.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=TQchFj2VXXJgU7Lq]],
+          each [[lookup @target.affects.type activity=TQchFj2VXXJgU7Lq]] in the [[lookup @name lowercase]]'s
+          space.</p><p class="feature"><em>Failure:</em> [[/damage average activity=TQchFj2VXXJgU7Lq]] damage. If the
+          target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC
+          [[lookup @skills.ath.passive]]). Until the grapple ends, the target has the &amp;Reference[Restrained
+          apply=false] condition, is &amp;Reference[suffocating]{suffocating} unless it can breathe water, and takes
+          [[/damage average activity=khxVwH3AB0sx1qRG]] damage at the start of each of the [[lookup @name lowercase]]'s
+          turns. The [[lookup @name lowercase]] can grapple one Large creature or up to two Medium or smaller creatures
+          at a time with Whelm.</p><p class="feature">As an action, a creature within 5 feet of the [[lookup @name
+          lowercase]] can pull a creature out of it by succeeding on a [[/check ath dc=@skills.ath.passive
+          format=long]].</p><p class="feature"><em>Success:</em> Half damage only.</p>
         chat: ''
       identifier: whelm
       source:
@@ -1238,13 +1225,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (see source item for
-          the escape DC). Until the grapple ends, the target has the
-          &amp;Reference[Restrained apply=false] condition, is
-          &amp;Reference[Suffocating]{suffocating} unless it can breathe water,
-          and takes damage (see source for damage) at the start of each of the
-          attacking creature's turns.</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (see source item for the escape DC). Until the grapple ends, the target has the &amp;Reference[Restrained
+          apply=false] condition, is &amp;Reference[Suffocating]{suffocating} unless it can breathe water, and takes
+          damage (see source for damage) at the start of each of the attacking creature's turns.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1271,8 +1255,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWaterElemental.mmWhelm000000000.rN76liiHkUoMRMJN
+        _key: '!actors.items.effects!mmWaterElemental.mmWhelm000000000.rN76liiHkUoMRMJN'
     flags:
       degringo5e:
         riders:

@@ -490,9 +490,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The worg has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on hearing or smell.</p>
+        value: <p>The worg has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>
         chat: ''
       source:
         custom: ''
@@ -539,13 +537,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it must succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone].</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a
+          [[/save]] saving throw or be knocked &amp;Reference[prone].</p>
         chat: >-
-          <p>The Worg attacks with its Bite. If the target is a creature, it
-          must make a <strong>Strength</strong> saving throw or be knocked
-          prone.</p>
+          <p>The Worg attacks with its Bite. If the target is a creature, it must make a <strong>Strength</strong>
+          saving throw or be knocked prone.</p>
       source:
         custom: ''
         book: ''

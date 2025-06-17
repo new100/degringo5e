@@ -499,13 +499,10 @@ items:
     system:
       description:
         value: >-
-          <p>The armor is incapacitated while in the area of an <em>antimagic
-          field</em>. If targeted by <em>dispel magic</em>, the armor must
-          succeed on a Constitution saving throw against the caster's spell save
-          DC or fall unconscious for 1 minute.</p>
-        chat: >-
-          <p>The armor is incapacitated while in the area of an antimagic
-          field.</p>
+          <p>The armor is incapacitated while in the area of an <em>antimagic field</em>. If targeted by <em>dispel
+          magic</em>, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall
+          unconscious for 1 minute.</p>
+        chat: <p>The armor is incapacitated while in the area of an antimagic field.</p>
       source:
         custom: ''
         book: ''
@@ -550,9 +547,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the armor remains motionless, it is indistinguishable from a
-          normal suit of armor.</p>
+        value: <p>While the armor remains motionless, it is indistinguishable from a normal suit of armor.</p>
         chat: ''
       source:
         custom: ''

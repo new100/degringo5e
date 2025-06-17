@@ -5,11 +5,9 @@ img: icons/magic/nature/barrier-shield-wood-vines.webp
 system:
   description:
     value: >-
-      <p>Trained for battle, you gain proficiency with Martial weapons and
-      training with Medium armor.</p><section id="secret-hVQSjHcU93Zpf54G"
-      class="secret"><p><strong>Foundry Note</strong></p><p>This feature
-      includes an Active Effect which automates the addition of your Martial
-      weapons proficiency and Medium armor training.</p></section>
+      <p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section
+      id="secret-hVQSjHcU93Zpf54G" class="secret"><p><strong>Foundry Note</strong></p><p>This feature includes an Active
+      Effect which automates the addition of your Martial weapons proficiency and Medium armor training.</p></section>
     chat: ''
   source:
     custom: ''
@@ -64,8 +62,7 @@ effects:
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.FZ2cZXwJx1f7bUxQ
+      compendiumSource: Compendium.degringo5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.FZ2cZXwJx1f7bUxQ
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

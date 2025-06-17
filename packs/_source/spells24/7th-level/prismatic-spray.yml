@@ -2,11 +2,10 @@ name: Prismatic Spray
 system:
   description:
     value: >-
-      <p>Eight rays of light flash from you in a 60-foot Cone. Each creature in
-      the Cone makes a Dexterity saving throw. For each target, roll 1d8 to
-      determine which color ray affects it, consulting the Prismatic Rays
-      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbPrismaticRays
-      rollable=true caption=false]{Prismatic Rays}</p>
+      <p>Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw.
+      For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbPrismaticRays rollable=true
+      caption=false]{Prismatic Rays}</p>
     chat: ''
   source:
     custom: ''
@@ -242,15 +241,11 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The target has the &amp;Reference[Restrained apply=false] condition and
-      makes a [[/save ability=con format=long]] at the end of each of its turns.
-      If it successfully saves three times, the condition ends. If it fails
-      three times, it has the &amp;Reference[Petrified] condition until it is
-      freed by an effect like the
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-      Restoration}</em> spell. The successes and failures needn’t be
-      consecutive; keep track of both until the target collects three of a
-      kind.</p>
+      <p>The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con
+      format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it
+      fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell. The successes and
+      failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>
     tint: '#ffffff'
     statuses:
       - restrained
@@ -285,11 +280,9 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The target has the &amp;Reference[Blinded apply=false] condition and
-      makes a [[/save ability=wis format=long]] at the start of your next turn.
-      On a successful save, the condition ends. On a failed save, the condition
-      ends, and the creature teleports to another plane of existence (DM’s
-      choice).</p>
+      <p>The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis format=long]]
+      at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends,
+      and the creature teleports to another plane of existence (DM’s choice).</p>
     tint: '#ffffff'
     statuses:
       - blinded

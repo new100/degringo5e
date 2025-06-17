@@ -408,8 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
-        Armor},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepSickle0000]{Sickle}</p></div><h1>Cultists</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.VICfYukXoYkWJ1yn
         caption=false cite=false classes="no-embed
         mm"]</p><h2>Cultist</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.7OEqZFJzetIk928C
@@ -702,9 +701,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: ritual-sickle
       source:

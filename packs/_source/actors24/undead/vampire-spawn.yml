@@ -567,9 +567,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can climb difficult surfaces,
-          including along ceilings, without needing to make an ability
-          check.</p>
+          <p>The [[lookup @name lowercase]] can climb difficult surfaces, including along ceilings, without needing to
+          make an ability check.</p>
         chat: ''
       identifier: spider-climb
       source:
@@ -655,8 +654,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks and uses [[/item .mmBite0000000000]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks and uses [[/item
+          .mmBite0000000000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -810,10 +809,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, it has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from
-          one of two claws.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has
+          the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of two
+          claws.</p>
         chat: ''
       identifier: claw
       source:
@@ -894,10 +892,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC) from one
-          of two claws.</p>
+          <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC) from one of two claws.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -914,8 +910,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmVampireSpawn00.mmClaw0000000000.SVSXgb9yjhotXMza
+        _key: '!actors.items.effects!mmVampireSpawn00.mmClaw0000000000.SVSXgb9yjhotXMza'
     flags:
       degringo5e:
         riders:
@@ -1019,14 +1014,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=7mBlINHfcabm0DAr]], one creature within
-          [[lookup @range.value activity=7mBlINHfcabm0DAr]] feet that is willing
-          or that has the Grappled, Incapacitated, or Restrained condition.
-          </p><p class="feature"><em>Failure:</em> [[/damage average]] damage.
-          The target's Hit Point maximum decreases by an amount equal to the
-          Necrotic damage taken, and the vampire regains Hit Points equal to
-          that amount.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=7mBlINHfcabm0DAr]],
+          one creature within [[lookup @range.value activity=7mBlINHfcabm0DAr]] feet that is willing or that has the
+          Grappled, Incapacitated, or Restrained condition. </p><p class="feature"><em>Failure:</em> [[/damage average]]
+          damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the
+          vampire regains Hit Points equal to that amount.</p>
         chat: ''
       identifier: bite
       source:
@@ -1170,8 +1162,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Dash] or &amp;Reference[Disengage] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Dash] or &amp;Reference[Disengage]
+          action.</p>
         chat: ''
       identifier: deathless-agility
       source:
@@ -1379,21 +1371,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] has these
-          weaknesses:</p><p class="feature-trait"><strong>Forbiddance.</strong>
-          The [[lookup @name lowercase]] can't enter a residence without an
-          invitation from an occupant.</p><p
-          class="feature-trait"><strong>Running Water.</strong> The [[lookup
-          @name lowercase]] takes 20 Acid damage if it ends its turn in running
-          water.</p><p class="feature-trait"><strong>Stake to the
-          Heart.</strong> The [[lookup @name lowercase]] is destroyed if a
-          weapon that deals Piercing damage is driven into the [[lookup @name
-          lowercase]]'s heart while the [[lookup @name lowercase]] has the
-          Incapacitated condition.</p><p
-          class="feature-trait"><strong>Sunlight.</strong> The [[lookup @name
-          lowercase]] takes 20 Radiant damage if it starts its turn in sunlight.
-          While in sunlight, it has Disadvantage on attack rolls and ability
-          checks.</p>
+          <p class="feature">The [[lookup @name lowercase]] has these weaknesses:</p><p
+          class="feature-trait"><strong>Forbiddance.</strong> The [[lookup @name lowercase]] can't enter a residence
+          without an invitation from an occupant.</p><p class="feature-trait"><strong>Running Water.</strong> The
+          [[lookup @name lowercase]] takes 20 Acid damage if it ends its turn in running water.</p><p
+          class="feature-trait"><strong>Stake to the Heart.</strong> The [[lookup @name lowercase]] is destroyed if a
+          weapon that deals Piercing damage is driven into the [[lookup @name lowercase]]'s heart while the [[lookup
+          @name lowercase]] has the Incapacitated condition.</p><p class="feature-trait"><strong>Sunlight.</strong> The
+          [[lookup @name lowercase]] takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it
+          has Disadvantage on attack rolls and ability checks.</p>
         chat: ''
       identifier: vampire-weakness
       source:
@@ -1431,17 +1417,15 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">While in
-          sunlight, it has Disadvantage on attack rolls and ability
-          checks.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">While in sunlight, it has Disadvantage on attack
+          rolls and ability checks.</span></p>
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
+          compendiumSource: Compendium.degringo5e.actors24.Actor.mmVampire0000000.Item.mmVampireWeaknes.ActiveEffect.bD4TxnlUEUBC3nDq
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1450,8 +1434,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmVampireSpawn00.mmVampireWeaknes.v2EdEMrtcddO1p8U
+        _key: '!actors.items.effects!mmVampireSpawn00.mmVampireWeaknes.v2EdEMrtcddO1p8U'
     flags:
       degringo5e:
         riders:

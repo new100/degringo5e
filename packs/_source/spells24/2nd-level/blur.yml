@@ -2,9 +2,8 @@ name: Blur
 system:
   description:
     value: >-
-      <p>Your body becomes blurred. For the duration, any creature has
-      Disadvantage on attack rolls against you. An attacker is immune to this
-      effect if it perceives you with &amp;Reference[blindsight] or
+      <p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An
+      attacker is immune to this effect if it perceives you with &amp;Reference[blindsight] or
       &amp;Reference[truesight].</p>
     chat: ''
   source:
@@ -108,9 +107,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>For the duration, any creature has Disadvantage on attack rolls against
-      you. An attacker is immune to this effect if it perceives you with
-      Blindsight or Truesight.</p>
+      <p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this
+      effect if it perceives you with Blindsight or Truesight.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

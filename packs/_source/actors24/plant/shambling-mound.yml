@@ -565,9 +565,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">Whenever the [[lookup @name lowercase]] is
-          subjected to Lightning damage, it regains a number of Hit Points equal
-          to the Lightning damage dealt.</p>
+          <p class="feature">Whenever the [[lookup @name lowercase]] is subjected to Lightning damage, it regains a
+          number of Hit Points equal to the Lightning damage dealt.</p>
         chat: ''
       identifier: lightning-absorption
       source:
@@ -653,9 +652,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmChargedTendril]] attacks. It can replace one attack with a use of
-          [[/item .mmEngulf00000000]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmChargedTendril]] attacks. It can replace one attack
+          with a use of [[/item .mmEngulf00000000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -770,9 +768,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, the [[lookup @name lowercase]] pulls
-          the target 5 feet straight toward itself.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, the
+          [[lookup @name lowercase]] pulls the target 5 feet straight toward itself.</p>
         chat: ''
       identifier: charged-tendril
       source:
@@ -1027,19 +1024,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=5o0Bh8PQaojx5XMx]], one [[lookup
-          @target.affects.special activity=5o0Bh8PQaojx5XMx]] within 5
-          feet.</p><p class="feature"><em>Failure:</em> The target is pulled
-          into the [[lookup @name lowercase]]'s space and has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]). Until the grapple ends, the target has the
-          &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
-          apply=false] conditions, and it takes [[/damage average
-          activity=Exfa4q7O4SvXjGt7]] damage at the start of each of its turns.
-          When the [[lookup @name lowercase]] moves, the Grappled target moves
-          with it, costing it no extra movement. The [[lookup @name lowercase]]
-          can have only one creature Grappled by this action at a time.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=5o0Bh8PQaojx5XMx]], one
+          [[lookup @target.affects.special activity=5o0Bh8PQaojx5XMx]] within 5 feet.</p><p
+          class="feature"><em>Failure:</em> The target is pulled into the [[lookup @name lowercase]]'s space and has the
+          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple
+          ends, the target has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false]
+          conditions, and it takes [[/damage average activity=Exfa4q7O4SvXjGt7]] damage at the start of each of its
+          turns. When the [[lookup @name lowercase]] moves, the Grappled target moves with it, costing it no extra
+          movement. The [[lookup @name lowercase]] can have only one creature Grappled by this action at a time.</p>
         chat: ''
       identifier: engulf
       source:
@@ -1076,10 +1068,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Until the grapple ends, the target has the &amp;Reference[Blinded
-          apply=false] and &amp;Reference[Restrained apply=false] conditions,
-          and it takes [[/damage average 3d6 type=lightning]] damage at the
-          start of each of its turns.</p>
+          <p>Until the grapple ends, the target has the &amp;Reference[Blinded apply=false] and
+          &amp;Reference[Restrained apply=false] conditions, and it takes [[/damage average 3d6 type=lightning]] damage
+          at the start of each of its turns.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1098,8 +1089,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmShamblingMound.mmEngulf00000000.vsa7d6xWOAvWdOWM
+        _key: '!actors.items.effects!mmShamblingMound.mmEngulf00000000.vsa7d6xWOAvWdOWM'
     flags:
       degringo5e:
         riders:

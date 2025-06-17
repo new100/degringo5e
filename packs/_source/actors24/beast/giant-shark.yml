@@ -559,8 +559,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can breathe only underwater. It can
-          hold its breath for {duration} outside water.</p>
+          <p>The [[lookup @name lowercase]] can breathe only underwater. It can hold its breath for {duration} outside
+          water.</p>
         chat: ''
       identifier: water-breathing
       source:
@@ -645,9 +645,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmBite0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmBite0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -752,10 +750,8 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=xWlMeXFjELfSUWX9]]), reach [[lookup
-          @item.range.reach item=xWlMeXFjELfSUWX9]] ft. [[/damage average
-          extended]]</p>
+          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup @activation.condition activity=xWlMeXFjELfSUWX9]]), reach
+          [[lookup @item.range.reach item=xWlMeXFjELfSUWX9]] ft. [[/damage average extended]]</p>
         chat: ''
       identifier: bite
       source:

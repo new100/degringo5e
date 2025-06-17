@@ -577,9 +577,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can enter a creature's space and
-          stop there. It can move through a space as narrow as 1 inch without
-          expending extra movement to do so.</p>
+          <p>The [[lookup @name lowercase]] can enter a creature's space and stop there. It can move through a space as
+          narrow as 1 inch without expending extra movement to do so.</p>
         chat: ''
       identifier: air-form
       source:
@@ -680,9 +679,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: thunderous-slam
       source:
@@ -814,9 +811,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmThunderousSlam]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmThunderousSlam]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -943,13 +938,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=GQzr4EMMm6kkZVdC]], each Medium or smaller
-          [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] in the
-          [[lookup @name lowercase]]'s space.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target is pushed up to 20 feet straight away
-          from the [[lookup @name lowercase]] and has the &amp;Reference[Prone
-          apply=false] condition.</p><p><em>Success:</em> Half damage only.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]],
+          each Medium or smaller [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] in the [[lookup @name
+          lowercase]]'s space.</p><p><em>Failure:</em> [[/damage average]] damage, and the target is pushed up to 20
+          feet straight away from the [[lookup @name lowercase]] and has the &amp;Reference[Prone apply=false]
+          condition.</p><p><em>Success:</em> Half damage only.</p>
         chat: ''
       identifier: whirlwind
       source:
@@ -986,8 +979,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target is pushed up to 20-ft. straight away from the attacking
-          creature and has the &amp;Reference[Prone apply=false] condition.</p>
+          <p>The target is pushed up to 20-ft. straight away from the attacking creature and has the
+          &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1013,8 +1006,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAirElemental00.mmWhirlwind00000.qihlGD6RZ55pZY9n
+        _key: '!actors.items.effects!mmAirElemental00.mmWhirlwind00000.qihlGD6RZ55pZY9n'
     flags:
       degringo5e:
         riders:

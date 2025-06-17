@@ -613,9 +613,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: rend
       source:
@@ -695,9 +694,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -714,8 +711,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTiger000000000.mmRend0000000000.9A6Hpr7hApdISok9
+        _key: '!actors.items.effects!mmTiger000000000.mmRend0000000000.9A6Hpr7hApdISok9'
     flags:
       degringo5e:
         riders:
@@ -796,8 +792,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Disengage] or &amp;Reference[Hide] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Disengage] or &amp;Reference[Hide]
+          action.</p>
         chat: ''
       identifier: nimble-escape
       source:
@@ -858,8 +854,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTiger000000000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
+        _key: '!actors.items.effects!mmTiger000000000.mmNimbleEscape00.7U7Pe61lsMZgN7qh'
     flags:
       degringo5e:
         riders:

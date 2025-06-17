@@ -6,19 +6,14 @@ img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
 system:
   description:
     value: >-
-      <p>You radiate a protective, unseeable aura in a 10-foot Emanation that
-      originates from you. The aura is inactive while you have the
-      &amp;Reference[Incapacitated apply=false] condition.</p><p>You and your
-      allies in the aura gain a bonus to saving throws equal to your Charisma
-      modifier (minimum bonus of +1, currently [[lookup
-      @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can
-      benefit from only one Aura of Protection at a time; the creature chooses
-      which aura while in them.</p><section class="secret"
-      id="secret-PEdASVYFq26DP4Fq"><p><strong>Foundry Note</strong></p><p>This
-      feature includes an Active Effect which automatically improves your Saving
-      Throws but it should not be used for other impacted characters because it
-      will add their Charisma modifier and not the Paladin's. They should add
-      your modifier manually.</p></section>
+      <p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive
+      while you have the &amp;Reference[Incapacitated apply=false] condition.</p><p>You and your allies in the aura gain
+      a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1, currently [[lookup
+      @abilities.cha.mod]]).</p><p>If another Paladin is present, a creature can benefit from only one Aura of
+      Protection at a time; the creature chooses which aura while in them.</p><section class="secret"
+      id="secret-PEdASVYFq26DP4Fq"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which
+      automatically improves your Saving Throws but it should not be used for other impacted characters because it will
+      add their Charisma modifier and not the Paladin's. They should add your modifier manually.</p></section>
     chat: ''
   source:
     custom: ''

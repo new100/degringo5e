@@ -6,14 +6,11 @@ type: spell
 system:
   description:
     value: >-
-      <p>You can blind or deafen a foe. Choose one creature that you can see
-      within range to make a Constitution saving throw. If it fails, the target
-      is either &amp;Reference[blinded] or &amp;Reference[deafened] (your
-      choice) for the duration. At the end of each of its turns, the target can
-      make a Constitution saving throw. On a success, the spell
-      ends.</p><p><strong>At Higher Levels.</strong> When you cast this spell
-      using a spell slot of 3rd level or higher, you can target one additional
-      creature for each slot level above 2nd.</p>
+      <p>You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving
+      throw. If it fails, the target is either &amp;Reference[blinded] or &amp;Reference[deafened] (your choice) for the
+      duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the
+      spell ends.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or
+      higher, you can target one additional creature for each slot level above 2nd.</p>
     chat: ''
   source:
     custom: ''
@@ -121,9 +118,8 @@ effects:
     _id: 59WpbiZFULwixyvC
     changes: []
     description: >-
-      <p>The target is Blinded for the duration. At the end of each of its
-      turns, the target can make a Constitution saving throw. On a success, the
-      spell ends.</p>
+      <p>The target is Blinded for the duration. At the end of each of its turns, the target can make a Constitution
+      saving throw. On a success, the spell ends.</p>
     transfer: false
     statuses:
       - blinded
@@ -158,9 +154,8 @@ effects:
     _id: H0SG0oq3VfiCxBOQ
     changes: []
     description: >-
-      <p>The target is Deafened for the duration. At the end of each of its
-      turns, the target can make a Constitution saving throw. On a success, the
-      spell ends.</p>
+      <p>The target is Deafened for the duration. At the end of each of its turns, the target can make a Constitution
+      saving throw. On a success, the spell ends.</p>
     transfer: false
     statuses:
       - deafened

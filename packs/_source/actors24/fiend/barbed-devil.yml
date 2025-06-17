@@ -631,9 +631,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>At the start of each of its turns, the [[lookup @name lowercase]]
-          deals [[/damage average]] damage to any creature [[lookup
-          @target.affects.special activity=1O5eyc72vPW0UxYZ]].</p>
+          <p>At the start of each of its turns, the [[lookup @name lowercase]] deals [[/damage average]] damage to any
+          creature [[lookup @target.affects.special activity=1O5eyc72vPW0UxYZ]].</p>
         chat: ''
       identifier: barbed-hide
       source:
@@ -687,9 +686,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its
-          body disappears in sulfurous smoke, and it gains a new body instantly,
-          reviving with all its Hit Points somewhere in the Nine Hells.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Nine Hells, its body disappears in sulfurous smoke, and
+          it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>
         chat: ''
       identifier: diabolical-restoration
       source:
@@ -737,9 +735,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -835,9 +831,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmClaws000000000]] attack and one [[/item .mmTail0000000000]] attack,
-          or it makes two [[/item .mmHurlFlame00000]] attacks.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmClaws000000000]] attack and one [[/item
+          .mmTail0000000000]] attack, or it makes two [[/item .mmHurlFlame00000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -992,10 +987,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from
-          both claws.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from both
+          claws.</p>
         chat: ''
       identifier: claws
       source:
@@ -1077,12 +1071,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC) from both
-          claws.</p><p><strong>Escape Tests (see source item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC) from both
+          claws.</p><p><strong>Escape Tests (see source item for DC)</strong></p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
@@ -1098,8 +1090,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBarbedDevil000.mmClaws000000000.MpjWPflcv7Jqd7Tu
+        _key: '!actors.items.effects!mmBarbedDevil000.mmClaws000000000.MpjWPflcv7Jqd7Tu'
     flags:
       degringo5e:
         riders:
@@ -1328,9 +1319,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a flammable object that isn't being worn or carried,
-          it starts burning.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a flammable object
+          that isn't being worn or carried, it starts burning.</p>
         chat: ''
       identifier: hurl-flame
       source:

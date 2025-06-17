@@ -2,15 +2,12 @@ name: True Resurrection
 system:
   description:
     value: >-
-      <p>You touch a creature that has been dead for no longer than 200 years
-      and that died for any reason except old age. The creature is revived with
-      all its Hit Points.</p><p>This spell closes all wounds, neutralizes any
-      poison, cures all magical contagions, and lifts any curses affecting the
-      creature when it died. The spell replaces damaged or missing organs and
-      limbs. If the creature was Undead, it is restored to its non-Undead
-      form.</p><p>The spell can provide a new body if the original no longer
-      exists, in which case you must speak the creature's name. The creature
-      then appears in an unoccupied space you choose within 10 feet of you.</p>
+      <p>You touch a creature that has been dead for no longer than 200 years and that died for any reason except old
+      age. The creature is revived with all its Hit Points.</p><p>This spell closes all wounds, neutralizes any poison,
+      cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged
+      or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.</p><p>The spell
+      can provide a new body if the original no longer exists, in which case you must speak the creature's name. The
+      creature then appears in an unoccupied space you choose within 10 feet of you.</p>
     chat: ''
   source:
     custom: ''
@@ -29,9 +26,7 @@ system:
       choice: false
       count: '1'
       type: creature
-      special: >-
-        creature that has been dead for no longer than 200 years and that died
-        for any reason except old age.
+      special: creature that has been dead for no longer than 200 years and that died for any reason except old age.
     template:
       units: ''
       contiguous: false

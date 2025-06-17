@@ -610,9 +610,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks. It can replace one attack with a use of
-          [[/item .mmCorruptingTouc]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks. It can replace one attack
+          with a use of [[/item .mmCorruptingTouc]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -889,14 +888,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=F4cByCi1IEouN08a]], [[lookup
-          @target.affects.labels.statblock activity=F4cByCi1IEouN08a]] the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=F4cByCi1IEouN08a]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target is cursed for 1 hour. Until the curse
-          ends, the target has the &amp;Reference[Charmed apply=false] and
-          &amp;Reference[Poisoned apply=false] conditions.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=F4cByCi1IEouN08a]],
+          [[lookup @target.affects.labels.statblock activity=F4cByCi1IEouN08a]] the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=F4cByCi1IEouN08a]] feet.</p><p><em>Failure:</em> [[/damage average]]
+          damage, and the target is cursed for 1 hour. Until the curse ends, the target has the &amp;Reference[Charmed
+          apply=false] and &amp;Reference[Poisoned apply=false] conditions.</p>
         chat: ''
       identifier: corrupting-touch
       source:
@@ -971,8 +967,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Until the curse ends, the target has the &amp;Reference[Charmed
-          apply=false] and &amp;Reference[Poisoned apply=false] conditions.</p>
+          <p>Until the curse ends, the target has the &amp;Reference[Charmed apply=false] and &amp;Reference[Poisoned
+          apply=false] conditions.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -990,8 +986,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.mmCorruptingTouc.SuBPepD5ynNLNy8h
+        _key: '!actors.items.effects!mmLamia000000000.mmCorruptingTouc.SuBPepD5ynNLNy8h'
     flags:
       degringo5e:
         riders:
@@ -1265,19 +1260,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise
-          Self}</em> (can appear as a Large or Medium biped),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
-          Illusion}</em></p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}</em> (can appear as a Large or
+          Medium biped), <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}</em></p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGeas000000]{Geas}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMajorImage]{Major
-          Image}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMajorImage]{Major Image}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1379,9 +1369,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value
-          activity=C28C43DeD8iFtZMe]] feet by [[lookup @activation.condition
-          activity=C28C43DeD8iFtZMe]].</p>
+          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value activity=C28C43DeD8iFtZMe]] feet by
+          [[lookup @activation.condition activity=C28C43DeD8iFtZMe]].</p>
         chat: ''
       identifier: leap
       source:
@@ -1424,18 +1413,14 @@ items:
     system:
       description:
         value: >-
-          <p>You make yourself—including your clothing, armor, weapons, and
-          other belongings on your person—look different until the spell ends.
-          You can seem 1 foot shorter or taller and can appear heavier or
-          lighter. You must adopt a form that has the same basic arrangement of
-          limbs as you have. Otherwise, the extent of the illusion is up to
-          you.</p><p>The changes wrought by this spell fail to hold up to
-          physical inspection. For example, if you use this spell to add a hat
-          to your outfit, objects pass through the hat, and anyone who touches
-          it would feel nothing.</p><p>To discern that you are disguised, a
-          creature must take the Study action to inspect your appearance and
-          succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]]
-          check against your spell save DC.</p>
+          <p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look
+          different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You
+          must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the
+          illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For
+          example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who
+          touches it would feel nothing.</p><p>To discern that you are disguised, a creature must take the Study action
+          to inspect your appearance and succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check
+          against your spell save DC.</p>
         chat: ''
       source:
         custom: ''
@@ -1544,10 +1529,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">To discern that you
-          are disguised, a creature must take the Study action to inspect your
-          appearance and succeed on an [[/check ability=int skill=inv]] check
-          against your spell save DC.</span></p>
+          <p><span style="font-family:Signika, sans-serif">To discern that you are disguised, a creature must take the
+          Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your
+          spell save DC.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -1562,14 +1546,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.6APauftroqjmXvbd.SrIb7dbaZs5F4zi9
+        _key: '!actors.items.effects!mmLamia000000000.6APauftroqjmXvbd.SrIb7dbaZs5F4zi9'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1601,8 +1583,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.6APauftroqjmXvbd.dnd5espellchange
+        _key: '!actors.items.effects!mmLamia000000000.6APauftroqjmXvbd.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 3900000
     ownership:
@@ -1626,24 +1607,18 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. See the descriptions below for the effects of each.
-          The illusion ends if you cast this spell again.</p><p>If a creature
-          takes a Study action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful [[/check
-          ability=int skill=inv dc=@attributes.spell.dc]] check against your
-          spell save DC. If a creature discerns the illusion for what it is, the
-          illusion becomes faint to the creature.</p><p><strong>Sound.</strong>
-          If you create a sound, its volume can range from a whisper to a
-          scream. It can be your voice, someone else's voice, a lion's roar, a
-          beating of drums, or any other sound you choose. The sound continues
-          unabated throughout the duration, or you can make discrete sounds at
-          different times before the spell ends.</p><p><strong>Image.</strong>
-          If you create an image of an object—such as a chair, muddy footprints,
-          or a small chest—it must be no larger than a 5-foot Cube. The image
-          can't create sound, light, smell, or any other sensory effect.
-          Physical interaction with the image reveals it to be an illusion,
-          since things can pass through it.</p>
+          <p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions
+          below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a
+          Study action to examine the sound or image, the creature can determine that it is an illusion with a
+          successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a
+          creature discerns the illusion for what it is, the illusion becomes faint to the
+          creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a
+          scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you
+          choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different
+          times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, since things can pass through it.</p>
         chat: ''
       source:
         custom: ''
@@ -1770,8 +1745,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.KQenmPwveGFdDTl4
+        origin: Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.KQenmPwveGFdDTl4
         changes:
           - key: system.properties
             mode: 2
@@ -1803,8 +1777,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.A0QXzcxFPhHh38Ki.dnd5espellchange
+        _key: '!actors.items.effects!mmLamia000000000.A0QXzcxFPhHh38Ki.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 600000
     ownership:
@@ -1828,26 +1801,19 @@ items:
     system:
       description:
         value: >-
-          <p>You give a verbal command to a creature that you can see within
-          range, ordering it to carry out some service or refrain from an action
-          or a course of activity as you decide. The target must succeed on a
-          Wisdom saving throw or have the &amp;Reference[Charmed apply=false]
-          condition for the duration. The target automatically succeeds if it
-          can't understand your command.</p><p>While Charmed, the creature takes
-          [[/damage 5d10 type=psychic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p><p>You can issue any command you choose, short of an activity
-          that would result in certain death. Should you issue a suicidal
-          command, the spell ends.</p><p>A
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-          Restoration}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-          spell ends this spell.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> If you use a level 7 or 8 spell slot, the duration is
-          365 days. If you use a level 9 spell slot, the spell lasts until it is
-          ended by one of the spells mentioned above.</p>
+          <p>You give a verbal command to a creature that you can see within range, ordering it to carry out some
+          service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom
+          saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target
+          automatically succeeds if it can't understand your command.</p><p>While Charmed, the creature takes [[/damage
+          5d10 type=psychic]] damage if it acts in a manner directly counter to your command. It takes this damage no
+          more than once each day.</p><p>You can issue any command you choose, short of an activity that would result in
+          certain death. Should you issue a suicidal command, the spell ends.</p><p>A
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell ends this
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 7 or 8 spell slot, the
+          duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells
+          mentioned above.</p>
         chat: ''
       source:
         custom: ''
@@ -1973,10 +1939,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>While &amp;Reference[Charmed apply=false], the creature takes
-          [[/damage 5d10 type=psyhic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p>
+          <p>While &amp;Reference[Charmed apply=false], the creature takes [[/damage 5d10 type=psyhic]] damage if it
+          acts in a manner directly counter to your command. It takes this damage no more than once each day.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1992,14 +1956,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.2M6IcnU5z2CDUmR9.TXwfzpj9bERo0X1r
+        _key: '!actors.items.effects!mmLamia000000000.2M6IcnU5z2CDUmR9.TXwfzpj9bERo0X1r'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.EEQKe7QUHksJRZCn
+        origin: Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.EEQKe7QUHksJRZCn
         changes:
           - key: system.properties
             mode: 2
@@ -2031,8 +1993,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.2M6IcnU5z2CDUmR9.dnd5espellchange
+        _key: '!actors.items.effects!mmLamia000000000.2M6IcnU5z2CDUmR9.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1900000
     ownership:
@@ -2059,29 +2020,20 @@ items:
     system:
       description:
         value: >-
-          <p>You create the image of an object, a creature, or some other
-          visible phenomenon that is no larger than a 20-foot Cube. The image
-          appears at a spot that you can see within range and lasts for the
-          duration. It seems real, including sounds, smells, and temperature
-          appropriate to the thing depicted, but it can't deal damage or cause
-          conditions.</p><p>If you are within range of the illusion, you can
-          take a Magic action to cause the image to move to any other spot
-          within range. As the image changes location, you can alter its
-          appearance so that its movements appear natural for the image. For
-          example, if you create an image of a creature and move it, you can
-          alter the image so that it appears to be walking. Similarly, you can
-          cause the illusion to make different sounds at different times, even
-          making it carry on a conversation, for example.</p><p>Physical
-          interaction with the image reveals it to be an illusion, for things
-          can pass through it. A creature that takes a Study action to examine
-          the image can determine that it is an illusion with a successful
-          [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against
-          your spell save DC. If a creature discerns the illusion for what it
-          is, the creature can see through the image, and its other sensory
-          qualities become faint to the creature.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> The spell lasts until dispelled,
-          without requiring Concentration, if cast with a level 4+ spell
-          slot.</p>
+          <p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a
+          20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems
+          real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or
+          cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the
+          image to move to any other spot within range. As the image changes location, you can alter its appearance so
+          that its movements appear natural for the image. For example, if you create an image of a creature and move
+          it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make
+          different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical
+          interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes
+          a Study action to examine the image can determine that it is an illusion with a successful [[/check
+          ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the
+          illusion for what it is, the creature can see through the image, and its other sensory qualities become faint
+          to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled,
+          without requiring Concentration, if cast with a level 4+ spell slot.</p>
         chat: ''
       source:
         custom: ''
@@ -2217,8 +2169,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.QOd5ZmnhW1loMD5H
+        origin: Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.QOd5ZmnhW1loMD5H
         changes:
           - key: system.properties
             mode: 2
@@ -2250,8 +2201,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.nCkhRnrrGKCLIAOG.dnd5espellchange
+        _key: '!actors.items.effects!mmLamia000000000.nCkhRnrrGKCLIAOG.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 1000000
     ownership:
@@ -2275,30 +2225,21 @@ items:
     system:
       description:
         value: >-
-          <p>You can see and hear a creature you choose that is on the same
-          plane of existence as you. The target makes a Wisdom saving throw,
-          which is modified (see the tables below) by how well you know the
-          target and the sort of physical connection you have to it. The target
-          doesn't know what it is making the save against, only that it feels
-          uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is
-          …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand
-          (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the
-          target)</td><td>+0</td></tr><tr><td>Extensive (know the target
-          well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You
-          Have the Target's …</td><td>Save
-          Modifier</td></tr></thead><tbody><tr><td>Picture or other
-          likeness</td><td>−2</td></tr><tr><td>Garment or other
-          possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit
-          of nail</td><td>−10</td></tr></tbody></table><p>On a successful save,
-          the target isn't affected, and you can't use this spell on it again
-          for 24 hours.</p><p>On a failed save, the spell creates an Invisible,
-          intangible sensor within 10 feet of the target. You can see and hear
-          through the sensor as if you were there. The sensor moves with the
-          target, remaining within 10 feet of it for the duration. If something
-          can see the sensor, it appears as a luminous orb about the size of
-          your fist.</p><p>Instead of targeting a creature, you can target a
-          location you have seen. When you do so, the sensor appears at that
-          location and doesn't move.</p>
+          <p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes
+          a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort
+          of physical connection you have to it. The target doesn't know what it is making the save against, only that
+          it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the
+          target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the
+          target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or
+          other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of
+          nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't
+          use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible
+          sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor
+          moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it
+          appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a
+          location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>
         chat: ''
       source:
         custom: ''
@@ -2338,9 +2279,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 1,000+ GP, such as a crystal ball, mirror, or
-          water-filled font
+        value: a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font
         consumed: false
         cost: 0
         supply: 0
@@ -2818,8 +2757,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.UipKtGZRaCQEBS4Y
+        origin: Compendium.degringo5e.actors24.Actor.mmLamia000000000.Item.mmSpellcasting00.Activity.UipKtGZRaCQEBS4Y
         changes:
           - key: system.properties
             mode: 2
@@ -2851,8 +2789,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLamia000000000.3oOYV59b2uhAfvFI.dnd5espellchange
+        _key: '!actors.items.effects!mmLamia000000000.3oOYV59b2uhAfvFI.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 400000
     ownership:

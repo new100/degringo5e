@@ -509,9 +509,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body
-          dissolves into ichor, and it gains a new body instantly, reviving with
-          all its Hit Points somewhere in the Abyss.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body dissolves into ichor, and it gains a new
+          body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>
         chat: ''
       identifier: demonic-restoration
       source:
@@ -559,9 +558,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -657,9 +654,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmShred000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmShred000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -773,9 +768,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: shred
       source:
@@ -992,17 +985,13 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=voqQeTnihpy3BTFf]], each creature in a
-          [[lookup @target.template.size activity=voqQeTnihpy3BTFf]]-foot
-          Emanation originating from the [[lookup @name lowercase]].</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Poisoned apply=false] condition and repeats the save at
-          the end of each of its turns, ending the effect on itself on a
-          success. While Poisoned, the target takes [[/damage average
-          activity=ukZveNVmvvtwbDj0]] at the start of each of its turns.
-          Emptying a flask of Holy Water on the target ends the effect
-          early.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=voqQeTnihpy3BTFf]],
+          each creature in a [[lookup @target.template.size activity=voqQeTnihpy3BTFf]]-foot Emanation originating from
+          the [[lookup @name lowercase]].</p><p class="feature"><em>Failure:</em> The target has the
+          &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each of its turns, ending
+          the effect on itself on a success. While Poisoned, the target takes [[/damage average
+          activity=ukZveNVmvvtwbDj0]] at the start of each of its turns. Emptying a flask of Holy Water on the target
+          ends the effect early.</p>
         chat: ''
       identifier: spores
       source:
@@ -1039,9 +1028,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          and repeats the save at the end of each of its turns, ending the
-          effect on itself on a success.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each
+          of its turns, ending the effect on itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1067,8 +1055,7 @@ items:
           modifiedTime: 1737920990479
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmVrock000000000.mmSpores00000000.DeVYxc3BdGlZNeD9
+        _key: '!actors.items.effects!mmVrock000000000.mmSpores00000000.DeVYxc3BdGlZNeD9'
     flags:
       degringo5e:
         riders:
@@ -1170,14 +1157,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=eoIikvnPayaj02oN]], each creature in a
-          [[lookup @target.template.size activity=eoIikvnPayaj02oN]]-foot
-          Emanation originating from the [[lookup @name lowercase]] (demons
-          succeed automatically).</p><p class="feature"><em>Failure:</em>
-          [[/damage average]] damage, and the target has the
-          &amp;Reference[Stunned apply=false] condition until the end of the
-          [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=eoIikvnPayaj02oN]],
+          each creature in a [[lookup @target.template.size activity=eoIikvnPayaj02oN]]-foot Emanation originating from
+          the [[lookup @name lowercase]] (demons succeed automatically).</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target has the &amp;Reference[Stunned apply=false] condition until the end
+          of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: stunning-screech
       source:
@@ -1215,8 +1199,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Stunned apply=false]] condition
-          until the end of the vrock’s next turn.</p>
+          <p>The target has the &amp;Reference[Stunned apply=false]] condition until the end of the vrock’s next
+          turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1233,8 +1217,7 @@ items:
           modifiedTime: 1737921114342
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmVrock000000000.mmStunningScreec.dQ635FV7U5Y5LUE7
+        _key: '!actors.items.effects!mmVrock000000000.mmStunningScreec.dQ635FV7U5Y5LUE7'
     folder: 4T18pEvubPMQLzvD
     flags:
       degringo5e:

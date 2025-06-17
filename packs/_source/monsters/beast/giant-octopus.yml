@@ -534,9 +534,7 @@ items:
     img: icons/magic/water/orb-ice-web.webp
     system:
       description:
-        value: >-
-          <p>The octopus has<strong> advantage </strong>on Dexterity (Stealth)
-          checks made while underwater.</p>
+        value: <p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>
         chat: ''
       source:
         custom: ''
@@ -629,14 +627,10 @@ items:
     system:
       description:
         value: >-
-          <p>A 20-foot-radius cloud of ink extends all around the octopus if it
-          is underwater. The area is heavily obscured for 1 minute, although a
-          significant current can disperse the ink. After releasing the ink, the
-          octopus can use the Dash action as a bonus action. Recharges after a
-          Short or Long Rest.</p>
-        chat: >-
-          <p>A 20-foot-radius cloud of ink extends all around the octopus if it
-          is underwater.</p>
+          <p>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily
+          obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the
+          octopus can use the Dash action as a bonus action. Recharges after a Short or Long Rest.</p>
+        chat: <p>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>
       source:
         custom: ''
         book: ''
@@ -743,15 +737,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it is &amp;Reference[grappled] (escape DC 16). Until this
-          grapple ends, the target is &amp;Reference[restrained], and the
-          octopus can't use its tentacles on another target.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it is
+          &amp;Reference[grappled] (escape DC 16). Until this grapple ends, the target is &amp;Reference[restrained],
+          and the octopus can't use its tentacles on another target.</p>
         chat: >-
-          <p>The Giant Octopus attacks with its Tentacles. If the target is a
-          creature, it is grappled. Until this grapple ends, the target is
-          restrained, and the octopus can't use its tentacles on another
-          target.</p>
+          <p>The Giant Octopus attacks with its Tentacles. If the target is a creature, it is grappled. Until this
+          grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</p>
       source:
         custom: ''
         book: ''

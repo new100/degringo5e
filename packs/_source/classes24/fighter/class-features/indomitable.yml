@@ -6,15 +6,11 @@ img: icons/skills/melee/shield-block-fire-orange.webp
 system:
   description:
     value: >-
-      <p>If you fail a saving throw, you can reroll it with a bonus equal to
-      your Fighter level (currently, [[lookup @classes.fighter.levels]]). You
-      must use the new roll, and you can't use this feature again until you
-      finish a Long Rest.</p><p>You can use this feature twice before a Long
-      Rest starting at level 13 and three times before a Long Rest starting at
-      level 17.</p><section class="secret"
-      id="secret-eVLmL8YfOocgD4rC"><p><strong>Foundry Note</strong></p><p>This
-      feature's maximum usages scale automatically as you level
-      up.</p></section>
+      <p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level (currently, [[lookup
+      @classes.fighter.levels]]). You must use the new roll, and you can't use this feature again until you finish a
+      Long Rest.</p><p>You can use this feature twice before a Long Rest starting at level 13 and three times before a
+      Long Rest starting at level 17.</p><section class="secret" id="secret-eVLmL8YfOocgD4rC"><p><strong>Foundry
+      Note</strong></p><p>This feature's maximum usages scale automatically as you level up.</p></section>
     chat: ''
   source:
     custom: ''

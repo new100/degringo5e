@@ -50,17 +50,13 @@ system:
     max: '600'
   description:
     value: >-
-      <div><p><em>Wondrous Item, Rare (Requires
-      Attunement)</em></p></div><p>While you wear these boots, you can take a
-      Bonus Action to click the boots' heels together. If you do, the boots
-      double your Speed, and any creature that makes an Opportunity Attack
-      against you has Disadvantage on the attack roll. If you click your heels
-      together again, you end the effect.</p><p>When you've used the boots'
-      property for a total of 10 minutes, the magic ceases to function for you
-      until you finish a Long Rest.</p><section class="secret"
-      id="secret-KMziCIYbAAst6X5k"><p><strong>Foundry Note</strong></p><p>This
-      item's Limited Uses are provided to manually track the number of
-      <em>seconds</em> the item has been in use.</p></section>
+      <div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>While you wear these boots, you can take a
+      Bonus Action to click the boots' heels together. If you do, the boots double your Speed, and any creature that
+      makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together
+      again, you end the effect.</p><p>When you've used the boots' property for a total of 10 minutes, the magic ceases
+      to function for you until you finish a Long Rest.</p><section class="secret"
+      id="secret-KMziCIYbAAst6X5k"><p><strong>Foundry Note</strong></p><p>This item's Limited Uses are provided to
+      manually track the number of <em>seconds</em> the item has been in use.</p></section>
     chat: ''
   identifier: boots-of-speed
   source:
@@ -140,9 +136,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The boots double your Speed, and any creature that makes an Opportunity
-      Attack against you has Disadvantage on the attack roll. If you click your
-      heels together again, you end the effect.</p>
+      <p>The boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on
+      the attack roll. If you click your heels together again, you end the effect.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

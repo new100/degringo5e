@@ -488,9 +488,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The tiger has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on smell.</p>
+        value: <p>The tiger has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>
         chat: ''
       source:
         custom: ''
@@ -537,15 +535,12 @@ items:
     system:
       description:
         value: >-
-          <p>If the tiger moves at least 20 ft. straight toward a creature and
-          then hits it with a claw attack on the same turn, that target must
-          succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone].</p><p>If the target is prone, the panther can
-          make one bite attack against it as a bonus action.</p>
+          <p>If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the
+          same turn, that target must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone].</p><p>If
+          the target is prone, the panther can make one bite attack against it as a bonus action.</p>
         chat: >-
-          <p>If the tiger moves at least <strong>20 ft.</strong> straight toward
-          a creature and then hits it with a claw attack on the same turn, that
-          target must make a <strong>Strength</strong> saving throw.</p>
+          <p>If the tiger moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a claw
+          attack on the same turn, that target must make a <strong>Strength</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

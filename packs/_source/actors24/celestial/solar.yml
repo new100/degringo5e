@@ -568,9 +568,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] knows if it hears a
-          lie.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] knows if it hears a lie.</p>
         chat: ''
       identifier: divine-awareness
       source:
@@ -620,10 +618,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] dies outside
-          Mount Celestia, its body disappears, and it gains a new body
-          instantly, reviving with all its Hit Points somewhere in Mount
-          Celestia.</p>
+          <p class="feature">If the [[lookup @name lowercase]] dies outside Mount Celestia, its body disappears, and it
+          gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.</p>
         chat: ''
       identifier: exalted-restoration
       source:
@@ -720,9 +716,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -778,9 +772,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -866,9 +858,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item Flying Sword]]
-          attacks. It can replace one attack with a use of [[/item Slaying
-          Bow]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item Flying Sword]] attacks. It can replace one attack with a
+          use of [[/item Slaying Bow]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -993,14 +984,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=C7BMf8hIfCjxRSWC]], one [[lookup
-          @target.affects.type activity=C7BMf8hIfCjxRSWC]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=C7BMf8hIfCjxRSWC]] [[lookup @range.units
-          activity=C7BMf8hIfCjxRSWC]].</p><p><em>Failure:</em> If the [[lookup
-          @target.affects.type activity=C7BMf8hIfCjxRSWC]] has 100 Hit Points or
-          fewer, it dies. It otherwise takes [[/damage average]] damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=C7BMf8hIfCjxRSWC]],
+          one [[lookup @target.affects.type activity=C7BMf8hIfCjxRSWC]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=C7BMf8hIfCjxRSWC]] [[lookup @range.units
+          activity=C7BMf8hIfCjxRSWC]].</p><p><em>Failure:</em> If the [[lookup @target.affects.type
+          activity=C7BMf8hIfCjxRSWC]] has 100 Hit Points or fewer, it dies. It otherwise takes [[/damage average]]
+          damage.</p>
         chat: ''
       identifier: slaying-bow
       source:
@@ -1115,9 +1104,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          <em>Hit or Miss:</em> The sword magically returns to the [[lookup
-          @name lowercase]]'s hand or hovers within 5 feet of the [[lookup @name
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. <em>Hit or Miss:</em> The sword
+          magically returns to the [[lookup @name lowercase]]'s hand or hovers within 5 feet of the [[lookup @name
           lowercase]] immediately after a ranged attack.</p>
         chat: ''
       identifier: flying-sword
@@ -1461,19 +1449,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
-          and Good}</em></p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em></p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommune000]{Commune}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control
-          Weather}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]{Dispel Evil
-          and Good}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control Weather}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]{Dispel Evil and Good}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplResurrecti]{Resurrection}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1517,12 +1500,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the location of any Aberration,
-          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
-          yourself. You also sense whether the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
-          spell is active there and, if so, where.</p><p>The spell is blocked by
-          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          <p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead
+          within 30 feet of yourself. You also sense whether the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so,
+          where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
         chat: ''
       source:
@@ -1651,14 +1632,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.ovdN9mRTyXP1j08C.pOgbtXbKVGdbwjjE
+        _key: '!actors.items.effects!mmSolar000000000.ovdN9mRTyXP1j08C.pOgbtXbKVGdbwjjE'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.Anlv9PUngLgn6DN2
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.Anlv9PUngLgn6DN2
         changes:
           - key: system.properties
             mode: 2
@@ -1690,8 +1669,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.ovdN9mRTyXP1j08C.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.ovdN9mRTyXP1j08C.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4200000
     ownership:
@@ -1718,17 +1696,13 @@ items:
     system:
       description:
         value: >-
-          <p>You contact a deity or a divine proxy and ask up to three questions
-          that can be answered with yes or no. You must ask your questions
-          before the spell ends. You receive a correct answer for each
-          question.</p><p>Divine beings aren't necessarily omniscient, so you
-          might receive "unclear" as an answer if a question pertains to
-          information that lies beyond the deity's knowledge. In a case where a
-          one-word answer could be misleading or contrary to the deity's
-          interests, the DM might offer a short phrase as an answer
-          instead.</p><p>If you cast the spell more than once before finishing a
-          Long Rest, there is a cumulative 25 percent chance for each casting
-          after the first that you get no answer.</p>
+          <p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no.
+          You must ask your questions before the spell ends. You receive a correct answer for each
+          question.</p><p>Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a
+          question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer
+          could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer
+          instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25
+          percent chance for each casting after the first that you get no answer.</p>
         chat: ''
       source:
         custom: ''
@@ -1822,8 +1796,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.k7WlfnRd7KheUUd8
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.k7WlfnRd7KheUUd8
         changes:
           - key: system.properties
             mode: 2
@@ -1855,8 +1828,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.1N2neNzwvXKVcU5x.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.1N2neNzwvXKVcU5x.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 3200000
     ownership:
@@ -1880,19 +1852,15 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell, and it ends early
-          if you go indoors.</p><p>When you cast the spell, you change the
-          current weather conditions, which are determined by the DM. You can
-          change precipitation, temperature, and wind. It takes 1d4 × 10 minutes
-          for the new conditions to take effect. Once they do so, you can change
-          the conditions again. When the spell ends, the weather gradually
-          returns to normal.</p><p>When you change the weather conditions, find
-          a current condition on the following tables and change its stage by
-          one, up or down. When changing the wind, you can change its
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather
+          conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4
+          × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When
+          the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a
+          current condition on the following tables and change its stage by one, up or down. When changing the wind, you
+          can change its
           direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light
-          clouds</td></tr><tr><td>3</td><td>Overcast or ground
-          fog</td></tr><tr><td>4</td><td>Rain, hail, or
+          clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or
           snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or
           blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat
           wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate
@@ -2036,8 +2004,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.FdZpcl746SDvNxZ8
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.FdZpcl746SDvNxZ8
         changes:
           - key: system.properties
             mode: 2
@@ -2069,8 +2036,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.0lf6wzfUsp3jTIti.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.0lf6wzfUsp3jTIti.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 106250
     ownership:
@@ -2094,20 +2060,15 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead
-          have Disadvantage on attack rolls against you. You can end the spell
-          early by using either of the following special
-          functions.</p><p><strong>Break Enchantment.</strong> As a Magic
-          action, you touch a creature that is possessed by or has the
-          &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from
-          one or more creatures of the types above. The target is no longer
-          possessed, Charmed, or Frightened by such
-          creatures.</p><p><strong>Dismissal.</strong> As a Magic action, you
-          target one creature you can see within 5 feet of you that has one of
-          the creature types above. The target must succeed on a Charisma saving
-          throw or be sent back to its home plane if it isn't there already. If
-          they aren't on their home plane, Undead are sent to the Shadowfell,
-          and Fey are sent to the Feywild.</p>
+          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against
+          you. You can end the spell early by using either of the following special functions.</p><p><strong>Break
+          Enchantment.</strong> As a Magic action, you touch a creature that is possessed by or has the
+          &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from one or more creatures of the types above.
+          The target is no longer possessed, Charmed, or Frightened by such creatures.</p><p><strong>Dismissal.</strong>
+          As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types
+          above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there
+          already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the
+          Feywild.</p>
         chat: ''
       source:
         custom: ''
@@ -2316,10 +2277,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead
-          have Disadvantage on attack rolls against you. You can end the spell
-          early by using either of the following special functions:
-          <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>
+          <p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against
+          you. You can end the spell early by using either of the following special functions: <strong>Break
+          Enchantment</strong> or <strong>Dismissal</strong>.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2334,14 +2294,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.kiSJTCgeflbQIcAL.RMeb9TUrFdhXMTzz
+        _key: '!actors.items.effects!mmSolar000000000.kiSJTCgeflbQIcAL.RMeb9TUrFdhXMTzz'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.BvF04mqoKYqxiifz
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.BvF04mqoKYqxiifz
         changes:
           - key: system.properties
             mode: 2
@@ -2373,8 +2331,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.kiSJTCgeflbQIcAL.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.kiSJTCgeflbQIcAL.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2300000
     ownership:
@@ -2401,17 +2358,13 @@ items:
     system:
       description:
         value: >-
-          <p>With a touch, you revive a dead creature that has been dead for no
-          more than a century, didn't die of old age, and wasn't Undead when it
-          died.</p><p>The creature returns to life with all its Hit Points. This
-          spell also neutralizes any poisons that affected the creature at the
-          time of death. This spell closes all mortal wounds and restores any
-          missing body parts.</p><p>Coming back from the dead is an ordeal. The
-          target takes a −4 penalty to D20 Tests. Every time the target finishes
-          a Long Rest, the penalty is reduced by 1 until it becomes
-          0.</p><p>Casting this spell to revive a creature that has been dead
-          for 365 days or longer taxes you. Until you finish a Long Rest, you
-          can't cast spells again, and you have Disadvantage on D20 Tests.</p>
+          <p>With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old
+          age, and wasn't Undead when it died.</p><p>The creature returns to life with all its Hit Points. This spell
+          also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal
+          wounds and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. The target takes a
+          −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it
+          becomes 0.</p><p>Casting this spell to revive a creature that has been dead for 365 days or longer taxes you.
+          Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.</p>
         chat: ''
       source:
         custom: ''
@@ -2594,9 +2547,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: Compendium.degringo5e.spells24.Item.phbsplResurrecti
         tint: '#ffffff'
         transfer: false
@@ -2604,8 +2556,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2614,8 +2565,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.yC37XvN0jzIDyHTr
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.yC37XvN0jzIDyHTr'
       - name: Resurrection Sickness (Day 2)
         img: icons/svg/stoned.svg
         type: base
@@ -2659,9 +2609,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: Compendium.degringo5e.spells24.Item.phbsplResurrecti
         tint: '#ffffff'
         transfer: false
@@ -2669,8 +2618,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2680,8 +2628,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: NvAysJa5PCR83GRb
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.NvAysJa5PCR83GRb
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.NvAysJa5PCR83GRb'
       - name: Resurrection Sickness (Day 3)
         img: icons/svg/stoned.svg
         type: base
@@ -2725,9 +2672,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: Compendium.degringo5e.spells24.Item.phbsplResurrecti
         tint: '#ffffff'
         transfer: false
@@ -2735,8 +2681,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2746,8 +2691,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: PO5KOrBEorm2xGGz
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.PO5KOrBEorm2xGGz
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.PO5KOrBEorm2xGGz'
       - name: Resurrection Sickness (Day 4)
         img: icons/svg/stoned.svg
         type: base
@@ -2791,9 +2735,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Coming back from the dead is an ordeal. The target takes a −4
-          penalty to D20 Tests. Every time the target finishes a Long Rest, the
-          penalty is reduced by 1 until it becomes 0.</p>
+          <p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target
+          finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>
         origin: Compendium.degringo5e.spells24.Item.phbsplResurrecti
         tint: '#ffffff'
         transfer: false
@@ -2801,8 +2744,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplRaiseDead0.ActiveEffect.etY0sDrXe6DcFEzc
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2812,8 +2754,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: xHPAupRPOI8N2VkA
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.xHPAupRPOI8N2VkA
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.xHPAupRPOI8N2VkA'
       - name: Spell Taxed
         img: systems/degringo5e/icons/svg/break-concentration.svg
         origin: Compendium.degringo5e.spells24.Item.phbsplResurrecti
@@ -2831,9 +2772,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>Until you finish a Long Rest, you can’t cast spells again, and you
-          have Disadvantage on D20 Tests.</p>
+        description: <p>Until you finish a Long Rest, you can’t cast spells again, and you have Disadvantage on D20 Tests.</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -2848,14 +2787,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.gkSKFjp3O7UrdJ2i
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.gkSKFjp3O7UrdJ2i'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.7MrXsJczDg3LL16q
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.mmSpellcasting00.Activity.7MrXsJczDg3LL16q
         changes:
           - key: system.properties
             mode: 2
@@ -2887,8 +2824,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.CqPrcjjGFXcwb6lK.dnd5espellchange'
     folder: EdAGMG8IF26PLkD3
     sort: 700000
     ownership:
@@ -2976,14 +2912,11 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=B6xM8C2pABIb5o7y]], one creature the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=B6xM8C2pABIb5o7y]] feet.</p><p><em>Failure:</em> The target
-          has the &amp;Reference[Blinded apply=false] condition for 1
-          minute.</p><p><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=B6xM8C2pABIb5o7y]], one creature
+          the [[lookup @name lowercase]] can see within [[lookup @range.value activity=B6xM8C2pABIb5o7y]]
+          feet.</p><p><em>Failure:</em> The target has the &amp;Reference[Blinded apply=false] condition for 1
+          minute.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: blinding-gaze
       source:
@@ -3036,8 +2969,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.mmBlindingGaze00.F9aWhTVh3huuys3p
+        _key: '!actors.items.effects!mmSolar000000000.mmBlindingGaze00.F9aWhTVh3huuys3p'
     flags:
       degringo5e:
         riders:
@@ -3134,14 +3066,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] teleports up to
-          [[lookup @range.value activity=HtsFBK1PYKjvy9mn]] feet to an
-          unoccupied space it can see.</p><p class="feature"><em>Dexterity
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=HtsFBK1PYKjvy9mn]], each creature in a [[lookup
-          @target.template.size activity=HtsFBK1PYKjvy9mn]]-foot Emanation
-          originating from the [[lookup @name lowercase]] at its destination
-          space.</p><p class="feature"><em>Failure:</em> [[/damage average]]
+          <p class="feature">The [[lookup @name lowercase]] teleports up to [[lookup @range.value
+          activity=HtsFBK1PYKjvy9mn]] feet to an unoccupied space it can see.</p><p class="feature"><em>Dexterity Saving
+          Throw:</em> DC [[lookup @save.dc.value activity=HtsFBK1PYKjvy9mn]], each creature in a [[lookup
+          @target.template.size activity=HtsFBK1PYKjvy9mn]]-foot Emanation originating from the [[lookup @name
+          lowercase]] at its destination space.</p><p class="feature"><em>Failure:</em> [[/damage average]]
           damage.</p><p class="feature"><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: radiant-teleport
@@ -3343,12 +3272,10 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
-          Wounds}</em> (level 2 version),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
-          Restoration}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>, using the same spellcasting ability as Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds}</em> (level 2 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>, using the same
+          spellcasting ability as Spellcasting.</p>
         chat: ''
       identifier: divine-aid
       source:
@@ -3393,10 +3320,9 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch regains a number of Hit Points equal to 2d8
-          plus your spellcasting ability modifier.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> The healing increases by 2d8 for
-          each spell slot level above 1.</p>
+          <p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability
+          modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell
+          slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -3497,8 +3423,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.p4mjyjQC8UT8gB3Y
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.p4mjyjQC8UT8gB3Y
         changes:
           - key: system.properties
             mode: 2
@@ -3530,8 +3455,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.lNdiEuYQ2WarE6UR.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.lNdiEuYQ2WarE6UR.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4300000
     ownership:
@@ -3555,8 +3479,7 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and end one condition on it:
-          &amp;Reference[blinded], &amp;Reference[deafened],
+          <p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened],
           &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>
         chat: ''
       source:
@@ -3647,8 +3570,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.kdftfWVcBKDboZFR
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.kdftfWVcBKDboZFR
         changes:
           - key: system.properties
             mode: 2
@@ -3680,8 +3602,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.Fmei7YO1waLBqeSJ.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.Fmei7YO1waLBqeSJ.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2500000
     ownership:
@@ -3705,9 +3626,8 @@ items:
     system:
       description:
         value: >-
-          <p>At your touch, all curses affecting one creature or object end. If
-          the object is a cursed magic item, its curse remains, but the spell
-          breaks its owner's Attunement to the object so it can be removed or
+          <p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its
+          curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or
           discarded.</p>
         chat: ''
       source:
@@ -3803,8 +3723,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.flebrKFGQBiVbl7Z
+        origin: Compendium.degringo5e.actors24.Actor.mmSolar000000000.Item.jb9GlwVmpAclDUSd.Activity.flebrKFGQBiVbl7Z
         changes:
           - key: system.properties
             mode: 2
@@ -3836,8 +3755,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSolar000000000.UBpYC2J5kdms3616.dnd5espellchange
+        _key: '!actors.items.effects!mmSolar000000000.UBpYC2J5kdms3616.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 300000
     ownership:

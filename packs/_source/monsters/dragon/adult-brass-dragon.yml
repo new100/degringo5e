@@ -920,18 +920,15 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of the dragon's choice that is within 120 feet of the
-          dragon and aware of it must succeed on a [[/save]] saving throw or
-          become &amp;Reference[frightened] for 1 minute.</p><p>A creature can
-          repeat the saving throw at the end of each of its turns, ending the
-          effect on itself on a success. If a creature's saving throw is
-          successful or the effect ends for it, the creature is immune to the
-          dragon's Frightful Presence for the next 24 hours.</p>
+          <p>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on
+          a [[/save]] saving throw or become &amp;Reference[frightened] for 1 minute.</p><p>A creature can repeat the
+          saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving
+          throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for
+          the next 24 hours.</p>
         chat: >-
-          <p>Each creature of the dragon's choice that is <strong>within 120
-          feet</strong> of the dragon and aware of it must succeed on a Wisdom
-          saving throw. A creature can repeat the saving throw at the end of
-          each of its turns.</p>
+          <p>Each creature of the dragon's choice that is <strong>within 120 feet</strong> of the dragon and aware of it
+          must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its
+          turns.</p>
       source:
         custom: ''
         book: ''
@@ -1086,9 +1083,7 @@ items:
     img: icons/equipment/shield/kite-wooden-oak-glow.webp
     system:
       description:
-        value: >-
-          <p>If the dragon fails a saving throw, it can choose to succeed
-          instead.</p>
+        value: <p>If the dragon fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       source:
         custom: ''
@@ -1195,10 +1190,8 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon can use its [[/item .cVkEgorVxYQJkS8M]]{Frightful
-          Presence}. It then makes three attacks: one with its [[/item
-          .Rr34cx78OgioMSHH]]{bite} and two with its [[/item
-          .Gx6DVWF7D9lzZjse]]{claws}.</p>
+          <p>The dragon can use its [[/item .cVkEgorVxYQJkS8M]]{Frightful Presence}. It then makes three attacks: one
+          with its [[/item .Rr34cx78OgioMSHH]]{bite} and two with its [[/item .Gx6DVWF7D9lzZjse]]{claws}.</p>
         chat: ''
       source:
         custom: ''
@@ -1806,18 +1799,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales fire
-          in an 60-foot line that is 5 feet wide. Each creature in that line
-          must make a [[/save activity=1sMTs1dMXloeFhPm]] saving throw, taking
-          [[/damage average activity=1sMTs1dMXloeFhPm]] damage on a failed save,
-          or half as much damage on a successful one.</p><p><strong>Sleep
-          Breath.</strong> The dragon exhales sleep gas in a 60-foot cone. Each
-          creature in that area must succeed on a [[/save
-          activity=FogutuTRCMsfoCAT]] saving throw or fall
-          &amp;Reference[unconscious] for 10 minutes. This effect ends for a
-          creature if the creature takes damage or someone uses an action to
-          wake it.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales
+          fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a [[/save
+          activity=1sMTs1dMXloeFhPm]] saving throw, taking [[/damage average activity=1sMTs1dMXloeFhPm]] damage on a
+          failed save, or half as much damage on a successful one.</p><p><strong>Sleep Breath.</strong> The dragon
+          exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a [[/save
+          activity=FogutuTRCMsfoCAT]] saving throw or fall &amp;Reference[unconscious] for 10 minutes. This effect ends
+          for a creature if the creature takes damage or someone uses an action to wake it.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''

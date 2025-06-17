@@ -569,9 +569,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -656,9 +654,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmBite0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmBite0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -921,14 +917,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC 12, one
-          creature the pseudodragon can see within 5 feet.</p><p
-          class="feature"><em>Failure:</em> 5 (2d4) Poison damage, and the
-          target has the Poisoned condition for 1 hour.</p><p
-          class="feature"><em>Failure by 5 or More:</em> While Poisoned, the
-          target also has the Unconscious condition, which ends early if the
-          target takes damage or a creature within 5 feet of it takes an action
-          to wake it.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC 12, one creature the pseudodragon can see within 5
+          feet.</p><p class="feature"><em>Failure:</em> 5 (2d4) Poison damage, and the target has the Poisoned condition
+          for 1 hour.</p><p class="feature"><em>Failure by 5 or More:</em> While Poisoned, the target also has the
+          Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an
+          action to wake it.</p>
         chat: ''
       identifier: sting
       source:
@@ -1002,9 +995,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          for 1 hour.</p>
+        description: <p>The target has the &amp;Reference[Poisoned apply=false] condition for 1 hour.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1021,8 +1012,7 @@ items:
           modifiedTime: 1738026045000
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPseudodragon00.mmSting000000000.q8stMoNP0ENULsOn
+        _key: '!actors.items.effects!mmPseudodragon00.mmSting000000000.q8stMoNP0ENULsOn'
       - name: Poisoned (Failure 5+)
         img: systems/degringo5e/icons/svg/statuses/poisoned.svg
         origin: Compendium.degringo5e.actors24.Actor.mmPseudodragon00.Item.mmSting000000000
@@ -1039,11 +1029,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          for 1 hour.</p><p>The Poisoned target also has the
-          &amp;Reference[Unconscious apply=false] condition until it takes
-          damage or a creature within 5 feet of it takes an action to shake it
-          awake.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition for 1 hour.</p><p>The Poisoned target
+          also has the &amp;Reference[Unconscious apply=false] condition until it takes damage or a creature within 5
+          feet of it takes an action to shake it awake.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1061,8 +1049,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: APsIjs4hdK74IfTv
-        _key: >-
-          !actors.items.effects!mmPseudodragon00.mmSting000000000.APsIjs4hdK74IfTv
+        _key: '!actors.items.effects!mmPseudodragon00.mmSting000000000.APsIjs4hdK74IfTv'
     flags:
       degringo5e:
         riders:

@@ -604,9 +604,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmTail0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmTail0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -712,10 +710,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a {size} or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition. If the target is a Huge or smaller creature,
-          it has the &amp;Reference[Prone apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a {size} or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition. If the target is a Huge or smaller creature, it has the
+          &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: tail
       source:
@@ -812,8 +809,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAnkylosaurus00.mmTail0000000000.uAvQlHXKSwnCjRtt
+        _key: '!actors.items.effects!mmAnkylosaurus00.mmTail0000000000.uAvQlHXKSwnCjRtt'
     flags:
       degringo5e:
         riders:

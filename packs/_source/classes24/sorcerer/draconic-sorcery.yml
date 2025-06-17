@@ -6,12 +6,10 @@ img: systems/degringo5e/icons/classes/draconic.webp
 system:
   description:
     value: >-
-      <blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate
-      magic comes from the gift of a dragon. Perhaps an ancient dragon facing
-      death bequeathed some of its magical power to you or your ancestor. You
-      might have absorbed magic from a site infused with dragons' power. Or
-      perhaps you handled a treasure taken from a dragon's hoard that was
-      steeped in draconic power. Or you might have a dragon for an ancestor.</p>
+      <blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon.
+      Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might
+      have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a
+      dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>
     chat: ''
   source:
     custom: ''
@@ -92,8 +90,8 @@ system:
       level: 3
       title: Draconic Spells
       hint: >-
-        When you reach a Sorcerer level specified in the Draconic Spells table,
-        you thereafter always have the listed spells prepared.
+        When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed
+        spells prepared.
     - _id: VLhcXqbjyXnCbXTP
       type: ItemGrant
       configuration:
@@ -114,8 +112,8 @@ system:
       level: 5
       title: Draconic Spells
       hint: >-
-        When you reach a Sorcerer level specified in the Draconic Spells table,
-        you thereafter always have the listed spells prepared.
+        When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed
+        spells prepared.
     - _id: nQwB2GYHgvg5IRhf
       type: ItemGrant
       configuration:
@@ -136,8 +134,8 @@ system:
       level: 7
       title: Draconic Spells
       hint: >-
-        When you reach a Sorcerer level specified in the Draconic Spells table,
-        you thereafter always have the listed spells prepared.
+        When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed
+        spells prepared.
     - _id: zKCculAFWxVPXhnA
       type: ItemGrant
       configuration:
@@ -158,8 +156,8 @@ system:
       level: 9
       title: Draconic Spells
       hint: >-
-        When you reach a Sorcerer level specified in the Draconic Spells table,
-        you thereafter always have the listed spells prepared.
+        When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed
+        spells prepared.
     - _id: 8UnvG3X4TR3MpCGe
       type: Trait
       configuration:
@@ -179,9 +177,8 @@ system:
       level: 6
       title: ''
       hint: >-
-        Your draconic magic has an affinity with a damage type associated with
-        dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or
-        Poison.
+        Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid,
+        Cold, Fire, Lightning, or Poison.
                         
                         You have Resistance to that damage type.
   spellcasting:

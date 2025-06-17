@@ -67,10 +67,9 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Rare</em></p><p>This potion's container looks empty but
-      feels as though it holds liquid. When you drink the potion, you have the
-      &amp;Reference[Invisible apply=false] condition for 1 hour. The effect
-      ends early if you make an attack roll, deal damage, or cast a spell.</p>
+      <p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you
+      drink the potion, you have the &amp;Reference[Invisible apply=false] condition for 1 hour. The effect ends early
+      if you make an attack roll, deal damage, or cast a spell.</p>
     chat: ''
   identifier: potion-of-invisibility
   source:
@@ -134,8 +133,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgPotionOfGrowt.ActiveEffect.2SfkO4POfhLZ8oYt
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgPotionOfGrowt.ActiveEffect.2SfkO4POfhLZ8oYt
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

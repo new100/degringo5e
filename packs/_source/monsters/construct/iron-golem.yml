@@ -503,9 +503,8 @@ items:
     system:
       description:
         value: >-
-          <p>Whenever the golem is subjected to fire damage, it takes no damage
-          and instead regains a number of hit points equal to the fire damage
-          dealt.</p>
+          <p>Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit
+          points equal to the fire damage dealt.</p>
         chat: ''
       source:
         custom: ''
@@ -551,9 +550,7 @@ items:
     img: icons/magic/unholy/orb-beam-pink.webp
     system:
       description:
-        value: >-
-          <p>The golem is immune to any spell or effect that would alter its
-          form.</p>
+        value: <p>The golem is immune to any spell or effect that would alter its form.</p>
         chat: ''
       source:
         custom: ''
@@ -599,9 +596,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The golem has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The golem has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -1120,13 +1115,11 @@ items:
     system:
       description:
         value: >-
-          <p>The golem exhales poisonous gas in a 15-foot cone. Each creature in
-          that area must make a [[/save]] saving throw, taking [[/damage
-          average]] damage on a failed save, or half as much damage on a
-          successful one.</p>
+          <p>The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a [[/save]] saving
+          throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The golem exhales poisonous gas in a 15-foot cone. Each creature in
-          that area must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

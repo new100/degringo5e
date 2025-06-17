@@ -2,14 +2,12 @@ name: Herbalism Kit
 system:
   description:
     value: >-
-      <p class="phb-meta"><strong>Ability:</strong> Intelligence</p><p
-      class="phb-meta"><strong>Utilize:</strong> Identify a plant (DC 10)</p><p
-      class="phb-meta"><strong>Craft:</strong>
+      <p class="phb-meta"><strong>Ability:</strong> Intelligence</p><p class="phb-meta"><strong>Utilize:</strong>
+      Identify a plant (DC 10)</p><p class="phb-meta"><strong>Craft:</strong>
       @UUID[Compendium.degringo5e.equipment24.Item.phbagAntitoxin00]{Antitoxin},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagCandle00000]{Candle},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagHealersKit0]{Healer's Kit},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagPotionofHea]{Potion of
-      Healing}</p>
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPotionofHea]{Potion of Healing}</p>
     chat: ''
   source:
     custom: ''

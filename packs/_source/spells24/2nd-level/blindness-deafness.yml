@@ -2,13 +2,11 @@ name: Blindness/Deafness
 system:
   description:
     value: >-
-      <p>One creature that you can see within range must succeed on a
-      Constitution saving throw, or it has the &amp;Reference[Blinded
-      apply=false] or &amp;Reference[Deafened apply=false] condition (your
-      choice) for the duration. At the end of each of its turns, the target
-      repeats the save, ending the spell on itself on a
-      success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-      target one additional creature for each spell slot level above 2.</p>
+      <p>One creature that you can see within range must succeed on a Constitution saving throw, or it has the
+      &amp;Reference[Blinded apply=false] or &amp;Reference[Deafened apply=false] condition (your choice) for the
+      duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a
+      success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+      spell slot level above 2.</p>
     chat: ''
   source:
     custom: ''
@@ -120,8 +118,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>At the end of each of its turns, the target repeats the [[/save
-      ability=con]] save, ending the spell on itself on a success.</p>
+      <p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself
+      on a success.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
@@ -155,8 +153,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>At the end of each of its turns, the target repeats the [[/save
-      ability=con]] save, ending the spell on itself on a success.</p>
+      <p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself
+      on a success.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

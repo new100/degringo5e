@@ -618,9 +618,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: needle-sword
       source:
@@ -780,9 +778,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target has the &amp;Reference[Charmed apply=false] condition
-          until the start of the [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target has the
+          &amp;Reference[Charmed apply=false] condition until the start of the [[lookup @name lowercase]]'s next
+          turn.</p>
         chat: ''
       identifier: enchanting-bow
       source:
@@ -862,8 +860,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Charmed apply=false] condition
-          until the start of the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the attacking
+          creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -880,8 +878,7 @@ items:
           modifiedTime: 1737747220770
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSprite00000000.mmEnchantingBow0.Z32WWCg4waNTB1wp
+        _key: '!actors.items.effects!mmSprite00000000.mmEnchantingBow0.Z32WWCg4waNTB1wp'
     flags:
       degringo5e:
         riders:
@@ -967,14 +964,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Charisma Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=NqVrZShDV1L3zBA3]], one [[lookup
-          @target.affects.type activity=NqVrZShDV1L3zBA3]] within [[lookup
-          @range.value activity=NqVrZShDV1L3zBA3]] <span
-          style="font-family:'Roboto Condensed', sans-serif">feet </span>the
-          [[lookup @name lowercase]] can see (Celestials, Fiends, and Undead
-          automatically fail the save).</p><p class="feature"><em>Failure:</em>
-          The [[lookup @name lowercase]] knows the target's emotions and
+          <p class="feature"><em>Charisma Saving Throw:</em> DC [[lookup @save.dc.value activity=NqVrZShDV1L3zBA3]], one
+          [[lookup @target.affects.type activity=NqVrZShDV1L3zBA3]] within [[lookup @range.value
+          activity=NqVrZShDV1L3zBA3]] <span style="font-family:'Roboto Condensed', sans-serif">feet </span>the [[lookup
+          @name lowercase]] can see (Celestials, Fiends, and Undead automatically fail the save).</p><p
+          class="feature"><em>Failure:</em> The [[lookup @name lowercase]] knows the target's emotions and
           alignment.</p>
         chat: ''
       identifier: heart-sight
@@ -1076,9 +1070,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
-          on itself, requiring no spell components and using Charisma as the
-          spellcasting ability.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no
+          spell components and using Charisma as the spellcasting ability.</p>
         chat: ''
       identifier: invisibility
       source:
@@ -1121,11 +1114,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1234,9 +1226,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1252,14 +1242,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSprite00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
+        origin: Compendium.degringo5e.actors24.Actor.mmSprite00000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
         changes:
           - key: system.ability
             mode: 5
@@ -1303,8 +1291,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.dnd5espellchange
+        _key: '!actors.items.effects!mmSprite00000000.FAek73jM5CyQOO60.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:

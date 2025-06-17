@@ -2,18 +2,14 @@ name: Contagion
 system:
   description:
     value: >-
-      <p>Your touch inflicts a magical contagion. The target must succeed on a
-      Constitution saving throw or take 11d8 Necrotic damage and have the
-      &amp;Reference[Poisoned apply=false] condition. Also, choose one ability
-      when you cast the spell. While Poisoned, the target has Disadvantage on
-      saving throws made with the chosen ability.</p><p>The target must repeat
-      the saving throw at the end of each of its turns until it gets three
-      successes or failures. If the target succeeds on three of these saves, the
-      spell ends on the target. If the target fails three of the saves, the
-      spell lasts for 7 days on it.</p><p>Whenever the Poisoned target receives
-      an effect that would end the Poisoned condition, the target must succeed
-      on a [[/save ability=con dc=@attributes.spell.dc format=long]], or the
-      Poisoned condition doesn't end on it.</p>
+      <p>Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8
+      Necrotic damage and have the &amp;Reference[Poisoned apply=false] condition. Also, choose one ability when you
+      cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen
+      ability.</p><p>The target must repeat the saving throw at the end of each of its turns until it gets three
+      successes or failures. If the target succeeds on three of these saves, the spell ends on the target. If the target
+      fails three of the saves, the spell lasts for 7 days on it.</p><p>Whenever the Poisoned target receives an effect
+      that would end the Poisoned condition, the target must succeed on a [[/save ability=con dc=@attributes.spell.dc
+      format=long]], or the Poisoned condition doesn't end on it.</p>
     chat: ''
   source:
     custom: ''
@@ -146,15 +142,11 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
@@ -188,23 +180,18 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
       - poisoned
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -232,23 +219,18 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
       - poisoned
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -276,23 +258,18 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
       - poisoned
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -320,23 +297,18 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
       - poisoned
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -364,23 +336,18 @@ effects:
     system: {}
     changes: []
     description: >-
-      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has
-      Disadvantage on saving throws made with the chosen
-      ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The
-      target must repeat the [[/save ability=con format=long]] at the end of
-      each of its turns until it gets three successes or
-      failures.</span></p></li><li><p>Whenever the target receives an effect
-      that would end the Poisoned condition, the target must succeed on a
-      [[/save ability=con format=long]], or the condition doesn’t end on
-      it.</p></li></ul>
+      <ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the
+      chosen ability.</p></li><li><p><span style="font-family:Signika, sans-serif">The target must repeat the [[/save
+      ability=con format=long]] at the end of each of its turns until it gets three successes or
+      failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the
+      target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>
     tint: '#ffffff'
     transfer: false
     statuses:
       - poisoned
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplContagion0.ActiveEffect.S8jxTZQbT8KKSg5V
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

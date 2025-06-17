@@ -5,18 +5,14 @@ img: icons/skills/melee/strike-axe-blood-red.webp
 system:
   description:
     value: >-
-      <p>You have honed new ways to attack furiously. The following effects are
-      now among your Brutal Strike options.</p><p><strong>Staggering
-      Blow.</strong> The target has Disadvantage on the next saving throw it
-      makes, and it can't make Opportunity Attacks until the start of your next
-      turn.</p><p><strong>Sundering Blow.</strong> Before the start of your next
-      turn, the next attack roll made by another creature against the target
-      gains a +5 bonus to the roll. An attack roll can gain only one Sundering
-      Blow bonus.</p><section class="secret"
-      id="secret-5KFPx8fyh5NldmJp"><p><strong>Foundry Note</strong></p><p>This
-      feature includes an activity for each option which includes an Active
-      Effect for tracking the Staggering and Sundering Blows but does not
-      automate their effects.</p></section>
+      <p>You have honed new ways to attack furiously. The following effects are now among your Brutal Strike
+      options.</p><p><strong>Staggering Blow.</strong> The target has Disadvantage on the next saving throw it makes,
+      and it can't make Opportunity Attacks until the start of your next turn.</p><p><strong>Sundering Blow.</strong>
+      Before the start of your next turn, the next attack roll made by another creature against the target gains a +5
+      bonus to the roll. An attack roll can gain only one Sundering Blow bonus.</p><section class="secret"
+      id="secret-5KFPx8fyh5NldmJp"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each
+      option which includes an Active Effect for tracking the Staggering and Sundering Blows but does not automate their
+      effects.</p></section>
     chat: ''
   source:
     custom: ''
@@ -156,9 +152,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>Hit by a staggering blow, this character has Disadvantage on the next
-      Saving Throw it makes, and it can't make Opportunity Attacks until the
-      start of the attacker's next turn.</p>
+      <p>Hit by a staggering blow, this character has Disadvantage on the next Saving Throw it makes, and it can't make
+      Opportunity Attacks until the start of the attacker's next turn.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []
@@ -192,8 +187,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>Hit by a sundering blow, the next attack roll made by another creature
-      against the target gains a +5 bonus to the roll.</p>
+      <p>Hit by a sundering blow, the next attack roll made by another creature against the target gains a +5 bonus to
+      the roll.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

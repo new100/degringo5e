@@ -570,10 +570,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies, it returns to life in [[/r
-          1d6#Days]] days and regains all its Hit Points unless
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]</em> is
-          cast on its remains.</p>
+          <p>If the [[lookup @name lowercase]] dies, it returns to life in [[/r 1d6#Days]] days and regains all its Hit
+          Points unless <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelEvil]</em> is cast on its remains.</p>
         chat: ''
       identifier: celestial-restoration
       source:
@@ -659,8 +657,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item Bite]] attacks. It
-          can replace any attack with a use of [[/item Poisonous Spittle]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item Bite]] attacks. It can replace any attack with a use of
+          [[/item Poisonous Spittle]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -936,13 +934,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=r4plP8QiJxzFZZO7]], [[lookup
-          @target.affects.labels.statblock activity=r4plP8QiJxzFZZO7]] the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=r4plP8QiJxzFZZO7]] feet.</p><p><em>Failure:</em> 31 (7d8)
-          Poison damage, and the target has the &amp;Reference[Blinded
-          apply=false] condition until the start of the [[lookup @name
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4plP8QiJxzFZZO7]],
+          [[lookup @target.affects.labels.statblock activity=r4plP8QiJxzFZZO7]] the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=r4plP8QiJxzFZZO7]] feet.</p><p><em>Failure:</em> 31 (7d8) Poison damage,
+          and the target has the &amp;Reference[Blinded apply=false] condition until the start of the [[lookup @name
           lowercase]]'s next turn.</p><p><em>Success:</em> Half damage only.</p>
         chat: ''
       identifier: poisonous-spittle
@@ -980,8 +975,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Blinded apply=false] condition
-          until the start of the attacking creature ’s next turn.</p>
+          <p>The target has the &amp;Reference[Blinded apply=false] condition until the start of the attacking creature
+          ’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1007,8 +1002,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.mmPoisonousSpitt.q1VTMWxbLg5ZnQ9W
+        _key: '!actors.items.effects!mmGuardianNaga00.mmPoisonousSpitt.q1VTMWxbLg5ZnQ9W'
     flags:
       degringo5e:
         riders:
@@ -1343,21 +1337,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Somatic or Material components and
-          using Wisdom as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Somatic or
+          Material components and using Wisdom as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplClairvoyan]{Clairvoyance}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure
-          Wounds}</em> (level 6 version),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFlameStrik]{Flame
-          Strike}</em> (level 6 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCureWounds]{Cure Wounds}</em> (level 6 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFlameStrik]{Flame Strike}</em> (level 6 version),
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGeas000000]{Geas}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueSeeing]{True
-          Seeing}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplTrueSeeing]{True Seeing}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1400,21 +1389,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -1507,8 +1491,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.M9EIrjdXmubaCeE4
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.M9EIrjdXmubaCeE4
         changes:
           - key: system.properties
             mode: 2
@@ -1544,8 +1527,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.tl4x0ljxQrhkPLa5.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.tl4x0ljxQrhkPLa5.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -1572,17 +1554,13 @@ items:
     system:
       description:
         value: >-
-          <p>You create an Invisible sensor within range in a location familiar
-          to you (a place you have visited or seen before) or in an obvious
-          location that is unfamiliar to you (such as behind a door, around a
-          corner, or in a grove of trees). The intangible, invulnerable sensor
-          remains in place for the duration.</p><p>When you cast the spell,
-          choose seeing or hearing. You can use the chosen sense through the
-          sensor as if you were in its space. As a Bonus Action, you can switch
-          between seeing and hearing.</p><p>A creature that sees the sensor
-          (such as a creature benefiting from <em>See Invisibility</em> or
-          &amp;Reference[truesight]) sees a luminous orb about the size of your
-          fist.</p>
+          <p>You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen
+          before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a
+          grove of trees). The intangible, invulnerable sensor remains in place for the duration.</p><p>When you cast
+          the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its
+          space. As a Bonus Action, you can switch between seeing and hearing.</p><p>A creature that sees the sensor
+          (such as a creature benefiting from <em>See Invisibility</em> or &amp;Reference[truesight]) sees a luminous
+          orb about the size of your fist.</p>
         chat: ''
       source:
         custom: ''
@@ -1623,9 +1601,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 100+ GP, either a jeweled horn for hearing or a glass
-          eye for seeing
+        value: a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing
         consumed: false
         cost: 0
         supply: 0
@@ -1701,8 +1677,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.wTA8s6qU53snS3Vc
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.wTA8s6qU53snS3Vc
         changes:
           - key: system.properties
             mode: 2
@@ -1738,8 +1713,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.csHsn5CL1CeoIsYg.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.csHsn5CL1CeoIsYg.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 3200000
     ownership:
@@ -1763,10 +1737,9 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch regains a number of Hit Points equal to 2d8
-          plus your spellcasting ability modifier.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> The healing increases by 2d8 for
-          each spell slot level above 1.</p>
+          <p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability
+          modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell
+          slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1867,8 +1840,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.vjc33jF2khedRZkL
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.vjc33jF2khedRZkL
         changes:
           - key: system.properties
             mode: 2
@@ -1904,8 +1876,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.cB9iefrmlnj9t8Gi.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.cB9iefrmlnj9t8Gi.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4300000
     ownership:
@@ -1929,13 +1900,11 @@ items:
     system:
       description:
         value: >-
-          <p>A vertical column of brilliant fire roars down from above. Each
-          creature in a 10-foot-radius, 40-foot-high Cylinder centered on a
-          point within range makes a Dexterity saving throw, taking 5d6 Fire
-          damage and 5d6 Radiant damage on a failed save or half as much damage
-          on a successful one.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The Fire damage and the Radiant damage increase by 1d6
-          for each spell slot level above 5.</p>
+          <p>A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high
+          Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6
+          Radiant damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above
+          5.</p>
         chat: ''
       source:
         custom: ''
@@ -2061,8 +2030,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.hdHL9iKsLO6w3PZt
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.hdHL9iKsLO6w3PZt
         changes:
           - key: system.properties
             mode: 2
@@ -2098,8 +2066,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.gkoOKec6rytj6Z7Y.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.gkoOKec6rytj6Z7Y.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2000000
     ownership:
@@ -2126,26 +2093,19 @@ items:
     system:
       description:
         value: >-
-          <p>You give a verbal command to a creature that you can see within
-          range, ordering it to carry out some service or refrain from an action
-          or a course of activity as you decide. The target must succeed on a
-          Wisdom saving throw or have the &amp;Reference[Charmed apply=false]
-          condition for the duration. The target automatically succeeds if it
-          can't understand your command.</p><p>While Charmed, the creature takes
-          [[/damage 5d10 type=psychic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p><p>You can issue any command you choose, short of an activity
-          that would result in certain death. Should you issue a suicidal
-          command, the spell ends.</p><p>A
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-          Restoration}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-          spell ends this spell.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> If you use a level 7 or 8 spell slot, the duration is
-          365 days. If you use a level 9 spell slot, the spell lasts until it is
-          ended by one of the spells mentioned above.</p>
+          <p>You give a verbal command to a creature that you can see within range, ordering it to carry out some
+          service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom
+          saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target
+          automatically succeeds if it can't understand your command.</p><p>While Charmed, the creature takes [[/damage
+          5d10 type=psychic]] damage if it acts in a manner directly counter to your command. It takes this damage no
+          more than once each day.</p><p>You can issue any command you choose, short of an activity that would result in
+          certain death. Should you issue a suicidal command, the spell ends.</p><p>A
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell ends this
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 7 or 8 spell slot, the
+          duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells
+          mentioned above.</p>
         chat: ''
       source:
         custom: ''
@@ -2271,10 +2231,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>While &amp;Reference[Charmed apply=false], the creature takes
-          [[/damage 5d10 type=psyhic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p>
+          <p>While &amp;Reference[Charmed apply=false], the creature takes [[/damage 5d10 type=psyhic]] damage if it
+          acts in a manner directly counter to your command. It takes this damage no more than once each day.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2290,14 +2248,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.Kl2qli45InLejqV3.TXwfzpj9bERo0X1r
+        _key: '!actors.items.effects!mmGuardianNaga00.Kl2qli45InLejqV3.TXwfzpj9bERo0X1r'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.OY1v1jqQQPzRcY2C
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.OY1v1jqQQPzRcY2C
         changes:
           - key: system.properties
             mode: 2
@@ -2333,8 +2289,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.Kl2qli45InLejqV3.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.Kl2qli45InLejqV3.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1900000
     ownership:
@@ -2360,9 +2315,7 @@ items:
   - name: True Seeing
     system:
       description:
-        value: >-
-          <p>For the duration, the willing creature you touch has Truesight with
-          a range of 120 feet.</p>
+        value: <p>For the duration, the willing creature you touch has Truesight with a range of 120 feet.</p>
         chat: ''
       source:
         custom: ''
@@ -2491,14 +2444,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.BYnLrTSNv9m2NrU2.nW7Dh0S9wT7QHWCj
+        _key: '!actors.items.effects!mmGuardianNaga00.BYnLrTSNv9m2NrU2.nW7Dh0S9wT7QHWCj'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.PyDVxG4ueV6jaRtE
+        origin: Compendium.degringo5e.actors24.Actor.mmGuardianNaga00.Item.mmSpellcasting00.Activity.PyDVxG4ueV6jaRtE
         changes:
           - key: system.properties
             mode: 2
@@ -2534,8 +2485,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGuardianNaga00.BYnLrTSNv9m2NrU2.dnd5espellchange
+        _key: '!actors.items.effects!mmGuardianNaga00.BYnLrTSNv9m2NrU2.dnd5espellchange'
     folder: 8WmlLARx1Df3Ii9v
     sort: 100098
     ownership:

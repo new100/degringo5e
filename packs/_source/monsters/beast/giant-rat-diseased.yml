@@ -489,16 +489,13 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it must succeed on a [[/save]] saving throw or contract a
-          disease. Until the disease is cured, the target can't regain hit
-          points except by magical means, and the target's hit point maximum
-          decreases by 3 (1d6) every 24 hours. If the target's hit point maximum
-          drops to 0 as a result of this disease, the target dies.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a
+          [[/save]] saving throw or contract a disease. Until the disease is cured, the target can't regain hit points
+          except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the
+          target's hit point maximum drops to 0 as a result of this disease, the target dies.</p>
         chat: >-
-          <p>The Giant Rat (Diseased) attacks with its Bite. If the target is a
-          creature, it must make a <strong>Constitution</strong> saving
-          throw.</p>
+          <p>The Giant Rat (Diseased) attacks with its Bite. If the target is a creature, it must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -723,9 +720,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The rat has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on smell.</p>
+        value: <p>The rat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>
         chat: ''
       source:
         custom: ''
@@ -772,9 +767,8 @@ items:
     system:
       description:
         value: >-
-          <p>The rat has<strong> advantage </strong>on an attack roll against a
-          creature if at least one of the rat's allies is within <strong>5
-          ft.</strong> of the creature and the ally isn't incapacitated.</p>
+          <p>The rat has<strong> advantage </strong>on an attack roll against a creature if at least one of the rat's
+          allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>
         chat: ''
       source:
         custom: ''

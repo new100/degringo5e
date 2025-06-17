@@ -6,14 +6,12 @@ type: spell
 system:
   description:
     value: >-
-      <p>Choose a creature that you can see within range. The target must
-      succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the
-      Duration. This spell has no effect on Undead. At the end of each of its
-      turns, the target can make another Wisdom saving throw. On a success, the
-      spell ends on the target.</p><p><strong>At Higher Levels.</strong> When
-      you cast this spell using a spell slot of 6th level or higher, you can
-      target one additional creature for each slot level above 5th. The
-      creatures must be within 30 feet of each other when you target them.</p>
+      <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be
+      &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns,
+      the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one
+      additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you
+      target them.</p>
     chat: ''
   source:
     custom: ''
@@ -122,9 +120,8 @@ effects:
     _id: 1nGyCW9SEQ2TusXw
     changes: []
     description: >-
-      <p>The target is Paralyzed for the Duration. At the end of each of its
-      turns, the target can make another Wisdom saving throw. On a success, the
-      spell ends on the target.</p>
+      <p>The target is Paralyzed for the Duration. At the end of each of its turns, the target can make another Wisdom
+      saving throw. On a success, the spell ends on the target.</p>
     transfer: false
     statuses:
       - paralyzed

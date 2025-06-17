@@ -660,11 +660,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] adheres to anything
-          that touches it. A Huge or smaller creature adhered to the [[lookup
-          @name lowercase]] has the &amp;Reference[Grappled apply=false]
-          condition (escape DC [[lookup @skills.ath.passive]]). Ability checks
-          made to escape this grapple have Disadvantage.</p>
+          <p class="feature">The [[lookup @name lowercase]] adheres to anything that touches it. A Huge or smaller
+          creature adhered to the [[lookup @name lowercase]] has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[lookup @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>
         chat: ''
       identifier: adhesive
       source:
@@ -702,10 +700,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[/check ability=str skill=ath format=long]], see source
-          item for DC). Ability checks made to escape this grapple have
-          Disadvantage.</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC). Ability checks made to escape this grapple have Disadvantage.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -722,8 +718,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMimic000000000.mmAdhesive000000.PTmNYKeeD3d7EbJn
+        _key: '!actors.items.effects!mmMimic000000000.mmAdhesive000000.PTmNYKeeD3d7EbJn'
     flags:
       degringo5e:
         riders:
@@ -887,13 +882,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Melee Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=Hx8Io6Uz1mJDm4Nf]]), reach [[lookup
-          @range.value activity=xWlMeXFjELfSUWX9]] [[lookup @range.units
-          activity=xWlMeXFjELfSUWX9]]. <em>Hit:</em> [[/damage average
-          activity=xWlMeXFjELfSUWX9]] damage—or [[/damage average
-          activity=Hx8Io6Uz1mJDm4Nf]] damage if the target is Grappled by the
-          mimic.</p>
+          <p class="feature"><em>Melee Attack Roll:</em> [[/attack]] ([[lookup @activation.condition
+          activity=Hx8Io6Uz1mJDm4Nf]]), reach [[lookup @range.value activity=xWlMeXFjELfSUWX9]] [[lookup @range.units
+          activity=xWlMeXFjELfSUWX9]]. <em>Hit:</em> [[/damage average activity=xWlMeXFjELfSUWX9]] damage—or [[/damage
+          average activity=Hx8Io6Uz1mJDm4Nf]] damage if the target is Grappled by the mimic.</p>
         chat: ''
       identifier: bite
       source:
@@ -1102,11 +1094,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]). Ability checks made to escape this grapple
-          have Disadvantage.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
+          @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>
         chat: ''
       identifier: pseudopod
       source:
@@ -1187,13 +1177,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for
-          DC).</p><p>Ability checks made to escape this grapple have<strong>
-          Disadvantage.</strong></p><p><strong>Escape Tests (see origin item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Ability checks made to
+          escape this grapple have<strong> Disadvantage.</strong></p><p><strong>Escape Tests (see origin item for
+          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1210,8 +1197,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMimic000000000.mmPseudopod00000.grTPAGPf3Hftz86s
+        _key: '!actors.items.effects!mmMimic000000000.mmPseudopod00000.grTPAGPf3Hftz86s'
     flags:
       degringo5e:
         riders:
@@ -1293,11 +1279,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts to
-          resemble a [[lookup @target.affects.special
-          activity=EU2q25V5hIaM1ZlR]] object while retaining its game
-          statistics, or it returns to its true blob form. Any equipment it is
-          wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts to resemble a [[lookup @target.affects.special
+          activity=EU2q25V5hIaM1ZlR]] object while retaining its game statistics, or it returns to its true blob form.
+          Any equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:

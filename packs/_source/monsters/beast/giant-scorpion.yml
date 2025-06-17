@@ -489,8 +489,7 @@ items:
     system:
       description:
         value: >-
-          <p>The scorpion makes three attacks: two with its [[/item
-          .OJ2b64O3e1nni21W]]{claws} and one with its [[/item
+          <p>The scorpion makes three attacks: two with its [[/item .OJ2b64O3e1nni21W]]{claws} and one with its [[/item
           .q6uVUHWyzht5OpwV]]{sting}.</p>
         chat: ''
       source:
@@ -591,12 +590,9 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          &amp;Reference[grappled] (escape DC 12). The scorpion has two claws,
-          each of which can grapple only one target.</p>
-        chat: >-
-          <p>The Giant Scorpion attacks with its Claw. The target is
-          grappled.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is &amp;Reference[grappled] (escape DC 12).
+          The scorpion has two claws, each of which can grapple only one target.</p>
+        chat: <p>The Giant Scorpion attacks with its Claw. The target is grappled.</p>
       source:
         custom: ''
         book: ''
@@ -760,13 +756,11 @@ items:
     system:
       description:
         value: >-
-          <p>&amp;Reference[grappled]</p><p>The target must make a [[/save]]
-          saving throw, taking [[/damage average activity=dnd5eactivity100]]
-          damage on a failed save, or half as much damage on a successful
-          one.</p>
+          <p>&amp;Reference[grappled]</p><p>The target must make a [[/save]] saving throw, taking [[/damage average
+          activity=dnd5eactivity100]] damage on a failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The Giant Scorpion attacks with its Sting. The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The Giant Scorpion attacks with its Sting. The target must make a <strong>Constitution</strong> saving
+          throw.</p>
       source:
         custom: ''
         book: ''

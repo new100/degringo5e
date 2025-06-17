@@ -509,12 +509,9 @@ items:
     system:
       description:
         value: >-
-          <p>The specter can move through other creatures and objects as if they
-          were difficult terrain.</p><p>It takes <strong>5 (1d10) <em>force
-          damage</em></strong> if it ends its turn inside an object.</p>
-        chat: >-
-          <p>The specter can move through other creatures and objects as if they
-          were difficult terrain.</p>
+          <p>The specter can move through other creatures and objects as if they were difficult terrain.</p><p>It takes
+          <strong>5 (1d10) <em>force damage</em></strong> if it ends its turn inside an object.</p>
+        chat: <p>The specter can move through other creatures and objects as if they were difficult terrain.</p>
       source:
         custom: ''
         book: ''
@@ -625,14 +622,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or its hit point maximum is
-          reduced by an amount equal to the damage taken. This reduction lasts
-          until the creature finishes a long rest. The target dies if this
-          effect reduces its hit point maximum to 0.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or
+          its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the
+          creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>
         chat: >-
-          <p>The Specter attacks with its Life Drain.The target must make a
-          <strong>Constitution</strong> saving throw. </p>
+          <p>The Specter attacks with its Life Drain.The target must make a <strong>Constitution</strong> saving throw.
+          </p>
       source:
         custom: ''
         book: ''
@@ -858,9 +853,8 @@ items:
     system:
       description:
         value: >-
-          <p>While in sunlight, the specter has<strong> disadvantage </strong>on
-          attack rolls, as well as on Wisdom (Perception) checks that rely on
-          sight.</p>
+          <p>While in sunlight, the specter has<strong> disadvantage </strong>on attack rolls, as well as on Wisdom
+          (Perception) checks that rely on sight.</p>
         chat: ''
       source:
         custom: ''

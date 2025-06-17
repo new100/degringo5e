@@ -576,9 +576,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body
-          dissolves into ichor, and it gains a new body instantly, reviving with
-          all its Hit Points somewhere in the Abyss.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body dissolves into ichor, and it gains a new
+          body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>
         chat: ''
       identifier: demonic-restoration
       source:
@@ -626,9 +625,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -723,9 +720,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -829,9 +824,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] teleports up to
-          [[lookup @range.value activity=dnoRMdFzhUUku26D]] feet to an
-          unoccupied space it can see.</p>
+          <p class="feature">The [[lookup @name lowercase]] teleports up to [[lookup @range.value
+          activity=dnoRMdFzhUUku26D]] feet to an unoccupied space it can see.</p>
         chat: ''
       identifier: teleport
       source:
@@ -1115,19 +1109,15 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=GP5MnIyXCVZ4ZMTQ]], each [[lookup
-          @target.affects.type activity=GP5MnIyXCVZ4ZMTQ]] in a [[lookup
-          @target.template.size activity=GP5MnIyXCVZ4ZMTQ]]-<span
-          style="font-family:'Roboto Condensed', sans-serif">foot</span>
-          Emanation originating from the [[lookup @name lowercase]].</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target has the &amp;Reference[Frightened apply=false] condition for
-          [[lookup @duration.value activity=GP5MnIyXCVZ4ZMTQ]] [[lookup
-          @duration.units activity=GP5MnIyXCVZ4ZMTQ]], until it takes damage, or
-          until it ends its turn with the [[lookup @name lowercase]] out of line
-          of sight.</p><p class="feature"><em>Success:</em> The target is immune
-          to this [[lookup @name lowercase]]'s Horror Nimbus for 24 hours.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=GP5MnIyXCVZ4ZMTQ]], each
+          [[lookup @target.affects.type activity=GP5MnIyXCVZ4ZMTQ]] in a [[lookup @target.template.size
+          activity=GP5MnIyXCVZ4ZMTQ]]-<span style="font-family:'Roboto Condensed', sans-serif">foot</span> Emanation
+          originating from the [[lookup @name lowercase]].</p><p class="feature"><em>Failure:</em> [[/damage average]]
+          damage, and the target has the &amp;Reference[Frightened apply=false] condition for [[lookup @duration.value
+          activity=GP5MnIyXCVZ4ZMTQ]] [[lookup @duration.units activity=GP5MnIyXCVZ4ZMTQ]], until it takes damage, or
+          until it ends its turn with the [[lookup @name lowercase]] out of line of sight.</p><p
+          class="feature"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s Horror Nimbus for
+          24 hours.</p>
         chat: ''
       identifier: horror-nimbus
       source:
@@ -1164,9 +1154,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          for 1 minute, until it takes damage, or until it ends its turn with
-          the attacking creature out of line of sight.</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition for 1 minute, until it takes damage, or
+          until it ends its turn with the attacking creature out of line of sight.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1183,8 +1172,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNalfeshnee0000.mmHorrorNimbus00.ahNNQZ2FHPsRpYbH
+        _key: '!actors.items.effects!mmNalfeshnee0000.mmHorrorNimbus00.ahNNQZ2FHPsRpYbH'
     flags:
       degringo5e:
         riders:
@@ -1270,12 +1258,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Trigger:</em> Another creature the [[lookup
-          @name lowercase]] can see ends its move within [[lookup @range.value
-          activity=blUXkjLhs9kD2ofo]] feet of the [[lookup @name lowercase]].
-          <em>Response:</em> The [[lookup @name lowercase]] uses Teleport, but
-          its destination space must be [[lookup @target.affects.special
-          activity=blUXkjLhs9kD2ofo]].</p>
+          <p class="feature"><em>Trigger:</em> Another creature the [[lookup @name lowercase]] can see ends its move
+          within [[lookup @range.value activity=blUXkjLhs9kD2ofo]] feet of the [[lookup @name lowercase]].
+          <em>Response:</em> The [[lookup @name lowercase]] uses Teleport, but its destination space must be [[lookup
+          @target.affects.special activity=blUXkjLhs9kD2ofo]].</p>
         chat: ''
       identifier: pursuit
       source:

@@ -408,8 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins
-        (6)}</p></div>
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins (6)}</p></div>
       public: ''
     alignment: Neutral Evil
     ideal: ''
@@ -784,9 +783,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .hhfnX7eT1ZFun8oQ]]{Javelin} or [[/item .mmTusk0000000000]]{Tusk} in
-          any combination. It can replace one attack with a [[/item
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .hhfnX7eT1ZFun8oQ]]{Javelin} or [[/item
+          .mmTusk0000000000]]{Tusk} in any combination. It can replace one attack with a [[/item
           .mmGore0000000000]]{Gore} attack.</p>
         chat: ''
       identifier: multiattack
@@ -1007,16 +1005,13 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a Humanoid, it is subjected to the following
-          effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=lS5miercc4WPdVfN]].</p><p><em>Failure:</em>
-          The target is cursed. If the cursed target drops to 0 Hit Points, it
-          instead becomes a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmWereboar000000]{Wereboar}</strong>
-          under the DM's control and has 10 Hit Points.</p><p><em>Success:</em>
-          The target is immune to this [[lookup @name lowercase]]'s curse for 24
-          hours.</p>
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a Humanoid, it is subjected to the
+          following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value
+          activity=lS5miercc4WPdVfN]].</p><p><em>Failure:</em> The target is cursed. If the cursed target drops to 0 Hit
+          Points, it instead becomes a
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmWereboar000000]{Wereboar}</strong> under the DM's control
+          and has 10 Hit Points.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s curse
+          for 24 hours.</p>
         chat: ''
       identifier: gore
       source:
@@ -1096,9 +1091,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target is &amp;Reference[cursed apply=false] if they fail their
-          saving throw.</p>
+        description: <p>The target is &amp;Reference[cursed apply=false] if they fail their saving throw.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1115,8 +1108,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWereboar000000.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmWereboar000000.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:
@@ -1364,8 +1356,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWereboar000000.mmTusk0000000000.OhQRYqL5fjvDhcQq
+        _key: '!actors.items.effects!mmWereboar000000.mmTusk0000000000.OhQRYqL5fjvDhcQq'
     flags:
       degringo5e:
         riders:
@@ -1447,11 +1438,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a
-          Medium boar-humanoid hybrid form or a Medium boar, or it returns to
-          its true humanoid form, or it returns to its true form. Its game
-          statistics, other than its size, are the same in each form. Any
-          equipment it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a Medium boar-humanoid hybrid form or a
+          Medium boar, or it returns to its true humanoid form, or it returns to its true form. Its game statistics,
+          other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -1498,8 +1487,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
+          compendiumSource: Compendium.degringo5e.actors24.Actor.mmWerebear000000.ActiveEffect.KI7U5B2KrvDtzUjD
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1508,8 +1496,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWereboar000000.mmShapeshift0000.0MySRgQBnXCMPL21
+        _key: '!actors.items.effects!mmWereboar000000.mmShapeshift0000.0MySRgQBnXCMPL21'
     flags:
       degringo5e:
         riders:

@@ -6,14 +6,11 @@ img: icons/magic/control/buff-strength-muscle-damage-orange.webp
 system:
   description:
     value: >-
-      <p>Whenever you deal damage with your Unarmed Strike, it can deal your
-      choice of Force damage or its normal damage type.</p><section
-      class="secret" id="secret-Hg8UeaCyLgncM7iJ"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Empowered Strike</strong> activity on this
-      feature can allows you to choose between Force and Bludgeoning damage in
-      the roll dialog. It will remember your choice going forward.</p><p>It uses
-      your Martial Arts Die (currently [[lookup @scale.monk.die]] for damage and
-      will automatically update as you level up.</p></section>
+      <p>Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage
+      type.</p><section class="secret" id="secret-Hg8UeaCyLgncM7iJ"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Empowered Strike</strong> activity on this feature can allows you to choose between Force and Bludgeoning
+      damage in the roll dialog. It will remember your choice going forward.</p><p>It uses your Martial Arts Die
+      (currently [[lookup @scale.monk.die]] for damage and will automatically update as you level up.</p></section>
     chat: ''
   source:
     custom: ''

@@ -492,14 +492,10 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or be &amp;Reference[poisoned] for
-          1 minute. If the saving throw fails by 5 or more, the target is
-          instead poisoned for 5 ([[/r 1d10]]) minutes and
-          &amp;Reference[unconscious] while poisoned in this way.</p>
-        chat: >-
-          <p>The Homunculus attacks with its Bite.The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or be
+          &amp;Reference[poisoned] for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned
+          for 5 ([[/r 1d10]]) minutes and &amp;Reference[unconscious] while poisoned in this way.</p>
+        chat: <p>The Homunculus attacks with its Bite.The target must make a <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -724,9 +720,8 @@ items:
     system:
       description:
         value: >-
-          <p>While the homunculus is on the same plane of existence as its
-          master, it can magically convey what it senses to its master, and the
-          two can communicate telepathically.</p>
+          <p>While the homunculus is on the same plane of existence as its master, it can magically convey what it
+          senses to its master, and the two can communicate telepathically.</p>
         chat: ''
       source:
         custom: ''

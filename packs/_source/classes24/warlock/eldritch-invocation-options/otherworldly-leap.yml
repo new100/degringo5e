@@ -5,12 +5,10 @@ img: icons/creatures/mammals/deer-movement-leap-green.webp
 system:
   description:
     value: >-
-      <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplJump000000]{Jump} on
-      yourself without expending a spell slot.</p><section
-      id="secret-JpQyXOJAkEKVXxff" class="secret"><p><strong>Foundry
-      Note</strong></p><p>This feature can be used in place of the Jump spell
-      and includes an Active Effect for tracking.</p></section>
+      <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplJump000000]{Jump} on yourself without expending a spell
+      slot.</p><section id="secret-JpQyXOJAkEKVXxff" class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+      can be used in place of the Jump spell and includes an Active Effect for tracking.</p></section>
     chat: ''
   source:
     custom: ''
@@ -101,8 +99,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>Once on each of its turns until the spell ends, that creature can jump
-      up to 30 feet by spending 10 feet of movement.</p>
+      <p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of
+      movement.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

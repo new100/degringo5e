@@ -572,9 +572,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can burrow through
-          nonmagical, unworked earth and stone. While doing so, the [[lookup
-          @name lowercase]] doesn't disturb the material it moves through.</p>
+          <p class="feature">The [[lookup @name lowercase]] can burrow through nonmagical, unworked earth and stone.
+          While doing so, the [[lookup @name lowercase]] doesn't disturb the material it moves through.</p>
         chat: ''
       identifier: earth-glide
       source:
@@ -623,9 +622,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] deals double damage to objects and
-          structures.</p>
+        value: <p>The [[lookup @name lowercase]] deals double damage to objects and structures.</p>
         chat: ''
       identifier: siege-monster
       source:
@@ -711,9 +708,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .mmSlam0000000000]] or [[/item .mmRockLaunch0000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .mmSlam0000000000]] or [[/item
+          .mmRockLaunch0000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -952,9 +948,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller
+          creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: rock-launch
       source:
@@ -1034,9 +1029,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1053,8 +1046,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmEarthElemental.mmRockLaunch0000.fdpMlJbmkKQfJlME
+        _key: '!actors.items.effects!mmEarthElemental.mmRockLaunch0000.fdpMlJbmkKQfJlME'
     flags:
       degringo5e:
         riders:

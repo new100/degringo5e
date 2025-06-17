@@ -491,8 +491,7 @@ items:
     system:
       description:
         value: >-
-          <p>The behir makes two attacks: one with its [[/item
-          .4fNbTxkAFYHxDdJX]]{bite} and one to [[/item
+          <p>The behir makes two attacks: one with its [[/item .4fNbTxkAFYHxDdJX]]{bite} and one to [[/item
           .GCUh42hMUnKtxx8j]]{constrict}.</p>
         chat: ''
       source:
@@ -757,15 +756,12 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one Large
-          or smaller creature. [[/damage extended]].</p><p>The target is
-          &amp;Reference[grappled] (escape DC 16) if the behir isn't already
-          constricting a creature, and the target is restrained until this
-          grapple ends.</p>
+          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one Large or smaller creature. [[/damage
+          extended]].</p><p>The target is &amp;Reference[grappled] (escape DC 16) if the behir isn't already
+          constricting a creature, and the target is restrained until this grapple ends.</p>
         chat: >-
-          <p>The Behir attacks with its Constrict. The target is grappled if the
-          Behir isn't already constricting a creature, and the target is
-          restrained until this grapple ends.</p>
+          <p>The Behir attacks with its Constrict. The target is grappled if the Behir isn't already constricting a
+          creature, and the target is restrained until this grapple ends.</p>
       source:
         custom: ''
         book: ''
@@ -941,15 +937,12 @@ items:
     system:
       description:
         value: >-
-          <p>The behir exhales a line of lightning that is 20 ft. long and 5 ft.
-          wide. Each creature in that line must make a  <strong>DC 16
-          Dexterity</strong> saving throw, taking <strong>66 (12d10)
-          <em>lightning damage</em></strong> on a failed save, or half as much
-          damage on a successful one.</p>
+          <p>The behir exhales a line of lightning that is 20 ft. long and 5 ft. wide. Each creature in that line must
+          make a  <strong>DC 16 Dexterity</strong> saving throw, taking <strong>66 (12d10) <em>lightning
+          damage</em></strong> on a failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The behir exhales a line of lightning that is 20 ft. long and 5 ft.
-          wide. Each creature in that line must make a
-          <strong>Dexterity</strong> saving throw.</p>
+          <p>The behir exhales a line of lightning that is 20 ft. long and 5 ft. wide. Each creature in that line must
+          make a <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1072,20 +1065,15 @@ items:
     system:
       description:
         value: >-
-          <p>The behir makes one bite attack against a <strong>Medium or smaller
-          target it is grappling</strong>. If the attack hits, the target is
-          also swallowed, and the grapple ends. While swallowed, the target is
-          blinded and restrained, it has total cover against attacks and other
-          effects outside the behir, and it takes <strong>21 (6d6) <em>acid
-          damage</em></strong> at the start of each of the behir's turns. A
-          behir can have only one creature swallowed at a time.</p><p>If the
-          behir takes 30 damage or more on a single turn from the swallowed
-          creature, the behir must succeed on a  <strong>DC 14
-          Constitution</strong> saving throw at the end of that turn or
-          regurgitate the creature, which falls prone in a space within 10 ft.
-          of the behir. If the behir dies, a swallowed creature is no longer
-          restrained by it and can escape from the corpse by using 15 ft. of
-          movement, exiting prone.</p>
+          <p>The behir makes one bite attack against a <strong>Medium or smaller target it is grappling</strong>. If the
+          attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and
+          restrained, it has total cover against attacks and other effects outside the behir, and it takes <strong>21
+          (6d6) <em>acid damage</em></strong> at the start of each of the behir's turns. A behir can have only one
+          creature swallowed at a time.</p><p>If the behir takes 30 damage or more on a single turn from the swallowed
+          creature, the behir must succeed on a  <strong>DC 14 Constitution</strong> saving throw at the end of that
+          turn or regurgitate the creature, which falls prone in a space within 10 ft. of the behir. If the behir dies,
+          a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 ft. of movement,
+          exiting prone.</p>
         chat: <p>The Behir attacks with its Swallow.</p>
       source:
         custom: ''

@@ -496,18 +496,13 @@ items:
     system:
       description:
         value: >-
-          <p>The treant magically animates one or two trees it can see
-          <strong>within 60 feet</strong> of it. These trees have the same
-          statistics as a treant, except they have Intelligence and Charisma
-          scores of 1, they can't speak, and they have only the Slam action
-          option. </p><p>An animated tree acts as an ally of the treant. The
-          tree remains animate for 1 day or until it dies; until the treant dies
-          or is more than 120 feet from the tree; or until the treant takes a
-          bonus action to turn it back into an inanimate tree. The tree then
-          takes root if possible.</p>
-        chat: >-
-          <p>The treant magically animates one or two trees it can see
-          <strong>within 60 feet</strong> of it.</p>
+          <p>The treant magically animates one or two trees it can see <strong>within 60 feet</strong> of it. These
+          trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't
+          speak, and they have only the Slam action option. </p><p>An animated tree acts as an ally of the treant. The
+          tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree;
+          or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if
+          possible.</p>
+        chat: <p>The treant magically animates one or two trees it can see <strong>within 60 feet</strong> of it.</p>
       source:
         custom: ''
         book: ''
@@ -606,9 +601,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the treant remains motionless, it is indistinguishable from a
-          normal tree.</p>
+        value: <p>While the treant remains motionless, it is indistinguishable from a normal tree.</p>
         chat: ''
       source:
         custom: ''

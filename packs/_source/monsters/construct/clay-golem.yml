@@ -503,15 +503,13 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it must succeed on a [[/save]] saving throw or have its
-          hit point maximum reduced by an amount equal to the damage taken. The
-          target dies if this attack reduces its hit point maximum to 0. The
-          reduction lasts until removed by the <em>greater restoration</em>
-          spell or other magic.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a
+          [[/save]] saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The
+          target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the
+          <em>greater restoration</em> spell or other magic.</p>
         chat: >-
-          <p>The Clay Golem attacks with its Slam. If the target is a creature,
-          it must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The Clay Golem attacks with its Slam. If the target is a creature, it must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -736,13 +734,11 @@ items:
     system:
       description:
         value: >-
-          <p>Until the end of its next turn, the golem magically gains a +2
-          bonus to its AC, has advantage on Dexterity saving throws, and can use
-          its slam attack as a bonus action.</p>
+          <p>Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity
+          saving throws, and can use its slam attack as a bonus action.</p>
         chat: >-
-          <p>Until the end of its next turn, the golem magically gains a +2
-          bonus to its AC, has advantage on Dexterity saving throws, and can use
-          its slam attack as a bonus action.</p>
+          <p>Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity
+          saving throws, and can use its slam attack as a bonus action.</p>
       source:
         custom: ''
         book: ''
@@ -849,9 +845,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The golem has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The golem has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -898,18 +892,15 @@ items:
     system:
       description:
         value: >-
-          <p>Whenever the golem starts its turn with 60 hit points or fewer,
-          roll a [[/r d6]]. On a 6, the golem goes berserk. On each of its turns
-          while berserk, the golem attacks the nearest creature it can see. If
-          no creature is near enough to move to and attack, the golem attacks an
-          object, with preference for an object smaller than itself. Once the
-          golem goes berserk, it continues to do so until it is destroyed or
-          regains all its hit points.</p>
+          <p>Whenever the golem starts its turn with 60 hit points or fewer, roll a [[/r d6]]. On a 6, the golem goes
+          berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature
+          is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than
+          itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit
+          points.</p>
         chat: >-
-          <p>The golem goes berserk. On each of its turns while berserk, the
-          golem attacks the nearest creature it can see. If no creature is near
-          enough to move to and attack, the golem attacks an object, with
-          preference for an object smaller than itself.</p>
+          <p>The golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can
+          see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an
+          object smaller than itself.</p>
       source:
         custom: ''
         book: ''
@@ -1007,9 +998,7 @@ items:
     img: icons/magic/unholy/orb-beam-pink.webp
     system:
       description:
-        value: >-
-          <p>The golem is immune to any spell or effect that would alter its
-          form.</p>
+        value: <p>The golem is immune to any spell or effect that would alter its form.</p>
         chat: ''
       source:
         custom: ''
@@ -1102,9 +1091,8 @@ items:
     system:
       description:
         value: >-
-          <p>Whenever the golem is subjected to acid damage, it takes no damage
-          and instead regains a number of hit points equal to the acid damage
-          dealt.</p>
+          <p>Whenever the golem is subjected to acid damage, it takes no damage and instead regains a number of hit
+          points equal to the acid damage dealt.</p>
         chat: ''
       source:
         custom: ''

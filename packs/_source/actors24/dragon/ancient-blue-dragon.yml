@@ -611,9 +611,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -706,10 +704,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of [[/item Spellcasting]] to cast
-          @UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter} (level
-          3 version).</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          [[/item Spellcasting]] to cast @UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter} (level 3
+          version).</p>
         chat: ''
       identifier: multiattack
       source:
@@ -991,13 +988,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type
-          activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
-          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width
-          activity=LpjgVwftzGNMgTUJ]]-foot-wide Line</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup
+          @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
+          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide
+          Line</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: lightning-breath
       source:
@@ -1330,19 +1324,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage
-          Hand}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em>
-          (level 3 version)</p><p class="feature-trait"><strong>1/Day
-          Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em> (level 3 version)</p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSending000]{Sending}</em></p>
         chat: ''
@@ -1387,13 +1376,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1513,8 +1500,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1523,14 +1509,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.2UciHazQvhCx7CPp.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAncientBlueDra.2UciHazQvhCx7CPp.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.IHZ0zdX2oDJpETxa
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.IHZ0zdX2oDJpETxa
         changes:
           - key: system.properties
             mode: 2
@@ -1562,8 +1546,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.2UciHazQvhCx7CPp.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.2UciHazQvhCx7CPp.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1590,11 +1573,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1703,9 +1685,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1721,14 +1701,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.FlUeG3M3TNcZ4aNj.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmAncientBlueDra.FlUeG3M3TNcZ4aNj.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.TF4DpKenlbgpJ2jI
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.TF4DpKenlbgpJ2jI
         changes:
           - key: system.properties
             mode: 2
@@ -1760,8 +1738,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.FlUeG3M3TNcZ4aNj.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.FlUeG3M3TNcZ4aNj.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -1785,16 +1762,12 @@ items:
     system:
       description:
         value: >-
-          <p>A spectral, floating hand appears at a point you choose within
-          range. The hand lasts for the duration. The hand vanishes if it is
-          ever more than 30 feet away from you or if you cast this spell
-          again.</p><p>When you cast the spell, you can use the hand to
-          manipulate an object, open an unlocked door or container, stow or
-          retrieve an item from an open container, or pour the contents out of a
-          vial.</p><p>As a Magic action on your later turns, you can control the
-          hand thus again. As part of that action, you can move the hand up to
-          30 feet.</p><p>The hand can't attack, activate magic items, or carry
-          more than 10 pounds.</p>
+          <p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The
+          hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you
+          cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your
+          later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30
+          feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
         chat: ''
       source:
         custom: ''
@@ -1909,8 +1882,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.zWJyRMFGYregSraa
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.zWJyRMFGYregSraa
         changes:
           - key: system.properties
             mode: 2
@@ -1942,8 +1914,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.nx98etdOuNlIWdf6.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.nx98etdOuNlIWdf6.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1000000
     ownership:
@@ -1970,14 +1941,11 @@ items:
     system:
       description:
         value: >-
-          <p>A loud noise erupts from a point of your choice within range. Each
-          creature in a 10-foot-radius Sphere centered there makes a
-          Constitution saving throw, taking 3d8 Thunder damage on a failed save
-          or half as much damage on a successful one. A Construct has
-          Disadvantage on the save.</p><p>A nonmagical object that isn't being
-          worn or carried also takes the damage if it's in the spell's
-          area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d8 for each spell slot level above 2.</p>
+          <p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere
+          centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much
+          damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't
+          being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -2085,8 +2053,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.0xVoBjoBlcYCB45o
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.0xVoBjoBlcYCB45o
         changes:
           - key: system.properties
             mode: 2
@@ -2118,8 +2085,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.LFH0YeP80unYWTS8.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.LFH0YeP80unYWTS8.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 700000
     ownership:
@@ -2143,30 +2109,21 @@ items:
     system:
       description:
         value: >-
-          <p>You can see and hear a creature you choose that is on the same
-          plane of existence as you. The target makes a Wisdom saving throw,
-          which is modified (see the tables below) by how well you know the
-          target and the sort of physical connection you have to it. The target
-          doesn't know what it is making the save against, only that it feels
-          uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is
-          …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand
-          (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the
-          target)</td><td>+0</td></tr><tr><td>Extensive (know the target
-          well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You
-          Have the Target's …</td><td>Save
-          Modifier</td></tr></thead><tbody><tr><td>Picture or other
-          likeness</td><td>−2</td></tr><tr><td>Garment or other
-          possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit
-          of nail</td><td>−10</td></tr></tbody></table><p>On a successful save,
-          the target isn't affected, and you can't use this spell on it again
-          for 24 hours.</p><p>On a failed save, the spell creates an Invisible,
-          intangible sensor within 10 feet of the target. You can see and hear
-          through the sensor as if you were there. The sensor moves with the
-          target, remaining within 10 feet of it for the duration. If something
-          can see the sensor, it appears as a luminous orb about the size of
-          your fist.</p><p>Instead of targeting a creature, you can target a
-          location you have seen. When you do so, the sensor appears at that
-          location and doesn't move.</p>
+          <p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes
+          a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort
+          of physical connection you have to it. The target doesn't know what it is making the save against, only that
+          it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the
+          target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the
+          target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or
+          other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of
+          nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't
+          use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible
+          sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor
+          moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it
+          appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a
+          location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>
         chat: ''
       source:
         custom: ''
@@ -2206,9 +2163,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 1,000+ GP, such as a crystal ball, mirror, or
-          water-filled font
+        value: a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font
         consumed: false
         cost: 0
         supply: 0
@@ -2686,8 +2641,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.O83uJwNqQQMd4TRh
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.O83uJwNqQQMd4TRh
         changes:
           - key: system.properties
             mode: 2
@@ -2719,8 +2673,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.MKxlhPzwrIKZRWqY.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.MKxlhPzwrIKZRWqY.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 400000
     ownership:
@@ -2744,18 +2697,14 @@ items:
     system:
       description:
         value: >-
-          <p>You send a short message of 25 words or fewer to a creature you
-          have met or a creature described to you by someone who has met it. The
-          target hears the message in its mind, recognizes you as the sender if
-          it knows you, and can answer in a like manner immediately. The spell
-          enables targets to understand the meaning of your message.</p><p>You
-          can send the message across any distance and even to other planes of
-          existence, but if the target is on a different plane than you, there
-          is a 5 percent chance that the message doesn't arrive. You know if the
-          delivery fails.</p><p>Upon receiving your message, a creature can
-          block your ability to reach it again with this spell for 8 hours. If
-          you try to send another message during that time, you learn that you
-          are blocked, and the spell fails.</p>
+          <p>You send a short message of 25 words or fewer to a creature you have met or a creature described to you by
+          someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows
+          you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your
+          message.</p><p>You can send the message across any distance and even to other planes of existence, but if the
+          target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive. You know
+          if the delivery fails.</p><p>Upon receiving your message, a creature can block your ability to reach it again
+          with this spell for 8 hours. If you try to send another message during that time, you learn that you are
+          blocked, and the spell fails.</p>
         chat: ''
       source:
         custom: ''
@@ -2846,8 +2795,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.FjVJerNY5nCuxX8e
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSpellcasting00.Activity.FjVJerNY5nCuxX8e
         changes:
           - key: system.properties
             mode: 2
@@ -2879,8 +2827,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.i85zlI8RmuI6xYw5.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.i85zlI8RmuI6xYw5.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 150000
     ownership:
@@ -2961,9 +2908,8 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]</em> on
-          itself, and it can fly up to half its Fly Speed. The dragon can't take
-          this action again until the start of its next turn.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]</em> on itself, and it can fly up to half its
+          Fly Speed. The dragon can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: cloaked-flight
       source:
@@ -3006,11 +2952,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -3119,9 +3064,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3137,14 +3080,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.j529u2kIzgwyFvaW.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmAncientBlueDra.j529u2kIzgwyFvaW.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmCloakedFlight0.Activity.oUuMoEOsosDRcuNZ
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmCloakedFlight0.Activity.oUuMoEOsosDRcuNZ
         changes:
           - key: system.activation
             mode: 5
@@ -3180,8 +3121,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.j529u2kIzgwyFvaW.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.j529u2kIzgwyFvaW.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -3260,11 +3200,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] uses Spellcasting to
-          cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em>
-          (level 3 version). The [[lookup @name lowercase]] can't take this
-          action again until the start of its next turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] uses Spellcasting to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShatter000]{Shatter}</em> (level 3 version). The [[lookup
+          @name lowercase]] can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: sonic-boom
       source:
@@ -3307,14 +3245,11 @@ items:
     system:
       description:
         value: >-
-          <p>A loud noise erupts from a point of your choice within range. Each
-          creature in a 10-foot-radius Sphere centered there makes a
-          Constitution saving throw, taking 3d8 Thunder damage on a failed save
-          or half as much damage on a successful one. A Construct has
-          Disadvantage on the save.</p><p>A nonmagical object that isn't being
-          worn or carried also takes the damage if it's in the spell's
-          area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d8 for each spell slot level above 2.</p>
+          <p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere
+          centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much
+          damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't
+          being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -3422,8 +3357,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSonicBoom00000.Activity.ijIOufHOvI06vyN3
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlueDra.Item.mmSonicBoom00000.Activity.ijIOufHOvI06vyN3
         changes:
           - key: system.activation
             mode: 5
@@ -3455,8 +3389,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlueDra.7qttG6d39UUsh2ni.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlueDra.7qttG6d39UUsh2ni.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 700000
     ownership:
@@ -3535,9 +3468,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes one [[/item
-          Rend]] attack.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: tail-swipe
       source:

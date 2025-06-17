@@ -548,9 +548,7 @@ items:
   - name: Compression
     system:
       description:
-        value: >-
-          <p>The octopus can move through a space as narrow as 1 inch without
-          spending extra movement to do so.</p>
+        value: <p>The octopus can move through a space as narrow as 1 inch without spending extra movement to do so.</p>
         chat: ''
       source:
         custom: ''
@@ -649,12 +647,10 @@ items:
     system:
       description:
         value: >-
-          <p><em>Trigger:</em> A creature ends its turn within 5 feet of the
-          octopus while underwater. <em>Response:</em> The octopus releases ink
-          that fills a 5-foot Cube centered on itself, and the octopus moves up
-          to its Swim Speed. The Cube is &amp;Reference[heavilyobscured] for 1
-          minute or until a strong current or similar effect disperses the
-          ink.</p>
+          <p><em>Trigger:</em> A creature ends its turn within 5 feet of the octopus while underwater.
+          <em>Response:</em> The octopus releases ink that fills a 5-foot Cube centered on itself, and the octopus moves
+          up to its Swim Speed. The Cube is &amp;Reference[heavilyobscured] for 1 minute or until a strong current or
+          similar effect disperses the ink.</p>
         chat: ''
       source:
         custom: ''
@@ -683,9 +679,7 @@ items:
           activation:
             type: reaction
             value: 1
-            condition: >-
-              a creature ends its turn within 5 feet of the octopus while
-              underwater
+            condition: a creature ends its turn within 5 feet of the octopus while underwater
             override: false
           consumption:
             targets:
@@ -769,9 +763,7 @@ items:
   - name: Tentacles
     system:
       description:
-        value: >-
-          <p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1
-          Bludgeoning damage.</p>
+        value: <p> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1 Bludgeoning damage.</p>
         chat: ''
       price:
         value: 0
@@ -960,9 +952,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can move through a
-          space as narrow as 1 inch without expending extra movement to do
-          so.</p>
+          <p class="feature">The [[lookup @name lowercase]] can move through a space as narrow as 1 inch without
+          expending extra movement to do so.</p>
         chat: ''
       identifier: compression
       source:
@@ -1172,10 +1163,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]) from all four tentacles.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]])
+          from all four tentacles.</p>
         chat: ''
       identifier: tentacles
       source:
@@ -1255,10 +1245,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC) from all
-          four tentacles.</p>
+          <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC) from all four tentacles.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1275,8 +1263,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmOctopus0000000.mmTentacles00000.ALFBGlQz2ndsPVr1
+        _key: '!actors.items.effects!mmOctopus0000000.mmTentacles00000.ALFBGlQz2ndsPVr1'
     flags:
       degringo5e:
         riders:

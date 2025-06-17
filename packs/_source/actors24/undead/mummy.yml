@@ -607,9 +607,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The mummy makes two [[/item .mmRottingFist000]] attacks and uses
-          [[/item .mmDreadfulGlare0]].</p>
+        value: <p>The mummy makes two [[/item .mmRottingFist000]] attacks and uses [[/item .mmDreadfulGlare0]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -769,13 +767,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a creature, it is cursed. While cursed, the target
-          can't regain Hit Points, its Hit Point maximum doesn't return to
-          normal when finishing a Long Rest, and its Hit Point maximum decreases
-          by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A
-          creature dies and turns to dust if reduced to 0 Hit Points by this
-          attack.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is
+          cursed. While cursed, the target can't regain Hit Points, its Hit Point maximum doesn't return to normal when
+          finishing a Long Rest, and its Hit Point maximum decreases by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24
+          hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.</p>
         chat: ''
       identifier: rotting-fist
       source:
@@ -856,12 +851,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a creature, it is cursed. While cursed, the target
-          can’t regain Hit Points, its Hit Point maximum doesn’t return to
-          normal when finishing a Long Rest, and its Hit Point maximum decreases
-          by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A
-          creature dies and turns to dust if reduced to 0 Hit Points by this
-          attack.</p>
+          <p>If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, its Hit Point
+          maximum doesn’t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by [[/r
+          3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A creature dies and turns to dust if reduced to 0
+          Hit Points by this attack.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -878,8 +871,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummy000000000.mmRottingFist000.t7Anyyhyg6fmTdXw
+        _key: '!actors.items.effects!mmMummy000000000.mmRottingFist000.t7Anyyhyg6fmTdXw'
     flags:
       degringo5e:
         riders:
@@ -967,15 +959,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=8LmlZfevSQkOxGSN]], one [[lookup
-          @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> The target
-          has the &amp;Reference[Frightened apply=false] condition until the end
-          of the [[lookup @name lowercase]]'s next turn.</p><p><em>Success:</em>
-          The target is immune to this [[lookup @name lowercase]]'s Dreadful
-          Glare for 24 hours.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], one
+          [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=8LmlZfevSQkOxGSN]] feet.</p><p><em>Failure:</em> The target has the
+          &amp;Reference[Frightened apply=false] condition until the end of the [[lookup @name lowercase]]'s next
+          turn.</p><p><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s Dreadful Glare for 24
+          hours.</p>
         chat: ''
       identifier: dreadful-glare
       source:
@@ -1012,8 +1001,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the end of the attacking creature's next turn.</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition until the end of the attacking
+          creature's next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1030,8 +1019,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMummy000000000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c
+        _key: '!actors.items.effects!mmMummy000000000.mmDreadfulGlare0.hRSvOovTSlu4Dw8c'
     flags:
       degringo5e:
         riders:

@@ -66,12 +66,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Uncommon</em></p><p>You can breathe underwater for 24 hours
-      after drinking this potion.</p><p>This potion's cloudy green fluid smells
-      of the sea and has a jellyfish-like bubble floating in it.</p><section
-      class="secret" id="secret-Hak8pdfo1Rbwhrgv"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Water Breather</strong> Active Effect can
-      be used for tracking.</p></section>
+      <p><em>Potion, Uncommon</em></p><p>You can breathe underwater for 24 hours after drinking this potion.</p><p>This
+      potion's cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</p><section
+      class="secret" id="secret-Hak8pdfo1Rbwhrgv"><p><strong>Foundry Note</strong></p><p>The <strong>Water
+      Breather</strong> Active Effect can be used for tracking.</p></section>
     chat: ''
   identifier: potion-of-water-breathing
   source:
@@ -134,8 +132,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgPotionOfVital.ActiveEffect.GxutU47JS0FNfeoM
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgPotionOfVital.ActiveEffect.GxutU47JS0FNfeoM
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

@@ -2,24 +2,19 @@ name: Conjure Elemental
 system:
   description:
     value: >-
-      <p>You conjure a Large, intangible spirit from the Elemental Planes that
-      appears in an unoccupied space within range. Choose the spirit's element,
-      which determines its damage type:
+      <p>You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within
+      range. Choose the spirit's element, which determines its damage type:
       @UUID[Compendium.degringo5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)},
       @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)},
       @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredFireE]{fire (Fire)}, or
-      @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The
-      spirit lasts for the duration.</p><p>Whenever a creature you can see
-      enters the spirit's space or starts its turn within 5 feet of the spirit,
-      you can force that creature to make a Dexterity saving throw if the spirit
-      has no creature Restrained. On failed save, the target takes 8d8 damage of
-      the spirit's type, and the target has the &amp;Reference[Restrained
-      apply=false] condition until the spell ends. At the start of each of its
-      turns, the Restrained target repeats the save. On a failed save, the
-      target takes 4d8 damage of the spirit's type. On a successful save, the
-      target isn't Restrained by the spirit.</p><p><strong>Using a Higher-Level
-      Spell Slot.</strong> The damage increases by 1d8 for each spell slot level
-      above 5.</p>
+      @UUID[Compendium.degringo5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The spirit lasts for the
+      duration.</p><p>Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the
+      spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On
+      failed save, the target takes 8d8 damage of the spirit's type, and the target has the &amp;Reference[Restrained
+      apply=false] condition until the spell ends. At the start of each of its turns, the Restrained target repeats the
+      save. On a failed save, the target takes 4d8 damage of the spirit's type. On a successful save, the target isn't
+      Restrained by the spirit.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for
+      each spell slot level above 5.</p>
     chat: ''
   source:
     custom: ''

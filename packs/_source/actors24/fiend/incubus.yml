@@ -643,11 +643,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">When the [[lookup @name lowercase]] finishes a Long
-          Rest, it can shape-shift into a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmSuccubus000000]{Succubus}</strong>,
-          using that stat block instead of this one. Any equipment it is wearing
-          or carrying isn't transformed.</p>
+          <p class="feature">When the [[lookup @name lowercase]] finishes a Long Rest, it can shape-shift into a
+          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmSuccubus000000]{Succubus}</strong>, using that stat block
+          instead of this one. Any equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: succubus-form
       source:
@@ -754,10 +752,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target is cursed for 24 hours or until the [[lookup @name
-          lowercase]] dies. Until the curse ends, the target gains no benefit
-          from finishing Short Rests.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target is cursed for 24 hours
+          or until the [[lookup @name lowercase]] dies. Until the curse ends, the target gains no benefit from finishing
+          Short Rests.</p>
         chat: ''
       identifier: restless-touch
       source:
@@ -838,9 +835,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target is cursed for 24 hours or until the attacking creature
-          dies. Until the curse ends, the target gains no benefit from finishing
-          Short Rests.</p>
+          <p>The target is cursed for 24 hours or until the attacking creature dies. Until the curse ends, the target
+          gains no benefit from finishing Short Rests.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -857,8 +853,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.mmRestlessTouch0.BvP51cOd6lyrhEgq
+        _key: '!actors.items.effects!mmIncubus0000000.mmRestlessTouch0.BvP51cOd6lyrhEgq'
     flags:
       degringo5e:
         riders:
@@ -937,9 +932,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRestlessTouch0]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRestlessTouch0]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1182,18 +1175,14 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise
-          Self}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDisguiseSe]{Disguise Self}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDream00000]{Dream}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHypnoticPa]{Hypnotic
-          Pattern}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHypnoticPa]{Hypnotic Pattern}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1318,17 +1307,13 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Y9H9ImnMcffBZlH3]], one [[lookup
-          @target.affects.type activity=Y9H9ImnMcffBZlH3]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=Y9H9ImnMcffBZlH3]] feet.</p><p><em>Failure:</em> If the
-          target has 20 Hit Points or fewer, it has the
-          &amp;Reference[Unconscious apply=false] condition for [[lookup
-          @duration.value activity=Y9H9ImnMcffBZlH3]] [[lookup @duration.units
-          activity=Y9H9ImnMcffBZlH3]], until it takes damage, or until a
-          creature within 5 feet of it takes an action to wake it. Otherwise,
-          the target takes [[/damage average]] damage.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Y9H9ImnMcffBZlH3]], one
+          [[lookup @target.affects.type activity=Y9H9ImnMcffBZlH3]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=Y9H9ImnMcffBZlH3]] feet.</p><p><em>Failure:</em> If the target has 20 Hit
+          Points or fewer, it has the &amp;Reference[Unconscious apply=false] condition for [[lookup @duration.value
+          activity=Y9H9ImnMcffBZlH3]] [[lookup @duration.units activity=Y9H9ImnMcffBZlH3]], until it takes damage, or
+          until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes [[/damage
+          average]] damage.</p>
         chat: ''
       identifier: nightmare
       source:
@@ -1365,10 +1350,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target has 20 Hit Points or fewer, it has the
-          &amp;Reference[Unconscious apply=false] condition for 1 hour, until it
-          takes damage, or until a creature within 5 feet of it takes an action
-          to wake it.</p>
+          <p>If the target has 20 Hit Points or fewer, it has the &amp;Reference[Unconscious apply=false] condition for
+          1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1385,8 +1368,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.mmNightmare00000.Di6rSDXgFkxAGsFE
+        _key: '!actors.items.effects!mmIncubus0000000.mmNightmare00000.Di6rSDXgFkxAGsFE'
     flags:
       degringo5e:
         riders:
@@ -1410,18 +1392,14 @@ items:
     system:
       description:
         value: >-
-          <p>You make yourself—including your clothing, armor, weapons, and
-          other belongings on your person—look different until the spell ends.
-          You can seem 1 foot shorter or taller and can appear heavier or
-          lighter. You must adopt a form that has the same basic arrangement of
-          limbs as you have. Otherwise, the extent of the illusion is up to
-          you.</p><p>The changes wrought by this spell fail to hold up to
-          physical inspection. For example, if you use this spell to add a hat
-          to your outfit, objects pass through the hat, and anyone who touches
-          it would feel nothing.</p><p>To discern that you are disguised, a
-          creature must take the Study action to inspect your appearance and
-          succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]]
-          check against your spell save DC.</p>
+          <p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look
+          different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You
+          must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the
+          illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For
+          example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who
+          touches it would feel nothing.</p><p>To discern that you are disguised, a creature must take the Study action
+          to inspect your appearance and succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check
+          against your spell save DC.</p>
         chat: ''
       source:
         custom: ''
@@ -1530,10 +1508,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">To discern that you
-          are disguised, a creature must take the Study action to inspect your
-          appearance and succeed on an [[/check ability=int skill=inv]] check
-          against your spell save DC.</span></p>
+          <p><span style="font-family:Signika, sans-serif">To discern that you are disguised, a creature must take the
+          Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your
+          spell save DC.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -1548,14 +1525,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.SrIb7dbaZs5F4zi9
+        _key: '!actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.SrIb7dbaZs5F4zi9'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1587,8 +1562,7 @@ items:
           modifiedTime: 1737649499720
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.dnd5espellchange
+        _key: '!actors.items.effects!mmIncubus0000000.Epzabor9RV5yUeqA.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 3900000
     ownership:
@@ -1612,25 +1586,18 @@ items:
     system:
       description:
         value: >-
-          <p>You step into the border regions of the Ethereal Plane, where it
-          overlaps with your current plane. You remain in the Border Ethereal
-          for the duration. During this time, you can move in any direction. If
-          you move up or down, every foot of movement costs an extra foot. You
-          can perceive the plane you left, which looks gray, and you can't see
-          anything there more than 60 feet away.</p><p>While on the Ethereal
-          Plane, you can affect and be affected only by creatures, objects, and
-          effects on that plane. Creatures that aren't on the Ethereal Plane
-          can't perceive or interact with you unless a feature gives them the
-          ability to do so.</p><p>When the spell ends, you return to the plane
-          you left in the spot that corresponds to your space in the Border
-          Ethereal. If you appear in an occupied space, you are shunted to the
-          nearest unoccupied space and take Force damage equal to twice the
-          number of feet you are moved.</p><p>This spell ends instantly if you
-          cast it while you are on the Ethereal Plane or a plane that doesn't
-          border it, such as one of the Outer Planes.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong>You can target up to three willing
-          creatures (including yourself) for each spell slot level above 7. The
-          creatures must be within 10 feet of you when you cast the spell.</p>
+          <p>You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You
+          remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move
+          up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray,
+          and you can't see anything there more than 60 feet away.</p><p>While on the Ethereal Plane, you can affect and
+          be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane
+          can't perceive or interact with you unless a feature gives them the ability to do so.</p><p>When the spell
+          ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If
+          you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal
+          to twice the number of feet you are moved.</p><p>This spell ends instantly if you cast it while you are on the
+          Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong>You can target up to three willing creatures (including yourself) for each
+          spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.</p>
         chat: ''
       source:
         custom: ''
@@ -1755,14 +1722,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.louTI4Z9bNUYBa8K
+        _key: '!actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.louTI4Z9bNUYBa8K'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.4niv7GRkc5MSpdJB
+        origin: Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.4niv7GRkc5MSpdJB
         changes:
           - key: system.properties
             mode: 2
@@ -1794,8 +1759,7 @@ items:
           modifiedTime: 1737649522336
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.dnd5espellchange
+        _key: '!actors.items.effects!mmIncubus0000000.cuHZ2sYkluUF9oHO.dnd5espellchange'
     folder: EdAGMG8IF26PLkD3
     sort: 1800000
     ownership:
@@ -1819,24 +1783,17 @@ items:
     system:
       description:
         value: >-
-          <p>You target a creature you know on the same plane of existence. You
-          or a willing creature you touch enters a trance state to act as a
-          dream messenger. While in the trance, the messenger is
-          &amp;Reference[Incapacitated apply=false] and has a Speed of
-          0.</p><p>If the target is asleep, the messenger appears in the
-          target's dreams and can converse with the target as long as it remains
-          asleep, through the spell's duration. The messenger can also shape the
-          dream's environment, creating landscapes, objects, and other images.
-          The messenger can emerge from the trance at any time, ending the
-          spell. The target recalls the dream perfectly upon waking.</p><p>If
-          the target is awake when you cast the spell, the messenger knows it
-          and can either end the trance (and the spell) or wait for the target
-          to sleep, at which point the messenger enters its dreams.</p><p>You
-          can make the messenger terrifying to the target. If you do so, the
-          messenger can deliver a message of no more than ten words, and then
-          the target makes a Wisdom saving throw. On a failed save, the target
-          gains no benefit from its rest, and it takes 3d6 Psychic damage when
-          it wakes up.</p>
+          <p>You target a creature you know on the same plane of existence. You or a willing creature you touch enters a
+          trance state to act as a dream messenger. While in the trance, the messenger is &amp;Reference[Incapacitated
+          apply=false] and has a Speed of 0.</p><p>If the target is asleep, the messenger appears in the target's dreams
+          and can converse with the target as long as it remains asleep, through the spell's duration. The messenger can
+          also shape the dream's environment, creating landscapes, objects, and other images. The messenger can emerge
+          from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.</p><p>If
+          the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the
+          spell) or wait for the target to sleep, at which point the messenger enters its dreams.</p><p>You can make the
+          messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten
+          words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its
+          rest, and it takes 3d6 Psychic damage when it wakes up.</p>
         chat: ''
       source:
         custom: ''
@@ -1979,8 +1936,8 @@ items:
             value: '0'
             priority: null
         description: >-
-          <p><span style="font-family:Signika, sans-serif">While in the trance,
-          the messenger is Incapacitated and has a Speed of 0.</span></p>
+          <p><span style="font-family:Signika, sans-serif">While in the trance, the messenger is Incapacitated and has a
+          Speed of 0.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1996,14 +1953,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.x52Ga7U45IJOPFxK
+        _key: '!actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.x52Ga7U45IJOPFxK'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.1LiS9RkRQ6CxlqU8
+        origin: Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.1LiS9RkRQ6CxlqU8
         changes:
           - key: system.properties
             mode: 2
@@ -2035,8 +1990,7 @@ items:
           modifiedTime: 1737649534591
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.dnd5espellchange
+        _key: '!actors.items.effects!mmIncubus0000000.CM68DGw3MVinKTAz.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2100000
     ownership:
@@ -2060,15 +2014,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create a twisting pattern of colors in a 30-foot Cube within
-          range. The pattern appears for a moment and vanishes. Each creature in
-          the area who can see the pattern must succeed on a Wisdom saving throw
-          or have the &amp;Reference[charmed apply=false] condition for the
-          duration. While Charmed, the creature has the
-          &amp;Reference[incapacitated apply=false] condition and a Speed of
-          0.</p><p>The spell ends for an affected creature if it takes any
-          damage or if someone else uses an action to shake the creature out of
-          its stupor.</p>
+          <p>You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment
+          and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have
+          the &amp;Reference[charmed apply=false] condition for the duration. While Charmed, the creature has the
+          &amp;Reference[incapacitated apply=false] condition and a Speed of 0.</p><p>The spell ends for an affected
+          creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>
         chat: ''
       source:
         custom: ''
@@ -2199,11 +2149,9 @@ items:
             value: '0'
             priority: null
         description: >-
-          <p>While &amp;Reference[charmed apply=false], the creature has the
-          &amp;Reference[incapacitated apply=false] condition and a Speed of
-          0.</p><p>The spell ends for an affected creature if it takes any
-          damage or if someone else uses an action to shake the creature out of
-          its stupor.</p>
+          <p>While &amp;Reference[charmed apply=false], the creature has the &amp;Reference[incapacitated apply=false]
+          condition and a Speed of 0.</p><p>The spell ends for an affected creature if it takes any damage or if someone
+          else uses an action to shake the creature out of its stupor.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2220,14 +2168,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.mjAs8ssQlgp0AQOp
+        _key: '!actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.mjAs8ssQlgp0AQOp'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.GLd7uBKeTMA5hZR1
+        origin: Compendium.degringo5e.actors24.Actor.mmIncubus0000000.Item.mmSpellcasting00.Activity.GLd7uBKeTMA5hZR1
         changes:
           - key: system.properties
             mode: 2
@@ -2259,8 +2205,7 @@ items:
           modifiedTime: 1737649572562
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.dnd5espellchange
+        _key: '!actors.items.effects!mmIncubus0000000.4pZ322c02dDoRQXF.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 1500000
     ownership:

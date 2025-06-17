@@ -491,15 +491,12 @@ items:
     system:
       description:
         value: >-
-          <p>The druid is a 4th-level spellcaster. Its spellcasting ability is
-          Wisdom (spell save DC 12, +4 to hit with spell attacks).</p><p>It has
-          the following druid spells prepared:</p><p>Cantrips (at will): [[/item
-          .SbSvZKkJASyk8jKo]]{druidcraft}, [[/item .eCPQuQkIabFKTl9u]]{produce
-          flame}, [[/item .VzgFzcmocr1X1cp4]]{shillelagh}</p><p>1st level (4
-          slots): [[/item .gMrWeG8fMDPRFiVe]]{entangle}, [[/item
-          .B0pnIcc52O6G8hi8]]{longstrider}, [[/item .aL1F8fvYLtNzUbKu]]{speak
-          with animals}, [[/item .WTbOQBsarsL1LuXJ]]{thunderwave}</p><p>2nd
-          level (3 slots): [[/item .X8w9EzYLGc4vQ1H2]]{animal messenger},
+          <p>The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with
+          spell attacks).</p><p>It has the following druid spells prepared:</p><p>Cantrips (at will): [[/item
+          .SbSvZKkJASyk8jKo]]{druidcraft}, [[/item .eCPQuQkIabFKTl9u]]{produce flame}, [[/item
+          .VzgFzcmocr1X1cp4]]{shillelagh}</p><p>1st level (4 slots): [[/item .gMrWeG8fMDPRFiVe]]{entangle}, [[/item
+          .B0pnIcc52O6G8hi8]]{longstrider}, [[/item .aL1F8fvYLtNzUbKu]]{speak with animals}, [[/item
+          .WTbOQBsarsL1LuXJ]]{thunderwave}</p><p>2nd level (3 slots): [[/item .X8w9EzYLGc4vQ1H2]]{animal messenger},
           [[/item .JPwIEfgUPVebr5AH]]{barkskin}</p>
         chat: <p>The druid is a spellcaster. Its spellcasting ability is Wisdom.</p>
       source:
@@ -547,10 +544,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]] or [[/damage twoHanded]]
-          if wielded with two hands.</p><p>With
-          @UUID[.udSiVp4nSrGBSvG1]{shillelagh}, [[/attack extended
-          activity=J8RgDbtkXvXUJDuD]]. [[/damage extended
+          <p>[[/attack extended]]. [[/damage extended]] or [[/damage twoHanded]] if wielded with two hands.</p><p>With
+          @UUID[.udSiVp4nSrGBSvG1]{shillelagh}, [[/attack extended activity=J8RgDbtkXvXUJDuD]]. [[/damage extended
           activity=J8RgDbtkXvXUJDuD]].</p>
         chat: <p>The Druid attacks with its Quarterstaff.</p>
       source:
@@ -811,13 +806,11 @@ items:
         flags:
           degringo5e:
             dependents:
-              - uuid: >-
-                  Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.KUP8WEfLxlcY7K2x.Activity.J8RgDbtkXvXUJDuD
+              - uuid: Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.KUP8WEfLxlcY7K2x.Activity.J8RgDbtkXvXUJDuD
             riders:
               statuses: []
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1.ActiveEffect.QPsqj6jfS0iXSrTs
+          compendiumSource: Compendium.degringo5e.monsters.Actor.K15Yl8JmB5iPircc.Item.udSiVp4nSrGBSvG1.ActiveEffect.QPsqj6jfS0iXSrTs
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -826,8 +819,7 @@ items:
           modifiedTime: 1744142295936
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!K15Yl8JmB5iPircc.KUP8WEfLxlcY7K2x.siLjGctswI3gx3B2
+        _key: '!actors.items.effects!K15Yl8JmB5iPircc.KUP8WEfLxlcY7K2x.siLjGctswI3gx3B2'
     folder: null
     sort: 0
     ownership:
@@ -856,26 +848,20 @@ items:
     system:
       description:
         value: >-
-          <p>Whispering to the spirits of Nature, you create one of the
-          following Effects within range:</p>
+          <p>Whispering to the spirits of Nature, you create one of the following Effects within range:</p>
 
           <ul>
 
-          <li>You create a tiny, harmless sensory effect that predicts what the
-          weather will be at your location for the next 24 hours. The effect
-          might manifest as a golden orb for clear skies, a cloud for rain,
-          Falling snowflakes for snow, and so on. This effect persists for 1
-          round.</li>
+          <li>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the
+          next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, Falling snowflakes
+          for snow, and so on. This effect persists for 1 round.</li>
 
-          <li>You instantly make a flower blossom, a seed pod open, or a leaf
-          bud bloom.</li>
+          <li>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li>
 
-          <li>You create an Instantaneous, harmless sensory effect, such as
-          Falling leaves, a puff of wind, the sound of a small animal, or the
-          faint odor of skunk. The effect must fit in a 5-foot cube.</li>
+          <li>You create an Instantaneous, harmless sensory effect, such as Falling leaves, a puff of wind, the sound of
+          a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.</li>
 
-          <li>You instantly light or snuff out a Candle, a torch, or a small
-          campfire.</li>
+          <li>You instantly light or snuff out a Candle, a torch, or a small campfire.</li>
 
           </ul>
         chat: ''
@@ -985,16 +971,13 @@ items:
     system:
       description:
         value: >-
-          <p>A flickering flame appears in your hand. The flame remains there
-          for the Duration and harms neither you nor your Equipment. The flame
-          sheds bright light in a 10-foot radius and dim light for an additional
-          10 feet. The spell ends if you dismiss it as an action or if you cast
-          it again.</p><p>You can also Attack with the flame, although doing so
-          ends the spell. When you cast this spell, or as an action on a later
-          turn, you can hurl the flame at a creature within 30 feet of you. Make
-          a ranged spell Attack. On a hit, the target takes 1d8 fire
-          damage.</p><p>This spell's damage increases by 1d8 when you reach 5th
-          level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+          <p>A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor
+          your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The
+          spell ends if you dismiss it as an action or if you cast it again.</p><p>You can also Attack with the flame,
+          although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the
+          flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire
+          damage.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th
+          level (4d8).</p>
         chat: ''
       source:
         custom: ''
@@ -1122,14 +1105,12 @@ items:
     system:
       description:
         value: >-
-          <p>Grasping weeds and vines sprout from the ground in a 20-foot square
-          starting from a point within range. For the Duration, these Plants
-          turn the ground in the area into difficult terrain.</p><p>A creature
-          in the area when you cast the spell must succeed on a Strength saving
-          throw or be Restrained by the entangling Plants until the spell ends.
-          A creature restrained by the plants can use its action to make a
-          Strength check against your spell save DC. On a success, it frees
-          itself.</p><p>When the spell ends, the conjured Plants wilt away.</p>
+          <p>Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For
+          the Duration, these Plants turn the ground in the area into difficult terrain.</p><p>A creature in the area
+          when you cast the spell must succeed on a Strength saving throw or be Restrained by the entangling Plants
+          until the spell ends. A creature restrained by the plants can use its action to make a Strength check against
+          your spell save DC. On a success, it frees itself.</p><p>When the spell ends, the conjured Plants wilt
+          away.</p>
         chat: ''
       source:
         custom: ''
@@ -1244,9 +1225,7 @@ items:
     type: spell
     system:
       description:
-        value: >-
-          <p>You touch a creature. The target's speed increases by 10 feet until
-          the spell ends.</p>
+        value: <p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p>
         chat: ''
       source:
         custom: ''
@@ -1356,13 +1335,10 @@ items:
     system:
       description:
         value: >-
-          <p>You gain the ability to comprehend and verbally communicate with
-          beasts for the duration. The knowledge and awareness of many beasts is
-          limited by their intelligence, but at minimum, beasts can give you
-          information about nearby locations and monsters, including whatever
-          they can perceive or have perceived within the past day. You might be
-          able to persuade a beast to perform a small favor for you, at the DM's
-          discretion.</p>
+          <p>You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and
+          awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information
+          about nearby locations and monsters, including whatever they can perceive or have perceived within the past
+          day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.</p>
         chat: ''
       source:
         custom: ''
@@ -1471,17 +1447,13 @@ items:
     system:
       description:
         value: >-
-          <p>A wave of thunderous force sweeps out from you. Each creature in a
-          15-foot cube originating from you must make a Constitution saving
-          throw. On a failed save, a creature takes 2d8 thunder damage and is
-          pushed 10 feet away from you. On a successful save, the creature takes
-          half as much damage and isn't pushed.</p><p>In addition, unsecured
-          objects that are completely within the area of effect are
-          automatically pushed 10 feet away from you by the spell's effect, and
-          the spell emits a thunderous boom audible out to 300
-          feet.</p><p><strong>Higher Levels.</strong> When you cast this spell
-          using a spell slot of 2nd level or higher, the damage increases by 1d8
-          for each slot level above 1st.</p>
+          <p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must
+          make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet
+          away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p><p>In
+          addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet
+          away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300
+          feet.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or
+          higher, the damage increases by 1d8 for each slot level above 1st.</p>
         chat: ''
       source:
         custom: ''
@@ -1605,24 +1577,17 @@ items:
     system:
       description:
         value: >-
-          <p>By means of this spell, you use an animal to deliver a message.
-          Choose a Tiny beast you can see within range, such as a squirrel, a
-          blue jay, or a bat. You specify a location, which you must have
-          visited, and a recipient who matches a general description, such as "a
-          man or woman dressed in the uniform of the town guard" or "a
-          red-haired dwarf wearing a pointed hat." You also speak a message of
-          up to twenty-five words. The target beast travels for the duration of
-          the spell toward the specified location, covering about 50 miles per
-          24 hours for a flying messenger, or 25 miles for other
-          animals.</p><p>When the messenger arrives, it delivers your message to
-          the creature that you described, replicating the sound of your voice.
-          The messenger speaks only to a creature matching the description you
-          gave. If the messenger doesn't reach its destination before the spell
-          ends, the message is lost, and the beast makes its way back to where
-          you cast this spell.</p><p><strong>At Higher Levels.</strong> If you
-          cast this spell using a spell slot of 3rd level or higher, the
-          duration of the spell increases by 48 hours for each slot level above
-          2nd.</p>
+          <p>By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within
+          range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a
+          recipient who matches a general description, such as "a man or woman dressed in the uniform of the town guard"
+          or "a red-haired dwarf wearing a pointed hat." You also speak a message of up to twenty-five words. The target
+          beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24
+          hours for a flying messenger, or 25 miles for other animals.</p><p>When the messenger arrives, it delivers
+          your message to the creature that you described, replicating the sound of your voice. The messenger speaks
+          only to a creature matching the description you gave. If the messenger doesn't reach its destination before
+          the spell ends, the message is lost, and the beast makes its way back to where you cast this
+          spell.</p><p><strong>At Higher Levels.</strong> If you cast this spell using a spell slot of 3rd level or
+          higher, the duration of the spell increases by 48 hours for each slot level above 2nd.</p>
         chat: ''
       source:
         custom: ''
@@ -1733,9 +1698,8 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a willing creature. Until the spell ends, the target's
-          skin has a rough, bark-like appearance, and the target's AC can't be
-          less than 16, regardless of what kind of armor it is wearing.</p>
+          <p>You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance,
+          and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.</p>
         chat: ''
       source:
         custom: ''
@@ -1863,8 +1827,7 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!K15Yl8JmB5iPircc.JPwIEfgUPVebr5AH.uM6rgctYpcbCVSkn
+        _key: '!actors.items.effects!K15Yl8JmB5iPircc.JPwIEfgUPVebr5AH.uM6rgctYpcbCVSkn'
     folder: null
     sort: 0
     ownership:
@@ -1889,12 +1852,10 @@ items:
     system:
       description:
         value: >-
-          <p>The wood of a club or quarterstaff you are holding is imbued with
-          nature's power. For the duration, you can use your spellcasting
-          ability instead of Strength for the attack and damage rolls of melee
-          attacks using that weapon, and the weapon's damage die becomes a d8.
-          The weapon also becomes magical, if it isn't already. The spell ends
-          if you cast it again or if you let go of the weapon.</p>
+          <p>The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can
+          use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that
+          weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The
+          spell ends if you cast it again or if you let go of the weapon.</p>
         chat: ''
       source:
         custom: ''
@@ -2114,8 +2075,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!K15Yl8JmB5iPircc.udSiVp4nSrGBSvG1.QPsqj6jfS0iXSrTs
+        _key: '!actors.items.effects!K15Yl8JmB5iPircc.udSiVp4nSrGBSvG1.QPsqj6jfS0iXSrTs'
     folder: Z8kZlnggh1PtuF3Y
     _stats:
       duplicateSource: null

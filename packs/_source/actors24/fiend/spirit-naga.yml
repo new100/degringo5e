@@ -569,10 +569,9 @@ items:
         max: ''
       description:
         value: >-
-          <p> If it dies, the [[lookup @name lowercase]] returns to life in [[/r
-          1d6]] days and regains all its Hit Points. Only a
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-          spell can prevent this trait from functioning.</p>
+          <p> If it dies, the [[lookup @name lowercase]] returns to life in [[/r 1d6]] days and regains all its Hit
+          Points. Only a <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell can prevent
+          this trait from functioning.</p>
         chat: ''
       identifier: fiendish-restoration
       source:
@@ -668,9 +667,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item
-          .mmBite0000000000]] or [[/item .mmNecroticRay000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item .mmBite0000000000]] or [[/item
+          .mmNecroticRay000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -938,9 +936,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: necrotic-ray
       source:
@@ -1425,28 +1421,18 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Somatic or Material components and
-          using Intelligence as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage
-          Hand}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
-          Illusion}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water
-          Breathing}</em></p><p class="feature-trait"><strong>2/Day
-          Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
-          Thoughts}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDimensionD]{Dimension
-          Door}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
-          Person}</em> (level 3),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLightningB]{Lightning
-          Bolt}</em> (level 4)</p>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Somatic or
+          Material components and using Intelligence as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water Breathing}</em></p><p
+          class="feature-trait"><strong>2/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDimensionD]{Dimension Door}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold Person}</em> (level 3),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLightningB]{Lightning Bolt}</em> (level 4)</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1489,13 +1475,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1615,8 +1599,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1625,14 +1608,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.ppISVKQQqC18ap6D.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmSpiritNaga0000.ppISVKQQqC18ap6D.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1668,8 +1649,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.ppISVKQQqC18ap6D.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.ppISVKQQqC18ap6D.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1696,16 +1676,12 @@ items:
     system:
       description:
         value: >-
-          <p>A spectral, floating hand appears at a point you choose within
-          range. The hand lasts for the duration. The hand vanishes if it is
-          ever more than 30 feet away from you or if you cast this spell
-          again.</p><p>When you cast the spell, you can use the hand to
-          manipulate an object, open an unlocked door or container, stow or
-          retrieve an item from an open container, or pour the contents out of a
-          vial.</p><p>As a Magic action on your later turns, you can control the
-          hand thus again. As part of that action, you can move the hand up to
-          30 feet.</p><p>The hand can't attack, activate magic items, or carry
-          more than 10 pounds.</p>
+          <p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The
+          hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you
+          cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your
+          later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30
+          feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
         chat: ''
       source:
         custom: ''
@@ -1820,8 +1796,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.JBwgHtcNh3rpOe0d
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.JBwgHtcNh3rpOe0d
         changes:
           - key: system.properties
             mode: 2
@@ -1857,8 +1832,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.Rd4Kg9SxqLxAALXU.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.Rd4Kg9SxqLxAALXU.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1000000
     ownership:
@@ -1885,24 +1859,18 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. See the descriptions below for the effects of each.
-          The illusion ends if you cast this spell again.</p><p>If a creature
-          takes a Study action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful [[/check
-          ability=int skill=inv dc=@attributes.spell.dc]] check against your
-          spell save DC. If a creature discerns the illusion for what it is, the
-          illusion becomes faint to the creature.</p><p><strong>Sound.</strong>
-          If you create a sound, its volume can range from a whisper to a
-          scream. It can be your voice, someone else's voice, a lion's roar, a
-          beating of drums, or any other sound you choose. The sound continues
-          unabated throughout the duration, or you can make discrete sounds at
-          different times before the spell ends.</p><p><strong>Image.</strong>
-          If you create an image of an object—such as a chair, muddy footprints,
-          or a small chest—it must be no larger than a 5-foot Cube. The image
-          can't create sound, light, smell, or any other sensory effect.
-          Physical interaction with the image reveals it to be an illusion,
-          since things can pass through it.</p>
+          <p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions
+          below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a
+          Study action to examine the sound or image, the creature can determine that it is an illusion with a
+          successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a
+          creature discerns the illusion for what it is, the illusion becomes faint to the
+          creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a
+          scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you
+          choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different
+          times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, since things can pass through it.</p>
         chat: ''
       source:
         custom: ''
@@ -2029,8 +1997,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.yxgkvp3hiKoJkhrE
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.yxgkvp3hiKoJkhrE
         changes:
           - key: system.properties
             mode: 2
@@ -2066,8 +2033,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.ga8WMfpmg6XsmKzG.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.ga8WMfpmg6XsmKzG.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 600000
     ownership:
@@ -2091,9 +2057,8 @@ items:
     system:
       description:
         value: >-
-          <p>This spell grants up to ten willing creatures of your choice within
-          range the ability to breathe underwater until the spell ends. Affected
-          creatures also retain their normal mode of respiration.</p>
+          <p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater
+          until the spell ends. Affected creatures also retain their normal mode of respiration.</p>
         chat: ''
       source:
         custom: ''
@@ -2218,14 +2183,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.l6QBJ7Y0NAqE3rnq.hyFupFam9XIbim0U
+        _key: '!actors.items.effects!mmSpiritNaga0000.l6QBJ7Y0NAqE3rnq.hyFupFam9XIbim0U'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.wPddHOl3ZSTcG9a0
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.wPddHOl3ZSTcG9a0
         changes:
           - key: system.properties
             mode: 2
@@ -2261,8 +2224,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.l6QBJ7Y0NAqE3rnq.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.l6QBJ7Y0NAqE3rnq.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 100025
     ownership:
@@ -2286,28 +2248,20 @@ items:
     system:
       description:
         value: >-
-          <p>You activate one of the effects below. Until the spell ends, you
-          can activate either effect as a Magic action on your later
-          turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence
-          of thoughts within 30 feet of yourself that belong to creatures that
-          know languages or are telepathic. You don't read the thoughts, but you
-          know that a thinking creature is present.</p><p>The spell is blocked
-          by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
-          lead.</p><p><strong>Read Thoughts.</strong> Target one creature you
-          can see within 30 feet of yourself or one creature within 30 feet of
-          yourself that you detected with the Sense Thoughts option. You learn
-          what is most on the target's mind right now. If the target doesn't
-          know any languages and isn't telepathic, you learn nothing.</p><p>As a
-          Magic action on your next turn, you can try to probe deeper into the
-          target's mind. If you probe deeper, the target makes a Wisdom saving
-          throw. On a failed save, you discern the target's reasoning, emotions,
-          and something that looms large in its mind (such as a worry, love, or
-          hate). On a successful save, the spell ends. Either way, the target
-          knows that you are probing into its mind, and until you shift your
-          attention away from the target's mind, the target can take an action
-          on its turn to make an [[/check ability=int skill=arc
-          dc=@attributes.spell.dc]] check against your spell save DC, ending the
-          spell on a success.</p>
+          <p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic
+          action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within
+          30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the
+          thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone,
+          dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one
+          creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected
+          with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't
+          know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can
+          try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a
+          failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as
+          a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are
+          probing into its mind, and until you shift your attention away from the target's mind, the target can take an
+          action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your
+          spell save DC, ending the spell on a success.</p>
         chat: ''
       source:
         custom: ''
@@ -2458,8 +2412,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.d3L4W97ZwN5j4RPF
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.d3L4W97ZwN5j4RPF
         changes:
           - key: system.properties
             mode: 2
@@ -2495,8 +2448,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.0TYpeSGwwVhokYoU.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.0TYpeSGwwVhokYoU.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4000000
     ownership:
@@ -2523,17 +2475,13 @@ items:
     system:
       description:
         value: >-
-          <p>You teleport to a location within range. You arrive at exactly the
-          spot desired. It can be a place you can see, one you can visualize, or
-          one you can describe by stating distance and direction, such as "200
-          feet straight downward" or "300 feet upward to the northwest at a
-          45-degree angle."</p><p>You can also teleport one willing creature.
-          The creature must be within 5 feet of you when you teleport, and it
-          teleports to a space within 5 feet of your destination space.</p><p>If
-          you, the other creature, or both would arrive in a space occupied by a
-          creature or completely filled by one or more objects, you and any
-          creature traveling with you each take 4d6 Force damage, and the
-          teleportation fails.</p>
+          <p>You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can
+          see, one you can visualize, or one you can describe by stating distance and direction, such as "200 feet
+          straight downward" or "300 feet upward to the northwest at a 45-degree angle."</p><p>You can also teleport one
+          willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space
+          within 5 feet of your destination space.</p><p>If you, the other creature, or both would arrive in a space
+          occupied by a creature or completely filled by one or more objects, you and any creature traveling with you
+          each take 4d6 Force damage, and the teleportation fails.</p>
         chat: ''
       source:
         custom: ''
@@ -2640,8 +2588,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.uxAjxivJQNXhNs1K
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.uxAjxivJQNXhNs1K
         changes:
           - key: system.properties
             mode: 2
@@ -2677,8 +2624,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.3fMt232wtzBUxB1m.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.3fMt232wtzBUxB1m.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 2700000
     ownership:
@@ -2817,8 +2763,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the end of each of its turns, the target repeats the [[/save
-          ability=wis]] save, ending the spell on itself on a success.</p>
+          <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on
+          itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2834,14 +2780,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.FPXJqMmeIZ9rTLFW.PklwZi3SKQ3JU2M2
+        _key: '!actors.items.effects!mmSpiritNaga0000.FPXJqMmeIZ9rTLFW.PklwZi3SKQ3JU2M2'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.uDCKxQVQwJRjB7sq
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.uDCKxQVQwJRjB7sq
         changes:
           - key: system.properties
             mode: 2
@@ -2877,8 +2821,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.FPXJqMmeIZ9rTLFW.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.FPXJqMmeIZ9rTLFW.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2800000
     ownership:
@@ -2902,12 +2845,10 @@ items:
     system:
       description:
         value: >-
-          <p>A stroke of lightning forming a 100-foot-long, 5-foot-wide Line
-          blasts out from you in a direction you choose. Each creature in the
-          Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a
-          failed save or half as much damage on a successful
-          one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d6 for each spell slot level above 3.</p>
+          <p>A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you
+          choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save
+          or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage
+          increases by 1d6 for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -3015,8 +2956,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.RjwjOrKNbpyQUvOy
+        origin: Compendium.degringo5e.actors24.Actor.mmSpiritNaga0000.Item.mmSpellcasting00.Activity.RjwjOrKNbpyQUvOy
         changes:
           - key: system.properties
             mode: 2
@@ -3052,8 +2992,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSpiritNaga0000.etbC3HZq7ExbtgmW.dnd5espellchange
+        _key: '!actors.items.effects!mmSpiritNaga0000.etbC3HZq7ExbtgmW.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 1200000
     ownership:

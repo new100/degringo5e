@@ -167,14 +167,11 @@ system:
     max: '3'
   description:
     value: >-
-      <p><em>Ring, Rare</em></p><p>This ring has 3 charges, and it regains 1d3
-      expended charges daily at dawn. While wearing the ring, you can expend 1
-      charge to cast one of the following spells (save DC 13) from
+      <p><em>Ring, Rare</em></p><p>This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While
+      wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from
       it:</p><ul><li>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalFrie]{Animal
-      Friendship}</li><li>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}
-      (affects Beasts
-      only)</li><li>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak
-      with Animals}</li></ul>
+      Friendship}</li><li>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear} (affects Beasts
+      only)</li><li>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}</li></ul>
     chat: ''
   identifier: ring-of-animal-influence
   source:

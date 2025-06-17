@@ -649,9 +649,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmBite0000000000]] attacks. It can replace one attack with a [[/item
-          .mmTail0000000000]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmBite0000000000]] attacks. It can replace one attack
+          with a [[/item .mmTail0000000000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -911,9 +910,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Huge or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Huge or smaller creature, it has the
+          &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: tail
       source:
@@ -1010,8 +1008,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDragonTurtle00.mmTail0000000000.uAvQlHXKSwnCjRtt
+        _key: '!actors.items.effects!mmDragonTurtle00.mmTail0000000000.uAvQlHXKSwnCjRtt'
     flags:
       degringo5e:
         riders:
@@ -1115,14 +1112,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=5iI1KQRWrdMGh9sy]], each [[lookup
-          @target.affects.type activity=5iI1KQRWrdMGh9sy]] in a [[lookup
-          @target.template.size activity=5iI1KQRWrdMGh9sy]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage.</p><p
-          class="feature"><em>Success: </em>Half damage.</p><p
-          class="feature"><em>Failure or Success:</em> Being underwater doesn't
-          grant Resistance to this Fire damage.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=5iI1KQRWrdMGh9sy]],
+          each [[lookup @target.affects.type activity=5iI1KQRWrdMGh9sy]] in a [[lookup @target.template.size
+          activity=5iI1KQRWrdMGh9sy]]-foot Cone.</p><p class="feature"><em>Failure:</em> [[/damage average]]
+          damage.</p><p class="feature"><em>Success: </em>Half damage.</p><p class="feature"><em>Failure or
+          Success:</em> Being underwater doesn't grant Resistance to this Fire damage.</p>
         chat: ''
       identifier: steam-breath
       source:

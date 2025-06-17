@@ -2,8 +2,7 @@ _id: phbsplTeleportMi
 name: Teleport Mishap
 img: icons/magic/movement/abstract-ribbons-red-orange.webp
 description: >-
-  <p><strong>Mishap damage:</strong> [[/damage 3d10
-  type=force]]</p><p><strong>Off target distance:</strong> [[/r
+  <p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r
   2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>
 results:
   - type: text

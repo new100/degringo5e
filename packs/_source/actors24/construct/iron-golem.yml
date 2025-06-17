@@ -570,9 +570,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">Whenever the [[lookup @name lowercase]] is
-          subjected to Fire damage, it regains a number of Hit Points equal to
-          the Fire damage dealt.</p>
+          <p class="feature">Whenever the [[lookup @name lowercase]] is subjected to Fire damage, it regains a number of
+          Hit Points equal to the Fire damage dealt.</p>
         chat: ''
       identifier: fire-absorption
       source:
@@ -621,9 +620,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] can't
-          shape-shift.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] can't shape-shift.</p>
         chat: ''
       identifier: immutable-form
       source:
@@ -672,9 +669,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -760,8 +755,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attack, using [[/item
-          Bladed Arm]] or [[/item Fiery Bolt]] in any combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attack, using [[/item Bladed Arm]] or [[/item Fiery Bolt]] in any
+          combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -875,9 +870,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: fiery-bolt
       source:
@@ -1201,13 +1194,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=lnabW9bM51HoluPp]], each creature in a
-          [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot
-          [[lookup @target.template.type capitalize
-          activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
-          [[/damage average]] damage.</p><p class="feature"><em>Success:</em>
-          Half damage.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]],
+          each creature in a [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot [[lookup
+          @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage.</p><p class="feature"><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: poison-breath
       source:

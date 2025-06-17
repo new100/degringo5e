@@ -505,13 +505,11 @@ items:
     system:
       description:
         value: >-
-          <p>The solar's weapon attacks are magical. When the solar hits with
-          any weapon, the weapon deals an extra 6d8 radiant damage (included in
-          the attack).</p>
+          <p>The solar's weapon attacks are magical. When the solar hits with any weapon, the weapon deals an extra 6d8
+          radiant damage (included in the attack).</p>
         chat: >-
-          <p>The solar's weapon attacks are magical. When the solar hits with
-          any weapon, the weapon deals extra <em>radiant damage</em> (included
-          in the attack).</p>
+          <p>The solar's weapon attacks are magical. When the solar hits with any weapon, the weapon deals extra
+          <em>radiant damage</em> (included in the attack).</p>
       source:
         custom: ''
         book: ''
@@ -603,18 +601,13 @@ items:
     system:
       description:
         value: >-
-          <p>The solar releases its greatsword to hover magically in an
-          unoccupied space within 5 ft. of it. If the solar can see the sword,
-          the solar can mentally command it as a bonus action to fly up to 50
-          ft. and either make one attack against a target or return to the
-          solar's hands. If the hovering sword is targeted by any effect, the
-          solar is considered to be holding it. The hovering sword falls if the
-          solar dies.</p>
+          <p>The solar releases its greatsword to hover magically in an unoccupied space within 5 ft. of it. If the
+          solar can see the sword, the solar can mentally command it as a bonus action to fly up to 50 ft. and either
+          make one attack against a target or return to the solar's hands. If the hovering sword is targeted by any
+          effect, the solar is considered to be holding it. The hovering sword falls if the solar dies.</p>
         chat: >-
-          <p>The solar releases its greatsword to hover magically in an
-          unoccupied space within <strong>5 ft.</strong> of it. If the hovering
-          sword is targeted by any effect, the solar is considered to be holding
-          it. </p>
+          <p>The solar releases its greatsword to hover magically in an unoccupied space within <strong>5 ft.</strong>
+          of it. If the hovering sword is targeted by any effect, the solar is considered to be holding it. </p>
       source:
         custom: ''
         book: ''
@@ -713,9 +706,8 @@ items:
     system:
       description:
         value: >-
-          <p>The solar touches another creature. The target magically regains 40
-          ([[/heal]]{8d8 + 4}) hit points and is freed from any curse, disease,
-          poison, blindness, or deafness.</p>
+          <p>The solar touches another creature. The target magically regains 40 ([[/heal]]{8d8 + 4}) hit points and is
+          freed from any curse, disease, poison, blindness, or deafness.</p>
         chat: ''
       source:
         custom: ''
@@ -831,19 +823,17 @@ items:
     system:
       description:
         value: >-
-          <p>The solar's spell casting ability is Charisma (spell save DC 25).
-          It can innately cast the following spells, requiring no material
-          components:</p>
+          <p>The solar's spell casting ability is Charisma (spell save DC 25). It can innately cast the following
+          spells, requiring no material components:</p>
 
-          <p><strong>At will:</strong> [[/item .Mzh95utKDPIrjiH8]]{detect evil
-          and good}, [[/item .1N8dDMMgZ1h1YJ3B]]{invisibility} (self only)</p>
+          <p><strong>At will:</strong> [[/item .Mzh95utKDPIrjiH8]]{detect evil and good}, [[/item
+          .1N8dDMMgZ1h1YJ3B]]{invisibility} (self only)</p>
 
-          <p><strong>3/day each:</strong> [[/item .dLJhxDfeyOsc3zsY]]{blade
-          barrier}, [[/item .TkJ8Wtg1L7TZtspm]]{dispel evil and good}, [[/item
-          .jhhT9PsHy5A7EojO]]{resurrection}</p>
+          <p><strong>3/day each:</strong> [[/item .dLJhxDfeyOsc3zsY]]{blade barrier}, [[/item .TkJ8Wtg1L7TZtspm]]{dispel
+          evil and good}, [[/item .jhhT9PsHy5A7EojO]]{resurrection}</p>
 
-          <p><strong>1/day each:</strong> [[/item .d54VDyFulD9xxY7J]]{commune},
-          [[/item .ZPd73HtKF3At11jh]]{control weather}</p>
+          <p><strong>1/day each:</strong> [[/item .d54VDyFulD9xxY7J]]{commune}, [[/item .ZPd73HtKF3At11jh]]{control
+          weather}</p>
         chat: ''
       source:
         custom: ''
@@ -889,9 +879,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The solar has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The solar has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -937,9 +925,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The solar makes two [[/item .QssrfCioglFdfd8I]]{greatsword}
-          attacks.</p>
+        value: <p>The solar makes two [[/item .QssrfCioglFdfd8I]]{greatsword} attacks.</p>
         chat: ''
       source:
         custom: ''
@@ -1216,13 +1202,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature that has 100 hit points or fewer, it must succeed on a
-          [[/save]] saving throw or die.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature that has 100 hit points or
+          fewer, it must succeed on a [[/save]] saving throw or die.</p>
         chat: >-
-          <p>The Solar attacks with its Slaying Longbow. If the target is a
-          creature that has 190 hit points or fewer, it must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The Solar attacks with its Slaying Longbow. If the target is a creature that has 190 hit points or fewer,
+          it must make a <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1509,9 +1493,8 @@ items:
     system:
       description:
         value: >-
-          <p>The solar magically teleports, along with any equipment it is
-          wearing or carrying, up to 120 feet to an unoccupied space it can
-          see.</p>
+          <p>The solar magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an
+          unoccupied space it can see.</p>
         chat: ''
       source:
         custom: ''
@@ -1619,14 +1602,12 @@ items:
     system:
       description:
         value: >-
-          <p>The solar emits magical, divine energy. Each creature of its choice
-          in a 10-foot radius must make a [[/save]] saving throw, taking
-          [[/damage average]] damage on a failed save, or half as much damage on
-          a successful one.</p>
+          <p>The solar emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a
+          [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a
+          successful one.</p>
         chat: >-
-          <p>The solar emits magical, divine energy. Each creature of its choice
-          in a 10-foot radius must make a <strong>Dexterity</strong> saving
-          throw.</p>
+          <p>The solar emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1756,14 +1737,12 @@ items:
     system:
       description:
         value: >-
-          <p>The solar targets one creature it can see within 30 feet of it. If
-          the target can see it, the target must succeed on a [[/save]] saving
-          throw or be &amp;Reference[blinded apply=false] until magic such as
-          <em>lesser restoration</em> spell removes the blindness.</p>
+          <p>The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must
+          succeed on a [[/save]] saving throw or be &amp;Reference[blinded apply=false] until magic such as <em>lesser
+          restoration</em> spell removes the blindness.</p>
         chat: >-
-          <p>The solar targets one creature it can see within 30 feet of it. If
-          the target can see it, the target must succeed on a Constitution
-          saving throw or be blinded.</p>
+          <p>The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must
+          succeed on a Constitution saving throw or be blinded.</p>
       source:
         custom: ''
         book: ''
@@ -1864,9 +1843,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target is blinded until magic such as the <em>lesser
-          restoration</em> spell removes the blindness.</p>
+        description: <p>The target is blinded until magic such as the <em>lesser restoration</em> spell removes the blindness.</p>
         tint: '#ffffff'
         transfer: true
         statuses:
@@ -1886,8 +1863,7 @@ items:
           modifiedTime: 1745445558454
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!lOYt73eaJojBDxAV.iXcyU8grGuxZbkYJ.CPMieBYNggqmHRra
+        _key: '!actors.items.effects!lOYt73eaJojBDxAV.iXcyU8grGuxZbkYJ.CPMieBYNggqmHRra'
     folder: null
     sort: 0
     ownership:
@@ -1916,13 +1892,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you know if there is an aberration, celestial,
-          elemental, fey, fiend, or undead within 30 feet of you, as well as
-          where the creature is located. Similarly, you know if there is a place
-          or object within 30 feet of you that has been magically consecrated or
-          desecrated.</p><p>The spell can penetrate most barriers, but it is
-          blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of
-          lead, or 3 feet of wood or dirt.</p>
+          <p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30
+          feet of you, as well as where the creature is located. Similarly, you know if there is a place or object
+          within 30 feet of you that has been magically consecrated or desecrated.</p><p>The spell can penetrate most
+          barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of
+          wood or dirt.</p>
         chat: ''
       source:
         custom: ''
@@ -2032,12 +2006,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch becomes invisible until the spell ends.
-          Anything the target is wearing or carrying is invisible as long as it
-          is on the target's person. The spell ends for a target that attacks or
-          casts a spell.</p><p><strong>At Higher Levels.</strong> When you cast
-          this spell using a spell slot of 3rd level or higher, you can target
-          one additional creature for each slot level above 2nd.</p>
+          <p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is
+          invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a
+          spell.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or
+          higher, you can target one additional creature for each slot level above 2nd.</p>
         chat: ''
       source:
         custom: ''
@@ -2148,16 +2120,13 @@ items:
     system:
       description:
         value: >-
-          <p>You create a vertical wall of whirling, razor-sharp blades made of
-          magical energy. The wall appears within range and lasts for the
-          duration. You can make a straight wall up to 100 feet long, 20 feet
-          high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20
-          feet high, and 5 feet thick. The wall provides three-quarters cover to
-          creatures behind it, and its space is difficult terrain.</p><p>When a
-          creature enters the wall's area for the first time on a turn or starts
-          its turn there, the creature must make a Dexterity saving throw. On a
-          failed save, the creature takes 6d10 slashing damage. On a successful
-          save, the creature takes half as much damage.</p>
+          <p>You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within
+          range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet
+          thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides
+          three-quarters cover to creatures behind it, and its space is difficult terrain.</p><p>When a creature enters
+          the wall's area for the first time on a turn or starts its turn there, the creature must make a Dexterity
+          saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature
+          takes half as much damage.</p>
         chat: ''
       source:
         custom: ''
@@ -2291,22 +2260,16 @@ items:
     system:
       description:
         value: >-
-          <p>Shimmering energy surrounds and protects you from fey, Undead, and
-          creatures originating from Beyond the Material Plane. For the
-          Duration, Celestials, Elementals, fey, Fiends, and undead have
-          disadvantage on Attack rolls against you.</p><p>You can end the spell
-          early by using either of the following special
-          functions.</p><p><strong>Break Enchantment</strong>. As your action,
-          you touch a creature you can reach that is Charmed, Frightened, or
-          possessed by a Celestial, an elemental, a fey, a fiend, or an Undead.
-          The creature you touch is no longer charmed, frightened, or possessed
-          by such creatures.</p><p><strong>Dismissal</strong>. As your action,
-          make a melee spell Attack against a Celestial, an elemental, a fey, a
-          fiend, or an Undead you can reach. On a hit, you attempt to drive the
-          creature back to its home plane. The creature must succeed on a
-          Charisma saving throw or be sent back to its home plane (if it isn't
-          there already). If they aren't on their home plane, undead are sent to
-          the Shadowfell, and fey are sent to the Feywild.</p>
+          <p>Shimmering energy surrounds and protects you from fey, Undead, and creatures originating from Beyond the
+          Material Plane. For the Duration, Celestials, Elementals, fey, Fiends, and undead have disadvantage on Attack
+          rolls against you.</p><p>You can end the spell early by using either of the following special
+          functions.</p><p><strong>Break Enchantment</strong>. As your action, you touch a creature you can reach that
+          is Charmed, Frightened, or possessed by a Celestial, an elemental, a fey, a fiend, or an Undead. The creature
+          you touch is no longer charmed, frightened, or possessed by such creatures.</p><p><strong>Dismissal</strong>.
+          As your action, make a melee spell Attack against a Celestial, an elemental, a fey, a fiend, or an Undead you
+          can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a
+          Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their
+          home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.</p>
         chat: ''
       source:
         custom: ''
@@ -2482,22 +2445,16 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a dead creature that has been dead for no more than a
-          century, that didn't die of old age, and that isn't undead. If its
-          soul is free and willing, the target returns to life with all its hit
-          points.</p><p>This spell neutralizes any poisons and cures normal
-          diseases afflicting the creature when it died. It doesn't, however,
-          remove magical diseases, curses, and the like; if such effects aren't
-          removed prior to casting the spell, they afflict the target on its
-          return to life.</p><p>This spell closes all mortal wounds and restores
-          any missing body parts.</p><p>Coming back from the dead is an ordeal.
-          The target takes a −4 penalty to all attack rolls, saving throws, and
-          ability checks. Every time the target finishes a long rest, the
-          penalty is reduced by 1 until it disappears.</p><p>Casting this spell
-          to restore life to a creature that has been dead for one year or
-          longer taxes you greatly. Until you finish a long rest, you can't cast
-          spells again, and you have disadvantage on all attack rolls, ability
-          checks, and saving throws.</p>
+          <p>You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and
+          that isn't undead. If its soul is free and willing, the target returns to life with all its hit
+          points.</p><p>This spell neutralizes any poisons and cures normal diseases afflicting the creature when it
+          died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior
+          to casting the spell, they afflict the target on its return to life.</p><p>This spell closes all mortal wounds
+          and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. The target takes a −4
+          penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest,
+          the penalty is reduced by 1 until it disappears.</p><p>Casting this spell to restore life to a creature that
+          has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells
+          again, and you have disadvantage on all attack rolls, ability checks, and saving throws.</p>
         chat: ''
       source:
         custom: ''
@@ -2615,18 +2572,14 @@ items:
     system:
       description:
         value: >-
-          <p>You contact your deity or a divine proxy and ask up to three
-          questions that can be answered with a yes or no. You must ask your
-          questions before the spell ends. You receive a correct answer for each
-          question.</p><p>Divine beings aren't necessarily omniscient, so you
-          might receive "unclear" as an answer if a question pertains to
-          information that lies beyond the deity's knowledge. In a case where a
-          one-word answer could be misleading or contrary to the deity's
-          interests, the DM might offer a short phrase as an answer
-          instead.</p><p>If you cast the spell two or more times before
-          finishing your next long rest, there is a cumulative 25 percent chance
-          for each casting after the first that you get no answer. The DM makes
-          this roll in secret.</p>
+          <p>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or
+          no. You must ask your questions before the spell ends. You receive a correct answer for each
+          question.</p><p>Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a
+          question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer
+          could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer
+          instead.</p><p>If you cast the spell two or more times before finishing your next long rest, there is a
+          cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll
+          in secret.</p>
         chat: ''
       source:
         custom: ''
@@ -2744,18 +2697,14 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell. Moving to a place
-          where you don't have a clear path to the sky ends the spell
-          early.</p><p>When you cast the spell, you change the current weather
-          conditions, which are determined by the DM based on the climate and
-          season. You can change precipitation, temperature, and wind. It takes
-          1d4 x 10 minutes for the new conditions to take effect. Once they do
-          so, you can change the conditions again. When the spell ends, the
-          weather gradually returns to normal.</p><p>When you change the weather
-          conditions, find a current condition on the following tables and
-          change its stage by one, up or down. When changing the wind, you can
-          change its direction.</p><p><strong>Conditions</strong></p>
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell. Moving to a place where you don't have a clear path to the sky ends the spell early.</p><p>When you
+          cast the spell, you change the current weather conditions, which are determined by the DM based on the climate
+          and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new
+          conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the
+          weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on
+          the following tables and change its stage by one, up or down. When changing the wind, you can change its
+          direction.</p><p><strong>Conditions</strong></p>
 
           <ol>
 

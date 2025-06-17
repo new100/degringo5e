@@ -489,16 +489,13 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a  <strong>DC 11 Constitution</strong> saving throw against
-          being magically petrified. On a failed save, the creature begins to
-          turn to stone and is restrained. It must repeat the saving throw at
-          the end of its next turn. On a success, the effect ends. On a failure,
-          the creature is petrified for 24 hours.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a  <strong>DC 11
+          Constitution</strong> saving throw against being magically petrified. On a failed save, the creature begins to
+          turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success,
+          the effect ends. On a failure, the creature is petrified for 24 hours.</p>
         chat: >-
-          <p>The Cockatrice attacks with its Bite. The target must make a
-          <strong>Constitution</strong> saving throw. On a failed save, it must
-          repeat the saving throw at the end of its next turn.</p>
+          <p>The Cockatrice attacks with its Bite. The target must make a <strong>Constitution</strong> saving throw. On
+          a failed save, it must repeat the saving throw at the end of its next turn.</p>
       source:
         custom: ''
         book: ''

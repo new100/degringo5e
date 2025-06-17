@@ -489,16 +489,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a Medium or smaller creature, it is &amp;Reference[grappled] (escape
-          DC 17). Until this grapple ends, the target is
-          &amp;Reference[restrained], and the tyrannosaurus can't bite another
-          target.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a Medium or smaller creature, it is
+          &amp;Reference[grappled] (escape DC 17). Until this grapple ends, the target is &amp;Reference[restrained],
+          and the tyrannosaurus can't bite another target.</p>
         chat: >-
-          <p>The Tyrannosaurus Rex attacks with its Bite. If the target is a
-          Medium or smaller creature, it is grappled. Until this grapple ends,
-          the target is restrained, and the tyrannosaurus can't bite another
-          target.</p>
+          <p>The Tyrannosaurus Rex attacks with its Bite. If the target is a Medium or smaller creature, it is grappled.
+          Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target.</p>
       source:
         custom: ''
         book: ''
@@ -663,10 +659,8 @@ items:
     system:
       description:
         value: >-
-          <p>The tyrannosaurus makes two attacks: one with its [[/item
-          .O8pEyHMhxCwROJ6O]]{bite} and one with its [[/item
-          .jw9SyNUWRzgHe37B]]{tail}. It can't make both attacks against the same
-          target.</p>
+          <p>The tyrannosaurus makes two attacks: one with its [[/item .O8pEyHMhxCwROJ6O]]{bite} and one with its
+          [[/item .jw9SyNUWRzgHe37B]]{tail}. It can't make both attacks against the same target.</p>
         chat: ''
       source:
         custom: ''

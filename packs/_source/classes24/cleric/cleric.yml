@@ -6,33 +6,25 @@ img: systems/degringo5e/icons/classes/cleric.webp
 system:
   description:
     value: >-
-      <h3>Core Cleric Traits</h3><table class="core-class-traits"><tbody><tr><th
-      scope="row"><p>Primary Ability</p></th><td><p>Wisdom</p></td></tr><tr><th
-      scope="row"><p>Hit Point Die</p></th><td><p>D8 per Cleric
-      level</p></td></tr><tr><th scope="row"><p>Saving Throw
-      Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th
-      scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:
-      </em>History, Insight, Medicine, Persuasion, or
-      Religion</p></td></tr><tr><th scope="row"><p>Weapon
-      Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th
-      scope="row"><p>Armor Training</p></th><td><p>Light and Medium armor and
-      Shields</p></td></tr><tr><th scope="row"><p>Starting
+      <h3>Core Cleric Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary
+      Ability</p></th><td><p>Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8 per Cleric
+      level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and
+      Charisma</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>History,
+      Insight, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope="row"><p>Weapon
+      Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope="row"><p>Armor
+      Training</p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B:</em> (A)
       @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
       @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagPriestsPack]{Priest's Pack},
-      and [[/award 7GP]]; or (B) [[/award
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagPriestsPack]{Priest's Pack}, and [[/award 7GP]]; or (B) [[/award
       110GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Cleric …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Cleric
-      Traits table.</li><li>Gain the Cleric's level 1 features, which are listed
-      in the Cleric Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the following traits from the Core Cleric
-      Traits table: Hit Point Die and training with Light and Medium armor and
-      Shields.</li><li>Gain the Cleric's level 1 features, which are listed in
-      the Cleric Features table. See the multiclassing rules in chapter 2 to
+      inline classes="free-rules-embed"]</p><h2>Becoming a Cleric …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Cleric Traits table.</li><li>Gain the Cleric's level 1 features, which are listed in the
+      Cleric Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core
+      Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.</li><li>Gain the Cleric's
+      level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in chapter 2 to
       determine your available spell slots.</li></ul>
     chat: ''
   source:
@@ -377,9 +369,7 @@ system:
         added: {}
         replaced: {}
       title: Divine Order Choice
-      hint: >-
-        You have dedicated yourself to one of the following sacred roles of your
-        choice.
+      hint: You have dedicated yourself to one of the following sacred roles of your choice.
     - _id: C9ABIfTHZkeFpUva
       type: ItemChoice
       configuration:
@@ -401,9 +391,8 @@ system:
         replaced: {}
       title: Blessed Strikes Choice
       hint: >-
-        Divine power infuses you in battle. You gain one of the following
-        options of your choice (if you get either option from a Cleric subclass
-        in an older book, use only the option you choose for this feature).
+        Divine power infuses you in battle. You gain one of the following options of your choice (if you get either
+        option from a Cleric subclass in an older book, use only the option you choose for this feature).
     - _id: 14RcvdtbvXnTdR9P
       type: ScaleValue
       configuration:

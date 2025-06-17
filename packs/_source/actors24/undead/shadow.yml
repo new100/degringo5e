@@ -581,8 +581,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move through a space as narrow
-          as 1 inch without expending extra movement to do so.</p>
+          <p>The [[lookup @name lowercase]] can move through a space as narrow as 1 inch without expending extra
+          movement to do so.</p>
         chat: ''
       identifier: amorphous
       source:
@@ -631,9 +631,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">While in sunlight, the [[lookup @name lowercase]]
-          has Disadvantage on D20 Tests.</p>
+        value: <p class="feature">While in sunlight, the [[lookup @name lowercase]] has Disadvantage on D20 Tests.</p>
         chat: ''
       identifier: sunlight-weakness
       source:
@@ -852,17 +850,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]],
-          and the target's Strength score decreases by [[/r 1d4]]. The target
-          dies if this reduces that score to 0. If a Humanoid is slain by this
-          attack, a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmShadow00000000]{Shadow}</strong>
-          rises from the corpse [[/r 1d4]] hours later.</p><section
-          class="secret" id="secret-qqwbOYJqDuTP2N5e"><p><strong>Foundry
-          Note</strong></p><p>This feature also provides an <strong>Active
-          Effect (AE)</strong> to modify the target's <strong>Strength
-          Score</strong>. When the target roll's their d4 to determine the loss,
-          you can apply the respective AE to the target's sheet.</p></section>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]], and the target's Strength score
+          decreases by [[/r 1d4]]. The target dies if this reduces that score to 0. If a Humanoid is slain by this
+          attack, a <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmShadow00000000]{Shadow}</strong> rises from the
+          corpse [[/r 1d4]] hours later.</p><section class="secret" id="secret-qqwbOYJqDuTP2N5e"><p><strong>Foundry
+          Note</strong></p><p>This feature also provides an <strong>Active Effect (AE)</strong> to modify the target's
+          <strong>Strength Score</strong>. When the target roll's their d4 to determine the loss, you can apply the
+          respective AE to the target's sheet.</p></section>
         chat: ''
       identifier: draining-swipe
       source:
@@ -971,8 +965,7 @@ items:
           modifiedTime: 1738099880376
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmShadow00000000.mmDrainingSwipe0.6AjyMN83LppkkgC3
+        _key: '!actors.items.effects!mmShadow00000000.mmDrainingSwipe0.6AjyMN83LppkkgC3'
       - name: 'Hit: STR Score -2'
         img: icons/magic/unholy/hand-claw-fire-blue.webp
         origin: Compendium.dnd-monster-manual.features.Item.mmDrainingSwipe0
@@ -1018,8 +1011,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: erWoeO2hwGnu4yuR
-        _key: >-
-          !actors.items.effects!mmShadow00000000.mmDrainingSwipe0.erWoeO2hwGnu4yuR
+        _key: '!actors.items.effects!mmShadow00000000.mmDrainingSwipe0.erWoeO2hwGnu4yuR'
       - name: 'Hit: STR Score -3'
         img: icons/magic/unholy/hand-claw-fire-blue.webp
         origin: Compendium.dnd-monster-manual.features.Item.mmDrainingSwipe0
@@ -1065,8 +1057,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: JN2y9I5bw1HrU0Og
-        _key: >-
-          !actors.items.effects!mmShadow00000000.mmDrainingSwipe0.JN2y9I5bw1HrU0Og
+        _key: '!actors.items.effects!mmShadow00000000.mmDrainingSwipe0.JN2y9I5bw1HrU0Og'
       - name: 'Hit: STR Score -4'
         img: icons/magic/unholy/hand-claw-fire-blue.webp
         origin: Compendium.dnd-monster-manual.features.Item.mmDrainingSwipe0
@@ -1112,8 +1103,7 @@ items:
           lastModifiedBy: degringo5builder
           exportSource: null
         _id: nXy1JjamI8lCQT16
-        _key: >-
-          !actors.items.effects!mmShadow00000000.mmDrainingSwipe0.nXy1JjamI8lCQT16
+        _key: '!actors.items.effects!mmShadow00000000.mmDrainingSwipe0.nXy1JjamI8lCQT16'
     flags:
       degringo5e:
         riders:
@@ -1194,8 +1184,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While in Dim Light or Darkness, the [[lookup @name
-          lowercase]] takes the &amp;Reference[Hide] action.</p>
+          <p class="feature">While in Dim Light or Darkness, the [[lookup @name lowercase]] takes the
+          &amp;Reference[Hide] action.</p>
         chat: ''
       identifier: shadow-stealth
       source:
@@ -1257,8 +1247,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmShadow00000000.mmShadowStealth0.siHMgi75fxHCESex
+        _key: '!actors.items.effects!mmShadow00000000.mmShadowStealth0.siHMgi75fxHCESex'
     flags:
       degringo5e:
         riders:

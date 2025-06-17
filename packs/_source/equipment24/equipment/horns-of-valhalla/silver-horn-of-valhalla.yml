@@ -93,20 +93,16 @@ system:
     max: '7'
   description:
     value: >-
-      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgHornofValhall]{Horn
-      of Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits:
-      2</em></p><p>You can take a Magic action to blow this horn. In response,
-      warrior spirits from the plane of Ysgard appear in unoccupied spaces
-      within 60 feet of you. Each spirit uses the
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmBerserker00000]{Berserker}</strong>
-      stat block and returns to Ysgard after 1 hour or when it drops to 0 Hit
-      Points. The spirits look like living, breathing warriors, and they have
-      Immunity to the &amp;Reference[Charmed apply=false] and
-      &amp;Reference[Frightened apply=false] conditions. Once you use the horn,
-      it can't be used again until 7 days have passed.</p><p>If you blow the
-      horn without meeting its requirement, the summoned spirits attack you. If
-      you meet the requirement, they are Friendly to you and your allies and
-      follow your commands.</p>
+      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgHornofValhall]{Horn of
+      Valhalla}</em></p><p><em>Requirement: None</em></p><p><em>Spirits: 2</em></p><p>You can take a Magic action to
+      blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet
+      of you. Each spirit uses the
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmBerserker00000]{Berserker}</strong> stat block and returns to
+      Ysgard after 1 hour or when it drops to 0 Hit Points. The spirits look like living, breathing warriors, and they
+      have Immunity to the &amp;Reference[Charmed apply=false] and &amp;Reference[Frightened apply=false] conditions.
+      Once you use the horn, it can't be used again until 7 days have passed.</p><p>If you blow the horn without meeting
+      its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your
+      allies and follow your commands.</p>
     chat: ''
   identifier: silver-horn-of-valhalla
   source:
@@ -174,16 +170,14 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The spirits look like living, breathing warriors, and they have
-      Immunity to the &amp;Reference[Charmed apply=false] and
-      &amp;Reference[Frightened apply=false] conditions.</p>
+      <p>The spirits look like living, breathing warriors, and they have Immunity to the &amp;Reference[Charmed
+      apply=false] and &amp;Reference[Frightened apply=false] conditions.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgHornofValhall.ActiveEffect.7da5gsAdyzIIfWBL
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgHornofValhall.ActiveEffect.7da5gsAdyzIIfWBL
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

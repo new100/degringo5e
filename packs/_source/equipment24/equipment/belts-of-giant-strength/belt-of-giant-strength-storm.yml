@@ -11,11 +11,9 @@ system:
     max: ''
   description:
     value: >-
-      <div><p><em>See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt]</em></p><p>While
-      wearing this belt, your Strength changes to 29. The type of giant
-      determines the score. The item has no effect on you if your Strength
-      without the belt is equal to or greater than 29.</p></div>
+      <div><p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt]</em></p><p>While wearing this
+      belt, your Strength changes to 29. The type of giant determines the score. The item has no effect on you if your
+      Strength without the belt is equal to or greater than 29.</p></div>
     chat: ''
   identifier: belt-of-giant-strength
   source:
@@ -84,8 +82,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt.ActiveEffect.dVP7XiBERjMWs7xK
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgBeltOfGiantSt.ActiveEffect.dVP7XiBERjMWs7xK
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

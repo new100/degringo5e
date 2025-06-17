@@ -610,13 +610,10 @@ items:
         max: ''
       description:
         value: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">The
-          </span>[[lookup @name lowercase]] <span style="font-family:'Roboto
-          Condensed', sans-serif"> makes two </span> [[/item
-          .mmBeak0000000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif"> attacks. It can replace one attack with a </span> [[/item
-          .mmTalons00000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif"> attack.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">The </span>[[lookup @name lowercase]] <span
+          style="font-family:'Roboto Condensed', sans-serif"> makes two </span> [[/item .mmBeak0000000000]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> attacks. It can replace one attack with a </span> [[/item
+          .mmTalons00000000]]<span style="font-family:'Roboto Condensed', sans-serif"> attack.</span></p>
         chat: ''
       identifier: multiattack
       source:
@@ -905,12 +902,10 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a [[lookup @target.affects.special activity=xdrDC5kFs6sCOFiE]]
-          creature, it has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[lookup @skills.ath.passive]]) from both talons, and it
-          has the &amp;Reference[Restrained apply=false] condition until the
-          grapple ends.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.special
+          activity=xdrDC5kFs6sCOFiE]] creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC
+          [[lookup @skills.ath.passive]]) from both talons, and it has the &amp;Reference[Restrained apply=false]
+          condition until the grapple ends.</p>
         chat: ''
       identifier: talons
       source:
@@ -991,12 +986,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a [[lookup @target.affects.special
-          activity=xdrDC5kFs6sCOFiE]] creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC) from both
-          talons, and it has the &amp;Reference[Restrained apply=false]
-          condition until the grapple ends.</p>
+          <p>If the target is a [[lookup @target.affects.special activity=xdrDC5kFs6sCOFiE]] creature, it has the
+          &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see
+          source item for DC) from both talons, and it has the &amp;Reference[Restrained apply=false] condition until
+          the grapple ends.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1014,8 +1007,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmRoc00000000000.mmTalons00000000.14763NQ9RwBF1Vz8
+        _key: '!actors.items.effects!mmRoc00000000000.mmTalons00000000.14763NQ9RwBF1Vz8'
     flags:
       degringo5e:
         riders:
@@ -1104,10 +1096,9 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] has a creature
-          Grappled, the [[lookup @name lowercase]] flies up to half its Fly
-          Speed without provoking &amp;Reference[OpportunityAttacks] and drops
-          that creature.</p>
+          <p class="feature">If the [[lookup @name lowercase]] has a creature Grappled, the [[lookup @name lowercase]]
+          flies up to half its Fly Speed without provoking &amp;Reference[OpportunityAttacks] and drops that
+          creature.</p>
         chat: ''
       identifier: swoop
       source:

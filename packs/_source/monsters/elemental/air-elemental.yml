@@ -505,9 +505,8 @@ items:
     system:
       description:
         value: >-
-          <p>The elemental can enter a hostile creature's space and stop there.
-          It can move through a space as narrow as 1 inch wide without
-          squeezing.</p>
+          <p>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as
+          1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -553,9 +552,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The elemental makes two [[/item .qzLZFBO75loU77TZ]]{slam}
-          attacks.</p>
+        value: <p>The elemental makes two [[/item .qzLZFBO75loU77TZ]]{slam} attacks.</p>
         chat: ''
       source:
         custom: ''
@@ -819,23 +816,18 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in the elemental's space must make a [[/save]] saving
-          throw. On a failure, a target takes [[/damage average]] damage and is
-          flung up 20 feet away from the elemental in a random direction and
-          knocked prone.</p><p>If a thrown target strikes an object, such as a
-          wall or floor, the target takes [[/damage activity=dnd5eactivity000
-          average]] damage for every 10 feet it was thrown. If the target is
-          thrown at another creature, that creature must succeed on a [[/save
-          activity=k9fqQYuxbnT3pwT3]] saving throw or take the same damage and
-          be knocked prone. If the saving throw is successful, the target takes
-          half the bludgeoning damage and isn't flung away or knocked prone.</p>
+          <p>Each creature in the elemental's space must make a [[/save]] saving throw. On a failure, a target takes
+          [[/damage average]] damage and is flung up 20 feet away from the elemental in a random direction and knocked
+          prone.</p><p>If a thrown target strikes an object, such as a wall or floor, the target takes [[/damage
+          activity=dnd5eactivity000 average]] damage for every 10 feet it was thrown. If the target is thrown at another
+          creature, that creature must succeed on a [[/save activity=k9fqQYuxbnT3pwT3]] saving throw or take the same
+          damage and be knocked prone. If the saving throw is successful, the target takes half the bludgeoning damage
+          and isn't flung away or knocked prone.</p>
         chat: >-
-          <p>Each creature in the elemental's space must make a
-          <strong>Strength</strong> saving throw. On a failure, a target is
-          flung up 20 feet away from the elemental in a random direction and
-          knocked prone. If the target is thrown at another creature, that
-          creature must make a <strong>Dexterity</strong> saving throw or take
-          the same damage and be knocked prone.</p>
+          <p>Each creature in the elemental's space must make a <strong>Strength</strong> saving throw. On a failure, a
+          target is flung up 20 feet away from the elemental in a random direction and knocked prone. If the target is
+          thrown at another creature, that creature must make a <strong>Dexterity</strong> saving throw or take the same
+          damage and be knocked prone.</p>
       source:
         custom: ''
         book: ''

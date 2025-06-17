@@ -614,9 +614,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Medium or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: bite
       source:
@@ -692,9 +691,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -711,8 +708,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMastiff0000000.mmBite0000000000.rJ4BcfuckZ3LNG4R
+        _key: '!actors.items.effects!mmMastiff0000000.mmBite0000000000.rJ4BcfuckZ3LNG4R'
     flags:
       degringo5e:
         riders:

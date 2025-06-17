@@ -493,10 +493,9 @@ items:
     system:
       description:
         value: >-
-          <p>The otyugh can magically transmit simple messages and images to any
-          creature within 120 ft. of it that can understand a language. This
-          form of telepathy doesn't allow the receiving creature to
-          telepathically respond.</p>
+          <p>The otyugh can magically transmit simple messages and images to any creature within 120 ft. of it that can
+          understand a language. This form of telepathy doesn't allow the receiving creature to telepathically
+          respond.</p>
         chat: ''
       source:
         custom: ''
@@ -543,18 +542,14 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it must succeed on a [[/save]] saving throw against
-          disease or become &amp;Reference[poisoned apply=false] until the
-          disease is cured. Every 24 hours that elapse, the target must repeat
-          the saving throw, reducing its hit point maximum by 5 ([[/r 1d10]]) on
-          a failure. The disease is cured on a success. The target dies if the
-          disease reduces its hit point maximum to 0. This reduction to the
-          target's hit point maximum lasts until the disease is cured.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a
+          [[/save]] saving throw against disease or become &amp;Reference[poisoned apply=false] until the disease is
+          cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by
+          5 ([[/r 1d10]]) on a failure. The disease is cured on a success. The target dies if the disease reduces its
+          hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.</p>
         chat: >-
-          <p>The Otyugh attacks with its Bite. If the target is a creature, it
-          must make a <strong>Constitution</strong> saving throw. Every 24 hours
-          that elapse, the target must repeat the saving throw.</p>
+          <p>The Otyugh attacks with its Bite. If the target is a creature, it must make a <strong>Constitution</strong>
+          saving throw. Every 24 hours that elapse, the target must repeat the saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -782,15 +777,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          Medium or smaller, it is &amp;Reference[grappled apply=false] (escape
-          DC 13) and &amp;Reference[restrained apply=false] until the grapple
-          ends. The otyugh has two tentacles, each of which can grapple one
-          target.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is Medium or smaller, it is
+          &amp;Reference[grappled apply=false] (escape DC 13) and &amp;Reference[restrained apply=false] until the
+          grapple ends. The otyugh has two tentacles, each of which can grapple one target.</p>
         chat: >-
-          <p>The Otyugh attacks with its Tentacle. If the target is Medium or
-          smaller, it is grappled, and restrained until the grapple ends. The
-          otyugh has two tentacles, each of which can grapple one target.</p>
+          <p>The Otyugh attacks with its Tentacle. If the target is Medium or smaller, it is grappled, and restrained
+          until the grapple ends. The otyugh has two tentacles, each of which can grapple one target.</p>
       source:
         custom: ''
         book: ''
@@ -967,16 +959,13 @@ items:
     system:
       description:
         value: >-
-          <p>The otyugh slams creatures grappled by it into each other or a
-          solid surface. Each creature must succeed on a [[/save]] saving throw
-          or take [[/damage average]] damage and be &amp;Reference[stunned
-          apply=false] until the end of the otyugh's next turn.</p><p>On a
-          successful save, the target takes half the bludgeoning damage and
-          isn't stunned.</p>
+          <p>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on
+          a [[/save]] saving throw or take [[/damage average]] damage and be &amp;Reference[stunned apply=false] until
+          the end of the otyugh's next turn.</p><p>On a successful save, the target takes half the bludgeoning damage
+          and isn't stunned.</p>
         chat: >-
-          <p>The otyugh slams creatures grappled by it into each other or a
-          solid surface. Each creature must make a <strong>Constitution</strong>
-          saving throw.</p>
+          <p>The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -1093,8 +1082,7 @@ items:
     system:
       description:
         value: >-
-          <p>The otyugh makes three attacks: one with its [[/item
-          .CCawltKiVU4Mup9i]]{bite} and two with its [[/item
+          <p>The otyugh makes three attacks: one with its [[/item .CCawltKiVU4Mup9i]]{bite} and two with its [[/item
           .BPYsBEkmZMcGYZDh]]{tentacles}.</p>
         chat: ''
       source:

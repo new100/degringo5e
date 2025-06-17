@@ -6,40 +6,32 @@ img: systems/degringo5e/icons/classes/rogue.webp
 system:
   description:
     value: >-
-      <h3>Core Rogue Traits</h3><table class="core-class-traits"><tbody><tr><th
-      scope="row"><p>Primary
-      Ability</p></th><td><p>Dexterity</p></td></tr><tr><th scope="row"><p>Hit
-      Point Die</p></th><td><p>D8 per Rogue level</p></td></tr><tr><th
-      scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and
-      Intelligence</p></td></tr><tr><th scope="row"><p>Skill
-      Proficiencies</p></th><td><p><em>Choose 4: </em>Acrobatics, Athletics,
-      Deception, Insight, Intimidation, Investigation, Perception, Persuasion,
-      Sleight of Hand, or Stealth</p></td></tr><tr><th scope="row"><p>Weapon
-      Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have
-      the Finesse or Light property</p></td></tr><tr><th scope="row"><p>Tool
-      Proficiencies</p></th><td><p>Thieves' Tools</p></td></tr><tr><th
-      scope="row"><p>Armor Training</p></th><td><p>Light
-      armor</p></td></tr><tr><th scope="row"><p>Starting
+      <h3>Core Rogue Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary
+      Ability</p></th><td><p>Dexterity</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8 per Rogue
+      level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and
+      Intelligence</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 4: </em>Acrobatics,
+      Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or
+      Stealth</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons
+      that have the Finesse or Light property</p></td></tr><tr><th scope="row"><p>Tool
+      Proficiencies</p></th><td><p>Thieves' Tools</p></td></tr><tr><th scope="row"><p>Armor
+      Training</p></th><td><p>Light armor</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B:</em> (A)
-      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
-      2 @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Short­sword},
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
       @UUID[Compendium.degringo5e.equipment24.Item.phbamoArrows0000]{Arrows},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagQuiver00000]{Quiver},
       @UUID[Compendium.degringo5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagBurglarsPac]{Burglar's Pack},
-      and [[/award 8GP]]; or (B) [[/award
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagBurglarsPac]{Burglar's Pack}, and [[/award 8GP]]; or (B)
+      [[/award
       100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Rogue …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Rogue Traits
-      table.</li><li>Gain the Rogue's level 1 features, which are listed in the
-      Rogue Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the following traits from the Core Rogue Traits
-      table: Hit Point Die, proficiency in one skill of your choice from the
-      Rogue's skill list, proficiency with Thieves' Tools, and training with
-      Light armor.</li><li>Gain the Rogue's level 1 features, which are listed
-      in the
+      inline classes="free-rules-embed"]</p><h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Rogue Traits table.</li><li>Gain the Rogue's level 1 features, which are listed in the
+      Rogue Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core
+      Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list,
+      proficiency with Thieves' Tools, and training with Light armor.</li><li>Gain the Rogue's level 1 features, which
+      are listed in the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{Rogue
       Features table}.</li></ul>
     chat: ''
@@ -349,9 +341,8 @@ system:
       level: 1
       title: Expertise
       hint: >-
-        You gain Expertise in two of your skill proficiencies of your choice.
-        Sleight of Hand and Stealth are recommended if you have proficiency in
-        them.
+        You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are
+        recommended if you have proficiency in them.
     - _id: sqWH6tnUg7jiGaEj
       type: Trait
       configuration:
@@ -434,9 +425,8 @@ system:
       level: 1
       title: Thieves' Cant
       hint: >-
-        You picked up various languages in the communities where you plied your
-        roguish talents. You know Thieves’ Cant and one other language of your
-        choice, which you can choose from the languages below.
+        You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant
+        and one other language of your choice, which you can choose from the languages below.
     - _id: FiaNLovfP6tnY4tD
       type: Trait
       configuration:
@@ -451,8 +441,8 @@ system:
       level: 15
       title: ''
       hint: >-
-        Your cunning mind is exceptionally difficult to control. You gain
-        proficiency in Wisdom and Charisma saving throws.
+        Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving
+        throws.
     - _id: 1a9Y0H0W3MznIlYw
       type: ItemChoice
       configuration:
@@ -484,8 +474,8 @@ system:
         replaced: {}
       title: Epic Boon
       hint: >-
-        You gain an Epic Boon feat or another feat of your choice for which you
-        qualify. Boon of the Night Spirit is recommended.
+        You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is
+        recommended.
     - _id: YW6yxOO45ACMgnJT
       type: Subclass
       configuration: {}

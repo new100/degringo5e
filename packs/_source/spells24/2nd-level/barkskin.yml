@@ -2,9 +2,8 @@ name: Barkskin
 system:
   description:
     value: >-
-      <p>You touch a willing creature. Until the spell ends, the target's skin
-      assumes a bark-like appearance, and the target has an Armor Class of 17 if
-      its AC is lower than that.</p>
+      <p>You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the
+      target has an Armor Class of 17 if its AC is lower than that.</p>
     chat: ''
   source:
     custom: ''
@@ -116,8 +115,7 @@ effects:
     description: ''
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.JPwIEfgUPVebr5AH.ActiveEffect.uM6rgctYpcbCVSkn
+      compendiumSource: Compendium.degringo5e.spells.Item.JPwIEfgUPVebr5AH.ActiveEffect.uM6rgctYpcbCVSkn
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

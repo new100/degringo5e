@@ -494,13 +494,11 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> [[/attack]], 5 ft., one willing
-          creature, or a creature that is grappled by the vampire,
-          incapacitated, or restrained. [[/damage extended]].</p><p>The target's
-          hit point maximum is reduced by an amount equal to the necrotic damage
-          taken, and the vampire regains hit points equal to that amount. The
-          reduction lasts until the target finishes a long rest. The target dies
-          if this effect reduces its hit point maximum to 0.</p>
+          <p><em>Melee Weapon Attack:</em> [[/attack]], 5 ft., one willing creature, or a creature that is grappled by
+          the vampire, incapacitated, or restrained. [[/damage extended]].</p><p>The target's hit point maximum is
+          reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that
+          amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its
+          hit point maximum to 0.</p>
         chat: <p>The Vampire Spawn attacks with its Bite.</p>
       source:
         custom: ''
@@ -678,8 +676,8 @@ items:
       description:
         value: <p>[[/attack extended]]. [[/damage extended]]. </p>
         chat: >-
-          <p>The Vampire Spawn attacks with its Claws. Instead of dealing
-          damage, the vampire can grapple the target.</p>
+          <p>The Vampire Spawn attacks with its Claws. Instead of dealing damage, the vampire can grapple the
+          target.</p>
       source:
         custom: ''
         book: ''
@@ -841,9 +839,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The vampire makes two attacks, only one of which can be a [[/item
-          .HebvJc2NqYvdR79s]]{bite} attack.</p>
+        value: <p>The vampire makes two attacks, only one of which can be a [[/item .HebvJc2NqYvdR79s]]{bite} attack.</p>
         chat: ''
       source:
         custom: ''
@@ -943,14 +939,10 @@ items:
     system:
       description:
         value: >-
-          <p>The vampire regains <strong>10 hit points</strong> at the start of
-          its turn if it has at least <strong>1 hit point</strong> and isn't in
-          sunlight or running water. If the vampire takes <em>radiant
-          damage</em> or damage from holy water, this trait doesn't function at
-          the start of the vampire's next turn.</p>
-        chat: >-
-          <p>The vampire regains <strong>10 hit points</strong> at the start of
-          its turn.</p>
+          <p>The vampire regains <strong>10 hit points</strong> at the start of its turn if it has at least <strong>1
+          hit point</strong> and isn't in sunlight or running water. If the vampire takes <em>radiant damage</em> or
+          damage from holy water, this trait doesn't function at the start of the vampire's next turn.</p>
+        chat: <p>The vampire regains <strong>10 hit points</strong> at the start of its turn.</p>
       source:
         custom: ''
         book: ''
@@ -1057,8 +1049,8 @@ items:
     system:
       description:
         value: >-
-          <p>The vampire can climb difficult surfaces, including upside down on
-          ceilings, without needing to make an ability check.</p>
+          <p>The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an
+          ability check.</p>
         chat: ''
       source:
         custom: ''
@@ -1107,21 +1099,18 @@ items:
         value: >-
           <p>The vampire has the following flaws:</p>
 
-          <p><strong>Forbiddance</strong>. The vampire can't enter a residence
-          without an invitation from one of the occupants<strong>. </strong></p>
+          <p><strong>Forbiddance</strong>. The vampire can't enter a residence without an invitation from one of the
+          occupants<strong>. </strong></p>
 
-          <p><strong>Harmed by Running Water. </strong>The vampire takes 20
-          <em>acid damage</em> when it ends its turn in running water<strong>.
-          </strong></p>
+          <p><strong>Harmed by Running Water. </strong>The vampire takes 20 <em>acid damage</em> when it ends its turn
+          in running water<strong>. </strong></p>
 
-          <p><strong>Stake to the Heart. </strong>The vampire is destroyed if a
-          piercing weapon made of wood is driven into its heart while it is
-          incapacitated in its resting place<strong>. </strong></p>
+          <p><strong>Stake to the Heart. </strong>The vampire is destroyed if a piercing weapon made of wood is driven
+          into its heart while it is incapacitated in its resting place<strong>. </strong></p>
 
-          <p><strong>Sunlight Hypersensitivity.</strong> The vampire takes 20
-          <em>radiant damage</em> when it starts its turn in sunlight. While in
-          sunlight, it has<strong> disadvantage </strong>on attack rolls and
-          ability checks.</p>
+          <p><strong>Sunlight Hypersensitivity.</strong> The vampire takes 20 <em>radiant damage</em> when it starts its
+          turn in sunlight. While in sunlight, it has<strong> disadvantage </strong>on attack rolls and ability
+          checks.</p>
         chat: ''
       source:
         custom: ''

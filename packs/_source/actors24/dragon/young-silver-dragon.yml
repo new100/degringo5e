@@ -606,9 +606,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks. It can replace one attack with a use of
-          [[/item .mmParalyzingBrea]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks. It can replace one attack
+          with a use of [[/item .mmParalyzingBrea]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -864,12 +863,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=8P7hmd3Nron4RAIv]], each [[lookup @target.affects.type
-          activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
-          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], each [[lookup
+          @target.affects.type activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
+          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: cold-breath
       source:
@@ -980,17 +977,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup
-          @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup
-          @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p
-          class="feature"><em>First Failure:</em> The target has the
-          &amp;Reference[Incapacitated apply=false] condition until the end of
-          its next turn, when it repeats the save.</p><p
-          class="feature"><em>Second Failure:</em> The target has the
-          &amp;Reference[Paralyzed apply=false] condition, and it repeats the
-          save at the end of each of its turns, ending the effect on itself on a
-          success. After 1 minute, it succeeds automatically.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]],
+          each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size
+          activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class="feature"><em>First Failure:</em> The target has the
+          &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the
+          save.</p><p class="feature"><em>Second Failure:</em> The target has the &amp;Reference[Paralyzed apply=false]
+          condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success.
+          After 1 minute, it succeeds automatically.</p>
         chat: ''
       identifier: paralyzing-breath
       source:
@@ -1027,9 +1020,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the end of its next turn, when it repeats the
-          save.</p>
+          <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when
+          it repeats the save.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1055,8 +1047,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.MML0hjuixzKZ61FT
+        _key: '!actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.MML0hjuixzKZ61FT'
       - name: Paralyzed
         img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmParalyzingBrea
@@ -1074,10 +1065,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Paralyzed apply=false] condition,
-          and it repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After 1 minute, it succeeds
-          automatically.</p>
+          <p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of
+          each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1103,8 +1092,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.qHhQi1VSyVic0Z22
+        _key: '!actors.items.effects!mmYoungSilverDra.mmParalyzingBrea.qHhQi1VSyVic0Z22'
     flags:
       degringo5e:
         riders:

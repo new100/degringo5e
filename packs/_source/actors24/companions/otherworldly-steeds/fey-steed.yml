@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0 caption=false]</p>
       public: ''
     alignment: Neutral
     type:
@@ -483,9 +481,8 @@ items:
     system:
       description:
         value: >-
-          <p> When you regain Hit Points from a level 1+ spell, the steed
-          regains the same number of Hit Points if you're within 5 feet of
-          it.</p>
+          <p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if
+          you're within 5 feet of it.</p>
         chat: ''
       source:
         custom: ''
@@ -539,9 +536,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell's level of
-          Psychic damage.</p>
+          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the
+          spell's level of Psychic damage.</p>
         chat: ''
       source:
         custom: ''
@@ -665,8 +661,8 @@ items:
     system:
       description:
         value: >-
-          <p> The steed teleports, along with its rider, to an unoccupied space
-          of your choice up to 60 feet away from itself.</p>
+          <p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from
+          itself.</p>
         chat: ''
       source:
         custom: ''

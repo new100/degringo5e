@@ -650,9 +650,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -909,13 +907,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width
-          activity=bDqgmtLG3zcVuqdi]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:
@@ -1024,14 +1019,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=EGZ4bS4HpJkfNG9s]], each creature that isn't
-          currently affected by this breath in a [[lookup @target.template.size
-          activity=EGZ4bS4HpJkfNG9s]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> The target has Disadvantage on
-          Strength-based D20 Tests and subtracts 2 ([[/r 1d4]]) from its damage
-          rolls. It repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After [[lookup @duration.value
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=EGZ4bS4HpJkfNG9s]],
+          each creature that isn't currently affected by this breath in a [[lookup @target.template.size
+          activity=EGZ4bS4HpJkfNG9s]]-foot Cone.</p><p class="feature"><em>Failure:</em> The target has Disadvantage on
+          Strength-based D20 Tests and subtracts 2 ([[/r 1d4]]) from its damage rolls. It repeats the save at the end of
+          each of its turns, ending the effect on itself on a success. After [[lookup @duration.value
           activity=EGZ4bS4HpJkfNG9s]] minute, it succeeds automatically.</p>
         chat: ''
       identifier: weakening-breath
@@ -1073,10 +1065,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has Disadvantage on Strength-based D20 Tests and
-          subtracts 2 (1d4) from its damage rolls. It repeats the save at the
-          end of each of its turns, ending the effect on itself on a success.
-          After 1 minute, it succeeds automatically.</p>
+          <p>The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It
+          repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it
+          succeeds automatically.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -1101,8 +1092,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGoldDragonWyrm.mmWeakeningBreat.wpkp78XzdLs9q2C3
+        _key: '!actors.items.effects!mmGoldDragonWyrm.mmWeakeningBreat.wpkp78XzdLs9q2C3'
     flags:
       degringo5e:
         riders:

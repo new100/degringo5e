@@ -662,9 +662,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -757,9 +755,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          [[/item Spellcasting]] to cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind
           Spike}</em> (level 3 version).</p>
         chat: ''
       identifier: multiattack
@@ -1041,14 +1038,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=lnabW9bM51HoluPp]], each creature in a
-          [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot
-          [[lookup @target.template.type capitalize
-          activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
-          [[/damage average]] damage.</p><p class="feature"><em>Success:</em>
-          [[lookup @damage.onSave capitalize activity=lnabW9bM51HoluPp]]
-          damage.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]],
+          each creature in a [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot [[lookup
+          @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage.</p><p class="feature"><em>Success:</em> [[lookup @damage.onSave capitalize
+          activity=lnabW9bM51HoluPp]] damage.</p>
         chat: ''
       identifier: poison-breath
       source:
@@ -1241,15 +1235,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind
-          Spike}</em> (level 3 version)</p><p
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind Spike}</em> (level 3 version)</p><p
           class="feature-trait"><strong>1/Day:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGeas000000]{Geas}</em></p>
         chat: ''
@@ -1294,13 +1284,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1420,8 +1408,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1430,14 +1417,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.GdQeiI6jPaHkWcBV.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAdultGreenDrag.GdQeiI6jPaHkWcBV.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.cqi2NEwfNQ6tLmhe
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.cqi2NEwfNQ6tLmhe
         changes:
           - key: system.properties
             mode: 2
@@ -1469,8 +1454,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.GdQeiI6jPaHkWcBV.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultGreenDrag.GdQeiI6jPaHkWcBV.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1497,17 +1481,13 @@ items:
     system:
       description:
         value: >-
-          <p>You drive a spike of psionic energy into the mind of one creature
-          you can see within range. The target makes a Wisdom saving throw,
-          taking 3d8 Psychic damage on a failed save or half as much damage on a
-          successful one. On a failed save, you also always know the target's
-          location until the spell ends, but only while the two of you are on
-          the same plane of existence. While you have this knowledge, the target
-          can't become hidden from you, and if it has the
-          &amp;Reference[invisible apply=false] condition, it gains no benefit
-          from that condition against you.</p><p><strong>Using a Higher-Level
-          Spell Slot. </strong>The damage increases by 1d8 for each spell slot
-          level above 2.</p>
+          <p>You drive a spike of psionic energy into the mind of one creature you can see within range. The target
+          makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful
+          one. On a failed save, you also always know the target's location until the spell ends, but only while the two
+          of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from
+          you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that
+          condition against you.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d8 for
+          each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1630,11 +1610,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>You always know the target’s location until the spell ends, but
-          only while the two of you are on the same plane of existence. While
-          you have this knowledge, the target can’t become hidden from you, and
-          if it has the &amp;Reference[invisible apply=false] condition, it
-          gains no benefit from that condition against you.</p>
+          <p>You always know the target’s location until the spell ends, but only while the two of you are on the same
+          plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the
+          &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -1649,14 +1627,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.Tjtbg7vGvWPOJzrh.AbNgTsT2gRxwmBpg
+        _key: '!actors.items.effects!mmAdultGreenDrag.Tjtbg7vGvWPOJzrh.AbNgTsT2gRxwmBpg'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.wWcMNOhvarPgpPIT
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.wWcMNOhvarPgpPIT
         changes:
           - key: system.properties
             mode: 2
@@ -1688,8 +1664,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.Tjtbg7vGvWPOJzrh.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultGreenDrag.Tjtbg7vGvWPOJzrh.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1800000
     ownership:
@@ -1713,26 +1688,19 @@ items:
     system:
       description:
         value: >-
-          <p>You give a verbal command to a creature that you can see within
-          range, ordering it to carry out some service or refrain from an action
-          or a course of activity as you decide. The target must succeed on a
-          Wisdom saving throw or have the &amp;Reference[Charmed apply=false]
-          condition for the duration. The target automatically succeeds if it
-          can't understand your command.</p><p>While Charmed, the creature takes
-          [[/damage 5d10 type=psychic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p><p>You can issue any command you choose, short of an activity
-          that would result in certain death. Should you issue a suicidal
-          command, the spell ends.</p><p>A
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove
-          Curse}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-          Restoration}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-          spell ends this spell.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> If you use a level 7 or 8 spell slot, the duration is
-          365 days. If you use a level 9 spell slot, the spell lasts until it is
-          ended by one of the spells mentioned above.</p>
+          <p>You give a verbal command to a creature that you can see within range, ordering it to carry out some
+          service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom
+          saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target
+          automatically succeeds if it can't understand your command.</p><p>While Charmed, the creature takes [[/damage
+          5d10 type=psychic]] damage if it acts in a manner directly counter to your command. It takes this damage no
+          more than once each day.</p><p>You can issue any command you choose, short of an activity that would result in
+          certain death. Should you issue a suicidal command, the spell ends.</p><p>A
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell ends this
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 7 or 8 spell slot, the
+          duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells
+          mentioned above.</p>
         chat: ''
       source:
         custom: ''
@@ -1858,10 +1826,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>While &amp;Reference[Charmed apply=false], the creature takes
-          [[/damage 5d10 type=psyhic]] damage if it acts in a manner directly
-          counter to your command. It takes this damage no more than once each
-          day.</p>
+          <p>While &amp;Reference[Charmed apply=false], the creature takes [[/damage 5d10 type=psyhic]] damage if it
+          acts in a manner directly counter to your command. It takes this damage no more than once each day.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1877,14 +1843,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.uphk5wRe7cRCXMDE.TXwfzpj9bERo0X1r
+        _key: '!actors.items.effects!mmAdultGreenDrag.uphk5wRe7cRCXMDE.TXwfzpj9bERo0X1r'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.wjZhxhQ2wYKCpZSn
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmSpellcasting00.Activity.wjZhxhQ2wYKCpZSn
         changes:
           - key: system.properties
             mode: 2
@@ -1916,8 +1880,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.uphk5wRe7cRCXMDE.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultGreenDrag.uphk5wRe7cRCXMDE.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1900000
     ownership:
@@ -2003,8 +1966,7 @@ items:
       description:
         value: >-
           <p class="feature">The dragon uses [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind
-          Spike}</em> (level 3 version).</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMindSpike0]{Mind Spike}</em> (level 3 version).</p>
         chat: ''
       identifier: mind-invasion
       source:
@@ -2047,17 +2009,13 @@ items:
     system:
       description:
         value: >-
-          <p>You drive a spike of psionic energy into the mind of one creature
-          you can see within range. The target makes a Wisdom saving throw,
-          taking 3d8 Psychic damage on a failed save or half as much damage on a
-          successful one. On a failed save, you also always know the target's
-          location until the spell ends, but only while the two of you are on
-          the same plane of existence. While you have this knowledge, the target
-          can't become hidden from you, and if it has the
-          &amp;Reference[invisible apply=false] condition, it gains no benefit
-          from that condition against you.</p><p><strong>Using a Higher-Level
-          Spell Slot. </strong>The damage increases by 1d8 for each spell slot
-          level above 2.</p>
+          <p>You drive a spike of psionic energy into the mind of one creature you can see within range. The target
+          makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful
+          one. On a failed save, you also always know the target's location until the spell ends, but only while the two
+          of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from
+          you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that
+          condition against you.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d8 for
+          each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -2180,11 +2138,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>You always know the target’s location until the spell ends, but
-          only while the two of you are on the same plane of existence. While
-          you have this knowledge, the target can’t become hidden from you, and
-          if it has the &amp;Reference[invisible apply=false] condition, it
-          gains no benefit from that condition against you.</p>
+          <p>You always know the target’s location until the spell ends, but only while the two of you are on the same
+          plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the
+          &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2199,14 +2155,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.dy0l7xKBTqDorsVy.AbNgTsT2gRxwmBpg
+        _key: '!actors.items.effects!mmAdultGreenDrag.dy0l7xKBTqDorsVy.AbNgTsT2gRxwmBpg'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmMindInvasion00.Activity.SxaXUPLBRHtYL9As
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultGreenDrag.Item.mmMindInvasion00.Activity.SxaXUPLBRHtYL9As
         changes:
           - key: system.activation
             mode: 5
@@ -2250,8 +2204,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.dy0l7xKBTqDorsVy.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultGreenDrag.dy0l7xKBTqDorsVy.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1800000
     ownership:
@@ -2352,17 +2305,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Blm8nddvCOH69bL8]], each [[lookup
-          @target.affects.type activity=Blm8nddvCOH69bL8]] in a [[lookup
-          @target.template.size activity=Blm8nddvCOH69bL8]]-foot-Radius Sphere
-          centered on a point the [[lookup @name lowercase]] can see within
-          [[lookup @range.value activity=Blm8nddvCOH69bL8]] feet.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target takes a −2 penalty to AC until the end of its next turn.</p><p
-          class="feature"><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=Blm8nddvCOH69bL8]],
+          each [[lookup @target.affects.type activity=Blm8nddvCOH69bL8]] in a [[lookup @target.template.size
+          activity=Blm8nddvCOH69bL8]]-foot-Radius Sphere centered on a point the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=Blm8nddvCOH69bL8]] feet.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target takes a −2 penalty to AC until the end of its next turn.</p><p
+          class="feature"><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: noxious-miasma
       source:
@@ -2402,9 +2351,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target takes a −2 penalty to AC until the end of its next
-          turn.</p>
+        description: <p>The target takes a −2 penalty to AC until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2429,8 +2376,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultGreenDrag.mmNoxiousMiasma0.TSWsGeApnMgxOyIF
+        _key: '!actors.items.effects!mmAdultGreenDrag.mmNoxiousMiasma0.TSWsGeApnMgxOyIF'
     flags:
       degringo5e:
         riders:
@@ -2514,9 +2460,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:

@@ -71,10 +71,9 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison
-      must succeed on a DC 15 Constitution saving throw or have the
-      &amp;Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's
-      Speed is halved while the creature is Poisoned in this way.</p>
+      <p><em>Ingested Poison</em></p><p>A creature subjected to Torpor poison must succeed on a DC 15 Constitution
+      saving throw or have the &amp;Reference[Poisoned] condition for [[/r 4d6]] hours. The creature's Speed is halved
+      while the creature is Poisoned in this way.</p>
     chat: ''
   identifier: torpor
   source:
@@ -114,8 +113,7 @@ system:
   properties: []
 effects:
   - name: Poisoned
-    img: >-
-      icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp
+    img: icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp
     origin: Compendium.degringo5e.equipment24.Item.dmgTorpor0000000
     transfer: false
     _id: 4fBr9e0P9LVogtyq
@@ -138,8 +136,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

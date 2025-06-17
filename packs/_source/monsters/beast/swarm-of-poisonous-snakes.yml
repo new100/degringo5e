@@ -500,10 +500,9 @@ items:
     system:
       description:
         value: >-
-          <p>The swarm can occupy another creature's space and vice versa, and
-          the swarm can move through any opening large enough for a Tiny snake.
-          The swarm can't regain<strong> hit points</strong> or gain
-          temporary<strong> hit points</strong>.</p>
+          <p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening
+          large enough for a Tiny snake. The swarm can't regain<strong> hit points</strong> or gain temporary<strong>
+          hit points</strong>.</p>
         chat: ''
       source:
         custom: ''
@@ -550,15 +549,13 @@ items:
     system:
       description:
         value: >-
-          <p>Melee Weapon Attack: [[/attack]], 0 ft., one creature in the
-          swarm's space. Hit: [[/damage average]] damage, or [[/damage 1d6
-          piercing average]] damage if the swarm has half of its hit points or
-          fewer.</p><p>The target must make a [[/save]] saving throw, taking
-          [[/damage average activity=dnd5eactivity100]] damage on a failed save,
-          or half as much damage on a successful one.</p>
+          <p>Melee Weapon Attack: [[/attack]], 0 ft., one creature in the swarm's space. Hit: [[/damage average]]
+          damage, or [[/damage 1d6 piercing average]] damage if the swarm has half of its hit points or fewer.</p><p>The
+          target must make a [[/save]] saving throw, taking [[/damage average activity=dnd5eactivity100]] damage on a
+          failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The Swarm of Poisonous Snakes attacks with a flurry of Bites. The
-          target must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The Swarm of Poisonous Snakes attacks with a flurry of Bites. The target must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

@@ -2,9 +2,8 @@ name: Pass without Trace
 system:
   description:
     value: >-
-      <p>You radiate a concealing aura in a 30-foot Emanation for the duration.
-      While in the aura, you and each creature you choose have a +10 bonus to
-      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
+      <p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature
+      you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
     chat: ''
   source:
     custom: ''
@@ -113,8 +112,8 @@ effects:
         value: '10'
         priority: null
     description: >-
-      <p>While in the aura, you and each creature you choose have a +10 bonus to
-      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
+      <p>While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks
+      and leave no tracks.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

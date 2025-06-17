@@ -6,16 +6,13 @@ img: icons/magic/control/silhouette-hold-change-blue.webp
 system:
   description:
     value: >-
-      <p>An event in your past left an indelible mark on you, infusing you with
-      simmering magic. As a Bonus Action, you can unleash that magic for 1
-      minute, during which you gain the following benefits:</p><ul><li>The spell
-      save DC of your Sorcerer spells increases by 1.</li><li>You have Advantage
-      on the attack rolls of Sorcerer spells you cast.</li></ul><p>You can use
-      this feature twice, and you regain all expended uses of it when you finish
-      a Long Rest.</p><section id="secret-nB2j1T08cVjrcuAj"
-      class="secret"><p><strong>Foundry Note</strong></p><p>This feature
-      includes an Active Effect which will increase your spell save DC. The
-      Advantage on attack rolls is not automated.</p></section>
+      <p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you
+      can unleash that magic for 1 minute, during which you gain the following benefits:</p><ul><li>The spell save DC of
+      your Sorcerer spells increases by 1.</li><li>You have Advantage on the attack rolls of Sorcerer spells you
+      cast.</li></ul><p>You can use this feature twice, and you regain all expended uses of it when you finish a Long
+      Rest.</p><section id="secret-nB2j1T08cVjrcuAj" class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+      includes an Active Effect which will increase your spell save DC. The Advantage on attack rolls is not
+      automated.</p></section>
     chat: ''
   source:
     custom: ''
@@ -115,9 +112,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The spell save DC of your Sorcerer spells increases by 1.
-      (Automated)</p><p>You have Advantage on the attack rolls of Sorcerer
-      spells you cast. (Not automated)</p>
+      <p>The spell save DC of your Sorcerer spells increases by 1. (Automated)</p><p>You have Advantage on the attack
+      rolls of Sorcerer spells you cast. (Not automated)</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

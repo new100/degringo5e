@@ -2,16 +2,12 @@ name: Calm Emotions
 system:
   description:
     value: >-
-      <p>Each Humanoid in a 20-foot-radius Sphere centered on a point you choose
-      within range must succeed on a Charisma saving throw or be affected by one
-      of the following effects (choose for each creature):</p><ul><li>The
-      creature has Immunity to the Charmed and Frightened conditions until the
-      spell ends. If the creature was already Charmed or Frightened, those
-      conditions are suppressed for the duration.</li><li>The creature becomes
-      Indifferent about creatures of your choice that it's Hostile toward. This
-      indifference ends if the target takes damage or witnesses its allies
-      taking damage. When the spell ends, the creature's attitude returns to
-      normal.</li></ul>
+      <p>Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma
+      saving throw or be affected by one of the following effects (choose for each creature):</p><ul><li>The creature
+      has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or
+      Frightened, those conditions are suppressed for the duration.</li><li>The creature becomes Indifferent about
+      creatures of your choice that it's Hostile toward. This indifference ends if the target takes damage or witnesses
+      its allies taking damage. When the spell ends, the creature's attitude returns to normal.</li></ul>
     chat: ''
   source:
     custom: ''
@@ -130,9 +126,8 @@ effects:
         value: frightened
         priority: null
     description: >-
-      <p>The creature has Immunity to the Charmed and Frightened conditions
-      until the spell ends. If the creature was already Charmed or Frightened,
-      those conditions are suppressed for the duration.</p>
+      <p>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was
+      already Charmed or Frightened, those conditions are suppressed for the duration.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []
@@ -165,17 +160,15 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>The creature becomes Indifferent about creatures of your choice that
-      it’s Hostile toward. This indifference ends if the target takes damage or
-      witnesses its allies taking damage. When the spell ends, the creature’s
+      <p>The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference
+      ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s
       attitude returns to normal.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplCalmEmotio.ActiveEffect.xwyUvd93d4A5LHHH
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

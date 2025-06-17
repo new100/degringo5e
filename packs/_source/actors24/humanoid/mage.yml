@@ -563,9 +563,8 @@ items:
     system:
       description:
         value: >-
-          <p>An @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane
-          Focus} is bejeweled or carved to channel arcane magic. A Sorcerer,
-          Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>
+          <p>An @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to
+          channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>
         chat: ''
       price:
         value: 10
@@ -693,9 +692,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmArcaneBurst000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes three [[/item .mmArcaneBurst000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1312,25 +1309,18 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, using Intelligence as the spellcasting ability
-          (spell save DC [[lookup @attributes.spell.dc]]):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, using Intelligence as the
+          spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
+          Will:</strong> <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage
-          Armor}</em> (included in AC),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage
-          Hand}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage Armor}</em> (included in AC),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageHand00]{Mage Hand}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}</em></p><p
           class="feature-trait"><strong>2/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em>
-          (level 4 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em> (level 4 version),
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplConeofCold]{Cone of
-          Cold}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFly0000000]{Fly}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1436,8 +1426,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty
-          Step}</em>, using the same spellcasting ability as Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMistyStep0]{Misty Step}</em>, using the same spellcasting
+          ability as Spellcasting.</p>
         chat: ''
       identifier: misty-step
       source:
@@ -1479,9 +1469,7 @@ items:
   - name: Misty Step
     system:
       description:
-        value: >-
-          <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to
-          an unoccupied space you can see.</p>
+        value: <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>
         chat: ''
       source:
         custom: ''
@@ -1570,8 +1558,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmMistyStep00000.Activity.sstmyMnemXbXqI5Y
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmMistyStep00000.Activity.sstmyMnemXbXqI5Y
         changes:
           - key: system.activation
             mode: 5
@@ -1603,8 +1590,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.BtkwckQJktc8hRh0.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.BtkwckQJktc8hRh0.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1700000
     ownership:
@@ -1739,11 +1725,9 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCounterspe]{Counterspell}</em>
-          or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShield0000]{Shield}</em>
-          in response to the spell's trigger, using the same spellcasting
-          ability as Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCounterspe]{Counterspell}</em> or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShield0000]{Shield}</em> in response to the spell's
+          trigger, using the same spellcasting ability as Spellcasting.</p>
         chat: ''
       identifier: protective-magic
       source:
@@ -1786,11 +1770,9 @@ items:
     system:
       description:
         value: >-
-          <p>You attempt to interrupt a creature in the process of casting a
-          spell. The creature makes a Constitution saving throw. On a failed
-          save, the spell dissipates with no effect, and the action, Bonus
-          Action, or Reaction used to cast it is wasted. If that spell was cast
-          with a spell slot, the slot isn't expended.</p>
+          <p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution
+          saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction
+          used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p>
         chat: ''
       source:
         custom: ''
@@ -1800,9 +1782,7 @@ items:
         license: CC-BY-4.0
       activation:
         type: reaction
-        condition: >-
-          when you see a creature within range casting a spell with Verbal,
-          Somatic, or Material components
+        condition: when you see a creature within range casting a spell with Verbal, Somatic, or Material components
         value: null
       duration:
         value: ''
@@ -1886,8 +1866,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmProtectiveMagi.Activity.Jc8kZLhCdTcbaImH
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmProtectiveMagi.Activity.Jc8kZLhCdTcbaImH
         changes:
           - key: system.activation
             mode: 5
@@ -1919,8 +1898,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.AlYAtKsfv1ecczpO.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.AlYAtKsfv1ecczpO.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2900000
     ownership:
@@ -1944,11 +1922,9 @@ items:
     system:
       description:
         value: >-
-          <p>An imperceptible barrier of magical force protects you. Until the
-          start of your next turn, you have a +5 bonus to AC, including against
-          the triggering attack, and you take no damage from
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
-          Missile}</em>.</p>
+          <p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5
+          bonus to AC, including against the triggering attack, and you take no damage from
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>
         chat: ''
       source:
         custom: ''
@@ -1958,9 +1934,7 @@ items:
         license: CC-BY-4.0
       activation:
         type: reaction
-        condition: >-
-          when you are hit by an attack roll or targeted by the Magic Missile
-          spell
+        condition: when you are hit by an attack roll or targeted by the Magic Missile spell
         value: null
       duration:
         value: '1'
@@ -2063,13 +2037,11 @@ items:
         transfer: false
         name: Imperceptible Barrier
         description: >-
-          <p>Until the start of your next turn, you have a +5 bonus to AC,
-          including against the triggering attack, and you take no damage from
-          <em>Magic Missile</em>.</p>
+          <p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and
+          you take no damage from <em>Magic Missile</em>.</p>
         statuses: []
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+          compendiumSource: Compendium.degringo5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2082,14 +2054,12 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!mmMage0000000000.YmZroxEDsVyUTwxp.Bv3EoHGfYCprLdG1
+        _key: '!actors.items.effects!mmMage0000000000.YmZroxEDsVyUTwxp.Bv3EoHGfYCprLdG1'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmProtectiveMagi.Activity.1rK9SlZ7cBWEeWnG
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmProtectiveMagi.Activity.1rK9SlZ7cBWEeWnG
         changes:
           - key: system.activation
             mode: 5
@@ -2121,8 +2091,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.YmZroxEDsVyUTwxp.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.YmZroxEDsVyUTwxp.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 700000
     ownership:
@@ -2146,13 +2115,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -2272,8 +2239,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2282,14 +2248,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.jdJ9mSsHzJRBSwJK.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmMage0000000000.jdJ9mSsHzJRBSwJK.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes: []
         system: {}
         disabled: false
@@ -2317,8 +2281,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.jdJ9mSsHzJRBSwJK.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.jdJ9mSsHzJRBSwJK.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -2345,12 +2308,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch one Large or smaller object that isn't being worn or
-          carried by someone else. Until the spell ends, the object sheds Bright
-          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
-          light can be colored as you like.</p><p>Covering the object with
-          something opaque blocks the light. The spell ends if you cast it
-          again.</p>
+          <p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell
+          ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can
+          be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if
+          you cast it again.</p>
         chat: ''
       source:
         custom: ''
@@ -2468,8 +2429,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.HG2b5wxfWJIqibz2
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.HG2b5wxfWJIqibz2
         changes: []
         system: {}
         disabled: false
@@ -2497,8 +2457,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.bX7FoTCn4c1G1k5F.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.bX7FoTCn4c1G1k5F.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1100000
     ownership:
@@ -2522,9 +2481,8 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a willing creature who isn't wearing armor. Until the
-          spell ends, the target's base AC becomes 13 plus its Dexterity
-          modifier. The spell ends early if the target dons armor.</p>
+          <p>You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13
+          plus its Dexterity modifier. The spell ends early if the target dons armor.</p>
         chat: ''
       source:
         custom: ''
@@ -2640,8 +2598,7 @@ items:
         description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
         statuses: []
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+          compendiumSource: Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2654,14 +2611,12 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!mmMage0000000000.kJxdj680Yr2u1vqp.I59O22yjAwzqZOhN
+        _key: '!actors.items.effects!mmMage0000000000.kJxdj680Yr2u1vqp.I59O22yjAwzqZOhN'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.yRyZDoilcqPhpV9W
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.yRyZDoilcqPhpV9W
         changes: []
         system: {}
         disabled: false
@@ -2689,8 +2644,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.kJxdj680Yr2u1vqp.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.kJxdj680Yr2u1vqp.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1200000
     ownership:
@@ -2717,16 +2671,12 @@ items:
     system:
       description:
         value: >-
-          <p>A spectral, floating hand appears at a point you choose within
-          range. The hand lasts for the duration. The hand vanishes if it is
-          ever more than 30 feet away from you or if you cast this spell
-          again.</p><p>When you cast the spell, you can use the hand to
-          manipulate an object, open an unlocked door or container, stow or
-          retrieve an item from an open container, or pour the contents out of a
-          vial.</p><p>As a Magic action on your later turns, you can control the
-          hand thus again. As part of that action, you can move the hand up to
-          30 feet.</p><p>The hand can't attack, activate magic items, or carry
-          more than 10 pounds.</p>
+          <p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The
+          hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you
+          cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your
+          later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30
+          feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
         chat: ''
       source:
         custom: ''
@@ -2841,8 +2791,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.pGxN95dMxeflMZEo
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.pGxN95dMxeflMZEo
         changes: []
         system: {}
         disabled: false
@@ -2870,8 +2819,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.yBlKwkM3UNW4t3z0.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.yBlKwkM3UNW4t3z0.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1000000
     ownership:
@@ -2898,23 +2846,17 @@ items:
     system:
       description:
         value: >-
-          <p>You create a magical effect within range. Choose the effect from
-          the options below. If you cast this spell multiple times, you can have
-          up to three of its non-instantaneous effects active at a
-          time.</p><p><strong>Sensory Effect.</strong> You create an
-          instantaneous, harmless sensory effect, such as a shower of sparks, a
-          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
-          Play.</strong> You instantaneously light or snuff out a candle, a
-          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
-          instantaneously clean or soil an object no larger than 1 cubic
-          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
-          flavor up to 1 cubic foot of nonliving material for 1
-          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
-          mark, or a symbol appear on an object or a surface for 1
-          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
-          trinket or an illusory image that can fit in your hand. It lasts until
-          the end of your next turn. A trinket can deal no damage and has no
-          monetary worth.</p>
+          <p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell
+          multiple times, you can have up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a
+          shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You
+          instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or
+          Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor
+          Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a
+          surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory
+          image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and
+          has no monetary worth.</p>
         chat: ''
       source:
         custom: ''
@@ -3004,8 +2946,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.OYMNE2wRCgV8YaV3
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.OYMNE2wRCgV8YaV3
         changes: []
         system: {}
         disabled: false
@@ -3033,8 +2974,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.NBBMY4cvPDELwanu.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.NBBMY4cvPDELwanu.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 400000
     ownership:
@@ -3058,14 +2998,11 @@ items:
     system:
       description:
         value: >-
-          <p>A bright streak flashes from you to a point you choose within range
-          and then blossoms with a low roar into a fiery explosion. Each
-          creature in a 20-foot-radius Sphere centered on that point makes a
-          Dexterity saving throw, taking 8d6 Fire damage on a failed save or
-          half as much damage on a successful one.</p><p>Flammable objects in
-          the area that aren't being worn or carried start
-          burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d6 for each spell slot level above 3.</p>
+          <p>A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into
+          a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving
+          throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable
+          objects in the area that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -3178,8 +3115,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.OMMdgcswZDwcu4P9
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.OMMdgcswZDwcu4P9
         changes: []
         system: {}
         disabled: false
@@ -3207,8 +3143,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.7jrIuiiNO4BRkRCO.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.7jrIuiiNO4BRkRCO.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2100000
     ownership:
@@ -3232,11 +3167,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -3345,9 +3279,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3363,14 +3295,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.gYeuuG0rUMIaWuTJ.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmMage0000000000.gYeuuG0rUMIaWuTJ.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.PsQU2yHchoO5kFLT
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.PsQU2yHchoO5kFLT
         changes: []
         system: {}
         disabled: false
@@ -3398,8 +3328,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.gYeuuG0rUMIaWuTJ.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.gYeuuG0rUMIaWuTJ.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -3423,12 +3352,10 @@ items:
     system:
       description:
         value: >-
-          <p>You unleash a blast of cold air. Each creature in a 60-foot Cone
-          originating from you makes a Constitution saving throw, taking 8d8
-          Cold damage on a failed save or half as much damage on a successful
-          one. A creature killed by this spell becomes a frozen statue until it
-          thaws.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d8 for each spell slot level above 5.</p>
+          <p>You unleash a blast of cold air. Each creature in a 60-foot Cone originating from you makes a Constitution
+          saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature
+          killed by this spell becomes a frozen statue until it thaws.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>
         chat: ''
       source:
         custom: ''
@@ -3535,8 +3462,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.cDga1NaxiuzNOPlP
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.cDga1NaxiuzNOPlP
         changes: []
         system: {}
         disabled: false
@@ -3564,8 +3490,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.Kcbgq6wAMhP5M8dq.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.Kcbgq6wAMhP5M8dq.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 3000000
     ownership:
@@ -3589,11 +3514,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a willing creature. For the duration, the target gains a
-          Fly Speed of 60 feet and can hover. When the spell ends, the target
-          falls if it is still aloft unless it can stop the
-          fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 3.</p>
+          <p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When
+          the spell ends, the target falls if it is still aloft unless it can stop the fall.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above
+          3.</p>
         chat: ''
       source:
         custom: ''
@@ -3725,14 +3649,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.1hWmQp1lkTFED6qg.EHFLuTHqI6cXn1zb
+        _key: '!actors.items.effects!mmMage0000000000.1hWmQp1lkTFED6qg.EHFLuTHqI6cXn1zb'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.F9pGhXppRUa1chuR
+        origin: Compendium.degringo5e.actors24.Actor.mmMage0000000000.Item.mmSpellcasting00.Activity.F9pGhXppRUa1chuR
         changes: []
         system: {}
         disabled: false
@@ -3760,8 +3682,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMage0000000000.1hWmQp1lkTFED6qg.dnd5espellchange
+        _key: '!actors.items.effects!mmMage0000000000.1hWmQp1lkTFED6qg.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2000000
     ownership:
@@ -3805,8 +3726,7 @@ effects:
     description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+      compendiumSource: Compendium.degringo5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

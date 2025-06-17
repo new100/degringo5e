@@ -407,13 +407,10 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol
-        (Varies)},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbagHolySymbolV]{Holy
+        Symbol (Varies)}, @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
         Armor}</p></div><h1>Cultists</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.VICfYukXoYkWJ1yn
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Cultist
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Cultist
         Fanatic</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.DHw4tAz06WzLz07b
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -632,9 +629,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: pact-blade
       source:
@@ -919,17 +914,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, using Wisdom as the spellcasting ability (spell save
-          DC [[lookup @attributes.spell.dc]], +4 to hit with spell
-          attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, using Wisdom as the
+          spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +4 to hit with spell attacks):</p><p
+          class="feature-trait"><strong>At Will:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>2/Day:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em></p><p
           class="feature-trait"><strong>1/Day:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold
-          Person}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHoldPerson]{Hold Person}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1031,9 +1024,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpiritualW]{Spiritual
-          Weapon}</em> spell, using the same spellcasting ability as
-          Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpiritualW]{Spiritual Weapon}</em> spell, using the same
+          spellcasting ability as Spellcasting.</p>
         chat: ''
       identifier: spiritual-weapon
       source:
@@ -1078,16 +1070,12 @@ items:
     system:
       description:
         value: >-
-          <p>You create a floating, spectral force that resembles a weapon of
-          your choice and lasts for the duration. The force appears within range
-          in a space of your choice, and you can immediately make one melee
-          spell attack against one creature within 5 feet of the force. On a
-          hit, the target takes Force damage equal to 1d8 plus your spellcasting
-          ability modifier.</p><p>As a Bonus Action on your later turns, you can
-          move the force up to 20 feet and repeat the attack against a creature
-          within 5 feet of it.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The damage increases by 1d8 for every slot level above
-          2.</p>
+          <p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration.
+          The force appears within range in a space of your choice, and you can immediately make one melee spell attack
+          against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus
+          your spellcasting ability modifier.</p><p>As a Bonus Action on your later turns, you can move the force up to
+          20 feet and repeat the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d8 for every slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -1206,8 +1194,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpiritualWeapo.Activity.X8EhZV0KcZv64V4J
+        origin: Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpiritualWeapo.Activity.X8EhZV0KcZv64V4J
         changes:
           - key: system.activation
             mode: 5
@@ -1239,8 +1226,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.z817Et9IPt6qHawH.dnd5espellchange
+        _key: '!actors.items.effects!mmCultistFanatic.z817Et9IPt6qHawH.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 200000
     ownership:
@@ -1267,12 +1253,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch one Large or smaller object that isn't being worn or
-          carried by someone else. Until the spell ends, the object sheds Bright
-          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
-          light can be colored as you like.</p><p>Covering the object with
-          something opaque blocks the light. The spell ends if you cast it
-          again.</p>
+          <p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell
+          ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can
+          be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if
+          you cast it again.</p>
         chat: ''
       source:
         custom: ''
@@ -1390,8 +1374,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes: []
         system: {}
         disabled: false
@@ -1419,8 +1402,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.7Hk3xmtV1lhTEMu6.dnd5espellchange
+        _key: '!actors.items.effects!mmCultistFanatic.7Hk3xmtV1lhTEMu6.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1100000
     ownership:
@@ -1444,21 +1426,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -1551,8 +1528,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.onvTWamS398c51Rq
+        origin: Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.onvTWamS398c51Rq
         changes: []
         system: {}
         disabled: false
@@ -1580,8 +1556,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.XLyCWW9vPAQwvaGr.dnd5espellchange
+        _key: '!actors.items.effects!mmCultistFanatic.XLyCWW9vPAQwvaGr.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -1608,21 +1583,15 @@ items:
     system:
       description:
         value: >-
-          <p>You speak a one-word command to a creature you can see within
-          range. The target must succeed on a Wisdom saving throw or follow the
-          command on its next turn. Choose the command from these
-          options:</p><p><strong>Approach.</strong> The target moves toward you
-          by the shortest and most direct route, ending its turn if it moves
-          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
-          whatever it is holding and then ends its
-          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
-          away from you by the fastest available
-          means.</p><p><strong>Grovel.</strong> The target has the Prone
-          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
-          turn, the target doesn't move and takes no action or Bonus
-          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can affect one additional creature for each spell slot level above
-          1.</p>
+          <p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom
+          saving throw or follow the command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route,
+          ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is
+          holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you
+          by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then
+          ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for
+          each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1719,8 +1688,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.NsBX7tBXlDfi2BWV
+        origin: Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.NsBX7tBXlDfi2BWV
         changes: []
         system: {}
         disabled: false
@@ -1748,8 +1716,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.uW5SgMN0N4BGrkkl.dnd5espellchange
+        _key: '!actors.items.effects!mmCultistFanatic.uW5SgMN0N4BGrkkl.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4700000
     ownership:
@@ -1885,8 +1852,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>At the end of each of its turns, the target repeats the [[/save
-          ability=wis]] save, ending the spell on itself on a success.</p>
+          <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on
+          itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1902,14 +1869,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.usukVMEiBvOYV5GI.PklwZi3SKQ3JU2M2
+        _key: '!actors.items.effects!mmCultistFanatic.usukVMEiBvOYV5GI.PklwZi3SKQ3JU2M2'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.RmN0E36r5loY1n21
+        origin: Compendium.degringo5e.actors24.Actor.mmCultistFanatic.Item.mmSpellcasting00.Activity.RmN0E36r5loY1n21
         changes: []
         system: {}
         disabled: false
@@ -1937,8 +1902,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmCultistFanatic.usukVMEiBvOYV5GI.dnd5espellchange
+        _key: '!actors.items.effects!mmCultistFanatic.usukVMEiBvOYV5GI.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2800000
     ownership:

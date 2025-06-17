@@ -573,9 +573,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can enter an enemy's space and stop
-          there. It can move through a space as narrow as 1 inch without
-          expending extra movement to do so.</p>
+          <p>The [[lookup @name lowercase]] can enter an enemy's space and stop there. It can move through a space as
+          narrow as 1 inch without expending extra movement to do so.</p>
         chat: ''
       identifier: air-form
       source:
@@ -624,9 +623,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] has the
-          &amp;Reference[Invisible apply=false] condition.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] has the &amp;Reference[Invisible apply=false] condition.</p>
         chat: ''
       identifier: invisibility
       source:
@@ -716,9 +713,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmWindSwipe00000]] attacks. It can replace one attack with a use of
-          [[/item .mmVortex00000000]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmWindSwipe00000]] attacks. It can replace one attack
+          with a use of [[/item .mmVortex00000000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1087,16 +1083,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=cZy0VYbCVY8aRB4z]], one [[lookup
-          @target.affects.special activity=cZy0VYbCVY8aRB4z]] in the [[lookup
-          @name lowercase]]'s space.</p><p><em>Failure:</em> [[/damage average
-          activity=cZy0VYbCVY8aRB4z]] damage, and the target has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]). Until the grapple ends, the target can't cast
-          spells with a Verbal component and takes [[/damage average
-          activity=kDz92inkRCjGrPiz]] damage at the start of each of the
-          [[lookup @name lowercase]]'s turns.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=cZy0VYbCVY8aRB4z]],
+          one [[lookup @target.affects.special activity=cZy0VYbCVY8aRB4z]] in the [[lookup @name lowercase]]'s
+          space.</p><p><em>Failure:</em> [[/damage average activity=cZy0VYbCVY8aRB4z]] damage, and the target has the
+          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple
+          ends, the target can't cast spells with a Verbal component and takes [[/damage average
+          activity=kDz92inkRCjGrPiz]] damage at the start of each of the [[lookup @name lowercase]]'s turns.</p>
         chat: ''
       identifier: vortex
       source:
@@ -1133,11 +1125,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[/check ability=str skill=ath format=long]], see source
-          item for DC).</p><p>Until the grapple ends, the target can’t cast
-          spells with a Verbal component and takes additional damage at the
-          start of each of the NPC’s turns.</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC).</p><p>Until the grapple ends, the target can’t cast spells with a
+          Verbal component and takes additional damage at the start of each of the NPC’s turns.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1163,8 +1153,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmInvisibleStalk.mmVortex00000000.fWPQye4Mr7VNbX9J
+        _key: '!actors.items.effects!mmInvisibleStalk.mmVortex00000000.fWPQye4Mr7VNbX9J'
     flags:
       degringo5e:
         riders:
@@ -1190,9 +1179,7 @@ effects:
     img: systems/degringo5e/icons/svg/statuses/invisible.svg
     statuses:
       - invisible
-    description: >-
-      @Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u
-      inline]
+    description: '@Embed[Compendium.degringo5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]'
     type: base
     system: {}
     changes: []

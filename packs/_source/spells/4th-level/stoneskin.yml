@@ -6,9 +6,8 @@ type: spell
 system:
   description:
     value: >-
-      <p>This spell turns the flesh of a willing creature you touch as hard as
-      stone. Until the spell ends, the target has resistance to nonmagical
-      bludgeoning, piercing, and slashing damage.</p>
+      <p>This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target
+      has resistance to nonmagical bludgeoning, piercing, and slashing damage.</p>
     chat: ''
   source:
     custom: ''
@@ -130,9 +129,7 @@ effects:
     transfer: false
     flags: {}
     name: Stoneskin
-    description: >-
-      <p>The target has resistance to nonmagical bludgeoning, piercing, and
-      slashing damage.</p>
+    description: <p>The target has resistance to nonmagical bludgeoning, piercing, and slashing damage.</p>
     statuses: []
     _stats:
       compendiumSource: null

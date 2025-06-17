@@ -410,8 +410,7 @@ system:
         <div class="gear"><p><strong>Gear:</strong>
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
         (3)}</p></div><h1>Goblins</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Goblin
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Goblin
         Minion</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.x4VLvBATmEBnTTxK
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -793,8 +792,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Disengage] or &amp;Reference[Hide] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Disengage] or &amp;Reference[Hide]
+          action.</p>
         chat: ''
       identifier: nimble-escape
       source:
@@ -855,8 +854,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGoblinMinion00.mmNimbleEscape00.7U7Pe61lsMZgN7qh
+        _key: '!actors.items.effects!mmGoblinMinion00.mmNimbleEscape00.7U7Pe61lsMZgN7qh'
     flags:
       degringo5e:
         riders:

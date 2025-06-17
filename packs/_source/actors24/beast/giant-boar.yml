@@ -560,9 +560,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]] has
-          Advantage on attack rolls.</p>
+        value: <p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]] has Advantage on attack rolls.</p>
         chat: ''
       identifier: bloodied-fury
       source:
@@ -733,11 +731,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]]
-          creature and the [[lookup @name lowercase]] moved 20+ feet straight
-          toward it immediately before the hit, the target takes an extra
-          [[/damage 2d6 average type=piercing]] damage and has the
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a [[lookup @target.affects.special
+          activity=iBenqFiBu40bUxkH]] creature and the [[lookup @name lowercase]] moved 20+ feet straight toward it
+          immediately before the hit, the target takes an extra [[/damage 2d6 average type=piercing]] damage and has the
           &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: gore
@@ -819,8 +815,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Prone apply=false] condition if
-          the attacking creature used its moving attack feature.</p>
+          <p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving
+          attack feature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -837,8 +833,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantBoar00000.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmGiantBoar00000.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:

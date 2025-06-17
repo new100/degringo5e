@@ -489,9 +489,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The hound has advantage on Wisdom (Perception) checks that rely on
-          hearing or smell.</p>
+        value: <p>The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
         chat: ''
       source:
         custom: ''
@@ -538,9 +536,8 @@ items:
     system:
       description:
         value: >-
-          <p>The hound has advantage on an attack roll against a creature if at
-          least one of the hound's allies is within 5 ft. of the creature and
-          the ally isn't incapacitated.</p>
+          <p>The hound has advantage on an attack roll against a creature if at least one of the hound's allies is
+          within 5 ft. of the creature and the ally isn't incapacitated.</p>
         chat: ''
       source:
         custom: ''
@@ -762,13 +759,11 @@ items:
     system:
       description:
         value: >-
-          <p>The hound exhales fire in a 15-foot cone. Each creature in that
-          area must make a [[/save]] saving throw, taking [[/damage average]]
-          damage on a failed save, or half as much damage on a successful
-          one.</p>
+          <p>The hound exhales fire in a 15-foot cone. Each creature in that area must make a [[/save]] saving throw,
+          taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>
         chat: >-
-          <p>The hound exhales fire in a 15-foot cone. Each creature in that
-          area must make a <strong>Dexterity</strong> saving throw.</p>
+          <p>The hound exhales fire in a 15-foot cone. Each creature in that area must make a <strong>Dexterity</strong>
+          saving throw.</p>
       source:
         custom: ''
         book: ''

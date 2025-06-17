@@ -606,9 +606,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and one [[/item .mmTailStinger000]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and one [[/item
+          .mmTailStinger000]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -661,9 +660,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can burrow through
-          solid rock at half its Burrow Speed and leaves a 10-foot-diameter
-          tunnel in its wake.</p>
+          <p class="feature">The [[lookup @name lowercase]] can burrow through solid rock at half its Burrow Speed and
+          leaves a 10-foot-diameter tunnel in its wake.</p>
         chat: ''
       identifier: tunneler
       source:
@@ -816,12 +814,10 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a [[lookup @target.affects.special activity=xWlMeXFjELfSUWX9]]
-          creature, it has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[lookup @skills.ath.passive]]), and it has the
-          &amp;Reference[Restrained apply=false] condition until the grapple
-          ends.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.special
+          activity=xWlMeXFjELfSUWX9]] creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC
+          [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the
+          grapple ends.</p>
         chat: ''
       identifier: bite
       source:
@@ -903,11 +899,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC), and it
-          has the &amp;Reference[Restrained apply=false] condition until the
-          grapple ends.</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC), and it has the
+          &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -925,8 +919,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPurpleWorm0000.mmBite0000000000.AvzcMcXTFpFurUhJ
+        _key: '!actors.items.effects!mmPurpleWorm0000.mmBite0000000000.AvzcMcXTFpFurUhJ'
     flags:
       degringo5e:
         riders:
@@ -1021,9 +1014,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: tail-stinger
       source:
@@ -1286,28 +1277,20 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=YorssyWMumAsvzx3]], [[lookup
-          @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup
-          @name lowercase]] (it can have up to three creatures swallowed at a
-          time).</p><p class="feature"><em>Failure:</em> The target is swallowed
-          by the [[lookup @name lowercase]], and the Grappled conditions end. A
-          swallowed creature has the &amp;Reference[Blinded apply=false] and
-          &amp;Reference[Restrained apply=false] conditions, has
-          &amp;Reference[Total Cover] against attacks and other effects outside
-          the [[lookup @name lowercase]], and takes [[/damage average
-          activity=zrWNjO9mkbN28spL]] damage at the start of each of the
-          [[lookup @name lowercase]]'s turns.</p><p class="feature">If the
-          [[lookup @name lowercase]] takes 30 damage or more on a single turn
-          from a creature inside it, the [[lookup @name lowercase]] must succeed
-          on a [[/save format=long activity=rGeGukkm2t2fXsoy]] at the end of
-          that turn or regurgitate all swallowed creatures, each of which falls
-          in a space within [[lookup @range.value activity=rGeGukkm2t2fXsoy]]
-          feet of the [[lookup @name lowercase]] and has the
-          &amp;Reference[Prone apply=false] condition. If the [[lookup @name
-          lowercase]] dies, any swallowed creature no longer has the Restrained
-          and can escape from the corpse by using 20 feet of movement, exiting
-          Prone.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=YorssyWMumAsvzx3]],
+          [[lookup @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup @name lowercase]] (it can have up
+          to three creatures swallowed at a time).</p><p class="feature"><em>Failure:</em> The target is swallowed by
+          the [[lookup @name lowercase]], and the Grappled conditions end. A swallowed creature has the
+          &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false] conditions, has
+          &amp;Reference[Total Cover] against attacks and other effects outside the [[lookup @name lowercase]], and
+          takes [[/damage average activity=zrWNjO9mkbN28spL]] damage at the start of each of the [[lookup @name
+          lowercase]]'s turns.</p><p class="feature">If the [[lookup @name lowercase]] takes 30 damage or more on a
+          single turn from a creature inside it, the [[lookup @name lowercase]] must succeed on a [[/save format=long
+          activity=rGeGukkm2t2fXsoy]] at the end of that turn or regurgitate all swallowed creatures, each of which
+          falls in a space within [[lookup @range.value activity=rGeGukkm2t2fXsoy]] feet of the [[lookup @name
+          lowercase]] and has the &amp;Reference[Prone apply=false] condition. If the [[lookup @name lowercase]] dies,
+          any swallowed creature no longer has the Restrained and can escape from the corpse by using 20 feet of
+          movement, exiting Prone.</p>
         chat: ''
       identifier: swallow
       source:
@@ -1344,9 +1327,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>While swallowed, a creature has the &amp;Reference[Blinded
-          apply=false] and &amp;Reference[Restrained apply=false] conditions,
-          has Total Cover against attacks.</p>
+          <p>While swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
+          apply=false] conditions, has Total Cover against attacks.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1373,8 +1355,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.VOHv1LyO3hHolZXo
+        _key: '!actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.VOHv1LyO3hHolZXo'
       - name: Prone
         img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
@@ -1391,9 +1372,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If you are regurgitated, you fall into a space within 10 ft. and
-          are &amp;Reference[Prone apply=false].</p>
+        description: <p>If you are regurgitated, you fall into a space within 10 ft. and are &amp;Reference[Prone apply=false].</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1419,8 +1398,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.aS5FyMP72vn3OKf1
+        _key: '!actors.items.effects!mmPurpleWorm0000.mmSwallow0000000.aS5FyMP72vn3OKf1'
     flags:
       degringo5e:
         riders:

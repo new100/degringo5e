@@ -502,9 +502,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The vrock has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The vrock has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -551,8 +549,7 @@ items:
     system:
       description:
         value: >-
-          <p>The vrock makes two attacks: one with its [[/item
-          .JwAFMjU7vHDDL2Ib]]{beak} and one with its [[/item
+          <p>The vrock makes two attacks: one with its [[/item .JwAFMjU7vHDDL2Ib]]{beak} and one with its [[/item
           .H5JJE8uS39dTI3Vg]]{talons}.</p>
         chat: ''
       source:
@@ -979,20 +976,15 @@ items:
     system:
       description:
         value: >-
-          <p>A 15-foot-radius cloud of toxic spores extends out from the vrock.
-          The spores spread around corners. Each creature in that area must
-          succeed on a [[/save]] saving throw or become
-          &amp;Reference[poisoned].</p><p>While poisoned in this way, a target
-          takes [[/damage average]] damage at the start of each of its turns. A
-          target can repeat the saving throw at the end of each of its turns,
-          ending the effect on itself on a success. Emptying a vial of holy
-          water on the target also ends the effect on it.</p>
+          <p>A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each
+          creature in that area must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned].</p><p>While
+          poisoned in this way, a target takes [[/damage average]] damage at the start of each of its turns. A target
+          can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+          Emptying a vial of holy water on the target also ends the effect on it.</p>
         chat: >-
-          <p>A 15-foot-radius cloud of toxic spores extends out from the vrock.
-          The spores spread around corners. Each creature in that area must make
-          a <strong>Constitution</strong> saving throw. A target can repeat the
-          saving throw at the end of each of its turns, ending the effect on
-          itself on a success.</p>
+          <p>A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each
+          creature in that area must make a <strong>Constitution</strong> saving throw. A target can repeat the saving
+          throw at the end of each of its turns, ending the effect on itself on a success.</p>
       source:
         custom: ''
         book: ''
@@ -1115,14 +1107,11 @@ items:
     system:
       description:
         value: >-
-          <p>The vrock emits a horrific screech. Each creature within 20 feet of
-          it that can hear it and that isn't a demon must succeed on a [[/save]]
-          saving throw or be stunned until the end of the vrock's next turn
-          .</p>
+          <p>The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a
+          demon must succeed on a [[/save]] saving throw or be stunned until the end of the vrock's next turn .</p>
         chat: >-
-          <p>The vrock emits a horrific screech. Each creature within 20 feet of
-          it that can hear it and that isn't a demon must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a
+          demon must make a <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

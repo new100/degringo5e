@@ -495,10 +495,9 @@ items:
     system:
       description:
         value: >-
-          <p>Whenever the shambling mound is subjected to <strong><em>lightning
-          damage</em></strong>, it takes no damage and regains a number
-          of<strong> hit points</strong> equal to the <strong><em>lightning
-          damage</em> dealt</strong>.</p>
+          <p>Whenever the shambling mound is subjected to <strong><em>lightning damage</em></strong>, it takes no damage
+          and regains a number of<strong> hit points</strong> equal to the <strong><em>lightning damage</em>
+          dealt</strong>.</p>
         chat: ''
       source:
         custom: ''
@@ -545,10 +544,9 @@ items:
     system:
       description:
         value: >-
-          <p>The shambling mound makes two [[/item .lOIA9YKQU8xSx7Lj]]{slam}
-          attacks. If both attacks hit a Medium or smaller target, the target is
-          grappled <strong>escape DC 14</strong>, and the shambling mound uses
-          its [[/item .N42BQALoCmeYphD1]]{Engulf} on it.</p>
+          <p>The shambling mound makes two [[/item .lOIA9YKQU8xSx7Lj]]{slam} attacks. If both attacks hit a Medium or
+          smaller target, the target is grappled <strong>escape DC 14</strong>, and the shambling mound uses its [[/item
+          .N42BQALoCmeYphD1]]{Engulf} on it.</p>
         chat: ''
       source:
         custom: ''
@@ -648,19 +646,15 @@ items:
     system:
       description:
         value: >-
-          <p>The shambling mound engulfs a Medium or smaller creature grappled
-          by it. The engulfed target is blinded, restrained, and unable to
-          breathe, and it must succeed on a  <strong>DC 14 Constitution</strong>
-          saving throw at the start of each of the mound's turns or take
-          <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>.</p><p>If
-          the mound moves, the engulfed target moves with it. The mound can have
-          only one creature engulfed at a time.</p>
+          <p>The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded,
+          restrained, and unable to breathe, and it must succeed on a  <strong>DC 14 Constitution</strong> saving throw
+          at the start of each of the mound's turns or take <strong>13 (2d8 + 4) <em>bludgeoning
+          damage</em></strong>.</p><p>If the mound moves, the engulfed target moves with it. The mound can have only one
+          creature engulfed at a time.</p>
         chat: >-
-          <p>The shambling mound engulfs a Medium or smaller creature grappled
-          by it. The engulfed target is blinded, restrained, and unable to
-          breathe, and it must make a <strong>Constitution</strong> saving throw
-          at the start of each of the mound's turns. If the mound moves, the
-          engulfed target moves with it.</p>
+          <p>The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded,
+          restrained, and unable to breathe, and it must make a <strong>Constitution</strong> saving throw at the start
+          of each of the mound's turns. If the mound moves, the engulfed target moves with it.</p>
       source:
         custom: ''
         book: ''

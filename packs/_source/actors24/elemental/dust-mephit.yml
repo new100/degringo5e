@@ -631,14 +631,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] explodes [[lookup
-          @activation.condition activity=1SfqWSp7RSyHgG4b]].</p><p><em>Dexterity
-          Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type
-          activity=1SfqWSp7RSyHgG4b]] in a [[lookup @target.template.size
-          activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the
-          [[lookup @name lowercase]].</p><p><em>Failure: </em>[[/damage
-          average]] damage.</p><p><em>Success:</em> Half damage.</p>
+          <p>The [[lookup @name lowercase]] explodes [[lookup @activation.condition
+          activity=1SfqWSp7RSyHgG4b]].</p><p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
+          activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] in a [[lookup
+          @target.template.size activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the [[lookup @name
+          lowercase]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: death-burst
       source:
@@ -887,12 +884,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=soAO2jRWos8FsxeU]], each creature in a [[lookup
-          @target.template.size activity=soAO2jRWos8FsxeU]]-foot
-          Cone.</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Blinded apply=false] condition until the end of the
-          [[lookup @name lowercase]]'s next turn.</p>
+          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=soAO2jRWos8FsxeU]], each creature in a
+          [[lookup @target.template.size activity=soAO2jRWos8FsxeU]]-foot Cone.</p><p><em>Failure:</em> The target has
+          the &amp;Reference[Blinded apply=false] condition until the end of the [[lookup @name lowercase]]'s next
+          turn.</p>
         chat: ''
       identifier: blinding-breath
       source:
@@ -929,9 +924,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Blinded apply=false] condition
-          until the end of the user's next turn.</p>
+        description: <p>The target has the &amp;Reference[Blinded apply=false] condition until the end of the user's next turn.</p>
         tint: '#ffffff'
         statuses:
           - blinded
@@ -947,8 +940,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDustMephit0000.mmBlindingBreath.uNffaKFUEBaATXHm
+        _key: '!actors.items.effects!mmDustMephit0000.mmBlindingBreath.uNffaKFUEBaATXHm'
     flags:
       degringo5e:
         riders:
@@ -1032,10 +1024,9 @@ items:
         max: '1'
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] casts the
-          @UUID[Compendium.degringo5e.spells24.Item.phbsplSleep00000] spell,
-          requiring no spell components and using Charisma as the spellcasting
-          ability (spell save DC [[lookup @attributes.spell.dc]]).</p>
+          <p>The [[lookup @name lowercase]] casts the @UUID[Compendium.degringo5e.spells24.Item.phbsplSleep00000] spell,
+          requiring no spell components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]).</p>
         chat: ''
       identifier: sleep
       source:
@@ -1080,16 +1071,13 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of your choice in a 5-foot-radius Sphere centered on
-          a point within range must succeed on a Wisdom saving throw or have the
-          &amp;Reference[incapacitated apply=false] condition until the end of
-          its next turn, at which point it must repeat the save. If the target
-          fails the second save, the target has the &amp;Reference[unconscious]
-          condition for the duration. The spell ends on a target if it takes
-          damage or someone within 5 feet of it takes an action to shake it out
-          of the spell's effect.</p><p>Creatures that don't sleep, such as
-          elves, or that have Immunity to the Exhaustion condition automatically
-          succeed on saves against this spell.</p>
+          <p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a
+          Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next
+          turn, at which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't
+          sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against
+          this spell.</p>
         chat: ''
       source:
         custom: ''
@@ -1202,12 +1190,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target has the &amp;Reference[incapacitated apply=false]
-          condition until the end of its next turn, at which point it must
-          repeat the save. If the target fails the second save, the target has
-          the &amp;Reference[unconscious] condition for the duration. The spell
-          ends on a target if it takes damage or someone within 5 feet of it
-          takes an action to shake it out of the spell’s effect.</p>
+          <p>The target has the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at
+          which point it must repeat the save. If the target fails the second save, the target has the
+          &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or
+          someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1223,14 +1209,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.04Wa4xUzjA31kPno
+        _key: '!actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.04Wa4xUzjA31kPno'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDustMephit0000.Item.mmSleep000000000.Activity.cSodzDxxCJH0nwai
+        origin: Compendium.degringo5e.actors24.Actor.mmDustMephit0000.Item.mmSleep000000000.Activity.cSodzDxxCJH0nwai
         changes:
           - key: system.properties
             mode: 2
@@ -1270,8 +1254,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.dnd5espellchange
+        _key: '!actors.items.effects!mmDustMephit0000.CF13ievxQ48W9L9w.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 400000
     ownership:

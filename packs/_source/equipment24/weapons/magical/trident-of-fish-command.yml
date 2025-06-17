@@ -105,13 +105,10 @@ system:
     max: '3'
   description:
     value: >-
-      <p><em>Weapon
-      (@UUID[Compendium.degringo5e.equipment24.Item.phbwepTrident000]{Trident}),
-      Uncommon (Requires Attunement)</em></p><p>This magic weapon has 3 charges,
-      and it regains 1d3 expended charges daily at dawn. While you carry it, you
-      can expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDominateBe]{Dominate Beast}
-      (save DC 15) from it on a Beast that has a Swim Speed.</p>
+      <p><em>Weapon (@UUID[Compendium.degringo5e.equipment24.Item.phbwepTrident000]{Trident}), Uncommon (Requires
+      Attunement)</em></p><p>This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While
+      you carry it, you can expend 1 charge to cast @UUID[Compendium.degringo5e.spells24.Item.phbsplDominateBe]{Dominate
+      Beast} (save DC 15) from it on a Beast that has a Swim Speed.</p>
     chat: ''
   identifier: trident-of-fish-command
   source:

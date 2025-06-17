@@ -567,9 +567,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] deals double damage to objects and
-          structures.</p>
+        value: <p>The [[lookup @name lowercase]] deals double damage to objects and structures.</p>
         chat: ''
       identifier: siege-monster
       source:
@@ -654,9 +652,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item mmSlam0000000000]]
-          attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item mmSlam0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -893,9 +889,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: hail-of-bark
       source:
@@ -1066,15 +1060,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p>The [[lookup @name]] magically animates up to two trees it can see
-          within [[lookup @range.value activity=EceTNjzjKWdrMNAy]] feet of
-          itself. Each tree uses the <strong>Treant</strong> stat block, except
-          it has Intelligence and Charisma scores of 1, it can't speak, and it
-          lacks this action. The tree takes its turn immediately after the
-          treant on the same initiative count, and it obeys the treant. A tree
-          remains animate for 1 day or until it dies, the treant dies, or it is
-          more than 120 feet from the treant. The tree then takes root if
-          possible.</p>
+          <p>The [[lookup @name]] magically animates up to two trees it can see within [[lookup @range.value
+          activity=EceTNjzjKWdrMNAy]] feet of itself. Each tree uses the <strong>Treant</strong> stat block, except it
+          has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn
+          immediately after the treant on the same initiative count, and it obeys the treant. A tree remains animate for
+          1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root
+          if possible.</p>
         chat: ''
       identifier: animate-trees
       source:
@@ -1128,9 +1119,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The tree has Intelligence and Charisma scores of 1, can't speak,
-          and lacks the Animate Trees action.</p>
+        description: <p>The tree has Intelligence and Charisma scores of 1, can't speak, and lacks the Animate Trees action.</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -1148,8 +1137,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTreant00000000.lqG4KueiyzdOy01v.lPONVotWP8yhuuWe
+        _key: '!actors.items.effects!mmTreant00000000.lqG4KueiyzdOy01v.lPONVotWP8yhuuWe'
     folder: 4T18pEvubPMQLzvD
     flags:
       degringo5e:

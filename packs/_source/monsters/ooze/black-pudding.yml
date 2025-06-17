@@ -498,9 +498,7 @@ items:
     img: icons/creatures/slimes/slime-movement-dripping-purple.webp
     system:
       description:
-        value: >-
-          <p>The pudding can move through a space as narrow as 1 inch wide
-          without squeezing.</p>
+        value: <p>The pudding can move through a space as narrow as 1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -547,19 +545,15 @@ items:
     system:
       description:
         value: >-
-          <p>A creature that touches the pudding or hits it with a melee attack
-          while within 5 feet of it takes <strong>4 (1d8) <em>acid
-          damage</em></strong>. Any nonmagical weapon made of metal or wood that
-          hits the pudding corrodes.</p><p>After dealing damage, the weapon
-          takes a permanent and cumulative -1 penalty to damage rolls. If its
-          penalty drops to -5, the weapon is destroyed. Nonmagical ammunition
-          made of metal or wood that hits the pudding is destroyed after dealing
-          damage. The pudding can eat through 2-inch-thick, nonmagical wood or
-          metal in 1 round.</p>
+          <p>A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes
+          <strong>4 (1d8) <em>acid damage</em></strong>. Any nonmagical weapon made of metal or wood that hits the
+          pudding corrodes.</p><p>After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage
+          rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that
+          hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood
+          or metal in 1 round.</p>
         chat: >-
-          <p>A creature that touches the pudding or hits it with a melee attack
-          while within 5 feet of it takes <em>acid damage</em>. Any nonmagical
-          weapon made of metal or wood that hits the pudding corrodes.</p>
+          <p>A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes <em>acid
+          damage</em>. Any nonmagical weapon made of metal or wood that hits the pudding corrodes.</p>
       source:
         custom: ''
         book: ''
@@ -670,8 +664,8 @@ items:
     system:
       description:
         value: >-
-          <p>The pudding can climb difficult surfaces, including upside down on
-          ceilings, without needing to make an ability check.</p>
+          <p>The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an
+          ability check.</p>
         chat: ''
       source:
         custom: ''
@@ -718,14 +712,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>In addition,
-          nonmagical armor worn by the target is partly dissolved and takes a
-          permanent and cumulative -1 penalty to the AC it offers. The armor is
-          destroyed if the penalty reduces its AC to 10.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>In addition, nonmagical armor worn by the target is
+          partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed
+          if the penalty reduces its AC to 10.</p>
         chat: >-
-          <p>The Black Pudding attacks with its Pseudopod. In addition,
-          nonmagical armor worn by the target is partly dissolved and takes a
-          permanent and cumulative -1 penalty to the AC it offers.</p>
+          <p>The Black Pudding attacks with its Pseudopod. In addition, nonmagical armor worn by the target is partly
+          dissolved and takes a permanent and cumulative -1 penalty to the AC it offers.</p>
       source:
         custom: ''
         book: ''
@@ -900,14 +892,10 @@ items:
     system:
       description:
         value: >-
-          <p>When a pudding that is Medium or larger is subjected to lightning
-          or <em>slashing damage</em>, it splits into two new puddings if it has
-          at least 10 Hit Points. Each new pudding has Hit Points equal to half
-          the original pudding's, rounded down. New puddings are one size
-          smaller than the original pudding.</p>
-        chat: >-
-          <p>The pudding splits into two new puddings. New puddings are one size
-          smaller than the original pudding.</p>
+          <p>When a pudding that is Medium or larger is subjected to lightning or <em>slashing damage</em>, it splits
+          into two new puddings if it has at least 10 Hit Points. Each new pudding has Hit Points equal to half the
+          original pudding's, rounded down. New puddings are one size smaller than the original pudding.</p>
+        chat: <p>The pudding splits into two new puddings. New puddings are one size smaller than the original pudding.</p>
       source:
         custom: ''
         book: ''

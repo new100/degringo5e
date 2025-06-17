@@ -502,16 +502,14 @@ items:
     system:
       description:
         value: >-
-          <p>When the balor dies, it explodes, and each creature within 30 feet
-          of it must make a [[/save]] saving throw, taking [[/damage average]]
-          damage on a failed save, or half as much damage on a successful
-          one.</p><p>The explosion ignites flammable objects in that area that
-          aren't being worn or carried, and it destroys the balor's weapons.</p>
+          <p>When the balor dies, it explodes, and each creature within 30 feet of it must make a [[/save]] saving
+          throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful
+          one.</p><p>The explosion ignites flammable objects in that area that aren't being worn or carried, and it
+          destroys the balor's weapons.</p>
         chat: >-
-          <p>When the balor dies, it explodes, and each creature within 30 feet
-          of it must make a <strong>Dexterity</strong> saving throw. The
-          explosion ignites flammable objects in that area that aren't being
-          worn or carried, and it destroys the balor's weapons.</p>
+          <p>When the balor dies, it explodes, and each creature within 30 feet of it must make a
+          <strong>Dexterity</strong> saving throw. The explosion ignites flammable objects in that area that aren't
+          being worn or carried, and it destroys the balor's weapons.</p>
       source:
         custom: ''
         book: ''
@@ -628,17 +626,14 @@ items:
     system:
       description:
         value: >-
-          <p>At the start of each of the balor's turns, each creature within 5
-          feet of it takes [[/damage average]] damage, and flammable objects in
-          the aura that aren't being worn or carried ignite.</p><p>A creature
-          that touches the balor or hits it with a melee attack while within 5
-          feet of it takes [[/damage average]] damage.</p>
+          <p>At the start of each of the balor's turns, each creature within 5 feet of it takes [[/damage average]]
+          damage, and flammable objects in the aura that aren't being worn or carried ignite.</p><p>A creature that
+          touches the balor or hits it with a melee attack while within 5 feet of it takes [[/damage average]]
+          damage.</p>
         chat: >-
-          <p>At the start of each of the balor's turns, each creature within 5
-          feet of it takes <em>fire damage</em>, and flammable objects in the
-          aura that aren't being worn or carried ignite. A creature that touches
-          the balor or hits it with a melee attack while within 5 feet of it
-          takes <em>fire damage</em>.</p>
+          <p>At the start of each of the balor's turns, each creature within 5 feet of it takes <em>fire damage</em>,
+          and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balor
+          or hits it with a melee attack while within 5 feet of it takes <em>fire damage</em>.</p>
       source:
         custom: ''
         book: ''
@@ -752,9 +747,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The balor has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The balor has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -847,8 +840,7 @@ items:
     system:
       description:
         value: >-
-          <p>The balor makes two attacks: one with its [[/item
-          .6ZAh5TkiXwQMUfDB]]{longsword} and one with its [[/item
+          <p>The balor makes two attacks: one with its [[/item .6ZAh5TkiXwQMUfDB]]{longsword} and one with its [[/item
           .1oGgJQB1ItqyKoZ5]]{whip}.</p>
         chat: ''
       source:
@@ -949,9 +941,8 @@ items:
     system:
       description:
         value: >-
-          <p>The balor magically teleports, along with any equipment it is
-          wearing or carrying, up to 120 feet to an unoccupied space it can
-          see.</p>
+          <p>The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an
+          unoccupied space it can see.</p>
         chat: ''
       source:
         custom: ''
@@ -1052,9 +1043,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the balor
-          scores a critical hit, it rolls damage dice three times, instead of
-          twice.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the balor scores a critical hit, it rolls damage dice
+          three times, instead of twice.</p>
         chat: <p>The Balor attacks with its Longsword.</p>
       source:
         custom: ''
@@ -1232,12 +1222,9 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]]. The target must succeed
-          on a [[/save]] saving throw or be pulled up to 25 feet toward the
-          balor.</p>
-        chat: >-
-          <p>The Balor attacks with its Whip. The target must make a
-          <strong>Strength</strong> saving throw.</p>
+          <p>[[/attack extended]]. [[/damage extended]]. The target must succeed on a [[/save]] saving throw or be
+          pulled up to 25 feet toward the balor.</p>
+        chat: <p>The Balor attacks with its Whip. The target must make a <strong>Strength</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

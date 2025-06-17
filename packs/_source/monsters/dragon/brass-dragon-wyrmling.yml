@@ -654,18 +654,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales fire
-          in an 20-foot line that is 5 feet wide. Each creature in that line
-          must make a [[/save activity=NBdXGRF1vahbq4p8]] saving throw, taking
-          [[/damage average activity=NBdXGRF1vahbq4p8]] damage on a failed save,
-          or half as much damage on a successful one.</p><p><strong>Sleep
-          Breath.</strong> The dragon exhales sleep gas in a 15-foot cone. Each
-          creature in that area must succeed on a [[/save
-          activity=O02zuaLvAqtmgutQ]] saving throw or fall
-          &amp;Reference[unconscious] for 1 minute. This effect ends for a
-          creature if the creature takes damage or someone uses an action to
-          wake it.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales
+          fire in an 20-foot line that is 5 feet wide. Each creature in that line must make a [[/save
+          activity=NBdXGRF1vahbq4p8]] saving throw, taking [[/damage average activity=NBdXGRF1vahbq4p8]] damage on a
+          failed save, or half as much damage on a successful one.</p><p><strong>Sleep Breath.</strong> The dragon
+          exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a [[/save
+          activity=O02zuaLvAqtmgutQ]] saving throw or fall &amp;Reference[unconscious] for 1 minute. This effect ends
+          for a creature if the creature takes damage or someone uses an action to wake it.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''

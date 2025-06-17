@@ -503,15 +503,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          grappled (escape DC 14) if the devil isn't already grappling a
-          creature. Until this grapple ends, the target is restrained and takes
-          [[/damage activity=7GprfdQsWbexe4iC average]] damage at the start of
-          each of its turns.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is grappled (escape DC 14) if the devil isn't
+          already grappling a creature. Until this grapple ends, the target is restrained and takes [[/damage
+          activity=7GprfdQsWbexe4iC average]] damage at the start of each of its turns.</p>
         chat: >-
-          <p>The Chain Devil attacks with its Chain. The target is grappled if
-          the devil isn't already grappling a creature. Until this grapple ends,
-          the target is restrained.</p>
+          <p>The Chain Devil attacks with its Chain. The target is grappled if the devil isn't already grappling a
+          creature. Until this grapple ends, the target is restrained.</p>
       source:
         custom: ''
         book: ''
@@ -735,15 +732,12 @@ items:
     system:
       description:
         value: >-
-          <p>When a creature the devil can see starts its turn within 30 feet of
-          the devil, the devil can create the illusion that it looks like one of
-          the creature's departed loved ones or bitter enemies. If the creature
-          can see the devil, it must succeed on a [[/save]] saving throw or be
-          Frightened until the end of its turn.</p>
+          <p>When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the
+          illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can
+          see the devil, it must succeed on a [[/save]] saving throw or be Frightened until the end of its turn.</p>
         chat: >-
-          <p>The devil can create the illusion that it looks like one of the
-          creature's departed loved ones or bitter enemies. make a
-          <strong>Wisdom</strong> saving throw.</p>
+          <p>The devil can create the illusion that it looks like one of the creature's departed loved ones or bitter
+          enemies. make a <strong>Wisdom</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -899,9 +893,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The creature has advantage on saving throws against spells and
-          other magical effects.</p>
+        value: <p>The creature has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -947,9 +939,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The devil makes two attacks with its [[/item
-          .9SWi4zPVGsMD5l2Y]]{chains}.</p>
+        value: <p>The devil makes two attacks with its [[/item .9SWi4zPVGsMD5l2Y]]{chains}.</p>
         chat: ''
       source:
         custom: ''
@@ -1049,20 +1039,16 @@ items:
     system:
       description:
         value: >-
-          <p>Up to four chains the devil can see within 60 feet of it magically
-          sprout razor-edged barbs and animate under the devil's control,
-          provided that the chains aren't being worn or carried.</p><p>Each
-          animated chain is an object with AC 20, 20 hit points, resistance to
-          <em>piercing damage</em>, and immunity to psychic and thunder damage.
-          When the devil uses Multiattack on its turn, it can use each animated
-          chain to make one additional chain attack. An animated chain can
-          grapple one creature of its own but can't make attacks while
-          grappling. An animated chain reverts to its inanimate state if reduced
-          to 0 hit points or if the devil is incapacitated or dies.</p>
+          <p>Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate
+          under the devil's control, provided that the chains aren't being worn or carried.</p><p>Each animated chain is
+          an object with AC 20, 20 hit points, resistance to <em>piercing damage</em>, and immunity to psychic and
+          thunder damage. When the devil uses Multiattack on its turn, it can use each animated chain to make one
+          additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while
+          grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is
+          incapacitated or dies.</p>
         chat: >-
-          <p>Up to four chains the devil can see within 60 feet of it magically
-          sprout razor-edged barbs and animate under the devil's control,
-          provided that the chains aren't being worn or carried.</p>
+          <p>Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate
+          under the devil's control, provided that the chains aren't being worn or carried.</p>
       source:
         custom: ''
         book: ''

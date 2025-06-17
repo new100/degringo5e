@@ -2,9 +2,8 @@ name: Euryale
 system:
   description:
     value: >-
-      <p> The card's medusa-like visage curses you. You take a −2 penalty to
-      saving throws while cursed in this way. Only a god or the magic of the
-      Fates card can end this curse.</p>
+      <p> The card's medusa-like visage curses you. You take a −2 penalty to saving throws while cursed in this way.
+      Only a god or the magic of the Fates card can end this curse.</p>
     chat: ''
   price:
     value: 0
@@ -130,8 +129,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>You take a −2 penalty to saving throws while cursed in this way. Only a
-      god or the magic of the Fates card can end this curse.</p>
+      <p>You take a −2 penalty to saving throws while cursed in this way. Only a god or the magic of the Fates card can
+      end this curse.</p>
     tint: '#ffffff'
     statuses:
       - cursed

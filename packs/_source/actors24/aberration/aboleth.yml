@@ -656,9 +656,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If destroyed, the [[lookup @name lowercase]] gains
-          a new body in [[/r 5d10]] days, reviving with all its Hit Points in
-          the Far Realm or another location chosen by the DM.</p>
+          <p class="feature">If destroyed, the [[lookup @name lowercase]] gains a new body in [[/r 5d10]] days, reviving
+          with all its Hit Points in the Far Realm or another location chosen by the DM.</p>
         chat: ''
       identifier: eldritch-restoration
       source:
@@ -759,9 +758,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -927,20 +924,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While underwater, the [[lookup @name lowercase]] is
-          surrounded by mucus.</p><p class="feature"><em>Constitution Saving
-          Throw:</em> DC 14, each [[lookup @target.affects.type
-          activity=clFFG8uDBSFzxIo8]] in a [[lookup @target.template.size
-          activity=clFFG8uDBSFzxIo8]]-[[lookup @target.template.units
-          activity=clFFG8uDBSFzxIo8]] Emanation originating from the [[lookup
-          @name lowercase]] at the end of the [[lookup @name lowercase]]'s
-          turn.</p><p><em>Failure:</em> The target is cursed. Until the curse
-          ends, the target's skin becomes slimy, the target can breathe air and
-          water, and it can't regain Hit Points unless it is underwater.</p><p
-          class="feature">While the cursed creature is outside a body of water,
-          the creature takes [[/damage average activity=JrxCVyCOsBAMVZS7]]
-          damage at the end of every 10 minutes unless moisture is applied to
-          its skin before those minutes have passed.</p>
+          <p class="feature">While underwater, the [[lookup @name lowercase]] is surrounded by mucus.</p><p
+          class="feature"><em>Constitution Saving Throw:</em> DC 14, each [[lookup @target.affects.type
+          activity=clFFG8uDBSFzxIo8]] in a [[lookup @target.template.size activity=clFFG8uDBSFzxIo8]]-[[lookup
+          @target.template.units activity=clFFG8uDBSFzxIo8]] Emanation originating from the [[lookup @name lowercase]]
+          at the end of the [[lookup @name lowercase]]'s turn.</p><p><em>Failure:</em> The target is cursed. Until the
+          curse ends, the target's skin becomes slimy, the target can breathe air and water, and it can't regain Hit
+          Points unless it is underwater.</p><p class="feature">While the cursed creature is outside a body of water,
+          the creature takes [[/damage average activity=JrxCVyCOsBAMVZS7]] damage at the end of every 10 minutes unless
+          moisture is applied to its skin before those minutes have passed.</p>
         chat: ''
       identifier: mucus-cloud
       source:
@@ -978,10 +970,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>While the cursed creature is outside a body of water, the creature
-          takes [[/damage 1d12 Acid average]] damage at the end of every 10
-          minutes unless moisture is applied to its skin before those minutes
-          have passed.</p>
+          <p>While the cursed creature is outside a body of water, the creature takes [[/damage 1d12 Acid average]]
+          damage at the end of every 10 minutes unless moisture is applied to its skin before those minutes have
+          passed.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -998,8 +989,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAboleth0000000.mmMucusCloud0000.VesaHwtQEHKpxdAB
+        _key: '!actors.items.effects!mmAboleth0000000.mmMucusCloud0000.VesaHwtQEHKpxdAB'
     flags:
       degringo5e:
         riders:
@@ -1033,10 +1023,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If a creature the [[lookup @name lowercase]] can
-          see communicates telepathically with the [[lookup @name lowercase]],
-          the [[lookup @name lowercase]] learns the creature's greatest
-          desires.</p>
+          <p class="feature">If a creature the [[lookup @name lowercase]] can see communicates telepathically with the
+          [[lookup @name lowercase]], the [[lookup @name lowercase]] learns the creature's greatest desires.</p>
         chat: ''
       identifier: probing-telepathy
       source:
@@ -1188,10 +1176,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Grappled
-          apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from
-          one of four tentacles.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]) from one of four
+          tentacles.</p>
         chat: ''
       identifier: tentacle
       source:
@@ -1275,17 +1262,15 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p><strong>Escape Tests (see origin item for
-          DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p><strong>Escape Tests (see origin item for DC)</strong></p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.dnd-monster-manual.features.Item.mmConstrict00000.ActiveEffect.Hd0Gy3wJtPfObERq
+          compendiumSource: Compendium.dnd-monster-manual.features.Item.mmConstrict00000.ActiveEffect.Hd0Gy3wJtPfObERq
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1294,8 +1279,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAboleth0000000.mmTentacle000000.KxcWsIHohpNmagLJ
+        _key: '!actors.items.effects!mmAboleth0000000.mmTentacle000000.KxcWsIHohpNmagLJ'
     flags:
       degringo5e:
         riders:
@@ -1365,8 +1349,7 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmTentacle000000]] attacks and uses either [[/item
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmTentacle000000]] attacks and uses either [[/item
           .7gP0oX3L1RKRaBGH]] or [[/item .yiiKNaJ2svcUWqLi]] if available.</p>
         chat: ''
       identifier: multiattack
@@ -1478,22 +1461,16 @@ items:
         max: '2'
       description:
         value: >-
-          <p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=zdXAMnjaOcsVmLZP]], one [[lookup @target.affects.type
-          activity=zdXAMnjaOcsVmLZP]] the [[lookup @name lowercase]] can see
-          within [[lookup @range.value activity=zdXAMnjaOcsVmLZP]]
-          feet.</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Charmed apply=false] condition until the [[lookup @name
-          lowercase]] dies or is on a different plane of existence from the
-          target. While Charmed, the target acts as an ally to the [[lookup
-          @name lowercase]] and is under its control while within [[lookup
-          @target.template.size activity=zdXAMnjaOcsVmLZP]] feet of it. In
-          addition, the [[lookup @name lowercase]] and the target can
-          communicate telepathically with each other over any
-          distance.</p><p>The target repeats the save whenever it takes damage
-          as well as after every 24 hours it spends at least 1 mile away from
-          the [[lookup @name lowercase]], ending the effect on itself on a
-          success.</p>
+          <p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=zdXAMnjaOcsVmLZP]], one [[lookup
+          @target.affects.type activity=zdXAMnjaOcsVmLZP]] the [[lookup @name lowercase]] can see within [[lookup
+          @range.value activity=zdXAMnjaOcsVmLZP]] feet.</p><p><em>Failure:</em> The target has the
+          &amp;Reference[Charmed apply=false] condition until the [[lookup @name lowercase]] dies or is on a different
+          plane of existence from the target. While Charmed, the target acts as an ally to the [[lookup @name
+          lowercase]] and is under its control while within [[lookup @target.template.size activity=zdXAMnjaOcsVmLZP]]
+          feet of it. In addition, the [[lookup @name lowercase]] and the target can communicate telepathically with
+          each other over any distance.</p><p>The target repeats the save whenever it takes damage as well as after
+          every 24 hours it spends at least 1 mile away from the [[lookup @name lowercase]], ending the effect on itself
+          on a success.</p>
         chat: ''
       identifier: dominate-mind
       source:
@@ -1531,10 +1508,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Charmed apply=false] condition.
-          While Charmed, the target acts as an ally to the dominator and is
-          under its control while within 60 feet of it. In addition, the two can
-          communicate telepathically with each other over any distance.</p>
+          <p>The target has the &amp;Reference[Charmed apply=false] condition. While Charmed, the target acts as an ally
+          to the dominator and is under its control while within 60 feet of it. In addition, the two can communicate
+          telepathically with each other over any distance.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1551,8 +1527,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAboleth0000000.yiiKNaJ2svcUWqLi.85n0EJTGfngNSLLl
+        _key: '!actors.items.effects!mmAboleth0000000.yiiKNaJ2svcUWqLi.85n0EJTGfngNSLLl'
     folder: null
     flags:
       degringo5e:
@@ -1649,17 +1624,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Intelligence Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=uI3HDQ1grN123Or3]], [[lookup
-          @target.affects.labels.statblock activity=uI3HDQ1grN123Or3]] within
-          [[lookup @range.value activity=uI3HDQ1grN123Or3]] feet. [[lookup
-          @target.affects.special activity=uI3HDQ1grN123Or3]] by the [[lookup
-          @name lowercase]].</p><p><em>Failure:</em> [[/damage average]]
-          damage.</p><p><em>Success:</em> [[lookup @damage.onSave capitalize
-          activity=uI3HDQ1grN123Or3]] damage.</p><p><em>Failure or Success:</em>
-          The [[lookup @name lowercase]] gains the target's memories if the
-          target is a Humanoid and is reduced to 0 Hit Points by this
-          action.</p>
+          <p class="feature"><em>Intelligence Saving Throw:</em> DC [[lookup @save.dc.value activity=uI3HDQ1grN123Or3]],
+          [[lookup @target.affects.labels.statblock activity=uI3HDQ1grN123Or3]] within [[lookup @range.value
+          activity=uI3HDQ1grN123Or3]] feet. [[lookup @target.affects.special activity=uI3HDQ1grN123Or3]] by the [[lookup
+          @name lowercase]].</p><p><em>Failure:</em> [[/damage average]] damage.</p><p><em>Success:</em> [[lookup
+          @damage.onSave capitalize activity=uI3HDQ1grN123Or3]] damage.</p><p><em>Failure or Success:</em> The [[lookup
+          @name lowercase]] gains the target's memories if the target is a Humanoid and is reduced to 0 Hit Points by
+          this action.</p>
         chat: ''
       identifier: consume-memories
       source:
@@ -1757,9 +1728,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]] makes one Tentacle
-          attack.</p>
+        value: <p class="feature">The [[lookup @name lowercase]] makes one Tentacle attack.</p>
         chat: ''
       identifier: lash
       source:
@@ -1864,9 +1833,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] has at least one
-          creature Charmed or Grappled, it uses [[/item .7gP0oX3L1RKRaBGH]] and
-          regains [[/healing average]].</p>
+          <p class="feature">If the [[lookup @name lowercase]] has at least one creature Charmed or Grappled, it uses
+          [[/item .7gP0oX3L1RKRaBGH]] and regains [[/healing average]].</p>
         chat: ''
       identifier: psychic-drain
       source:

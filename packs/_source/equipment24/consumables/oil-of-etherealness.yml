@@ -6,14 +6,11 @@ img: icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp
 system:
   description:
     value: >-
-      <p><em>Potion, Rare</em></p><p>One vial of this oil can cover one Medium
-      or smaller creature, along with the equipment it's wearing and carrying
-      (one additional vial is required for each size category above Medium).
-      Applying the oil takes 10 minutes. The affected creature then gains the
-      effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness} spell
-      for 1 hour.</p><p>Beads of this cloudy, gray oil form on the outside of
-      its container and quickly evaporate.</p>
+      <p><em>Potion, Rare</em></p><p>One vial of this oil can cover one Medium or smaller creature, along with the
+      equipment it's wearing and carrying (one additional vial is required for each size category above Medium).
+      Applying the oil takes 10 minutes. The affected creature then gains the effect of the
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness} spell for 1 hour.</p><p>Beads of this
+      cloudy, gray oil form on the outside of its container and quickly evaporate.</p>
     chat: ''
   identifier: oil-of-etherealness
   source:
@@ -133,8 +130,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplEtherealne.ActiveEffect.louTI4Z9bNUYBa8K
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplEtherealne.ActiveEffect.louTI4Z9bNUYBa8K
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

@@ -84,14 +84,11 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you have
-      Resistance to one type of damage for 1 hour. The GM chooses the type or
-      determines it randomly by rolling on the following
-      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgPotionOfResis
-      caption=false rollable]</p><section class="secret"
-      id="secret-yI26znYuybVCz6iX"><p><strong>Foundry Note</strong></p><p>This
-      item includes Active Effects for each type of resistance. Use the AE for
-      the type of damage chosen by your DM.</p></section>
+      <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you have Resistance to one type of damage for 1
+      hour. The GM chooses the type or determines it randomly by rolling on the following
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgPotionOfResis caption=false rollable]</p><section
+      class="secret" id="secret-yI26znYuybVCz6iX"><p><strong>Foundry Note</strong></p><p>This item includes Active
+      Effects for each type of resistance. Use the AE for the type of damage chosen by your DM.</p></section>
     chat: ''
   identifier: potion-of-resistance
   source:

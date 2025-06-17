@@ -6,34 +6,24 @@ img: systems/degringo5e/icons/classes/monk.webp
 system:
   description:
     value: >-
-      <h3>Core Monk Traits</h3><table class="core-class-traits"><tbody><tr><th
-      scope="row"><p>Primary Ability</p></th><td><p>Dexterity and
-      Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8
-      per Monk level</p></td></tr><tr><th scope="row"><p>Saving Throw
-      Proficiencies</p></th><td><p>Strength and Dexterity</p></td></tr><tr><th
-      scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em>
-      Acrobatics, Athletics, History, Insight, Religion, or
-      Stealth</p></td></tr><tr><th scope="row"><p>Weapon
-      Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have
-      the Light property</p></td></tr><tr><th scope="row"><p>Tool
-      Proficiencies</p></th><td><p><em>Choose one type of Artisan's Tools or
-      Musical Instrument</em></p></td></tr><tr><th scope="row"><p>Armor
-      Training</p></th><td><p>None</p></td></tr><tr><th scope="row"><p>Starting
-      Equipment</p></th><td><p><em>Choose A or B:</em> (A)
+      <h3>Core Monk Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary
+      Ability</p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8
+      per Monk level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Strength and
+      Dexterity</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics,
+      Athletics, History, Insight, Religion, or Stealth</p></td></tr><tr><th scope="row"><p>Weapon
+      Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Light property</p></td></tr><tr><th
+      scope="row"><p>Tool Proficiencies</p></th><td><p><em>Choose one type of Artisan's Tools or Musical
+      Instrument</em></p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>None</p></td></tr><tr><th
+      scope="row"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A)
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepSpear00000]{Spear}, 5
-      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
-      Artisan's Tools or Musical Instrument chosen for the tool proficiency
-      above,
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's
+      @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers}, Artisan's Tools or Musical Instrument
+      chosen for the tool proficiency above, @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's
       Pack}, and [[/award 11GP]]; or (B) [[/award
       50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Monk …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Monk Traits
-      table.</li><li>Gain the Monk's level 1 features, which are listed in the
-      Monk Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the Hit Point Die trait from the Core Monk
-      Traits table.</li><li>Gain the Monk's level 1 features, which are listed
-      in the Monk Features table.</li></ul>
+      inline classes="free-rules-embed"]</p><h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk
+      Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die trait from the Core Monk
+      Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul>
     chat: ''
   source:
     custom: ''

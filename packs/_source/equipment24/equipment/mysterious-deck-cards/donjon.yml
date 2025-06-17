@@ -2,14 +2,11 @@ name: Donjon
 system:
   description:
     value: >-
-      <p>You disappear and become entombed in a state of suspended animation in
-      an extradimensional sphere. Everything you're wearing and carrying
-      disappears with you except for Artifacts, which stay behind in the space
-      you occupied when you disappeared. You remain imprisoned until you are
-      found and removed from the sphere. You can't be located by any Divination
-      magic, but a
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-      spell can reveal the location of your prison. You draw no more cards.</p>
+      <p>You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything
+      you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied
+      when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located
+      by any Divination magic, but a <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell
+      can reveal the location of your prison. You draw no more cards.</p>
     chat: ''
   price:
     value: 0
@@ -130,12 +127,10 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtDonjon0000]{Donjon}</em></p><p>You
-      remain imprisoned until you are found and removed from the sphere. You
-      can’t be located by any Divination magic, but a
-      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em>
-      spell can reveal the location of your prison.</p>
+      <p><em>Source: @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtDonjon0000]{Donjon}</em></p><p>You remain
+      imprisoned until you are found and removed from the sphere. You can’t be located by any Divination magic, but a
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}</em> spell can reveal the location of your
+      prison.</p>
     tint: '#ffffff'
     statuses:
       - ethereal

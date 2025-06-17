@@ -615,9 +615,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula
-          activity=5cGvjZJIJVicjJ3d]] Hit Points at the start of each of its
-          turns if it has at least 1 Hit Point.</p>
+          <p>The [[lookup @name lowercase]] regains [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] Hit Points at
+          the start of each of its turns if it has at least 1 Hit Point.</p>
         chat: ''
       identifier: regeneration
       source:
@@ -738,11 +737,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The limb uncannily has the same senses as a whole
-          [[lookup @name lowercase]]. If the limb isn't destroyed within 24
-          hours, roll [[/r 1d12#On a 12, the limb turns into a troll]]{roll
-          1d12}. On a 12, the limb turns into a
-          <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTroll000000000]{Troll}</strong>.
+          <p class="feature">The limb uncannily has the same senses as a whole [[lookup @name lowercase]]. If the limb
+          isn't destroyed within 24 hours, roll [[/r 1d12#On a 12, the limb turns into a troll]]{roll 1d12}. On a 12,
+          the limb turns into a <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmTroll000000000]{Troll}</strong>.
           Otherwise, the limb withers away.</p>
         chat: ''
       identifier: troll-spawn

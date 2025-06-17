@@ -613,10 +613,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] senses magic within
-          120 feet of itself. This trait otherwise works like the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em> spell but isn't itself magical.</p>
+          <p class="feature">The [[lookup @name lowercase]] senses magic within 120 feet of itself. This trait otherwise
+          works like the <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em> spell but
+          isn't itself magical.</p>
         chat: ''
       identifier: sense-magic
       source:
@@ -702,8 +701,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes 2 [[/item Pincer]] attacks and
-          uses [[/item Paralyzing Tentacles]].</p>
+          <p>The [[lookup @name lowercase]] makes 2 [[/item Pincer]] attacks and uses [[/item Paralyzing
+          Tentacles]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -812,14 +811,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=p157Iqz8s0M0VilW]], one [[lookup
-          @target.affects.type activity=p157Iqz8s0M0VilW]] Grappled by the
-          [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Poisoned apply=false] condition and repeats the save at
-          the end of each of its turns, ending the effect on itself on a
-          success. After 1 minute, it succeeds automatically. While Poisoned,
-          the target has the &amp;Reference[Paralyzed apply=false]
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=p157Iqz8s0M0VilW]],
+          one [[lookup @target.affects.type activity=p157Iqz8s0M0VilW]] Grappled by the [[lookup @name
+          lowercase]].</p><p><em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition and
+          repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it
+          succeeds automatically. While Poisoned, the target has the &amp;Reference[Paralyzed apply=false]
           condition.</p>
         chat: ''
       identifier: paralyzing-tentacles
@@ -857,10 +853,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          and repeats the save at the end of each of its turns, ending the
-          effect on itself on a success.</p><p>While Poisoned, the target has
-          the &amp;Reference[Paralyzed apply=false] condition.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition and repeats the save at the end of each
+          of its turns, ending the effect on itself on a success.</p><p>While Poisoned, the target has the
+          &amp;Reference[Paralyzed apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -887,8 +882,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmChuul000000000.mmParalyzingTent.5ReKSrBu11ume7GP
+        _key: '!actors.items.effects!mmChuul000000000.mmParalyzingTent.5ReKSrBu11ume7GP'
     flags:
       degringo5e:
         riders:
@@ -1023,10 +1017,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]) from one of two pincers.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]])
+          from one of two pincers.</p>
         chat: ''
       identifier: pincer
       source:
@@ -1107,9 +1100,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]).</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[lookup @skills.ath.passive]]).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1126,8 +1118,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmChuul000000000.mmPincer00000000.GCED8YlF6qXTgEkd
+        _key: '!actors.items.effects!mmChuul000000000.mmPincer00000000.GCED8YlF6qXTgEkd'
     flags:
       degringo5e:
         riders:

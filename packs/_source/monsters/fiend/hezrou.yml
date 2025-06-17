@@ -502,9 +502,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The hezrou has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The hezrou has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -551,13 +549,12 @@ items:
     system:
       description:
         value: >-
-          <p>Any creature that starts its turn within 10 feet of the hezrou must
-          succeed on a [[/save]] saving throw or be &amp;Reference[poisoned]
-          until the start of its next turn. On a successful saving throw, the
-          creature is immune to the hezrou's stench for 24 hours.</p>
+          <p>Any creature that starts its turn within 10 feet of the hezrou must succeed on a [[/save]] saving throw or
+          be &amp;Reference[poisoned] until the start of its next turn. On a successful saving throw, the creature is
+          immune to the hezrou's stench for 24 hours.</p>
         chat: >-
-          <p>Any creature that starts its turn <strong>within 10 feet</strong>
-          of the hezrou must succeed on a Constitution saving throw.</p>
+          <p>Any creature that starts its turn <strong>within 10 feet</strong> of the hezrou must succeed on a
+          Constitution saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -659,8 +656,7 @@ items:
     system:
       description:
         value: >-
-          <p>The hezrou makes three attacks: one with its [[/item
-          .UNNl5XqsXZuKOm69]]{bite} and two with its [[/item
+          <p>The hezrou makes three attacks: one with its [[/item .UNNl5XqsXZuKOm69]]{bite} and two with its [[/item
           .HEQqPUsmmNs178Mj]]{claws}.</p>
         chat: ''
       source:

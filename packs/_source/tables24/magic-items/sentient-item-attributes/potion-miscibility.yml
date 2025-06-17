@@ -23,9 +23,8 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Both potions lose their effects, and the mixture creates a magical
-      explosion in a 5-foot-radius Sphere centered on itself. Each creature in
-      that area takes [[/damage 4d10 type=force]] damage.
+      Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on
+      itself. Each creature in that area takes [[/damage 4d10 type=force]] damage.
     name: ''
     _key: '!tables.results!dmgPotionMiscibi.nzczvt9tOAWk3pcO'
   - type: text
@@ -48,8 +47,7 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Both potions lose their effects, and the mixture becomes an ingested
-      poison of your choice (see
+      Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see
       @UUID[Compendium.degringo5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{Poison}).
     name: ''
     _key: '!tables.results!dmgPotionMiscibi.YOg721h1c08NTssm'
@@ -117,9 +115,8 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Both potions work, but with their numerical effects and durations halved.
-      If a potion has no numerical effect and no duration, it instead loses its
-      effect.
+      Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and
+      no duration, it instead loses its effect.
     name: ''
     _key: '!tables.results!dmgPotionMiscibi.QqB2o1VFtAJmFrCD'
   - type: text
@@ -164,9 +161,8 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Both potions work, but the numerical effects and duration of one potion
-      are <span>doubled</span>. If neither potion has anything to double in this
-      way, they work normally.
+      Both potions work, but the numerical effects and duration of one potion are <span>doubled</span>. If neither
+      potion has anything to double in this way, they work normally.
     name: ''
     _key: '!tables.results!dmgPotionMiscibi.bSAO3Vx0LrbFecwI'
   - type: text
@@ -189,12 +185,10 @@ results:
       duplicateSource: null
       exportSource: null
     description: >-
-      Only one potion works, but its effects are permanent. Choose the simplest
-      effect to make permanent or the one that seems the most fun. For example,
-      a Potion of Healing might increase the drinker’s Hit Point maximum by
-      [[/roll 2d4 + 2]], or a Potion of Invisibility might give the drinker the
-      Invisible condition indefinitely. At your discretion, a Dispel Magic spell
-      or similar magic might end this lasting effect.
+      Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that
+      seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by [[/roll 2d4
+      + 2]], or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your
+      discretion, a Dispel Magic spell or similar magic might end this lasting effect.
     name: ''
     _key: '!tables.results!dmgPotionMiscibi.TsdsAf1A9DydPzVQ'
 replacement: true

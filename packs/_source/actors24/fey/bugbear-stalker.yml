@@ -407,12 +407,10 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain
+        Shirt}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepJavelin000]{Javelins (6)},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepMorningsta]{Morningstar}</p></div><h1>Bugbears</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.gzTUYPi9wHg0WMP0
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Bugbear
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Bugbear
         Stalker</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.lMvm5fxnuHBDhxD2
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -734,10 +732,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup
-          @activation.condition activity=QIpweawAzbt4xw5h]]), reach [[lookup
-          @range.value activity=QIpweawAzbt4xw5h]] ft. [[/damage average
-          extended]]</p>
+          <p><em>Melee Attack Roll:</em> [[/attack]] ([[lookup @activation.condition activity=QIpweawAzbt4xw5h]]), reach
+          [[lookup @range.value activity=QIpweawAzbt4xw5h]] ft. [[/damage average extended]]</p>
         chat: ''
       price:
         value: 15
@@ -984,9 +980,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] needn't spend extra movement to move
-          a creature it is grappling.</p>
+        value: <p>The [[lookup @name lowercase]] needn't spend extra movement to move a creature it is grappling.</p>
         chat: ''
       identifier: abduct
       source:
@@ -1082,8 +1076,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .dN1CML4smcRrUkzD]] or [[/item .YFpjAATelvlz5oyb]] attacks.</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .dN1CML4smcRrUkzD]] or [[/item .YFpjAATelvlz5oyb]]
+          attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1240,14 +1234,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=aDWVHpJgsNPPNrDs]], [[lookup
-          @target.affects.special activity=aDWVHpJgsNPPNrDs]] the [[lookup @name
-          lowercase]] can see within [[lookup @target.template.size
-          activity=aDWVHpJgsNPPNrDs]] [[lookup @target.template.units
-          activity=aDWVHpJgsNPPNrDs]].</p><p><em>Failure:</em> The target has
-          the &amp;Reference[Grappled] condition (escape DC [[lookup
-          @skills.ath.passive]]).</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=aDWVHpJgsNPPNrDs]],
+          [[lookup @target.affects.special activity=aDWVHpJgsNPPNrDs]] the [[lookup @name lowercase]] can see within
+          [[lookup @target.template.size activity=aDWVHpJgsNPPNrDs]] [[lookup @target.template.units
+          activity=aDWVHpJgsNPPNrDs]].</p><p><em>Failure:</em> The target has the &amp;Reference[Grappled] condition
+          (escape DC [[lookup @skills.ath.passive]]).</p>
         chat: ''
       identifier: quick-grapple
       source:
@@ -1284,9 +1275,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false] condition
-          (escape DC [[/check ability=str skill=ath format=long]], see source
-          item for DC).</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1312,8 +1302,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBugbearStalker.mmQuickGrapple00.5yLzwp2Gu803QgI9
+        _key: '!actors.items.effects!mmBugbearStalker.mmQuickGrapple00.5yLzwp2Gu803QgI9'
     flags:
       degringo5e:
         riders:

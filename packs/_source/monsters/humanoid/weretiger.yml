@@ -495,14 +495,10 @@ items:
     system:
       description:
         value: >-
-          <p>The weretiger can use its action to polymorph into a tiger-humanoid
-          hybrid or into a tiger, or back into its true form, which is
-          humanoid.</p><p>Its statistics, other than its size, are the same in
-          each form. Any equipment it is wearing or carrying isn't transformed.
-          It reverts to its true form if it dies.</p>
-        chat: >-
-          <p>The weretiger can use its action to <strong>polymorph</strong>, or
-          return to its true form.</p>
+          <p>The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into
+          its true form, which is humanoid.</p><p>Its statistics, other than its size, are the same in each form. Any
+          equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p>
+        chat: <p>The weretiger can use its action to <strong>polymorph</strong>, or return to its true form.</p>
       source:
         custom: ''
         book: ''
@@ -601,9 +597,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The weretiger has advantage on Wisdom (Perception) checks that rely
-          on hearing or smell.</p>
+        value: <p>The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
         chat: ''
       source:
         custom: ''
@@ -651,18 +645,14 @@ items:
     system:
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] moves at <strong>least 15
-          feet</strong> straight toward a creature and then hits it with a
-          [[/item .HPmjVRKpG08bgohb]]{claw} attack on the same turn, that target
-          must succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone]. If the target is prone, the weretiger can make
-          one [[/item .FOkSL18gU0Sli5ZA]]{bite} attack against it as a bonus
-          action.</p>
+          <p>If the [[lookup @name lowercase]] moves at <strong>least 15 feet</strong> straight toward a creature and
+          then hits it with a [[/item .HPmjVRKpG08bgohb]]{claw} attack on the same turn, that target must succeed on a
+          [[/save]] saving throw or be knocked &amp;Reference[prone]. If the target is prone, the weretiger can make one
+          [[/item .FOkSL18gU0Sli5ZA]]{bite} attack against it as a bonus action.</p>
         chat: >-
-          <p>If the weretiger moves at <strong>least 15 feet</strong> straight
-          toward a creature and then hits it with a claw attack on the same
-          turn, that target must make a <strong>Strength</strong> saving throw
-          or be knocked prone.</p>
+          <p>If the weretiger moves at <strong>least 15 feet</strong> straight toward a creature and then hits it with a
+          claw attack on the same turn, that target must make a <strong>Strength</strong> saving throw or be knocked
+          prone.</p>
       source:
         custom: ''
         book: ''
@@ -783,8 +773,7 @@ items:
           modifiedTime: 1744074906625
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!zIr3NaNF0mWz5Ahq.jW4qHQ761qRLeWM8.xx5oDVvttzxBUXpQ
+        _key: '!actors.items.effects!zIr3NaNF0mWz5Ahq.jW4qHQ761qRLeWM8.xx5oDVvttzxBUXpQ'
     folder: null
     sort: 0
     ownership:
@@ -812,11 +801,9 @@ items:
     system:
       description:
         value: >-
-          <p>In humanoid form, the weretiger makes two [[/item
-          .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item
-          .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can
-          attack like a humanoid or make two [[/item .HPmjVRKpG08bgohb]]{claw}
-          attacks.</p>
+          <p>In humanoid form, the weretiger makes two [[/item .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item
+          .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can attack like a humanoid or make two [[/item
+          .HPmjVRKpG08bgohb]]{claw} attacks.</p>
         chat: ''
       source:
         custom: ''
@@ -916,12 +903,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a humanoid, it must succeed on a [[/save]] saving throw or be cursed
-          with weretiger lycanthropy.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a humanoid, it must succeed on a
+          [[/save]] saving throw or be cursed with weretiger lycanthropy.</p>
         chat: >-
-          <p>The Weretiger attacks with its Bite. If the target is a humanoid,
-          it must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The Weretiger attacks with its Bite. If the target is a humanoid, it must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

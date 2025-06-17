@@ -1150,23 +1150,17 @@ system:
     max: '50'
   description:
     value: >-
-      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff},
-      Legendary (Requires Attunement by a Sorcerer, Warlock, or
-      Wizard)</em></p><p>This staff has 50 charges and can be wielded as a magic
-      Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made
-      with it. While you hold it, you gain a +2 bonus to spell attack
-      rolls.</p><p><em><strong>Spell Absorption.</strong></em> While holding the
-      staff, you have Advantage on saving throws against spells. In addition,
-      you can take a Reaction when another creature casts a spell that targets
-      only you. If you do, the staff absorbs the magic of the spell, canceling
-      its effect and gaining a number of charges equal to the absorbed spell's
-      level. However, if doing so brings the staff's total number of charges
-      above 50, the staff explodes as if you activated its Retributive Strike
-      (see below).</p><p><em><strong>Spells.</strong></em> While holding the
-      staff, you can cast one of the spells on the following table from it,
-      using your spell save DC. The table indicates how many charges you must
-      expend to cast the spell.</p><details><summary>Spell Cost
-      Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Legendary (Requires Attunement by a
+      Sorcerer, Warlock, or Wizard)</em></p><p>This staff has 50 charges and can be wielded as a magic Quarterstaff that
+      grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell
+      attack rolls.</p><p><em><strong>Spell Absorption.</strong></em> While holding the staff, you have Advantage on
+      saving throws against spells. In addition, you can take a Reaction when another creature casts a spell that
+      targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number
+      of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges
+      above 50, the staff explodes as if you activated its Retributive Strike (see
+      below).</p><p><em><strong>Spells.</strong></em> While holding the staff, you can cast one of the spells on the
+      following table from it, using your spell save DC. The table indicates how many charges you must expend to cast
+      the spell.</p><details><summary>Spell Cost Table</summary><table><thead><tr><th><p>Spell</p></th><th><p>Charge
       Cost</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplArcaneLock]{Arcane
       Lock}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplConjureEle]{Conjure
       Elemental}</p></td><td><p>7</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
@@ -1184,22 +1178,17 @@ system:
       Good}</p></td><td><p>0</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplTelekinesi]{Telekinesis}</p></td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofFire]{Wall
       of
       Fire}</p></td><td><p>4</p></td><td></td></tr><tr><td><p>@UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web}</p></td><td><p>2</p></td><td></td></tr></tbody></table></details><p><em><strong>Regaining
-      Charges.</strong></em> The staff regains 4d6 + 2 expended charges daily at
-      dawn. If you expend the last charge, roll [[/r 1d20]]. On a 20, the staff
-      regains [[/r 1d12 + 1]] charges.</p><p><em><strong>Retributive
-      Strike.</strong></em> You can take a Magic action to break the staff over
-      your knee or against a solid surface. The staff is destroyed and releases
-      its magic in an explosion that fills a 30-foot Emanation originating from
-      itself. You have a 50 percent chance to instantly travel to a random plane
-      of existence, avoiding the explosion ([[/r 1d2]], teleported on a 1). If
-      you fail to avoid the effect, you take Force damage equal to 16 times the
-      number of charges in the staff. Each other creature in the area makes a DC
-      17 Dexterity saving throw. On a failed save, a creature takes Force damage
-      equal to 6 times the number of charges in the staff. On a successful save,
-      a creature takes half as much damage.</p><section class="secret"
-      id="secret-aWlDNImPrAgu7dbv"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Spell Absorption</strong> activity allows you to select the level
-      of the cast spell and restores that number of charges.</p></section>
+      Charges.</strong></em> The staff regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge,
+      roll [[/r 1d20]]. On a 20, the staff regains [[/r 1d12 + 1]] charges.</p><p><em><strong>Retributive
+      Strike.</strong></em> You can take a Magic action to break the staff over your knee or against a solid surface.
+      The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from
+      itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion
+      ([[/r 1d2]], teleported on a 1). If you fail to avoid the effect, you take Force damage equal to 16 times the
+      number of charges in the staff. Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed
+      save, a creature takes Force damage equal to 6 times the number of charges in the staff. On a successful save, a
+      creature takes half as much damage.</p><section class="secret" id="secret-aWlDNImPrAgu7dbv"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Spell Absorption</strong> activity allows you to select the level of the cast
+      spell and restores that number of charges.</p></section>
     chat: ''
   identifier: staff-of-the-magi
   source:
@@ -1298,8 +1287,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgStaffOfTheWoo.ActiveEffect.r6B9McDx4diFtkOt
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgStaffOfTheWoo.ActiveEffect.r6B9McDx4diFtkOt
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

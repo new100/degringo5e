@@ -632,15 +632,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] explodes [[lookup
-          @activation.condition
-          activity=1SfqWSp7RSyHgG4b]].</p><p><em>Constitution Saving Throw:
-          </em>DC [[lookup @save.dc.value activity=1SfqWSp7RSyHgG4b]], each
-          [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] in a
-          [[lookup @target.template.size activity=1SfqWSp7RSyHgG4b]]-foot
-          Emanation originating from the [[lookup @name
-          lowercase]].</p><p><em>Failure: </em>[[/damage average]]
-          damage.</p><p><em>Success:</em> Half damage.</p>
+          <p>The [[lookup @name lowercase]] explodes [[lookup @activation.condition
+          activity=1SfqWSp7RSyHgG4b]].</p><p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value
+          activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] in a [[lookup
+          @target.template.size activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the [[lookup @name
+          lowercase]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: death-burst
       source:
@@ -923,12 +919,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=ChLJgxjftTSMSRHe]], each [[lookup
-          @target.affects.type activity=ChLJgxjftTSMSRHe]] in a [[lookup
-          @target.template.size activity=ChLJgxjftTSMSRHe]]-foot
-          Cone.</p><p><em>Failure:</em> [[/damage average]]
-          damage.</p><p><em>Success: </em>Half damage.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=ChLJgxjftTSMSRHe]],
+          each [[lookup @target.affects.type activity=ChLJgxjftTSMSRHe]] in a [[lookup @target.template.size
+          activity=ChLJgxjftTSMSRHe]]-foot Cone.</p><p><em>Failure:</em> [[/damage average]] damage.</p><p><em>Success:
+          </em>Half damage.</p>
         chat: ''
       identifier: frost-breath
       source:
@@ -1031,10 +1025,8 @@ items:
         max: '1'
       description:
         value: >-
-          <p>The mephit casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFogCloud00]</em>,
-          requiring no spell components and using Charisma as the spellcasting
-          ability.</p>
+          <p>The mephit casts <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFogCloud00]</em>, requiring no spell
+          components and using Charisma as the spellcasting ability.</p>
         chat: ''
       identifier: fog-cloud
       source:
@@ -1079,13 +1071,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create a 20-foot-radius Sphere of fog centered on a point
-          within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts
-          for the duration or until a strong wind (such as one created by
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of
-          Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The fog's radius increases by 20 feet for each spell
-          slot level above 1.</p>
+          <p>You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is
+          &amp;Reference[heavilyobscured]. It lasts for the duration or until a strong wind (such as one created by
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses
+          it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The fog's radius increases by 20 feet for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1177,8 +1167,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmIceMephit00000.Item.mmFogCloud000000.Activity.sKdIh2G1RS2oqp8t
+        origin: Compendium.degringo5e.actors24.Actor.mmIceMephit00000.Item.mmFogCloud000000.Activity.sKdIh2G1RS2oqp8t
         changes:
           - key: system.properties
             mode: 2
@@ -1218,8 +1207,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmIceMephit00000.pH1Rf3FfwlD3EELa.dnd5espellchange
+        _key: '!actors.items.effects!mmIceMephit00000.pH1Rf3FfwlD3EELa.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2800000
     ownership:

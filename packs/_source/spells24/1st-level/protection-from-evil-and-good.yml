@@ -5,15 +5,12 @@ img: icons/magic/symbols/fleur-de-lis-yellow.webp
 system:
   description:
     value: >-
-      <div><p>Until the spell ends, one willing creature you touch is protected
-      against creatures that are Aberrations, Celestials, Elementals, Fey,
-      Fiends, or Undead. The protection grants several benefits. Creatures of
-      those types have Disadvantage on attack rolls against the target. The
-      target also can't be possessed by or gain the &amp;Reference[Charmed
-      apply=false] or &amp;Reference[Frightened apply=false] conditions from
-      them. If the target is already possessed, Charmed, or Frightened by such a
-      creature, the target has Advantage on any new saving throw against the
-      relevant effect.</p></div>
+      <div><p>Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations,
+      Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types
+      have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the
+      &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. If the target
+      is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw
+      against the relevant effect.</p></div>
     chat: ''
   source:
     custom: ''
@@ -123,10 +120,9 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>Creatures of those types have Disadvantage on attack rolls against the
-      target. The target also can’t be possessed by or gain the
-      &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened
-      apply=false] conditions from them. </p>
+      <p>Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be
+      possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions
+      from them. </p>
     tint: '#ffffff'
     statuses: []
     sort: 0

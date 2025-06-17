@@ -15,9 +15,7 @@ system:
     rules: '2014'
   activation:
     type: reaction
-    condition: >-
-      which you take when you see a creature within 60 feet of you casting a
-      spell
+    condition: which you take when you see a creature within 60 feet of you casting a spell
     value: 1
   duration:
     value: ''

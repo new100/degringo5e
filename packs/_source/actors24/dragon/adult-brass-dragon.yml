@@ -610,9 +610,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -705,11 +703,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of (A) [[/item Sleep Breath]] or
-          (B) [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
-          Ray}</em>.</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          (A) [[/item Sleep Breath]] or (B) [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching Ray}</em>.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -991,13 +987,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width
-          activity=bDqgmtLG3zcVuqdi]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot-long, [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:
@@ -1162,18 +1155,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup
-          @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup
-          @target.template.size activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> The target has the
-          &amp;Reference[Incapacitated apply=false] condition until the end of
-          its next turn, at which point it repeats the save.</p><p
-          class="feature"><em>Second Failure:</em> The target has the
-          &amp;Reference[Unconscious apply=false] condition for [[lookup
-          @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends
-          for the target if it takes damage or a creature within 5 feet of it
-          takes an action to wake it.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]],
+          each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size
+          activity=6ce9oevQRWomSVSF]]-foot Cone.</p><p class="feature"><em>Failure:</em> The target has the
+          &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at which point it repeats
+          the save.</p><p class="feature"><em>Second Failure:</em> The target has the &amp;Reference[Unconscious
+          apply=false] condition for [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minutes. This effect ends for
+          the target if it takes damage or a creature within 5 feet of it takes an action to wake it.</p>
         chat: ''
       identifier: sleep-breath
       source:
@@ -1210,9 +1198,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Incapacitated apply=false]
-          condition until the end of its next turn, at which point it repeats
-          the save.</p>
+          <p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, at
+          which point it repeats the save.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1238,8 +1225,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.mmSleepBreath000.9t5G87DeDyAF22dr
+        _key: '!actors.items.effects!mmAdultBrassDrag.mmSleepBreath000.9t5G87DeDyAF22dr'
       - name: Unconscious
         img: systems/degringo5e/icons/svg/statuses/unconscious.svg
         origin: Item.mmSleepBreath000
@@ -1257,10 +1243,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Unconscious apply=false]
-          condition for the duration (see source item for the length of the
-          duration). This effect ends for the target if it takes damage or a
-          creature within 5 feet of it takes an action to wake it.</p>
+          <p>The target has the &amp;Reference[Unconscious apply=false] condition for the duration (see source item for
+          the length of the duration). This effect ends for the target if it takes damage or a creature within 5 feet of
+          it takes an action to wake it.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1286,8 +1271,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.mmSleepBreath000.eiPsvHBjVi4pRHqJ
+        _key: '!actors.items.effects!mmAdultBrassDrag.mmSleepBreath000.eiPsvHBjVi4pRHqJ'
     flags:
       degringo5e:
         riders:
@@ -1602,27 +1586,18 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor
-          Illusion}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
-          Ray}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em>
-          (Beast or Humanoid form only, no Temporary Hit Points gained from the
-          spell, and no Concentration or Temporary Hit Points required to
-          maintain the spell),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMinorIllus]{Minor Illusion}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching Ray}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em> (Beast or Humanoid form
+          only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to
+          maintain the spell), <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with
           Animals}</em></p><p class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
-          Thoughts}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control
-          Weather}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplControlWea]{Control Weather}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1665,13 +1640,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1791,8 +1764,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1801,14 +1773,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.JmI3i6YXq2lRaw13.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAdultBrassDrag.JmI3i6YXq2lRaw13.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.mgOj16go0Hn5DnYT
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.mgOj16go0Hn5DnYT
         changes:
           - key: system.properties
             mode: 2
@@ -1840,8 +1810,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.JmI3i6YXq2lRaw13.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.JmI3i6YXq2lRaw13.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1868,24 +1837,18 @@ items:
     system:
       description:
         value: >-
-          <p>You create a sound or an image of an object within range that lasts
-          for the duration. See the descriptions below for the effects of each.
-          The illusion ends if you cast this spell again.</p><p>If a creature
-          takes a Study action to examine the sound or image, the creature can
-          determine that it is an illusion with a successful [[/check
-          ability=int skill=inv dc=@attributes.spell.dc]] check against your
-          spell save DC. If a creature discerns the illusion for what it is, the
-          illusion becomes faint to the creature.</p><p><strong>Sound.</strong>
-          If you create a sound, its volume can range from a whisper to a
-          scream. It can be your voice, someone else's voice, a lion's roar, a
-          beating of drums, or any other sound you choose. The sound continues
-          unabated throughout the duration, or you can make discrete sounds at
-          different times before the spell ends.</p><p><strong>Image.</strong>
-          If you create an image of an object—such as a chair, muddy footprints,
-          or a small chest—it must be no larger than a 5-foot Cube. The image
-          can't create sound, light, smell, or any other sensory effect.
-          Physical interaction with the image reveals it to be an illusion,
-          since things can pass through it.</p>
+          <p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions
+          below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a
+          Study action to examine the sound or image, the creature can determine that it is an illusion with a
+          successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a
+          creature discerns the illusion for what it is, the illusion becomes faint to the
+          creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a
+          scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you
+          choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different
+          times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a
+          chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create
+          sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an
+          illusion, since things can pass through it.</p>
         chat: ''
       source:
         custom: ''
@@ -2012,8 +1975,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.cy0Jz7lpWxMKEHSi
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.cy0Jz7lpWxMKEHSi
         changes:
           - key: system.properties
             mode: 2
@@ -2045,8 +2007,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.HbCZyPH7hYNiqQI3.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.HbCZyPH7hYNiqQI3.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 600000
     ownership:
@@ -2070,21 +2031,15 @@ items:
     system:
       description:
         value: >-
-          <p>You shape-shift into another creature for the duration or until you
-          take a Magic action to shape-shift into a different eligible form. The
-          new form must be of a creature that has a Challenge Rating no higher
-          than your level or Challenge Rating. You must have seen the sort of
-          creature before, and it can't be a Construct or an Undead.</p><p>When
-          you shape-shift, you gain a number of Temporary Hit Points equal to
-          the Hit Points of the form. The spell ends early if you have no
-          Temporary Hit Points left.</p><p>Your game statistics are replaced by
-          the stat block of the chosen form, but you retain your creature type;
-          alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit
-          Points; Hit Point Dice; proficiencies; and ability to communicate. If
-          you have the Spellcasting feature, you retain it too.</p><p>Upon
-          shape-shifting, you determine whether your equipment drops to the
-          ground or changes in size and shape to fit the new form while you're
-          in it.</p>
+          <p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into
+          a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your
+          level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an
+          Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the
+          form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced
+          by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence,
+          Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you
+          have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your
+          equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>
         chat: ''
       source:
         custom: ''
@@ -2180,8 +2135,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.DHhlsyLH0tW6OdQq
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.DHhlsyLH0tW6OdQq
         changes:
           - key: system.properties
             mode: 2
@@ -2217,8 +2171,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.po1oMMVa5As09ueX.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.po1oMMVa5As09ueX.dnd5espellchange'
     folder: iG0Zia8jh6uK39TB
     sort: 100391
     ownership:
@@ -2242,12 +2195,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you can comprehend and verbally communicate with
-          Beasts, and you can use any of the Influence action's skill options
-          with them.</p><p>Most Beasts have little to say about topics that
-          don't pertain to survival or companionship, but at minimum, a Beast
-          can give you information about nearby locations and monsters,
-          including whatever it has perceived within the past day.</p>
+          <p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the
+          Influence action's skill options with them.</p><p>Most Beasts have little to say about topics that don't
+          pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations
+          and monsters, including whatever it has perceived within the past day.</p>
         chat: ''
       source:
         custom: ''
@@ -2373,14 +2324,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.TUiTUlD8aaRsW2m2.lHx55SIuimKR3ALR
+        _key: '!actors.items.effects!mmAdultBrassDrag.TUiTUlD8aaRsW2m2.lHx55SIuimKR3ALR'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.MePRnufO2BdCC987
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.MePRnufO2BdCC987
         changes:
           - key: system.properties
             mode: 2
@@ -2412,8 +2361,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.TUiTUlD8aaRsW2m2.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.TUiTUlD8aaRsW2m2.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 300000
     ownership:
@@ -2437,28 +2385,20 @@ items:
     system:
       description:
         value: >-
-          <p>You activate one of the effects below. Until the spell ends, you
-          can activate either effect as a Magic action on your later
-          turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence
-          of thoughts within 30 feet of yourself that belong to creatures that
-          know languages or are telepathic. You don't read the thoughts, but you
-          know that a thinking creature is present.</p><p>The spell is blocked
-          by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
-          lead.</p><p><strong>Read Thoughts.</strong> Target one creature you
-          can see within 30 feet of yourself or one creature within 30 feet of
-          yourself that you detected with the Sense Thoughts option. You learn
-          what is most on the target's mind right now. If the target doesn't
-          know any languages and isn't telepathic, you learn nothing.</p><p>As a
-          Magic action on your next turn, you can try to probe deeper into the
-          target's mind. If you probe deeper, the target makes a Wisdom saving
-          throw. On a failed save, you discern the target's reasoning, emotions,
-          and something that looms large in its mind (such as a worry, love, or
-          hate). On a successful save, the spell ends. Either way, the target
-          knows that you are probing into its mind, and until you shift your
-          attention away from the target's mind, the target can take an action
-          on its turn to make an [[/check ability=int skill=arc
-          dc=@attributes.spell.dc]] check against your spell save DC, ending the
-          spell on a success.</p>
+          <p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic
+          action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within
+          30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the
+          thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone,
+          dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one
+          creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected
+          with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't
+          know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can
+          try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a
+          failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as
+          a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are
+          probing into its mind, and until you shift your attention away from the target's mind, the target can take an
+          action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your
+          spell save DC, ending the spell on a success.</p>
         chat: ''
       source:
         custom: ''
@@ -2609,8 +2549,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.sVL4ZjY58fsRfoMm
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.sVL4ZjY58fsRfoMm
         changes:
           - key: system.properties
             mode: 2
@@ -2642,8 +2581,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.y7iGAk2LDr32QTmX.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.y7iGAk2LDr32QTmX.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4000000
     ownership:
@@ -2670,19 +2608,15 @@ items:
     system:
       description:
         value: >-
-          <p>You take control of the weather within 5 miles of you for the
-          duration. You must be outdoors to cast this spell, and it ends early
-          if you go indoors.</p><p>When you cast the spell, you change the
-          current weather conditions, which are determined by the DM. You can
-          change precipitation, temperature, and wind. It takes 1d4 × 10 minutes
-          for the new conditions to take effect. Once they do so, you can change
-          the conditions again. When the spell ends, the weather gradually
-          returns to normal.</p><p>When you change the weather conditions, find
-          a current condition on the following tables and change its stage by
-          one, up or down. When changing the wind, you can change its
+          <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this
+          spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather
+          conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4
+          × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When
+          the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a
+          current condition on the following tables and change its stage by one, up or down. When changing the wind, you
+          can change its
           direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light
-          clouds</td></tr><tr><td>3</td><td>Overcast or ground
-          fog</td></tr><tr><td>4</td><td>Rain, hail, or
+          clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or
           snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or
           blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat
           wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate
@@ -2826,8 +2760,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.FclPWRNXRRWJmE2P
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBrassDrag.Item.mmSpellcasting00.Activity.FclPWRNXRRWJmE2P
         changes:
           - key: system.properties
             mode: 2
@@ -2859,8 +2792,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.nVRTlv14fzhoDhWf.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBrassDrag.nVRTlv14fzhoDhWf.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 106250
     ownership:
@@ -2942,8 +2874,7 @@ items:
       description:
         value: >-
           <p>The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
-          Ray}.</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching Ray}.</em></p>
         chat: ''
       identifier: blazing-light
       source:
@@ -3046,9 +2977,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:
@@ -3166,16 +3095,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup
-          @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=g5fxAWhrpwohtETl]] feet.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target's Speed is halved until the end of its next turn.</p><p
-          class="feature"><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]],
+          [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=g5fxAWhrpwohtETl]] feet.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target's Speed is halved until the end of its next turn.</p><p
+          class="feature"><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: scorching-sands
       source:
@@ -3256,8 +3181,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBrassDrag.mmScorchingSands.n3I76HfSH6eKLALf
+        _key: '!actors.items.effects!mmAdultBrassDrag.mmScorchingSands.n3I76HfSH6eKLALf'
     flags:
       degringo5e:
         riders:

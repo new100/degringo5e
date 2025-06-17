@@ -6,9 +6,8 @@ type: spell
 system:
   description:
     value: >-
-      <p>You or a creature you touch becomes Invisible until the spell ends.
-      Anything the target is wearing or carrying is Invisible as long as it is
-      on the target's person.</p>
+      <p>You or a creature you touch becomes Invisible until the spell ends. Anything the target is wearing or carrying
+      is Invisible as long as it is on the target's person.</p>
     chat: ''
   source:
     custom: ''
@@ -111,9 +110,8 @@ effects:
     _id: lhYVl4DD9jyS5gcn
     changes: []
     description: >-
-      <p>The target becomes Invisible until the spell ends. Anything the target
-      is wearing or carrying is Invisible as long as it is on the target's
-      person.</p>
+      <p>The target becomes Invisible until the spell ends. Anything the target is wearing or carrying is Invisible as
+      long as it is on the target's person.</p>
     transfer: false
     statuses:
       - invisible

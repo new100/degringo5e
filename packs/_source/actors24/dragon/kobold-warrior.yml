@@ -410,8 +410,7 @@ system:
         <div class="gear"><p><strong>Gear:</strong>
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
         (3)}</p></div><h1>Kobolds</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.NC8c3St0SoWBP6K8
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Kobold
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Kobold
         Warrior</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.khL20BavkkD4YZGY
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -745,9 +744,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -797,9 +795,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>While in sunlight, the [[lookup @name lowercase]] has Disadvantage
-          on ability checks and attack rolls.</p>
+        value: <p>While in sunlight, the [[lookup @name lowercase]] has Disadvantage on ability checks and attack rolls.</p>
         chat: ''
       identifier: sunlight-sensitivity
       source:

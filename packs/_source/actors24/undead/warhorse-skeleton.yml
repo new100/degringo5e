@@ -662,10 +662,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature and the skeleton moved 20+ feet
-          straight toward it immediately before the hit, the target has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature and the
+          skeleton moved 20+ feet straight toward it immediately before the hit, the target has the &amp;Reference[Prone
+          apply=false] condition.</p>
         chat: ''
       identifier: hooves
       source:
@@ -762,8 +761,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmWarhorseSkelet.mmHooves00000000.NpRjOvORcyUv8cmg
+        _key: '!actors.items.effects!mmWarhorseSkelet.mmHooves00000000.NpRjOvORcyUv8cmg'
     flags:
       degringo5e:
         riders:

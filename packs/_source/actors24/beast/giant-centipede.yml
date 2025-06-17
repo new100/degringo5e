@@ -610,9 +610,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false]  condition until the
-          start of the [[lookup @name lowercase]]'s next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false]  condition until the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: bite
       source:
@@ -672,8 +671,7 @@ items:
     effects:
       - name: Poisoned
         img: systems/degringo5e/icons/svg/statuses/poisoned.svg
-        origin: >-
-          Compendium.dnd-monster-manual.actors.Actor.mmGiantCentipede.Item.mmBite0000000000
+        origin: Compendium.dnd-monster-manual.actors.Actor.mmGiantCentipede.Item.mmBite0000000000
         _id: PzxN1RHxvVfpYZxa
         type: base
         system: {}
@@ -688,8 +686,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the attacking creature’s next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the attacking
+          creature’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -705,8 +703,7 @@ items:
           createdTime: null
           modifiedTime: null
           lastModifiedBy: degringo5builder
-        _key: >-
-          !actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa
+        _key: '!actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa'
     flags:
       degringo5e:
         riders:

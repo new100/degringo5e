@@ -807,12 +807,10 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC
-          [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup
-          @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
-          [[lookup @name lowercase]] can see within [[lookup @range.value
-          activity=IgOMjRxAt7UISkJq]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target has the &amp;Reference[Grappled
+          <p><em>Strength Saving Throw:</em><span class="Heading-4"> </span>DC [[lookup @save.dc.value
+          activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the
+          [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]]
+          feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Grappled
           apply=false] condition (escape DC [[lookup @skills.ath.passive]]).</p>
         chat: ''
       identifier: constrict
@@ -851,9 +849,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the Grappled condition. Escape Tests (see source
-          item for DC):</p><p>[[/check skill=ath ability=str]]</p><p>[[/check
-          skill=acr ability=dex]]</p>
+          <p>The target has the Grappled condition. Escape Tests (see source item for DC):</p><p>[[/check skill=ath
+          ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>
         tint: '#ffffff'
         statuses:
           - grappled
@@ -869,8 +866,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmConstrictorSna.mmConstrict00000.Hd0Gy3wJtPfObERq
+        _key: '!actors.items.effects!mmConstrictorSna.mmConstrict00000.Hd0Gy3wJtPfObERq'
     flags:
       degringo5e:
         riders:

@@ -410,8 +410,7 @@ system:
         <div class="gear"><p><strong>Gear:</strong>
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers
         (10)}</p></div><h1>Vampires</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Vampire
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Vampire
         Familiar</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.iWbAQD1GN6bn7JeU
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -573,11 +572,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While the [[lookup @name lowercase]] and its
-          vampire master are on the same plane of existence, the vampire can
-          communicate with the [[lookup @name lowercase]] telepathically, and
-          the vampire can perceive through the [[lookup @name lowercase]]'s
-          senses.</p>
+          <p class="feature">While the [[lookup @name lowercase]] and its vampire master are on the same plane of
+          existence, the vampire can communicate with the [[lookup @name lowercase]] telepathically, and the vampire can
+          perceive through the [[lookup @name lowercase]]'s senses.</p>
         chat: ''
       identifier: vampiric-connection
       source:
@@ -676,9 +673,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmUmbralDagger00]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmUmbralDagger00]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -795,11 +790,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is reduced to 0 Hit Points by this attack, the target
-          becomes Stable but has the &amp;Reference[Poisoned apply=false]
-          condition for 1 hour. While it has the Poisoned condition, the target
-          has the &amp;Reference[Paralyzed apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is reduced to 0 Hit
+          Points by this attack, the target becomes Stable but has the &amp;Reference[Poisoned apply=false] condition
+          for 1 hour. While it has the Poisoned condition, the target has the &amp;Reference[Paralyzed apply=false]
+          condition.</p>
         chat: ''
       identifier: umbral-dagger
       source:
@@ -882,9 +876,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          for 1 hour. While the target has the Poisoned condition, the target
-          also has the &amp;Reference[Paralyzed apply=false] condition.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition for 1 hour. While the target has the
+          Poisoned condition, the target also has the &amp;Reference[Paralyzed apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -902,8 +895,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmVampireFamilia.mmUmbralDagger00.dsK5sPtkUMySmyvw
+        _key: '!actors.items.effects!mmVampireFamilia.mmUmbralDagger00.dsK5sPtkUMySmyvw'
     flags:
       degringo5e:
         riders:
@@ -983,8 +975,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Dash] or &amp;Reference[Disengage] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Dash] or &amp;Reference[Disengage]
+          action.</p>
         chat: ''
       identifier: deathless-agility
       source:

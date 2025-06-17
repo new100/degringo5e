@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureAni
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureAni caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -485,11 +483,10 @@ items:
     system:
       description:
         value: >-
-          <p>Whenever the pack moves within 10 feet of a creature you can see
-          and whenever a creature you can see enters a space within 10 feet of
-          the pack or ends its turn there, you can force that creature to make a
-          Dexterity saving throw. On a failed save, the creature takes 3d10
-          Slashing damage. A creature makes this save only once per turn.</p>
+          <p>Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters
+          a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity
+          saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once
+          per turn.</p>
         chat: ''
       source:
         custom: ''

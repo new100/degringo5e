@@ -7,13 +7,11 @@ system:
   description:
     value: >-
       <p>Your magical smite now radiates protective energy. Whenever you cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplDivineSmit]{Divine Smite}, you
-      and your allies have Half Cover while in your Aura of Protection. The aura
-      has this benefit until the start of your next turn.</p><section
-      class="secret" id="secret-zaNpOup6oPMC6RtV"><p><strong>Foundry
-      Note</strong></p><p>This feature includes an Active Effect which provides
-      the Half Cover status but it is not automatically granted as creatures
-      enter/exit your aura.</p></section>
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplDivineSmit]{Divine Smite}, you and your allies have Half Cover
+      while in your Aura of Protection. The aura has this benefit until the start of your next turn.</p><section
+      class="secret" id="secret-zaNpOup6oPMC6RtV"><p><strong>Foundry Note</strong></p><p>This feature includes an Active
+      Effect which provides the Half Cover status but it is not automatically granted as creatures enter/exit your
+      aura.</p></section>
     chat: ''
   source:
     custom: ''

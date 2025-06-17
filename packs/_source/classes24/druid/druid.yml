@@ -6,40 +6,30 @@ img: systems/degringo5e/icons/classes/druid.webp
 system:
   description:
     value: >-
-      <h3>Core Druid Traits</h3><table class="core-class-traits"><tbody><tr><th
-      scope="row"><p><strong>Primary
-      Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th
-      scope="row"><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Druid
-      level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
-      Proficiencies</strong></p></th><td><p>Intelligence and
-      Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
-      Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling,
-      Arcana, Insight, Medicine, Nature, Perception, Religion, or
-      Survival</p></td></tr><tr><th scope="row"><p><strong>Weapon
-      Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th
-      scope="row"><p><strong>Tool
-      Proficiencies</strong></p></th><td><p>Herbalism Kit</p></td></tr><tr><th
-      scope="row"><p><strong>Armor Training</strong></p></th><td><p>Light armor
-      and Shields</p></td></tr><tr><th scope="row"><p><strong>Starting
+      <h3>Core Druid Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p><strong>Primary
+      Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th scope="row"><p><strong>Hit Point
+      Die</strong></p></th><td><p>D8 per Druid level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
+      Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
+      Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Arcana, Insight, Medicine, Nature,
+      Perception, Religion, or Survival</p></td></tr><tr><th scope="row"><p><strong>Weapon
+      Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope="row"><p><strong>Tool
+      Proficiencies</strong></p></th><td><p>Herbalism Kit</p></td></tr><tr><th scope="row"><p><strong>Armor
+      Training</strong></p></th><td><p>Light armor and Shields</p></td></tr><tr><th scope="row"><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
       @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
       @UUID[Compendium.degringo5e.equipment24.Item.phbarmShield0000]{Shield},
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepSickle0000]{Sickle},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus}
       (@UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's
-      Pack}, @UUID[Compendium.degringo5e.equipment24.Item.phbtulHerbalismK]{Herbalism
-      Kit}, and [[/award 9GP]]; or (B) [[/award
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack},
+      @UUID[Compendium.degringo5e.equipment24.Item.phbtulHerbalismK]{Herbalism Kit}, and [[/award 9GP]]; or (B) [[/award
       50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Druid …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Druid Traits
-      table.</li><li>Gain the Druid's level 1 features, which are listed in the
-      Druid Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the following traits from the Core Druid Traits
-      table: Hit Point Die and training with Light armor and
-      Shields.</li><li>Gain the Druid's level 1 features, which are listed in
-      the Druid Features table. See the multiclassing rules in chapter 2 to
-      determine your available spell slots.</li></ul>
+      inline classes="free-rules-embed"]</p><h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Druid Traits table.</li><li>Gain the Druid's level 1 features, which are listed in the
+      Druid Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core
+      Druid Traits table: Hit Point Die and training with Light armor and Shields.</li><li>Gain the Druid's level 1
+      features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your
+      available spell slots.</li></ul>
     chat: ''
   source:
     custom: ''
@@ -427,9 +417,7 @@ system:
         added: {}
         replaced: {}
       title: Primal Order
-      hint: >-
-        You have dedicated yourself to one of the following sacred roles of your
-        choice.
+      hint: You have dedicated yourself to one of the following sacred roles of your choice.
     - _id: HYDmnuNUbI5liP08
       type: ItemChoice
       configuration:
@@ -449,9 +437,7 @@ system:
         added: {}
         replaced: {}
       title: Elemental Fury
-      hint: >-
-        The might of the elements flows through you. You gain one of the
-        following options of your choice.
+      hint: The might of the elements flows through you. You gain one of the following options of your choice.
     - _id: 8HY05Ii0VPXoZqV9
       type: ItemChoice
       configuration:

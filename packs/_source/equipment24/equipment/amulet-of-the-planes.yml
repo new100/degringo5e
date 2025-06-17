@@ -61,16 +61,12 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>While
-      wearing this amulet, you can take a Magic action to name a location that
-      you are familiar with on another plane of existence. Then make a DC 15
-      Intelligence (Arcana) check. On a successful check, you cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane Shift} . On a
-      failed check, you and each creature and object within 15 feet of you
-      travel to a random destination determined by rolling 1d100 and consulting
-      the following
-      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgAmuletOfThePl
-      rollable caption=false]</p>
+      <p><em>Wondrous Item, Very Rare (Requires Attunement)</em></p><p>While wearing this amulet, you can take a Magic
+      action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence
+      (Arcana) check. On a successful check, you cast @UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane
+      Shift} . On a failed check, you and each creature and object within 15 feet of you travel to a random destination
+      determined by rolling 1d100 and consulting the following
+      table.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgAmuletOfThePl rollable caption=false]</p>
     chat: ''
   identifier: amulet-of-the-planes
   source:

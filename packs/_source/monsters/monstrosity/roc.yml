@@ -652,9 +652,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The roc has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on sight.</p>
+        value: <p>The roc has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>
         chat: ''
       source:
         custom: ''
@@ -701,8 +699,7 @@ items:
     system:
       description:
         value: >-
-          <p>The roc makes two attacks: one with its [[/item
-          .PZWkwOa8C0Y2tSCR]]{beak} and one with its [[/item
+          <p>The roc makes two attacks: one with its [[/item .PZWkwOa8C0Y2tSCR]]{beak} and one with its [[/item
           .XMiiDwLIMYWFqxyv]]{talons}.</p>
         chat: ''
       source:
@@ -803,13 +800,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          grappled (escape DC 19). Until this grapple ends, the target is
-          restrained, and the roc can't use its talons on another target.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is grappled (escape DC 19). Until this grapple
+          ends, the target is restrained, and the roc can't use its talons on another target.</p>
         chat: >-
-          <p>The Roc attacks with its Talons. The target is grappled. Until this
-          grapple ends, the target is restrained, and the roc can't use its
-          talons on another target.</p>
+          <p>The Roc attacks with its Talons. The target is grappled. Until this grapple ends, the target is restrained,
+          and the roc can't use its talons on another target.</p>
       source:
         custom: ''
         book: ''

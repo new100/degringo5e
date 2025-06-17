@@ -62,14 +62,11 @@ system:
     max: '3'
   description:
     value: >-
-      <div><p><em>Wondrous Item, Uncommon (Requires
-      Attunement)</em></p></div><p>These crystal lenses fit over the eyes. They
-      have 3 charges. While wearing them, you can expend 1 or more charges to
-      cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm
-      Person}</em> (save DC 13). For 1 charge, you cast the level 1 version of
-      the spell. You increase the spell's level by one for each additional
-      charge you expend. The lenses regain all expended charges daily at
-      dawn.</p>
+      <div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>These crystal lenses fit over the eyes.
+      They have 3 charges. While wearing them, you can expend 1 or more charges to cast
+      <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em> (save DC 13). For 1 charge, you
+      cast the level 1 version of the spell. You increase the spell's level by one for each additional charge you
+      expend. The lenses regain all expended charges daily at dawn.</p>
     chat: ''
   identifier: eyes-of-charming
   source:

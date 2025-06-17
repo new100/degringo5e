@@ -504,11 +504,9 @@ items:
     system:
       description:
         value: >-
-          <p>If the elemental takes cold damage, it partially freezes; its speed
-          is reduced by 20 ft. until the end of its next turn.</p>
-        chat: >-
-          <p>If the elemental takes <strong><em>cold damage</em></strong>, it
-          partially freezes.</p>
+          <p>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of
+          its next turn.</p>
+        chat: <p>If the elemental takes <strong><em>cold damage</em></strong>, it partially freezes.</p>
       source:
         custom: ''
         book: ''
@@ -554,9 +552,8 @@ items:
     system:
       description:
         value: >-
-          <p>The elemental can enter a hostile creature's space and stop there.
-          It can move through a space as narrow as 1 inch wide without
-          squeezing.</p>
+          <p>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as
+          1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -602,9 +599,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The elemental makes two [[/item .7xDGPsWicxgP6feT]]{slam}
-          attacks.</p>
+        value: <p>The elemental makes two [[/item .7xDGPsWicxgP6feT]]{slam} attacks.</p>
         chat: ''
       source:
         custom: ''
@@ -867,25 +862,19 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in the elemental's space must make a [[/save]] saving
-          throw. On a failure, a target takes [[/damage average]] damage. If it
-          is Large or smaller, it is also &amp;Reference[grappled] (escape DC
-          14). Until this grapple ends, the target is &amp;Reference[restrained]
-          and unable to breathe unless it can breathe water.</p><p>If the saving
-          throw is successful, the target is pushed out of the elemental's
-          space.The elemental can grapple one Large creature or up to two Medium
-          or smaller creatures at one time. At the start of each of the
-          elemental's turns, each target grappled by it takes [[/damage
-          average]] damage. A creature within 5 feet of the elemental can pull a
-          creature or object out of it by taking an action to make a [[/check]]
-          check and succeeding.</p>
+          <p>Each creature in the elemental's space must make a [[/save]] saving throw. On a failure, a target takes
+          [[/damage average]] damage. If it is Large or smaller, it is also &amp;Reference[grappled] (escape DC 14).
+          Until this grapple ends, the target is &amp;Reference[restrained] and unable to breathe unless it can breathe
+          water.</p><p>If the saving throw is successful, the target is pushed out of the elemental's space.The
+          elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of
+          each of the elemental's turns, each target grappled by it takes [[/damage average]] damage. A creature within
+          5 feet of the elemental can pull a creature or object out of it by taking an action to make a [[/check]] check
+          and succeeding.</p>
         chat: >-
-          <p>Each creature in the elemental's space must make a
-          <strong>Strength</strong> saving throw. If it is Large or smaller, it
-          is also grappled. Until this grapple ends, the target is restrained
-          and unable to breathe unless it can breathe water. A creature within 5
-          feet of the elemental can pull a creature or object out of it by
-          taking an action to make a Strength check and succeeding.</p>
+          <p>Each creature in the elemental's space must make a <strong>Strength</strong> saving throw. If it is Large
+          or smaller, it is also grappled. Until this grapple ends, the target is restrained and unable to breathe
+          unless it can breathe water. A creature within 5 feet of the elemental can pull a creature or object out of it
+          by taking an action to make a Strength check and succeeding.</p>
       source:
         custom: ''
         book: ''

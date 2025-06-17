@@ -5,16 +5,13 @@ img: icons/magic/nature/hand-weapon-wood-bark-brown.webp
 system:
   description:
     value: >-
-      <p>Once on each of your turns when you hit a creature with an attack roll
-      using a weapon or a Beast form's attack in Wild Shape, you can cause the
-      target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8
-      type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage
-      1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section
-      class="secret" id="secret-teMMREyPGTtod1kP"><p><strong>Foundry
-      Note</strong></p><p>This feature's damage will automatically increase when
-      you gain @UUID[Compendium.degringo5e.classes24.Item.phbdrdImprovedEl]{Improved
-      Elemental Fury}. If using the activity you will be able to select the
-      damage type when rolling. It will default to your previously chosen damage
+      <p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack
+      in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8
+      type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage
+      (choose when you hit).</p><section class="secret" id="secret-teMMREyPGTtod1kP"><p><strong>Foundry
+      Note</strong></p><p>This feature's damage will automatically increase when you gain
+      @UUID[Compendium.degringo5e.classes24.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you
+      will be able to select the damage type when rolling. It will default to your previously chosen damage
       type.</p></section>
     chat: ''
   source:
@@ -70,9 +67,7 @@ system:
           choice: false
           count: '1'
           type: creature
-          special: >-
-            When you hit a creature with an attack roll using a weapon or a
-            Beast form's attack in Wild Shape
+          special: When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape
         override: false
         prompt: false
       uses:

@@ -594,9 +594,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRottingTouch00]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRottingTouch00]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -700,9 +698,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: rotting-touch
       source:

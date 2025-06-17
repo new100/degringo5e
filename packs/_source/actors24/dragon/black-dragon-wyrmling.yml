@@ -409,8 +409,7 @@ system:
       value: >-
         <h1>Black
         Dragons</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.EZn4p80bsBA4HbN8
-        caption=false cite=false classes="no-embed mm
-        free-rules-embed"]</p><h2>Black Dragon
+        caption=false cite=false classes="no-embed mm free-rules-embed"]</p><h2>Black Dragon
         Wyrmling</h2><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.iE49waOfpKA4oHnC
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
       public: ''
@@ -813,9 +812,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -939,13 +936,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type
-          activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size
-          activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width
-          activity=qNI6W02jCUQbPpYE]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup
+          @target.affects.type activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size
+          activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: acid-breath
       source:

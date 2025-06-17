@@ -123,25 +123,19 @@ system:
     max: '7'
   description:
     value: >-
-      <p><em>Wondrous Item, Legendary</em></p><p>This viscous, milky-white
-      substance can form a permanent adhesive bond between any two objects. It
-      must be stored in a jar or flask that has been coated inside with
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgOilOfSlipperi]{Oil of
-      Slipperiness}. When found, a container contains 1d6 + 1 ounces.</p><p>One
-      ounce of the glue can cover a 1-foot square surface. Applying an ounce of
-      <em>Sovereign Glue</em> takes a Utilize action, and the applied glue takes
-      1 minute to set. Once it has done so, the bond it creates can be broken
-      only by the application of
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgUniversalSolv]{Universal
-      Solvent} or @UUID[Compendium.degringo5e.equipment24.Item.dmgOilOfEthereal]{Oil
-      of Etherealness}, or with a
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish}
-      spell.</p><section class="secret"
-      id="secret-5E4TGkxH4i9Bo67I"><p><strong>Foundry Note</strong></p><p>This
-      item includes 7 limited uses. The <strong>Determine Ounces</strong>
-      activity can be used to determine the number of ounces equivalent to 1d6 +
-      1.</p><p>The <strong>Apply Glue</strong> activity allows you to select the
-      number of ounces you're applying.</p></section>
+      <p><em>Wondrous Item, Legendary</em></p><p>This viscous, milky-white substance can form a permanent adhesive bond
+      between any two objects. It must be stored in a jar or flask that has been coated inside with
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgOilOfSlipperi]{Oil of Slipperiness}. When found, a container
+      contains 1d6 + 1 ounces.</p><p>One ounce of the glue can cover a 1-foot square surface. Applying an ounce of
+      <em>Sovereign Glue</em> takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so,
+      the bond it creates can be broken only by the application of
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgUniversalSolv]{Universal Solvent} or
+      @UUID[Compendium.degringo5e.equipment24.Item.dmgOilOfEthereal]{Oil of Etherealness}, or with a
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWish000000]{Wish} spell.</p><section class="secret"
+      id="secret-5E4TGkxH4i9Bo67I"><p><strong>Foundry Note</strong></p><p>This item includes 7 limited uses. The
+      <strong>Determine Ounces</strong> activity can be used to determine the number of ounces equivalent to 1d6 +
+      1.</p><p>The <strong>Apply Glue</strong> activity allows you to select the number of ounces you're
+      applying.</p></section>
     chat: ''
   identifier: sovereign-glue
   source:

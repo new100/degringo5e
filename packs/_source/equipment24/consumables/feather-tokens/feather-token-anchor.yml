@@ -66,12 +66,10 @@ system:
     autoDestroy: true
   description:
     value: >-
-      <p><em>Wondrous Item, Uncommon, See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
-      Token}</em></p><p>You can take a Magic action to touch the token to a boat
-      or ship. For the next 24 hours, the vessel can't be moved by any means.
-      Touching the token to the vessel again ends the effect. When the effect
-      ends, the token disappears.</p>
+      <p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      Token}</em></p><p>You can take a Magic action to touch the token to a boat or ship. For the next 24 hours, the
+      vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends,
+      the token disappears.</p>
     chat: ''
   identifier: anchor-feather-token
   source:
@@ -128,9 +126,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAnchorQuaalsF
-      caption=false]</p>
+    description: <p>@Embed[Compendium.degringo5e.equipment24.Item.dmgAnchorQuaalsF caption=false]</p>
     origin: null
     tint: '#ffffff'
     transfer: true

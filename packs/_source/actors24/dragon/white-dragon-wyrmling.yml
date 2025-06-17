@@ -565,10 +565,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can move across and climb icy
-          surfaces without needing to make an ability check. Additionally,
-          &amp;Reference[Difficult Terrain] composed of ice or snow doesn't cost
-          it extra movement.</p>
+          <p>The [[lookup @name lowercase]] can move across and climb icy surfaces without needing to make an ability
+          check. Additionally, &amp;Reference[Difficult Terrain] composed of ice or snow doesn't cost it extra
+          movement.</p>
         chat: ''
       identifier: ice-walk
       source:
@@ -811,9 +810,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -936,12 +933,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=8P7hmd3Nron4RAIv]], each [[lookup @target.affects.type
-          activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
-          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], each [[lookup
+          @target.affects.type activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size
+          activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: cold-breath
       source:

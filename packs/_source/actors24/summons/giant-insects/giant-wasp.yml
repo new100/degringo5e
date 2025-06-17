@@ -552,8 +552,8 @@ items:
     system:
       description:
         value: >-
-          <p> The insect can climb difficult surfaces, including along ceilings,
-          without needing to make an ability check.</p>
+          <p> The insect can climb difficult surfaces, including along ceilings, without needing to make an ability
+          check.</p>
         chat: ''
       source:
         custom: ''
@@ -603,9 +603,8 @@ items:
     system:
       description:
         value: >-
-          <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
-          2)]]{Number of attacks}</p>
+          <p>The insect makes a number of attacks equal to half this spell's level (round
+          down).</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of attacks}</p>
         chat: ''
       source:
         custom: ''
@@ -713,9 +712,8 @@ items:
     system:
       description:
         value: >-
-          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3 plus the spell's level
-          Piercing damage plus 1d4 Poison damage.</p>
+          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3
+          plus the spell's level Piercing damage plus 1d4 Poison damage.</p>
         chat: ''
       source:
         custom: ''
@@ -863,9 +861,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] doesn't provoke an
-          &amp;Reference[OpportunityAttacks]{Opportunity Attack} when it flies
-          out of an enemy's reach.</p>
+          <p>The [[lookup @name lowercase]] doesn't provoke an &amp;Reference[OpportunityAttacks]{Opportunity Attack}
+          when it flies out of an enemy's reach.</p>
         chat: ''
       identifier: flyby
       source:

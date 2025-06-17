@@ -614,9 +614,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -709,9 +707,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          [[/item Spellcasting]] to cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
           Ray}</em>.</p>
         chat: ''
       identifier: multiattack
@@ -994,12 +991,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:
@@ -1100,16 +1095,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] uses [[/item
-          Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em>
-          (level 2 version). The [[lookup @name lowercase]] can't take this
-          action again until the start of its next turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em> (level 2 version). The [[lookup
+          @name lowercase]] can't take this action again until the start of its next turn.</p>
         chat: >-
-          <p class="feature">The [[lookup @name lowercase]] uses Spellcasting to
-          cast <em>Command</em> (level 2 version). The [[lookup @name
-          lowercase]] can’t take this action again until the start of its next
-          turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] uses Spellcasting to cast <em>Command</em> (level 2
+          version). The [[lookup @name lowercase]] can’t take this action again until the start of its next turn.</p>
       identifier: commanding-presence
       source:
         revision: 1
@@ -1151,21 +1142,15 @@ items:
     system:
       description:
         value: >-
-          <p>You speak a one-word command to a creature you can see within
-          range. The target must succeed on a Wisdom saving throw or follow the
-          command on its next turn. Choose the command from these
-          options:</p><p><strong>Approach.</strong> The target moves toward you
-          by the shortest and most direct route, ending its turn if it moves
-          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
-          whatever it is holding and then ends its
-          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
-          away from you by the fastest available
-          means.</p><p><strong>Grovel.</strong> The target has the Prone
-          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
-          turn, the target doesn't move and takes no action or Bonus
-          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can affect one additional creature for each spell slot level above
-          1.</p>
+          <p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom
+          saving throw or follow the command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route,
+          ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is
+          holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you
+          by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then
+          ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for
+          each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1262,8 +1247,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmCommandingPres.Activity.Ouie1mEfXPRou9cj
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmCommandingPres.Activity.Ouie1mEfXPRou9cj
         changes:
           - key: system.activation
             mode: 5
@@ -1307,8 +1291,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.XdmqM6EC8IQGORA7.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.XdmqM6EC8IQGORA7.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4700000
     ownership:
@@ -1527,17 +1510,13 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +12 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em>
-          (level 2 version),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
-          Ray}</em></p><p class="feature-trait"><strong>1/Day:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +12
+          to hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCommand000]{Command}</em> (level 2 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching Ray}</em></p><p
+          class="feature-trait"><strong>1/Day:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFireball00]{Fireball}</em></p>
         chat: ''
       identifier: spellcasting
@@ -1581,21 +1560,15 @@ items:
     system:
       description:
         value: >-
-          <p>You speak a one-word command to a creature you can see within
-          range. The target must succeed on a Wisdom saving throw or follow the
-          command on its next turn. Choose the command from these
-          options:</p><p><strong>Approach.</strong> The target moves toward you
-          by the shortest and most direct route, ending its turn if it moves
-          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
-          whatever it is holding and then ends its
-          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
-          away from you by the fastest available
-          means.</p><p><strong>Grovel.</strong> The target has the Prone
-          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
-          turn, the target doesn't move and takes no action or Bonus
-          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
-          can affect one additional creature for each spell slot level above
-          1.</p>
+          <p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom
+          saving throw or follow the command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route,
+          ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is
+          holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you
+          by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then
+          ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for
+          each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1692,8 +1665,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.wjUmU9dX4sy0f4SF
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.wjUmU9dX4sy0f4SF
         changes:
           - key: system.properties
             mode: 2
@@ -1725,8 +1697,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.96FsmcQizygzJObm.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.96FsmcQizygzJObm.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4700000
     ownership:
@@ -1750,13 +1721,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1876,8 +1845,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1886,14 +1854,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.XSQvtfHscntDlwUz.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAdultRedDragon.XSQvtfHscntDlwUz.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.NHrfagsqSLT32oSk
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.NHrfagsqSLT32oSk
         changes:
           - key: system.properties
             mode: 2
@@ -1925,8 +1891,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.XSQvtfHscntDlwUz.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.XSQvtfHscntDlwUz.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1953,12 +1918,10 @@ items:
     system:
       description:
         value: >-
-          <p>You hurl three fiery rays. You can hurl them at one target within
-          range or at several. Make a ranged spell attack for each ray. On a
-          hit, the target takes 2d6 Fire damage.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You create one additional ray for
-          each spell slot level above 2.</p><p>[[@item.level + 1]]{Total
-          Rays}</p>
+          <p>You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell
+          attack for each ray. On a hit, the target takes 2d6 Fire damage.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> You create one additional ray for each spell slot level above 2.</p><p>[[@item.level +
+          1]]{Total Rays}</p>
         chat: ''
       source:
         custom: ''
@@ -2068,8 +2031,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.Jaz0gSib4KNHVzjz
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.Jaz0gSib4KNHVzjz
         changes:
           - key: system.properties
             mode: 2
@@ -2101,8 +2063,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.cZAd3i7LBGyErsZb.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.cZAd3i7LBGyErsZb.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 900000
     ownership:
@@ -2126,14 +2087,11 @@ items:
     system:
       description:
         value: >-
-          <p>A bright streak flashes from you to a point you choose within range
-          and then blossoms with a low roar into a fiery explosion. Each
-          creature in a 20-foot-radius Sphere centered on that point makes a
-          Dexterity saving throw, taking 8d6 Fire damage on a failed save or
-          half as much damage on a successful one.</p><p>Flammable objects in
-          the area that aren't being worn or carried start
-          burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage increases by 1d6 for each spell slot level above 3.</p>
+          <p>A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into
+          a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving
+          throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable
+          objects in the area that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>
         chat: ''
       source:
         custom: ''
@@ -2246,8 +2204,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.NYI0XAuSZOULfXoN
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmSpellcasting00.Activity.NYI0XAuSZOULfXoN
         changes:
           - key: system.properties
             mode: 2
@@ -2279,8 +2236,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.ovOl8m4PyxnQNcMs.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.ovOl8m4PyxnQNcMs.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2100000
     ownership:
@@ -2362,11 +2318,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] uses [[/item
-          Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching
-          Ray}</em>. The [[lookup @name lowercase]] can't take this action again
-          until the start of its next turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScorchingR]{Scorching Ray}</em>. The [[lookup @name
+          lowercase]] can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: fiery-rays
       source:
@@ -2409,12 +2363,10 @@ items:
     system:
       description:
         value: >-
-          <p>You hurl three fiery rays. You can hurl them at one target within
-          range or at several. Make a ranged spell attack for each ray. On a
-          hit, the target takes 2d6 Fire damage.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You create one additional ray for
-          each spell slot level above 2.</p><p>[[@item.level + 1]]{Total
-          Rays}</p>
+          <p>You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell
+          attack for each ray. On a hit, the target takes 2d6 Fire damage.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> You create one additional ray for each spell slot level above 2.</p><p>[[@item.level +
+          1]]{Total Rays}</p>
         chat: ''
       source:
         custom: ''
@@ -2524,8 +2476,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmFieryRays00000.Activity.EA1U9O6Z71z2lUZV
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultRedDragon.Item.mmFieryRays00000.Activity.EA1U9O6Z71z2lUZV
         changes:
           - key: system.activation
             mode: 5
@@ -2569,8 +2520,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultRedDragon.xAtxnx1heKJdMFCH.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultRedDragon.xAtxnx1heKJdMFCH.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 900000
     ownership:
@@ -2654,9 +2604,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:

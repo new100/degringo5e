@@ -496,11 +496,11 @@ items:
     system:
       description:
         value: >-
-          <p>A creature that touches the salamander or hits it with a melee
-          attack while within 5 ft. of it takes [[/damage average]] damage.</p>
+          <p>A creature that touches the salamander or hits it with a melee attack while within 5 ft. of it takes
+          [[/damage average]] damage.</p>
         chat: >-
-          <p>A creature that touches the salamander or hits it with a melee
-          attack while within 5 ft. of it takes <em>fire damage</em>.</p>
+          <p>A creature that touches the salamander or hits it with a melee attack while within 5 ft. of it takes
+          <em>fire damage</em>.</p>
       source:
         custom: ''
         book: ''
@@ -611,11 +611,11 @@ items:
     system:
       description:
         value: >-
-          <p>Any metal melee weapon the salamander wields deals an extra 3 (1d6)
-          fire damage on a hit (included in the attack).</p>
+          <p>Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the
+          attack).</p>
         chat: >-
-          <p>Any metal melee weapon the salamander wields deals an extra
-          <em>fire damage</em> on a hit (included in the attack).</p>
+          <p>Any metal melee weapon the salamander wields deals an extra <em>fire damage</em> on a hit (included in the
+          attack).</p>
       source:
         custom: ''
         book: ''
@@ -661,8 +661,7 @@ items:
     system:
       description:
         value: >-
-          <p>The salamander makes two attacks: one with its [[/item
-          .SKwOsrThcwqMXCZv]]{spear} and one with its [[/item
+          <p>The salamander makes two attacks: one with its [[/item .SKwOsrThcwqMXCZv]]{spear} and one with its [[/item
           .rvRy41yt9zowrAr1]]{tail}.</p>
         chat: ''
       source:
@@ -763,16 +762,13 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          grappled (escape DC 14). Until this grapple ends, the target is
-          restrained, the salamander can automatically hit the target with its
-          tail, and the salamander can't make tail attacks against other
-          targets.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is grappled (escape DC 14). Until this grapple
+          ends, the target is restrained, the salamander can automatically hit the target with its tail, and the
+          salamander can't make tail attacks against other targets.</p>
         chat: >-
-          <p>The Salamander attacks with its Tail. The target is grappled. Until
-          this grapple ends, the target is restrained, the salamander can
-          automatically hit the target with its tail, and the salamander can't
-          make tail attacks against other targets.</p>
+          <p>The Salamander attacks with its Tail. The target is grappled. Until this grapple ends, the target is
+          restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail
+          attacks against other targets.</p>
       source:
         custom: ''
         book: ''
@@ -949,9 +945,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]] or [[/damage average
-          attackMode=twoHanded]] if used with two hands to make a melee
-          attack.</p>
+          <p>[[/attack extended]]. [[/damage extended]] or [[/damage average attackMode=twoHanded]] if used with two
+          hands to make a melee attack.</p>
         chat: <p>The Salamander attacks with its Spear.</p>
       source:
         custom: ''

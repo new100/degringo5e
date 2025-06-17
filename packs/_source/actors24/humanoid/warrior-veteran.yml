@@ -409,8 +409,7 @@ system:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepGreatsword]{Greatsword},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy
-        Crossbow},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbwepHeavyCross]{Heavy Crossbow},
         @UUID[Compendium.degringo5e.equipment24.Item.phbarmSplintArmo]{Splint
         Armor}</p></div><h1>Warriors</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch
         caption=false cite=false classes="no-embed mm free-rules-embed"]</p>
@@ -1026,8 +1025,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .KkRkIIhD17sL5x30]] or [[/item .0nNkeR6HNC1e2uQ3]] attacks.</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .KkRkIIhD17sL5x30]] or [[/item .0nNkeR6HNC1e2uQ3]]
+          attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1126,11 +1125,9 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup
-          @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em>
-          The [[lookup @name lowercase]] adds [[lookup @roll.formula
-          activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly
-          causing it to miss.</p>
+          <p><em>Trigger:</em> The [[lookup @name lowercase]] is [[lookup @activation.condition
+          activity=aLG3BRZL7P6OEjwd]]. <em>Response:</em> The [[lookup @name lowercase]] adds [[lookup @roll.formula
+          activity=aLG3BRZL7P6OEjwd]] to its AC against that attack, possibly causing it to miss.</p>
         chat: ''
       identifier: parry
       source:

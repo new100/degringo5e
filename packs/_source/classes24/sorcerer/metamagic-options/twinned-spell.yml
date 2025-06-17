@@ -5,10 +5,9 @@ img: icons/magic/lightning/bolts-forked-large-orange.webp
 system:
   description:
     value: >-
-      <blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a
-      spell, such as <em>Charm Person</em>, that can be cast with a higher-level
-      spell slot to target an additional creature, you can spend 1 Sorcery Point
-      to increase the spell's effective level by 1.</p>
+      <blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell, such as <em>Charm Person</em>, that
+      can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to
+      increase the spell's effective level by 1.</p>
     chat: ''
   source:
     custom: ''
@@ -37,9 +36,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          When you cast a spell that can be upcast to target an additional
-          creature
+        condition: When you cast a spell that can be upcast to target an additional creature
       consumption:
         scaling:
           allowed: false

@@ -498,9 +498,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The marilith has advantage on saving throws against spells and
-          other magical effects.</p>
+        value: <p>The marilith has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -639,9 +637,8 @@ items:
     system:
       description:
         value: >-
-          <p>The marilith can make seven attacks: six with its [[/item
-          .VzPNwzlwJ7knJ9MC]]{longswords} and one with its [[/item
-          .BoIambnHLbZXr85T]]{tail}.</p>
+          <p>The marilith can make seven attacks: six with its [[/item .VzPNwzlwJ7knJ9MC]]{longswords} and one with its
+          [[/item .BoIambnHLbZXr85T]]{tail}.</p>
         chat: ''
       source:
         custom: ''
@@ -904,17 +901,13 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the target is
-          Medium or smaller, it is grappled (escape DC 19). Until this grapple
-          ends, the target is restrained, the marilith can automatically hit the
-          target with its tail, and the marilith can't make tail attacks against
-          other targets.</p>
+          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the target is Medium or smaller, it is grappled
+          (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the
+          target with its tail, and the marilith can't make tail attacks against other targets.</p>
         chat: >-
-          <p>The Marilith attacks with its Tail. If the target is Medium or
-          smaller, it is grappled. Until this grapple ends, the target is
-          restrained, the marilith can automatically hit the target with its
-          tail, and the marilith can't make tail attacks against other
-          targets.</p>
+          <p>The Marilith attacks with its Tail. If the target is Medium or smaller, it is grappled. Until this grapple
+          ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith
+          can't make tail attacks against other targets.</p>
       source:
         custom: ''
         book: ''
@@ -1079,9 +1072,8 @@ items:
       description:
         value: "<p>The marilith\_magically\_teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space\_it can see.</p>"
         chat: >-
-          <section class="secret"><p></p></section><p>The marilith magically
-          teleports, along with any equipment it is wearing or carrying, up to
-          120 feet to an unoccupied space it can see.</p>
+          <section class="secret"><p></p></section><p>The marilith magically teleports, along with any equipment it is
+          wearing or carrying, up to 120 feet to an unoccupied space it can see.</p>
       source:
         custom: ''
         book: ''
@@ -1181,12 +1173,9 @@ items:
     system:
       description:
         value: >-
-          <p>The marlith adds 5 to its AC against one melee Attack that would
-          hit it. To do so, the marlith must see the attacker and be wielding a
-          melee weapon.</p>
-        chat: >-
-          <p>The marlith adds 5 to its <strong>AC</strong> against one melee
-          Attack that would hit it.</p>
+          <p>The marlith adds 5 to its AC against one melee Attack that would hit it. To do so, the marlith must see the
+          attacker and be wielding a melee weapon.</p>
+        chat: <p>The marlith adds 5 to its <strong>AC</strong> against one melee Attack that would hit it.</p>
       source:
         custom: ''
         book: ''

@@ -571,10 +571,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">No magic can observe the [[lookup @name lowercase]]
-          remotely or detect its thoughts without its permission. Wisdom
-          (Insight) checks made to ascertain its intentions or sincerity are
-          made with Disadvantage.</p>
+          <p class="feature">No magic can observe the [[lookup @name lowercase]] remotely or detect its thoughts without
+          its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with
+          Disadvantage.</p>
         chat: ''
       identifier: inscrutable
       source:
@@ -671,9 +670,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -765,9 +762,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item Claw]] attacks and
-          uses [[/item Roar]].</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item Claw]] attacks and uses [[/item Roar]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1145,37 +1140,24 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The sphinx emits a magical roar. Whenever it roars,
-          the roar has a different effect, as detailed below (the sequence
-          resets when it takes a Long Rest):</p><p
-          class="feature-trait"><strong>First Roar.</strong></p><p><em>Wisdom
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=Igeu89TALGlNPXDg]], each enemy in a [[lookup
-          @target.template.size activity=Igeu89TALGlNPXDg]]-foot Emanation
-          originating from the [[lookup @name
-          lowercase]].</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Frightened apply=false] condition for [[lookup
-          @duration.value activity=Igeu89TALGlNPXDg]] [[lookup @duration.units
-          activity=Igeu89TALGlNPXDg]].</p><p
-          class="feature-trait"><strong>Second Roar.</strong></p><p><em>Wisdom
-          Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=uFTndQPvULZVHT9R]], each [[lookup @target.affects.type
-          activity=uFTndQPvULZVHT9R]] in a [[lookup @target.template.size
-          activity=uFTndQPvULZVHT9R]]-foot Emanation originating from the
-          [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the
-          &amp;Reference[Paralyzed apply=false] condition, and it repeats the
-          save at the end of each of its turns, ending the effect on itself on a
-          success. After [[lookup @duration.value activity=uFTndQPvULZVHT9R]]
-          [[lookup @duration.units activity=uFTndQPvULZVHT9R]], it succeeds
-          automatically.</p><p class="feature-trait"><strong>Third
-          Roar.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Td8ArIMDfxWDLbE9]], each [[lookup
-          @target.affects.type activity=Td8ArIMDfxWDLbE9]] in a [[lookup
-          @target.template.size activity=Td8ArIMDfxWDLbE9]]-foot Emanation
-          originating from the [[lookup @name
-          lowercase]].</p><p><em>Failure:</em> [[/damage average]] damage, and
-          the target has the &amp;Reference[Prone apply=false]
-          condition.</p><p><em>Success:</em> [[lookup @damage.onSave capitalize
+          <p class="feature">The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as
+          detailed below (the sequence resets when it takes a Long Rest):</p><p class="feature-trait"><strong>First
+          Roar.</strong></p><p><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Igeu89TALGlNPXDg]],
+          each enemy in a [[lookup @target.template.size activity=Igeu89TALGlNPXDg]]-foot Emanation originating from the
+          [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false]
+          condition for [[lookup @duration.value activity=Igeu89TALGlNPXDg]] [[lookup @duration.units
+          activity=Igeu89TALGlNPXDg]].</p><p class="feature-trait"><strong>Second Roar.</strong></p><p><em>Wisdom Saving
+          Throw:</em> DC [[lookup @save.dc.value activity=uFTndQPvULZVHT9R]], each [[lookup @target.affects.type
+          activity=uFTndQPvULZVHT9R]] in a [[lookup @target.template.size activity=uFTndQPvULZVHT9R]]-foot Emanation
+          originating from the [[lookup @name lowercase]].</p><p><em>Failure:</em> The target has the
+          &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns,
+          ending the effect on itself on a success. After [[lookup @duration.value activity=uFTndQPvULZVHT9R]] [[lookup
+          @duration.units activity=uFTndQPvULZVHT9R]], it succeeds automatically.</p><p
+          class="feature-trait"><strong>Third Roar.</strong></p><p><em>Constitution Saving Throw:</em> DC [[lookup
+          @save.dc.value activity=Td8ArIMDfxWDLbE9]], each [[lookup @target.affects.type activity=Td8ArIMDfxWDLbE9]] in
+          a [[lookup @target.template.size activity=Td8ArIMDfxWDLbE9]]-foot Emanation originating from the [[lookup
+          @name lowercase]].</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the
+          &amp;Reference[Prone apply=false] condition.</p><p><em>Success:</em> [[lookup @damage.onSave capitalize
           activity=Td8ArIMDfxWDLbE9]] damage only.</p>
         chat: ''
       identifier: roar
@@ -1212,9 +1194,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          for 1 minute.</p>
+        description: <p>The target has the &amp;Reference[Frightened apply=false] condition for 1 minute.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1240,8 +1220,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.jcp949sl7JYRdhdB
+        _key: '!actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.jcp949sl7JYRdhdB'
       - name: Paralyzed
         img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmRoar0000000000
@@ -1259,10 +1238,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Paralyzed apply=false] condition,
-          and it repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After 1 minute, it succeeds
-          automatically.</p>
+          <p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of
+          each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1288,8 +1265,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.sbId6Nv8mOtH5EKR
+        _key: '!actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.sbId6Nv8mOtH5EKR'
       - name: Prone
         img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmRoar0000000000
@@ -1332,8 +1308,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.UUPAry5ZunpEnKkn
+        _key: '!actors.items.effects!mmSphinxOfValor0.mmRoar0000000000.UUPAry5ZunpEnKkn'
     flags:
       degringo5e:
         riders:
@@ -1707,25 +1682,17 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Wisdom as
-          the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil
-          and Good}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Wisdom as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p
+          class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater
-          Restoration}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHeroesFeas]{Heroes'
-          Feast}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplZoneofTrut]{Zone of
-          Truth}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHeroesFeas]{Heroes' Feast}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplZoneofTrut]{Zone of Truth}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1768,12 +1735,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the location of any Aberration,
-          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
-          yourself. You also sense whether the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
-          spell is active there and, if so, where.</p><p>The spell is blocked by
-          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          <p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead
+          within 30 feet of yourself. You also sense whether the
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so,
+          where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
         chat: ''
       source:
@@ -1902,14 +1867,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.2ndWwKbQG28cUDsw.pOgbtXbKVGdbwjjE
+        _key: '!actors.items.effects!mmSphinxOfValor0.2ndWwKbQG28cUDsw.pOgbtXbKVGdbwjjE'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.Yxw72ggcyPKMNQRU
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.Yxw72ggcyPKMNQRU
         changes:
           - key: system.properties
             mode: 2
@@ -1941,8 +1904,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.2ndWwKbQG28cUDsw.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.2ndWwKbQG28cUDsw.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4200000
     ownership:
@@ -1969,21 +1931,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -2076,8 +2033,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.l2Kdr3BUCvAc7ojk
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.l2Kdr3BUCvAc7ojk
         changes:
           - key: system.properties
             mode: 2
@@ -2109,8 +2065,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.fK99FtV5a8VoCNTl.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.fK99FtV5a8VoCNTl.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -2137,13 +2092,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -2263,8 +2216,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -2273,14 +2225,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.DfCLvZVa4EKzFByM.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmSphinxOfValor0.DfCLvZVa4EKzFByM.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.vmb8mCviuAHbyNfZ
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.vmb8mCviuAHbyNfZ
         changes:
           - key: system.properties
             mode: 2
@@ -2312,8 +2262,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.DfCLvZVa4EKzFByM.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.DfCLvZVa4EKzFByM.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -2430,8 +2379,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.g9lQhgj4VIe3vAMO
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.g9lQhgj4VIe3vAMO
         changes:
           - key: system.properties
             mode: 2
@@ -2463,8 +2411,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.w3fU9CJNOK5kJtrb.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.w3fU9CJNOK5kJtrb.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -2488,13 +2435,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and magically remove one of the following
-          effects from it:</p><ul><li>1 &amp;Reference[Exhaustion]
-          level</li><li>The &amp;Reference[Charmed] or &amp;Reference[Petrified]
-          condition</li><li>A curse, including the target's Attunement to a
-          cursed magic item</li><li>Any reduction to one of the target's ability
-          scores</li><li>Any reduction to the target's Hit Point
-          maximum</li></ul>
+          <p>You touch a creature and magically remove one of the following effects from it:</p><ul><li>1
+          &amp;Reference[Exhaustion] level</li><li>The &amp;Reference[Charmed] or &amp;Reference[Petrified]
+          condition</li><li>A curse, including the target's Attunement to a cursed magic item</li><li>Any reduction to
+          one of the target's ability scores</li><li>Any reduction to the target's Hit Point maximum</li></ul>
         chat: ''
       source:
         custom: ''
@@ -2585,8 +2529,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.VkLfmsonpaJsOHUP
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.VkLfmsonpaJsOHUP
         changes:
           - key: system.properties
             mode: 2
@@ -2618,8 +2561,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.BXk2z10EMxnzvN4W.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.BXk2z10EMxnzvN4W.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 1800000
     ownership:
@@ -2643,16 +2585,12 @@ items:
     system:
       description:
         value: >-
-          <p>You conjure a feast that appears on a surface in an unoccupied
-          10-foot Cube next to you. The feast takes 1 hour to consume and
-          disappears at the end of that time, and the beneficial effects don't
-          set in until this hour is over. Up to twelve creatures can partake of
-          the feast.</p><p>A creature that partakes gains several benefits,
-          which last for 24 hours. The creature has
-          &amp;Reference[damageResistance]{Resistance} to Poison damage, and it
-          has Immunity to the &amp;Reference[Frightened] and
-          &amp;Reference[Poisoned] conditions. Its Hit Point maximum also
-          increases by 2d10, and it gains the same number of Hit Points.</p>
+          <p>You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1
+          hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this
+          hour is over. Up to twelve creatures can partake of the feast.</p><p>A creature that partakes gains several
+          benefits, which last for 24 hours. The creature has &amp;Reference[damageResistance]{Resistance} to Poison
+          damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit
+          Point maximum also increases by 2d10, and it gains the same number of Hit Points.</p>
         chat: ''
       source:
         custom: ''
@@ -2842,10 +2780,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The creature has &amp;Reference[damageResistance]{Resistance} to
-          Poison damage, and it has Immunity to the &amp;Reference[Frightened]
-          and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also
-          increases by 2d10, and it gains the same number of Hit Points.</p>
+          <p>The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the
+          &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by
+          2d10, and it gains the same number of Hit Points.</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -2860,14 +2797,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.sDcBqPl7Y7t7OD6n.wGsbKojtJs43Pjyx
+        _key: '!actors.items.effects!mmSphinxOfValor0.sDcBqPl7Y7t7OD6n.wGsbKojtJs43Pjyx'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.PrVRghFUMRbF7PZm
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.PrVRghFUMRbF7PZm
         changes:
           - key: system.properties
             mode: 2
@@ -2899,8 +2834,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.sDcBqPl7Y7t7OD6n.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.sDcBqPl7Y7t7OD6n.dnd5espellchange'
     folder: 8WmlLARx1Df3Ii9v
     sort: 500000
     ownership:
@@ -2924,15 +2858,12 @@ items:
     system:
       description:
         value: >-
-          <p>You create a magical zone that guards against deception in a
-          15-foot-radius Sphere centered on a point within range. Until the
-          spell ends, a creature that enters the spell's area for the first time
-          on a turn or starts its turn there makes a Charisma saving throw. On a
-          failed save, a creature can't speak a deliberate lie while in the
-          radius. You know whether a creature succeeds or fails on this
-          save.</p><p>An affected creature is aware of the spell and can avoid
-          answering questions to which it would normally respond with a lie.
-          Such a creature can be evasive yet must be truthful.</p>
+          <p>You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point
+          within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or
+          starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie
+          while in the radius. You know whether a creature succeeds or fails on this save.</p><p>An affected creature is
+          aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a
+          creature can be evasive yet must be truthful.</p>
         chat: ''
       source:
         custom: ''
@@ -3043,11 +2974,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>On a failed save, a creature can’t speak a deliberate lie while in
-          the radius. You know whether a creature succeeds or fails on this
-          save.</p><p>An affected creature is aware of the spell and can avoid
-          answering questions to which it would normally respond with a lie.
-          Such a creature can be evasive yet must be truthful.</p>
+          <p>On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature
+          succeeds or fails on this save.</p><p>An affected creature is aware of the spell and can avoid answering
+          questions to which it would normally respond with a lie. Such a creature can be evasive yet must be
+          truthful.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -3062,14 +2992,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.PsTixp9srIi2sCpI.BgkyT4A5qyArRveO
+        _key: '!actors.items.effects!mmSphinxOfValor0.PsTixp9srIi2sCpI.BgkyT4A5qyArRveO'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.n2sWjU0kxM0Nsojk
+        origin: Compendium.degringo5e.actors24.Actor.mmSphinxOfValor0.Item.mmSpellcasting00.Activity.n2sWjU0kxM0Nsojk
         changes:
           - key: system.properties
             mode: 2
@@ -3101,8 +3029,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.PsTixp9srIi2sCpI.dnd5espellchange
+        _key: '!actors.items.effects!mmSphinxOfValor0.PsTixp9srIi2sCpI.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 103125
     ownership:
@@ -3185,9 +3112,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] can teleport up to [[lookup
-          @range.value activity=a3RqyzU0UqzLJif0]] feet to an unoccupied space
-          it can see, and it makes one [[/item Claw]] attack.</p>
+          <p>The [[lookup @name lowercase]] can teleport up to [[lookup @range.value activity=a3RqyzU0UqzLJif0]] feet to
+          an unoccupied space it can see, and it makes one [[/item Claw]] attack.</p>
         chat: ''
       identifier: arcane-prowl
       source:
@@ -3337,16 +3263,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=xZul1ImCP658OBv3]], one [[lookup
-          @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target
-          gains 1 &amp;Reference[Exhaustion apply=false] level. While the target
-          has any Exhaustion levels, it appears [[/r 3d10]] years
-          older.</p><p><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=xZul1ImCP658OBv3]],
+          one [[lookup @target.affects.type activity=xZul1ImCP658OBv3]] the [[lookup @name lowercase]] can see within
+          [[lookup @range.value activity=xZul1ImCP658OBv3]] feet.</p><p><em>Failure:</em> The target gains 1
+          &amp;Reference[Exhaustion apply=false] level. While the target has any Exhaustion levels, it appears [[/r
+          3d10]] years older.</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action
+          again until the start of its next turn.</p>
         chat: ''
       identifier: weight-of-years
       source:
@@ -3385,9 +3307,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target gains 1 &amp;Reference[Exhaustion apply=long] level.
-          </p>
+        description: <p>The target gains 1 &amp;Reference[Exhaustion apply=long] level. </p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3413,8 +3333,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmSphinxOfValor0.mmWeightOfYears0.Bf6DExMyhKyPPV4x
+        _key: '!actors.items.effects!mmSphinxOfValor0.mmWeightOfYears0.Bf6DExMyhKyPPV4x'
     flags:
       degringo5e:
         riders:

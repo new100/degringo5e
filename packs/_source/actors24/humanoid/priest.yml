@@ -407,9 +407,8 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}</p></div>
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain
+        Shirt}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepMace000000]{Mace}</p></div>
       public: ''
     alignment: Neutral
     ideal: ''
@@ -791,9 +790,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .hRwqUlEyM9TjOmHy]] or [[/item .mmRadiantFlame00]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .hRwqUlEyM9TjOmHy]] or [[/item
+          .mmRadiantFlame00]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -907,9 +905,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: radiant-flame
       source:
@@ -1144,14 +1140,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, using Wisdom as the spellcasting ability:</p><p
-          class="feature-trait"><strong>At Will:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, using Wisdom as the
+          spellcasting ability:</p><p class="feature-trait"><strong>At Will:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLight00000]{Light}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpiritGuar]{Spirit
-          Guardians}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpiritGuar]{Spirit Guardians}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1402,13 +1396,10 @@ items:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplBless00000]{Bless}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHealingWor]{Healing
-          Word}</em>, or
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser
-          Restoration}</em>, using the same spellcasting ability as
-          Spellcasting.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplHealingWor]{Healing Word}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, using the same
+          spellcasting ability as Spellcasting.</p>
         chat: ''
       identifier: divine-aid
       source:
@@ -1453,11 +1444,9 @@ items:
     system:
       description:
         value: >-
-          <p>You bless up to three creatures within range. Whenever a target
-          makes an attack roll or a saving throw before the spell ends, the
-          target adds 1d4 to the attack roll or save.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional
-          creature for each spell slot level above 1.</p>
+          <p>You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw
+          before the spell ends, the target adds 1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1584,12 +1573,11 @@ items:
         transfer: false
         name: Blessed
         description: >-
-          <p>Whenever a target makes an attack roll or a saving throw before the
-          spell ends, the target adds 1d4 to the attack roll or save.</p>
+          <p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the
+          attack roll or save.</p>
         statuses: []
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
+          compendiumSource: Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1602,14 +1590,12 @@ items:
         type: base
         system: {}
         sort: 0
-        _key: >-
-          !actors.items.effects!mmPriest00000000.pTeocF4StpOtAxCp.1dzvDffEh8wZ0oQy
+        _key: '!actors.items.effects!mmPriest00000000.pTeocF4StpOtAxCp.1dzvDffEh8wZ0oQy'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.V0Qrt1uTAqiU9SCm
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.V0Qrt1uTAqiU9SCm
         changes:
           - key: system.activation
             mode: 5
@@ -1641,8 +1627,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.pTeocF4StpOtAxCp.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.pTeocF4StpOtAxCp.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 5200000
     ownership:
@@ -1756,8 +1741,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.R4x9qJ4BYyFenPUf
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.R4x9qJ4BYyFenPUf
         changes:
           - key: system.activation
             mode: 5
@@ -1789,8 +1773,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.08e7KqfpyJGkvCS4.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.08e7KqfpyJGkvCS4.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -1814,10 +1797,9 @@ items:
     system:
       description:
         value: >-
-          <p>A creature of your choice that you can see within range regains Hit
-          Points equal to 2d4 plus your spellcasting ability
-          modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          healing increases by 2d4 for each spell slot level above 1.</p>
+          <p>A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your
+          spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases
+          by 2d4 for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1915,8 +1897,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.xlmEmICWCOXh1DRs
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.xlmEmICWCOXh1DRs
         changes:
           - key: system.activation
             mode: 5
@@ -1948,8 +1929,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.dNeqcysBBxKDW1rB.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.dNeqcysBBxKDW1rB.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2300000
     ownership:
@@ -1973,8 +1953,7 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a creature and end one condition on it:
-          &amp;Reference[blinded], &amp;Reference[deafened],
+          <p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened],
           &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>
         chat: ''
       source:
@@ -2065,8 +2044,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.mV8EoRveUz19SU1p
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmDivineAid00000.Activity.mV8EoRveUz19SU1p
         changes:
           - key: system.activation
             mode: 5
@@ -2098,8 +2076,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.91eijThR6aV99Tg5.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.91eijThR6aV99Tg5.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2500000
     ownership:
@@ -2123,12 +2100,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch one Large or smaller object that isn't being worn or
-          carried by someone else. Until the spell ends, the object sheds Bright
-          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
-          light can be colored as you like.</p><p>Covering the object with
-          something opaque blocks the light. The spell ends if you cast it
-          again.</p>
+          <p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell
+          ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can
+          be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if
+          you cast it again.</p>
         chat: ''
       source:
         custom: ''
@@ -2246,8 +2221,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes: []
         system: {}
         disabled: false
@@ -2275,8 +2249,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.1F6pAxZqnn2QQhTm.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.1F6pAxZqnn2QQhTm.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1100000
     ownership:
@@ -2300,21 +2273,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -2407,8 +2375,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.ILNWEY9GzFvdXgjx
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.ILNWEY9GzFvdXgjx
         changes: []
         system: {}
         disabled: false
@@ -2436,8 +2403,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.eyBhljnqMxfzc8px.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.eyBhljnqMxfzc8px.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -2464,16 +2430,12 @@ items:
     system:
       description:
         value: >-
-          <p>You create a floating, spectral force that resembles a weapon of
-          your choice and lasts for the duration. The force appears within range
-          in a space of your choice, and you can immediately make one melee
-          spell attack against one creature within 5 feet of the force. On a
-          hit, the target takes Force damage equal to 1d8 plus your spellcasting
-          ability modifier.</p><p>As a Bonus Action on your later turns, you can
-          move the force up to 20 feet and repeat the attack against a creature
-          within 5 feet of it.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The damage increases by 1d8 for every slot level above
-          2.</p>
+          <p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration.
+          The force appears within range in a space of your choice, and you can immediately make one melee spell attack
+          against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus
+          your spellcasting ability modifier.</p><p>As a Bonus Action on your later turns, you can move the force up to
+          20 feet and repeat the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d8 for every slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -2592,8 +2554,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.dZUIjm3iQXmEpRLf
+        origin: Compendium.degringo5e.actors24.Actor.mmPriest00000000.Item.mmSpellcasting00.Activity.dZUIjm3iQXmEpRLf
         changes: []
         system: {}
         disabled: false
@@ -2621,8 +2582,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmPriest00000000.KreMwVUMFCVqmF01.dnd5espellchange
+        _key: '!actors.items.effects!mmPriest00000000.KreMwVUMFCVqmF01.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 200000
     ownership:

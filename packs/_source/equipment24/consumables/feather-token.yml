@@ -11,13 +11,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Wondrous Item, Rarity Varies</em></p><p>This object looks like a
-      feather. Different types of feather tokens exist, each with a different
-      <span class="no-break">single</span>-use effect. The GM chooses the kind
-      of token or determines it randomly by rolling on the Feather Tokens table.
-      The type of token determines its
-      rarity.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgQuaalsFeather
-      caption=false rollable]</p>
+      <p><em>Wondrous Item, Rarity Varies</em></p><p>This object looks like a feather. Different types of feather tokens
+      exist, each with a different <span class="no-break">single</span>-use effect. The GM chooses the kind of token or
+      determines it randomly by rolling on the Feather Tokens table. The type of token determines its
+      rarity.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.dmgQuaalsFeather caption=false rollable]</p>
     chat: ''
   identifier: feather-token
   source:

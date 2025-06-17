@@ -5,58 +5,45 @@ img: icons/weapons/bows/shortbow-recurve-yellow.webp
 system:
   description:
     value: >-
-      <p>As a ranger, you gain the following class features.</p><h3>Hit
-      Points</h3><p><strong>Hit Dice:</strong> 1d10 per ranger level<br
-      /><strong>Hit Points at 1st Level:</strong> 10 + your Constitution
-      modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) +
-      your Constitution modifier per ranger level after
-      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor,
-      medium armor, shields<br /><strong>Weapons:</strong> Simple weapons,
-      martial weapons<br /><strong>Tools:</strong> None<br /><strong>Saving
-      Throws:</strong> Strength, Dexterity<br /><strong>Skills:</strong> Choose
-      three from Animal Handling, Athletics, Insight, Investigation, Nature,
-      Perception, Stealth, and Survival</p><h1>Ranger
+      <p>As a ranger, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d10
+      per ranger level<br /><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier<br /><strong>Hit
+      Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per ranger level after
+      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor, medium armor, shields<br
+      /><strong>Weapons:</strong> Simple weapons, martial weapons<br /><strong>Tools:</strong> None<br /><strong>Saving
+      Throws:</strong> Strength, Dexterity<br /><strong>Skills:</strong> Choose three from Animal Handling, Athletics,
+      Insight, Investigation, Nature, Perception, Stealth, and Survival</p><h1>Ranger
       Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency
       Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Favored
-      Enemy},
-      @UUID[Compendium.degringo5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Natural
+      Enemy}, @UUID[Compendium.degringo5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Natural
       Explorer}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.nJA3ISVmyj3uPRVM]{Fighting
       Style},
       @UUID[Compendium.degringo5e.classfeatures.Item.u6xV3Ki3TXRrD7zg]{Spellcasting}</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.1dJHU48yNqn3lcfx]{Ranger
-      Archetype},
-      @UUID[Compendium.degringo5e.classfeatures.Item.kaHcUGiwi8AtfZIm]{Primeval
+      Archetype}, @UUID[Compendium.degringo5e.classfeatures.Item.kaHcUGiwi8AtfZIm]{Primeval
       Awareness}</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>2nd Level Spell
-      Slot, @UUID[Compendium.degringo5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra
+      Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>2nd Level Spell Slot,
+      @UUID[Compendium.degringo5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra
       Attack}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Favored
-      Enemy +1},
-      @UUID[Compendium.degringo5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Natural
-      Explorer improvements}</td></tr><tr><td>7th</td><td>+3</td><td>Ranger
-      Archetype
+      Enemy +1}, @UUID[Compendium.degringo5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Natural Explorer
+      improvements}</td></tr><tr><td>7th</td><td>+3</td><td>Ranger Archetype
       feature</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement},
-      @UUID[Compendium.degringo5e.classfeatures.Item.C5fzaOBc6HxyOWRn]{Land's
+      Score Improvement}, @UUID[Compendium.degringo5e.classfeatures.Item.C5fzaOBc6HxyOWRn]{Land's
       Stride}</td></tr><tr><td>9th</td><td>+4</td><td>3rd Level Spell
       Slot</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Natural
-      Explorer improvement},
-      @UUID[Compendium.degringo5e.classfeatures.Item.r0unvWK0lPsDthDx]{Hide in Plain
+      Explorer improvement}, @UUID[Compendium.degringo5e.classfeatures.Item.r0unvWK0lPsDthDx]{Hide in Plain
       Sight}</td></tr><tr><td>11th</td><td>+4</td><td>Ranger Archetype
       feature</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>4th Level
-      Spell
+      Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>4th Level Spell
       Slot</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Favored
       Enemy +1},
       @UUID[Compendium.degringo5e.classfeatures.Item.DhU2dWCNnX78TstR]{Vanish}</td></tr><tr><td>15th</td><td>+5</td><td>Ranger
       Archetype
       feature</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>5th Level
-      Spell
+      Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>5th Level Spell
       Slot</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.QBVmY56RMQuh6C8h]{Feral
       Senses}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
       Score
       Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.3CaP1vFHVR8LgHjx]{Foe
-      Slayer}</td></tr></tbody></table><h1>Ranger Archetypes</h1><p>A classic
-      expression of the ranger ideal is the
+      Slayer}</td></tr></tbody></table><h1>Ranger Archetypes</h1><p>A classic expression of the ranger ideal is the
       Hunter.</p><p>@UUID[Compendium.degringo5e.subclasses.Item.uqd2q6WjVfcsaaGb]{Hunter}</p>
     chat: ''
   source:
@@ -340,8 +327,8 @@ system:
       title: Fighting Style
       _id: ih8WlydEZdg3rCPh
       hint: >-
-        Choose one of the following options. You can’t take a Fighting Style
-        option more than once, even if you later get to choose again.
+        Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later
+        get to choose again.
     - type: ScaleValue
       configuration:
         identifier: spells-known

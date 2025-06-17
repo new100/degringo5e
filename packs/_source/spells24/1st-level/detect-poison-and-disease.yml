@@ -2,11 +2,9 @@ name: Detect Poison and Disease
 system:
   description:
     value: >-
-      <p>For the duration, you sense the location of poisons, poisonous or
-      venomous creatures, and magical contagions within 30 feet of yourself. You
-      sense the kind of poison, creature, or contagion in each case.</p><p>The
-      spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a
-      thin sheet of lead.</p>
+      <p>For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions
+      within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.</p><p>The spell is
+      blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>
     chat: ''
   source:
     custom: ''
@@ -128,8 +126,7 @@ effects:
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

@@ -341,9 +341,7 @@ system:
       failure: 0
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey caption=false]</p>
       public: ''
     alignment: ''
     ideal: ''
@@ -481,9 +479,7 @@ items:
   - name: Command
     system:
       description:
-        value: >-
-          <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey
-          caption=false]</p>
+        value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplConjureFey caption=false]</p>
         chat: ''
       activities:
         4VrkFxTzZVmOFngx:
@@ -674,9 +670,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the start of your next turn, with both you and the spirit as the
-          source of the fear.</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition until the start of your next turn, with
+          both you and the spirit as the source of the fear.</p>
         tint: '#ffffff'
         statuses:
           - frightened
@@ -692,8 +687,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbsplConjuredFe.phbaoiAttackAtta.sEpCnDgBAYjTuRgI
+        _key: '!actors.items.effects!phbsplConjuredFe.phbaoiAttackAtta.sEpCnDgBAYjTuRgI'
     folder: null
     sort: 0
     ownership:

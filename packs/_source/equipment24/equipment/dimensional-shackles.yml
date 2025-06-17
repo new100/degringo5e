@@ -113,17 +113,13 @@ system:
     max: ''
   description:
     value: >-
-      <div><p><em>Wondrous Item, Rare</em></p></div><p>You can take a Utilize
-      action to place these shackles on a creature that has the
-      &amp;Reference[Incapacitated apply=false] condition. The shackles adjust
-      to fit a creature of Small to Large size. The shackles prevent a creature
-      bound by them from using any method of extradimensional movement,
-      including teleportation or travel to a different plane of existence. They
-      don't prevent the creature from passing through an interdimensional
-      portal.</p><p>You and any creature you designate when you use the shackles
-      can take a Utilize action to remove them. Once every 30 days, the bound
-      creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On
-      a successful check, the creature breaks free and destroys the
+      <div><p><em>Wondrous Item, Rare</em></p></div><p>You can take a Utilize action to place these shackles on a
+      creature that has the &amp;Reference[Incapacitated apply=false] condition. The shackles adjust to fit a creature
+      of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional
+      movement, including teleportation or travel to a different plane of existence. They don't prevent the creature
+      from passing through an interdimensional portal.</p><p>You and any creature you designate when you use the
+      shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a [[/check
+      ability=str skill=ath dc=30 format=long]]. On a successful check, the creature breaks free and destroys the
       shackles.</p>
     chat: ''
   identifier: dimensional-shackles
@@ -184,13 +180,10 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The shackles prevent a creature bound by them from using any method of
-      extradimensional movement, including teleportation or travel to a
-      different plane of existence. They don’t prevent the creature from passing
-      through an interdimensional portal.</p><p>Once every 30 days, the bound
-      creature can make a [[/check ability=str skill=ath dc=30 format=long]]. On
-      a successful check, the creature breaks free and destroys the
-      shackles.</p>
+      <p>The shackles prevent a creature bound by them from using any method of extradimensional movement, including
+      teleportation or travel to a different plane of existence. They don’t prevent the creature from passing through an
+      interdimensional portal.</p><p>Once every 30 days, the bound creature can make a [[/check ability=str skill=ath
+      dc=30 format=long]]. On a successful check, the creature breaks free and destroys the shackles.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

@@ -619,9 +619,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -677,9 +675,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -776,12 +772,10 @@ items:
       description:
         value: >-
           <p class="feature">If the [[lookup @name lowercase]] is targeted by a
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
-          Missile}</em> spell or a spell that requires a ranged attack roll,
-          roll [[/r 1d6]].</p><p class="feature">On a <strong>1–5</strong>, the
-          [[lookup @name lowercase]] is unaffected.</p><p class="feature">On a
-          <strong>6</strong>, the [[lookup @name lowercase]] is unaffected and
-          reflects the spell, turning the caster into the target.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> spell or a spell that
+          requires a ranged attack roll, roll [[/r 1d6]].</p><p class="feature">On a <strong>1–5</strong>, the [[lookup
+          @name lowercase]] is unaffected.</p><p class="feature">On a <strong>6</strong>, the [[lookup @name lowercase]]
+          is unaffected and reflects the spell, turning the caster into the target.</p>
         chat: ''
       identifier: reflective-carapace
       source:
@@ -881,10 +875,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and three other attacks, using [[/item
-          .mmClaw0000000000]] or [[/item .mmTail0000000000]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and three other attacks, using
+          [[/item .mmClaw0000000000]] or [[/item .mmTail0000000000]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1038,11 +1030,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Grappled apply=false] condition (escape DC
-          [[lookup @skills.ath.passive]]). Until the grapple ends, the target
-          has the &amp;Reference[Restrained apply=false] condition and can't
-          teleport.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Grappled
+          apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple ends, the target has the
+          &amp;Reference[Restrained apply=false] condition and can't teleport.</p>
         chat: ''
       identifier: bite
       source:
@@ -1124,11 +1114,9 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Grappled apply=false]
-          condition(escape DC [[/check ability=str skill=ath format=long]], see
-          source item for DC). Until the grapple ends, the target has the
-          &amp;Reference[Restrained apply=false] condition and can’t
-          teleport.</p>
+          <p>The target has the &amp;Reference[Grappled apply=false] condition(escape DC [[/check ability=str skill=ath
+          format=long]], see source item for DC). Until the grapple ends, the target has the &amp;Reference[Restrained
+          apply=false] condition and can’t teleport.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1146,8 +1134,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.mmBite0000000000.wMLRjKVfS2fpTjiH
+        _key: '!actors.items.effects!mmTarrasque00000.mmBite0000000000.wMLRjKVfS2fpTjiH'
     flags:
       degringo5e:
         riders:
@@ -1367,9 +1354,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Huge or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Huge or smaller creature, it has the
+          &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: tail
       source:
@@ -1449,9 +1435,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Huge or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Huge or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1468,8 +1452,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.mmTail0000000000.rpn1911j8EHqAHMP
+        _key: '!actors.items.effects!mmTarrasque00000.mmTail0000000000.rpn1911j8EHqAHMP'
     flags:
       degringo5e:
         riders:
@@ -1575,17 +1558,13 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=RWBqtTjGSlEgQWCl]], [[lookup
-          @target.affects.special activity=RWBqtTjGSlEgQWCl]] in a [[lookup
-          @target.template.size activity=RWBqtTjGSlEgQWCl]]-[[lookup
-          @target.template.units activity=RWBqtTjGSlEgQWCl]]. [[lookup
-          @target.template.type capitalize activity=RWBqtTjGSlEgQWCl]].</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target has the &amp;Reference[Deafened apply=false] and
-          &amp;Reference[Frightened apply=false] conditions until the end of its
-          next turn.</p><p class="feature"><em>Success:</em> Half damage
-          only.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=RWBqtTjGSlEgQWCl]],
+          [[lookup @target.affects.special activity=RWBqtTjGSlEgQWCl]] in a [[lookup @target.template.size
+          activity=RWBqtTjGSlEgQWCl]]-[[lookup @target.template.units activity=RWBqtTjGSlEgQWCl]]. [[lookup
+          @target.template.type capitalize activity=RWBqtTjGSlEgQWCl]].</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target has the &amp;Reference[Deafened apply=false] and
+          &amp;Reference[Frightened apply=false] conditions until the end of its next turn.</p><p
+          class="feature"><em>Success:</em> Half damage only.</p>
         chat: ''
       identifier: thunderous-bellow
       source:
@@ -1622,9 +1601,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Deafened apply=false] and
-          &amp;Reference[Frightened apply=false] conditions until the end of its
-          next turn.</p>
+          <p>The target has the &amp;Reference[Deafened apply=false] and &amp;Reference[Frightened apply=false]
+          conditions until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1651,8 +1629,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.mmThunderousBell.DDrzXcjt2wWiTS9J
+        _key: '!actors.items.effects!mmTarrasque00000.mmThunderousBell.DDrzXcjt2wWiTS9J'
     flags:
       degringo5e:
         riders:
@@ -1853,28 +1830,20 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=YorssyWMumAsvzx3]], [[lookup
-          @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup
-          @name lowercase]] (it can have up to six creatures swallowed at a
-          time).</p><p class="feature"><em>Failure:</em> The target is
-          swallowed, and the Grappled condition ends. A swallowed creature has
-          the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
-          apply=false] conditions and can't teleport, it has
-          &amp;Reference[Total Cover] against attacks and other effects outside
-          the [[lookup @name lowercase]], and takes [[/damage average
-          activity=zrWNjO9mkbN28spL]] damage at the start of each of the
-          [[lookup @name lowercase]]'s turns.</p><p class="feature">If the
-          [[lookup @name lowercase]] takes 60 damage or more on a single turn
-          from a creature inside it, the [[lookup @name lowercase]] must succeed
-          on a [[/save format=long activity=rGeGukkm2t2fXsoy]] at the end of
-          that turn or regurgitate all swallowed creatures, each of which falls
-          in a space within [[lookup @range.value activity=rGeGukkm2t2fXsoy]]
-          feet of the [[lookup @name lowercase]] and has the
-          &amp;Reference[Prone apply=false] condition. If the [[lookup @name
-          lowercase]] dies, any swallowed creature no longer has the Restrained
-          condition and can escape from the corpse by using 20 feet of movement,
-          exiting Prone.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=YorssyWMumAsvzx3]],
+          [[lookup @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup @name lowercase]] (it can have up
+          to six creatures swallowed at a time).</p><p class="feature"><em>Failure:</em> The target is swallowed, and
+          the Grappled condition ends. A swallowed creature has the &amp;Reference[Blinded apply=false] and
+          &amp;Reference[Restrained apply=false] conditions and can't teleport, it has &amp;Reference[Total Cover]
+          against attacks and other effects outside the [[lookup @name lowercase]], and takes [[/damage average
+          activity=zrWNjO9mkbN28spL]] damage at the start of each of the [[lookup @name lowercase]]'s turns.</p><p
+          class="feature">If the [[lookup @name lowercase]] takes 60 damage or more on a single turn from a creature
+          inside it, the [[lookup @name lowercase]] must succeed on a [[/save format=long activity=rGeGukkm2t2fXsoy]] at
+          the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within [[lookup
+          @range.value activity=rGeGukkm2t2fXsoy]] feet of the [[lookup @name lowercase]] and has the
+          &amp;Reference[Prone apply=false] condition. If the [[lookup @name lowercase]] dies, any swallowed creature no
+          longer has the Restrained condition and can escape from the corpse by using 20 feet of movement, exiting
+          Prone.</p>
         chat: ''
       identifier: swallow
       source:
@@ -1911,9 +1880,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>While swallowed, a creature has the &amp;Reference[Blinded
-          apply=false] and &amp;Reference[Restrained apply=false] conditions,
-          has &amp;Reference[Total Cover apply=false] against attacks.</p>
+          <p>While swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained
+          apply=false] conditions, has &amp;Reference[Total Cover apply=false] against attacks.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1940,8 +1908,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.mmSwallow0000000.VOHv1LyO3hHolZXo
+        _key: '!actors.items.effects!mmTarrasque00000.mmSwallow0000000.VOHv1LyO3hHolZXo'
       - name: Prone
         img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmSwallow0000000
@@ -1958,9 +1925,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If you are regurgitated, you fall into a space within 10 ft. and
-          are &amp;Reference[Prone apply=false].</p>
+        description: <p>If you are regurgitated, you fall into a space within 10 ft. and are &amp;Reference[Prone apply=false].</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1986,8 +1951,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.mmSwallow0000000.aS5FyMP72vn3OKf1
+        _key: '!actors.items.effects!mmTarrasque00000.mmSwallow0000000.aS5FyMP72vn3OKf1'
     flags:
       degringo5e:
         riders:
@@ -2067,9 +2031,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] moves up to half its
-          Speed, and it makes one [[/item .mmClaw0000000000]] or [[/item
-          .mmTail0000000000]] attack.</p>
+          <p class="feature">The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item
+          .mmClaw0000000000]] or [[/item .mmTail0000000000]] attack.</p>
         chat: ''
       identifier: onslaught
       source:
@@ -2173,16 +2136,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] moves up to its
-          Speed. At the end of this movement, the [[lookup @name lowercase]]
-          creates an instantaneous shock wave in a [[lookup
-          @target.template.size activity=g4W0ovZxBeUrZKb8]]-[[lookup
-          @target.template.units activity=g4W0ovZxBeUrZKb8]]. Emanation
-          originating from itself. Creatures in that area lose
-          &amp;Reference[Concentration] and, if Medium or smaller, have the
-          &amp;Reference[Prone apply=false] condition. The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p class="feature">The [[lookup @name lowercase]] moves up to its Speed. At the end of this movement, the
+          [[lookup @name lowercase]] creates an instantaneous shock wave in a [[lookup @target.template.size
+          activity=g4W0ovZxBeUrZKb8]]-[[lookup @target.template.units activity=g4W0ovZxBeUrZKb8]]. Emanation originating
+          from itself. Creatures in that area lose &amp;Reference[Concentration] and, if Medium or smaller, have the
+          &amp;Reference[Prone apply=false] condition. The [[lookup @name lowercase]] can't take this action again until
+          the start of its next turn.</p>
         chat: ''
       identifier: world-shaking-movement
       source:
@@ -2219,9 +2178,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>Creatures in that area lose &amp;Reference[Concentration] and, if
-          Medium or smaller, have the &amp;Reference[Prone apply=false]
-          condition.</p>
+          <p>Creatures in that area lose &amp;Reference[Concentration] and, if Medium or smaller, have the
+          &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2247,8 +2205,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmTarrasque00000.kBI2qYix7GyXmhaD.ERWPInrx4mXsqrwL
+        _key: '!actors.items.effects!mmTarrasque00000.kBI2qYix7GyXmhaD.ERWPInrx4mXsqrwL'
     flags:
       degringo5e:
         riders:
@@ -2281,9 +2238,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] deals double damage to objects and
-          structures.</p>
+        value: <p>The [[lookup @name lowercase]] deals double damage to objects and structures.</p>
         chat: ''
       identifier: siege-monster
       source:

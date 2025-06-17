@@ -664,9 +664,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -759,9 +757,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMelfsAcidA]{Melf's Acid
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          [[/item Spellcasting]] to cast <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMelfsAcidA]{Melf's Acid
           Arrow}</em> (level 4 version).</p>
         chat: ''
       identifier: multiattack
@@ -1046,13 +1043,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type
-          activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size
-          activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width
-          activity=qNI6W02jCUQbPpYE]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup
+          @target.affects.type activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size
+          activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: acid-breath
       source:
@@ -1392,23 +1386,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +13 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +13
+          to hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMelfsAcidA]{Melf's Acid
-          Arrow}</em> (level 4 version)</p><p
-          class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateUnde]{Create
-          Undead}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithD]{Speak with
-          Dead},
-          @UUID[Compendium.degringo5e.spells24.Item.phbsplVitriolicS]{Vitriolic
-          Sphere}</em> (level 5 version)</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMelfsAcidA]{Melf's Acid Arrow}</em> (level 4
+          version)</p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCreateUnde]{Create Undead}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithD]{Speak with Dead},
+          @UUID[Compendium.degringo5e.spells24.Item.phbsplVitriolicS]{Vitriolic Sphere}</em> (level 5 version)</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1451,13 +1438,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1577,8 +1562,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1587,14 +1571,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.1twiaSI2Uric4bTI.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAncientBlackDr.1twiaSI2Uric4bTI.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.7S1YVXc130tYgec9
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.7S1YVXc130tYgec9
         changes:
           - key: system.properties
             mode: 2
@@ -1626,8 +1608,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.1twiaSI2Uric4bTI.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.1twiaSI2Uric4bTI.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1654,15 +1635,11 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving
-          throw or drop whatever it is holding and have the
-          &amp;Reference[frightened apply=false] condition for the
-          duration.</p><p>A Frightened creature takes the &amp;Reference[dash]
-          action and moves away from you by the safest route on each of its
-          turns unless there is nowhere to move. If the creature ends its turn
-          in a space where it doesn't have line of sight to you, the creature
-          makes a Wisdom saving throw. On a successful save, the spell ends on
-          that creature.</p>
+          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and
+          have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes
+          the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there
+          is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the
+          creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>
         chat: ''
       source:
         custom: ''
@@ -1774,12 +1751,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>A &amp;Reference[frightened apply=false] creature takes the
-          &amp;Reference[dash] action and moves away from you by the safest
-          route on each of its turns unless there is nowhere to move. If the
-          creature ends its turn in a space where it doesn’t have line of sight
-          to you, the creature makes a [[/save ability=wis]] saving throw. On a
-          successful save, the spell ends on that creature.</p>
+          <p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from
+          you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in
+          a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw.
+          On a successful save, the spell ends on that creature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1795,14 +1770,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.5JLSjcBWRU5O5oKu.ijiWLu6EJZmEJPOZ
+        _key: '!actors.items.effects!mmAncientBlackDr.5JLSjcBWRU5O5oKu.ijiWLu6EJZmEJPOZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.QSykagiGmCaFA3q8
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.QSykagiGmCaFA3q8
         changes:
           - key: system.properties
             mode: 2
@@ -1834,8 +1807,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.5JLSjcBWRU5O5oKu.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.5JLSjcBWRU5O5oKu.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2300000
     ownership:
@@ -1859,14 +1831,11 @@ items:
     system:
       description:
         value: >-
-          <p>A shimmering green arrow streaks toward a target within range and
-          bursts in a spray of acid. Make a ranged spell attack against the
-          target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage
-          at the end of its next turn. On a miss, the arrow splashes the target
-          with acid for half as much of the initial damage
-          only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          damage (both initial and later) increases by 1d4 for each spell slot
-          level above 2.</p>
+          <p>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged
+          spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of
+          its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage
+          only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage (both initial and later) increases by
+          1d4 for each spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -2046,9 +2015,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>On a hit, the target takes 4d4 Acid damage and [[/damage 2d4
-          type=acid]] (plus 1d4 per spell slot level above 2) Acid damage at the
-          end of its next turn.</p>
+          <p>On a hit, the target takes 4d4 Acid damage and [[/damage 2d4 type=acid]] (plus 1d4 per spell slot level
+          above 2) Acid damage at the end of its next turn.</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -2063,14 +2031,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.cuqkOUrmNhkntoHX.NgglkyjzTbDh5Loa
+        _key: '!actors.items.effects!mmAncientBlackDr.cuqkOUrmNhkntoHX.NgglkyjzTbDh5Loa'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.gtXvXbQg0TZaId1o
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.gtXvXbQg0TZaId1o
         changes:
           - key: system.properties
             mode: 2
@@ -2102,8 +2068,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.cuqkOUrmNhkntoHX.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.cuqkOUrmNhkntoHX.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1900000
     ownership:
@@ -2130,37 +2095,27 @@ items:
     system:
       description:
         value: >-
-          <p>You can cast this spell only at night. Choose up to three corpses
-          of Medium or Small Humanoids within range. Each one becomes a
-          <strong>@UUID[Compendium.degringo5e.monsters.Actor.OBujQLLPSmlJiZnL]{Ghoul}</strong>
-          under your control (see the <em>Monster Manual</em> for its stat
-          block).</p><p>As a Bonus Action on each of your turns, you can
-          mentally command any creature you animated with this spell if the
-          creature is within 120 feet of you (if you control multiple creatures,
-          you can command any of them at the same time, issuing the same command
-          to them). You decide what action the creature will take and where it
-          will move on its next turn, or you can issue a general command, such
-          as to guard a particular place. If you issue no commands, the creature
-          takes the &amp;Reference[Dodge] action and moves only to avoid harm.
-          Once given an order, the creature continues to follow the order until
-          its task is complete.</p><p>The creature is under your control for 24
-          hours, after which it stops obeying any command you've given it. To
-          maintain control of the creature for another 24 hours, you must cast
-          this spell on the creature before the current 24-hour period ends.
-          This use of the spell reasserts your control over up to three
-          creatures you have animated with this spell rather than animating new
-          ones.</p><p><strong>Using a Higher-Level Spell Slot.</strong>If you
-          use a level 7 spell slot, you can animate or reassert control over
-          four <strong>Ghouls</strong>. If you use a level 8 spell slot, you can
-          animate or reassert control over five <strong>Ghouls</strong> or two
-          <strong>@UUID[Compendium.degringo5e.monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong>
-          or
-          <strong>@UUID[Compendium.degringo5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>.
-          If you use a level 9 spell slot, you can animate or reassert control
-          over six <strong>Ghouls</strong>, three <strong>Ghasts</strong> or
-          <strong>Wights</strong>, or two
-          <strong>@UUID[Compendium.degringo5e.monsters.Actor.t8WYD7ak07X7xpx8]{Mummies}</strong>.
-          See the <em>Monster Manual</em> for these stat blocks.</p>
+          <p>You can cast this spell only at night. Choose up to three corpses of Medium or Small Humanoids within
+          range. Each one becomes a <strong>@UUID[Compendium.degringo5e.monsters.Actor.OBujQLLPSmlJiZnL]{Ghoul}</strong>
+          under your control (see the <em>Monster Manual</em> for its stat block).</p><p>As a Bonus Action on each of
+          your turns, you can mentally command any creature you animated with this spell if the creature is within 120
+          feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same
+          command to them). You decide what action the creature will take and where it will move on its next turn, or
+          you can issue a general command, such as to guard a particular place. If you issue no commands, the creature
+          takes the &amp;Reference[Dodge] action and moves only to avoid harm. Once given an order, the creature
+          continues to follow the order until its task is complete.</p><p>The creature is under your control for 24
+          hours, after which it stops obeying any command you've given it. To maintain control of the creature for
+          another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of
+          the spell reasserts your control over up to three creatures you have animated with this spell rather than
+          animating new ones.</p><p><strong>Using a Higher-Level Spell Slot.</strong>If you use a level 7 spell slot,
+          you can animate or reassert control over four <strong>Ghouls</strong>. If you use a level 8 spell slot, you
+          can animate or reassert control over five <strong>Ghouls</strong> or two
+          <strong>@UUID[Compendium.degringo5e.monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> or
+          <strong>@UUID[Compendium.degringo5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. If you use a level 9
+          spell slot, you can animate or reassert control over six <strong>Ghouls</strong>, three
+          <strong>Ghasts</strong> or <strong>Wights</strong>, or two
+          <strong>@UUID[Compendium.degringo5e.monsters.Actor.t8WYD7ak07X7xpx8]{Mummies}</strong>. See the <em>Monster
+          Manual</em> for these stat blocks.</p>
         chat: ''
       source:
         custom: ''
@@ -2401,8 +2356,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.9Ji8KEKo3eGDbS5E
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.9Ji8KEKo3eGDbS5E
         changes:
           - key: system.properties
             mode: 2
@@ -2442,8 +2396,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.UcplL49FOmK57nA4.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.UcplL49FOmK57nA4.dnd5espellchange'
     folder: 8WmlLARx1Df3Ii9v
     sort: 1600000
     ownership:
@@ -2467,19 +2420,15 @@ items:
     system:
       description:
         value: >-
-          <p>You grant the semblance of life to a corpse of your choice within
-          range, allowing it to answer questions you pose. The corpse must have
-          a mouth, and this spell fails if the deceased creature was Undead when
-          it died. The spell also fails if the corpse was the target of this
-          spell within the past 10 days.</p><p>Until the spell ends, you can ask
-          the corpse up to five questions. The corpse knows only what it knew in
-          life, including the languages it knew. Answers are usually brief,
-          cryptic, or repetitive, and the corpse is under no compulsion to offer
-          a truthful answer if you are antagonistic toward it or it recognizes
-          you as an enemy. This spell doesn't return the creature's soul to its
-          body, only its animating spirit. Thus, the corpse can't learn new
-          information, doesn't comprehend anything that has happened since it
-          died, and can't speculate about future events.</p>
+          <p>You grant the semblance of life to a corpse of your choice within range, allowing it to answer questions
+          you pose. The corpse must have a mouth, and this spell fails if the deceased creature was Undead when it died.
+          The spell also fails if the corpse was the target of this spell within the past 10 days.</p><p>Until the spell
+          ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the
+          languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to
+          offer a truthful answer if you are antagonistic toward it or it recognizes you as an enemy. This spell doesn't
+          return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new
+          information, doesn't comprehend anything that has happened since it died, and can't speculate about future
+          events.</p>
         chat: ''
       source:
         custom: ''
@@ -2574,8 +2523,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.5NyTuxFfIxIupCwZ
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.5NyTuxFfIxIupCwZ
         changes:
           - key: system.properties
             mode: 2
@@ -2607,8 +2555,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.thdt9qqr4Hh0H8ox.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.thdt9qqr4Hh0H8ox.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 106250
     ownership:
@@ -2632,14 +2579,11 @@ items:
     system:
       description:
         value: >-
-          <p>You point at a location within range, and a glowing,
-          1-foot-diameter ball of acid streaks there and explodes in a
-          20-foot-radius Sphere. Each creature in that area makes a Dexterity
-          saving throw. On a failed save, a creature takes 10d4 Acid damage and
-          another [[/damage 5d4 type=acid]] damage at the end of its next turn.
-          On a successful save, a creature takes half the initial damage
-          only.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The
-          initial damage increases by 2d4 for each spell slot level above 4.</p>
+          <p>You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and
+          explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed
+          save, a creature takes 10d4 Acid damage and another [[/damage 5d4 type=acid]] damage at the end of its next
+          turn. On a successful save, a creature takes half the initial damage only.</p><p><strong>Using a Higher-Level
+          Spell Slot. </strong>The initial damage increases by 2d4 for each spell slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -2828,9 +2772,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The creature takes [[/damage <span style="font-family:Signika,
-          sans-serif">5d4 type=acid]] damage at the end of its next
-          turn</span></p>
+          <p>The creature takes [[/damage <span style="font-family:Signika, sans-serif">5d4 type=acid]] damage at the
+          end of its next turn</span></p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2845,14 +2788,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.3wJDvk72mq7GaNo2.WHhf4PFHQBDkCAyb
+        _key: '!actors.items.effects!mmAncientBlackDr.3wJDvk72mq7GaNo2.WHhf4PFHQBDkCAyb'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.RPTvY4v08mOXHq67
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmSpellcasting00.Activity.RPTvY4v08mOXHq67
         changes:
           - key: system.properties
             mode: 2
@@ -2884,8 +2825,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.3wJDvk72mq7GaNo2.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.3wJDvk72mq7GaNo2.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 300000
     ownership:
@@ -2986,15 +2926,11 @@ items:
         max: ''
       description:
         value: >-
-          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value
-          activity=0OkFhjOM80ipoNKy]], one creature the [[lookup @name
-          lowercase]] can see within [[lookup @range.value
-          activity=0OkFhjOM80ipoNKy]] feet.</p><p><em>Failure:</em> [[/damage
-          average]] damage, and the target has Disadvantage on saving throws to
-          maintain &amp;Reference[Concentration} until the end of its next
-          turn.</p><p><em>Failure or Success:</em> The [[lookup @name
-          lowercase]] can't take this action again until the start of its next
-          turn.</p>
+          <p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], one creature the
+          [[lookup @name lowercase]] can see within [[lookup @range.value activity=0OkFhjOM80ipoNKy]]
+          feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has Disadvantage on saving throws to
+          maintain &amp;Reference[Concentration} until the end of its next turn.</p><p><em>Failure or Success:</em> The
+          [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: cloud-of-insects
       source:
@@ -3031,9 +2967,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has Disadvantage on saving throws to maintain
-          Concentration until the end of its next turn</p>
+        description: <p>The target has Disadvantage on saving throws to maintain Concentration until the end of its next turn</p>
         tint: '#ffffff'
         statuses: []
         sort: 0
@@ -3048,8 +2982,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.mmCloudOfInsects.owuEyJBslYKvxqeX
+        _key: '!actors.items.effects!mmAncientBlackDr.mmCloudOfInsects.owuEyJBslYKvxqeX'
     flags:
       degringo5e:
         riders:
@@ -3132,9 +3065,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>.
-          The [[lookup @name lowercase]] can't take this action again until the
-          start of its next turn.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFear000000]{Fear}</em>. The [[lookup @name lowercase]]
+          can't take this action again until the start of its next turn.</p>
         chat: ''
       identifier: frightful-presence
       source:
@@ -3177,15 +3109,11 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving
-          throw or drop whatever it is holding and have the
-          &amp;Reference[frightened apply=false] condition for the
-          duration.</p><p>A Frightened creature takes the &amp;Reference[dash]
-          action and moves away from you by the safest route on each of its
-          turns unless there is nowhere to move. If the creature ends its turn
-          in a space where it doesn't have line of sight to you, the creature
-          makes a Wisdom saving throw. On a successful save, the spell ends on
-          that creature.</p>
+          <p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and
+          have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes
+          the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there
+          is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the
+          creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>
         chat: ''
       source:
         custom: ''
@@ -3297,12 +3225,10 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>A &amp;Reference[frightened apply=false] creature takes the
-          &amp;Reference[dash] action and moves away from you by the safest
-          route on each of its turns unless there is nowhere to move. If the
-          creature ends its turn in a space where it doesn’t have line of sight
-          to you, the creature makes a [[/save ability=wis]] saving throw. On a
-          successful save, the spell ends on that creature.</p>
+          <p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from
+          you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in
+          a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw.
+          On a successful save, the spell ends on that creature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3318,14 +3244,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.VVUgABLlS8lQwH7N.ijiWLu6EJZmEJPOZ
+        _key: '!actors.items.effects!mmAncientBlackDr.VVUgABLlS8lQwH7N.ijiWLu6EJZmEJPOZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
+        origin: Compendium.degringo5e.actors24.Actor.mmAncientBlackDr.Item.mmFrightfulPrese.Activity.lbzj4R6LBDa4r4Hk
         changes:
           - key: system.activation
             mode: 5
@@ -3373,8 +3297,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAncientBlackDr.VVUgABLlS8lQwH7N.dnd5espellchange
+        _key: '!actors.items.effects!mmAncientBlackDr.VVUgABLlS8lQwH7N.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2300000
     ownership:
@@ -3458,9 +3381,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:

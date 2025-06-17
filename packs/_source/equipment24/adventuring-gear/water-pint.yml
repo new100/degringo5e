@@ -60,9 +60,7 @@ system:
     autoDestroy: true
     max: '1'
   description:
-    value: >-
-      <p>If you don't drink sufficient water, you risk
-      &amp;Reference[dehydration].</p>
+    value: <p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>
     chat: ''
   identifier: water-pint
   source:

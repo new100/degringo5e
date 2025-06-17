@@ -489,17 +489,15 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]]. If the target is a
-          creature, it must succeed on a [[/save]] saving throw against disease
-          or become &amp;Reference[poisoned] until the disease is cured. Every
-          24 hours that elapse, the creature must repeat the saving throw,
-          reducing its hit point maximum by 5 (1d10) on a failure. This
-          reduction lasts until the disease is cured. The creature dies if the
-          disease reduces its hit point maximum to 0.</p>
+          <p>[[/attack extended]]. [[/damage extended]]. If the target is a creature, it must succeed on a [[/save]]
+          saving throw against disease or become &amp;Reference[poisoned] until the disease is cured. Every 24 hours
+          that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a
+          failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit
+          point maximum to 0.</p>
         chat: >-
-          <p>The Death Dog attacks with its Bite. If the target is a creature,
-          it must make a <strong>Constitution</strong> saving throw. Every 24
-          hours that elapse, the creature must repeat the saving throw.</p>
+          <p>The Death Dog attacks with its Bite. If the target is a creature, it must make a
+          <strong>Constitution</strong> saving throw. Every 24 hours that elapse, the creature must repeat the saving
+          throw.</p>
       source:
         custom: ''
         book: ''
@@ -724,9 +722,8 @@ items:
     system:
       description:
         value: >-
-          <p>The dog has<strong> advantage </strong>on Wisdom (Perception)
-          checks and on saving throws against being blinded, charmed, deafened,
-          frightened, stunned, or knocked unconscious.</p>
+          <p>The dog has<strong> advantage </strong>on Wisdom (Perception) checks and on saving throws against being
+          blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</p>
         chat: ''
       source:
         custom: ''

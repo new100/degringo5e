@@ -569,9 +569,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -828,9 +826,8 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em>
-          on itself, requiring no spell components and using Charisma as the
-          spellcasting ability.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no
+          spell components and using Charisma as the spellcasting ability.</p>
         chat: ''
       identifier: invisibility
       source:
@@ -873,11 +870,10 @@ items:
     system:
       description:
         value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
+          <p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The
+          spell ends early immediately after the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 2.</p>
         chat: ''
       source:
         custom: ''
@@ -986,9 +982,7 @@ items:
         type: base
         system: {}
         changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
+        description: <p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1004,14 +998,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmImp00000000000.BGYUyh36nOQKX4Pr.9svfDetqjhsFP3ey
+        _key: '!actors.items.effects!mmImp00000000000.BGYUyh36nOQKX4Pr.9svfDetqjhsFP3ey'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmImp00000000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
+        origin: Compendium.degringo5e.actors24.Actor.mmImp00000000000.Item.mmInvisibility00.Activity.6BqYzqlxZTtqyPmH
         changes:
           - key: system.ability
             mode: 5
@@ -1055,8 +1047,7 @@ items:
           modifiedTime: 1737595083461
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmImp00000000000.BGYUyh36nOQKX4Pr.dnd5espellchange
+        _key: '!actors.items.effects!mmImp00000000000.BGYUyh36nOQKX4Pr.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2700000
     ownership:
@@ -1148,11 +1139,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts to
-          resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a
-          spider (20 ft., Climb 20 ft.), or it returns to its true form. Its
-          game statistics are the same in each form, except for its Speed. Any
-          equipment it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts to resemble a rat (Speed 20 ft.), a raven (20
+          ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its game statistics are
+          the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -1203,8 +1192,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.NFMrfbOawWP0jdQ8
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.NFMrfbOawWP0jdQ8
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1213,8 +1201,7 @@ items:
           modifiedTime: 1737677308565
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmImp00000000000.mmShapeshift0000.M2l3YjxgkH54n81W
+        _key: '!actors.items.effects!mmImp00000000000.mmShapeshift0000.M2l3YjxgkH54n81W'
       - name: Raven Form
         origin: Compendium.degringo5e.actors24.Actor.mmImp00000000000.Item.mmShapeshift0000
         duration:
@@ -1246,8 +1233,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.Q4RaKl2vHLshyF3B
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.Q4RaKl2vHLshyF3B
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1256,8 +1242,7 @@ items:
           modifiedTime: 1737677310522
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmImp00000000000.mmShapeshift0000.XPf2vHAzEy8jMwEX
+        _key: '!actors.items.effects!mmImp00000000000.mmShapeshift0000.XPf2vHAzEy8jMwEX'
       - name: Spider Form
         origin: Compendium.degringo5e.actors24.Actor.mmImp00000000000.Item.mmShapeshift0000
         duration:
@@ -1293,8 +1278,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.LK7QKDKtjaAzAIIv
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobImp0000000.Item.phbaoiShapeShift.ActiveEffect.LK7QKDKtjaAzAIIv
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1303,8 +1287,7 @@ items:
           modifiedTime: 1737677311878
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmImp00000000000.mmShapeshift0000.bwSU3aYTK7H9TDls
+        _key: '!actors.items.effects!mmImp00000000000.mmShapeshift0000.bwSU3aYTK7H9TDls'
     flags:
       degringo5e:
         riders:

@@ -596,9 +596,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item Beak]] attack and
-          one [[/item Tentacles]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] makes one [[/item Beak]] attack and one [[/item Tentacles]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -885,10 +883,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]) from all four tentacles.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]])
+          from all four tentacles.</p>
         chat: ''
       identifier: tentacles
       source:
@@ -969,9 +966,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC).</p>
+          <p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -988,8 +984,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGrick000000000.mmTentacles00000.GyZrmzBP0NB8oRZI
+        _key: '!actors.items.effects!mmGrick000000000.mmTentacles00000.GyZrmzBP0NB8oRZI'
     flags:
       degringo5e:
         riders:

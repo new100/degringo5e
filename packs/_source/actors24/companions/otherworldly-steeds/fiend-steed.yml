@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplFindSteed0 caption=false]</p>
       public: ''
     alignment: Neutral
     type:
@@ -483,9 +481,8 @@ items:
     system:
       description:
         value: >-
-          <p> When you regain Hit Points from a level 1+ spell, the steed
-          regains the same number of Hit Points if you're within 5 feet of
-          it.</p>
+          <p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if
+          you're within 5 feet of it.</p>
         chat: ''
       source:
         custom: ''
@@ -539,9 +536,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell's level of
-          Necrotic damage.</p>
+          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the
+          spell's level of Necrotic damage.</p>
         chat: ''
       source:
         custom: ''
@@ -671,10 +667,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one
-          creature within 60 feet the steed can see. <em>Failure:</em> The
-          target has the &amp;Reference[frightened] condition until the end of
-          your next turn.</p>
+          <p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see.
+          <em>Failure:</em> The target has the &amp;Reference[frightened] condition until the end of your next turn.</p>
         chat: ''
       source:
         custom: ''
@@ -798,8 +792,7 @@ items:
         sort: 0
         flags: {}
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
+          compendiumSource: Compendium.degringo5e.actors24.Actor.phbmobOtherworld.Item.phbaoiFellGlareF.ActiveEffect.mvCvu3ezA2FV5IeR
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -808,8 +801,7 @@ items:
           modifiedTime: 1725984132195
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!phbostFiend00000.phbaoiFellGlareF.TMhI7D143iHjrZgb
+        _key: '!actors.items.effects!phbostFiend00000.phbaoiFellGlareF.TMhI7D143iHjrZgb'
     folder: null
     sort: 0
     ownership:

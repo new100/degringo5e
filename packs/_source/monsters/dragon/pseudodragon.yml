@@ -487,9 +487,7 @@ items:
     img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
     system:
       description:
-        value: >-
-          <p>The pseudodragon has advantage on Wisdom (Perception) checks that
-          rely on sight, hearing, or smell.</p>
+        value: <p>The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.</p>
         chat: ''
       source:
         custom: ''
@@ -535,9 +533,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The pseudodragon has advantage on saving throws against spells and
-          other magical effects.</p>
+        value: <p>The pseudodragon has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -584,9 +580,8 @@ items:
     system:
       description:
         value: >-
-          <p>The pseudodragon can magically communicate simple ideas, emotions,
-          and images telepathically with any creature within 100 ft. of it that
-          can understand a language.</p>
+          <p>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any
+          creature within 100 ft. of it that can understand a language.</p>
         chat: ''
       source:
         custom: ''
@@ -797,14 +792,12 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or become poisoned for 1 hour. If
-          the saving throw fails by 5 or more, the target falls unconscious for
-          the same duration, or until it takes damage or another creature uses
-          an action to shake it awake.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or
+          become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same
+          duration, or until it takes damage or another creature uses an action to shake it awake.</p>
         chat: >-
-          <p>The Pseudodragon attacks with its Sting. The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The Pseudodragon attacks with its Sting. The target must make a <strong>Constitution</strong> saving
+          throw.</p>
       source:
         custom: ''
         book: ''

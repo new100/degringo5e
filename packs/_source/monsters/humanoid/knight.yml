@@ -489,10 +489,9 @@ items:
     system:
       description:
         value: >-
-          <p>Plate consists of shaped, interlocking metal plates to cover the
-          entire body. A suit of plate includes gauntlets, heavy leather boots,
-          a visored helmet, and thick layers of padding underneath the armor.
-          Buckles and straps distribute the weight over the body.</p>
+          <p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes
+          gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles
+          and straps distribute the weight over the body.</p>
         chat: ''
       source:
         custom: ''
@@ -566,9 +565,7 @@ items:
     img: icons/skills/melee/blade-tips-triple-steel.webp
     system:
       description:
-        value: >-
-          <p>The knight makes two [[/item .iPLa96izrYFiVtaO]]{melee}
-          attacks.</p>
+        value: <p>The knight makes two [[/item .iPLa96izrYFiVtaO]]{melee} attacks.</p>
         chat: ''
       source:
         custom: ''
@@ -999,12 +996,10 @@ items:
     system:
       description:
         value: >-
-          <p>For 1 minute, the knight can utter a special command or warning
-          whenever a nonhostile creature that it can see within 30 ft. of it
-          makes an attack roll or a saving throw. The creature can add a d4 to
-          its roll provided it can hear and understand the knight. A creature
-          can benefit from only one Leadership die at a time. This effect ends
-          if the knight is incapacitated.</p>
+          <p>For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can
+          see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided
+          it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This
+          effect ends if the knight is incapacitated.</p>
         chat: ''
       source:
         custom: ''
@@ -1113,12 +1108,9 @@ items:
     system:
       description:
         value: >-
-          <p>The knight adds 2 to its AC against one melee Attack that would hit
-          it. To do so, the knight must see the attacker and be wielding a melee
-          weapon.</p>
-        chat: >-
-          <p>The knight adds 2 to its <strong>AC</strong> against one melee
-          Attack that would hit it.</p>
+          <p>The knight adds 2 to its AC against one melee Attack that would hit it. To do so, the knight must see the
+          attacker and be wielding a melee weapon.</p>
+        chat: <p>The knight adds 2 to its <strong>AC</strong> against one melee Attack that would hit it.</p>
       source:
         custom: ''
         book: ''
@@ -1216,9 +1208,7 @@ items:
     img: icons/skills/social/intimidation-impressing.webp
     system:
       description:
-        value: >-
-          <p>The knight has advantage on saving throws against being
-          frightened.</p>
+        value: <p>The knight has advantage on saving throws against being frightened.</p>
         chat: ''
       source:
         custom: ''

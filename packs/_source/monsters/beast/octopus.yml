@@ -489,13 +489,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is
-          &amp;Reference[grappled] (escape DC 10). Until this grapple ends, the
-          octopus can't use its tentacles on another target.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target is &amp;Reference[grappled] (escape DC 10).
+          Until this grapple ends, the octopus can't use its tentacles on another target.</p>
         chat: >-
-          <p>The Octopus attacks with its Tentacles. The target is grappled .
-          Until this grapple ends, the octopus can't use its tentacles on
-          another target.</p>
+          <p>The Octopus attacks with its Tentacles. The target is grappled . Until this grapple ends, the octopus can't
+          use its tentacles on another target.</p>
       source:
         custom: ''
         book: ''
@@ -658,9 +656,7 @@ items:
     img: icons/magic/water/pseudopod-swirl-blue.webp
     system:
       description:
-        value: >-
-          <p>While out of water, the octopus can hold its breath for <strong>30
-          minutes</strong>.</p>
+        value: <p>While out of water, the octopus can hold its breath for <strong>30 minutes</strong>.</p>
         chat: ''
       source:
         custom: ''
@@ -706,9 +702,7 @@ items:
     img: icons/magic/water/orb-ice-web.webp
     system:
       description:
-        value: >-
-          <p>The octopus has<strong> advantage </strong>on Dexterity (Stealth)
-          checks made while underwater.</p>
+        value: <p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>
         chat: ''
       source:
         custom: ''
@@ -801,13 +795,10 @@ items:
     system:
       description:
         value: >-
-          <p>A 5-foot-radius cloud of ink extends all around the octopus if it
-          is underwater. The area is heavily obscured for 1 minute, although a
-          significant current can disperse the ink. After releasing the ink, the
+          <p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily
+          obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the
           octopus can use the Dash action as a bonus action.</p>
-        chat: >-
-          <p>A 5-foot-radius cloud of ink extends all around the octopus if it
-          is underwater.</p>
+        chat: <p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>
       source:
         custom: ''
         book: ''

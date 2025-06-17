@@ -2,15 +2,12 @@ name: Weird
 system:
   description:
     value: >-
-      <p>You try to create illusory terrors in others' minds. Each creature of
-      your choice in a 30-foot-radius Sphere centered on a point within range
-      makes a Wisdom saving throw. On a failed save, a target takes 10d10
-      Psychic damage and has the &amp;Reference[Frightened apply=false]
-      condition for the duration. On a successful save, a target takes half as
-      much damage only.</p><p>A Frightened target makes a Wisdom saving throw at
-      the end of each of its turns. On a failed save, it takes [[/damage 5d10
-      type=psychic]] damage. On a successful save, the spell ends on that
-      target.</p>
+      <p>You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius Sphere
+      centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic
+      damage and has the &amp;Reference[Frightened apply=false] condition for the duration. On a successful save, a
+      target takes half as much damage only.</p><p>A Frightened target makes a Wisdom saving throw at the end of each of
+      its turns. On a failed save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save, the spell ends
+      on that target.</p>
     chat: ''
   source:
     custom: ''
@@ -201,10 +198,9 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>A &amp;Reference[Frightened apply=false] target makes a [[/save
-      ability=wis format=long]] at the end of each of its turns. On a failed
-      save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save,
-      the spell ends on that target.</p>
+      <p>A &amp;Reference[Frightened apply=false] target makes a [[/save ability=wis format=long]] at the end of each of
+      its turns. On a failed save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save, the spell ends
+      on that target.</p>
     tint: '#ffffff'
     statuses:
       - frightened

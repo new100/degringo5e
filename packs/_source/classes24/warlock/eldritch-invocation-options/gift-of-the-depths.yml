@@ -5,16 +5,13 @@ img: icons/magic/water/water-elemental-blue-teeth.webp
 system:
   description:
     value: >-
-      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can
-      breathe underwater, and you gain a Swim Speed equal to your
-      Speed.</p><p>You can also cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water Breathing}
-      once without expending a spell slot. You regain the ability to cast it in
-      this way again when you finish a Long Rest.</p><section
-      id="secret-aH09PLbY0nXMKypM" class="secret"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Gift Water Breathing</strong> activity
-      consumes a limited use and includes an Active Effect for tracking the
-      chosen creatures.</p></section>
+      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim
+      Speed equal to your Speed.</p><p>You can also cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot.
+      You regain the ability to cast it in this way again when you finish a Long Rest.</p><section
+      id="secret-aH09PLbY0nXMKypM" class="secret"><p><strong>Foundry Note</strong></p><p>The <strong>Gift Water
+      Breathing</strong> activity consumes a limited use and includes an Active Effect for tracking the chosen
+      creatures.</p></section>
     chat: ''
   source:
     custom: ''
@@ -117,8 +114,7 @@ effects:
     statuses: []
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplWaterBreat.ActiveEffect.hyFupFam9XIbim0U
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplWaterBreat.ActiveEffect.hyFupFam9XIbim0U
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

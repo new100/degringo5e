@@ -611,10 +611,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmRam00000000000]] attack, one [[/item .mmBite0000000000]] attack,
-          and one  [[/item .mmClaw0000000000]] attack. It can replace the Claw
-          attack with a use of [[/item .mmFireBreath0000]] if available.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmRam00000000000]] attack, one [[/item
+          .mmBite0000000000]] attack, and one  [[/item .mmClaw0000000000]] attack. It can replace the Claw attack with a
+          use of [[/item .mmFireBreath0000]] if available.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -770,9 +769,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], or [[/damage
-          average activity=HN2sfAtHqDMjMLXF]] damage if the [[lookup @name
-          lowercase]] had Advantage on the attack roll.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], or [[/damage average activity=HN2sfAtHqDMjMLXF]] damage
+          if the [[lookup @name lowercase]] had Advantage on the attack roll.</p>
         chat: ''
       identifier: bite
       source:
@@ -1056,9 +1054,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: ram
       source:
@@ -1155,8 +1152,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmChimera0000000.mmRam00000000000.HUmtXTzr92ZaAvf3
+        _key: '!actors.items.effects!mmChimera0000000.mmRam00000000000.HUmtXTzr92ZaAvf3'
     flags:
       degringo5e:
         riders:
@@ -1261,12 +1257,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type
-          activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
-          activity=bDqgmtLG3zcVuqdi]]-foot Cone.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em>Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup
+          @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size
+          activity=bDqgmtLG3zcVuqdi]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]]
+          damage.</p><p><em>Success:</em>Half damage.</p>
         chat: ''
       identifier: fire-breath
       source:

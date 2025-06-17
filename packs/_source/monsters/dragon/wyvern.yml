@@ -489,10 +489,9 @@ items:
     system:
       description:
         value: >-
-          <p>The wyvern makes two attacks: one with its [[/item
-          .j1LTHxGLXWdnEbwq]]{bite} and one with its [[/item
-          .HzLuzqlmtBSeSS4Q]]{stinger}. While flying, it can use its [[/item
-          .Wa8BU72wRqyBCqkI]]{claws} in place of one other attack.</p>
+          <p>The wyvern makes two attacks: one with its [[/item .j1LTHxGLXWdnEbwq]]{bite} and one with its [[/item
+          .HzLuzqlmtBSeSS4Q]]{stinger}. While flying, it can use its [[/item .Wa8BU72wRqyBCqkI]]{claws} in place of one
+          other attack.</p>
         chat: ''
       source:
         custom: ''
@@ -920,13 +919,10 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          make a [[/save]] saving throw, taking [[/damage average
-          activity=dnd5eactivity100]] damage on a failed save, or half as much
-          damage on a successful one.</p>
-        chat: >-
-          <p>The Wyvern attacks with its Stinger. The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must make a [[/save]] saving throw, taking
+          [[/damage average activity=dnd5eactivity100]] damage on a failed save, or half as much damage on a successful
+          one.</p>
+        chat: <p>The Wyvern attacks with its Stinger. The target must make a <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

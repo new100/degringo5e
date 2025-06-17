@@ -2,13 +2,11 @@ name: Finger of Death
 system:
   description:
     value: >-
-      <p>You unleash negative energy toward a creature you can see within range.
-      The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic
-      damage on a failed save or half as much damage on a successful
-      one.</p><p>A Humanoid killed by this spell rises at the start of your next
-      turn as a
-      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmZombie00000000]{Zombie}</strong>
-      (see appendix B) that follows your verbal orders.</p>
+      <p>You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving
+      throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.</p><p>A
+      Humanoid killed by this spell rises at the start of your next turn as a
+      <strong>@UUID[Compendium.degringo5e.actors24.Actor.mmZombie00000000]{Zombie}</strong> (see appendix B) that
+      follows your verbal orders.</p>
     chat: ''
   source:
     custom: ''

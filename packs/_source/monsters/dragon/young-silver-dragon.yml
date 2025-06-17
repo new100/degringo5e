@@ -818,8 +818,7 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon makes three attacks: one with its [[/item
-          .qsfDO6B4wLP1UeKS]]{bite} and two with its [[/item
+          <p>The dragon makes three attacks: one with its [[/item .qsfDO6B4wLP1UeKS]]{bite} and two with its [[/item
           .GvAgPChKDJLm64Za]]{claws}.</p>
         chat: ''
       source:
@@ -920,17 +919,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Cold Breath.</strong> The dragon exhales an icy
-          blast in a 90-foot cone. Each creature in that area must make a
-          [[/save activity=U5F5qe2Hu0r0yHmk]] saving throw, taking [[/damage
-          average activity=U5F5qe2Hu0r0yHmk]] damage on a failed save, or half
-          as much damage on a successful one.</p><p><strong>Paralyzing
-          Breath.</strong> The dragon exhales paralyzing gas in a 90- foot cone.
-          Each creature in that area must succeed on a [[/save
-          activity=9gMvqjbgKK42uyzr]] saving throw or be paralyzed for 1 minute.
-          A creature can repeat the saving throw at the end of each of its
-          turns, ending the effect on itself on a success.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Cold Breath.</strong> The dragon exhales
+          an icy blast in a 90-foot cone. Each creature in that area must make a [[/save activity=U5F5qe2Hu0r0yHmk]]
+          saving throw, taking [[/damage average activity=U5F5qe2Hu0r0yHmk]] damage on a failed save, or half as much
+          damage on a successful one.</p><p><strong>Paralyzing Breath.</strong> The dragon exhales paralyzing gas in a
+          90- foot cone. Each creature in that area must succeed on a [[/save activity=9gMvqjbgKK42uyzr]] saving throw
+          or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending
+          the effect on itself on a success.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''

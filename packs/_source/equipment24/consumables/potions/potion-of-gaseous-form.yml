@@ -65,12 +65,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the
-      effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous Form} spell
-      for 1 hour (no Concentration required) or until you end the effect as a
-      Bonus Action.</p><p>This potion's container seems to hold fog that moves
-      and pours like water.</p>
+      <p><em>Potion, Rare</em></p><p>When you drink this potion, you gain the effect of the
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplGaseousFor]{Gaseous Form} spell for 1 hour (no Concentration
+      required) or until you end the effect as a Bonus Action.</p><p>This potion's container seems to hold fog that
+      moves and pours like water.</p>
     chat: ''
   identifier: potion-of-gaseous-form
   source:

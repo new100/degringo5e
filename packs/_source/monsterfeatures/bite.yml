@@ -5,14 +5,10 @@ ownership:
 type: weapon
 system:
   description:
-    value: >-
+    value: |-
       <section class="secret">
-
-      <p>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17
-      (2d10 + 6) piercing damage.</p>
-
+      <p>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.</p>
       </section>
-
       <p>the [[lookup @name lowercase]] attacks with its Bite.</p>
     chat: ''
   source:

@@ -86,18 +86,13 @@ system:
     autoDestroy: true
   description:
     value: >-
-      <p><em>Wondrous Item, Rare, See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
-      Token}</em></p><p>You can take a Magic action to throw the token to a
-      point within 10 feet of yourself. The token disappears, and a
-      @UUID[Compendium.degringo5e.actors24.Actor.dmgqftFloatingWh]{floating whip}
-      takes its place. You can then take a Bonus Action to make a melee spell
-      attack against a creature within 10 feet of the whip, with an attack bonus
-      of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus
-      Action, you can direct the whip to fly up to 20 feet and repeat the attack
-      against a creature within 10 feet of the whip. The whip disappears after 1
-      hour, when you take a Magic action to dismiss it, or when you die or have
-      the Incapacitated condition.</p>
+      <p><em>Wondrous Item, Rare, See: @UUID[Compendium.degringo5e.equipment24.Item.dmgQuaalsFeather]{Feather
+      Token}</em></p><p>You can take a Magic action to throw the token to a point within 10 feet of yourself. The token
+      disappears, and a @UUID[Compendium.degringo5e.actors24.Actor.dmgqftFloatingWh]{floating whip} takes its place. You
+      can then take a Bonus Action to make a melee spell attack against a creature within 10 feet of the whip, with an
+      attack bonus of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus Action, you can direct the
+      whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of the whip. The whip disappears
+      after 1 hour, when you take a Magic action to dismiss it, or when you die or have the Incapacitated condition.</p>
     chat: ''
   identifier: whip-feather-token
   source:

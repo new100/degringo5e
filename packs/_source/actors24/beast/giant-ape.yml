@@ -604,9 +604,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmFist0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmFist0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -710,9 +708,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: fist
       source:
@@ -880,15 +876,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] hurls a boulder at a point it can
-          see within [[lookup @range.value activity=jpC3fk7LJlhH4CDr]]
-          feet.</p><p><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=jpC3fk7LJlhH4CDr]], each creature in a
-          [[lookup @target.template.size activity=jpC3fk7LJlhH4CDr]]-foot-radius
-          Sphere centered on that point.</p><p><em>Failure:</em> [[/damage
-          average]]. If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone] condition.</p><p><em>Success:</em> Half damage
-          only.</p>
+          <p>The [[lookup @name lowercase]] hurls a boulder at a point it can see within [[lookup @range.value
+          activity=jpC3fk7LJlhH4CDr]] feet.</p><p><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value
+          activity=jpC3fk7LJlhH4CDr]], each creature in a [[lookup @target.template.size
+          activity=jpC3fk7LJlhH4CDr]]-foot-radius Sphere centered on that point.</p><p><em>Failure:</em> [[/damage
+          average]]. If the target is a Large or smaller creature, it has the &amp;Reference[Prone]
+          condition.</p><p><em>Success:</em> Half damage only.</p>
         chat: ''
       identifier: boulder-toss
       source:
@@ -989,9 +982,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value
-          activity=C28C43DeD8iFtZMe]] feet by [[lookup @activation.condition
-          activity=C28C43DeD8iFtZMe]].</p>
+          <p>The [[lookup @name lowercase]] jumps up to [[lookup @range.value activity=C28C43DeD8iFtZMe]] feet by
+          [[lookup @activation.condition activity=C28C43DeD8iFtZMe]].</p>
         chat: ''
       identifier: leap
       source:

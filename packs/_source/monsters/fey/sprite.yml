@@ -492,9 +492,8 @@ items:
     system:
       description:
         value: >-
-          <p>The breastplate and shoulder protectors of this armor are made of
-          leather that has been stiffened by being boiled in oil. The rest of
-          the armor is made of softer and more flexible materials.</p>
+          <p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being
+          boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
         chat: ''
       source:
         custom: ''
@@ -568,12 +567,10 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]], and the target must
-          succeed on a [[/save]] saving throw or become &amp;Reference[poisoned]
-          for 1 minute. If its saving throw result is 5 or lower, the poisoned
-          target falls &amp;Reference[unconscious] for the same duration, or
-          until it takes damage or another creature takes an action to shake it
-          awake.</p>
+          <p>[[/attack extended]]. [[/damage extended]], and the target must succeed on a [[/save]] saving throw or
+          become &amp;Reference[poisoned] for 1 minute. If its saving throw result is 5 or lower, the poisoned target
+          falls &amp;Reference[unconscious] for the same duration, or until it takes damage or another creature takes an
+          action to shake it awake.</p>
         chat: <p>The Sprite attacks with its Shortbow.</p>
       source:
         custom: ''
@@ -969,13 +966,9 @@ items:
     system:
       description:
         value: >-
-          <p>The sprite magically turns invisible until it attacks or casts a
-          spell, or until its concentration ends (as if concentrating on a
-          spell). Any equipment the sprite wears or carries is invisible with
-          it.</p>
-        chat: >-
-          <p>The sprite magically turns invisible. Any equipment the sprite
-          wears or carries is invisible with it.</p>
+          <p>The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as
+          if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.</p>
+        chat: <p>The sprite magically turns invisible. Any equipment the sprite wears or carries is invisible with it.</p>
       source:
         custom: ''
         book: ''
@@ -1074,13 +1067,10 @@ items:
     system:
       description:
         value: >-
-          <p>The sprite touches a creature and magically knows the creature's
-          current emotional state.</p><p>If the target fails a [[/save]] saving
-          throw, the sprite also knows the creature's alignment. Celestials,
-          fiends, and undead automatically fail the saving throw.</p>
-        chat: >-
-          <p>The sprite touches a creature. target must make a
-          <strong>Charisma</strong> saving throw.</p>
+          <p>The sprite touches a creature and magically knows the creature's current emotional state.</p><p>If the
+          target fails a [[/save]] saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and
+          undead automatically fail the saving throw.</p>
+        chat: <p>The sprite touches a creature. target must make a <strong>Charisma</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

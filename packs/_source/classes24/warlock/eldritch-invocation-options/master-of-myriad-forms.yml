@@ -5,17 +5,13 @@ img: icons/creatures/abilities/cougar-pounce-stalk-black.webp
 system:
   description:
     value: >-
-      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can
-      cast @UUID[Compendium.degringo5e.spells24.Item.phbsplAlterSelf0]{Alter Self}
-      without expending a spell slot.</p><section class="secret"
-      id="secret-x7wmXuFqGaXQspxB"><p><strong>Foundry Note</strong></p><p>This
-      feature includes Alter Self's activities.</p><p>The <strong>Aquatic
-      Adaptation</strong>, <strong>Change Appearance</strong>, and
-      <strong>Natural Weapons</strong> activities include Active Effects for
-      tracking your choice and require Concentration.</p><p>The
-      <strong>Attack</strong> activities can be used for your attack/damage
-      rolls when you choose the <strong>Natural Weapons</strong>
-      option.</p></section>
+      <blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplAlterSelf0]{Alter Self} without expending a spell
+      slot.</p><section class="secret" id="secret-x7wmXuFqGaXQspxB"><p><strong>Foundry Note</strong></p><p>This feature
+      includes Alter Self's activities.</p><p>The <strong>Aquatic Adaptation</strong>, <strong>Change
+      Appearance</strong>, and <strong>Natural Weapons</strong> activities include Active Effects for tracking your
+      choice and require Concentration.</p><p>The <strong>Attack</strong> activities can be used for your attack/damage
+      rolls when you choose the <strong>Natural Weapons</strong> option.</p></section>
     chat: ''
   source:
     custom: ''
@@ -399,9 +395,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>You can breathe underwater and gain a Swim Speed equal to your
-      Speed.</p>
+    description: <p>You can breathe underwater and gain a Swim Speed equal to your Speed.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0
@@ -468,11 +462,9 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>When you use your Unarmed Strike to deal damage with that new growth,
-      it deals 1d6 damage of the type in parentheses instead of dealing the
-      normal damage for your Unarmed Strike, and you use your spellcasting
-      ability modifier for the attack and damage rolls rather than using
-      Strength.</p>
+      <p>When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in
+      parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability
+      modifier for the attack and damage rolls rather than using Strength.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

@@ -672,9 +672,7 @@ items:
     img: icons/creatures/slimes/slime-movement-dripping-purple.webp
     system:
       description:
-        value: >-
-          <p>The jelly can move through a space as narrow as 1 inch wide without
-          squeezing.</p>
+        value: <p>The jelly can move through a space as narrow as 1 inch wide without squeezing.</p>
         chat: ''
       source:
         custom: ''
@@ -721,8 +719,8 @@ items:
     system:
       description:
         value: >-
-          <p>The jelly can climb difficult surfaces, including upside down on
-          ceilings, without needing to make an ability check.</p>
+          <p>The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an
+          ability check.</p>
         chat: ''
       source:
         custom: ''
@@ -769,14 +767,10 @@ items:
     system:
       description:
         value: >-
-          <p>When a jelly that is Medium or larger is subjected to lightning or
-          <em>slashing damage</em>, it splits into two new jellies if it has at
-          least 10 Hit Points. Each new jelly has Hit Points equal to half the
-          original jelly's, rounded down. New jellies are one size smaller than
-          the original jelly.</p>
-        chat: >-
-          <p>The jelly splits into two new jellies. New jellies are one size
-          smaller than the original jelly.</p>
+          <p>When a jelly that is Medium or larger is subjected to lightning or <em>slashing damage</em>, it splits into
+          two new jellies if it has at least 10 Hit Points. Each new jelly has Hit Points equal to half the original
+          jelly's, rounded down. New jellies are one size smaller than the original jelly.</p>
+        chat: <p>The jelly splits into two new jellies. New jellies are one size smaller than the original jelly.</p>
       source:
         custom: ''
         book: ''

@@ -295,21 +295,17 @@ system:
     max: '10'
   description:
     value: >-
-      <div><p><em>Wondrous Item, Rare (Requires
-      Attunement)</em></p></div><p>This cube is about an inch across. Each face
-      has a distinct marking on it. You can press one of those faces, expend the
-      number of charges required for it, and thereby cast the spell associated
-      with it (save DC 17), as shown in the Cube of Force Faces table.</p><p>The
-      cube starts with 10 charges, and it regains 1d6 <span
-      class="no-break">expended</span> charges daily at
-      dawn.</p><table><caption>Cube of Force
-      Faces</caption><thead><tr><td>Spell</td><td>Charge
+      <div><p><em>Wondrous Item, Rare (Requires Attunement)</em></p></div><p>This cube is about an inch across. Each
+      face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it,
+      and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.</p><p>The
+      cube starts with 10 charges, and it regains 1d6 <span class="no-break">expended</span> charges daily at
+      dawn.</p><table><caption>Cube of Force Faces</caption><thead><tr><td>Spell</td><td>Charge
       Cost</td></tr></thead><tbody><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMageArmor0]{Mage
       Armor}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShield0000]{Shield}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLeomundsTi]{Tiny
       Hut}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbPrivateSanctu]{Private
       Sanctum}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplOtilukesRe]{Resilient
-      Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall
-      of Force}</em></td><td>5</td></tr></tbody></table>
+      Sphere}</em></td><td>4</td></tr><tr><td><em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWallofForc]{Wall of
+      Force}</em></td><td>5</td></tr></tbody></table>
     chat: ''
   identifier: cube-of-force
   source:

@@ -489,19 +489,15 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]] and the target must
-          succeed on a [[/save]] saving throw or take [[/damage average
-          activity=dnd5eactivity100]] damage. If the poison damage reduces the
-          target to 0 hit points, the target is stable but
-          &amp;Reference[poisoned] for 1 hour, even after regaining hit points,
-          and is &amp;Reference[paralyzed] while poisoned in this way.</p>
+          <p>[[/attack extended]]. [[/damage extended]] and the target must succeed on a [[/save]] saving throw or take
+          [[/damage average activity=dnd5eactivity100]] damage. If the poison damage reduces the target to 0 hit points,
+          the target is stable but &amp;Reference[poisoned] for 1 hour, even after regaining hit points, and is
+          &amp;Reference[paralyzed] while poisoned in this way.</p>
         chat: >-
-          <p>The Giant Centipede attacks with its Bite. The target must succeed
-          on a  <strong>DC 11 Constitution</strong> saving throw or take
-          <em>poison damage</em>. If the <em>poison damage</em> reduces the
-          target to 0 hit points, the target is stable but poisoned for 1 hour,
-          even after regaining hit points, and is paralyzed while poisoned in
-          this way.</p>
+          <p>The Giant Centipede attacks with its Bite. The target must succeed on a  <strong>DC 11
+          Constitution</strong> saving throw or take <em>poison damage</em>. If the <em>poison damage</em> reduces the
+          target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is
+          paralyzed while poisoned in this way.</p>
       source:
         custom: ''
         book: ''

@@ -602,9 +602,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mafdXNIx6EIRujnK]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mafdXNIx6EIRujnK]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -919,14 +917,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a [[lookup @target.affects.type activity=u64Kjp19EAOJoLeo]]
-          [[lookup @target.affects.special activity=u64Kjp19EAOJoLeo]], it is
-          subjected to the following effect.</p><p><em>Constitution Saving
-          Throw:</em> DC [[lookup @save.dc.value
-          activity=u64Kjp19EAOJoLeo]].</p><p><em>Failure:</em> The target has
-          the &amp;Reference[Paralyzed apply=false] condition until the end of
-          its next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.type
+          activity=u64Kjp19EAOJoLeo]] [[lookup @target.affects.special activity=u64Kjp19EAOJoLeo]], it is subjected to
+          the following effect.</p><p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value
+          activity=u64Kjp19EAOJoLeo]].</p><p><em>Failure:</em> The target has the &amp;Reference[Paralyzed apply=false]
+          condition until the end of its next turn.</p>
         chat: ''
       identifier: claw
       source:
@@ -1006,9 +1001,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Paralyzed apply=false] condition
-          until the end of its next turn.</p>
+        description: <p>The target has the &amp;Reference[Paralyzed apply=false] condition until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1025,8 +1018,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGhoul000000000.tiNmukdjtTyjqq9S.F66nPf6crMVqKXCc
+        _key: '!actors.items.effects!mmGhoul000000000.tiNmukdjtTyjqq9S.F66nPf6crMVqKXCc'
     flags:
       degringo5e:
         riders:

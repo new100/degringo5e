@@ -561,9 +561,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -613,8 +611,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can communicate with
-          Beasts and Plants as if they shared a language.</p>
+          <p class="feature">The [[lookup @name lowercase]] can communicate with Beasts and Plants as if they shared a
+          language.</p>
         chat: ''
       identifier: speak-with-beasts-and-plants
       source:
@@ -710,10 +708,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmVineLash000000]] or [[/item .mmThornBurst0000]] attack, and it can
-          use Spellcasting to cast [[/item
-          .mmSpellcasting00.Activity.bAmZSyK4cn33HwwI]].</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmVineLash000000]] or [[/item .mmThornBurst0000]] attack,
+          and it can use Spellcasting to cast [[/item .mmSpellcasting00.Activity.bAmZSyK4cn33HwwI]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -965,9 +961,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: thorn-burst
       source:
@@ -1299,21 +1293,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalFrie]{Animal
-          Friendship}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmMonst]{Charm
-          Monster}</em> (lasts 24 hours; ends early if the dryad casts the spell
-          again),
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplCharmMonst]{Charm Monster}</em> (lasts 24 hours; ends
+          early if the dryad casts the spell again),
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDruidcraft]{Druidcraft}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEntangle00]{Entangle}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPasswithou]{Pass
-          without Trace}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPasswithou]{Pass without Trace}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1415,12 +1404,10 @@ items:
         max: ''
       description:
         value: >-
-          <p>If within [[lookup @range.value activity=8av8Lh1jNLCrOJny]] feet of
-          a [[lookup @range.special activity=8av8Lh1jNLCrOJny]], the [[lookup
-          @name lowercase]] teleports to an unoccupied space within [[lookup
-          @range.value activity=8av8Lh1jNLCrOJny]] feet of a second [[lookup
-          @target.affects.special activity=8av8Lh1jNLCrOJny]] that is within 60
-          feet of the previous tree.</p>
+          <p>If within [[lookup @range.value activity=8av8Lh1jNLCrOJny]] feet of a [[lookup @range.special
+          activity=8av8Lh1jNLCrOJny]], the [[lookup @name lowercase]] teleports to an unoccupied space within [[lookup
+          @range.value activity=8av8Lh1jNLCrOJny]] feet of a second [[lookup @target.affects.special
+          activity=8av8Lh1jNLCrOJny]] that is within 60 feet of the previous tree.</p>
         chat: ''
       identifier: tree-stride
       source:
@@ -1466,12 +1453,10 @@ items:
     system:
       description:
         value: >-
-          <p>Target a Beast that you can see within range. The target must
-          succeed on a Wisdom saving throw or have the &amp;Reference[charmed
-          apply=false] condition for the duration. If you or one of your allies
-          deals damage to the target, the spells ends.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong> You can target one additional Beast
-          for each spell slot level above 1.</p>
+          <p>Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the
+          &amp;Reference[charmed apply=false] condition for the duration. If you or one of your allies deals damage to
+          the target, the spells ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one
+          additional Beast for each spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1586,9 +1571,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">The target has the
-          &amp;Reference[charmed apply=false] condition for the duration. If you
-          or one of your allies deals damage to the target, the spells
+          <p><span style="font-family:Signika, sans-serif">The target has the &amp;Reference[charmed apply=false]
+          condition for the duration. If you or one of your allies deals damage to the target, the spells
           ends.</span></p>
         tint: '#ffffff'
         transfer: false
@@ -1605,14 +1589,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.VZjGEY8Eyr5uFRqw.55NWwccKvMKQPL4h
+        _key: '!actors.items.effects!mmDryad000000000.VZjGEY8Eyr5uFRqw.55NWwccKvMKQPL4h'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.5yv4J9JeR6CdKUpq
+        origin: Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.5yv4J9JeR6CdKUpq
         changes:
           - key: system.properties
             mode: 2
@@ -1644,8 +1626,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.VZjGEY8Eyr5uFRqw.dnd5espellchange
+        _key: '!actors.items.effects!mmDryad000000000.VZjGEY8Eyr5uFRqw.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 5600000
     ownership:
@@ -1669,14 +1650,11 @@ items:
     system:
       description:
         value: >-
-          <p>One creature you can see within range makes a Wisdom saving throw.
-          It does so with Advantage if you or your allies are fighting it. On a
-          failed save, the target has the &amp;Reference[Charmed apply=false]
-          condition until the spell ends or until you or your allies damage it.
-          The Charmed creature is Friendly to you. When the spell ends, the
-          target knows it was Charmed by you.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong>You can target one additional creature for each
-          spell slot level above 4.</p>
+          <p>One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your
+          allies are fighting it. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition
+          until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the
+          spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You
+          can target one additional creature for each spell slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -1787,10 +1765,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target has the &amp;Reference[Charmed apply=false] condition
-          until the spell ends or until you or your allies damage it. The
-          Charmed creature is Friendly to you. When the spell ends, the target
-          knows it was Charmed by you.</p>
+          <p>The target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your
+          allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was
+          Charmed by you.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1806,14 +1783,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.VLb2DFHh9haywGHI.CB1jIPB4yINOpjQX
+        _key: '!actors.items.effects!mmDryad000000000.VLb2DFHh9haywGHI.CB1jIPB4yINOpjQX'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.bAmZSyK4cn33HwwI
+        origin: Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.bAmZSyK4cn33HwwI
         changes:
           - key: system.properties
             mode: 2
@@ -1845,8 +1820,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.VLb2DFHh9haywGHI.dnd5espellchange
+        _key: '!actors.items.effects!mmDryad000000000.VLb2DFHh9haywGHI.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 3400000
     ownership:
@@ -1870,19 +1844,15 @@ items:
     system:
       description:
         value: >-
-          <p>Whispering to the spirits of nature, you create one of the
-          following effects within range.</p><p><strong>Weather Sensor.</strong>
-          You create a Tiny, harmless sensory effect that predicts what the
-          weather will be at your location for the next 24 hours. The effect
-          might manifest as a golden orb for clear skies, a cloud for rain,
-          falling snowflakes for snow, and so on. This effect persists for 1
-          round.</p><p><strong>Bloom.</strong> You instantly make a flower
-          blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory
-          Effect.</strong> You create a harmless sensory effect, such as falling
-          leaves, spectral dancing fairies, a gentle breeze, the sound of an
-          animal, or the faint odor of skunk. The effect must fit in a 5-foot
-          Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a
-          candle, a torch, or a campfire.</p>
+          <p>Whispering to the spirits of nature, you create one of the following effects within
+          range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what
+          the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for
+          clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1
+          round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud
+          bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves,
+          spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must
+          fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a
+          campfire.</p>
         chat: ''
       source:
         custom: ''
@@ -1982,8 +1952,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.RbAsYvVVKgs8aVUO
+        origin: Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.RbAsYvVVKgs8aVUO
         changes:
           - key: system.properties
             mode: 2
@@ -2015,8 +1984,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.LNlYma6ZtNnMsXpp.dnd5espellchange
+        _key: '!actors.items.effects!mmDryad000000000.LNlYma6ZtNnMsXpp.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 1700000
     ownership:
@@ -2040,16 +2008,13 @@ items:
     system:
       description:
         value: >-
-          <p>Grasping plants sprout from the ground in a 20-foot square within
-          range. For the duration, these plants turn the ground in the area into
-          &amp;Reference[difficultterrain]. They disappear when the spell
-          ends.</p><p>Each creature (other than you) in the area when you cast
-          the spell must succeed on a Strength saving throw or have the
-          &amp;Reference[restrained apply=false] condition until the spell ends.
-          A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath dc=@attributes.spell.dc]] check against your
-          spell save DC. On a success, it frees itself from the grasping plants
-          and is no longer Restrained by them.</p>
+          <p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants
+          turn the ground in the area into &amp;Reference[difficultterrain]. They disappear when the spell
+          ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength
+          saving throw or have the &amp;Reference[restrained apply=false] condition until the spell ends. A Restrained
+          creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against
+          your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by
+          them.</p>
         chat: ''
       source:
         custom: ''
@@ -2161,10 +2126,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath]] check against your spell save DC. On a
-          success, it frees itself from the grasping plants and is no longer
-          Restrained by them.</p>
+          <p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your
+          spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2180,14 +2143,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.GXTORnFldJH2VQX4.wn7K2m4XhXhItgPT
+        _key: '!actors.items.effects!mmDryad000000000.GXTORnFldJH2VQX4.wn7K2m4XhXhItgPT'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.yK3kLf0ui10MyjZU
+        origin: Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.yK3kLf0ui10MyjZU
         changes:
           - key: system.properties
             mode: 2
@@ -2219,8 +2180,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.GXTORnFldJH2VQX4.dnd5espellchange
+        _key: '!actors.items.effects!mmDryad000000000.GXTORnFldJH2VQX4.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 3400000
     ownership:
@@ -2244,10 +2204,8 @@ items:
     system:
       description:
         value: >-
-          <p>You radiate a concealing aura in a 30-foot Emanation for the
-          duration. While in the aura, you and each creature you choose have a
-          +10 bonus to [[/check ability=dex skill=ste]] checks and leave no
-          tracks.</p>
+          <p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each
+          creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
         chat: ''
       source:
         custom: ''
@@ -2358,9 +2316,8 @@ items:
             value: '10'
             priority: null
         description: >-
-          <p>While in the aura, you and each creature you choose have a +10
-          bonus to [[/check ability=dex skill=ste]] checks and leave no
-          tracks.</p>
+          <p>While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]]
+          checks and leave no tracks.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2375,14 +2332,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.V847HTMc8gLNi8OR.MDdoug4Lfu8klZRO
+        _key: '!actors.items.effects!mmDryad000000000.V847HTMc8gLNi8OR.MDdoug4Lfu8klZRO'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.Q6nZJBtSYFcUyo3R
+        origin: Compendium.degringo5e.actors24.Actor.mmDryad000000000.Item.mmSpellcasting00.Activity.Q6nZJBtSYFcUyo3R
         changes:
           - key: system.properties
             mode: 2
@@ -2414,8 +2369,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmDryad000000000.V847HTMc8gLNi8OR.dnd5espellchange
+        _key: '!actors.items.effects!mmDryad000000000.V847HTMc8gLNi8OR.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 1400000
     ownership:

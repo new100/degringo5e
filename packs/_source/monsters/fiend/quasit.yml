@@ -500,13 +500,9 @@ items:
     system:
       description:
         value: >-
-          <p>The quasit magically turns invisible until it attacks or uses
-          Scare, or until its concentration ends (as if concentrating on a
-          spell). Any equipment the quasit wears or carries is invisible with
-          it.</p>
-        chat: >-
-          <p>The quasit magically turns invisible. Any equipment the quasit
-          wears or carries is invisible with it.</p>
+          <p>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if
+          concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</p>
+        chat: <p>The quasit magically turns invisible. Any equipment the quasit wears or carries is invisible with it.</p>
       source:
         custom: ''
         book: ''
@@ -605,16 +601,14 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a [[/save]] saving throw or take [[/damage average
-          activity=dnd5eactivity100]] damage and become &amp;Reference[poisoned]
-          for 1 minute. The target can repeat the saving throw at the end of
-          each of its turns, ending the effect on itself on a success.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a [[/save]] saving throw or
+          take [[/damage average activity=dnd5eactivity100]] damage and become &amp;Reference[poisoned] for 1 minute.
+          The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a
+          success.</p>
         chat: >-
-          <p>The Quasit attacks with its Claw. The target must make a
-          <strong>Constitution</strong> saving throw. The target can repeat the
-          saving throw at the end of each of its turns, ending the effect on
-          itself on a success.</p>
+          <p>The Quasit attacks with its Claw. The target must make a <strong>Constitution</strong> saving throw. The
+          target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a
+          success.</p>
       source:
         custom: ''
         book: ''
@@ -850,15 +844,13 @@ items:
     system:
       description:
         value: >-
-          <p>The quasit can use its action to polymorph into a beast form that
-          resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb
-          40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form .
-          Its statistics are the same in each form, except for the speed changes
-          noted.</p><p>Any equipment it is wearing or carrying isn't transformed
-          . It reverts to its true form if it dies.</p>
+          <p>The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40
+          ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form . Its
+          statistics are the same in each form, except for the speed changes noted.</p><p>Any equipment it is wearing or
+          carrying isn't transformed . It reverts to its true form if it dies.</p>
         chat: >-
-          <p>The quasit can use its action to <strong>polymorph</strong> into a
-          beast form or back into its true form. </p>
+          <p>The quasit can use its action to <strong>polymorph</strong> into a beast form or back into its true form.
+          </p>
       source:
         custom: ''
         book: ''
@@ -956,9 +948,7 @@ items:
     img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     system:
       description:
-        value: >-
-          <p>The quasit has advantage on saving throws against spells and other
-          magical effects.</p>
+        value: <p>The quasit has advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       source:
         custom: ''
@@ -1005,16 +995,14 @@ items:
     system:
       description:
         value: >-
-          <p>One creature of the quasit's choice within 20 ft. of it must
-          succeed on a [[/save]] saving throw or be &amp;Reference[frightened]
-          for 1 minute.</p><p>The target can repeat the saving throw at the end
-          of each of its turns, with disadvantage if the quasit is within line
-          of sight, ending the effect on itself on a success.</p>
+          <p>One creature of the quasit's choice within 20 ft. of it must succeed on a [[/save]] saving throw or be
+          &amp;Reference[frightened] for 1 minute.</p><p>The target can repeat the saving throw at the end of each of
+          its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a
+          success.</p>
         chat: >-
-          <p>One creature of the quasit's choice within 20 ft. of it must make a
-          <strong>Wisdom</strong> saving throw. The target can repeat the saving
-          throw at the end of each of its turns, with disadvantage if the quasit
-          is within line of sight, ending the effect on itself on a success.</p>
+          <p>One creature of the quasit's choice within 20 ft. of it must make a <strong>Wisdom</strong> saving throw.
+          The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is
+          within line of sight, ending the effect on itself on a success.</p>
       source:
         custom: ''
         book: ''

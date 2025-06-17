@@ -85,16 +85,12 @@ system:
     autoDestroy: true
   description:
     value: >-
-      <p><em>See:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgElementalGem0]</em></p><p>This
-      gem contains a mote of elemental energy. When you take a Utilize action to
-      break the gem, a
-      @UUID[Compendium.degringo5e.actors24.Actor.mmWaterElemental]{Water Elemental}
-      is summoned, and the gem ceases to be magical. The elemental appears in an
-      unoccupied space as close to the broken gem as possible, understands your
-      languages, obeys your commands, and takes its turn immediately after you
-      on your Initiative count. The elemental disappears after 1 hour, when it
-      dies, or when you dismiss it as a Bonus Action.</p>
+      <p><em>See: @UUID[Compendium.degringo5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of
+      elemental energy. When you take a Utilize action to break the gem, a
+      @UUID[Compendium.degringo5e.actors24.Actor.mmWaterElemental]{Water Elemental} is summoned, and the gem ceases to
+      be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your
+      languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental
+      disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>
     chat: ''
   identifier: emerald-elemental-gem
   source:

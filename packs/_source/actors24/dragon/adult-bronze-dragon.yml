@@ -659,9 +659,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>If the [[lookup @name lowercase]] fails a saving throw, it can
-          choose to succeed instead.</p>
+        value: <p>If the [[lookup @name lowercase]] fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       identifier: legendary-resistance
       source:
@@ -754,11 +752,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks.
-          It can replace one attack with a use of (A) [[/item Repulsion Breath]]
-          or (B) [[/item Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding
-          Bolt}</em> (level 2 version).</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item Rend]] attacks. It can replace one attack with a use of
+          (A) [[/item Repulsion Breath]] or (B) [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em> (level 2 version).</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1040,13 +1036,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type
-          activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
-          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width
-          activity=LpjgVwftzGNMgTUJ]]-foot-wide Line.</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup
+          @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
+          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide
+          Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: lightning-breath
       source:
@@ -1154,14 +1147,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=zuf9EEVj4nI1joaH]], each [[lookup
-          @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup
-          @target.template.size activity=zuf9EEVj4nI1joaH]]-foot [[lookup
-          @target.template.type activity=zuf9EEVj4nI1joaH]].</p><p
-          class="feature"><em>Failure:</em> The target is pushed up to 60 feet
-          straight away from the [[lookup @name lowercase]] and has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]],
+          each [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup @target.template.size
+          activity=zuf9EEVj4nI1joaH]]-foot [[lookup @target.template.type activity=zuf9EEVj4nI1joaH]].</p><p
+          class="feature"><em>Failure:</em> The target is pushed up to 60 feet straight away from the [[lookup @name
+          lowercase]] and has the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: repulsion-breath
       source:
@@ -1198,8 +1188,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target is pushed up to 30 feet straight away from the attacking
-          creature and has the &amp;Reference[Prone apply=false] condition.</p>
+          <p>The target is pushed up to 30 feet straight away from the attacking creature and has the
+          &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1225,8 +1215,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.mmRepulsionBreat.HG9R2hTEqJ0G5urK
+        _key: '!actors.items.effects!mmAdultBronzeDra.mmRepulsionBreat.HG9R2hTEqJ0G5urK'
     flags:
       degringo5e:
         riders:
@@ -1586,27 +1575,18 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using Charisma
-          as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]], +10 to hit with spell attacks):</p><p
-          class="feature-trait"><strong>At Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding
-          Bolt}</em> (level 2 version),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em>
-          (Beast or Humanoid form only, no Temporary Hit Points gained from the
-          spell, and no Concentration or Temporary Hit Points required to
-          maintain the spell),
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with
-          Animals}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Charisma as the spellcasting ability (spell save DC [[lookup @attributes.spell.dc]], +10
+          to hit with spell attacks):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em> (level 2 version),
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplShapechang]{Shapechange}</em> (Beast or Humanoid form
+          only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to
+          maintain the spell), <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}</em></p><p
           class="feature-trait"><strong>1/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect
-          Thoughts}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water
-          Breathing}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectThou]{Detect Thoughts}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplWaterBreat]{Water Breathing}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1649,13 +1629,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1775,8 +1753,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1785,14 +1762,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.Fq2btaoAHlpjfrnn.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmAdultBronzeDra.Fq2btaoAHlpjfrnn.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.Cpd8vd1EER5gUSvQ
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.Cpd8vd1EER5gUSvQ
         changes:
           - key: system.properties
             mode: 2
@@ -1824,8 +1799,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.Fq2btaoAHlpjfrnn.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.Fq2btaoAHlpjfrnn.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1852,12 +1826,10 @@ items:
     system:
       description:
         value: >-
-          <p>You hurl a bolt of light toward a creature within range. Make a
-          ranged spell attack against the target. On a hit, it takes 4d6 Radiant
-          damage, and the next attack roll made against it before the end of
-          your next turn has Advantage.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The damage increases by 1d6 for each spell slot level
-          above 1.</p>
+          <p>You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On
+          a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn
+          has Advantage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -1987,9 +1959,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">The next attack roll
-          made against the target before the end of your next turn has
-          Advantage.</span></p>
+          <p><span style="font-family:Signika, sans-serif">The next attack roll made against the target before the end
+          of your next turn has Advantage.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -2005,14 +1976,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.51zWIywGSeoKks2C.rHzZCeXfdeTcYyk8
+        _key: '!actors.items.effects!mmAdultBronzeDra.51zWIywGSeoKks2C.rHzZCeXfdeTcYyk8'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.ze924C680jda0r9T
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.ze924C680jda0r9T
         changes:
           - key: system.properties
             mode: 2
@@ -2044,8 +2013,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.51zWIywGSeoKks2C.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.51zWIywGSeoKks2C.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2500000
     ownership:
@@ -2069,21 +2037,15 @@ items:
     system:
       description:
         value: >-
-          <p>You shape-shift into another creature for the duration or until you
-          take a Magic action to shape-shift into a different eligible form. The
-          new form must be of a creature that has a Challenge Rating no higher
-          than your level or Challenge Rating. You must have seen the sort of
-          creature before, and it can't be a Construct or an Undead.</p><p>When
-          you shape-shift, you gain a number of Temporary Hit Points equal to
-          the Hit Points of the form. The spell ends early if you have no
-          Temporary Hit Points left.</p><p>Your game statistics are replaced by
-          the stat block of the chosen form, but you retain your creature type;
-          alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit
-          Points; Hit Point Dice; proficiencies; and ability to communicate. If
-          you have the Spellcasting feature, you retain it too.</p><p>Upon
-          shape-shifting, you determine whether your equipment drops to the
-          ground or changes in size and shape to fit the new form while you're
-          in it.</p>
+          <p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into
+          a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your
+          level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an
+          Undead.</p><p>When you shape-shift, you gain a number of Temporary Hit Points equal to the Hit Points of the
+          form. The spell ends early if you have no Temporary Hit Points left.</p><p>Your game statistics are replaced
+          by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence,
+          Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you
+          have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your
+          equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>
         chat: ''
       source:
         custom: ''
@@ -2179,8 +2141,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.aRmjzvUIReJbfnDD
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.aRmjzvUIReJbfnDD
         changes:
           - key: system.properties
             mode: 2
@@ -2216,8 +2177,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.0KV8Mei6HOjSVSIJ.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.0KV8Mei6HOjSVSIJ.dnd5espellchange'
     folder: iG0Zia8jh6uK39TB
     sort: 100391
     ownership:
@@ -2241,12 +2201,10 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you can comprehend and verbally communicate with
-          Beasts, and you can use any of the Influence action's skill options
-          with them.</p><p>Most Beasts have little to say about topics that
-          don't pertain to survival or companionship, but at minimum, a Beast
-          can give you information about nearby locations and monsters,
-          including whatever it has perceived within the past day.</p>
+          <p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the
+          Influence action's skill options with them.</p><p>Most Beasts have little to say about topics that don't
+          pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations
+          and monsters, including whatever it has perceived within the past day.</p>
         chat: ''
       source:
         custom: ''
@@ -2372,14 +2330,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.h6JPR5HskQHet2YX.lHx55SIuimKR3ALR
+        _key: '!actors.items.effects!mmAdultBronzeDra.h6JPR5HskQHet2YX.lHx55SIuimKR3ALR'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.vpQKJWySM5Xtfxnm
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.vpQKJWySM5Xtfxnm
         changes:
           - key: system.properties
             mode: 2
@@ -2411,8 +2367,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.h6JPR5HskQHet2YX.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.h6JPR5HskQHet2YX.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 300000
     ownership:
@@ -2436,21 +2391,16 @@ items:
     system:
       description:
         value: >-
-          <p>You manifest a minor wonder within range. You create one of the
-          effects below within range. If you cast this spell multiple times, you
-          can have up to three of its 1-minute effects active at a
-          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
-          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
-          voice booms up to three times as loud as normal for 1 minute. For the
-          duration, you have Advantage on [[/check ability=cha skill=itm]]
-          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
-          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
-          Hand.</strong> You instantaneously cause an unlocked door or window to
-          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
-          create an instantaneous sound that originates from a point of your
-          choice within range, such as a rumble of thunder, the cry of a raven,
-          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
-          harmless tremors in the ground for 1 minute.</p>
+          <p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast
+          this spell multiple times, you can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1
+          minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1
+          minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire
+          Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1
+          minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly
+          open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates
+          from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous
+          whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>
         chat: ''
       source:
         custom: ''
@@ -2543,8 +2493,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.7kKQrfyREsH9g1OB
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.7kKQrfyREsH9g1OB
         changes:
           - key: system.properties
             mode: 2
@@ -2576,8 +2525,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.oVhABdKIr7rLqUKQ.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.oVhABdKIr7rLqUKQ.dnd5espellchange'
     folder: 4FhsY9FJQd7h7MZb
     sort: 100391
     ownership:
@@ -2604,28 +2552,20 @@ items:
     system:
       description:
         value: >-
-          <p>You activate one of the effects below. Until the spell ends, you
-          can activate either effect as a Magic action on your later
-          turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence
-          of thoughts within 30 feet of yourself that belong to creatures that
-          know languages or are telepathic. You don't read the thoughts, but you
-          know that a thinking creature is present.</p><p>The spell is blocked
-          by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
-          lead.</p><p><strong>Read Thoughts.</strong> Target one creature you
-          can see within 30 feet of yourself or one creature within 30 feet of
-          yourself that you detected with the Sense Thoughts option. You learn
-          what is most on the target's mind right now. If the target doesn't
-          know any languages and isn't telepathic, you learn nothing.</p><p>As a
-          Magic action on your next turn, you can try to probe deeper into the
-          target's mind. If you probe deeper, the target makes a Wisdom saving
-          throw. On a failed save, you discern the target's reasoning, emotions,
-          and something that looms large in its mind (such as a worry, love, or
-          hate). On a successful save, the spell ends. Either way, the target
-          knows that you are probing into its mind, and until you shift your
-          attention away from the target's mind, the target can take an action
-          on its turn to make an [[/check ability=int skill=arc
-          dc=@attributes.spell.dc]] check against your spell save DC, ending the
-          spell on a success.</p>
+          <p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic
+          action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within
+          30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the
+          thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone,
+          dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one
+          creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected
+          with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't
+          know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can
+          try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a
+          failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as
+          a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are
+          probing into its mind, and until you shift your attention away from the target's mind, the target can take an
+          action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your
+          spell save DC, ending the spell on a success.</p>
         chat: ''
       source:
         custom: ''
@@ -2776,8 +2716,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.W3sveD2Wm3abIdqD
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.W3sveD2Wm3abIdqD
         changes:
           - key: system.properties
             mode: 2
@@ -2809,8 +2748,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.BAy7bb5lPHos564q.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.BAy7bb5lPHos564q.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4000000
     ownership:
@@ -2837,9 +2775,8 @@ items:
     system:
       description:
         value: >-
-          <p>This spell grants up to ten willing creatures of your choice within
-          range the ability to breathe underwater until the spell ends. Affected
-          creatures also retain their normal mode of respiration.</p>
+          <p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater
+          until the spell ends. Affected creatures also retain their normal mode of respiration.</p>
         chat: ''
       source:
         custom: ''
@@ -2964,14 +2901,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.Ivt24fmab2EsSsFJ.hyFupFam9XIbim0U
+        _key: '!actors.items.effects!mmAdultBronzeDra.Ivt24fmab2EsSsFJ.hyFupFam9XIbim0U'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.NiOwXtwCP98weKXJ
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmSpellcasting00.Activity.NiOwXtwCP98weKXJ
         changes:
           - key: system.properties
             mode: 2
@@ -3003,8 +2938,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.Ivt24fmab2EsSsFJ.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.Ivt24fmab2EsSsFJ.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 100025
     ownership:
@@ -3086,10 +3020,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] uses [[/item
-          Spellcasting]] to cast
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding
-          Bolt}</em> (level 2 version).</p>
+          <p class="feature">The [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}</em> (level 2 version).</p>
         chat: ''
       identifier: guiding-light
       source:
@@ -3132,12 +3064,10 @@ items:
     system:
       description:
         value: >-
-          <p>You hurl a bolt of light toward a creature within range. Make a
-          ranged spell attack against the target. On a hit, it takes 4d6 Radiant
-          damage, and the next attack roll made against it before the end of
-          your next turn has Advantage.</p><p><strong>Using a Higher-Level Spell
-          Slot.</strong> The damage increases by 1d6 for each spell slot level
-          above 1.</p>
+          <p>You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On
+          a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn
+          has Advantage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each
+          spell slot level above 1.</p>
         chat: ''
       source:
         custom: ''
@@ -3267,9 +3197,8 @@ items:
         system: {}
         changes: []
         description: >-
-          <p><span style="font-family:Signika, sans-serif">The next attack roll
-          made against the target before the end of your next turn has
-          Advantage.</span></p>
+          <p><span style="font-family:Signika, sans-serif">The next attack roll made against the target before the end
+          of your next turn has Advantage.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3285,14 +3214,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.lUJ9dc6cS9834GvY.rHzZCeXfdeTcYyk8
+        _key: '!actors.items.effects!mmAdultBronzeDra.lUJ9dc6cS9834GvY.rHzZCeXfdeTcYyk8'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmGuidingLight00.Activity.zm9pGaRN3rgfVgGl
+        origin: Compendium.degringo5e.actors24.Actor.mmAdultBronzeDra.Item.mmGuidingLight00.Activity.zm9pGaRN3rgfVgGl
         changes:
           - key: system.activation
             mode: 5
@@ -3336,8 +3263,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.lUJ9dc6cS9834GvY.dnd5espellchange
+        _key: '!actors.items.effects!mmAdultBronzeDra.lUJ9dc6cS9834GvY.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2500000
     ownership:
@@ -3421,9 +3347,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] moves up to half its Speed, and it
-          makes one [[/item Rend]] attack.</p>
+        value: <p>The [[lookup @name lowercase]] moves up to half its Speed, and it makes one [[/item Rend]] attack.</p>
         chat: ''
       identifier: pounce
       source:
@@ -3544,15 +3468,12 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup
-          @target.affects.type activity=Lq6GexegvlEVB6Dh]] in a [[lookup
-          @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere
-          centered on a point the [[lookup @name lowercase]] can see within
-          [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] feet.</p><p
-          class="feature"><em>Failure:</em> [[/damage average]] damage, and the
-          target has the &amp;Reference[Deafened apply=false] condition until
-          the end of its next turn.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]],
+          each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] in a [[lookup @target.template.size
+          activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point the [[lookup @name lowercase]] can see
+          within [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] feet.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage, and the target has the &amp;Reference[Deafened apply=false] condition until the
+          end of its next turn.</p>
         chat: ''
       identifier: thunderclap
       source:
@@ -3588,9 +3509,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target is &amp;Reference[Deafened apply=long] until the end of
-          its next turn.</p>
+        description: <p>The target is &amp;Reference[Deafened apply=long] until the end of its next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3616,8 +3535,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAdultBronzeDra.mmThunderclap000.QyuBYDW1zznn0OS4
+        _key: '!actors.items.effects!mmAdultBronzeDra.mmThunderclap000.QyuBYDW1zznn0OS4'
     flags:
       degringo5e:
         riders:

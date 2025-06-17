@@ -6,17 +6,13 @@ img: icons/creatures/abilities/dragon-fire-breath-orange.webp
 system:
   description:
     value: >-
-      <p>You can cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplSummonDrag]{Summon Dragon}
-      without a Material component. You can also cast it once without a spell
-      slot, and you regain the ability to cast it in this way when you finish a
-      Long Rest.</p><p>Whenever you start casting the spell, you can modify it
-      so that it doesn't require Concentration. If you do so, the spell's
-      duration becomes 1 minute for that casting.</p><section
-      id="secret-dxl0rjuVblJvTXgy" class="secret"><p><strong>Foundry
-      Note</strong></p><p>This feature can be used for tracking your free usage.
-      When you cast the spell you can uncheck the "Consumption" box and,
-      optionally, the "Concentration" box.</p></section>
+      <p>You can cast @UUID[Compendium.degringo5e.spells24.Item.phbsplSummonDrag]{Summon Dragon} without a Material
+      component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when
+      you finish a Long Rest.</p><p>Whenever you start casting the spell, you can modify it so that it doesn't require
+      Concentration. If you do so, the spell's duration becomes 1 minute for that casting.</p><section
+      id="secret-dxl0rjuVblJvTXgy" class="secret"><p><strong>Foundry Note</strong></p><p>This feature can be used for
+      tracking your free usage. When you cast the spell you can uncheck the "Consumption" box and, optionally, the
+      "Concentration" box.</p></section>
     chat: ''
   source:
     custom: ''

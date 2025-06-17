@@ -2,12 +2,10 @@ name: Hold Monster
 system:
   description:
     value: >-
-      <p>Choose a creature that you can see within range. The target must
-      succeed on a Wisdom saving throw or have the Paralyzed condition for the
-      duration. At the end of each of its turns, the target repeats the save,
-      ending the spell on itself on a success.</p><p><strong>Using a
-      Higher-Level Spell Slot.</strong> You can target one additional creature
-      for each spell slot level above 5.</p>
+      <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the
+      Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the
+      spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one
+      additional creature for each spell slot level above 5.</p>
     chat: ''
   source:
     custom: ''
@@ -117,8 +115,8 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>At the end of each of its turns, the target repeats the [[/save
-      ability=wis]] save, ending the spell on itself on a success.</p>
+      <p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself
+      on a success.</p>
     tint: '#ffffff'
     transfer: false
     statuses:

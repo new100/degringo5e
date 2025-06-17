@@ -575,9 +575,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body
-          dissolves into ichor, and it gains a new body instantly, reviving with
-          all its Hit Points somewhere in the Abyss.</p>
+          <p>If the [[lookup @name lowercase]] dies outside the Abyss, its body dissolves into ichor, and it gains a new
+          body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>
         chat: ''
       identifier: demonic-restoration
       source:
@@ -625,9 +624,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -723,9 +720,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmPincer00000000]] attacks and uses [[/item .mmPummel00000000]] or
-          [[/item .mmSpellcasting00]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmPincer00000000]] attacks and uses [[/item
+          .mmPummel00000000]] or [[/item .mmSpellcasting00]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -879,10 +875,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a Medium or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[lookup
-          @skills.ath.passive]]) from one of two pincers.</p>
+          <p class="feature">[[/attack extended]]. [[/damage average extended]]. If the target is a Medium or smaller
+          creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]])
+          from one of two pincers.</p>
         chat: ''
       identifier: pincer
       source:
@@ -965,9 +960,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Grappled apply=false] condition (escape DC [[/check
-          ability=str skill=ath format=long]], see source item for DC).</p>
+          <p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition
+          (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -984,8 +978,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.mmPincer00000000.GCED8YlF6qXTgEkd
+        _key: '!actors.items.effects!mmGlabrezu000000.mmPincer00000000.GCED8YlF6qXTgEkd'
     flags:
       degringo5e:
         riders:
@@ -1080,10 +1073,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=aae828c0Hue0XOMP]], one creature Grappled by
-          the [[lookup @name lowercase]].</p><p><em>Failure:</em> [[/damage
-          average]] damage.</p><p><em>Success:</em> Half damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=aae828c0Hue0XOMP]],
+          one creature Grappled by the [[lookup @name lowercase]].</p><p><em>Failure:</em> [[/damage average]]
+          damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: pummel
       source:
@@ -1423,20 +1415,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using
-          Intelligence as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Intelligence as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDarkness00]{Darkness}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel
-          Magic}</em></p><p class="feature-trait"><strong>1/Day Each:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em></p><p
+          class="feature-trait"><strong>1/Day Each:</strong>
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplConfusion0]{Confusion}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFly0000000]{Fly}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPowerWordS]{Power Word
-          Stun}</em></p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPowerWordS]{Power Word Stun}</em></p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1479,16 +1467,12 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, magical &amp;Reference[darkness] spreads from a
-          point within range and fills a 15-foot-radius Sphere. Darkvision can't
-          see through it, and nonmagical light can't illuminate
-          it.</p><p>Alternatively, you cast the spell on an object that isn't
-          being worn or carried, causing the Darkness to fill a 15-foot
-          Emanation originating from that object. Covering that object with
-          something opaque, such as a bowl or helm, blocks the
-          Darkness.</p><p>If any of this spell's area overlaps with an area of
-          Bright Light or Dim Light created by a spell of level 2 or lower, that
-          other spell is dispelled.</p>
+          <p>For the duration, magical &amp;Reference[darkness] spreads from a point within range and fills a
+          15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate
+          it.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the
+          Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque,
+          such as a bowl or helm, blocks the Darkness.</p><p>If any of this spell's area overlaps with an area of Bright
+          Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.</p>
         chat: ''
       source:
         custom: ''
@@ -1580,8 +1564,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -1613,8 +1596,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.OYJaCanfv7pQKr1j.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.OYJaCanfv7pQKr1j.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 4200000
     ownership:
@@ -1638,13 +1620,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -1764,8 +1744,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -1774,14 +1753,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.TyBg1ubPWzY9AqFZ.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmGlabrezu000000.TyBg1ubPWzY9AqFZ.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.nEpDExWVANrXkUgp
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.nEpDExWVANrXkUgp
         changes:
           - key: system.properties
             mode: 2
@@ -1813,8 +1790,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.TyBg1ubPWzY9AqFZ.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.TyBg1ubPWzY9AqFZ.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -1931,8 +1907,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.7H7mdx9fpf9sLUrX
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.7H7mdx9fpf9sLUrX
         changes:
           - key: system.properties
             mode: 2
@@ -1964,8 +1939,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.o9zHpjCrGZEcIJzZ.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.o9zHpjCrGZEcIJzZ.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2500000
     ownership:
@@ -1989,18 +1963,13 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature in a 10-foot-radius Sphere centered on a point you
-          choose within range must succeed on a Wisdom saving throw, or that
-          target can't take Bonus Actions or Reactions and must roll 1d10 at the
-          start of each of its turns to determine its behavior for that turn,
-          consulting the table
-          below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
-          rollable cite=false classes="caption-top"]{Behavior for the
-          Turn}</p><p>At the end of each of its turns, an affected target
-          repeats the save, ending the spell on itself on a
-          success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          Sphere's radius increases by 5 feet for each spell slot level above
-          4.</p>
+          <p>Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a
+          Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of
+          each of its turns to determine its behavior for that turn, consulting the table
+          below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB rollable cite=false
+          classes="caption-top"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target
+          repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The Sphere's radius increases by 5 feet for each spell slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -2117,14 +2086,11 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target can’t take Bonus Actions or Reactions and must roll 1d10
-          at the start of each of its turns to determine its behavior for that
-          turn, consulting the table
-          below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB
-          rollable cite=false classes="caption-top"]{Behavior for the
-          Turn}</p><p>At the end of each of its turns, an affected target
-          repeats the [[/save ability=wis]] save, ending the spell on itself on
-          a success.</p>
+          <p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to
+          determine its behavior for that turn, consulting the table
+          below.</p><p>@Embed[Compendium.degringo5e.tables24.RollTable.phbsplConfusionB rollable cite=false
+          classes="caption-top"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target
+          repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -2139,14 +2105,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.DJvVJd398Rul9PmN.VxmsgUz9OIUet6WC
+        _key: '!actors.items.effects!mmGlabrezu000000.DJvVJd398Rul9PmN.VxmsgUz9OIUet6WC'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.Dbj4GfTAMKDQ5t5m
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.Dbj4GfTAMKDQ5t5m
         changes:
           - key: system.properties
             mode: 2
@@ -2178,8 +2142,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.DJvVJd398Rul9PmN.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.DJvVJd398Rul9PmN.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 3200000
     ownership:
@@ -2203,11 +2166,10 @@ items:
     system:
       description:
         value: >-
-          <p>You touch a willing creature. For the duration, the target gains a
-          Fly Speed of 60 feet and can hover. When the spell ends, the target
-          falls if it is still aloft unless it can stop the
-          fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 3.</p>
+          <p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When
+          the spell ends, the target falls if it is still aloft unless it can stop the fall.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above
+          3.</p>
         chat: ''
       source:
         custom: ''
@@ -2339,14 +2301,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.uMQdIP114kiMDwyZ.EHFLuTHqI6cXn1zb
+        _key: '!actors.items.effects!mmGlabrezu000000.uMQdIP114kiMDwyZ.EHFLuTHqI6cXn1zb'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.3fZhewrQQ6C50wvL
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.3fZhewrQQ6C50wvL
         changes:
           - key: system.properties
             mode: 2
@@ -2378,8 +2338,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.uMQdIP114kiMDwyZ.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.uMQdIP114kiMDwyZ.dnd5espellchange'
     folder: HCovEE4VoPGlIbKi
     sort: 2000000
     ownership:
@@ -2403,12 +2362,10 @@ items:
     system:
       description:
         value: >-
-          <p>You overwhelm the mind of one creature you can see within range. If
-          the target has 150 Hit Points or fewer, it has the Stunned condition.
-          Otherwise, its Speed is 0 until the start of your next turn.</p><p>The
-          &amp;Reference[Stunned apply=false] target makes a [[/save ability=con
-          dc=@attributes.spell.dc]] saving throw at the end of each of its
-          turns, ending the condition on itself on a success.</p>
+          <p>You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer,
+          it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.</p><p>The
+          &amp;Reference[Stunned apply=false] target makes a [[/save ability=con dc=@attributes.spell.dc]] saving throw
+          at the end of each of its turns, ending the condition on itself on a success.</p>
         chat: ''
       source:
         custom: ''
@@ -2518,9 +2475,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The &amp;Reference[Stunned apply=false] target makes a [[/save
-          ability=con]] saving throw at the end of each of its turns, ending the
-          condition on itself on a success.</p>
+          <p>The &amp;Reference[Stunned apply=false] target makes a [[/save ability=con]] saving throw at the end of
+          each of its turns, ending the condition on itself on a success.</p>
         tint: '#ffffff'
         statuses:
           - stunned
@@ -2536,8 +2492,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.o7XJceFSBTiIIPFo
+        _key: '!actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.o7XJceFSBTiIIPFo'
       - name: No Movement
         img: icons/svg/anchor.svg
         origin: Compendium.degringo5e.spells24.Item.phbsplPowerWordS
@@ -2590,14 +2545,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.B5dLPDfw1fDtfRW1
+        _key: '!actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.B5dLPDfw1fDtfRW1'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.OpOHkxXeeNLEeEaS
+        origin: Compendium.degringo5e.actors24.Actor.mmGlabrezu000000.Item.mmSpellcasting00.Activity.OpOHkxXeeNLEeEaS
         changes:
           - key: system.properties
             mode: 2
@@ -2629,8 +2582,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.dnd5espellchange
+        _key: '!actors.items.effects!mmGlabrezu000000.EsCIdlnqYCUbyDIm.dnd5espellchange'
     folder: M5CvwK9zVtzx6Dnn
     sort: 100013
     ownership:

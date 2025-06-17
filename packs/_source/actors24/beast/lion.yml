@@ -562,9 +562,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on an attack roll
-          against a creature if at least one of the [[lookup @name lowercase]]'s
-          allies is within 5 feet of the creature and the ally doesn't have the
+          <p>The [[lookup @name lowercase]] has Advantage on an attack roll against a creature if at least one of the
+          [[lookup @name lowercase]]'s allies is within 5 feet of the creature and the ally doesn't have the
           Incapacitated condition.</p>
         chat: ''
       identifier: pack-tactics
@@ -615,8 +614,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">With a 10-foot running start, the [[lookup @name
-          lowercase]] can Long Jump up to 25 feet.</p>
+          <p class="feature">With a 10-foot running start, the [[lookup @name lowercase]] can Long Jump up to 25
+          feet.</p>
         chat: ''
       identifier: running-leap
       source:
@@ -702,9 +701,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRend0000000000]] attacks. It can replace one attack with a use of
-          [[/item .mmRoar0000000000]].</p>
+          <p>The [[lookup @name lowercase]] makes two [[/item .mmRend0000000000]] attacks. It can replace one attack
+          with a use of [[/item .mmRoar0000000000]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -947,12 +945,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=Igeu89TALGlNPXDg]], one creature within
-          [[lookup @range.value activity=Igeu89TALGlNPXDg]] feet.</p><p
-          class="feature"><em>Failure</em>: The target has the
-          &amp;Reference[Frightened apply=false] condition until the start of
-          the [[lookup @name lowercase]]'s next turn.</p>
+          <p class="feature"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=Igeu89TALGlNPXDg]], one
+          creature within [[lookup @range.value activity=Igeu89TALGlNPXDg]] feet.</p><p
+          class="feature"><em>Failure</em>: The target has the &amp;Reference[Frightened apply=false] condition until
+          the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: roar
       source:
@@ -989,8 +985,8 @@ items:
           startRound: 1
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Frightened apply=false] condition
-          until the start of the attacking creature’s next turn.</p>
+          <p>The target has the &amp;Reference[Frightened apply=false] condition until the start of the attacking
+          creature’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1016,8 +1012,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLion0000000000.mmRoar0000000000.jcp949sl7JYRdhdB
+        _key: '!actors.items.effects!mmLion0000000000.mmRoar0000000000.jcp949sl7JYRdhdB'
       - name: Paralyzed
         img: systems/degringo5e/icons/svg/statuses/paralyzed.svg
         origin: Item.mmRoar0000000000
@@ -1035,10 +1030,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Paralyzed apply=false] condition,
-          and it repeats the save at the end of each of its turns, ending the
-          effect on itself on a success. After 1 minute, it succeeds
-          automatically.</p>
+          <p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of
+          each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1064,8 +1057,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLion0000000000.mmRoar0000000000.sbId6Nv8mOtH5EKR
+        _key: '!actors.items.effects!mmLion0000000000.mmRoar0000000000.sbId6Nv8mOtH5EKR'
       - name: Prone
         img: systems/degringo5e/icons/svg/statuses/prone.svg
         origin: Item.mmRoar0000000000
@@ -1108,8 +1100,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmLion0000000000.mmRoar0000000000.UUPAry5ZunpEnKkn
+        _key: '!actors.items.effects!mmLion0000000000.mmRoar0000000000.UUPAry5ZunpEnKkn'
     flags:
       degringo5e:
         riders:

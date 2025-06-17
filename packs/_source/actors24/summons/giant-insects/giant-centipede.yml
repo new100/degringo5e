@@ -551,8 +551,8 @@ items:
     system:
       description:
         value: >-
-          <p> The insect can climb difficult surfaces, including along ceilings,
-          without needing to make an ability check.</p>
+          <p> The insect can climb difficult surfaces, including along ceilings, without needing to make an ability
+          check.</p>
         chat: ''
       source:
         custom: ''
@@ -602,9 +602,8 @@ items:
     system:
       description:
         value: >-
-          <p>The insect makes a number of attacks equal to half this spell's
-          level (round down).</p><p>[[floor(@flags.degringo5e.summon.level /
-          2)]]{Number of attacks}</p>
+          <p>The insect makes a number of attacks equal to half this spell's level (round
+          down).</p><p>[[floor(@flags.degringo5e.summon.level / 2)]]{Number of attacks}</p>
         chat: ''
       source:
         custom: ''
@@ -712,9 +711,8 @@ items:
     system:
       description:
         value: >-
-          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3 plus the spell's level
-          Piercing damage plus 1d4 Poison damage.</p>
+          <p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3
+          plus the spell's level Piercing damage plus 1d4 Poison damage.</p>
         chat: ''
       source:
         custom: ''
@@ -852,10 +850,9 @@ items:
     system:
       description:
         value: >-
-          <p><em>Constitution Saving Throw:</em> Your spell save DC, one
-          creature the insect can see within 10 feet. <em>Failure:</em> The
-          target has the &amp;Reference[Poisoned apply=false] condition until
-          the start of the insect's next turn.</p>
+          <p><em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet.
+          <em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition until the start of the
+          insect's next turn.</p>
         chat: ''
       source:
         custom: ''
@@ -962,8 +959,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the insect’s next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the insect’s next
+          turn.</p>
         tint: '#ffffff'
         statuses:
           - poisoned
@@ -979,8 +976,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantCentipede.phbaoiVenomousSp.uUvxWKSj8qQRIbTK
+        _key: '!actors.items.effects!mmGiantCentipede.phbaoiVenomousSp.uUvxWKSj8qQRIbTK'
     folder: null
     sort: 0
     ownership:
@@ -1068,9 +1064,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false]  condition until the
-          start of the [[lookup @name lowercase]]'s next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false]  condition until the start of the [[lookup @name lowercase]]'s next turn.</p>
         chat: ''
       identifier: bite
       source:
@@ -1147,8 +1142,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the attacking creature’s next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the attacking
+          creature’s next turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1165,8 +1160,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa
+        _key: '!actors.items.effects!mmGiantCentipede.mmBite0000000000.PzxN1RHxvVfpYZxa'
     flags:
       degringo5e:
         riders:

@@ -498,13 +498,10 @@ items:
     system:
       description:
         value: >-
-          <p>The rug is incapacitated while in the area of an <em>antimagic
-          field</em>.</p><p>If targeted by <em>dispel magic</em>, the rug must
-          succeed on a Constitution saving throw against the caster's spell save
-          DC or fall unconscious for 1 minute.</p>
-        chat: >-
-          <p>The rug is incapacitated while in the area of an antimagic field.
-          </p>
+          <p>The rug is incapacitated while in the area of an <em>antimagic field</em>.</p><p>If targeted by <em>dispel
+          magic</em>, the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall
+          unconscious for 1 minute.</p>
+        chat: <p>The rug is incapacitated while in the area of an antimagic field. </p>
       source:
         custom: ''
         book: ''
@@ -550,9 +547,8 @@ items:
     system:
       description:
         value: >-
-          <p>While it is grappling a creature, the rug takes only half the
-          damage dealt to it, and the creature grappled by the rug takes the
-          other half.</p>
+          <p>While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled
+          by the rug takes the other half.</p>
         chat: ''
       source:
         custom: ''
@@ -598,9 +594,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the rug remains motionless, it is indistinguishable from a
-          normal rug.</p>
+        value: <p>While the rug remains motionless, it is indistinguishable from a normal rug.</p>
         chat: ''
       source:
         custom: ''
@@ -647,17 +641,13 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one Medium
-          or smaller creature.</p><p><em>Hit: </em>The creature is
-          &amp;Reference[grappled] (escape DC 13). Until this grapple ends, the
-          target is restrained, blinded, and at risk of suffocating, and the rug
-          can't smother another target. In addition, at the start of each of the
-          target's turns, the target takes [[/damage average]] damage.</p>
+          <p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one Medium or smaller creature.</p><p><em>Hit:
+          </em>The creature is &amp;Reference[grappled] (escape DC 13). Until this grapple ends, the target is
+          restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the
+          start of each of the target's turns, the target takes [[/damage average]] damage.</p>
         chat: >-
-          <p>The Rug of Smothering makes a smothering attack! The creature is
-          grappled. Until this grapple ends, the target is restrained, blinded,
-          and at risk of suffocating, and the rug can't smother another
-          target.</p>
+          <p>The Rug of Smothering makes a smothering attack! The creature is grappled. Until this grapple ends, the
+          target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target.</p>
       source:
         custom: ''
         book: ''

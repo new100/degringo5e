@@ -57,12 +57,10 @@ system:
     max: ''
   description:
     value: >-
-      <p><em>Armor
-      (@UUID[Compendium.degringo5e.equipment24.Item.phbarmChainMail0]{Chain Mail} or
-      @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt}),
-      Rare</em></p><p>You gain a +1 bonus to Armor Class while you wear this
-      armor. You are considered trained with this armor even if you lack
-      training with Medium or Heavy
+      <p><em>Armor (@UUID[Compendium.degringo5e.equipment24.Item.phbarmChainMail0]{Chain Mail} or
+      @UUID[Compendium.degringo5e.equipment24.Item.phbarmChainShirt]{Chain Shirt}), Rare</em></p><p>You gain a +1 bonus
+      to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training
+      with Medium or Heavy
       armor.</p><p>@Embed[Compendium.degringo5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE
       cite=false caption=false classes="hide-in-embed"]</p>
     chat: ''
@@ -123,9 +121,7 @@ effects:
         priority: null
       - key: system.description.value
         mode: 5
-        value: >-
-          {}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgElvenChain000
-          caption=false]</p>
+        value: '{}<p>@Embed[Compendium.degringo5e.equipment24.Item.dmgElvenChain000 caption=false]</p>'
         priority: null
       - key: system.properties
         mode: 2

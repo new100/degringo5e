@@ -2,24 +2,18 @@ name: Bestow Curse
 system:
   description:
     value: >-
-      <p>You touch a creature, which must succeed on a Wisdom saving throw or
-      become cursed for the duration. Until the curse ends, the target suffers
-      one of the following effects of your choice:</p><ul><li>Choose one
-      ability. The target has Disadvantage on ability checks and saving throws
-      made with that ability (<strong>Curse Ability</strong>
-      activity).</li><li>The target has Disadvantage on attack rolls against you
-      (<strong>Curse Attacks</strong> activity).</li><li>In combat, the target
-      must succeed on a Wisdom saving throw at the start of each of its turns or
-      be forced to take the &amp;Reference[Dodge] action on that turn
-      (<strong>Curse Actions</strong> activity).</li><li>If you deal damage to
-      the target with an attack roll or a spell, the target takes an extra 1d8
-      Necrotic damage (<strong>Curse Resilience</strong>
-      activity).</li></ul><p><strong>Using a Higher-Level Spell Slot.</strong>
-      If you cast this spell using a level 4 spell slot, you can maintain
-      Concentration on it for up to 10 minutes. If you use a level 5+ spell
-      slot, the spell doesn't require Concentration, and the duration becomes 8
-      hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9
-      spell slot, the spell lasts until dispelled.</p>
+      <p>You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the
+      curse ends, the target suffers one of the following effects of your choice:</p><ul><li>Choose one ability. The
+      target has Disadvantage on ability checks and saving throws made with that ability (<strong>Curse Ability</strong>
+      activity).</li><li>The target has Disadvantage on attack rolls against you (<strong>Curse Attacks</strong>
+      activity).</li><li>In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns
+      or be forced to take the &amp;Reference[Dodge] action on that turn (<strong>Curse Actions</strong>
+      activity).</li><li>If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8
+      Necrotic damage (<strong>Curse Resilience</strong> activity).</li></ul><p><strong>Using a Higher-Level Spell
+      Slot.</strong> If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to
+      10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8
+      hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until
+      dispelled.</p>
     chat: ''
   source:
     custom: ''
@@ -285,17 +279,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -322,17 +313,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.XVQwGWbC0A1svBNm
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.XVQwGWbC0A1svBNm
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -359,17 +347,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -396,17 +381,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -433,17 +415,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -470,17 +449,14 @@ effects:
     type: base
     system: {}
     changes: []
-    description: >-
-      <p>The target has Disadvantage on ability checks and saving throws made
-      with the chosen ability.</p>
+    description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
     tint: '#ffffff'
     transfer: false
     statuses:
       - cursed
     sort: 0
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
+      compendiumSource: Compendium.degringo5e.spells24.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -541,9 +517,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>In combat, the target must succeed on a [[/save ability=wis
-      dc=@attributes.spell.dc format=long]] at the start of each of its turns or
-      be forced to take the &amp;Reference[Dodge] action on that turn.</p>
+      <p>In combat, the target must succeed on a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start
+      of each of its turns or be forced to take the &amp;Reference[Dodge] action on that turn.</p>
     tint: '#ffffff'
     statuses:
       - cursed
@@ -578,8 +553,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>If you deal damage to the target with an attack roll or a spell, the
-      target takes an extra [[/damage 1d8 type=necrotic]] damage.</p>
+      <p>If you deal damage to the target with an attack roll or a spell, the target takes an extra [[/damage 1d8
+      type=necrotic]] damage.</p>
     tint: '#ffffff'
     statuses:
       - cursed

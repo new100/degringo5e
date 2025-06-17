@@ -65,13 +65,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you gain
-      the "enlarge" effect of the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce}
-      spell for 10 minutes (no Concentration required).</p><p>The red in the
-      potion's liquid continuously expands from a tiny bead to color the clear
-      liquid around it and then contracts. Shaking the bottle fails to interrupt
-      this process.</p>
+      <p><em>Potion, Uncommon</em></p><p>When you drink this potion, you gain the "enlarge" effect of the
+      @UUID[Compendium.degringo5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell for 10 minutes (no Concentration
+      required).</p><p>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid
+      around it and then contracts. Shaking the bottle fails to interrupt this process.</p>
     chat: ''
   identifier: potion-of-growth
   source:

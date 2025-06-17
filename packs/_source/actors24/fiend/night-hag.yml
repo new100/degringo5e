@@ -874,21 +874,16 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">While within 30 feet of at least two hag allies,
-          the [[lookup @name lowercase]] can cast one of the following spells,
-          requiring no Material components, using the spell's normal casting
-          time, and using Intelligence as the spellcasting ability (spell save
-          DC [[lookup @abilities.int.dc]]):
+          <p class="feature">While within 30 feet of at least two hag allies, the [[lookup @name lowercase]] can cast
+          one of the following spells, requiring no Material components, using the spell's normal casting time, and
+          using Intelligence as the spellcasting ability (spell save DC [[lookup @abilities.int.dc]]):
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplAugury0000]{Augury}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find
-          Familiar}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find Familiar}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplIdentify00]{Identify}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate
-          Object}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>,
-          or <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplUnseenServ]{Unseen
-          Servant}</em>. The [[lookup @name lowercase]] must finish a Long Rest
-          before using this trait to cast that spell again.</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplLocateObje]{Locate Object}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplScrying000]{Scrying}</em>, or
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplUnseenServ]{Unseen Servant}</em>. The [[lookup @name
+          lowercase]] must finish a Long Rest before using this trait to cast that spell again.</p>
         chat: ''
       identifier: coven-magic
       source:
@@ -932,18 +927,14 @@ items:
     system:
       description:
         value: >-
-          <p>You receive an omen from an otherworldly entity about the results
-          of a course of action that you plan to take within the next 30
-          minutes. The DM chooses the omen from the Omens
+          <p>You receive an omen from an otherworldly entity about the results of a course of action that you plan to
+          take within the next 30 minutes. The DM chooses the omen from the Omens
           table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be
-          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal
-          and woe</td><td>Good and
-          bad</td></tr><tr><td>Indifference</td><td>Neither good nor
-          bad</td></tr></tbody></table><p>The spell doesn't account for
-          circumstances, such as other spells, that might change the
-          results.</p><p>If you cast the spell more than once before finishing a
-          Long Rest, there is a cumulative 25 percent chance for each casting
-          after the first that you get no answer.</p>
+          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal and
+          woe</td><td>Good and bad</td></tr><tr><td>Indifference</td><td>Neither good nor
+          bad</td></tr></tbody></table><p>The spell doesn't account for circumstances, such as other spells, that might
+          change the results.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a
+          cumulative 25 percent chance for each casting after the first that you get no answer.</p>
         chat: ''
       source:
         custom: ''
@@ -982,9 +973,7 @@ items:
         - material
         - ritual
       materials:
-        value: >-
-          specially marked sticks, bones, cards, or other divinatory tokens
-          worth 25+ GP
+        value: specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP
         consumed: false
         cost: 0
         supply: 0
@@ -1039,8 +1028,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.8ju3sHk7cBC4KmcD
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.8ju3sHk7cBC4KmcD
         changes:
           - key: system.ability
             mode: 5
@@ -1076,8 +1064,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.CAt4VpfqLZJ9TChJ.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.CAt4VpfqLZJ9TChJ.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 5200000
     ownership:
@@ -1101,39 +1088,27 @@ items:
     system:
       description:
         value: >-
-          <p>You gain the service of a familiar, a spirit that takes an animal
-          form you choose: <strong>Bat</strong>, <strong>Cat</strong>,
-          <strong>Frog</strong>, <strong>Hawk</strong>, <strong>Lizard</strong>,
-          <strong>Octopus</strong>, <strong>Owl</strong>, <strong>Rat</strong>,
-          <strong>Raven</strong>, <strong>Spider</strong>,
-          <strong>Weasel</strong>, or another Beast that has a Challenge Rating
-          of 0. Appearing in an unoccupied space within range, the familiar has
-          the statistics of the chosen form (see appendix B), though it is a
-          Celestial, Fey, or Fiend (your choice) instead of a Beast. Your
-          familiar acts independently of you, but it obeys your
-          commands.</p><p><strong>Telepathic Connection.</strong> While your
-          familiar is within 100 feet of you, you can communicate with it
-          telepathically. Additionally, as a Bonus Action, you can see through
-          the familiar's eyes and hear what it hears until the start of your
-          next turn, gaining the benefits of any special senses it
-          has.</p><p>Finally, when you cast a spell with a range of touch, your
-          familiar can deliver the touch. Your familiar must be within 100 feet
-          of you, and it must take a Reaction to deliver the touch when you cast
-          the spell.</p><p><strong>Combat.</strong> The familiar is an ally to
-          you and your allies. It rolls its own Initiative and acts on its own
-          turn. A familiar can't attack, but it can take other actions as
-          normal.</p><p><strong>Disappearance of the Familiar.</strong> When the
-          familiar drops to 0 Hit Points, it disappears. It reappears after you
-          cast this spell again. As a Magic action, you can temporarily dismiss
-          the familiar to a pocket dimension. Alternatively, you can dismiss it
-          forever. As a Magic action while it is temporarily dismissed, you can
-          cause it to reappear in an unoccupied space within 30 feet of you.
-          Whenever the familiar drops to 0 Hit Points or disappears into the
-          pocket dimension, it leaves behind in its space anything it was
-          wearing or carrying.</p><p><strong>One Familiar Only.</strong> You
-          can't have more than one familiar at a time. If you cast this spell
-          while you have a familiar, you instead cause it to adopt a new
-          eligible form.</p>
+          <p>You gain the service of a familiar, a spirit that takes an animal form you choose: <strong>Bat</strong>,
+          <strong>Cat</strong>, <strong>Frog</strong>, <strong>Hawk</strong>, <strong>Lizard</strong>,
+          <strong>Octopus</strong>, <strong>Owl</strong>, <strong>Rat</strong>, <strong>Raven</strong>,
+          <strong>Spider</strong>, <strong>Weasel</strong>, or another Beast that has a Challenge Rating of 0. Appearing
+          in an unoccupied space within range, the familiar has the statistics of the chosen form (see appendix B),
+          though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of
+          you, but it obeys your commands.</p><p><strong>Telepathic Connection.</strong> While your familiar is within
+          100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see
+          through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of
+          any special senses it has.</p><p>Finally, when you cast a spell with a range of touch, your familiar can
+          deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the
+          touch when you cast the spell.</p><p><strong>Combat.</strong> The familiar is an ally to you and your allies.
+          It rolls its own Initiative and acts on its own turn. A familiar can't attack, but it can take other actions
+          as normal.</p><p><strong>Disappearance of the Familiar.</strong> When the familiar drops to 0 Hit Points, it
+          disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the
+          familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is
+          temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the
+          familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything
+          it was wearing or carrying.</p><p><strong>One Familiar Only.</strong> You can't have more than one familiar at
+          a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible
+          form.</p>
         chat: ''
       source:
         custom: ''
@@ -1255,8 +1230,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.tFMa0R3ASrW58hwK
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.tFMa0R3ASrW58hwK
         changes:
           - key: system.ability
             mode: 5
@@ -1292,8 +1266,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.n05XvhItAfMasHVO.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.n05XvhItAfMasHVO.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 2900000
     ownership:
@@ -1317,14 +1290,11 @@ items:
     system:
       description:
         value: >-
-          <p>You touch an object throughout the spell's casting. If the object
-          is a magic item or some other magical object, you learn its properties
-          and how to use them, whether it requires Attunement, and how many
-          charges it has, if any. You learn whether any ongoing spells are
-          affecting the item and what they are. If the item was created by a
-          spell, you learn that spell's name.</p><p>If you instead touch a
-          creature throughout the casting, you learn which ongoing spells, if
-          any, are currently affecting it.</p>
+          <p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical
+          object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it
+          has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was
+          created by a spell, you learn that spell's name.</p><p>If you instead touch a creature throughout the casting,
+          you learn which ongoing spells, if any, are currently affecting it.</p>
         chat: ''
       source:
         custom: ''
@@ -1416,8 +1386,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.vT617J2KBufcrx7f
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.vT617J2KBufcrx7f
         changes:
           - key: system.ability
             mode: 5
@@ -1453,8 +1422,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.qTBTEe8TiMkQRtRA.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.qTBTEe8TiMkQRtRA.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1700000
     ownership:
@@ -1478,15 +1446,12 @@ items:
     system:
       description:
         value: >-
-          <p>Describe or name an object that is familiar to you. You sense the
-          direction to the object's location if that object is within 1,000 feet
-          of you. If the object is in motion, you know the direction of its
-          movement.</p><p>The spell can locate a specific object known to you if
-          you have seen it up close—within 30 feet—at least once. Alternatively,
-          the spell can locate the nearest object of a particular kind, such as
-          a certain kind of apparel, jewelry, furniture, tool, or
-          weapon.</p><p>This spell can't locate an object if any thickness of
-          lead blocks a direct path between you and the object.</p>
+          <p>Describe or name an object that is familiar to you. You sense the direction to the object's location if
+          that object is within 1,000 feet of you. If the object is in motion, you know the direction of its
+          movement.</p><p>The spell can locate a specific object known to you if you have seen it up close—within 30
+          feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a
+          certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any
+          thickness of lead blocks a direct path between you and the object.</p>
         chat: ''
       source:
         custom: ''
@@ -1582,8 +1547,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.N6ny9K2f4ckcSvXq
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.N6ny9K2f4ckcSvXq
         changes:
           - key: system.ability
             mode: 5
@@ -1619,8 +1583,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.tzTPtRBFyMpWOhSU.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.tzTPtRBFyMpWOhSU.dnd5espellchange'
     folder: 3SjcO2acsFnWegp4
     sort: 2200000
     ownership:
@@ -1647,30 +1610,21 @@ items:
     system:
       description:
         value: >-
-          <p>You can see and hear a creature you choose that is on the same
-          plane of existence as you. The target makes a Wisdom saving throw,
-          which is modified (see the tables below) by how well you know the
-          target and the sort of physical connection you have to it. The target
-          doesn't know what it is making the save against, only that it feels
-          uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is
-          …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand
-          (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the
-          target)</td><td>+0</td></tr><tr><td>Extensive (know the target
-          well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You
-          Have the Target's …</td><td>Save
-          Modifier</td></tr></thead><tbody><tr><td>Picture or other
-          likeness</td><td>−2</td></tr><tr><td>Garment or other
-          possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit
-          of nail</td><td>−10</td></tr></tbody></table><p>On a successful save,
-          the target isn't affected, and you can't use this spell on it again
-          for 24 hours.</p><p>On a failed save, the spell creates an Invisible,
-          intangible sensor within 10 feet of the target. You can see and hear
-          through the sensor as if you were there. The sensor moves with the
-          target, remaining within 10 feet of it for the duration. If something
-          can see the sensor, it appears as a luminous orb about the size of
-          your fist.</p><p>Instead of targeting a creature, you can target a
-          location you have seen. When you do so, the sensor appears at that
-          location and doesn't move.</p>
+          <p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes
+          a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort
+          of physical connection you have to it. The target doesn't know what it is making the save against, only that
+          it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the
+          target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the
+          target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save
+          Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or
+          other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of
+          nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't
+          use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible
+          sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor
+          moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it
+          appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a
+          location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>
         chat: ''
       source:
         custom: ''
@@ -1710,9 +1664,7 @@ items:
         - material
         - concentration
       materials:
-        value: >-
-          a focus worth 1,000+ GP, such as a crystal ball, mirror, or
-          water-filled font
+        value: a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font
         consumed: false
         cost: 0
         supply: 0
@@ -2190,8 +2142,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.1LYa3YdeNryXGv4z
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.1LYa3YdeNryXGv4z
         changes:
           - key: system.ability
             mode: 5
@@ -2227,8 +2178,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.AyhfiE7iPVgNyFHW.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.AyhfiE7iPVgNyFHW.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 400000
     ownership:
@@ -2252,20 +2202,15 @@ items:
     system:
       description:
         value: >-
-          <p>This spell creates an Invisible, mindless, shapeless, Medium force
-          that performs simple tasks at your command until the spell ends. The
-          servant springs into existence in an unoccupied space on the ground
-          within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it
-          can't attack. If it drops to 0 Hit Points, the spell ends.</p><p>Once
-          on each of your turns as a Bonus Action, you can mentally command the
-          servant to move up to 15 feet and interact with an object. The servant
-          can perform simple tasks that a human could do, such as fetching
-          things, cleaning, mending, folding clothes, lighting fires, serving
-          food, and pouring drinks. Once you give the command, the servant
-          performs the task to the best of its ability until it completes the
-          task, then waits for your next command.</p><p>If you command the
-          servant to perform a task that would move it more than 60 feet away
-          from you, the spell ends.</p>
+          <p>This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your
+          command until the spell ends. The servant springs into existence in an unoccupied space on the ground within
+          range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the
+          spell ends.</p><p>Once on each of your turns as a Bonus Action, you can mentally command the servant to move
+          up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as
+          fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once
+          you give the command, the servant performs the task to the best of its ability until it completes the task,
+          then waits for your next command.</p><p>If you command the servant to perform a task that would move it more
+          than 60 feet away from you, the spell ends.</p>
         chat: ''
       source:
         custom: ''
@@ -2382,8 +2327,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.IsLR26jWhhHrcdgh
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmCovenMagic0000.Activity.IsLR26jWhhHrcdgh
         changes:
           - key: system.ability
             mode: 5
@@ -2419,8 +2363,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.PwDsxDnZ9kOabx1Q.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.PwDsxDnZ9kOabx1Q.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 106250
     ownership:
@@ -2453,9 +2396,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] has Advantage on saving throws
-          against spells and other magical effects.</p>
+        value: <p>The [[lookup @name lowercase]] has Advantage on saving throws against spells and other magical effects.</p>
         chat: ''
       identifier: magic-resistance
       source:
@@ -2505,13 +2446,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] has a soul bag.
-          While holding or carrying the bag, the [[lookup @name lowercase]] can
-          use its Nightmare Haunting action.</p><p class="feature">The bag has
-          AC 15, HP 20, and Resistance to all damage. The bag turns to dust if
-          reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is
-          holding are released. The [[lookup @name lowercase]] can create a new
-          bag after 7 days.</p>
+          <p class="feature">The [[lookup @name lowercase]] has a soul bag. While holding or carrying the bag, the
+          [[lookup @name lowercase]] can use its Nightmare Haunting action.</p><p class="feature">The bag has AC 15, HP
+          20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed,
+          any souls the bag is holding are released. The [[lookup @name lowercase]] can create a new bag after 7
+          days.</p>
         chat: ''
       identifier: soul-bag
       source:
@@ -2596,9 +2535,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmClaw0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmClaw0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -3019,21 +2956,15 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] casts one of the
-          following spells, requiring no Material components and using
-          Intelligence as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At
-          Will:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect
-          Magic}</em>,
+          <p class="feature">The [[lookup @name lowercase]] casts one of the following spells, requiring no Material
+          components and using Intelligence as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>At Will:</strong>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em>,
           <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplEtherealne]{Etherealness}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic
-          Missile}</em> (level 4 version)</p><p
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em> (level 4 version)</p><p
           class="feature-trait"><strong>2/Day Each:</strong>
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPhantasmal]{Phantasmal
-          Killer}</em>,
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane
-          Shift}</em> (self only)</p>
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPhantasmal]{Phantasmal Killer}</em>,
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</em> (self only)</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -3134,10 +3065,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a
-          Small or Medium Humanoid, or it returns to its true form. Other than
-          its size, its game statistics are the same in each form. Any equipment
-          it is wearing or carrying isn't transformed.</p>
+          <p class="feature">The [[lookup @name lowercase]] shape-shifts into a Small or Medium Humanoid, or it returns
+          to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is
+          wearing or carrying isn't transformed.</p>
         chat: ''
       identifier: shape-shift
       source:
@@ -3242,24 +3172,17 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature">While on the Ethereal Plane, the [[lookup @name
-          lowercase]] casts
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDream00000]{Dream}</em>,
-          using the same spellcasting ability as Spellcasting. Only the [[lookup
-          @name lowercase]] can serve as the spell's messenger, and the target
-          must be a [[lookup @target.affects.type activity=4GGGVhvLSrHgHdb9]]
-          the [[lookup @name lowercase]] can see [[lookup
-          @target.affects.special activity=4GGGVhvLSrHgHdb9]]. The spell fails
-          and is wasted if the target is under the effect of the
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbEvilAndGoodPr]{Protection
-          from Evil and Good}</em> spell or within a
-          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicCircl]{Magic
-          Circle}</em> spell.</p><p class="feature">If the target takes damage
-          from the <em>Dream</em> spell, the target's Hit Point maximum
-          decreases by an amount equal to that damage. If the spell kills the
-          target, its soul is trapped in the [[lookup @name lowercase]]'s soul
-          bag, and the target can't be raised from the dead until its soul is
-          released.</p>
+          <p class="feature">While on the Ethereal Plane, the [[lookup @name lowercase]] casts
+          <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplDream00000]{Dream}</em>, using the same spellcasting
+          ability as Spellcasting. Only the [[lookup @name lowercase]] can serve as the spell's messenger, and the
+          target must be a [[lookup @target.affects.type activity=4GGGVhvLSrHgHdb9]] the [[lookup @name lowercase]] can
+          see [[lookup @target.affects.special activity=4GGGVhvLSrHgHdb9]]. The spell fails and is wasted if the target
+          is under the effect of the <em>@UUID[Compendium.degringo5e.spells24.Item.phbEvilAndGoodPr]{Protection from
+          Evil and Good}</em> spell or within a <em>@UUID[Compendium.degringo5e.spells24.Item.phbsplMagicCircl]{Magic
+          Circle}</em> spell.</p><p class="feature">If the target takes damage from the <em>Dream</em> spell, the
+          target's Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its
+          soul is trapped in the [[lookup @name lowercase]]'s soul bag, and the target can't be raised from the dead
+          until its soul is released.</p>
         chat: ''
       identifier: nightmare-haunting
       source:
@@ -3304,24 +3227,17 @@ items:
     system:
       description:
         value: >-
-          <p>You target a creature you know on the same plane of existence. You
-          or a willing creature you touch enters a trance state to act as a
-          dream messenger. While in the trance, the messenger is
-          &amp;Reference[Incapacitated apply=false] and has a Speed of
-          0.</p><p>If the target is asleep, the messenger appears in the
-          target's dreams and can converse with the target as long as it remains
-          asleep, through the spell's duration. The messenger can also shape the
-          dream's environment, creating landscapes, objects, and other images.
-          The messenger can emerge from the trance at any time, ending the
-          spell. The target recalls the dream perfectly upon waking.</p><p>If
-          the target is awake when you cast the spell, the messenger knows it
-          and can either end the trance (and the spell) or wait for the target
-          to sleep, at which point the messenger enters its dreams.</p><p>You
-          can make the messenger terrifying to the target. If you do so, the
-          messenger can deliver a message of no more than ten words, and then
-          the target makes a Wisdom saving throw. On a failed save, the target
-          gains no benefit from its rest, and it takes 3d6 Psychic damage when
-          it wakes up.</p>
+          <p>You target a creature you know on the same plane of existence. You or a willing creature you touch enters a
+          trance state to act as a dream messenger. While in the trance, the messenger is &amp;Reference[Incapacitated
+          apply=false] and has a Speed of 0.</p><p>If the target is asleep, the messenger appears in the target's dreams
+          and can converse with the target as long as it remains asleep, through the spell's duration. The messenger can
+          also shape the dream's environment, creating landscapes, objects, and other images. The messenger can emerge
+          from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.</p><p>If
+          the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the
+          spell) or wait for the target to sleep, at which point the messenger enters its dreams.</p><p>You can make the
+          messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten
+          words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its
+          rest, and it takes 3d6 Psychic damage when it wakes up.</p>
         chat: ''
       source:
         custom: ''
@@ -3464,8 +3380,8 @@ items:
             value: '0'
             priority: null
         description: >-
-          <p><span style="font-family:Signika, sans-serif">While in the trance,
-          the messenger is Incapacitated and has a Speed of 0.</span></p>
+          <p><span style="font-family:Signika, sans-serif">While in the trance, the messenger is Incapacitated and has a
+          Speed of 0.</span></p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -3481,14 +3397,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.MRauSCb3hN012Rrr.x52Ga7U45IJOPFxK
+        _key: '!actors.items.effects!mmNightHag000000.MRauSCb3hN012Rrr.x52Ga7U45IJOPFxK'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmNightmareHaunt.Activity.4GGGVhvLSrHgHdb9
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmNightmareHaunt.Activity.4GGGVhvLSrHgHdb9
         changes:
           - key: system.target
             mode: 5
@@ -3522,8 +3436,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.MRauSCb3hN012Rrr.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.MRauSCb3hN012Rrr.dnd5espellchange'
     folder: beZ8MTpWY2cMEUlp
     sort: 2100000
     ownership:
@@ -3547,13 +3460,11 @@ items:
     system:
       description:
         value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
+          <p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such
+          effects, you can take the Magic action to see a faint aura around any visible creature or object in the area
+          that bears the magic, and if an effect was created by a spell, you learn the spell's school of
+          magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
         chat: ''
       source:
         custom: ''
@@ -3673,8 +3584,7 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          compendiumSource: Compendium.degringo5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.344'
           systemId: degringo5e
@@ -3683,14 +3593,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.ufuNmpngOTibIKWB.BHw91lQmVgdx39WZ
+        _key: '!actors.items.effects!mmNightHag000000.ufuNmpngOTibIKWB.BHw91lQmVgdx39WZ'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.3MkhXZwZstyLUC3q
         changes:
           - key: system.properties
             mode: 2
@@ -3722,8 +3630,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.ufuNmpngOTibIKWB.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.ufuNmpngOTibIKWB.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 4100000
     ownership:
@@ -3750,25 +3657,18 @@ items:
     system:
       description:
         value: >-
-          <p>You step into the border regions of the Ethereal Plane, where it
-          overlaps with your current plane. You remain in the Border Ethereal
-          for the duration. During this time, you can move in any direction. If
-          you move up or down, every foot of movement costs an extra foot. You
-          can perceive the plane you left, which looks gray, and you can't see
-          anything there more than 60 feet away.</p><p>While on the Ethereal
-          Plane, you can affect and be affected only by creatures, objects, and
-          effects on that plane. Creatures that aren't on the Ethereal Plane
-          can't perceive or interact with you unless a feature gives them the
-          ability to do so.</p><p>When the spell ends, you return to the plane
-          you left in the spot that corresponds to your space in the Border
-          Ethereal. If you appear in an occupied space, you are shunted to the
-          nearest unoccupied space and take Force damage equal to twice the
-          number of feet you are moved.</p><p>This spell ends instantly if you
-          cast it while you are on the Ethereal Plane or a plane that doesn't
-          border it, such as one of the Outer Planes.</p><p><strong>Using a
-          Higher-Level Spell Slot.</strong>You can target up to three willing
-          creatures (including yourself) for each spell slot level above 7. The
-          creatures must be within 10 feet of you when you cast the spell.</p>
+          <p>You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You
+          remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move
+          up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray,
+          and you can't see anything there more than 60 feet away.</p><p>While on the Ethereal Plane, you can affect and
+          be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane
+          can't perceive or interact with you unless a feature gives them the ability to do so.</p><p>When the spell
+          ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If
+          you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal
+          to twice the number of feet you are moved.</p><p>This spell ends instantly if you cast it while you are on the
+          Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong>You can target up to three willing creatures (including yourself) for each
+          spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.</p>
         chat: ''
       source:
         custom: ''
@@ -3893,14 +3793,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.q6QIeb22Jwvnb6cR.louTI4Z9bNUYBa8K
+        _key: '!actors.items.effects!mmNightHag000000.q6QIeb22Jwvnb6cR.louTI4Z9bNUYBa8K'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.sQUF1CpUhCCeBaLa
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.sQUF1CpUhCCeBaLa
         changes:
           - key: system.properties
             mode: 2
@@ -3932,8 +3830,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.q6QIeb22Jwvnb6cR.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.q6QIeb22Jwvnb6cR.dnd5espellchange'
     folder: EdAGMG8IF26PLkD3
     sort: 1800000
     ownership:
@@ -3957,13 +3854,11 @@ items:
     system:
       description:
         value: >-
-          <p>You create three glowing darts of magical force. Each dart strikes
-          a creature of your choice that you can see within range. A dart deals
-          1d4 + 1 Force damage to its target. The darts all strike
-          simultaneously, and you can direct them to hit one creature or
-          several.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
-          spell creates one more dart for each spell slot level above
-          1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>
+          <p>You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can
+          see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and
+          you can direct them to hit one creature or several.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+          The spell creates one more dart for each spell slot level above 1.</p><p>[[2 + @item.level]]{Level [[lookup
+          @item.level]] darts}</p>
         chat: ''
       source:
         custom: ''
@@ -4070,8 +3965,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.6yRxdIxAEKjETfDR
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.6yRxdIxAEKjETfDR
         changes:
           - key: system.properties
             mode: 2
@@ -4103,8 +3997,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.pCbNvhCgaWNbNwvp.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.pCbNvhCgaWNbNwvp.dnd5espellchange'
     folder: pBaAAtXBCq9FVEnL
     sort: 1100000
     ownership:
@@ -4131,18 +4024,13 @@ items:
     system:
       description:
         value: >-
-          <p>You tap into the nightmares of a creature you can see within range
-          and create an illusion of its deepest fears, visible only to that
-          creature. The target makes a Wisdom saving throw. On a failed save,
-          the target takes 4d10 Psychic damage and has Disadvantage on ability
-          checks and attack rolls for the duration. On a successful save, the
-          target takes half as much damage, and the spell ends.</p><p>For the
-          duration, the target makes a [[/save ability=wis
-          dc=@attributes.spell.dc]] saving throw at the end of each of its
-          turns. On a failed save, it takes the Psychic damage again. On a
-          successful save, the spell ends.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong>The damage increases by 1d10 for each spell slot
-          level above 4.</p>
+          <p>You tap into the nightmares of a creature you can see within range and create an illusion of its deepest
+          fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target
+          takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a
+          successful save, the target takes half as much damage, and the spell ends.</p><p>For the duration, the target
+          makes a [[/save ability=wis dc=@attributes.spell.dc]] saving throw at the end of each of its turns. On a
+          failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 4.</p>
         chat: ''
       source:
         custom: ''
@@ -4269,11 +4157,9 @@ items:
         system: {}
         changes: []
         description: >-
-          <p>The target has Disadvantage on ability checks and attack rolls for
-          the duration.</p><p>For the duration, the target makes a [[/save
-          ability=wis]] saving throw at the end of each of its turns. On a
-          failed save, it takes the Psychic damage again. On a successful save,
-          the spell ends.</p>
+          <p>The target has Disadvantage on ability checks and attack rolls for the duration.</p><p>For the duration,
+          the target makes a [[/save ability=wis]] saving throw at the end of each of its turns. On a failed save, it
+          takes the Psychic damage again. On a successful save, the spell ends.</p>
         tint: '#ffffff'
         transfer: false
         statuses: []
@@ -4288,14 +4174,12 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.YL2yDZHhJnpRigTh.4k92Sjfpcm5bnguO
+        _key: '!actors.items.effects!mmNightHag000000.YL2yDZHhJnpRigTh.4k92Sjfpcm5bnguO'
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.3HWjRm7jU0wWgm2z
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.3HWjRm7jU0wWgm2z
         changes:
           - key: system.properties
             mode: 2
@@ -4327,8 +4211,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.YL2yDZHhJnpRigTh.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.YL2yDZHhJnpRigTh.dnd5espellchange'
     folder: qi3IbnEwap7mRw4b
     sort: 1100000
     ownership:
@@ -4352,16 +4235,13 @@ items:
     system:
       description:
         value: >-
-          <p>You and up to eight willing creatures who link hands in a circle
-          are transported to a different plane of existence. You can specify a
-          target destination in general terms, such as the City of Brass on the
-          Elemental Plane of Fire or the palace of Dispater on the second level
-          of the Nine Hells, and you appear in or near that destination, as
-          determined by the DM.</p><p>Alternatively, if you know the sigil
-          sequence of a teleportation circle on another plane of existence, this
-          spell can take you to that circle. If the teleportation circle is too
-          small to hold all the creatures you transported, they appear in the
-          closest unoccupied spaces next to the circle.</p>
+          <p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of
+          existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental
+          Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that
+          destination, as determined by the DM.</p><p>Alternatively, if you know the sigil sequence of a teleportation
+          circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is
+          too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the
+          circle.</p>
         chat: ''
       source:
         custom: ''
@@ -4457,8 +4337,7 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/degringo5e/icons/svg/activity/cast.svg
-        origin: >-
-          Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.J4d0evowt5sCN00X
+        origin: Compendium.degringo5e.actors24.Actor.mmNightHag000000.Item.mmSpellcasting00.Activity.J4d0evowt5sCN00X
         changes:
           - key: system.properties
             mode: 2
@@ -4490,8 +4369,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmNightHag000000.clJcTNavYURWKHjU.dnd5espellchange
+        _key: '!actors.items.effects!mmNightHag000000.clJcTNavYURWKHjU.dnd5espellchange'
     folder: EdAGMG8IF26PLkD3
     sort: 1200000
     ownership:

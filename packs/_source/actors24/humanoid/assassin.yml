@@ -407,12 +407,9 @@ system:
   details:
     biography:
       value: >-
-        <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepLightCross]{Light
-        Crossbow},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Shortsword},
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded
-        Leather Armor}</p></div>
+        <div class="gear"><p><strong>Gear:</strong> @UUID[Compendium.degringo5e.equipment24.Item.phbwepLightCross]{Light
+        Crossbow}, @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Shortsword},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}</p></div>
       public: ''
     alignment: Neutral
     ideal: ''
@@ -563,9 +560,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and the target
-          has the &amp;Reference[Poisoned apply=false] condition until the start
-          of the assassin's next turn.</p>
+          <p>[[/attack extended]]. [[/damage average extended]], and the target has the &amp;Reference[Poisoned
+          apply=false] condition until the start of the assassin's next turn.</p>
         chat: ''
       price:
         value: 10
@@ -738,8 +734,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Poisoned apply=false] condition
-          until the start of the assassin’s next turn.</p>
+          <p>The target has the &amp;Reference[Poisoned apply=false] condition until the start of the assassin’s next
+          turn.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -756,8 +752,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmAssassin000000.jLa5l9pntsTVrMKH.gUiotlwd6du6hxyJ
+        _key: '!actors.items.effects!mmAssassin000000.jLa5l9pntsTVrMKH.gUiotlwd6du6hxyJ'
     sort: 0
     ownership:
       default: 0
@@ -1042,11 +1037,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">If the [[lookup @name lowercase]] is subjected to
-          an effect that allows it to make a Dexterity saving throw to take only
-          half damage, the [[lookup @name lowercase]] instead takes no damage if
-          it succeeds on the save and only half damage if it fails. It can't use
-          this trait if it has the Incapacitated condition.</p>
+          <p class="feature">If the [[lookup @name lowercase]] is subjected to an effect that allows it to make a
+          Dexterity saving throw to take only half damage, the [[lookup @name lowercase]] instead takes no damage if it
+          succeeds on the save and only half damage if it fails. It can't use this trait if it has the Incapacitated
+          condition.</p>
         chat: ''
       identifier: evasion
       source:
@@ -1142,9 +1136,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item
-          .jLa5l9pntsTVrMKH]] or [[/item .dL4668G7zXeC5zyY]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes three attacks, using [[/item .jLa5l9pntsTVrMKH]] or [[/item
+          .dL4668G7zXeC5zyY]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1245,9 +1238,8 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes the
-          &amp;Reference[Dash apply=false], the &amp;Reference[Disengage
-          apply=false], or &amp;Reference[Hide apply=false] action.</p>
+          <p class="feature">The [[lookup @name lowercase]] takes the &amp;Reference[Dash apply=false], the
+          &amp;Reference[Disengage apply=false], or &amp;Reference[Hide apply=false] action.</p>
         chat: ''
       identifier: cunning-action
       source:

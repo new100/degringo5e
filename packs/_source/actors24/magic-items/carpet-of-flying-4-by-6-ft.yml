@@ -483,8 +483,8 @@ items:
     system:
       description:
         value: >-
-          <p>This item serves to offset the carpet's computed carry weight
-          capacity in accordance with the carpet's dimensions.</p>
+          <p>This item serves to offset the carpet's computed carry weight capacity in accordance with the carpet's
+          dimensions.</p>
         chat: ''
       identifier: carry-weight-adjustment
       source:
@@ -545,9 +545,7 @@ effects:
       turns: null
       startRound: null
       startTurn: null
-    description: >-
-      <p>The carpet's Fly Speed is halved when carrying more than its normal
-      capacity.</p>
+    description: <p>The carpet's Fly Speed is halved when carrying more than its normal capacity.</p>
     origin: null
     tint: '#ffffff'
     transfer: false

@@ -492,9 +492,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The wolf has<strong> advantage </strong>on Wisdom (Perception)
-          checks that rely on hearing or smell.</p>
+        value: <p>The wolf has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>
         chat: ''
       source:
         custom: ''
@@ -541,9 +539,8 @@ items:
     system:
       description:
         value: >-
-          <p>The wolf has<strong> advantage </strong>on an attack roll against a
-          creature if at least one of the wolf's allies is within <strong>5
-          ft.</strong> of the creature and the ally isn't incapacitated.</p>
+          <p>The wolf has<strong> advantage </strong>on an attack roll against a creature if at least one of the wolf's
+          allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>
         chat: ''
       source:
         custom: ''
@@ -589,9 +586,7 @@ items:
     img: icons/magic/water/barrier-ice-crystal-wall-faceted.webp
     system:
       description:
-        value: >-
-          <p>The wolf has<strong> advantage </strong>on Dexterity (Stealth)
-          checks made to hide in snowy terrain.</p>
+        value: <p>The wolf has<strong> advantage </strong>on Dexterity (Stealth) checks made to hide in snowy terrain.</p>
         chat: ''
       source:
         custom: ''
@@ -638,13 +633,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a creature, it must succeed on a [[/save]] saving throw or be knocked
-          &amp;Reference[prone].</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a creature, it must succeed on a
+          [[/save]] saving throw or be knocked &amp;Reference[prone].</p>
         chat: >-
-          <p>The Winter Wolf attacks with its Bite. If the target is a creature,
-          it must make a <strong>Strength</strong> saving throw or be knocked
-          prone.</p>
+          <p>The Winter Wolf attacks with its Bite. If the target is a creature, it must make a
+          <strong>Strength</strong> saving throw or be knocked prone.</p>
       source:
         custom: ''
         book: ''
@@ -869,14 +862,12 @@ items:
     system:
       description:
         value: >-
-          <p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each
-          creature in that area must make a [[/save]] saving throw, taking
-          [[/damage average]] damage on a failed save, or half as much damage on
-          a successful one.</p>
+          <p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a
+          [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a
+          successful one.</p>
         chat: >-
-          <p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each
-          creature in that area must make a <strong>Dexterity</strong> saving
-          throw.</p>
+          <p>The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a
+          <strong>Dexterity</strong> saving throw.</p>
       source:
         custom: ''
         book: ''

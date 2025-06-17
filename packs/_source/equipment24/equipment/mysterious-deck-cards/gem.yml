@@ -1,9 +1,7 @@
 name: Gem
 system:
   description:
-    value: >-
-      <p> Twenty-five pieces of jewelry worth 2,000 GP each or fifty gems worth
-      1,000 GP each appear at your feet.</p>
+    value: <p> Twenty-five pieces of jewelry worth 2,000 GP each or fifty gems worth 1,000 GP each appear at your feet.</p>
     chat: ''
   price:
     value: 0
@@ -28,9 +26,7 @@ system:
             target: ''
             scaling: {}
       description:
-        chatFlavor: >-
-          Creates 25 pieces of
-          @UUID[Compendium.degringo5e.equipment24.Item.dmgJewelry2000GP]{Jewelry}
+        chatFlavor: Creates 25 pieces of @UUID[Compendium.degringo5e.equipment24.Item.dmgJewelry2000GP]{Jewelry}
       duration:
         units: inst
         concentration: false
@@ -83,9 +79,7 @@ system:
             target: ''
             scaling: {}
       description:
-        chatFlavor: >-
-          Creates 50
-          @UUID[Compendium.degringo5e.equipment24.Item.dmgGemstone1000G]{Gemstones}
+        chatFlavor: Creates 50 @UUID[Compendium.degringo5e.equipment24.Item.dmgGemstone1000G]{Gemstones}
       duration:
         units: inst
         concentration: false

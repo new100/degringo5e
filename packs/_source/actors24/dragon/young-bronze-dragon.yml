@@ -651,9 +651,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes three [[/item
-          .mmRend0000000000]] attacks.It can replace one attack with a use of
-          [[/item .mmRepulsionBreat]].</p>
+          <p>The [[lookup @name lowercase]] makes three [[/item .mmRend0000000000]] attacks.It can replace one attack
+          with a use of [[/item .mmRepulsionBreat]].</p>
         chat: ''
       identifier: multiattack
       source:
@@ -910,14 +909,11 @@ items:
         max: '1'
       description:
         value: >-
-          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value
-          activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type
-          activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
-          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width
-          activity=LpjgVwftzGNMgTUJ]]-foot-wide [[lookup @target.template.type
-          capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure:
-          </em>[[/damage average]] damage.</p><p><em>Success:</em> Half
-          damage.</p>
+          <p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup
+          @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size
+          activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide
+          [[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure: </em>[[/damage
+          average]] damage.</p><p><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: lightning-breath
       source:
@@ -1025,13 +1021,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=zuf9EEVj4nI1joaH]], each [[lookup
-          @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup
-          @target.template.size activity=zuf9EEVj4nI1joaH]]-foot Cone.</p><p
-          class="feature"><em>Failure:</em> The target is pushed up to 40 feet
-          straight away from the [[lookup @name lowercase]] and has the
-          &amp;Reference[Prone apply=false] condition.</p>
+          <p class="feature"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]],
+          each [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup @target.template.size
+          activity=zuf9EEVj4nI1joaH]]-foot Cone.</p><p class="feature"><em>Failure:</em> The target is pushed up to 40
+          feet straight away from the [[lookup @name lowercase]] and has the &amp;Reference[Prone apply=false]
+          condition.</p>
         chat: ''
       identifier: repulsion-breath
       source:
@@ -1093,8 +1087,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmYoungBronzeDra.mmRepulsionBreat.HG9R2hTEqJ0G5urK
+        _key: '!actors.items.effects!mmYoungBronzeDra.mmRepulsionBreat.HG9R2hTEqJ0G5urK'
     flags:
       degringo5e:
         riders:

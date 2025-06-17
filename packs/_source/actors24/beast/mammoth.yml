@@ -594,9 +594,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two  [[/item
-          .mmGore0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two  [[/item .mmGore0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -703,10 +701,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a Huge or smaller creature and the [[lookup @name lowercase]] moved
-          20+ feet straight toward it immediately before the hit, the target has
-          the &amp;Reference[Prone apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a Huge or smaller creature and the
+          [[lookup @name lowercase]] moved 20+ feet straight toward it immediately before the hit, the target has the
+          &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: gore
       source:
@@ -787,8 +784,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Prone apply=false] condition if
-          the attacking creature used its moving attack feature.</p>
+          <p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving
+          attack feature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -805,8 +802,7 @@ items:
           modifiedTime: 1738094654846
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMammoth0000000.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmMammoth0000000.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:
@@ -902,13 +898,10 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=QckCIpsC3BdEHycI]], [[lookup
-          @target.affects.labels.statblock activity=QckCIpsC3BdEHycI]] within
-          [[lookup @range.value activity=QckCIpsC3BdEHycI]] feet that has the
-          Prone condition.</p><p class="feature"><em>Failure:</em> [[/damage
-          average]] damage.</p><p class="feature"><em>Success:</em> Half
-          damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=QckCIpsC3BdEHycI]],
+          [[lookup @target.affects.labels.statblock activity=QckCIpsC3BdEHycI]] within [[lookup @range.value
+          activity=QckCIpsC3BdEHycI]] feet that has the Prone condition.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage.</p><p class="feature"><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: trample
       source:

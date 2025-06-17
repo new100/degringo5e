@@ -491,13 +491,12 @@ items:
     system:
       description:
         value: >-
-          <p>The mimic can use its action to <strong>polymorph</strong> into an
-          object or back into its true, amorphous form. Its statistics are the
-          same in each form. </p><p>Any equipment it is wearing or carrying
-          isn't transformed. It reverts to its true form if it dies.</p>
+          <p>The mimic can use its action to <strong>polymorph</strong> into an object or back into its true, amorphous
+          form. Its statistics are the same in each form. </p><p>Any equipment it is wearing or carrying isn't
+          transformed. It reverts to its true form if it dies.</p>
         chat: >-
-          <p>The mimic can use its action to <strong>polymorph</strong> into an
-          object or back into its true, amorphous form. </p>
+          <p>The mimic can use its action to <strong>polymorph</strong> into an object or back into its true, amorphous
+          form. </p>
       source:
         custom: ''
         book: ''
@@ -596,14 +595,12 @@ items:
     system:
       description:
         value: >-
-          <p>The mimic adheres to anything that touches it. A Huge or smaller
-          creature adhered to the mimic is also grappled by it <strong>escape DC
-          13</strong>. Ability checks made to escape this grapple have
+          <p>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also
+          grappled by it <strong>escape DC 13</strong>. Ability checks made to escape this grapple have
           disadvantage.</p>
         chat: >-
-          <p>The mimic adheres to anything that touches it. A Huge or smaller
-          creature adhered to the mimic is also grappled by it. Make an escape
-          check, with disadvantage.</p>
+          <p>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also
+          grappled by it. Make an escape check, with disadvantage.</p>
       source:
         custom: ''
         book: ''
@@ -648,9 +645,7 @@ items:
     img: icons/magic/nature/stealth-hide-eyes-green.webp
     system:
       description:
-        value: >-
-          <p>While the mimic remains motionless, it is indistinguishable from an
-          ordinary object.</p>
+        value: <p>While the mimic remains motionless, it is indistinguishable from an ordinary object.</p>
         chat: ''
       source:
         custom: ''
@@ -696,9 +691,7 @@ items:
     img: icons/skills/melee/unarmed-punch-fist.webp
     system:
       description:
-        value: >-
-          <p>The mimic has<strong> advantage </strong>on attack rolls against
-          any creature grappled by it.</p>
+        value: <p>The mimic has<strong> advantage </strong>on attack rolls against any creature grappled by it.</p>
         chat: ''
       source:
         custom: ''
@@ -745,8 +738,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the mimic is
-          in object form, the target is subjected to its Adhesive trait.</p>
+          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the mimic is in object form, the target is subjected
+          to its Adhesive trait.</p>
         chat: <p>The Mimic attacks with its Pseudopod.</p>
       source:
         custom: ''

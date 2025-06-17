@@ -7,24 +7,18 @@ system:
     value: >-
       <p><em>Wondrous item, (requires attunement)</em></p>
 
-      <p>This cube is about an inch across. Each face has a distinct marking on
-      it that can be pressed. The cube starts with 36 charges, and it regains
-      1d20 expended charges daily at dawn.</p>
+      <p>This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts
+      with 36 charges, and it regains 1d20 expended charges daily at dawn.</p>
 
-      <p>You can use an action to press one of the cube's faces, expending a
-      number of charges based on the chosen face, as shown in the Cube of Force
-      Faces table. Each face has a different effect. If the cube has
-      insufficient charges remaining, nothing happens. Otherwise, a barrier of
-      invisible force springs into existence, forming a cube 15 feet on a side.
-      The barrier is centered on you, moves with you, and lasts for 1 minute,
-      until you use an action to press the cube's sixth face, or the cube runs
-      out of charges. You can change the barrier's effect by pressing a
-      different face of the cube and expending the requisite number of charges,
-      resetting the duration.</p>
+      <p>You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face,
+      as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges
+      remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet
+      on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to
+      press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a
+      different face of the cube and expending the requisite number of charges, resetting the duration.</p>
 
-      <p>If your movement causes the barrier to come into contact with a solid
-      object that can't pass through the cube, you can't move any closer to that
-      object as long as the barrier remains.</p>
+      <p>If your movement causes the barrier to come into contact with a solid object that can't pass through the cube,
+      you can't move any closer to that object as long as the barrier remains.</p>
 
       <table border="1">
 
@@ -56,8 +50,8 @@ system:
 
       <td>2</td>
 
-      <td>Nonliving matter can't pass through the barrier. Walls, floors, and
-      ceilings can pass through at your discretion.</td>
+      <td>Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your
+      discretion.</td>
 
       </tr>
 
@@ -87,8 +81,7 @@ system:
 
       <td>5</td>
 
-      <td>Nothing can pass through the barrier. Walls, floors, and ceilings can
-      pass through at your discretion.</td>
+      <td>Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.</td>
 
       </tr>
 
@@ -106,9 +99,8 @@ system:
 
       </table>
 
-      <p>The cube loses charges when the barrier is targeted by certain spells
-      or comes into contact with certain spell or magic item effects, as shown
-      in the table below.</p>
+      <p>The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell
+      or magic item effects, as shown in the table below.</p>
 
       <table border="1">
 
@@ -132,8 +124,7 @@ system:
 
       <tr>
 
-      <td>@UUID[Compendium.degringo5e.items.Item.t7GfyRp3dB3lqS9i]{Horn of
-      Blasting}</td>
+      <td>@UUID[Compendium.degringo5e.items.Item.t7GfyRp3dB3lqS9i]{Horn of Blasting}</td>
 
       <td>1d10</td>
 
@@ -149,8 +140,7 @@ system:
 
       <tr>
 
-      <td>@UUID[Compendium.degringo5e.spells.Item.eGMhwmuleAM46C6L]{Prismatic
-      Spray}</td>
+      <td>@UUID[Compendium.degringo5e.spells.Item.eGMhwmuleAM46C6L]{Prismatic Spray}</td>
 
       <td>1d20</td>
 
@@ -158,8 +148,7 @@ system:
 
       <tr>
 
-      <td>@UUID[Compendium.degringo5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of
-      Fire}</td>
+      <td>@UUID[Compendium.degringo5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>
 
       <td>1d4</td>
 
@@ -220,9 +209,7 @@ system:
       activation:
         type: action
         value: 1
-        condition: >-
-          Must have enough charges for the face pressed otherwise the Action is
-          lost.
+        condition: Must have enough charges for the face pressed otherwise the Action is lost.
         override: false
       consumption:
         targets:

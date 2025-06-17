@@ -121,17 +121,14 @@ system:
     max: '3'
   description:
     value: >-
-      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff},
-      Rare (Requires Attunement)</em></p><p>This staff has 3 charges and regains
-      1d3 expended charges daily at dawn.</p><p>The staff can be wielded as a
-      magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff,
-      and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the
-      target and force it to make a DC 15 Constitution saving throw. On a failed
-      save, the target has Disadvantage for 1 hour on any ability check or
-      saving throw that uses Strength or Constitution.</p><section
-      class="secret" id="secret-XLCxThjwbGtdndsQ"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Save</strong> activity includes an Active
-      Effect for tracking the disadvantage.</p></section>
+      <p><em>@UUID[Compendium.degringo5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Rare (Requires
+      Attunement)</em></p><p>This staff has 3 charges and regains 1d3 expended charges daily at dawn.</p><p>The staff
+      can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff, and you can expend 1
+      charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw.
+      On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength
+      or Constitution.</p><section class="secret" id="secret-XLCxThjwbGtdndsQ"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Save</strong> activity includes an Active Effect for tracking the
+      disadvantage.</p></section>
     chat: ''
   identifier: staff-of-withering
   source:
@@ -217,8 +214,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>The target has Disadvantage for 1 hour on any ability check or saving
-      throw that uses Strength or Constitution.</p>
+      <p>The target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or
+      Constitution.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

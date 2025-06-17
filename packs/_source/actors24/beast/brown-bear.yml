@@ -607,9 +607,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes one [[/item
-          .mmBite0000000000]] attack and one [[/item .mmClaw0000000000]]
-          attack.</p>
+          <p>The [[lookup @name lowercase]] makes one [[/item .mmBite0000000000]] attack and one [[/item
+          .mmClaw0000000000]] attack.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -848,9 +847,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a Large or smaller creature, it has the &amp;Reference[Prone
-          apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a Large or smaller creature, it has
+          the &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: claw
       source:
@@ -930,9 +928,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>If the target is a Large or smaller creature, it has the
-          &amp;Reference[Prone apply=false] condition.</p>
+        description: <p>If the target is a Large or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -949,8 +945,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmBrownBear00000.mmClaw0000000000.5q1vcRvzYS3N0DhQ
+        _key: '!actors.items.effects!mmBrownBear00000.mmClaw0000000000.5q1vcRvzYS3N0DhQ'
     flags:
       degringo5e:
         riders:

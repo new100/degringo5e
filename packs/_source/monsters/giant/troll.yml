@@ -815,9 +815,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The troll has advantage on Wisdom (Perception) checks that rely on
-          smell.</p>
+        value: <p>The troll has advantage on Wisdom (Perception) checks that rely on smell.</p>
         chat: ''
       source:
         custom: ''
@@ -864,8 +862,7 @@ items:
     system:
       description:
         value: >-
-          <p>The troll makes three attacks: one with its [[/item
-          .R7DpgLP3aFNmAgOc]]{bite} and two with its [[/item
+          <p>The troll makes three attacks: one with its [[/item .R7DpgLP3aFNmAgOc]]{bite} and two with its [[/item
           .ahGwFmyt6nItUOAK]]{claws}.</p>
         chat: ''
       source:
@@ -966,13 +963,10 @@ items:
     system:
       description:
         value: >-
-          <p>The troll regains 10 hit points at the start of its turn. If the
-          troll takes acid or fire damage, this trait doesn't function at the
-          start of the troll's next turn. The troll dies only if it starts its
-          turn with 0 hit points and doesn't regenerate.</p>
-        chat: >-
-          <p>The troll regains <strong>10 hit points</strong> at the start of
-          its turn.</p>
+          <p>The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this
+          trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0
+          hit points and doesn't regenerate.</p>
+        chat: <p>The troll regains <strong>10 hit points</strong> at the start of its turn.</p>
       source:
         custom: ''
         book: ''

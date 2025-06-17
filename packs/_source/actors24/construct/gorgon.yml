@@ -616,10 +616,9 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended average]]. If the target
-          is a Large or smaller creature and the [[lookup @name lowercase]]
-          moved 20+ feet straight toward it immediately before the hit, the
-          target has the &amp;Reference[Prone apply=false] condition.</p>
+          <p>[[/attack extended]]. [[/damage extended average]]. If the target is a Large or smaller creature and the
+          [[lookup @name lowercase]] moved 20+ feet straight toward it immediately before the hit, the target has the
+          &amp;Reference[Prone apply=false] condition.</p>
         chat: ''
       identifier: gore
       source:
@@ -700,8 +699,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Prone apply=false] condition if
-          the attacking creature used its moving attack feature.</p>
+          <p>The target has the &amp;Reference[Prone apply=false] condition if the attacking creature used its moving
+          attack feature.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -718,8 +717,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGorgon00000000.mmGore0000000000.dgfff9ONKHAUcthM
+        _key: '!actors.items.effects!mmGorgon00000000.mmGore0000000000.dgfff9ONKHAUcthM'
     flags:
       degringo5e:
         riders:
@@ -817,16 +815,12 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=reU3RXAk0MdPmKCl]], each [[lookup
-          @target.affects.type activity=reU3RXAk0MdPmKCl]] in a [[lookup
-          @target.template.size activity=reU3RXAk0MdPmKCl]]-foot Cone.</p><p
-          class="feature"><em>First Failure:</em> The target has the
-          &amp;Reference[Restrained apply=false] condition and repeats the save
-          at the end of its next turn if it is still Restrained, ending the
-          effect on itself on a success.</p><p class="feature"><em>Second
-          Failure:</em> The target has the &amp;Reference[Petrified apply=false]
-          condition instead of the Restrained condition.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=reU3RXAk0MdPmKCl]],
+          each [[lookup @target.affects.type activity=reU3RXAk0MdPmKCl]] in a [[lookup @target.template.size
+          activity=reU3RXAk0MdPmKCl]]-foot Cone.</p><p class="feature"><em>First Failure:</em> The target has the
+          &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its next turn if it is
+          still Restrained, ending the effect on itself on a success.</p><p class="feature"><em>Second Failure:</em> The
+          target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>
         chat: ''
       identifier: petrifying-breath
       source:
@@ -862,9 +856,7 @@ items:
           turns: 1
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Petrified apply=false] condition
-          instead of the Restrained condition.</p>
+        description: <p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -890,8 +882,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.ggyTZHJj11jkOFlX
+        _key: '!actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.ggyTZHJj11jkOFlX'
       - name: Restrained
         img: systems/degringo5e/icons/svg/statuses/restrained.svg
         origin: Item.mmPetrifyingBrea
@@ -909,9 +900,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Restrained apply=false] condition
-          and repeats the save at the end of its next turn if it is still
-          Restrained, ending the effect on itself on a success.</p>
+          <p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its
+          next turn if it is still Restrained, ending the effect on itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -937,8 +927,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.SY6t8UAImw8B9PVT
+        _key: '!actors.items.effects!mmGorgon00000000.mmPetrifyingBrea.SY6t8UAImw8B9PVT'
     flags:
       degringo5e:
         riders:
@@ -1034,13 +1023,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=QckCIpsC3BdEHycI]], [[lookup
-          @target.affects.labels.statblock activity=QckCIpsC3BdEHycI]] within
-          [[lookup @range.value activity=QckCIpsC3BdEHycI]] feet that has the
-          Prone condition.</p><p class="feature"><em>Failure:</em> [[/damage
-          average]] damage.</p><p class="feature"><em>Success:</em> [[lookup
-          @damage.onSave capitalize activity=QckCIpsC3BdEHycI]] damage.</p>
+          <p class="feature"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=QckCIpsC3BdEHycI]],
+          [[lookup @target.affects.labels.statblock activity=QckCIpsC3BdEHycI]] within [[lookup @range.value
+          activity=QckCIpsC3BdEHycI]] feet that has the Prone condition.</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage.</p><p class="feature"><em>Success:</em> [[lookup @damage.onSave capitalize
+          activity=QckCIpsC3BdEHycI]] damage.</p>
         chat: ''
       identifier: trample
       source:

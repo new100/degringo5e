@@ -6,17 +6,13 @@ img: icons/magic/unholy/strike-hand-glow-pink.webp
 system:
   description:
     value: >-
-      <p>Whenever you hit a creature with an attack granted by your Flurry of
-      Blows, you can impose one of the following effects on that
-      target.</p><p><strong>Addle.</strong> The target can't make Opportunity
-      Attacks until the start of its next turn.</p><p><strong>Push.</strong> The
-      target must succeed on a Strength saving throw or be pushed up to 15 feet
-      away from you.</p><p><strong>Topple.</strong> The target must succeed on a
-      Dexterity saving throw or have the Prone condition.</p><section
-      id="secret-4BkgU26V2trst09S" class="secret"><p><strong>Foundry
-      Note</strong></p><p>The <strong>Addle</strong> activity includes an Active
-      Effect for tracking the addled target.</p><p>The <strong>Topple</strong>
-      activity includes an Active Effect that applies the Prone
+      <p>Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following
+      effects on that target.</p><p><strong>Addle.</strong> The target can't make Opportunity Attacks until the start of
+      its next turn.</p><p><strong>Push.</strong> The target must succeed on a Strength saving throw or be pushed up to
+      15 feet away from you.</p><p><strong>Topple.</strong> The target must succeed on a Dexterity saving throw or have
+      the Prone condition.</p><section id="secret-4BkgU26V2trst09S" class="secret"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Addle</strong> activity includes an Active Effect for tracking the addled
+      target.</p><p>The <strong>Topple</strong> activity includes an Active Effect that applies the Prone
       status.</p></section>
     chat: ''
   source:
@@ -46,9 +42,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          Whenever you hit a creature with an attack granted by your Flurry of
-          Blows
+        condition: Whenever you hit a creature with an attack granted by your Flurry of Blows
       consumption:
         scaling:
           allowed: false
@@ -96,9 +90,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          Whenever you hit a creature with an attack granted by your Flurry of
-          Blows
+        condition: Whenever you hit a creature with an attack granted by your Flurry of Blows
       consumption:
         scaling:
           allowed: false
@@ -149,9 +141,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          Whenever you hit a creature with an attack granted by your Flurry of
-          Blows
+        condition: Whenever you hit a creature with an attack granted by your Flurry of Blows
       consumption:
         scaling:
           allowed: false

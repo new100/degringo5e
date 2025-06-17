@@ -2,9 +2,8 @@ name: Protection from Poison
 system:
   description:
     value: >-
-      <p>You touch a creature and end the &amp;Reference[poisoned] condition on
-      it. For the duration, the target has Advantage on saving throws to avoid
-      or end the Poisoned condition, and it has Resistance to Poison damage.</p>
+      <p>You touch a creature and end the &amp;Reference[poisoned] condition on it. For the duration, the target has
+      Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</p>
     chat: ''
   source:
     custom: ''
@@ -111,9 +110,8 @@ effects:
         value: poison
         priority: null
     description: >-
-      <p><span style="font-family:Signika, sans-serif">For the duration, the
-      target has Advantage on saving throws to avoid or end the Poisoned
-      condition, and it has Resistance to Poison damage.</span></p>
+      <p><span style="font-family:Signika, sans-serif">For the duration, the target has Advantage on saving throws to
+      avoid or end the Poisoned condition, and it has Resistance to Poison damage.</span></p>
     tint: '#ffffff'
     transfer: false
     statuses: []

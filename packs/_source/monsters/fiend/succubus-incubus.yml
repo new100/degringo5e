@@ -501,9 +501,8 @@ items:
     system:
       description:
         value: >-
-          <p>The fiend ignores the range restriction on its telepathy when
-          communicating with a creature it has charmed. The two don't even need
-          to be on the same plane of existence.</p>
+          <p>The fiend ignores the range restriction on its telepathy when communicating with a creature it has charmed.
+          The two don't even need to be on the same plane of existence.</p>
         chat: ''
       source:
         custom: ''
@@ -551,14 +550,11 @@ items:
     system:
       description:
         value: >-
-          <p>The fiend can use its action to polymorph into a Small or Medium
-          humanoid, or back into its true form. Without wings, the fiend loses
-          its flying speed. Other than its size and speed, its statistics are
-          the same in each form.</p><p>Any equipment it is wearing or carrying
-          isn't transformed. It reverts to its true form if it dies.</p>
-        chat: >-
-          <p>The fiend can use its action to <strong>polymorph</strong> into a
-          humanoid, or back into its true form.</p>
+          <p>The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form.
+          Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in
+          each form.</p><p>Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it
+          dies.</p>
+        chat: <p>The fiend can use its action to <strong>polymorph</strong> into a humanoid, or back into its true form.</p>
       source:
         custom: ''
         book: ''
@@ -830,18 +826,13 @@ items:
     system:
       description:
         value: >-
-          <p>One humanoid the fiend can see within 30 feet of it must make a
-          [[/save]] saving throw or be magically charmed for 1 day. The charmed
-          target obeys the fiend's verbal or telepathic commands.</p><p>If the
-          target suffers any harm or receives a suicidal command, it can repeat
-          the saving throw, ending the effect on a success. If the target
-          successfully saves against the effect, or if the effect on it ends,
-          the target is immune to this fiend's Charm for the next 24 hours.The
-          fiend can have only one target charmed at a time. If it charms
-          another, the effect on the previous target ends.</p>
-        chat: >-
-          <p>One humanoid the fiend can see within 30 feet of it must make a
-          <strong>Wisdom</strong> saving throw.</p>
+          <p>One humanoid the fiend can see within 30 feet of it must make a [[/save]] saving throw or be magically
+          charmed for 1 day. The charmed target obeys the fiend's verbal or telepathic commands.</p><p>If the target
+          suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a
+          success. If the target successfully saves against the effect, or if the effect on it ends, the target is
+          immune to this fiend's Charm for the next 24 hours.The fiend can have only one target charmed at a time. If it
+          charms another, the effect on the previous target ends.</p>
+        chat: <p>One humanoid the fiend can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -945,12 +936,10 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The charmed target obeys the fiend's verbal or telepathic
-          commands.</p><p>If the target suffers any harm or receives a suicidal
-          command, it can repeat the saving throw, ending the effect on a
-          success. If the target successfully saves against the effect, or if
-          the effect on it ends, the target is immune to this fiend's Charm for
-          the next 24 hours.</p>
+          <p>The charmed target obeys the fiend's verbal or telepathic commands.</p><p>If the target suffers any harm or
+          receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target
+          successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend's Charm
+          for the next 24 hours.</p>
         tint: '#ffffff'
         statuses:
           - charmed
@@ -969,8 +958,7 @@ items:
           modifiedTime: 1744059080198
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!VmdyZDjqAc8vdncY.2bFCfFfjRNmhyE8A.iuVbm8rd6UWg36yg
+        _key: '!actors.items.effects!VmdyZDjqAc8vdncY.2bFCfFfjRNmhyE8A.iuVbm8rd6UWg36yg'
     folder: null
     sort: 0
     ownership:
@@ -998,16 +986,12 @@ items:
     system:
       description:
         value: >-
-          <p>The fiend kisses a creature charmed by it or a willing creature.
-          The target must make a [[/save]] saving throw against this magic,
-          taking [[/damage]] damage on a failed save, or half as much damage on
-          a successful one.</p><p>The target's hit point maximum is reduced by
-          an amount equal to the damage taken. This reduction lasts until the
-          target finishes a long rest. The target dies if this effect reduces
-          its hit point maximum to 0.</p>
-        chat: >-
-          <p>The target must make a <strong>Constitution</strong> saving throw
-          against this magic.</p>
+          <p>The fiend kisses a creature charmed by it or a willing creature. The target must make a [[/save]] saving
+          throw against this magic, taking [[/damage]] damage on a failed save, or half as much damage on a successful
+          one.</p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction
+          lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to
+          0.</p>
+        chat: <p>The target must make a <strong>Constitution</strong> saving throw against this magic.</p>
       source:
         custom: ''
         book: ''
@@ -1124,9 +1108,7 @@ items:
     img: icons/magic/unholy/barrier-shield-glowing-pink.webp
     system:
       description:
-        value: >-
-          <p>The fiend magically enters the Ethereal Plane from the Material
-          Plane, or vice versa.</p>
+        value: <p>The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa.</p>
         chat: ''
       source:
         custom: ''
@@ -1244,8 +1226,7 @@ items:
           modifiedTime: 1744059585380
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!VmdyZDjqAc8vdncY.s1s5asgUorljP7SV.1Bd78CAdilT57jFe
+        _key: '!actors.items.effects!VmdyZDjqAc8vdncY.s1s5asgUorljP7SV.1Bd78CAdilT57jFe'
     folder: null
     sort: 0
     ownership:

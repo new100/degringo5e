@@ -204,25 +204,20 @@ system:
     max: ''
   description:
     value: >-
-      <p>You learn the
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find Familiar}
-      spell and can cast it as a Magic action without expending a spell
-      slot.</p><p>When you cast the spell, you choose one of the normal forms
-      for your familiar or one of the following special forms:
+      <p>You learn the @UUID[Compendium.degringo5e.spells24.Item.phbsplFindFamili]{Find Familiar} spell and can cast it
+      as a Magic action without expending a spell slot.</p><p>When you cast the spell, you choose one of the normal
+      forms for your familiar or one of the following special forms:
       @UUID[Compendium.degringo5e.actors24.Actor.mmImp00000000000]{Imp},
       @UUID[Compendium.degringo5e.actors24.Actor.mmPseudodragon00]{Pseudodragon},
       @UUID[Compendium.degringo5e.actors24.Actor.mmQuasit00000000]{Quasit},
-      @UUID[Compendium.degringo5e.actors24.Actor.mmSkeleton000000]{Skeleton}, Slaad
-      Tadpole, @UUID[Compendium.degringo5e.actors24.Actor.mmSphinxOfWonder]{Sphinx of
-      Wonder}, @UUID[Compendium.degringo5e.actors24.Actor.mmSprite00000000]{Sprite},
-      or @UUID[Compendium.degringo5e.actors24.Actor.mmVenomousSnake0]{Venomous
-      Snake}.</p><p>Additionally, when you take the Attack action, you can forgo
-      one of your own attacks to allow your familiar to make one attack of its
-      own with its Reaction.</p><section class="secret"
-      id="secret-aKbhLPfPD3R9Y1KL"><p><strong>Foundry Note</strong></p><p>The
-      <strong>Summon Familiar</strong> activity includes the normal summoning
-      options and the <strong>Summon Familiar (Expanded Options)</strong>
-      activity includes the additional options.</p></section>
+      @UUID[Compendium.degringo5e.actors24.Actor.mmSkeleton000000]{Skeleton}, Slaad Tadpole,
+      @UUID[Compendium.degringo5e.actors24.Actor.mmSphinxOfWonder]{Sphinx of Wonder},
+      @UUID[Compendium.degringo5e.actors24.Actor.mmSprite00000000]{Sprite}, or
+      @UUID[Compendium.degringo5e.actors24.Actor.mmVenomousSnake0]{Venomous Snake}.</p><p>Additionally, when you take
+      the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with
+      its Reaction.</p><section class="secret" id="secret-aKbhLPfPD3R9Y1KL"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Summon Familiar</strong> activity includes the normal summoning options and the <strong>Summon Familiar
+      (Expanded Options)</strong> activity includes the additional options.</p></section>
     chat: ''
   source:
     rules: '2024'

@@ -2,9 +2,9 @@ name: Regenerate
 system:
   description:
     value: >-
-      <p>A creature you touch regains 4d8 + 15 Hit Points. For the duration, the
-      target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of
-      each of its turns, and any severed body parts regrow after 2 minutes.</p>
+      <p>A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains [[/healing 1
+      type=healing]]{1 Hit Point} at the start of each of its turns, and any severed body parts regrow after 2
+      minutes.</p>
     chat: ''
   source:
     custom: ''
@@ -122,9 +122,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>For the duration, the target regains [[/healing 1 type=healing]]{1 Hit
-      Point} at the start of each of its turns, and any severed body parts
-      regrow after 2 minutes.</p>
+      <p>For the duration, the target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of each of its
+      turns, and any severed body parts regrow after 2 minutes.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

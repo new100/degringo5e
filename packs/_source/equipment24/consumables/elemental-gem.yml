@@ -303,15 +303,12 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Wondrous Item, Uncommon</em></p><p>This gem contains a mote of
-      elemental energy. When you take a Utilize action to break the gem, an
-      elemental is summoned, and the gem ceases to be magical. The elemental
-      appears in an unoccupied space as close to the broken gem as possible,
-      understands your languages, obeys your commands, and takes its turn
-      immediately after you on your Initiative count. The elemental disappears
-      after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The
-      type of gem determines the elemental, as shown in the following
-      table.</p><table><thead><tr><td>Gem</td><td>Summoned
+      <p><em>Wondrous Item, Uncommon</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize
+      action to break the gem, an elemental is summoned, and the gem ceases to be magical. The elemental appears in an
+      unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and
+      takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it
+      dies, or when you dismiss it as a Bonus Action. The type of gem determines the elemental, as shown in the
+      following table.</p><table><thead><tr><td>Gem</td><td>Summoned
       Elemental</td></tr></thead><tbody><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.dmgBlueElemental]{Blue
       sapphire}</td><td>@UUID[Compendium.degringo5e.actors24.Actor.mmAirElemental00]{Air
       Elemental}</td></tr><tr><td>@UUID[Compendium.degringo5e.equipment24.Item.dmgEmeraldElemen]{Emerald}</td><td>@UUID[Compendium.degringo5e.actors24.Actor.mmWaterElemental]{Water

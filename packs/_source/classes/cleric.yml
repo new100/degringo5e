@@ -5,55 +5,42 @@ img: icons/magic/life/ankh-gold-blue.webp
 system:
   description:
     value: >-
-      <p>As a cleric, you gain the following class features.</p><h3>Hit
-      Points</h3><p><strong>Hit Dice:</strong> 1d8 per cleric level<br
-      /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
-      modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) +
-      your Constitution modifier per cleric level after
-      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor,
-      medium armor, shields<br /><strong>Weapons:</strong> Simple weapons<br
-      /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong>
-      Wisdom, Charisma<br /><strong>Skills:</strong> Choose two from History,
-      Insight, Medicine, Persuasion, and Religion</p><h1>Cleric
-      Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency
+      <p>As a cleric, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per
+      cleric level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points
+      at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per cleric level after
+      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor, medium armor, shields<br
+      /><strong>Weapons:</strong> Simple weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong>
+      Wisdom, Charisma<br /><strong>Skills:</strong> Choose two from History, Insight, Medicine, Persuasion, and
+      Religion</p><h1>Cleric Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency
       Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v4gKwLhAq9vuqza7]{Spellcasting}
       , @UUID[Compendium.degringo5e.classfeatures.Item.x637K2Icp2ZFM1TB]{Divine
       Domain}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
-      Divinity (1/rest)}, Divine Domain
-      feature</td></tr><tr><td>3rd</td><td>+2</td><td>2nd Level Spell
+      Divinity (1/rest)}, Divine Domain feature</td></tr><tr><td>3rd</td><td>+2</td><td>2nd Level Spell
       Slot</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spell
-      Slot, @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
-      Undead (CR
+      Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spell Slot,
+      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead (CR
       1/2)}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
-      Divinity (2/rest)}, Divine Domain
-      feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell
+      Divinity (2/rest)}, Divine Domain feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell
       Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{ASI},
-      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead
-      (CR 1)}, Divine Domain feature</td></tr><tr><td>9th</td><td>+4</td><td>5th
-      Level Spell
+      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead (CR 1)}, Divine Domain
+      feature</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell
       Slot</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
-      Intervention}</td></tr><tr><td>11th</td><td>+4</td><td>6th Level Spell
-      Slot, @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
-      Undead (CR
+      Intervention}</td></tr><tr><td>11th</td><td>+4</td><td>6th Level Spell Slot,
+      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead (CR
       2)}</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level
-      Spell
+      Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level Spell
       Slot</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy
       Undead (CR 3)}</td></tr><tr><td>15th</td><td>+5</td><td>8th Level Spell
       Slot</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
-      Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9th Level
-      Spell Slot,
-      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead
-      (CR 4)}, Divine Domain
+      Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9th Level Spell Slot,
+      @UUID[Compendium.degringo5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Destroy Undead (CR 4)}, Divine Domain
       feature</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Channel
       Divinity
       (3/rest)}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability
       Score
       Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Divine
       Intervention (Automatic Success)}</td></tr></tbody></table><h1>Divine
-      Domains</h1><p>@UUID[Compendium.degringo5e.subclasses.Item.H3RYLGqCiqm8BP3q]{Life
-      Domain}</p>
+      Domains</h1><p>@UUID[Compendium.degringo5e.subclasses.Item.H3RYLGqCiqm8BP3q]{Life Domain}</p>
     chat: ''
   source:
     custom: ''

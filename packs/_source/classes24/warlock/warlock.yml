@@ -6,36 +6,28 @@ img: systems/degringo5e/icons/classes/warlock.webp
 system:
   description:
     value: >-
-      <h3>Core Warlock Traits</h3><table
-      class="core-class-traits"><tbody><tr><th scope="row"><p>Primary
-      Ability</p></th><td><p>Charisma</p></td></tr><tr><th scope="row"><p>Hit
-      Point Die</p></th><td><p>D8 per Warlock level</p></td></tr><tr><th
-      scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and
-      Charisma</p></td></tr><tr><th scope="row"><p>Skill
-      Proficiencies</p></th><td><p><em>Choose 2: </em>Arcana, Deception,
-      History, Intimidation, Investigation, Nature, or
-      Religion</p></td></tr><tr><th scope="row"><p>Weapon
-      Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th
-      scope="row"><p>Armor Training</p></th><td><p>Light
-      armor</p></td></tr><tr><th scope="row"><p>Starting
+      <h3>Core Warlock Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary
+      Ability</p></th><td><p>Charisma</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8 per Warlock
+      level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and
+      Charisma</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>Arcana,
+      Deception, History, Intimidation, Investigation, Nature, or Religion</p></td></tr><tr><th scope="row"><p>Weapon
+      Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope="row"><p>Armor
+      Training</p></th><td><p>Light armor</p></td></tr><tr><th scope="row"><p>Starting
       Equipment</p></th><td><p><em>Choose A or B: </em>(A)
       @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepSickle0000]{Sickle}, 2
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
       (@UUID[Compendium.degringo5e.equipment24.Item.phbafcOrb0000000]{orb}),
-      @UUID[Compendium.degringo5e.equipment24.Item.phiPN9UzkXk3i5xh]{Book} (occult
-      lore), @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's
-      Pack}, and [[/award 15GP]]; or (B) [[/award
+      @UUID[Compendium.degringo5e.equipment24.Item.phiPN9UzkXk3i5xh]{Book} (occult lore),
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack}, and [[/award 15GP]]; or (B)
+      [[/award
       100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwlkWarlock000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Warlock …</h2><h3>As
-      a Level 1 Character</h3><ul><li>Gain all the traits in the Core Warlock
-      Traits table.</li><li>Gain the Warlock's level 1 features, which are
-      listed in the
+      inline classes="free-rules-embed"]</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Warlock Traits table.</li><li>Gain the Warlock's level 1 features, which are listed in the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock
-      Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain
-      the following traits from the Core Warlock Traits table: Hit Point Die and
-      training with Light armor.</li><li>Gain the Warlock's level 1 features,
+      Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core
+      Warlock Traits table: Hit Point Die and training with Light armor.</li><li>Gain the Warlock's level 1 features,
       which are listed in the Warlock Features table. See the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
       rules} to determine your available spell slots.</li></ul>
@@ -187,9 +179,8 @@ system:
       level: 4
       title: ''
       hint: >-
-        You gain the Ability Score Improvement feat or another feat of your
-        choice for which you qualify. You gain this feature again at Warlock
-        levels 8, 12, and 16.
+        You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this
+        feature again at Warlock levels 8, 12, and 16.
     - _id: mRSh9oUVjLU33e7p
       type: AbilityScoreImprovement
       configuration:
@@ -208,9 +199,8 @@ system:
       level: 8
       title: ''
       hint: >-
-        You gain the Ability Score Improvement feat or another feat of your
-        choice for which you qualify. You gain this feature again at Warlock
-        levels 8, 12, and 16.
+        You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this
+        feature again at Warlock levels 8, 12, and 16.
     - _id: mhZh3LfLMa15tXee
       type: AbilityScoreImprovement
       configuration:
@@ -229,9 +219,8 @@ system:
       level: 12
       title: ''
       hint: >-
-        You gain the Ability Score Improvement feat or another feat of your
-        choice for which you qualify. You gain this feature again at Warlock
-        levels 8, 12, and 16.
+        You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this
+        feature again at Warlock levels 8, 12, and 16.
     - _id: FOf5CkGnSs0OlppY
       type: AbilityScoreImprovement
       configuration:
@@ -250,9 +239,8 @@ system:
       level: 16
       title: ''
       hint: >-
-        You gain the Ability Score Improvement feat or another feat of your
-        choice for which you qualify. You gain this feature again at Warlock
-        levels 8, 12, and 16.
+        You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this
+        feature again at Warlock levels 8, 12, and 16.
     - _id: HucmTSEzIq7OeJr7
       type: ScaleValue
       configuration:
@@ -306,10 +294,9 @@ system:
       level: 3
       title: ''
       hint: >-
-        You gain a Warlock subclass of your choice. A subclass is a
-        specialization that grants you features at certain Warlock levels. For
-        the rest of your career, you gain each of your subclass’s features that
-        are of your Warlock level or lower.
+        You gain a Warlock subclass of your choice. A subclass is a specialization that grants you features at certain
+        Warlock levels. For the rest of your career, you gain each of your subclass’s features that are of your Warlock
+        level or lower.
     - _id: v3lym1uxhRr5SHcH
       type: ScaleValue
       configuration:
@@ -453,8 +440,8 @@ system:
         replaced: {}
       title: Eldritch Invocations
       hint: >-
-        You have unearthed Eldritch Invocations, pieces of forbidden knowledge
-        that imbue you with an abiding magical ability or other lessons.
+        You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical
+        ability or other lessons.
     - _id: pNAJJ0MCkjHO2ZK1
       type: ItemGrant
       configuration:
@@ -473,9 +460,8 @@ system:
       level: 9
       title: Contact Patron
       hint: >-
-        In the past, you usually contacted your patron through intermediaries.
-        Now you can communicate directly; you always have the Contact Other
-        Plane spell prepared.
+        In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you
+        always have the Contact Other Plane spell prepared.
     - _id: w3XtC5cc3AGUvU77
       type: ItemChoice
       configuration:
@@ -505,9 +491,7 @@ system:
         added: {}
         replaced: {}
       title: Epic Boon
-      hint: >-
-        You gain an Epic Boon feat or another feat of your choice for which you
-        qualify. Boon of Fate is recommended.
+      hint: You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended.
     - _id: W9auMtMHTf0KV1Xw
       type: Trait
       configuration:

@@ -74,13 +74,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Injury Poison</em></p><p>A creature subjected to Lolth's Sting must
-      succeed on a DC 13 Constitution saving throw or have the
-      &amp;reference[Poisoned apply=false] condition for 1 hour. If the creature
-      fails the save by 5 or more, the creature also has the
-      &amp;Reference[Unconscious apply=false] condition while Poisoned in this
-      way. The creature wakes up if it takes damage or if another creature takes
-      an action to shake it awake.</p>
+      <p><em>Injury Poison</em></p><p>A creature subjected to Lolth's Sting must succeed on a DC 13 Constitution saving
+      throw or have the &amp;reference[Poisoned apply=false] condition for 1 hour. If the creature fails the save by 5
+      or more, the creature also has the &amp;Reference[Unconscious apply=false] condition while Poisoned in this way.
+      The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>
     chat: ''
   identifier: spiders-sting
   source:
@@ -145,8 +142,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e
@@ -179,8 +175,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgAssassinsBloo.ActiveEffect.zpDCMRInMzrnRAAd
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

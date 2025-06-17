@@ -495,12 +495,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is
-          a humanoid, it must succeed on a [[/save]] saving throw or be cursed
-          with werewolf lycanthropy.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>If the target is a humanoid, it must succeed on a
+          [[/save]] saving throw or be cursed with werewolf lycanthropy.</p>
         chat: >-
-          <p>The Werewolf attacks with its Bite. If the target is a humanoid, it
-          must make a <strong>Constitution</strong> saving throw.</p>
+          <p>The Werewolf attacks with its Bite. If the target is a humanoid, it must make a
+          <strong>Constitution</strong> saving throw.</p>
       source:
         custom: ''
         book: ''
@@ -722,8 +721,7 @@ items:
     system:
       description:
         value: >-
-          <p>The werewolf makes two attacks: one with its [[/item
-          .tWfR8uJNnQxpXgDw]]{bite} and one with its [[/item
+          <p>The werewolf makes two attacks: one with its [[/item .tWfR8uJNnQxpXgDw]]{bite} and one with its [[/item
           .36H4LGNMMEYS1Irm]]{claws} or [[/item .TiKtAuqd6urQ45Ds]]{spear}.</p>
         chat: ''
       source:
@@ -824,9 +822,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]], or <strong>6 (1d8 + 2)
-          <em>piercing damage</em></strong> if used with two hands to make a
-          melee attack.</p>
+          <p>[[/attack extended]]. [[/damage extended]], or <strong>6 (1d8 + 2) <em>piercing damage</em></strong> if
+          used with two hands to make a melee attack.</p>
         chat: <p>The Werewolf attacks with its Spear.</p>
       source:
         custom: ''
@@ -1155,14 +1152,10 @@ items:
     system:
       description:
         value: >-
-          <p>The werewolf can use its action to polymorph into a wolf-humanoid
-          hybrid or into a wolf, or back into its true form, which is
-          humanoid.</p><p>Its statistics, other than its AC, are the same in
-          each form. Any equipment it is wearing or carrying isn't transformed.
-          It reverts to its true form if it dies.</p>
-        chat: >-
-          <p>The werewolf can use its action to <strong>polymorph</strong>, or
-          return to its true form.</p>
+          <p>The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its
+          true form, which is humanoid.</p><p>Its statistics, other than its AC, are the same in each form. Any
+          equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p>
+        chat: <p>The werewolf can use its action to <strong>polymorph</strong>, or return to its true form.</p>
       source:
         custom: ''
         book: ''
@@ -1261,9 +1254,7 @@ items:
     img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
     system:
       description:
-        value: >-
-          <p>The werewolf has advantage on Wisdom (Perception) checks that rely
-          on hearing or smell.</p>
+        value: <p>The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
         chat: ''
       source:
         custom: ''

@@ -2,8 +2,8 @@ name: Sun
 system:
   description:
     value: >-
-      <p> A magic item (chosen by the DM) appears on your person. In addition,
-      you gain 10 Temporary Hit Points daily at dawn until you die.</p>
+      <p> A magic item (chosen by the DM) appears on your person. In addition, you gain 10 Temporary Hit Points daily at
+      dawn until you die.</p>
     chat: ''
   price:
     value: 0
@@ -125,10 +125,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p><em>Source:
-      @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You
-      gain [[/healing 10 type=temphp]]{10 Temporary Hit Points} daily at dawn
-      until you die.</p>
+      <p><em>Source: @UUID[Compendium.degringo5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You gain [[/healing
+      10 type=temphp]]{10 Temporary Hit Points} daily at dawn until you die.</p>
     tint: '#ffffff'
     statuses: []
     sort: 0

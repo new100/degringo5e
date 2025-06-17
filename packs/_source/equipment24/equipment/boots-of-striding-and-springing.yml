@@ -11,12 +11,10 @@ system:
     max: ''
   description:
     value: >-
-      <div><p><em>Wondrous Item, Uncommon (Requires
-      Attunement)</em></p></div><p>While you wear these boots, your Speed
-      becomes 30 feet unless your Speed is higher, and your Speed isn't reduced
-      by you carrying weight in excess of your carrying capacity or wearing
-      Heavy Armor.</p><p>Once on each of your turns, you can jump up to 30 feet
-      by spending only 10 feet of movement.</p>
+      <div><p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p></div><p>While you wear these boots, your Speed
+      becomes 30 feet unless your Speed is higher, and your Speed isn't reduced by you carrying weight in excess of your
+      carrying capacity or wearing Heavy Armor.</p><p>Once on each of your turns, you can jump up to 30 feet by spending
+      only 10 feet of movement.</p>
     chat: ''
   identifier: boots-of-striding-and-springing
   source:
@@ -78,9 +76,8 @@ effects:
       startRound: null
       startTurn: null
     description: >-
-      <p>Your Speed becomes 30 feet unless your Speed is higher, and your Speed
-      isn’t reduced by you carrying weight in excess of your carrying capacity
-      or wearing Heavy Armor.</p>
+      <p>Your Speed becomes 30 feet unless your Speed is higher, and your Speed isn’t reduced by you carrying weight in
+      excess of your carrying capacity or wearing Heavy Armor.</p>
     origin: null
     tint: '#ffffff'
     transfer: true

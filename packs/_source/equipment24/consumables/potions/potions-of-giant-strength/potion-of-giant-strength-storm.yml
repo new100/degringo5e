@@ -67,11 +67,10 @@ system:
     max: '1'
   description:
     value: >-
-      <p><em>Potion, Legendary</em></p><p>When you drink this potion, your
-      Strength score changes for 1 hour to 29. The type of giant determines the
-      score. The potion has no effect on you if your Strength is equal to or
-      greater than that score.</p><p>This potion's transparent liquid has
-      floating in it a sliver of light resembling a giant's fingernail.</p>
+      <p><em>Potion, Legendary</em></p><p>When you drink this potion, your Strength score changes for 1 hour to 29. The
+      type of giant determines the score. The potion has no effect on you if your Strength is equal to or greater than
+      that score.</p><p>This potion's transparent liquid has floating in it a sliver of light resembling a giant's
+      fingernail.</p>
     chat: ''
   identifier: storm-potion-of-giant-strength
   source:
@@ -138,8 +137,7 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
+      compendiumSource: Compendium.degringo5e.equipment24.Item.dmgStonePotionOf.ActiveEffect.ja1TakW2VVvY8HW3
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

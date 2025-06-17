@@ -636,14 +636,11 @@ items:
         max: ''
       description:
         value: >-
-          <p>At the end of each of the [[lookup @name lowercase]]'s turns, each
-          [[lookup @target.affects.type activity=15VgJKVXwYBOFSqJ]] of the
-          [[lookup @name lowercase]]'s choice in a [[lookup
-          @target.template.size activity=15VgJKVXwYBOFSqJ]]-foot Emanation
-          originating from the [[lookup @name lowercase]] takes [[/damage
-          average]] damage. <span style="font-family:'Roboto Condensed',
-          sans-serif">Creatures and flammable objects in the Emanation start
-          burning.</span></p>
+          <p>At the end of each of the [[lookup @name lowercase]]'s turns, each [[lookup @target.affects.type
+          activity=15VgJKVXwYBOFSqJ]] of the [[lookup @name lowercase]]'s choice in a [[lookup @target.template.size
+          activity=15VgJKVXwYBOFSqJ]]-foot Emanation originating from the [[lookup @name lowercase]] takes [[/damage
+          average]] damage. <span style="font-family:'Roboto Condensed', sans-serif">Creatures and flammable objects in
+          the Emanation start burning.</span></p>
         chat: ''
       identifier: fire-aura
       source:
@@ -751,11 +748,9 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] can move through a
-          space as narrow as 1 inch without expending extra movement to do so,
-          and it can enter a creature's space and stop there. The first time it
-          enters a creature's space on a turn, that creature takes [[/damage
-          average]] damage.</p>
+          <p class="feature">The [[lookup @name lowercase]] can move through a space as narrow as 1 inch without
+          expending extra movement to do so, and it can enter a creature's space and stop there. The first time it
+          enters a creature's space on a turn, that creature takes [[/damage average]] damage.</p>
         chat: ''
       identifier: fire-form
       source:
@@ -809,8 +804,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] sheds Bright Light in a 30-foot
-          radius and Dim Light for an additional 30 feet.</p>
+          <p>The [[lookup @name lowercase]] sheds Bright Light in a 30-foot radius and Dim Light for an additional 30
+          feet.</p>
         chat: ''
       identifier: illumination
       source:
@@ -916,13 +911,11 @@ items:
         max: ''
       description:
         value: >-
-          <p class="feature">The [[lookup @name lowercase]] takes 3 (1d6) Cold
-          damage damage for every 5 feet the [[lookup @name lowercase]] moves in
-          water or for every gallon of water splashed on it.</p><section
-          class="secret" id="secret-8tKSKGttxgiryprr"><p><strong>Foundry
-          Note</strong></p><p>Scaling is configured to roll the correct number
-          of dice based on the distance traveled through water. 1 is default for
-          5 feet, 2 is for 10 feet, and so forth.</p></section>
+          <p class="feature">The [[lookup @name lowercase]] takes 3 (1d6) Cold damage damage for every 5 feet the
+          [[lookup @name lowercase]] moves in water or for every gallon of water splashed on it.</p><section
+          class="secret" id="secret-8tKSKGttxgiryprr"><p><strong>Foundry Note</strong></p><p>Scaling is configured to
+          roll the correct number of dice based on the distance traveled through water. 1 is default for 5 feet, 2 is
+          for 10 feet, and so forth.</p></section>
         chat: ''
       identifier: water-susceptibility
       source:
@@ -1011,9 +1004,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmBurn0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmBurn0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -1108,9 +1099,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]]. If the target
-          is a creature or a flammable object, it starts
-          &amp;Reference[burning].</p>
+          <p>[[/attack extended]]. [[/damage average extended]]. If the target is a creature or a flammable object, it
+          starts &amp;Reference[burning].</p>
         chat: ''
       identifier: burn
       source:
@@ -1210,8 +1200,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmFireElemental0.mmBurn0000000000.ePppPvhLU1DnHySS
+        _key: '!actors.items.effects!mmFireElemental0.mmBurn0000000000.ePppPvhLU1DnHySS'
     flags:
       degringo5e:
         riders:

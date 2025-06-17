@@ -491,14 +491,11 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the target is
-          a creature, it is grappled (escape DC 17). Until this grapple ends,
-          the target is restrained, and the remorhaz can't bite another
-          target.</p>
+          <p>[[/attack extended]]. [[/damage extended]]. </p><p>If the target is a creature, it is grappled (escape DC
+          17). Until this grapple ends, the target is restrained, and the remorhaz can't bite another target.</p>
         chat: >-
-          <p>The Remorhaz attacks with its Bite. If the target is a creature, it
-          is grappled. Until this grapple ends, the target is restrained, and
-          the remorhaz can't bite another target.</p>
+          <p>The Remorhaz attacks with its Bite. If the target is a creature, it is grappled. Until this grapple ends,
+          the target is restrained, and the remorhaz can't bite another target.</p>
       source:
         custom: ''
         book: ''
@@ -674,12 +671,11 @@ items:
     system:
       description:
         value: >-
-          <p>A creature that touches the remorhaz or hits it with a melee attack
-          while within 5 feet of it takes <strong>10 (3d6) <em>fire
-          damage</em></strong>.</p>
+          <p>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes
+          <strong>10 (3d6) <em>fire damage</em></strong>.</p>
         chat: >-
-          <p>A creature that touches the remorhaz or hits it with a melee attack
-          while within 5 feet of it takes <em>fire damage</em>.</p>
+          <p>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes
+          <em>fire damage</em>.</p>
       source:
         custom: ''
         book: ''
@@ -790,13 +786,11 @@ items:
     system:
       description:
         value: >-
-          <p>The remorhaz makes one bite attack against a Medium or smaller
-          creature it is grappling. </p><p>If the attack hits, that creature
-          takes the bite's damage and is swallowed, and the grapple ends. While
-          swallowed, the creature is blinded and restrained, it has total cover
-          against attacks and other effects outside the remorhaz, and it takes
-          <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of
-          the remorhaz's turns.</p>
+          <p>The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. </p><p>If the
+          attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed,
+          the creature is blinded and restrained, it has total cover against attacks and other effects outside the
+          remorhaz, and it takes <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of the remorhaz's
+          turns.</p>
         chat: <p>The Remorhaz attacks with its Swallow.</p>
       source:
         custom: ''

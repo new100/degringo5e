@@ -6,11 +6,9 @@ type: spell
 system:
   description:
     value: >-
-      <p>You touch a corpse or other remains. For the duration, the target is
-      protected from decay and can't become undead.</p><p>The spell also
-      effectively extends the time limit on raising the target from the dead,
-      since days spent under the influence of this spell don't count against the
-      time limit of spells such as raise dead.</p>
+      <p>You touch a corpse or other remains. For the duration, the target is protected from decay and can't become
+      undead.</p><p>The spell also effectively extends the time limit on raising the target from the dead, since days
+      spent under the influence of this spell don't count against the time limit of spells such as raise dead.</p>
     chat: ''
   source:
     custom: ''
@@ -42,9 +40,7 @@ system:
   level: 2
   school: nec
   materials:
-    value: >-
-      A pinch of salt and one copper piece placed on each of the corpse's eyes,
-      which must remain there for the duration
+    value: A pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration
     consumed: false
     cost: 0
     supply: 0

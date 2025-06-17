@@ -3,9 +3,7 @@ type: npc
 system:
   details:
     biography:
-      value: >-
-        <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplAnimateObj
-        caption=false]</p>
+      value: <p>@Embed[Compendium.degringo5e.spells24.Item.phbsplAnimateObj caption=false]</p>
       public: ''
     alignment: Unaligned
     type:
@@ -490,9 +488,8 @@ items:
     system:
       description:
         value: >-
-          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack
-          modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d6 + 3 +
-          your spellcasting ability modifier.</p>
+          <p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage
+          equal to 2d6 + 3 + your spellcasting ability modifier.</p>
         chat: ''
       source:
         custom: ''
@@ -573,9 +570,7 @@ items:
             parts:
               - custom:
                   enabled: true
-                  formula: >-
-                    (@flags.degringo5e.summon.level - 3)d6 + @mod +
-                    @flags.degringo5e.summon.mod
+                  formula: (@flags.degringo5e.summon.level - 3)d6 + @mod + @flags.degringo5e.summon.mod
                 number: null
                 denomination: null
                 bonus: ''

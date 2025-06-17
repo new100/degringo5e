@@ -408,8 +408,7 @@ system:
     biography:
       value: >-
         <div class="gear"><p><strong>Gear:</strong>
-        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather
-        Armor},
+        @UUID[Compendium.degringo5e.equipment24.Item.phbarmLeatherArm]{Leather Armor},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepLongbow000]{Longbow},
         @UUID[Compendium.degringo5e.equipment24.Item.phbwepShortsword]{Shortsword}</p></div><h1>Scouts</h1><p>@Embed[Compendium.degringo5e.content24.JournalEntry.mmAppendixMonste.JournalEntryPage.Ia0dhEMIJJ7PVLVn
         caption=false cite=false classes="no-embed
@@ -1026,9 +1025,8 @@ items:
         max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item
-          .jdOlqVzYs89JuqTB]] and [[/item .qhM3PIWgXdyRCeul]] in any
-          combination.</p>
+          <p>The [[lookup @name lowercase]] makes two attacks, using [[/item .jdOlqVzYs89JuqTB]] and [[/item
+          .qhM3PIWgXdyRCeul]] in any combination.</p>
         chat: ''
       identifier: multiattack
       source:

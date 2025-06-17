@@ -15,9 +15,7 @@ system:
     rules: '2014'
   activation:
     type: minute
-    condition: >-
-      an area of air, earth, fire, or water that fills a 10-foot cube within
-      range
+    condition: an area of air, earth, fire, or water that fills a 10-foot cube within range
     value: 1
   duration:
     value: '1'
@@ -40,9 +38,7 @@ system:
   level: 5
   school: con
   materials:
-    value: >-
-      Burning incense for air, soft clay for earth, sulfur and phosphorus for
-      fire, or water and sand for water.
+    value: Burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water.
     consumed: false
     cost: 0
     supply: 0

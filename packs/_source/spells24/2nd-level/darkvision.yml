@@ -1,9 +1,7 @@
 name: Darkvision
 system:
   description:
-    value: >-
-      <p>For the duration, a willing creature you touch has
-      &amp;Reference[darkvision] with a range of 150 feet.</p>
+    value: <p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>
     chat: ''
   source:
     custom: ''
@@ -106,16 +104,13 @@ effects:
         mode: 4
         value: '120'
         priority: null
-    description: >-
-      <p>For the duration, a willing creature you touch has
-      &amp;Reference[darkvision] with a range of 150 feet.</p>
+    description: <p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>
     transfer: false
     statuses: []
     flags: {}
     tint: '#ffffff'
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.hJ6ZiA3fpoY8v9cp.ActiveEffect.9qaZQFN5xP8Gig8f
+      compendiumSource: Compendium.degringo5e.spells.Item.hJ6ZiA3fpoY8v9cp.ActiveEffect.9qaZQFN5xP8Gig8f
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

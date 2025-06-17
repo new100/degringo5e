@@ -497,9 +497,7 @@ items:
     img: icons/equipment/chest/breastplate-rivited-red.webp
     system:
       description:
-        value: >-
-          <p>Made from tough but flexible leather, studded leather is reinforced
-          with close-set rivets or spikes.</p>
+        value: <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
         chat: ''
       source:
         custom: ''
@@ -573,9 +571,8 @@ items:
     system:
       description:
         value: >-
-          <p>While in sunlight, the wight has<strong> disadvantage </strong>on
-          attack rolls, as well as on Wisdom (Perception) checks that rely on
-          sight.</p>
+          <p>While in sunlight, the wight has<strong> disadvantage </strong>on attack rolls, as well as on Wisdom
+          (Perception) checks that rely on sight.</p>
         chat: ''
       source:
         custom: ''
@@ -622,10 +619,9 @@ items:
     system:
       description:
         value: >-
-          <p>The wight makes two [[/item .WZ3XGh48UoyAvBhS]]{longsword} attacks
-          or two [[/item .PUYwkzEiKopyM6YL]]{longbow} attacks. It can use its
-          [[/item .NX8cqG6aZMns8wvY]]{Life Drain} in place of one longsword
-          attack.</p>
+          <p>The wight makes two [[/item .WZ3XGh48UoyAvBhS]]{longsword} attacks or two [[/item
+          .PUYwkzEiKopyM6YL]]{longbow} attacks. It can use its [[/item .NX8cqG6aZMns8wvY]]{Life Drain} in place of one
+          longsword attack.</p>
         chat: ''
       source:
         custom: ''
@@ -891,8 +887,8 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]], or [[/damage average
-          attackMode=twoHanded]] damage if used with two hands.</p>
+          <p>[[/attack extended]]. [[/damage extended]], or [[/damage average attackMode=twoHanded]] damage if used with
+          two hands.</p>
         chat: <p>The Wight attacks with its Longsword.</p>
       source:
         custom: ''
@@ -1057,18 +1053,15 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must
-          succeed on a  <strong>DC 13 Constitution</strong> saving throw or its
-          hit point maximum is reduced by an amount equal to the damage taken.
-          This reduction lasts until the target finishes a long rest. The target
-          dies if this effect reduces its hit point maximum to 0.</p><p>A
-          humanoid slain by this attack rises 24 hours later as a zombie under
-          the wight's control, unless the humanoid is restored to life or its
-          body is destroyed. The wight can have no more than twelve zombies
-          under its control at one time.</p>
+          <p>[[/attack extended]]. [[/damage extended]].</p><p>The target must succeed on a  <strong>DC 13
+          Constitution</strong> saving throw or its hit point maximum is reduced by an amount equal to the damage taken.
+          This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit
+          point maximum to 0.</p><p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's
+          control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than
+          twelve zombies under its control at one time.</p>
         chat: >-
-          <p>The Wight attacks with its Life Drain. The target must make a
-          <strong>Constitution</strong> saving throw.</p>
+          <p>The Wight attacks with its Life Drain. The target must make a <strong>Constitution</strong> saving
+          throw.</p>
       source:
         custom: ''
         book: ''

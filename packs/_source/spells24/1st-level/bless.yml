@@ -2,11 +2,9 @@ name: Bless
 system:
   description:
     value: >-
-      <p>You bless up to three creatures within range. Whenever a target makes
-      an attack roll or a saving throw before the spell ends, the target adds
-      1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level Spell
-      Slot.</strong> You can target one additional creature for each spell slot
-      level above 1.</p>
+      <p>You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before
+      the spell ends, the target adds 1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level Spell
+      Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>
     chat: ''
   source:
     custom: ''
@@ -131,12 +129,11 @@ effects:
     transfer: false
     name: Blessed
     description: >-
-      <p>Whenever a target makes an attack roll or a saving throw before the
-      spell ends, the target adds 1d4 to the attack roll or save.</p>
+      <p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the
+      attack roll or save.</p>
     statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
+      compendiumSource: Compendium.degringo5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
       duplicateSource: null
       coreVersion: '13.344'
       systemId: degringo5e

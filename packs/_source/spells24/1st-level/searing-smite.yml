@@ -2,12 +2,10 @@ name: Searing Smite
 system:
   description:
     value: >-
-      <p>As you hit the target, it takes an extra 1d6 Fire damage from the
-      attack. At the start of each of its turns until the spell ends, the target
-      takes 1d6 Fire damage and then makes a Constitution saving throw. On a
-      failed save, the spell continues. On a successful save, the spell
-      ends.</p><p><strong>Using a Higher-Level Spell Slot. </strong>All the
-      damage increases by 1d6 for each spell slot level above 1.</p>
+      <p>As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns
+      until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed
+      save, the spell continues. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.
+      </strong>All the damage increases by 1d6 for each spell slot level above 1.</p>
     chat: ''
   source:
     custom: ''
@@ -17,9 +15,7 @@ system:
     revision: 2
   activation:
     type: bonus
-    condition: >-
-      immediately after hitting a target with a Melee weapon or an Unarmed
-      Strike
+    condition: immediately after hitting a target with a Melee weapon or an Unarmed Strike
     value: null
   duration:
     value: '1'
@@ -193,10 +189,9 @@ effects:
     system: {}
     changes: []
     description: >-
-      <p>At the start of each of its turns until the spell ends, the target
-      takes [[/damage 1d6 type=fire]] damage and then makes a [[/save
-      ability=con]] saving throw. On a failed save, the spell continues. On a
-      successful save, the spell ends.</p>
+      <p>At the start of each of its turns until the spell ends, the target takes [[/damage 1d6 type=fire]] damage and
+      then makes a [[/save ability=con]] saving throw. On a failed save, the spell continues. On a successful save, the
+      spell ends.</p>
     tint: '#ffffff'
     transfer: false
     statuses: []

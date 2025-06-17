@@ -493,9 +493,8 @@ items:
     system:
       description:
         value: >-
-          <p>A shield is made from wood or metal and is carried in one hand.
-          Wielding a shield increases your Armor Class by 2. You can benefit
-          from only one shield at a time.</p>
+          <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor
+          Class by 2. You can benefit from only one shield at a time.</p>
         chat: ''
       source:
         custom: ''
@@ -569,8 +568,8 @@ items:
     system:
       description:
         value: >-
-          <p>A creature that touches the azer or hits it with a melee attack
-          while within 5 feet of it takes [[/damage average]] damage.</p>
+          <p>A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes [[/damage
+          average]] damage.</p>
         chat: ''
       source:
         custom: ''
@@ -686,11 +685,11 @@ items:
     system:
       description:
         value: >-
-          <p>When the azer hits with a metal melee weapon, it deals an extra 3
-          (1d6) fire damage (included in the attack).</p>
+          <p>When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the
+          attack).</p>
         chat: >-
-          <p>When the azer hits with a metal melee weapon, it deals extra
-          <em>fire damage</em> (included in the attack).</p>
+          <p>When the azer hits with a metal melee weapon, it deals extra <em>fire damage</em> (included in the
+          attack).</p>
       source:
         custom: ''
         book: ''
@@ -739,9 +738,7 @@ items:
     img: icons/magic/light/explosion-star-glow-blue-purple.webp
     system:
       description:
-        value: >-
-          <p>The azer sheds bright light in a 10-foot radius and dim light for
-          an additional 10 ft.</p>
+        value: <p>The azer sheds bright light in a 10-foot radius and dim light for an additional 10 ft.</p>
         chat: ''
       source:
         custom: ''
@@ -788,18 +785,16 @@ items:
     system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage extended]], or [[/damage average
-          attackMode=twoHanded]] if used with two hands to make a melee
-          attack.</p>
+          <p>[[/attack extended]]. [[/damage extended]], or [[/damage average attackMode=twoHanded]] if used with two
+          hands to make a melee attack.</p>
         chat: >-
           <section>
 
 
           </section>
 
-          <p>A heavy metal hammer capable of being wielded with a single hand
-          with a shield or in two hands to deliver crushing concussive
-          blows.</p>
+          <p>A heavy metal hammer capable of being wielded with a single hand with a shield or in two hands to deliver
+          crushing concussive blows.</p>
       source:
         custom: ''
         book: ''

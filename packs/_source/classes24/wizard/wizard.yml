@@ -6,56 +6,42 @@ img: systems/degringo5e/icons/classes/wizard.webp
 system:
   description:
     value: >-
-      <h3>Core Wizard Traits</h3><table class="core-class-traits"><tbody><tr><th
-      scope="row"><p><strong>Primary
-      Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th
-      scope="row"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Wizard
-      level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
-      Proficiencies</strong></p></th><td><p>Intelligence and
-      Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
-      Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, History,
-      Insight, Investigation, Medicine, Nature, or Religion</p></td></tr><tr><th
-      scope="row"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple
+      <h3>Core Wizard Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p><strong>Primary
+      Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th scope="row"><p><strong>Hit Point
+      Die</strong></p></th><td><p>D6 per Wizard level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
+      Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
+      Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, History, Insight, Investigation, Medicine, Nature,
+      or Religion</p></td></tr><tr><th scope="row"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple
       weapons</p></td></tr><tr><th scope="row"><p><strong>Armor
-      Training</strong></p></th><td><p>None</p></td></tr><tr><th
-      scope="row"><p><strong>Starting
+      Training</strong></p></th><td><p>None</p></td></tr><tr><th scope="row"><p><strong>Starting
       Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) 2
       @UUID[Compendium.degringo5e.equipment24.Item.phbwepDagger0000]{Daggers},
       @UUID[Compendium.degringo5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus}
       (@UUID[Compendium.degringo5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
       @UUID[Compendium.degringo5e.equipment24.Item.phbagRobe0000000]{Robe},
       @UUID[Compendium.degringo5e.items.Item.LBajgahniRJbAgDr]{Spellbook},
-      @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack},
-      and [[/award 5GP]]; or (B) [[/award
+      @UUID[Compendium.degringo5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack}, and [[/award 5GP]]; or (B)
+      [[/award
       55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.degringo5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000
-      inline classes="free-rules-embed"]</p><h2>Becoming a Wizard …</h2><h3>As a
-      Level 1 Character</h3><ul><li>Gain all the traits in the Core Wizard
-      Traits table.</li><li>Gain the Wizard's level 1 features, which are listed
-      in the Wizard Features table.</li></ul><h3>As a Multiclass
-      Character</h3><ul><li>Gain the Hit Point Die from the Core Wizard Traits
-      table.</li><li>Gain the Wizard's level 1 features, which are listed in the
+      inline classes="free-rules-embed"]</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all
+      the traits in the Core Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the
+      Wizard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core
+      Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard
       Features table}. See the
       @UUID[Compendium.degringo5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
-      rules} to determine your available spell slots.</li></ul><aside
-      class="notable"><p><strong>Expanding and Replacing a
-      Spellbook</strong></p><p>The spells you add to your spellbook as you gain
-      levels reflect your ongoing magical research, but you might find other
-      spells during your adventures that you can add to the book. You could
-      discover a Wizard spell on a Spell Scroll, for example, and then copy it
-      into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong>
-      When you find a level 1+ Wizard spell, you can copy it into your spellbook
-      if it's of a level you can prepare and if you have time to copy it. For
-      each level of the spell, the transcription takes 2 hours and costs 50 GP.
-      Afterward you can prepare the spell like the other spells in your
-      spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell
-      from your spellbook into another book. This is like copying a new spell
-      into your spellbook but faster, since you already know how to cast the
-      spell. You need spend only 1 hour and 10 GP for each level of the copied
-      spell.</p><p>If you lose your spellbook, you can use the same procedure to
-      transcribe the Wizard spells that you have prepared into a new spellbook.
-      Filling out the remainder of the new book requires you to find new spells
-      to do so. For this reason, many wizards keep a backup
+      rules} to determine your available spell slots.</li></ul><aside class="notable"><p><strong>Expanding and Replacing
+      a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical
+      research, but you might find other spells during your adventures that you can add to the book. You could discover
+      a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell
+      into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a
+      level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2
+      hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your
+      spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book.
+      This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You
+      need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use
+      the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the
+      remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup
       spellbook.</p></aside>
     chat: ''
   source:
@@ -334,9 +320,8 @@ system:
       level: 2
       title: Scholar
       hint: >-
-        While studying magic, you also specialized in another field of study.
-        Choose one of the following skills in which you have proficiency. You
-        have Expertise in the chosen skill.
+        While studying magic, you also specialized in another field of study. Choose one of the following skills in
+        which you have proficiency. You have Expertise in the chosen skill.
     - _id: KTYjh1MKLvOtrZ3u
       type: Subclass
       configuration: {}
@@ -377,8 +362,8 @@ system:
         replaced: {}
       title: Epic Boon
       hint: >-
-        You gain an Epic Boon feat or another feat of your choice for which you
-        qualify. Boon of Spell Recall is recommended.
+        You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is
+        recommended.
     - _id: 4ImCjedK6yWbC2ni
       type: Trait
       configuration:

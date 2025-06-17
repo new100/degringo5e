@@ -609,15 +609,11 @@ items:
         max: ''
       description:
         value: >-
-          <p><span style="font-family:'Roboto Condensed', sans-serif">The
-          </span>[[lookup @name lowercase]]<span style="font-family:'Roboto
-          Condensed', sans-serif"> makes two </span>[[/item
-          .mmClaw0000000000]]<span style="font-family:'Roboto Condensed',
-          sans-serif"> attacks and one </span>[[/item .mmSnakeHair00000]]<span
-          style="font-family:'Roboto Condensed', sans-serif"> attack, or it
-          makes three </span>[[/item .mmPoisonRay00000]]<span
-          style="font-family:'Roboto Condensed', sans-serif">
-          attacks.</span></p>
+          <p><span style="font-family:'Roboto Condensed', sans-serif">The </span>[[lookup @name lowercase]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> makes two </span>[[/item .mmClaw0000000000]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> attacks and one </span>[[/item .mmSnakeHair00000]]<span
+          style="font-family:'Roboto Condensed', sans-serif"> attack, or it makes three </span>[[/item
+          .mmPoisonRay00000]]<span style="font-family:'Roboto Condensed', sans-serif"> attacks.</span></p>
         chat: ''
       identifier: multiattack
       source:
@@ -879,9 +875,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: snake-hair
       source:
@@ -1029,9 +1023,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average
-          extended]].</p>
+        value: <p class="feature">[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
       identifier: poison-ray
       source:
@@ -1245,20 +1237,15 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=mN9aF1WkHQWLIN4B]], each [[lookup
-          @target.affects.type activity=mN9aF1WkHQWLIN4B]] in a [[lookup
-          @target.template.size activity=mN9aF1WkHQWLIN4B]]-foot [[lookup
-          @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]. If the
-          [[lookup @name lowercase]] sees its reflection in the [[lookup
-          @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]], the
-          [[lookup @name lowercase]] must make this save. </p><p
-          class="feature"><em>First Failure:</em> The target has the
-          &amp;Reference[Restrained apply=false] condition and repeats the save
-          at the end of its next turn if it is still Restrained, ending the
-          effect on itself on a success. </p><p class="feature"><em>Second
-          Failure:</em> The target has the &amp;Reference[Petrified apply=false]
-          condition instead of the Restrained condition.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=mN9aF1WkHQWLIN4B]],
+          each [[lookup @target.affects.type activity=mN9aF1WkHQWLIN4B]] in a [[lookup @target.template.size
+          activity=mN9aF1WkHQWLIN4B]]-foot [[lookup @target.template.type capitalize activity=mN9aF1WkHQWLIN4B]]. If the
+          [[lookup @name lowercase]] sees its reflection in the [[lookup @target.template.type capitalize
+          activity=mN9aF1WkHQWLIN4B]], the [[lookup @name lowercase]] must make this save. </p><p
+          class="feature"><em>First Failure:</em> The target has the &amp;Reference[Restrained apply=false] condition
+          and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a
+          success. </p><p class="feature"><em>Second Failure:</em> The target has the &amp;Reference[Petrified
+          apply=false] condition instead of the Restrained condition.</p>
         chat: ''
       identifier: petrifying-gaze
       source:
@@ -1295,9 +1282,8 @@ items:
           startRound: null
           startTurn: null
         description: >-
-          <p>The target has the &amp;Reference[Restrained apply=false] condition
-          and repeats the save at the end of its next turn if it is still
-          Restrained, ending the effect on itself on a success.</p>
+          <p>The target has the &amp;Reference[Restrained apply=false] condition and repeats the save at the end of its
+          next turn if it is still Restrained, ending the effect on itself on a success.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1323,8 +1309,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.a5kKgU7vfT0v17yF
+        _key: '!actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.a5kKgU7vfT0v17yF'
       - name: Petrified
         img: systems/degringo5e/icons/svg/statuses/petrified.svg
         origin: Item.mmPetrifyingGaze
@@ -1341,9 +1326,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        description: >-
-          <p>The target has the &amp;Reference[Petrified apply=false] condition
-          instead of the Restrained condition.</p>
+        description: <p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>
         tint: '#ffffff'
         transfer: false
         statuses:
@@ -1369,8 +1352,7 @@ items:
           modifiedTime: null
           lastModifiedBy: degringo5builder
           exportSource: null
-        _key: >-
-          !actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.YLFv2Ujss9c0vtMQ
+        _key: '!actors.items.effects!mmMedusa00000000.mmPetrifyingGaze.YLFv2Ujss9c0vtMQ'
     flags:
       degringo5e:
         riders:

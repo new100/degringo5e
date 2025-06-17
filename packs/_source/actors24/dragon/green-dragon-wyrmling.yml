@@ -650,9 +650,7 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p>The [[lookup @name lowercase]] makes two [[/item
-          .mmRend0000000000]] attacks.</p>
+        value: <p>The [[lookup @name lowercase]] makes two [[/item .mmRend0000000000]] attacks.</p>
         chat: ''
       identifier: multiattack
       source:
@@ -933,13 +931,10 @@ items:
         max: '1'
       description:
         value: >-
-          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup
-          @save.dc.value activity=lnabW9bM51HoluPp]], each creature in a
-          [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot
-          [[lookup @target.template.type capitalize
-          activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
-          [[/damage average]] damage.</p><p class="feature"><em>Success:</em>
-          Half damage.</p>
+          <p class="feature"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]],
+          each creature in a [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot [[lookup
+          @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class="feature"><em>Failure:</em>
+          [[/damage average]] damage.</p><p class="feature"><em>Success:</em> Half damage.</p>
         chat: ''
       identifier: poison-breath
       source:

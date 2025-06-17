@@ -655,9 +655,8 @@ items:
     system:
       description:
         value: >-
-          <p>If the bugbear surprises a creature and hits it with an attack
-          during the first round of combat, the target takes an extra 7 (2d6)
-          damage from the attack.</p>
+          <p>If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target
+          takes an extra 7 (2d6) damage from the attack.</p>
         chat: ''
       source:
         custom: ''
@@ -769,8 +768,8 @@ items:
     system:
       description:
         value: >-
-          <p>A melee weapon deals one extra die of its damage when the bugbear
-          hits with it (included in the attack).</p>
+          <p>A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the
+          attack).</p>
         chat: ''
       source:
         custom: ''
@@ -817,9 +816,8 @@ items:
     system:
       description:
         value: >-
-          <p>This crude armor consists of thick furs and pelts. It is commonly
-          worn by barbarian tribes, evil humanoids, and other folk who lack
-          access to the tools and materials needed to create better armor.</p>
+          <p>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids,
+          and other folk who lack access to the tools and materials needed to create better armor.</p>
         chat: ''
       source:
         custom: ''
@@ -893,9 +891,8 @@ items:
     system:
       description:
         value: >-
-          <p>A shield is made from wood or metal and is carried in one hand.
-          Wielding a shield increases your Armor Class by 2. You can benefit
-          from only one shield at a time.</p>
+          <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor
+          Class by 2. You can benefit from only one shield at a time.</p>
         chat: ''
       source:
         custom: ''
@@ -968,9 +965,7 @@ items:
     img: icons/weapons/ammunition/arrows-bodkin-yellow-red.webp
     system:
       description:
-        value: >-
-          <p>[[/attack extended]]. [[/damage extended]] in melee or [[/damage
-          1d6 + 2 piercing average]] at range.</p>
+        value: <p>[[/attack extended]]. [[/damage extended]] in melee or [[/damage 1d6 + 2 piercing average]] at range.</p>
         chat: <p>The Bugbear attacks with its Javelin.</p>
       source:
         custom: ''

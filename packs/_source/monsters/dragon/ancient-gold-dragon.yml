@@ -534,9 +534,7 @@ items:
     img: icons/equipment/shield/kite-wooden-oak-glow.webp
     system:
       description:
-        value: >-
-          <p>If the dragon fails a saving throw, it can choose to succeed
-          instead.</p>
+        value: <p>If the dragon fails a saving throw, it can choose to succeed instead.</p>
         chat: ''
       source:
         custom: ''
@@ -643,10 +641,8 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon can use its [[/item .ncKFI8v5vPO7kOFi]]{Frightful
-          Presence}. It then makes three attacks: one with its [[/item
-          .BFbR0db4At8TQY91]]{bite} and two with its [[/item
-          .iqduxJQPzhHPTJp2]]{claws}.</p>
+          <p>The dragon can use its [[/item .ncKFI8v5vPO7kOFi]]{Frightful Presence}. It then makes three attacks: one
+          with its [[/item .BFbR0db4At8TQY91]]{bite} and two with its [[/item .iqduxJQPzhHPTJp2]]{claws}.</p>
         chat: ''
       source:
         custom: ''
@@ -1234,18 +1230,15 @@ items:
     system:
       description:
         value: >-
-          <p>Each creature of the dragon's choice that is within 120 feet of the
-          dragon and aware of it must succeed on a [[/save]] saving throw or
-          become &amp;Reference[frightened] for 1 minute.</p><p>A creature can
-          repeat the saving throw at the end of each of its turns, ending the
-          effect on itself on a success. If a creature's saving throw is
-          successful or the effect ends for it, the creature is immune to the
-          dragon's Frightful Presence for the next 24 hours.</p>
+          <p>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on
+          a [[/save]] saving throw or become &amp;Reference[frightened] for 1 minute.</p><p>A creature can repeat the
+          saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving
+          throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for
+          the next 24 hours.</p>
         chat: >-
-          <p>Each creature of the dragon's choice that is <strong>within 120
-          feet</strong> of the dragon and aware of it must succeed on a Wisdom
-          saving throw. A creature can repeat the saving throw at the end of
-          each of its turns.</p>
+          <p>Each creature of the dragon's choice that is <strong>within 120 feet</strong> of the dragon and aware of it
+          must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its
+          turns.</p>
       source:
         custom: ''
         book: ''
@@ -1348,18 +1341,13 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon uses one of the following breath
-          weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales fire
-          in a 90-foot cone. Each creature in that area must make a [[/save
-          activity=o8fOmWWIqCYwGu3C]] saving throw, taking [[/damage average
-          activity=o8fOmWWIqCYwGu3C]] damage on a failed save, or half as much
-          damage on a successful one.</p><p><strong>Weakening Breath.</strong>
-          The dragon exhales gas in a 90-foot cone. Each creature in that area
-          must succeed on a [[/save activity=J4QhEMZOdsyIy2D6]] saving throw or
-          have disadvantage on Strength-based attack rolls, Strength checks, and
-          Strength saving throws for 1 minute. A creature can repeat the saving
-          throw at the end of each of its turns, ending the effect on itself on
-          a success.</p>
+          <p>The dragon uses one of the following breath weapons.</p><p><strong>Fire Breath.</strong> The dragon exhales
+          fire in a 90-foot cone. Each creature in that area must make a [[/save activity=o8fOmWWIqCYwGu3C]] saving
+          throw, taking [[/damage average activity=o8fOmWWIqCYwGu3C]] damage on a failed save, or half as much damage on
+          a successful one.</p><p><strong>Weakening Breath.</strong> The dragon exhales gas in a 90-foot cone. Each
+          creature in that area must succeed on a [[/save activity=J4QhEMZOdsyIy2D6]] saving throw or have disadvantage
+          on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can
+          repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
         chat: <p>The dragon breathes in!</p>
       source:
         custom: ''
@@ -1847,10 +1835,9 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon beats its wings. Each creature within 15 feet of the
-          dragon must succeed on a [[/save]] saving throw or take [[/damage
-          average]] damage and be knocked &amp;Reference[prone]. The dragon can
-          then fly up to half its flying speed.</p>
+          <p>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a [[/save]] saving
+          throw or take [[/damage average]] damage and be knocked &amp;Reference[prone]. The dragon can then fly up to
+          half its flying speed.</p>
         chat: ''
       source:
         custom: ''
@@ -2024,16 +2011,12 @@ items:
     system:
       description:
         value: >-
-          <p>The dragon magically polymorphs into a humanoid or beast that has a
-          challenge rating no higher than its own, or back into its true form.
-          It reverts to its true form if it dies. Any equipment it is wearing or
-          carrying is absorbed or borne by the new form (the dragon's
-          choice).</p><p>In a new form, the dragon retains its alignment, hit
-          points, Hit Dice, ability to speak, proficiencies, Legendary
-          Resistance, lair actions, and Intelligence, Wisdom, and Charisma
-          scores, as well as this action. Its statistics and capabilities are
-          otherwise replaced by those of the new form, except any class features
-          or legendary actions of that form.</p>
+          <p>The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its
+          own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or
+          carrying is absorbed or borne by the new form (the dragon's choice).</p><p>In a new form, the dragon retains
+          its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and
+          Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are
+          otherwise replaced by those of the new form, except any class features or legendary actions of that form.</p>
         chat: ''
       source:
         custom: ''

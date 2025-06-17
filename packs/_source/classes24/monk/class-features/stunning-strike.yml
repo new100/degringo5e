@@ -6,18 +6,14 @@ img: icons/skills/melee/unarmed-punch-fist-blue.webp
 system:
   description:
     value: >-
-      <p>Once per turn when you hit a creature with a Monk weapon or an Unarmed
-      Strike, you can expend 1 Focus Point to attempt a stunning strike. The
-      target must make a Constitution saving throw. On a failed save, the target
-      has the Stunned condition until the start of your next turn. On a
-      successful save, the target's Speed is halved until the start of your next
-      turn, and the next attack roll made against the target before then has
-      Advantage.</p><section class="secret"
-      id="secret-bfJBOqZfcoIiBtoP"><p><strong>Foundry Note</strong></p><p>This
-      feature includes the Saving Throw and a Stunned Active Effect which
-      applies the Stunned status if they fail and a Slowed Active Effect for
-      tracking that their Speed is halved and that the next attack roll made
-      against them has Advantage if they succeed.</p></section>
+      <p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to
+      attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the
+      Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the
+      start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section
+      class="secret" id="secret-bfJBOqZfcoIiBtoP"><p><strong>Foundry Note</strong></p><p>This feature includes the
+      Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect
+      for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they
+      succeed.</p></section>
     chat: ''
   source:
     custom: ''
@@ -45,9 +41,7 @@ system:
         type: ''
         value: null
         override: false
-        condition: >-
-          Once per turn when you hit a creature with a Monk weapon or an Unarmed
-          Strike
+        condition: Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike
       consumption:
         scaling:
           allowed: false

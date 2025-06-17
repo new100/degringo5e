@@ -60,14 +60,10 @@ system:
     max: '7'
   description:
     value: >-
-      <p><em>Wand, Uncommon (Requires Attunement by a
-      Spellcaster)</em></p><p>This wand has 7 charges. While holding it, you can
-      expend 1 charge to cast
-      @UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web} (save DC 13)
-      from it.</p><p><em><strong>Regaining Charges.</strong></em> The wand
-      regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's
-      last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is
-      destroyed.</p>
+      <p><em>Wand, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>This wand has 7 charges. While holding it,
+      you can expend 1 charge to cast @UUID[Compendium.degringo5e.spells24.Item.phbsplWeb0000000]{Web} (save DC 13) from
+      it.</p><p><em><strong>Regaining Charges.</strong></em> The wand regains 1d6 + 1 expended charges daily at dawn. If
+      you expend the wand's last charge, roll [[/r 1d20]]. On a 1, the wand crumbles into ashes and is destroyed.</p>
     chat: ''
   identifier: wand-of-web
   source:

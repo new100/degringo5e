@@ -5,20 +5,14 @@ img: icons/skills/melee/strike-sword-stabbed-brown.webp
 system:
   description:
     value: >-
-      <p>As a rogue, you have the following class features.</p><h3>Hit
-      Points</h3><p><strong>Hit Dice:</strong> 1d8 per rogue level<br
-      /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution
-      modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) +
-      your Constitution modifier per rogue level after
-      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br
-      /><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords,
-      rapiers, shortswords<br /><strong>Tools:</strong> Thieves' tools<br
-      /><strong>Saving Throws:</strong> Dexterity, Intelligence<br
-      /><strong>Skills:</strong> Choose four from Acrobatics, Athletics,
-      Deception, Insight, Intimidation, Investigation, Perception, Performance,
-      Persuasion, Sleight of Hand, and Stealth</p><h1>Rogue
-      Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency
-      Bonus</td><td>Sneak
+      <p>As a rogue, you have the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per
+      rogue level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points
+      at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after
+      1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons,
+      hand crossbows, longswords, rapiers, shortswords<br /><strong>Tools:</strong> Thieves' tools<br /><strong>Saving
+      Throws:</strong> Dexterity, Intelligence<br /><strong>Skills:</strong> Choose four from Acrobatics, Athletics,
+      Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and
+      Stealth</p><h1>Rogue Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Sneak
       Attack</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>1d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.3sYPftQKnbbVnHrh]{Expertise},
       @UUID[Compendium.degringo5e.classfeatures.Item.DPN2Gfk8yi1Z5wp7]{Sneak Attack},
       @UUID[Compendium.degringo5e.classfeatures.Item.ohwfuwnvuoBWlSQr]{Thieves'
@@ -29,31 +23,23 @@ system:
       Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.Mm64SKAHJWYecgXS]{Uncanny
       Dodge}</td></tr><tr><td>6th</td><td>+3</td><td>3d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.3sYPftQKnbbVnHrh]{Expertise
       improvement}</td></tr><tr><td>7th</td><td>+3</td><td>4d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.a4P4DNMmH8CqSNkC]{Evasion}</td></tr><tr><td>8th</td><td>+3</td><td>4d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Ability
-      Score
-      Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5d6</td><td>Roguish
-      Archetype
+      Score Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5d6</td><td>Roguish Archetype
       feature</td></tr><tr><td>10th</td><td>+4</td><td>5d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Ability
       Score
       Improvement}</td></tr><tr><td>11th</td><td>+4</td><td>6d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.YN9xm6MCvse4Y60u]{Reliable
       Talent}</td></tr><tr><td>12th</td><td>+4</td><td>6d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Ability
-      Score
-      Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7d6</td><td>Roguish
-      Archetype
+      Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7d6</td><td>Roguish Archetype
       feature</td></tr><tr><td>14th</td><td>+5</td><td>7d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.fjsBk7zxoAbLf8ZI]{Blindsense}</td></tr><tr><td>15th</td><td>+5</td><td>8d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.V4pwFxlwHtNeB4w9]{Slippery
       Mind}</td></tr><tr><td>16th</td><td>+5</td><td>8d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Ability
-      Score
-      Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9d6</td><td>Roguish
-      Archetype
+      Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9d6</td><td>Roguish Archetype
       feature</td></tr><tr><td>18th</td><td>+6</td><td>9d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.L7nJSRosos8sHJH9]{Elusive}</td></tr><tr><td>19th</td><td>+6</td><td>10d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Ability
       Score
       Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>10d6</td><td>@UUID[Compendium.degringo5e.classfeatures.Item.rQhWDaMHMn7iU4f2]{Stroke
-      of Luck}</td></tr></tbody></table><h1>Roguish Archetypes</h1><p>Rogues
-      have many features in common, including their emphasis on perfecting their
-      skills, their precise and deadly approach to combat, and their
-      increasingly quick reflexes. But different rogues steer those talents in
-      varying directions, embodied by the rogue archetypes. Your choice of
-      archetype is a reflection of your focus—not necessarily an indication of
-      your chosen profession, but a description of your preferred
+      of Luck}</td></tr></tbody></table><h1>Roguish Archetypes</h1><p>Rogues have many features in common, including
+      their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly
+      quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes.
+      Your choice of archetype is a reflection of your focus—not necessarily an indication of your chosen profession,
+      but a description of your preferred
       techniques.</p><p>@UUID[Compendium.degringo5e.subclasses.Item.k8iuefRorWOjb9gR]{Thief}</p>
     chat: ''
   source:
@@ -548,9 +534,7 @@ system:
       title: ''
       value:
         chosen: []
-      hint: >-
-        You have acquired greater mental strength. You gain proficiency in
-        Wisdom saving throws.
+      hint: You have acquired greater mental strength. You gain proficiency in Wisdom saving throws.
     - _id: n0yoxbkyz32yd942
       type: Subclass
       configuration: {}
