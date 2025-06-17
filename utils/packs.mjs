@@ -89,34 +89,48 @@ async function cleanPacks(packName, entryName) {
 
   for (const folder of folders) {
     logger.info(`Limpando pacote: ${folder.name}`);
-    for await (const src of _walkDir(path.join(PACK_SRC, folder.name))) {
-      logger.debug(`Processando arquivo: ${src}`);
-      try {
-        const data = YAML.load(await readFile(src, { encoding: "utf8" }));
-        logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
+    try {
+      for await (const src of safeWalkDir(path.join(PACK_SRC, folder.name))) {
+        logger.debug(`Processando arquivo: ${src}`);
+        try {
+          const data = YAML.load(await readFile(src, { encoding: "utf8" }));
+          logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
 
-        if (entryName && (entryName !== data.name.toLowerCase())) continue;
-        if (!data._id || !data._key) {
-          logger.warn(`Falha ao limpar: ${src}, deve conter _id e _key.`);
-          continue;
+          if (entryName && (entryName !== data.name.toLowerCase())) continue;
+          if (!data._id || !data._key) {
+            logger.warn(`Falha ao limpar: ${src}, deve conter _id e _key.`);
+            continue;
+          }
+
+          cleanPackEntry(data);
+          fs.rmSync(src, { force: true });
+          writeFile(src, `${YAML.dump(data)}\n`, { mode: 0o664 });
+        } catch (err) {
+          logger.error(`Erro ao processar ${src}: ${err.message}`);
         }
-
-        cleanPackEntry(data);
-        fs.rmSync(src, { force: true });
-        writeFile(src, `${YAML.dump(data)}\n`, { mode: 0o664 });
-      } catch (err) {
-        logger.error(`Erro ao processar ${src}: ${err.message}`);
       }
+    } catch (err) {
+      logger.error(`Erro ao iterar sobre os arquivos do diretório ${folder.name}: ${err.message}`);
     }
   }
 }
 
-async function* _walkDir(directoryPath) {
-  const directory = await readdir(directoryPath, { withFileTypes: true });
-  for (const entry of directory) {
-    const entryPath = path.join(directoryPath, entry.name);
-    if (entry.isDirectory()) yield* _walkDir(entryPath);
-    else if (path.extname(entry.name) === ".yml") yield entryPath;
+async function* safeWalkDir(directoryPath) {
+  logger.debug(`Explorando diretório: ${directoryPath}`);
+  try {
+    const directory = await readdir(directoryPath, { withFileTypes: true });
+    for (const entry of directory) {
+      const entryPath = path.join(directoryPath, entry.name);
+      if (entry.isDirectory()) {
+        logger.debug(`Entrando no subdiretório: ${entryPath}`);
+        yield* safeWalkDir(entryPath);
+      } else if (path.extname(entry.name) === ".yml") {
+        logger.debug(`Arquivo encontrado: ${entryPath}`);
+        yield entryPath;
+      }
+    }
+  } catch (err) {
+    logger.error(`Erro ao explorar o diretório ${directoryPath}: ${err.message}`);
   }
 }
 
@@ -125,6 +139,11 @@ async function* _walkDir(directoryPath) {
  * ----------------------------------------- */
 async function compilePacks(packName) {
   logger.debug(`Iniciando compilação de pacotes. packName: ${packName}`);
+  if (!packName) {
+    logger.error("Nenhum nome de pacote foi fornecido. Use o comando corretamente.");
+    return;
+  }
+
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
@@ -150,29 +169,33 @@ async function extractPacks(packName, entryName) {
   logger.debug(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
   entryName = entryName?.toLowerCase();
 
-  const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
-  logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
+  try {
+    const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
+    logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
 
-  const packs = system.packs.filter(p => !packName || p.name === packName);
-  logger.debug(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
+    const packs = system.packs.filter(p => !packName || p.name === packName);
+    logger.debug(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
 
-  for (const packInfo of packs) {
-    const dest = path.join(PACK_SRC, packInfo.name);
-    logger.info(`Extraindo pacote: ${packInfo.name}, destino: ${dest}`);
-    try {
-      await extractPack(packInfo.path, dest, {
-        log: true,
-        transformEntry: entry => {
-          logger.debug(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
-          if (entryName && (entryName !== entry.name.toLowerCase())) return false;
-          cleanPackEntry(entry);
-          return true;
-        },
-        yaml: true
-      });
-    } catch (err) {
-      logger.error(`Erro ao extrair pacote ${packInfo.name}: ${err.message}`);
+    for (const packInfo of packs) {
+      const dest = path.join(PACK_SRC, packInfo.name);
+      logger.info(`Extraindo pacote: ${packInfo.name}, destino: ${dest}`);
+      try {
+        await extractPack(packInfo.path, dest, {
+          log: true,
+          transformEntry: entry => {
+            logger.debug(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
+            if (entryName && (entryName !== entry.name.toLowerCase())) return false;
+            cleanPackEntry(entry);
+            return true;
+          },
+          yaml: true
+        });
+      } catch (err) {
+        logger.error(`Erro ao extrair pacote ${packInfo.name}: ${err.message}`);
+      }
     }
+  } catch (err) {
+    logger.error(`Erro ao carregar o arquivo system.json: ${err.message}`);
   }
 }
 
