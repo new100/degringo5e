@@ -20,7 +20,8 @@ const logger = winston.createLogger({
   ),
   transports: [
     new winston.transports.Console(),
-    new winston.transports.File({ filename: "packs.log" })
+    new winston.transports.File({ filename: "packs.log" }),
+    new winston.transports.File({ filename: "packs-errors.log", level: "error" })
   ]
 });
 
@@ -96,15 +97,11 @@ async function cleanPacks(packName, entryName) {
           const data = YAML.load(await readFile(src, { encoding: "utf8" }));
           logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
 
-          if (entryName && (entryName !== data.name.toLowerCase())) continue;
-          if (!data._id || !data._key) {
-            logger.warn(`Falha ao limpar: ${src}, deve conter _id e _key.`);
-            continue;
-          }
+          if (!validatePackEntry(data, src)) continue;
 
           cleanPackEntry(data);
           fs.rmSync(src, { force: true });
-          writeFile(src, `${YAML.dump(data)}\n`, { mode: 0o664 });
+          await writeFile(src, `${YAML.dump(data)}\n`, { mode: 0o664 });
         } catch (err) {
           logger.error(`Erro ao processar ${src}: ${err.message}`);
         }
@@ -132,6 +129,17 @@ async function* safeWalkDir(directoryPath) {
   } catch (err) {
     logger.error(`Erro ao explorar o diretório ${directoryPath}: ${err.message}`);
   }
+}
+
+function validatePackEntry(data, filePath) {
+  const requiredFields = ["_id", "_key"];
+  const isValid = requiredFields.every(field => data[field]);
+
+  if (!isValid) {
+    logger.error(`Entrada inválida no arquivo ${filePath}. Dados: ${JSON.stringify(data, null, 2)}`);
+    return false;
+  }
+  return true;
 }
 
 /** -----------------------------------------
