@@ -1,11 +1,28 @@
 import fs from "fs";
 import { readdir, readFile, writeFile } from "node:fs/promises";
-import logger from "fancy-log";
 import YAML from "js-yaml";
 import path from "path";
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
+import winston from "winston";
+
+/**
+ * Configuração do logger para salvar logs em um arquivo.
+ */
+const logger = winston.createLogger({
+  level: "debug",
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.printf(({ level, message, timestamp }) => {
+      return `${timestamp} [${level.toUpperCase()}]: ${message}`;
+    })
+  ),
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: "packs.log" })
+  ]
+});
 
 /**
  * Folder where the compiled compendium packs should be located relative to the
@@ -62,21 +79,21 @@ function packageCommand() {
  * Clean Packs
  * ----------------------------------------- */
 async function cleanPacks(packName, entryName) {
-  logger.info(`Iniciando limpeza de pacotes. packName: ${packName}, entryName: ${entryName}`);
+  logger.debug(`Iniciando limpeza de pacotes. packName: ${packName}, entryName: ${entryName}`);
   entryName = entryName?.toLowerCase();
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
 
-  logger.info(`Pastas encontradas para limpeza: ${folders.map(f => f.name).join(", ")}`);
+  logger.debug(`Pastas encontradas para limpeza: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     logger.info(`Limpando pacote: ${folder.name}`);
     for await (const src of _walkDir(path.join(PACK_SRC, folder.name))) {
-      logger.info(`Processando arquivo: ${src}`);
+      logger.debug(`Processando arquivo: ${src}`);
       try {
         const data = YAML.load(await readFile(src, { encoding: "utf8" }));
-        logger.info(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
+        logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
 
         if (entryName && (entryName !== data.name.toLowerCase())) continue;
         if (!data._id || !data._key) {
@@ -107,12 +124,12 @@ async function* _walkDir(directoryPath) {
  * Compile Packs
  * ----------------------------------------- */
 async function compilePacks(packName) {
-  logger.info(`Iniciando compilação de pacotes. packName: ${packName}`);
+  logger.debug(`Iniciando compilação de pacotes. packName: ${packName}`);
   const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
     file.isDirectory() && (!packName || (packName === file.name))
   );
 
-  logger.info(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
+  logger.debug(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     const src = path.join(PACK_SRC, folder.name);
@@ -130,14 +147,14 @@ async function compilePacks(packName) {
  * Extract Packs
  * ----------------------------------------- */
 async function extractPacks(packName, entryName) {
-  logger.info(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
+  logger.debug(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
   entryName = entryName?.toLowerCase();
 
   const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
-  logger.info(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
+  logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
 
   const packs = system.packs.filter(p => !packName || p.name === packName);
-  logger.info(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
+  logger.debug(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
 
   for (const packInfo of packs) {
     const dest = path.join(PACK_SRC, packInfo.name);
@@ -146,7 +163,7 @@ async function extractPacks(packName, entryName) {
       await extractPack(packInfo.path, dest, {
         log: true,
         transformEntry: entry => {
-          logger.info(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
+          logger.debug(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
           if (entryName && (entryName !== entry.name.toLowerCase())) return false;
           cleanPackEntry(entry);
           return true;
@@ -163,7 +180,7 @@ async function extractPacks(packName, entryName) {
  * Helpers
  * ----------------------------------------- */
 function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
-  logger.info(`Limpando entrada: ${data.name || "desconhecido"}`);
+  logger.debug(`Limpando entrada: ${data.name || "desconhecido"}`);
   if (data.ownership) data.ownership = { default: ownership };
   if (clearSourceId) {
     delete data._stats?.compendiumSource;
