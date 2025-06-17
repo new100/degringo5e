@@ -23,46 +23,49 @@ const logger = winston.createLogger({
   ]
 });
 
-// Pastas
+// Diretórios padrão
 const PACK_DEST = "packs";
 const PACK_SRC = "packs/_source";
 
-// Yargs com suporte a "package" opcional
+// CLI com yargs
 yargs(hideBin(process.argv))
   .command(
     ["package <action> [pack] [entry]", "$0 <action> [pack] [entry]"],
-    "Manage packages (pack/unpack/clean)",
+    "Gerenciar pacotes (pack/unpack/clean)",
     yargs => {
       yargs
         .positional("action", {
-          describe: "The action to perform",
+          describe: "Ação a executar",
           type: "string",
           choices: ["pack", "unpack", "clean"]
         })
         .positional("pack", {
-          describe: "Pack name to operate on",
+          describe: "Nome do pacote (opcional)",
           type: "string"
         })
         .positional("entry", {
-          describe: "Entry inside the pack (for unpack or clean)",
+          describe: "Entrada específica (opcional para unpack/clean)",
           type: "string"
         });
     },
     async argv => {
       const { action, pack, entry } = argv;
-      switch (action) {
-        case "pack":
-          await compilePacks(pack);
-          break;
-        case "unpack":
-          await extractPacks(pack, entry);
-          break;
-        case "clean":
-          await cleanPacks(pack, entry);
-          break;
-        default:
-          console.log(`❌ Invalid action: ${action}`);
-          break;
+      try {
+        switch (action) {
+          case "pack":
+            await compilePacks(pack);
+            break;
+          case "unpack":
+            await extractPacks(pack, entry);
+            break;
+          case "clean":
+            await cleanPacks(pack, entry);
+            break;
+          default:
+            logger.error(`❌ Ação inválida: ${action}`);
+        }
+      } catch (err) {
+        logger.error(`Erro geral na execução: ${err.message}`);
       }
     }
   )
@@ -70,143 +73,146 @@ yargs(hideBin(process.argv))
   .alias("help", "h")
   .argv;
 
-/** -----------------------------------------
- * Clean Packs
- * ----------------------------------------- */
-async function cleanPacks(packName, entryName) {
-  logger.debug(`Iniciando limpeza de pacotes. packName: ${packName}, entryName: ${entryName}`);
-  entryName = entryName?.toLowerCase();
-  const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
-    file.isDirectory() && (!packName || (packName === file.name))
-  );
+/* ============================================================
+ * Funções principais
+ * ============================================================
+*/
 
-  logger.debug(`Pastas encontradas para limpeza: ${folders.map(f => f.name).join(", ")}`);
-
-  for (const folder of folders) {
-    logger.info(`Limpando pacote: ${folder.name}`);
-    try {
-      for await (const src of safeWalkDir(path.join(PACK_SRC, folder.name))) {
-        logger.debug(`Processando arquivo: ${src}`);
-        try {
-          const data = YAML.load(await readFile(src, { encoding: "utf8" }));
-          logger.debug(`Dados carregados do arquivo: ${JSON.stringify(data, null, 2)}`);
-
-          if (!validatePackEntry(data, src)) continue;
-
-          cleanPackEntry(data);
-          fs.rmSync(src, { force: true });
-          await writeFile(src, `${YAML.dump(data)}\n`, { mode: 0o664 });
-        } catch (err) {
-          logger.error(`Erro ao processar ${src}: ${err.message}`);
-        }
-      }
-    } catch (err) {
-      logger.error(`Erro ao iterar sobre os arquivos do diretório ${folder.name}: ${err.message}`);
-    }
-  }
-}
-
-async function* safeWalkDir(directoryPath) {
-  logger.debug(`Explorando diretório: ${directoryPath}`);
-  try {
-    const directory = await readdir(directoryPath, { withFileTypes: true });
-    for (const entry of directory) {
-      const entryPath = path.join(directoryPath, entry.name);
-      if (entry.isDirectory()) {
-        logger.debug(`Entrando no subdiretório: ${entryPath}`);
-        yield* safeWalkDir(entryPath);
-      } else if (path.extname(entry.name) === ".yml") {
-        logger.debug(`Arquivo encontrado: ${entryPath}`);
-        yield entryPath;
-      }
-    }
-  } catch (err) {
-    logger.error(`Erro ao explorar o diretório ${directoryPath}: ${err.message}`);
-  }
-}
-
-function validatePackEntry(data, filePath) {
-  const requiredFields = ["_id", "_key"];
-  const isValid = requiredFields.every(field => data[field]);
-
-  if (!isValid) {
-    logger.error(`Entrada inválida no arquivo ${filePath}. Dados: ${JSON.stringify(data, null, 2)}`);
-    return false;
-  }
-  return true;
-}
-
-/** -----------------------------------------
- * Compile Packs
- * ----------------------------------------- */
 async function compilePacks(packName) {
-  logger.debug(`Iniciando compilação de pacotes. packName: ${packName || 'todos'}`);
-
-  const folders = fs.readdirSync(PACK_SRC, { withFileTypes: true }).filter(file =>
-    file.isDirectory() && (!packName || (packName === file.name))
-  );
+  logger.info(`🚀 Iniciando compilação. Pacote: ${packName ?? "Todos"}`);
+  const folders = getValidFolders(PACK_SRC, packName);
 
   if (folders.length === 0) {
-    logger.error(`Nenhum pacote encontrado${packName ? ` com o nome ${packName}` : ""}.`);
+    logger.warn(`⚠️ Nenhuma pasta encontrada para ${packName ?? "processamento"}.`);
     return;
   }
-
-  logger.info(`Pastas encontradas para compilação: ${folders.map(f => f.name).join(", ")}`);
 
   for (const folder of folders) {
     const src = path.join(PACK_SRC, folder.name);
     const dest = path.join(PACK_DEST, folder.name);
-    logger.info(`Compilando pacote: ${folder.name}`);
+
+    if (!hasYamlFiles(src)) {
+      logger.warn(`⚠️ Pasta '${folder.name}' está vazia. Ignorando...`);
+      continue;
+    }
+
     try {
-      await compilePack(src, dest, { recursive: true, log: true, transformEntry: cleanPackEntry, yaml: true });
+      logger.info(`📦 Compilando pacote: ${folder.name}`);
+      await compilePack(src, dest, {
+        recursive: true,
+        log: true,
+        transformEntry: cleanPackEntry,
+        yaml: true
+      });
+      logger.info(`✅ Pacote '${folder.name}' compilado com sucesso.`);
     } catch (err) {
-      logger.error(`Erro ao compilar pacote ${folder.name}: ${err.message}`);
+      logger.error(`❌ Erro ao compilar '${folder.name}': ${err.message}`);
     }
   }
 }
 
-/** -----------------------------------------
- * Extract Packs
- * ----------------------------------------- */
 async function extractPacks(packName, entryName) {
-  logger.debug(`Iniciando extração de pacotes. packName: ${packName}, entryName: ${entryName}`);
+  logger.info(`🔍 Iniciando extração. Pacote: ${packName ?? "Todos"}`);
   entryName = entryName?.toLowerCase();
 
   try {
     const system = JSON.parse(fs.readFileSync("./system.json", { encoding: "utf8" }));
-    logger.debug(`Sistema carregado: ${JSON.stringify(system.packs, null, 2)}`);
-
     const packs = system.packs.filter(p => !packName || p.name === packName);
-    logger.info(`Pacotes encontrados para extração: ${packs.map(p => p.name).join(", ")}`);
+
+    if (packs.length === 0) {
+      logger.warn(`⚠️ Nenhum pacote encontrado no system.json${packName ? ` com nome '${packName}'` : ""}.`);
+      return;
+    }
 
     for (const packInfo of packs) {
       const dest = path.join(PACK_SRC, packInfo.name);
-      logger.info(`Extraindo pacote: ${packInfo.name}, destino: ${dest}`);
       try {
+        logger.info(`📦 Extraindo pacote: ${packInfo.name}`);
         await extractPack(packInfo.path, dest, {
           log: true,
           transformEntry: entry => {
-            logger.debug(`Transformando entrada: ${JSON.stringify(entry, null, 2)}`);
             if (entryName && (entryName !== entry.name.toLowerCase())) return false;
             cleanPackEntry(entry);
             return true;
           },
           yaml: true
         });
+        logger.info(`✅ Pacote '${packInfo.name}' extraído com sucesso.`);
       } catch (err) {
-        logger.error(`Erro ao extrair pacote ${packInfo.name}: ${err.message}`);
+        logger.error(`❌ Erro ao extrair '${packInfo.name}': ${err.message}`);
       }
     }
   } catch (err) {
-    logger.error(`Erro ao carregar o arquivo system.json: ${err.message}`);
+    logger.error(`❌ Erro ao carregar system.json: ${err.message}`);
   }
 }
 
-/** -----------------------------------------
- * Helpers
- * ----------------------------------------- */
+async function cleanPacks(packName, entryName) {
+  logger.info(`🧹 Iniciando limpeza. Pacote: ${packName ?? "Todos"}`);
+  const folders = getValidFolders(PACK_SRC, packName);
+
+  if (folders.length === 0) {
+    logger.warn(`⚠️ Nenhuma pasta encontrada para ${packName ?? "limpeza"}.`);
+    return;
+  }
+
+  for (const folder of folders) {
+    const src = path.join(PACK_SRC, folder.name);
+    const files = fs.readdirSync(src).filter(f => f.endsWith(".yml"));
+
+    if (files.length === 0) {
+      logger.warn(`⚠️ Pasta '${folder.name}' está vazia. Ignorando...`);
+      continue;
+    }
+
+    logger.info(`🧽 Limpando pacote: ${folder.name}`);
+
+    for (const file of files) {
+      const filePath = path.join(src, file);
+      try {
+        const data = YAML.load(await readFile(filePath, "utf8"));
+        if (!validatePackEntry(data, filePath)) continue;
+        cleanPackEntry(data);
+        await writeFile(filePath, `${YAML.dump(data)}\n`, { mode: 0o664 });
+      } catch (err) {
+        logger.error(`❌ Erro ao limpar '${filePath}': ${err.message}`);
+      }
+    }
+  }
+}
+
+/* ============================================================
+ * Funções auxiliares
+ * ============================================================
+*/
+
+function getValidFolders(basePath, packName) {
+  return fs.readdirSync(basePath, { withFileTypes: true }).filter(file =>
+    file.isDirectory() && (!packName || (file.name === packName))
+  );
+}
+
+function hasYamlFiles(dir) {
+  try {
+    const files = fs.readdirSync(dir);
+    return files.some(file => file.endsWith(".yml"));
+  } catch (err) {
+    logger.error(`Erro ao acessar '${dir}': ${err.message}`);
+    return false;
+  }
+}
+
+function validatePackEntry(data, filePath) {
+  const requiredFields = ["_id", "_key"];
+  const isValid = requiredFields.every(field => data[field]);
+  if (!isValid) {
+    logger.error(`❌ Entrada inválida em '${filePath}': ${JSON.stringify(data)}`);
+    return false;
+  }
+  return true;
+}
+
 function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
-  logger.debug(`Limpando entrada: ${data.name || "desconhecido"}`);
   if (data.ownership) data.ownership = { default: ownership };
   if (clearSourceId) {
     delete data._stats?.compendiumSource;
@@ -216,10 +222,11 @@ function cleanPackEntry(data, { clearSourceId = true, ownership = 0 } = {}) {
   delete data.flags?.exportSource;
   if (data._stats?.lastModifiedBy) data._stats.lastModifiedBy = "degringo5ebuilder0000";
 
-  if (!data.flags) data.flags = {};
-  Object.entries(data.flags).forEach(([key, contents]) => {
-    if (Object.keys(contents).length === 0) delete data.flags[key];
-  });
+  if (data.flags) {
+    Object.entries(data.flags).forEach(([key, value]) => {
+      if (Object.keys(value).length === 0) delete data.flags[key];
+    });
+  }
 
   if (data.system?.activation?.cost === 0) data.system.activation.cost = null;
   if (data.system?.duration?.value === "0") data.system.duration.value = "";
