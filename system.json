@@ -77,14 +77,6 @@
       "private": false
     },
     {
-      "name": "trajetorias",
-      "label": "Trajetórias",
-      "system": "degringo5e",
-      "path": "packs/trajetorias",
-      "type": "Item",
-      "private": false
-    },
-    {
       "name": "trajetoria-inicial",
       "label": "Trajetória Inicial",
       "system": "degringo5e",
@@ -199,7 +191,6 @@
       "sorting": "m",
       "color": "#8e44ad",
       "packs": [
-        "trajetorias",
         "trajetoria-inicial",
         "trajetoria-intermediaria",
         "trajetoria-avancada",
