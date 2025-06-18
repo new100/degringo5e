@@ -1,19 +1,19 @@
 {
   "id": "degringo5e",
-  "title": "Dungeons & Dragons Fifth Edition",
-  "description": "A system for playing the fifth edition of the world's most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "5.1.0",
+  "title": "Degringo 5e",
+  "description": "Sistema Degringo 5e para Foundry VTT",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "13.341",
     "verified": "13"
   },
-  "url": "https://github.com/foundryvtt/degringo5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/degringo5e/master/system.json",
-  "download": "https://github.com/foundryvtt/degringo5e/releases/download/release-5.1.0/degringo5e-release-5.1.0.zip",
+  "url": "https://github.com/new100/degringo5e",
+  "manifest": "https://raw.githubusercontent.com/new100/degringo5e/main/system.json",
+  "download": "https://github.com/new100/degringo5e/releases/latest/download/degringo5e.zip",
   "authors": [
     {
-      "name": "Atropos",
-      "url": "https://foundryvtt.com",
+      "name": "Fernando Nilsen",
+      "url": "https://github.com/new100",
       "flags": {}
     }
   ],
@@ -23,477 +23,215 @@
   "styles": [
     "degringo5e.css"
   ],
-  "documentTypes": {
-    "ActiveEffect": {
-      "enchantment": {}
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
     },
-    "Actor": {
-      "character": {
-        "htmlFields": ["details.biography.value", "details.biography.public", "bastion.description"]
-      },
-      "npc": {
-        "htmlFields": ["details.biography.value", "details.biography.public"]
-      },
-      "vehicle": {
-        "htmlFields": ["details.biography.value", "details.biography.public"]
-      },
-      "group": {
-        "htmlFields": ["description.full", "description.summary"]
-      }
-    },
-    "ChatMessage": {
-      "request": {},
-      "rest": {},
-      "turn": {}
-    },
-    "Item": {
-      "weapon": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "equipment": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "consumable": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "tool": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "loot": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "race": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "background": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "class": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "subclass": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "spell": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "feat": {
-        "htmlFields": ["description.value", "description.chat"]
-      },
-      "container": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "backpack": {
-        "htmlFields": ["description.value", "description.chat", "unidentified.description"]
-      },
-      "facility": {
-        "htmlFields": ["description.value", "description.chat"]
-      }
-    },
-    "JournalEntryPage": {
-      "class": {
-        "htmlFields": [
-          "details.value",
-          "details.additionalHitPoints",
-          "description.additionalTraits",
-          "description.additionalEquipment",
-          "description.subclass"
-        ]
-      },
-      "map": {},
-      "rule": {
-        "htmlFields": ["tooltip"]
-      },
-      "spells": {},
-      "subclass": {
-        "htmlFields": ["details.value"]
-      }
-    },
-    "RegionBehavior": {
-      "degringo5e.rotateArea": {}
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
     }
-  },
+  ],
   "packs": [
     {
-      "name": "heroes",
-      "label": "Starter Heroes",
+      "name": "regras",
+      "label": "Regras",
       "system": "degringo5e",
-      "path": "packs/heroes",
-      "type": "Actor",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["character"]
-        }
-      }
-    },
-    {
-      "name": "monsters",
-      "label": "Monsters (SRD)",
-      "system": "degringo5e",
-      "path": "packs/monsters",
-      "type": "Actor",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["npc"]
-        }
-      }
-    },
-    {
-      "name": "items",
-      "label": "Items (SRD)",
-      "system": "degringo5e",
-      "path": "packs/items",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
-        }
-      }
-    },
-    {
-      "name": "tradegoods",
-      "label": "Trade Goods (SRD)",
-      "system": "degringo5e",
-      "path": "packs/tradegoods",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["loot"]
-        }
-      }
-    },
-    {
-      "name": "spells",
-      "label": "Spells (SRD)",
-      "system": "degringo5e",
-      "path": "packs/spells",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sorting": "m",
-          "sourceBook": "SRD 5.1",
-          "types": ["spell"]
-        }
-      }
-    },
-    {
-      "name": "backgrounds",
-      "label": "Backgrounds (SRD)",
-      "system": "degringo5e",
-      "path": "packs/backgrounds",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["background", "feat"]
-        }
-      }
-    },
-    {
-      "name": "classes",
-      "label": "Classes (SRD)",
-      "system": "degringo5e",
-      "path": "packs/classes",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["class"]
-        }
-      }
-    },
-    {
-      "name": "subclasses",
-      "label": "Subclasses (SRD)",
-      "system": "degringo5e",
-      "path": "packs/subclasses",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["subclass"]
-        }
-      }
-    },
-    {
-      "name": "classfeatures",
-      "label": "Class & Subclass Features (SRD)",
-      "system": "degringo5e",
-      "path": "packs/classfeatures",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["feat", "weapon"]
-        }
-      }
-    },
-    {
-      "name": "races",
-      "label": "Races (SRD)",
-      "system": "degringo5e",
-      "path": "packs/races",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["race", "feat"]
-        }
-      }
-    },
-    {
-      "name": "monsterfeatures",
-      "label": "Monster Features (SRD)",
-      "system": "degringo5e",
-      "path": "packs/monsterfeatures",
-      "type": "Item",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.1",
-          "types": ["feat", "weapon"]
-        }
-      }
-    },
-    {
-      "name": "rules",
-      "label": "Rules (SRD)",
-      "system": "degringo5e",
-      "path": "packs/rules",
+      "path": "packs/regras",
       "type": "JournalEntry",
-      "private": false,
-      "flags": {
-        "degringo5e": {
-          "display": "table-of-contents"
-        }
-      }
+      "private": false
     },
     {
-      "name": "tables",
-      "label": "Tables (SRD)",
+      "name": "glossario",
+      "label": "Glossário",
       "system": "degringo5e",
-      "path": "packs/tables",
-      "type": "RollTable",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "content24",
-      "label": "Rules",
-      "path": "packs/content24",
+      "path": "packs/glossario",
       "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e",
-      "flags": {
-        "display": "table-of-contents"
-      }
+      "private": false
     },
     {
-      "name": "classes24",
-      "label": "Character Classes",
-      "path": "packs/classes24",
+      "name": "ancestralidades",
+      "label": "Ancestralidades",
+      "system": "degringo5e",
+      "path": "packs/ancestralidades",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.2",
-          "types": ["class", "subclass", "feat"]
-        }
-      }
+      "private": false
     },
     {
-      "name": "origins24",
-      "label": "Character Origins",
-      "path": "packs/origins24",
+      "name": "linhagens",
+      "label": "Linhagens",
+      "system": "degringo5e",
+      "path": "packs/linhagens",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.2",
-          "types": ["race", "background", "feat"]
-        }
-      }
+      "private": false
     },
     {
-      "name": "feats24",
-      "label": "Feats",
-      "path": "packs/feats24",
+      "name": "habilidades-especiais",
+      "label": "Habilidades Especiais",
+      "system": "degringo5e",
+      "path": "packs/habilidades-especiais",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.2",
-          "types": ["feat"]
-        }
-      }
+      "private": false
     },
     {
-      "name": "spells24",
-      "label": "Spells",
-      "path": "packs/spells24",
+      "name": "trajetorias",
+      "label": "Trajetórias",
+      "system": "degringo5e",
+      "path": "packs/trajetorias",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sorting": "m",
-          "sourceBook": "SRD 5.2",
-          "types": ["spell"]
-        }
-      }
+      "private": false
     },
     {
-      "name": "equipment24",
-      "label": "Equipment",
-      "path": "packs/equipment24",
+      "name": "trajetoria-inicial",
+      "label": "Trajetória Inicial",
+      "system": "degringo5e",
+      "path": "packs/trajetoria-inicial",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false
+    },
+    {
+      "name": "trajetoria-intermediaria",
+      "label": "Trajetória Intermediária",
       "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sourceBook": "SRD 5.2",
-          "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
-        }
-      }
+      "path": "packs/trajetoria-intermediaria",
+      "type": "Item",
+      "private": false
     },
     {
-      "name": "tables24",
-      "label": "Roll Tables",
-      "path": "packs/tables24",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "degringo5e"
+      "name": "trajetoria-avancada",
+      "label": "Trajetória Avançada",
+      "system": "degringo5e",
+      "path": "packs/trajetoria-avancada",
+      "type": "Item",
+      "private": false
     },
     {
-      "name": "actors24",
-      "label": "Actors",
-      "path": "packs/actors24",
+      "name": "habilidades-trajetoria",
+      "label": "Habilidades de Trajetória",
+      "system": "degringo5e",
+      "path": "packs/habilidades-trajetoria",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "vivencias",
+      "label": "Vivências",
+      "system": "degringo5e",
+      "path": "packs/vivencias",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "feiticos",
+      "label": "Feitiços",
+      "system": "degringo5e",
+      "path": "packs/feiticos",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "armas",
+      "label": "Armas",
+      "system": "degringo5e",
+      "path": "packs/armas",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras",
+      "system": "degringo5e",
+      "path": "packs/armaduras",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "equipamentos",
+      "label": "Itens Genéricos",
+      "system": "degringo5e",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "veiculos",
+      "label": "Montarias & Veículos",
+      "system": "degringo5e",
+      "path": "packs/veiculos",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "pnjs",
+      "label": "PNJs",
+      "system": "degringo5e",
+      "path": "packs/pnjs",
       "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
+      "private": false
+    },
+    {
+      "name": "monstros",
+      "label": "Monstros",
       "system": "degringo5e",
-      "flags": {
-        "degringo5e": {
-          "sorting": "m",
-          "sourceBook": "SRD 5.2"
-        }
-      }
+      "path": "packs/monstros",
+      "type": "Actor",
+      "private": false
     }
   ],
   "packFolders": [
     {
-      "name": "D&D Modern Content",
-      "color": "#cd2c1e",
+      "name": "1 - Regras",
       "sorting": "m",
+      "color": "#3498db",
+      "packs": ["regras", "glossario"]
+    },
+    {
+      "name": "2 - Ancestralidade",
+      "sorting": "m",
+      "color": "#27ae60",
+      "packs": ["ancestralidades", "linhagens", "habilidades-especiais"]
+    },
+    {
+      "name": "3 - Trajetória",
+      "sorting": "m",
+      "color": "#8e44ad",
       "packs": [
-        "content24",
-        "classes24",
-        "origins24",
-        "feats24",
-        "spells24",
-        "tables24",
-        "actors24",
-        "equipment24"
+        "trajetorias",
+        "trajetoria-inicial",
+        "trajetoria-intermediaria",
+        "trajetoria-avancada",
+        "habilidades-trajetoria"
       ]
     },
     {
-      "name": "D&D Legacy Content",
+      "name": "4 - Vivência",
       "sorting": "m",
-      "color": "#cd2c1e",
-      "packs": [
-        "rules",
-        "tables",
-        "heroes"
-      ],
-      "folders": [
-        {
-          "name": "Character Features",
-          "sorting": "m",
-          "color": "#b72c1f",
-          "packs": [
-            "classes",
-            "subclasses",
-            "classfeatures",
-            "backgrounds",
-            "races"
-          ]
-        },
-        {
-          "name": "Items & Spells",
-          "sorting": "m",
-          "color": "#941919 ",
-          "packs": [
-            "items",
-            "spells",
-            "tradegoods"
-          ]
-        },
-        {
-          "name": "Monsters",
-          "sorting": "m",
-          "color": "#7d160c",
-          "packs": [
-            "monsters",
-            "monsterfeatures"
-          ]
-        }
-      ]
-    }
-  ],
-  "languages": [
+      "color": "#f39c12",
+      "packs": ["vivencias"]
+    },
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
+      "name": "5 - Feitiço",
+      "sorting": "m",
+      "color": "#d35400",
+      "packs": ["feiticos"]
+    },
+    {
+      "name": "6 - Dinheiro & Equipamento",
+      "sorting": "m",
+      "color": "#c0392b",
+      "packs": ["armas", "armaduras", "equipamentos", "veiculos"]
+    },
+    {
+      "name": "7 - Inimigo",
+      "sorting": "m",
+      "color": "#7f8c8d",
+      "packs": ["pnjs", "monstros"]
     }
   ],
   "media": [
-    {
-      "type": "cover",
-      "loop": false,
-      "flags": {}
-    },
     {
       "type": "setup",
       "url": "systems/degringo5e/ui/official/degringo5e-repo.jpg",
@@ -502,26 +240,12 @@
   ],
   "socket": true,
   "grid": {
-    "distance": 5,
-    "units": "ft"
+    "distance": 1,
+    "units": "m"
   },
   "primaryTokenAttribute": "attributes.hp",
   "background": "systems/degringo5e/ui/official/degringo5e-background.webp",
   "flags": {
-    "compendiumArtMappings": {
-      "degringo5e": {
-        "mapping": "systems/degringo5e/json/fa-token-mapping.json",
-        "credit": "<em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em>"
-      }
-    },
-    "degringo5e": {
-      "sourceBooks": {
-        "SRD 5.1": "SOURCE.BOOK.SRD51",
-        "SRD 5.2": "SOURCE.BOOK.SRD52"
-      }
-    },
-    "needsMigrationVersion": "4.4.0",
-    "compatibleMigrationVersion": "0.8",
     "hotReload": {
       "extensions": ["css", "hbs", "json"],
       "paths": ["degringo5e.css", "templates", "lang"]
