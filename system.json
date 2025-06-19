@@ -39,17 +39,18 @@
     "Item": {
       "ancestralidade": {},
       "linhagem": {},
-      "habilidade": {},
+      "habilidade-especial": {},
       "trajetoria": {},
-      "feitico": {},
+      "habilidades-trajetoria": {},
       "vivencia": {},
+      "feitico": {},
       "arma": {},
       "armadura": {},
-      "equipamento": {},
-      "veiculo": {}
+      "equipamento": {}
     },
     "Actor": {
       "personagem": {},
+      "grupo": {},
       "pnj": {},
       "monstro": {},
       "veiculo":{}
@@ -62,7 +63,11 @@
       "system": "degringo5e",
       "path": "packs/regras",
       "type": "JournalEntry",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
       "flags": {
         "degringo5e": {
           "display": "table-of-contents"
@@ -75,7 +80,11 @@
       "system": "degringo5e",
       "path": "packs/glossario",
       "type": "JournalEntry",
-      "private": false,
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
       "flags": {
         "degringo5e": {
           "display": "table-of-contents"
@@ -88,7 +97,16 @@
       "system": "degringo5e",
       "path": "packs/ancestralidades",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["ancestralidade"]
+        }
+      }
     },
     {
       "name": "linhagens",
@@ -96,7 +114,16 @@
       "system": "degringo5e",
       "path": "packs/linhagens",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["linhagem"]
+        }
+      }
     },
     {
       "name": "habilidades-especiais",
@@ -104,7 +131,16 @@
       "system": "degringo5e",
       "path": "packs/habilidades-especiais",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["habilidade-especial"]
+        }
+      }
     },
     {
       "name": "trajetoria-inicial",
@@ -112,7 +148,16 @@
       "system": "degringo5e",
       "path": "packs/trajetoria-inicial",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["trajetoria"]
+        }
+      }
     },
     {
       "name": "trajetoria-intermediaria",
@@ -120,7 +165,16 @@
       "system": "degringo5e",
       "path": "packs/trajetoria-intermediaria",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["trajetoria"]
+        }
+      }
     },
     {
       "name": "trajetoria-avancada",
@@ -128,7 +182,15 @@
       "system": "degringo5e",
       "path": "packs/trajetoria-avancada",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["trajetoria"]
+        }
     },
     {
       "name": "habilidades-trajetoria",
@@ -136,7 +198,16 @@
       "system": "degringo5e",
       "path": "packs/habilidades-trajetoria",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["habilidades-trajetoria"]
+        }
+      }
     },
     {
       "name": "vivencias",
@@ -144,7 +215,16 @@
       "system": "degringo5e",
       "path": "packs/vivencias",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["vivencia"]
+        }
+      }
     },
     {
       "name": "feiticos",
@@ -152,7 +232,16 @@
       "system": "degringo5e",
       "path": "packs/feiticos",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["feitico"]
+        }
+      }
     },
     {
       "name": "armas",
@@ -160,7 +249,16 @@
       "system": "degringo5e",
       "path": "packs/armas",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["arma"]
+        }
+      }
     },
     {
       "name": "armaduras",
@@ -168,7 +266,16 @@
       "system": "degringo5e",
       "path": "packs/armaduras",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["armadura"]
+        }
+      }
     },
     {
       "name": "equipamentos",
@@ -176,15 +283,33 @@
       "system": "degringo5e",
       "path": "packs/equipamentos",
       "type": "Item",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["equipamento"]
+        }
+      }
     },
     {
       "name": "veiculos",
       "label": "Montarias & Veículos",
       "system": "degringo5e",
       "path": "packs/veiculos",
-      "type": "Item",
-      "private": false
+      "type": "Actor",
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["veiculo"]
+        }
+      }
     },
     {
       "name": "pnjs",
@@ -192,7 +317,16 @@
       "system": "degringo5e",
       "path": "packs/pnjs",
       "type": "Actor",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["pnj"]
+        }
+      }
     },
     {
       "name": "monstros",
@@ -200,7 +334,16 @@
       "system": "degringo5e",
       "path": "packs/monstros",
       "type": "Actor",
-      "private": false
+       "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "degringo5e",
+      "flags": {
+        "degringo5e": {
+          "types": ["monstro"]
+        }
+      }
     }
   ],
   "packFolders": [
