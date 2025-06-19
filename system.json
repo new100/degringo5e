@@ -35,6 +35,26 @@
       "path": "lang/en.json"
     }
   ],
+  "documentTypes": {
+    "Item": {
+      "ancestralidade": {},
+      "linhagem": {},
+      "habilidade": {},
+      "trajetoria": {},
+      "feitico": {},
+      "vivencia": {},
+      "arma": {},
+      "armadura": {},
+      "equipamento": {},
+      "veiculo": {}
+    },
+    "Actor": {
+      "personagem": {},
+      "pnj": {},
+      "monstro": {},
+      "veiculo":{}
+    }
+  },
   "packs": [
     {
       "name": "regras",
